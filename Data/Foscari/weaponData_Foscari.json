@@ -1,0 +1,771 @@
+{
+	"SPELL_STRING": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SPELL_STRING",
+			"name": "SpellString",
+			"description": "Strikes at nearby enemies. Damage multiplied by Speed.",
+			"tips": "Ignores: Area, Duration.",
+			"texture": "items",
+			"frameName": "2SpellString.png",
+			"collectionFrame": "frameB_green.png",
+			"evoSynergy": [
+				"SPELL_STREAM",
+				"SPELL_STRIKE"
+			],
+			"evoInto": "SPELL_STROM",
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 70,
+			"interval": 900,
+			"repeatInterval": 60,
+			"power": 0.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2
+		},
+		{
+			"amount": 1,
+			"repeatInterval": -10
+		},
+		{
+			"amount": 1,
+			"power": 0.1,
+			"repeatInterval": -10
+		},
+		{
+			"amount": 1,
+			"repeatInterval": -10
+		},
+		{
+			"amount": 1,
+			"power": 0.1,
+			"repeatInterval": -10
+		},
+		{
+			"amount": 1,
+			"repeatInterval": -10
+		}
+	],
+	"SPELL_STREAM": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SPELL_STREAM",
+			"name": "SpellStream",
+			"description": "Generates an expanding damaging zone. Damage multiplied by Area.",
+			"tips": "Ignores: Amount.",
+			"texture": "items",
+			"frameName": "2SpellStream.png",
+			"collectionFrame": "frameB_green.png",
+			"evoSynergy": [
+				"SPELL_STRING",
+				"SPELL_STRIKE"
+			],
+			"evoInto": "SPELL_STROM",
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 70,
+			"interval": 1800,
+			"repeatInterval": 100,
+			"power": 0.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"duration": 500,
+			"hitBoxDelay": 400,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2
+		},
+		{
+			"power": 0.5,
+			"area": 0.2
+		},
+		{
+			"duration": 250,
+			"area": 0.2
+		},
+		{
+			"power": 0.5,
+			"area": 0.2
+		},
+		{
+			"duration": 250,
+			"area": 0.2
+		},
+		{
+			"power": 0.5,
+			"area": 0.2
+		}
+	],
+	"SPELL_STRIKE": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SPELL_STRIKE",
+			"name": "SpellStrike",
+			"description": "Strikes at the nearest enemy. Damage further multiplied by Might.",
+			"tips": "Ignores: Area, Duration.",
+			"texture": "items",
+			"frameName": "2SpellStrike.png",
+			"collectionFrame": "frameB_green.png",
+			"evoSynergy": [
+				"SPELL_STREAM",
+				"SPELL_STRING"
+			],
+			"evoInto": "SPELL_STROM",
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 70,
+			"interval": 3600,
+			"repeatInterval": 200,
+			"power": 2,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"duration": 300,
+			"hitBoxDelay": 400,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2
+		},
+		{
+			"interval": -300
+		},
+		{
+			"power": 4
+		},
+		{
+			"interval": -300
+		},
+		{
+			"power": 4
+		},
+		{
+			"interval": -300,
+			"addEvolvedWeapon": "SPELL_STROM"
+		}
+	],
+	"SPELL_STROM": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SPELL_STROM",
+			"name": "SpellStrom",
+			"description": "Union of SpellString, SpellStream, and SpellStrike. Grows stronger after every singularity.",
+			"tips": "",
+			"texture": "items",
+			"frameName": "2SpellStrom.png",
+			"collectionFrame": "frameB_green.png",
+			"evolvesFrom": [
+				"SPELL_STRING",
+				"SPELL_STREAM",
+				"SPELL_STRIKE"
+			],
+			"requiresMax": [
+				"SPELL_STRING",
+				"SPELL_STREAM",
+				"SPELL_STRIKE"
+			],
+			"isEvolution": true,
+			"isUnlocked": true,
+			"poolLimit": 60,
+			"rarity": 1,
+			"interval": 3900,
+			"repeatInterval": 50,
+			"power": 1.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"duration": 300,
+			"hitBoxDelay": 400,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2
+		}
+	],
+	"SWORD": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SWORD",
+			"name": "Eskizzibur",
+			"description": "Attacks nearby enemies. Retaliates.",
+			"tips": "Ignores: Speed, Duration.",
+			"texture": "items",
+			"frameName": "2Sword.png",
+			"collectionFrame": "frameB_green.png",
+			"evoSynergy": [
+				"ARMOR"
+			],
+			"evoInto": "SWORD2",
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 70,
+			"interval": 2700,
+			"repeatInterval": 200,
+			"power": 1,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2,
+			"customDescValue": "Every fifth activation has a combo finisher.",
+			"unexcludeSelf": true
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 0.5
+		},
+		{
+			"power": 0.5,
+			"area": 0.1
+		},
+		{
+			"customDesc": 0
+		},
+		{
+			"power": 0.5,
+			"area": 0.1
+		},
+		{
+			"power": 0.5
+		},
+		{
+			"power": 1,
+			"addEvolvedWeapon": "SWORD2"
+		}
+	],
+	"SWORD2": [
+		{
+			"hidden": false,
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SWORD2",
+			"name": "Legionnaire",
+			"description": "Evolved Eskizzibur. Generates additional projectiles that deal retaliatory damage.",
+			"tips": "Requires Max: Armor",
+			"texture": "items",
+			"frameName": "2Legionnaire.png",
+			"collectionFrame": "frameB_green.png",
+			"isEvolution": true,
+			"evolvesFrom": [
+				"SWORD"
+			],
+			"requires": [
+				"ARMOR"
+			],
+			"requiresMax": [
+				"ARMOR"
+			],
+			"hitVFX": 1,
+			"isUnlocked": true,
+			"poolLimit": 200,
+			"rarity": 1,
+			"interval": 2700,
+			"repeatInterval": 200,
+			"duration": 1000,
+			"power": 4,
+			"area": 1.3,
+			"speed": 1,
+			"amount": 2,
+			"critChance": 0.1,
+			"critMul": 2,
+			"hitsWalls": false
+		}
+	],
+	"FLASHARROW": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "FLASHARROW",
+			"name": "Flash Arrow",
+			"description": "Can deal critical damage. Amount affects damage instead.",
+			"tips": "Ignores: Duration.",
+			"texture": "items",
+			"frameName": "2FlashArrow.png",
+			"collectionFrame": "frameB_green.png",
+			"evoSynergy": [
+				"SPEED",
+				"LUCK"
+			],
+			"evoInto": "FLASHARROW2",
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 70,
+			"interval": 4000,
+			"repeatInterval": 100,
+			"power": 1,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"penetrating": 7,
+			"hitsWalls": true,
+			"critChance": 0.2,
+			"critMul": 2,
+			"unexcludeSelf": true
+		},
+		{
+			"speed": 0.25,
+			"interval": -500
+		},
+		{
+			"power": 1,
+			"penetrating": 7
+		},
+		{
+			"area": 0.2,
+			"interval": -500
+		},
+		{
+			"power": 1,
+			"penetrating": 7
+		},
+		{
+			"area": 0.2,
+			"interval": -500
+		},
+		{
+			"power": 1,
+			"penetrating": 7
+		},
+		{
+			"speed": 0.25,
+			"interval": -500,
+			"addEvolvedWeapon": "FLASHARROW2"
+		}
+	],
+	"FLASHARROW2": [
+		{
+			"hidden": false,
+			"level": 1,
+			"sealable": true,
+			"bulletType": "FLASHARROW2",
+			"name": "Millionaire",
+			"description": "Evolved Flash Arrow. Fires additional projectiles based on Amount and when picking up gold coins.",
+			"tips": "Requires Max: Bracer, Clover.",
+			"texture": "items",
+			"frameName": "2Millionaire.png",
+			"collectionFrame": "frameB_green.png",
+			"isEvolution": true,
+			"evolvesFrom": [
+				"FLASHARROW"
+			],
+			"requires": [
+				"SPEED",
+				"LUCK"
+			],
+			"requiresMax": [
+				"SPEED",
+				"LUCK"
+			],
+			"hitVFX": 1,
+			"isUnlocked": true,
+			"poolLimit": 200,
+			"rarity": 1,
+			"interval": 2000,
+			"repeatInterval": 100,
+			"power": 4,
+			"area": 1.6,
+			"speed": 1.5,
+			"amount": 1,
+			"critChance": 0.2,
+			"critMul": 2,
+			"hitsWalls": true
+		}
+	],
+	"PRISMATICMISS": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "PRISMATICMISS",
+			"name": "Prismatic Missile",
+			"description": "Generates explosions around the character. Affected by the first chosen Arcana between II, XIV, or XIX.",
+			"tips": "Ignores: duration.",
+			"texture": "items",
+			"frameName": "2PrismaticMissile.png",
+			"collectionFrame": "frameB_green.png",
+			"evoSynergy": [
+				"GROWTH"
+			],
+			"evoInto": "PRISMATICMISS2",
+			"hitVFX": 7,
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 70,
+			"interval": 2000,
+			"repeatInterval": 100,
+			"power": 1,
+			"area": 1,
+			"speed": 1,
+			"amount": 2,
+			"duration": 4000,
+			"knockback": 1,
+			"hitsWalls": false,
+			"unexcludeSelf": true
+		},
+		{
+			"amount": 1,
+			"area": 0.4
+		},
+		{
+			"amount": 1,
+			"power": 0.5
+		},
+		{
+			"interval": -250
+		},
+		{
+			"amount": 1,
+			"area": 0.4
+		},
+		{
+			"amount": 1,
+			"power": 0.5
+		},
+		{
+			"interval": -250
+		},
+		{
+			"amount": 1,
+			"speed": 0.4,
+			"addEvolvedWeapon": "PRISMATICMISS2"
+		}
+	],
+	"PRISMATICMISS2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "PRISMATICMISS2",
+			"name": "Luminaire",
+			"description": "Evolved Prismatic Missile. Increases the value of gems and coins on the ground.",
+			"tips": "Requires Max: Crown.",
+			"texture": "items",
+			"frameName": "2Luminaire.png",
+			"collectionFrame": "frameB_green.png",
+			"isEvolution": true,
+			"evolvesFrom": [
+				"PRISMATICMISS"
+			],
+			"requires": [
+				"GROWTH"
+			],
+			"requiresMax": [
+				"GROWTH"
+			],
+			"hitVFX": 7,
+			"isUnlocked": true,
+			"poolLimit": 200,
+			"rarity": 1,
+			"interval": 2000,
+			"repeatInterval": 50,
+			"power": 2.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 7,
+			"duration": 500,
+			"knockback": 1,
+			"hitsWalls": false
+		}
+	],
+	"SHADOWSERVANT": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SHADOWSERVANT",
+			"name": "Shadow Servant",
+			"description": "Has a chance to slow enemies down.",
+			"tips": "Best with: Luck.",
+			"texture": "items",
+			"frameName": "2ShadowServant.png",
+			"collectionFrame": "frameB_green.png",
+			"evoSynergy": [
+				"CURSE"
+			],
+			"evoInto": "SHADOWSERVANT2",
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 70,
+			"interval": 2000,
+			"repeatInterval": 0,
+			"duration": 1500,
+			"power": 1,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"chance": 0.5,
+			"unexcludeSelf": true
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 1
+		},
+		{
+			"power": 1
+		},
+		{
+			"area": 0.5
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 1
+		},
+		{
+			"power": 1,
+			"addEvolvedWeapon": "SHADOWSERVANT2"
+		}
+	],
+	"SHADOWSERVANT2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SHADOWSERVANT2",
+			"name": "Ophion",
+			"description": "Evolved Shadow Servant. Has a chance to instantly kill enemies.",
+			"tips": "Requires Max: Skull'O Maniac.",
+			"texture": "items",
+			"frameName": "2Ophion.png",
+			"collectionFrame": "frameB_green.png",
+			"isEvolution": true,
+			"evolvesFrom": [
+				"SHADOWSERVANT"
+			],
+			"requires": [
+				"CURSE"
+			],
+			"requiresMax": [
+				"CURSE"
+			],
+			"hitVFX": 11,
+			"isUnlocked": true,
+			"poolLimit": 150,
+			"rarity": 1,
+			"interval": 2000,
+			"repeatInterval": 200,
+			"power": 5,
+			"area": 1,
+			"speed": 1,
+			"amount": 3,
+			"duration": 1500,
+			"chance": 0.01,
+			"hitBoxDelay": 1000,
+			"knockback": 1,
+			"hitsWalls": false
+		}
+	],
+	"PARTY": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "PARTY",
+			"name": "Party Popper",
+			"description": "Throws bouncing projectiles.",
+			"tips": "Best with: Duration, Speed.",
+			"texture": "items",
+			"frameName": "2Party.png",
+			"collectionFrame": "frameB_green.png",
+			"isUnlocked": false,
+			"hitBoxDelay": 500,
+			"poolLimit": 80,
+			"rarity": 1,
+			"interval": 3000,
+			"repeatInterval": 10,
+			"power": 0.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 7,
+			"duration": 500,
+			"bounces": 1,
+			"penetrating": 10
+		},
+		{
+			"duration": 500
+		},
+		{
+			"speed": 0.2
+		},
+		{
+			"power": 1
+		},
+		{
+			"duration": 500
+		},
+		{
+			"speed": 0.2
+		},
+		{
+			"power": 1
+		},
+		{
+			"duration": 1000
+		}
+	],
+	"ACADEMYBADGE": [
+		{
+			"level": 1,
+			"hidden": false,
+			"bulletType": "ACADEMYBADGE",
+			"name": "Academy Badge",
+			"description": "Will provide bonus Amount and Revivals in exchange for Growth.",
+			"texture": "items",
+			"frameName": "2Badge.png",
+			"collectionFrame": "frameB_green.png",
+			"unexcludeSelf": true,
+			"isUnlocked": false,
+			"rarity": 10,
+			"isPowerUp": true,
+			"isSpecialOnly": true
+		},
+		{
+			"amount": 1,
+			"growth": -0.03
+		},
+		{
+			"revivals": 1,
+			"growth": -0.03
+		},
+		{
+			"amount": 1,
+			"growth": -0.03
+		},
+		{
+			"revivals": 1,
+			"growth": -0.03
+		},
+		{
+			"amount": 1,
+			"growth": -0.03
+		}
+	],
+	"SHADOWSERVANT_COUNTER": [
+		{
+			"level": 1,
+			"bulletType": "SHADOWSERVANT_COUNTER",
+			"name": "Silver Sliver",
+			"description": "Counterpart to Shadow Servant and Ophion from Arcana I - Gemini.",
+			"tips": "",
+			"texture": "items",
+			"frameName": "2ShadowServant_Counter.png",
+			"collectionFrame": "frameB_green.png",
+			"isUnlocked": false,
+			"isSpecialOnly": true,
+			"poolLimit": 100,
+			"rarity": 1,
+			"interval": 2000,
+			"repeatInterval": 0,
+			"duration": 1500,
+			"power": 1,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"chance": 0.5
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 1
+		},
+		{
+			"power": 1
+		},
+		{
+			"area": 0.5
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 1
+		},
+		{
+			"power": 1
+		}
+	],
+	"PARTY_COUNTER": [
+		{
+			"level": 1,
+			"sealable": false,
+			"bulletType": "PARTY",
+			"name": "Party Pooper",
+			"description": "Counterpart to Party Popper from Arcana I - Gemini.",
+			"tips": "",
+			"texture": "items",
+			"frameName": "2Party2.png",
+			"collectionFrame": "frameB_green.png",
+			"isUnlocked": false,
+			"hitBoxDelay": 500,
+			"isSpecialOnly": true,
+			"poolLimit": 80,
+			"rarity": 1,
+			"interval": 3000,
+			"repeatInterval": 10,
+			"power": 0.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 7,
+			"duration": 500,
+			"bounces": 1,
+			"penetrating": 10
+		},
+		{
+			"duration": 500
+		},
+		{
+			"speed": 0.2
+		},
+		{
+			"power": 1
+		},
+		{
+			"duration": 500
+		},
+		{
+			"speed": 0.2
+		},
+		{
+			"power": 1
+		},
+		{
+			"duration": 1000
+		}
+	],
+	"INSATIABLE": [
+		{
+			"level": 1,
+			"bulletType": "INSATIABLE",
+			"name": "Insatiable",
+			"description": "",
+			"tips": "",
+			"texture": "items",
+			"frameName": "2insatiable.png",
+			"hidden": true,
+			"alwaysHidden": true,
+			"isUnlocked": false,
+			"isSpecialOnly": true,
+			"hitVFX": 11,
+			"poolLimit": 150,
+			"rarity": 1,
+			"interval": 2000,
+			"repeatInterval": 0,
+			"power": 1,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"knockback": 0,
+			"hitsWalls": false
+		}
+	]
+}

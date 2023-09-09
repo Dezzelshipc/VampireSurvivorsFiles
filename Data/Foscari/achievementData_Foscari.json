@@ -1,0 +1,324 @@
+{
+	"FOSC01_FindCoffin": {
+		"description": "Find and open the coffin in Lake Foscari.",
+		"characterToUnlock": "ELEANOR",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC01_FindCoffin"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "163"
+			}
+		]
+	},
+	"FOSC02_Survive15Eleanor": {
+		"description": "Survive 15 minutes with Eleanor Uziron.",
+		"weaponToUnlock": "SPELL_STRING",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC02_Survive15Eleanor"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "164"
+			}
+		]
+	},
+	"FOSC03_GetStreamToLevel6": {
+		"description": "Get SpellStream to Level 6.",
+		"weaponToUnlock": "SPELL_STREAM",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC03_GetStreamToLevel6"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "165"
+			}
+		]
+	},
+	"FOSC04_GetStrikeToLevel6": {
+		"description": "Get SpellStrike to Level 6.",
+		"weaponToUnlock": "SPELL_STRIKE",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC04_GetStrikeToLevel6"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "166"
+			}
+		]
+	},
+	"FOSC05_UniteSpells": {
+		"description": "Unite SpellString, SpellStream, and SpellStrom.",
+		"characterToUnlock": "VICTOR",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC05_UniteSpells"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "167"
+			}
+		]
+	},
+	"FOSC06_Survive15Viktor": {
+		"description": "Survive 15 minutes with Maruto Cuts.",
+		"weaponToUnlock": "SWORD",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC06_Survive15Viktor"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "168"
+			}
+		]
+	},
+	"FOSC07_EvolveEskizzibur": {
+		"description": "Evolve the Eskizzibur.",
+		"characterToUnlock": "KEIRA",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC07_EvolveEskizzibur"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "169"
+			}
+		]
+	},
+	"FOSC08_Survive15Keira": {
+		"description": "Survive 15 minutes with Keitha Muort.",
+		"weaponToUnlock": "FLASHARROW",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC08_Survive15Keira"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "170"
+			}
+		]
+	},
+	"FOSC09_EvolveFlashArrow": {
+		"description": "Evolve the Flash Arrow.",
+		"goldPrize": 50000,
+		"weaponIcon": "FLASHARROW2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC09_EvolveFlashArrow"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "171"
+			}
+		]
+	},
+	"FOSC10_BreakSeal1": {
+		"description": "With Keitha, break the Seal of the Lake.",
+		"stageToUnlock": "FOSCARI2",
+		"requiresChar": "KEIRA",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC10_BreakSeal1"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "172"
+			}
+		]
+	},
+	"FOSC11_BreakSeal2": {
+		"description": "With Maruto, break the Seal of the Abyss.",
+		"characterToUnlock": "LUMINAIRE",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC11_BreakSeal2"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "173"
+			}
+		]
+	},
+	"FOSC12_BreakSeal3": {
+		"description": "With Eleanor, break the Seal of the Banished.",
+		"characterToUnlock": "GENEVIEVE",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC12_BreakSeal3"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "174"
+			}
+		]
+	},
+	"FOSC13_Survive15Luminaire": {
+		"description": "Survive 15 minutes with Luminaire Foscari.",
+		"weaponToUnlock": "PRISMATICMISS",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC13_Survive15Luminaire"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "175"
+			}
+		]
+	},
+	"FOSC14_EvolvePrismatic": {
+		"description": "Evolve the Prismatic Missile.",
+		"goldPrize": 50000,
+		"weaponIcon": "PRISMATICMISS2",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC14_EvolvePrismatic"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "176"
+			}
+		]
+	},
+	"FOSC15_Survive15Genevieve": {
+		"description": "Survive 15 minutes with Genevieve Gruyère.",
+		"weaponToUnlock": "SHADOWSERVANT",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC15_Survive15Genevieve"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "177"
+			}
+		]
+	},
+	"FOSC16_EvolveShadow": {
+		"description": "Evolve the Shadow Servant.",
+		"goldPrize": 50000,
+		"weaponIcon": "SHADOWSERVANT2",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC16_EvolveShadow"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "178"
+			}
+		]
+	},
+	"FOSC17_Defeat100kGenevieve": {
+		"description": "Defeat 100000 enemies in a sinle run with Genevieve Gruyère.",
+		"characterToUnlock": "MEGAGENEVIEVE",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC17_Defeat100kGenevieve"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "179"
+			}
+		]
+	},
+	"FOSC18_Defeat6kFairy": {
+		"description": "Defeat a total of 6000 Sammies.",
+		"characterToUnlock": "CTRPCAKE",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC18_Defeat6kFairy"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "180"
+			}
+		]
+	},
+	"FOSC19_Defeat6kHorror": {
+		"description": "Defeat a total of 6000 Rotting Ghouls.",
+		"weaponToUnlock": "PARTY",
+		"characterToUnlock": "GHOUL",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC19_Defeat6kHorror"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "181"
+			}
+		]
+	},
+	"FOSC20_DefeatBossLake": {
+		"description": "Defeat the Avatar of Gaea in Lake Foscari.",
+		"hyperToUnlock": "FOSCARI",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC20_DefeatBossLake"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "182"
+			}
+		]
+	},
+	"FOSC21_DefeatBossAbyss": {
+		"description": "Defeat Je-Ne-Viv in Abyss Foscari.",
+		"hyperToUnlock": "FOSCARI2",
+		"requiresStage": "FOSCARI2",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC21_DefeatBossAbyss"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "183"
+			}
+		]
+	},
+	"FOSC22_FindMap_Foscari": {
+		"description": "Find the Lake Foscari Map.",
+		"relicToUnlock": "RELIC_MAP_FS",
+		"PlatformsData": [
+			{
+				"Platfrom": "Steam",
+				"Data": "FOSC22_FindMap_Foscari"
+			},
+			{
+				"Platfrom": "GameCore",
+				"Data": "190"
+			}
+		]
+	}
+}

@@ -1,0 +1,613 @@
+{
+	"MIANG": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": "SILVERWIND",
+			"charName": "Miang",
+			"surname": "Moonspell",
+			"spriteName": "mia_01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_mia.png",
+			"walkingFrames": 4,
+			"description": "Recovery also multiplies all healing sources. Over-healing slightly increases Max Health.",
+			"isBought": false,
+			"bgm": "BGM_Silver",
+			"price": 1000,
+			"completedStages": [],
+			"maxHp": 120,
+			"armor": 0,
+			"regen": 1,
+			"moveSpeed": 1.2,
+			"power": 1,
+			"cooldown": 1,
+			"area": 1,
+			"speed": 1,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1,
+			"growth": 1,
+			"greed": 1,
+			"curse": 1,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 0,
+			"skips": 0,
+			"banish": 0,
+			"showcase": [
+				"SILVERWIND",
+				"SILVERWIND",
+				"SILVERWIND",
+				"SILVERWIND",
+				"SILVERWIND",
+				"SILVERWIND",
+				"SILVERWIND",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"AMOUNT",
+				"AMOUNT",
+				"SPEED",
+				"SPEED",
+				"SPEED",
+				"SPEED",
+				"SPEED",
+				"REGEN",
+				"REGEN",
+				"REGEN",
+				"REGEN",
+				"REGEN",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA"
+			],
+			"onEveryLevelUp": {}
+		},
+		{
+			"growth": 1,
+			"level": 20
+		},
+		{
+			"growth": 1,
+			"level": 40
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	],
+	"MENYA": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": "FOURSEASONS",
+			"charName": "Menya",
+			"surname": "Moonspell",
+			"spriteName": "van_01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_van.png",
+			"walkingFrames": 4,
+			"description": "Becomes stronger and invincible for a fixed interval after defeating a large amount of enemies.",
+			"isBought": false,
+			"price": 5000,
+			"completedStages": [],
+			"bgm": "BGM_FourSeasons",
+			"maxHp": 80,
+			"armor": 0,
+			"regen": 0,
+			"moveSpeed": 1,
+			"power": 1.1,
+			"cooldown": 0.9,
+			"area": 1,
+			"speed": 1,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1.1,
+			"growth": 1,
+			"greed": 1,
+			"curse": 1,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 0,
+			"skips": 0,
+			"banish": 8,
+			"showcase": [
+				"FOURSEASONS",
+				"FOURSEASONS",
+				"FOURSEASONS",
+				"FOURSEASONS",
+				"FOURSEASONS",
+				"FOURSEASONS",
+				"FOURSEASONS",
+				"FOURSEASONS",
+				"AMOUNT",
+				"AMOUNT",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA",
+				"POWER",
+				"POWER",
+				"POWER",
+				"POWER",
+				"POWER"
+			],
+			"onEveryLevelUp": {}
+		},
+		{
+			"growth": 1,
+			"level": 20
+		},
+		{
+			"growth": 1,
+			"level": 40
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	],
+	"SYUUTO": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": "SUMMONNIGHT",
+			"charName": "Syuuto",
+			"surname": "Moonspell",
+			"spriteName": "vad_01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_vad.png",
+			"walkingFrames": 4,
+			"description": "Starts with hidden Night Sword. Morphs into a stronger version when his base weapon evolves.",
+			"isBought": false,
+			"price": 5000,
+			"completedStages": [],
+			"bgm": "BGM_Night1",
+			"maxHp": 150,
+			"armor": 2,
+			"regen": 0,
+			"moveSpeed": 0.8,
+			"power": 1.5,
+			"cooldown": 1,
+			"area": 0.7,
+			"speed": 0.7,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1,
+			"growth": 1,
+			"greed": 1,
+			"curse": 1.5,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 0,
+			"skips": 0,
+			"banish": 0,
+			"showcase": [
+				"SUMMONNIGHT",
+				"SUMMONNIGHT",
+				"SUMMONNIGHT",
+				"SUMMONNIGHT",
+				"SUMMONNIGHT",
+				"SUMMONNIGHT",
+				"SUMMONNIGHT",
+				"SUMMONNIGHT",
+				"AMOUNT",
+				"AMOUNT"
+			],
+			"onEveryLevelUp": {},
+			"hiddenWeapons": [
+				"NIGHTSWORD"
+			]
+		},
+		{
+			"growth": 1,
+			"level": 20
+		},
+		{
+			"growth": 1,
+			"level": 40
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	],
+	"ONNA": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": "MIRAGEROBE",
+			"charName": "Babi-Onna",
+			"surname": "",
+			"spriteName": "onna_01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_onna.png",
+			"walkingFrames": 21,
+			"description": "Ignores weapons cooldown. Weapons fire at a fixed interval when moving.",
+			"isBought": false,
+			"price": 5000,
+			"walkFrameRate": 4,
+			"completedStages": [],
+			"bgm": "BGM_Mirage",
+			"maxHp": 100,
+			"armor": 0,
+			"regen": 0,
+			"moveSpeed": 1,
+			"power": 1,
+			"cooldown": 1,
+			"area": 1,
+			"speed": 1,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1,
+			"growth": 1,
+			"greed": 1,
+			"curse": 1,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 10,
+			"skips": 0,
+			"banish": 0,
+			"showcase": [
+				"MIRAGEROBE",
+				"MIRAGEROBE",
+				"MIRAGEROBE",
+				"MIRAGEROBE",
+				"MIRAGEROBE",
+				"MIRAGEROBE",
+				"MIRAGEROBE",
+				"MAGNET",
+				"MAGNET",
+				"MAGNET",
+				"MAGNET",
+				"MAGNET"
+			],
+			"onEveryLevelUp": {}
+		},
+		{
+			"growth": 1,
+			"level": 20
+		},
+		{
+			"growth": 1,
+			"level": 40
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	],
+	"MCCOY": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": "BOCCE",
+			"charName": "McCoy-Oni",
+			"surname": "",
+			"spriteName": "McCoy_i01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_mccoy.png",
+			"walkingFrames": 4,
+			"description": "Area temporarily increases at fixed intervals.",
+			"isBought": false,
+			"price": 5000,
+			"completedStages": [],
+			"bodyOffset": {
+				"x": 16,
+				"y": 32
+			},
+			"maxHp": 108,
+			"armor": 1,
+			"regen": 0,
+			"moveSpeed": 1,
+			"power": 1,
+			"cooldown": 1,
+			"area": 1,
+			"speed": 1,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1,
+			"growth": 1.2,
+			"greed": 1,
+			"curse": 1,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 0,
+			"skips": 0,
+			"banish": 0,
+			"showcase": [],
+			"onEveryLevelUp": {},
+			"sineArea": {
+				"min": 1,
+				"max": 2.5,
+				"duration": 1000
+			}
+		},
+		{
+			"level": 20,
+			"growth": 1
+		},
+		{
+			"level": 40,
+			"growth": 1
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	],
+	"MEGAMENYA": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": 0,
+			"prefix": "Megalo",
+			"charName": "Menya",
+			"surname": "Moonspell",
+			"spriteName": "vanCharged_01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_vanCharged.png",
+			"walkingFrames": 4,
+			"description": "Cannot be damaged, but disappears after reaching the current Time Limit. Starts with hidden 108 Bocce.",
+			"isBought": false,
+			"price": 50000,
+			"completedStages": [],
+			"maxHp": 80,
+			"armor": 0,
+			"regen": 0,
+			"moveSpeed": 2,
+			"power": 2,
+			"cooldown": 0.8,
+			"area": 1,
+			"speed": 1,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1.1,
+			"growth": 1,
+			"greed": 1,
+			"curse": 1,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 0,
+			"skips": 0,
+			"banish": 108,
+			"showcase": [
+				"BOCCE",
+				"BOCCE",
+				"BOCCE",
+				"BOCCE",
+				"BOCCE",
+				"BOCCE",
+				"BOCCE",
+				"BOCCE",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA"
+			],
+			"onEveryLevelUp": {},
+			"hiddenWeapons": [
+				"BOCCE"
+			]
+		},
+		{
+			"growth": 1,
+			"level": 20
+		},
+		{
+			"growth": 1,
+			"level": 40
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	],
+	"MEGASYUUTO": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": "NIGHTSWORD",
+			"prefix": "Megalo",
+			"charName": "Syuuto",
+			"surname": "Moonspell",
+			"spriteName": "vadBeast_01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_vadBeast.png",
+			"description": "Gains +1% Might every level.",
+			"walkingFrames": 5,
+			"isBought": false,
+			"price": 5000,
+			"completedStages": [],
+			"bgm": "BGM_Night2",
+			"maxHp": 250,
+			"armor": 2,
+			"regen": 0,
+			"moveSpeed": 1.2,
+			"power": 1.5,
+			"cooldown": 1,
+			"area": 1,
+			"speed": 1,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1,
+			"growth": 1,
+			"greed": 1.5,
+			"curse": 1.5,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 0,
+			"skips": 0,
+			"banish": 0,
+			"showcase": [
+				"NIGHTSWORD",
+				"NIGHTSWORD",
+				"NIGHTSWORD",
+				"NIGHTSWORD",
+				"NIGHTSWORD",
+				"NIGHTSWORD",
+				"NIGHTSWORD",
+				"GREED",
+				"GREED",
+				"GREED",
+				"GREED",
+				"GREED",
+				"AMOUNT",
+				"AMOUNT"
+			],
+			"onEveryLevelUp": {
+				"power": 0.01
+			}
+		},
+		{
+			"growth": 1,
+			"level": 20
+		},
+		{
+			"growth": 1,
+			"level": 40
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	],
+	"TONY": [
+		{
+			"hidden": true,
+			"level": 1,
+			"startingWeapon": "BUBBLES",
+			"charName": "Gab'Et-Oni",
+			"surname": "",
+			"spriteName": "Gabet_i01.png",
+			"textureName": "moonspellChars",
+			"portraitName": "p_gavet.png",
+			"walkingFrames": 4,
+			"description": "Gets more projectiles every 20 levels (max+4).",
+			"isBought": false,
+			"price": 500,
+			"completedStages": [],
+			"maxHp": 100,
+			"armor": 0,
+			"regen": 0,
+			"moveSpeed": 1.2,
+			"power": 1,
+			"cooldown": 1,
+			"area": 1,
+			"speed": 1,
+			"duration": 1,
+			"amount": 0,
+			"luck": 1,
+			"growth": 1,
+			"greed": 1,
+			"curse": 1,
+			"magnet": 0,
+			"revivals": 0,
+			"rerolls": 0,
+			"skips": 0,
+			"banish": 0,
+			"showcase": [
+				"BUBBLES",
+				"BUBBLES",
+				"BUBBLES",
+				"BUBBLES",
+				"BUBBLES",
+				"BUBBLES",
+				"BUBBLES",
+				"CURSE",
+				"CURSE",
+				"CURSE",
+				"CURSE",
+				"CURSE",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"COOLDOWN",
+				"DURATION",
+				"AMOUNT",
+				"AMOUNT",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA",
+				"AREA",
+				"MAGNET",
+				"MAGNET",
+				"MAGNET",
+				"MAGNET",
+				"MAGNET"
+			],
+			"onEveryLevelUp": {}
+		},
+		{
+			"amount": 1,
+			"level": 20,
+			"growth": 1
+		},
+		{
+			"amount": 1,
+			"level": 40,
+			"growth": 1
+		},
+		{
+			"amount": 1,
+			"level": 60
+		},
+		{
+			"amount": 1,
+			"level": 80
+		},
+		{
+			"level": 21,
+			"growth": -1
+		},
+		{
+			"level": 41,
+			"growth": -1
+		}
+	]
+}

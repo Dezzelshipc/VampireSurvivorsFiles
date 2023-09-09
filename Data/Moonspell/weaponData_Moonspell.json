@@ -1,0 +1,630 @@
+{
+	"SILVERWIND": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SILVERWIND",
+			"name": "Silver Wind",
+			"description": "Defeated enemies might drop hearts.",
+			"tips": "",
+			"texture": "items",
+			"frameName": "silverWind.png",
+			"collectionFrame": "frameB_blue.png",
+			"evoSynergy": [
+				"REGEN"
+			],
+			"evoInto": "SILVERWIND2",
+			"hitVFX": 5,
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 50,
+			"interval": 3000,
+			"repeatInterval": 500,
+			"power": 1,
+			"area": 1,
+			"speed": 0.8,
+			"amount": 2,
+			"hitsWalls": false,
+			"critChance": 0,
+			"critMul": 1,
+			"chance": 0.05,
+			"duration": 2250,
+			"hitBoxDelay": 500,
+			"intervalDependsOnDuration": false,
+			"unexcludeSelf": true
+		},
+		{
+			"amount": 2,
+			"repeatInterval": -100
+		},
+		{
+			"power": 0.5,
+			"speed": 0.1
+		},
+		{
+			"power": 0.5,
+			"duration": 250
+		},
+		{
+			"amount": 2,
+			"repeatInterval": -100
+		},
+		{
+			"power": 0.5,
+			"speed": 0.1
+		},
+		{
+			"power": 0.5,
+			"duration": 250
+		},
+		{
+			"amount": 2,
+			"repeatInterval": -100,
+			"addEvolvedWeapon": "SILVERWIND2"
+		}
+	],
+	"SILVERWIND2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SILVERWIND2",
+			"name": "Festive Winds",
+			"description": "Evolved Silver Wind. Weakens enemies defenses.",
+			"tips": "Requires Max: Pummarola.",
+			"texture": "items",
+			"frameName": "silverWind2.png",
+			"collectionFrame": "frameB_blue.png",
+			"evolvesFrom": [
+				"SILVERWIND"
+			],
+			"requires": [
+				"REGEN"
+			],
+			"requiresMax": [
+				"REGEN"
+			],
+			"hitVFX": 12,
+			"isEvolution": true,
+			"isUnlocked": true,
+			"poolLimit": 100,
+			"rarity": 1,
+			"interval": 3000,
+			"repeatInterval": 200,
+			"power": 3,
+			"area": 1,
+			"speed": 1.2,
+			"amount": 8,
+			"hitsWalls": false,
+			"critChance": 0,
+			"critMul": 1,
+			"chance": 0.05,
+			"duration": 2250,
+			"hitBoxDelay": 500,
+			"intervalDependsOnDuration": false
+		}
+	],
+	"FOURSEASONS": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "FOURSEASONS",
+			"name": "Four Seasons",
+			"description": "Generates 4 explosions. Amount and Duration affect damage instead.",
+			"tips": "Ignores: speed.",
+			"texture": "items",
+			"frameName": "fourSeasons.png",
+			"collectionFrame": "frameB_blue.png",
+			"evoSynergy": [
+				"AREA",
+				"POWER"
+			],
+			"evoInto": "FOURSEASONS2",
+			"hitVFX": 1,
+			"isUnlocked": false,
+			"poolLimit": 30,
+			"rarity": 50,
+			"interval": 4000,
+			"duration": 1000,
+			"repeatInterval": 900,
+			"power": 0.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2
+		},
+		{
+			"area": 1
+		},
+		{
+			"area": 0.5
+		},
+		{
+			"area": 0.5,
+			"interval": 500,
+			"repeatInterval": -200
+		},
+		{
+			"area": 0.5
+		},
+		{
+			"area": 0.5
+		},
+		{
+			"area": 0.5,
+			"interval": 500,
+			"repeatInterval": -200
+		},
+		{
+			"area": 0.5,
+			"addEvolvedWeapon": "FOURSEASONS2"
+		}
+	],
+	"FOURSEASONS2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "FOURSEASONS2",
+			"name": "Godai Shuffle",
+			"description": "Evolved Four Seasons. Generates an additional explosion.",
+			"tips": "Requires Max: Spinach, Candelabrador.",
+			"texture": "items",
+			"frameName": "fourSeasons2.png",
+			"collectionFrame": "frameB_blue.png",
+			"evolvesFrom": [
+				"FOURSEASONS"
+			],
+			"requires": [
+				"AREA",
+				"POWER"
+			],
+			"requiresMax": [
+				"AREA",
+				"POWER"
+			],
+			"hitVFX": 1,
+			"isEvolution": true,
+			"isUnlocked": true,
+			"poolLimit": 30,
+			"rarity": 1,
+			"interval": 5000,
+			"repeatInterval": 500,
+			"power": 1,
+			"area": 5,
+			"speed": 1,
+			"amount": 5,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2
+		}
+	],
+	"SUMMONNIGHT": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SUMMONNIGHT",
+			"name": "Summon Night",
+			"description": "Generates damaging zones above the character.",
+			"tips": "Ignores: speed.",
+			"texture": "items",
+			"frameName": "summonNight.png",
+			"collectionFrame": "frameB_blue.png",
+			"evoSynergy": [
+				"AMOUNT"
+			],
+			"evoInto": "SUMMONNIGHT2",
+			"hitVFX": 4,
+			"isUnlocked": false,
+			"poolLimit": 60,
+			"rarity": 50,
+			"interval": 3000,
+			"repeatInterval": 0,
+			"power": 1,
+			"duration": 1000,
+			"hitBoxDelay": 450,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"hitsWalls": false,
+			"unexcludeSelf": true,
+			"critChance": 0.2,
+			"critMul": 2
+		},
+		{
+			"amount": 1
+		},
+		{
+			"duration": 250
+		},
+		{
+			"power": 0.5
+		},
+		{
+			"amount": 1
+		},
+		{
+			"duration": 250
+		},
+		{
+			"power": 0.5
+		},
+		{
+			"amount": 1,
+			"addEvolvedWeapon": "SUMMONNIGHT2"
+		}
+	],
+	"SUMMONNIGHT2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "SUMMONNIGHT2",
+			"name": "Night's Reach",
+			"description": "Evolved Summon Night. Generates damaging zones below the character.",
+			"tips": "Requires Max: Duplicator.",
+			"texture": "items",
+			"frameName": "summonNight2.png",
+			"collectionFrame": "frameB_blue.png",
+			"evolvesFrom": [
+				"SUMMONNIGHT"
+			],
+			"requires": [
+				"AMOUNT"
+			],
+			"requiresMax": [
+				"AMOUNT"
+			],
+			"hitVFX": 4,
+			"isEvolution": true,
+			"isUnlocked": true,
+			"poolLimit": 60,
+			"rarity": 100,
+			"interval": 2000,
+			"repeatInterval": 0,
+			"power": 3,
+			"duration": 1000,
+			"hitBoxDelay": 500,
+			"area": 1.1,
+			"speed": 1,
+			"amount": 3,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2
+		}
+	],
+	"MIRAGEROBE": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "MIRAGEROBE",
+			"name": "Mirage Robe",
+			"description": "Generates freezing mines with a chance to explode.",
+			"tips": "Ignores: speed.",
+			"texture": "items",
+			"frameName": "mirageRobe.png",
+			"collectionFrame": "frameB_blue.png",
+			"evoSynergy": [
+				"MAGNET"
+			],
+			"evoInto": "MIRAGEROBE2",
+			"hitVFX": 2,
+			"isUnlocked": false,
+			"poolLimit": 50,
+			"rarity": 50,
+			"interval": 3000,
+			"repeatInterval": 10,
+			"power": 1,
+			"area": 1.9,
+			"speed": 1,
+			"amount": 1,
+			"duration": 2000,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2,
+			"customDescValue": "%0% chance to explode.",
+			"chance": 0.3
+		},
+		{
+			"duration": 1000
+		},
+		{
+			"duration": 1000,
+			"power": 1
+		},
+		{
+			"customDesc": 10,
+			"chance": 0.1
+		},
+		{
+			"duration": 1000
+		},
+		{
+			"duration": 1000,
+			"power": 1
+		},
+		{
+			"customDesc": 20,
+			"chance": 0.2
+		},
+		{
+			"power": 2,
+			"addEvolvedWeapon": "MIRAGEROBE2"
+		}
+	],
+	"MIRAGEROBE2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "MIRAGEROBE2",
+			"name": "J'Odore",
+			"description": "Evolved Mirage Robe. Projectiles move and confuse enemies.",
+			"tips": "Requires Max: Magnet.",
+			"texture": "items",
+			"frameName": "mirageRobe2.png",
+			"collectionFrame": "frameB_blue.png",
+			"evolvesFrom": [
+				"MIRAGEROBE"
+			],
+			"requires": [
+				"MAGNET"
+			],
+			"requiresMax": [
+				"MAGNET"
+			],
+			"hitVFX": 2,
+			"isEvolution": true,
+			"isUnlocked": true,
+			"poolLimit": 100,
+			"rarity": 1,
+			"interval": 3000,
+			"repeatInterval": 200,
+			"power": 6,
+			"area": 1.5,
+			"speed": 1,
+			"amount": 3,
+			"duration": 3000,
+			"chance": 0.8,
+			"hitsWalls": false,
+			"critChance": 0.2,
+			"critMul": 2,
+			"penetrating": 3
+		}
+	],
+	"NIGHTSWORD": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "NIGHTSWORD",
+			"name": "Night Sword",
+			"description": "Strikes with a combo attack at the nearest enemy. Retaliates. Might steals hearts.",
+			"tips": "Ignores: speed, duration.",
+			"texture": "items",
+			"frameName": "nightSword.png",
+			"collectionFrame": "frameB_blue.png",
+			"evoSynergy": [
+				"GREED"
+			],
+			"evoInto": "NIGHTSWORD2",
+			"isUnlocked": false,
+			"poolLimit": 100,
+			"rarity": 30,
+			"interval": 2200,
+			"repeatInterval": 100,
+			"power": 0.5,
+			"area": 1,
+			"speed": 1,
+			"amount": 2,
+			"hitsWalls": false,
+			"critChance": 0.1,
+			"critMul": 2,
+			"canCrit": false,
+			"unexcludeSelf": true,
+			"chance": 0.01
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 0.5,
+			"area": 0.2
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 1,
+			"area": 0.2
+		},
+		{
+			"amount": 1
+		},
+		{
+			"power": 1,
+			"area": 0.2
+		},
+		{
+			"power": 1,
+			"addEvolvedWeapon": "NIGHTSWORD2"
+		}
+	],
+	"NIGHTSWORD2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "NIGHTSWORD2",
+			"name": "Muramasa",
+			"description": "Evolved Night Sword. Enables critical hits and combo finisher. Drains Health.",
+			"tips": "Requires Max: Stone Mask.",
+			"texture": "items",
+			"frameName": "nightSword2.png",
+			"collectionFrame": "frameB_blue.png",
+			"evolvesFrom": [
+				"NIGHTSWORD"
+			],
+			"requires": [
+				"GREED"
+			],
+			"requiresMax": [
+				"GREED"
+			],
+			"isEvolution": true,
+			"isUnlocked": true,
+			"poolLimit": 100,
+			"rarity": 1,
+			"interval": 1500,
+			"repeatInterval": 50,
+			"power": 8,
+			"area": 1.6,
+			"speed": 1,
+			"amount": 5,
+			"hitsWalls": false,
+			"critChance": 0.1,
+			"critMul": 2,
+			"canCrit": true,
+			"chance": 0.1
+		}
+	],
+	"BUBBLES": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "BUBBLES",
+			"name": "Mille Bolle Blu",
+			"description": "Fires lingering projectiles.",
+			"tips": "",
+			"texture": "items",
+			"frameName": "bubble.png",
+			"collectionFrame": "frameB_blue.png",
+			"evoSynergy": [
+				"DURATION"
+			],
+			"evoInto": "BUBBLES2",
+			"isUnlocked": false,
+			"hitVFX": 2,
+			"poolLimit": 140,
+			"rarity": 1,
+			"interval": 2600,
+			"repeatInterval": 100,
+			"hitBoxDelay": 500,
+			"power": 0.5,
+			"area": 0.5,
+			"speed": 1,
+			"amount": 4,
+			"duration": 1100,
+			"knockback": 0.1
+		},
+		{
+			"amount": 1,
+			"area": 0.1
+		},
+		{
+			"interval": -200,
+			"power": 0.25
+		},
+		{
+			"amount": 1,
+			"area": 0.1
+		},
+		{
+			"interval": -200,
+			"power": 0.25
+		},
+		{
+			"amount": 1,
+			"area": 0.1
+		},
+		{
+			"interval": -200,
+			"power": 0.25
+		},
+		{
+			"amount": 1,
+			"addEvolvedWeapon": "BUBBLES2"
+		}
+	],
+	"BUBBLES2": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "BUBBLES2",
+			"name": "Boo Roo Boolle",
+			"description": "Evolved Mille Bolle Blu. Projectiles can hit the same target more than once.",
+			"tips": "Requires Max: Spellbinder",
+			"texture": "items",
+			"frameName": "bubble2.png",
+			"collectionFrame": "frameB_blue.png",
+			"evolvesFrom": [
+				"BUBBLES"
+			],
+			"requires": [
+				"DURATION"
+			],
+			"requiresMax": [
+				"DURATION"
+			],
+			"isEvolution": true,
+			"isUnlocked": true,
+			"hitVFX": 2,
+			"poolLimit": 180,
+			"rarity": 1,
+			"interval": 2000,
+			"repeatInterval": 100,
+			"hitBoxDelay": 500,
+			"power": 2,
+			"area": 1,
+			"speed": 1,
+			"amount": 6,
+			"duration": 1100,
+			"knockback": 0.1
+		}
+	],
+	"BOCCE": [
+		{
+			"level": 1,
+			"sealable": true,
+			"bulletType": "BOCCE",
+			"name": "108 Bocce",
+			"description": "Actually it's just 8. Damages nearby enemies.",
+			"tips": "Ignores: amount, duration, speed.",
+			"texture": "items",
+			"frameName": "bocce.png",
+			"collectionFrame": "frameB_blue.png",
+			"isUnlocked": false,
+			"poolLimit": 50,
+			"rarity": 10,
+			"interval": 1300,
+			"duration": 1300,
+			"repeatInterval": 0,
+			"power": 1.2,
+			"area": 1,
+			"speed": 1,
+			"amount": 1,
+			"knockback": 0,
+			"hitsWalls": false
+		},
+		{
+			"power": 0.4
+		},
+		{
+			"power": 0.4,
+			"interval": -100
+		},
+		{
+			"power": 0.4
+		},
+		{
+			"power": 0.4,
+			"interval": -100
+		},
+		{
+			"power": 0.4
+		},
+		{
+			"power": 0.4,
+			"interval": -100
+		},
+		{
+			"power": 0.4
+		}
+	]
+}

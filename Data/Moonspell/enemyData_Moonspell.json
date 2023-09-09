@@ -1,0 +1,907 @@
+{
+	"MS_SPIRIT1": [
+		{
+			"level": 1,
+			"maxHp": 0.75,
+			"speed": 140,
+			"power": 5,
+			"knockback": 1,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"xp": 1,
+			"idleFrameCount": 4,
+			"end": 27,
+			"killedAmount": 0,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"spirit_0.png"
+			],
+			"bName": "Spirit",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": [
+				"MS_SPIRIT2",
+				"MS_SPIRIT2_SWARM"
+			]
+		}
+	],
+	"MS_SPIRIT2": [
+		{
+			"level": 1,
+			"maxHp": 1.25,
+			"speed": 200,
+			"power": 5,
+			"knockback": 0,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 1.5,
+			"tint": 8965375,
+			"alpha": 0.65,
+			"idleFrameCount": 4,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"spirit_des_0.png"
+			]
+		}
+	],
+	"MS_SPIRIT1_SWARM": [
+		{
+			"level": 1,
+			"maxHp": 0.75,
+			"speed": 700,
+			"power": 5,
+			"knockback": 1,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"xp": 1,
+			"skills": [
+				1
+			],
+			"idleFrameCount": 4,
+			"end": 27,
+			"killedAmount": 0,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"spirit_0.png"
+			]
+		}
+	],
+	"MS_SPIRIT2_SWARM": [
+		{
+			"level": 1,
+			"maxHp": 1.25,
+			"speed": 700,
+			"power": 5,
+			"knockback": 0,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 1.5,
+			"tint": 16764040,
+			"alpha": 0.65,
+			"skills": [
+				1
+			],
+			"idleFrameCount": 4,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"spirit_des_0.png"
+			]
+		}
+	],
+	"MS_HITOT": [
+		{
+			"level": 1,
+			"maxHp": 0.5,
+			"speed": 140,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 1.5,
+			"idleFrameCount": 5,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"hitotsumekozo_0.png"
+			],
+			"bName": "Hitotsumekozo",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_KAPPA": [
+		{
+			"level": 1,
+			"maxHp": 1,
+			"speed": 140,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 1.5,
+			"idleFrameCount": 4,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"kappa_0.png"
+			],
+			"bName": "Kappa",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": true,
+			"bVariants": []
+		}
+	],
+	"MS_TSUCHINOKO": [
+		{
+			"level": 1,
+			"maxHp": 1.75,
+			"speed": 100,
+			"power": 10,
+			"knockback": 1,
+			"maxKnockback": 3,
+			"deathKB": 5,
+			"killedAmount": 0,
+			"xp": 2,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"tsuchinoko_0.png"
+			],
+			"bName": "Tsuchinoko",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_MIKOS": [
+		{
+			"level": 1,
+			"maxHp": 15,
+			"speed": 140,
+			"power": 10,
+			"knockback": 0.3,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"xp": 2.5,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"mikoshinyudo_0.png"
+			],
+			"bName": "Mikoshinyudo",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_KAMAITACHI": [
+		{
+			"level": 1,
+			"maxHp": 15,
+			"speed": 140,
+			"power": 10,
+			"knockback": 0.3,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"xp": 2.5,
+			"end": 30,
+			"textureName": "enemiesM",
+			"idleFrameCount": 4,
+			"frameNames": [
+				"kamaitachi_0.png"
+			],
+			"bName": "Kamaitachi",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_RAIJU": [
+		{
+			"level": 1,
+			"maxHp": 10,
+			"speed": 140,
+			"power": 10,
+			"knockback": 0.3,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"xp": 2.5,
+			"end": 30,
+			"textureName": "enemiesM",
+			"idleFrameCount": 4,
+			"frameNames": [
+				"raiju_0.png"
+			],
+			"bName": "Raiju",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_YAMAMBA1": [
+		{
+			"level": 10,
+			"maxHp": 27,
+			"speed": 140,
+			"power": 10,
+			"knockback": 0.1,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"xp": 2.5,
+			"idleFrameCount": 5,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"yamamba_0.png"
+			],
+			"bName": "Yamamba",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": [
+				"MS_YAMAMBA2"
+			]
+		}
+	],
+	"MS_YAMAMBA2": [
+		{
+			"level": 1,
+			"maxHp": 18,
+			"speed": 130,
+			"power": 14,
+			"knockback": 0.8,
+			"maxKnockback": 3,
+			"deathKB": 7,
+			"killedAmount": 0,
+			"xp": 2,
+			"idleFrameCount": 5,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"yamamba2_0.png"
+			]
+		}
+	],
+	"MS_TANUKI": [
+		{
+			"level": 1,
+			"maxHp": 5,
+			"speed": 140,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 0.1,
+			"maxKnockback": 2,
+			"deathKB": 1,
+			"killedAmount": 0,
+			"xp": 4,
+			"idleFrameCount": 5,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"Tanuki_0.png"
+			],
+			"bName": "Tanuki",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": [
+				"MS_BOSS_TANUKI"
+			]
+		}
+	],
+	"MS_TENGU": [
+		{
+			"level": 10,
+			"maxHp": 50,
+			"speed": 140,
+			"power": 20,
+			"knockback": 0,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 3,
+			"idleFrameCount": 5,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"Tengu_0.png"
+			],
+			"bName": "Tengu",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_TSUCHIGUMO": [
+		{
+			"level": 10,
+			"maxHp": 80,
+			"speed": 100,
+			"power": 20,
+			"knockback": 0,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 3,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"tsuchigumo_0.png"
+			],
+			"bName": "Tsuchigumo",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_FLOWER1": [
+		{
+			"level": 1,
+			"maxHp": 3,
+			"speed": 0,
+			"power": 5,
+			"knockback": 0,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"skills": [
+				0
+			],
+			"xp": 4,
+			"killedAmount": 0,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"idleFrameCount": 4,
+			"frameNames": [
+				"msFlower1_0.png",
+				"msFlower2_0.png"
+			]
+		}
+	],
+	"MS_FLOWER2": [
+		{
+			"level": 1,
+			"maxHp": 3,
+			"speed": 0,
+			"power": 1,
+			"knockback": 0,
+			"maxKnockback": 0,
+			"deathKB": 0,
+			"skills": [
+				0
+			],
+			"xp": 10,
+			"killedAmount": 0,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"idleFrameCount": 4,
+			"frameNames": [
+				"msFlower3_0.png"
+			]
+		}
+	],
+	"MS_BOSS_SPIRIT": [
+		{
+			"level": 1,
+			"maxHp": 5,
+			"speed": 140,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"xp": 30,
+			"idleFrameCount": 4,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"spiritB_0.png"
+			]
+		}
+	],
+	"MS_BOSS_SPIRIT2": [
+		{
+			"level": 1,
+			"maxHp": 20,
+			"speed": 140,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 3,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 2,
+			"alpha": 0.9,
+			"xp": 30,
+			"idleFrameCount": 4,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"spiritB_0.png"
+			]
+		}
+	],
+	"MS_BOSS_KAMAITACHI": [
+		{
+			"level": 1,
+			"maxHp": 5,
+			"speed": 170,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"end": 30,
+			"textureName": "enemiesM",
+			"idleFrameCount": 4,
+			"frameNames": [
+				"kamaitachi_0.png"
+			]
+		}
+	],
+	"MS_BOSS_RAIJU": [
+		{
+			"level": 1,
+			"maxHp": 5,
+			"speed": 170,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"end": 30,
+			"textureName": "enemiesM",
+			"idleFrameCount": 4,
+			"frameNames": [
+				"raiju_0.png"
+			]
+		}
+	],
+	"MS_BOSS_TENGU": [
+		{
+			"level": 1,
+			"maxHp": 6,
+			"speed": 200,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"res_Freeze": 1,
+			"res_Rosary": 1,
+			"idleFrameCount": 5,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"Tengu_0.png"
+			]
+		}
+	],
+	"MS_ONIWIND": [
+		{
+			"level": 10,
+			"maxHp": 50,
+			"speed": 70,
+			"power": 20,
+			"knockback": 0,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 2.5,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"oni_wind_0.png"
+			],
+			"bName": "Oni Wind",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_ONITHUNDER": [
+		{
+			"level": 10,
+			"maxHp": 50,
+			"speed": 70,
+			"power": 20,
+			"knockback": 0,
+			"maxKnockback": 3,
+			"deathKB": 0,
+			"killedAmount": 0,
+			"xp": 2.5,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "enemiesM",
+			"frameNames": [
+				"loni_0.png"
+			],
+			"bName": "Oni Thunder",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_ONI1": [
+		{
+			"level": 1,
+			"maxHp": 7,
+			"speed": 140,
+			"power": 10,
+			"skills": [
+				0
+			],
+			"knockback": 0,
+			"maxKnockback": 0,
+			"deathKB": 1,
+			"killedAmount": 0,
+			"xp": 5,
+			"idleFrameCount": 5,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"oni_0.png",
+				"oni2_0.png"
+			],
+			"bName": "Oni",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_BOSS_TANUKI": [
+		{
+			"level": 1,
+			"maxHp": 6,
+			"speed": 200,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"res_Rosary": 1,
+			"idleFrameCount": 5,
+			"end": 27,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"Tanuki_0.png"
+			]
+		}
+	],
+	"MS_BOSS_ONIWIND": [
+		{
+			"level": 1,
+			"maxHp": 7,
+			"speed": 180,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"res_Freeze": 1,
+			"res_Rosary": 1,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"oni_wind_0.png"
+			]
+		}
+	],
+	"MS_BOSS_ONITHUNDER": [
+		{
+			"level": 1,
+			"maxHp": 7,
+			"speed": 180,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"res_Freeze": 1,
+			"res_Rosary": 1,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "enemiesM",
+			"frameNames": [
+				"loni_0.png"
+			]
+		}
+	],
+	"MS_BOSS_TSUCHIGUMO": [
+		{
+			"level": 1,
+			"maxHp": 10,
+			"speed": 180,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"res_Freeze": 1,
+			"res_Rosary": 1,
+			"res_Knockback": 1,
+			"res_Debuffs": 1,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"tsuchigumo_0.png"
+			]
+		}
+	],
+	"MS_NINETYNINE": [
+		{
+			"level": 1,
+			"maxHp": 10,
+			"speed": 180,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 1,
+			"maxKnockback": 1,
+			"deathKB": 2,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"res_Freeze": 1,
+			"res_Rosary": 1,
+			"res_Knockback": 1,
+			"res_Debuffs": 1,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"tsuchigumo_0.png"
+			]
+		}
+	],
+	"MS_GOSHADOKURO": [
+		{
+			"level": 1,
+			"maxHp": 40,
+			"speed": 40,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 0.01,
+			"maxKnockback": 1,
+			"deathKB": 1,
+			"killedAmount": 0,
+			"scale": 1.5,
+			"xp": 30,
+			"res_Rosary": 1,
+			"colliderOverride": {
+				"radius": 0.55,
+				"offsetX": -32,
+				"offsetY": -24
+			},
+			"idleFrameCount": 2,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"Gash_body_0.png"
+			],
+			"bName": "Gashadokuro",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_EVILSPIRIT": [
+		{
+			"level": 1,
+			"maxHp": 1,
+			"speed": 400,
+			"maxSpeed": 400,
+			"power": 5,
+			"knockback": 0.1,
+			"maxKnockback": 0.1,
+			"deathKB": 0,
+			"xp": 0,
+			"tint": 16711680,
+			"skills": [
+				0,
+				1
+			],
+			"passThroughWalls": true,
+			"idleFrameCount": 4,
+			"end": 27,
+			"killedAmount": 0,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"spirit_des_0.png"
+			]
+		}
+	],
+	"MS_OROCHIMARIO": [
+		{
+			"level": 30,
+			"maxHp": 50,
+			"speed": 190,
+			"power": 25,
+			"skills": [
+				0
+			],
+			"knockback": 0,
+			"maxKnockback": 1,
+			"deathKB": 1,
+			"killedAmount": 0,
+			"xp": 30,
+			"colliderOverride": {
+				"radius": 0.55,
+				"offsetX": -32,
+				"offsetY": -24
+			},
+			"res_Freeze": 1.1,
+			"res_Rosary": 1,
+			"res_Knockback": 1,
+			"res_Debuffs": 1,
+			"passThroughWalls": true,
+			"idleFrameCount": 4,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"Orochi_body_0.png"
+			],
+			"bName": "Orochimario",
+			"bDesc": "",
+			"bPlaces": [
+				"MOONSPELL"
+			],
+			"bInclude": true,
+			"bHighlight": false,
+			"bVariants": []
+		}
+	],
+	"MS_OROCHIHEAD": [
+		{
+			"level": 1,
+			"maxHp": 50,
+			"speed": 0,
+			"power": 20,
+			"skills": [
+				0
+			],
+			"knockback": 0,
+			"maxKnockback": 1,
+			"deathKB": 1,
+			"killedAmount": 0,
+			"xp": 30,
+			"flagName": "Orochi_neck.png",
+			"passThroughWalls": true,
+			"res_Freeze": 1.1,
+			"res_Rosary": 1,
+			"res_Knockback": 1,
+			"res_Debuffs": 1,
+			"idleFrameCount": 5,
+			"end": 29,
+			"textureName": "moonspellChars",
+			"frameNames": [
+				"Orochi_head_0.png"
+			]
+		}
+	]
+}

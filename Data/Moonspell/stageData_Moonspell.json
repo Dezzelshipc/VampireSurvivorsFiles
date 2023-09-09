@@ -1,0 +1,934 @@
+{
+	"MOONSPELL": [
+		{
+			"order": 200,
+			"stageName": "Mt.Moonspell",
+			"description": "Ancestral home of a fallen clan, now overrun by yokai and oni. The night has won in this world where the sun doesn't shine.",
+			"uiTexture": "UI",
+			"uiFrame": "stage_moonspell.png",
+			"texture": "UI",
+			"frameName": "stage_moonspell_hyper_icon.png",
+			"bestiaryBG": "background_moonspell.png",
+			"stageNumber": "Special",
+			"unlocked": true,
+			"hidden": false,
+			"relics": [
+				"RELIC_MAP_MS"
+			],
+			"yellowRelics": [],
+			"BGM": "BMG_Moonspell",
+			"sideBBGM": "BMG_Moonspell",
+			"validForCharcaterData": true,
+			"cff": "MIANG",
+			"zoom": 0.17,
+			"mods": {
+				"TimeLimit": 1800,
+				"ClockSpeed": 1,
+				"PlayerPxSpeed": 1.4,
+				"EnemySpeed": 1.4,
+				"ProjectileSpeed": 1,
+				"GoldMultiplier": 1.5,
+				"EnemyHealthMultiplier": 1,
+				"LuckBonus": 0,
+				"XPBonus": 1
+			},
+			"hyper": {
+				"unlocked": false,
+				"TimeLimit": 1800,
+				"ClockSpeed": 1,
+				"PlayerPxSpeed": 0.6,
+				"EnemySpeed": 0.6,
+				"ProjectileSpeed": 0.15,
+				"GoldMultiplier": 0.5,
+				"EnemyHealthMultiplier": 0,
+				"LuckBonus": 0.1,
+				"XPBonus": 0,
+				"StartingSpawns": 20
+			},
+			"inverse": {
+				"tint": 8947950,
+				"GoldMultiplier": 2,
+				"EnemyHealthMultiplier": 2,
+				"LuckBonus": 0.2,
+				"TimeMods": {
+					"start": 0,
+					"hpPerMinute": 0.05,
+					"speedPerMinute": 0.005
+				}
+			},
+			"tileset": {
+				"setKey": "MoonspellTexturePacked",
+				"setPath": "assets/tilesets/MoonspellTexturePacked.png",
+				"mapKey": "Moonspell",
+				"mapPath": "assets/tilesets/Moonspell.json",
+				"isTiling": false,
+				"hasWallsCheckDestructibleLogic": true,
+				"tint": 14540287,
+				"SizeX": 10240,
+				"SizeY": 10240,
+				"minTreasureX": 64,
+				"maxTreasureX": 10176,
+				"minTreasureY": 64,
+				"maxTreasureY": 10176,
+				"detailsPath": "assets/img/MapMS.png",
+				"detailsTexture": "MapMS.png",
+				"mapRelic": "RELIC_MAP_MS"
+			},
+			"background": {
+				"texture": ""
+			},
+			"poolsMapping": [
+				{
+					"key": 0,
+					"type": "MS_HITOT",
+					"pool": null
+				},
+				{
+					"key": 1,
+					"type": "MS_HITOT",
+					"pool": null
+				},
+				{
+					"key": 2,
+					"type": "MS_TANUKI",
+					"pool": null
+				},
+				{
+					"key": 3,
+					"type": "MS_KAPPA",
+					"pool": null
+				},
+				{
+					"key": 4,
+					"type": "MS_ONI1",
+					"pool": null
+				},
+				{
+					"key": 5,
+					"type": "MS_FLOWER2",
+					"pool": null
+				}
+			],
+			"spawnType": "MAPPED",
+			"startingSpawns": 50,
+			"minute": 0,
+			"destructibleType": "BRAZIER",
+			"destructibleFreq": 1000,
+			"destructibleChance": 7.5,
+			"destructibleChanceMax": 50,
+			"maxDestructibles": 12,
+			"BGTextureName": "bg_null",
+			"dayNight": false,
+			"tilemapTiledJSON": {
+				"name": "",
+				"path": ""
+			},
+			"tilemapTiledIMG": {
+				"name": "",
+				"path": ""
+			},
+			"tilemapPos": {
+				"x": 0,
+				"y": 0
+			},
+			"minimum": 50,
+			"frequency": 3000,
+			"enemies": [
+				"MS_SPIRIT1"
+			],
+			"bosses": []
+		},
+		{
+			"minute": 1,
+			"minimum": 80,
+			"frequency": 3000,
+			"enemies": [
+				"MS_SPIRIT1",
+				"ZOMBIE"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"treasure": {
+				"chances": [
+					0,
+					0,
+					50
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 2,
+			"minimum": 50,
+			"frequency": 500,
+			"enemies": [
+				"BAT1",
+				"BAT2",
+				"BAT3"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"duration": 30000,
+					"moreX": 25,
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 15000,
+					"repeat": 1
+				}
+			]
+		},
+		{
+			"minute": 3,
+			"minimum": 40,
+			"frequency": 250,
+			"enemies": [
+				"MS_TSUCHINOKO"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"delay": 5000,
+					"moreY": "MS_SPIRIT1_SWARM",
+					"repeat": 1,
+					"chance": 10
+				}
+			],
+			"treasure": {
+				"chances": [
+					0,
+					5,
+					40
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EXISTING_WEAPON",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 4,
+			"minimum": 30,
+			"frequency": 500,
+			"enemies": [
+				"MS_TSUCHINOKO",
+				"MS_SPIRIT2"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"delay": 5000,
+					"moreY": "MS_SPIRIT1_SWARM",
+					"repeat": 1,
+					"chance": 10
+				}
+			]
+		},
+		{
+			"minute": 5,
+			"minimum": 100,
+			"frequency": 4000,
+			"enemies": [
+				"MS_KAMAITACHI"
+			],
+			"bosses": [
+				"MS_MIKOS"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_CIRCLE",
+					"moreX": 50,
+					"moreY": "MS_FLOWER1",
+					"moreZ": 0.9,
+					"chance": 0,
+					"duration": 30000
+				}
+			],
+			"treasure": {
+				"chances": [
+					1,
+					5,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EXISTING_WEAPON",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 6,
+			"minimum": 20,
+			"frequency": 500,
+			"enemies": [
+				"MS_KAMAITACHI",
+				"MS_SPIRIT2"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"delay": 5000,
+					"moreY": "MS_SPIRIT1_SWARM",
+					"repeat": 1,
+					"chance": 10
+				}
+			]
+		},
+		{
+			"minute": 7,
+			"minimum": 80,
+			"frequency": 500,
+			"enemies": [
+				"MS_RAIJU",
+				"MS_SPIRIT1"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 5000,
+					"chance": 80,
+					"repeat": 5
+				}
+			],
+			"bosses": [
+				"MS_BOSS_RAIJU"
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					50
+				],
+				"level": 2,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 8,
+			"minimum": 100,
+			"frequency": 1500,
+			"enemies": [
+				"MS_RAIJU"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 15000,
+					"chance": 80,
+					"repeat": 2
+				}
+			],
+			"bosses": [
+				"MS_ONITHUNDER"
+			]
+		},
+		{
+			"minute": 9,
+			"minimum": 40,
+			"frequency": 500,
+			"enemies": [
+				"MS_YAMAMBA1",
+				"ZOMBIE"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 15000,
+					"chance": 70,
+					"repeat": 2
+				}
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					50
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_WEAPON",
+					"EXISTING_WEAPON"
+				]
+			}
+		},
+		{
+			"minute": 10,
+			"minimum": 80,
+			"frequency": 500,
+			"enemies": [
+				"MS_KAMAITACHI",
+				"MS_RAIJU"
+			],
+			"bosses": [
+				"MS_ONIWIND",
+				"MS_ONITHUNDER"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_CIRCLE",
+					"moreX": 50,
+					"moreY": "MS_FLOWER1",
+					"moreZ": 0.9,
+					"chance": 0,
+					"duration": 60000
+				}
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_WEAPON",
+					"EXISTING_WEAPON"
+				]
+			}
+		},
+		{
+			"minute": 11,
+			"minimum": 300,
+			"frequency": 100,
+			"enemies": [
+				"MS_TSUCHINOKO"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 5000,
+					"repeat": 1,
+					"chance": 10
+				}
+			],
+			"arcanaHolder": "MS_BOSS_SPIRIT",
+			"arcanaTreasure": {
+				"chances": [
+					0,
+					0,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVO_ARCANA",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 12,
+			"minimum": 40,
+			"frequency": 250,
+			"enemies": [
+				"MS_YAMAMBA2",
+				"MS_SPIRIT2",
+				"MS_TSUCHINOKO"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 5000,
+					"repeat": 1,
+					"chance": 10
+				}
+			],
+			"bosses": [
+				"MS_BOSS_TANUKI"
+			],
+			"treasure": {
+				"chances": [
+					1,
+					5,
+					50
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 13,
+			"minimum": 150,
+			"frequency": 500,
+			"enemies": [
+				"MS_YAMAMBA2",
+				"MS_SPIRIT2",
+				"MS_SPIRIT2"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT2_SWARM",
+					"delay": 1200,
+					"chance": 70,
+					"repeat": 20
+				},
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT2_SWARM",
+					"delay": 2300,
+					"chance": 70,
+					"repeat": 20
+				}
+			]
+		},
+		{
+			"minute": 14,
+			"minimum": 20,
+			"frequency": 100,
+			"enemies": [
+				"MS_YAMAMBA1",
+				"MS_YAMAMBA2"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 15,
+			"minimum": 50,
+			"frequency": 100,
+			"enemies": [
+				"MS_YAMAMBA2",
+				"MS_YAMAMBA1",
+				"MS_MIKOS"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_CIRCLE",
+					"moreX": 50,
+					"moreY": "MS_FLOWER1",
+					"moreZ": 0.9,
+					"chance": 80,
+					"duration": 30000
+				}
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 16,
+			"minimum": 100,
+			"frequency": 100,
+			"enemies": [
+				"MS_YAMAMBA2",
+				"MS_YAMAMBA1",
+				"MS_MIKOS"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"treasure": {
+				"chances": [
+					1,
+					5,
+					50
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 17,
+			"minimum": 20,
+			"frequency": 1000,
+			"enemies": [
+				"MS_TENGU"
+			]
+		},
+		{
+			"minute": 18,
+			"minimum": 60,
+			"frequency": 500,
+			"enemies": [
+				"MS_TENGU",
+				"MS_RAIJU"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 19,
+			"minimum": 100,
+			"frequency": 500,
+			"enemies": [
+				"MS_TENGU",
+				"MS_MIKOS"
+			]
+		},
+		{
+			"minute": 20,
+			"minimum": 100,
+			"frequency": 100,
+			"enemies": [
+				"MS_TENGU",
+				"MS_KAMAITACHI",
+				"MS_YAMAMBA1"
+			],
+			"bosses": [
+				"MS_BOSS_KAMAITACHI"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 1200,
+					"chance": 70,
+					"repeat": 20
+				},
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT1_SWARM",
+					"delay": 2300,
+					"chance": 70,
+					"repeat": 20
+				}
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 21,
+			"minimum": 150,
+			"frequency": 100,
+			"enemies": [
+				"MS_ONITHUNDER"
+			],
+			"bosses": [
+				"MS_TSUCHIGUMO"
+			],
+			"arcanaHolder": "MS_BOSS_SPIRIT",
+			"arcanaTreasure": {
+				"chances": [
+					0,
+					0,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVO_ARCANA",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 22,
+			"minimum": 150,
+			"frequency": 100,
+			"enemies": [
+				"MS_ONIWIND"
+			],
+			"bosses": [
+				"MS_BOSS_SPIRIT"
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 23,
+			"minimum": 200,
+			"frequency": 100,
+			"enemies": [
+				"MS_ONIWIND",
+				"MS_TENGU"
+			],
+			"bosses": [
+				"MS_BOSS_TENGU"
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 24,
+			"minimum": 200,
+			"frequency": 100,
+			"enemies": [
+				"MS_ONITHUNDER",
+				"MS_TENGU"
+			],
+			"bosses": [
+				"MS_BOSS_TSUCHIGUMO"
+			]
+		},
+		{
+			"minute": 25,
+			"minimum": 50,
+			"frequency": 100,
+			"enemies": [
+				"MS_TSUCHIGUMO"
+			],
+			"bosses": [
+				"MS_OROCHIMARIO"
+			],
+			"events": [],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 26,
+			"minimum": 150,
+			"frequency": 100,
+			"enemies": [
+				"MS_TSUCHIGUMO",
+				"MS_ONIWIND"
+			]
+		},
+		{
+			"minute": 27,
+			"minimum": 300,
+			"frequency": 100,
+			"bosses": [
+				"MS_BOSS_SPIRIT2"
+			],
+			"enemies": [
+				"MS_TENGU",
+				"MS_ONITHUNDER",
+				"MS_ONIWIND"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT2_SWARM"
+				},
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT2_SWARM",
+					"delay": 3000,
+					"repeat": 19
+				}
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 28,
+			"minimum": 200,
+			"frequency": 100,
+			"enemies": [
+				"MS_BOSS_RAIJU",
+				"MS_BOSS_KAMAITACHI",
+				"MS_BOSS_TSUCHIGUMO"
+			]
+		},
+		{
+			"minute": 29,
+			"minimum": 200,
+			"frequency": 100,
+			"bosses": [
+				"MS_BOSS_SPIRIT2"
+			],
+			"enemies": [
+				"MS_BOSS_ONITHUNDER",
+				"MS_BOSS_ONIWIND"
+			],
+			"events": [
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT2_SWARM"
+				},
+				{
+					"eventType": "GENERIC_SWARM",
+					"moreY": "MS_SPIRIT2_SWARM",
+					"delay": 3000,
+					"repeat": 10
+				}
+			],
+			"treasure": {
+				"chances": [
+					3,
+					10,
+					100
+				],
+				"level": 1,
+				"prizeTypes": [
+					"EVOLUTION",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY",
+					"EXISTING_ANY"
+				]
+			}
+		},
+		{
+			"minute": 30,
+			"minimum": 1,
+			"frequency": 10000,
+			"enemies": [],
+			"bosses": [
+				"BOSS_XLDEATH"
+			],
+			"events": [
+				{
+					"eventType": "CYCLE_COMPLETE"
+				}
+			]
+		}
+	]
+}
