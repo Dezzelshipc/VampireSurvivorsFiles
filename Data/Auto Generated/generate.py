@@ -1,0 +1,26 @@
+import os, json
+
+names = [f.name.split("_")[1].lower() for f in os.scandir("../Vampire Survivors/")]
+
+vs = [f.path for f in os.scandir("../Vampire Survivors/")]
+ms = [f.path for f in os.scandir("../Moonspell/")]
+tf = [f.path for f in os.scandir("../Foscari/")]
+
+for name in names:
+    vspath = ([i for i in vs if name in i.lower()] + [""])[0]
+    mspath = ([i for i in ms if name in i.lower()] + [""])[0]
+    tfpath = ([i for i in tf if name in i.lower()] + [""])[0]
+
+    with open(vspath, "r", encoding="UTF-8") as vsfile:
+        outdata = json.loads(vsfile.read())
+
+    if mspath:
+        with open(mspath, "r", encoding="UTF-8") as msfile:
+            outdata.update( json.loads(msfile.read()) )
+
+    if tfpath:
+        with open(tfpath, "r", encoding="UTF-8") as tffile:
+            outdata.update( json.loads(tffile.read()) )
+
+    with open(name+"Data_Full.json", "w", encoding="UTF-8") as outfile:
+        outfile.write( json.dumps(outdata) )
