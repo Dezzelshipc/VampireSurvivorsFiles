@@ -7073,24 +7073,6 @@ MonoBehaviour:
       - 玩家 %0
       Flags: 00000000000000000000000000
       Languages_Touch: []
-    - Term: lang/multiplayer_enter_coop_mode
-      TermType: 0
-      Languages:
-      - Enter Co-op
-      - Entrez en coopérative
-      - Entra in Cooperativa
-      - Betreten Sie die Genossenschaft
-      - Ingrese a la cooperativa
-      - Entre no modo cooperativo
-      - Wejdź do trybu współpracy
-      - Войти в кооператив
-      - İşbirliğine Girin
-      - 进入合作社
-      - 協力プレイに参加する
-      - 협동전을 시작하세요
-      - 進入合作社
-      Flags: 00000000000000000000000000
-      Languages_Touch: []
     - Term: lang/options_coop_colour_X
       TermType: 0
       Languages:
@@ -7181,6 +7163,114 @@ MonoBehaviour:
       - 請重新安裝遊戲後再試一次。如果這樣仍未能解決問題的話，請聯絡客服支援。請按下「確認」以在沒有安裝可下載內容的情況下繼續進行遊戲。
       Flags: 00000000000000000000000000
       Languages_Touch: []
+    - Term: lang/open_dlc_page_switch
+      TermType: 0
+      Languages:
+      - 'New content available in the Nintendo eShop '
+      - Nouveau contenu disponible dans le Nintendo eShop
+      - Nuovo contenuto disponibile nel Nintendo eShop
+      - Neue Inhalte im Nintendo eShop verfügbar
+      - Contenido nuevo disponible en Nintendo eShop
+      - Conteúdo novo disponível na Nintendo eShop
+      - Nowa zawartość dostępna w Nintendo eShop
+      - Новый контент доступен в магазине Nintendo eShop
+      - Nintendo eShop'ta yeni içerik mevcut
+      - Nintendo eShop有可用的新内容
+      - ニンテンドーeショップに新コンテンツが登場
+      - Nintendo eShop에서 새로운 콘텐츠 이용 가능
+      - 新內容已在 Nintendo eShop 推出
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/charConfirm_unlock
+      TermType: 0
+      Languages:
+      - Buy
+      - Acheter
+      - Acquista
+      - Kaufen
+      - Comprar
+      - Comprar
+      - Kup
+      - Купить
+      - Satın Al
+      - 购买
+      - 購入
+      - 구매하기
+      - 購買
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/multiplayer_enter_coop_mode
+      TermType: 0
+      Languages:
+      - Enter Co-op
+      - Mode coop
+      - Avvia Coop
+      - Koop betreten
+      - Entrar en cooperativo
+      - Modo cooperativo
+      - Dołącz do kooperacji
+      - Войти в кооператив
+      - Eşli Oyuna Katıl
+      - 加入合作
+      - 協力プレイに参加
+      - 코옵 모드 입장
+      - 進行合作模式
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/options_enable_vsync
+      TermType: 0
+      Languages:
+      - Enable V-Sync
+      - Activer la Vsync
+      - Attiva V-Sync
+      - VSync aktivieren
+      - Activar V-Sync
+      - Ativar sincronização vertical
+      - Włącz synchronizację pionową
+      - Включить верт. синхронизацию
+      - Dikey Senkronizasyonu Etkinleştir
+      - 启用垂直同步
+      - V-Syncを有効化
+      - V-싱크 사용
+      - 啟用垂直同步
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/options_target_framerate
+      TermType: 0
+      Languages:
+      - Target Frame Rate
+      - Fréquence d'images cible
+      - Frequenza fotogrammi desiderata
+      - Zielbildfrequenz
+      - Tasa de fotogramas deseada
+      - Taxa de quadros desejada
+      - Docelowa liczba klatek na sekundę
+      - Целевая частота кадров
+      - Hedef Kare Hızı
+      - 目标帧率
+      - 目標フレームレート
+      - 목표 프레임 레이트
+      - 目標幀率
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/stageConfirm_sharePassives
+      TermType: 0
+      Languages:
+      - Share passives
+      - Partager les passifs
+      - Condividi passivi
+      - Passive Items teilen
+      - Compartir pasivos
+      - Compartilhar itens passivos
+      - Przekazuj efekty przedmiotów pasywnych
+      - Делиться пассивками
+      - Pasif Eşyaları Paylaş
+      - 共享被动效果
+      - パッシブを共有
+      - 패시브 아이템 공유
+      - 分享被動效果
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
     - Term: lang/charConfirm_unlockCondition
       TermType: 0
       Languages:
@@ -7217,40 +7307,22 @@ MonoBehaviour:
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
-    - Term: lang/charConfirm_unlock
+    - Term: lang/options_see_defang
       TermType: 0
       Languages:
-      - Buy
-      - Acheter
-      - Compra
-      - Kaufen
-      - Comprar
-      - Comprar
-      - Kup
-      - Купить
-      - Satın Al
-      - 购买
-      - 購入
-      - 구입
-      - 
-      Flags: 00000000000000000000000000
-      Languages_Touch: []
-    - Term: lang/open_dlc_page_switch
-      TermType: 0
-      Languages:
-      - 'New content available in the Nintendo eShop '
-      - Nouveau contenu disponible dans le Nintendo eShop
-      - Nuovo contenuto disponibile nel Nintendo eShop
-      - Neue Inhalte im Nintendo eShop verfügbar
-      - Contenido nuevo disponible en Nintendo eShop
-      - Conteúdo novo disponível na Nintendo eShop
-      - Nowa zawartość dostępna w Nintendo eShop
-      - Новый контент доступен в магазине Nintendo eShop
-      - Nintendo eShop'ta yeni içerik mevcut
-      - Nintendo eShop有可用的新内容
-      - ニンテンドーeショップに新コンテンツが登場
-      - Nintendo eShop에서 새로운 콘텐츠 이용 가능
-      - Nintendo eShop有可用的新内容
+      - Show Defanged Enemies
+      - Afficher les ennemis affaiblis
+      - Evidenzia Sdentati
+      - Zahnlose Gegner anzeigen
+      - Mostrar enemigos descolmillados
+      - Exibir inimigos debilitados
+      - Pokaż wrogów pozbawionych kłów
+      - Показывать обезвреженных врагов
+      - Zararsız Düşmanları Göster
+      - 显示去齿的敌人
+      - 牙抜き状態の敵を表示
+      - 제거한 적 표시
+      - 標示不會造成傷害的敵人
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: secretLang/{KissMe}description
@@ -12059,6 +12131,114 @@ MonoBehaviour:
       - 找到星界階梯地圖。
       Flags: 00000000000000000000000000
       Languages_Touch: []
+    - Term: achievementLang/{FindManyOrologions}description
+      TermType: 0
+      Languages:
+      - Find 20 Orologions.
+      - Trouvez 20 Orologions.
+      - Trova 20 Orologion.
+      - Finde 20 Orologions.
+      - Encuentra 20 relojes mágicos.
+      - Encontre 20 Orologions.
+      - Znajdź 20 Orologionów.
+      - Найдите 20 часословов.
+      - 20 Zamantutan bul.
+      - 找到20个时祷怀表。
+      - 懐中時計を20個見つける。
+      - 회중시계 20개 찾기.
+      - 找到 20 個時禱懷錶。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: achievementLang/{GetGlassFandangoToLevel7}description
+      TermType: 0
+      Languages:
+      - Get Glass Fandango to Level 7.
+      - Atteignez le niveau 7 du Fandango de verre.
+      - Porta il Fandango di vetro al livello 7.
+      - Bringe den Glas-Fandango auf Level 7.
+      - Mejora la pica de cristal al nivel 7.
+      - Eleve o Folguedo de Vidro para o nível 7.
+      - Doprowadź Szklane fandango do 7. poziomu.
+      - Получите стеклянное фанданго 7 уровня.
+      - Cam Fandango'yu Seviye 7'ye çıkar.
+      - 将玻璃花舞升至7级。
+      - ガラス・ファンダンゴをレベル7に上げる。
+      - 유리 판당고 레벨 7까지 올리기.
+      - 將碎玻璃之舞升到 7 級。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: achievementLang/{EvolveGlassFandango}description
+      TermType: 0
+      Languages:
+      - Evolve the Glass Fandango.
+      - Faites évoluer le Fandango de verre.
+      - Migliora il Fandango di vetro.
+      - Verbessere den Glas-Fandango.
+      - Haz evolucionar la pica de cristal.
+      - Evolua o Folguedo de Vidro.
+      - Ulepsz Szklane fandango.
+      - Улучшите стеклянное фанданго.
+      - Cam Fandango'yu evrilt.
+      - 进化玻璃花舞。
+      - ガラス・ファンダンゴを進化させる。
+      - 유리 판당고 진화시키기.
+      - 解放碎玻璃之舞。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: achievementLang/{SurviveUntilTheEndOfWhiteout}description
+      TermType: 0
+      Languages:
+      - Survive 20 minutes in Whiteout.
+      - Survivez 20 minutes dans la Poudreuse.
+      - Sopravvivi per 20 minuti nell'Incubo bianco.
+      - Überlebe für 20 Minuten in der Schneelandschaft.
+      - Sobrevive 20 minutos en la Ventisca.
+      - Sobreviva por 20 minutos no Alabastro.
+      - Przeżyj 20 minut w Śnieżycy.
+      - Продержитесь 20 минут в Белой мгле.
+      - Bembeyaz'da 20 dakika hayatta kal.
+      - 在冰天雪地存活20分钟。
+      - ホワイトアウトで20分間生き残る。
+      - 화이트아웃에서 20분 동안 생존하기.
+      - 在雪白世界中存活 20 分鐘。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: achievementLang/{FindAntidote}description
+      TermType: 0
+      Languages:
+      - Find the Antidote in Whiteout.
+      - Trouvez l'Antidote dans la Poudreuse.
+      - Trova l'Antidoto nell'Incubo bianco.
+      - Finde in der Schneelandschaft das Gegenmittel.
+      - Encuentra el antídoto en la Ventisca.
+      - Encontre o Antídoto no Alabastro.
+      - Znajdź Antidotum w Śnieżycy.
+      - Найдите антидот в Белой мгле.
+      - Bembeyaz'da Panzehir'i bul.
+      - 在冰天雪地找到解毒剂。
+      - ホワイトアウトで解毒薬を見つける。
+      - 화이트아웃에서 해독제 찾기.
+      - 在雪白世界中找到解毒劑。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: achievementLang/{FindChaosAltemanna}description
+      TermType: 0
+      Languages:
+      - Find the Chaos Altemanna in Tiny Bridge.
+      - Trouvez l'Altemanna du chaos sur le Petit pont.
+      - Trova il Caos Altemanna nel Ponte fino.
+      - Finde das Chaos-Altemanna auf der Winzigen Brücke.
+      - Encuentra la altemanna del caos en el Puente angosto.
+      - Encontre a Altemanna do Caos na Pontezinha.
+      - Znajdź Mannę chaosu w Tycim moście.
+      - Найдите хаос Альтеманна на Мостике.
+      - Ufak Köprü'de Kaos Altemanna'yı bul.
+      - 在小桥找到混沌奥特曼那。
+      - 小さな橋でカオス・アルテマンナを見つける。
+      - 작은 다리에서 카오스 알테만나 찾기.
+      - 在小橋上找到混沌之子。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
     - Term: Xbox Achievements/{EvolveAxe}name
       TermType: 0
       Languages:
@@ -15479,6 +15659,114 @@ MonoBehaviour:
       - 額外：星界階梯地圖
       Flags: 00000000000000000000000000
       Languages_Touch: []
+    - Term: Xbox Achievements/{FindManyOrologions}description
+      TermType: 0
+      Languages:
+      - 'EXTRA: Whiteout'
+      - 'EXTRA : Poudreuse'
+      - 'EXTRA: Incubo bianco'
+      - 'EXTRA: Schneelandschaft'
+      - 'ADICIONAL: Ventisca'
+      - 'EXTRA: Alabastro'
+      - 'EKSTRA: Śnieżyca'
+      - 'ДОПОЛНИТЕЛЬНО: Белая мгла'
+      - 'EKSTRA: Bembeyaz'
+      - 额外：冰天雪地
+      - 追加：ホワイトアウト
+      - '추가: 화이트아웃'
+      - 額外：雪白世界
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: Xbox Achievements/{GetGlassFandangoToLevel7}description
+      TermType: 0
+      Languages:
+      - 'EXTRA: Glass Fandango'
+      - 'EXTRA : Fandango de verre'
+      - 'EXTRA: Fandango di vetro'
+      - 'EXTRA: Glas-Fandango'
+      - 'ADICIONAL: Pica de cristal'
+      - 'EXTRA: Folguedo de Vidro'
+      - 'EKSTRA: Szklane Fandango'
+      - 'ДОПОЛНИТЕЛЬНО: стеклянное фанданго'
+      - 'EKSTRA: Cam Fandango'
+      - 额外：玻璃花舞
+      - 追加：グラス・ファンダンゴ
+      - '추가: 유리 판당고'
+      - 額外：碎玻璃之舞
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: Xbox Achievements/{EvolveGlassFandango}description
+      TermType: 0
+      Languages:
+      - 'EXTRA: Celestial Voulge'
+      - 'EXTRA : Vouge céleste'
+      - 'EXTRA: Voulgia celeste'
+      - 'EXTRA: Himmelsvoulge'
+      - 'ADICIONAL: Alabarda celeste'
+      - 'EXTRA: Cutelo Celestial'
+      - 'EKSTRA: Sklepienie niebieskie'
+      - 'ДОПОЛНИТЕЛЬНО: небесный вульж'
+      - 'EKSTRA: Göksel Voulge'
+      - 额外：天国刺戟
+      - 追加：セレスティアル・ヴルジ
+      - '추가: 천상의 장창'
+      - 額外：星辰槍斧
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: Xbox Achievements/{SurviveUntilTheEndOfWhiteout}description
+      TermType: 0
+      Languages:
+      - 'EXTRA: She-Moon Eeta'
+      - 'EXTRA : She-Moon Eeta'
+      - 'EXTRA: She-Moon Eeta'
+      - 'EXTRA: She-Moon Eeta'
+      - 'ADICIONAL: She-Moon Eeta'
+      - 'EXTRA: She-Moon Eeta'
+      - 'EKSTRA: She-Moon Eeta'
+      - 'ДОПОЛНИТЕЛЬНО: Боли-ван Ика'
+      - 'EKSTRA: She-Moon Eeta'
+      - 额外：“傻妞”埃塔
+      - 追加：シームーン・イータ
+      - '추가: 쉬문 에타'
+      - 額外：憨厚月娘伊塔
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: Xbox Achievements/{FindAntidote}description
+      TermType: 0
+      Languages:
+      - 'EXTRA: Antidote'
+      - 'EXTRA : Antidote'
+      - 'EXTRA: Antidoto'
+      - 'EXTRA: Gegenmittel'
+      - 'ADICIONAL: Antídoto'
+      - 'EXTRA: Antídoto'
+      - 'EKSTRA: Antidotum'
+      - 'ДОПОЛНИТЕЛЬНО: антидот'
+      - 'EKSTRA: Panzehir'
+      - 额外：解毒剂
+      - 追加：解毒薬
+      - '추가: 해독제'
+      - 額外：解毒劑
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: Xbox Achievements/{FindChaosAltemanna}description
+      TermType: 0
+      Languages:
+      - 'EXTRA: Chaos Altemanna'
+      - 'EXTRA : Altemanna du chaos'
+      - 'EXTRA: Caos Altemanna'
+      - 'EXTRA: Chaos-Altemanna'
+      - 'ADICIONAL: Altemanna del caos'
+      - 'EXTRA: Altemanna do Caos'
+      - 'EKSTRA: Manna chaosu'
+      - 'ДОПОЛНИТЕЛЬНО: хаос Альтеманна'
+      - 'EKSTRA: Kaos Altemanna'
+      - 额外：混沌奥特曼那
+      - 追加：カオス・アルテマンナ
+      - '추가: 카오스 알테만나'
+      - 額外：混沌之子
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
     - Term: itemLang/{CLOVER}description
       TermType: 0
       Languages:
@@ -17678,7 +17966,7 @@ MonoBehaviour:
     - Term: itemLang/{RELIC_LAZULIA}achievementTips
       TermType: 0
       Languages:
-      - Surprise!
+      - TBD
       - 
       - 
       - 
@@ -17697,54 +17985,54 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Chaos Altemanna
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Altemanna du chaos
+      - Caos Altemanna
+      - Chaos-Altemanna
+      - Altemanna del caos
+      - Altemanna do Caos
+      - Manna chaosu
+      - Хаос Альтеманна
+      - Kaos Altemanna
+      - 混沌奥特曼那
+      - カオス・アルテマンナ
+      - 카오스 알테만나
+      - 混沌之子
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: itemLang/{RELIC_ALTEMANNA}description
       TermType: 0
       Languages:
       - Allows O'Sole Meeo to morph when reaching Level 80.
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - O'Sole Meeo se transforme au niveau 80.
+      - Consente a O'Sole Meeo di trasformarsi quando raggiunge il livello 80.
+      - Ermöglicht O'Sole Meeo die Verwandlung ab Level 80.
+      - Permite que O'Sole Meeo se transforme al alcanzar el nivel 80.
+      - Permite que O'Sole Meeo se transforme ao alcançar o nível 80.
+      - Umożliwia O'Sole Meeo przekształcenie się po osiągnięciu 80. poziomu.
+      - Позволяет О'Солле Мио менять форму по достижении 80 уровня.
+      - O'Sole Meeo'nun Seviye 80'e ulaşıldığında dönüşmesine olanak sağlar.
+      - “小太阳”在达到80级时可以变身。
+      - レベル80に到達すると、オ・ソレミーオが変身できるようになる。
+      - 레벨 80 도달 시 오'솔레 미오를 변신시킵니다.
+      - 小太陽米奧在達到 80 級後可以變身。
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: itemLang/{RELIC_ALTEMANNA}achievementTips
       TermType: 0
       Languages:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Profusione D'Amore.
+      - Amour à foison
+      - Profusione D'Amore
+      - Liebesschwall
+      - Profusione d'amore
+      - Profusione D'Amore
+      - Obfitość miłości
+      - Профузьонэ Д'Аморе
+      - Profusione D'Amore
+      - 爱的盛放
+      - あふれる愛
+      - 넘치는 애정
+      - 濃情蜜意
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: itemLang/{RELIC_CHAOSEGG}name
@@ -17786,7 +18074,7 @@ MonoBehaviour:
     - Term: itemLang/{RELIC_CHAOSEGG}achievementTips
       TermType: 0
       Languages:
-      - 
+      - TBD
       - 
       - 
       - 
@@ -17805,17 +18093,17 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Brave Story
-      - Trisection
-      - Trisezione
-      - Dreiteilung
-      - Trisección
-      - Trisseção
-      - Trysekcja
-      - Трисекция
-      - Üçlenmiş
-      - 三等分图
-      - トライセクション
-      - 트라이섹션
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
@@ -17823,17 +18111,17 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Allows to enable random level ups.
-      - Active les événements aléatoires dans les niveaux.
-      - Attiva gli eventi casuali in tutti i livelli.
-      - Aktiviert Zufallsevents in allen Stages.
-      - Activa sucesos aleatorios en todas las fases.
-      - Ativa eventos aleatórios em todas as fases.
-      - Uruchamia losowe wydarzenia we wszystkich etapach.
-      - Разрешает случайные события на всех этапах.
-      - Tüm bölümlerde rastgele olayları etkinleştirir.
-      - 在所有关卡启动随机事件。
-      - 全ステージでランダムイベントを有効にする。
-      - 모든 스테이지에서 랜덤 이벤트를 활성화합니다.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
@@ -17841,17 +18129,17 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Random LevelUp.
-      - Événements aléatoires.
-      - Eventi casuali.
-      - Zufallsevents.
-      - Sucesos aleatorios.
-      - Eventos Aleatórios.
-      - Losowe Wydarzenia.
-      - Случайные события.
-      - Rastgele Olaylar.
-      - 随机事件。
-      - ランダムイベント。
-      - 랜덤 이벤트.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
@@ -17859,17 +18147,17 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Antipyretic
-      - Trisection
-      - Trisezione
-      - Dreiteilung
-      - Trisección
-      - Trisseção
-      - Trysekcja
-      - Трисекция
-      - Üçlenmiş
-      - 三等分图
-      - トライセクション
-      - 트라이섹션
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
@@ -17877,17 +18165,17 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Allows to buy the Fever PowerUp.
-      - Active les événements aléatoires dans les niveaux.
-      - Attiva gli eventi casuali in tutti i livelli.
-      - Aktiviert Zufallsevents in allen Stages.
-      - Activa sucesos aleatorios en todas las fases.
-      - Ativa eventos aleatórios em todas as fases.
-      - Uruchamia losowe wydarzenia we wszystkich etapach.
-      - Разрешает случайные события на всех этапах.
-      - Tüm bölümlerde rastgele olayları etkinleştirir.
-      - 在所有关卡启动随机事件。
-      - 全ステージでランダムイベントを有効にする。
-      - 모든 스테이지에서 랜덤 이벤트를 활성화합니다.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
@@ -17895,17 +18183,17 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Fever PowerUp.
-      - Événements aléatoires.
-      - Eventi casuali.
-      - Zufallsevents.
-      - Sucesos aleatorios.
-      - Eventos Aleatórios.
-      - Losowe Wydarzenia.
-      - Случайные события.
-      - Rastgele Olaylar.
-      - 随机事件。
-      - ランダムイベント。
-      - 랜덤 이벤트.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
@@ -17961,6 +18249,60 @@ MonoBehaviour:
       - プレイヤーが2人以上の場合のみ使用可能。
       - 2명 이상의 플레이어와 함께 플레이할 때만 사용할 수 있습니다.
       - 只有在跟 2 位以上的玩家一起遊玩時，才可使用本強化。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: itemLang/{RELIC_ANTIDOTE}name
+      TermType: 0
+      Languages:
+      - Antidote
+      - Antidote
+      - Antidoto
+      - Gegenmittel
+      - Antídoto
+      - Antídoto
+      - Antidotum
+      - Антидот
+      - Panzehir
+      - 解毒剂
+      - 解毒薬
+      - 해독제
+      - 解毒劑
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: itemLang/{RELIC_ANTIDOTE}description
+      TermType: 0
+      Languages:
+      - Allows to buy the Defang PowerUp.
+      - Permet d'acheter le bonus d'affaiblissement.
+      - Consente di acquistare il potenziamento Senza denti.
+      - Ermöglicht den Kauf des Zahnlos-Power-ups.
+      - Permite comprar la mejora descolmillar.
+      - Permite comprar o aprimoramento Debilidade.
+      - Odblokowuje wzmocnienie Pozbawienia Kłów.
+      - Позволяет приобрести усиление «Очарование».
+      - Zararsızlaştırma Güçlendirmesi'ni satın almaya olanak sağlar.
+      - 可以购买强化：去齿。
+      - 牙抜きパワーアップが購入できるようになる。
+      - 옥수수 털기 강화를 구매할 수 있습니다.
+      - 讓你可以購買強化：消除威脅。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: itemLang/{RELIC_ANTIDOTE}achievementTips
+      TermType: 0
+      Languages:
+      - Defang PowerUp.
+      - Bonus d'affaiblissement.
+      - Potenziamento Senza denti.
+      - Zahnlos-Power-up.
+      - Mejora descolmillar.
+      - Aprimoramento Debilidade.
+      - Wzmocnienie Pozbawienia Kłów.
+      - Усиление «Очарования».
+      - Zararsızlaştırma Güçlendirmesi.
+      - 强化：去齿。
+      - 牙抜きパワーアップ。
+      - 옥수수 털기를 강화합니다.
+      - 強化：消除威脅。
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: powerUpLang/{POWER}name
@@ -18831,36 +19173,72 @@ MonoBehaviour:
       TermType: 0
       Languages:
       - Fever
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Il est l'or
+      - Febbre
+      - Rausch
+      - Fiebre
+      - Febre
+      - Gorączka
+      - Лихорадка
+      - Kasırga
+      - 狂热
+      - フィーバー
+      - 피버
+      - 狂潮
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: powerUpLang/{FEVER}description
       TermType: 0
       Languages:
-      - Increases duration of Gold Fever and GoldFinger by 10% per rank (max +50%).
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Increases duration of Gold Fever and Gold Finger by 10% per rank (max +50%).
+      - Augmente la durée de Pluie d'or et de Doigt d'or de 10 % par rang (+50 % max).
+      - Aumenta la durata di Febbre dell'oro e di Dito d'oro del 10% per grado (max +50%).
+      - Erhöht die Dauer von Goldrausch und Goldfinger um 10% pro Rang (max. 50%).
+      - 'Aumenta la duración de fiebre del oro y dedo dorado un 10 % por grado (máx.: +50 %).'
+      - Aumenta a duração de Febre de Ouro e Dedo de Ouro em 10% por classe (máx. de +50%).
+      - Zwiększa czas trwania Gorączki Złota i Złotego Palca o 10% na rangę (maks. +50%).
+      - Увеличивает продолжительность Золотой лихорадки и Золотого перста на 10% с каждым рангом (макс. +50%).
+      - Altın Kasırgası ve Altın Parmak'ın süresini rütbe başına %10 artırır (en fazla +%50).
+      - 每强化一层，淘金狂潮和金手指的持续时间+10%，最多+50%。
+      - ゴールデンフィーバーと黄金の指の持続時間が1ランクにつき10%増加（上限：+50%）。
+      - 랭크당 황금의 피버타임과 골드 핑거의 지속 시간이 10%(최대 +50%) 증가합니다.
+      - 每級能讓淘金狂潮與金手指的效果持續時間延長 10%，最多延長 50%。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: powerUpLang/{DEFANG}name
+      TermType: 0
+      Languages:
+      - Defang
+      - Affaiblissement
+      - Senza denti
+      - Zahnlos
+      - Descolmillar
+      - Debilidade
+      - Pozbawienie Kłów
+      - Обезвреживание
+      - Zararsızlaştırma
+      - 去齿
+      - 牙抜き
+      - 옥수수 털기
+      - 威脅減輕
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: powerUpLang/{DEFANG}description
+      TermType: 0
+      Languages:
+      - Enemies spawn unable to deal damage 3% of the times per rank (max 15%).
+      - Les ennemis ont 3 % de chances par rang de ne pas infliger de dégâts (15 % max).
+      - I nemici generati non infliggono danni il 3% delle volte per grado (max 15%).
+      - Feinde erscheinen in 3% der Fälle pro Rang (max. 15%), ohne dass sie Schaden verursachen können.
+      - 'Cada enemigo que aparece tiene un 3 % de probabilidad por grado de no poder causar daño (máx.: 15 %).'
+      - Inimigos que surgem são incapazes de causar dano em 3% das vezes por classe (máx. de 15%).
+      - Pojawiający się wrogowie nie są w stanie zadawać obrażeń w 3% przypadków na rangę (maks. 15%).
+      - Враги появляются неспособными нанести урон в 3% случаев за каждый ранг (макс. 15%).
+      - Düşmanlar rütbe başına %3 daha az hasar verecek şekilde doğar (maksimum %15).
+      - 每强化一层，无法造成伤害的敌人+3%，最多+15%。
+      - 敵が出現後1ランクにつき3%の確率でダメージ付与できなくなる（上限：15%）。
+      - 적의 스폰이 랭크당 시간의 3%(최대 15%) 동안은 피해를 줄 수 없습니다.
+      - 每級可使 3% 的生成敵人無法造成傷害，最高可將機率提高至 15%。
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: arcanaLang/{4}name
@@ -20553,6 +20931,132 @@ MonoBehaviour:
       - 他の世界や次元との行き来に使用される高速道路のようなもの。たった1人で向かうには非常に危険な場所だが、おそらく誰かさんはそんな忠告おかまいなしに乗り込むんだろう？
       - 다른 세계와 차원으로 가기 위한 고속도로입니다. 혼자서 여행을 떠나는 건 위험하지만, 제가 아무리 이렇게 말해도 안 들으실 것 같은데요?
       - 這曾經是一條通往其他世界與維度的要道。單獨前去其中冒險的話，想必是很危險的，但你大概也不會聽我的勸，對吧？
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: stageLang/{WHITEOUT}stageName
+      TermType: 0
+      Languages:
+      - Whiteout
+      - Poudreuse
+      - Incubo bianco
+      - Schneelandschaft
+      - Ventisca
+      - Alabastro
+      - Śnieżyca
+      - Белая мгла
+      - Bembeyaz
+      - 冰天雪地
+      - ホワイトアウト
+      - 화이트아웃
+      - 雪白世界
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: stageLang/{WHITEOUT}description
+      TermType: 0
+      Languages:
+      - Arctic mirages and a slow, constant snowstorm make this great glacier a hostile environment. Nonetheless, the myths of a powerful weapon, a mysterious potion, and a cursed woman who hates hot springs, make for strong lures.
+      - Les mirages arctiques et les tempêtes de neige à répétition rendent ce grand glacier inhospitalier. On s'y aventure toutefois dans l'espoir de trouver une arme, une potion ou une femme maudite qui abhorre les sources chaudes.
+      - I miraggi artici e una lenta, ma costante tempesta di neve rendono questo enorme ghiacciaio un ambiente ostile. Ciononostante, le leggende che narrano di un'arma poderosa, una pozione misteriosa e una donna maledetta che odia le terme esercitano un'attrattiva irresistibile.
+      - Arktische Illusionen und ein stetiger, anhaltender Schneesturm machen diesen großen Gletscher zu einer feindseligen Umgebung. Doch die Legenden über eine mächtige Waffe, einen geheimnisvollen Zaubertrank und eine verfluchte Dame, die heiße Quellen hasst, sind zu verlockend.
+      - Los espejismos árticos y la constante tormenta de nieve hacen de este glaciar un entorno hostil. Sin embargo, muchas personas se ven atraídas por las leyendas sobre un arma que derrocha poder, una poción misteriosa y una mujer maldita que odia las aguas termales.
+      - Miragens árticas e uma nevasca lenta e constante fazem dessa bela geleira um ambiente hostil. Contudo, os mitos de uma arma poderosa, uma poção misteriosa e uma mulher amaldiçoada que odeia fontes termais são muito cativantes.
+      - Ten wielki lodowiec, z arktycznymi mirażami i powolną, niekończącą się burzą śnieżną, stanowi wrogie środowisko. Jednak legendy o potężnej broni, tajemniczym eliksirze i przeklętej kobiecie, która nienawidzi gorących źródeł, bywają zbyt kuszące.
+      - Арктические миражи и медленная, вечная снежная буря превращают этот огромный ледник во враждебную среду обитания. Тем не менее мифы о мощном оружии, таинственном зелье и проклятой женщине, которая ненавидит горячие источники, так и манят.
+      - Kutup serapları ve yavaş ama aralıksız bir kar fırtınası bu büyük buzulu tehlikeli bir ortama dönüştürür. Bunlara rağmen, güçlü bir silah, gizemli bir iksir ve kaplıcalardan nefret eden lanetli bir kadın hakkındaki efsaneler burayı oldukça cazip kılmaktadır.
+      - 极地的幻景和一场漫长持久的暴风雪使这片巨大的冰川成了一处苦寒险境。尽管如此，这里依然流传着关于神兵、灵药和一个讨厌温泉的受诅咒女人的传说，让人不禁想深入其中，一探究竟。
+      - 北極の蜃気楼と絶え間なく続く吹雪によって、この広大な氷河はかなりの危険地帯となっている。それでも強力な武器、未知のポーション、そして温泉嫌いの呪われた女性にまつわる謎が人と怪奇を惹きつけてやまないのだ。
+      - 북극의 신기루와 느리고 끊임없는 눈보라에 둘러싸인 이 거대한 빙하 때문에 환경은 더욱 혹독해집니다. 그렇더라도 강력한 무기와 신비한 약, 온천이라면 질색하는 저주받은 여자의 신화는 거부할 수 없을 만큼 매혹적이죠.
+      - "寒冷極地中的海市蜃樓，以及仁慈但不願歸去的暴風雪，把這片巨大的冰河塑造成一個嚴峻的險地。\n即便如此，在聽到傳聞說這片土地蘊藏著強大的武器、神秘的藥水以及一位討厭溫泉且受到詛咒的女子後，大家仍舊義無反顧地來到了這個危機四伏的地方。"
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: stageLang/{WHITEOUT}tips
+      TermType: 0
+      Languages:
+      - Enemies are slow and weak to fire.
+      - Les ennemis sont lents et craignent le feu.
+      - I nemici sono lenti e vulnerabili al fuoco.
+      - Gegner sind langsam und anfällig für Feuer.
+      - Los enemigos son lentos y vulnerables al fuego.
+      - Inimigos são lentos e vulneráveis ao fogo.
+      - Wrogowie są powolni i podatni na ogień.
+      - Враги медленные и уязвимые к огню.
+      - Düşmanlar yavaştır ve ateşe karşı savunmasızlardır.
+      - 敌人行动缓慢，且受火焰克制。
+      - 敵は動きが遅く、炎に弱い。
+      - 적들은 느리고 불에 약합니다.
+      - 敵人速度變慢，對火焰的抗性也較低。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: stageLang/{ADV_M001CASTLEGROUNDS}stageName
+      TermType: 0
+      Languages:
+      - Castle Grounds
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: stageLang/{ADV_M001CASTLEGROUNDS}description
+      TermType: 0
+      Languages:
+      - We will reclaim the lands of our clan! I am ready to slay Orochimario! -Miang Moonspell
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: stageLang/{ADV_M002SHRINESVALLEY}stageName
+      TermType: 0
+      Languages:
+      - Shrine Valley
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: stageLang/{ADV_M002SHRINESVALLEY}description
+      TermType: 0
+      Languages:
+      - Miang wasn't ready. She escapes and goes on a journey to seek the guidance of her ancestor, Menya.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: weaponLang/{WHIP}name
@@ -26498,7 +27002,7 @@ MonoBehaviour:
     - Term: weaponLang/{CART2EVO}description
       TermType: 0
       Languages:
-      - 
+      - TBD
       - 
       - 
       - 
@@ -26534,37 +27038,37 @@ MonoBehaviour:
     - Term: weaponLang/{FLOWER2}name
       TermType: 0
       Languages:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Profusione D'Amore
+      - Profusion d'Amore
+      - Profusion d'Amore
+      - Profusione d'amore
+      - Profusione d'Amore
+      - Profusão d'Amore
+      - Profusione d'Amore
+      - Исполнение д'Амор
+      - Profuse D'Amore
+      - 大量的阿莫尔
+      - Fusioned'Amore
+      - 풍부한 D 'Amore
+      - 大量的阿莫爾
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: weaponLang/{FLOWER2}description
       TermType: 0
       Languages:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Evolved Celestial Dusting. Projectiles generate a chain explosion at fixed intervals.
+      - Dépoussiérage céleste a évolué. Les projectiles génèrent une explosion de chaîne à intervalles fixes.
+      - Spolveratura celeste evoluta. I proiettili generano un'esplosione a catena a intervalli fissi.
+      - Evolved Celestial Dusting. Projektile erzeugen eine Kettenexplosion in festen Abständen.
+      - Desbloqueado celestial evolucionado. Los proyectiles generan una explosión en cadena a intervalos fijos.
+      - Evoluído Celestial Dusting. Projéteis geram uma explosão de cadeia em intervalos fixos.
+      - Rozwinięte niebiańskie odkurzanie. Pociski generują eksplozję łańcucha w ustalonych odstępach czasu.
+      - Эволюционировал небесную пыль. Снаряды генерируют взрыв цепи с фиксированными интервалами.
+      - Gelişmiş göksel toz. Mermiler sabit aralıklarla bir zincir patlaması üretir.
+      - 进化的天体灰尘。弹丸以固定的间隔产生链爆炸。
+      - 進化した天の塵。発射体は、固定間隔で連鎖爆発を生成します。
+      - 진화 된 천체 먼지. 발사체는 고정 간격으로 체인 폭발을 생성합니다.
+      - 進化的天體灰塵。彈丸以固定的間隔產生鏈爆炸。
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: weaponLang/{FLOWER2}tips
@@ -27177,6 +27681,132 @@ MonoBehaviour:
       - 
       - 
       - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: weaponLang/{ICELANCE}name
+      TermType: 0
+      Languages:
+      - Glass Fandango
+      - Fandango de verre
+      - Fandango di vetro
+      - Glas-Fandango
+      - Pica de cristal
+      - Folguedo de Vidro
+      - Szklane fandango
+      - Стеклянное фанданго
+      - Cam Fandango
+      - 玻璃花舞
+      - グラス・ファンダンゴ
+      - 유리 판당고
+      - 碎玻璃之舞
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: weaponLang/{ICELANCE}description
+      TermType: 0
+      Languages:
+      - Stronger with movement, Orologions, and against frozen enemies.
+      - Plus efficace avec les déplacements et les Orologions, et sur les ennemis immobilisés.
+      - Più potente con movimento, Orologion e contro i nemici congelati.
+      - Stärker bei Bewegung, mit Orologions und gegen vereiste Gegner.
+      - Se hace más fuerte con el movimiento, los relojes mágicos y contra los enemigos congelados.
+      - Mais forte com movimento, Orologions e contra inimigos congelados.
+      - Ruch, Orologiony i zamrożeni wrogowie potęgują działanie tej broni.
+      - Усиливается при движении, часословах и против замороженных врагов.
+      - Hareket ve Zamantutan ile birlikte donmuş düşmanlara karşı daha güçlüdür.
+      - 移动、时祷怀表可以增强威力，对被冻住的敌人有更高的伤害。
+      - 動きと懐中時計で強さが増し、氷系の敵に強い。
+      - 이동하거나 회중시계가 생길 때, 그리고 적이 얼어붙었을 때 더욱 강력해집니다.
+      - 適合與移動速度的加成以及時禱懷錶做搭配，對被冰凍的敵人能造成大量傷害。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: weaponLang/{ICELANCE}tips
+      TermType: 0
+      Languages:
+      - 'Ignores: Speed, Duration.'
+      - 'Ignore : vitesse, durée.'
+      - 'Ignora: Velocità, Durata.'
+      - 'Ignoriert: Tempo, Dauer.'
+      - 'Ignora: velocidad, duración.'
+      - 'Ignora: Velocidade, Duração.'
+      - 'Ignoruje: Prędkość i Czas trwania.'
+      - 'Игнорирует: скорость, продолжительность.'
+      - 'Yok Sayar: Hız, Tesir Süresi.'
+      - 无关：速度、持续时间。
+      - 弾速、効果時間は効果をもたらさない。
+      - '강화 무시: 투사체 속도, 지속시간'
+      - 無加成效果：速度、效果持續時間。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: weaponLang/{ICELANCE2}name
+      TermType: 0
+      Languages:
+      - Celestial Voulge
+      - Vouge céleste
+      - Voulgia celeste
+      - Himmelsvoulge
+      - Alabarda celeste
+      - Cutelo Celestial
+      - Sklepienie niebieskie
+      - Небесный вульж
+      - Göksel Voulge
+      - 天国刺戟
+      - セレスティアル・ヴルジ
+      - 천상의 장창
+      - 星辰槍斧
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: weaponLang/{ICELANCE2}description
+      TermType: 0
+      Languages:
+      - Evolved Glass Fandango. Might deal critical damage and freeze enemies. Turns Orologions into Starry Heavens.
+      - Évolution du Fandango de verre. Peut infliger des dégâts critiques et immobiliser. Transforme les Orologions en Cieux étoilés.
+      - Evoluzione del Fandango di ghiaccio. Può infliggere danni critici e congelare i nemici. Trasforma gli Orologion in Cieli stellati.
+      - Verbesserter Glas-Fandango. Kann kritischen Schaden verursachen und Gegner einfrieren. Verwandelt Orologions in Sternenhimmel.
+      - Evolución de la pica de cristal. Puede causar daño crítico y congelar enemigos. Transforma los relojes mágicos en cielos estrellados.
+      - Evolução do Folguedo de Vidro. Pode causar dano crítico e paralisar inimigos. Transforma Orologions em Firmamentos Estrelados.
+      - Ulepszone Szklane fandango. Może zadać obrażenia krytyczne i zamrozić wrogów. Zamienia Orologiony w Gwieździste niebo.
+      - Улучшенное стеклянное фанданго. Может наносить критический урон и замораживать врагов. Превращает часословов в звездные небеса.
+      - Evrimleşmiş Cam Fandango. Kritik hasar verebilir ve düşmanları dondurabilir. Zamantutanları Yıldızlı Cennetlere dönüştürür.
+      - 进化后的玻璃花舞，有一定几率造成暴击和冻住敌人，可以将时祷怀表变为满天星。
+      - グラス・ファンダンゴの進化系。クリティカルダメージを凍結を食らわせる可能性あり。懐中時計を星々のきらめきに変化させる。
+      - 진화한 유리 판당고입니다. 치명적인 피해를 주고 적을 얼어붙게 만들 수도 있습니다. 회중시계를 별빛 천국으로 바꿉니다.
+      - 解放版的碎玻璃之舞。有機率能造成暴擊傷害並冰凍敵人。能把時禱懷錶轉換成星之天。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: weaponLang/{ICELANCE2}tips
+      TermType: 0
+      Languages:
+      - 'Requires Max: Move Speed.'
+      - 'Requiert : déplacement au max.'
+      - 'Necessita del massimo di: Velocità di movimento.'
+      - 'Erfordert Max.: Bewegungstempo.'
+      - 'Requiere: vel. de movimiento al máximo.'
+      - 'Requer máx. de: Velocidade de Movimento.'
+      - 'Wymagany maks. poziom: Prędkość ruchu.'
+      - 'Требуется макс.: скорость движения.'
+      - 'Maks Gerektirir: HareketHızı.'
+      - 需要翅膀（最高级）。
+      - 最大値の移動速度が必要。
+      - '최대치 필요: 이동 속도.'
+      - 需要將以下數值升滿：移動速度
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: weaponLang/{ICELANCE2}customDescValue
+      TermType: 0
+      Languages:
+      - Turns Orologions into Starry Heavens.
+      - Transforme les Orologions en Cieux étoilés.
+      - Trasforma gli Orologion in Cieli stellati.
+      - Verwandelt Orologions in Sternenhimmel.
+      - Transforma los relojes mágicos en cielos estrellados.
+      - Transforma Orologions em Firmamentos Estrelados.
+      - Zamienia Orologiony w Gwieździste niebo.
+      - Превращает часословов в звездные небеса.
+      - Zamantutanları Yıldızlı Cennetlere dönüştürür.
+      - 将时祷怀表变为满天星。
+      - 懐中時計を星々のきらめきに変化させる。
+      - 회중시계를 별빛 천국으로 바꿉니다.
+      - 能把時禱懷錶轉換成星之天。
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: characterLang/{ANTONIO}description
@@ -31461,6 +32091,78 @@ MonoBehaviour:
       - 
       - 
       - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: characterLang/{SHEMOONITA}prefix
+      TermType: 0
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: characterLang/{SHEMOONITA}charName
+      TermType: 0
+      Languages:
+      - She-Moon
+      - She-Moon
+      - She-Moon
+      - She-Moon
+      - She-Moon
+      - She-Moon
+      - She-Moon
+      - Боли-ван
+      - She-Moon
+      - “傻妞”
+      - シームーン
+      - 쉬문
+      - 憨厚月娘
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: characterLang/{SHEMOONITA}surname
+      TermType: 0
+      Languages:
+      - Eeta
+      - Eeta
+      - Eeta
+      - Eeta
+      - Eeta
+      - Eeta
+      - Eeta
+      - Ика
+      - Eeta
+      - 埃塔
+      - イータ
+      - 에타
+      - 伊塔
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: characterLang/{SHEMOONITA}description
+      TermType: 0
+      Languages:
+      - Freezes all enemies for 10 seconds when health reaches a critically low level.
+      - Immobilise tous les ennemis pendant 10 secondes lorsque sa santé est au plus bas.
+      - Congela tutti i nemici per 10 secondi quando la salute raggiunge un livello critico.
+      - Friert alle Feinde für 10 Sekunden ein, wenn ihre Gesundheit einen kritisch niedrigen Wert erreicht.
+      - Congela a todos los enemigos durante 10 segundos cuando su salud llega a un punto crítico.
+      - Paralisa todos os inimigos por 10 segundos quando a Vida chega a um nível crítico.
+      - Zamraża wszystkich wrogów na 10 sekund, gdy zdrowie osiąga krytycznie niski poziom.
+      - Замораживает всех врагов на 10 секунд, когда значение здоровья падает до критического уровня.
+      - Sağlık düzeyi kritik derecede düşük bir seviyeye ulaştığında tüm düşmanları 10 saniye boyunca dondurur.
+      - 当生命值达到极低水平时，瞬间让所有敌人停止，持续10秒。
+      - HPが著しく下がると、敵全員を10秒間凍結させる。
+      - 체력이 심각하게 낮은 레벨에 도달하면 10초 동안 모든 적을 동결시킵니다.
+      - 生命值降至極限時，冰凍所有敵人 10 秒。
       Flags: 00000000000000000000000000
       Languages_Touch: []
     - Term: enemiesLang/{ANGEL1}bDesc
@@ -37655,6 +38357,186 @@ MonoBehaviour:
       - 有傳聞說，這些袍服是有感知的惡魔，祂們能纏繞住毫無戒備的旁觀者來強迫他們聽從自己邪惡的命令。據說，每當有人忘記關上高塔的窗戶時，祂們就會出現。
       Flags: 00000000000000000000000000
       Languages_Touch: []
+    - Term: enemiesLang/{EX_SNOWMAN_HAUNTED}bName
+      TermType: 0
+      Languages:
+      - Bambaman
+      - Bamba de neige
+      - Bambaman
+      - Kokamann
+      - Moñeco de «nieve»
+      - Homem de Pó
+      - Bałwanek
+      - Снежок
+      - Bambaman
+      - 白粉怪
+      - バンバマン
+      - 밤바맨
+      - 白雪怪
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_SNOWMAN_HAUNTED}bDesc
+      TermType: 0
+      Languages:
+      - Where are all the snowman when it's not the festive season? Here.
+      - Où viennent se réfugier les bonhommes de neige quand les fêtes se terminent ? Ici, pardi !
+      - Dove finiscono i pupazzi di neve quando finiscono le feste? Qui.
+      - Wo sind denn die Schneemänner, wenn nicht gerade Weihnachtszeit ist? Hier natürlich.
+      - ¿Dónde van todos los moñecos cuando terminan las fiestas? Pues aquí.
+      - Aonde vão todos os bonecos de neve fora da época das festas? Pra cá.
+      - Gdzie są wszystkie bałwany, kiedy nie ma Świąt? Tutaj.
+      - Где все снеговики не в праздничный сезон? Здесь.
+      - Yılbaşından sonra tüm kardan adamlar nereye gider? Buraya.
+      - 非节假日的时候，雪人都去哪儿了？在这里。
+      - ホリデーシーズンが終わると消える雪ダルマたち。彼らはなんと、ここでオフシーズンを過ごしていたらしい。
+      - 크리스마스 시즌이 아닐 때, 눈사람은 모두 어디에 있을까요? 여기있죠.
+      - 冬季佳節過後，雪人都跑哪去了呢？原來都在這裡呀。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_GOLEM_ICE}bName
+      TermType: 0
+      Languages:
+      - Menta Elemental
+      - Élémentaire mentholé
+      - Elementale della menta
+      - Menta-Elementar
+      - Elemental de menta
+      - Elemental Mentolado
+      - Żarłoczny Żywiołak
+      - Ментоловый элементаль
+      - Menta Elemental
+      - 邪精灵
+      - メンタ・エレメンタル
+      - 멘타 엘리멘탈
+      - 薄荷元素
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_GOLEM_ICE}bDesc
+      TermType: 0
+      Languages:
+      - Sometimes there's so much greed summoned in the world that there aren't enough creatures, dead or alive, to contain it. When that happens, greed soaks into things and brings them to act, even the deep earth itself is raised into berserk elementals. Available in white and blue.
+      - 'Parfois, la cupidité du monde est telle que les créatures, mortes ou vives, ne suffisent plus à la maîtriser. Dès lors, ce vice vient s''infiltrer dans toute chose, même dans la terre la plus profonde, pour façonner des élémentaires déjantés. Coloris disponibles : blanc et bleu.'
+      - Talvolta l'avidità evocata sulla terra è talmente grande che le creature, vive o morte che siano, non bastano a contenerla. Quando ciò accade, l'avidità si insinua negli oggetti e li porta in vita, riuscendo perfino a trasformare le profondità della terra in elementali fuori controllo. Disponibile in bianco e blu.
+      - Manchmal ist so viel Gier in der ganzen Welt, dass es nicht genug Lebewesen gibt, weder tot noch lebendig, um sie in Schach zu halten. Wenn dies geschieht, sickert die Gier in alles hinein und lässt es handeln. Sogar die tiefe Erde selbst wird in rasende Elementare verwandelt. In Weiß und Blau verfügbar.
+      - En ocasiones, la avaricia del mundo llega a tal punto que no existen las suficientes criaturas, vivas o muertas, para contenerla. Cuando eso ocurre, la avaricia penetra en las cosas y las dota de vida, hasta las profundidades de la tierra emergen como elementales furiosos. Disponibles en blanco y azul.
+      - Às vezes a quantidade de ganância invocada no mundo é tão grande que não há criaturas, vivas ou mortas, suficientes para conter tudo. Quando isso acontece, a ganância se infiltra nas coisas, e elas ganham vida. Até as profundezas da terra despertam e geram elementais desvairados. Disponíveis nas cores branca e azul.
+      - Czasami na świecie pojawia się tak wiele chciwości, że nie ma wystarczającej liczby stworzeń, żywych czy martwych, by ją pomieścić. Gdy tak się dzieje, chciwość wsiąka w rzeczy i skłania je do czynu, a ziemia formuje się w oszalałe żywiołaki. Dostępne w białym i niebieskim kolorze.
+      - Иногда в мире возникает так много жадности, что не хватает существ, живых или мертвых, чтобы сдержать ее. Когда это происходит, жадность проникает в предметы и побуждает их к действию, даже сама глубокая земля превращается в обезумевших элементалей. Доступен в белом и синем цветах.
+      - Bazen dünyada o kadar çok açgözlülük çoğalır ki, ölü ya da diri fark etmeksizin yaratıkların sayısı onu kontrol altına almaya yetmez. Böyle bir durumda açgözlülük her şeyin içine işler ve onları harekete geçirir, hatta toprağın derinlikleri bile çıldırmış elementallere dönüşür. Beyaz ve mavi renkleri mevcuttur.
+      - 有时，人的心中会唤起太多的贪欲，以至于没有足够的生物（不管是死的还是活的）来容纳它。当这种情况发生时，贪欲就会渗入万物，并开始驱动它们，甚至深层的大地本身也会变成狂暴的元素——白色款和蓝色款正在热销中。
+      - 世界では、時にあまりにも多すぎる強欲が召喚され、それを受け入れる器（生死問わず）の数を上回ってしまうことがある。そんな時にあふれる強欲が様々な物体に浸透し、命を吹き込んでしまう。そうして深い大地から生まれたのが、狂乱のエレメンタルだった。ちなみに白と青のものがいる。
+      - 때로는 세상이 너무 많은 탐욕을 소환하여 그것을 담을 만한 생물이 부족할 때가 있습니다. 생물의 생사와는 무관하게 말이죠. 그럴 때면 탐욕이 사물에 스며들어 살아 움직이게 하고, 심지어 깊숙하게 펼쳐진 대지 자체도 광포한 엘리멘탈로 되살아납니다. 흰색과 파란색 두 가지를 사용할 수 있습니다.
+      - 即便生靈與亡魂攜手合作，世間萬物豈能駕馭得了這個世界所蘊育出的貪婪萬惡？貪婪會侵害眾生的心智並操縱你的一舉一動，這種情況就連大地中最深層的角落也無以倖免，平和的大地亦被轉化為狂躁的元素生命體；元素生命體會有白色與藍色兩種樣貌。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_ILLUSION}bName
+      TermType: 0
+      Languages:
+      - Madd-Onna
+      - Madd-Onna
+      - Madd-Onna
+      - Madd-Onna
+      - Madd-Onna
+      - Madd-Onna
+      - Madd-Onna
+      - Примэдд-Онна
+      - Madd-Onna
+      - 疯女
+      - イカリオンナ
+      - 매드온나
+      - 瑪丹丹太婆
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_ILLUSION}bDesc
+      TermType: 0
+      Languages:
+      - Despite appearances, a Madd-Onna is absolutely not a ghost, but just an illusion of a very angry woman who had lost every- actually she looks like she's singing now- no she's a dancer- wait is she sifting rice- could someone pause that animation loop please?
+      - Malgré les apparences, une Madd-Onna n'est pas un fantôme, mais l'illusion d'une femme courroucée qui a tout per... En fait, on dirait plutôt qu'elle pousse la chansonnette... ou qu'elle danse ? Non, attendez, peut-être qu'elle prépare du riz... ? Vous m'excuserez, mais ça ne saute pas aux yeux.
+      - Nonostante l'apparenza, una Madd-Onna non è affatto un fantasma, ma soltanto l'illusione ottica di una donna infuriata che ha perso ogni... in realtà ora sembra che stia cantando... no, è una ballerina... un momento, sta setacciando del riso? Qualcuno potrebbe interrompere questo ciclo di animazione?
+      - Dem Anschein entgegen ist eine Madd-Onna überhaupt kein Geist, sondern nur die Illusion einer sehr wütenden Dame, die alles verloren hat - in Wirklichkeit sieht sie aus, als würde sie gerade singen - nein, sie tanzt - Moment, jetzt siebt sie Reis - kann jemand bitte mal diese Animationsschleife anhalten?
+      - Aunque lo parezca, no es un fantasma en absoluto, sino una ilusión de una mujer muy enfadada que lo ha perdido todo... Espera, parece que ahora está bailando. Vale, es una bailari... Un momento, ¿está tamizando arroz...? Alguien puede pausar la animación, por favor.
+      - Apesar da aparência, a Madd-Onna certamente não é um fantasma, mas, sim, apenas uma ilusão de uma mulher muito zangada que perdeu tudo... Na verdade, parece que ela está cantando agora... Não, ela é uma dançarina... Calma aí, ela tá peneirando arroz...? Será que alguém pode pausar a animação, por favor?
+      - Wbrew pozorom Madd-Onna wcale nie jest duchem, a jedynie iluzją wściekłej kobiety, która straciła wszystko – właściwie to wygląda, jakby teraz śpiewała. Nie, to tancerka. Chwila, czy ona przesiewa ryż? Czy ktoś mógłby uprzejmie wyłączyć tę pętlę animacji?
+      - Несмотря на внешность, Примэдд-Онна совсем не призрак, а просто мираж очень сердитой женщины, которая потеряла все... на самом деле она выглядит так, будто сейчас поет... нет, танцует... подождите, она просеивает рис... не мог бы кто-нибудь приостановить этот цикл анимации, пожалуйста?
+      - Görünüşünün aksine, Madd-Onna kesinlikle bir hayalet değil, sadece her şeyini kaybetmiş çok kızgın bir kadının yanılsaması- aslında şu anda şarkı söylüyor gibi görünüyor- yok ya dansçıymış- dur bir saniye pirinç mi ayıklıyor bu- biri şu animasyon döngüsünü duraklatabilir mi lütfen?
+      - 尽管从外表上看，疯女绝对不是鬼魂，而只是一个失去了一切的愤怒女人的模样……实际上，现在的她看起来像是在唱歌……不，她在跳舞……等等，她是在筛米吗……谁能暂停一下循环动画？
+      - 見た目に反して、イカリオンナは幽霊ではなく、かつてすべてを失い怒り狂った女性の蜃気楼が具現化したものである。いや、歌って…踊っている女性…か？いっそ、米をひたすらとぐ女性に見えなくもない。確認のためにも、一度アニメーションを停止してほしいところだ。
+      - 외모는 비록 유령 같지만 매드온나는 절대로 유령이 아닙니다. 그저 모든 것을 잃고 불같이 화가 난 여자의 환상일 뿐이죠. 사실, 지금 노래를 부르고 있는 것 같아요. 가수는 아니고, 무희지만요. 잠깐, 매드온나가 쌀을 체로 치고 있어요. 누군가 저 애니메이션 루프를 좀 멈춰주시겠어요?
+      - 瑪丹丹太婆雖然外表看起來很像幽靈，但祂們其實不是幽靈，只是某個怒不可遏的女子所帶來的幻象，她失去了每一個……等等，她好像正在唱歌……不對，她這是在跳舞……等等，她在篩米……誰快來暫停一下動畫的循環播放，拜託啊。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_BOSS_KITSUNE}bName
+      TermType: 0
+      Languages:
+      - Kizzune
+      - Kizzune
+      - Kizzune
+      - Kizzune
+      - Kizzune
+      - Kizzune
+      - Kizzune
+      - Кизунэ
+      - Kizzune
+      - 九尾
+      - バケギツネ
+      - 키츠네
+      - 妖狐
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_BOSS_KITSUNE}bDesc
+      TermType: 0
+      Languages:
+      - An enormous nine-tailed fox capable of summoning dire illusions, the Kizzune is a treacherous adversary that moves with formidable grace and speed, and hits heavily with its flaming tails. The Kizzune is heavily slowed down by snow and hates fire.
+      - Le Kizzune se présente comme un immense renard à neuf queues capable de créer des illusions. Cet adversaire rusé et rapide se déplace avec grâce et ne manquera pas de vous assaillir avec ses queues ardentes. Toutefois, la neige le ralentit grandement et il a le feu en horreur. Allez savoir pourquoi.
+      - La Kizzune, un'enorme volpe a nove code in grado di evocare illusioni ottiche terribili, è un'infida rivale che si muove con estrema grazia rapidità e colpisce con veemenza con le sue code fiammanti. La Kizzune viene rallentata notevolmente dalla neve e detesta il fuoco.
+      - Der Kizzune ist ein riesiger Fuchs mit neun Schwänzen, der furchtbare Illusionen heraufbeschwören kann. Er ist ein tückischer Gegner, der sich mit beeindruckender Grazie und Schnelligkeit bewegt und mit seinen Flammenschwänzen kräftig zuschlägt. Der Kizzune wird durch den Schnee stark verlangsamt und verabscheut Feuer.
+      - Este zorro de nueve colas enorme capaz de manifestar ilusiones funestas es un adversario traicionero que se mueve con una gracia y una velocidad formidables. Además, da unos golpes tremendos con sus colas ardientes. El kizzune se ve ralentizado por la nieve y odia el fuego.
+      - Uma raposa enorme de nove caudas capaz de invocar ilusões desesperadoras. A Kizzune é uma adversária ardilosa que se movimenta com graça e velocidade descomunal e suas caudas flamejantes desferem golpes poderosos. A neve reduz muito a velocidade de Kizzune e ela odeia fogo.
+      - Kizzune, ogromny lis o dziewięciu ogonach umiejący przywoływać potworne iluzje, to zdradliwy przeciwnik, który porusza się z niezwykłą gracją oraz szybkością, wykonując silne ciosy swoimi płonącymi ogonami. Kizzune znacząco spowalnia śnieg i nienawidzi ognia.
+      - Огромная девятихвостая лиса, способная вызывать страшные галлюцинации, Кизунэ — коварный противник, который передвигается с потрясающей грацией и скоростью и наносит тяжелые удары своими пылающими хвостами. Кизунэ сильно замедляется из-за снега и ненавидит огонь.
+      - Korkunç yanılsamalar yaratabilen dokuz kuyruklu devasa bir tilki olan Kizzune, dehşet verici bir zarafet ve hızla hareket eden, alevli kuyruklarıyla ağır darbeler vuran kalleş bir hasımdır. Kizzune kara maruz kalınca ciddi seviyede yavaşlar ve ateşten nefret eder.
+      - 九尾是一只巨大的九尾狐，能够召唤可怕的幻象，它的行动优雅而迅速，并能用燃烧的尾巴重创敌人。雪会严重减慢它的速度，而且它讨厌火。
+      - おそろしい幻惑を見せてくる九尾のキツネ。バケギツネは優雅かつ致命的なスピードで動き回り、燃え盛るシッポで強烈な一撃を繰り出してくる。バケギツネは雪によってスピードが低下し、火を嫌う。
+      - 끔찍한 환상을 소환할 수 있는 거대한 구미호인 키츠네는 동작이 섬뜩하리만치 우아하지만 빠르게 움직이고 불타는 꼬리로 엄청나게 강력한 타격을 날리는, 속임수에 능한 적입니다. 키츠네는 눈이 내리면 속도가 느려지고 불을 싫어합니다.
+      - 這隻巨大的九尾妖狐能夠召喚出恐怖可怕的幻象，是個狡猾的狠角色，移動起來身姿優美且速度飛快，而祂的火焰尾巴也能發動強力的攻擊。妖狐會因為雪的關係而被大幅緩速，此外，也相當討厭火焰。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_SPIRIT1}bName
+      TermType: 0
+      Languages:
+      - Miragellos
+      - Miragellos
+      - Miragellos
+      - Miragellos
+      - Miragellos
+      - Miragellos
+      - Mirażelki
+      - Мирагеллос
+      - Seraplar
+      - 幻灵
+      - ミラージェロ
+      - 미라겔로스
+      - 虛無幻靈
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: enemiesLang/{EX_SPIRIT1}bDesc
+      TermType: 0
+      Languages:
+      - Fleeting visions of ghastly humans from a past far away. Some of them carry ancient memories, and might whisper to you some of the worst things they said when they walked the earth like "you have to pay us 20 gold per install". Today, nobody remembers them.
+      - 'Les images fugaces d''humains abjects ayant vécu à un temps révolu. Certains ont conservé leurs souvenirs d''antan et vous susurrent au creux de l''oreille les horreurs qu''ils ont proférées de leur vivant : « Nous exigeons 20 pièces par installation. » Fort heureusement, ces pauvres hères sont tombés dans l''oubli depuis.'
+      - 'Una visione fugace di terrificanti umani provenienti da un lontano passato. Alcuni di loro custodiscono ricordi antichi e potrebbero sussurrarti alcune delle terrificanti oscenità che pronunciavano quando solcavano la terra, come per esempio: "Devi pagarci 20 monete d''oro per ogni installazione". Oggi nessuno si ricorda più di loro.'
+      - Flüchtige Visionen von grausigen Menschen aus einer weit entfernten Vergangenheit. Einige tragen uralte Erinnerungen in sich und flüstern dir vielleicht einige der schrecklichsten Dinge zu, die sie damals sagten, als sie noch auf der Erde wandelten, wie z. B. "Ihr müsst uns 20 Gold für jede Installation bezahlen". Heute kann sich niemand mehr an sie erinnern.
+      - Apariciones espantosas de humanos de un tiempo lejano. Algunos dicen que aún conservan recuerdos de antaño y puede que te susurren algunas de las peores cosas que dijeron cuando vivían, como «Tienes que pagarnos 20 monedas por instalación». Hoy ya nadie se acuerda de ellos.
+      - Visões passageiras de humanos horripilantes de um passado longínquo. Alguns carregam lembranças antigas e podem sussurrar os maiores disparates que costumavam falar quando ainda tinham vida, como "vocês precisam pagar 20 de ouro por instalação". Hoje, ninguém mais se lembra deles...
+      - Przemijające wizje okropnych ludzi z odległej przeszłości. Niektóre z nich noszą ze sobą dawne wspomnienia i mogą szeptem powtórzyć ci niektóre z najgorszych rzeczy, które wypowiedziały, stąpając po ziemi, jak na przykład „musisz zapłacić nam 20 sztuk złota za każdą instalację”. Dziś nikt ich nie pamięta.
+      - 'Мимолетные видения ужасных людей из далекого прошлого. Некоторые из них хранят древние воспоминания и могут прошептать вам какие-нибудь жуткие вещи, которые говорили, когда ходили по земле, например: «Вы должны заплатить нам 20 золотых за установку». Сегодня о них никто не помнит.'
+      - Çok uzak bir geçmişten gelen korkunç insanların geçici tasavvurları. Bazıları kadim anılar taşıyor ve size yeryüzünde dolaştıkları zaman söyledikleri en kötü şeylerden bazılarını fısıldayabiliyor, örneğin "bize kurulum başına 20 altın ödemek zorundasınız" gibi. Bugünlerde kimse onları hatırlamıyor.
+      - 这些鬼魅的幻象是很久很久以前的可怕人类。他们中的一些人还记得古老的故事，可能会悄悄告诉你一些他们在世时所说过的最难听的话，比如“每次安装你必须付给我们20枚金币”。如今，已经没人记得他们了。
+      - 遠き過去より彷徨う薄汚い人間の亡霊。いにしえの記憶を抱える者もおり、かつて肉体を持っていた頃口にしていた非人道的な言葉「インストール1回につき20ゴールド払え…」などをささやいてくることがある。現在、彼らを覚えている者はいない。
+      - 머나먼 과거에 살았던 무시무시한 인류에 대한 덧없는 환상입니다. 어떤 미라겔로스는 고대의 기억을 지니고 있으며, 지구 위를 걸어다니며 했던 최악의 말을 여러분에게 속삭일 수도 있습니다. 이를 테면 "설치당 20 골드를 내야 해요."같은 말이죠. 요즘에는 기억하는 사람이 아무도 없습니다.
+      - 這些幻象忽隱忽現，承載著來自遙遠過去的恐怖人類；一部分的幻象還帶有著遠古的記憶，可能會低聲向你傾訴著他們生前最駭人聽聞的言論：「你每下載一次就得付我們 20 美金喔」。如今，大家早已經忘記他們的存在了。
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
     - Term: Glossary/1
       TermType: 0
       Languages:
@@ -43352,10 +44234,10 @@ MonoBehaviour:
       Flags: 0
     IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 0
-    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbwD9QRXkwmWJ6vDzyB1wHLGxESfxWQHvHoJx0BLopWlS5ySn9zsPjG-_BgoJq5HG_yf/exec
-    Google_SpreadsheetKey: 1aE-agfeszMF20xYKwAkb7wWi1QgDCqXwL-9d--sHnYk
-    Google_SpreadsheetName: I2Loc Vampire Survivors - Production Lockit 1.5 (Sam 20)
-    Google_LastUpdatedVersion: 1693817493715
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbyR3MclFruqK65vlhmoVux_5i5UOXO-uCnOb3iQnQeIbZMpjH5_4CvTYEt8ekoj48CG/exec
+    Google_SpreadsheetKey: 1cSkm4PkebZcNFcX8krQ5OcEH4a_oRAccC0sXJiW4CyY
+    Google_SpreadsheetName: I2Loc Vampire Survivors - Production Lockit 1.7
+    Google_LastUpdatedVersion: 1695375960753
     GoogleUpdateFrequency: 1
     GoogleInEditorCheckFrequency: 1
     GoogleUpdateSynchronization: 0

@@ -1,6 +1,6 @@
 import os, json
 
-names = [f.name.split("_")[1].lower() for f in os.scandir("../Vampire Survivors/")]
+names = [f.name.split("_")[0].lower() for f in os.scandir("../Vampire Survivors/")]
 
 vs = [f.path for f in os.scandir("../Vampire Survivors/")]
 ms = [f.path for f in os.scandir("../Moonspell/")]
@@ -23,4 +23,4 @@ for name in names:
             outdata.update( json.loads(tffile.read()) )
 
     with open(name+"Data_Full.json", "w", encoding="UTF-8") as outfile:
-        outfile.write( json.dumps(outdata) )
+        outfile.write( json.dumps(outdata, indent=2) )
