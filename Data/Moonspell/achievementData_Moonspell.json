@@ -1,257 +1,257 @@
 {
-	"MOON01_FindCoffin": {
-		"description": "Find and open the coffin in Mt.Moonspell.",
-		"characterToUnlock": "MIANG",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON01_FindCoffin"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "143"
-			}
-		]
-	},
-	"MOON02_Survive15Miang": {
-		"description": "Survive 15 minutes with Miang Moonspell.",
-		"weaponToUnlock": "SILVERWIND",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON02_Survive15Miang"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "144"
-			}
-		]
-	},
-	"MOON03_EvolveSilverWind": {
-		"description": "Evolve the Silver Wind.",
-		"characterToUnlock": "MENYA",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON03_EvolveSilverWind"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "145"
-			}
-		]
-	},
-	"MOON04_Survive15Menya": {
-		"description": "Survive 15 minutes with Menya Moonspell.",
-		"weaponToUnlock": "FOURSEASONS",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON04_Survive15Menya"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "146"
-			}
-		]
-	},
-	"MOON05_EvolveFourSeasons": {
-		"description": "Evolve the Four Seasons.",
-		"characterToUnlock": "SYUUTO",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON05_EvolveFourSeasons"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "147"
-			}
-		]
-	},
-	"MOON06_Survive15Syuuto": {
-		"description": "Survive 15 minutes with Syuuto Moonspell.",
-		"weaponToUnlock": "SUMMONNIGHT",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON06_Survive15Syuuto"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "148"
-			}
-		]
-	},
-	"MOON07_EvolveSummonNight": {
-		"description": "Evolve the Summon Night.",
-		"characterToUnlock": "ONNA",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON07_EvolveSummonNight"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "149"
-			}
-		]
-	},
-	"MOON08_Survive15BabiOnna": {
-		"description": "Survive 15 minutes with Babi-Onna.",
-		"weaponToUnlock": "MIRAGEROBE",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON08_Survive15BabiOnna"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "150"
-			}
-		]
-	},
-	"MOON09_EvolveMirageRobe": {
-		"description": "Evolve the Mirage Robe.",
-		"characterToUnlock": "MCCOY",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON09_EvolveMirageRobe"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "151"
-			}
-		]
-	},
-	"MOON10_Survive15McCoy": {
-		"description": "Survive 15 minutes with McCoy-Oni.",
-		"weaponToUnlock": "BOCCE",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON10_Survive15McCoy"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "152"
-			}
-		]
-	},
-	"MOON11_Defeat100kVanya": {
-		"description": "Defeat 100000 enemies in a single run with Menya Moonspell.",
-		"characterToUnlock": "MEGAMENYA",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON11_Defeat100kVanya"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "153"
-			}
-		]
-	},
-	"MOON12_Defeat100kVadjouel": {
-		"description": "Defeat 100000 enemies in a sinle run with Syuuto Moonspell.",
-		"characterToUnlock": "MEGASYUUTO",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON12_Defeat100kVadjouel"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "154"
-			}
-		]
-	},
-	"MOON13_Defeat6kWater": {
-		"description": "Defeat 6000 Kappa.",
-		"weaponToUnlock": "BUBBLES",
-		"characterToUnlock": "TONY",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON13_Defeat6kWater"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "155"
-			}
-		]
-	},
-	"MOON14_FindNightSword": {
-		"description": "Find a Night Sword.",
-		"weaponToUnlock": "NIGHTSWORD",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON14_FindNightSword"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "156"
-			}
-		]
-	},
-	"MOON15_EvolveNightSword": {
-		"description": "Evolve the Night Sword.",
-		"goldPrize": 50000,
-		"weaponIcon": "NIGHTSWORD2",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON15_EvolveNightSword"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "157"
-			}
-		]
-	},
-	"MOON16_DefeatBossRuins": {
-		"description": "Defeat the Orochimario in Mt.Moonspell.",
-		"hyperToUnlock": "MOONSPELL",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON16_DefeatBossRuins"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "158"
-			}
-		]
-	},
-	"MOON17_EvolveBubbles": {
-		"description": "Evolve the Mille Bolle Blu.",
-		"goldPrize": 50000,
-		"weaponIcon": "BUBBLES2",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON17_EvolveBubbles"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "159"
-			}
-		]
-	},
-	"MOON18_FindMap_Moonspell": {
-		"description": "Find the Mt.Moonspell Map.",
-		"relicToUnlock": "RELIC_MAP_MS",
-		"PlatformsData": [
-			{
-				"Platfrom": "Steam",
-				"Data": "MOON18_FindMap_Moonspell"
-			},
-			{
-				"Platfrom": "GameCore",
-				"Data": "189"
-			}
-		]
-	}
+  "MOON01_FindCoffin": {
+    "description": "Find and open the coffin in Mt.Moonspell.",
+    "characterToUnlock": "MIANG",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON01_FindCoffin"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "143"
+      }
+    ]
+  },
+  "MOON02_Survive15Miang": {
+    "description": "Survive 15 minutes with Miang Moonspell.",
+    "weaponToUnlock": "SILVERWIND",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON02_Survive15Miang"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "144"
+      }
+    ]
+  },
+  "MOON03_EvolveSilverWind": {
+    "description": "Evolve the Silver Wind.",
+    "characterToUnlock": "MENYA",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON03_EvolveSilverWind"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "145"
+      }
+    ]
+  },
+  "MOON04_Survive15Menya": {
+    "description": "Survive 15 minutes with Menya Moonspell.",
+    "weaponToUnlock": "FOURSEASONS",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON04_Survive15Menya"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "146"
+      }
+    ]
+  },
+  "MOON05_EvolveFourSeasons": {
+    "description": "Evolve the Four Seasons.",
+    "characterToUnlock": "SYUUTO",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON05_EvolveFourSeasons"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "147"
+      }
+    ]
+  },
+  "MOON06_Survive15Syuuto": {
+    "description": "Survive 15 minutes with Syuuto Moonspell.",
+    "weaponToUnlock": "SUMMONNIGHT",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON06_Survive15Syuuto"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "148"
+      }
+    ]
+  },
+  "MOON07_EvolveSummonNight": {
+    "description": "Evolve the Summon Night.",
+    "characterToUnlock": "ONNA",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON07_EvolveSummonNight"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "149"
+      }
+    ]
+  },
+  "MOON08_Survive15BabiOnna": {
+    "description": "Survive 15 minutes with Babi-Onna.",
+    "weaponToUnlock": "MIRAGEROBE",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON08_Survive15BabiOnna"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "150"
+      }
+    ]
+  },
+  "MOON09_EvolveMirageRobe": {
+    "description": "Evolve the Mirage Robe.",
+    "characterToUnlock": "MCCOY",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON09_EvolveMirageRobe"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "151"
+      }
+    ]
+  },
+  "MOON10_Survive15McCoy": {
+    "description": "Survive 15 minutes with McCoy-Oni.",
+    "weaponToUnlock": "BOCCE",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON10_Survive15McCoy"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "152"
+      }
+    ]
+  },
+  "MOON11_Defeat100kVanya": {
+    "description": "Defeat 100000 enemies in a single run with Menya Moonspell.",
+    "characterToUnlock": "MEGAMENYA",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON11_Defeat100kVanya"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "153"
+      }
+    ]
+  },
+  "MOON12_Defeat100kVadjouel": {
+    "description": "Defeat 100000 enemies in a sinle run with Syuuto Moonspell.",
+    "characterToUnlock": "MEGASYUUTO",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON12_Defeat100kVadjouel"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "154"
+      }
+    ]
+  },
+  "MOON13_Defeat6kWater": {
+    "description": "Defeat 6000 Kappa.",
+    "weaponToUnlock": "BUBBLES",
+    "characterToUnlock": "TONY",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON13_Defeat6kWater"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "155"
+      }
+    ]
+  },
+  "MOON14_FindNightSword": {
+    "description": "Find a Night Sword.",
+    "weaponToUnlock": "NIGHTSWORD",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON14_FindNightSword"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "156"
+      }
+    ]
+  },
+  "MOON15_EvolveNightSword": {
+    "description": "Evolve the Night Sword.",
+    "goldPrize": 50000,
+    "weaponIcon": "NIGHTSWORD2",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON15_EvolveNightSword"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "157"
+      }
+    ]
+  },
+  "MOON16_DefeatBossRuins": {
+    "description": "Defeat the Orochimario in Mt.Moonspell.",
+    "hyperToUnlock": "MOONSPELL",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON16_DefeatBossRuins"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "158"
+      }
+    ]
+  },
+  "MOON17_EvolveBubbles": {
+    "description": "Evolve the Mille Bolle Blu.",
+    "goldPrize": 50000,
+    "weaponIcon": "BUBBLES2",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON17_EvolveBubbles"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "159"
+      }
+    ]
+  },
+  "MOON18_FindMap_Moonspell": {
+    "description": "Find the Mt.Moonspell Map.",
+    "relicToUnlock": "RELIC_MAP_MS",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON18_FindMap_Moonspell"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "189"
+      }
+    ]
+  }
 }

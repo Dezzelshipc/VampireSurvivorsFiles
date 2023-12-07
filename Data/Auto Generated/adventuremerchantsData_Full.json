@@ -1,0 +1,241 @@
+{
+  "ANTONIO": {
+    "merchantCharacter": "ANTONIO",
+    "portraitSprite": "mercAntonio",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newAntonio_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_ANTONIO",
+    "merchantInventory": [
+      "POWER",
+      "ARMOR",
+      "MAGNET",
+      "REVIVAL"
+    ]
+  },
+  "IMELDA": {
+    "merchantCharacter": "IMELDA",
+    "portraitSprite": "mercImelda",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newImelda_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_IMELDA",
+    "merchantInventory": [
+      "COOLDOWN",
+      "AREA",
+      "DURATION",
+      "AMOUNT"
+    ]
+  },
+  "PASQUALINA": {
+    "merchantCharacter": "PASQUALINA",
+    "portraitSprite": "mercPasqualina",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newPasqualina_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_PASQUALINA",
+    "merchantInventory": [
+      "LUCK",
+      "GROWTH",
+      "GREED",
+      "CURSE"
+    ]
+  },
+  "GENNARO": {
+    "merchantCharacter": "GENNARO",
+    "portraitSprite": "mercGennaro",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newGennaro_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_GENNARO",
+    "merchantInventory": [
+      "MAXHEALTH",
+      "REGEN",
+      "SPEED",
+      "MOVESPEED"
+    ]
+  },
+  "ASSUNTA": {
+    "merchantCharacter": "ASSUNTA",
+    "portraitSprite": "mercAssunta",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newAssunta_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_ASSUNTA",
+    "merchantInventory": [
+      "WHIP",
+      "MAGIC_MISSILE",
+      "KNIFE",
+      "DIAMOND",
+      "VENTO"
+    ]
+  },
+  "CAMILLO": {
+    "merchantCharacter": "CAMILLO",
+    "portraitSprite": "mercPoe",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newOld3_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_CAMILLO",
+    "merchantInventory": [
+      "GARLIC",
+      "CANDYBOX"
+    ]
+  },
+  "SANTA": {
+    "merchantCharacter": "SANTA",
+    "portraitSprite": "mercSanta",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "Santa_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_SANTA",
+    "merchantInventory": [
+      "HOLYWATER",
+      "CROSS",
+      "HOLYBOOK",
+      "TRIASSO1",
+      "LANCET",
+      "ICELANCE"
+    ]
+  },
+  "PUGNALA": {
+    "merchantCharacter": "PUGNALA",
+    "portraitSprite": "mercPugnala",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newPugnala_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_PUGNALA",
+    "merchantInventory": [
+      "GUNS",
+      "GUNS2",
+      "AXE",
+      "TRAPANO"
+    ]
+  },
+  "POPPEA": {
+    "merchantCharacter": "POPPEA",
+    "portraitSprite": "mercPoppea",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newPoppea_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_POPPEA",
+    "merchantInventory": [
+      "SONG",
+      "SILF",
+      "SILF2",
+      "LAUREL"
+    ]
+  },
+  "GIOVANNA": {
+    "isAnimated": true,
+    "merchantCharacter": "GIOVANNA",
+    "portraitSprite": "mercGiovanna",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "newGiovanna_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_GIOVANNA",
+    "merchantInventory": [
+      "GATTI",
+      "PENTAGRAM",
+      "FIREBALL",
+      "LIGHTNING"
+    ]
+  },
+  "AMBROGIO": {
+    "merchantCharacter": "AMBROGIO",
+    "portraitSprite": "mercAmbrojoe",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "Hat_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_AMBROGIO",
+    "merchantInventory": [
+      "BONE",
+      "CHERRY",
+      "CART2",
+      "FLOWER",
+      "ROBBA"
+    ]
+  },
+  "AVATAR": {
+    "isAnimated": true,
+    "merchantCharacter": "AVATAR",
+    "portraitSprite": "mercAvatar",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "v_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_AVATAR",
+    "merchantInventory": [
+      "MISSPELL",
+      "JUBILEE",
+      "PANDORA"
+    ]
+  },
+  "MARIASOFIA": {
+    "isAnimated": true,
+    "merchantCharacter": "MARIASOFIA",
+    "portraitSprite": "mercXanthia",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "Xanthia_01",
+    "staticSpriteTexture": "characters",
+    "textLocKey": "adv_merc_MARIASOFIA",
+    "merchantInventory": [
+      "VICTORY"
+    ]
+  },
+  "TONY": {
+    "merchantCharacter": "TONY",
+    "portraitSprite": "mercMcCoy",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "McCoy_i01",
+    "staticSpriteTexture": "moonspellChars",
+    "textLocKey": "adv_merc_TONY",
+    "DLC": "Moonspell",
+    "merchantInventory": [
+      "SILVERWIND",
+      "FOURSEASONS",
+      "SUMMONNIGHT",
+      "MIRAGEROBE",
+      "NIGHTSWORD",
+      "BUBBLES",
+      "BOCCE"
+    ]
+  },
+  "CTRPCAKE": {
+    "merchantCharacter": "CTRPCAKE",
+    "portraitSprite": "mercSammy",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "Sammy_i01",
+    "staticSpriteTexture": "foscariChars",
+    "textLocKey": "adv_merc_CTRPCAKE",
+    "DLC": "Foscari",
+    "merchantInventory": [
+      "SPELL_STRING",
+      "SPELL_STREAM",
+      "SPELL_STRIKE",
+      "SWORD",
+      "FLASHARROW",
+      "PRISMATICMISS",
+      "SHADOWSERVANT",
+      "PARTY"
+    ]
+  },
+  "C1_HORSE": {
+    "merchantCharacter": "C1_HORSE",
+    "portraitSprite": "p_horse",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "C01Horse_01",
+    "staticSpriteTexture": "chalcedony",
+    "textLocKey": "adv_merc_C1_HORSE",
+    "DLC": "Chalcedony",
+    "merchantInventory": [
+      "C1_REPORT1",
+      "C1_SWIPECARD1",
+      "C1_MEDICAL1",
+      "C1_VENT1",
+      "C1_GARBA1",
+      "C1_TONGUE1",
+      "C1_SAMPLES1",
+      "C1_HATCOLLECTION1"
+    ]
+  }
+}

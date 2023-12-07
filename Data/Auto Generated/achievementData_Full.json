@@ -877,6 +877,12 @@
       }
     ]
   },
+  "FindAtlas": {
+    "description": "Obtain the Atlas Gate in Boss Rash.",
+    "relicToUnlock": "RELIC_ATLAS",
+    "achieved": false,
+    "requiresItem": "RELIC_YELLOW"
+  },
   "FindApoplexy": {
     "description": "Find the Apoplexy at minute 09:00 in Bat Country.",
     "relicToUnlock": "RELIC_CHARM",
@@ -2719,7 +2725,7 @@
     ]
   },
   "FOSC15_Survive15Genevieve": {
-    "description": "Survive 15 minutes with Genevieve Gruy\u00e8re.",
+    "description": "Survive 15 minutes with Genevieve Gruyère.",
     "weaponToUnlock": "SHADOWSERVANT",
     "requiresStage": "FOSCARI2",
     "PlatformsData": [
@@ -2750,7 +2756,8 @@
     ]
   },
   "FOSC17_Defeat100kGenevieve": {
-    "description": "Defeat 100000 enemies in a sinle run with Genevieve Gruy\u00e8re.",
+    "description": "Defeat 100000 enemies in a sinle run with Genevieve Gruyère.",
+    "mistery": true,
     "characterToUnlock": "MEGAGENEVIEVE",
     "requiresStage": "FOSCARI2",
     "PlatformsData": [

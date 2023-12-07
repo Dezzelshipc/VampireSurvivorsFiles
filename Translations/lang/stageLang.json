@@ -1,0 +1,440 @@
+{
+  "en": {
+    "FOREST": {
+      "stageName": "Mad Forest",
+      "description": "Once a thriving haven, now a dumping ground for evil. A vampire is said to be the root of this evil, but we can find only mayhem and roast chicken.",
+      "hyperTips": "50% Gold bonus"
+    },
+    "LIBRARY": {
+      "stageName": "Inlaid Library",
+      "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight… or damnation. A mask of stone whispers endlessly within. ",
+      "hyperTips": "50% Gold bonus\\n10% Luck bonus"
+    },
+    "GREENACRES": {
+      "stageName": "Green Acres",
+      "description": "Fate changes by the minute in a realm where mortals can only trespass. What rewards await those who challenge its rules? Treasure? Glory? Poultry?",
+      "tips": "Random enemy waves from normal stages",
+      "hyperTips": "50% Gold bonus\\n10% Luck bonus",
+      "stagenNumber": "Challenge"
+    },
+    "WAREHOUSE": {
+      "stageName": "Dairy Plant",
+      "description": "The birthplace of Milk Magic churns with chaos. Here, it’s not just blood that curdles. A secret map awaits the hero brave enough to enter this overthrown factory. ",
+      "hyperTips": "50% Gold bonus\\n10% Luck bonus"
+    },
+    "MOLISE": {
+      "stageName": "Il Molise",
+      "description": "The flowers seem to sing here, calling out to weary heroes. Is such an unspoilt place even real? Does it matter? Is there roast chicken? ",
+      "hyperTips": "50% Gold Bonus\\n20% Luck bonus\\nEnemies' health +60%",
+      "tips": "Enemies don't move"
+    },
+    "TOWER": {
+      "stageName": "Gallo Tower",
+      "description": "An edifice of science and sorcery where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek."
+    },
+    "BONEZONE": {
+      "stageName": "The Bone Zone",
+      "description": "Calcified carnage awaits where the dead go to live. If we speak unholy vespers we will open the way, but should we not go home? Have we not dug too deep?",
+      "tips": "No item drops. Enemies grow stronger over time."
+    },
+    "SINKING": {
+      "stageName": "Moongolow",
+      "description": "Legend tells of a city swallowed by the sea under a full moon’s callous watch. Home to mysteries unknown, we ought to see what lies within its walls. ",
+      "tips": "Extra stage items"
+    },
+    "STAGEX": {
+      "description": "Wait, you can see this too? This isn't right...",
+      "stageName": "Holy Forbidden"
+    },
+    "CHAPEL": {
+      "stageName": "Cappella Magna",
+      "description": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity is the perfect place to find a vampire. Probably."
+    },
+    "RASH": {
+      "stageName": "Boss Rash",
+      "description": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us face these recycled assets and do what we do best… survive! "
+    },
+    "MACHINE": {
+      "stageName": "Eudaimonia M.",
+      "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you’re it. "
+    },
+    "MACHINE2": {
+      "stageName": "The Three Circles",
+      "description": null
+    },
+    "TOWERBRIDGE": {
+      "stageName": "Tiny Bridge",
+      "description": "Two opposing factions abruptly stopped fighting over this little bridge. No doubt the source of this cessation will turn out to be harmless.",
+      "tips": "Enemies grow stronger over time."
+    },
+    "MOONSPELL": {
+      "stageName": "Mt.Moonspell",
+      "description": "Ancestral home of a fallen clan, now overrun by yokai and oni. In this world where the sun doesn't shine, the night is victorious."
+    },
+    "BATCOUNTRY": {
+      "stageName": "Bat Country",
+      "description": "We can't stop here.",
+      "tips": "Enemies grow stronger over time."
+    },
+    "FOSCARI": {
+      "stageName": "Lake Foscari",
+      "description": "An enchanted forest stuffed with fae mysteries and mythological entities. The perfect place to have an average adventure with zero complications."
+    },
+    "FOSCARI2": {
+      "stageName": "Abyss Foscari",
+      "description": "Sealed by Luminaire in ancient times to contain the darkness within, these underground ruins are now accessible, but so is the outside world to the evil from the depths."
+    },
+    "ASTRALSTAIR": {
+      "stageName": "Astral Stair",
+      "description": "A highway used to reach other worlds and dimensions. It's dangerous to venture through alone, but you probably won't listen to me anyway, will you?",
+      "tips": "Enemies grow stronger over time."
+    },
+    "WHITEOUT": {
+      "stageName": "Whiteout",
+      "description": "Arctic mirages and a slow, constant snowstorm make this great glacier a hostile environment. Nonetheless, the myths of a powerful weapon, a mysterious potion, and a cursed woman who hates hot springs, make for strong lures.",
+      "tips": "Enemies are slow and weak to fire."
+    },
+    "ADV_M001CASTLEGROUNDS": {
+      "stageName": "Castle Grounds",
+      "description": "Decisive Battle Begin! \nMiang vs Orochimario! \nCan our Shounen heroine muster the mettle to battle the diabolical dragon for more than a minute? ",
+      "tips": "Survive Orochimario's onslaught for 1 minute. "
+    },
+    "ADV_M002SHRINESVALLEY": {
+      "stageName": "Shrine Valley",
+      "description": "Miang barely survives after Orochimario conquers the castle. The trail of vengeance begins with a single step. Miang seeks the guidance of the elder Menya Moonspell in the eastern fields. ",
+      "tips": "Open Menya's coffin in the Eastern fields. "
+    },
+    "ADV_M003FORBIDDENPEAK": {
+      "stageName": "Forbidden Peaks",
+      "description": "To fight such formidable odds, Miang must search for her flea-bitten twin brother. Follow your nose through the twisting tunnels of the Forbidden Peaks to find the stinky wolfman, Syuuto! ",
+      "tips": "Open Syuuto's coffin inside the mountain maze. "
+    },
+    "ADV_M004HIDDENCAVE": {
+      "stageName": "Hidden Cave",
+      "description": "Catastrophe strikes- the cave floor crumbles and Syuuto is overcome by the slight inconvenience, metamorphosing into his Oni form! Trapped in this hidden chamber, you must tame Megalo Syuuto’s unleashed power to survive. ",
+      "tips": "Defeat Megalo Syuuto."
+    },
+    "ADV_M005FROZENLAKE": {
+      "stageName": "Frozen Lake",
+      "description": "Forging a path across a frozen lake, the reunited Moonspell Clan are assailed by Oni-summoned clones! Can the Moonspell Clan defeat the Frozen Three-thousand, and free Babi-Onna from her chilly prison? ",
+      "tips": "Defeat a total of 3000 Madd-Onnas."
+    },
+    "ADV_M006TANUKIFOREST": {
+      "stageName": "Tanuki Forest",
+      "description": "Babi-Onna is freed from the freeze, and joins the Moonspell Clan as they journey to retake their homeland. Their path takes them through the forest, where a team of tricksy Tanuki assail them with a testing trial - is that a tail, or are you just pleased to see me? ",
+      "tips": "Survive for 10 minutes."
+    },
+    "ADV_M007MOONSPELL": {
+      "stageName": "Mt. Moonspell",
+      "description": "Ancestral Rematch Begin! \nAt last, the Moonspell Clan strike back to reclaim their home, now overrun by Yokai and Oni. Survive against these otherworldly foes, and strike down the eightfold menace, Orochimario!",
+      "tips": "Defeat Orochimario after 25 minutes. "
+    },
+    "ADV_POE_1_Acres": {
+      "stageName": "Old Mad Forest",
+      "description": "Poe recalls a simpler time, when surviving the madness of the forest and hoarding masses of garlic was all that mattered. "
+    },
+    "ADV_POE_2_Forest": {
+      "stageName": "Rough Awakening",
+      "description": "A wave of monsters awakens Poe, reminding him that modern life still stinks!  Perhaps a loyal four-legged friend can show him the way..."
+    },
+    "ADV_POE_3_Woods": {
+      "stageName": "Risky Woods",
+      "description": "O’Sole leads Poe deep into the forest to rescue a holy man with a retirement plan. Perhaps this priest will reward their stinky savior with guidance to the promised land?"
+    },
+    "ADV_POE_4_Orchard": {
+      "stageName": "Rotten Orchard",
+      "description": "The path to the Garlic Paradise leads Poe into an orchard of arboreal nightmares. Cut down these pernicious plants to find the verdant fields of dreams."
+    },
+    "ADV_POE_5_Garden": {
+      "stageName": "Garlic Paradise",
+      "description": "With the terrifying tree righteously slain, Poe can finally achieve his goal: with the power of the Garlic Paradise, he can amass enough riches to retire!"
+    },
+    "ADV_POE_6_Molise": {
+      "stageName": "Retirement",
+      "description": "At last, Poe can retire, and simply stand still forever as he has always dreamed. But will a perfectly sedentary lifestyle be enough for our malodorous hero?"
+    },
+    "ADV_BAZAAR": {
+      "stageName": "Planar Bazaar",
+      "description": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms. "
+    },
+    "ADV_IME_1_Chapel": {
+      "stageName": "Deep Lore",
+      "description": "Imelda has sought a new life in the church – until one night the peace is shattered by a monstrous attack. Backed into a corner, Imelda must call upon her family’s power to survive!"
+    },
+    "ADV_IME_2_Library": {
+      "stageName": "Inlaid Library",
+      "description": "Imelda escapes the razed chapel, swearing vengeance against the assailants from both heaven and hell. She journeys to a seemingly infinite library in search of a curious book without words that can give her the power to strike back. "
+    },
+    "ADV_IME_3_Forest": {
+      "stageName": "Mad Forest",
+      "description": "Illuminated by her resolute spirit, the Empty Tome reveals its secrets, guiding Imelda to the resting place of a renegade nun with the blasphemous skills to dismantle both hell and heaven. The search for the gunslinging sister begins… "
+    },
+    "ADV_IME_4_Tower": {
+      "stageName": "Gallo Tower",
+      "description": "Pugnala joins Imelda’s cause, informing the relentless Belpaese that balance is the key to defeat the divine and the demonic. They journey to a tumultuous tower to fight terrifying foes, train with chromatic weaponry, and free a fallen angel to aid their celestial rebellion. "
+    },
+    "ADV_IME_5_Stair": {
+      "stageName": "Astral Stair",
+      "description": "Her training complete, Imelda must now ascend the Astral Stair. Like a delectable dessert, there are layers to her strength, and by combining the profane power of Pugnala’s pistols she can rise to face her destiny. ",
+      "tips": "Enemies grow stronger over time."
+    },
+    "ADV_IME_6_Magna": {
+      "stageName": "Cappella Magna",
+      "description": "Imelda fights for mortal kind in a maddening battle for vengeance - but who is the true foe? "
+    },
+    "POLUS": {
+      "stageName": "Polus Replica",
+      "description": "Summoned to a mysterious science station amongst the stars, survival is far from certain. Extra-terrestrial evil and inter-dimensional duplicity lurk behind every space rock.\n",
+      "tips": null
+    },
+    "ADV_CHAL_001_Meeting": {
+      "stageName": "Meeting Called",
+      "description": "Red has been called to an Emergency Meeting, but nobody else is here... what's going on? \nWhy have the doors locked? And were there always so many bins in the meeting room? \nSomeone needs to report this mess!",
+      "tips": "Evolve the Report!"
+    },
+    "ADV_CHAL_002_Security": {
+      "stageName": "Suspect Security ",
+      "description": "The report got through to HQ, and the station has been placed on lockdown for our safety - which would be very reassuring if we weren't locked outside.\nMaybe if we can find the Engineer we could sneak back in through the vents.                                                                                                        ",
+      "tips": "Find the Engineer."
+    },
+    "ADV_CHAL_003_Ejected": {
+      "stageName": "Ejected",
+      "description": "The vent lead us away from those weird extra-terrestrials, but we seem to have stumbled into a warren of space rabbits and duck astronauts. I suppose we should use this opportunity to research such strange creatures.",
+      "tips": "\"Research\" 2000 Moon Ducks. "
+    },
+    "ADV_CHAL_004_Ghosted": {
+      "stageName": "Don't Get Ghosted",
+      "description": "Following a colony of space rabbits into an underground cave might not have been the best idea.\nI wonder if this creepy cavern is where all the other Crewmates ended up...",
+      "tips": "Find the (friendly) Ghost."
+    },
+    "ADV_CHAL_005_Science": {
+      "stageName": "Space Rocks ",
+      "description": "Something suspicious is going on back at the base. Angry aliens are attacking, Cremates are missing, and all sort of paranormal creatures (though definitely no ghosts) lurk in every corner. Let's figure out what happened using the power of logic and science!                                                                                    ",
+      "tips": "Find the Scientist."
+    },
+    "ADV_CHAL_006_Trouble": {
+      "stageName": "Emergency Meating",
+      "description": "The sudden appearance of those three weirdos has interfered with the experiments in the Specimen Room! Some innovative bean-biology project has gone awry, and a bizzare meat creature is summoning swarms of angry aliens. Whatever it is, we're ejecting it!",
+      "tips": "Defeat the Suspicious Eyes after 25 minutes. "
+    }
+  },
+  "ru": {
+    "FOREST": {
+      "stageName": "Безумный лес",
+      "description": "О Замке, конечно, лгут, но жареные цыплята здесь до сих пор бесплатны, так что все хорошо.",
+      "hyperTips": "50% бонус к золоту"
+    },
+    "LIBRARY": {
+      "stageName": "Библиотека",
+      "description": "Эта тихая большая библиотека — идеальное место для отдыха, медитации и перекуса жареным цыпленком. Но что здесь делает каменная маска?",
+      "hyperTips": "50% бонус к золоту\\n10% бонус к удаче"
+    },
+    "GREENACRES": {
+      "stageName": "Зеленые пастбища",
+      "description": "Смертным вход воспрещен! Все может выйти из-под контроля в любой момент.",
+      "tips": "Случайные вражеские волны с обычных этапов.",
+      "hyperTips": "50% бонус к золоту\\n10% бонус к удаче",
+      "stagenNumber": "Испытание"
+    },
+    "WAREHOUSE": {
+      "stageName": "Молочный завод",
+      "description": "Здесь спрятана волшебная карта. Может она, наконец, приведет нас к вампиру или, по крайней мере, к еще одному жареному цыпленку.",
+      "hyperTips": "50% бонус к золоту\\n10% бонус к удаче"
+    },
+    "MOLISE": {
+      "stageName": "Молиз",
+      "description": "Существуют места, которых не существует. Приезжайте отдыхать и наслаждаться жизнью. Увидимся в деревне!",
+      "hyperTips": "Бонус 50% к золоту\\nБонус 20% к удаче\\nЗдоровье врагов +60%",
+      "tips": "Враги не двигаются."
+    },
+    "TOWER": {
+      "stageName": "Башня Галло",
+      "description": "В этой башне хранятся великие магические артефакты и исторически достоверные монстры."
+    },
+    "BONEZONE": {
+      "stageName": "Костяная зона",
+      "description": "Приходи и пой нечестивые псалмы.",
+      "tips": "Предметы не выпадают. Враги со временем усиливаются."
+    },
+    "SINKING": {
+      "stageName": "Лунасвет",
+      "description": "Когда восходит красная и яркая луна, из морских пучин на поднимается мертвый город, принося с собой тайны и богатства.",
+      "tips": "Дополнительные предметы этапа"
+    },
+    "STAGEX": {
+      "description": "Подожди, ты тоже это видишь? Это неправильно...",
+      "stageName": "Holy Forbidden"
+    },
+    "CHAPEL": {
+      "stageName": "Капелла Магна",
+      "description": "Не слишком ли мы далеко зашли? С таким запасом курятины можно было просто разбить лагерь в лесу, но не-е-ет, будем гоняться за внезапным вампиром."
+    },
+    "RASH": {
+      "stageName": "Набег боссов",
+      "description": "Досточтимые гости, наконец-то настал тот момент, которого мы все так ждали! Давайте же посмотрим, пройдут ли выжившие это испытание повторно использованных объектов!"
+    },
+    "MACHINE": {
+      "stageName": "Эудамония М.",
+      "description": "Пространство между пространствами. Кульминация чего-то или просто еще одно начало? Пол - лава."
+    },
+    "MACHINE2": {
+      "stageName": "Три круга",
+      "description": null
+    },
+    "TOWERBRIDGE": {
+      "stageName": "Крошечный мост",
+      "description": "Две противоборствующие группировки внезапно прекратили борьбу из-за этого маленького моста. Несомненно, источник этого прекращения окажется безобидным.",
+      "tips": "Враги со временем становятся сильнее."
+    },
+    "MOONSPELL": {
+      "stageName": "Гора Луночар",
+      "description": "Фамильное гнездо павшего клана, которое теперь кишит демонами-ёкаями и они. В этом мире там, куда не доходят лучи солнца, правит вечная ночь."
+    },
+    "BATCOUNTRY": {
+      "stageName": "Страна нетопырей",
+      "description": "Останавливаться нельзя.",
+      "tips": "Враги со временем становятся сильнее."
+    },
+    "FOSCARI": {
+      "stageName": "Озеро Фоскари",
+      "description": "Заколдованный лес, до самой опушки забитый феями и мифологическими существами. Идеальное место для типичного приключения без обязательств."
+    },
+    "FOSCARI2": {
+      "stageName": "Бездна Фоскари",
+      "description": "В древние времена Люминера запечатала здесь тьму, но теперь у подземных руин появился вход, открыв путь наружу и злу из глубин."
+    },
+    "ASTRALSTAIR": {
+      "stageName": "Астральная лестница",
+      "description": "Магистраль в другие миры и измерения. В одиночку по ней идти опасно, но вы же меня все равно не послушаете, правда?",
+      "tips": "Враги со временем становятся сильнее."
+    },
+    "WHITEOUT": {
+      "stageName": "Белая мгла",
+      "description": "Арктические миражи и медленная, вечная снежная буря превращают этот огромный ледник во враждебную среду обитания. Тем не менее мифы о мощном оружии, таинственном зелье и проклятой женщине, которая ненавидит горячие источники, так и манят.",
+      "tips": "Враги медленные и уязвимые к огню."
+    },
+    "ADV_M001CASTLEGROUNDS": {
+      "stageName": "Территория замка",
+      "description": "Да начнётся решающая битва! \nМианг против Оротимарио! \nХватит ли нашей героине сёнена сил, чтобы выстоять дольше минуты в схватке с дьявольским драконом? ",
+      "tips": "Продержитесь 1 минуту под натиском Оротимарио."
+    },
+    "ADV_M002SHRINESVALLEY": {
+      "stageName": "Долина святилищ",
+      "description": "Мианг едва выжила после нападения Оротимарио на замок. Теперь ей необходимо сделать первый шаг на пути возмездия: за наставлениями Мианг отправляется в восточные земли к старейшине клана Мэнъе Луночар.",
+      "tips": "Откройте гроб Мэнъи в восточных землях."
+    },
+    "ADV_M003FORBIDDENPEAK": {
+      "stageName": "Запретные вершины",
+      "description": "Мианг не может сражаться со столь сильными противниками в одиночку! Ей необходимо найти своего блохастого брата-близнеца. Доверьтесь своему обонянию и разыщите вонючку-оборотня Сьюто в извилистых туннелях Запретных вершин!",
+      "tips": "Откройте гроб Сьюто в горном лабиринте."
+    },
+    "ADV_M004HIDDENCAVE": {
+      "stageName": "Скрытая пещера",
+      "description": "Катастрофа! Пещера разрушена, а Сьюто подвергся некоторым неудобствам... а точнее, принял свою они-форму! Теперь вы вместе заперты в этой скрытой пещере, и вам предстоит усмирить выпущенную на волю силу Мегало Сьюто, если хотите выжить.",
+      "tips": "Победите Мегало Сьюто."
+    },
+    "ADV_M005FROZENLAKE": {
+      "stageName": "Замёрзшее озеро",
+      "description": "Прокладывая путь через замёрзшее озеро, воссоединившийся клан Луночар подвергся нападению призванных они клонов! Сможет ли клан Луночар одолеть трехтысячную ледяную орду и освободить Баби-онну из её мерзлого заключения?",
+      "tips": "Победите в общей сложности 3000 Примэдд-Онн."
+    },
+    "ADV_M006TANUKIFOREST": {
+      "stageName": "Лес тануки",
+      "description": "Баби-онна освобождена ото льда и теперь сопровождает клан Луночар в их путешествии на родину. Дорога лежит через лес, где наших героев поджидает группа озорных тануки, и у них уже готово очередное испытание... Это твой хвост или ты просто рад меня видеть?",
+      "tips": "Продержитесь 10 минут."
+    },
+    "ADV_M007MOONSPELL": {
+      "stageName": "Гора Луночар",
+      "description": "Да начнётся родовой реванш! \nКлан Луночар наконец готов вернуть своё родовое гнездо, которое с недавних пор кишит ёкаями и они. Одолейте потусторонних врагов и положите конец восьмикратной угрозе, Оротимарио!",
+      "tips": "Продержитесь 25 минут и победите Оротимарио."
+    },
+    "ADV_POE_1_Acres": {
+      "stageName": "Старый безумный лес",
+      "description": "По вспоминает простые времена, когда значение имело лишь выживание в лесном безумии и создание основательных запасов чеснока."
+    },
+    "ADV_POE_2_Forest": {
+      "stageName": "Неприятное пробуждение",
+      "description": "По разбудили полчища монстров! Наверное, решили напомнить ему, что его нынешняя жизнь по-прежнему отвратительна! Может быть, преданный четвероногий приятель укажет ему путь..."
+    },
+    "ADV_POE_3_Woods": {
+      "stageName": "Опасная чаща",
+      "description": "О'Соле спасает мечтающего об отставке старца и уводит По глубоко в лес. Вознаградит ли священник своего вонючку-спасителя и поможет ли ему найти землю обетованную?"
+    },
+    "ADV_POE_4_Orchard": {
+      "stageName": "Сгнившие сады",
+      "description": "Дорога в Чесночный рай приводит По в кошмарный сад. Срубите разлагающиеся растения, чтобы найти путь в зелёную страну мечты."
+    },
+    "ADV_POE_5_Garden": {
+      "stageName": "Чесночный рай",
+      "description": "После праведной миссии по уничтожению ужасающих деревьев По наконец-то может достичь своей цели: с помощью силы Чесночного рая он накопит достаточно богатств, чтобы уйти на покой!"
+    },
+    "ADV_POE_6_Molise": {
+      "stageName": "Отставка",
+      "description": "Теперь По наконец может уйти на покой и жить размеренной жизнью, как он всегда мечтал. Но действительно ли малоподвижный образ жизни удовлетворит нашего дурно пахнущего героя?"
+    },
+    "ADV_BAZAAR": {
+      "stageName": "Планарный базар",
+      "description": "Потерявшись в секундах забытых времён, союзники из прошлого и будущего собираются в этом запутанном торговом пространстве для торговли товарами из разных миров."
+    },
+    "ADV_IME_1_Chapel": {
+      "stageName": "Глубокое знание",
+      "description": "Имельда надеялась обрести новую жизнь в лоне церкви... Но однажды ночью чудовищное нападение круто меняет её судьбу. Теперь Имельда загнана в угол, и чтобы выжить, ей придётся призвать на помощь силу своей семьи!"
+    },
+    "ADV_IME_2_Library": {
+      "stageName": "Библиотека",
+      "description": "Имельде удаётся сбежать из разрушенной часовни, на чём свет стоит проклиная нападавших. В поисках любопытной книги без слов она отправляется в кажущуюся бесконечной библиотеку. Загадочная книга дарует ей силу отплатить своим обидчикам."
+    },
+    "ADV_IME_3_Forest": {
+      "stageName": "Безумный лес",
+      "description": "Озарённый её решительным духом, Пустой фолиант раскрывает свои секреты и направляет Имельду к пристанищу беглой монахини с довольно кощунственными умениями, которые бы потрясли и рай, и ад. Начинаются поиски таинственной монахини, отлично владеющей огнестрельным оружием..."
+    },
+    "ADV_IME_4_Tower": {
+      "stageName": "Башня Галло",
+      "description": "Пугнала присоединяется к Имельде и сообщает ей, что равновесие является ключом к победе над божественным и демоническим. Вместе они отправляются в мятежную башню и сражаются там с ужасными противниками, учатся стрелять из хроматического оружия и освобождают падшего ангела, готовясь к своему небесному мятежу."
+    },
+    "ADV_IME_5_Stair": {
+      "stageName": "Астральная лестница",
+      "description": "Обучение Имельды завершено, и теперь ей предстоит взойти по Астральной лестнице. У её силы несколько уровней, словно у восхитительного многослойного десерта. Вооружившись кощунственной мощью оружия Пугналы, она наконец встретится со своей судьбой лицом к лицу.",
+      "tips": "Враги со временем становятся сильнее."
+    },
+    "ADV_IME_6_Magna": {
+      "stageName": "Капелла Магна",
+      "description": "Имельда сражается на стороне смертных в изнуряющей битве, несущей возмездие... Но кто же истинный враг?"
+    },
+    "POLUS": {
+      "stageName": "Полюс Реплика",
+      "description": "На таинственной научной станции среди звёзд выживание далеко не гарантировано. За каждым космическим камнем скрываются внеземное зло и межпространственная двойственность.\n",
+      "tips": null
+    },
+    "ADV_CHAL_001_Meeting": {
+      "stageName": "Созванное собрание",
+      "description": "Красного вызвали на срочное собрание, но больше никого здесь нет... что происходит? \nПочему двери заперты? И в конференц-зале всегда было столько мусорных баков? \nКто-то должен заявить об этом беспорядке!",
+      "tips": "Улучшите заявитель."
+    },
+    "ADV_CHAL_002_Security": {
+      "stageName": "Изолятор подозреваемого",
+      "description": "Сообщение дошло до штаб-квартиры, и станцию  изолировали в целях нашей же безопасности, что было бы очень кстати, не окажись мы в тот момент внутри. Возможно, если мы найдём инженера, то сможем пробраться обратно через люки...",
+      "tips": "Найдите инженера."
+    },
+    "ADV_CHAL_003_Ejected": {
+      "stageName": "Катапульта безнадёжности",
+      "description": "Что ж, люк уводит нас от странных инопланетян к космическим кроликами и уткам-астронавтами. Думаю, надо воспользоваться возможностью и исследовать их.",
+      "tips": "Изучите 3000 космических уток."
+    },
+    "ADV_CHAL_004_Ghosted": {
+      "stageName": "Призрачная обитель",
+      "description": "Возможно, преследовать колонию космических кроликов в подземной пещере — далеко не лучшая идея..\nИнтересно, не в этом ли подземном лабиринте оказались все остальные члены экипажа...",
+      "tips": "Найдите (дружелюбного) призрака."
+    },
+    "ADV_CHAL_005_Science": {
+      "stageName": "Космические скалы",
+      "description": "Тем временем на базе всё кувырком! Атакуют злобные пришельцы, пропадают члены экипажа, по углам затаились всякие паранормальные твари — уж точно не призраки! \nПризовём на помощь логику и науку — и узнаем, что происходит. ",
+      "tips": "Найдите учёного."
+    },
+    "ADV_CHAL_006_Trouble": {
+      "stageName": "Проблемный анализатор",
+      "description": "Учёный говорит, что причиной всех этих происшествий являются странные эксперименты в пробах. По всей видимости, какой-то инновационный проект по биологии бобов пошёл не так, и странное мясное существо призывает злобных инопланетян. Что бы это ни было, мы его катапультируем отсюда!",
+      "tips": "Продержитесь 25 минут и победите подозрительные глаза."
+    }
+  }
+}

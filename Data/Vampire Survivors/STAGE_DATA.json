@@ -5601,8 +5601,8 @@
         "XPBonus": 1,
         "TimeMods": {
           "start": 0,
-          "hpPerMinute": 0.3,
-          "speedPerMinute": 0.05
+          "hpPerMinute": 0.15,
+          "speedPerMinute": 0.025
         }
       },
       "hyper": {
@@ -6445,6 +6445,9 @@
       "tips": "",
       "hyperTips": "",
       "validForCharcaterData": true,
+      "yellowRelics": [
+        "RELIC_ATLAS"
+      ],
       "mods": {
         "TimeLimit": 900,
         "ClockSpeed": 1,
@@ -7062,8 +7065,8 @@
         "XPBonus": 0.25,
         "TimeMods": {
           "start": 0,
-          "hpPerMinute": 0.2,
-          "speedPerMinute": 0.025
+          "hpPerMinute": 0.1,
+          "speedPerMinute": 0.0125
         }
       },
       "hyper": {
@@ -7629,7 +7632,7 @@
         "TimeMods": {
           "start": 0,
           "hpPerMinute": 0.1,
-          "speedPerMinute": 0.0125
+          "speedPerMinute": 0.001
         }
       },
       "hyper": {
@@ -8326,8 +8329,8 @@
         "XPBonus": 1,
         "TimeMods": {
           "start": 0,
-          "hpPerMinute": 0.2,
-          "speedPerMinute": 0.025
+          "hpPerMinute": 0.1,
+          "speedPerMinute": 0.0125
         }
       },
       "hyper": {
@@ -8879,7 +8882,7 @@
         "EnemyHealthMultiplier": 2,
         "LuckBonus": 0.2,
         "TimeMods": {
-          "start": 20,
+          "start": 0,
           "hpPerMinute": 0.1,
           "speedPerMinute": 0.3
         }
@@ -9146,8 +9149,8 @@
           "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
-          "EXISTING_WEAPON",
-          "EXISTING_WEAPON"
+          "EXISTING_ANY",
+          "EXISTING_ANY"
         ]
       }
     },
@@ -9212,8 +9215,8 @@
           "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
-          "EXISTING_WEAPON",
-          "EXISTING_WEAPON"
+          "EXISTING_ANY",
+          "EXISTING_ANY"
         ]
       }
     },
@@ -9238,8 +9241,8 @@
           "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
-          "EXISTING_WEAPON",
-          "EXISTING_WEAPON"
+          "EXISTING_ANY",
+          "EXISTING_ANY"
         ]
       }
     },
@@ -9277,11 +9280,11 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_WEAPON",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
           "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_WEAPON",
-          "EXISTING_WEAPON"
+          "EXISTING_ANY"
         ]
       }
     },

@@ -3883,6 +3883,177 @@
       ]
     }
   ],
+  "ADV_MOLISANI": [
+    {
+      "level": 1,
+      "maxHp": 0.35,
+      "speed": 0,
+      "power": 1,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "feverValue": 0.2,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 29,
+      "frameNames": [
+        "A1_0.png",
+        "A2_0.png",
+        "A3_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "MOLISE"
+      ],
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+        "MOLISANO_BASE",
+        "MOLISANO_SECCO",
+        "MOLISANO_GIALLO",
+        "MOLISANO_BELLO",
+        "MOLISANO_GROSSO",
+        "MOLISANO_ROSSO",
+        "MOLISANO_FAGIOLO",
+        "MOLISANO_COLONNA",
+        "MOLISANO_VECCHIO",
+        "MOLISANO_ANFORA"
+      ]
+    }
+  ],
+  "ADV_MOLISANI_MOVING": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 50,
+      "power": 1,
+      "knockback": 0,
+      "skills" : [0],
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "feverValue": 0.2,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 29,
+      "frameNames": [
+        "A1_0.png",
+        "A2_0.png",
+        "A3_0.png"
+      ]
+    }
+  ],
+  "ADV_MOLISANI_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 400,
+      "power": 1,
+      "knockback": 0,
+      "skills" : [0],
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "feverValue": 0.2,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 29,
+      "frameNames": [
+        "A1_0.png",
+        "A2_0.png",
+        "A3_0.png"
+      ]
+    }
+  ],
+  "ADV_XLFLOWER_SMALL": [{
+    "enemyType": "ADV_XLFLOWER_SMALL",
+    "level": 1,
+    "maxHp": 0.2,
+    "speed": 80,
+    "power": 8,
+    "xp": 1,
+    "knockback": 1,
+    "maxKnockback": 3,
+    "deathKB": 2,
+    "passThroughWalls": false,
+    "scale": 0.8,
+    "idleFrameCount": 4,
+    "end": 29,
+    "tint": 13404228,
+    "textureName": "enemies",
+    "frameNames": [
+      "XLFlower1_0.png"
+    ],
+    "killedAmount": 0
+  }],
+  "ADV_MOON_GARLIC_SMALL": [{
+    "enemyType": "ADV_MOON_GARLIC_SMALL",
+    "level": 1,
+    "maxHp": 0.5,
+    "speed": 80,
+    "power": 16,
+    "xp": 1,
+    "knockback": 1,
+    "maxKnockback": 3,
+    "deathKB": 2,
+    "passThroughWalls": false,
+    "scale": 0.65,
+    "idleFrameCount": 5,
+    "end": 16,
+    "textureName": "enemies2",
+    "frameNames": [
+      "Plant_0.png"
+    ],
+    "killedAmount": 0
+  }],
+  "ADV_MOLISANI_MOVING2": [{
+    "enemyType": "ADV_MOLISANI_MOVING2",
+    "level": 1,
+    "maxHp": 0.3,
+    "speed": 50,
+    "power": 1,
+    "xp": 2,
+    "knockback": 0,
+    "maxKnockback": 3,
+    "deathKB": 1,
+    "skills": [
+      0
+    ],
+    "passThroughWalls": false,
+    "end": 29,
+    "textureName": "enemiesM",
+    "frameNames": [
+      "D1_0.png",
+      "D2_0.png",
+      "D3_0.png"
+    ]
+  }],
+  "ADV_MOLISANI_MOVING3": [{
+    "enemyType": "ADV_MOLISANI_MOVING3",
+    "level": 1,
+    "maxHp": 0.3,
+    "speed": 50,
+    "power": 1,
+    "xp": 3,
+    "knockback": 0,
+    "maxKnockback": 3,
+    "deathKB": 1,
+    "skills": [
+      0
+    ],
+    "passThroughWalls": false,
+    "end": 29,
+    "textureName": "enemiesM",
+    "frameNames": [
+      "E1_0.png",
+      "E2_0.png",
+      "E3_0.png"
+    ]
+  }],
+  
   "MOLISANO_BASE": [
     {
       "level": 1,
@@ -4031,11 +4202,7 @@
       "killedAmount": 0,
       "textureName": "enemiesM",
       "end": 29,
-      "frameNames": [
-        "D1_0.png",
-        "D2_0.png",
-        "D3_0.png"
-      ]
+      "frameNames": ["D1_0.png", "D2_0.png", "D3_0.png"]
     }
   ],
   "MOLISANO_FAGIOLO": [
@@ -4135,6 +4302,33 @@
       "frameNames": [
         "H1_0.png",
         "H2_0.png"
+      ]
+    }
+  ],
+  "BOSS_THICKTREE": [
+    {
+      "level": 1,
+      "maxHp": 1000,
+      "speed": 40,
+      "power": 1,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 30,
+      "scale": 1.5,
+      "feverValue": 0.2,
+      "killedAmount": 0,
+      "res_Rosary": 1,
+      "weak_Fire": 2,
+      "textureName": "enemiesM",
+      "end": 29,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetX": -6,
+        "offsetY": -6
+      },
+      "frameNames": [
+        "B2_0.png"
       ]
     }
   ],
@@ -4408,6 +4602,78 @@
       ]
     }
   ],
+
+
+  "MS_ADV_MADDONNAS1": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "alpha": 0.85,
+      "xp": 1,
+      "idleFrameCount": 21,
+      "killedAmount": 0,
+      "weak_Fire": 1.66,
+      "end": 17,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "Illusion_0.png"
+      ]
+    }
+  ],
+  "MS_ADV_MADDONNAS2": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 100,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "alpha": 0.65,
+      "xp": 1,
+      "idleFrameCount": 21,
+      "killedAmount": 0,
+      "weak_Fire": 1.66,
+      "end": 17,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "Illusion_0.png"
+      ]
+    }
+  ],
+  "MS_ADV_MADDONNAS3": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 10,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "alpha": 0.35,
+      "xp": 1,
+      "idleFrameCount": 21,
+      "killedAmount": 0,
+      "weak_Fire": 1.66,
+      "end": 17,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "Illusion_0.png"
+      ]
+    }
+  ],
+  
   "EX_ILLUSION": [
     {
       "level": 1,
@@ -4436,7 +4702,7 @@
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
-        "EX_ILLUSION2"
+        "EX_ILLUSION2", "MS_ADV_MADDONNAS1", "MS_ADV_MADDONNAS2", "MS_ADV_MADDONNAS3"
       ]
     }
   ],
@@ -4464,7 +4730,7 @@
   "EX_BOSS_KITSUNE": [
     {
       "level": 30,
-      "maxHp": 40,
+      "maxHp": 30,
       "speed": 100,
       "power": 25,
       "skills": [
@@ -4475,7 +4741,7 @@
       "deathKB": 1,
       "killedAmount": 0,
       "weak_Fire": 2,
-      "xp": 30,
+      "xp": 50,
       "scale": 2,
       "colliderOverride": {
         "radius": 0.55,
@@ -4507,7 +4773,7 @@
   "EX_BOSS_KITSUNE_TAIL": [
     {
       "level": 1,
-      "maxHp": 40,
+      "maxHp": 25,
       "speed": 0,
       "power": 10,
       "skills": [
@@ -5139,9 +5405,7 @@
       "end": 16,
       "textureName": "enemies2",
       "idleFrameCount": 5,
-      "frameNames": [
-        "Plant_0.png"
-      ],
+      "frameNames": ["Plant_0.png"],
       "bName": "Garlic",
       "bDesc": "The ghastly consequences of experimental pesticide. Despite the name, they are not related to traditional garlic, making them useless as wards against the surely inevitable appearance of a vampire.",
       "bPlaces": [

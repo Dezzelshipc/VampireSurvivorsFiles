@@ -1,0 +1,214 @@
+{
+  "en": {
+    "POWER": {
+      "name": "Might",
+      "description": "Raises inflicted Damage by 5% per rank (max +25%)."
+    },
+    "REGEN": {
+      "name": "Recovery",
+      "description": "Recovers 0.1 HP per rank (max 0.5) per second."
+    },
+    "MAXHEALTH": {
+      "name": "Max Health",
+      "description": "Augments Max Health by 10% per rank (max +30%)."
+    },
+    "ARMOR": {
+      "name": "Armor",
+      "description": "Reduces incoming Damage by 1 per rank (max -3)."
+    },
+    "AREA": {
+      "name": "Area",
+      "description": "Augments area of attacks by 5% per rank (max +10%)."
+    },
+    "SPEED": {
+      "name": "Speed",
+      "description": "Projectiles move 10% faster per rank (max 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Cooldown",
+      "description": "Uses weapons 2.5% faster per rank (max 5%)."
+    },
+    "DURATION": {
+      "name": "Duration",
+      "description": "Effects from weapons last 15% longer per rank (max +30%)."
+    },
+    "AMOUNT": {
+      "name": "Amount",
+      "description": "Fires 1 more projectile (all weapons)."
+    },
+    "MOVESPEED": {
+      "name": "Move Speed",
+      "description": "Character moves 5% faster per rank (max 10%)."
+    },
+    "MAGNET": {
+      "name": "Magnet",
+      "description": "Items Pickup range +25% per rank (max +50%)."
+    },
+    "LUCK": {
+      "name": "Luck",
+      "description": "Chance to get lucky goes up by 10% per rank (max +30%)."
+    },
+    "GROWTH": {
+      "name": "Growth",
+      "description": "Gains 3% more experience per rank (max 15%)."
+    },
+    "GREED": {
+      "name": "Greed",
+      "description": "Gains 10% more Gold per rank (max +50%)."
+    },
+    "SHIELD": {
+      "name": "Shield",
+      "description": "Prevents damage for one attack. Stacks with Laurel."
+    },
+    "REVIVAL": {
+      "name": "Revival",
+      "description": "Revives once with 50% health."
+    },
+    "REROLL": {
+      "name": "Reroll",
+      "description": "Twice per rank, allows you to get different choices when leveling up.\n"
+    },
+    "SKIP": {
+      "name": "Skip",
+      "description": "Twice per rank, allows you to skip level up choices and get Experience instead."
+    },
+    "CURSE": {
+      "name": "Curse",
+      "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+    },
+    "BANISH": {
+      "name": "Banish",
+      "description": "Twice per rank, allows you to remove an item from level up choices, for the rest of the run."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Increases Might, Projectile Speed, Duration, and Area by 2% per rank (max +10%)."
+    },
+    "SEAL": {
+      "name": "Seal I",
+      "description": "Allows to Banish an item from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+    },
+    "CHARM": {
+      "name": "Charm",
+      "description": "Increases enemies spawn quantity by 20 per rank (max +100)."
+    },
+    "SEAL2": {
+      "name": "Seal II",
+      "description": "Allows to Banish an item from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+    },
+    "FEVER": {
+      "name": "Fever",
+      "description": "Increases duration of Gold Fever and Gold Finger by 10% per rank (max +50%)."
+    },
+    "DEFANG": {
+      "name": "Defang",
+      "description": "3% of enemies spawn unable to deal damage per rank (max 15%)."
+    }
+  },
+  "ru": {
+    "POWER": {
+      "name": "Сила",
+      "description": "Увеличивает наносимый урон на 5% с каждым рангом (макс. +25%)."
+    },
+    "REGEN": {
+      "name": "Регенерация",
+      "description": "Восстанавливает 0,1 ОЗ/сек. за каждый ранг (макс. 0,5)."
+    },
+    "MAXHEALTH": {
+      "name": "Макс. ОЗ",
+      "description": "Увеличивает макс. ОЗ на 10% за ранг (макс. +30%)."
+    },
+    "ARMOR": {
+      "name": "Броня",
+      "description": "Снижает получаемый урон на 1 за ранг (макс. -3)."
+    },
+    "AREA": {
+      "name": "Область",
+      "description": "Увеличивает область атаки на 5% с каждым рангом (макс. +10%)."
+    },
+    "SPEED": {
+      "name": "Скорость",
+      "description": "Снаряды движутся на 10% быстрее с каждым рангом (макс. 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Перезарядка",
+      "description": "Оружие используется на 2,5% чаще с каждым рангом (макс. 5%)."
+    },
+    "DURATION": {
+      "name": "Продолжительность",
+      "description": "Эффекты от оружия длятся на 15% дольше с каждым рангом (макс. +30%)."
+    },
+    "AMOUNT": {
+      "name": "Боезапас",
+      "description": "Выпускает на 1 снаряд больше (все оружие)."
+    },
+    "MOVESPEED": {
+      "name": "Скорость движения",
+      "description": "Персонаж перемещается на 5% быстрее с каждым рангом (макс. 10%)."
+    },
+    "MAGNET": {
+      "name": "Магнит",
+      "description": "Радиус сбора предметов на 25% больше с каждым рангом (макс. +50%)."
+    },
+    "LUCK": {
+      "name": "Удача",
+      "description": "Шанс везения возрастает на 10% с каждым рангом (макс. +30%)."
+    },
+    "GROWTH": {
+      "name": "Развитие",
+      "description": "Вы получаете на 3% больше опыта за каждый ранг (макс. 15%)."
+    },
+    "GREED": {
+      "name": "Жадность",
+      "description": "Дает на 10% больше золота за ранг (макс. +50%)."
+    },
+    "SHIELD": {
+      "name": "Щит",
+      "description": "Предотвращает урон от одной атаки. Объединяется с лавром."
+    },
+    "REVIVAL": {
+      "name": "Оживление",
+      "description": "Оживляет один раз с 50% ОЗ."
+    },
+    "REROLL": {
+      "name": "Повтор",
+      "description": "Два раза за ранг дает выбрать из других вариантов при повышении уровня.\n"
+    },
+    "SKIP": {
+      "name": "Пропуск",
+      "description": "Один раз за ранг позволяет пропустить выбор при повышении уровня и взамен получить опыт."
+    },
+    "CURSE": {
+      "name": "Проклятие",
+      "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10% за ранг (макс. +50%)."
+    },
+    "BANISH": {
+      "name": "Изгнание",
+      "description": "Два раза за ранг позволяет удалить предмет из предложенных при повышении уровня до конца забега."
+    },
+    "PANDORA": {
+      "name": "Омни",
+      "description": "Увеличивает силу, скорость, продолжительность и область на 2% за ранг (макс. +10%)."
+    },
+    "SEAL": {
+      "name": "Исключение",
+      "description": "Позволяет убрать предмет из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+    },
+    "CHARM": {
+      "name": "Очарование",
+      "description": "Увеличивает количество появляющихся врагов на 20 за каждый ранг (макс. +100)."
+    },
+    "SEAL2": {
+      "name": "Исключение II",
+      "description": "Позволяет убрать предмет из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+    },
+    "FEVER": {
+      "name": "Лихорадка",
+      "description": "Увеличивает продолжительность Золотой лихорадки и Золотого перста на 10% с каждым рангом (макс. +50%)."
+    },
+    "DEFANG": {
+      "name": "Обезвреживание",
+      "description": "Враги появляются неспособными нанести урон в 3% случаев за каждый ранг (макс. 15%)."
+    }
+  }
+}

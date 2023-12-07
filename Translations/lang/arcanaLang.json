@@ -1,0 +1,182 @@
+{
+  "en": {
+    "4": {
+      "name": "IV - Awake",
+      "description": "Gives +3 Revivals. Consuming a Revival gives +10% Max Health, +1 Armor, and +5% Might, Area, Duration, and Speed."
+    },
+    "5": {
+      "name": "V - Chaos in the Dark Night",
+      "description": "Overall projectile Speed continuously changes between -50% and +50% over 10 seconds. The character starts gaining +1% projectile Speed every level."
+    },
+    "6": {
+      "name": "VI - Sarabande of Healing",
+      "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+    },
+    "16": {
+      "name": "XVI - Slash",
+      "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+    },
+    "17": {
+      "name": "XVII - Lost & Found Painting",
+      "description": "Overall Duration continuously changes between -50% and +50% over 10 seconds. The character starts gaining +1% Duration every level."
+    },
+    "19": {
+      "name": "XIX - Heart of Fire",
+      "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+    },
+    "7": {
+      "name": "VII - Iron Blue Will",
+      "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+    },
+    "11": {
+      "name": "XI - Waltz of Pearls",
+      "description": "Listed weapon projectiles gain up to 3 bounces."
+    },
+    "15": {
+      "name": "XV - Disco of Gold",
+      "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+    },
+    "18": {
+      "name": "XVIII - Boogaloo of Illusions",
+      "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
+    },
+    "12": {
+      "name": "XII - Out of Bounds",
+      "description": "Freezing enemies generates explosions. Orologions are easier to find."
+    },
+    "14": {
+      "name": "XIV - Jail of Crystal",
+      "description": "Listed weapon projectiles have a chance to freeze enemies."
+    },
+    "8": {
+      "name": "VIII - Mad Groove",
+      "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+    },
+    "10": {
+      "name": "X - Beginning",
+      "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+    },
+    "3": {
+      "name": "III - Tragic Princess",
+      "description": "The cooldown of the listed weapons reduces when moving."
+    },
+    "20": {
+      "name": "XX - Silent Old Sanctuary",
+      "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+    },
+    "0": {
+      "name": "Game Killer",
+      "description": "Halts XP gain. Experience Gems turn into exploding projectiles. All Treasure Chests contain at least 3 items."
+    },
+    "1": {
+      "name": "I - Gemini",
+      "description": "Listed weapons come with a counterpart."
+    },
+    "2": {
+      "name": "II - Twilight Requiem",
+      "description": "Listed weapon projectiles generate explosions when they expire. Explosions damage is affected by Curse."
+    },
+    "13": {
+      "name": "XIII - Wicked Season",
+      "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+    },
+    "9": {
+      "name": "IX - Divine Bloodline",
+      "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+    },
+    "21": {
+      "name": "XXI - Blood Astronomia",
+      "description": "Listed weapons also emit special damaging zones affected by Amount and Magnet. Enemies within Magnet range take damage based on Amount."
+    }
+  },
+  "ru": {
+    "4": {
+      "name": "IV — Пробуждение",
+      "description": "Дает +3 оживления. Использование оживления дает +10% к макс. ОЗ, +1 к броне и +5% к силе, области, продолжительности и скорости."
+    },
+    "5": {
+      "name": "V — Хаос во мраке ночи",
+      "description": "Скорость всех снарядов непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает получать +1% к скорости снарядов на каждом уровне."
+    },
+    "6": {
+      "name": "VI — Сарабанда Исцеления",
+      "description": "Исцеление удваивается. Восстановление ОЗ наносит равнозначный урон ближайшим врагам."
+    },
+    "16": {
+      "name": "XVI — Порез",
+      "description": "Позволяет наносить критические удары для перечисленного оружия. Удваивает весь критический урон."
+    },
+    "17": {
+      "name": "XVII — Потерянная и найденная картина",
+      "description": "Общая продолжительность непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает получать +1% к продолжительности на каждом уровне."
+    },
+    "19": {
+      "name": "XIX — Пламенный мотор",
+      "description": "Снаряды перечисленного оружия взрываются при столкновении. Источники света взрываются. Персонаж взрывается при получении урона."
+    },
+    "7": {
+      "name": "VII — Лазурная воля",
+      "description": "Снаряды перечисленного оружия получают до 3 отскоков и могут проходить сквозь врагов и стены."
+    },
+    "11": {
+      "name": "XI — Вальс жемчужин",
+      "description": "Снаряды перечисленного оружия получают до 3 отскоков."
+    },
+    "15": {
+      "name": "XV — Золотая дискотека",
+      "description": "Собирание мешков с монетами с земли вызывает Золотую Лихорадку. За полученное золото восстанавливается равное количество ОЗ."
+    },
+    "18": {
+      "name": "XVIII — Бугалу иллюзий",
+      "description": "Область всех атак непрерывно меняется от -25% до +25% в течение 10 секунд. Персонаж начинает получать +1% к области на каждом уровне."
+    },
+    "12": {
+      "name": "XII — Вне пределов",
+      "description": "При замораживании врагов происходят взрывы. Часослов проще найти."
+    },
+    "14": {
+      "name": "XIV — Кристальные оковы",
+      "description": "Снаряды перечисленного оружия могут заморозить врагов."
+    },
+    "8": {
+      "name": "VIII — Зажигательный отрыв",
+      "description": "Каждые 2 минуты притягивает все стандартные предметы этапа, находки и источники света к персонажу."
+    },
+    "10": {
+      "name": "X — Начало",
+      "description": "Перечисленное оружие получает +1 к боезапасу. Основное оружие персонажа и его улучшенная версия получают +3 к боезапасу."
+    },
+    "3": {
+      "name": "III — Трагическая принцесса",
+      "description": "Время отката перечисленного оружия уменьшается при перемещении."
+    },
+    "20": {
+      "name": "XX — Тихое старое святилище",
+      "description": "Дает +3 к повтору, пропуску и изгнанию. Дает +20% силы и -8% перезарядки за каждый активный слот оружия, оставшийся пустым."
+    },
+    "0": {
+      "name": "Убийца игры",
+      "description": "Останавливает прирост опыта. Самоцветы опыта превращаются во взрывающиеся снаряды. Во всех сундуках с сокровищами содержится не менее 3 предметов."
+    },
+    "1": {
+      "name": "I — Близнецы",
+      "description": "Перечисленное оружие выдается в двух экземплярах."
+    },
+    "2": {
+      "name": "II — Сумеречный реквием",
+      "description": "Снаряды перечисленного оружия взрываются в момент их исчезновения."
+    },
+    "13": {
+      "name": "XIII — Плохой сезон",
+      "description": "Общее развитие, удача, жадность и проклятие удваиваются через определенное время. Персонаж начинает получать +1% к развитию, удаче, жадности и проклятию каждые 2 уровня."
+    },
+    "9": {
+      "name": "IX — Божественная родословная",
+      "description": "Броня влияет на урон от перечисленного оружия и отражает урон врагов. Персонаж получает доп. урон в зависимости от недостающего здоровья. Враги, пораженные ответным уроном, дают +0,5 к макс. ОЗ."
+    },
+    "21": {
+      "name": "XXI — Астрономия крови",
+      "description": "Перечисленное оружие также создает особые зоны урона, на которые влияет боезапас и магнит. Враги в радиусе действия магнита получают урон в зависимости от боезапаса."
+    }
+  }
+}

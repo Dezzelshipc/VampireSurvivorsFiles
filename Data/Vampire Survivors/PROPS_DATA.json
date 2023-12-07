@@ -62,6 +62,13 @@
     "maxHp": 1,
     "destructibleType": "LANTERN_INVERSE"
   },
+  "WEATHERNODE": {
+    "textureName": "items",
+    "frameName": "WeatherNode",
+    "destroyedAmount": 0,
+    "maxHp": 1,
+    "destructibleType": "WEATHERNODE"
+  },
   "FOSCARI_SEAL_1": {
     "textureName": "items",
     "frameName": "Seal1_",

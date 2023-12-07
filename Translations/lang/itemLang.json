@@ -1,0 +1,516 @@
+{
+  "en": {
+    "CLOVER": {
+      "description": "Pick up to get 10% luckier.",
+      "name": "Little Clover"
+    },
+    "COIN": {
+      "description": "Adds 1 to your Gold coins total.",
+      "name": "Gold Coin"
+    },
+    "COINBAG1": {
+      "description": "Adds 10 to your Gold coins total.",
+      "name": "Coin Bag"
+    },
+    "COINBAG2": {
+      "description": "Adds 25 to your Gold coins total.",
+      "name": "Big Coin Bag"
+    },
+    "COINBAGMAX": {
+      "description": "Adds 100 to your Gold coins total.",
+      "name": "Rich Coin Bag",
+      "tips": "Drop rate affected by Luck."
+    },
+    "GEM": {
+      "description": "Increases experience.",
+      "name": "Experience Gem",
+      "tips": null
+    },
+    "OROLOGION": {
+      "description": "Freezes all enemies in time for 10 seconds.",
+      "name": "Orologion",
+      "tips": "Drop rate affected by Luck."
+    },
+    "ROAST": {
+      "description": "Restores 30 Health points.",
+      "name": "Floor Chicken",
+      "tips": "Drop rate affected by Luck."
+    },
+    "ROSARY": {
+      "description": "Destroys all enemies in sight.",
+      "name": "Rosary",
+      "tips": "Drop rate affected by Luck."
+    },
+    "TREASURE": {
+      "description": "Awards coins and Power ups. Dropped by strong enemies.",
+      "name": "Treasure Chest",
+      "tips": "Quality affected by Luck."
+    },
+    "VACUUM": {
+      "description": "Gathers all Experience gems left on the ground.",
+      "name": "Vacuum",
+      "tips": "Drop rate affected by Luck."
+    },
+    "NFT": {
+      "description": "Temporarily emits cones of flames. Affected by player stats.",
+      "name": "Nduja Fritta",
+      "tips": "Drop rate affected by Luck."
+    },
+    "RELIC_MAP": {
+      "name": "Milky Way Map",
+      "description": "Permanently enables the map in the pause menu.",
+      "achievementTips": "Pause menu map"
+    },
+    "RELIC_TEAR": {
+      "name": "Sorceress' Tears",
+      "description": "Permanently allows speeding up time in Stage Selection.",
+      "achievementTips": "Hurry mode"
+    },
+    "RELIC_RANDOMAZZO": {
+      "description": "Enables the unlocking and activation of Arcanas.",
+      "name": "Randomazzo",
+      "achievementTips": "Arcanas"
+    },
+    "RELIC_BANGER": {
+      "description": "Permanently allows changing music in Stage Selection.",
+      "name": "Magic Banger",
+      "achievementTips": "Music selection"
+    },
+    "GILDED": {
+      "description": "Gathers all Gold left on the ground and starts a Gold Fever.",
+      "name": "Gilded Clover"
+    },
+    "RELIC_GLASSMASK": {
+      "name": "Glass Vizard",
+      "description": "Summons the merchant in all stages.",
+      "achievementTips": "Merchant"
+    },
+    "RELIC_GOLDENEGG": {
+      "name": "Golden Egg",
+      "description": "Permanently improves a random stat for the current character, by a tiny amount."
+    },
+    "RELIC_YELLOW": {
+      "name": "Yellow Sign",
+      "description": "Permanently allows the detection of hidden items in all stages.",
+      "achievementTips": "Hidden stage items"
+    },
+    "RELIC_GRIMOIRE": {
+      "name": "Grim Grimoire",
+      "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+      "achievementTips": "Evolution list"
+    },
+    "RELIC_NOSEGLASSES": {
+      "name": "Mindbender",
+      "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+      "achievementTips": "Character customization"
+    },
+    "RELIC_GOUDA": {
+      "name": "Ars Gouda",
+      "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+      "achievementTips": "Bestiary."
+    },
+    "RELIC_GGOSPEL": {
+      "name": "Great Gospel",
+      "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+      "achievementTips": "Limit Break."
+    },
+    "RELIC_SECRETS": {
+      "name": "Forbidden Scrolls of Morbane",
+      "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+      "achievementTips": "???"
+    },
+    "PURIFY": {
+      "name": "Flames of Moonspell",
+      "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
+    },
+    "RELIC_TRUMPET": {
+      "name": "Seventh Trumpet",
+      "description": "Permanently allows to disable all reapers and fight endlessly.",
+      "achievementTips": "Endless mode."
+    },
+    "RELIC_MIRROR": {
+      "name": "Gracia's Mirror",
+      "description": "Permanently allows to access a harder version of any stage.",
+      "achievementTips": "Inverse mode."
+    },
+    "ALWAYS_COINBAG2": {
+      "name": "[Always] Big Coin Bag",
+      "description": "Adds 25 to your gold coins total.",
+      "tips": "Always picked, for the rest of the run."
+    },
+    "ALWAYS_ROAST": {
+      "name": "[Always] Floor Chicken",
+      "description": "Restores 30 Health points.",
+      "tips": "Always picked over coins if missing health, for the rest of the run."
+    },
+    "DUMMY_SKIP": {
+      "name": "Skip",
+      "description": "Gives +1 Skip for this run."
+    },
+    "DUMMY_BANISH": {
+      "name": "Banish",
+      "description": "Gives +1 Banish for this run."
+    },
+    "DUMMY_REROLL": {
+      "name": "Reroll",
+      "description": "Gives +1 Reroll for this run."
+    },
+    "DUMMY_REVIVAL": {
+      "name": "Revival",
+      "description": "Gives +1 Revival for this run."
+    },
+    "DUMMY_ARC": {
+      "name": "Pick a Card",
+      "description": "Gives an extra Arcana for this run."
+    },
+    "PURIFY2": {
+      "name": "Lantern of Foscari",
+      "description": "Permanently removes all Golden Egg bonuses on Move Speed. This cannot be undone."
+    },
+    "DUMMY_GOLDENEGG_MAX": {
+      "name": "MAX EGGS",
+      "description": "Spend as much gold as possible to buy Golden Eggs."
+    },
+    "RELIC_MALACHITE": {
+      "name": "Chaos Malachite",
+      "description": "Allows Mortaccio to morph when reaching Level 80.",
+      "achievementTips": "Anima of Mortaccio."
+    },
+    "RELIC_CHARM": {
+      "name": "Apoplexy",
+      "description": "Allows to buy the Charm PowerUp.",
+      "achievementTips": "Charm PowerUp."
+    },
+    "RELIC_ROSALIA": {
+      "name": "Chaos Rosalia",
+      "description": "Allows Yatta Cavallo to morph when reaching Level 80.",
+      "achievementTips": "Yatta Daikarin."
+    },
+    "RELIC_TRISECTION": {
+      "name": "Trisection",
+      "description": "Enables random events in all stages.",
+      "achievementTips": "Random Events."
+    },
+    "RELIC_MAP_AS": {
+      "name": "Astral Stair Map",
+      "description": "Displays a detailed map when in Astral Stair.",
+      "achievementTips": "Astral Stair Map."
+    },
+    "RELIC_MAP_MS": {
+      "name": "Mt.Moonspell Map",
+      "description": "Displays a detailed map when in Mt.Moonspell.",
+      "achievementTips": "Mt.Moonspell Map."
+    },
+    "RELIC_MAP_FS": {
+      "name": "Lake Foscari Map",
+      "description": "Displays a detailed map when in Lake Foscari.",
+      "achievementTips": "Lake Foscari Map."
+    },
+    "GOLDFINGER": {
+      "name": "Gold Finger",
+      "description": "Gives temporary invulnerability, bonus Charm, and minimum Cooldown. Defeat as many enemies as possible to win a prize."
+    },
+    "RELIC_ALTEMANNA": {
+      "name": "Chaos Altemanna",
+      "description": "Allows O'Sole Meeo to morph when reaching Level 80.",
+      "achievementTips": "Profusione D'Amore."
+    },
+    "FRIENDSHIP": {
+      "name": "[Everyone] Friendship Amulet",
+      "description": "Every player gets a level up for one of their existing weapons.",
+      "tips": "Only available when playing with 2 or more players."
+    },
+    "RELIC_ANTIDOTE": {
+      "name": "Antidote",
+      "description": "Allows you to buy the Defang PowerUp.",
+      "achievementTips": "Defang PowerUp."
+    },
+    "RELIC_ATLAS": {
+      "name": "Atlas Gate",
+      "description": "Enables base game Adventures.",
+      "achievementTips": "base game Adventures."
+    },
+    "RELIC_LAZULIA": {
+      "name": "Chaos Lazulia",
+      "description": "Allows Bianca Ramba to morph when reaching Level 80.",
+      "achievementTips": null
+    },
+    "RELIC_CHAOSEGG": {
+      "name": "Chaos Egg",
+      "description": "Allows Ambrojoe to morph when reaching Level 80.",
+      "achievementTips": null
+    },
+    "RELIC_BRAVESTORY": {
+      "name": "Brave Story",
+      "description": "Allows to enable random level ups.",
+      "achievementTips": "Random LevelUp."
+    },
+    "RELIC_ANTIPYRETIC": {
+      "name": "Antipyretic",
+      "description": "Allows to buy the Fever PowerUp.",
+      "achievementTips": "Fever PowerUp."
+    },
+    "RELIC_MAP_CHAL": {
+      "name": "Polus Replica Map",
+      "description": "Displays a detailed map when in Polus Replica.",
+      "achievementTips": "Polus Replica Map."
+    }
+  },
+  "ru": {
+    "CLOVER": {
+      "description": "Подберите и станьте на 10% удачливее.",
+      "name": "Маленький клевер"
+    },
+    "COIN": {
+      "description": "Добавляет 1 к запасу золотых монет.",
+      "name": "Золотая монета"
+    },
+    "COINBAG1": {
+      "description": "Добавляет 10 к запасу золотых монет.",
+      "name": "Мешок денег"
+    },
+    "COINBAG2": {
+      "description": "Добавляет 25 к запасу золотых монет.",
+      "name": "Большой мешок денег"
+    },
+    "COINBAGMAX": {
+      "description": "Добавляет 100 к запасу золотых монет.",
+      "name": "Набитый мешок денег",
+      "tips": "Частота появления зависит от удачи."
+    },
+    "GEM": {
+      "description": "Увеличивает опыт.",
+      "name": "Самоцвет опыта",
+      "tips": null
+    },
+    "OROLOGION": {
+      "description": "Замораживает всех врагов на 10 секунд.",
+      "name": "Часослов",
+      "tips": "Частота появления зависит от удачи."
+    },
+    "ROAST": {
+      "description": "Восстанавливает 30 ОЗ.",
+      "name": "Жареный цыпленок",
+      "tips": "Частота появления зависит от удачи."
+    },
+    "ROSARY": {
+      "description": "Уничтожает всех врагов в поле зрения.",
+      "name": "Четки",
+      "tips": "Частота появления зависит от удачи."
+    },
+    "TREASURE": {
+      "description": "Дает монеты и усиления. Выпадает из сильных врагов.",
+      "name": "Сундук с сокровищами",
+      "tips": "Качество зависит от удачи."
+    },
+    "VACUUM": {
+      "description": "Собирает все самоцветы опыта, оставшиеся на земле.",
+      "name": "Вакуум",
+      "tips": "Частота появления зависит от удачи."
+    },
+    "NFT": {
+      "description": "Временно испускает конус пламени. Зависит от характеристик игрока.",
+      "name": "Ндуя фритта",
+      "tips": "Частота появления зависит от удачи."
+    },
+    "RELIC_MAP": {
+      "name": "Карта Млечного пути",
+      "description": "Навсегда активирует карту в меню паузы.",
+      "achievementTips": "карта в меню паузы"
+    },
+    "RELIC_TEAR": {
+      "name": "Слезы чародейки",
+      "description": "Позволяет ускорять время при выборе этапа.",
+      "achievementTips": "Режим спешки"
+    },
+    "RELIC_RANDOMAZZO": {
+      "description": "Позволяет разблокировать и активировать Арканы.",
+      "name": "Рандомаззо",
+      "achievementTips": "Арканы"
+    },
+    "RELIC_BANGER": {
+      "description": "Позволяет изменять музыку во время выбора этапа.",
+      "name": "Волшебный расколбас",
+      "achievementTips": "Выбор музыки"
+    },
+    "GILDED": {
+      "description": "Собирает все золото, оставшееся на земле и начинает Золотую лихорадку.",
+      "name": "Позолоченный клевер"
+    },
+    "RELIC_GLASSMASK": {
+      "name": "Стеклянный визард",
+      "description": "Призывает торговца на всех этапах.",
+      "achievementTips": "Торговец"
+    },
+    "RELIC_GOLDENEGG": {
+      "name": "Золотое яйцо",
+      "description": "Слегка улучшает случайную характеристику текущего персонажа."
+    },
+    "RELIC_YELLOW": {
+      "name": "Желтый знак",
+      "description": "Позволяет обнаруживать скрытые предметы на всех этапах.",
+      "achievementTips": "Скрытые предметы этапа"
+    },
+    "RELIC_GRIMOIRE": {
+      "name": "Смурной гримуар",
+      "description": "Позволяет просматривать обнаруженные улучшения оружия и гибриды из меню паузы.",
+      "achievementTips": "список улучшений"
+    },
+    "RELIC_NOSEGLASSES": {
+      "name": "Мозголом",
+      "description": "Позволяет изменять внешний вид персонажа (где это применимо) и макс. количество оружия.",
+      "achievementTips": "изменение персонажа"
+    },
+    "RELIC_GOUDA": {
+      "name": "Арс Гауда",
+      "description": "Дает постоянный доступ к списку побежденных врагов из главного меню.",
+      "achievementTips": "Бестиарий."
+    },
+    "RELIC_GGOSPEL": {
+      "name": "Великое Писание",
+      "description": "Позволяет повышать уровень оружия даже выше предельного. Можно включить на выборе этапа.",
+      "achievementTips": "Преодоление лимита."
+    },
+    "RELIC_SECRETS": {
+      "name": "Запретные свитки Морбейна",
+      "description": "Позволяет использовать заклинания и дает постоянный доступ к списку секретов из главного меню.",
+      "achievementTips": "???"
+    },
+    "PURIFY": {
+      "name": "Пламя луночар",
+      "description": "Убирает до 100 случайных бонусов золотых яиц. Это нельзя отменить."
+    },
+    "RELIC_TRUMPET": {
+      "name": "Седьмой рупор",
+      "description": "Позволяет убрать всех жнецов и сражаться бесконечно.",
+      "achievementTips": "Бесконечный режим."
+    },
+    "RELIC_MIRROR": {
+      "name": "Зеркало Грации",
+      "description": "Дает постоянный доступ к усложненной версии любого этапа.",
+      "achievementTips": "Режим инверсии."
+    },
+    "ALWAYS_COINBAG2": {
+      "name": "[Всегда] Большой мешок денег",
+      "description": "Добавляет 25 к запасу золотых монет.",
+      "tips": "Всегда выбрано до конца забега."
+    },
+    "ALWAYS_ROAST": {
+      "name": "[Всегда] Жареный цыпленок",
+      "description": "Восстанавливает 30 ОЗ.",
+      "tips": "Вы будете собирать его вместо монет, если не хватает здоровья, до конца забега."
+    },
+    "DUMMY_SKIP": {
+      "name": "Пропуск",
+      "description": "Дает +1 пропуск в этом забеге."
+    },
+    "DUMMY_BANISH": {
+      "name": "Изгнание",
+      "description": "Дает +1 изгнание в этом забеге."
+    },
+    "DUMMY_REROLL": {
+      "name": "Повтор",
+      "description": "Дает +1 повтор в этом забеге."
+    },
+    "DUMMY_REVIVAL": {
+      "name": "Оживление",
+      "description": "Дает +1 оживление в этом забеге."
+    },
+    "DUMMY_ARC": {
+      "name": "Выбрать карту",
+      "description": "Дает дополнительную Аркану в этом забеге."
+    },
+    "PURIFY2": {
+      "name": "Фонарь Фоскари",
+      "description": "Убирает все бонусы золотых яиц для скорости движения. Нельзя отменить."
+    },
+    "DUMMY_GOLDENEGG_MAX": {
+      "name": "МАКСИМУМ ЯИЦ",
+      "description": "Потратьте как можно больше золота на покупку Золотых яиц."
+    },
+    "RELIC_MALACHITE": {
+      "name": "Малахит хаоса",
+      "description": "Позволяет Мортаччо менять форму по достижении 80 уровня.",
+      "achievementTips": "Анима Мортаччо."
+    },
+    "RELIC_CHARM": {
+      "name": "Апоплексия",
+      "description": "Позволяет приобрести усиление «Очарование».",
+      "achievementTips": "Усиление «Очарование»."
+    },
+    "RELIC_ROSALIA": {
+      "name": "Розалия хаоса",
+      "description": "Позволяет Ятте Кавалло менять форму по достижении 80 уровня.",
+      "achievementTips": "Ятта Дайкарин."
+    },
+    "RELIC_TRISECTION": {
+      "name": "Трисекция",
+      "description": "Разрешает случайные события на всех этапах.",
+      "achievementTips": "Случайные события."
+    },
+    "RELIC_MAP_AS": {
+      "name": "Карта Астральной лестницы",
+      "description": "Показывает детализованную карту на Астральной лестнице.",
+      "achievementTips": "Карта Астральной лестницы."
+    },
+    "RELIC_MAP_MS": {
+      "name": "Карта Горы Луночар",
+      "description": "Показывает детализованную карту на Горе Луночар.",
+      "achievementTips": "Карта Горы Луночар."
+    },
+    "RELIC_MAP_FS": {
+      "name": "Карта Озера Фоскари",
+      "description": "Показывает детализованную карту на Озере Фоскари.",
+      "achievementTips": "Карта Озера Фоскари."
+    },
+    "GOLDFINGER": {
+      "name": "Золотой перст",
+      "description": "Дает временную неуязвимость, дополнительное очарование и минимальную перезарядку. Победите как можно больше врагов, чтобы получить приз."
+    },
+    "RELIC_ALTEMANNA": {
+      "name": "Хаос Альтеманна",
+      "description": "Позволяет О'Солле Мио менять форму по достижении 80 уровня.",
+      "achievementTips": "Профузьонэ Д'Аморе"
+    },
+    "FRIENDSHIP": {
+      "name": "[Все] Амулет дружбы",
+      "description": "Все игроки повышают уровень одного экземпляра текущего оружия.",
+      "tips": "Доступно при игре как минимум вдвоём."
+    },
+    "RELIC_ANTIDOTE": {
+      "name": "Антидот",
+      "description": "Позволяет приобрести усиление «Очарование».",
+      "achievementTips": "Усиление «Очарования»."
+    },
+    "RELIC_ATLAS": {
+      "name": "Врата Атласа",
+      "description": "Разблокируют приключения основной игры.",
+      "achievementTips": "приключения основной игры."
+    },
+    "RELIC_LAZULIA": {
+      "name": "Лазулия хаоса",
+      "description": "Позволяет Бьянке Рамба менять форму по достижении 80-го уровня.",
+      "achievementTips": null
+    },
+    "RELIC_CHAOSEGG": {
+      "name": "Яйцо хаоса",
+      "description": "Позволяет Амбро Джо менять форму по достижении 80-го уровня.",
+      "achievementTips": null
+    },
+    "RELIC_BRAVESTORY": {
+      "name": "Отважная история",
+      "description": "Позволяет включить случайное повышение уровня.",
+      "achievementTips": "Случайный левелап"
+    },
+    "RELIC_ANTIPYRETIC": {
+      "name": "Жаропонижающее",
+      "description": "Позволяет приобрести усиление «Лихорадка».",
+      "achievementTips": "Усиление «Лихорадка»"
+    },
+    "RELIC_MAP_CHAL": {
+      "name": "Карта Полюса Реплика",
+      "description": "Показывает детализованную карту в Полюсе Реплика.",
+      "achievementTips": "Карта Полюса Реплика"
+    }
+  }
+}

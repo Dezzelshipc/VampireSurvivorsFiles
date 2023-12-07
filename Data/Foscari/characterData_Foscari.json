@@ -1,840 +1,894 @@
 {
-	"ELEANOR": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "SPELL_STRING",
-			"charName": "Eleanor",
-			"surname": "Uziron",
-			"spriteName": "Eleanor_i01.png",
-			"textureName": "foscariChars",
-			"portraitName": "p_2eleanor.png",
-			"bgm": "BGM_Magic",
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "Eleanor_i01.png",
-					"walkingFrames": 4,
-					"unlocked": true
-				}
-			],
-			"currentSkinIndex": 0,
-			"walkingFrames": 4,
-			"description": "Receives SpellStream at Level 10 and SpellStrike at Level 20. Receives Academy Badge at Level 30.",
-			"isBought": false,
-			"price": 500,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"enemiesKilled": 0,
-			"stageData": [],
-			"maxHp": 90,
-			"armor": 0,
-			"regen": 0,
-			"moveSpeed": 1.2,
-			"power": 1,
-			"cooldown": 1,
-			"area": 1,
-			"speed": 1,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1,
-			"growth": 1.25,
-			"greed": 1,
-			"curse": 1,
-			"magnet": 0,
-			"revivals": 0,
-			"rerolls": 2,
-			"skips": 0,
-			"banish": 0,
-			"showcase": [
-				"SPELL_STRING",
-				"SPELL_STRING",
-				"SPELL_STRING",
-				"SPELL_STRING",
-				"SPELL_STRING",
-				"SPELL_STRING",
-				"SPELL_STRIKE",
-				"SPELL_STRIKE",
-				"SPELL_STRIKE",
-				"SPELL_STRIKE",
-				"SPELL_STRIKE",
-				"SPELL_STRIKE",
-				"SPELL_STREAM",
-				"SPELL_STREAM",
-				"SPELL_STREAM",
-				"SPELL_STREAM",
-				"SPELL_STREAM",
-				"SPELL_STREAM",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"AREA",
-				"AREA",
-				"AREA",
-				"AMOUNT",
-				"AMOUNT"
-			]
-		},
-		{
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	],
-	"VICTOR": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "SWORD",
-			"charName": "Maruto",
-			"surname": "Cuts",
-			"textureName": "foscariChars",
-			"spriteName": "Victor_i01.png",
-			"portraitName": "p_2viktor.png",
-			"bgm": "BGM_War",
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "Victor_i01.png",
-					"walkingFrames": 4,
-					"unlocked": true
-				}
-			],
-			"spriteAnims": {
-				"meleeAttack": {
-					"textureName": "foscariChars",
-					"spriteName": "Victor_a01.png",
-					"framesNumber": 5,
-					"frameRate": 8
-				}
-			},
-			"currentSkinIndex": 0,
-			"walkingFrames": 4,
-			"description": "Gains a temporary Armor bonus after getting damaged. Receives Academy Badge at Level 30.",
-			"isBought": false,
-			"price": 3000,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"enemiesKilled": 0,
-			"stageData": [],
-			"maxHp": 120,
-			"armor": 1,
-			"regen": 0,
-			"moveSpeed": 1,
-			"power": 1.2,
-			"cooldown": 1,
-			"area": 1,
-			"speed": 1,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1,
-			"growth": 1,
-			"greed": 1,
-			"curse": 1.1,
-			"magnet": 0,
-			"revivals": 0,
-			"rerolls": 0,
-			"skips": 0,
-			"banish": 0,
-			"showcase": [
-				"SWORD",
-				"SWORD",
-				"SWORD",
-				"SWORD",
-				"SWORD",
-				"SWORD",
-				"SWORD",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"AMOUNT",
-				"AMOUNT",
-				"ARMOR",
-				"ARMOR",
-				"ARMOR",
-				"ARMOR",
-				"ARMOR",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER"
-			]
-		},
-		{
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	],
-	"KEIRA": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "FLASHARROW",
-			"charName": "Keitha",
-			"surname": "Muort",
-			"textureName": "foscariChars",
-			"spriteName": "Keira_i01.png",
-			"portraitName": "p_2keira.png",
-			"bgm": "BGM_Deception",
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "Keira_i01.png",
-					"walkingFrames": 4,
-					"unlocked": true
-				}
-			],
-			"spriteAnims": {
-				"meleeAttack": {
-					"textureName": "foscariChars",
-					"spriteName": "Keira_a01.png",
-					"framesNumber": 6,
-					"frameRate": 12
-				}
-			},
-			"currentSkinIndex": 0,
-			"walkingFrames": 4,
-			"description": "Gains +1% Luck every level. Receives Academy Badge at Level 30.",
-			"isBought": false,
-			"price": 3000,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"enemiesKilled": 0,
-			"stageData": [],
-			"maxHp": 100,
-			"armor": 0,
-			"regen": 0,
-			"moveSpeed": 1.4,
-			"power": 1,
-			"cooldown": 0.9,
-			"area": 1,
-			"speed": 1.2,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1.1,
-			"growth": 1,
-			"greed": 1,
-			"curse": 1.1,
-			"magnet": 0,
-			"revivals": 0,
-			"rerolls": 0,
-			"skips": 0,
-			"banish": 0,
-			"showcase": [
-				"FLASHARROW",
-				"FLASHARROW",
-				"FLASHARROW",
-				"FLASHARROW",
-				"FLASHARROW",
-				"FLASHARROW",
-				"FLASHARROW",
-				"AREA",
-				"AREA",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"LUCK",
-				"LUCK",
-				"LUCK",
-				"LUCK",
-				"LUCK",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"AMOUNT",
-				"AMOUNT"
-			],
-			"onEveryLevelUp": {
-				"luck": 0.01
-			}
-		},
-		{
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	],
-	"LUMINAIRE": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "PRISMATICMISS",
-			"charName": "Luminaire",
-			"surname": "Foscari",
-			"spriteName": "Luminaire_i01.png",
-			"textureName": "foscariChars",
-			"portraitName": "p_2luminaire.png",
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "Luminaire_i01.png",
-					"walkingFrames": 5,
-					"unlocked": true
-				}
-			],
-			"currentSkinIndex": 0,
-			"walkingFrames": 5,
-			"description": "Triggers a Rosary when levelling up. Gets a temporary Might, Cooldown, and MoveSpeed bonus after reviving.",
-			"isBought": false,
-			"price": 5000,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"enemiesKilled": 0,
-			"stageData": [],
-			"bodyOffset": {
-				"x": 16,
-				"y": 32
-			},
-			"bgm": "BGM_Luminaire",
-			"maxHp": 100,
-			"armor": 0,
-			"regen": 0.5,
-			"moveSpeed": 1.4,
-			"power": 1,
-			"cooldown": 1,
-			"area": 1,
-			"speed": 1,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1,
-			"growth": 1,
-			"greed": 1,
-			"curse": 1,
-			"magnet": 0,
-			"revivals": 7,
-			"rerolls": 0,
-			"skips": 0,
-			"banish": 5,
-			"showcase": [
-				"PRISMATICMISS",
-				"PRISMATICMISS",
-				"PRISMATICMISS",
-				"PRISMATICMISS",
-				"PRISMATICMISS",
-				"PRISMATICMISS",
-				"PRISMATICMISS",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"AREA",
-				"AREA",
-				"AREA",
-				"AREA",
-				"AREA",
-				"AMOUNT",
-				"AMOUNT",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"GROWTH",
-				"GROWTH",
-				"GROWTH",
-				"GROWTH",
-				"GROWTH"
-			]
-		},
-		{
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	],
-	"GENEVIEVE": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "SHADOWSERVANT",
-			"prefix": "",
-			"charName": "Genevieve",
-			"surname": "Gruyère",
-			"spriteName": "Genevieve_i01.png",
-			"textureName": "foscariChars",
-			"portraitName": "p_2genevieve.png",
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "Genevieve_i01.png",
-					"walkingFrames": 5,
-					"unlocked": true
-				}
-			],
-			"currentSkinIndex": 0,
-			"walkingFrames": 5,
-			"description": "Triggers a Vacuum when levelling up. Once per life, triggers World Eater after receiving fatal damage.",
-			"isBought": false,
-			"price": 5000,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"enemiesKilled": 0,
-			"stageData": [],
-			"bodyOffset": {
-				"x": 16,
-				"y": 32
-			},
-			"bgm": "BGM_Genevieve",
-			"maxHp": 100,
-			"armor": 0,
-			"regen": 0,
-			"moveSpeed": 1.2,
-			"power": 1,
-			"cooldown": 1,
-			"area": 1,
-			"speed": 1,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1,
-			"growth": 1,
-			"greed": 1.5,
-			"curse": 1,
-			"magnet": 0.5,
-			"revivals": 0,
-			"rerolls": 5,
-			"skips": 0,
-			"banish": 0,
-			"showcase": [
-				"CURSE",
-				"CURSE",
-				"CURSE",
-				"CURSE",
-				"CURSE",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"AREA",
-				"AREA",
-				"AREA",
-				"AREA",
-				"AREA",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"AMOUNT",
-				"AMOUNT",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER"
-			],
-			"onEveryLevelUp": {}
-		},
-		{
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	],
-	"MEGAGENEVIEVE": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "SHADOWSERVANT",
-			"prefix": "",
-			"charName": "Je-Ne-Viv",
-			"surname": "",
-			"spriteName": "TrueGenevieve_i01.png",
-			"textureName": "foscariChars",
-			"portraitName": "p_2megag.png",
-			"bgm": "BGM_Genevieve",
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "TrueGenevieve_i01.png",
-					"walkingFrames": 5,
-					"unlocked": true
-				}
-			],
-			"currentSkinIndex": 0,
-			"walkingFrames": 5,
-			"description": "It will literally eat the world.",
-			"isBought": false,
-			"price": 50000,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"enemiesKilled": 0,
-			"stageData": [],
-			"bodyOffset": {
-				"x": 16,
-				"y": 32
-			},
-			"maxHp": 250,
-			"armor": 5,
-			"regen": 0,
-			"moveSpeed": 1,
-			"power": 1.5,
-			"cooldown": 1,
-			"area": 1,
-			"speed": 1,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1,
-			"growth": 1,
-			"greed": 1.5,
-			"curse": 1,
-			"magnet": 0.5,
-			"revivals": 0,
-			"rerolls": 7,
-			"skips": 0,
-			"banish": 0,
-			"showcase": [
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"AMOUNT",
-				"AMOUNT",
-				"MAGNET",
-				"MAGNET",
-				"MAGNET",
-				"MAGNET",
-				"MAGNET"
-			],
-			"onEveryLevelUp": {
-				"power": 0.01,
-				"curse": 0.005
-			},
-			"hiddenWeapons": [
-				"INSATIABLE"
-			]
-		},
-		{
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	],
-	"CTRPCAKE": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "STIGRANGATTI",
-			"charName": "Sammy",
-			"surname": "",
-			"spriteName": "Sammy_i01.png",
-			"textureName": "foscariChars",
-			"portraitName": "p_2sammy.png",
-			"walkingFrames": 6,
-			"description": "Gains XP when picking up Gold Coins and Coin Bags. Starts with temporarily reduced Might.",
-			"isBought": false,
-			"noHurt": true,
-			"price": 50000,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "Sammy_i01.png",
-					"walkingFrames": 6,
-					"unlocked": true
-				}
-			],
-			"currentSkinIndex": 0,
-			"maxHp": 100,
-			"armor": 0,
-			"regen": 2,
-			"moveSpeed": 1,
-			"power": 0.4,
-			"cooldown": 1,
-			"area": 1,
-			"speed": 1,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1,
-			"growth": 1,
-			"greed": 1,
-			"curse": 1,
-			"magnet": 0,
-			"revivals": 0,
-			"rerolls": 0,
-			"skips": 0,
-			"banish": 0,
-			"showcase": [
-				"AREA",
-				"AREA",
-				"AREA",
-				"AREA",
-				"AREA",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"AMOUNT",
-				"AMOUNT"
-			]
-		},
-		{
-			"power": 0.1,
-			"level": 2
-		},
-		{
-			"power": 0.1,
-			"level": 3
-		},
-		{
-			"power": 0.1,
-			"level": 5
-		},
-		{
-			"power": 0.1,
-			"level": 8
-		},
-		{
-			"power": 0.1,
-			"level": 13
-		},
-		{
-			"power": 0.1,
-			"level": 21
-		},
-		{
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	],
-	"GHOUL": [
-		{
-			"hidden": true,
-			"level": 1,
-			"startingWeapon": "PARTY",
-			"charName": "Rottin'Ghoul",
-			"surname": "",
-			"spriteName": "Gul_i01.png",
-			"textureName": "foscariChars",
-			"portraitName": "p_2ghoul.png",
-			"walkingFrames": 4,
-			"description": "Gets more projectiles every 20 levels (max+4).",
-			"isBought": false,
-			"price": 500,
-			"completedStages": [],
-			"survivedMinutes": 0,
-			"skins": [
-				{
-					"id": 0,
-					"name": "Default",
-					"textureName": "foscariChars",
-					"spriteName": "Gul_i01.png",
-					"walkingFrames": 4,
-					"unlocked": true
-				}
-			],
-			"currentSkinIndex": 0,
-			"maxHp": 100,
-			"armor": 0,
-			"regen": 0,
-			"moveSpeed": 1.2,
-			"power": 1,
-			"cooldown": 1,
-			"area": 1,
-			"speed": 1,
-			"duration": 1,
-			"amount": 0,
-			"luck": 1,
-			"growth": 1,
-			"greed": 1,
-			"curse": 1,
-			"magnet": 0,
-			"revivals": 0,
-			"rerolls": 0,
-			"skips": 0,
-			"banish": 0,
-			"showcase": [
-				"PARTY",
-				"PARTY",
-				"PARTY",
-				"PARTY",
-				"PARTY",
-				"PARTY",
-				"PARTY",
-				"PARTY",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"POWER",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"DURATION",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"SPEED",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"COOLDOWN",
-				"AMOUNT",
-				"AMOUNT"
-			]
-		},
-		{
-			"amount": 1,
-			"level": 20,
-			"growth": 1
-		},
-		{
-			"amount": 1,
-			"level": 40,
-			"growth": 1
-		},
-		{
-			"amount": 1,
-			"level": 60
-		},
-		{
-			"amount": 1,
-			"level": 80
-		},
-		{
-			"level": 21,
-			"growth": -1
-		},
-		{
-			"level": 41,
-			"growth": -1
-		}
-	]
+  "ELEANOR": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "SPELL_STRING",
+      "charName": "Eleanor",
+      "surname": "Uziron",
+      "spriteName": "Eleanor_i01.png",
+      "textureName": "foscariChars",
+      "portraitName": "p_2eleanor.png",
+      "bgm": "BGM_Magic",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Eleanor_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Receives SpellStream at Level 10 and SpellStrike at Level 20. Receives Academy Badge at Level 30.",
+      "isBought": false,
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 90,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1.25,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 2,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "SPELL_STRING",
+        "SPELL_STRING",
+        "SPELL_STRING",
+        "SPELL_STRING",
+        "SPELL_STRING",
+        "SPELL_STRING",
+        "SPELL_STRIKE",
+        "SPELL_STRIKE",
+        "SPELL_STRIKE",
+        "SPELL_STRIKE",
+        "SPELL_STRIKE",
+        "SPELL_STRIKE",
+        "SPELL_STREAM",
+        "SPELL_STREAM",
+        "SPELL_STREAM",
+        "SPELL_STREAM",
+        "SPELL_STREAM",
+        "SPELL_STREAM",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AMOUNT",
+        "AMOUNT"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "VICTOR": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "SWORD",
+      "charName": "Maruto",
+      "surname": "Cuts",
+      "textureName": "foscariChars",
+      "spriteName": "Victor_i01.png",
+      "portraitName": "p_2viktor.png",
+      "bgm": "BGM_War",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Victor_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      "spriteAnims": {
+        "meleeAttack": {
+          "textureName": "foscariChars",
+          "spriteName": "Victor_a01.png",
+          "framesNumber": 5,
+          "frameRate": 8,
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 2
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Gains a temporary Armor bonus after getting damaged. Receives Academy Badge at Level 30.",
+      "isBought": false,
+      "price": 3000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 120,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1.2,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1.1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "KEIRA": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "FLASHARROW",
+      "charName": "Keitha",
+      "surname": "Muort",
+      "textureName": "foscariChars",
+      "spriteName": "Keira_i01.png",
+      "portraitName": "p_2keira.png",
+      "bgm": "BGM_Deception",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Keira_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      ],
+      "spriteAnims": {
+        "meleeAttack": {
+          "textureName": "foscariChars",
+          "spriteName": "Keira_a01.png",
+          "framesNumber": 6,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Gains +1% Luck every level. Receives Academy Badge at Level 30.",
+      "isBought": false,
+      "price": 3000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "cooldown": 0.9,
+      "area": 1,
+      "speed": 1.2,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1.1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1.1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "FLASHARROW",
+        "FLASHARROW",
+        "FLASHARROW",
+        "FLASHARROW",
+        "FLASHARROW",
+        "FLASHARROW",
+        "FLASHARROW",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT"
+      ],
+      "onEveryLevelUp": {
+        "luck": 0.01
+      }
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "LUMINAIRE": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "PRISMATICMISS",
+      "charName": "Luminaire",
+      "surname": "Foscari",
+      "spriteName": "Luminaire_i01.png",
+      "textureName": "foscariChars",
+      "portraitName": "p_2luminaire.png",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Luminaire_i01.png",
+          "walkingFrames": 5,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 5
+            }
+          ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 5,
+      "description": "Triggers a Rosary when levelling up. Gets a temporary Might, Cooldown, and MoveSpeed bonus after reviving.",
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "bgm": "BGM_Luminaire",
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0.5,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 7,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 5,
+      "showcase": [
+        "PRISMATICMISS",
+        "PRISMATICMISS",
+        "PRISMATICMISS",
+        "PRISMATICMISS",
+        "PRISMATICMISS",
+        "PRISMATICMISS",
+        "PRISMATICMISS",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AMOUNT",
+        "AMOUNT",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "GENEVIEVE": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "SHADOWSERVANT",
+      "prefix": "",
+      "charName": "Genevieve",
+      "surname": "Gruyère",
+      "spriteName": "Genevieve_i01.png",
+      "textureName": "foscariChars",
+      "portraitName": "p_2genevieve.png",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Genevieve_i01.png",
+          "walkingFrames": 5,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 10
+            }
+          ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 5,
+      "description": "Triggers a Vacuum when levelling up. Once per life, triggers World Eater after receiving fatal damage.",
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "bgm": "BGM_Genevieve",
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1.5,
+      "curse": 1,
+      "magnet": 0.5,
+      "revivals": 0,
+      "rerolls": 5,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "MEGAGENEVIEVE": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "SHADOWSERVANT",
+      "prefix": "",
+      "charName": "Je-Ne-Viv",
+      "surname": "",
+      "spriteName": "TrueGenevieve_i01.png",
+      "textureName": "foscariChars",
+      "portraitName": "p_2megag.png",
+      "bgm": "BGM_Genevieve",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "TrueGenevieve_i01.png",
+          "walkingFrames": 5,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 5,
+              "y": 11
+            }
+          ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 5,
+      "description": "It will literally eat the world.",
+      "isBought": false,
+      "price": 50000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp": 250,
+      "armor": 5,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1.5,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1.5,
+      "curse": 1,
+      "magnet": 0.5,
+      "revivals": 0,
+      "rerolls": 7,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "AMOUNT",
+        "AMOUNT",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET"
+      ],
+      "onEveryLevelUp": {
+        "power": 0.01,
+        "curse": 0.005
+      },
+      "hiddenWeapons": [
+        "INSATIABLE"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "CTRPCAKE": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "STIGRANGATTI",
+      "charName": "Sammy",
+      "surname": "",
+      "spriteName": "Sammy_i01.png",
+      "textureName": "foscariChars",
+      "portraitName": "p_2sammy.png",
+      "walkingFrames": 6,
+      "description": "Gains XP when picking up Gold Coins and Coin Bags. Starts with temporarily reduced Might.",
+      "isBought": false,
+      "noHurt": true,
+      "price": 50000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Sammy_i01.png",
+          "walkingFrames": 6,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 16,
+              "y": -18
+            }
+          ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 2,
+      "moveSpeed": 1,
+      "power": 0.4,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT"
+      ]
+    },
+    {
+      "power": 0.1,
+      "level": 2
+    },
+    {
+      "power": 0.1,
+      "level": 3
+    },
+    {
+      "power": 0.1,
+      "level": 5
+    },
+    {
+      "power": 0.1,
+      "level": 8
+    },
+    {
+      "power": 0.1,
+      "level": 13
+    },
+    {
+      "power": 0.1,
+      "level": 21
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "GHOUL": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "PARTY",
+      "charName": "Rottin'Ghoul",
+      "surname": "",
+      "spriteName": "Gul_i01.png",
+      "textureName": "foscariChars",
+      "portraitName": "p_2ghoul.png",
+      "walkingFrames": 4,
+      "description": "Gets more projectiles every 20 levels (max+4).",
+      "isBought": false,
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Gul_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "PARTY",
+        "PARTY",
+        "PARTY",
+        "PARTY",
+        "PARTY",
+        "PARTY",
+        "PARTY",
+        "PARTY",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT"
+      ]
+    },
+    {
+      "amount": 1,
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 60
+    },
+    {
+      "amount": 1,
+      "level": 80
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ]
 }

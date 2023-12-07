@@ -1,0 +1,1616 @@
+{
+  "en": {
+    "WHIP": {
+      "name": "Whip",
+      "description": "Attacks horizontally, passes through enemies.",
+      "tips": "Ignores: Speed, Duration."
+    },
+    "VAMPIRICA": {
+      "name": "Bloody Tear",
+      "description": "Evolved Whip. Can deal critical damage and absorb HP.",
+      "tips": "Requires: Hollow Heart"
+    },
+    "MAGIC_MISSILE": {
+      "name": "Magic Wand",
+      "description": "Fires at the nearest enemy.",
+      "tips": "Ignores: Duration."
+    },
+    "HOLY_MISSILE": {
+      "name": "Holy Wand",
+      "description": "Evolved Magic Wand. Fires with no delay.",
+      "tips": "Requires: Empty Tome."
+    },
+    "AXE": {
+      "name": "Axe",
+      "description": "High damage, high Area scaling.",
+      "tips": "Ignores: Duration."
+    },
+    "SCYTHE": {
+      "name": "Death Spiral",
+      "description": "Evolved Axe. Passes through enemies.",
+      "tips": "Requires: Candelabrador."
+    },
+    "KNIFE": {
+      "name": "Knife",
+      "description": "Fires quickly in the faced direction.",
+      "tips": "Ignores: Duration."
+    },
+    "THOUSAND": {
+      "name": "Thousand Edge",
+      "description": "Evolved Knife. Fires with no delay.",
+      "tips": "Requires: Bracer."
+    },
+    "HOLYWATER": {
+      "name": "Santa Water",
+      "description": "Generates damaging zones.",
+      "tips": "Ignores: Speed."
+    },
+    "DIAMOND": {
+      "name": "Runetracer",
+      "description": "Passes through enemies, bounces around.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "FIREBALL": {
+      "name": "Fire Wand",
+      "description": "Fires at a random enemy, deals heavy damage.",
+      "tips": "Ignores: Duration."
+    },
+    "HELLFIRE": {
+      "name": "Hellfire",
+      "description": "Evolved Fire Wand. Passes through enemies.",
+      "tips": "Requires: Spinach."
+    },
+    "HOLYBOOK": {
+      "name": "King Bible",
+      "description": "Orbits around the character.",
+      "tips": "Best with: Speed, Duration, Area."
+    },
+    "VESPERS": {
+      "name": "Unholy Vespers",
+      "description": "Evolved King Bible. Never ends.",
+      "tips": "Requires: Spellbinder."
+    },
+    "CROSS": {
+      "name": "Cross",
+      "description": "Aims at nearest enemy, has boomerang effect.",
+      "tips": "Ignores: Duration."
+    },
+    "HEAVENSWORD": {
+      "name": "Heaven Sword",
+      "description": "Evolved Cross. Can deal critical damage.",
+      "tips": "Requires: Clover."
+    },
+    "GARLIC": {
+      "name": "Garlic",
+      "description": "Damages nearby enemies. Reduces resistance to knockback and freeze.",
+      "tips": "Ignores: Amount, Duration, Speed."
+    },
+    "LAUREL": {
+      "name": "Laurel",
+      "description": "Shields from damage when active.",
+      "tips": "Best with: Cooldown only."
+    },
+    "LIGHTNING": {
+      "name": "Lightning Ring",
+      "description": "Strikes at random enemies.",
+      "tips": "Ignores: Speed, Duration."
+    },
+    "PENTAGRAM": {
+      "name": "Pentagram",
+      "description": "Erases everything in sight.",
+      "tips": "Best with: Cooldown and Luck only.",
+      "customDescValue": "%0% chance to not erase items."
+    },
+    "SILF": {
+      "name": "Peachone",
+      "description": "Bombards in a circling zone.",
+      "tips": "Best with: Cooldown, Duration."
+    },
+    "SILF2": {
+      "name": "Ebony Wings",
+      "description": "Bombards in a circling zone.",
+      "tips": "Best with: Cooldown, Duration."
+    },
+    "BONE": {
+      "name": "Bone",
+      "description": "Throws a bouncing projectile.",
+      "tips": "Best with: Duration, Speed."
+    },
+    "LANCET": {
+      "name": "Clock Lancet",
+      "description": "Chance to freeze enemies in time.",
+      "tips": "Ignores: Might, Speed, Amount, Area."
+    },
+    "POWER": {
+      "name": "Spinach",
+      "description": "Raises inflicted damage by 10%."
+    },
+    "AREA": {
+      "name": "Candelabrador",
+      "description": "Augments area of attacks by 10%."
+    },
+    "SPEED": {
+      "name": "Bracer",
+      "description": "Increases projectile speed by 10%."
+    },
+    "COOLDOWN": {
+      "name": "Empty Tome",
+      "description": "Reduces weapon cooldown by 8%."
+    },
+    "DURATION": {
+      "name": "Spellbinder",
+      "description": "Increases duration of weapon effects by 10%."
+    },
+    "AMOUNT": {
+      "name": "Duplicator",
+      "description": "Weapons fire more projectiles."
+    },
+    "MAXHEALTH": {
+      "name": "Hollow Heart",
+      "description": "Augments Max Health by 20%."
+    },
+    "ARMOR": {
+      "name": "Armor",
+      "description": "Reduces incoming Damage by 1. Increases retaliatory Damage by 10%."
+    },
+    "MOVESPEED": {
+      "name": "Wings",
+      "description": "Character moves 10% faster."
+    },
+    "MAGNET": {
+      "description": "Character picks up items from further away.",
+      "name": "Attractorb"
+    },
+    "GROWTH": {
+      "name": "Crown",
+      "description": "Character gains 8% more experience."
+    },
+    "LUCK": {
+      "name": "Clover",
+      "description": "Character gets 10% luckier."
+    },
+    "GREED": {
+      "name": "Stone Mask",
+      "description": "Character earns 10% more Gold coins."
+    },
+    "REGEN": {
+      "name": "Pummarola",
+      "description": "Character recovers 0.2 HP per second."
+    },
+    "VORTEX": {
+      "name": "Soul Eater",
+      "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
+      "tips": "Requires: Pummarola."
+    },
+    "BORA": {
+      "name": "La Borra",
+      "description": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
+      "tips": "Requires: Attractorb."
+    },
+    "SILF3": {
+      "name": "Vandalier",
+      "description": "Union of Ebony Wings and Peachone."
+    },
+    "REVIVAL": {
+      "name": "Tirajisú",
+      "description": "Revives once with 50% Health."
+    },
+    "LOOP": {
+      "name": "Thunder Loop",
+      "description": "Evolved Lightning Ring. Projectiles strike twice.",
+      "tips": "Requires: Duplicator."
+    },
+    "CURSE": {
+      "name": "Skull O'Maniac",
+      "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+    },
+    "CHERRY": {
+      "name": "Cherry Bomb",
+      "description": "Throws a bouncing projectile. Explodes, sometimes.",
+      "tips": "Best with: Luck.",
+      "customDescValue": "%0% chance to explode."
+    },
+    "SONG": {
+      "name": "Song of Mana",
+      "description": "Attacks vertically, passes through enemies.",
+      "tips": "Ignores: Amount, Speed."
+    },
+    "MANNAGGIA": {
+      "name": "Mannajja",
+      "description": "Evolved Song of Mana. Might slow enemies down.",
+      "tips": "Requires: Skull O'Maniac"
+    },
+    "SIRE": {
+      "name": "Gorgeous Moon",
+      "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+      "tips": "Requires: Crown."
+    },
+    "GUNS": {
+      "name": "Phiera Der Tuphello",
+      "description": "Fires quickly in four fixed directions.",
+      "tips": "Ignores: Duration."
+    },
+    "GUNS2": {
+      "name": "Eight The Sparrow",
+      "description": "Fires quickly in four fixed directions.",
+      "tips": "Ignores: Duration."
+    },
+    "GUNS3": {
+      "name": "Phieraggi",
+      "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
+      "tips": "Requires: Tiragisú."
+    },
+    "ROCHER": {
+      "name": "NO FUTURE",
+      "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+      "tips": "Requires: Armor"
+    },
+    "CART2": {
+      "name": "Carréllo",
+      "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+      "tips": "Ignores: Duration."
+    },
+    "GATTI": {
+      "name": "Gatti Amari",
+      "description": "Summons capricious projectiles. Might interact with pickups.",
+      "tips": "Best with: Luck, Floor Chicken."
+    },
+    "FLOWER": {
+      "name": "Celestial Dusting",
+      "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+      "tips": "Best with: Move Speed.",
+      "customDescValue": "Defeated enemies might drop hearts."
+    },
+    "TRAPANO": {
+      "name": "Shadow Pinion",
+      "description": "Generates damaging zones when moving, strikes when stopping.",
+      "tips": "Best with: Move Speed."
+    },
+    "TRAPANO2": {
+      "name": "Valkyrie Turner",
+      "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+      "tips": "Requires: Wings."
+    },
+    "STIGRANGATTI": {
+      "name": "Vicious Hunger",
+      "description": "Evolved Gatti Amari. Might turn anything into gold.",
+      "tips": "Requires: Stone Mask."
+    },
+    "SHROUD": {
+      "name": "Crimson Shroud",
+      "description": "Evolved Laurel. Caps incoming Damage at 10. Retaliates when losing charges.",
+      "tips": "Requires: Metaglio Left, Metaglio Right."
+    },
+    "CORRIDOR": {
+      "name": "Infinite Corridor",
+      "description": "Evolved Clock Lancet. Halves enemies' health.",
+      "tips": "Requires: Gold Ring, Silver Ring."
+    },
+    "GOLD": {
+      "name": "Gold Ring",
+      "description": "... With ... Lancet"
+    },
+    "SILVER": {
+      "name": "Silver Ring",
+      "description": "Wear ... Clock ..."
+    },
+    "LEFT": {
+      "name": "Metaglio Left",
+      "description": "Channels dark powers to protect the bearer."
+    },
+    "RIGHT": {
+      "name": "Metaglio Right",
+      "description": "Channels dark powers to curse the bearer."
+    },
+    "VENTO": {
+      "name": "Vento Sacro",
+      "description": "Stronger with continuous movement. Can deal critical damage.",
+      "tips": "Best with: Luck, Move Speed."
+    },
+    "VENTO2": {
+      "name": "Fuwalafuwaloo",
+      "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
+    },
+    "PANDORA": {
+      "tips": "Torrona's Box",
+      "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
+      "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
+      "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by %0%",
+      "name": "Torrona's Box"
+    },
+    "ROBBA": {
+      "tips": "Best with: Duration, Speed.",
+      "description": "Generates bouncing projectiles.",
+      "name": "La Robba"
+    },
+    "TRIASSO1": {
+      "name": "Bracelet",
+      "description": "Fires three projectiles at a random enemy."
+    },
+    "TRIASSO2": {
+      "name": "Bi-Bracelet",
+      "description": "Fires three projectiles at a random enemy."
+    },
+    "TRIASSO3": {
+      "name": "Tri-Bracelet",
+      "description": "Fires three projectiles at a random enemy."
+    },
+    "SILF_COUNTER": {
+      "name": "Cygnus",
+      "description": "Bombards in a circling zone.",
+      "tips": "Best with: Cooldown, Duration."
+    },
+    "SILF2_COUNTER": {
+      "name": "Zhar Ptytsia",
+      "description": "Bombards in a circling zone.",
+      "tips": "Best with: Cooldown, Duration."
+    },
+    "GUNS_COUNTER": {
+      "name": "Red Muscle",
+      "description": "Fires quickly in four fixed directions.",
+      "tips": "Ignores: Duration."
+    },
+    "GUNS2_COUNTER": {
+      "name": "Twice Upon a Time",
+      "description": "Fires quickly in four fixed directions.",
+      "tips": "Ignores: Duration."
+    },
+    "CANDYBOX": {
+      "name": "Candybox",
+      "description": "Allows you to choose any unlocked base weapon.",
+      "tips": "Occurrence in level up options affected by Luck."
+    },
+    "VICTORY": {
+      "name": "Victory Sword",
+      "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+      "tips": "Ignores: Speed, Duration.",
+      "customDescValue": "Enables critical hits and combo finisher."
+    },
+    "SOLES": {
+      "name": "Sole Solution",
+      "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+      "tips": "Requires Max: Victory Sword, Torrona's Box."
+    },
+    "JUBILEE": {
+      "name": "Greatest Jubilee",
+      "description": "Has a chance to summon light sources.",
+      "tips": "Best with: Luck.",
+      "customDescValue": "Enables finisher."
+    },
+    "MISSPELL": {
+      "name": "Flames of Misspell",
+      "description": "Emits cones of flames.",
+      "tips": null
+    },
+    "MISSPELL2": {
+      "description": "Evolved Flames of Misspell. The more enemies are defeated, the stronger it grows.",
+      "tips": "Requires Max: Torrona's Box.",
+      "name": "Ashes of Muspell"
+    },
+    "GATTI_COUNTER": {
+      "name": "Flock Destroyer",
+      "description": "Summons capricious projectiles. Might interact with pickups.",
+      "tips": "Best with: Luck, Floor Chicken."
+    },
+    "CANDYBOX2": {
+      "name": "Super Candybox II Turbo",
+      "description": "Gift of Candybox. Allows to choose among a selection of advanced weapons.",
+      "tips": "Requires: Candybox."
+    },
+    "SILVERWIND": {
+      "name": "Silver Wind",
+      "description": "Defeated enemies might drop hearts.",
+      "tips": null
+    },
+    "SILVERWIND2": {
+      "name": "Festive Winds",
+      "description": "Evolved Silver Wind. Weakens enemies defenses.",
+      "tips": "Requires Max: Pummarola."
+    },
+    "FOURSEASONS": {
+      "name": "Four Seasons",
+      "description": "Generates 4 explosions. Amount and Duration affect damage instead.",
+      "tips": "Ignores: Speed."
+    },
+    "FOURSEASONS2": {
+      "name": "Godai Shuffle",
+      "description": "Evolved Four Seasons. Generates an additional explosion.",
+      "tips": "Requires Max: Spinach, Candelabrador."
+    },
+    "SUMMONNIGHT": {
+      "name": "Summon Night",
+      "description": "Generates damaging zones above the character.",
+      "tips": "Ignores: Speed."
+    },
+    "SUMMONNIGHT2": {
+      "name": "Echo Night",
+      "description": "Evolved Summon Night. Also generates damaging zones below the character.",
+      "tips": "Requires Max: Duplicator."
+    },
+    "MIRAGEROBE": {
+      "name": "Mirage Robe",
+      "description": "Generates freezing static projectiles with a chance to explode.",
+      "tips": "Ignores: Speed.",
+      "customDescValue": "%0% chance to explode."
+    },
+    "MIRAGEROBE2": {
+      "name": "J'Odore",
+      "description": "Evolved Mirage Robe. Projectiles move and confuse enemies.",
+      "tips": "Requires Max: Magnet."
+    },
+    "BUBBLES": {
+      "name": "Mille Bolle Blu",
+      "description": "Fires lingering projectiles.",
+      "tips": null
+    },
+    "BUBBLES2": {
+      "name": "Boo Roo Boolle",
+      "description": "Evolved Mille Bolle Blu. Projectiles can hit the same target more than once.",
+      "tips": "Requires Max: Spellbinder."
+    },
+    "NIGHTSWORD": {
+      "name": "Night Sword",
+      "description": "Strikes with a combo attack at the nearest enemy. Retaliates. Might steal hearts.",
+      "tips": "Ignores: Speed, Duration."
+    },
+    "NIGHTSWORD2": {
+      "name": "Muramasa",
+      "description": "Evolved Night Sword. Enables critical hits and combo finisher. Drains Health.",
+      "tips": "Requires Max: Stone Mask."
+    },
+    "BOCCE": {
+      "name": "108 Bocce",
+      "description": "Actually it's just 8. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignores: Amount, Duration, Speed."
+    },
+    "BONE2": {
+      "name": "Anima of Mortaccio",
+      "description": "Evolved Bone. Projectiles accelerate when bouncing.",
+      "tips": "Requires: Tetraforce."
+    },
+    "SPELL_STRING": {
+      "name": "SpellString",
+      "description": "Strikes at nearby enemies. Damage multiplied by Speed.",
+      "tips": "Ignores: Area, Duration."
+    },
+    "SPELL_STREAM": {
+      "name": "SpellStream",
+      "description": "Generates an expanding damaging zone. Damage multiplied by Area.",
+      "tips": "Ignores: Amount."
+    },
+    "SPELL_STRIKE": {
+      "name": "SpellStrike",
+      "description": "Strikes at the nearest enemy. Damage further multiplied by Might.",
+      "tips": "Ignores: Area, Duration."
+    },
+    "SPELL_STROM": {
+      "name": "SpellStrom",
+      "description": "Union of SpellString, SpellStream, and SpellStrike. Grows stronger after every singularity.",
+      "tips": null
+    },
+    "SWORD": {
+      "name": "Eskizzibur",
+      "description": "Attacks nearby enemies. Retaliates.",
+      "tips": "Ignores: Speed, Duration.",
+      "customDescValue": "Every fifth activation has a combo finisher."
+    },
+    "SWORD2": {
+      "name": "Legionnaire",
+      "description": "Evolved Eskizzibur. Generates additional projectiles that deal retaliatory damage.",
+      "tips": "Requires Max: Armor."
+    },
+    "FLASHARROW": {
+      "name": "Flash Arrow",
+      "description": "Can deal critical damage. Amount affects damage instead.",
+      "tips": "Ignores: Duration."
+    },
+    "FLASHARROW2": {
+      "name": "Millionaire",
+      "description": "Evolved Flash Arrow. Fires additional projectiles based on Amount and when picking up gold coins.",
+      "tips": "Requires Max: Bracer, Clover."
+    },
+    "PRISMATICMISS": {
+      "name": "Prismatic Missile",
+      "description": "Generates explosions around the character. Affected by the first chosen Arcana between II, XIV, or XIX.",
+      "tips": "Ignores: duration."
+    },
+    "PRISMATICMISS2": {
+      "name": "Luminaire",
+      "description": "Evolved Prismatic Missile. Increases the value of gems and coins on the ground.",
+      "tips": "Requires Max: Crown"
+    },
+    "SHADOWSERVANT": {
+      "name": "Shadow Servant",
+      "description": "Has a chance to slow enemies down.",
+      "tips": "Best with: Luck."
+    },
+    "SHADOWSERVANT2": {
+      "name": "Ophion",
+      "description": "Evolved Shadow Servant. Has a chance to instantly kill enemies.",
+      "tips": "Requires Max: Skull'O Maniac."
+    },
+    "PARTY": {
+      "name": "Party Popper",
+      "description": "Throws bouncing projectiles.",
+      "tips": "Best with: Duration, Speed."
+    },
+    "ACADEMYBADGE": {
+      "name": "Academy Badge",
+      "description": "Will provide bonus Amount and Revivals in exchange for Growth.",
+      "tips": null
+    },
+    "SHADOWSERVANT_COUNTER": {
+      "name": "Silver Sliver",
+      "description": "Counterpart to Shadow Servant and Ophion from Arcana I - Gemini.",
+      "tips": null
+    },
+    "PARTY_COUNTER": {
+      "name": "Party Pooper",
+      "description": "Counterpart to Party Popper from Arcana I - Gemini.",
+      "tips": null
+    },
+    "INSATIABLE": {
+      "name": "Insatiable",
+      "description": null,
+      "tips": null
+    },
+    "CHERRY2": {
+      "name": "Yatta Daikarin",
+      "description": "Evolved Cherry Bomb. Generates extra explosions that can deal critical Luck-based damage.",
+      "tips": "Requires: Tetraforce."
+    },
+    "CART2EVO": {
+      "name": "Acchee Pee Kia",
+      "description": null,
+      "tips": "Requires: Tetraforce."
+    },
+    "FLOWER2": {
+      "name": "Profusione D'Amore",
+      "description": "Evolved Celestial Dusting. Projectiles generate a chain explosion at fixed intervals.",
+      "tips": "Requires: Tetraforce."
+    },
+    "LAROBBA2": {
+      "name": "Gravijoe",
+      "description": "Evolved La Robba. Projectiles might also halve enemies health.",
+      "tips": "Requires: Tetraforce."
+    },
+    "CART": {
+      "name": "Dairy Cart",
+      "description": null,
+      "tips": null
+    },
+    "SARABANDE": {
+      "name": "Sarabande of Healing",
+      "description": null,
+      "tips": null
+    },
+    "FIREEXPLOSION": {
+      "name": "Heart of Fire",
+      "description": null,
+      "tips": null
+    },
+    "COLDEXPLOSION": {
+      "name": "Out of Bounds",
+      "description": null,
+      "tips": null
+    },
+    "NDUJA": {
+      "name": "Nduja Fritta",
+      "description": null,
+      "tips": null
+    },
+    "NDUJA_COUNTER": {
+      "name": "Nduja Fritta",
+      "description": null,
+      "tips": null
+    },
+    "WINDOW": {
+      "name": "Stained Glass",
+      "description": null,
+      "tips": null
+    },
+    "WINDOW2": {
+      "name": "Game Killer",
+      "description": null,
+      "tips": null
+    },
+    "BLOODLINE": {
+      "name": "Divine Bloodline",
+      "description": null,
+      "tips": null
+    },
+    "ASTRONOMIA": {
+      "name": "Blood Astronomia",
+      "description": null,
+      "tips": null
+    },
+    "ICELANCE": {
+      "name": "Glass Fandango",
+      "description": "Stronger with movement, Orologions, and against frozen enemies.",
+      "tips": "Ignores: Speed, Duration."
+    },
+    "ICELANCE2": {
+      "name": "Celestial Voulge",
+      "description": "Evolved Glass Fandango. Might deal critical damage and freeze enemies. Turns Orologions into Starry Heavens.",
+      "tips": "Requires Max: Wings.",
+      "customDescValue": "Turns Orologions into Starry Heavens."
+    },
+    "PHASER": {
+      "name": "Phas3r",
+      "description": "Generates thin damaging zones. High Amount scaling.",
+      "tips": "Ignores: Speed, Duration."
+    },
+    "PHASER2": {
+      "name": "Photonstorm",
+      "description": "Evolved Phas3r. Fires 2 to 10 times more projectiles depending on Luck.",
+      "tips": "Requires Max: Empty Tome."
+    },
+    "C1_REPORT1": {
+      "name": "Report!",
+      "description": "Damages enemies and pushes them away.",
+      "tips": "Ignores: Duration.",
+      "customDescValue": "Knockback factor increased by %0."
+    },
+    "C1_REPORT2": {
+      "name": "Emergency Meeting",
+      "description": "Evolved Report! Occasionally destroys all of one type of enemy.",
+      "tips": "Requires Max: Mini Crewmate."
+    },
+    "C1_SWIPECARD1": {
+      "name": "Lucky Swipe",
+      "description": "The amount of attacks is affected by Amount and by low Luck.",
+      "tips": "Ignores: Duration."
+    },
+    "C1_SWIPECARD2": {
+      "name": "Crossed Wires",
+      "description": "Evolved Lucky Swipe. Attacks in up to four directions.",
+      "tips": "Requires Max: Mini Engineer."
+    },
+    "C1_MEDICAL1": {
+      "name": "Lifesign Scan",
+      "description": "Restores HP based on Amount and Recovery.",
+      "tips": "Area affects other players."
+    },
+    "C1_MEDICAL2": {
+      "name": "Paranormal Scan",
+      "description": "Evolved Lifesign Scan. Periodically grants a random stat boost for the rest of the run.",
+      "tips": "Requires Max: Mini Ghost."
+    },
+    "C1_VENT1": {
+      "name": "Just Vent",
+      "description": "Destroys or heavily damages enemies. Amount affects how many times it can trigger.",
+      "tips": "Ignores: Speed.",
+      "customDescValue": "Vent uses increased by %0"
+    },
+    "C1_VENT2": {
+      "name": "Unjust Ejection",
+      "description": "Evolved Just Vent. Sucks in enemies.",
+      "tips": "Requires Max: Mini Shapeshifter.",
+      "enemiesEjected": "%0 enemies were ejected."
+    },
+    "C1_GARBA1": {
+      "name": "Clear Debris",
+      "description": "Generates projectile spawning zones that follows the player.",
+      "tips": null
+    },
+    "C1_GARBA2": {
+      "name": "Clear Asteroids",
+      "description": "Evolved Clear Debris. Amount creates cluster explosions.",
+      "tips": "Requires Max: Mini Guardian."
+    },
+    "C1_TONGUE1": {
+      "name": "Sharp Tongue",
+      "description": "Strikes enemies in front of you. Damage multiplied by Recovery.",
+      "tips": null
+    },
+    "C1_TONGUE2": {
+      "name": "Impostongue",
+      "description": "Evolved Sharp Tongue. Deals high damage to the strongest enemy and anything in its path. ",
+      "tips": "Requires Max: Mini Impostor."
+    },
+    "C1_SAMPLES1": {
+      "name": "Science Rocks",
+      "description": "Generates zones that explode when touched by a player. Amount affects the number of explosion clusters. ",
+      "tips": "Ignores: Speed."
+    },
+    "C1_SAMPLES2": {
+      "name": "Rocket Science",
+      "description": "Evolved Science Rocks. Triggers a finisher when the right conditions are met.",
+      "tips": "Requires Max: Mini Scientist."
+    },
+    "C1_HATCOLLECTION1": {
+      "name": "Hats",
+      "description": "Throws cute bouncing projectiles with random properties.",
+      "tips": null
+    },
+    "C1_SHRINK_CREWMA": {
+      "name": "Mini Crewmate",
+      "description": "Might occasionally shout at nearby enemies.",
+      "tips": "Obtained by levelling up Report Device.",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "C1_SHRINK_ENGINE": {
+      "name": "Mini Engineer",
+      "description": "Might occasionally electrocute enemies.",
+      "tips": "Obtained by levelling up Lucky Swipe.",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "C1_SHRINK_GHOSTT": {
+      "name": "Mini Ghost",
+      "description": "Might occasionally freeze enemies in fear.",
+      "tips": "Obtained by levelling up Medical Scan.",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "C1_SHRINK_SHAPES": {
+      "name": "Mini Shapeshifter",
+      "description": "Might occasionally fling leftover body parts at enemies.",
+      "tips": "Obtained by levelling up Just Vent.",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "C1_SHRINK_GUARDI": {
+      "name": "Mini Guardian",
+      "description": "Might occasionally take a hit for you. ",
+      "tips": "Obtained by levelling up Clear Debris. ",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "C1_SHRINK_IMPOST": {
+      "name": "Mini Impostor",
+      "description": "Might occasionally stab enemies.",
+      "tips": "Obtained by levelling up Sharp Tongue.",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "C1_SHRINK_SCIENT": {
+      "name": "Mini Scientist",
+      "description": "Might occasionally throw science at enemies.",
+      "tips": "Obtained by levelling up Science Rocks.",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "C1_SHRINK_HORSEE": {
+      "name": "Mini Horse",
+      "description": "Might occasionally infect you with its relentless happiness.",
+      "tips": "Obtained by levelling up Hats.",
+      "customDescValue": "Allegedly offers better moral support."
+    },
+    "ARMADIO": {
+      "name": "Arma Dio",
+      "description": "Allows you to choose an extra passive weapon.",
+      "tips": "Appearance in level up options affected by Luck."
+    },
+    "TETRAFORCE": {
+      "name": "Tetraforce",
+      "description": "The character starts gaining the chosen stat boost every level.",
+      "tips": null
+    },
+    "DOMINION": {
+      "name": "Karoma's Mana",
+      "description": "Increases enemies spawn quantity by 10. Increases duration of Gold Fever and Gold Finger by 10%.",
+      "tips": null
+    },
+    "PARMA": {
+      "name": "Parm Aegis",
+      "description": "Increases invulnerability time after getting damaged by 50ms.",
+      "tips": null
+    },
+    "NOVA_FIRE": {
+      "name": "Fire Nova"
+    },
+    "NOVA_ICEE": {
+      "name": "Ice Nova"
+    },
+    "NOVA_FEAR": {
+      "name": "Fear Nova"
+    },
+    "C1_TONGUE1_COUNTER": {
+      "name": "Silver Tongue",
+      "description": "Strikes enemies behind you. Damage multiplied by Recovery.",
+      "tips": null
+    }
+  },
+  "ru": {
+    "WHIP": {
+      "name": "Кнут",
+      "description": "Атакует горизонтально, проходя сквозь врагов.",
+      "tips": "Игнорирует: скорость, продолжительность."
+    },
+    "VAMPIRICA": {
+      "name": "Кровавая слеза",
+      "description": "Улучшенный кнут. Может наносить критический урон и поглощать ОЗ.",
+      "tips": "Требуется: Пустое сердце."
+    },
+    "MAGIC_MISSILE": {
+      "name": "Волшебный жезл",
+      "description": "Стреляет в ближайшего врага.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "HOLY_MISSILE": {
+      "name": "Священный жезл",
+      "description": "Улучшенный волшебный жезл. Стреляет без задержки.",
+      "tips": "Требуется: пустой фолиант."
+    },
+    "AXE": {
+      "name": "Топор",
+      "description": "Большой урон, большая область поражения.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "SCYTHE": {
+      "name": "Виток смерти",
+      "description": "Улучшенный Топор. Проходит сквозь врагов.",
+      "tips": "Требуется: Канделябрадор."
+    },
+    "KNIFE": {
+      "name": "Нож",
+      "description": "Можно быстро метнуть перед собой.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "THOUSAND": {
+      "name": "Тысяча лезвий",
+      "description": "Улучшенный нож. Метаются без задержки.",
+      "tips": "Требуется: наруч."
+    },
+    "HOLYWATER": {
+      "name": "Святая вода",
+      "description": "Создает зоны, наносящие урон.",
+      "tips": "Игнорирует: скорость."
+    },
+    "DIAMOND": {
+      "name": "Рунтрассер",
+      "description": "Проходит сквозь врагов, отскакивает от стен.",
+      "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
+    },
+    "FIREBALL": {
+      "name": "Огненный жезл",
+      "description": "Стреляет в случайных врагов, нанося большой урон.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "HELLFIRE": {
+      "name": "Адское пламя",
+      "description": "Улучшенный огненный жезл. Пронзает врагов насквозь.",
+      "tips": "Требуется: шпинат."
+    },
+    "HOLYBOOK": {
+      "name": "Библия короля",
+      "description": "Кружится вокруг персонажа.",
+      "tips": "Для лучшего эффекта требуются: скорость, продолжительность, область."
+    },
+    "VESPERS": {
+      "name": "Нечестивые псалмы",
+      "description": "Улучшенная Библия короля. Никогда не заканчивается.",
+      "tips": "Требуется: заклинатель."
+    },
+    "CROSS": {
+      "name": "Крест",
+      "description": "Целится в ближайшего врага, обладает эффектом бумеранга.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "HEAVENSWORD": {
+      "name": "Небесный меч",
+      "description": "Улучшенный крест. Может наносить критический урон.",
+      "tips": "Требуется: клевер."
+    },
+    "GARLIC": {
+      "name": "Чеснок",
+      "description": "Бьет по ближайшим врагам. Снижает сопротивление к отталкиванию и заморозке.",
+      "tips": "Игнорирует: количество, продолжительность, скорость."
+    },
+    "LAUREL": {
+      "name": "Лавр",
+      "description": "Защищает от урона, когда активен.",
+      "tips": "Для лучшего эффекта требуются: только перезарядка."
+    },
+    "LIGHTNING": {
+      "name": "Кольцо молний",
+      "description": "Бьет в случайных врагов.",
+      "tips": "Игнорирует: скорость, продолжительность."
+    },
+    "PENTAGRAM": {
+      "name": "Пентаграмма",
+      "description": "Стирает все в поле зрения.",
+      "tips": "Для лучшего эффекта требуются: только перезарядка и удача.",
+      "customDescValue": "Шанс сохранения предметов — %0%."
+    },
+    "SILF": {
+      "name": "Голубка",
+      "description": "Летает по кругу и бомбардирует противника.",
+      "tips": "Для лучшего эффекта требуются: перезарядка, продолжительность."
+    },
+    "SILF2": {
+      "name": "Черные крылья",
+      "description": "Летает по кругу и бомбардирует противника.",
+      "tips": "Для лучшего эффекта требуются: перезарядка, продолжительность."
+    },
+    "BONE": {
+      "name": "Кость",
+      "description": "Бросает отскакивающий снаряд.",
+      "tips": "Для лучшего эффекта требуются: продолжительность, скорость."
+    },
+    "LANCET": {
+      "name": "Часовой ланцет",
+      "description": "Шанс заморозить врагов во времени.",
+      "tips": "Игнорирует: сила, скорость, боезапас, область."
+    },
+    "POWER": {
+      "name": "Шпинат",
+      "description": "Увеличивает наносимый урон на 10%."
+    },
+    "AREA": {
+      "name": "Канделябрадор",
+      "description": "Увеличивает размер атак на 10%."
+    },
+    "SPEED": {
+      "name": "Наруч",
+      "description": "Ускоряет снаряды на 10%."
+    },
+    "COOLDOWN": {
+      "name": "Пустой фолиант",
+      "description": "Уменьшает перезарядку оружия на 8%."
+    },
+    "DURATION": {
+      "name": "Заклинатель",
+      "description": "Продлевает эффект оружия на 10%."
+    },
+    "AMOUNT": {
+      "name": "Дупликатор",
+      "description": "Оружие выпускает больше снарядов."
+    },
+    "MAXHEALTH": {
+      "name": "Пустое сердце",
+      "description": "Увеличивает макс. ОЗ на 20%."
+    },
+    "ARMOR": {
+      "name": "Броня",
+      "description": "Уменьшает получаемый урон на 1. Увеличивает ответный урон на 10%."
+    },
+    "MOVESPEED": {
+      "name": "Крылья",
+      "description": "Персонаж перемещается на 10% быстрее."
+    },
+    "MAGNET": {
+      "description": "Персонаж подбирает предметы с большего радиуса.",
+      "name": "Магнитосфера"
+    },
+    "GROWTH": {
+      "name": "Корона",
+      "description": "Персонаж получает на 8% больше опыта."
+    },
+    "LUCK": {
+      "name": "Клевер",
+      "description": "Персонаж становится на 10% удачливее."
+    },
+    "GREED": {
+      "name": "Каменная маска",
+      "description": "Персонаж зарабатывает на 10% больше монет."
+    },
+    "REGEN": {
+      "name": "Бычье сердце",
+      "description": "Персонаж восстанавливает 0,2 ОЗ/сек."
+    },
+    "VORTEX": {
+      "name": "Пожиратель душ",
+      "description": "Улучшенный чеснок. Крадет сердца. Сила возрастает при регенерации ОЗ.",
+      "tips": "Требуется: Бычье сердце."
+    },
+    "BORA": {
+      "name": "Гуща",
+      "description": "Улучшенная святая вода. Зоны урона смещаются к вам и растут в движении.",
+      "tips": "Требуется: магнитосфера."
+    },
+    "SILF3": {
+      "name": "Вандал",
+      "description": "Гибрид черных крыльев и Голубки."
+    },
+    "REVIVAL": {
+      "name": "Тирагису",
+      "description": "Оживляет один раз с 50% ОЗ."
+    },
+    "LOOP": {
+      "name": "Грозовая петля",
+      "description": "Улучшенное кольцо молний. Снаряды бьют дважды.",
+      "tips": "Требуется: дупликатор."
+    },
+    "CURSE": {
+      "name": "Череп О'Маньяка",
+      "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10%."
+    },
+    "CHERRY": {
+      "name": "Вишневая бомба",
+      "description": "Выпускает отскакивающий снаряд. Иногда взрывается.",
+      "tips": "Для лучшего эффекта требуется: удача.",
+      "customDescValue": "Шанс взрыва — %0%."
+    },
+    "SONG": {
+      "name": "Песнь Маны",
+      "description": "Атакует вертикально, проходя сквозь врагов.",
+      "tips": "Игнорирует: боезапас, скорость."
+    },
+    "MANNAGGIA": {
+      "name": "Маннаджа",
+      "description": "Улучшенная Песнь Маны. Может замедлить врагов.",
+      "tips": "Требуется: череп О'Маньяка"
+    },
+    "SIRE": {
+      "name": "Роскошная Луна",
+      "description": "Улучшенная пентаграмма. Создает доп. самоцветы и собирает их все.",
+      "tips": "Требуется: корона."
+    },
+    "GUNS": {
+      "name": "Фиера Дер Туфелло",
+      "description": "Стреляет быстро в четырех фиксированных направлениях.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "GUNS2": {
+      "name": "8-й Воробей",
+      "description": "Стреляет быстро в четырех фиксированных направлениях.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "GUNS3": {
+      "name": "Фиераджи",
+      "description": "Гибрид Фиеры Дер Туфелло и 8-го Воробья. Изменяется с каждым оживлением.",
+      "tips": "Требуется: Тирагису."
+    },
+    "ROCHER": {
+      "name": "НЕТ БУДУЩЕГО",
+      "description": "Улучшенный Рунтрассер. Взрывается при отскоке.",
+      "tips": "Требуется: броня."
+    },
+    "CART2": {
+      "name": "Каррелло",
+      "description": "Бросает отскакивающий снаряд. Число отскоков зависит от боезапаса.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "GATTI": {
+      "name": "Противная кошка",
+      "description": "Вызывает снаряды, взаимодействующие с находками.",
+      "tips": "Для лучшего эффекта требуются: удача, жареный цыпленок."
+    },
+    "FLOWER": {
+      "name": "Небесная пыль",
+      "description": "Бросает отскакивающий снаряд. Время перезарядки уменьшается при движении.",
+      "tips": "Для лучшего эффекта требуется: скорость движения.",
+      "customDescValue": "Побежденные враги могут давать сердца."
+    },
+    "TRAPANO": {
+      "name": "Теневая шестерня",
+      "description": "Создает зоны поражения при движении, наносит удары при остановке.",
+      "tips": "Для лучшего эффекта требуется: скорость движения."
+    },
+    "TRAPANO2": {
+      "name": "Валик валькирии",
+      "description": "Улучшенная Теневая шестерня. Больше, дальше, быстрее, сильнее.",
+      "tips": "Требуется: крылья."
+    },
+    "STIGRANGATTI": {
+      "name": "Жестокий голод",
+      "description": "Улучшенная противная кошка. Может превратить что угодно в золото.",
+      "tips": "Требуется: каменная маска."
+    },
+    "SHROUD": {
+      "name": "Багровый саван",
+      "description": "Улучшенный лавр. Уменьшает получаемый урон на 10. При разрядке бьет в ответ.",
+      "tips": "Требуется: Метаглио левый, Метаглио правый."
+    },
+    "CORRIDOR": {
+      "name": "Бесконечный коридор",
+      "description": "Улучшенный часовой ланцет. Вдвое уменьшает здоровье врагов.",
+      "tips": "Требуется: золотое кольцо, серебряное кольцо."
+    },
+    "GOLD": {
+      "name": "Золотое кольцо",
+      "description": "... С... Ланцетом"
+    },
+    "SILVER": {
+      "name": "Серебряное кольцо",
+      "description": "Носить... часы..."
+    },
+    "LEFT": {
+      "name": "Метаглио левый",
+      "description": "Источает темные силы для защиты носителя."
+    },
+    "RIGHT": {
+      "name": "Метаглио правый",
+      "description": "Впитывает темные силы, чтобы проклясть носителя."
+    },
+    "VENTO": {
+      "name": "Святой ветер",
+      "description": "Усиливается при непрерывном движении. Может нанести критический урон.",
+      "tips": "Для лучшего эффекта требуются: удача, скорость движения."
+    },
+    "VENTO2": {
+      "name": "Фувалафувалу",
+      "description": "Гибрид Святого ветра и Кровавой слезы. Критические попадания могут привести к взрывам."
+    },
+    "PANDORA": {
+      "tips": "Шкатулка Торроны",
+      "description": "Проклятый предмет, но увеличивает силу, скорость снаряда, продолжительность и область на 4%.",
+      "customDescValue": "Увеличивает силу, скорость, продолжительность и область на %0%",
+      "customOverrideValue": "Проклятый предмет, но увеличивает силу, скорость, продолжительность и область на %0%",
+      "name": "Шкатулка Торроны"
+    },
+    "ROBBA": {
+      "tips": "Для лучшего эффекта требуются: продолжительность, скорость.",
+      "description": "Генерирует отскакивающие снаряды.",
+      "name": "Ля Робба"
+    },
+    "TRIASSO1": {
+      "name": "Браслет",
+      "description": "Выпускает три снаряда в случайного врага."
+    },
+    "TRIASSO2": {
+      "name": "Би-браслет",
+      "description": "Выпускает три снаряда в случайного врага."
+    },
+    "TRIASSO3": {
+      "name": "Три-браслет",
+      "description": "Выпускает три снаряда в случайного врага."
+    },
+    "SILF_COUNTER": {
+      "name": "Лебедь",
+      "description": "Летает по кругу и бомбардирует противника.",
+      "tips": "Для лучшего эффекта требуются: перезарядка, продолжительность."
+    },
+    "SILF2_COUNTER": {
+      "name": "Жар-птица",
+      "description": "Летает по кругу и бомбардирует противника.",
+      "tips": "Для лучшего эффекта требуются: перезарядка, продолжительность."
+    },
+    "GUNS_COUNTER": {
+      "name": "Красная мышца",
+      "description": "Быстро стреляет в четырех фиксированных направлениях.",
+      "tips": "Игнорирует: срок."
+    },
+    "GUNS2_COUNTER": {
+      "name": "Давным-давно-давно",
+      "description": "Быстро стреляет в четырех фиксированных направлениях.",
+      "tips": "Игнорирует: срок."
+    },
+    "CANDYBOX": {
+      "name": "Коробка конфет",
+      "description": "Позволяет выбрать любое разблокированное базовое оружие.",
+      "tips": "Появление в окне повышения уровня зависит от удачи."
+    },
+    "VICTORY": {
+      "name": "Победный меч",
+      "description": "Наносит комбинированные удары по ближайшему врагу. Наносит ответный удар.",
+      "tips": "Игнорирует: скорость, продолжительность.",
+      "customDescValue": "Позволяет наносить критические удары и добивающий комбо."
+    },
+    "SOLES": {
+      "name": "Единое решение",
+      "description": "Дар Победного меча. Чем больше врагов побеждено, тем сильнее он становится.",
+      "tips": "Требуется макс.: Победный меч, Шкатулка Торроны."
+    },
+    "JUBILEE": {
+      "name": "Величайшее торжество",
+      "description": "Дает шанс призвать источники света.",
+      "tips": "Для лучшего эффекта требуется: удача.",
+      "customDescValue": "Позволяет нанести добивающий удар."
+    },
+    "MISSPELL": {
+      "name": "Пламя оговорки",
+      "description": "Излучает конусы пламени.",
+      "tips": null
+    },
+    "MISSPELL2": {
+      "description": "Улучшенное пламя оговорки. Чем больше врагов побеждено, тем сильнее оно становится.",
+      "tips": "Требуется макс.: Шкатулка Торроны.",
+      "name": "Пепел ослышки"
+    },
+    "GATTI_COUNTER": {
+      "name": "Уничтожитель стаи",
+      "description": "Вызывает снаряды, взаимодействующие с находками.",
+      "tips": "Для лучшего эффекта требуются: удача, жареный цыпленок."
+    },
+    "CANDYBOX2": {
+      "name": "Суперкоробка конфет II Турбо",
+      "description": "Коробка конфет в подарок. Дает выбрать оружие из подборки продвинутого.",
+      "tips": "Требуется: коробка конфет."
+    },
+    "SILVERWIND": {
+      "name": "Серебряный ветер",
+      "description": "Побежденные враги могут давать сердца.",
+      "tips": null
+    },
+    "SILVERWIND2": {
+      "name": "Праздничный ветер",
+      "description": "Улучшенный Серебряный ветер. Ослабляет защиту врагов.",
+      "tips": "Требуется макс.: Бычье сердце."
+    },
+    "FOURSEASONS": {
+      "name": "Четыре сезона",
+      "description": "Генерирует четыре взрыва. Боезапас и продолжительность влияют на урон.",
+      "tips": "Игнорирует: скорость."
+    },
+    "FOURSEASONS2": {
+      "name": "Пятый элемент",
+      "description": "Улучшенные Четыре сезона. Генерирует дополнительный взрыв.",
+      "tips": "Требуется макс.: шпинат, Канделябрадор."
+    },
+    "SUMMONNIGHT": {
+      "name": "Призыв ночи",
+      "description": "Создает над персонажем зоны, наносящие урон.",
+      "tips": "Игнорирует: скорость."
+    },
+    "SUMMONNIGHT2": {
+      "name": "Эхо ночи",
+      "description": "Улучшенный Призыв ночи. Создает зоны, наносящие урон, и под персонажем.",
+      "tips": "Требуется макс.: дупликатор."
+    },
+    "MIRAGEROBE": {
+      "name": "Одеяние миража",
+      "description": "Создает замораживающие статические снаряды, которые могут взорваться.",
+      "tips": "Игнорирует: скорость.",
+      "customDescValue": "Шанс взрыва — %0%."
+    },
+    "MIRAGEROBE2": {
+      "name": "Ж'або",
+      "description": "Улучшенное Одеяние миража. Снаряды движутся и дезориентируют врагов.",
+      "tips": "Требуется макс.: магнит."
+    },
+    "BUBBLES": {
+      "name": "Милли-булли-блу",
+      "description": "Выпускает снаряды продолжительного действия.",
+      "tips": null
+    },
+    "BUBBLES2": {
+      "name": "Бу-ру-булле",
+      "description": "Улучшенный Милли-булли-блу. Снаряды могут несколько раз попадать по одной и той же цели.",
+      "tips": "Требуется макс.: заклинатель."
+    },
+    "NIGHTSWORD": {
+      "name": "Меч ночи",
+      "description": "Наносит комбинированные удары по ближайшему врагу. Наносит ответный удар. Может красть сердца.",
+      "tips": "Игнорирует: скорость, продолжительность."
+    },
+    "NIGHTSWORD2": {
+      "name": "Мурамаса",
+      "description": "Улучшенный Меч ночи. Позволяет наносить критические удары и добивающее комбо. Расходует здоровье.",
+      "tips": "Требуется макс.: Каменная маска"
+    },
+    "BOCCE": {
+      "name": "108 Бочче",
+      "description": "На самом деле всего 8. Урон зависит от разницы между показателями проклятия и удачи.",
+      "tips": "Игнорирует: количество, продолжительность, скорость."
+    },
+    "BONE2": {
+      "name": "Анима Мортаччо",
+      "description": "Улучшенная «Кость». Ускоряет снаряды при рикошете.",
+      "tips": "Требуется: сила четырех."
+    },
+    "SPELL_STRING": {
+      "name": "ЦепьЗаклинаний",
+      "description": "Бьет по ближайшим врагам. Урон умножается на скорость.",
+      "tips": "Игнорирует: область, продолжительность."
+    },
+    "SPELL_STREAM": {
+      "name": "ПотокЗаклинаний",
+      "description": "Создает расширяющуюся зону урона. Урон умножается на значение области.",
+      "tips": "Игнорирует: боезапас."
+    },
+    "SPELL_STRIKE": {
+      "name": "УдарЗаклинаний",
+      "description": "Бьет по ближайшему врагу. Урон также умножается на силу.",
+      "tips": "Игнорирует: область, продолжительность."
+    },
+    "SPELL_STROM": {
+      "name": "ШтормЗаклинаний",
+      "description": "Гибрид из ЦепьЗаклинаний, ПотокЗаклинаний и УдарЗаклинаний. Становится сильнее с каждой сингулярностью.",
+      "tips": null
+    },
+    "SWORD": {
+      "name": "Экскиззибур",
+      "description": "Атакует врагов поблизости. Наносит ответный удар.",
+      "tips": "Игнорирует: скорость, продолжительность.",
+      "customDescValue": "Добивающее комбо при каждом пятом срабатывании."
+    },
+    "SWORD2": {
+      "name": "Легионер",
+      "description": "Улучшенный Экскиззибур. Дает дополнительные снаряды, которые наносят ответный урон.",
+      "tips": "Требуется макс.: броня."
+    },
+    "FLASHARROW": {
+      "name": "Громовая стрела",
+      "description": "Может наносить критический урон. Боезапас влияет на урон.",
+      "tips": "Игнорирует: срок."
+    },
+    "FLASHARROW2": {
+      "name": "Миллионер",
+      "description": "Улучшенная Громовая стрела. Стреляет дополнительными снарядами в зависимости от боезапаса и при собирании золотых монет.",
+      "tips": "Требуется макс.: наруч, клевер."
+    },
+    "PRISMATICMISS": {
+      "name": "Призматический снаряд",
+      "description": "Создает взрывы вокруг персонажа. Подвержен влиянию первой выбранной Арканы из II, XIV или XIX.",
+      "tips": "Игнорирует: срок."
+    },
+    "PRISMATICMISS2": {
+      "name": "Люминера",
+      "description": "Улучшенный Призматический снаряд. Повышает ценность самоцветов и монет на земле.",
+      "tips": "Требуется макс.: корона."
+    },
+    "SHADOWSERVANT": {
+      "name": "Служитель тьмы",
+      "description": "Дает шанс замедлить врагов.",
+      "tips": "Для лучшего эффекта требуется: удача."
+    },
+    "SHADOWSERVANT2": {
+      "name": "Офион",
+      "description": "Улучшенный Служитель тьмы. Дает шанс мгновенно убить врагов.",
+      "tips": "Требуется макс.: Череп О'Маньяка."
+    },
+    "PARTY": {
+      "name": "Хлопушка",
+      "description": "Бросает отскакивающий снаряд.",
+      "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
+    },
+    "ACADEMYBADGE": {
+      "name": "Значок Академии",
+      "description": "Дает дополнительный боезапас и оживления в обмен на развитие.",
+      "tips": null
+    },
+    "SHADOWSERVANT_COUNTER": {
+      "name": "Серебряное серебро",
+      "description": "Идет в пару к Служителю тьмы и Офиону из Арканы I — Близнецы.",
+      "tips": null
+    },
+    "PARTY_COUNTER": {
+      "name": "Колотушка",
+      "description": "Идет в паре с Хлопушкой из Арканы I — Близнецы.",
+      "tips": null
+    },
+    "INSATIABLE": {
+      "name": "Ненасытность",
+      "description": null,
+      "tips": null
+    },
+    "CHERRY2": {
+      "name": "Ятта Дайкарин",
+      "description": "Улучшенная Вишневая бомба. Совершает дополнительные взрывы, которые наносят критический урон на основе удачи.",
+      "tips": "Требуется: Cила четырех."
+    },
+    "CART2EVO": {
+      "name": "Акчипикия",
+      "description": null,
+      "tips": "Требуется: сила четырех."
+    },
+    "FLOWER2": {
+      "name": "Изобилие любви",
+      "description": "Улучшенная небесная пыль. Снаряды вызывают взрывню цепную реакцию через определенные промежутки времени.",
+      "tips": "Требуется: сила четырех."
+    },
+    "LAROBBA2": {
+      "name": "Гравиджо",
+      "description": "Улучшенная Ля Робба. Снаряды также могут вдвое уменьшить здоровье врагов.",
+      "tips": "Требуется: сила четырех."
+    },
+    "CART": {
+      "name": "Тележка молочника",
+      "description": null,
+      "tips": null
+    },
+    "SARABANDE": {
+      "name": "Сарабанда Исцеления",
+      "description": null,
+      "tips": null
+    },
+    "FIREEXPLOSION": {
+      "name": "Пламенный мотор",
+      "description": null,
+      "tips": null
+    },
+    "COLDEXPLOSION": {
+      "name": "Вне пределов",
+      "description": null,
+      "tips": null
+    },
+    "NDUJA": {
+      "name": "Ндуя фритта",
+      "description": null,
+      "tips": null
+    },
+    "NDUJA_COUNTER": {
+      "name": "Ндуя фритта",
+      "description": null,
+      "tips": null
+    },
+    "WINDOW": {
+      "name": "Витраж",
+      "description": null,
+      "tips": null
+    },
+    "WINDOW2": {
+      "name": "Убийца игры",
+      "description": null,
+      "tips": null
+    },
+    "BLOODLINE": {
+      "name": "Божественная родословная",
+      "description": null,
+      "tips": null
+    },
+    "ASTRONOMIA": {
+      "name": "Астрономия крови",
+      "description": null,
+      "tips": null
+    },
+    "ICELANCE": {
+      "name": "Стеклянное фанданго",
+      "description": "Усиливается при движении, часословах и против замороженных врагов.",
+      "tips": "Игнорирует: скорость, продолжительность."
+    },
+    "ICELANCE2": {
+      "name": "Небесный вульж",
+      "description": "Улучшенное стеклянное фанданго. Может наносить критический урон и замораживать врагов. Превращает часословов в звездные небеса.",
+      "tips": "Требуется макс.: Крылья.",
+      "customDescValue": "Превращает часословов в звездные небеса."
+    },
+    "PHASER": {
+      "name": "Бласт3р",
+      "description": "Создаёт тонкие зоны урона. Большой боезапас.",
+      "tips": null
+    },
+    "PHASER2": {
+      "name": "Фотошторм",
+      "description": "Улучшенный Бласт3р. Выпускает в 2-10 раз больше дополнительных снарядов в зависимости от удачи.",
+      "tips": "Требуется макс.: Пустой фолиант."
+    },
+    "C1_REPORT1": {
+      "name": "Заявитель",
+      "description": "Наносит урон врагам и отталкивает их.",
+      "tips": "Игнорирует: продолжительность.",
+      "customDescValue": "Фактор отталкивания увеличен на %0."
+    },
+    "C1_REPORT2": {
+      "name": "Срочное собрание",
+      "description": "Улучшенный заявитель. Иногда уничтожает всех врагов одного типа.",
+      "tips": "Требуется макс.: член экипажа (мини)."
+    },
+    "C1_SWIPECARD1": {
+      "name": "Удачный свайп",
+      "description": "На количество атак влияют боезапас и низкая удача.",
+      "tips": "Игнорирует: продолжительность."
+    },
+    "C1_SWIPECARD2": {
+      "name": "Перепутанные провода",
+      "description": "Улучшенная удачный свайп. Атакует в четырёх направлениях.",
+      "tips": "Требуется макс.: инженер (мини)."
+    },
+    "C1_MEDICAL1": {
+      "name": "Сканер сигнатур",
+      "description": "Восстанавливает ОЗ в зависимости от боезапаса и регенерации.",
+      "tips": "Область влияет на других игроков."
+    },
+    "C1_MEDICAL2": {
+      "name": "Паранормальный скан",
+      "description": "Улучшенный Сканер сигнатур. Периодически даёт случайное повышение характеристик до конца забега.",
+      "tips": "Требуется макс.: призрак (мини)."
+    },
+    "C1_VENT1": {
+      "name": "Просто люк",
+      "description": "Уничтожает врагов или наносит им большой урон. Боезапас влияет на то, сколько раз он может сработать.",
+      "tips": "Игнорирует: скорость.",
+      "customDescValue": "Использование люков увеличено на %0"
+    },
+    "C1_VENT2": {
+      "name": "Беспричинный выброс",
+      "description": "Улучшенный просто люк. Засасывает врагов.",
+      "tips": "Требуется макс.: оборотень (мини).",
+      "enemiesEjected": "Врагов выброшено: %0."
+    },
+    "C1_GARBA1": {
+      "name": "Расчиститель завалов",
+      "description": "Создаёт зоны появления снарядов, которые следуют за игроком.",
+      "tips": null
+    },
+    "C1_GARBA2": {
+      "name": "Разрушитель астероидов",
+      "description": "Улучшенный расчиститель завалов. Боезапас создаёт кластерные взрывы.",
+      "tips": "Требуется макс.: хранитель (мини)."
+    },
+    "C1_TONGUE1": {
+      "name": "Острый язык",
+      "description": "Поражает врагов перед вами. Урон умножается на регенерацию.",
+      "tips": null
+    },
+    "C1_TONGUE2": {
+      "name": "Языкозванец",
+      "description": "Улучшенный острый язык. Наносит большой урон самому сильному врагу и всему на своём пути.",
+      "tips": "Требуется макс.: предатель (мини)."
+    },
+    "C1_SAMPLES1": {
+      "name": "Научные камни",
+      "description": "Создаёт зоны, которые взрываются при прикосновении игроком. Боезапас влияет на количество кластеров взрыва.",
+      "tips": "Игнорирует: скорость."
+    },
+    "C1_SAMPLES2": {
+      "name": "Ракетная наука",
+      "description": "Улучшенные научные камни. Запускает добивающий удар при соблюдении правильных условий.",
+      "tips": "Требуется макс.: учёный (мини)."
+    },
+    "C1_HATCOLLECTION1": {
+      "name": "Шапки",
+      "description": "Бросает симпатичные отскакивающие снаряды со случайными свойствами.",
+      "tips": null
+    },
+    "C1_SHRINK_CREWMA": {
+      "name": "Член экипажа (мини)",
+      "description": "Иногда может кричать на ближайших врагов.",
+      "tips": "Можно получить при повышении уровня заявителя.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "C1_SHRINK_ENGINE": {
+      "name": "Инженер (мини)",
+      "description": "Иногда может поражать врагов током.",
+      "tips": "Можно получить при повышении уровня удачного свайпа.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "C1_SHRINK_GHOSTT": {
+      "name": "Призрак (мини)",
+      "description": "Иногда может замораживать врагов в страхе.",
+      "tips": "Можно получить при повышении уровня медицинского скана.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "C1_SHRINK_SHAPES": {
+      "name": "Оборотень (мини)",
+      "description": "Иногда может бросать во врагов остатки тел.",
+      "tips": "Можно получить при повышении уровня просто люка.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "C1_SHRINK_GUARDI": {
+      "name": "Хранитель (мини)",
+      "description": "Иногда может принять удар за вас.",
+      "tips": "Можно получить при повышении уровня расчиститель завалов.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "C1_SHRINK_IMPOST": {
+      "name": "Предатель (мини)",
+      "description": "Иногда может бить по врагам.",
+      "tips": "Можно получить при повышении уровня острого языка.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "C1_SHRINK_SCIENT": {
+      "name": "Учёный (мини)",
+      "description": "Иногда может использовать науку против врагов.",
+      "tips": "Можно получить при повышении уровня научных камней.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "C1_SHRINK_HORSEE": {
+      "name": "Лошадь (мини)",
+      "description": "Может время от времени заражать вас своим неустанным счастьем.",
+      "tips": "Можно получить при повышении уровня шапок.",
+      "customDescValue": "Якобы оказывает лучшую моральную поддержку."
+    },
+    "ARMADIO": {
+      "name": "Арма Дио",
+      "description": "Позволяет выбрать дополнительное пассивное оружие.",
+      "tips": "Появление в окне при повышении уровня зависит от удачи."
+    },
+    "TETRAFORCE": {
+      "name": "Сила четырёх",
+      "description": "С каждым уровнем персонаж начинает получать выбранное повышение характеристик.",
+      "tips": null
+    },
+    "DOMINION": {
+      "name": "Мана Каромы",
+      "description": "Увеличивает количество появляющихся врагов на 10. Увеличивает продолжительность золотой лихорадки и золотого перста на 10%.",
+      "tips": null
+    },
+    "PARMA": {
+      "name": "Парм Эзан",
+      "description": "Увеличивает время неуязвимости после получения урона на 50 мс.",
+      "tips": null
+    },
+    "NOVA_FIRE": {
+      "name": "Новая «Огненная»"
+    },
+    "NOVA_ICEE": {
+      "name": "Новая «Ледяная»"
+    },
+    "NOVA_FEAR": {
+      "name": "Новая «Страшная»"
+    },
+    "C1_TONGUE1_COUNTER": {
+      "name": "Серебряный язык",
+      "description": "Ударяет врагов позади вас. Урон умножается на регенерацию.",
+      "tips": null
+    }
+  }
+}
