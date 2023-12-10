@@ -15,18 +15,23 @@ for name in names:
 
     with open(vspath, "r", encoding="UTF-8") as vsfile:
         outdata = json.loads(vsfile.read())
+    vs.remove(vspath)
 
     if mspath:
         with open(mspath, "r", encoding="UTF-8") as msfile:
             outdata.update(json.loads(msfile.read()))
+        ms.remove(mspath)
 
     if tfpath:
         with open(tfpath, "r", encoding="UTF-8") as tffile:
             outdata.update(json.loads(tffile.read()))
+        tf.remove(tfpath)
 
     if empath:
         with open(tfpath, "r", encoding="UTF-8") as emfile:
             outdata.update(json.loads(emfile.read()))
+        em.remove(empath)
 
     with open(name + "Data_Full.json", "w", encoding="UTF-8") as outfile:
         outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))
+
