@@ -31,7 +31,7 @@ def removeUnityTagAlias(filepath):
 
     """
     result = str()
-    sourceFile = open(filepath, 'r')
+    sourceFile = open(filepath, 'r', encoding="UTF-8")
 
     for lineNumber, line in enumerate(sourceFile.readlines()):
         if line.startswith('--- !u!'):
@@ -57,20 +57,24 @@ class Type(Enum):
 
 class PictureGenerator:
     @staticmethod
-    def assets_gen(path, dlc):
-        return [f for f in os.scandir(path + dlc) if not f.name.endswith(".meta")]
+    def assets_gen(path):
+        dirs = [path]
+        files = []
+        while len(dirs) > 0:
+            this_dir = dirs.pop(0)
+            files.extend(f for f in os.scandir(this_dir) if f.name.endswith(".meta") and not f.is_dir())
+            dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
+
+        return files
 
     def __init__(self, assets_type: Type, env: dict):
         folder_with_data = r"../Data/Auto Generated"
         folder_with_lang = r"../Translations/lang"
-        assets_files_folder = env["ASSETS_FOLDER"]
+        assets_files_folder = env["ASSETS_FOLDER"]  # \Assets\Resources\spritesheets
 
         self.assets_type = assets_type
 
-        self.assets = self.assets_gen(assets_files_folder, '')
-        self.assets.extend(self.assets_gen(assets_files_folder, '/moonspell'))
-        self.assets.extend(self.assets_gen(assets_files_folder, '/foscari'))
-        self.assets.extend(self.assets_gen(assets_files_folder, '/chalcedony'))
+        self.assets = self.assets_gen(assets_files_folder)
 
         self.json = {}
         self.lang = {}
@@ -176,7 +180,7 @@ class PictureGenerator:
             print("-")
             return
         print(asset)
-        # return
+        return ######!!!!!!!!!
 
         frame_name = obj.get(self.frameKey, "").replace(".png", "")
         if frame_name == "":
@@ -287,11 +291,16 @@ class PictureGenerator:
     def test(self, filt):
         asset = list(filter(lambda x: filt in x.name, self.assets))
         print(asset)
-        file_no_tags = removeUnityTagAlias(asset[2])
-        # print(dict(yaml.safe_load(file_no_tags)))
+        file_no_tags = removeUnityTagAlias(asset[0])
+        sprites = dict(yaml.safe_load(file_no_tags))["TextureImporter"]["spriteSheet"]["sprites"]
+
+        names = {s["name"]: s["rect"] for s in sprites}
+        print(json.dumps(names, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
+    # !! This generator is in dev !!
     env_f = read_env(r".env")  # ASSETS_FOLDER
-    gen = PictureGenerator(Type.CHARACTER, env_f)
-    gen.generate()
+    # gen = PictureGenerator(Type.CHARACTER, env_f)
+    # gen.test("items")
+    # !! This generator is in dev !!
