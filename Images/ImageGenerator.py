@@ -17,34 +17,6 @@ def read_env(file: os.path) -> dict:
     return d
 
 
-def removeUnityTagAlias(filepath):
-    """
-    Name:               removeUnityTagAlias()
-
-    Description:        Loads a file object from a Unity textual scene file, which is in a pseudo YAML style, and strips the
-                        parts that are not YAML 1.1 compliant. Then returns a string as a stream, which can be passed to PyYAML.
-                        Essentially removes the "!u!" tag directive, class type and the "&" file ID directive. PyYAML seems to handle
-                        rest just fine after that.
-
-    Returns:                String (YAML stream as string)
-
-
-    """
-    result = str()
-    sourceFile = open(filepath, 'r', encoding="UTF-8")
-
-    for lineNumber, line in enumerate(sourceFile.readlines()):
-        if line.startswith('--- !u!'):
-            result += '--- ' + line.split(' ')[2] + '\n'  # remove the tag, but keep file ID
-        else:
-            # Just copy the contents...
-            result += line
-
-    sourceFile.close()
-
-    return result
-
-
 class Type(Enum):
     WEAPON = 0
     CHARACTER = 1
@@ -78,6 +50,8 @@ class PictureGenerator:
 
         self.json = {}
         self.lang = {}
+
+        self.loaded_meta = {}
 
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
@@ -127,6 +101,28 @@ class PictureGenerator:
                 self.folderToSave = "props"
                 self.dataPath = folder_with_data + "/propsData_Full.json"
 
+    def generate_by_meta(self, file, scale_factor: int = 1):
+        meta, im = self.get_meta(file)
+        folder_to_save = "./Generated/By meta"
+        subfolder_to_save = f"{folder_to_save}/{file}"
+
+        if not os.path.isdir(folder_to_save):
+            os.mkdir(folder_to_save)
+        if not os.path.isdir(subfolder_to_save):
+            os.mkdir(subfolder_to_save)
+
+        print(f"Files out of {len(meta)}:")
+
+        for i, (pic_name, rect) in enumerate(meta.items()):
+            print(f"\r{i + 1}", end="")
+            sx, sy = im.size
+
+            im_crop = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+
+            im_crop = im_crop.resize((im_crop.size[0] * scale_factor, im_crop.size[1] * scale_factor),
+                                     PIL.Image.NEAREST)
+            im_crop.save(f"{subfolder_to_save}/{pic_name}.png")
+
     def generate(self):
         if not os.path.isdir("./Generated"):
             os.mkdir("./Generated")
@@ -162,6 +158,8 @@ class PictureGenerator:
                 name = k_id
                 file_name = obj[self.dataSpriteKey][0].replace(".png", "")
             case _:
+                if "Megalo" in obj.get('prefix', ''):
+                    name = f"Megalo {name}"
                 file_name = obj[self.dataSpriteKey].replace(".png", "")
         texture_name = obj[self.dataTextureKey]
 
@@ -173,14 +171,10 @@ class PictureGenerator:
         if not os.path.isdir(sf_text_i):
             os.mkdir(sf_text_i)
 
-        asset = list(filter(lambda x: x.name.startswith(file_name), self.assets))
-
         print(k_id, texture_name, file_name)
-        if len(asset) == 0 or len(file_name) == 0 or len(name) == 0:
+        if len(file_name) == 0 or len(name) == 0:
             print("-")
             return
-        print(asset)
-        return ######!!!!!!!!!
 
         frame_name = obj.get(self.frameKey, "").replace(".png", "")
         if frame_name == "":
@@ -194,19 +188,17 @@ class PictureGenerator:
                 case _:
                     pass
 
-        for a in asset:
-            self.read_asset_and_save_png(a, k_id, name, texture_name, save_folder, frame_name)
+        self.read_asset_and_save_png(file_name, k_id, name, texture_name, save_folder, frame_name)
 
     def table_object(self, k_id, obj, index):
         self.simple_object(k_id, obj[index])
 
-    def read_asset_and_save_png(self, asset, k_id, name, texture_name, save_folder, frame_name=None,
+    def read_asset_and_save_png(self, file_name, k_id, name, texture_name, save_folder, frame_name=None,
                                 prefix_name="Sprite-"):
 
-        file_no_tags = removeUnityTagAlias(asset)
-        y = dict(yaml.safe_load(file_no_tags)["Sprite"]["m_Rect"])
+        meta, im = self.get_meta(texture_name)
 
-        im = Image.open(f'{texture_name}.png')
+        y = meta[file_name]
 
         sx, sy = im.size
 
@@ -233,13 +225,6 @@ class PictureGenerator:
             os.mkdir(sf_text)
         if not os.path.isdir(sf_text_i):
             os.mkdir(sf_text_i)
-
-        cycle = ""
-        i = 0
-        while f"{prefix_name}{name}{cycle}.png" in os.listdir(sf_text):
-            i += 1
-            cycle = str(i)
-        name = name + cycle
 
         im_crop.save(f"{sf_text}/{prefix_name}{name}.png")
 
@@ -288,19 +273,20 @@ class PictureGenerator:
 
         return Image.open(f'./Generated/frames/{frame_name}.png')
 
-    def test(self, filt):
-        asset = list(filter(lambda x: filt in x.name, self.assets))
-        print(asset)
-        file_no_tags = removeUnityTagAlias(asset[0])
-        sprites = dict(yaml.safe_load(file_no_tags))["TextureImporter"]["spriteSheet"]["sprites"]
-
-        names = {s["name"]: s["rect"] for s in sprites}
-        print(json.dumps(names, ensure_ascii=False, indent=2))
+    def get_meta(self, file) -> (dict, Image.Image):
+        if file not in self.loaded_meta:
+            asset = sorted(filter(lambda x: file in x.name, self.assets), key=lambda x: abs(len(x.name) - len(file)))
+            print(f"Parsing {asset[0].name}")
+            with open(asset[0]) as f:
+                sprites = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]["sprites"]
+            self.loaded_meta.update({file: {s["name"]: s["rect"] for s in sprites},
+                                     file + "Image": Image.open(asset[0].path.replace(".meta", ""))})
+            print(f"Parse {asset[0].name} ended")
+        return self.loaded_meta[file], self.loaded_meta[file + "Image"]
 
 
 if __name__ == "__main__":
-    # !! This generator is in dev !!
     env_f = read_env(r".env")  # ASSETS_FOLDER
-    # gen = PictureGenerator(Type.CHARACTER, env_f)
-    # gen.test("items")
-    # !! This generator is in dev !!
+    gen = PictureGenerator(Type.STAGE_SET, env_f)
+    # gen.generate()
+    gen.generate_by_meta("randomazzo")
