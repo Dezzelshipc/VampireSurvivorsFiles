@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog as fd
-from tkinter.messagebox import showerror, showwarning, showinfo
+from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 
 import yaml
 import json
@@ -10,6 +10,9 @@ from PIL import Image, ImageFont, ImageDraw
 import PIL.Image
 import threading
 
+import Translations.language as split_lang
+import Data.data as concat_data
+
 
 class Unpacker(tk.Tk):
     class ProgressBar(tk.Toplevel):
@@ -17,8 +20,8 @@ class Unpacker(tk.Tk):
             super().__init__(parent)
             self.title("Parsing")
             self.resizable(False, False)
-            self.geometry("300x50")
-            self.progressbar = ttk.Progressbar(self, mode="indeterminate", length=200)
+            self.geometry("200x50")
+            self.progressbar = ttk.Progressbar(self, mode="indeterminate", length=150)
             self.progressbar.pack()
             self.progressbar.start(20)
             self.label = ttk.Label(self, text=label)
@@ -28,28 +31,76 @@ class Unpacker(tk.Tk):
             self.progressbar.stop()
             self.destroy()
 
-    def __init__(self, canvas_width, canvas_height):
+    class CheckBoxes(tk.Toplevel):
+        def __init__(self, parent, list_to_boxes):
+            super().__init__(parent)
+            self.parent = parent
+            self.title("Select languages")
+            label = ttk.Label(self, text="Select languages to include in split files")
+            label.pack()
+
+            self.global_state = tk.BooleanVar()
+
+            cb = ttk.Checkbutton(self, text="Select/Deselect all",
+                                 variable=self.global_state,
+                                 command=self.set_all)
+            cb.pack()
+
+            self.states = []
+
+            for i, val in enumerate(list_to_boxes):
+                var = tk.BooleanVar()
+                cb = ttk.Checkbutton(self, text=val['Name'], variable=var)
+                cb.pack()
+                self.states.append(var)
+
+            b_ok = ttk.Button(self, text="Select", command=self.__close)
+            b_ok.pack()
+
+        def get_states(self):
+            return [v.get() for v in self.states]
+
+        def set_all(self):
+            state = self.global_state.get()
+
+            for x in self.states:
+                x.set(state)
+
+        def __close(self):
+            self.parent.data_from_popup = [v.get() for v in self.states]
+            self.destroy()
+
+    def __init__(self, width=700, height=300):
         super().__init__()
-        self.geometry(f"{canvas_width}x{canvas_height}")
+        self.width = width
+        self.height = height
+        self.geometry(f"{width}x{height}")
         self.resizable(False, False)
         self.title('Resource unpacker VS')
 
-        l_info = tk.Label(self, text="Resource unpacker for ripped assets from Vampire Survivors game.")
-        l_info.grid(row=0, column=0)
-
-        b_info = tk.Button(
+        b_info = ttk.Button(
             self,
             text="Unpacker help",
             command=self.info
         )
         b_info.grid(row=0, column=1)
 
-        b_unpack_by_meta = tk.Button(
+        b_assets_folder = ttk.Button(
+            self,
+            text="Select assets directory",
+            command=self.select_assets_dir
+        )
+        b_assets_folder.grid(row=1, column=1)
+
+        l_info = ttk.Label(self, text="Resource unpacker for ripped assets from Vampire Survivors game.")
+        l_info.grid(row=1, column=0)
+
+        b_unpack_by_meta = ttk.Button(
             self,
             text="Select image to unpack",
-            command=self.select_and_unpack
+            command=lambda: self.select_and_unpack(self.assets_dir)
         )
-        b_unpack_by_meta.grid(row=1, column=1)
+        b_unpack_by_meta.grid(row=2, column=1)
 
         self.progress_bar = ttk.Progressbar(
             self,
@@ -57,25 +108,65 @@ class Unpacker(tk.Tk):
             mode='determinate',
             length=280
         )
-        self.progress_bar.grid(row=1, column=0)
+        self.progress_bar.grid(row=3, column=0)
         self.l_progress_bar_string = tk.StringVar()
         self.l_progress_bar = ttk.Label(self, textvariable=self.l_progress_bar_string)
         self.l_progress_bar.grid(row=2, column=0)
 
         self.last_loaded_folder = None
 
-        b_last_loaded_folder = tk.Button(
+        b_last_loaded_folder = ttk.Button(
             self,
             text="Open last loaded folder",
             command=self.open_last_loaded
         )
-        b_last_loaded_folder.grid(row=2, column=1)
+        b_last_loaded_folder.grid(row=3, column=1)
+
+        self.rowconfigure(4, minsize=30)
+
+        b_language_file = ttk.Button(
+            self,
+            text="Get language strings file",
+            command=self.languages_get
+        )
+        b_language_file.grid(row=5, column=1)
+
+        b_language_to_json = ttk.Button(
+            self,
+            text="Convert language strings to json",
+            command=self.languages_get_json
+        )
+        b_language_to_json.grid(row=5, column=2)
+
+        b_language_split = ttk.Button(
+            self,
+            text="Split language strings",
+            command=self.languages_split
+        )
+        b_language_split.grid(row=6, column=1)
+
+        self.rowconfigure(7, minsize=30)
+
+        b_data_get = ttk.Button(
+            self,
+            text="Get data from assets",
+            command=lambda : showinfo("", "TBA")
+        )
+        b_data_get.grid(row=8, column=1)
+
+        b_data_concat = ttk.Button(
+            self,
+            text="Concatenate dlc data\ninto one same files",
+            command=self.data_concatenate
+        )
+        b_data_concat.grid(row=8, column=2)
 
         self.loaded_meta = {}
+        self.data_from_popup = None
 
         self.outer_progress_bar = None
 
-        self.mainloop()
+        self.assets_dir = '/'
 
     @staticmethod
     def info():
@@ -96,37 +187,65 @@ class Unpacker(tk.Tk):
         if self.last_loaded_folder and os.path.exists(self.last_loaded_folder):
             os.startfile(self.last_loaded_folder)
 
-    def select_and_unpack(self):
-        filetypes = (
-            ('Images', '*.png'),
+    def select_assets_dir(self):
+        full_path = fd.askdirectory(
+            title='Select assets directory',
+            initialdir=self.assets_dir
         )
+
+        if not full_path:
+            return
+
+        if not full_path.endswith("Assets"):
+            showwarning("Warning", "Folder must be named 'Assets'")
+            return
+
+        self.assets_dir = os.path.normpath(full_path)
+
+        path = self.assets_dir + "/Resources/spritesheets"
+
+        if not os.path.exists(path):
+            return
+
+        # self.geometry(f"{self.width + 100}x{self.height}")
+        b_assets_folder = ttk.Button(
+            self,
+            text=".. from spritesheets",
+            command=lambda: self.select_and_unpack(path)
+        )
+        b_assets_folder.grid(row=2, column=2)
+
+    def select_and_unpack(self, start_path):
+        def thread_generate_by_meta(p_dir: str, p_file: str):
+            meta, im = self.get_meta_by_full_path(p_dir, p_file)
+
+            self.outer_progress_bar.close_bar()
+
+            self.generate_by_meta(meta, im, p_file)
+
+        filetypes = [
+            ('Images', '*.png')
+        ]
 
         full_path = fd.askopenfilename(
             title='Open a file',
-            initialdir='/',
+            initialdir=start_path,
             filetypes=filetypes
         )
 
         if not full_path:
             return
 
-        p_dir, p_file = os.path.split(full_path)
+        direct, file = os.path.split(full_path)
 
         if not os.path.exists(full_path + ".meta"):
-            showerror("Error", f"{p_file}.meta is unable to find in this directory.")
+            showerror("Error", f"{file}.meta is unable to find in this directory.")
             return
 
-        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}.meta")
+        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}.meta")
 
-        t = threading.Thread(target=self.thread_generate_by_meta, args=[p_dir, p_file])
+        t = threading.Thread(target=thread_generate_by_meta, args=[direct, file])
         t.start()
-
-    def thread_generate_by_meta(self, p_dir: str, p_file: str):
-        meta, im = self.get_meta_by_full_path(p_dir, p_file)
-
-        self.outer_progress_bar.close_bar()
-
-        self.generate_by_meta(meta, im, p_file)
 
     def get_meta_by_full_path(self, p_dir: str, p_file: str) -> (dict, Image.Image):
         file = p_file.replace(".png", "")
@@ -147,9 +266,6 @@ class Unpacker(tk.Tk):
         file = file.replace(".png", "")
         folder_to_save = f"./Images/Generated/By meta/{file}"
 
-        if not os.path.exists(folder_to_save):
-            os.makedirs(folder_to_save)
-
         total = len(meta)
 
         if total == 0:
@@ -158,6 +274,9 @@ class Unpacker(tk.Tk):
                         "Some files does not contain it.\n"
                         "But it is also possible that data was ripped with incorrect setting.")
             return
+
+        if not os.path.exists(folder_to_save):
+            os.makedirs(folder_to_save)
 
         print(f"Files out of {total}:")
 
@@ -179,6 +298,131 @@ class Unpacker(tk.Tk):
         print()
         self.last_loaded_folder = os.path.abspath(folder_to_save)
 
+    def languages_get(self):
+        def thread_languages_get(file_path_):
+            self.progress_bar_set(0, 1)
+            with open(file_path_, 'r', encoding="UTF-8") as f:
+                for _ in range(3):
+                    f.readline()
+                text = f.read()
+
+            folder_to_save = "./Translations"
+            if not os.path.exists(folder_to_save):
+                os.makedirs(folder_to_save)
+
+            with open(folder_to_save + "/I2Languages.yaml", 'w', encoding="UTF-8") as yml:
+                yml.write(text)
+
+            self.outer_progress_bar.close_bar()
+            self.progress_bar_set(1, 1)
+            self.last_loaded_folder = os.path.abspath(folder_to_save)
+
+        if not self.assets_dir.endswith("Assets"):
+            showwarning("Warning", "Assets directory must be selected.")
+            return
+
+        file_path = self.assets_dir + "/Resources/I2Languages.asset"
+        if not os.path.exists(file_path):
+            showwarning("Warning", "Assets directory does not contain language file (I2Languages.asset).")
+            return
+
+        direct, file = os.path.split(file_path)
+
+        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}.meta")
+
+        t = threading.Thread(target=thread_languages_get, args=[file_path])
+        t.start()
+
+    def get_lang_meta(self) -> dict | None:
+        lang_path = './Translations/I2Languages.yaml'
+
+        if "I2Languages" not in self.loaded_meta:
+            with open(lang_path, 'r', encoding="UTF-8") as f:
+                self.loaded_meta.update({"I2Languages": yaml.safe_load(f.read())})
+
+        return self.loaded_meta["I2Languages"]
+
+    def languages_get_json(self):
+        def thread_languages_get_json():
+            yaml_file = self.get_lang_meta()
+
+            folder_to_save = "./Translations/Generated"
+            if not os.path.exists(folder_to_save):
+                os.makedirs(folder_to_save)
+
+            with open(folder_to_save + "/I2Languages.json", 'w', encoding="UTF-8") as json_file:
+                json_file.write(json.dumps(yaml_file, ensure_ascii=False, indent=None))
+
+            self.outer_progress_bar.close_bar()
+            self.last_loaded_folder = os.path.abspath(folder_to_save)
+
+        lang_yaml = './Translations/I2Languages.yaml'
+
+        if not os.path.exists(lang_yaml):
+            showerror("Error", "Language file must be gotten from assets first.")
+            return
+
+        direct, file = os.path.split(lang_yaml)
+
+        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}")
+
+        t = threading.Thread(target=thread_languages_get_json)
+        t.start()
+
+    def languages_split(self):
+        folder_to_save = "./Translations/Generated/Split"
+
+        def thread_languages_split():
+            yaml_file = self.get_lang_meta()
+
+            langs_list = yaml_file["MonoBehaviour"]["mSource"]["mLanguages"]
+
+            self.outer_progress_bar.close_bar()
+            self.last_loaded_folder = os.path.abspath(folder_to_save)
+
+            self.data_from_popup = None
+            cbs = self.CheckBoxes(self, langs_list)
+            cbs.wait_window()
+
+            if not self.data_from_popup:
+                return
+
+            total_lang_count = len(self.data_from_popup)
+
+            using_list = [(i, x[0]['Name']) for i, x in enumerate(zip(langs_list, self.data_from_popup)) if x[1]]
+
+            if len(using_list) == 0:
+                showerror("Error", "No language has been selected.")
+                return
+
+            is_add_more = askyesno("", "Add additional data to strings?")
+
+            gen = split_lang.split_to_files(yaml_file, using_list, total_lang_count,
+                                            is_add_more=is_add_more, is_gen=True)
+
+            for i, total in gen:
+                self.progress_bar_set(i + 1, total)
+
+        lang_yaml = './Translations/I2Languages.yaml'
+
+        if not os.path.exists(lang_yaml):
+            showerror("Error", "Language file must be gotten from assets first.")
+            return
+
+        direct, file = os.path.split(lang_yaml)
+
+        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}")
+
+        t = threading.Thread(target=thread_languages_split)
+        t.start()
+
+    def data_concatenate(self):
+        gen = concat_data.concatenate(True)
+
+        for i, total in gen:
+            self.progress_bar_set(i + 1, total)
+
 
 if __name__ == '__main__':
-    app = Unpacker(500, 100)
+    app = Unpacker()
+    app.mainloop()

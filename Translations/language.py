@@ -2,75 +2,92 @@ import yaml
 import json
 import os
 
-# en - 0
-# ru - 7
 
-if not os.path.isdir('./lang'):
-    os.mkdir('./lang')
+def __generator_split_to_files(languages: dict, lang_list: list, total_lang_count: int,
+                               is_add_more=True, is_gen=False):
+    folder_to_save = os.path.normpath(os.path.split(__file__)[0] + '/Generated/Split')
 
+    languages = languages["MonoBehaviour"]["mSource"]["mTerms"]
 
-with open('I2Languages.yaml', 'r', encoding="UTF-8") as file:
-    prime = yaml.safe_load(file)
+    if is_add_more:
+        languages = languages + [
+            {
+                "Term": "characterLang/{EXDASH}charName",
+                "Languages": ["Exdash"] * total_lang_count,
+            },
+            {
+                "Term": "characterLang/{EXDASH}surname",
+                "Languages": ["Exiviiq"] * total_lang_count,
+            },
+            {
+                "Term": "characterLang/{FINO}charName",
+                "Languages": ["missingN▯"] * total_lang_count,
+            },
+            {
+                "Term": "characterLang/{FINO}description",
+                "Languages": ["M(▯▯)"] * total_lang_count,
+            }
+        ]
 
-prime = prime["MonoBehaviour"]["mSource"]["mTerms"]
+    full_d = dict()
 
-# with open('langAll.json', 'w', encoding="UTF-8") as file:
-#     file.write(json.dumps(prime))
+    total_len = len(languages)
 
-prime = prime + [
-    {
-        "Term": "characterLang/{EXDASH}charName",
-        "Languages": ["Exdash"] * 9,
-    },
-    {
-        "Term": "characterLang/{EXDASH}surname",
-        "Languages": ["Exiviiq"] * 9,
-    },
-    {
-        "Term": "characterLang/{FINO}charName",
-        "Languages": ["missingN▯"] * 9,
-    },
-    {
-        "Term": "characterLang/{FINO}description",
-        "Languages": ["M(▯▯)"] * 9,
-    }
-]
+    for i, lang_string in enumerate(languages):
+        if is_gen:
+            yield i, total_len
 
-full_d = dict()
+        x = lang_string["Term"].split("/")
 
+        if x[0] not in full_d:
+            full_d.update({x[0]: {}})
+            for index, lang in lang_list:
+                full_d[x[0]].update({lang: {}})
 
-for i in prime:
-    x = i["Term"].split("/")
-
-    en = i["Languages"][0]
-    ru = i["Languages"][7]
-    if isinstance(ru, str):
-        ru = ru.replace(" ", " ")
-
-    if x[0] not in full_d:
-        full_d[x[0]] = {
-            "en": {},
-            "ru": {}
-        }
-
-    if "{" in x[1] or "}" in x[1]:
+        is_part_object = "{" in x[1] or "}" in x[1]
         y = x[1].replace("{", "").split("}")
 
-        if len(y) < 2:
-            continue
+        for index, lang in lang_list:
+            string = lang_string["Languages"][index]
 
-        if y[0] not in full_d[x[0]]["en"]:
-            full_d[x[0]]["en"][y[0]] = {}
-            full_d[x[0]]["ru"][y[0]] = {}
+            if isinstance(string, str):
+                string = string.replace(" ", " ")
 
-        full_d[x[0]]["en"][y[0]][y[1]] = en
-        full_d[x[0]]["ru"][y[0]][y[1]] = ru
+            if is_part_object:
+                if len(y) < 2:
+                    continue
 
+                if y[0] not in full_d[x[0]][lang]:
+                    full_d[x[0]][lang].update({y[0]: {}})
+
+                full_d[x[0]][lang][y[0]].update({y[1]: string})
+
+            else:
+                full_d[x[0]][lang].update({x[1]: string})
+
+    for k in full_d.keys():
+        if not os.path.exists(folder_to_save):
+            os.makedirs(folder_to_save)
+
+        with open(f'{folder_to_save}/{k}.json', 'w', encoding="UTF-8") as part_file:
+            part_file.write(json.dumps(full_d[k], ensure_ascii=False, indent=2))
+
+
+def split_to_files(languages: dict, lang_list: list, total_lang_count: int,
+                   is_add_more=True, is_gen=False):
+    gen = __generator_split_to_files(languages, lang_list, total_lang_count, is_add_more, is_gen)
+
+    if not is_gen:
+        try:
+            next(gen)
+        except StopIteration:
+            pass
     else:
-        full_d[x[0]]["en"][x[1]] = en
-        full_d[x[0]]["ru"][x[1]] = ru
+        return gen
 
 
-for k in full_d.keys():
-    with open(f'lang/{k}.json', 'w', encoding="UTF-8") as file:
-        file.write(json.dumps(full_d[k], ensure_ascii=False, indent=2))
+if __name__ == "__main__":
+    with open('I2Languages.yaml', 'r', encoding="UTF-8") as file:
+        yaml_file = yaml.safe_load(file)
+
+    a = split_to_files(yaml_file, [(0, "en"), (7, "ru")], len(yaml_file["MonoBehaviour"]["mSource"]["mLanguages"]))

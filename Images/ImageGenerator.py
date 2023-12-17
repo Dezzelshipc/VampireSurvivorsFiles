@@ -40,7 +40,7 @@ class PictureGenerator:
         return files
 
     def __init__(self, assets_type: Type, env: dict):
-        folder_with_data = r"../Data/Auto Generated"
+        folder_with_data = r"../Data/Generated"
         folder_with_lang = r"../Translations/lang"
         assets_files_folder = env["ASSETS_FOLDER"]  # \Assets\Resources\spritesheets
 
