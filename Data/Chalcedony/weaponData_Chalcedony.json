@@ -1,0 +1,1040 @@
+{
+  "C1_REPORT1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_REPORT1",
+      "price": 400,
+      "name": "Reporting Device",
+      "description": "Damages and pushes enemies away.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "Report1.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": [
+        "C1_SHRINK_CREWMA"
+      ],
+      "evoInto": "C1_REPORT2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 2200,
+      "repeatInterval": 100,
+      "power": 0.65,
+      "area": 1.0,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "knockback": 10,
+      "customDescValue": "Knockback factor increased by %0."
+    },
+    {
+      "addNormalWeapon": "C1_SHRINK_CREWMA",
+      "power": 0.5
+    },
+    {
+      "knockback": 5,
+      "customDesc": 10,
+      "interval": -200,
+      "addNormalWeapon" : null
+    },
+    {
+      "power": 1.0
+    },
+    {
+      "knockback": 5,
+      "customDesc": 10,
+      "interval": -200
+    },
+    {
+      "power": 1.0
+    },
+    {
+      "knockback": 5,
+      "customDesc": 10,
+      "interval": -200
+    },
+    {
+      "power": 1.0,
+      "addEvolvedWeapon": "C1_REPORT2"
+    }
+  ],
+  "C1_REPORT2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_REPORT2",
+      "name": "Emergency Meeting",
+      "description": "Evolved Reporting Device. Occasionally destroys all enemies of a given type.",
+      "tips": "Requires Max: Shrunk Crewmate.",
+      "texture": "items",
+      "frameName": "Report2.png",
+      "collectionFrame": "frameB_purple.png",
+
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "C1_REPORT1",
+        "C1_SHRINK_CREWMA"
+      ],
+      "requires": [
+        "C1_SHRINK_CREWMA"
+      ],
+      "requiresMax": [
+        "C1_SHRINK_CREWMA"
+      ],
+      
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1600,
+      "repeatInterval": 100,
+      "power": 4.5,
+      "area": 1,
+      "speed": 1.25,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "knockback": 25
+    }
+  ],
+  "C1_SWIPECARD1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SWIPECARD1",
+      "price": 400,
+      "name": "Card Swipe",
+      "description": "The amount of attacks is affected by Amount and by low Luck.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "SwipeCard1.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": [
+        "C1_SHRINK_ENGINE"
+      ],
+      "evoInto": "C1_SWIPECARD2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 6000,
+      "repeatInterval": 70,
+      "power": 1,
+      "area": 0.5,
+      "speed": 0.8,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.70,
+      "critMul": 1
+    },
+    {
+      "repeatInterval": -10,
+      "area": 0.25,
+      "addNormalWeapon": "C1_SHRINK_ENGINE"
+    },
+    {
+      "repeatInterval": -10,
+      "power": 0.5,
+      "speed": 0.1,
+      "addNormalWeapon" : null
+    },
+    {
+      "repeatInterval": -10,
+      "power": 0.5,
+      "amount": 1
+    },
+    {
+      "repeatInterval": -10,
+      "power": 0.5,
+      "speed": 0.1
+    },
+    {
+      "repeatInterval": -10,
+      "power": 0.5,
+      "amount": 1
+    },
+    {
+      "repeatInterval": -10,
+      "power": 0.5,
+      "speed": 0.1
+    },
+    {
+      "repeatInterval": -10,
+      "area": 0.25,
+      "amount": 1,
+      "addEvolvedWeapon": "C1_SWIPECARD2"
+    }
+  ],
+  "C1_SWIPECARD2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SWIPECARD2",
+      "name": "Wire Fix",
+      "description": "Evolved Swipe Card. Covers a larger area.",
+      "tips": "Requires Max: Shrunk Engineer.",
+      "texture": "items",
+      "frameName": "SwipeCard2.png",
+      "collectionFrame": "frameB_purple.png",
+
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "C1_SWIPECARD1",
+        "C1_SHRINK_ENGINE"
+      ],
+      "requires": [
+        "C1_SHRINK_ENGINE"
+      ],
+      "requiresMax": [
+        "C1_SHRINK_ENGINE"
+      ],
+      
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1000,
+      "repeatInterval": 50,
+      "power": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 4,
+      "hitsWalls": false,
+      "critChance": 0.6,
+      "critMul": 2
+    }
+  ],
+  "C1_MEDICAL1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_MEDICAL1",
+      "price": 200,
+      "name": "Medical Scan",
+      "description": "Restores Health points depending on Amount and Recovery.",
+      "tips": "Best with: Amount, Recovery. Area affects other players.",
+      "texture": "items",
+      "frameName": "Medical1.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": [
+        "C1_SHRINK_GHOSTT"
+      ],
+      "evoInto": "C1_MEDICAL2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 30000,
+      "repeatInterval": 60,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "duration": 1000
+    },
+    {
+      "interval": -2000,
+      "amount": 1,
+      "addNormalWeapon": "C1_SHRINK_GHOSTT"
+    },
+    {
+      "interval": -2000,
+      "addNormalWeapon" : null
+    },
+    {
+      "interval": -2000,
+      "amount": 1
+    },
+    {
+      "interval": -2000
+    },
+    {
+      "interval": -2000,
+      "amount": 1
+    },
+    {
+      "interval": -2000
+    },
+    {
+      "interval": -3000,
+      "addEvolvedWeapon": "C1_MEDICAL2"
+    }
+  ],
+  "C1_MEDICAL2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_MEDICAL2",
+      "name": "Paranormal Scan",
+      "description": "Evolved Medical Scan. Grants a random stat boost for the rest of the run.",
+      "tips": "Requires Max: Shrunk Ghost.",
+      "texture": "items",
+      "frameName": "Medical2.png",
+      "collectionFrame": "frameB_purple.png",
+      
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "C1_MEDICAL1",
+        "C1_SHRINK_GHOSTT"
+      ],
+      "requires": [
+        "C1_SHRINK_GHOSTT"
+      ],
+      "requiresMax": [
+        "C1_SHRINK_GHOSTT"
+      ],
+      
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 15000,
+      "repeatInterval": 60,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 4,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2
+    }
+  ],
+  "C1_VENT1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_VENT1",
+      "price": 400,
+      "name": "Just Vent",
+      "description": "Destroys or heavily damages enemies. Amount affects how many times it can be used.",
+      "tips": "Best with: Amount. Can teleport other players.",
+      "texture": "items",
+      "frameName": "Vent1.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": [
+        "C1_SHRINK_SHAPES"
+      ],
+      "evoInto": "C1_VENT2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 5000,
+      "repeatInterval": 240,
+      "power": 20,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 10000,
+      "hitsWalls": false,
+      "knockback": 0,
+      "critChance": 0.2,
+      "critMul": 2,
+      "customDescValue": "Vent uses increased by %0."
+    },
+    {
+      "amount": 1,
+      "customDesc": 1,
+      "addNormalWeapon": "C1_SHRINK_SHAPES"
+    },
+    {
+      "addNormalWeapon" : null,
+      "area": 0.5
+    },
+    {
+      "amount": 2,
+      "customDesc": 2
+    },
+    {
+      "interval" : -1000
+    },
+    {
+      "amount": 2,
+      "customDesc": 2
+    },
+    {
+      "area": 0.5
+    },
+    {
+      "amount": 2,
+      "customDesc": 2,
+      "addEvolvedWeapon": "C1_VENT2"
+    }
+  ],
+  "C1_VENT2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_VENT2",
+      "name": "Ejection",
+      "description": "Evolved Just Vent. Draws in all enemies.",
+      "tips": "Requires Max: Shrunk Shapeshifter.",
+      "texture": "items",
+      "frameName": "Vent2.png",
+      "collectionFrame": "frameB_purple.png",
+
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "C1_VENT1",
+        "C1_SHRINK_SHAPES"
+      ],
+      "requires": [
+        "C1_SHRINK_SHAPES"
+      ],
+      "requiresMax": [
+        "C1_SHRINK_SHAPES"
+      ],
+      
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 10000,
+      "duration": 2500,
+      "repeatInterval": 60,
+      "power": 10,
+      "area": 0.65,
+      "speed": 1,
+      "amount": 2,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2
+    }
+  ],
+  "C1_GARBA1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_GARBA1",
+      "price": 400,
+      "name": "Clear Debris",
+      "description": "Generates a damaging zone. Pushes enemies downwards.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "Garbage1.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": [
+        "C1_SHRINK_GUARDI"
+      ],
+      "evoInto": "C1_GARBA2",
+      "isUnlocked": false,
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 8000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 0.65,
+      "speed": 0.75,
+      "amount": 10,
+      "duration": 1500,
+      "hitBoxDelay": 500,
+      "knockback": 0.1,
+      "hitsWalls": false,
+      "penetrating" : 1
+    },
+    {
+      "penetrating" : 2,
+      "duration": 500,
+      "addNormalWeapon": "C1_SHRINK_GUARDI"
+    },
+    {
+      "power": 0.2,
+      "speed": 0.3,
+      "addNormalWeapon" : null
+    },
+    {
+      "penetrating" : 2,
+      "duration": 500
+    },
+    {
+      "power": 0.2,
+      "speed": 0.3
+    },
+    {
+      "penetrating" : 2,
+      "duration": 500
+    },
+    {
+      "power": 0.2,
+      "amount": 5,
+      "repeatInterval": -40
+    },
+    {
+      "penetrating" : 2,
+      "amount": 5,
+      "repeatInterval": -40,
+      "addEvolvedWeapon" : "C1_GARBA2"
+    }
+  ],
+  "C1_GARBA2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_GARBA2",
+      "name": "Clear Asteroids",
+      "description": "Evolved Clear Debris. Amount affects the number of hit boxes per explosion.",
+      "tips": "Requires Max: Shrunk Guardian.",
+      "texture": "items",
+      "frameName": "Garbage2.png",
+      "collectionFrame": "frameB_purple.png",
+      
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "C1_GARBA1",
+        "C1_SHRINK_GUARDI"
+      ],
+      "requires": [
+        "C1_SHRINK_GUARDI"
+      ],
+      "requiresMax": [
+        "C1_SHRINK_GUARDI"
+      ],
+      
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 5.0,
+      "area": 1,
+      "speed": 1,
+      "amount": 5,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2
+    }
+  ],
+  "C1_TONGUE1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_TONGUE1",
+      "price": 400,
+      "name": "Killer Tongue",
+      "description": "Licks enemies in front of you. Damage multiplied by Recovery.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "Tongue1.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": [
+        "C1_SHRINK_IMPOST"
+      ],
+      "evoInto": "C1_TONGUE2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 2000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2
+    },
+    {
+      "amount": 1,
+      "area" : 0.2,
+      "addNormalWeapon": "C1_SHRINK_IMPOST"
+    },
+    {
+      "power": 1,
+      "addNormalWeapon" : null
+    },
+    {
+      "amount": 1,
+      "area" : 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1,
+      "area" : 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "area" : 0.2,
+      "addEvolvedWeapon": "C1_TONGUE2"
+    }
+  ],
+  "C1_TONGUE2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_TONGUE2",
+      "name": "Assassination",
+      "description": "Evolved Killer Tongue. Destroys the highest health enemy on screen (and anything along the way).",
+      "tips": "Requires Max: Shrunk Impostor.",
+      "texture": "items",
+      "frameName": "Tongue2.png",
+      "collectionFrame": "frameB_purple.png",
+
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "C1_TONGUE1",
+        "C1_SHRINK_IMPOST"
+      ],
+      "requires": [
+        "C1_SHRINK_IMPOST"
+      ],
+      "requiresMax": [
+        "C1_SHRINK_IMPOST"
+      ],
+      
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1900,
+      "repeatInterval": 100,
+      "power": 4.5,
+      "area": 1.8,
+      "speed": 1.2,
+      "amount": 4,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 4
+    }
+  ],
+  "C1_SAMPLES1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SAMPLES1",
+      "price": 400,
+      "name": "Propellant Sampling",
+      "description": "Generates zones that explode when touched by a player. Amount affects the number of hit boxes per explosion.",
+      "tips": "Ignores: Speed.",
+      "texture": "items",
+      "frameName": "Samples1.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": [
+        "C1_SHRINK_SCIENT"
+      ],
+      "evoInto": "C1_SAMPLES2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 12000,
+      "duration": 10000,
+      "repeatInterval": 60,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "knockback" : 0.2
+    },
+    {
+      "amount": 1,
+      "addNormalWeapon" : "C1_SHRINK_SCIENT",
+      "area": 0.3
+    },
+    {
+      "amount": 1,
+      "addNormalWeapon" : null
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1,
+      "power": 0.5,
+      "addEvolvedWeapon" : "C1_SAMPLES2"
+    }
+  ],
+  "C1_SAMPLES2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SAMPLES2",
+      "name": "Rocket Science",
+      "description": "Evolved Propellant Sampling. Triggers a finisher when the right conditions are met.",
+      "tips": "Requires Max: Shrunk Scientist.",
+      "texture": "items",
+      "frameName": "Samples2.png",
+      "collectionFrame": "frameB_purple.png",
+      
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "C1_SAMPLES1",
+        "C1_SHRINK_SCIENT"
+      ],
+      "requires": [
+        "C1_SHRINK_SCIENT"
+      ],
+      "requiresMax": [
+        "C1_SHRINK_SCIENT"
+      ],
+      
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 12000,
+      "duration": 10000,
+      "repeatInterval": 90,
+      "power": 2,
+      "area": 2,
+      "speed": 1,
+      "amount": 10,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "knockback" : 0.2
+    }
+  ],
+  "C1_HATCOLLECTION1": [
+    {
+      "level": 1,
+      "price": 1,
+      "sealable": true,
+      "bulletType": "C1_HATCOLLECTION1",
+      "name": "Hats",
+      "description": "Throws cute bouncing projectiles with random properties.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "HatCollection.png",
+      "collectionFrame": "frameB_purple.png",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 2000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 1000,
+      "hitsWalls": true,
+      "critChance": 0.2,
+      "critMul": 2,
+      "intervalDependsOnDuration": false
+    },
+    {
+      "duration": 400,
+      "area": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.5
+    },
+    {
+      "duration": 400,
+      "area": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.5
+    },
+    {
+      "duration": 400,
+      "area": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.5
+    },
+    {
+      "speed": 0.5,
+      "addNormalWeapon" : "C1_SHRINK_HORSEE"
+    }
+  ],
+  
+  "C1_TONGUE1_COUNTER": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_TONGUE1_COUNTER",
+      "name": "Silver Tongue",
+      "description": "Licks enemies behind you. Damage multiplied by Recovery.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "TongueCounter.png",
+      "collectionFrame": "frameB_purple.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 2000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2
+    },
+    {
+      "amount": 1,
+      "area" : 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1,
+      "area" : 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1,
+      "area" : 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "area" : 0.2
+    }
+  ],
+
+  "C1_SHRINK_CREWMA": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_CREWMA",
+      "name": "Shrunk Crewmate",
+      "description": "Might occasionally shout at nearby enemies.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "C1_SHRINK_CREWMA.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": ["C1_REPORT1"],
+      "evoInto": "C1_REPORT2",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_CREWMA",
+      "customDesc": 0
+    }
+  ],
+  "C1_SHRINK_ENGINE": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_ENGINE",
+      "name": "Shrunk Engineer",
+      "description": "Might occasionally electrocute enemies.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "C1_SHRINK_ENGINE.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": ["C1_SWIPECARD1"],
+      "evoInto": "C1_SWIPECARD2",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_ENGINE",
+      "customDesc": 0
+    }
+  ],
+  "C1_SHRINK_GHOSTT": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_GHOSTT",
+      "name": "Shrunk Ghost",
+      "description": "Might occasionally freeze enemies in fear.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "C1_SHRINK_GHOSTT.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": ["C1_MEDICAL1"],
+      "evoInto": "C1_MEDICAL2",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_GHOSTT",
+      "customDesc": 0
+    }
+  ],
+  "C1_SHRINK_SHAPES": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_SHAPES",
+      "name": "Shrunk Shapeshifter",
+      "description": "Might occasionally fling leftover body parts at enemies.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "C1_SHRINK_SHAPES.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": ["C1_VENT1"],
+      "evoInto": "C1_VENT2",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_SHAPES",
+      "customDesc": 0
+    }
+  ],
+  "C1_SHRINK_GUARDI": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_GUARDI",
+      "name": "Shrunk Guardian",
+      "description": "Might occasionally prevent incoming damage.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "C1_SHRINK_GUARDI.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": ["C1_GARBA1"],
+      "evoInto": "C1_GARBA2",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_GUARDI",
+      "customDesc": 0
+    }
+  ],
+  "C1_SHRINK_IMPOST": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_IMPOST",
+      "name": "Shrunk Impostor",
+      "description": "Might occasionally stab enemies.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "C1_SHRINK_IMPOST.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": ["C1_TONGUE1"],
+      "evoInto": "C1_TONGUE2",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_IMPOST",
+      "customDesc": 0
+    }
+  ],
+  "C1_SHRINK_SCIENT": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_SCIENT",
+      "name": "Shrunk Scientist",
+      "description": "Might occasionally throw science at enemies.",
+      "tips": "",
+      "texture": "chalcedony",
+      "frameName": "C1_SHRINK_SCIENT.png",
+      "collectionFrame": "frameB_purple.png",
+      "evoSynergy": ["C1_SAMPLES1"],
+      "evoInto": "C1_SAMPLES2",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_SCIENT",
+      "customDesc": 0
+    }
+  ],
+  "C1_SHRINK_HORSEE": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "C1_SHRINK_HORSEE",
+      "name": "Shrunk Horse",
+      "description": "Might occasionally infect you with its relentless happiness.",
+      "tips": "",
+      "texture": "items",
+      "frameName": "C1_SHRINK_HORSEE.png",
+      "collectionFrame": "frameB_purple.png",
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 200,
+      "customDescValue": "Offers better moral support."
+    },
+    {
+      "customDesc": 0
+    },
+    {
+      "excludeWeapon": "C1_SHRINK_HORSEE",
+      "customDesc": 0
+    }
+  ]
+}

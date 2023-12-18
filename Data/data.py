@@ -13,7 +13,7 @@ def __generator_concatenate():
     vs = [f.path for f in os.scandir(path + "/Vampire Survivors")]
     ms = [f.path for f in os.scandir(path + "/Moonspell")]
     tf = [f.path for f in os.scandir(path + "/Foscari")]
-    em = [f.path for f in os.scandir(path + "/Meeting")]
+    ch = [f.path for f in os.scandir(path + "/Chalcedony")]
 
     total_len = len(names)
 
@@ -21,7 +21,7 @@ def __generator_concatenate():
         vspath = ([i for i in vs if name in i.lower()] + [""])[0]
         mspath = ([i for i in ms if name in i.lower()] + [""])[0]
         tfpath = ([i for i in tf if name in i.lower()] + [""])[0]
-        empath = ([i for i in em if name in i.lower()] + [""])[0]
+        chpath = ([i for i in ch if name in i.lower()] + [""])[0]
 
         with open(vspath, "r", encoding="UTF-8") as vsfile:
             outdata = json.loads(vsfile.read())
@@ -37,10 +37,10 @@ def __generator_concatenate():
                 outdata.update(json.loads(tffile.read()))
             tf.remove(tfpath)
 
-        if empath:
-            with open(tfpath, "r", encoding="UTF-8") as emfile:
-                outdata.update(json.loads(emfile.read()))
-            em.remove(empath)
+        if chpath:
+            with open(chpath, "r", encoding="UTF-8") as chfile:
+                outdata.update(json.loads(chfile.read()))
+            ch.remove(chpath)
 
         with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
             outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))

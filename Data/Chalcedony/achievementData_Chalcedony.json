@@ -1,0 +1,85 @@
+{
+  "CHAL01_FindCoffin": {
+    "description": "Find and open the coffin in Polus.",
+    "characterToUnlock": "C1_CREWMATE"
+  },
+  "CHAL02_Survive15Red": {
+    "description": "Survive 15 minutes with Crewmate Dino.",
+    "weaponToUnlock": "C1_REPORT1"
+  },
+  "CHAL03_EvolveReport": {
+    "description": "Evolve the Reporting Device.",
+    "characterToUnlock": "C1_IMPOSTOR"
+  },
+  "CHAL04_Survive15Purple": {
+    "description": "Survive 15 minutes with Impostor Rina.",
+    "weaponToUnlock": "C1_TONGUE1"
+  },
+  "CHAL05_EvolveTongue": {
+    "description": "Evolve the Killer Tongue.",
+    "characterToUnlock": "C1_ENGINEER"
+  },
+  "CHAL06_Survive15Orange": {
+    "description": "Survive 15 minutes with Engineer Gino.",
+    "weaponToUnlock": "C1_SWIPECARD1"
+  },
+  "CHAL07_EvolveSwipe": {
+    "description": "Evolve the Swipe Card.",
+    "characterToUnlock": "C1_SCIENTIST"
+  },
+  "CHAL08_ReachLv50Pink": {
+    "description": "Survive 15 minutes with Scientist Mina.",
+    "weaponToUnlock": "C1_SAMPLES1"
+  },
+  "CHAL09_EvolveSamples": {
+    "description": "Evolve the Propellant Sampling.",
+    "characterToUnlock": "C1_SHAPESHIFTER"
+  },
+  "CHAL10_Survive15Green": {
+    "description": "Survive 15 minutes with Shapeshifter Nino.",
+    "weaponToUnlock": "C1_VENT1"
+  },
+  "CHAL11_EvolveVent": {
+    "description": "Evolve the Just Vent.",
+    "goldPrize": 50000,
+    "weaponIcon": "C1_VENT2"
+  },
+  "CHAL12_GetMedicalToLevel7": {
+    "description": "Find and get a Medical Scan to level 7.",
+    "weaponToUnlock": "C1_MEDICAL1"
+  },
+  "CHAL13_EvolveMedical": {
+    "description": "Evolve the Medical Scan.",
+    "characterToUnlock": "C1_GHOST"
+  },
+  "CHAL14_KillOneWithYellow": {
+    "description": "Defeat 1 enemy with Ghost Lino.",
+    "characterToUnlock": "C1_GUARDIAN"
+  },
+  "CHAL15_ReachLv50Blue": {
+    "description": "Survive 15 minutes with Guardian Pina.",
+    "weaponToUnlock": "C1_GARBA1"
+  },
+  "CHAL16_EvolveGarbage": {
+    "description": "Evolve the Clear Debris.",
+    "goldPrize": 50000,
+    "weaponIcon": "C1_GARBA2"
+  },
+  "CHAL17_Defeat6000Cute": {
+    "description": "Defeat 6000 Moon Rabbits.",
+    "weaponToUnlock": "C1_HATCOLLECTION1",
+    "characterToUnlock": "C1_HORSE"
+  },
+  "CHAL18_Defeat100kPurple": {
+    "description": "Defeat 100000 enemies in a single run with Impostor Rina.",
+    "characterToUnlock": "C1_MEGAIMPOSTOR"
+  },
+  "CHAL19_DefeatBoss25": {
+    "description": "Defeat the Impostor Eyes in Polus Replica.",
+    "hyperToUnlock": "POLUS"
+  },
+  "CHAL20_FindMap": {
+    "description": "Find the Polus Replica Map.",
+    "relicToUnlock": "RELIC_MAP_CHAL"
+  }
+}

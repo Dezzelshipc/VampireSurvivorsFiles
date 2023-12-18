@@ -289,4 +289,7 @@ if __name__ == "__main__":
     env_f = read_env(r".env")  # ASSETS_FOLDER
     gen = PictureGenerator(Type.STAGE_SET, env_f)
     # gen.generate()
-    gen.generate_by_meta("randomazzo")
+    # gen.generate_by_meta("randomazzo")
+
+print()
+raise DeprecationWarning(f"{__file__}: This generator is deprecated! Use Unpacker")

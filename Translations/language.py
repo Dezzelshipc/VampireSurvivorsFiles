@@ -3,8 +3,8 @@ import json
 import os
 
 
-def __generator_split_to_files(languages: dict, lang_list: list, total_lang_count: int,
-                               is_add_more=True, is_gen=False):
+def generator_split_to_files(languages: dict, lang_list: list, total_lang_count: int,
+                             is_add_more=True):
     folder_to_save = os.path.normpath(os.path.split(__file__)[0] + '/Generated/Split')
 
     languages = languages["MonoBehaviour"]["mSource"]["mTerms"]
@@ -34,8 +34,7 @@ def __generator_split_to_files(languages: dict, lang_list: list, total_lang_coun
     total_len = len(languages)
 
     for i, lang_string in enumerate(languages):
-        if is_gen:
-            yield i, total_len
+        yield i, total_len
 
         x = lang_string["Term"].split("/")
 
@@ -75,15 +74,27 @@ def __generator_split_to_files(languages: dict, lang_list: list, total_lang_coun
 
 def split_to_files(languages: dict, lang_list: list, total_lang_count: int,
                    is_add_more=True, is_gen=False):
-    gen = __generator_split_to_files(languages, lang_list, total_lang_count, is_add_more, is_gen)
+    gen = generator_split_to_files(languages, lang_list, total_lang_count, is_add_more)
 
-    if not is_gen:
-        try:
-            next(gen)
-        except StopIteration:
-            pass
-    else:
+    if is_gen:
         return gen
+    else:
+        for _ in gen:
+            pass
+
+
+def get_lang_path(file_name):
+    if not file_name:
+        return None
+    p_dir = __file__.split(os.sep)
+    return "\\".join(p_dir[:-2] + ['Translations', 'Generated', 'Split', file_name])
+
+
+def get_lang_file(path):
+    if not path:
+        return None
+    with open(path, 'r', encoding="UTF-8") as f:
+        return json.loads(f.read())
 
 
 if __name__ == "__main__":

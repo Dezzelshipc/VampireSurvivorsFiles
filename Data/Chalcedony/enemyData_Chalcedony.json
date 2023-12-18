@@ -1,0 +1,1685 @@
+{
+  "CHAL_SUS_COUNTER": [
+    {
+      "enemyType": "CHAL_SUS_COUNTER",
+      "level": 6,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susSnow_0.png"
+      ],
+      "bVariants": [
+        "CHAL_BINNN_SUS",
+        "CHAL_BRICK_SUS",
+        "CHAL_NUGGE_SUS",
+        "CHAL_SNOWW",
+        "CHAL_LAVAA",
+        "CHAL_GHOST_EXP",
+        "CHAL_GHOST"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_FRIGGI": [
+    {
+      "enemyType": "CHAL_FRIGGI",
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "friggitello_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BRIA": [
+    {
+      "enemyType": "CHAL_BRIA",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "brian_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BATS": [
+    {
+      "enemyType": "CHAL_BATS",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatA_0",
+        "spaceBatB_0",
+        "spaceBatC_0",
+        "spaceBatD_0"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "CHAL_BATSSWARM"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_OTTERR": [
+    {
+      "enemyType": "CHAL_OTTERR",
+      "level": 4,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 10,
+      "xp": 1,
+      "knockback": 3,
+      "maxKnockback": 3,
+      "deathKB": 4,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 14,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "otter_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BRIASWARM": [
+    {
+      "enemyType": "CHAL_BRIASWARM",
+      "level": 5,
+      "maxHp": 0.1,
+      "speed": 700,
+      "power": 1,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "brian_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BATSSWARM": [
+    {
+      "enemyType": "CHAL_BATSSWARM",
+      "level": 5,
+      "maxHp": 0.1,
+      "speed": 700,
+      "power": 1,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatA_0",
+        "spaceBatB_0",
+        "spaceBatC_0",
+        "spaceBatD_0",
+        "BatRe_0",
+        "BatRe_0",
+        "BatRe_0",
+        "BatRe_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_SHIFT": [
+    {
+      "enemyType": "CHAL_SHIFT",
+      "level": 6,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susShift_0.png",
+        "susShift2_0.png",
+        "susShift3_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_LAVAA": [
+    {
+      "enemyType": "CHAL_LAVAA",
+      "level": 6,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susLava_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": true,
+      "bVariants": [
+        "CHAL_SNOWW",
+        "CHAL_SNOWW_SUS"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_SNOWW": [
+    {
+      "enemyType": "CHAL_SNOWW",
+      "level": 6,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "weak_Fire": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susSnow_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_SNOWW_SUS": [
+    {
+      "enemyType": "CHAL_SNOWW_SUS",
+      "level": 6,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susSnow_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_GHOST_EXP": [
+    {
+      "enemyType": "CHAL_GHOST_EXP",
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 330,
+      "power": 3,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "skills": [
+        0,
+        2
+      ],
+      "passThroughWalls": true,
+      "moreX": 50,
+      "moreY": 60,
+      "alpha": 0.5,
+      "idleFrameCount": 4,
+      "end": 13,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susGhostR_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_GHOST": [
+    {
+      "enemyType": "CHAL_GHOST",
+      "level": 7,
+      "maxHp": 1,
+      "speed": 200,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "passThroughWalls": false,
+      "alpha": 0.5,
+      "idleFrameCount": 4,
+      "end": 13,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susGhost_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": true,
+      "bVariants": [
+        "CHAL_GHOST_EXP"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_MOLO2": [
+    {
+      "enemyType": "CHAL_MOLO2",
+      "level": 8,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moloG_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "CHAL_MOLO1"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "SPACE_ANTBRAIN": [
+    {
+      "enemyType": "SPACE_ANTBRAIN",
+      "level": 8,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_MEATT": [
+    {
+      "enemyType": "CHAL_MEATT",
+      "level": 8,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 14,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susMeat_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_GHOSTSWARM": [
+    {
+      "enemyType": "CHAL_GHOSTSWARM",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 700,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "alpha": 0.5,
+      "idleFrameCount": 4,
+      "end": 13,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susGhost_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "SPACE_RABBITSWARM": [
+    {
+      "enemyType": "SPACE_RABBITSWARM",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 700,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonrabbit_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "ADV_MINI_SPACE_RABBIT",
+        "ADV_SPACE_RABBIT"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "SPACE_DUCKSWARM": [
+    {
+      "enemyType": "SPACE_DUCKSWARM",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 350,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonduck_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "ADV_SPACE_DUCK",
+        "ADV_BIG_SPACE_DUCK"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "SPACE_DUCKSWARM_H": [
+    {
+      "enemyType": "SPACE_DUCKSWARM_H",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 250,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonduck_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_MARTIA": [
+    {
+      "enemyType": "CHAL_MARTIA",
+      "level": 10,
+      "maxHp": 50,
+      "speed": 80,
+      "power": 20,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 14,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "martianFace_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "SPACE_PICKLE": [
+    {
+      "enemyType": "SPACE_PICKLE",
+      "level": 11,
+      "maxHp": 1.5,
+      "speed": 120,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "pickle_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "SPACE_PICKLE_AGGRO": [
+    {
+      "enemyType": "SPACE_PICKLE_AGGRO",
+      "level": 11,
+      "maxHp": 2,
+      "speed": 160,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "pickle_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_PICKLE_CIRCLE": [
+    {
+      "enemyType": "CHAL_PICKLE_CIRCLE",
+      "level": 11,
+      "maxHp": 3,
+      "speed": 100,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "pickle_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BRICK_SUS": [
+    {
+      "enemyType": "CHAL_BRICK_SUS",
+      "level": 11,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susBrick_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_NUGGE_SUS": [
+    {
+      "enemyType": "CHAL_NUGGE_SUS",
+      "level": 11,
+      "maxHp": 1,
+      "speed": 120,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susNugget_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BINNN_SUS": [
+    {
+      "enemyType": "CHAL_BINNN_SUS",
+      "level": 11,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susBin_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": true,
+      "bVariants": [
+        "CHAL_BRICK_SUS",
+        "CHAL_NUGGE_SUS"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BRICK_AGGRO": [
+    {
+      "enemyType": "CHAL_BRICK_AGGRO",
+      "level": 11,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susBrick_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_NUGGE_AGGRO": [
+    {
+      "enemyType": "CHAL_NUGGE_AGGRO",
+      "level": 11,
+      "maxHp": 1,
+      "speed": 120,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susNugget_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_BINNN_AGGRO": [
+    {
+      "enemyType": "CHAL_BINNN_AGGRO",
+      "level": 11,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susBin_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_MOLO1": [
+    {
+      "enemyType": "CHAL_MOLO1",
+      "level": 12,
+      "maxHp": 7,
+      "speed": 100,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moloP_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "SPACE_ANT": [
+    {
+      "enemyType": "SPACE_ANT",
+      "level": 12,
+      "maxHp": 7,
+      "speed": 100,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "SPACE_ANTBRAIN"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_CREATU": [
+    {
+      "enemyType": "CHAL_CREATU",
+      "level": 13,
+      "maxHp": 27,
+      "speed": 140,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 14,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "theCreature_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_ROBOTT2": [
+    {
+      "enemyType": "CHAL_ROBOTT2",
+      "level": 14,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "xp": 30,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "robot_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_CHAL_MARTIA": [
+    {
+      "enemyType": "BOSS_CHAL_MARTIA",
+      "level": 15,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 20,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 5,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "idleFrameCount": 5,
+      "end": 14,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "martianFace_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_IMPOSTOR_PATROL": [
+    {
+      "enemyType": "BOSS_IMPOSTOR_PATROL",
+      "level": 15,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 20,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 5,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "scale": 1.3,
+      "patrolDuration": 2000,
+      "idleFrameCount": 4,
+      "end": 9,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "eneImpostor2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_MONKEY": [
+    {
+      "enemyType": "CHAL_MONKEY",
+      "level": 16,
+      "maxHp": 18,
+      "speed": 130,
+      "power": 14,
+      "xp": 2,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 7,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 14,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "smonkey_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_CHAL_CREATU": [
+    {
+      "enemyType": "BOSS_CHAL_CREATU",
+      "level": 17,
+      "maxHp": 20,
+      "speed": 130,
+      "power": 20,
+      "xp": 30,
+      "knockback": 0.1,
+      "maxKnockback": 1,
+      "deathKB": 7,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 14,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "theCreature_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_NDROID": [
+    {
+      "enemyType": "CHAL_NDROID",
+      "level": 18,
+      "maxHp": 50,
+      "speed": 80,
+      "power": 20,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "roid_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_IMPOSTOR_SMALL": [
+    {
+      "enemyType": "CHAL_IMPOSTOR_SMALL",
+      "level": 18,
+      "maxHp": 50,
+      "speed": 100,
+      "power": 20,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 9,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "eneImpostor2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_CHAL_NDROID": [
+    {
+      "enemyType": "BOSS_CHAL_NDROID",
+      "level": 19,
+      "maxHp": 25,
+      "speed": 80,
+      "power": 20,
+      "xp": 25,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 5,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": 5,
+        "offsetX": 0
+      },
+      "idleFrameCount": 6,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "roid_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_TRIPOD": [
+    {
+      "enemyType": "CHAL_TRIPOD",
+      "level": 20,
+      "maxHp": 50,
+      "speed": 80,
+      "power": 20,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "tripod_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_CHAL_TRIPOD": [
+    {
+      "enemyType": "BOSS_CHAL_TRIPOD",
+      "level": 21,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 30,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "tripod_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_ROBOTT": [
+    {
+      "enemyType": "CHAL_ROBOTT",
+      "level": 22,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "xp": 30,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "robot_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_ANIMEXXL": [
+    {
+      "enemyType": "CHAL_ANIMEXXL",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 160,
+      "power": 30,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 1.25,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -20,
+        "offsetX": 0
+      },
+      "idleFrameCount": 5,
+      "end": 11,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susAnimeXL_face_0.png"
+      ],
+      "bPlaces": [
+        "POLUS"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_ANIMEXXL_TENTACLE_LEFT": [
+    {
+      "enemyType": "CHAL_ANIMEXXL_TENTACLE_LEFT",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 0,
+      "power": 10,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "colliderOverride": {
+        "radius": 0.2,
+        "offsetY": 20,
+        "offsetX": 80
+      },
+      "idleFrameCount": 5,
+      "end": 11,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susAnimeXL_left_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_ANIMEXXL_TENTACLE_RIGHT": [
+    {
+      "enemyType": "CHAL_ANIMEXXL_TENTACLE_RIGHT",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 0,
+      "power": 10,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "colliderOverride": {
+        "radius": 0.2,
+        "offsetY": 40,
+        "offsetX": 70
+      },
+      "idleFrameCount": 5,
+      "end": 11,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susAnimeXL_left_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_ANIMEXXL_TENTACLE_LEFT2": [
+    {
+      "enemyType": "CHAL_ANIMEXXL_TENTACLE_LEFT2",
+      "level": 21,
+      "maxHp": 100,
+      "speed": 0,
+      "power": 10,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "colliderOverride": {
+        "radius": 0.2,
+        "offsetY": 20,
+        "offsetX": 80
+      },
+      "idleFrameCount": 5,
+      "end": 11,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susAnimeXL_left2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "CHAL_ANIMEXXL_TENTACLE_RIGHT2": [
+    {
+      "enemyType": "CHAL_ANIMEXXL_TENTACLE_RIGHT2",
+      "level": 21,
+      "maxHp": 100,
+      "speed": 0,
+      "power": 10,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "colliderOverride": {
+        "radius": 0.2,
+        "offsetY": 40,
+        "offsetX": 70
+      },
+      "idleFrameCount": 5,
+      "end": 11,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susAnimeXL_left2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_BIG_IMPOSTOR": [
+    {
+      "enemyType": "ADV_BIG_IMPOSTOR",
+      "level": 100,
+      "maxHp": 150,
+      "speed": 150,
+      "power": 20,
+      "xp": 50,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "scale": 2,
+      "tint": 13404228,
+      "idleFrameCount": 4,
+      "end": 9,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "eneImpostor2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_BIG_SHIFT": [
+    {
+      "enemyType": "ADV_BIG_SHIFT",
+      "level": 150,
+      "maxHp": 300,
+      "speed": 150,
+      "power": 20,
+      "xp": 50,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "scale": 2,
+      "tint": 13404228,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susShift_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_CHAL_NUGGE_SUS_GOLEM": [
+    {
+      "enemyType": "ADV_CHAL_NUGGE_SUS_GOLEM",
+      "level": 30,
+      "maxHp": 50,
+      "speed": 200,
+      "power": 30,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "passThroughWalls": true,
+      "scale": 4,
+      "tint": 13404228,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susNugget_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_CHAL_NUGGE_SUS_GOLEM_ARM": [
+    {
+      "enemyType": "ADV_CHAL_NUGGE_SUS_GOLEM_ARM",
+      "level": 30,
+      "maxHp": 0.5,
+      "speed": 0,
+      "power": 12,
+      "xp": 10,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "passThroughWalls": true,
+      "lives": 17,
+      "scale": 4,
+      "tint": 13404228,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "susBin_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_TRIPOD_GUN": [
+    {
+      "enemyType": "ADV_TRIPOD_GUN",
+      "level": 10,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "res_Debuffs": 1,
+      "passThroughWalls": false,
+      "tint": 8504055,
+      "bulletType": "BULLET_2",
+      "fireDelay": 2000,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "tripod_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_NDROID_GUN": [
+    {
+      "enemyType": "ADV_NDROID_GUN",
+      "level": 20,
+      "maxHp": 44,
+      "speed": 100,
+      "power": 14,
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "passThroughWalls": false,
+      "tint": 8504055,
+      "bulletType": "BULLET_2",
+      "fireDelay": 2000,
+      "idleFrameCount": 6,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "roid_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_BIG_TRIPOD": [
+    {
+      "enemyType": "ADV_BIG_TRIPOD",
+      "level": 100,
+      "maxHp": 200,
+      "speed": 80,
+      "power": 30,
+      "xp": 40,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "scale": 2,
+      "tint": 12798281,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "tripod_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_SPACE_DUCK": [
+    {
+      "enemyType": "ADV_SPACE_DUCK",
+      "level": 5,
+      "maxHp": 2,
+      "speed": 100,
+      "power": 5,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "tint": 12798281,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonduck_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_SPACE_RABBIT": [
+    {
+      "enemyType": "ADV_SPACE_RABBIT",
+      "level": 5,
+      "maxHp": 1,
+      "speed": 180,
+      "power": 5,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "tint": 13404228,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonrabbit_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_BIG_SPACE_DUCK": [
+    {
+      "enemyType": "ADV_BIG_SPACE_DUCK",
+      "level": 20,
+      "maxHp": 100,
+      "speed": 80,
+      "power": 20,
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "scale": 2,
+      "tint": 11250089,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonduck_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_MINI_SPACE_RABBIT": [
+    {
+      "enemyType": "ADV_MINI_SPACE_RABBIT",
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 240,
+      "power": 1,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "scale": 0.6,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonrabbit_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_MINI_SPACE_ANT": [
+    {
+      "enemyType": "ADV_MINI_SPACE_ANT",
+      "level": 2,
+      "maxHp": 1,
+      "speed": 160,
+      "power": 1,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "scale": 0.6,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_SPACE_ANTBRAIN_SWORDIAN": [
+    {
+      "enemyType": "ADV_SPACE_ANTBRAIN_SWORDIAN",
+      "level": 7,
+      "maxHp": 70,
+      "speed": 400,
+      "power": 15,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "tint": 13404228,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_IMPOSTOR": [
+    {
+      "enemyType": "ADV_IMPOSTOR",
+      "level": 4,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "scale": 1.3,
+      "idleFrameCount": 4,
+      "end": 9,
+      "textureName": "chalcedony",
+      "frameNames": [
+        "eneImpostor2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ]
+}

@@ -7448,6 +7448,24 @@ MonoBehaviour:
       - 誰是內鬼？
       Flags: 00000000000000000000000000
       Languages_Touch: []
+    - Term: lang/emergency_meeting
+      TermType: 0
+      Languages:
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      - Emergency Meeting
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
     - Term: secretLang/{KissMe}description
       TermType: 0
       Languages:
@@ -51632,7 +51650,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycbyR3MclFruqK65vlhmoVux_5i5UOXO-uCnOb3iQnQeIbZMpjH5_4CvTYEt8ekoj48CG/exec
     Google_SpreadsheetKey: 1Hp08xIsJsBgYvrQlbqSsGID45PcmoVDEkoNtTQRpCAE
     Google_SpreadsheetName: I2Loc Vampire Survivors - Chalcedony 1.9
-    Google_LastUpdatedVersion: 1701433387218
+    Google_LastUpdatedVersion: 1701948994926
     GoogleUpdateFrequency: 1
     GoogleInEditorCheckFrequency: 1
     GoogleUpdateSynchronization: 0

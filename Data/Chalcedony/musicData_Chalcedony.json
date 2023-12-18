@@ -1,0 +1,110 @@
+{ 
+  "BGM_CAL_MainTheme": {
+    "title": "Emergency Meeting",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": "POLUS",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_hyper_polus.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_CAL_HideSeek": {
+    "title": "Hide and Survive",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "C1_IMPOSTOR",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_impostor.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_CAL_NoDucks": {
+    "title": "No Ducks Among Us",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "C1_ENGINEER",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_engineer.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_CAL_NoAliens": {
+    "title": "No Aliens Among Us",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "C1_CREWMATE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_crewmate.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_CAL_NoGhosts": {
+    "title": "No Ghosts Among Us",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "C1_GHOST",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_ghost.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_CAL_NoVamps": {
+    "title": "No Vampires Among Us",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "C1_SCIENTIST",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_scientist.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  }
+}

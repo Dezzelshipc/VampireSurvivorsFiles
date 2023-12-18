@@ -1,0 +1,877 @@
+{
+  "C1_CREWMATE": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "C1_REPORT1",
+      "cooldown": 1,
+      "charName": "Crewmate",
+      "surname": "Dino",
+      "textureName": "chalcedony",
+      "spriteName": "C01Crewmate_01.png",
+      "portraitName": "p_crewmate.png",
+      "bgm": "BGM_CAL_NoAliens",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Crewmate_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Gains stat bonuses every time a weapon is brought to max level.",
+      "price": 100,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "C1_REPORT1",
+        "C1_REPORT1",
+        "C1_REPORT1",
+        "C1_REPORT1",
+        "C1_REPORT1",
+        "C1_REPORT1",
+        "C1_REPORT1",
+        
+        "AMOUNT",
+        "AMOUNT",
+        
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "C1_ENGINEER": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "C1_SWIPECARD1",
+      "cooldown": 1,
+      "charName": "Engineer",
+      "surname": "Gino",
+      "textureName": "chalcedony",
+      "spriteName": "C01Engineer_01.png",
+      "portraitName": "p_engineer.png",
+      "bgm": "BGM_CAL_NoDucks",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Engineer_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Gets to choose a passive weapon at level 2, 12, 22, and 32.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 20,
+      "skips": 20,
+      "banish": 20,
+      "showcase": [
+        "C1_SWIPECARD1",
+        "C1_SWIPECARD1",
+        "C1_SWIPECARD1",
+        "C1_SWIPECARD1",
+        "C1_SWIPECARD1",
+        "C1_SWIPECARD1",
+        "C1_SWIPECARD1",
+
+        "AMOUNT",
+        "AMOUNT",
+
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "C1_GHOST": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "C1_MEDICAL1",
+      "cooldown": 1,
+      "charName": "Ghost",
+      "surname": "Lino",
+      "textureName": "chalcedony",
+      "spriteName": "C01Ghost_01.png",
+      "portraitName": "p_ghost.png",
+      "bgm": "BGM_CAL_NoGhosts",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Ghost_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Cannot be damaged nor deal damage, but disappears after reaching the current Time Limit. Ignores walls.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 256,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 0,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 2,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "C1_MEDICAL1",
+        "C1_MEDICAL1",
+        "C1_MEDICAL1",
+        "C1_MEDICAL1",
+        "C1_MEDICAL1",
+        "C1_MEDICAL1",
+        "C1_MEDICAL1",
+
+        "AMOUNT",
+        "AMOUNT",
+
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "C1_SHAPESHIFTER": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "C1_VENT1",
+      "cooldown": 1,
+      "charName": "Shapeshifter",
+      "surname": "Nino",
+      "textureName": "chalcedony",
+      "spriteName": "C01Shapeshifter_01.png",
+      "portraitName": "p_shapeshifter.png",
+      "bgm": "BGM_CAL_HideSeek",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Shapeshifter_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Copies per-level bonuses of other characters, or can choose a per-level bonus when alone. Can leave behind body parts when getting damaged.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 1,
+      "moveSpeed": 1.1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "C1_VENT1",
+        "C1_VENT1",
+        "C1_VENT1",
+        "C1_VENT1",
+        "C1_VENT1",
+        "C1_VENT1",
+        "C1_VENT1",
+
+        "AMOUNT",
+        "AMOUNT",
+
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "C1_GUARDIAN": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "C1_GARBA1",
+      "cooldown": 1,
+      "charName": "Guardian",
+      "surname": "Pina",
+      "textureName": "chalcedony",
+      "portraitName": "p_guardian.png",
+      "spriteName": "C01Guardian_01.png",
+      "bgm": "BGM_CAL_NoGhosts",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Guardian_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Gains +1 Revival when reviving. Increases Armor and Recovery of nearby characters. Ignores walls.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0.1,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "C1_GARBA1",
+        "C1_GARBA1",
+        "C1_GARBA1",
+        "C1_GARBA1",
+        "C1_GARBA1",
+        "C1_GARBA1",
+        "C1_GARBA1",
+
+        "AMOUNT",
+        "AMOUNT",
+
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER",
+        "AREA", "COOLDOWN", "REGEN", "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "C1_IMPOSTOR": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "C1_TONGUE1",
+      "cooldown": 1,
+      "charName": "Impostor",
+      "surname": "Rina",
+      "textureName": "chalcedony",
+      "spriteName": "C01Impostor_01.png",
+      "portraitName": "p_impostor.png",
+      "bgm": "BGM_CAL_HideSeek",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Impostor_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Becomes stronger and invincible for a fixed interval after defeating a large amount of enemies, or an ally.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 120,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "C1_TONGUE1",
+        "C1_TONGUE1",
+        "C1_TONGUE1",
+        "C1_TONGUE1",
+        "C1_TONGUE1",
+        "C1_TONGUE1",
+        "C1_TONGUE1",
+
+        "AMOUNT",
+        "AMOUNT",
+
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER",
+        "AREA", "COOLDOWN", "SPEED", "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "C1_SCIENTIST": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "C1_SAMPLES1",
+      "cooldown": 1,
+      "charName": "Scientist",
+      "surname": "Mina",
+      "textureName": "chalcedony",
+      "spriteName": "C01Scientist_01.png",
+      "portraitName": "p_scientist.png",
+      "bgm": "BGM_CAL_NoVamps",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Scientist_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Gets -10% Luck every 10 levels (max -90%). Can choose a per-level bonus every 10 levels (max 5 times). ",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "C1_SAMPLES1",
+        "C1_SAMPLES1",
+        "C1_SAMPLES1",
+        "C1_SAMPLES1",
+        "C1_SAMPLES1",
+        "C1_SAMPLES1",
+        "C1_SAMPLES1",
+        "C1_SAMPLES1",
+        "C1_SHRINK_SCIENT", "C1_SHRINK_SCIENT", "C1_SHRINK_SCIENT",
+        
+        "AMOUNT",
+        "AMOUNT",
+
+        "AREA", "COOLDOWN", "DURATION", "POWER",
+        "AREA", "COOLDOWN", "DURATION", "POWER",
+        "AREA", "COOLDOWN", "DURATION", "POWER",
+        "AREA", "COOLDOWN", "DURATION", "POWER",
+        "AREA", "COOLDOWN", "DURATION", "POWER"
+        
+      ],
+      "onEveryLevelUp": {
+      }
+    },
+    {
+      "level": 20,
+      "growth": 1,
+      "luck": -0.1
+    },
+    {
+      "level": 40,
+      "growth": 1,
+      "luck": -0.1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    },
+    {
+      "level": 10,
+      "luck": -0.1
+    },
+    {
+      "level": 30,
+      "luck": -0.1
+    },
+    {
+      "level": 50,
+      "luck": -0.1
+    },
+    {
+      "level": 60,
+      "luck": -0.1
+    },
+    {
+      "level": 70,
+      "luck": -0.1
+    },
+    {
+      "level": 80,
+      "luck": -0.1
+    },
+    {
+      "level": 90,
+      "luck": -0.1
+    }
+  ],
+  "C1_HORSE": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "C1_HATCOLLECTION1",
+      "charName": "Horse",
+      "surname": "",
+      "spriteName": "C01Horse_01.png",
+      "textureName": "chalcedony",
+      "portraitName": "p_horse.png",
+      "walkingFrames": 4,
+      "description": "Gets more projectiles every 20 levels (max+4).",
+      "isBought": false,
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 1,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_pink_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 2,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_purple_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 3,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_blue_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 4,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_green_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 5,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_yellow_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 6,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_orange_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 7,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_red_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        },
+        {
+          "id": 8,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Horse_r_01.png",
+          "walkingFrames": 8,
+          "unlocked": true,
+          "headOffsets": [ { "x": 10, "y": -6} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "C1_HATCOLLECTION1",
+        "C1_HATCOLLECTION1",
+        "C1_HATCOLLECTION1",
+        "C1_HATCOLLECTION1",
+        "C1_HATCOLLECTION1",
+        "C1_HATCOLLECTION1",
+        "C1_HATCOLLECTION1",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT"
+      ]
+    },
+    {
+      "amount": 1,
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 60
+    },
+    {
+      "amount": 1,
+      "level": 80
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+
+  "C1_MEGAIMPOSTOR": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "VOID",
+      "prefix": "Megalo",
+      "charName": "Impostor",
+      "surname": "Rina",
+      "textureName": "chalcedony",
+      "spriteName": "C01Impostor2_01.png",
+      "portraitName": "p_megaimpostor.png",
+      "bgm": "BGM_CAL_MainTheme",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "chalcedony",
+          "spriteName": "C01Impostor2_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Wasn't me.",
+      "price": 1000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 180,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1.8,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "cooldown": 0.9,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [],
+      "hiddenWeapons": [
+        "C1_TONGUE1"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ]
+}

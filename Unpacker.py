@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog as fd
 from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
+from tkinter.simpledialog import askinteger
 
 import yaml
 import json
@@ -10,8 +11,20 @@ from PIL import Image, ImageFont, ImageDraw
 import PIL.Image
 import threading
 
-import Translations.language as split_lang
+import Translations.language as lang_module
 import Data.data as concat_data
+import Images.image_gen as image_gen
+
+
+def read_env(file: os.path) -> dict:
+    d = {}
+    with open(file, 'r', encoding="UTF-8") as f:
+        for line in f.readlines():
+            k, v = line.split("=")
+            k = k.strip()
+            v = v.strip()
+            d.update({k: v})
+    return d
 
 
 class Unpacker(tk.Tk):
@@ -26,6 +39,10 @@ class Unpacker(tk.Tk):
             self.progressbar.start(20)
             self.label = ttk.Label(self, text=label)
             self.label.pack()
+
+        def change_label(self, label):
+            self.label["text"] = label
+            self.label.update()
 
         def close_bar(self):
             self.progressbar.stop()
@@ -70,7 +87,7 @@ class Unpacker(tk.Tk):
             self.parent.data_from_popup = [v.get() for v in self.states]
             self.destroy()
 
-    def __init__(self, width=700, height=300):
+    def __init__(self, width=700, height=300, env=None):
         super().__init__()
         self.width = width
         self.height = height
@@ -150,7 +167,7 @@ class Unpacker(tk.Tk):
         b_data_get = ttk.Button(
             self,
             text="Get data from assets",
-            command=lambda : showinfo("", "TBA")
+            command=lambda: showinfo("", "TBA")
         )
         b_data_get.grid(row=8, column=1)
 
@@ -161,12 +178,21 @@ class Unpacker(tk.Tk):
         )
         b_data_concat.grid(row=8, column=2)
 
+        b_data_to_image = ttk.Button(
+            self,
+            text="Get images with\nunified names by data",
+            command=self.data_to_image
+        )
+        b_data_to_image.grid(row=9, column=1)
+
         self.loaded_meta = {}
         self.data_from_popup = None
 
         self.outer_progress_bar = None
 
         self.assets_dir = '/'
+        if env and env["ASSETS_FOLDER"]:
+            self.set_assets_dir(env["ASSETS_FOLDER"])
 
     @staticmethod
     def info():
@@ -196,6 +222,9 @@ class Unpacker(tk.Tk):
         if not full_path:
             return
 
+        self.set_assets_dir(full_path)
+
+    def set_assets_dir(self, full_path):
         if not full_path.endswith("Assets"):
             showwarning("Warning", "Folder must be named 'Assets'")
             return
@@ -248,6 +277,7 @@ class Unpacker(tk.Tk):
         t.start()
 
     def get_meta_by_full_path(self, p_dir: str, p_file: str) -> (dict, Image.Image):
+        p_file = p_file.replace(".meta", "")
         file = p_file.replace(".png", "")
         full_path = os.path.join(p_dir, p_file)
         if file not in self.loaded_meta:
@@ -397,8 +427,8 @@ class Unpacker(tk.Tk):
 
             is_add_more = askyesno("", "Add additional data to strings?")
 
-            gen = split_lang.split_to_files(yaml_file, using_list, total_lang_count,
-                                            is_add_more=is_add_more, is_gen=True)
+            gen = lang_module.split_to_files(yaml_file, using_list, total_lang_count,
+                                             is_add_more=is_add_more, is_gen=True)
 
             for i, total in gen:
                 self.progress_bar_set(i + 1, total)
@@ -422,7 +452,94 @@ class Unpacker(tk.Tk):
         for i, total in gen:
             self.progress_bar_set(i + 1, total)
 
+    @staticmethod
+    def data_selector():
+        path = "./Data"
+        if not os.path.exists(path):
+            return
+
+        filetypes = [
+            ('JSON', '*.json')
+        ]
+
+        full_path = fd.askopenfilename(
+            title='Open a data file',
+            initialdir=path,
+            filetypes=filetypes
+        )
+
+        if not full_path:
+            return None
+
+        return full_path
+
+    @staticmethod
+    def assets_gen(path):
+        dirs = [path]
+        files = []
+        while len(dirs) > 0:
+            this_dir = dirs.pop(0)
+            files.extend(f for f in os.scandir(this_dir) if f.name.endswith(".meta") and not f.is_dir())
+            dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
+
+        return files
+
+    def data_to_image(self):
+        def thread_load_data():
+            with open(path_data, 'r', encoding="UTF-8") as f:
+                data = json.loads(f.read())
+
+            self.outer_progress_bar.change_label(f"Getting language file")
+            lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
+            if lang:
+                lang = lang.get('en')
+
+            texture_set = gen.textures_set(data)
+            print(texture_set)
+            for texture in texture_set:
+                meta = list(filter(lambda x: x.name.endswith(f"{texture}.png.meta"), all_assets))[0]
+                m_dir, m_file = os.path.split(meta)
+                self.outer_progress_bar.change_label(f"Parsing {m_file}")
+                self.get_meta_by_full_path(m_dir, m_file)
+
+            total = gen.len_data(data)
+            ug = gen.uint_generator(data)
+
+            self.outer_progress_bar.close_bar()
+
+            for i, obj in enumerate(ug):
+                self.progress_bar_set(i + 1, total)
+                gen.make_image(self.get_meta_by_full_path, obj[0], obj[1], is_with_frame=is_with_frame, scale_factor=scale_factor,
+                               lang_file=lang)
+
+            self.last_loaded_folder = os.path.abspath("./Images/Generated")
+
+        if not self.assets_dir.endswith("Assets"):
+            showerror("Error", "Assets directory must be selected.")
+            return
+
+        path_sprites = self.assets_dir + "/Resources/spritesheets"
+        all_assets = self.assets_gen(path_sprites)
+
+        path_data = self.data_selector()
+
+        if not path_data:
+            return
+
+        p_dir, p_file = os.path.split(path_data)
+
+        gen = image_gen.IGFactory.get(p_file)
+
+        scale_factor = askinteger("Input scale", "Input scale factor for images", initialvalue=gen.scaleFactor)
+        is_with_frame = askyesno("Frame", "Generate images also with frames?")
+
+        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
+
+        t = threading.Thread(target=thread_load_data)
+        t.start()
+
 
 if __name__ == '__main__':
-    app = Unpacker()
+    env = read_env(".env")
+    app = Unpacker(env=env)
     app.mainloop()
