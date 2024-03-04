@@ -7,24 +7,15 @@ from tkinter.simpledialog import askinteger
 import yaml
 import json
 import os
-from PIL import Image, ImageFont, ImageDraw
+from PIL import Image
 import PIL.Image
 import threading
+import dotenv
 
 import Translations.language as lang_module
 import Data.data as concat_data
 import Images.image_gen as image_gen
 
-
-def read_env(file: os.path) -> dict:
-    d = {}
-    with open(file, 'r', encoding="UTF-8") as f:
-        for line in f.readlines():
-            k, v = line.split("=")
-            k = k.strip()
-            v = v.strip()
-            d.update({k: v})
-    return d
 
 
 class Unpacker(tk.Tk):
@@ -87,7 +78,7 @@ class Unpacker(tk.Tk):
             self.parent.data_from_popup = [v.get() for v in self.states]
             self.destroy()
 
-    def __init__(self, width=700, height=300, env=None):
+    def __init__(self, width=700, height=300):
         super().__init__()
         self.width = width
         self.height = height
@@ -191,8 +182,10 @@ class Unpacker(tk.Tk):
         self.outer_progress_bar = None
 
         self.assets_dir = '/'
-        if env and env["ASSETS_FOLDER"]:
-            self.set_assets_dir(env["ASSETS_FOLDER"])
+
+        env_path = os.environ.get("ASSETS_FOLDER")
+        if env_path:
+            self.set_assets_dir(env_path)
 
     @staticmethod
     def info():
@@ -245,12 +238,12 @@ class Unpacker(tk.Tk):
         b_assets_folder.grid(row=2, column=2)
 
     def select_and_unpack(self, start_path):
-        def thread_generate_by_meta(p_dir: str, p_file: str):
+        def thread_generate_by_meta(p_dir: str, p_file: str, scale: int = 1):
             meta, im = self.get_meta_by_full_path(p_dir, p_file)
 
             self.outer_progress_bar.close_bar()
 
-            self.generate_by_meta(meta, im, p_file)
+            self.generate_by_meta(meta, im, p_file, scale_factor=scale)
 
         filetypes = [
             ('Images', '*.png')
@@ -271,9 +264,11 @@ class Unpacker(tk.Tk):
             showerror("Error", f"{file}.meta is unable to find in this directory.")
             return
 
+        scale_factor = askinteger("Scale", "Type scale multiplier", initialvalue=1)
+
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}.meta")
 
-        t = threading.Thread(target=thread_generate_by_meta, args=[direct, file])
+        t = threading.Thread(target=thread_generate_by_meta, args=[direct, file, scale_factor])
         t.start()
 
     def get_meta_by_full_path(self, p_dir: str, p_file: str) -> (dict, Image.Image):
@@ -495,21 +490,26 @@ class Unpacker(tk.Tk):
                 lang = lang.get('en')
 
             texture_set = gen.textures_set(data)
-            print(texture_set)
+
             for texture in texture_set:
-                meta = list(filter(lambda x: x.name.endswith(f"{texture}.png.meta"), all_assets))[0]
+                if texture is None:
+                    continue
+
+                meta = list(filter(lambda x: x.name.startswith(f"{texture}") and x.name.endswith(f"{texture}.png.meta"),
+                                   all_assets))[0]
                 m_dir, m_file = os.path.split(meta)
                 self.outer_progress_bar.change_label(f"Parsing {m_file}")
                 self.get_meta_by_full_path(m_dir, m_file)
 
             total = gen.len_data(data)
-            ug = gen.uint_generator(data)
+            ug = gen.unit_generator(data)
 
             self.outer_progress_bar.close_bar()
 
             for i, obj in enumerate(ug):
                 self.progress_bar_set(i + 1, total)
-                gen.make_image(self.get_meta_by_full_path, obj[0], obj[1], is_with_frame=is_with_frame, scale_factor=scale_factor,
+                gen.make_image(self.get_meta_by_full_path, obj[0], obj[1], is_with_frame=is_with_frame,
+                               scale_factor=scale_factor,
                                lang_file=lang)
 
             self.last_loaded_folder = os.path.abspath("./Images/Generated")
@@ -530,6 +530,10 @@ class Unpacker(tk.Tk):
 
         gen = image_gen.IGFactory.get(p_file)
 
+        if gen is None:
+            showerror("Generator error", "Cannot get images from this file.\nGenerator does not exist.")
+            return
+
         scale_factor = askinteger("Input scale", "Input scale factor for images", initialvalue=gen.scaleFactor)
         is_with_frame = askyesno("Frame", "Generate images also with frames?")
 
@@ -540,6 +544,6 @@ class Unpacker(tk.Tk):
 
 
 if __name__ == '__main__':
-    env = read_env(".env")
-    app = Unpacker(env=env)
+    dotenv.load_dotenv()
+    app = Unpacker()
     app.mainloop()

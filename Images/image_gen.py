@@ -13,7 +13,8 @@ class Type(Enum):
     ENEMY = 3
     STAGE = 4
     STAGE_SET = 5
-    PROP = 6
+    ARCANA = 6
+    POWERUP = 7
 
 
 class IGFactory:
@@ -23,6 +24,18 @@ class IGFactory:
             return WeaponImageGenerator()
         elif "character" in data_file:
             return CharacterImageGenerator()
+        elif "item" in data_file:
+            return ItemImageGenerator()
+        elif "stageset" in data_file:
+            return StageSetImageGenerator()
+        elif "stage" in data_file:
+            return StageImageGenerator()
+        elif "enemy" in data_file:
+            return EnemyImageGenerator()
+        elif "arcana" in data_file:
+            return ArcanaImageGenerator()
+        elif "powerup" in data_file:
+            return PowerUpImageGenerator()
         else:
             return None
 
@@ -41,10 +54,12 @@ class ImageGenerator:
 
         self.is_with_frame = False
 
+        self.iconGroup = "Icon"
+
     def textures_set(self, data):
         pass
 
-    def uint_generator(self, data):
+    def unit_generator(self, data):
         pass
 
     @staticmethod
@@ -56,6 +71,10 @@ class ImageGenerator:
         return obj[index]
 
     @staticmethod
+    def change_name(name):
+        return name
+
+    @staticmethod
     def get_frame(frame_name):
         p_dir = os.path.split(__file__)[0]
         full_path = p_dir + f"/Generated/By meta/UI/{frame_name}"
@@ -65,10 +84,11 @@ class ImageGenerator:
 
         return Image.open(full_path)
 
-
-    @staticmethod
-    def save_png(meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1):
-        rect = meta[file_name]
+    def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1):
+        rect = meta.get(file_name) or meta.get(int(file_name))
+        if rect is None:
+            print(f"Skipped {name}")
+            return
 
         sx, sy = im.size
 
@@ -84,12 +104,12 @@ class ImageGenerator:
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
 
+        name = self.change_name(name)
         im_crop_r.save(f"{sf_text}/{prefix_name}{name}.png")
 
         return im_crop
 
-    @staticmethod
-    def save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=1):
+    def save_png_icon(self, im_frame, im_obj, name, save_folder, scale_factor=1):
         p_dir = os.path.split(__file__)[0]
 
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
@@ -108,28 +128,35 @@ class ImageGenerator:
         im_frame_r = im_frame.resize((im_frame.size[0] * scale_factor, im_frame.size[1] * scale_factor),
                                      PIL.Image.NEAREST)
 
-        im_frame_r.save(f"{sf_text}/Icon-{name}.png")
+        name = self.change_name(name)
+        im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
 
-class TableGenerator(ImageGenerator):
-    def uint_generator(self, data: dict):
-        return ((k, self.get_table_unit(v, 0)) for k, v in data.items())
+class SimpleGenerator(ImageGenerator):
+    def unit_generator(self, data: dict):
+        return ((k, self.get_simple_uint(v)) for k, v in data.items())
 
     def textures_set(self, data: dict):
-        return set(self.get_table_unit(v, 0).get(self.dataTextureKey) for v in data.values())
+        return set(self.get_simple_uint(v).get(self.dataTextureKey) for v in data.values())
 
-    def len_data(self, data: dict):
+    @staticmethod
+    def len_data(data: dict):
         return len(data)
 
+    def get_sprite_name(self, obj):
+        return obj.get(self.dataSpriteKey)
+
+    def get_frame_name(self, obj):
+        return obj.get(self.frameKey, self.defaultFrameName)
+
     def make_image(self, func_meta, k_id, obj: dict, scale_factor=1, is_with_frame=False, lang_file=None):
-        name = obj.get(self.dataObjectKey)
-        file_name = obj.get(self.dataSpriteKey).replace(".png", "")
+        name = obj.get(self.dataObjectKey) or k_id
         texture_name = obj.get(self.dataTextureKey)
-        frame_name = obj.get(self.frameKey, self.defaultFrameName)
+        file_name = self.get_sprite_name(obj).replace(".png", "")
+        frame_name = self.get_frame_name(obj)
         save_folder = self.folderToSave if self.folderToSave else texture_name
 
         meta, im = func_meta("", texture_name)
-
 
         save_dlc = ''
         match frame_name:
@@ -141,6 +168,7 @@ class TableGenerator(ImageGenerator):
                 save_dlc = "/chalcedony"
             case "frameB_red.png":
                 save_dlc = "/red_dlc"
+
         save_folder += f"/{save_dlc}"
 
         if lang_file:
@@ -153,8 +181,44 @@ class TableGenerator(ImageGenerator):
 
         if is_with_frame:
             im_frame = self.get_frame(frame_name)
-            if im_frame:
+            if im_frame or self.assets_type in [Type.STAGE, Type.STAGE_SET]:
                 self.save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=scale_factor)
+
+
+class ItemImageGenerator(SimpleGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.ITEM
+        self.frameKey = "collectionFrame"
+        self.scaleFactor = 8
+        self.dataSpriteKey = "frameName"
+        self.dataTextureKey = "texture"
+        self.dataObjectKey = "name"
+        self.langPath = "itemLang.json"
+
+
+class ArcanaImageGenerator(SimpleGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.ARCANA
+        self.frameKey = None
+        self.scaleFactor = 4
+        self.dataSpriteKey = "frameName"
+        self.dataTextureKey = "texture"
+        self.dataObjectKey = "name"
+        self.langPath = "arcanaLang.json"
+
+    @staticmethod
+    def change_name(name):
+        return name[name.find("-")+1:].strip()
+
+
+class TableGenerator(SimpleGenerator):
+    def unit_generator(self, data: dict):
+        return ((k, self.get_table_unit(v, 0)) for k, v in data.items())
+
+    def textures_set(self, data: dict):
+        return set(self.get_table_unit(v, 0).get(self.dataTextureKey) for v in data.values())
 
 
 class WeaponImageGenerator(TableGenerator):
@@ -183,6 +247,109 @@ class CharacterImageGenerator(TableGenerator):
         self.langPath = "characterLang.json"
 
 
+class PowerUpImageGenerator(TableGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.POWERUP
+        self.scaleFactor = 8
+        self.dataSpriteKey = "frameName"
+        self.dataTextureKey = "texture"
+        self.dataObjectKey = "name"
+        self.langPath = "powerUpLang.json"
+
+        self.defaultFrameName = "frameD.png"
+
+        self.folderToSave = "power up"
+        self.iconGroup = "PowerUp"
+
+    def get_frame_name(self, obj):
+        return "frameE.png" if obj.get("specialBG") else super().get_frame_name(obj)
+
+
+class EnemyImageGenerator(TableGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.ENEMY
+        self.frameKey = None
+        self.scaleFactor = 4
+        self.dataSpriteKey = "frameNames"
+        self.dataTextureKey = "textureName"
+        self.dataObjectKey = None
+        self.langPath = "enemiesLang.json"
+
+        self.folderToSave = "enemy"
+
+    def get_sprite_name(self, obj):
+        return super().get_sprite_name(obj)[0]
+
+
+class StageImageGenerator(TableGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.STAGE
+        self.frameKey = None
+        self.scaleFactor = 4
+        self.dataSpriteKey = "uiFrame"
+        self.dataTextureKey = "uiTexture"
+        self.dataObjectKey = "stageName"
+        self.langPath = "stageLang.json"
+
+        self.folderToSave = "stage"
+
+    @staticmethod
+    def save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=1):
+        p_dir = os.path.split(__file__)[0]
+
+        sf_text = f'{p_dir}/Generated/{save_folder}/icon'
+
+        if not os.path.isdir(sf_text):
+            os.makedirs(sf_text)
+
+        im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
+                                   PIL.Image.NEAREST)
+
+        text = name
+        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 55)
+        w = font.getbbox(text)[2]
+        h = font.getbbox(text + "|")[3]
+
+        canvas = Image.new('RGBA', (int(w), int(h)))
+
+        draw = ImageDraw.Draw(canvas)
+        draw.text((3, -5), text, "#eef92b", font, stroke_width=1)
+        canvas.save(f"{sf_text}/Stage-{text}1.png")
+
+        # canvas.show()
+        # im_crop.show()
+        crx, cry = im_frame_r.size
+        crx //= 2
+        cry = int(cry / 5)
+        frx, fry = canvas.size
+        frx //= 2
+        fry //= 2
+        im_frame_r.alpha_composite(canvas, (crx - frx, cry - fry))
+        im_frame_r.save(f"{sf_text}/Stage-{text}.png")
+
+
+class StageSetImageGenerator(StageImageGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.STAGE_SET
+
+        self.folderToSave = "stageset"
+
+    @staticmethod
+    def len_data(data: dict):
+        return sum(len(d) for d in data.values())
+
+    def unit_generator(self, data: dict):
+        return ((k, self.get_table_unit(v, 0)) for set_v in data.values() for k, v in set_v.items())
+
+    def textures_set(self, data: dict):
+        return set(
+            self.get_table_unit(v, 0).get(self.dataTextureKey) for set_v in data.values() for v in set_v.values())
+
+
 if __name__ == "__main__":
     ch = CharacterImageGenerator()
-    print(ch.get_lang_path("characterData_Full.json"))
+    print(ch.get_lang_path("itemLang.json"))

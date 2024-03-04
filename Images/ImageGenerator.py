@@ -41,7 +41,7 @@ class PictureGenerator:
 
     def __init__(self, assets_type: Type, env: dict):
         folder_with_data = r"../Data/Generated"
-        folder_with_lang = r"../Translations/lang"
+        folder_with_lang = r"../Translations/Generated/Split"
         assets_files_folder = env["ASSETS_FOLDER"]  # \Assets\Resources\spritesheets
 
         self.assets_type = assets_type
@@ -237,10 +237,14 @@ class PictureGenerator:
                     text = obj_lang["stageName"]
 
                 font = ImageFont.truetype(r"./Courier.ttf", 55)
-                canvas = Image.new('RGBA', (font.getsize(text)[0], font.getsize(text + "|")[1]))
+                w = font.getbbox(text)[2]
+                h = font.getbbox(text+"|")[3]
+
+                canvas = Image.new('RGBA', (int(w), int(h)))
 
                 draw = ImageDraw.Draw(canvas)
                 draw.text((3, -5), text, "#eef92b", font, stroke_width=1)
+                canvas.save(f"{sf_text_i}/Stage-{text}1.png")
 
                 # canvas.show()
                 # im_crop.show()
@@ -287,8 +291,8 @@ class PictureGenerator:
 
 if __name__ == "__main__":
     env_f = read_env(r".env")  # ASSETS_FOLDER
-    gen = PictureGenerator(Type.STAGE_SET, env_f)
-    # gen.generate()
+    gen = PictureGenerator(Type.ITEM, env_f)
+    gen.generate()
     # gen.generate_by_meta("randomazzo")
 
 print()

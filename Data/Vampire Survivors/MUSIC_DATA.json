@@ -328,6 +328,23 @@
       "detune": -1000
     }
   },
+  "BGM_SpaceDude": {
+    "title": "Moving the sun and the other stars",
+    "author": "Daniele Zandara",
+    "source": "Space54",
+    "unlockedByStage": "SPAZIE",
+    "unlockedByCharacter": null,
+    "isUnlocked": false,
+    "icon": "stage_spazie_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
   "BGM_BatCountry": {
     "title": "Mighty Illusion",
     "author": "Filippo Vicarelli",

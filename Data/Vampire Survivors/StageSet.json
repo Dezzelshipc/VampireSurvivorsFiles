@@ -11582,7 +11582,7 @@
         "frameNameUnlock": "stage_moonspell_hyper_icon",
         "bestiaryBG": "background_moonspell",
         "mods": {
-          "TimeLimit": 1800,
+          "TimeLimit": 600,
           "ClockSpeed": 1,
           "PlayerPxSpeed": 1.4,
           "EnemySpeed": 1.4,
@@ -11594,7 +11594,7 @@
         },
         "hyper": {
           "unlocked": true,
-          "TimeLimit": 1800,
+          "TimeLimit": 600,
           "ClockSpeed": 1,
           "PlayerPxSpeed": 0.6,
           "EnemySpeed": 0.6,
@@ -14110,7 +14110,10 @@
           "hasWallsCheckDestructibleLogic": true,
           "tint": 14737632,
           "SizeX": 7680,
-          "SizeY": 5120
+          "SizeY": 5120,
+          "detailsPath": "assets/img/MapFS.png",
+          "detailsTexture": "Map_CHAL_001.png",
+          "mapRelic": "RELIC_MAP_CHAL"
         },
         "destructibleType": "WEATHERNODE",
         "destructibleFreq": 1000,

@@ -2481,6 +2481,10 @@
   ],
   "ARMADIO": [
     {
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "hidden": true,
+      "isSpecialOnly": true,
     "level": 1,
     "sealable": true,
     "bulletType": "ARMADIO",
@@ -2490,13 +2494,9 @@
     "texture":"items",
     "frameName":"armadio.png",
     "collectionFrame":"frameB_bold.png",
-    "isUnlocked": false,
-    "hidden": true,
     "poolLimit": 0,
     "rarity": 0,
     "dropRateAffectedByLuck": true,
-    "alwaysHidden": true,
-    "isSpecialOnly": true,
     "interval": 9007199254740991,
     "repeatInterval": 9007199254740991,
     "power": 0,
@@ -2504,6 +2504,104 @@
     "speed": 0,
     "amount": 0,
     "duration": 0
+    }
+  ],
+  "BATTILIA": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "BATTILIA",
+      "price": 400,
+      "name": "Pako Battilia",
+      "description": "May fire additional times when losing health.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "batt1.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "MAXHEALTH"
+      ],
+      "evoInto": "BATTILIA2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 8000,
+      "repeatInterval": 0,
+      "power": 2,
+      "area": 1,
+      "speed": 0.4,
+      "amount": 10,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2
+    },
+    {
+      "speed": 0.3,
+      "penetrating" : 1
+    },
+    {
+      "amount": 1,
+      "interval": -500
+    },
+    {
+      "amount": 1,
+      "power": 1
+    },
+    {
+      "speed": 0.3,
+      "penetrating" : 2
+    },
+    {
+      "amount": 1,
+      "interval": -500
+    },
+    {
+      "amount": 1,
+      "penetrating" : 3
+    },
+    {
+      "amount": 1,
+      "power": 1,
+      "addEvolvedWeapon": "BATTILIA2"
+    }
+  ],
+  "BATTILIA2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "BATTILIA2",
+      "name": "Mazzo Familiar",
+      "description": "Evolved Pako Battilia. Damage and Amount affected by Max Health.",
+      "tips": "Requires Max: Hollow Heart.",
+      "texture": "items",
+      "frameName": "batt2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "BATTILIA"
+      ],
+      "requires": [
+        "MAXHEALTH"
+      ],
+      "requiresMax": [
+        "MAXHEALTH"
+      ],
+      "hitVFX": 4,
+      "hidden": true,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 7000,
+      "repeatInterval": 30,
+      "power": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 16,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "penetrating": 10
     }
   ],
   "VICTORY": [
@@ -2791,6 +2889,158 @@
       "freezeChance": 0.05
     }
   ],
+  "FLIK": [
+    {
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "hidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FLIK",
+      "price": 10,
+      "name": "Blue Flik",
+      "description": "Damage and Area are also affected by Speed.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "Whip.png",
+      "evoSynergy": [
+        "SPEED"
+      ],
+      "evoInto": "VAMPIRICA",
+      "poolLimit": 30,
+      "rarity": 60,
+      "interval": 1350,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5,
+      "area": 0.1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5,
+      "area": 0.1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5,
+      "addEvolvedWeapon": "VAMPIRICA"
+    }
+  ],
+  "PHASER": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "PHASER",
+      "price": 800,
+      "name": "Phas3r",
+      "description": "Generates thin damaging zones. Has high Amount scaling.",
+      "tips": "Ignores: speed, duration.",
+      "texture": "items",
+      "frameName": "phaser.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "COOLDOWN"
+      ],
+      "evoInto": "PHASER2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 200,
+      "rarity": 50,
+      "interval": 5000,
+      "repeatInterval": 100,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.5,
+      "power": 0.3
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.5,
+      "power": 0.3
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.5,
+      "power": 0.4
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "PHASER2"
+    }
+  ],
+  "PHASER2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "PHASER2",
+      "price": 800,
+      "name": "Photonstorm",
+      "description": "Evolved Phas3r. May fire 2 to 10 times more projectiles depending on Luck.",
+      "tips": "Requires Max: Empty Tome.",
+      "texture": "items",
+      "frameName": "phaser2.png",
+      "collectionFrame": "frameB_bold.png",
+      "evolvesFrom": [
+        "PHASER"
+      ],
+      "requires": [
+        "COOLDOWN"
+      ],
+      "requiresMax": [
+        "COOLDOWN"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "hidden": true,
+      "hitVFX": 5,
+      
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 5000,
+      "repeatInterval": 60,
+      "power": 2.5,
+      "area": 2.5,
+      "speed": 1,
+      "amount": 6,
+      "hitsWalls": false,
+      "critChance": 0.025,
+      "critMul": 2
+    }
+  ],
   "NDUJA": [
     {
       "level": 1,
@@ -2862,6 +3112,30 @@
       "area": 1,
       "speed": 2,
       "amount": 1,
+      "duration": 10000
+    }
+  ],
+  "TRAINHAZARD": [
+    {
+      "level": 1,
+      "bulletType": "TRAINHAZARD",
+      "name": "Take Us Away",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "dummyCart.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval": 20000,
+      "repeatInterval": 0,
+      "power": 20,
+      "area": 1,
+      "speed": 4,
+      "amount": 4,
       "duration": 10000
     }
   ],

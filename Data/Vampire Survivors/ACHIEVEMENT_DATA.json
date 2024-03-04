@@ -292,6 +292,21 @@
       }
     ]
   },
+  "Survive20MinutesInSpace54": {
+    "description": "Survive 20 minutes in Space 54.",
+    "characterToUnlock": "SPACEDUDE",
+    "requiresStage": "SPAZIE",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "Survive20MinutesInSpace54"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "201"
+      }
+    ]
+  },
   "Survive20Minutes": {
     "description": "Survive 20 minutes with any character.",
     "weaponToUnlock": "PENTAGRAM",
@@ -491,6 +506,21 @@
       }
     ]
   },
+  "GetPhas3rToLevel7": {
+    "description": "Get Phas3r Level 7.",
+    "weaponToUnlock": "PHASER",
+    "requiresStage": "SPAZIE",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "GetPhas3rToLevel7"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "199"
+      }
+    ]
+  },
   "GetTorroneToLevel9": {
     "description": "Get Torrona's Box to Level 9.",
     "powerUpToUnlock": "PANDORA",
@@ -671,6 +701,22 @@
       {
         "Platfrom": "GameCore",
         "Data": "27"
+      }
+    ]
+  },
+  "FindManyGoldenFinger": {
+    "description": "Find 5 Golden Fingers.",
+    "hyperToUnlock": "SPAZIE",
+    "stageToUnlock": "SPAZIE",
+    "requiresItem": "RELIC_MAP",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "FindManyGoldenFinger"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "198"
       }
     ]
   },
@@ -880,8 +926,17 @@
   "FindAtlas": {
     "description": "Obtain the Atlas Gate in Boss Rash.",
     "relicToUnlock": "RELIC_ATLAS",
-    "achieved": false,
-    "requiresItem": "RELIC_YELLOW"
+    "requiresItem": "RELIC_YELLOW",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "FindAtlas"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "197"
+      }
+    ]
   },
   "FindApoplexy": {
     "description": "Find the Apoplexy at minute 09:00 in Bat Country.",
@@ -925,6 +980,21 @@
       {
         "Platfrom": "GameCore",
         "Data": "187"
+      }
+    ]
+  },
+  "FindBraveStory": {
+    "description": "Find the Brave Story at minute 21:00 in Space 54.",
+    "relicToUnlock": "RELIC_BRAVESTORY",
+    "requiresItem": "GOLDFINGER",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "FindBraveStory"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "202"
       }
     ]
   },
@@ -1163,6 +1233,20 @@
       {
         "Platfrom": "GameCore",
         "Data": "41"
+      }
+    ]
+  },
+  "DefeatManyBats": {
+    "description": "Defeat a total of 161616 bats.",
+    "weaponToUnlock": "BATTILIA",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "DefeatManyBats"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "203"
       }
     ]
   },
@@ -1950,6 +2034,21 @@
       }
     ]
   },
+  "EvolveBattilia": {
+    "description": "Evolve the Pako Battiliar.",
+    "characterToUnlock": "TUPU",
+    "requiresWeapon": "BATTILIA",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "EvolveBattilia"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "204"
+      }
+    ]
+  },
   "EvolveWhip": {
     "description": "Evolve the Whip.",
     "goldPrize": 500,
@@ -2248,6 +2347,22 @@
       {
         "Platfrom": "GameCore",
         "Data": "193"
+      }
+    ]
+  },
+  "EvolvePhas3r": {
+    "description": "Evolve the Phas3r.",
+    "goldPrize": 500,
+    "weaponIcon": "PHASER2",
+    "requiresStage": "SPAZIE",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "EvolvePhas3r"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "200"
       }
     ]
   },

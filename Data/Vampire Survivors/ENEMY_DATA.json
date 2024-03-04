@@ -1008,10 +1008,10 @@
       "scale": 1.5,
       "xp": 50,
       "idleFrameCount": 4,
-      "textureName": "enemies",
-      "end": 22,
+      "textureName": "enemies3",
+      "end": 18,
       "frameNames": [
-        "XLCount1_0.png"
+        "XLFritto_0.png"
       ],
       "colliderOverride": {
         "radius": 0.3,
@@ -2100,13 +2100,13 @@
       "deathKB": 0,
       "scale": 1,
       "xp": 0,
-      "end": 22,
+      "end": 18,
       "idleFrameCount": 4,
       "tint": 526344,
       "killedAmount": 0,
-      "textureName": "enemies",
+      "textureName": "enemies3",
       "frameNames": [
-        "XLCount1_0.png"
+        "XLFritto_0.png"
       ]
     }
   ],
@@ -3796,7 +3796,7 @@
       "level": 30,
       "maxHp": 20,
       "speed": 250,
-      "power": 30,
+      "power": 10,
       "skills": [
         0
       ],
@@ -3805,7 +3805,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "knockback": 0,
-      "maxKnockback": 1,
+      "maxKnockback": 0,
       "deathKB": 0,
       "killedAmount": 0,
       "scale": 1,
@@ -4831,6 +4831,871 @@
       ]
     }
   ],
+  "EX_BATS_COUNTER": [
+    {
+      "enemyType": "EX_BATS_COUNTER",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatA_0"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+        "CHAL_BATS",
+        "CHAL_BATSSWARM",
+        "BAT1",
+        "BAT2",
+        "BAT3",
+        "BAT4",
+        "BAT5",
+        "BAT6",
+        "BATSWARM",
+        "XLBAT",
+        "EX_BATSPACE_ALL4",
+        "EX_BATSPACE_A",
+        "EX_BATSPACE_B",
+        "EX_BATSPACE_C",
+        "EX_BATSPACE_D",
+        "EX_SCALING_BAT1",
+        "EX_SCALING_BAT2",
+        "EX_SCALING_BAT3",
+        "EX_SCALING_BAT3_YELLOW",
+        "EX_SCALING_BAT3_GREEN",
+        "EX_SCALING_BAT3_PURPLE",
+        "EX_SCALING_XLBAT",
+        "EX_SCALING_XXLBAT"
+      ]
+    }
+  ],
+  "EX_BATSPACE_ALL4": [
+    {
+      "enemyType": "EX_BATSPACE_ALL4",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatA_0",
+        "spaceBatB_0",
+        "spaceBatC_0",
+        "spaceBatD_0"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_BATSPACE_A",
+        "EX_BATSPACE_B",
+        "EX_BATSPACE_C",
+        "EX_BATSPACE_D",
+        "EX_BATSPACE_SWARM",
+        "EX_BATSPACE_HP"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATSPACE_A": [
+    {
+      "enemyType": "EX_BATSPACE_A",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatA_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATSPACE_B": [
+    {
+      "enemyType": "EX_BATSPACE_B",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatB_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATSPACE_C": [
+    {
+      "enemyType": "EX_BATSPACE_C",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatC_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATSPACE_D": [
+    {
+      "enemyType": "EX_BATSPACE_D",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatD_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATSPACE_SWARM": [
+    {
+      "enemyType": "EX_BATSPACE_SWARM",
+      "level": 5,
+      "maxHp": 0.1,
+      "speed": 700,
+      "power": 1,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatA_0",
+        "spaceBatB_0",
+        "spaceBatC_0",
+        "spaceBatD_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATSPACE_HP": [
+    {
+      "enemyType": "EX_BATSPACE_HP",
+      "level": 5,
+      "maxHp": 1,
+      "speed": 300,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "spaceBatA_0",
+        "spaceBatB_0",
+        "spaceBatC_0",
+        "spaceBatD_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_RABBIT_SWARM": [
+    {
+      "enemyType": "EX_RABBIT_SWARM",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 700,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonrabbit_0.png"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_RABBIT_SWARM_H"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_RABBIT_SWARM_H": [
+    {
+      "enemyType": "EX_RABBIT_SWARM_H",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 250,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonrabbit_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_DUCK_SWARM": [
+    {
+      "enemyType": "EX_DUCK_SWARM",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 350,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonduck_0.png"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_DUCK_SWARM_H"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_DUCK_SWARM_H": [
+    {
+      "enemyType": "EX_DUCK_SWARM_H",
+      "level": 9,
+      "maxHp": 1,
+      "speed": 250,
+      "power": 5,
+      "xp": 1.5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "moonduck_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BROCCOLI_SCALE": [
+    {
+      "enemyType": "EX_BROCCOLI_SCALE",
+      "level": 1,
+      "maxHp": 2,
+      "speed": 160,
+      "power": 4,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies",
+      "frameNames": [
+        "Ecto2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_ANT": [
+    {
+      "enemyType": "EX_ANT",
+      "level": 12,
+      "maxHp": 7,
+      "speed": 100,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt_0.png"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_ANTBRAIN_SCALE",
+        "EX_ANT_SCALE",
+        "EX_ANTBRAIN"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_ANT_SCALE": [
+    {
+      "enemyType": "EX_ANT_SCALE",
+      "level": 12,
+      "maxHp": 7,
+      "speed": 140,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt_0.png"
+      ]
+    }
+  ],
+  "EX_ANTBRAIN": [
+    {
+      "enemyType": "EX_ANTBRAIN",
+      "level": 8,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt2_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_ANTBRAIN_SCALE": [
+    {
+      "enemyType": "EX_ANTBRAIN_SCALE",
+      "level": 8,
+      "maxHp": 15,
+      "speed": 140,
+      "power": 10,
+      "xp": 2.5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "antt2_0.png"
+      ]
+    }
+  ],
+  "EX_PICKLE": [
+    {
+      "enemyType": "EX_PICKLE",
+      "level": 11,
+      "maxHp": 1.5,
+      "speed": 120,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "pickle_0.png"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_PICKLE_SCALE"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_PICKLE_SCALE": [
+    {
+      "enemyType": "EX_PICKLE_SCALE",
+      "level": 11,
+      "maxHp": 2,
+      "speed": 160,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "pickle_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  
+  "EX_PHALIEN_XL": [
+    {
+      "enemyType": "EX_PHALIEN_XL",
+      "level": 10,
+      "maxHp": 48,
+      "speed": 80,
+      "power": 20,
+      "xp": 3,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "phDesAlienXL_0.png"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants" : ["EX_PHALIEN_L", "EX_PHALIEN"],
+      "killedAmount": 0
+    }
+  ],
+  "EX_PHALIEN_L": [
+    {
+      "enemyType": "EX_PHALIEN_L",
+      "level": 10,
+      "maxHp": 24,
+      "speed": 120,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "phDesAlienL_0.png"
+      ]
+    }
+  ],
+  "EX_PHALIEN": [
+    {
+      "enemyType": "EX_PHALIEN",
+      "level": 10,
+      "maxHp": 12,
+      "speed": 160,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "phDesAlien_0.png"
+      ]
+    }
+  ],
+  "EX_PHALIEN_XL_BOSS": [
+    {
+      "enemyType": "EX_PHALIEN_XL_BOSS",
+      "level": 10,
+      "maxHp": 4,
+      "speed": 100,
+      "power": 20,
+      "xp": 3,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "idleFrameCount": 5,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "phAlienXL_0.png"
+      ]
+    }
+  ],
+  "EX_PHALIEN_L_BOSS": [
+    {
+      "enemyType": "EX_PHALIEN_L_BOSS",
+      "level": 10,
+      "maxHp": 2,
+      "speed": 140,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "phAlienL_0.png"
+      ]
+    }
+  ],
+  "EX_PHALIEN_BOSS": [
+    {
+      "enemyType": "EX_PHALIEN_BOSS",
+      "level": 10,
+      "maxHp": 1,
+      "speed": 180,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "phAlien_0.png"
+      ]
+    }
+  ],
+  
+  "EX_CUBE_HITS_STATIC": [
+    {
+      "enemyType": "EX_CUBE_HITS_STATIC",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 0,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "tint": 16777164,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_CUBE_HITS_AXE": [
+    {
+      "enemyType": "EX_CUBE_HITS_AXE",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 300,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "tint": 16764108,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ]
+    }
+  ],
+  "EX_CUBE_HITS_AGGRO": [
+    {
+      "enemyType": "EX_CUBE_HITS_AGGRO",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 160,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": false,
+      "tint": 16764108,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_CUBE_HITS_PATH": [
+    {
+      "enemyType": "EX_CUBE_HITS_PATH",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 300,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "passThroughWalls": true,
+      "tint": 16764108,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ]
+    }
+  ],
+  "EX_CUBE_HITS_MEDUSA": [
+    {
+      "enemyType": "EX_CUBE_HITS_MEDUSA",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 120,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "skills": [
+        1,
+        3
+      ],
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "tint": 13434828,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ]
+    }
+  ],
+  "EX_CUBE_HITS_FACING": [
+    {
+      "enemyType": "EX_CUBE_HITS_FACING",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 160,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": false,
+      "tint": 13421823,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ]
+    }
+  ],
+  "EX_CUBE_HITS_STERILE": [
+    {
+      "enemyType": "EX_CUBE_HITS_STERILE",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 300,
+      "power": 10,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "feverValue": 0,
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ],
+      "bPlaces": [
+        "SPAZIE"
+      ],
+      "bInclude": true,
+      "bIncludeColorVariants": true,
+      "bHighlight": false,
+      "bVariants" : ["EX_CUBE_HITS_STATIC", "EX_CUBE_HITS_AGGRO","EX_CUBE_HITS_MEDUSA", "EX_CUBE_HITS_FACING"]
+    }
+  ],
+  
   "PILE4": [
     {
       "level": 3,
@@ -9392,6 +10257,381 @@
       "frameNames": [
         "Sleeper_0.png"
       ]
+    }
+  ],
+  "DEVIL_HP_1": [
+    {
+      "enemyType": "DEVIL_HP_1",
+      "level": 3,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 1,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies2",
+      "frameNames": [
+        "Imp_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_2": [
+    {
+      "enemyType": "DEVIL_HP_2",
+      "level": 3,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 1,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies2",
+      "frameNames": [
+        "Dullahan0_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_3": [
+    {
+      "enemyType": "DEVIL_HP_3",
+      "level": 3,
+      "maxHp": 1.5,
+      "speed": 140,
+      "power": 6,
+      "xp": 1.5,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 1,
+      "idleFrameCount": 4,
+      "end": 16,
+      "textureName": "enemies2",
+      "frameNames": [
+        "Devil1_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_4": [
+    {
+      "enemyType": "DEVIL_HP_4",
+      "level": 3,
+      "maxHp": 2,
+      "speed": 140,
+      "power": 6,
+      "xp": 1.5,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 1,
+      "idleFrameCount": 4,
+      "end": 16,
+      "textureName": "enemies2",
+      "frameNames": [
+        "Devil2_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_5": [
+    {
+      "enemyType": "DEVIL_HP_5",
+      "level": 3,
+      "maxHp": 2.5,
+      "speed": 140,
+      "power": 7,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 1,
+      "idleFrameCount": 4,
+      "end": 16,
+      "textureName": "enemies2",
+      "frameNames": [
+        "Devil3_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_6": [
+    {
+      "enemyType": "DEVIL_HP_6",
+      "level": 5,
+      "maxHp": 3,
+      "speed": 140,
+      "power": 7,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 1,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "Priest_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_7": [
+    {
+      "enemyType": "DEVIL_HP_7",
+      "level": 5,
+      "maxHp": 3.5,
+      "speed": 140,
+      "power": 8,
+      "xp": 2.5,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 2,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDemon1_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_8": [
+    {
+      "enemyType": "DEVIL_HP_8",
+      "level": 9,
+      "maxHp": 4,
+      "speed": 140,
+      "power": 8,
+      "xp": 2.5,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 3,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDemon1_alt_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_9": [
+    {
+      "enemyType": "DEVIL_HP_9",
+      "level": 9,
+      "maxHp": 4.5,
+      "speed": 140,
+      "power": 9,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 4,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDemon2_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_10": [
+    {
+      "enemyType": "DEVIL_HP_10",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 9,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 5,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDeamon5_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_11": [
+    {
+      "enemyType": "DEVIL_HP_11",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 9,
+      "xp": 3.5,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 6,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDeamon5_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_12": [
+    {
+      "enemyType": "DEVIL_HP_12",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 9,
+      "xp": 3.5,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 7,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDeamon5_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_13": [
+    {
+      "enemyType": "DEVIL_HP_13",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 9,
+      "xp": 4,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 8,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDeamon5_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_14": [
+    {
+      "enemyType": "DEVIL_HP_14",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 9,
+      "xp": 4,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 9,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDeamon5_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "DEVIL_HP_15": [
+    {
+      "enemyType": "DEVIL_HP_15",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 9,
+      "xp": 4.5,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "lives": 10,
+      "idleFrameCount": 4,
+      "end": 29,
+      "textureName": "enemies3",
+      "frameNames": [
+        "XLDeamon5_0"
+      ],
+      "killedAmount": 0
     }
   ]
 }

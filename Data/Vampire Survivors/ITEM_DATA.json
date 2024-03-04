@@ -685,6 +685,22 @@
     "value": 0,
     "isRelic": true
   },
+  "RELIC_BRAVESTORY": {
+    "name": "Brave Story",
+    "description": "Allows to enable random level ups.",
+    "tips": "",
+    "achievementTips": "Random LevelUp.",
+    "texture": "items",
+    "frameName": "bravestory.png",
+    "collectionFrame": "frameB_bold.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 0,
+    "isRelic": true
+  },
   "RELIC_CHARM": {
     "name": "Apoplexy",
     "description": "Allows to buy the Charm PowerUp.",
@@ -796,6 +812,21 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": false,
+    "value": 0,
+    "isRelic": true
+  },
+  "RELIC_DARKASSO": {
+    "hidden": true,
+    "name": "Darkasso",
+    "description": "Enables the unlocking and activation of Darkanas.",
+    "tips": "",
+    "achievementTips": "Darkanas",
+    "texture": "items",
+    "frameName": "Tarots2.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
     "value": 0,
     "isRelic": true
   },
