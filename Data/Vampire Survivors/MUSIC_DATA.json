@@ -345,6 +345,40 @@
       "detune": -1000
     }
   },
+  "BGM_Carts": {
+    "title": "Catch you at Carlo's",
+    "author": "Daniele Zandara",
+    "source": "Carlo Cart",
+    "unlockedByStage": null,
+    "unlockedByCharacter": null,
+    "isUnlocked": true,
+    "icon": "stage_carlocart_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_Labor": {
+    "title": "Awe of the Unknown",
+    "author": "Daniele Zandara",
+    "source": "Laborratory",
+    "unlockedByStage": null,
+    "unlockedByCharacter": null,
+    "isUnlocked": true,
+    "icon": "stage_laborratory_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
   "BGM_BatCountry": {
     "title": "Mighty Illusion",
     "author": "Filippo Vicarelli",

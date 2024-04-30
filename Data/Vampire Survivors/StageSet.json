@@ -6120,777 +6120,777 @@
         ]
       },
       {
-      "minute": 1,
-      "minimum": 30,
-      "frequency": 1000,
-      "enemies": [
-        "ZOMBIE",
-        "BAT1"
-      ],
-      "bosses": [
-        "BAT4"
-      ],
-      "treasure": {
-        "chances": [
-          0,
-          0,
-          30
+        "minute": 1,
+        "minimum": 30,
+        "frequency": 1000,
+        "enemies": [
+          "ZOMBIE",
+          "BAT1"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
+        "bosses": [
+          "BAT4"
         ],
-        "fixedPrizes": [
-          "AMOUNT"
-        ]
-      }
-    },
-    {
-      "minute": 2,
-      "minimum": 50,
-      "frequency": 500,
-      "enemies": [
-        "BAT1",
-        "BAT2",
-        "BAT3"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 5000,
-          "repeat": 2
+        "treasure": {
+          "chances": [
+            0,
+            0,
+            30
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ],
+          "fixedPrizes": [
+            "AMOUNT"
+          ]
         }
-      ]
-    },
-    {
-      "minute": 3,
-      "minimum": 40,
-      "frequency": 250,
-      "enemies": [
-        "SKELETON"
-      ],
-      "bosses": [
-        "BAT4"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 5000,
-          "repeat": 1,
-          "chance": 10
+      },
+      {
+        "minute": 2,
+        "minimum": 50,
+        "frequency": 500,
+        "enemies": [
+          "BAT1",
+          "BAT2",
+          "BAT3"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 5000,
+            "repeat": 2
+          }
+        ]
+      },
+      {
+        "minute": 3,
+        "minimum": 40,
+        "frequency": 250,
+        "enemies": [
+          "SKELETON"
+        ],
+        "bosses": [
+          "BAT4"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ],
+        "treasure": {
+          "chances": [
+            0,
+            5,
+            40
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EXISTING_WEAPON",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "treasure": {
-        "chances": [
-          0,
-          5,
-          40
+      },
+      {
+        "minute": 4,
+        "minimum": 30,
+        "frequency": 500,
+        "enemies": [
+          "SKELETON",
+          "GHOST"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EXISTING_WEAPON",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
         ]
-      }
-    },
-    {
-      "minute": 4,
-      "minimum": 30,
-      "frequency": 500,
-      "enemies": [
-        "SKELETON",
-        "GHOST"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 5000,
-          "repeat": 1,
-          "chance": 10
+      },
+      {
+        "minute": 5,
+        "minimum": 10,
+        "frequency": 1000,
+        "enemies": [
+          "MUDMAN2"
+        ],
+        "bosses": [
+          "XLMANTIS"
+        ],
+        "events": [
+          {
+            "eventType": "FLOWER_WALL",
+            "chance": 0,
+            "duration": 30000
+          }
+        ],
+        "treasure": {
+          "chances": [
+            1,
+            5,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EXISTING_WEAPON",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ]
-    },
-    {
-      "minute": 5,
-      "minimum": 10,
-      "frequency": 1000,
-      "enemies": [
-        "MUDMAN2"
-      ],
-      "bosses": [
-        "XLMANTIS"
-      ],
-      "events": [
-        {
-          "eventType": "FLOWER_WALL",
-          "chance": 0,
-          "duration": 30000
+      },
+      {
+        "minute": 6,
+        "minimum": 20,
+        "frequency": 500,
+        "enemies": [
+          "ZOMBIE",
+          "MUDMAN2"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ]
+      },
+      {
+        "minute": 7,
+        "minimum": 80,
+        "frequency": 500,
+        "enemies": [
+          "BAT2",
+          "BAT3",
+          "MUDMAN1"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 5000,
+            "chance": 80,
+            "repeat": 5
+          }
+        ],
+        "bosses": [
+          "BAT4"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            50
+          ],
+          "level": 2,
+          "prizeTypes": [
+            "EXISTING_WEAPON",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "treasure": {
-        "chances": [
-          1,
-          5,
-          100
+      },
+      {
+        "minute": 8,
+        "minimum": 100,
+        "frequency": 1500,
+        "enemies": [
+          "ZOMBIE"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EXISTING_WEAPON",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 15000,
+            "chance": 80,
+            "repeat": 2
+          }
+        ],
+        "bosses": [
+          "XLBAT"
         ]
-      }
-    },
-    {
-      "minute": 6,
-      "minimum": 20,
-      "frequency": 500,
-      "enemies": [
-        "ZOMBIE",
-        "MUDMAN2"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 5000,
-          "repeat": 1,
-          "chance": 10
+      },
+      {
+        "minute": 9,
+        "minimum": 30,
+        "frequency": 500,
+        "enemies": [
+          "XLBAT",
+          "ZOMBIE"
+        ],
+        "bosses": [
+          "BAT5"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 15000,
+            "chance": 70,
+            "repeat": 2
+          }
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            50
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EXISTING_WEAPON",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_WEAPON",
+            "EXISTING_WEAPON"
+          ]
         }
-      ]
-    },
-    {
-      "minute": 7,
-      "minimum": 80,
-      "frequency": 500,
-      "enemies": [
-        "BAT2",
-        "BAT3",
-        "MUDMAN1"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 5000,
-          "chance": 80,
-          "repeat": 5
+      },
+      {
+        "minute": 10,
+        "minimum": 10,
+        "frequency": 500,
+        "enemies": [
+          "MUDMAN1",
+          "MUDMAN2"
+        ],
+        "bosses": [
+          "BOSS_XLMANTIS"
+        ],
+        "events": [
+          {
+            "eventType": "FLOWER_WALL"
+          }
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_WEAPON",
+            "EXISTING_WEAPON"
+          ]
         }
-      ],
-      "bosses": [
-        "BAT4"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          50
+      },
+      {
+        "minute": 11,
+        "minimum": 300,
+        "frequency": 100,
+        "enemies": [
+          "SKELETON"
         ],
-        "level": 2,
-        "prizeTypes": [
-          "EXISTING_WEAPON",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 8,
-      "minimum": 100,
-      "frequency": 1500,
-      "enemies": [
-        "ZOMBIE"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 15000,
-          "chance": 80,
-          "repeat": 2
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ],
+        "arcanaHolder": "BAT4",
+        "arcanaTreasure": {
+          "chances": [
+            0,
+            0,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVO_ARCANA",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "bosses": [
-        "XLBAT"
-      ]
-    },
-    {
-      "minute": 9,
-      "minimum": 30,
-      "frequency": 500,
-      "enemies": [
-        "XLBAT",
-        "ZOMBIE"
-      ],
-      "bosses": [
-        "BAT5"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 15000,
-          "chance": 70,
-          "repeat": 2
+      },
+      {
+        "minute": 12,
+        "minimum": 20,
+        "frequency": 250,
+        "enemies": [
+          "WEREWOLF",
+          "GHOST",
+          "SKELETON"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ],
+        "bosses": [
+          "BAT4"
+        ],
+        "treasure": {
+          "chances": [
+            1,
+            5,
+            50
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          50
+      },
+      {
+        "minute": 13,
+        "minimum": 150,
+        "frequency": 500,
+        "enemies": [
+          "WEREWOLF",
+          "GHOST",
+          "GHOST"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EXISTING_WEAPON",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_WEAPON",
-          "EXISTING_WEAPON"
+        "events": [
+          {
+            "eventType": "GHOST_SWARM",
+            "delay": 1200,
+            "chance": 70,
+            "repeat": 20
+          },
+          {
+            "eventType": "GHOST_SWARM",
+            "delay": 2300,
+            "chance": 70,
+            "repeat": 20
+          }
         ]
-      }
-    },
-    {
-      "minute": 10,
-      "minimum": 10,
-      "frequency": 500,
-      "enemies": [
-        "MUDMAN1",
-        "MUDMAN2"
-      ],
-      "bosses": [
-        "BOSS_XLMANTIS"
-      ],
-      "events": [
-        {
-          "eventType": "FLOWER_WALL"
+      },
+      {
+        "minute": 14,
+        "minimum": 20,
+        "frequency": 100,
+        "enemies": [
+          "XLBAT",
+          "WEREWOLF"
+        ],
+        "bosses": [
+          "BAT5"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
+      },
+      {
+        "minute": 15,
+        "minimum": 100,
+        "frequency": 100,
+        "enemies": [
+          "WEREWOLF",
+          "XLBAT",
+          "MUDMAN2"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_WEAPON",
-          "EXISTING_WEAPON"
-        ]
-      }
-    },
-    {
-      "minute": 11,
-      "minimum": 300,
-      "frequency": 100,
-      "enemies": [
-        "SKELETON"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 5000,
-          "repeat": 1,
-          "chance": 10
+        "bosses": [
+          "BOSS_WEREWOLF"
+        ],
+        "events": [
+          {
+            "eventType": "FLOWER_WALL",
+            "chance": 80
+          }
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "arcanaHolder": "BAT4",
-      "arcanaTreasure": {
-        "chances": [
-          0,
-          0,
-          100
+      },
+      {
+        "minute": 16,
+        "minimum": 100,
+        "frequency": 100,
+        "enemies": [
+          "XLMANTIS",
+          "MUDMAN1",
+          "MUDMAN2"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVO_ARCANA",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 12,
-      "minimum": 20,
-      "frequency": 250,
-      "enemies": [
-        "WEREWOLF",
-        "GHOST",
-        "SKELETON"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 5000,
-          "repeat": 1,
-          "chance": 10
+        "bosses": [
+          "BAT4"
+        ],
+        "treasure": {
+          "chances": [
+            1,
+            5,
+            50
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "bosses": [
-        "BAT4"
-      ],
-      "treasure": {
-        "chances": [
-          1,
-          5,
-          50
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
+      },
+      {
+        "minute": 17,
+        "minimum": 20,
+        "frequency": 1000,
+        "enemies": [
+          "XLMUMMY"
         ]
-      }
-    },
-    {
-      "minute": 13,
-      "minimum": 150,
-      "frequency": 500,
-      "enemies": [
-        "WEREWOLF",
-        "GHOST",
-        "GHOST"
-      ],
-      "events": [
-        {
-          "eventType": "GHOST_SWARM",
-          "delay": 1200,
-          "chance": 70,
-          "repeat": 20
-        },
-        {
-          "eventType": "GHOST_SWARM",
-          "delay": 2300,
-          "chance": 70,
-          "repeat": 20
+      },
+      {
+        "minute": 18,
+        "minimum": 60,
+        "frequency": 500,
+        "enemies": [
+          "XLMUMMY",
+          "MUDMAN1"
+        ],
+        "bosses": [
+          "BAT5"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ]
-    },
-    {
-      "minute": 14,
-      "minimum": 20,
-      "frequency": 100,
-      "enemies": [
-        "XLBAT",
-        "WEREWOLF"
-      ],
-      "bosses": [
-        "BAT5"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
+      },
+      {
+        "minute": 19,
+        "minimum": 100,
+        "frequency": 500,
+        "enemies": [
+          "XLMUMMY",
+          "MUDMAN1"
         ]
-      }
-    },
-    {
-      "minute": 15,
-      "minimum": 100,
-      "frequency": 100,
-      "enemies": [
-        "WEREWOLF",
-        "XLBAT",
-        "MUDMAN2"
-      ],
-      "bosses": [
-        "BOSS_WEREWOLF"
-      ],
-      "events": [
-        {
-          "eventType": "FLOWER_WALL",
-          "chance": 80
+      },
+      {
+        "minute": 20,
+        "minimum": 100,
+        "frequency": 100,
+        "enemies": [
+          "XLMUMMY",
+          "MUDMAN2",
+          "XLBAT"
+        ],
+        "bosses": [
+          "BOSS_XLMUMMY"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 1200,
+            "chance": 70,
+            "repeat": 20
+          },
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 2300,
+            "chance": 70,
+            "repeat": 20
+          }
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
+      },
+      {
+        "minute": 21,
+        "minimum": 300,
+        "frequency": 100,
+        "enemies": [
+          "FLOWER"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 16,
-      "minimum": 100,
-      "frequency": 100,
-      "enemies": [
-        "XLMANTIS",
-        "MUDMAN1",
-        "MUDMAN2"
-      ],
-      "bosses": [
-        "BAT4"
-      ],
-      "treasure": {
-        "chances": [
-          1,
-          5,
-          50
+        "bosses": [
+          "XLFLOWER"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 17,
-      "minimum": 20,
-      "frequency": 1000,
-      "enemies": [
-        "XLMUMMY"
-      ]
-    },
-    {
-      "minute": 18,
-      "minimum": 60,
-      "frequency": 500,
-      "enemies": [
-        "XLMUMMY",
-        "MUDMAN1"
-      ],
-      "bosses": [
-        "BAT5"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 19,
-      "minimum": 100,
-      "frequency": 500,
-      "enemies": [
-        "XLMUMMY",
-        "MUDMAN1"
-      ]
-    },
-    {
-      "minute": 20,
-      "minimum": 100,
-      "frequency": 100,
-      "enemies": [
-        "XLMUMMY",
-        "MUDMAN2",
-        "XLBAT"
-      ],
-      "bosses": [
-        "BOSS_XLMUMMY"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 1200,
-          "chance": 70,
-          "repeat": 20
-        },
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 2300,
-          "chance": 70,
-          "repeat": 20
+        "arcanaHolder": "BAT4",
+        "arcanaTreasure": {
+          "chances": [
+            0,
+            0,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVO_ARCANA",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
+      },
+      {
+        "minute": 22,
+        "minimum": 200,
+        "frequency": 100,
+        "enemies": [
+          "FLOWER",
+          "XLMUMMY"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 21,
-      "minimum": 300,
-      "frequency": 100,
-      "enemies": [
-        "FLOWER"
-      ],
-      "bosses": [
-        "XLFLOWER"
-      ],
-      "arcanaHolder": "BAT4",
-      "arcanaTreasure": {
-        "chances": [
-          0,
-          0,
-          100
+        "bosses": [
+          "BAT4"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVO_ARCANA",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 22,
-      "minimum": 200,
-      "frequency": 100,
-      "enemies": [
-        "FLOWER",
-        "XLMUMMY"
-      ],
-      "bosses": [
-        "BAT4"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 23,
-      "minimum": 300,
-      "frequency": 100,
-      "enemies": [
-        "FLOWER",
-        "XLMUMMY"
-      ],
-      "bosses": [
-        "BAT5"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 24,
-      "minimum": 300,
-      "frequency": 100,
-      "enemies": [
-        "FLOWER",
-        "XLMUMMY"
-      ],
-      "bosses": [
-        "XLFLOWER"
-      ]
-    },
-    {
-      "minute": 25,
-      "minimum": 100,
-      "frequency": 100,
-      "enemies": [
-        "XLFLOWER"
-      ],
-      "bosses": [
-        "BOSS_XLFLOWER"
-      ],
-      "events": [
-        {
-          "eventType": "FLOWER_WALL",
-          "delay": 10000,
-          "repeat": 5,
-          "duration": 10000
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
         }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
+      },
+      {
+        "minute": 23,
+        "minimum": 300,
+        "frequency": 100,
+        "enemies": [
+          "FLOWER",
+          "XLMUMMY"
         ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
+        "bosses": [
+          "BAT5"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 24,
+        "minimum": 300,
+        "frequency": 100,
+        "enemies": [
+          "FLOWER",
+          "XLMUMMY"
+        ],
+        "bosses": [
+          "XLFLOWER"
+        ]
+      },
+      {
+        "minute": 25,
+        "minimum": 100,
+        "frequency": 100,
+        "enemies": [
+          "XLFLOWER"
+        ],
+        "bosses": [
+          "BOSS_XLFLOWER"
+        ],
+        "events": [
+          {
+            "eventType": "FLOWER_WALL",
+            "delay": 10000,
+            "repeat": 5,
+            "duration": 10000
+          }
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 26,
+        "minimum": 150,
+        "frequency": 100,
+        "enemies": [
+          "XLFLOWER",
+          "FLOWER"
+        ]
+      },
+      {
+        "minute": 27,
+        "minimum": 300,
+        "frequency": 100,
+        "bosses": [
+          "BAT4"
+        ],
+        "enemies": [
+          "XLMUMMY",
+          "MUDMAN1",
+          "MUDMAN2"
+        ],
+        "events": [
+          {
+            "eventType": "GHOST_SWARM"
+          },
+          {
+            "eventType": "GHOST_SWARM",
+            "delay": 3000,
+            "repeat": 19
+          }
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 28,
+        "minimum": 300,
+        "frequency": 100,
+        "enemies": [
+          "XLBAT",
+          "BAT4"
+        ]
+      },
+      {
+        "minute": 29,
+        "minimum": 300,
+        "frequency": 100,
+        "bosses": [
+          "BAT4"
+        ],
+        "enemies": [
+          "BAT4",
+          "BAT5"
+        ],
+        "events": [
+          {
+            "eventType": "BAT_SWARM"
+          },
+          {
+            "eventType": "BAT_SWARM",
+            "delay": 3000,
+            "repeat": 19
+          }
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 30,
+        "minimum": 1,
+        "frequency": 10000,
+        "enemies": [],
+        "bosses": [
+          "BOSS_XLDEATH"
+        ],
+        "events": [
+          {
+            "eventType": "CYCLE_COMPLETE"
+          }
         ]
       }
-    },
-    {
-      "minute": 26,
-      "minimum": 150,
-      "frequency": 100,
-      "enemies": [
-        "XLFLOWER",
-        "FLOWER"
-      ]
-    },
-    {
-      "minute": 27,
-      "minimum": 300,
-      "frequency": 100,
-      "bosses": [
-        "BAT4"
-      ],
-      "enemies": [
-        "XLMUMMY",
-        "MUDMAN1",
-        "MUDMAN2"
-      ],
-      "events": [
-        {
-          "eventType": "GHOST_SWARM"
-        },
-        {
-          "eventType": "GHOST_SWARM",
-          "delay": 3000,
-          "repeat": 19
-        }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 28,
-      "minimum": 300,
-      "frequency": 100,
-      "enemies": [
-        "XLBAT",
-        "BAT4"
-      ]
-    },
-    {
-      "minute": 29,
-      "minimum": 300,
-      "frequency": 100,
-      "bosses": [
-        "BAT4"
-      ],
-      "enemies": [
-        "BAT4",
-        "BAT5"
-      ],
-      "events": [
-        {
-          "eventType": "BAT_SWARM"
-        },
-        {
-          "eventType": "BAT_SWARM",
-          "delay": 3000,
-          "repeat": 19
-        }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 30,
-      "minimum": 1,
-      "frequency": 10000,
-      "enemies": [],
-      "bosses": [
-        "BOSS_XLDEATH"
-      ],
-      "events": [
-        {
-          "eventType": "CYCLE_COMPLETE"
-        }
-      ]
-    }
-  ],
+    ],
     "ADV_IME_4_Tower": [
       {
         "stageKey": "ADV_IME_4_Tower",
@@ -9391,22 +9391,22 @@
           "MS_EVILSPIRIT"
         ]
       },
-        {
-          "minute": 2,
-          "minimum": 300,
-          "frequency": 300,
-          "enemies": [
-            "MS_EVILSPIRIT"
-          ]
-        },
-        {
-          "minute": 3,
-          "minimum": 300,
-          "frequency": 300,
-          "enemies": [
-            "MS_EVILSPIRIT"
-          ]
-        },{
+      {
+        "minute": 2,
+        "minimum": 300,
+        "frequency": 300,
+        "enemies": [
+          "MS_EVILSPIRIT"
+        ]
+      },
+      {
+        "minute": 3,
+        "minimum": 300,
+        "frequency": 300,
+        "enemies": [
+          "MS_EVILSPIRIT"
+        ]
+      },{
         "minute": 4,
         "minimum": 300,
         "frequency": 300,
@@ -18696,6 +18696,5021 @@
         ]
       }
     ],
+    "ADV_BAZAAR ": [
+      {
+        "stageKey": "ADV_BAZAAR ",
+        "tilesetStageType": "ADV_BAZAAR",
+        "hidden": false,
+        "unlocked": false,
+        "order": 7,
+        "stageName": "Planar Bazaar",
+        "description": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms. ",
+        "stageNumber": "Shop",
+        "BGM": "BGM_Bestiary",
+        "sideBBGM": "BGM_Bestiary",
+        "relics": [],
+        "yellowRelics": [],
+        "validForCharcaterData": false,
+        "zoom": 0.17,
+        "uiTexture": "AdventuresUI",
+        "uiFrame": "ADV_BAZAAR.png",
+        "texture": "UI",
+        "frameName": "stage_bazaar_icon",
+        "frameNameUnlock": "stage_bazaar_icon",
+        "bestiaryBG": "background_forest.png",
+        "mods": {
+          "TimeLimit": 1800,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 1.25,
+          "EnemySpeed": 1.25,
+          "ProjectileSpeed": 1
+        },
+        "hyper": {
+          "unlocked": false,
+          "TimeLimit": 1800
+        },
+        "randomMinutes": false,
+        "dayNight": false,
+        "BGTextureName": "bg_null",
+        "background": {
+          "movingBackground": false
+        },
+        "tileset": {
+          "isTiling": false,
+          "hasWallsCheckDestructibleLogic": false
+        },
+        "destructibleType": "CANDELABRA",
+        "spawnType": "STANDARD",
+        "minute": 0,
+        "enemies": []
+      }
+    ]
+  },
+  "STAGESET_FIRSTBLOOD" : {
+    "ADV_FB_001_Attack": [
+      {
+        "stageKey": "ADV_FB_001_Attack",
+        "tilesetStageType": "ADV_FB_001_Attack",
+        "cff": "FB_ARIANA",
+        "hidden": false,
+        "unlocked": true,
+        "hasLights": true,
+        "hasCharacterSpotlight": true,
+        "order": 1,
+        "stageName": " ",
+        "description": " ",
+        "stageNumber": "Chapter 1",
+        "BGM": "BGM_FB_COVER_00_Jung",
+        "sideBBGM": "BGM_FB_K00_Jung",
+        "tips": " ",
+        "relics": [],
+        "yellowRelics": [],
+        "validForCharcaterData": true,
+        "zoom": 0.17,
+        "uiTexture": "AdventuresUI",
+        "uiFrame": "ADV_FB_001_Attack",
+        "texture": "UI",
+        "frameName": "icon_firstBlood.png",
+        "frameNameUnlock": "icon_firstBlood.png",
+        "bestiaryBG": "background_space.png",
+        "mods": {
+          "TimeLimit": 1200,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 1.25,
+          "EnemySpeed": 1.20,
+          "ProjectileSpeed": 1,
+          "GoldMultiplier": 1,
+          "EnemyHealthMultiplier": 0.9,
+          "LuckBonus": 1,
+          "XPBonus": 1
+        },
+        "hyper": {
+          "unlocked": true,
+          "TimeLimit": 1200,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 0.65,
+          "EnemySpeed": 0.65,
+          "ProjectileSpeed": 0.25,
+          "GoldMultiplier": 0.5,
+          "EnemyHealthMultiplier": 0,
+          "LuckBonus": 0.2,
+          "XPBonus": 0
+        },
+        "inverse": {
+          "tint": 8947950,
+          "GoldMultiplier": 2,
+          "EnemyHealthMultiplier": 2,
+          "LuckBonus": 0.2,
+          "TimeMods": {
+            "start": 0,
+            "hpPerMinute": 0.05,
+            "speedPerMinute": 0.005
+          }
+        },
+        "randomMinutes": false,
+        "dayNight": false,
+        "BGTextureName": "bg_null",
+        "background": {
+          "movingBackground": false
+        },
+        "tileset": {
+          "setKey": "ForestTexturePacked",
+          "setPath": "assets/tilesets/ForestTexturePacked.png",
+          "mapKey": "Forest",
+          "mapPath": "assets/tilesets/Forest.json",
+          "isTiling": false,
+          "hasWallsCheckDestructibleLogic": true
+        },
+        "destructibleType": "LAMPOST_SINGLE",
+        "destructibleFreq": 1000,
+        "destructibleChance": 7.5,
+        "destructibleChanceMax": 50,
+        "maxDestructibles": 10,
+        "spawnType": "MAPPED",
+        "poolsMapping": [
+          {
+            "key": 0,
+            "type": "FB_LEDDER",
+            "pool": null
+          },
+          {
+            "key": 1,
+            "type": "FB_LEDDER",
+            "pool": null
+          },
+          {
+            "key": 2,
+            "type": "FB_GREEDER",
+            "pool": null
+          },
+          {
+            "key": 3,
+            "type": "FB_MOSQUITO",
+            "pool": null
+          },
+          {
+            "key": 4,
+            "type": "FB_HUMANFACEDDOG",
+            "pool": null
+          },
+          {
+            "key": 5,
+            "type": "FB_JUNKYARDCAR",
+            "pool": null
+          },
+          {
+            "key": 6,
+            "type": "FB_BUGGER",
+            "pool": null
+          },
+          {
+            "key": 7,
+            "type": "FB_POISONOUSINSECTGEL",
+            "pool": null
+          },
+          {
+            "key": 8,
+            "type": "FB_BUNDLE",
+            "pool": null
+          },
+          {
+            "key": 9,
+            "type": "FB_BUGGER",
+            "pool": null
+          }
+        ],
+        "startingSpawns": 15,
+        "minute": 0,
+        "minimum": 30,
+        "frequency": 1000,
+        "enemies": [
+          "FB_LEDDER_UNARMED"
+        ]
+      },
+      {
+        "minute": 1,
+        "minimum": 30,
+        "frequency": 1000,
+        "events": [
+          {
+            "eventType": "FB_CAPSULE_EVENT",
+            "delay": 10000,
+            "repeat": 1
+          },
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 10,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ],
+        "enemies": [
+          "FB_GREEDER"
+        ],
+        "bosses": [
+          "BOSS_FB_WARLORD"
+        ],
+        "treasure": {
+          "chances": [
+            0,
+            0,
+            50
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 2,
+        "minimum": 30,
+        "frequency": 1000,
+        "enemies": [
+          "FB_MOSQUITO",
+          "FB_LEDDER_UNARMED"
+        ],
+        "events": [
+          {
+            "eventType": "FB_CAPSULE_EVENT",
+            "delay": 13000,
+            "repeat": 1
+          }
+        ],
+        "bosses": [
+          "BOSS_FB_WARLORD"
+        ],
+        "treasure": {
+          "chances": [
+            1,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EXISTING_WEAPON",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 3,
+        "minimum": 30,
+        "frequency": 500,
+        "enemies": [
+          "FB_EVILSNOWMAN",
+          "FB_GREEDER"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 20,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "minute": 4,
+        "minimum": 20,
+        "frequency": 500,
+        "enemies": [
+          "FB_MOSQUITO"
+        ],
+        "events": [
+          {
+            "eventType": "FB_CAPSULE_EVENT",
+            "delay": 10000,
+            "repeat": 1
+          },
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 20,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "minute": 5,
+        "minimum": 30,
+        "frequency": 500,
+        "enemies": [
+          "FB_EVILSNOWMAN",
+          "FB_MOSQUITO",
+          "FB_GREEDER"
+        ],
+        "bosses": [
+          "BOSS_FB_CHICKEN"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 20,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ],
+        "treasure": {
+          "chances": [
+            1,
+            5,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EXISTING_WEAPON",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 6,
+        "minimum": 100,
+        "frequency": 500,
+        "enemies": [
+          "FB_LEDDER_UNARMED"
+        ],
+        "events": [
+          {
+            "eventType": "FB_CAPSULE_EVENT",
+            "delay": 10000,
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "minute": 7,
+        "minimum": 60,
+        "frequency": 500,
+        "enemies": [
+          "FB_GARTH",
+          "FB_GREEDER",
+          "FB_MOSQUITO"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 20,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ],
+        "bosses": [
+          "BOSS_FB_CHICKEN"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 2,
+          "prizeTypes": [
+            "EXISTING_WEAPON",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 8,
+        "minimum": 60,
+        "frequency": 500,
+        "enemies": [
+          "FB_EVILSNOWMAN",
+          "FB_ALIENCENTIPEDE",
+          "FB_LEDDER_UNARMED"
+        ],
+        "events": [
+          {
+            "eventType": "FB_CAPSULE_EVENT",
+            "delay": 9000,
+            "repeat": 0
+          },
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 30,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ]
+      },
+      {
+        "minute": 9,
+        "minimum": 60,
+        "frequency": 500,
+        "enemies": [
+          "FB_WALKINGBALL",
+          "FB_MOSQUITO",
+          "FB_GREEDER"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 30,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ]
+      },
+      {
+        "minute": 10,
+        "minimum": 50,
+        "frequency": 200,
+        "enemies": [
+          "FB_WALKINGBALL",
+          "FB_EVILSNOWMAN",
+          "FB_LEDDER_UNARMED"
+        ],
+        "bosses": [
+          "BOSS_FB_METALALIEN"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_WEAPON",
+            "EXISTING_WEAPON"
+          ]
+        }
+      },
+      {
+        "minute": 11,
+        "minimum": 80,
+        "frequency": 100,
+        "enemies": [
+          "FB_MOSQUITO"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 30,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ]
+      },
+      {
+        "minute": 12,
+        "minimum": 100,
+        "frequency": 1000,
+        "enemies": [
+          "FB_WARLORD",
+          "FB_EVILSNOWMAN",
+          "FB_GREEDER"
+        ],
+        "bosses": [
+          "BOSS_FB_CHICKEN"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 2,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 13,
+        "minimum": 140,
+        "frequency": 500,
+        "enemies": [
+          "FB_GREEDER",
+          "FB_LEDDER_UNARMED",
+          "FB_ALIENCENTIPEDE"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": "40",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ],
+        "bosses": [
+          "BOSS_FB_CHICKEN"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_WEAPON",
+            "EXISTING_WEAPON"
+          ]
+        }
+      },
+      {
+        "minute": 14,
+        "minimum": 120,
+        "frequency": 500,
+        "enemies": [
+          "FB_WARLORD",
+          "FB_WALKINGBALL"
+        ],
+        "events": [
+          {
+            "eventType": "FB_CAPSULE_EVENT",
+            "delay": 10000,
+            "repeat": 1
+          },
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "moreX": 20,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "minute": 15,
+        "minimum": 140,
+        "frequency": 500,
+        "enemies": [
+          "FB_BUGGER",
+          "FB_EVILSNOWMAN",
+          "FB_LEDDER_UNARMED"
+        ],
+        "events": [
+          {
+            "eventType": "FB_CAPSULE_EVENT",
+            "delay": 10000,
+            "repeat": 1
+          }
+        ],
+        "bosses": [
+          "BOSS_FB_FLIGHTZAKO"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 16,
+        "minimum": 120,
+        "frequency": 1000,
+        "enemies": [
+          "FB_GIGAFLY",
+          "FB_GREEDER"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ],
+        "bosses": [
+          "BOSS_FB_MUTANTCRAWLER"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 17,
+        "minimum": 140,
+        "frequency": 1000,
+        "enemies": [
+          "FB_WALKINGBALL",
+          "FB_MOSQUITO",
+          "FB_ALIENCENTIPEDE"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ],
+        "bosses": [
+          "BOSS_FB_FLIGHTZAKO"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 18,
+        "minimum": 120,
+        "frequency": 500,
+        "enemies": [
+          "FB_GIGAFLY"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 10
+          }
+        ],
+        "bosses": [
+          "BOSS_FB_MUTANTCRAWLER"
+        ],
+        "treasure": {
+          "chances": [
+            3,
+            10,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVOLUTION",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        }
+      },
+      {
+        "minute": 19,
+        "minimum": 160,
+        "frequency": 500,
+        "enemies": [
+          "FB_MUTANTCRAWLER",
+          "FB_CHICKEN"
+        ],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_LEDDER",
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "minute": 20,
+        "minimum": 1,
+        "frequency": 10000,
+        "enemies": [],
+        "bosses": [
+          "BOSS_XLDEATH"
+        ],
+        "events": [
+          {
+            "eventType": "CYCLE_COMPLETE"
+          }
+        ]
+      }
+    ],
+    "ADV_FB_002_Bullet": [
+      {
+        "stageKey": "ADV_FB_002_Bullet",
+        "tilesetStageType": "ADV_FB_002_Bullet",
+        "cff": "ASSUNTA",
+        "hidden": false,
+        "unlocked": false,
+        "hasLights": true,
+        "hasCharacterSpotlight": true,
+        "order": 1,
+        "stageName": " ",
+        "description": " ",
+        "stageNumber": "Chapter 2",
+        "BGM": "BGM_FB_COVER_00_Jung",
+        "sideBBGM": "BGM_FB_K00_Jung",
+        "tips": " ",
+        "relics": [],
+        "yellowRelics": [],
+        "validForCharcaterData": true,
+        "zoom": 0.17,
+        "uiTexture": "AdventuresUI",
+        "uiFrame": "ADV_FB_002_Bullet",
+        "texture": "UI",
+        "frameName": "icon_firstBlood.png",
+        "frameNameUnlock": "icon_firstBlood.png",
+        "bestiaryBG": "background_space.png",
+        "mods": {
+          "TimeLimit": 1800,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 1.25,
+          "EnemySpeed": 1.25,
+          "ProjectileSpeed": 1,
+          "GoldMultiplier": 1,
+          "EnemyHealthMultiplier": 0.95,
+          "LuckBonus": 1,
+          "XPBonus": 1
+        },
+        "hyper": {
+          "unlocked": true,
+          "TimeLimit": 1800,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 0.65,
+          "EnemySpeed": 0.65,
+          "ProjectileSpeed": 0.25,
+          "GoldMultiplier": 0.5,
+          "EnemyHealthMultiplier": 0,
+          "LuckBonus": 0.2,
+          "XPBonus": 0
+        },
+        "inverse": {
+          "tint": 8947950,
+          "GoldMultiplier": 2,
+          "EnemyHealthMultiplier": 2,
+          "LuckBonus": 0.2,
+          "TimeMods": {
+            "start": 0,
+            "hpPerMinute": 0.05,
+            "speedPerMinute": 0.005
+          }
+        },
+        "randomMinutes": false,
+        "dayNight": false,
+        "BGTextureName": "bg_null",
+        "background": {
+          "movingBackground": false
+        },
+        "tileset": {
+          "setKey": "ForestTexturePacked",
+          "setPath": "assets/tilesets/ForestTexturePacked.png",
+          "mapKey": "Forest",
+          "mapPath": "assets/tilesets/Forest.json",
+          "isTiling": true,
+          "hasWallsCheckDestructibleLogic": true
+        },
+        "destructibleType": "LAMPOST_SINGLE",
+        "destructibleFreq": 1000,
+        "destructibleChance": 10,
+        "destructibleChanceMax": 50,
+        "maxDestructibles": 10,
+
+        "startingSpawns": 20,
+
+        "minute": 0,
+        "minimum": 40,
+        "frequency": 1000,
+        "enemies": [
+          "FB_LEDDER_UNARMED"
+        ],
+        "bosses": [],
+        "events": []
+      },
+    {
+      "minute": 1,
+      "minimum": 20,
+      "frequency": 1000,
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "enemies": [
+        "FB_GREEDER"
+      ],
+      "bosses": [
+        "BOSS_FB_WARLORD"
+      ],
+      "treasure": {
+        "chances": [
+          0,
+          0,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 2,
+      "minimum": 30,
+      "frequency": 1000,
+      "enemies": [
+        "FB_LEDDER_UNARMED",
+        "FB_EVILSNOWMAN",
+        "FB_GREEDER"
+        ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 20,
+      "frequency": 500,
+      "enemies": [
+        "FB_MOSQUITO",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_WARLORD"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "FB_GREEDER",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_CHICKEN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 5,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "FB_EVILSNOWMAN",
+        "FB_MOSQUITO",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_WARLORD"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 60,
+      "frequency": 500,
+      "enemies": [
+        "FB_GREEDER",
+        "FB_EVILSNOWMAN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_CHICKEN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 7,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_LEDDER_UNARMED",
+        "FB_MOSQUITO"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_WARLORD"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 60,
+      "frequency": 500,
+      "enemies": [
+        "FB_GARTH",
+        "FB_GREEDER"
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          15,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 9,
+      "minimum": 40,
+      "frequency": 1000,
+      "enemies": [
+        "FB_EVILSNOWMAN",
+        "FB_ALIENCENTIPEDE",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+    },
+    {
+      "minute": 10,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_MOSQUITO",
+        "FB_LEDDER_UNARMED"
+      ],
+      "bosses": [
+        "BOSS_FB_CHICKEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 100,
+      "frequency": 100,
+      "enemies": [
+        "FB_EVILSNOWMAN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "BOSS_FB_FLIGHTZAKO",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_WARLORD",
+        "FB_LEDDER_UNARMED",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "40",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        },
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ]
+    },
+    {
+      "minute": 13,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_MOSQUITO"
+      ],
+      "bosses": [
+        "BOSS_FB_FLIGHTZAKO"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 14,
+      "minimum": 140,
+      "frequency": 500,
+      "enemies": [
+        "FB_WARLORD",
+        "FB_EVILSNOWMAN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "30",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 15,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_CHICKEN",
+        "FB_LEDDER_UNARMED",
+        "FB_MOSQUITO"
+      ],
+      "bosses": [
+        "BOSS_FB_FLIGHTZAKO"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 16,
+      "minimum": 140,
+      "frequency": 1000,
+      "enemies": [
+        "FB_WALKINGBALL",
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 120,
+      "frequency": 1000,
+      "enemies": [
+        "FB_CHICKEN",
+        "FB_GARTH",
+        "FB_EVILSNOWMAN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER_UNARMED",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 18,
+      "minimum": 180,
+      "frequency": 500,
+      "enemies": [
+        "FB_FLIGHTZAKO"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER_UNARMED",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 19,
+      "minimum": 180,
+      "frequency": 500,
+      "enemies": [
+        "FB_EVILSNOWMAN",
+        "FB_WALKINGBALL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 160,
+      "frequency": 500,
+      "enemies": [
+        "FB_MUTANTCRAWLER",
+        "FB_MOSQUITO",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER_UNARMED",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          5,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 21,
+      "minimum": 180,
+      "frequency": 1000,
+      "enemies": [
+        "FB_FLIGHTZAKO",
+        "FB_WALKINGBALL"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "BOSS_FB_METALALIEN",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 22,
+      "minimum": 220,
+      "frequency": 500,
+      "enemies": [
+        "FB_CHICKEN",
+        "FB_EVILSNOWMAN",
+        "FB_GARTH"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 23,
+      "minimum": 220,
+      "frequency": 1000,
+      "enemies": [
+        "FB_MUTANTCRAWLER",
+        "FB_MOSQUITO"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 24,
+      "minimum": 260,
+      "frequency": 500,
+      "enemies": [
+        "FB_FLIGHTZAKO"
+      ]
+    },
+    {
+      "minute": 25,
+      "minimum": 160,
+      "frequency": 1000,
+      "enemies": [
+        "FB_CHICKEN",
+        "FB_EVILSNOWMAN"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 26,
+      "minimum": 240,
+      "frequency": 500,
+      "enemies": [
+        "FB_MUTANTCRAWLER"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+      ]
+    },
+    {
+      "minute": 27,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_METALALIEN"
+      ]
+    },
+    {
+      "minute": 28,
+      "minimum": 140,
+      "frequency": 1000,
+      "enemies": [
+        "FB_METALALIEN"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 29, 
+      "minimum": 280,
+      "frequency": 1000,
+      "enemies": [
+        "FB_METALALIEN"
+      ]
+    },
+    {
+      "minute": 30,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
+    "ADV_FB_003_NeoCity": [
+      {
+        "stageKey": "ADV_FB_003_NeoCity",
+        "tilesetStageType": "ADV_FB_003_NeoCity",
+        "cff": "LAMA",
+        "hidden": false,
+        "unlocked": false,
+        "hasLights": true,
+        "hasCharacterSpotlight": true,
+        "order": 1,
+        "stageName": " ",
+        "description": " ",
+        "stageNumber": "Chapter 3",
+        "BGM": "BGM_FB_COVER_00_Jung",
+        "sideBBGM": "BGM_FB_K00_Jung",
+        "tips": " ",
+        "relics": [],
+        "yellowRelics": [],
+        "validForCharcaterData": true,
+        "zoom": 0.17,
+        "uiTexture": "AdventuresUI",
+        "uiFrame": "ADV_FB_003_NeoCity",
+        "texture": "UI",
+        "frameName": "icon_firstBlood.png",
+        "frameNameUnlock": "icon_firstBlood.png",
+        "bestiaryBG": "background_space.png",
+        "mods": {
+          "TimeLimit": 1200,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 1.25,
+          "EnemySpeed": 1.20,
+          "ProjectileSpeed": 1,
+          "GoldMultiplier": 1,
+          "EnemyHealthMultiplier": 0.95,
+          "LuckBonus": 1,
+          "XPBonus": 1
+        },
+        "hyper": {
+          "unlocked": true,
+          "TimeLimit": 1200,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 0.65,
+          "EnemySpeed": 0.65,
+          "ProjectileSpeed": 0.25,
+          "GoldMultiplier": 0.5,
+          "EnemyHealthMultiplier": 0,
+          "LuckBonus": 0.2,
+          "XPBonus": 0
+        },
+        "inverse": {
+          "tint": 8947950,
+          "GoldMultiplier": 2,
+          "EnemyHealthMultiplier": 2,
+          "LuckBonus": 0.2,
+          "TimeMods": {
+            "start": 0,
+            "hpPerMinute": 0.05,
+            "speedPerMinute": 0.005
+          }
+        },
+        "randomMinutes": false,
+        "dayNight": false,
+        "BGTextureName": "bg_null",
+        "background": {
+          "movingBackground": false
+        },
+        "tileset": {
+          "setKey": "ForestTexturePacked",
+          "setPath": "assets/tilesets/ForestTexturePacked.png",
+          "mapKey": "Forest",
+          "mapPath": "assets/tilesets/Forest.json",
+          "isTiling": false,
+          "hasWallsCheckDestructibleLogic": true
+        },
+        "destructibleType": "LAMPOST_SINGLE",
+        "destructibleFreq": 1000,
+        "destructibleChance": 10,
+        "destructibleChanceMax": 50,
+        "maxDestructibles": 10,
+
+        "startingSpawns": 10,
+
+        "minute": 0,
+        "minimum": 30,
+        "frequency": 1000,
+        "enemies": [
+          "FB_LEDDER_UNARMED"
+        ],
+        "bosses": [],
+        "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HUMANFACEDDOG",
+          "moreX": 4,
+          "delay": 2000,
+          "repeat": 0,
+          "chance": 100
+        }
+        ]
+      },
+    {
+      "minute": 1,
+      "minimum": 20,
+      "frequency": 1000,
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "enemies": [
+        "FB_HUMANFACEDDOG",
+        "FB_GREEDER"
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 2,
+      "minimum": 40,
+      "frequency": 1000,
+      "enemies": [
+        "FB_LEDDER_UNARMED",
+        "FB_GARTH",
+        "FB_HUMANFACEDDOG"
+        ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 1,
+          "delay": 2000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 3,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "FB_EVILSNOWMAN",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 5,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 30,
+      "frequency": 1000,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_GREEDER",
+        "FB_HUMANFACEDDOG"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 1,
+          "delay": 1000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "FB_GARTH",
+        "FB_LEDDER_UNARMED"
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 70,
+      "frequency": 500,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_EVILSNOWMAN",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "FB_WARLORD"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_FLIGHTZAKO"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_GARTH",
+        "FB_ALIENCENTIPEDE",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 24,
+          "delay": 7000,
+          "repeat": 2,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 9,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_GARTH",
+        "FB_WALKINGBALL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 10,
+      "minimum": 100,
+      "frequency": 200,
+      "enemies": [
+        "FB_HUMANFACEDDOG",
+        "FB_EVILSNOWMAN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": "10",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 70,
+      "frequency": 100,
+      "enemies": [
+        "FB_JUNKYARDCAR",
+        "FB_WALKINGBALL"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 30,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "BOSS_FB_JUNKYARDCAR",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 150,
+      "frequency": 1000,
+      "enemies": [
+        "FB_GARTH"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "40",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        },
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_FLIGHTZAKO"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 13,
+      "minimum": 180,
+      "frequency": 500,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_ALIENCENTIPEDE",
+        "FB_HUMANFACEDDOG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "40",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        },
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ]
+    },
+    {
+      "minute": 14,
+      "minimum": 180,
+      "frequency": 500,
+      "enemies": [
+        "FB_JUNKYARDCAR",
+        "FB_GARTH"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": "40",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 15,
+      "minimum": 160,
+      "frequency": 500,
+      "enemies": [
+        "FB_FLIGHTZAKO",
+        "FB_EVILSNOWMAN"
+      ],
+      "events": [
+        {
+          "eventType": "FB_BIGFUZZ_POINTER",
+          "duration": 179000
+        },
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 16,
+      "minimum": 200,
+      "frequency": 1000,
+      "enemies": [
+        "FB_JUNKYARDCAR"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": "30",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 17,
+      "minimum": 180,
+      "frequency": 1000,
+      "enemies": [
+        "FB_CHICKEN",
+        "FB_WALKINGBALL",
+        "FB_HUMANFACEDDOG"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 5000,
+          "repeat": 0,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 18,
+      "minimum": 240,
+      "frequency": 500,
+      "enemies": [
+        "FB_FLIGHTZAKO"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 19,
+      "minimum": 280,
+      "frequency": 500,
+      "enemies": [
+        "FB_CHICKEN",
+        "FB_GARTH"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
+    "ADV_FB_004_OperationGun": [
+      {
+        "stageKey": "ADV_FB_004_OperationGun",
+        "tilesetStageType": "ADV_FB_004_OperationGun",
+        "cff": "DOMMARIO",
+        "hidden": false,
+        "unlocked": false,
+        "hasLights": true,
+        "hasCharacterSpotlight": true,
+        "order": 1,
+        "stageName": " ",
+        "description": " ",
+        "stageNumber": "Chapter 4",
+        "BGM": "BGM_FB_COVER_00_Jung",
+        "sideBBGM": "BGM_FB_K00_Jung",
+        "tips": " ",
+        "relics": [],
+        "yellowRelics": [],
+        "validForCharcaterData": true,
+        "zoom": 0.17,
+        "uiTexture": "AdventuresUI",
+        "uiFrame": "ADV_FB_004_OperationGun",
+        "texture": "UI",
+        "frameName": "icon_firstBlood.png",
+        "frameNameUnlock": "icon_firstBlood.png",
+        "bestiaryBG": "background_space.png",
+        "mods": {
+          "TimeLimit": 1200,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 1.25,
+          "EnemySpeed": 1.25,
+          "ProjectileSpeed": 1,
+          "GoldMultiplier": 1,
+          "EnemyHealthMultiplier": 1,
+          "LuckBonus": 1,
+          "XPBonus": 1
+        },
+        "hyper": {
+          "unlocked": true,
+          "TimeLimit": 1200,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 0.65,
+          "EnemySpeed": 0.65,
+          "ProjectileSpeed": 0.25,
+          "GoldMultiplier": 0.5,
+          "EnemyHealthMultiplier": 0,
+          "LuckBonus": 0.2,
+          "XPBonus": 0
+        },
+        "inverse": {
+          "tint": 8947950,
+          "GoldMultiplier": 2,
+          "EnemyHealthMultiplier": 2,
+          "LuckBonus": 0.2,
+          "TimeMods": {
+            "start": 0,
+            "hpPerMinute": 0.05,
+            "speedPerMinute": 0.005
+          }
+        },
+        "randomMinutes": false,
+        "dayNight": false,
+        "BGTextureName": "bg_null",
+        "background": {
+          "movingBackground": false
+        },
+        "tileset": {
+          "setKey": "ForestTexturePacked",
+          "setPath": "assets/tilesets/ForestTexturePacked.png",
+          "mapKey": "Forest",
+          "mapPath": "assets/tilesets/Forest.json",
+          "isTiling": true,
+          "hasWallsCheckDestructibleLogic": true
+        },
+        "destructibleType": "LAMPOST_SINGLE",
+        "destructibleFreq": 1000,
+        "destructibleChance": 10,
+        "destructibleChanceMax": 50,
+        "maxDestructibles": 10,
+
+        "startingSpawns": 20,
+
+        "minute": 0,
+        "minimum": 30,
+        "frequency": 1000,
+        "enemies": [
+        "FB_LEDDER_UNARMED"
+        ],
+        "bosses": [],
+        "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_EVILSNOWMAN",
+          "moreX": 6,
+          "delay": 2000,
+          "repeat": 1,
+          "chance": 100
+        }
+        ]
+      },
+    {
+      "minute": 1,
+      "minimum": 40,
+      "frequency": 1000,
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 10,
+          "delay": 6000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "enemies": [
+        "FB_WARLORD",
+        "FB_HUMANFACEDDOG",
+        "FB_GREEDER"
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 2,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_GREEDER",
+        "FB_MOSQUITO"
+        ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 5,
+          "delay": 4000,
+          "repeat": 2,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 3,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 4,
+      "minimum": 60,
+      "frequency": 1000,
+      "enemies": [
+        "FB_EVILSNOWMAN",
+        "FB_GARTH",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 8000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 5,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "FB_WALKINGBALL",
+        "FB_GREEDER"
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "FB_FLIGHTZAKO",
+        "FB_WARLORD",
+        "FB_HUMANFACEDDOG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_CHICKEN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 7,
+      "minimum": 70,
+      "frequency": 500,
+      "enemies": [
+        "FB_EVILSNOWMAN",
+        "FB_ALIENCENTIPEDE",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_FLIGHTZAKO",
+        "FB_WALKINGBALL",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_JUNKYARDCAR"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 9,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_FLIGHTZAKO",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+    },
+    {
+      "minute": 10,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_FLIGHTZAKO",
+        "FB_EVILSNOWMAN",
+        "FB_WALKINGBALL"
+      ],
+      "bosses": [
+        "FB_GORDEA"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 130,
+      "frequency": 500,
+      "enemies": [
+        "FB_WALKINGBALL"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "BOSS_FB_JUNKYARDCAR",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "FB_CHICKEN",
+        "FB_EVILSNOWMAN",
+        "FB_FLIGHTZAKO"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 13,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_JUNKYARDCAR",
+        "FB_WALKINGBALL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "40",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        },
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 14,
+      "minimum": 180,
+      "frequency": 500,
+      "enemies": [
+        "FB_FLIGHTZAKO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 15,
+      "minimum": 130,
+      "frequency": 500,
+      "enemies": [
+        "FB_JUNKYARDCAR",
+        "FB_ALIENCENTIPEDE"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 16,
+      "minimum": 140,
+      "frequency": 1000,
+      "enemies": [
+        "FB_FLIGHTZAKO",
+        "FB_WALKINGBALL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_CHICKEN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 18,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_METALALIEN"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ]
+    },
+    {
+      "minute": 19,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_M78"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_HELLRIDER",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
+    "ADV_FB_005_RunAndGun": [
+      {
+        "stageKey": "ADV_FB_005_RunAndGun",
+        "tilesetStageType": "ADV_FB_005_RunAndGun",
+        "cff": "FB_PROBO",
+        "hidden": false,
+        "unlocked": false,
+        "hasLights": true,
+        "hasCharacterSpotlight": true,
+        "order": 1,
+        "stageName": " ",
+        "description": " ",
+        "stageNumber": "Chapter 5",
+        "BGM": "BGM_FB_COVER_00_Jung",
+        "sideBBGM": "BGM_FB_K00_Jung",
+        "tips": " ",
+        "relics": [],
+        "yellowRelics": [],
+        "validForCharcaterData": true,
+        "zoom": 0.17,
+        "uiTexture": "AdventuresUI",
+        "uiFrame": "ADV_FB_005_RunAndGun",
+        "texture": "UI",
+        "frameName": "icon_firstBlood.png",
+        "frameNameUnlock": "icon_firstBlood.png",
+        "bestiaryBG": "background_space.png",
+        "mods": {
+          "TimeLimit": 1800,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 1.25,
+          "EnemySpeed": 1,
+          "ProjectileSpeed": 1,
+          "GoldMultiplier": 1,
+          "EnemyHealthMultiplier": 0.95,
+          "LuckBonus": 1,
+          "XPBonus": 1
+        },
+        "hyper": {
+          "unlocked": true,
+          "TimeLimit": 1800,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 0.65,
+          "EnemySpeed": 0.65,
+          "ProjectileSpeed": 0.25,
+          "GoldMultiplier": 0.5,
+          "EnemyHealthMultiplier": 0,
+          "LuckBonus": 0.2,
+          "XPBonus": 0
+        },
+        "inverse": {
+          "tint": 8947950,
+          "GoldMultiplier": 2,
+          "EnemyHealthMultiplier": 2,
+          "LuckBonus": 0.2,
+          "TimeMods": {
+            "start": 0,
+            "hpPerMinute": 0.05,
+            "speedPerMinute": 0.005
+          }
+        },
+        "randomMinutes": false,
+        "dayNight": false,
+        "BGTextureName": "bg_null",
+        "background": {
+          "movingBackground": false
+        },
+        "tileset": {
+          "setKey": "ForestTexturePacked",
+          "setPath": "assets/tilesets/ForestTexturePacked.png",
+          "mapKey": "Forest",
+          "mapPath": "assets/tilesets/Forest.json",
+          "isTiling": true,
+          "hasWallsCheckDestructibleLogic": true
+        },
+        "destructibleType": "LAMPOST_SINGLE",
+        "destructibleFreq": 1000,
+        "destructibleChance": 10,
+        "destructibleChanceMax": 50,
+        "maxDestructibles": 10,
+
+        "startingSpawns": 30,
+
+        "minute": 0,
+        "minimum": 30,
+        "frequency": 1000,
+        "enemies": [
+          "FB_LEDDER_UNARMED",
+          "FB_GREEDER"
+        ],
+        "bosses": [],
+        "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 5,
+          "delay": 5000,
+          "repeat": 2,
+          "chance": 100
+        }
+      ],
+      },
+    {
+      "minute": 1,
+      "minimum": 40,
+      "frequency": 1000,
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "enemies": [
+        "FB_POISONOUSINSECTGEL",
+        "FB_GREEDER"
+      ],
+      "bosses": [
+        "BOSS_FB_WARLORD"
+      ],
+      "treasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 2,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "FB_MOSQUITO"
+        ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_WARLORD"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 3,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "FB_BUNDLE"
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "FB_MOSQUITO",
+        "FB_POISONOUSINSECTGEL",
+        "FB_GARTH"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 2,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_WARLORD"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 5,
+      "minimum": 60,
+      "frequency": 500,
+      "enemies": [
+        "FB_ZAKOALIEN",
+        "FB_MOSQUITO",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 60,
+      "frequency": 500,
+      "enemies": [
+        "FB_BUNDLE",
+        "FB_HUMANFACEDDOG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 70,
+      "frequency": 500,
+      "enemies": [
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "FB_GARTH",
+        "FB_MOSQUITO",
+        "FB_BUNDLE"
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 9,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_POISONOUSINSECTGEL",
+        "FB_ZAKOALIEN",
+        "FB_GREEDER",
+      ]
+    },
+    {
+      "minute": 10,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "FB_WARLORD",
+        "FB_BUGGER"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "15",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_GARTH",
+        "FB_BUNDLE"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "BOSS_FB_MUTANTCRAWLER",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 160,
+      "frequency": 1000,
+      "enemies": [
+        "FB_ZAKOALIEN"
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 13,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_METALALIEN",
+        "FB_GREEDER",
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        },
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ]
+    },
+    {
+      "minute": 14,
+      "minimum": 180,
+      "frequency": 1000,
+      "enemies": [
+        "FB_GIGAFLY",
+        "FB_GARTH"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 15,
+      "minimum": 200,
+      "frequency": 1000,
+      "enemies": [
+        "FB_ZAKOALIEN"
+      ]
+    },
+    {
+      "minute": 16,
+      "minimum": 60,
+      "frequency": 1000,
+      "enemies": [
+        "FB_METALALIEN",
+        "FB_POISONOUSINSECTGEL",
+        "FB_GREEDER"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 17,
+      "minimum": 70,
+      "frequency": 1000,
+      "enemies": [
+        "FB_M78",
+        "FB_GARTH",
+        "FB_HUMANFACEDDOG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 18,
+      "minimum": 220,
+      "frequency": 500,
+      "enemies": [
+        "FB_ZAKOALIEN"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 19,
+      "minimum": 90,
+      "frequency": 500,
+      "enemies": [
+        "FB_METALALIEN",
+        "FB_EVILSNOWMAN",
+        "FB_BUNDLE"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "30",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_GIGAFLY",
+        "FB_POISONOUSINSECTGEL",
+        "FB_WARLORD"
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          5,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 21,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "FB_M78",
+        "FB_JUNKYARDCAR",
+        "FB_BUNDLE"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "30",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "BOSS_FB_MUTANTCRAWLER",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 22,
+      "minimum": 160,
+      "frequency": 500,
+      "enemies": [
+        "FB_GIGAFLY",
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          5,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 23,
+      "minimum": 120,
+      "frequency": 1000,
+      "enemies": [
+        "FB_METALALIEN"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 24,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_M78",
+        "FB_BUNDLE"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 25,
+      "minimum": 120,
+      "frequency": 1000,
+      "enemies": [
+        "FB_ZAKOALIEN",
+        "FB_KIMKOH",
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 26,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_M78"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "moreX": "30",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 27,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "FB_KIMKOH",
+        "FB_METALALIEN",
+        "FB_BUGGER"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 28,
+      "minimum": 110,
+      "frequency": 1000,
+      "enemies": [
+        "FB_KIMKOH",
+        "FB_METALALIEN",
+        "FB_BUNDLE"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_FB_POISONOUSINSECTGEL_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 29, 
+      "minimum": 180,
+      "frequency": 1000,
+      "enemies": [
+        "FB_KIMKOH"
+      ]
+    },
+    {
+      "minute": 30,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
+    "ADV_FB_006_Alien": [
+      {
+        "stageKey": "ADV_FB_006_Alien",
+        "tilesetStageType": "ADV_FB_006_Alien",
+        "cff": "CROCI",
+        "hidden": false,
+        "unlocked": false,
+        "hasLights": true,
+        "hasCharacterSpotlight": true,
+        "order": 1,
+        "stageName": " ",
+        "description": " ",
+        "stageNumber": "Chapter 6",
+        "BGM": "BGM_FB_COVER_00_Jung",
+        "sideBBGM": "BGM_FB_K00_Jung",
+        "tips": " ",
+        "relics": [],
+        "yellowRelics": [],
+        "validForCharcaterData": true,
+        "zoom": 0.1,
+        "uiTexture": "AdventuresUI",
+        "uiFrame": "ADV_FB_006_Alien",
+        "texture": "UI",
+        "frameName": "icon_firstBlood.png",
+        "frameNameUnlock": "icon_firstBlood.png",
+        "bestiaryBG": "background_space.png",
+        "mods": {
+          "TimeLimit": 1800,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 1.25,
+          "EnemySpeed": 1.1,
+          "ProjectileSpeed": 1,
+          "GoldMultiplier": 1,
+          "EnemyHealthMultiplier": 0.9,
+          "LuckBonus": 1,
+          "XPBonus": 1
+        },
+        "hyper": {
+          "unlocked": true,
+          "TimeLimit": 1800,
+          "ClockSpeed": 1,
+          "PlayerPxSpeed": 0.65,
+          "EnemySpeed": 0.65,
+          "ProjectileSpeed": 0.25,
+          "GoldMultiplier": 0.5,
+          "EnemyHealthMultiplier": 0,
+          "LuckBonus": 0.2,
+          "XPBonus": 0
+        },
+        "inverse": {
+          "tint": 8947950,
+          "GoldMultiplier": 2,
+          "EnemyHealthMultiplier": 2,
+          "LuckBonus": 0.2,
+          "TimeMods": {
+            "start": 0,
+            "hpPerMinute": 0.05,
+            "speedPerMinute": 0.005
+          }
+        },
+        "randomMinutes": false,
+        "dayNight": false,
+        "BGTextureName": "bg_null",
+        "background": {
+          "movingBackground": false
+        },
+        "tileset": {
+          "setKey": "ForestTexturePacked",
+          "setPath": "assets/tilesets/ForestTexturePacked.png",
+          "mapKey": "Forest",
+          "mapPath": "assets/tilesets/Forest.json",
+          "isTiling": false,
+          "hasWallsCheckDestructibleLogic": true
+        },
+        "destructibleType": "LAMPOST_SINGLE",
+        "destructibleFreq": 1000,
+        "destructibleChance": 10,
+        "destructibleChanceMax": 50,
+        "maxDestructibles": 10,
+
+        "startingSpawns": 60,
+
+        "minute": 0,
+        "minimum": 60,
+        "frequency": 1000,
+        "enemies": [
+          "FB_LEDDER_UNARMED",
+          "FB_GREEDER"
+        ],
+        "bosses": [],
+        "events": [
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_BUGGER_SWARM",
+            "moreX": 10,
+            "delay": 5000,
+            "repeat": 1,
+            "chance": 100
+          }
+        ]
+      },
+    {
+      "minute": 1,
+      "minimum": 40,
+      "frequency": 1000,
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        },
+          {
+            "eventType": "GENERIC_SWARM",
+            "moreY": "FB_BUGGER_SWARM",
+            "moreX": 5,
+            "delay": 6000,
+            "repeat": 1,
+            "chance": 100
+          }
+      ],
+      "enemies": [
+        "FB_POISONOUSINSECTGEL",
+        "FB_MOSQUITO"
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 2,
+      "minimum": 10,
+      "frequency": 1000,
+      "enemies": [
+        "FB_BUNDLE",
+        "FB_LEDDER_UNARMED",
+        "FB_GREEDER"
+        ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "FB_GARTH",
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 60,
+      "frequency": 500,
+      "enemies": [
+        "FB_ZAKOALIEN",
+        "FB_BUNDLE",
+        "FB_LEDDER_UNARMED"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "moreX": 10,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 5,
+      "minimum": 40,
+      "frequency": 1000,
+      "enemies": [
+        "FB_BUGGER",
+        "FB_EVILSNOWMAN"
+      ],
+      "bosses": [
+        "BOSS_FB_METALALIEN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 60,
+      "frequency": 500,
+      "enemies": [
+        "FB_ZAKOALIEN",
+        "FB_POISONOUSINSECTGEL",
+        "FB_HUMANFACEDDOG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "FB_BUNDLE",
+        "FB_MOSQUITO"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "FB_BUGGER",
+        "FB_LEDDER_UNARMED",
+        "FB_ALIENCENTIPEDE"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 9,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_POISONOUSINSECTGEL",
+        "FB_MOSQUITO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+    },
+    {
+      "minute": 10,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "FB_ZAKOALIEN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "moreX": "10",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_MUTANTCRAWLER"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "FB_BUGGER",
+        "FB_BUNDLE",
+        "FB_EVILSNOWMAN"
+      ],
+      "bosses": [
+        "BOSS_FB_M78"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "arcanaHolder": "BOSS_FB_MUTANTCRAWLER",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_ZAKOALIEN",
+        "FB_GIGAFLY",
+        "FB_POISONOUSINSECTGEL"
+      ]
+    },
+    {
+      "minute": 13,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "FB_BUGGER"
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 14,
+      "minimum": 140,
+      "frequency": 500,
+      "enemies": [
+        "FB_GIGAFLY",
+        "FB_GREEDER",
+        "FB_MOSQUITO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "40",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 15,
+      "minimum": 160,
+      "frequency": 500,
+      "enemies": [
+        "FB_ZAKOALIEN"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 16,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_MUTANTCRAWLER",
+        "FB_BUNDLE",
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_LEDDER",
+          "moreX": "30",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 120,
+      "frequency": 1000,
+      "enemies": [
+        "FB_GIGAFLY",
+        "FB_FLIGHTZAKO",
+        "FB_MOSQUITO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "40",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 18,
+      "minimum": 140,
+      "frequency": 500,
+      "enemies": [
+        "FB_MUTANTCRAWLER",
+        "FB_BUGGER",
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 19,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_GIGAFLY",
+        "FB_ALIENCENTIPEDE",
+        "FB_BUNDLE"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "moreX": "20",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 200,
+      "frequency": 500,
+      "enemies": [
+        "FB_ZAKOALIEN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "moreX": "30",
+          "delay": 6000,
+          "repeat": 2,
+          "chance": 100
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          5,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 21,
+      "minimum": 120,
+      "frequency": 1000,
+      "enemies": [
+        "FB_MUTANTCRAWLER",
+        "FB_BUGGER"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "BOSS_FB_M78",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 22,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "FB_GIGAFLY",
+        "FB_MUTANTCRAWLER"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 23,
+      "minimum": 160,
+      "frequency": 1000,
+      "enemies": [
+        "FB_GIGAFLY"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        }
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 24,
+      "minimum": 80,
+      "frequency": 1500,
+      "enemies": [
+        "FB_MUTANTCRAWLER",
+        "FB_POISONOUSINSECTGEL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 2,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 25,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "FB_ZAKOALIEN",
+        "FB_BUGGER"
+      ],
+      "bosses": [
+        "BOSS_FB_TAKA"
+      ],
+      "treasure": {
+        "chances": [
+          10,
+          25,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 26,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "FB_MUTANTCRAWLER",
+        "FB_GIGAFLY"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_BUGGER_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 27,
+      "minimum": 140,
+      "frequency": 1000,
+      "enemies": [
+        "FB_METALALIEN",
+        "FB_KIMKOH"
+      ]
+    },
+    {
+      "minute": 28,
+      "minimum": 160,
+      "frequency": 1000,
+      "enemies": [
+        "FB_M78",
+        "FB_KIMKOH"
+      ],
+      "events": [
+        {
+          "eventType": "FB_CAPSULE_EVENT",
+          "delay": 10000,
+          "repeat": 1
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "FB_GIGAFLY_SWARM",
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ]
+    },
+    {
+      "minute": 29, 
+      "minimum": 200,
+      "frequency": 1000,
+      "enemies": [
+        "FB_KIMKOH"
+      ]
+    },
+    {
+      "minute": 30,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
     "ADV_BAZAAR ": [
       {
         "stageKey": "ADV_BAZAAR ",

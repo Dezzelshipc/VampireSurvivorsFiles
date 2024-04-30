@@ -277,36 +277,6 @@
       }
     ]
   },
-  "SurviveUntilTheEndOfWhiteout": {
-    "description": "Survive 20 minutes in Whiteout.",
-    "characterToUnlock": "SHEMOONITA",
-    "requiresStage": "WHITEOUT",
-    "PlatformsData": [
-      {
-        "Platfrom": "Steam",
-        "Data": "SurviveUntilTheEndOfWhiteout"
-      },
-      {
-        "Platfrom": "GameCore",
-        "Data": "194"
-      }
-    ]
-  },
-  "Survive20MinutesInSpace54": {
-    "description": "Survive 20 minutes in Space 54.",
-    "characterToUnlock": "SPACEDUDE",
-    "requiresStage": "SPAZIE",
-    "PlatformsData": [
-      {
-        "Platfrom": "Steam",
-        "Data": "Survive20MinutesInSpace54"
-      },
-      {
-        "Platfrom": "GameCore",
-        "Data": "201"
-      }
-    ]
-  },
   "Survive20Minutes": {
     "description": "Survive 20 minutes with any character.",
     "weaponToUnlock": "PENTAGRAM",
@@ -347,6 +317,51 @@
       {
         "Platfrom": "GameCore",
         "Data": "49"
+      }
+    ]
+  },
+  "SurviveUntilTheEndOfWhiteout": {
+    "description": "Survive 20 minutes in Whiteout.",
+    "characterToUnlock": "SHEMOONITA",
+    "requiresStage": "WHITEOUT",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "SurviveUntilTheEndOfWhiteout"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "194"
+      }
+    ]
+  },
+  "Survive20MinutesInLaborratory": {
+    "description": "Survive 20 minutes in Laborratory.",
+    "characterToUnlock": "SANTA",
+    "requiresStage": "LABORRATORY",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "Survive20MinutesInLaborratory"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "209"
+      }
+    ]
+  },
+  "Survive20MinutesInSpace54": {
+    "description": "Survive 20 minutes in Space 54.",
+    "characterToUnlock": "SPACEDUDE",
+    "requiresStage": "SPAZIE",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "Survive20MinutesInSpace54"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "201"
       }
     ]
   },
@@ -506,8 +521,23 @@
       }
     ]
   },
+  "GetJavelinToLevel7": {
+    "description": "Get Santa Javelin to Level 7.",
+    "weaponToUnlock": "SANTAJAVELIN",
+    "requiresStage": "LABORRATORY",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "GetJavelinToLevel7"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "207"
+      }
+    ]
+  },
   "GetPhas3rToLevel7": {
-    "description": "Get Phas3r Level 7.",
+    "description": "Get Phas3r to Level 7.",
     "weaponToUnlock": "PHASER",
     "requiresStage": "SPAZIE",
     "PlatformsData": [
@@ -704,19 +734,18 @@
       }
     ]
   },
-  "FindManyGoldenFinger": {
-    "description": "Find 5 Golden Fingers.",
-    "hyperToUnlock": "SPAZIE",
-    "stageToUnlock": "SPAZIE",
-    "requiresItem": "RELIC_MAP",
+  "FindAnArmaDio": {
+    "description": "Find an Arma Dio in Laborratory.",
+    "weaponToUnlock": "ARMADIO",
+    "requiresStage": "LABORRATORY",
     "PlatformsData": [
       {
         "Platfrom": "Steam",
-        "Data": "FindManyGoldenFinger"
+        "Data": "FindAnArmaDio"
       },
       {
         "Platfrom": "GameCore",
-        "Data": "198"
+        "Data": "210"
       }
     ]
   },
@@ -733,6 +762,54 @@
       {
         "Platfrom": "GameCore",
         "Data": "191"
+      }
+    ]
+  },
+  "FindManyRosaries": {
+    "description": "Find 33 Rosaries.",
+    "hyperToUnlock": "LABORRATORY",
+    "stageToUnlock": "LABORRATORY",
+    "requiresItem": "RELIC_MAP",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "FindManyRosaries"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "206"
+      }
+    ]
+  },
+  "FindManyGoldenFinger": {
+    "description": "Find 5 Golden Fingers.",
+    "hyperToUnlock": "SPAZIE",
+    "stageToUnlock": "SPAZIE",
+    "requiresItem": "RELIC_MAP",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "FindManyGoldenFinger"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "198"
+      }
+    ]
+  },
+  "HitManyEnemiesWithTrain": {
+    "description": "Hit a total of 2512 enemies with a train.",
+    "hyperToUnlock": "CARLOCART",
+    "stageToUnlock": "CARLOCART",
+    "requiresStage": "LABORRATORY",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "HitManyEnemiesWithTrain"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "211"
       }
     ]
   },
@@ -1975,6 +2052,20 @@
       }
     ]
   },
+  "Banish40Items": {
+    "description": "Banish 40 or more weapons in a single run.",
+    "powerUpToUnlock": "SEAL3",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "Banish40Items"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "205"
+      }
+    ]
+  },
   "CompleteCollection": {
     "description": "Complete the Collection 1.0",
     "characterToUnlock": "SIGMA",
@@ -2347,6 +2438,22 @@
       {
         "Platfrom": "GameCore",
         "Data": "193"
+      }
+    ]
+  },
+  "EvolveJavelin": {
+    "description": "Evolve the Santa Javelin.",
+    "goldPrize": 500,
+    "weaponIcon": "SANTAJAVELIN2",
+    "requiresStage": "LABORRATORY",
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "EvolveJavelin"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "208"
       }
     ]
   },

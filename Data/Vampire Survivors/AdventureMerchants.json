@@ -95,7 +95,9 @@
       "HOLYBOOK",
       "TRIASSO1",
       "LANCET",
-      "ICELANCE"
+      "ICELANCE",
+      "SANTAJAVELIN",
+      "ARMADIO"
     ]
   },
   "PUGNALA": {
@@ -238,6 +240,28 @@
       "C1_TONGUE1",
       "C1_SAMPLES1",
       "C1_HATCOLLECTION1"
+    ]
+  },
+  "FB_SIMONDO": {
+    "merchantCharacter": "FB_SIMONDO",
+    "portraitSprite": "mercSimondo",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "Simondo_i01",
+    "staticSpriteTexture": "firstBlood",
+    "textLocKey": "adv_merc_FB_SIMONDO",
+    "DLC": "FirstBlood",
+    "merchantInventory": [
+      "FB_FULLAUTO",
+      "FB_RAPIDFIRE",
+      "FB_SPREAD",
+      "FB_LASER",
+      "FB_FIREARM",
+      "FB_SONIC",
+      "FB_BLADECROSSBOW",
+      "FB_PRISMCUTLASS",
+      "FB_HOMING",
+      "FB_DIVERMINES",
+      "FB_METALCLAW"
     ]
   }
 }

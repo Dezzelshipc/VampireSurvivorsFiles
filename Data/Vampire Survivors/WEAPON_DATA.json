@@ -353,7 +353,7 @@
       ],
       "evoInto": "HEAVENSWORD",
       "isUnlocked": false,
-      "poolLimit": 30,
+      "poolLimit": 100,
       "rarity": 80,
       "interval": 2000,
       "repeatInterval": 100,
@@ -2450,7 +2450,8 @@
       "speed": 0,
       "amount": 0,
       "duration": 0,
-      "addEvolvedWeapon": "CANDYBOX2"
+      "addEvolvedWeapon": "CANDYBOX2",
+      "despawnOnUnavailable": false
     }
   ],
   "CANDYBOX2": [
@@ -2481,29 +2482,28 @@
   ],
   "ARMADIO": [
     {
-      "alwaysHidden": true,
       "isUnlocked": false,
       "hidden": true,
-      "isSpecialOnly": true,
-    "level": 1,
-    "sealable": true,
-    "bulletType": "ARMADIO",
-    "name": "Arma Dio",
-    "description": "Allows you to choose any passive weapon.",
-    "tips": "Appearance in level up options affected by Luck.",
-    "texture":"items",
-    "frameName":"armadio.png",
-    "collectionFrame":"frameB_bold.png",
-    "poolLimit": 0,
-    "rarity": 0,
-    "dropRateAffectedByLuck": true,
-    "interval": 9007199254740991,
-    "repeatInterval": 9007199254740991,
-    "power": 0,
-    "area": 0,
-    "speed": 0,
-    "amount": 0,
-    "duration": 0
+      "level": 1,
+      "sealable": true,
+      "bulletType": "ARMADIO",
+      "name": "Arma Dio",
+      "description": "Allows you to choose any passive weapon.",
+      "tips": "Appearance in level up options affected by Luck.",
+      "texture":"items",
+      "frameName":"armadio.png",
+      "collectionFrame":"frameB_bold.png",
+      "poolLimit": 0,
+      "rarity": 10,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "despawnOnUnavailable": false
     }
   ],
   "BATTILIA": [
@@ -2889,60 +2889,108 @@
       "freezeChance": 0.05
     }
   ],
-  "FLIK": [
+  "SANTAJAVELIN": [
     {
-      "alwaysHidden": true,
+      "alwaysHidden": false,
       "isUnlocked": false,
       "hidden": true,
-      "isSpecialOnly": true,
+      "isSpecialOnly": false,
       "level": 1,
       "sealable": true,
-      "bulletType": "FLIK",
-      "price": 10,
-      "name": "Blue Flik",
-      "description": "Damage and Area are also affected by Speed.",
-      "tips": "Ignores: Duration.",
+      "bulletType": "SANTAJAVELIN",
+      "price": 400,
+      "name": "Santa Javelin",
+      "description": "Duration affects Amount. Can deal critical damage.",
+      "tips": "Ignores: Speed.",
       "texture": "items",
-      "frameName": "Whip.png",
+      "frameName": "sjavelin.png",
+      "collectionFrame": "frameB_bold.png",
       "evoSynergy": [
-        "SPEED"
+        "LUCK"
       ],
-      "evoInto": "VAMPIRICA",
-      "poolLimit": 30,
+      "evoInto": "SANTAJAVELIN2",
+      "hitVFX": 5,
+      "poolLimit": 200,
       "rarity": 60,
-      "interval": 1350,
-      "repeatInterval": 100,
-      "power": 1,
+      "interval": 6500,
+      "repeatInterval": 125,
+      "duration": 1000,
+      "power": 2,
       "area": 1,
       "speed": 1,
       "amount": 1,
+      "knockback" : 0,
       "hitsWalls": false,
-      "critChance": 0.2,
+      "critChance": 0.05,
+      "canCrit": true,
       "critMul": 2
+    },
+    {
+      "area": 0.5
+    },
+    {
+      "amount": 1,
+      "interval" : -500
+    },
+    {
+      "power": 1.0
+    },
+    {
+      "area": 0.5,
+      "interval" : -500
     },
     {
       "amount": 1
     },
     {
-      "power": 0.5
+      "power": 1.0,
+      "interval" : -500
     },
     {
-      "power": 0.5,
-      "area": 0.1
-    },
+      "power": 3.0,
+      "addEvolvedWeapon": "SANTAJAVELIN2"
+    }
+  ],
+  "SANTAJAVELIN2": [
     {
-      "power": 0.5
-    },
-    {
-      "power": 0.5,
-      "area": 0.1
-    },
-    {
-      "power": 0.5
-    },
-    {
-      "power": 0.5,
-      "addEvolvedWeapon": "VAMPIRICA"
+      "alwaysHidden": false,
+      "isUnlocked": false,
+      "hidden": true,
+      "isSpecialOnly": false,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "SANTAJAVELIN2",
+      "price": 400,
+      "name": "Seraphic Cry",
+      "description": "Evolved Santa Javelin. Critical damage affected by Luck. Turns Rosaries into Weird Souls Purifiers.",
+      "tips": "Requires Max: Clover.",
+      "texture": "items",
+      "frameName": "sjavelin2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "SANTAJAVELIN"
+      ],
+      "requires": [
+        "LUCK"
+      ],
+      "requiresMax": [
+        "LUCK"
+      ],
+      "hitVFX": 14,
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 5000,
+      "repeatInterval": 200,
+      "duration": 1000,
+      "power": 7.0,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 3,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "canCrit": true,
+      "critMul": 2
     }
   ],
   "PHASER": [
@@ -3136,7 +3184,8 @@
       "area": 1,
       "speed": 4,
       "amount": 4,
-      "duration": 10000
+      "duration": 10000,
+      "hitsWalls": false
     }
   ],
   "SARABANDE": [
@@ -3505,6 +3554,7 @@
       "price": 40,
       "name": "Pummarola",
       "description": "Character recovers 0.2 HP per second.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "HeartRuby.png",
       "evoSynergy": [
@@ -3688,10 +3738,12 @@
       "price": 40,
       "name": "Wings",
       "description": "Character moves 10% faster.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "Wing.png",
       "evoSynergy": [
-        "TRAPANO"
+        "TRAPANO",
+        "ICELANCE"
       ],
       "evoInto": "TRAPANO2",
       "isUnlocked": false,
@@ -3720,6 +3772,7 @@
       "price": 40,
       "name": "Attractorb",
       "description": "Character picks up items from further away.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "OrbGlow.png",
       "evoSynergy": [
@@ -3752,10 +3805,12 @@
       "price": 7,
       "name": "Clover",
       "description": "Character gets 10% luckier.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "Clover.png",
       "evoSynergy": [
-        "CROSS"
+        "CROSS",
+        "SANTAJAVELIN"
       ],
       "evoInto": "HEAVENSWORD",
       "isUnlocked": false,
@@ -3784,6 +3839,7 @@
       "price": 40,
       "name": "Crown",
       "description": "Character gains 8% more experience.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "Crown.png",
       "evoSynergy": [
@@ -3816,6 +3872,7 @@
       "price": 40,
       "name": "Stone Mask",
       "description": "Character earns 10% more Gold coins.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "Mask.png",
       "evoSynergy": [
@@ -3883,6 +3940,7 @@
       "price": 400,
       "name": "Tiragisú",
       "description": "Revives once with 50% Health.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "Tiramisu.png",
       "evoSynergy": [
@@ -4331,6 +4389,63 @@
       "amount": 1
     }
   ],
+  "SANTAJAVELINCOUNTER": [
+    {
+      "alwaysHidden": false,
+      "isUnlocked": false,
+      "hidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "SANTAJAVELINCOUNTER",
+      "price": 400,
+      "name": "Levelin'EEE",
+      "description": "Duration affects Amount. Can deal critical damage.",
+      "tips": "Ignores: Speed.",
+      "texture": "items",
+      "frameName": "sjavelinCounter.png",
+      "collectionFrame": "frameB_bold.png",
+      "hitVFX": 5,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 6500,
+      "repeatInterval": 125,
+      "duration": 1000,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback" : 0,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "canCrit": true,
+      "critMul": 2
+    },
+    {
+      "area": 0.5
+    },
+    {
+      "amount": 1,
+      "interval" : -500
+    },
+    {
+      "power": 1.0
+    },
+    {
+      "area": 0.5,
+      "interval" : -500
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1.0,
+      "interval" : -500
+    },
+    {
+      "power": 3.0
+    }
+  ],
   "SILVER": [
     {
       "level": 1,
@@ -4436,6 +4551,7 @@
       "bulletType": "LEFT",
       "name": "Metaglio Left",
       "description": "Channels dark powers to protect the bearer.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "bsleft.png",
       "evoSynergy": [
@@ -4489,6 +4605,7 @@
       "bulletType": "RIGHT",
       "name": "Metaglio Right",
       "description": "Channels dark powers to curse the bearer.",
+      "appliesOnlyToOwner": true,
       "texture": "items",
       "frameName": "bsright.png",
       "evoSynergy": [

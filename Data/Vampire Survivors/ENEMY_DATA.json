@@ -27,7 +27,9 @@
       "bVariants": [
         "BAT1",
         "BAT2",
-        "BAT3"
+        "BAT3",
+        "FANGEL1",
+        "FANGEL2"
       ]
     }
   ],
@@ -4606,6 +4608,7 @@
 
   "MS_ADV_MADDONNAS1": [
     {
+      "skipCredits": true,
       "level": 1,
       "maxHp": 1,
       "speed": 100,
@@ -4630,6 +4633,7 @@
   ],
   "MS_ADV_MADDONNAS2": [
     {
+      "skipCredits": true,
       "level": 1,
       "maxHp": 0.5,
       "speed": 100,
@@ -4654,6 +4658,7 @@
   ],
   "MS_ADV_MADDONNAS3": [
     {
+      "skipCredits": true,
       "level": 1,
       "maxHp": 1,
       "speed": 100,
@@ -4729,8 +4734,9 @@
   ],
   "EX_BOSS_KITSUNE": [
     {
+      "skipCredits": true,
       "level": 30,
-      "maxHp": 30,
+      "maxHp": 25,
       "speed": 100,
       "power": 25,
       "skills": [
@@ -4772,8 +4778,9 @@
   ],
   "EX_BOSS_KITSUNE_TAIL": [
     {
+      "skipCredits": true,
       "level": 1,
-      "maxHp": 25,
+      "maxHp": 20,
       "speed": 0,
       "power": 10,
       "skills": [
@@ -4804,6 +4811,7 @@
   ],
   "EX_FOXFIRE": [
     {
+      "skipCredits": true,
       "level": 1,
       "maxHp": 1,
       "speed": 400,
@@ -4831,6 +4839,1208 @@
       ]
     }
   ],
+
+  "EX_CONSTABLEBOT": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_CONSTABLEBOT",
+      "level": 5,
+      "maxHp": 25,
+      "speed": 130,
+      "power": 10,
+      "xp": 2.75,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 25,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "ConstableBot_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_TDCCC": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_TDCCC",
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "TDCCC_0.png"
+      ]
+    }
+  ],
+  "EX_RETROBOT": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 30,
+      "speed": 100,
+      "power": 11,
+      "xp": 3.5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "RetroBot_0.png"
+      ],
+      "killedAmount": 0,
+      "bInclude": true,
+      "bVariants": ["EX_TDCCC", "EX_CONSTABLEBOT", "EX_ER2000"],
+      "bPlaces": [
+        "LABORRATORY"
+      ]
+    }
+  ],
+  "EX_BOUNTYHUNTER": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_BOUNTYHUNTER",
+      "level": 4,
+      "maxHp": 13,
+      "speed": 200,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 4,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "BountyHunter_0.png"
+      ],
+      "killedAmount": 0,
+      "bInclude": true,
+      "bPlaces": [
+        "LABORRATORY"
+      ]
+    }
+  ],
+  "EX_ER2000": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_ER2000",
+      "level": 400,
+      "maxHp": 40,
+      "speed": 100,
+      "power": 25,
+      "xp": 25,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "scale" : 1.5,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "bigRoboto_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_APEX": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_APEX",
+      "level": 6,
+      "maxHp": 30,
+      "speed": 160,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "Apex_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "LABORRATORY"
+      ]
+    }
+  ],
+  "EX_GYORUNTIN": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 25,
+      "speed": 280,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 2.75,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "killedAmount": 0,
+      "end": 21,
+      "idleFrameCount": 5,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "Gyoruntin_0.png"
+      ],
+      "passThroughWalls": true,
+      "bInclude": true,
+      "bPlaces": [
+        "LABORRATORY"
+      ]
+    }
+  ],
+  "EX_BOSSGYORUNTIN": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 20,
+      "speed": 150,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "end": 21,
+      "idleFrameCount": 5,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "Gyoruntin_0.png"
+      ],
+      "passThroughWalls": true
+    }
+  ],
+  "EX_BOSSGYORUNTIN_SOLID": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 10,
+      "speed": 150,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "end": 21,
+      "idleFrameCount": 5,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "Gyoruntin_0.png"
+      ],
+      "passThroughWalls": false
+    }
+  ],
+  "EX_COSMICEYE": [
+    {
+      "skipCredits": true,
+      "level": 7,
+      "maxHp": 50,
+      "speed": 150,
+      "power": 15,
+      "skills": [
+        0
+      ],
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 1000,
+      "end": 21,
+      "scale": 2,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "textureName": "enemies2",
+      "idleFrameCount": 30,
+      "frameNames": [
+        "eye_0.png"
+      ]
+    }
+  ],
+  
+  
+  "EX_FISHMAN_1GREEN": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.95,
+      "speed": 140,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "tint": 7191722, 
+      "frameNames": [
+        "Merman3_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RETROBOT_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 25,
+      "speed": 600,
+      "power": 9,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "xp": 2.25,
+      "passThroughWalls": false,
+      "end": 12,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "RetroBot_0.png"
+      ],
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "skills": [
+        1
+      ]
+    }
+  ],
+  "EX_GYORUNTIN_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 25,
+      "speed": 600,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 2.75,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "killedAmount": 0,
+      "end": 21,
+      "idleFrameCount": 5,
+      "scale" : 0.65,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "Gyoruntin_0.png"
+      ],
+      "passThroughWalls": false,
+      "skills": [
+        1
+      ]
+    }
+  ],
+
+  "EX_YTRAINEE_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 640,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies3",
+      "end": 29,
+      "frameNames": [
+        "HoodieY_0.png"
+      ],
+      "skills": [
+        1
+      ]
+    }
+  ],
+  "EX_EXPLOANGEL_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 25,
+      "speed": 480,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "end": 29,
+      "xp": 2.75,
+      "moreX": 15,
+      "moreY": 60,
+      "frameNames": [
+        "largebell_0.png"
+      ],
+      "textureName": "enemies3",
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "skills": [
+        1, 2
+      ]
+    }
+  ],
+  "EX_TRINA_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 7,
+      "maxHp": 70,
+      "speed": 640,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "res_Defang": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "frameNames": [
+        "trina_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies2",
+      "idleFrameCount": 4,
+      "skills": [
+        1
+      ]
+    }
+  ],
+  "EX_COSMICEYE_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 7,
+      "maxHp": 50,
+      "speed": 300,
+      "power": 15,
+      "skills": [
+        0, 1
+      ],
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 1000,
+      "end": 21,
+      "scale": 2,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "textureName": "enemies2",
+      "idleFrameCount": 30,
+      "frameNames": [
+        "eye_0.png"
+      ]
+    }
+  ],
+
+  "EX_MUD_FASTSWARM": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 700,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies",
+      "end": 29,
+      "frameNames": [
+        "Mud_0.png"
+      ],
+      "skills": [
+        1
+      ]
+    }
+  ],
+  "EX_ECTO2_FASTSWARM": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 1.3,
+      "speed": 700,
+      "maxSpeed": 200,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies",
+      "end": 29,
+      "frameNames": [
+        "Ecto2_0.png"
+      ],
+      "skills": [
+        1
+      ]
+    }
+  ],
+  "EX_JELLYFISH2_FASTSWARM": [
+    {
+      "skipCredits": true,
+      "level": 4,
+      "maxHp": 18,
+      "speed": 650,
+      "power": 10,
+      "skills": [
+        1
+      ],
+      "knockback": 0.2,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.5,
+      "res_Defang": 1,
+      "frameNames": [
+        "Jelly_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+
+  "EX_CONSTABLEBOT_RANGED": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 25,
+      "speed": 130,
+      "power": 10,
+      "xp": 2.75,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 25,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "ConstableBot_0.png"
+      ],
+      "killedAmount": 0,
+
+      "fireDelay": 500,
+      "bulletType": "BULLET_SM1"
+    }
+  ],
+  "EX_TDCCC_RANGED": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_TDCCC",
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "TDCCC_0.png"
+      ],
+
+      "fireDelay": 500,
+      "bulletType": "BULLET_SM1"
+    }
+  ],
+  "EX_BOUNTYHUNTER_RANGED": [
+    {
+      "skipCredits": true,
+      "level": 4,
+      "maxHp": 13,
+      "speed": 200,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 4,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "end": 21,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "BountyHunter_0.png"
+      ],
+
+      "fireDelay": 500,
+      "bulletType": "BULLET_SM1"
+    }
+  ],
+  "EX_ER2000_RANGED": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_ER2000",
+      "level": 400,
+      "maxHp": 40,
+      "speed": 100,
+      "power": 25,
+      "xp": 25,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "scale" : 1.5,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "bigRoboto_0.png"
+      ],
+      "killedAmount": 0,
+
+      "fireDelay": 250,
+      "bulletType": "BULLET_SM2"
+    }
+  ],
+  
+  "BULLET_SM1": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 400,
+      "power": 5,
+      "skills": [
+        1
+      ],
+      "scale": 0.5,
+      "passThroughWalls": true,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "frameNames": [
+        "Bullet1_0.png"
+      ],
+      "end": 0,
+      "textureName": "enemies",
+      "killedAmount": 0
+    }
+  ],
+  "BULLET_SM2": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 500,
+      "power": 5,
+      "skills": [
+        1
+      ],
+      "scale": 0.5,
+      "passThroughWalls": true,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "frameNames": [
+        "Bullet1_0.png"
+      ],
+      "end": 0,
+      "textureName": "enemies",
+      "killedAmount": 0
+    }
+  ],
+
+  "EX_RACING_BAT3": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 16,
+      "idleFrameCount": 4,
+      "textureName": "enemies",
+      "frameNames": [
+        "Bat3_0.png"
+      ]
+    }
+  ],
+  "EX_RACING_XLBAT": [
+    {
+      "skipCredits": true,
+      "level": 10,
+      "maxHp": 27,
+      "speed": 140,
+      "power": 10,
+      "knockback": 0.1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 17,
+      "idleFrameCount": 4,
+      "textureName": "enemies",
+      "frameNames": [
+        "XLBat_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": -8,
+        "offsetX": 0
+      }
+    }
+  ],
+  "EX_RACING_RETRO": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 30,
+      "speed": 100,
+      "power": 11,
+      "xp": 3.5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "RetroBot_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+
+  "EX_RACING_FISHMAN_1": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "frameNames": [
+        "Fishman_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_LIZARD2_3": [
+    {
+      "skipCredits": true,
+      "level": 3,
+      "maxHp": 12,
+      "speed": 100,
+      "power": 7,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 4,
+      "frameNames": [
+        "Lizard2_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_LIZARD1_2": [
+    {
+      "skipCredits": true,
+      "level": 2,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 6,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.2,
+      "frameNames": [
+        "Lizard1_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_MERMA1_3": [
+    {
+      "skipCredits": true,
+      "level": 3,
+      "maxHp": 6,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Merman1_0.png"
+      ]
+    }
+  ],
+  "EX_RACING_MERMA2_4": [
+    {
+      "skipCredits": true,
+      "level": 4,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 3,
+      "frameNames": [
+        "Merman2_0.png",
+        "Merman3_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+
+  "EX_RACING_PILE1": [
+    {
+      "skipCredits": true,
+      "level": 2,
+      "maxHp": 2.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 1.5,
+      "fireDelay": 2000,
+      "bulletType": "BULLET_1",
+      "frameNames": [
+        "Pile1_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_PILE2": [
+    {
+      "skipCredits": true,
+      "level": 3,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 1.75,
+      "fireDelay": 1500,
+      "bulletType": "BULLET_2",
+      "frameNames": [
+        "Pile2_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_PILE3": [
+    {
+      "skipCredits": true,
+      "level": 4,
+      "maxHp": 18,
+      "speed": 120,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 2,
+      "fireDelay": 1000,
+      "bulletType": "BULLET_3",
+      "frameNames": [
+        "Pile3_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_BOSS_PILE3": [
+    {
+      "skipCredits": true,
+      "level": 4,
+      "maxHp": 7,
+      "speed": 140,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 30,
+      "scale": 1.5,
+      "frameNames": [
+        "Pile3_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_BOSS_MERMAN": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 11,
+      "skills": [
+        0
+      ],
+      "scale": 1.5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 40,
+      "frameNames": [
+        "Merman2_0.png",
+        "Merman3_0.png"
+      ],
+      "end": 29,
+      "idleFrameCount": 4,
+      "textureName": "enemies",
+      "killedAmount": 0
+    }
+  ],
+  "EX_RACING_BUER": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.4,
+      "speed": 200,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        0, 1
+      ],
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies",
+      "end": 29,
+      "frameNames": [
+        "Buer_0.png"
+      ]
+    }
+  ],
+  "EX_RACING_IMP": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 1.3,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2",
+      "end": 17,
+      "frameNames": [
+        "Imp_0.png"
+      ]
+    }
+  ],
+  "EX_RACING_XLDRAGON1": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 3.0,
+      "speed": 200,
+      "power": 3,
+      "knockback": 0.6,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "textureName": "enemies2",
+      "end": 15,
+      "frameNames": [
+        "XLDragon1_0.png"
+      ]
+    }
+  ],
+  "EX_RACING_BOSS_MIGNO2_5": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 6,
+      "speed": 200,
+      "power": 11,
+      "skills": [
+        0
+      ],
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 30,
+      "frameNames": [
+        "Migno2_0.png"
+      ],
+      "end": 29,
+      "idleFrameCount": 4,
+      "textureName": "enemies",
+      "killedAmount": 0
+    }
+  ],
+  
+  "EX_CART_REAPER": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 65535,
+      "speed": 300,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      "end": 29,
+      "idleFrameCount": 8,
+      "textureName": "enemies",
+      "frameNames": [
+        "XLReaper_0.png"
+      ]
+    }
+  ],
+  "EX_CART_TRICKSTER": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 65535,
+      "speed": 300,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      "end": 29,
+      "idleFrameCount": 8,
+      "textureName": "enemies3",
+      "frameNames": [
+        "Trickster_0.png"
+      ]
+    }
+  ],
+  "EX_CART_STALKER": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 65535,
+      "speed": 300,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      "end": 29,
+      "idleFrameCount": 8,
+      "textureName": "enemies",
+      "frameNames": [
+        "Stalker_0.png"
+      ]
+    }
+  ],
+  "EX_CART_DROWNER": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 65535,
+      "speed": 300,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      "end": 29,
+      "idleFrameCount": 8,
+      "textureName": "enemies2",
+      "frameNames": [
+        "XLDrowner_0.png"
+      ]
+    }
+  ],
+  "EX_CART_MADDENER": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 65535,
+      "speed": 300,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      "end": 29,
+      "idleFrameCount": 8,
+      "textureName": "enemies3",
+      "frameNames": [
+        "Maddener_0.png"
+      ]
+    }
+  ],
+  "EX_CART_BLINDER": [
+    {
+      "skipCredits": true,
+      "level": 100,
+      "maxHp": 65535,
+      "speed": 300,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      
+      "end": 13,
+      "idleFrameCount": 4,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "Sleeper_0.png"
+      ]
+    }
+  ],
+
+  
   "EX_BATS_COUNTER": [
     {
       "enemyType": "EX_BATS_COUNTER",

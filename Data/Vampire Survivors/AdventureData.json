@@ -659,7 +659,10 @@
           "requiredLevel": 80
         }
       }
-    }
+    },
+    "EXTRA_BESTIARY_TYPES": [
+      "MS_GOSHADOKURO"
+    ]
   },
   "ADV_EMER_001": {
     "progressKey": "EmergencyMeeting",
@@ -934,5 +937,404 @@
         }
       }
     }
+  },
+  "ADV_FBLOOD_001": {
+    "progressKey": "OperationGuns",
+    "index": 10050,
+    "coreAdventureData": {
+      "name": "Operation Guns",
+      "startingCoins": 10000,
+      "completionCoinReward": 100000,
+      "startingCharacter": "FB_BILLRIZER",
+      "startingStage": "ADV_FB_001_Attack",
+      "requiresDLC": "FirstBlood",
+      "subtitleImage": "ADV_Title_Opration Guns"
+    },
+    "CHARACTER_DATA": [
+      "FB_BILLRIZER",
+      "FB_LANCE",
+      "FB_ARIANA",
+      "FB_LUCIA",
+      "FB_BRADFANG",
+      "FB_BROWNY",
+      "FB_SHEENA",
+      "FB_PROBO",
+      "FB_STANLEY",
+      "FB_NEWT",
+      "FB_COLONEL",
+      "FB_SIMONDO",
+      "ASSUNTA",
+      "LAMA",
+      "DOMMARIO",
+      "CROCI"
+    ],
+    "STAGE_DATA": "STAGESET_FIRSTBLOOD",
+    "WEAPON_DATA": [
+      "FB_FULLAUTO",
+      "FB_PROTOTYPE_A",
+      "FB_RAPIDFIRE",
+      "FB_PROTOTYPE_B",
+      "FB_SPREAD",
+      "FB_PROTOTYPE_C",
+      "FB_LASER",
+      "FB_PROTONBEAM",
+      "FB_FIREARM",
+      "FB_FIREWALL",
+      "FB_SONIC",
+      "FB_WAVE",
+      "FB_BLADECROSSBOW",
+      "FB_CROSSBOWCRASH",
+      "FB_PRISMCUTLASS",
+      "FB_TIMEWARP",
+      "FB_HOMING",
+      "FB_MULTISTAGE",
+      "FB_DIVERMINES",
+      "FB_CRUSH",
+      "FB_METALCLAW",
+      "FB_BIGFUZZYFIST",
+      "VENTO",
+      "VENTO2",
+      "AXE",
+      "SCYTHE",
+      "HOLYBOOK",
+      "VESPERS",
+      "CROSS",
+      "HEAVENSWORD",
+      "POWER",
+      "SPEED",
+      "ARMOR",
+      "AREA",
+      "MAXHEALTH",
+      "AMOUNT",
+      "COOLDOWN",
+      "LUCK",
+      "MAGNET",
+      "MOVESPEED",
+      "REVIVAL",
+      "ARMADIO",
+      "FB_WEAPONPU"
+    ],
+
+    "PROGRESS_DATA": {
+      "FB_ACH001": {
+        "progressKey": "FB_ACH001",
+        "description": "Find and destroy the Metal Alien in Attack Aggressively.",
+        "stageToUnlock": "ADV_FB_002_Bullet",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter2",
+          "requiredStage": "ADV_FB_001_Attack",
+          "requiredEnemyKillType": "BOSS_FB_METALALIEN",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FB_ACH002": {
+        "progressKey": "FB_ACH002",
+        "description": "Survive for 15 minutes in Bullet Biters.",
+        "stageToUnlock": "ADV_FB_003_NeoCity",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter3",
+          "requiredMinute": 15,
+          "requiredStage": "ADV_FB_002_Bullet"
+        }
+      },
+      "FB_ACH003": {
+        "progressKey": "FB_ACH003",
+        "description": "Defeat the M78 after 10 minutes in Neo City Chaos.",
+        "stageToUnlock": "ADV_FB_004_OperationGun",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter4",
+          "requiredStage": "ADV_FB_003_NeoCity",
+          "requiredEnemyKillType": "BOSS_FB_M78",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FB_ACH004": {
+        "progressKey": "FB_ACH004",
+        "description": "Defeat Big Bot Gordea after 10 minutes in Operation: Gun City.",
+        "stageToUnlock": "ADV_FB_005_RunAndGun",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter5",
+          "requiredStage": "ADV_FB_004_OperationGun",
+          "requiredEnemyKillType": "FB_GORDEA",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FB_ACH005": {
+        "progressKey": "FB_ACH005",
+        "description": "Find a new ally in Run & Gun.",
+        "stageToUnlock": "ADV_FB_006_Alien",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter6",
+          "requiredStage": "ADV_FB_005_RunAndGun",
+          "foundCoffin": "FB_PROBO"
+        }
+      },
+      "FB_ACH006": {
+        "progressKey": "FB_ACH006",
+        "description": "Defeat Taka after 15 minutes in Alien Revengeance.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapterFinal",
+          "requiredEnemyKillType": "BOSS_FB_TAKA",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FB_ACH007": {
+        "progressKey": "FB_ACH007",
+        "description": "Find a Weapon Power-Up.",
+        "characterToUnlock": "FB_LANCE",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbLance",
+          "foundWeaponType": "FB_WEAPONPU"
+        }
+      },
+      "FB_ACH008": {
+        "progressKey": "FB_ACH008",
+        "description": "Evolve the Long Gun.",
+        "characterToUnlock": "FB_LUCIA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbLucia",
+          "foundWeaponType": "FB_PROTOTYPE_A"
+        }
+      },
+      "FB_ACH009": {
+        "progressKey": "FB_ACH009",
+        "description": "Find Ariana in Attack Agressively.",
+        "characterToUnlock": "FB_ARIANA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbAriana",
+          "foundCoffin": "FB_ARIANA"
+        }
+      },
+      "FB_ACH010": {
+        "progressKey": "FB_ACH010",
+        "description": "Survive for 20 minutes in Attack Agressively.",
+        "characterToUnlock": "FB_BRADFANG",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbBrad",
+          "requiredStage": "ADV_FB_001_Attack",
+          "requiredMinute": 20
+        }
+      },
+      "FB_ACH011": {
+        "progressKey": "FB_ACH011",
+        "description": "Evolve the Homing Miss.",
+        "characterToUnlock": "FB_STANLEY",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbStanley",
+          "foundWeaponType": "FB_MULTISTAGE"
+        }
+      },
+      "FB_ACH012": {
+        "progressKey": "FB_ACH012",
+        "description": "Evolve the Blade Crossbow.",
+        "characterToUnlock": "FB_SHEENA",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbSheena",
+          "foundWeaponType": "FB_CROSSBOWCRASH"
+        }
+      },
+      "FB_ACH013": {
+        "progressKey": "FB_ACH013",
+        "description": "Evolve the Sonic Bloom.",
+        "characterToUnlock": "FB_BROWNY",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbBrowny",
+          "foundWeaponType": "FB_WAVE"
+        }
+      },
+      "FB_ACH014": {
+        "progressKey": "FB_ACH014",
+        "description": "Defeat Kimkoh.",
+        "characterToUnlock": "FB_NEWT",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbNewt",
+          "requiredEnemyKillType": "FB_KIMKOH",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FB_ACH015": {
+        "progressKey": "FB_ACH015",
+        "description": "Defeat Big Fuzz in the Northeast of Neo City.",
+        "characterToUnlock": "FB_COLONEL",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbColonel",
+          "requiredEnemyKillType": "BOSS_FB_BIGFUZZ",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FB_ACH027": {
+        "progressKey": "FB_ACH027",
+        "description": "Find Probotector in Run and Gun.",
+        "goldPrize": 500,
+        "characterToUnlock": "FB_PROBO",
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbProbo",
+          "foundCoffin": "FB_PROBO"
+        }
+      },
+      "FB_ACH016": {
+        "progressKey": "FB_ACH016",
+        "description": "Rescue Zi'Assunta in Bullet Biters.",
+        "characterToUnlock": "ASSUNTA",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_assunta",
+          "foundCoffin": "ASSUNTA"
+        }
+      },
+      "FB_ACH017": {
+        "progressKey": "FB_ACH017",
+        "description": "Rescue Lama in Neo City Chaos.",
+        "characterToUnlock": "LAMA",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_lama",
+          "foundCoffin": "LAMA"
+        }
+      },
+      "FB_ACH018": {
+        "progressKey": "FB_ACH018",
+        "description": "Rescue Dommario in Operation: Gun City.",
+        "characterToUnlock": "DOMMARIO",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_dommario",
+          "foundCoffin": "DOMMARIO"
+        }
+      },
+      "FB_ACH019": {
+        "progressKey": "FB_ACH019",
+        "description": "Rescue Krochi in Alien Revengeance. ",
+        "characterToUnlock": "CROCI",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_croci",
+          "foundCoffin": "CROCI"
+        }
+      },
+      "FB_ACH020": {
+        "progressKey": "FB_ACH020",
+        "description": "Defeat Simondo.",
+        "characterToUnlock": "FB_SIMONDO",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_fbSimondo",
+          "requiredEnemyKillType": "FB_SIMONDO",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FB_ACH021": {
+        "progressKey": "FB_ACH021",
+        "description": "Evolve the Short Gun.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "fb_A2_prototype",
+          "foundWeaponType": "FB_PROTOTYPE_B"
+        }
+      },
+      "FB_ACH022": {
+        "progressKey": "FB_ACH022",
+        "description": "Evolve the Spread Shot.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "fb_spread2",
+          "foundWeaponType": "FB_PROTOTYPE_C"
+        }
+      },
+      "FB_ACH023": {
+        "progressKey": "FB_ACH023",
+        "description": "Evolve the C-U-Laser.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "fb_laser2",
+          "foundWeaponType": "FB_PROTONBEAM"
+        }
+      },
+      "FB_ACH024": {
+        "progressKey": "FB_ACH024",
+        "description": "Evolve the Firearm.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "fb_fire2",
+          "foundWeaponType": "FB_FIREWALL"
+        }
+      },
+      "FB_ACH025": {
+        "progressKey": "FB_ACH025",
+        "description": "Evolve the Diver Mines.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "fb_B1_crush",
+          "foundWeaponType": "FB_CRUSH"
+        }
+      },
+      "FB_ACH026": {
+        "progressKey": "FB_ACH026",
+        "description": "Evolve the Metal Claw.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "fb_claw2",
+          "foundWeaponType": "FB_BIGFUZZYFIST"
+        }
+      },
+      "FB_ACH028": {
+        "progressKey": "FB_ACH028",
+        "description": "Reach Level 80.",
+        "stageToUnlock": "ADV_BAZAAR",
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "stage_bazaar_icon",
+          "requiredLevel": 80,
+          "requiredStage": "ADV_FB_006_Alien"
+        }
+      }
+    },
+    "EXTRA_BESTIARY_TYPES": [
+      "FB_SIMONDO",
+      "BOSS_FB_BIGFUZZ",
+      "FB_HELLRIDER"
+    ]
   }
 }

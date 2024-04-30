@@ -1,5 +1,21 @@
 import os
 import json
+import re
+
+
+def clean_json(string):
+    string = re.sub(",[ \t\r\n]+}", "}", string)
+    string = re.sub(",[ \t\r\n]+]", "]", string)
+
+    return string
+
+
+def open_f(path):
+    return open(path, "r", errors='ignore')
+
+
+def gen_path(paths, name):
+    return ([i for i in paths if f"{name}_data" in i.lower()] + [i for i in paths if name in i.lower()] + [""])[0]
 
 
 def __generator_concatenate():
@@ -18,32 +34,38 @@ def __generator_concatenate():
     total_len = len(names)
 
     for i, name in enumerate(names):
-        vspath = ([i for i in vs if name in i.lower()] + [""])[0]
-        mspath = ([i for i in ms if name in i.lower()] + [""])[0]
-        tfpath = ([i for i in tf if name in i.lower()] + [""])[0]
-        chpath = ([i for i in ch if name in i.lower()] + [""])[0]
+        print(name)
+        vspath = gen_path(vs, name)
+        mspath = gen_path(ms, name)
+        tfpath = gen_path(tf, name)
+        chpath = gen_path(ch, name)
 
-        with open(vspath, "r", encoding="UTF-8") as vsfile:
-            outdata = json.loads(vsfile.read())
-        vs.remove(vspath)
+        try:
+            with open_f(vspath) as vsfile:
+                vsfile = vsfile.read()
+                vsfile = clean_json(vsfile)
+                outdata = json.loads(vsfile)
+            vs.remove(vspath)
 
-        if mspath:
-            with open(mspath, "r", encoding="UTF-8") as msfile:
-                outdata.update(json.loads(msfile.read()))
-            ms.remove(mspath)
+            if mspath:
+                with open_f(mspath) as msfile:
+                    outdata.update(json.loads(msfile.read()))
+                ms.remove(mspath)
 
-        if tfpath:
-            with open(tfpath, "r", encoding="UTF-8") as tffile:
-                outdata.update(json.loads(tffile.read()))
-            tf.remove(tfpath)
+            if tfpath:
+                with open_f(tfpath) as tffile:
+                    outdata.update(json.loads(tffile.read()))
+                tf.remove(tfpath)
 
-        if chpath:
-            with open(chpath, "r", encoding="UTF-8") as chfile:
-                outdata.update(json.loads(chfile.read()))
-            ch.remove(chpath)
+            if chpath:
+                with open_f(chpath) as chfile:
+                    outdata.update(json.loads(chfile.read()))
+                ch.remove(chpath)
 
-        with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
-            outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))
+            with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
+                outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))
+        except json.decoder.JSONDecodeError as e:
+            print(f"{name} skipped: error {e}")
 
         yield i, total_len
 

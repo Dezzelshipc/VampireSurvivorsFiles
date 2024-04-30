@@ -488,6 +488,8 @@ class Unpacker(tk.Tk):
             lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
             if lang:
                 lang = lang.get('en')
+            else:
+                print(f"lang file not found: {gen.langFileName}")
 
             texture_set = gen.textures_set(data)
 
@@ -496,7 +498,9 @@ class Unpacker(tk.Tk):
                     continue
 
                 meta = list(filter(lambda x: x.name.startswith(f"{texture}") and x.name.endswith(f"{texture}.png.meta"),
-                                   all_assets))[0]
+                                   all_assets))
+                print(texture, meta)
+                meta = meta[0]
                 m_dir, m_file = os.path.split(meta)
                 self.outer_progress_bar.change_label(f"Parsing {m_file}")
                 self.get_meta_by_full_path(m_dir, m_file)

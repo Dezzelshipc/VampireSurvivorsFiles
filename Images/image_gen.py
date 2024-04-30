@@ -20,6 +20,7 @@ class Type(Enum):
 class IGFactory:
     @staticmethod
     def get(data_file: str):
+        data_file = data_file.lower()
         if "weapon" in data_file:
             return WeaponImageGenerator()
         elif "character" in data_file:
@@ -85,7 +86,11 @@ class ImageGenerator:
         return Image.open(full_path)
 
     def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1):
-        rect = meta.get(file_name) or meta.get(int(file_name))
+        try:
+            rect = meta.get(file_name) or meta.get(int(file_name))
+        except ValueError:
+            rect = None
+
         if rect is None:
             print(f"Skipped {name}")
             return
@@ -168,10 +173,12 @@ class SimpleGenerator(ImageGenerator):
                 save_dlc = "/chalcedony"
             case "frameB_red.png":
                 save_dlc = "/red_dlc"
+            case "frameB_gray.png":
+                save_dlc = "/guns"
 
         save_folder += f"/{save_dlc}"
 
-        if lang_file:
+        if lang_file and lang_file.get(k_id):
             name = lang_file.get(k_id).get(self.dataObjectKey)
 
         if "Megalo" in obj.get('prefix', ''):
@@ -194,7 +201,8 @@ class ItemImageGenerator(SimpleGenerator):
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
-        self.langPath = "itemLang.json"
+        self.langFileName = "itemLang.json"
+        self.defaultFrameName = "frameB.png"
 
 
 class ArcanaImageGenerator(SimpleGenerator):
@@ -206,7 +214,7 @@ class ArcanaImageGenerator(SimpleGenerator):
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
-        self.langPath = "arcanaLang.json"
+        self.langFileName = "arcanaLang.json"
 
     @staticmethod
     def change_name(name):
@@ -244,7 +252,7 @@ class CharacterImageGenerator(TableGenerator):
         self.dataSpriteKey = "spriteName"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "charName"
-        self.langPath = "characterLang.json"
+        self.langFileName = "characterLang.json"
 
 
 class PowerUpImageGenerator(TableGenerator):
@@ -255,7 +263,7 @@ class PowerUpImageGenerator(TableGenerator):
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
-        self.langPath = "powerUpLang.json"
+        self.langFileName = "powerUpLang.json"
 
         self.defaultFrameName = "frameD.png"
 
@@ -275,7 +283,7 @@ class EnemyImageGenerator(TableGenerator):
         self.dataSpriteKey = "frameNames"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = None
-        self.langPath = "enemiesLang.json"
+        self.langFileName = "enemiesLang.json"
 
         self.folderToSave = "enemy"
 
@@ -292,12 +300,15 @@ class StageImageGenerator(TableGenerator):
         self.dataSpriteKey = "uiFrame"
         self.dataTextureKey = "uiTexture"
         self.dataObjectKey = "stageName"
-        self.langPath = "stageLang.json"
+        self.langFileName = "stageLang.json"
 
         self.folderToSave = "stage"
 
     @staticmethod
     def save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=1):
+        if im_obj is None:
+            return
+
         p_dir = os.path.split(__file__)[0]
 
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'

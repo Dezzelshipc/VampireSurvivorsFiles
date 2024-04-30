@@ -194,6 +194,32 @@
     "sealable": true,
     "requiresItem": "RELIC_TRISECTION"
   },
+  "CART_ACCEL": {
+    "name": "Acceleration",
+    "description": "",
+    "tips": "",
+    "texture": "items",
+    "frameName": "_Accel1.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 0
+  },
+  "CART_GOAL": {
+    "name": "Goal",
+    "description": "",
+    "tips": "",
+    "texture": "items",
+    "frameName": "chequered0.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 0
+  },
   "WEAPON": {
     "name": "Weapon",
     "description": "NA",
@@ -799,6 +825,23 @@
     "value": 0,
     "isRelic": true,
     "requiresDLC": "Chalcedony"
+  },
+  "RELIC_MAP_FB": {
+    "name": "Galuga Jungle Map",
+    "description": "Displays a detailed map when in Galuga Jungle.",
+    "tips": "",
+    "achievementTips": "Galuga Jungle Map.",
+    "collectionFrame": "frameB_gray.png",
+    "texture": "items",
+    "frameName": "Map_FB.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 0,
+    "isRelic": true,
+    "requiresDLC": "FirstBlood"
   },
   "RELIC_RANDOMAZZO": {
     "name": "Randomazzo",

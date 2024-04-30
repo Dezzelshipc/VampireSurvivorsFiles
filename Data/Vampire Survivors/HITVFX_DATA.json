@@ -89,5 +89,19 @@
     "hitFrameName": "HitStarWhite2.png",
     "impactFrameName": "HitCrossImpact3.png",
     "duration": 60
+  },
+  "13": {
+    "isTintFill": true,
+    "targetTint": 16711680,
+    "hitFrameName": "HitBoom2.png",
+    "impactFrameName": "HitSmoke2.png",
+    "duration": 60
+  },
+  "14": {
+    "isTintFill": true,
+    "targetTint": 16776345,
+    "hitFrameName": "HitStar2.png",
+    "impactFrameName": "HitStarWhite1.png",
+    "duration": 30
   }
 }

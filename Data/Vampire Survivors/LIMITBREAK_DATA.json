@@ -1293,6 +1293,58 @@
       "max": 10
     }
   ],
+  "SANTAJAVELIN": [
+    {
+      "rarity": 10,
+      "power": 0.03
+    },
+    {
+      "rarity": 10,
+      "area": 0.02,
+      "max": 4
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 10000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.01,
+      "max": 1
+    }
+  ],
+  "SANTAJAVELIN2": [
+    {
+      "rarity": 10,
+      "power": 0.03
+    },
+    {
+      "rarity": 10,
+      "area": 0.02,
+      "max": 4
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 10000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.01,
+      "max": 1
+    }
+  ],
   "PHASER": [
     {
       "rarity": 10,

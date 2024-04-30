@@ -584,9 +584,54 @@
       "hidden": true,
       "bulletType": "SEAL2",
       "name": "Seal II",
-      "description": "Allows to Banish an item from level up choices, or a pickup from light sources. Use in COLLECTION menu.",
+      "description": "Allows to Banish two items from level up choices, or pickup from light sources. Use in COLLECTION menu.",
       "texture": "items",
       "frameName": "sealIcon2.png",
+      "isPowerUp": true,
+      "isAnUnlockable": true,
+      "price": 10000,
+      "seal": 1,
+      "unlockedRank": 10,
+      "specialBG": true,
+      "active": true
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    }
+  ],
+  "SEAL3": [
+    {
+      "level": 0,
+      "hidden": true,
+      "bulletType": "SEAL3",
+      "name": "Seal III",
+      "description": "Allows to Banish three items from level up choices, or pickups from light sources. Use in COLLECTION menu.",
+      "texture": "items",
+      "frameName": "sealIcon3.png",
       "isPowerUp": true,
       "isAnUnlockable": true,
       "price": 10000,

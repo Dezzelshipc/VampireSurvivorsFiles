@@ -56,13 +56,13 @@
       "skips": 0,
       "banish": 0,
       "showcase": [
-        "ICELANCE",
-        "ICELANCE",
-        "ICELANCE",
-        "ICELANCE",
-        "ICELANCE",
-        "ICELANCE",
-        "ICELANCE",
+        "WHIP",
+        "WHIP",
+        "WHIP",
+        "WHIP",
+        "WHIP",
+        "WHIP",
+        "WHIP",
         "MOVESPEED",
         "MOVESPEED",
         "MOVESPEED",
@@ -2289,6 +2289,21 @@
           "headOffsets": [ { "x": 7, "y": -11} ]
         }
       ],
+      "racingOffsets": [
+        {
+          "vehicleType": "CART",
+          "racingOffset": {
+            "y": -0.08
+          }
+        },
+        {
+          "vehicleType": "FB_BIKE",
+          "racingOffset": {
+            "x": 0.02,
+            "y": -0.08
+          }
+        }
+      ],
       "currentSkinIndex": 0,
       "maxHp": 100,
       "armor": 0,
@@ -4174,14 +4189,6 @@
         "VICTORY",
         "VICTORY",
         "VICTORY",
-        "LIGHTNING",
-        "LIGHTNING",
-        "LIGHTNING",
-        "LIGHTNING",
-        "LIGHTNING",
-        "LIGHTNING",
-        "LIGHTNING",
-        "LIGHTNING",
         "PANDORA",
         "PANDORA",
         "PANDORA",
@@ -4191,13 +4198,6 @@
         "PANDORA",
         "PANDORA",
         "PANDORA",
-        "VENTO",
-        "VENTO",
-        "VENTO",
-        "VENTO",
-        "VENTO",
-        "VENTO",
-        "VENTO",
         "AREA",
         "AREA",
         "AREA",
@@ -4422,6 +4422,99 @@
       "hiddenWeapons": [],
       "enemiesKilled": 0,
       "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "SANTA": [
+    {
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "SANTAJAVELIN",
+      "charName": "Santa",
+      "surname": "Ladonna",
+      "spriteName": "Santa_01.png",
+      "textureName": "characters",
+      "portraitName": "p_santa.png",
+      "walkingFrames": 4,
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "characters",
+          "spriteName": "Santa_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 1, "y": 3} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "description": "Starts with temporary cooldown bonus. May occasionally find a Candybox or an Arma Dio when levelling up.",
+      "isBought": false,
+      "price": 666,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp": 100,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 1.0,
+      "power": 1,
+      "cooldown": 0.3,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1.3,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER",
+        "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK",
+        "CROSS", "CROSS", "CROSS", "CROSS", "CROSS", "CROSS", "CROSS", "CROSS",
+        "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN",
+        "AREA", "AREA", "AREA", "AREA", "AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "LUCK","LUCK","LUCK","LUCK","LUCK",
+        "AMOUNT","AMOUNT",
+        "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN",
+        "DURATION","DURATION","DURATION","DURATION","DURATION"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "level": 2,
+      "cooldown": 0.2
+    },
+    {
+      "level": 3,
+      "cooldown": 0.2
+    },
+    {
+      "level": 4,
+      "cooldown": 0.2
     },
     {
       "growth": 1,
@@ -4748,6 +4841,102 @@
     {
       "growth": 1,
       "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "GYORUNTIN": [
+    {
+      "hidden": true,
+      "secret": true,
+      "level": 1,
+      "startingWeapon": "ROCHER",
+      "charName": "Gyoruntin",
+      "surname": "",
+      "spriteName": "Gyoruntin_01.png",
+      "textureName": "characters",
+      "walkingFrames": 5,
+      "description": "Starting weapon grows stronger when levelling up. Gains +1% Curse every level. Ignores walls.",
+      "headOffsets": [ { "x": -5, "y": -10}, { "x": -5, "y": 15}, { "x": 19, "y": 0} ],
+      "portraitName": "p_gyoruntin.png",
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp": 130,
+      "armor": 3,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1.0,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "onEveryLevelUp": {
+        "curse": 0.01
+      },
+      "showcase": [
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "level": 10
+    },
+    {
+      "level": 20,
+      "growth": 1
     },
     {
       "growth": 1,

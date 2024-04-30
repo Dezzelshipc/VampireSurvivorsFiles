@@ -89,5 +89,75 @@
     "destroyedAmount": 0,
     "maxHp": 100,
     "destructibleType": "FOSCARI_SEAL_3"
+  },
+  "TRAINLEVER": {
+    "textureName": "items",
+    "frameName": "Lever",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "TRAINLEVER"
+  },
+  "LABORATORYLEVER2": {
+    "textureName": "items",
+    "frameName": "Lever",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "LABORATORYLEVER2"
+  },
+  "LABORATORYLEVER3": {
+    "textureName": "items",
+    "frameName": "Lever",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "LABORATORYLEVER3"
+  },
+  "LABORATORYLEVER4": {
+    "textureName": "items",
+    "frameName": "Lever",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "LABORATORYLEVER4"
+  },
+  "LAB_DOOR_A": {
+    "textureName": "items",
+    "frameName": "labDoorA1",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "LAB_DOOR_A"
+  },
+  "LAB_DOOR_B": {
+    "textureName": "items",
+    "frameName": "labDoorB1",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "LAB_DOOR_B"
+  },
+  "LAMPOST_SINGLE": {
+    "textureName": "items",
+    "frameName": "SingleLampost",
+    "destroyedAmount": 0,
+    "maxHp": 1,
+    "destructibleType": "LAMPOST_SINGLE"
+  },
+  "FB_CAPSULE": {
+    "textureName": "firstBlood",
+    "frameName": "fb_capsule",
+    "destroyedAmount": 0,
+    "maxHp": 1,
+    "destructibleType": "FB_CAPSULE"
+  },
+  "FB_EXPLOBARREL": {
+    "textureName": "items",
+    "frameName": "propBarrelExplo",
+    "destroyedAmount": 0,
+    "maxHp": 2,
+    "destructibleType": "FB_EXPLOBARREL"
+  },
+  "FB_EXPLOCAR": {
+    "textureName": "firstBlood",
+    "frameName": "propCarExplo",
+    "destroyedAmount": 0,
+    "maxHp": 5,
+    "destructibleType": "FB_EXPLOCAR"
   }
 }

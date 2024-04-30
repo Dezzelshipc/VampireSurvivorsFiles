@@ -27,11 +27,15 @@
       "GUNS3",
       "GATTI",
       "STIGRANGATTI",
+      "SANTAJAVELIN",
+      "SANTAJAVELIN2",
       "SHADOWSERVANT",
       "SHADOWSERVANT2",
       "PARTY",
       "C1_TONGUE1",
-      "C1_TONGUE2"
+      "C1_TONGUE2",
+      "FB_PRISMCUTLASS",
+      "FB_TIMEWARP"
     ],
     "items": [
       "NFT"
@@ -61,7 +65,11 @@
       "SILVERWIND",
       "SILVERWIND2",
       "PRISMATICMISS",
-      "PRISMATICMISS2"
+      "PRISMATICMISS2",
+      "FB_LASER",
+      "FB_PROTONBEAM",
+      "SANTAJAVELIN",
+      "SANTAJAVELIN2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -81,6 +89,8 @@
       "BORA",
       "LIGHTNING",
       "LOOP",
+      "SANTAJAVELIN",
+      "SANTAJAVELIN2",
       "CART2"
     ],
     "items": [],
@@ -155,7 +165,10 @@
       "GUNS2",
       "CART2",
       "FLASHARROW",
-      "FLASHARROW2"
+      "FLASHARROW2",
+      "FB_PROTOTYPE_A",
+      "FB_PROTOTYPE_B",
+      "FB_PROTOTYPE_C"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -189,9 +202,9 @@
       "SONG",
       "VENTO",
       "VICTORY",
+      "SILVERWIND",
       "ARMOR",
-      "MAXHEALTH",
-      "SILVERWIND"
+      "MAXHEALTH"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -209,7 +222,6 @@
       "CHERRY",
       "CART2",
       "FLOWER",
-      "FLOWER2",
       "ROBBA"
     ],
     "items": [],
@@ -231,7 +243,9 @@
       "CROSS",
       "HEAVENSWORD",
       "CART2",
-      "C1_HATCOLLECTION1"
+      "C1_HATCOLLECTION1",
+      "FB_SONIC",
+      "FB_WAVE"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -248,7 +262,10 @@
       "LANCET",
       "ICELANCE2",
       "MIRAGEROBE",
-      "MIRAGEROBE2"
+      "MIRAGEROBE2",
+      "FB_PRISMCUTLASS",
+      "FB_PRISMCUTLASS_COUNTER",
+      "FB_TIMEWARP"
     ],
     "items": [
       "OROLOGION"
@@ -290,7 +307,11 @@
       "SILF_COUNTER",
       "TRIASSO1",
       "PRISMATICMISS",
-      "PRISMATICMISS2"
+      "PRISMATICMISS2",
+      "FB_LASER",
+      "FB_PROTONBEAM",
+      "FB_PRISMCUTLASS",
+      "FB_PRISMCUTLASS_COUNTER"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -390,7 +411,17 @@
       "SILF2_COUNTER",
       "TRIASSO3",
       "PRISMATICMISS",
-      "PRISMATICMISS2"
+      "PRISMATICMISS2",
+      "FB_FULLAUTO",
+      "FB_PROTOTYPE_A",
+      "FB_RAPIDFIRE",
+      "FB_PROTOTYPE_B",
+      "FB_SPREAD",
+      "FB_PROTOTYPE_C",
+      "FB_FIREARM",
+      "FB_FIREWALL",
+      "FB_HOMING",
+      "FB_MULTISTAGE"
     ],
     "items": [
       "DUMMY_LIGHTSOURCE"
