@@ -7,6 +7,7 @@ from tkinter.simpledialog import askinteger
 import yaml
 import json
 import os
+import shutil
 from PIL import Image
 import PIL.Image
 import threading
@@ -16,6 +17,13 @@ import Translations.language as lang_module
 import Data.data as concat_data
 import Images.image_gen as image_gen
 
+DLCS = {
+    "VS": "Vampire Survivors",
+    "MS": "Moonspell",
+    "FS": "Foscari",
+    "EM": "Meeting",
+    "OG": "Guns",
+}
 
 
 class Unpacker(tk.Tk):
@@ -93,13 +101,6 @@ class Unpacker(tk.Tk):
         )
         b_info.grid(row=0, column=1)
 
-        b_assets_folder = ttk.Button(
-            self,
-            text="Select assets directory",
-            command=self.select_assets_dir
-        )
-        b_assets_folder.grid(row=1, column=1)
-
         l_info = ttk.Label(self, text="Resource unpacker for ripped assets from Vampire Survivors game.")
         l_info.grid(row=1, column=0)
 
@@ -158,7 +159,7 @@ class Unpacker(tk.Tk):
         b_data_get = ttk.Button(
             self,
             text="Get data from assets",
-            command=lambda: showinfo("", "TBA")
+            command=self.get_data
         )
         b_data_get.grid(row=8, column=1)
 
@@ -183,9 +184,7 @@ class Unpacker(tk.Tk):
 
         self.assets_dir = '/'
 
-        env_path = os.environ.get("ASSETS_FOLDER")
-        if env_path:
-            self.set_assets_dir(env_path)
+        self.set_assets_dir()
 
     @staticmethod
     def info():
@@ -217,7 +216,8 @@ class Unpacker(tk.Tk):
 
         self.set_assets_dir(full_path)
 
-    def set_assets_dir(self, full_path):
+    def set_assets_dir(self):
+        full_path = os.environ.get("VS_ASSETS")
         if not full_path.endswith("Assets"):
             showwarning("Warning", "Folder must be named 'Assets'")
             return
@@ -441,6 +441,24 @@ class Unpacker(tk.Tk):
         t = threading.Thread(target=thread_languages_split)
         t.start()
 
+    def get_data(self):
+        p_assets = list(filter(lambda x: "ASSETS" in x, os.environ))
+        paths = [(f"{os.environ.get(path)}\\TextAsset", DLCS[path.replace("_ASSETS", "")]) for path in p_assets]
+        total = 0
+        i = 0
+        for path, dlc in paths:
+            data_path = f"./Data/{dlc}"
+            if os.path.exists(path):
+                entries = list(filter(lambda x: not x.name.endswith(".meta"), os.scandir(path)))
+                total += len(entries)
+                if os.path.exists(data_path):
+                    shutil.rmtree(data_path)
+                os.mkdir(data_path)
+
+                for entry in entries:
+                    shutil.copy2(entry, data_path)
+                    self.progress_bar_set(i := i + 1, total)
+
     def data_concatenate(self):
         gen = concat_data.concatenate(True)
 
@@ -469,8 +487,8 @@ class Unpacker(tk.Tk):
         return full_path
 
     @staticmethod
-    def assets_gen(path):
-        dirs = [path]
+    def assets_gen(paths: list):
+        dirs = paths
         files = []
         while len(dirs) > 0:
             this_dir = dirs.pop(0)
@@ -522,8 +540,13 @@ class Unpacker(tk.Tk):
             showerror("Error", "Assets directory must be selected.")
             return
 
-        path_sprites = self.assets_dir + "/Resources/spritesheets"
-        all_assets = self.assets_gen(path_sprites)
+        paths = [self.assets_dir + "/Resources/spritesheets"]
+        for f in filter(lambda x: "VS" not in x and "ASSETS" in x, os.environ):
+            p = os.path.join(os.environ.get(f), "Texture2D")
+            if os.path.exists(p):
+                paths.append(p)
+
+        all_assets = self.assets_gen(paths)
 
         path_data = self.data_selector()
 

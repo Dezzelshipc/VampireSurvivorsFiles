@@ -1,6 +1,7 @@
 {
   "CHAL_SUS_COUNTER": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_SUS_COUNTER",
       "level": 6,
       "maxHp": 1.5,
@@ -31,6 +32,7 @@
   ],
   "CHAL_FRIGGI": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_FRIGGI",
       "level": 1,
       "maxHp": 0.1,
@@ -57,6 +59,7 @@
   ],
   "CHAL_BRIA": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BRIA",
       "level": 3,
       "maxHp": 0.5,
@@ -83,6 +86,7 @@
   ],
   "CHAL_BATS": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BATS",
       "level": 3,
       "maxHp": 0.5,
@@ -105,7 +109,7 @@
       "bPlaces": [
         "POLUS"
       ],
-      "bInclude": true,
+      "bInclude": false,
       "bHighlight": false,
       "bVariants": [
         "CHAL_BATSSWARM"
@@ -115,6 +119,7 @@
   ],
   "CHAL_OTTERR": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_OTTERR",
       "level": 4,
       "maxHp": 1,
@@ -141,6 +146,7 @@
   ],
   "CHAL_BRIASWARM": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BRIASWARM",
       "level": 5,
       "maxHp": 0.1,
@@ -166,6 +172,7 @@
   ],
   "CHAL_BATSSWARM": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BATSSWARM",
       "level": 5,
       "maxHp": 0.1,
@@ -198,6 +205,7 @@
   ],
   "CHAL_SHIFT": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_SHIFT",
       "level": 6,
       "maxHp": 1.5,
@@ -226,6 +234,7 @@
   ],
   "CHAL_LAVAA": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_LAVAA",
       "level": 6,
       "maxHp": 1.5,
@@ -256,6 +265,7 @@
   ],
   "CHAL_SNOWW": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_SNOWW",
       "level": 6,
       "maxHp": 1.5,
@@ -278,6 +288,7 @@
   ],
   "CHAL_SNOWW_SUS": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_SNOWW_SUS",
       "level": 6,
       "maxHp": 1.5,
@@ -299,6 +310,7 @@
   ],
   "CHAL_GHOST_EXP": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_GHOST_EXP",
       "level": 1,
       "maxHp": 1.1,
@@ -327,6 +339,7 @@
   ],
   "CHAL_GHOST": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_GHOST",
       "level": 7,
       "maxHp": 1,
@@ -357,6 +370,7 @@
   ],
   "CHAL_MOLO2": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_MOLO2",
       "level": 8,
       "maxHp": 15,
@@ -386,6 +400,7 @@
   ],
   "SPACE_ANTBRAIN": [
     {
+      "skipCredits": true,
       "enemyType": "SPACE_ANTBRAIN",
       "level": 8,
       "maxHp": 15,
@@ -407,6 +422,7 @@
   ],
   "CHAL_MEATT": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_MEATT",
       "level": 8,
       "maxHp": 15,
@@ -433,6 +449,7 @@
   ],
   "CHAL_GHOSTSWARM": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_GHOSTSWARM",
       "level": 9,
       "maxHp": 1,
@@ -459,6 +476,7 @@
   ],
   "SPACE_RABBITSWARM": [
     {
+      "skipCredits": true,
       "enemyType": "SPACE_RABBITSWARM",
       "level": 9,
       "maxHp": 1,
@@ -482,7 +500,7 @@
       "bPlaces": [
         "POLUS"
       ],
-      "bInclude": true,
+      "bInclude": false,
       "bHighlight": false,
       "bVariants": [
         "ADV_MINI_SPACE_RABBIT",
@@ -493,6 +511,7 @@
   ],
   "SPACE_DUCKSWARM": [
     {
+      "skipCredits": true,
       "enemyType": "SPACE_DUCKSWARM",
       "level": 9,
       "maxHp": 1,
@@ -516,7 +535,7 @@
       "bPlaces": [
         "POLUS"
       ],
-      "bInclude": true,
+      "bInclude": false,
       "bHighlight": false,
       "bVariants": [
         "ADV_SPACE_DUCK",
@@ -527,6 +546,7 @@
   ],
   "SPACE_DUCKSWARM_H": [
     {
+      "skipCredits": true,
       "enemyType": "SPACE_DUCKSWARM_H",
       "level": 9,
       "maxHp": 1,
@@ -552,6 +572,7 @@
   ],
   "CHAL_MARTIA": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_MARTIA",
       "level": 10,
       "maxHp": 50,
@@ -578,6 +599,7 @@
   ],
   "SPACE_PICKLE": [
     {
+      "skipCredits": true,
       "enemyType": "SPACE_PICKLE",
       "level": 11,
       "maxHp": 1.5,
@@ -600,13 +622,14 @@
       "bPlaces": [
         "POLUS"
       ],
-      "bInclude": true,
+      "bInclude": false,
       "bHighlight": false,
       "killedAmount": 0
     }
   ],
   "SPACE_PICKLE_AGGRO": [
     {
+      "skipCredits": true,
       "enemyType": "SPACE_PICKLE_AGGRO",
       "level": 11,
       "maxHp": 2,
@@ -632,6 +655,7 @@
   ],
   "CHAL_PICKLE_CIRCLE": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_PICKLE_CIRCLE",
       "level": 11,
       "maxHp": 3,
@@ -657,6 +681,7 @@
   ],
   "CHAL_BRICK_SUS": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BRICK_SUS",
       "level": 11,
       "maxHp": 1,
@@ -681,6 +706,7 @@
   ],
   "CHAL_NUGGE_SUS": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_NUGGE_SUS",
       "level": 11,
       "maxHp": 1,
@@ -705,6 +731,7 @@
   ],
   "CHAL_BINNN_SUS": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BINNN_SUS",
       "level": 11,
       "maxHp": 1,
@@ -738,6 +765,7 @@
   ],
   "CHAL_BRICK_AGGRO": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BRICK_AGGRO",
       "level": 11,
       "maxHp": 1,
@@ -762,6 +790,7 @@
   ],
   "CHAL_NUGGE_AGGRO": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_NUGGE_AGGRO",
       "level": 11,
       "maxHp": 1,
@@ -786,6 +815,7 @@
   ],
   "CHAL_BINNN_AGGRO": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_BINNN_AGGRO",
       "level": 11,
       "maxHp": 1,
@@ -810,6 +840,7 @@
   ],
   "CHAL_MOLO1": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_MOLO1",
       "level": 12,
       "maxHp": 7,
@@ -831,6 +862,7 @@
   ],
   "SPACE_ANT": [
     {
+      "skipCredits": true,
       "enemyType": "SPACE_ANT",
       "level": 12,
       "maxHp": 7,
@@ -850,7 +882,7 @@
       "bPlaces": [
         "POLUS"
       ],
-      "bInclude": true,
+      "bInclude": false,
       "bHighlight": false,
       "bVariants": [
         "SPACE_ANTBRAIN"
@@ -860,6 +892,7 @@
   ],
   "CHAL_CREATU": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_CREATU",
       "level": 13,
       "maxHp": 27,
@@ -886,6 +919,7 @@
   ],
   "CHAL_ROBOTT2": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_ROBOTT2",
       "level": 14,
       "maxHp": 5,
@@ -910,6 +944,7 @@
   ],
   "BOSS_CHAL_MARTIA": [
     {
+      "skipCredits": true,
       "enemyType": "BOSS_CHAL_MARTIA",
       "level": 15,
       "maxHp": 15,
@@ -935,6 +970,7 @@
   ],
   "BOSS_IMPOSTOR_PATROL": [
     {
+      "skipCredits": true,
       "enemyType": "BOSS_IMPOSTOR_PATROL",
       "level": 15,
       "maxHp": 15,
@@ -942,7 +978,7 @@
       "power": 20,
       "xp": 50,
       "knockback": 0,
-      "maxKnockback": 1,
+      "maxKnockback": 0,
       "deathKB": 5,
       "skills": [
         0
@@ -962,6 +998,7 @@
   ],
   "CHAL_MONKEY": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_MONKEY",
       "level": 16,
       "maxHp": 18,
@@ -988,6 +1025,7 @@
   ],
   "BOSS_CHAL_CREATU": [
     {
+      "skipCredits": true,
       "enemyType": "BOSS_CHAL_CREATU",
       "level": 17,
       "maxHp": 20,
@@ -1013,6 +1051,7 @@
   ],
   "CHAL_NDROID": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_NDROID",
       "level": 18,
       "maxHp": 50,
@@ -1039,6 +1078,7 @@
   ],
   "CHAL_IMPOSTOR_SMALL": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_IMPOSTOR_SMALL",
       "level": 18,
       "maxHp": 50,
@@ -1060,6 +1100,7 @@
   ],
   "BOSS_CHAL_NDROID": [
     {
+      "skipCredits": true,
       "enemyType": "BOSS_CHAL_NDROID",
       "level": 19,
       "maxHp": 25,
@@ -1090,6 +1131,7 @@
   ],
   "CHAL_TRIPOD": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_TRIPOD",
       "level": 20,
       "maxHp": 50,
@@ -1116,6 +1158,7 @@
   ],
   "BOSS_CHAL_TRIPOD": [
     {
+      "skipCredits": true,
       "enemyType": "BOSS_CHAL_TRIPOD",
       "level": 21,
       "maxHp": 15,
@@ -1143,6 +1186,7 @@
   ],
   "CHAL_ROBOTT": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_ROBOTT",
       "level": 22,
       "maxHp": 5,
@@ -1172,6 +1216,7 @@
   ],
   "CHAL_ANIMEXXL": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_ANIMEXXL",
       "level": 21,
       "maxHp": 30,
@@ -1212,6 +1257,7 @@
   ],
   "CHAL_ANIMEXXL_TENTACLE_LEFT": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_ANIMEXXL_TENTACLE_LEFT",
       "level": 21,
       "maxHp": 30,
@@ -1247,6 +1293,7 @@
   ],
   "CHAL_ANIMEXXL_TENTACLE_RIGHT": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_ANIMEXXL_TENTACLE_RIGHT",
       "level": 21,
       "maxHp": 30,
@@ -1282,6 +1329,7 @@
   ],
   "CHAL_ANIMEXXL_TENTACLE_LEFT2": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_ANIMEXXL_TENTACLE_LEFT2",
       "level": 21,
       "maxHp": 100,
@@ -1314,6 +1362,7 @@
   ],
   "CHAL_ANIMEXXL_TENTACLE_RIGHT2": [
     {
+      "skipCredits": true,
       "enemyType": "CHAL_ANIMEXXL_TENTACLE_RIGHT2",
       "level": 21,
       "maxHp": 100,
@@ -1346,6 +1395,7 @@
   ],
   "ADV_BIG_IMPOSTOR": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_BIG_IMPOSTOR",
       "level": 100,
       "maxHp": 150,
@@ -1371,6 +1421,7 @@
   ],
   "ADV_BIG_SHIFT": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_BIG_SHIFT",
       "level": 150,
       "maxHp": 300,
@@ -1396,6 +1447,7 @@
   ],
   "ADV_CHAL_NUGGE_SUS_GOLEM": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_CHAL_NUGGE_SUS_GOLEM",
       "level": 30,
       "maxHp": 50,
@@ -1423,6 +1475,7 @@
   ],
   "ADV_CHAL_NUGGE_SUS_GOLEM_ARM": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_CHAL_NUGGE_SUS_GOLEM_ARM",
       "level": 30,
       "maxHp": 0.5,
@@ -1449,6 +1502,7 @@
   ],
   "ADV_TRIPOD_GUN": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_TRIPOD_GUN",
       "level": 10,
       "maxHp": 22,
@@ -1474,6 +1528,7 @@
   ],
   "ADV_NDROID_GUN": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_NDROID_GUN",
       "level": 20,
       "maxHp": 44,
@@ -1501,6 +1556,7 @@
   ],
   "ADV_BIG_TRIPOD": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_BIG_TRIPOD",
       "level": 100,
       "maxHp": 200,
@@ -1526,6 +1582,7 @@
   ],
   "ADV_SPACE_DUCK": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_SPACE_DUCK",
       "level": 5,
       "maxHp": 2,
@@ -1548,6 +1605,7 @@
   ],
   "ADV_SPACE_RABBIT": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_SPACE_RABBIT",
       "level": 5,
       "maxHp": 1,
@@ -1570,6 +1628,7 @@
   ],
   "ADV_BIG_SPACE_DUCK": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_BIG_SPACE_DUCK",
       "level": 20,
       "maxHp": 100,
@@ -1594,6 +1653,7 @@
   ],
   "ADV_MINI_SPACE_RABBIT": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_MINI_SPACE_RABBIT",
       "level": 1,
       "maxHp": 0.5,
@@ -1616,6 +1676,7 @@
   ],
   "ADV_MINI_SPACE_ANT": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_MINI_SPACE_ANT",
       "level": 2,
       "maxHp": 1,
@@ -1638,6 +1699,7 @@
   ],
   "ADV_SPACE_ANTBRAIN_SWORDIAN": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_SPACE_ANTBRAIN_SWORDIAN",
       "level": 7,
       "maxHp": 70,
@@ -1661,6 +1723,7 @@
   ],
   "ADV_IMPOSTOR": [
     {
+      "skipCredits": true,
       "enemyType": "ADV_IMPOSTOR",
       "level": 4,
       "maxHp": 30,

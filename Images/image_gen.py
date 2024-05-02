@@ -122,6 +122,9 @@ class ImageGenerator:
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
 
+        if im_obj is None:
+            return
+
         sprite_w, sprite_h = im_obj.size
         sprite_w //= 2
         sprite_h //= 2
@@ -161,6 +164,9 @@ class SimpleGenerator(ImageGenerator):
         frame_name = self.get_frame_name(obj)
         save_folder = self.folderToSave if self.folderToSave else texture_name
 
+        if save_folder.endswith("/"):
+            save_folder += texture_name
+
         meta, im = func_meta("", texture_name)
 
         save_dlc = ''
@@ -170,11 +176,11 @@ class SimpleGenerator(ImageGenerator):
             case "frameB_green.png":
                 save_dlc = "/foscari"
             case "frameB_purple.png":
-                save_dlc = "/chalcedony"
-            case "frameB_red.png":
-                save_dlc = "/red_dlc"
+                save_dlc = "/meeting"
             case "frameB_gray.png":
                 save_dlc = "/guns"
+            case "frameB_red.png":
+                save_dlc = "/red_dlc"
 
         save_folder += f"/{save_dlc}"
 
@@ -203,6 +209,9 @@ class ItemImageGenerator(SimpleGenerator):
         self.dataObjectKey = "name"
         self.langFileName = "itemLang.json"
         self.defaultFrameName = "frameB.png"
+
+    def get_frame_name(self, obj):
+        return obj.get(self.frameKey, self.defaultFrameName if not obj.get("isRelic") else "frameF.png")
 
 
 class ArcanaImageGenerator(SimpleGenerator):
@@ -252,6 +261,7 @@ class CharacterImageGenerator(TableGenerator):
         self.dataSpriteKey = "spriteName"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "charName"
+        self.folderToSave = "characters/"
         self.langFileName = "characterLang.json"
 
 

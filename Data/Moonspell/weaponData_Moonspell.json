@@ -117,8 +117,7 @@
       "frameName": "fourSeasons.png",
       "collectionFrame": "frameB_blue.png",
       "evoSynergy": [
-        "AREA",
-        "POWER"
+        "AREA"
       ],
       "evoInto": "FOURSEASONS2",
       "hitVFX": 1,
@@ -170,7 +169,7 @@
       "bulletType": "FOURSEASONS2",
       "name": "Godai Shuffle",
       "description": "Evolved Four Seasons. Generates an additional explosion.",
-      "tips": "Requires Max: Spinach, Candelabrador.",
+      "tips": "Requires Max: Candelabrador.",
       "texture": "items",
       "frameName": "fourSeasons2.png",
       "collectionFrame": "frameB_blue.png",
@@ -178,12 +177,10 @@
         "FOURSEASONS"
       ],
       "requires": [
-        "AREA",
-        "POWER"
+        "AREA"
       ],
       "requiresMax": [
-        "AREA",
-        "POWER"
+        "AREA"
       ],
       "hitVFX": 1,
       "isEvolution": true,

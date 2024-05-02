@@ -299,8 +299,7 @@
       "frameName": "2FlashArrow.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
-        "SPEED",
-        "LUCK"
+        "SPEED"
       ],
       "evoInto": "FLASHARROW2",
       "isUnlocked": false,
@@ -356,7 +355,7 @@
       "bulletType": "FLASHARROW2",
       "name": "Millionaire",
       "description": "Evolved Flash Arrow. Fires additional projectiles based on Amount and when picking up gold coins.",
-      "tips": "Requires Max: Bracer, Clover.",
+      "tips": "Requires Max: Bracer.",
       "texture": "items",
       "frameName": "2Millionaire.png",
       "collectionFrame": "frameB_green.png",
@@ -365,12 +364,10 @@
         "FLASHARROW"
       ],
       "requires": [
-        "SPEED",
-        "LUCK"
+        "SPEED"
       ],
       "requiresMax": [
-        "SPEED",
-        "LUCK"
+        "SPEED"
       ],
       "hitVFX": 1,
       "isUnlocked": true,

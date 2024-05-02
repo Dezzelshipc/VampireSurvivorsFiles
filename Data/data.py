@@ -1,17 +1,16 @@
-import os
 import json
+import os
 import re
 
 
 def clean_json(string):
     string = re.sub(",[ \t\r\n]+}", "}", string)
     string = re.sub(",[ \t\r\n]+]", "]", string)
-
     return string
 
 
 def open_f(path):
-    return open(path, "r", errors='ignore')
+    return open(path, "r", errors='ignore', encoding="UTF-8-SIG")
 
 
 def gen_path(paths, name):
@@ -24,46 +23,26 @@ def __generator_concatenate():
     if not os.path.exists(folder_to_save):
         os.makedirs(folder_to_save)
 
-    names = [f.name.split("_")[0].split('.')[0].lower().replace("data", "") for f in os.scandir(path + "/Vampire Survivors")]
+    names = [f.name.split("_")[0].split('.')[0].lower().replace("data", "") for f in
+             os.scandir(path + "/Vampire Survivors")]
+    dlcs = ["Vampire Survivors", "Moonspell", "Foscari", "Meeting", "Guns"]
 
-    vs = [f.path for f in os.scandir(path + "/Vampire Survivors")]
-    ms = [f.path for f in os.scandir(path + "/Moonspell")]
-    tf = [f.path for f in os.scandir(path + "/Foscari")]
-    ch = [f.path for f in os.scandir(path + "/Chalcedony")]
+    dlc_paths = [[f.path for f in os.scandir(f"{path}/{dlc}")] for dlc in dlcs if os.path.exists(f"{path}/{dlc}")]
 
     total_len = len(names)
 
     for i, name in enumerate(names):
-        print(name)
-        vspath = gen_path(vs, name)
-        mspath = gen_path(ms, name)
-        tfpath = gen_path(tf, name)
-        chpath = gen_path(ch, name)
+        paths = list(filter(lambda x: x, [gen_path(p, name) for p in dlc_paths]))
 
         try:
-            with open_f(vspath) as vsfile:
-                vsfile = vsfile.read()
-                vsfile = clean_json(vsfile)
-                outdata = json.loads(vsfile)
-            vs.remove(vspath)
-
-            if mspath:
-                with open_f(mspath) as msfile:
-                    outdata.update(json.loads(msfile.read()))
-                ms.remove(mspath)
-
-            if tfpath:
-                with open_f(tfpath) as tffile:
-                    outdata.update(json.loads(tffile.read()))
-                tf.remove(tfpath)
-
-            if chpath:
-                with open_f(chpath) as chfile:
-                    outdata.update(json.loads(chfile.read()))
-                ch.remove(chpath)
+            outdata = {}
+            for p in paths:
+                with open_f(p) as file:
+                    outdata.update(json.loads(clean_json(file.read())))
 
             with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
                 outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))
+
         except json.decoder.JSONDecodeError as e:
             print(f"{name} skipped: error {e}")
 

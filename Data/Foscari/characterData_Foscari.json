@@ -247,7 +247,7 @@
         }
       ],
       "spriteAnims": {
-        "meleeAttack": {
+        "rangedAttack": {
           "textureName": "foscariChars",
           "spriteName": "Keira_a01.png",
           "framesNumber": 6,
@@ -672,6 +672,10 @@
       "price": 50000,
       "completedStages": [],
       "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 12,
+        "y": -4
+      },
       "skins": [
         {
           "id": 0,
@@ -686,6 +690,24 @@
               "y": -18
             }
           ]
+        }
+      ],
+      "racingOffsets": [
+        {
+          "vehicleType": "CART",
+          "racingOffset": {
+            "x": -0.04,
+            "y": -0.08
+          },
+          "racingAngle": 45
+        },
+        {
+          "vehicleType": "FB_BIKE",
+          "racingOffset": {
+            "x": -0.04,
+            "y": -0.08
+          },
+          "racingAngle": 45
         }
       ],
       "currentSkinIndex": 0,
