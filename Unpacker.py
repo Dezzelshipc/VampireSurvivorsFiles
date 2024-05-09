@@ -426,10 +426,7 @@ class Unpacker(tk.Tk):
                 showerror("Error", "No language has been selected.")
                 return
 
-            is_add_more = askyesno("", "Add additional data to strings?")
-
-            gen = lang_module.split_to_files(yaml_file, using_list, total_lang_count,
-                                             is_add_more=is_add_more, is_gen=True)
+            gen = lang_module.split_to_files(yaml_file, using_list, is_gen=True)
 
             for i, total in gen:
                 self.progress_bar_set(i + 1, total)

@@ -3,31 +3,10 @@ import json
 import os
 
 
-def generator_split_to_files(languages: dict, lang_list: list, total_lang_count: int,
-                             is_add_more=True):
+def generator_split_to_files(languages: dict, lang_list: list):
     folder_to_save = os.path.normpath(os.path.split(__file__)[0] + '/Generated/Split')
 
     languages = languages["MonoBehaviour"]["mSource"]["mTerms"]
-
-    if is_add_more:
-        languages = languages + [
-            {
-                "Term": "characterLang/{EXDASH}charName",
-                "Languages": ["Exdash"] * total_lang_count,
-            },
-            {
-                "Term": "characterLang/{EXDASH}surname",
-                "Languages": ["Exiviiq"] * total_lang_count,
-            },
-            {
-                "Term": "characterLang/{FINO}charName",
-                "Languages": ["missingN▯"] * total_lang_count,
-            },
-            {
-                "Term": "characterLang/{FINO}description",
-                "Languages": ["M(▯▯)"] * total_lang_count,
-            }
-        ]
 
     full_d = dict()
 
@@ -36,45 +15,46 @@ def generator_split_to_files(languages: dict, lang_list: list, total_lang_count:
     for i, lang_string in enumerate(languages):
         yield i, total_len
 
-        x = lang_string["Term"].split("/")
+        full_key = lang_string["Term"].split("/")
 
-        if x[0] not in full_d:
-            full_d.update({x[0]: {}})
+        group_name = full_key[0]
+        if group_name not in full_d:
+            full_d.update({group_name: {}})
             for index, lang in lang_list:
-                full_d[x[0]].update({lang: {}})
+                full_d[group_name].update({lang: {}})
 
-        is_part_object = "{" in x[1] or "}" in x[1]
-        y = x[1].replace("{", "").split("}")
+        is_part_object = "{" in full_key[1] or "}" in full_key[1]
+        id_key = full_key[1].replace("{", "").split("}")
 
         for index, lang in lang_list:
-            string = lang_string["Languages"][index]
+            entry = lang_string["Languages"][index]
 
-            if isinstance(string, str):
-                string = string.replace(" ", " ")
+            if isinstance(entry, str):
+                entry = entry.replace(" ", " ").strip()
 
             if is_part_object:
-                if len(y) < 2:
+                if len(id_key) < 2:
                     continue
 
-                if y[0] not in full_d[x[0]][lang]:
-                    full_d[x[0]][lang].update({y[0]: {}})
+                entry_id = id_key[0].strip()
+                if entry_id not in full_d[group_name][lang]:
+                    full_d[group_name][lang].update({entry_id: {}})
 
-                full_d[x[0]][lang][y[0]].update({y[1]: string})
+                full_d[group_name][lang][entry_id].update({id_key[1]: entry})
 
             else:
-                full_d[x[0]][lang].update({x[1]: string})
+                full_d[group_name][lang].update({full_key[1]: entry})
 
-    for k in full_d.keys():
+    for group_name in full_d.keys():
         if not os.path.exists(folder_to_save):
             os.makedirs(folder_to_save)
 
-        with open(f'{folder_to_save}/{k}.json', 'w', encoding="UTF-8") as part_file:
-            part_file.write(json.dumps(full_d[k], ensure_ascii=False, indent=2))
+        with open(f'{folder_to_save}/{group_name}.json', 'w', encoding="UTF-8") as part_file:
+            part_file.write(json.dumps(full_d[group_name], ensure_ascii=False, indent=2))
 
 
-def split_to_files(languages: dict, lang_list: list, total_lang_count: int,
-                   is_add_more=True, is_gen=False):
-    gen = generator_split_to_files(languages, lang_list, total_lang_count, is_add_more)
+def split_to_files(languages: dict, lang_list: list, is_gen=False):
+    gen = generator_split_to_files(languages, lang_list)
 
     if is_gen:
         return gen
@@ -101,4 +81,4 @@ if __name__ == "__main__":
     with open('I2Languages.yaml', 'r', encoding="UTF-8") as file:
         yaml_file = yaml.safe_load(file)
 
-    a = split_to_files(yaml_file, [(0, "en"), (7, "ru")], len(yaml_file["MonoBehaviour"]["mSource"]["mLanguages"]))
+    a = split_to_files(yaml_file, [(0, "en"), (7, "ru")])

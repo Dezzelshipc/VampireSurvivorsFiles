@@ -73,7 +73,7 @@ class ImageGenerator:
 
     @staticmethod
     def change_name(name):
-        return name
+        return name.strip()
 
     @staticmethod
     def get_frame(frame_name):
@@ -314,8 +314,7 @@ class StageImageGenerator(TableGenerator):
 
         self.folderToSave = "stage"
 
-    @staticmethod
-    def save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=1):
+    def save_png_icon(self, im_frame, im_obj, name, save_folder, scale_factor=1):
         if im_obj is None:
             return
 
@@ -329,7 +328,7 @@ class StageImageGenerator(TableGenerator):
         im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
                                    PIL.Image.NEAREST)
 
-        text = name
+        text = self.change_name(name)
         font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 55)
         w = font.getbbox(text)[2]
         h = font.getbbox(text + "|")[3]
