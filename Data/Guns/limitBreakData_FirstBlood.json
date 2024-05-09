@@ -1,0 +1,537 @@
+{
+  "FB_FULLAUTO": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_PROTOTYPE_A": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_RAPIDFIRE": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_PROTOTYPE_B": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_SPREAD": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_PROTOTYPE_C": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  
+  "FB_LASER": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_PROTONBEAM": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_FIREARM": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_FIREWALL": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 3000
+    }
+  ],
+  "FB_SONIC": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    }
+  ],
+  "FB_WAVE": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  
+  "FB_BLADECROSSBOW": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 3000
+    }
+  ],
+  "FB_CROSSBOWCRASH": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 3000
+    }
+  ],
+  "FB_PRISMCUTLASS": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_TIMEWARP": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 3000
+    }
+  ],
+  "FB_HOMING": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_MULTISTAGE": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  
+  "FB_DIVERMINES": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 3000
+    }
+  ],
+  "FB_CRUSH": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 3000
+    }
+  ],
+  "FB_METALCLAW": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "FB_BIGFUZZYFIST": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ]
+}

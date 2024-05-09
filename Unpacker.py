@@ -273,12 +273,18 @@ class Unpacker(tk.Tk):
 
     def get_meta_by_full_path(self, p_dir: str, p_file: str) -> (dict, Image.Image):
         p_file = p_file.replace(".meta", "")
-        file = p_file.replace(".png", "")
+        file = p_file.replace(".png", "").lower()
         full_path = os.path.join(p_dir, p_file)
         if file not in self.loaded_meta:
             print(f"Parsing {p_file}.meta")
 
-            with open(full_path + ".meta") as f:
+            file_path = full_path + ".meta"
+
+            if not os.path.exists(file_path):
+                print(f"file {file_path} not exists")
+                return None
+
+            with open(file_path) as f:
                 sprites = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]["sprites"]
 
             self.loaded_meta.update({file: {s["name"]: s["rect"] for s in sprites},
@@ -515,8 +521,12 @@ class Unpacker(tk.Tk):
                 if texture is None:
                     continue
 
-                meta = list(filter(lambda x: x.name.startswith(f"{texture}") and x.name.endswith(f"{texture}.png.meta"),
-                                   all_assets))
+                def filt(x):
+                    name_low = x.name.lower()
+                    texture_low = texture.lower()
+                    return name_low.startswith(f"{texture_low}") and name_low.endswith(f"{texture_low}.png.meta")
+
+                meta = list(filter(filt, all_assets))
                 print(texture, meta)
                 meta = meta[0]
                 m_dir, m_file = os.path.split(meta)

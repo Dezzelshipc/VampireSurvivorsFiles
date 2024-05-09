@@ -1,0 +1,1165 @@
+{
+  "FB_BILLRIZER": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_FULLAUTO",
+      "charName": "Bill",
+      "surname": "Rizer",
+      "textureName": "firstBlood",
+      "spriteName": "BillRizer_i01",
+      "portraitName": "p_fbBill.png",
+      "bgm": "BGM_FB_COVER_02_Wate",
+      
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "BillRizer_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "BillRizer_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Decreases Cooldown and increases projectile Speed every 10 levels (max -15% Cooldown, 30% Speed).",
+      "price": 100,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 150,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1.2,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 4,
+      "banish": 4,
+      "defang": 0,
+      "showcase": [
+        "FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO",
+
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_LANCE": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_RAPIDFIRE",
+      "charName": "Lance",
+      "surname": "Bean",
+      "textureName": "firstBlood",
+      "spriteName": "LanceBean_i01.png",
+      "portraitName": "p_fbLance.png",
+      "bgm": "BGM_FB_COVER_11_Fort",
+      
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "LanceBean_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "LanceBean_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Dramatically decreases Cooldown and increases projectile Speed for a fixed interval after defeating a large amount of enemies.",
+      "price": 100,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 150,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1.2,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 4,
+      "banish": 4,
+      "defang": 0,
+      "showcase": [
+        "FB_RAPIDFIRE",
+        "FB_RAPIDFIRE",
+        "FB_RAPIDFIRE",
+        "FB_RAPIDFIRE",
+        "FB_RAPIDFIRE",
+        "FB_RAPIDFIRE",
+        "FB_RAPIDFIRE",        
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_ARIANA": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_SPREAD",
+      "charName": "Ariana",
+      "surname": "",
+      "textureName": "firstBlood",
+      "spriteName": "Ariana_i01.png",
+      "portraitName": "p_fbAriana.png",
+      "bgm": "BGM_FB_K01_Spir",
+
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "Ariana_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "Ariana_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Movement Speed increases Armour.",
+      "price": 100,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1.2,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1.1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD",
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_LUCIA": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_LASER",
+      "charName": "Lucia",
+      "surname": "Zero",
+      "textureName": "firstBlood",
+      "spriteName": "LuciaZero_i01.png",
+      "portraitName": "p_fbLucia.png",
+      "bgm": "BGM_FB_K04_Blue",
+
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "LuciaZero_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "LuciaZero_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Start with +1 Revive. Gains a bonus to all stats after Reviving.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "regen": 1,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 1,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 8,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "FB_LASER","FB_LASER","FB_LASER","FB_LASER","FB_LASER","FB_LASER","FB_LASER",
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "FB_BRADFANG": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_FIREARM",
+      "charName": "Brad",
+      "surname": "Fang",
+      "textureName": "firstBlood",
+      "spriteName": "BradFang_i01.png",
+      "portraitName": "p_fbBrad.png",
+      "bgm": "BGM_FB_COVER_06_Hard",
+      
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "BradFang_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "BradFang_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        },
+        "meleeAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "BradFang_aa01.png",
+          "framesNumber": 5,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Starts with 1 extra level. Powerful at close range.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 200,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1,
+      "power": 1.2,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM",
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_BROWNY": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_SONIC",
+      "charName": "Browny",
+      "surname": "",
+      "textureName": "firstBlood",
+      "spriteName": "Browny_i01.png",
+      "portraitName": "p_fbBrowny.png",
+      "bgm": "BGM_FB_COVER_05_Yoro",
+      
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "Browny_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "Browny_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Decreasing Cooldown increases Area.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 140,
+      "regen": 0,
+      "armor": 1,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1.2,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC",
+
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_SHEENA": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_BLADECROSSBOW",
+      "charName": "Sheena",
+      "surname": "Etranzi",
+      "textureName": "firstBlood",
+      "spriteName": "SheenaEtranzi_i01.png",
+      "portraitName": "p_fbSheena.png",
+      "bgm": "BGM_FB_K07_Some",
+      
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "SheenaEtranzi_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "SheenaEtranzi_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Movement Speed decreases Cooldown.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 100,
+      "regen": 1,
+      "armor": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls":  8,
+      "skips":    0,
+      "banish":   0,
+      "defang":   0,
+      "showcase": [
+        "FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW",
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "LUCK","LUCK","LUCK","LUCK","LUCK",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_PROBO": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_PRISMCUTLASS",
+      "charName": "Probotector",
+      "surname": "",
+      "textureName": "firstBlood",
+      "spriteName": "Probetector_i01.png",
+      "portraitName": "p_fbProbo.png",
+      "bgm": "BGM_FB_COVER_09_Gtra",
+
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "Probetector_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "Probetector_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        },
+        "meleeAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "Probetector_am01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Armour increases Might.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 200,
+      "regen": 0,
+      "armor": 1,
+      "moveSpeed": 1,
+      "power": 1.2,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS",
+        "AMOUNT","AMOUNT",
+        "MOVESPEED","MOVESPEED","MOVESPEED","MOVESPEED","MOVESPEED",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "FB_STANLEY": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_HOMING",
+      "charName": "Stanley",
+      "surname": "",
+      "textureName": "firstBlood",
+      "spriteName": "Stanley_i01.png",
+      "portraitName": "p_fbStanley.png",
+      "bgm": "BGM_FB_K10_Moon",
+      
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "Stanley_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "Stanley_a01.png",
+          "framesNumber": 5,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Might increases Armour.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 200,
+      "regen": 0,
+      "armor": 1,
+      "moveSpeed": 1,
+      "power": 1.2,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING",
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_NEWT": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_DIVERMINES",
+      "prefix": "",
+      "charName": "Newt",
+      "surname": "Plissken",
+      "textureName": "firstBlood",
+      "spriteName": "Newt_i01.png",
+      "portraitName": "p_fbNewt.png",
+      "bgm": "BGM_FB_K03_Zeph",
+
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "Newt_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "rangedAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "Newt_a01.png",
+          "framesNumber": 4,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Greed and Curse increase Might.",
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 140,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.5,
+      "power": 1,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1.2,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
+      "showcase": [
+        "FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES",
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "MAGNET","MAGNET","MAGNET","MAGNET","MAGNET",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_COLONEL": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "FB_METALCLAW",
+      "prefix": "Colonel",
+      "charName": "Bahamut",
+      "surname": "",
+      "textureName": "firstBlood",
+      "spriteName": "Colonel_i01.png",
+      "portraitName": "p_fbColonel.png",
+      "bgm": "BGM_FB_K12_Last",
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "Colonel_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 0, "y": -5} ]
+        }
+      ],
+      "spriteAnims": {
+        "meleeAttack": {
+          "textureName": "firstBlood",
+          "spriteName": "Colonel_aa01.png",
+          "framesNumber": 5,
+          "frameRate": 12,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
+        }
+      },
+      "currentSkinIndex": 0,
+      "walkingFrames": 4,
+      "description": "Greed and Curse increase Might.",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      200,
+      "regen":      0,
+      "armor":      2,
+      "moveSpeed":  1.8,
+      "power":      1.5,
+      "speed":      1,
+      "duration":   1,
+      "area":       1,
+      "cooldown":   1,
+      "amount":     0,
+      "revivals":   0,
+      "magnet":     0.25,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "defang":     0,
+      "showcase": [
+        "FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW",
+        "AMOUNT","AMOUNT",
+        "MAXHEALTH","MAXHEALTH","MAXHEALTH","MAXHEALTH","MAXHEALTH",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FB_SIMONDO": [
+    {
+      "level": 1,
+      "hidden": true,
+      "isBought": false,
+      "startingWeapon": "VOID",
+      "charName": "Simondo",
+      "surname": "",
+      "spriteName": "Simondo_i01.png",
+      "textureName": "firstBlood",
+      "portraitName": "p_fbSimondo.png",
+      "walkingFrames": 4,
+      "description": "Simondo doesn't need weapons.",
+      "price": 10000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bgm": "BGM_FB_K13_Rave",
+      "skins": [
+        {
+          "id": 0,
+          "name": "Default",
+          "textureName": "firstBlood",
+          "spriteName": "Simondo_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [ { "x": 7, "y": 0} ]
+        }
+      ],
+      "currentSkinIndex": 0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "amount": 1,
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 60
+    },
+    {
+      "amount": 1,
+      "level": 80
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ]
+}

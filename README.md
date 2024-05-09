@@ -2,7 +2,7 @@
 
 Some data files of Vampire Survivors game.
 
-Ripped from v1.10 + Moonspell + Foscari + Meeting (+ Guns)
+Ripped from v1.10 + Moonspell + Foscari + Meeting + Guns
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 

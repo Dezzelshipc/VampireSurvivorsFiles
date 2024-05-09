@@ -4,8 +4,13 @@ import re
 
 
 def clean_json(string):
-    string = re.sub(",[ \t\r\n]+}", "}", string)
-    string = re.sub(",[ \t\r\n]+]", "]", string)
+    # extra commas
+    string = re.sub(r",[ \t\r\n]+}", "}", string)
+    string = re.sub(r",[ \t\r\n]+]", "]", string)
+
+    # comments: //
+    string = re.sub(r"\s*//.*\n", "\n", string)
+
     return string
 
 
@@ -34,9 +39,11 @@ def __generator_concatenate():
     for i, name in enumerate(names):
         paths = list(filter(lambda x: x, [gen_path(p, name) for p in dlc_paths]))
 
+        cur_p = ""
         try:
             outdata = {}
             for p in paths:
+                cur_p = p
                 with open_f(p) as file:
                     outdata.update(json.loads(clean_json(file.read())))
 
@@ -44,7 +51,7 @@ def __generator_concatenate():
                 outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))
 
         except json.decoder.JSONDecodeError as e:
-            print(f"{name} skipped: error {e}")
+            print(f"{name, os.path.split(cur_p)[-1]} skipped: error {e}")
 
         yield i, total_len
 

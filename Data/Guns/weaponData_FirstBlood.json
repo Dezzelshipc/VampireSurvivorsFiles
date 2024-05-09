@@ -1,0 +1,1231 @@
+{
+  "FB_FULLAUTO": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_FULLAUTO",
+      "price": 400,
+      "name": "Full Auto",
+      "description": "Fully automatic fire.",
+      "tips": "Each Amount will decrease cooldown by 16 milliseconds",
+      "texture": "items",
+      "frameName": "fb_A1_long.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_PROTOTYPE_A",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 200,
+      "repeatInterval": 100,
+      "power": 0.5,
+      "area": 1,
+      "speed": 2,
+      "amount": 1,
+      "penetrating": 1,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1,
+      "customDescValue": "Reduce cooldown by %0ms."
+    },
+    {
+      "interval":  -20,
+      "customDesc": 20
+    },
+    {
+      "interval":  -20,
+      "customDesc": 20
+    },
+    {
+      "interval":  -20,
+      "customDesc": 20
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval":  -20,
+      "customDesc": 20
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "interval":  -20,
+      "customDesc": 20,
+      "addEvolvedWeapon": "FB_PROTOTYPE_A"
+    }
+  ],
+  "FB_PROTOTYPE_A": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_PROTOTYPE_A",
+      "price": 400,
+      "name": "Prototype A",
+      "description": "Fully automatic fire.",
+      "tips": "Each Amount will decrease cooldown by 16 milliseconds",
+      "texture": "items",
+      "frameName": "fb_A3_prototype.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_FULLAUTO",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval":       150,
+      "repeatInterval": 150,
+      "power": 1,
+      "area": 1,
+      "speed": 2,
+      "amount": 1,
+      "penetrating": 6,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1
+    }
+  ],
+  
+  "FB_RAPIDFIRE": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_RAPIDFIRE",
+      "price": 10,
+      "name": "Rapid Fire",
+      "description": "Rapidly fires a stream of projectiles wherever you face.",
+      "tips": "Best with: Amount, Area.",
+      "texture": "items",
+      "frameName": "fb_A1_short.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "SPEED",
+        "FB_WEAPONPU"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_PROTOTYPE_B",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 2000,
+      "repeatInterval": 16,
+      "duration": 400,
+      "power": 2.0,
+      "area": 1,
+      "speed": 2,
+      "amount": 3,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3
+    },
+    {
+      "amount": 2
+    },
+    {
+      "power": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "amount": 2
+    },
+    {
+      "power": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 2,
+      "addEvolvedWeapon": "FB_PROTOTYPE_B"
+    }
+  ],
+  "FB_PROTOTYPE_B": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_PROTOTYPE_B",
+      "price": 10,
+      "name": "Prototype B",
+      "description": "Desc",
+      "tips": "Tips",
+      "texture": "items",
+      "frameName": "fb_A2_prototype.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_RAPIDFIRE",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "SPEED",
+        "FB_WEAPONPU"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 70,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 16,
+      "duration": 400,
+      "power": 6.0,
+      "area": 1,
+      "speed": 2,
+      "amount": 7,
+      "penetrating": 3,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3
+    }
+  ],
+  
+  "FB_SPREAD": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_SPREAD",
+      "name": "Spread Shot",
+      "description": "Shoots several projectiles in a wide spread.",
+      "tips": "@@",
+      "texture": "items",
+      "frameName": "fb_spread1.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "COOLDOWN"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_PROTOTYPE_C",
+      "hitVFX": 3,
+      "isUnlocked": false,
+      "hitsWalls": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 1900,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 100
+    },
+    {
+      "amount": 2
+    },
+    {
+      "amount": 2,
+      "speed": 0.5
+    },
+    {
+      "power": 1,
+      "interval": -200
+    },
+    {
+      "amount": 2,
+      "speed": 0.5
+    },
+    {
+      "power": 1,
+      "interval": -200
+    },
+    {
+      "amount": 2,
+      "speed": 0.5
+    },
+    {
+      "power": 0.5,
+      "interval": -200,
+      "addEvolvedWeapon": "FB_PROTOTYPE_C"
+    }
+  ],
+  "FB_PROTOTYPE_C": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_PROTOTYPE_C",
+      "name": "Prototype C",
+      "description": "Shoots several projectiles in a wide spread.",
+      "tips": "@@",
+      "texture": "items",
+      "frameName": "fb_spread2.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_SPREAD",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "COOLDOWN"
+      ],
+      "hitVFX": 3,
+      "hitsWalls": false,
+      "isUnlocked": true,
+      "poolLimit": 300,
+      "rarity": 1,
+      "interval": 1100,
+      "repeatInterval": 0,
+      "power": 3.5,
+      "area": 1,
+      "speed": 2.0,
+      "amount": 9,
+      "duration": 100
+    }
+  ],
+  
+  "FB_LASER": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_LASER",
+      "price": 200,
+      "name": "FB_LASER",
+      "description": "Fires a piercing laser.",
+      "tips": "@@",
+      "texture": "items",
+      "frameName": "fb_laser1.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "REVIVAL"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_PROTONBEAM",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 3600,
+      "repeatInterval": 140,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 500,
+      "hitBoxDelay": 500,
+      "intervalDependsOnDuration": false,
+      "unexcludeSelf": true,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.5,
+      "speed": 0.2
+    },
+    {
+      "power": 0.5,
+      "duration": 200
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "speed": 0.2
+    },
+    {
+      "power": 0.5,
+      "duration": 200
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 400,
+      "addEvolvedWeapon": "FB_PROTONBEAM"
+    }
+  ],
+  "FB_PROTONBEAM": [
+    {
+      "level": 1,
+      "price": 1,
+      "sealable": true,
+      "bulletType": "FB_PROTONBEAM",
+      "name": "FB_PROTONBEAM",
+      "description": "Throws cute bouncing projectiles with random properties.",
+      "tips": "Evolved C-U-Laser.",
+      "texture": "items",
+      "frameName": "fb_laser2.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_LASER",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "REVIVAL"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 150,
+      "rarity": 1,
+      "interval": 3200,
+      "repeatInterval": 200,
+      "power": 2.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "duration": 500,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "intervalDependsOnDuration": false
+    }
+  ],
+
+  "FB_FIREARM": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_FIREARM",
+      "price": 1600,
+      "name": "FB_FIREARM",
+      "description": "@@.",
+      "tips": "@@",
+      "texture": "items",
+      "frameName": "fb_fire1.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "AREA"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_FIREWALL",
+      "isUnlocked": false,
+      "hidden": false,
+      "hitVFX": 3,
+      "poolLimit": 200,
+      "rarity": 50,
+      "interval": 1200,
+      "repeatInterval": 0,
+      "power": 0.8,
+      "area": 1,
+      "speed": 1,
+      "amount": 4,
+      "duration": 600
+    },
+    {
+      "amount": 1
+    },
+    {
+      "speed": 0.3
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "speed": 0.3
+    },
+    {
+      "power": 1
+    },
+    {
+      "speed": 0.4,
+      "addEvolvedWeapon": "FB_FIREWALL"
+    }
+  ],
+  "FB_FIREWALL": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_FIREWALL",
+      "name": "Fire L3G5",
+      "description": "Desc",
+      "tips": "Evolved Fire Arm.",
+      "texture": "items",
+      "frameName": "fb_fire2.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_FIREARM",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "AREA"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 2.8,
+      "area": 1,
+      "speed": 3,
+      "amount": 10,
+      "duration": 1000
+    }
+  ],
+  
+  "FB_SONIC": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_SONIC",
+      "price": 200,
+      "name": "Sonic Bloom",
+      "description": "Fires energy rings wherever you are facing. Rings increase in Area until they hit.",
+      "tips": "Attack weak points for massive damage?",
+      "texture": "items",
+      "frameName": "fb_C1_sonic.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "ARMOR",
+        "FB_WEAPONPU"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_WAVE",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 3000,
+      "repeatInterval": 60,
+      "power": 0.75,
+      "area": 1,
+      "speed": 1.5,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 1,
+      "duration": 800,
+      "penetrating": 1
+    },
+    {
+      "penetrating": 1,
+      "area": 0.5
+    },
+    {
+      "amount": 1,
+      "duration": 400
+    },
+    {
+      "power": 0.5,
+      "area": 0.5
+    },
+    {
+      "penetrating": 1,
+      "interval" : -500
+    },
+    {
+      "amount": 1,
+      "duration": 400
+    },
+    {
+      "power": 0.5,
+      "area": 0.5
+    },
+    {
+      "duration": 400,
+      "interval" : -500,
+      "addEvolvedWeapon": "FB_WAVE"
+    }
+  ],
+  "FB_WAVE": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_WAVE",
+      "price": 400,
+      "name": "Wave Beam",
+      "description": "Fires forward when moving, but auto-fires charged shots when stopped.",
+      "tips": "Evolved Sonic Bloom.",
+      "texture": "items",
+      "frameName": "fb_C1_wave.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_SONIC",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "ARMOR",
+        "FB_WEAPONPU"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 10,
+      "rarity": 1,
+      "interval": 1400,
+      "repeatInterval": 100,
+      "power": 3,
+      "area": 1.0,
+      "penetrating": 2,
+      "speed": 2,
+      "amount": 1,
+      "duration": 2000,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+  
+  "FB_HOMING": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_HOMING",
+      "price": 400,
+      "name": "Homing",
+      "description": "Fires missiles that home in on enemies.",
+      "tips": "@@",
+      "texture": "items",
+      "frameName": "fb_B1_homingRed.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "AMOUNT"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_MULTISTAGE",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 2000,
+      "repeatInterval": 64,
+      "power": 2,
+      "area": 1,
+      "speed": 1.0,
+      "amount": 3,
+      "penetrating": 0,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1,
+      "customDescValue": "@@"
+    },
+    {
+      "amount": 1
+      
+    },
+    {
+      "interval": -200
+      
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "FB_MULTISTAGE"
+    }
+  ],
+  "FB_MULTISTAGE": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_MULTISTAGE",
+      "price": 400,
+      "name": "Multistage Missile",
+      "description": "Desc",
+      "tips": "Evolved Homing Missile.",
+      "texture": "items",
+      "frameName": "fb_B2_multistage.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_HOMING",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "AMOUNT"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 64,
+      "power": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 5,
+      "penetrating": 1,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1
+    }
+  ],
+
+  "FB_DIVERMINES": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_DIVERMINES",
+      "name": "Diver Mines",
+      "description": "Shoots exploding mines that follow surfaces.",
+      "tips": "Best with: Duration.",
+      "texture": "items",
+      "frameName": "fb_B1_diver.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "MAGNET"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_CRUSH",
+      "hitVFX": 3,
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 2000
+    },
+    {
+      "power": 1,
+      "interval" : -500
+    },
+    {
+      "amount": 1,
+      "duration": 500
+    },
+    {
+      "power": 1,
+      "area" : 0.3
+    },
+    {
+      "amount": 1,
+      "speed": 0.4
+    },
+    {
+      "power": 1,
+      "interval" : -500
+    },
+    {
+      "amount": 1,
+      "duration": 500
+    },
+    {
+      "duration": 1000,
+      "speed": 0.2,
+      "addEvolvedWeapon": "FB_CRUSH"
+    }
+  ],
+  "FB_CRUSH": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_CRUSH",
+      "price": 800,
+      "name": "Atmo-Torpedo",
+      "description": "Creates damaging zones.",
+      "tips": "Evolved Diver Mines.",
+      "texture": "items",
+      "frameName": "fb_B1_crush.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_DIVERMINES",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "MAGNET"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 4500,
+      "repeatInterval": 300,
+      "power": 4,
+      "area": 1.3,
+      "speed": 10,
+      "amount": 4,
+      "duration": 2000,
+      "hitBoxDelay": 1000,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+    
+  "FB_BLADECROSSBOW": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_BLADECROSSBOW",
+      "price": 200,
+      "name": "Blade Crossbow",
+      "description": "Aims at nearest enemy, has boomerang effect.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "fb_cross1.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "LUCK"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_CROSSBOWCRASH",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 3200,
+      "repeatInterval": 100,
+      "power": 0.4,
+      "area": 0.75,
+      "speed": 1,
+      "amount": 1,
+      "duration": 50,
+      "hitsWalls": true,
+      "hitBoxDelay": 100
+    },
+    {
+      "power": 1
+    },
+    {
+      "speed": 0.25,
+      "duration": 50
+    },
+    {
+      "amount": 1,
+      "interval": -100
+    },
+    {
+      "power": 1
+    },
+    {
+      "speed": 0.25,
+      "duration": 50
+    },
+    {
+      "amount": 1,
+      "interval": -100
+    },
+    {
+      "duration": 150,
+      "addEvolvedWeapon": "FB_CROSSBOWCRASH"
+    }
+  ],
+  "FB_CROSSBOWCRASH": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_CROSSBOWCRASH",
+      "price": 400,
+      "name": "BFC2000",
+      "description": "Evolved Blade Crossbow",
+      "tips": "Requires",
+      "texture": "items",
+      "frameName": "fb_cross2.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_BLADECROSSBOW",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "LUCK"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "power": 2.4,
+      "area": 0.75,
+      "speed": 1.5,
+      "amount": 3,
+      "duration": 600,
+      "hitsWalls": true,
+      "hitBoxDelay": 100,
+      "penetrating": 1,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1
+    }
+  ],
+
+  "FB_PRISMCUTLASS": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_PRISMCUTLASS",
+      "price": 10,
+      "name": "Prism Cutlass",
+      "description": "Attacks horizontally, passes through enemies and may freeze them.",
+      "tips": "Ignores: Speed.",
+      "texture": "items",
+      "frameName": "fb_prism1.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "MOVESPEED"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_TIMEWARP",
+      "isUnlocked": false,
+      "poolLimit": 30,
+      "rarity": 50,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "power": 0.8,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "knockback": 0.1,
+      "duration": 500,
+      "critChance": 0.025,
+      "critMul": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "critChance": 0.025
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.5,
+      "critChance": 0.025
+    },
+    {
+      "speed": 0.2,
+      "area": 0.2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "FB_TIMEWARP"
+    }
+  ],
+  "FB_TIMEWARP": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_TIMEWARP",
+      "price": 400,
+      "name": "Time Warp",
+      "description": "Damages and freezes enemies around you.",
+      "tips": "Evolved Prism Cutlass.",
+      "texture": "items",
+      "frameName": "fb_prism2.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_PRISMCUTLASS",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "MOVESPEED"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 10000,
+      "repeatInterval": 150,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "duration": 4000,
+      "hitBoxDelay": 100,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1
+    }
+  ],
+  
+  "FB_METALCLAW": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_METALCLAW",
+      "price": 800,
+      "name": "Metal Claw",
+      "description": "Claws nearby enemies. Clawmarks linger and deal damage.",
+      "tips": "@@",
+      "texture": "items",
+      "frameName": "fb_claw1.png",
+      "collectionFrame": "frameB_gray.png",
+      "evoSynergy": [
+        "FB_WEAPONPU",
+        "MAXHEALTH"
+      ],
+      "forcedSynergyWeapons": [
+        "FB_WEAPONPU"
+      ],
+      "evoInto": "FB_BIGFUZZYFIST",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "power": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 0,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1,
+      "interval": -500
+    },
+    {
+      "area": 0.5
+    },
+    {
+      "amount": 1,
+      "interval": -500
+    },
+    {
+      "power": 1,
+      "area": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "area": 0.5
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "FB_BIGFUZZYFIST"
+    }
+  ],
+  "FB_BIGFUZZYFIST": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_BIGFUZZYFIST",
+      "name": "Big Fuzzy Fist",
+      "description": "Smashes the strongest enemy on-screen.",
+      "tips": "Evolved Metal Claw.",
+      "texture": "items",
+      "frameName": "fb_claw2.png",
+      "collectionFrame": "frameB_gray.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "FB_METALCLAW",
+        "FB_WEAPONPU"
+      ],
+      "requires": [
+        "FB_WEAPONPU",
+        "MAXHEALTH"
+      ],
+      "isUnlocked": true,
+      "hidden": false,
+      "amount": 5,
+      "interval": 5000,
+      "repeatInterval": 400,
+      "power": 6,
+      "area": 2,
+      "rarity": 1
+    }
+  ],
+
+  "FB_WEAPONPU": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FB_WEAPONPU",
+      "price": 40,
+      "name": "Weapon Power-Up",
+      "description": "Levels up a random equipped weapon. Gives 1 Revive.",
+      "texture": "items",
+      "tips": "Stat bonuses persist if the item is lost.",
+      "frameName": "fb_weaponup.png",
+      "collectionFrame": "frameB_gray.png",
+      "customDescValue": "Allows to evolve Contra Force weapons.",
+      "evoSynergy": [
+      ],
+      "isUnlocked": true,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 30,
+      "revivals": 1,
+      "allowDuplicates": true
+    }
+  ],
+  "FB_FIREEXPLOSION": [
+    {
+      "level": 1,
+      "bulletType": "FB_FIREEXPLOSION",
+      "name": "First Blood Explosion",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "dummyFire.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 0,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 500,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 300,
+      "hitsWalls": false
+    }
+  ],
+
+  "FB_EXPLOBARRELHAZARD": [
+    {
+      "level": 1,
+      "bulletType": "FB_EXPLOBARRELHAZARD",
+      "name": "Average Explosive Barrel",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "dummyBarrel.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 3,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 5000,
+      "repeatInterval": 5000,
+      "power": 6,
+      "area": 2.0,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1000,
+      "hitsWalls": false
+    }
+  ],
+  "FB_EXPLOCARHAZARD": [
+    {
+      "level": 1,
+      "bulletType": "FB_EXPLOCARHAZARD",
+      "name": "Average Explosive Car",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "dummyBarrel.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 3,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 5000,
+      "repeatInterval": 5000,
+      "power": 12,
+      "area": 6.0,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1000,
+      "hitsWalls": false
+    }
+  ],
+  "FB_PRISMCUTLASS_COUNTER": [
+    {
+      "level": 1,
+      "bulletType": "FB_PRISMCUTLASS_COUNTER",
+      "name": "Prism Cutlass",
+      "description": "Attacks horizontally, passes through enemies and may freeze them.",
+      "tips": "Ignores: Speed.",
+      "texture": "items",
+      "frameName": "fb_prismCounter.png",
+      "collectionFrame": "frameB_gray.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 30,
+      "rarity": 50,
+      "interval": 2000,
+      "repeatInterval": 100,
+      "power": 0.8,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "knockback": 0.1,
+      "duration": 500,
+      "critChance": 0.025,
+      "critMul": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "critChance": 0.025
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.5,
+      "critChance": 0.025
+    },
+    {
+      "speed": 0.2,
+      "area": 0.2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 1
+    }
+  ]
+}

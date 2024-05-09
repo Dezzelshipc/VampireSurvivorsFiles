@@ -1,0 +1,127 @@
+{
+  "FB_01_Find__Coffin": {
+    "description": "Find and open the coffin on Galuga Jungle.",
+    "characterToUnlock": "FB_BILLRIZER"
+  },
+  "FB_02_SurvivLong": {
+    "description": "Survive 15 minutes with Bill Rizer.",
+    "weaponToUnlock": "FB_FULLAUTO"
+  },
+  "FB_03_EvolveLong": {
+    "description": "Evolve the Long Gun.",
+    "characterToUnlock": "FB_LANCE"
+  },
+  "FB_04_SurvivShort": {
+    "description": "Survive 15 minutes with Lance Bean.",
+    "weaponToUnlock": "FB_RAPIDFIRE"
+  },
+  "FB_05_EvolveShort": {
+    "description": "Evolve the Short Gun.",
+    "characterToUnlock": "FB_ARIANA"
+  },
+  "FB_06_SurvivSpread": {
+    "description": "Survive 15 minutes Ariana.",
+    "weaponToUnlock": "FB_SPREAD"
+  },
+  "FB_07_EvolveSpread": {
+    "description": "Evolve the Spread Gun.",
+    "characterToUnlock": "FB_LUCIA"
+  },
+  "FB_08_SurvivLaser": {
+    "description": "Survive 15 minutes with Lucia.",
+    "weaponToUnlock": "FB_LASER"
+  },
+  "FB_09_EvolveLaser": {
+    "description": "Evolve the C-U-Laser.",
+    "hyperToUnlock": "FB_HIGHWAY",
+    "stageToUnlock": "FB_HIGHWAY"
+  },
+  "FB_10_Find__Coffin": {
+    "description": "Find and open the coffin on Hectic Highway.",
+    "characterToUnlock": "FB_BRADFANG"
+  },
+  "FB_11_SurvivFire": {
+    "description": "Survive 15 minutes with Brad Fang.",
+    "weaponToUnlock": "FB_FIREARM"
+  },
+  "FB_12_EvolveFire": {
+    "description": "Evolve the Fire Arm.",
+    "characterToUnlock": "FB_BROWNY"
+  },
+  "FB_13_SurvivSonic": {
+    "description": "Survive 15 minutes with Browny.",
+    "weaponToUnlock": "FB_SONIC"
+  },
+  "FB_14_EvolveSonic": {
+    "description": "Evolve the Sonic Bloom.",
+    "characterToUnlock": "FB_SHEENA"
+  },
+  "FB_15_SurvivCross": {
+    "description": "Survive 15 minutes with Sheena.",
+    "weaponToUnlock": "FB_BLADECROSSBOW"
+  },
+  "FB_16_EvolveCross": {
+    "description": "Evolve the Blade Crossbow.",
+    "goldPrize": 50000,
+    "weaponIcon": "FB_CROSSBOWCRASH"
+  },
+  "FB_17_Find__Barrier": {
+    "description": "Find 7 Barriers.",
+    "characterToUnlock": "FB_PROBO"
+  },
+  "FB_18_SurvivPrism": {
+    "description": "Survive 15 minutes with Probotector.",
+    "weaponToUnlock": "FB_PRISMCUTLASS"
+  },
+  "FB_19_EvolvePrism": {
+    "description": "Evolve the Prism Lass.",
+    "goldPrize": 50000,
+    "weaponIcon": "FB_TIMEWARP"
+  },
+  "FB_20_Find__Rapid": {
+    "description": "Find 14 RapidFires.",
+    "characterToUnlock": "FB_STANLEY"
+  },
+  "FB_21_SurvivHoming": {
+    "description": "Survive 15 minutes with Stanley.",
+    "weaponToUnlock": "FB_HOMING"
+  },
+  "FB_22_EvolveHoming": {
+    "description": "Evolve the Homing Miss.",
+    "goldPrize": 50000,
+    "weaponIcon": "FB_MULTISTAGE"
+  },
+  "FB_23_Find__Grenade": {
+    "description": "Find 21 Grenades.",
+    "characterToUnlock": "FB_NEWT"
+  },
+  "FB_24_SurvivMines": {
+    "description": "Survive 15 minutes with Newt.",
+    "weaponToUnlock": "FB_DIVERMINES"
+  },
+  "FB_25_EvolveMines": {
+    "description": "Evolve the Diver Mines.",
+    "characterToUnlock": "FB_SIMONDO"
+  },
+  "FB_26_DefeatSpecial": {
+    "description": "Defeat Big Fuzz in Galuga Jungle.",
+    "characterToUnlock": "FB_COLONEL"
+  },
+  "FB_27_SurvivClaw": {
+    "description": "Survive 15 minutes with Colonel Bahamut.",
+    "weaponToUnlock": "FB_METALCLAW"
+  },
+  "FB_28_EvolveClaw": {
+    "description": "Evolve the Metal Claw.",
+    "goldPrize": 50000,
+    "weaponIcon": "FB_BIGFUZZYFIST"
+  },
+  "FB_29_DefeatBoss": {
+    "description": "Defeat Taka in Galuga Jungle.",
+    "hyperToUnlock": "FB_GALUGA"
+  },
+  "FB_30_Find__Map": {
+    "description": "Find the Galuga Jungle Map.",
+    "relicToUnlock": "RELIC_MAP_FB"
+  }
+}

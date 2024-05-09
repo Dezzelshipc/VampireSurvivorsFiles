@@ -1,0 +1,47 @@
+{
+  "FB_RAPIDFIRE": {
+    "name": "Rapid Fire",
+    "description": "Temporarily doubles Speed and halves Cooldown.",
+    "tips": "Drop rate affected by Luck.",
+    "texture": "firstBlood",
+    "frameName": "fb_rapid1.png",
+    "collectionFrame": "frameB_gray.png",
+    "pickedupAmount": 0,
+    "rarity": 4,
+    "unlocksAt": 1,
+    "value": 500,
+    "isRare": true,
+    "sealable": true,
+    "excludeFromDefaultLootTable": true
+  },
+  "FB_BARRIER": {
+    "name": "Barrier",
+    "description": "Temporarily prevents all damage, but allows for retaliatory attacks.",
+    "tips": "Drop rate affected by Luck.",
+    "texture": "firstBlood",
+    "frameName": "fb_barrier1.png",
+    "collectionFrame": "frameB_gray.png",
+    "pickedupAmount": 0,
+    "rarity": 3,
+    "unlocksAt": 1,
+    "value": 500,
+    "isRare": true,
+    "sealable": true,
+    "excludeFromDefaultLootTable": true
+  },
+  "FB_GRENADE": {
+    "name": "Grenade",
+    "description": "Deals high damage to all visible enemies.",
+    "tips": "Drop rate affected by Luck.",
+    "texture": "firstBlood",
+    "frameName": "fb_grenade1.png",
+    "collectionFrame": "frameB_gray.png",
+    "pickedupAmount": 0,
+    "rarity": 2,
+    "unlocksAt": 1,
+    "value": 500,
+    "isRare": true,
+    "sealable": true,
+    "excludeFromDefaultLootTable": true
+  }
+}
