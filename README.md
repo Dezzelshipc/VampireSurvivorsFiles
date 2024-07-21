@@ -7,7 +7,7 @@ Ripped from v1.10 + Moonspell + Foscari + Meeting + Guns
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 
 
-## Unpacker (v0.6)
+## Unpacker (v0.7)
 
 Run [Unpacker.py](Unpacker.py). It can unpack images, get language strings and split them to different files and languages, 
 unpack images based in data files and make them with unifed names,

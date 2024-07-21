@@ -83,7 +83,51 @@ class Unpacker(tk.Tk):
                 x.set(state)
 
         def __close(self):
-            self.parent.data_from_popup = [v.get() for v in self.states]
+            self.parent.data_from_popup = self.get_states()
+            self.destroy()
+
+    class GeneratorDialog(tk.Toplevel):
+        def __init__(self, parent, gen: image_gen.ImageGenerator):
+            super().__init__(parent)
+            self.parent = parent
+            self.title("Select settings")
+            ttk.Label(self, text="Select settings for exporting files").pack()
+
+            self.settings = dict()
+
+            ttk.Label(self, text="Scale factor").pack()
+
+            scale_input = ttk.Entry(self)
+            scale_input.insert(0, gen.scaleFactor)
+            scale_input.pack()
+            gt = image_gen.GenType
+
+            self.settings.update({gt.SCALE: scale_input})
+
+            if gt.FRAME in gen.available_gen:
+                text = "Also generate with frame variants"
+                if gen.assets_type in [image_gen.Type.STAGE, image_gen.Type.STAGE_SET]:
+                    text = "Also generate with name of stage"
+
+                frame_bool = tk.BooleanVar()
+                ttk.Checkbutton(self, text=text, variable=frame_bool).pack()
+
+                self.settings.update({gt.FRAME: frame_bool})
+
+            if gt.ANIM in gen.available_gen:
+                anim_bool = tk.BooleanVar()
+                ttk.Checkbutton(self, text="Also generate animations", variable=anim_bool).pack()
+
+                self.settings.update({gt.ANIM: anim_bool})
+
+            b_ok = ttk.Button(self, text="Start", command=self.__close)
+            b_ok.pack()
+
+        def __close(self):
+            def get(k, v):
+                return int(v.get()) if k == image_gen.GenType.SCALE else v.get()
+
+            self.parent.data_from_popup = {k: get(k, v) for k, v in self.settings.items()}
             self.destroy()
 
     def __init__(self, width=700, height=300):
@@ -568,8 +612,14 @@ class Unpacker(tk.Tk):
             showerror("Generator error", "Cannot get images from this file.\nGenerator does not exist.")
             return
 
-        scale_factor = askinteger("Input scale", "Input scale factor for images", initialvalue=gen.scaleFactor)
-        is_with_frame = askyesno("Frame", "Generate images also with frames?")
+        dial = self.GeneratorDialog(self, gen)
+        dial.wait_window()
+
+        generator_settings = self.data_from_popup
+
+        gt = image_gen.GenType
+        scale_factor = generator_settings[gt.SCALE]
+        is_with_frame = generator_settings.get(gt.FRAME, False)
 
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
 

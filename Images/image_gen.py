@@ -17,6 +17,12 @@ class Type(Enum):
     POWERUP = 7
 
 
+class GenType(Enum):
+    SCALE = 0
+    FRAME = 1
+    ANIM = 2
+
+
 class IGFactory:
     @staticmethod
     def get(data_file: str):
@@ -37,8 +43,8 @@ class IGFactory:
             return ArcanaImageGenerator()
         elif "powerup" in data_file:
             return PowerUpImageGenerator()
-        else:
-            return None
+
+        return None
 
 
 class ImageGenerator:
@@ -56,6 +62,8 @@ class ImageGenerator:
         self.is_with_frame = False
 
         self.iconGroup = "Icon"
+
+        self.available_gen = [ GenType.SCALE, GenType.FRAME ]
 
     def textures_set(self, data):
         pass
@@ -184,7 +192,7 @@ class SimpleGenerator(ImageGenerator):
 
         save_folder += f"/{save_dlc}"
 
-        if lang_file and lang_file.get(k_id):
+        if self.dataObjectKey and lang_file and lang_file.get(k_id):
             name = lang_file.get(k_id).get(self.dataObjectKey)
 
         if "Megalo" in obj.get('prefix', ''):
@@ -264,6 +272,8 @@ class CharacterImageGenerator(TableGenerator):
         self.folderToSave = "characters/"
         self.langFileName = "characterLang.json"
 
+        # self.available_gen.append( GenType.ANIM )
+
 
 class PowerUpImageGenerator(TableGenerator):
     def __init__(self):
@@ -297,6 +307,8 @@ class EnemyImageGenerator(TableGenerator):
 
         self.folderToSave = "enemy"
 
+        self.available_gen = [GenType.SCALE]
+
     def get_sprite_name(self, obj):
         return super().get_sprite_name(obj)[0]
 
@@ -324,6 +336,7 @@ class StageImageGenerator(TableGenerator):
 
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
+            os.makedirs(sf_text+"/text")
 
         im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
                                    PIL.Image.NEAREST)
@@ -337,7 +350,7 @@ class StageImageGenerator(TableGenerator):
 
         draw = ImageDraw.Draw(canvas)
         draw.text((3, -5), text, "#eef92b", font, stroke_width=1)
-        canvas.save(f"{sf_text}/Stage-{text}1.png")
+        canvas.save(f"{sf_text}/text/Stage-{text}.png")
 
         # canvas.show()
         # im_crop.show()
