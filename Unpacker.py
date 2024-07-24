@@ -123,11 +123,19 @@ class Unpacker(tk.Tk):
             b_ok = ttk.Button(self, text="Start", command=self.__close)
             b_ok.pack()
 
+            self.protocol("WM_DELETE_WINDOW", self.__close_exit)
+            self.exit = False
+
+        def __close_exit(self):
+            self.exit = True
+            self.__close()
+
         def __close(self):
             def get(k, v):
                 return int(v.get()) if k == image_gen.GenType.SCALE else v.get()
 
             self.parent.data_from_popup = {k: get(k, v) for k, v in self.settings.items()}
+            self.parent.data_from_popup.update({"exit": self.exit})
             self.destroy()
 
     def __init__(self, width=700, height=300):
@@ -331,8 +339,15 @@ class Unpacker(tk.Tk):
             with open(file_path) as f:
                 sprites = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]["sprites"]
 
-            self.loaded_meta.update({file: {s["name"]: s["rect"] for s in sprites},
-                                     file + "Image": Image.open(full_path)})
+            self.loaded_meta.update({file:
+                {s["name"]:
+                    {
+                        "rect": s["rect"],
+                        "pivot": s["pivot"]
+                    }
+                    for s in sprites},
+                file + "Image": Image.open(full_path)
+            })
 
             print(f"Parse {p_file}.meta ended")
         return self.loaded_meta[file], self.loaded_meta[file + "Image"]
@@ -581,9 +596,11 @@ class Unpacker(tk.Tk):
 
             for i, obj in enumerate(ug):
                 self.progress_bar_set(i + 1, total)
-                gen.make_image(self.get_meta_by_full_path, obj[0], obj[1], is_with_frame=is_with_frame,
+                gen.make_image(self.get_meta_by_full_path, obj[0], obj[1],
+                               lang_file=lang,
                                scale_factor=scale_factor,
-                               lang_file=lang)
+                               is_with_frame=is_with_frame,
+                               is_with_anim=is_with_anim)
 
             self.last_loaded_folder = os.path.abspath("./Images/Generated")
 
@@ -614,12 +631,15 @@ class Unpacker(tk.Tk):
 
         dial = self.GeneratorDialog(self, gen)
         dial.wait_window()
+        if self.data_from_popup["exit"]:
+            return
 
         generator_settings = self.data_from_popup
 
         gt = image_gen.GenType
         scale_factor = generator_settings[gt.SCALE]
         is_with_frame = generator_settings.get(gt.FRAME, False)
+        is_with_anim = generator_settings.get(gt.ANIM, False)
 
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
 

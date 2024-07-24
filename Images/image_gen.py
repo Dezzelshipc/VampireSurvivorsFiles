@@ -58,12 +58,11 @@ class ImageGenerator:
         self.frameKey = None
         self.langFileName = None
         self.defaultFrameName = None
-
-        self.is_with_frame = False
+        self.dataAnimFramesKey = None
 
         self.iconGroup = "Icon"
 
-        self.available_gen = [ GenType.SCALE, GenType.FRAME ]
+        self.available_gen = [GenType.SCALE, GenType.FRAME]
 
     def textures_set(self, data):
         pass
@@ -93,15 +92,17 @@ class ImageGenerator:
 
         return Image.open(full_path)
 
-    def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1):
+    def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1) -> Image:
         try:
-            rect = meta.get(file_name) or meta.get(int(file_name))
+            meta_data = meta.get(file_name) or meta.get(int(file_name))
         except ValueError:
-            rect = None
+            meta_data = None
 
-        if rect is None:
-            print(f"Skipped {name}")
+        if meta_data is None:
+            print(f"Skipped {name}, {file_name}")
             return
+
+        rect = meta_data["rect"]
 
         sx, sy = im.size
 
@@ -122,7 +123,7 @@ class ImageGenerator:
 
         return im_crop
 
-    def save_png_icon(self, im_frame, im_obj, name, save_folder, scale_factor=1):
+    def save_png_icon(self, im_frame, im_obj, name, save_folder, scale_factor=1) -> None:
         p_dir = os.path.split(__file__)[0]
 
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
@@ -147,6 +148,68 @@ class ImageGenerator:
         name = self.change_name(name)
         im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
+    def save_gif(self, meta, im: Image, file_name, name, save_folder, frames_count, prefix_name="Animated-",
+                 duration_factor=8, scale_factor=1) -> None:
+        sx, sy = im.size
+
+        file_name_clean = file_name[:-2]
+
+        im_list = []
+        for i in range(frames_count):
+            frame_name = f"{file_name_clean}{i + 1:02}"
+
+            try:
+                meta_data = meta.get(frame_name) or meta.get(int(frame_name))
+            except ValueError:
+                meta_data = None
+
+            if meta_data is None:
+                print(f"Skipped {name}, {frame_name}")
+                continue
+
+            rect = meta_data["rect"]
+            pivot = meta_data["pivot"]
+            pivot = {
+                "x": round(pivot["x"] * rect["width"]),
+                "y": round(pivot["y"] * rect["height"])
+            }
+            pivot.update({
+                "-x": rect["width"] - pivot["x"],
+                "-y": rect["height"] - pivot["y"],
+            })
+
+            im_crop = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+
+            im_list.append((im_crop, pivot, rect))
+
+        max_pivot = {k: max(d[1][k] for d in im_list) for k in im_list[0][1].keys()}
+
+        gif_list = []
+        for image, pivot, rect in im_list:
+            new_size = (
+                pivot["x"] - max_pivot["x"],
+                pivot["-y"] - max_pivot["-y"],
+                rect["width"] + max_pivot["-x"] - pivot["-x"],
+                rect["height"] + max_pivot["y"] - pivot["y"]
+            )
+            im_t = image.crop(new_size)
+
+            im_r = im_t.resize((im_t.size[0] * scale_factor, im_t.size[1] * scale_factor), PIL.Image.NEAREST)
+            gif_list.append(im_r)
+
+        p_dir = os.path.split(__file__)[0]
+
+        sf_text = f'{p_dir}/Generated/{save_folder}/anim'
+
+        if not os.path.isdir(sf_text):
+            os.makedirs(sf_text)
+
+        duration_scale = 8 / duration_factor if duration_factor else 4 / frames_count
+
+        name = self.change_name(name)
+        gif_list[0].save(f"{sf_text}/{prefix_name}{name}.gif", save_all=True, append_images=gif_list[1:],
+                         duration=150 * duration_scale, loop=0, disposal=2)
+
 
 class SimpleGenerator(ImageGenerator):
     def unit_generator(self, data: dict):
@@ -165,7 +228,7 @@ class SimpleGenerator(ImageGenerator):
     def get_frame_name(self, obj):
         return obj.get(self.frameKey, self.defaultFrameName)
 
-    def make_image(self, func_meta, k_id, obj: dict, scale_factor=1, is_with_frame=False, lang_file=None):
+    def make_image(self, func_meta, k_id, obj: dict, lang_file=None, **settings):
         name = obj.get(self.dataObjectKey) or k_id
         texture_name = obj.get(self.dataTextureKey)
         file_name = self.get_sprite_name(obj).replace(".png", "")
@@ -195,15 +258,25 @@ class SimpleGenerator(ImageGenerator):
         if self.dataObjectKey and lang_file and lang_file.get(k_id):
             name = lang_file.get(k_id).get(self.dataObjectKey)
 
+            sprite_id = obj.get("id", 0)
+            if sprite_id != 0:
+                name += f"-{sprite_id + 1}"
+
         if "Megalo" in obj.get('prefix', ''):
             name = f"Megalo {name}"
 
+        scale_factor = settings["scale_factor"]
+
         im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor)
 
-        if is_with_frame:
+        if settings.get("is_with_frame"):
             im_frame = self.get_frame(frame_name)
             if im_frame or self.assets_type in [Type.STAGE, Type.STAGE_SET]:
                 self.save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=scale_factor)
+
+        if settings.get("is_with_anim"):
+            self.save_gif(meta, im, file_name, name, save_folder, obj.get(self.dataAnimFramesKey),
+                          duration_factor=obj.get("walkFrameRate"), scale_factor=scale_factor)
 
 
 class ItemImageGenerator(SimpleGenerator):
@@ -235,7 +308,7 @@ class ArcanaImageGenerator(SimpleGenerator):
 
     @staticmethod
     def change_name(name):
-        return name[name.find("-")+1:].strip()
+        return name[name.find("-") + 1:].strip()
 
 
 class TableGenerator(SimpleGenerator):
@@ -271,8 +344,29 @@ class CharacterImageGenerator(TableGenerator):
         self.dataObjectKey = "charName"
         self.folderToSave = "characters/"
         self.langFileName = "characterLang.json"
+        self.dataAnimFramesKey = "walkingFrames"
 
-        # self.available_gen.append( GenType.ANIM )
+        self.available_gen.remove(GenType.FRAME)
+        self.available_gen.append(GenType.ANIM)
+
+    @staticmethod
+    def len_data(data: dict):
+        return sum(len(v[0].get("skins")) if v[0].get("skins") else 1 for v in data.values())
+
+    def unit_generator(self, data: dict):
+        return self.skins_generator(data)
+
+    def skins_generator(self, data: dict):
+        for k, vv in data.items():
+            v = self.get_table_unit(vv, 0)
+            if skins := v.get("skins", False):
+                for skin in skins:
+                    char = v.copy()
+                    char.update(skin)
+
+                    yield k, char
+            else:
+                yield k, v
 
 
 class PowerUpImageGenerator(TableGenerator):
@@ -336,7 +430,7 @@ class StageImageGenerator(TableGenerator):
 
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
-            os.makedirs(sf_text+"/text")
+            os.makedirs(sf_text + "/text")
 
         im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
                                    PIL.Image.NEAREST)
