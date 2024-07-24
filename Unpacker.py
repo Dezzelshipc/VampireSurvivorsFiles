@@ -339,15 +339,17 @@ class Unpacker(tk.Tk):
             with open(file_path) as f:
                 sprites = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]["sprites"]
 
-            self.loaded_meta.update({file:
-                {s["name"]:
-                    {
-                        "rect": s["rect"],
-                        "pivot": s["pivot"]
-                    }
-                    for s in sprites},
-                file + "Image": Image.open(full_path)
-            })
+            self.loaded_meta.update(
+                {
+                    file: {
+                        s["name"]: {
+                            "rect": s["rect"],
+                            "pivot": s["pivot"]
+                        } for s in sprites
+                    },
+                    file + "Image": Image.open(full_path)
+                }
+            )
 
             print(f"Parse {p_file}.meta ended")
         return self.loaded_meta[file], self.loaded_meta[file + "Image"]
@@ -371,8 +373,8 @@ class Unpacker(tk.Tk):
         print(f"Files out of {total}:")
 
         self.progress_bar_set(0, total)
-
-        for i, (pic_name, rect) in enumerate(meta.items()):
+        for i, (pic_name, meta_data) in enumerate(meta.items()):
+            rect = meta_data["rect"]
             print(f"\r{i + 1}", end="")
             self.progress_bar_set(i + 1, total)
 

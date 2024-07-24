@@ -108,7 +108,6 @@
             "type": "FB_MOSQUITO",
             "pool": null
           },
-//Neo City
           {
             "key": 4,
             "type": "FB_HUMANFACEDDOG",
@@ -119,7 +118,6 @@
             "type": "FB_JUNKYARDCAR",
             "pool": null
           },
-//Alien Zone
           {
             "key": 6,
             "type": "FB_BUGGER",
@@ -902,7 +900,25 @@
           "repeat": 1,
           "chance": 10
         }
-      ]
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          0.5,
+          1,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
     },
     {
       "minute": 27,
@@ -925,7 +941,25 @@
           "repeat": 1,
           "chance": 10
         }
-      ]
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          0.5,
+          1,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
     },
     {
       "minute": 28,
@@ -959,7 +993,25 @@
         "FB_KIMKOH",
         "FB_MUTANTCRAWLER",
         "FB_GIGAFLY"
-      ]
+      ],
+      "bosses": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "treasure": {
+        "chances": [
+          0.5,
+          1,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
     },
     {
       "minute": 30,

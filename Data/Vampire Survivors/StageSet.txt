@@ -19274,7 +19274,23 @@
             "repeat": 1,
             "chance": 100
           }
-        ]
+        ],
+        "arcanaHolder": "BOSS_FB_FLIGHTZAKO",
+        "arcanaTreasure": {
+          "chances": [
+            0,
+            0,
+            100
+          ],
+          "level": 1,
+          "prizeTypes": [
+            "EVO_ARCANA",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY",
+            "EXISTING_ANY"
+          ]
+        },
       },
       {
         "minute": 15,

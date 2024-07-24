@@ -568,7 +568,7 @@
         "FB_WEAPONPU"
       ],
       "isUnlocked": true,
-      "poolLimit": 10,
+      "poolLimit": 50,
       "rarity": 1,
       "interval": 1400,
       "repeatInterval": 100,
@@ -719,7 +719,7 @@
     },
     {
       "amount": 1,
-      "duration": 500
+      "speed": 0.4
     },
     {
       "power": 1,
@@ -727,7 +727,7 @@
     },
     {
       "amount": 1,
-      "speed": 0.4
+      "duration": 500
     },
     {
       "power": 1,
@@ -765,7 +765,7 @@
         "MAGNET"
       ],
       "isUnlocked": true,
-      "poolLimit": 50,
+      "poolLimit": 100,
       "rarity": 1,
       "interval": 4500,
       "repeatInterval": 300,
@@ -901,7 +901,7 @@
       ],
       "evoInto": "FB_TIMEWARP",
       "isUnlocked": false,
-      "poolLimit": 30,
+      "poolLimit": 100,
       "rarity": 50,
       "interval": 3000,
       "repeatInterval": 100,
@@ -1093,7 +1093,7 @@
       "alwaysHidden": false,
       "isSpecialOnly": true,
       "isPowerUp": true,
-      "rarity": 30,
+      "rarity": 200,
       "revivals": 1,
       "allowDuplicates": true
     }
@@ -1112,7 +1112,7 @@
       "isUnlocked": false,
       "isSpecialOnly": true,
       "hitVFX": 0,
-      "poolLimit": 50,
+      "poolLimit": 100,
       "rarity": 0,
       "interval": 500,
       "repeatInterval": 50,
@@ -1139,7 +1139,7 @@
       "isUnlocked": false,
       "isSpecialOnly": true,
       "hitVFX": 3,
-      "poolLimit": 50,
+      "poolLimit": 100,
       "rarity": 0,
       "interval": 5000,
       "repeatInterval": 5000,
@@ -1165,7 +1165,7 @@
       "isUnlocked": false,
       "isSpecialOnly": true,
       "hitVFX": 3,
-      "poolLimit": 50,
+      "poolLimit": 100,
       "rarity": 0,
       "interval": 5000,
       "repeatInterval": 5000,
@@ -1189,7 +1189,7 @@
       "collectionFrame": "frameB_gray.png",
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "poolLimit": 30,
+      "poolLimit": 100,
       "rarity": 50,
       "interval": 2000,
       "repeatInterval": 100,
