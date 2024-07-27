@@ -1,6 +1,5 @@
 from enum import Enum
 import os
-import json
 from PIL import Image, ImageFont, ImageDraw
 import PIL.Image
 
@@ -15,12 +14,14 @@ class Type(Enum):
     STAGE_SET = 5
     ARCANA = 6
     POWERUP = 7
+    PROPS = 8
 
 
 class GenType(Enum):
     SCALE = 0
     FRAME = 1
     ANIM = 2
+    DEATH_ANIM = 3
 
 
 class IGFactory:
@@ -43,6 +44,8 @@ class IGFactory:
             return ArcanaImageGenerator()
         elif "powerup" in data_file:
             return PowerUpImageGenerator()
+        elif "props" in data_file:
+            return PropsImageGenerator()
 
         return None
 
@@ -61,6 +64,8 @@ class ImageGenerator:
         self.dataAnimFramesKey = None
 
         self.iconGroup = "Icon"
+
+        self.animLeadingZeros = 2
 
         self.available_gen = [GenType.SCALE, GenType.FRAME]
 
@@ -94,7 +99,11 @@ class ImageGenerator:
 
     def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1) -> Image:
         try:
-            meta_data = meta.get(file_name) or meta.get(int(file_name))
+            if meta.get(f"{file_name}1"):
+                file_name = f"{file_name}1"
+                meta_data = meta.get(file_name)
+            else:
+                meta_data = meta.get(file_name) or meta.get(int(file_name))
         except ValueError:
             meta_data = None
 
@@ -149,14 +158,27 @@ class ImageGenerator:
         im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
     def save_gif(self, meta, im: Image, file_name, name, save_folder, frames_count, prefix_name="Animated-",
-                 duration_factor=8, scale_factor=1) -> None:
+                 duration_factor=8, scale_factor=1, base_duration=150, leading_zeros: None | int = None) -> None:
         sx, sy = im.size
 
-        file_name_clean = file_name[:-2]
+        start_index = 0
+        if file_name.endswith("01"):
+            file_name_clean = file_name[:-2]
+            start_index = 1
+        elif file_name.endswith("0"):
+            file_name_clean = file_name[:-1]
+        else:
+            file_name_clean = file_name
+
+        if not frames_count:
+            frames_count = len(list(filter(lambda k: str(k).startswith(file_name_clean), meta.keys())))
+            if not file_name_clean.endswith("i"):
+                frames_count -= len(list(filter(lambda k: str(k).startswith(file_name_clean+"i"), meta.keys())))
 
         im_list = []
+        skipped_frames = 0
         for i in range(frames_count):
-            frame_name = f"{file_name_clean}{i + 1:02}"
+            frame_name = f"{file_name_clean}{str(i + start_index).zfill(leading_zeros or self.animLeadingZeros)}"
 
             try:
                 meta_data = meta.get(frame_name) or meta.get(int(frame_name))
@@ -164,7 +186,8 @@ class ImageGenerator:
                 meta_data = None
 
             if meta_data is None:
-                print(f"Skipped {name}, {frame_name}")
+                print(f"Skipped {name}, {frame_name}, {frames_count}")
+                skipped_frames += 1
                 continue
 
             rect = meta_data["rect"]
@@ -181,6 +204,10 @@ class ImageGenerator:
             im_crop = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
 
             im_list.append((im_crop, pivot, rect))
+
+        if not im_list:
+            return
+        frames_count -= skipped_frames
 
         max_pivot = {k: max(d[1][k] for d in im_list) for k in im_list[0][1].keys()}
 
@@ -208,7 +235,7 @@ class ImageGenerator:
 
         name = self.change_name(name)
         gif_list[0].save(f"{sf_text}/{prefix_name}{name}.gif", save_all=True, append_images=gif_list[1:],
-                         duration=150 * duration_scale, loop=0, disposal=2)
+                         duration=base_duration * duration_scale, loop=0, disposal=2)
 
 
 class SimpleGenerator(ImageGenerator):
@@ -275,8 +302,18 @@ class SimpleGenerator(ImageGenerator):
                 self.save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=scale_factor)
 
         if settings.get("is_with_anim"):
-            self.save_gif(meta, im, file_name, name, save_folder, obj.get(self.dataAnimFramesKey),
-                          duration_factor=obj.get("walkFrameRate"), scale_factor=scale_factor)
+            if self.assets_type in [Type.ENEMY]:
+                self.save_gif(meta, im, f"{file_name[:-1]}i01", name, save_folder,
+                              obj.get(self.dataAnimFramesKey), scale_factor=scale_factor, leading_zeros=2)
+
+            else:
+                self.save_gif(meta, im, file_name, name, save_folder, obj.get(self.dataAnimFramesKey),
+                              duration_factor=obj.get("walkFrameRate"), scale_factor=scale_factor)
+
+        if settings.get("is_with_death_anim"):
+            self.save_gif(meta, im, file_name, name, save_folder + "death/",
+                          None, scale_factor=scale_factor, duration_factor=0,
+                          prefix_name="Animated-Death-", base_duration=250)
 
 
 class ItemImageGenerator(SimpleGenerator):
@@ -309,6 +346,23 @@ class ArcanaImageGenerator(SimpleGenerator):
     @staticmethod
     def change_name(name):
         return name[name.find("-") + 1:].strip()
+
+
+class PropsImageGenerator(SimpleGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.PROPS
+        self.scaleFactor = 8
+        self.dataSpriteKey = "frameName"
+        self.dataTextureKey = "textureName"
+        self.dataObjectKey = "frameName"
+
+        self.folderToSave = "props"
+
+        self.animLeadingZeros = 0
+
+        self.available_gen.remove(GenType.FRAME)
+        self.available_gen.append(GenType.ANIM)
 
 
 class TableGenerator(SimpleGenerator):
@@ -398,10 +452,13 @@ class EnemyImageGenerator(TableGenerator):
         self.dataTextureKey = "textureName"
         self.dataObjectKey = None
         self.langFileName = "enemiesLang.json"
+        self.dataAnimFramesKey = "idleFrameCount"
 
         self.folderToSave = "enemy"
+        self.animLeadingZeros = 1
 
-        self.available_gen = [GenType.SCALE]
+        self.available_gen.remove(GenType.FRAME)
+        self.available_gen.extend([GenType.ANIM, GenType.DEATH_ANIM])
 
     def get_sprite_name(self, obj):
         return super().get_sprite_name(obj)[0]

@@ -120,6 +120,12 @@ class Unpacker(tk.Tk):
 
                 self.settings.update({gt.ANIM: anim_bool})
 
+            if gt.DEATH_ANIM in gen.available_gen:
+                death_anim_bool = tk.BooleanVar()
+                ttk.Checkbutton(self, text="Also generate death animations (slow)", variable=death_anim_bool).pack()
+
+                self.settings.update({gt.DEATH_ANIM: death_anim_bool})
+
             b_ok = ttk.Button(self, text="Start", command=self.__close)
             b_ok.pack()
 
@@ -217,7 +223,7 @@ class Unpacker(tk.Tk):
 
         b_data_concat = ttk.Button(
             self,
-            text="Concatenate dlc data\ninto one same files",
+            text="Merge dlc data\ninto same files",
             command=self.data_concatenate
         )
         b_data_concat.grid(row=8, column=2)
@@ -241,10 +247,8 @@ class Unpacker(tk.Tk):
     @staticmethod
     def info():
         showinfo("App info",
-                 f"To use unpacker you need to rip assets from the game with {"Sprite Export Format"} "
-                 f"set as {"Texture"}. (using AssetRipper)\n\n"
-                 "In folder ./ExportedProject/Assets/Resources and its subfolders you can select .png file and it will "
-                 "unpack selected image."
+                 f"To use unpacker you need to rip assets from the game.\n"
+                 f"Read README.md for more info."
                  )
 
     def progress_bar_set(self, index, total):
@@ -270,6 +274,8 @@ class Unpacker(tk.Tk):
 
     def set_assets_dir(self):
         full_path = os.environ.get("VS_ASSETS")
+        if not full_path:
+            return
         if not full_path.endswith("Assets"):
             showwarning("Warning", "Folder must be named 'Assets'")
             return
@@ -602,7 +608,8 @@ class Unpacker(tk.Tk):
                                lang_file=lang,
                                scale_factor=scale_factor,
                                is_with_frame=is_with_frame,
-                               is_with_anim=is_with_anim)
+                               is_with_anim=is_with_anim,
+                               is_with_death_anim=is_with_death_anim)
 
             self.last_loaded_folder = os.path.abspath("./Images/Generated")
 
@@ -642,6 +649,7 @@ class Unpacker(tk.Tk):
         scale_factor = generator_settings[gt.SCALE]
         is_with_frame = generator_settings.get(gt.FRAME, False)
         is_with_anim = generator_settings.get(gt.ANIM, False)
+        is_with_death_anim = generator_settings.get(gt.DEATH_ANIM, False)
 
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
 
