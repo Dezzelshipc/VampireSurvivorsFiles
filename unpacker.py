@@ -580,6 +580,8 @@ class Unpacker(tk.Tk):
                 print(f"lang file not found: {gen.langFileName}")
 
             texture_set = gen.textures_set(data)
+            if is_with_frame:
+                texture_set.add("UI")
 
             for texture in texture_set:
                 if texture is None:

@@ -88,14 +88,20 @@ class ImageGenerator:
         return name.strip()
 
     @staticmethod
-    def get_frame(frame_name):
-        p_dir = os.path.split(__file__)[0]
-        full_path = p_dir + f"/Generated/By meta/UI/{frame_name}"
+    def get_frame(frame_name, meta, im):
+        try:
+            frame_name = frame_name.replace(".png", "")
+            meta_data = meta.get(frame_name)
+        except (ValueError, AttributeError):
+            meta_data = None
 
-        if not os.path.exists(full_path):
+        if meta_data is None:
             return None
 
-        return Image.open(full_path)
+        rect = meta_data["rect"]
+        sx, sy = im.size
+
+        return im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
 
     def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1) -> Image:
         try:
@@ -297,7 +303,7 @@ class SimpleGenerator(ImageGenerator):
         im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor)
 
         if settings.get("is_with_frame"):
-            im_frame = self.get_frame(frame_name)
+            im_frame = self.get_frame(frame_name, *func_meta("", "UI"))
             if im_frame or self.assets_type in [Type.STAGE, Type.STAGE_SET]:
                 self.save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=scale_factor)
 
@@ -369,7 +375,7 @@ class TableGenerator(SimpleGenerator):
     def unit_generator(self, data: dict):
         return ((k, self.get_table_unit(v, 0)) for k, v in data.items())
 
-    def textures_set(self, data: dict):
+    def textures_set(self, data: dict) -> set:
         return set(self.get_table_unit(v, 0).get(self.dataTextureKey) for v in data.values())
 
 
@@ -493,8 +499,8 @@ class StageImageGenerator(TableGenerator):
                                    PIL.Image.NEAREST)
 
         text = self.change_name(name)
-        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 55)
-        w = font.getbbox(text)[2]
+        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 50)
+        w = font.getbbox(text)[2] + scale_factor
         h = font.getbbox(text + "|")[3]
 
         canvas = Image.new('RGBA', (int(w), int(h)))
