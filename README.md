@@ -9,11 +9,13 @@ Ripped from v1.10 + Moonspell + Foscari + Meeting + Guns
 
 ## Unpacker (v0.8)
 
-Run [Unpacker.py](Unpacker.py). It can unpack images, get language strings and split them to different files and languages, 
+Run [unpacker.py](unpacker.py). It can unpack images, get language strings and split them to different files and languages, 
 unpack images based in data files and make them with unifed names,
 using files from ripped assets of game.
 
 ### Getting started
+
+Use [Python 3.12](https://www.python.org/downloads/) and install dependencies ```pip install -r requirements.txt```
 
 Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) with setting "_Sprite Export Format_" set to _**Texture**_.
 Main game and each DLC must be ripped separately. (You have to own DLCs)
