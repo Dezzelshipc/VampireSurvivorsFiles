@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog as fd
-from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
+from tkinter.messagebox import showerror, showwarning, showinfo
 from tkinter.simpledialog import askinteger
 
 import yaml
@@ -334,6 +334,9 @@ class Unpacker(tk.Tk):
         file = p_file.replace(".png", "").lower()
         full_path = os.path.join(p_dir, p_file)
         if file not in self.loaded_meta:
+            if not p_dir:
+                return None, None
+
             print(f"Parsing {p_file}.meta")
 
             file_path = full_path + ".meta"
@@ -485,8 +488,6 @@ class Unpacker(tk.Tk):
             if not self.data_from_popup:
                 return
 
-            total_lang_count = len(self.data_from_popup)
-
             using_list = [(i, x[0]['Name']) for i, x in enumerate(zip(langs_list, self.data_from_popup)) if x[1]]
 
             if len(using_list) == 0:
@@ -513,7 +514,14 @@ class Unpacker(tk.Tk):
 
     def get_data(self):
         p_assets = list(filter(lambda x: "ASSETS" in x, os.environ))
-        paths = [(f"{os.environ.get(path)}\\TextAsset", DLCS[path.replace("_ASSETS", "")]) for path in p_assets]
+        paths = [
+            (
+                f"{os.environ.get(path)}\\TextAsset",
+                DLCS.get(path.replace("_ASSETS", ""), None)
+            ) for path in p_assets
+        ]
+        paths = list(filter(lambda x: x[1], paths))
+
         total = 0
         i = 0
         for path, dlc in paths:
@@ -587,17 +595,19 @@ class Unpacker(tk.Tk):
                 if texture is None:
                     continue
 
-                def filt(x):
+                def filter_assets(x):
                     name_low = x.name.lower()
                     texture_low = texture.lower()
                     return name_low.startswith(f"{texture_low}") and name_low.endswith(f"{texture_low}.png.meta")
 
-                meta = list(filter(filt, all_assets))
+                meta = list(filter(filter_assets, all_assets))
                 print(texture, meta)
-                meta = meta[0]
-                m_dir, m_file = os.path.split(meta)
-                self.outer_progress_bar.change_label(f"Parsing {m_file}")
-                self.get_meta_by_full_path(m_dir, m_file)
+
+                if meta:
+                    meta = meta[0]
+                    m_dir, m_file = os.path.split(meta)
+                    self.outer_progress_bar.change_label(f"Parsing {m_file}")
+                    self.get_meta_by_full_path(m_dir, m_file)
 
             total = gen.len_data(data)
             ug = gen.unit_generator(data)

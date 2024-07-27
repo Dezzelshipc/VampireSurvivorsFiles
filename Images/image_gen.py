@@ -192,7 +192,7 @@ class ImageGenerator:
                 meta_data = None
 
             if meta_data is None:
-                print(f"Skipped {name}, {frame_name}, {frames_count}")
+                print(f"Skipped {name}, {frame_name} not found, total frames count {frames_count}")
                 skipped_frames += 1
                 continue
 
@@ -272,6 +272,9 @@ class SimpleGenerator(ImageGenerator):
             save_folder += texture_name
 
         meta, im = func_meta("", texture_name)
+        if not meta:
+            print(f"Skipped {name}: {texture_name} texture not found")
+            return
 
         save_dlc = ''
         match frame_name:
