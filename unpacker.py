@@ -513,6 +513,10 @@ class Unpacker(tk.Tk):
         t.start()
 
     def get_data(self):
+        if not self.assets_dir.endswith("Assets"):
+            showwarning("Warning", "Assets directory must be selected.")
+            return
+
         p_assets = list(filter(lambda x: "ASSETS" in x, os.environ))
         paths = [
             (
