@@ -206,7 +206,6 @@ class ImageGenerator:
                 "-x": rect["width"] - pivot["x"],
                 "-y": rect["height"] - pivot["y"],
             })
-
             im_crop = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
 
             im_list.append((im_crop, pivot, rect))
@@ -216,6 +215,7 @@ class ImageGenerator:
         frames_count -= skipped_frames
 
         max_pivot = {k: max(d[1][k] for d in im_list) for k in im_list[0][1].keys()}
+        # print(file_name_clean, max_pivot, im_list)
 
         gif_list = []
         for image, pivot, rect in im_list:
@@ -226,6 +226,7 @@ class ImageGenerator:
                 rect["height"] + max_pivot["y"] - pivot["y"]
             )
             im_t = image.crop(new_size)
+            # print(new_size, image.size)
 
             im_r = im_t.resize((im_t.size[0] * scale_factor, im_t.size[1] * scale_factor), PIL.Image.NEAREST)
             gif_list.append(im_r)
@@ -295,7 +296,9 @@ class SimpleGenerator(ImageGenerator):
             name = lang_file.get(k_id).get(self.dataObjectKey)
 
             sprite_id = obj.get("id", 0)
-            if sprite_id != 0:
+            if obj.get("name") == "Hallows":
+                name += f"-H"
+            elif sprite_id != 0:
                 name += f"-{sprite_id + 1}"
 
         if "Megalo" in obj.get('prefix', ''):
@@ -351,6 +354,8 @@ class ArcanaImageGenerator(SimpleGenerator):
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
         self.langFileName = "arcanaLang.json"
+
+        self.available_gen.remove(GenType.FRAME)
 
     @staticmethod
     def change_name(name):
