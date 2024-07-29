@@ -126,6 +126,12 @@ class Unpacker(tk.Tk):
 
                 self.settings.update({gt.DEATH_ANIM: death_anim_bool})
 
+            if gt.ATTACK_ANIM in gen.available_gen:
+                attack_anim_bool = tk.BooleanVar()
+                ttk.Checkbutton(self, text="Also generate attack animations", variable=attack_anim_bool).pack()
+
+                self.settings.update({gt.ATTACK_ANIM: attack_anim_bool})
+
             b_ok = ttk.Button(self, text="Start", command=self.__close)
             b_ok.pack()
 
@@ -140,7 +146,7 @@ class Unpacker(tk.Tk):
             def get(k, v):
                 return int(v.get()) if k == image_gen.GenType.SCALE else v.get()
 
-            self.parent.data_from_popup = {k: get(k, v) for k, v in self.settings.items()}
+            self.parent.data_from_popup = {str(k): get(k, v) for k, v in self.settings.items()}
             self.parent.data_from_popup.update({"exit": self.exit})
             self.destroy()
 
@@ -593,7 +599,7 @@ class Unpacker(tk.Tk):
                 print(f"Not found english for lang file: {gen.langFileName}")
 
             texture_set = gen.textures_set(data)
-            if is_with_frame:
+            if generator_settings.get(str(gt.FRAME)):
                 texture_set.add("UI")
 
             for texture in texture_set:
@@ -623,10 +629,7 @@ class Unpacker(tk.Tk):
                 self.progress_bar_set(i + 1, total)
                 gen.make_image(self.get_meta_by_full_path, obj[0], obj[1],
                                lang_file=lang,
-                               scale_factor=scale_factor,
-                               is_with_frame=is_with_frame,
-                               is_with_anim=is_with_anim,
-                               is_with_death_anim=is_with_death_anim)
+                               **generator_settings)
 
             self.last_loaded_folder = os.path.abspath("./Images/Generated")
 
@@ -663,10 +666,6 @@ class Unpacker(tk.Tk):
         generator_settings = self.data_from_popup
 
         gt = image_gen.GenType
-        scale_factor = generator_settings[gt.SCALE]
-        is_with_frame = generator_settings.get(gt.FRAME, False)
-        is_with_anim = generator_settings.get(gt.ANIM, False)
-        is_with_death_anim = generator_settings.get(gt.DEATH_ANIM, False)
 
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
 

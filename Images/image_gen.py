@@ -1,3 +1,5 @@
+import itertools
+import re
 from enum import Enum
 import os
 from PIL import Image, ImageFont, ImageDraw
@@ -22,6 +24,12 @@ class GenType(Enum):
     FRAME = 1
     ANIM = 2
     DEATH_ANIM = 3
+
+    ATTACK_ANIM = 4
+
+    @classmethod
+    def main_list(cls):
+        return [*cls][:-1]
 
 
 class IGFactory:
@@ -164,28 +172,25 @@ class ImageGenerator:
         im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
     def save_gif(self, meta, im: Image, file_name, name, save_folder, frames_count: None | int = None,
-                 prefix_name="Animated-", save_append="", frame_rate=6, scale_factor=1, base_duration=1000,
+                 prefix_name="Animated-", postfix_name="", save_append="", frame_rate=6, scale_factor=1,
+                 base_duration=1000, start_index=1, file_name_clean=None,
                  leading_zeros: None | int = None) -> None:
         sx, sy = im.size
 
-        start_index = 0
-        if file_name.endswith("01"):
-            file_name_clean = file_name[:-2]
-            start_index = 1
-        elif file_name.endswith("0"):
-            file_name_clean = file_name[:-1]
-        else:
-            file_name_clean = file_name
+        file_name_clean = file_name_clean or file_name
 
         if not frames_count:
-            frames_count = len(list(filter(lambda k: str(k).startswith(file_name_clean), meta.keys())))
-            if not file_name_clean.endswith("i"):
-                frames_count -= len(list(filter(lambda k: str(k).startswith(file_name_clean + "i"), meta.keys())))
+            frames_count = len(list(
+                filter(lambda k: str(k).startswith(file_name_clean) and re.match(fr"^{file_name_clean}\d", str(k)),
+                       meta.keys())))
 
         im_list = []
         skipped_frames = 0
         for i in range(frames_count):
-            frame_name = f"{file_name_clean}{str(i + start_index).zfill(leading_zeros or self.animLeadingZeros)}"
+            append = ""
+            if start_index or leading_zeros:
+                append = str(i + start_index).zfill(leading_zeros or self.animLeadingZeros)
+            frame_name = f"{file_name_clean}{append}"
 
             try:
                 meta_data = meta.get(frame_name) or meta.get(int(frame_name))
@@ -242,7 +247,7 @@ class ImageGenerator:
         total_duration = base_duration / frame_rate
 
         name = self.change_name(name)
-        gif_list[0].save(f"{sf_text}/{prefix_name}{name}.gif", save_all=True, append_images=gif_list[1:],
+        gif_list[0].save(f"{sf_text}/{prefix_name}{name}{postfix_name}.gif", save_all=True, append_images=gif_list[1:],
                          duration=total_duration, loop=0, disposal=2)
 
 
@@ -262,6 +267,26 @@ class SimpleGenerator(ImageGenerator):
 
     def get_frame_name(self, obj):
         return obj.get(self.frameKey, self.defaultFrameName)
+
+    @staticmethod
+    def get_prepared_frame(frame_name, add="") -> (str, int, int, str):
+        number = re.search(r"(\d+)$", frame_name)
+        fn = frame_name
+
+        if number:
+            fn = fn[:number.start()]
+            zeros = len(number.group(1))
+            start = int(number.group(1))
+            if add == "i":
+                zeros = 2
+                start = 1
+
+            return f"{fn}{add}{number.group(1)}", zeros, start, f"{fn}{add}"
+
+        if add == "i":
+            return f"{frame_name}_{add}01", 2, 1, f"{fn}_{add}"
+
+        return frame_name, 0, 0, frame_name
 
     def make_image(self, func_meta, k_id, obj: dict, lang_file=None, **settings):
         name = obj.get(self.dataObjectKey) or k_id
@@ -305,30 +330,47 @@ class SimpleGenerator(ImageGenerator):
         if "Megalo" in obj.get('prefix', ''):
             name = f"Megalo {name}"
 
-        scale_factor = settings["scale_factor"]
+        using_list = obj.get('for', GenType.main_list())
+        scale_factor = settings[str(GenType.SCALE)]
 
-        if self.assets_type in [Type.ENEMY]:
-            im_obj = self.save_png(meta, im, f"{file_name[:-1]}i01", name, save_folder, scale_factor=scale_factor)
-        else:
-            im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor)
+        if GenType.SCALE in using_list:
+            if self.assets_type in [Type.ENEMY]:
+                prep = self.get_prepared_frame(file_name, "i")
+                im_obj = self.save_png(meta, im, prep[0], name, save_folder, scale_factor=scale_factor)
+            else:
+                im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor)
 
-        if settings.get("is_with_frame"):
+        if settings.get(str(GenType.FRAME)) and GenType.FRAME in using_list:
             im_frame = self.get_frame(frame_name, *func_meta("", "UI"))
             if im_frame or self.assets_type in [Type.STAGE, Type.STAGE_SET]:
                 self.save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=scale_factor)
 
-        if settings.get("is_with_anim"):
+        if settings.get(str(GenType.ANIM)) and GenType.ANIM in using_list:
             if self.assets_type in [Type.ENEMY]:
-                self.save_gif(meta, im, f"{file_name[:-1]}i01", name, save_folder, obj.get(self.dataAnimFramesKey),
-                              scale_factor=scale_factor, leading_zeros=2)
+                prep = self.get_prepared_frame(file_name, "i")
+                self.save_gif(meta, im, prep[0], name, save_folder, obj.get(self.dataAnimFramesKey),
+                              scale_factor=scale_factor, leading_zeros=2, start_index=prep[2],
+                              file_name_clean=prep[3])
 
             else:
-                self.save_gif(meta, im, file_name, name, save_folder, obj.get(self.dataAnimFramesKey),
-                              frame_rate=obj.get("walkFrameRate", 6), scale_factor=scale_factor)
+                prep = self.get_prepared_frame(file_name)
+                self.save_gif(meta, im, prep[0], name, save_folder, obj.get(self.dataAnimFramesKey),
+                              frame_rate=obj.get("walkFrameRate", 6), scale_factor=scale_factor, leading_zeros=2,
+                              start_index=prep[2],
+                              file_name_clean=prep[3])
 
-        if settings.get("is_with_death_anim"):
-            self.save_gif(meta, im, file_name, name, save_folder, None, prefix_name="Animated-Death-",
-                          save_append="_death", scale_factor=scale_factor, frame_rate=20)
+        if settings.get(str(GenType.DEATH_ANIM)) and GenType.DEATH_ANIM in using_list:
+            prep = self.get_prepared_frame(file_name)
+            self.save_gif(meta, im, prep[0], name, save_folder, None, prefix_name="Animated-Death-",
+                          save_append="_death", scale_factor=scale_factor, frame_rate=20, leading_zeros=prep[1],
+                          start_index=prep[2], file_name_clean=prep[3])
+
+        if settings.get(str(GenType.ATTACK_ANIM)) and GenType.ATTACK_ANIM in using_list:
+            prep = self.get_prepared_frame(file_name)
+            self.save_gif(meta, im, prep[0], name, save_folder, None, prefix_name="Animated-",
+                          save_append="_attack", scale_factor=scale_factor, frame_rate=obj.get("frameRate", 6),
+                          leading_zeros=2, start_index=prep[2], file_name_clean=prep[3],
+                          postfix_name=obj.get("postfix_name"))
 
 
 class ItemImageGenerator(SimpleGenerator):
@@ -419,13 +461,15 @@ class CharacterImageGenerator(TableGenerator):
 
         self.available_gen.remove(GenType.FRAME)
         self.available_gen.append(GenType.ANIM)
+        self.available_gen.append(GenType.ATTACK_ANIM)
 
     @staticmethod
     def len_data(data: dict):
-        return sum(len(v[0].get("skins")) if v[0].get("skins") else 1 for v in data.values())
+        return (sum(len(v[0].get("skins")) if v[0].get("skins") else 1 for v in data.values()) +
+                sum(len(v[0].get("spriteAnims")) if v[0].get("spriteAnims") else 0 for v in data.values()))
 
     def unit_generator(self, data: dict):
-        return self.skins_generator(data)
+        return itertools.chain(self.skins_generator(data), self.sprite_anims_generator(data))
 
     def skins_generator(self, data: dict):
         for k, vv in data.items():
@@ -438,6 +482,25 @@ class CharacterImageGenerator(TableGenerator):
                     yield k, char
             else:
                 yield k, v
+
+    def sprite_anims_generator(self, data: dict):
+        sprite_anims_types = {
+            "rangedAttack": ("-Ranged-Attack",),
+            "meleeAttack": ("-Melee-Attack",),
+        }
+        for k, vv in data.items():
+            v = self.get_table_unit(vv, 0)
+            if anims := v.get("spriteAnims", False):
+                for anim_type, anim_data in anims.items():
+                    char = v.copy()
+                    char.update(anim_data)
+                    char.update({
+                        "animType": anim_type,
+                        "postfix_name": sprite_anims_types[anim_type][0],
+                        "for": [GenType.ATTACK_ANIM]
+                    })
+
+                    yield k, char
 
 
 class PowerUpImageGenerator(TableGenerator):
