@@ -586,10 +586,11 @@ class Unpacker(tk.Tk):
 
             self.outer_progress_bar.change_label(f"Getting language file")
             lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
-            if lang:
+            if lang and lang.get('en'):
                 lang = lang.get('en')
             else:
-                print(f"lang file not found: {gen.langFileName}")
+                lang = None
+                print(f"Not found english for lang file: {gen.langFileName}")
 
             texture_set = gen.textures_set(data)
             if is_with_frame:

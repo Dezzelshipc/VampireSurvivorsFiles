@@ -164,6 +164,7 @@ class ImageGenerator:
         im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
     def save_gif(self, meta, im: Image, file_name, name, save_folder, frames_count, prefix_name="Animated-",
+                 save_append="",
                  duration_factor=8, scale_factor=1, base_duration=150, leading_zeros: None | int = None) -> None:
         sx, sy = im.size
 
@@ -179,7 +180,7 @@ class ImageGenerator:
         if not frames_count:
             frames_count = len(list(filter(lambda k: str(k).startswith(file_name_clean), meta.keys())))
             if not file_name_clean.endswith("i"):
-                frames_count -= len(list(filter(lambda k: str(k).startswith(file_name_clean+"i"), meta.keys())))
+                frames_count -= len(list(filter(lambda k: str(k).startswith(file_name_clean + "i"), meta.keys())))
 
         im_list = []
         skipped_frames = 0
@@ -233,7 +234,7 @@ class ImageGenerator:
 
         p_dir = os.path.split(__file__)[0]
 
-        sf_text = f'{p_dir}/Generated/{save_folder}/anim'
+        sf_text = f'{p_dir}/Generated/{save_folder}/anim{save_append}'
 
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
@@ -295,11 +296,11 @@ class SimpleGenerator(ImageGenerator):
         if self.dataObjectKey and lang_file and lang_file.get(k_id):
             name = lang_file.get(k_id).get(self.dataObjectKey)
 
-            sprite_id = obj.get("id", 0)
-            if obj.get("name") == "Hallows":
-                name += f"-H"
-            elif sprite_id != 0:
-                name += f"-{sprite_id + 1}"
+        sprite_id = obj.get("id", 0)
+        if obj.get("name") == "Hallows":
+            name += f"-H"
+        elif sprite_id != 0:
+            name += f"-{sprite_id + 1}"
 
         if "Megalo" in obj.get('prefix', ''):
             name = f"Megalo {name}"
@@ -323,8 +324,8 @@ class SimpleGenerator(ImageGenerator):
                               duration_factor=obj.get("walkFrameRate"), scale_factor=scale_factor)
 
         if settings.get("is_with_death_anim"):
-            self.save_gif(meta, im, file_name, name, save_folder + "death/",
-                          None, scale_factor=scale_factor, duration_factor=0,
+            self.save_gif(meta, im, file_name, name, save_folder,
+                          None, save_append="_death", scale_factor=scale_factor, duration_factor=0,
                           prefix_name="Animated-Death-", base_duration=250)
 
 
@@ -410,7 +411,7 @@ class CharacterImageGenerator(TableGenerator):
         self.dataSpriteKey = "spriteName"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "charName"
-        self.folderToSave = "characters/"
+        self.folderToSave = "characters"
         self.langFileName = "characterLang.json"
         self.dataAnimFramesKey = "walkingFrames"
 
@@ -474,8 +475,22 @@ class EnemyImageGenerator(TableGenerator):
         self.available_gen.remove(GenType.FRAME)
         self.available_gen.extend([GenType.ANIM, GenType.DEATH_ANIM])
 
-    def get_sprite_name(self, obj):
-        return super().get_sprite_name(obj)[0]
+    @staticmethod
+    def len_data(data: dict):
+        return sum(len(v[0].get("frameNames")) for v in data.values())
+
+    def unit_generator(self, data: dict):
+        return self.skins_generator(data)
+
+    def skins_generator(self, data: dict):
+        for k, vv in data.items():
+            v = self.get_table_unit(vv, 0)
+            for i, frame in enumerate(v.get("frameNames")):
+                enemy = v.copy()
+                enemy["frameNames"] = frame
+                enemy["id"] = i
+
+                yield k, enemy
 
 
 class StageImageGenerator(TableGenerator):
@@ -549,5 +564,4 @@ class StageSetImageGenerator(StageImageGenerator):
 
 
 if __name__ == "__main__":
-    ch = CharacterImageGenerator()
-    print(ch.get_lang_path("itemLang.json"))
+    pass
