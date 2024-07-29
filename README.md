@@ -48,7 +48,7 @@ _.env_; [Translations](Translations) folder)
 * **Merge dlc data into same files**: merges data files from different dlc into files by type (weapon, character, etc.)
 * **Get images with unified names by data**: by selecting data file (merged or not) produces main image every object in
   file. ([Images](Images) folder)
-    * Having split lang files with english strings it uses names from it. (correct names of objects rather than names
+    * Having split lang files with english strings, it uses names from it. (Correct names of objects rather than names
       of images)
     * Some of datas can produce images with frames or animations. (Selecting that datas will have corresponding
       checkboxes)

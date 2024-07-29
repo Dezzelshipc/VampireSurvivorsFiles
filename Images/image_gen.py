@@ -163,9 +163,9 @@ class ImageGenerator:
         name = self.change_name(name)
         im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
-    def save_gif(self, meta, im: Image, file_name, name, save_folder, frames_count, prefix_name="Animated-",
-                 save_append="",
-                 duration_factor=8, scale_factor=1, base_duration=150, leading_zeros: None | int = None) -> None:
+    def save_gif(self, meta, im: Image, file_name, name, save_folder, frames_count: None | int = None,
+                 prefix_name="Animated-", save_append="", frame_rate=6, scale_factor=1, base_duration=1000,
+                 leading_zeros: None | int = None) -> None:
         sx, sy = im.size
 
         start_index = 0
@@ -239,11 +239,11 @@ class ImageGenerator:
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
 
-        duration_scale = 8 / duration_factor if duration_factor else 4 / frames_count
+        total_duration = base_duration / frame_rate
 
         name = self.change_name(name)
         gif_list[0].save(f"{sf_text}/{prefix_name}{name}.gif", save_all=True, append_images=gif_list[1:],
-                         duration=base_duration * duration_scale, loop=0, disposal=2)
+                         duration=total_duration, loop=0, disposal=2)
 
 
 class SimpleGenerator(ImageGenerator):
@@ -268,7 +268,7 @@ class SimpleGenerator(ImageGenerator):
         texture_name = obj.get(self.dataTextureKey)
         file_name = self.get_sprite_name(obj).replace(".png", "")
         frame_name = self.get_frame_name(obj)
-        save_folder = self.folderToSave if self.folderToSave else texture_name
+        save_folder = self.folderToSave or texture_name
 
         if save_folder.endswith("/"):
             save_folder += texture_name
@@ -307,7 +307,10 @@ class SimpleGenerator(ImageGenerator):
 
         scale_factor = settings["scale_factor"]
 
-        im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor)
+        if self.assets_type in [Type.ENEMY]:
+            im_obj = self.save_png(meta, im, f"{file_name[:-1]}i01", name, save_folder, scale_factor=scale_factor)
+        else:
+            im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor)
 
         if settings.get("is_with_frame"):
             im_frame = self.get_frame(frame_name, *func_meta("", "UI"))
@@ -316,17 +319,16 @@ class SimpleGenerator(ImageGenerator):
 
         if settings.get("is_with_anim"):
             if self.assets_type in [Type.ENEMY]:
-                self.save_gif(meta, im, f"{file_name[:-1]}i01", name, save_folder,
-                              obj.get(self.dataAnimFramesKey), scale_factor=scale_factor, leading_zeros=2)
+                self.save_gif(meta, im, f"{file_name[:-1]}i01", name, save_folder, obj.get(self.dataAnimFramesKey),
+                              scale_factor=scale_factor, leading_zeros=2)
 
             else:
                 self.save_gif(meta, im, file_name, name, save_folder, obj.get(self.dataAnimFramesKey),
-                              duration_factor=obj.get("walkFrameRate"), scale_factor=scale_factor)
+                              frame_rate=obj.get("walkFrameRate", 6), scale_factor=scale_factor)
 
         if settings.get("is_with_death_anim"):
-            self.save_gif(meta, im, file_name, name, save_folder,
-                          None, save_append="_death", scale_factor=scale_factor, duration_factor=0,
-                          prefix_name="Animated-Death-", base_duration=250)
+            self.save_gif(meta, im, file_name, name, save_folder, None, prefix_name="Animated-Death-",
+                          save_append="_death", scale_factor=scale_factor, frame_rate=20)
 
 
 class ItemImageGenerator(SimpleGenerator):
@@ -411,7 +413,7 @@ class CharacterImageGenerator(TableGenerator):
         self.dataSpriteKey = "spriteName"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "charName"
-        self.folderToSave = "characters"
+        self.folderToSave = "characters/"
         self.langFileName = "characterLang.json"
         self.dataAnimFramesKey = "walkingFrames"
 
