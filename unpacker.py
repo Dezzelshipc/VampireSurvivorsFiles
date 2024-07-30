@@ -11,19 +11,11 @@ import shutil
 from PIL import Image
 import PIL.Image
 import threading
-import dotenv
 
+import Config.config as config
 import Translations.language as lang_module
 import Data.data as concat_data
 import Images.image_gen as image_gen
-
-DLCS = {
-    "VS": "Vampire Survivors",
-    "MS": "Moonspell",
-    "FS": "Foscari",
-    "EM": "Meeting",
-    "OG": "Guns",
-}
 
 
 class Unpacker(tk.Tk):
@@ -158,12 +150,22 @@ class Unpacker(tk.Tk):
         self.resizable(False, False)
         self.title('Resource unpacker VS')
 
+        self.assets_dir = "/"
+        self.load_config()
+
         b_info = ttk.Button(
             self,
             text="Unpacker help",
             command=self.info
         )
         b_info.grid(row=0, column=1)
+
+        b_info = ttk.Button(
+            self,
+            text="Change config",
+            command=self.change_config
+        )
+        b_info.grid(row=0, column=2)
 
         l_info = ttk.Label(self, text="Resource unpacker for ripped assets from Vampire Survivors game.")
         l_info.grid(row=1, column=0)
@@ -174,6 +176,13 @@ class Unpacker(tk.Tk):
             command=lambda: self.select_and_unpack(self.assets_dir)
         )
         b_unpack_by_meta.grid(row=2, column=1)
+
+        b_assets_folder = ttk.Button(
+            self,
+            text=".. from spritesheets",
+            command=lambda: self.select_and_unpack(self.assets_dir + "/Resources/spritesheets")
+        )
+        b_assets_folder.grid(row=2, column=2)
 
         self.progress_bar = ttk.Progressbar(
             self,
@@ -246,9 +255,9 @@ class Unpacker(tk.Tk):
 
         self.outer_progress_bar = None
 
-        self.assets_dir = '/'
-
-        self.set_assets_dir()
+    def load_config(self):
+        self.config = config.Config()
+        self.assets_dir = os.path.normpath(self.config["VS_ASSETS"])
 
     @staticmethod
     def info():
@@ -256,6 +265,9 @@ class Unpacker(tk.Tk):
                  f"To use unpacker you need to rip assets from the game.\n"
                  f"Read README.md for more info."
                  )
+
+    def change_config(self):
+        self.config.change_config(self)
 
     def progress_bar_set(self, index, total):
         self.progress_bar['value'] = index * 100 / total
@@ -278,28 +290,6 @@ class Unpacker(tk.Tk):
 
         self.set_assets_dir(full_path)
 
-    def set_assets_dir(self):
-        full_path = os.environ.get("VS_ASSETS")
-        if not full_path:
-            return
-        if not full_path.endswith("Assets"):
-            showwarning("Warning", "Folder must be named 'Assets'")
-            return
-
-        self.assets_dir = os.path.normpath(full_path)
-
-        path = self.assets_dir + "/Resources/spritesheets"
-
-        if not os.path.exists(path):
-            return
-
-        # self.geometry(f"{self.width + 100}x{self.height}")
-        b_assets_folder = ttk.Button(
-            self,
-            text=".. from spritesheets",
-            command=lambda: self.select_and_unpack(path)
-        )
-        b_assets_folder.grid(row=2, column=2)
 
     def select_and_unpack(self, start_path):
         def thread_generate_by_meta(p_dir: str, p_file: str, scale: int = 1):
@@ -308,6 +298,10 @@ class Unpacker(tk.Tk):
             self.outer_progress_bar.close_bar()
 
             self.generate_by_meta(meta, im, p_file, scale_factor=scale)
+
+        if not os.path.exists(start_path):
+            showwarning("Warning", "Assets directory must be selected.")
+            return
 
         filetypes = [
             ('Images', '*.png')
@@ -523,12 +517,12 @@ class Unpacker(tk.Tk):
             showwarning("Warning", "Assets directory must be selected.")
             return
 
-        p_assets = list(filter(lambda x: "ASSETS" in x, os.environ))
+        p_assets = list(filter(lambda x: "ASSETS" in x, self.config.data))
         paths = [
             (
-                f"{os.environ.get(path)}\\TextAsset",
-                DLCS.get(path.replace("_ASSETS", ""), None)
-            ) for path in p_assets
+                f"{self.config[dlc_id]}\\TextAsset",
+                self.config.get_dlc_name(dlc_id)
+            ) for dlc_id in p_assets
         ]
         paths = list(filter(lambda x: x[1], paths))
 
@@ -638,8 +632,8 @@ class Unpacker(tk.Tk):
             return
 
         paths = [self.assets_dir + "/Resources/spritesheets"]
-        for f in filter(lambda x: "VS" not in x and "ASSETS" in x, os.environ):
-            p = os.path.join(os.environ.get(f), "Texture2D")
+        for f in filter(lambda x: "VS" not in x and "ASSETS" in x, self.config.data):
+            p = os.path.join(self.config[f], "Texture2D")
             if os.path.exists(p):
                 paths.append(p)
 
@@ -674,6 +668,5 @@ class Unpacker(tk.Tk):
 
 
 if __name__ == '__main__':
-    dotenv.load_dotenv()
     app = Unpacker()
     app.mainloop()

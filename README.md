@@ -17,6 +17,7 @@ of characters and enemies.
 Use [Python 3.12](https://www.python.org/downloads/) and install dependencies `pip install -r requirements.txt`
 
 Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) **Export Unity Project** with settings:
+
 * Turn off "_Skip StreamingAssets Folder_",
 * "_Script Content Level_" to _**Level 0**_,
 * "_Sprite Export Format_" set to _**Texture**_.
@@ -24,8 +25,8 @@ Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) **Export Unity P
 Main game and each DLC must be ripped separately (You have to own DLCs).
 In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders to open in AssetRipper.
 
-In _**project's root folder**_ create _**.env**_ file with structure as _**[.env_example](.env_example)**_, where each
-path leads to respective DLCs' assets folders (`...\ExportedProject\Assets`).
+Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
+folders (`...\ExportedProject\Assets`).
 
 ### Functions
 
