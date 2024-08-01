@@ -109,7 +109,8 @@ class ImageGenerator:
         rect = meta_data["rect"]
         sx, sy = im.size
 
-        return im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+        return im.crop(
+            (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y'])), meta_data
 
     def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1) -> Image:
         try:
@@ -144,9 +145,9 @@ class ImageGenerator:
         name = self.change_name(name)
         im_crop_r.save(f"{sf_text}/{prefix_name}{name}.png")
 
-        return im_crop
+        return im_crop, meta_data
 
-    def save_png_icon(self, im_frame, im_obj, name, save_folder, scale_factor=1) -> None:
+    def save_png_icon(self, im_frame_data, im_obj_data, name, save_folder, scale_factor=1) -> None:
         p_dir = os.path.split(__file__)[0]
 
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
@@ -154,16 +155,39 @@ class ImageGenerator:
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
 
-        if im_obj is None:
+        if im_obj_data is None:
             return
 
-        sprite_w, sprite_h = im_obj.size
-        sprite_w //= 2
-        sprite_h //= 2
-        frame_w, frame_h = im_frame.size
-        frame_w //= 2
-        frame_h //= 2
-        im_frame.alpha_composite(im_obj, (frame_w - sprite_w, frame_h - sprite_h))
+        im_data = [im_frame_data, im_obj_data]
+        im_list = []
+        for im, meta_data in im_data:
+            rect = meta_data["rect"]
+            pivot = meta_data["pivot"]
+            pivot = {
+                "x": round(pivot["x"] * rect["width"]),
+                "y": round(pivot["y"] * rect["height"])
+            }
+            pivot.update({
+                "-x": rect["width"] - pivot["x"],
+                "-y": rect["height"] - pivot["y"],
+            })
+
+            im_list.append((im, pivot, rect))
+
+        max_pivot = {k: max(d[1][k] for d in im_list) for k in im_list[0][1].keys()}
+
+        comp_list = []
+        for image, pivot, rect in im_list:
+            new_size = (
+                pivot["x"] - max_pivot["x"],
+                pivot["-y"] - max_pivot["-y"],
+                rect["width"] + max_pivot["-x"] - pivot["-x"],
+                rect["height"] + max_pivot["y"] - pivot["y"]
+            )
+            comp_list.append(image.crop(new_size))
+
+        im_frame, im_obj = comp_list
+        im_frame.alpha_composite(im_obj)
 
         im_frame_r = im_frame.resize((im_frame.size[0] * scale_factor, im_frame.size[1] * scale_factor),
                                      PIL.Image.NEAREST)
@@ -381,9 +405,10 @@ class ItemImageGenerator(SimpleGenerator):
         self.scaleFactor = 8
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
+        self.folderToSave = "items"
         self.dataObjectKey = "name"
         self.langFileName = "itemLang.json"
-        self.defaultFrameName = "frameB.png"
+        self.defaultFrameName = "frameC.png"
 
     def get_frame_name(self, obj):
         return obj.get(self.frameKey, self.defaultFrameName if not obj.get("isRelic") else "frameF.png")
@@ -398,6 +423,7 @@ class ArcanaImageGenerator(SimpleGenerator):
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
+        self.folderToSave = "arcana"
         self.langFileName = "arcanaLang.json"
 
         self.available_gen.remove(GenType.FRAME)
@@ -571,7 +597,8 @@ class StageImageGenerator(TableGenerator):
 
         self.folderToSave = "stage"
 
-    def save_png_icon(self, im_frame, im_obj, name, save_folder, scale_factor=1):
+    def save_png_icon(self, _, im_obj, name, save_folder, scale_factor=1):
+        im_obj = im_obj[0]
         if im_obj is None:
             return
 
@@ -587,7 +614,7 @@ class StageImageGenerator(TableGenerator):
                                    PIL.Image.NEAREST)
 
         text = self.change_name(name)
-        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 50)
+        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 50 * scale_factor / self.scaleFactor)
         w = font.getbbox(text)[2] + scale_factor
         h = font.getbbox(text + "|")[3]
 
