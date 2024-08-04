@@ -33,18 +33,18 @@ folders (`...\ExportedProject\Assets`).
 **Select image to unpack**: select png sprite sheet from assets to split it into separate
 sprites. ([Images/Generated/By meta](Images) folder)
 
-* **.. from spritesheets**: opens _spritesheets_ folder to unpack. (appears when added _.env_ file)
+* **.. from spritesheets**: opens _spritesheets_ folder to unpack. (works when entered path in config)
 
 **Open last loaded folder**: opens folder that contains data from previous action.
 
 **Get language strings file**: copies and converts to yaml file with translations language stings. (needs
-_.env_; [Translations](Translations) folder)
+config; [Translations](Translations) folder)
 
 * **Convert language strings to json**: converts yaml file to json file.
 * **Split language strings**: splits yaml file into different json files by type of string (general, weapon, character,
   etc.) with ability to select multiple languages.
 
-**Get data from assets**: copies data files from each dlc separately. (needs _.env_; [Data](Data) folder)
+**Get data from assets**: copies data files from each dlc separately. (needs config; [Data](Data) folder)
 
 * **Merge dlc data into same files**: merges data files from different dlc into files by type (weapon, character, etc.)
 * **Get images with unified names by data**: by selecting data file (merged or not) produces main image every object in
