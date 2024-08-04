@@ -596,6 +596,9 @@ class Unpacker(tk.Tk):
             if generator_settings.get(str(gt.FRAME)):
                 texture_set.add("UI")
 
+                if gen.assets_type == image_gen.Type.ARCANA:
+                    texture_set.add("items")
+
             for texture in texture_set:
                 if texture is None:
                     continue

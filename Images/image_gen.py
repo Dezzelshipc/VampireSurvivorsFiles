@@ -4,6 +4,7 @@ from enum import Enum
 import os
 from PIL import Image, ImageFont, ImageDraw
 import PIL.Image
+import Images.transparent_save as tr_save
 
 
 class Type(Enum):
@@ -17,6 +18,7 @@ class Type(Enum):
     ARCANA = 6
     POWERUP = 7
     PROPS = 8
+    ADV_MERCHANTS = 9
 
 
 class GenType(Enum):
@@ -54,6 +56,8 @@ class IGFactory:
             return PowerUpImageGenerator()
         elif "props" in data_file:
             return PropsImageGenerator()
+        elif "adventuremerchants" in data_file:
+            return AdvMerchantsGenerator()
 
         return None
 
@@ -93,7 +97,7 @@ class ImageGenerator:
 
     @staticmethod
     def change_name(name):
-        return name.strip()
+        return re.sub(r'[<>:/|\\?*]', '', name.strip())
 
     @staticmethod
     def get_frame(frame_name, meta, im):
@@ -245,7 +249,8 @@ class ImageGenerator:
         frames_count -= skipped_frames
 
         max_pivot = {k: max(d[1][k] for d in im_list) for k in im_list[0][1].keys()}
-        # print(file_name_clean, max_pivot, im_list)
+        # print(file_name_clean, max_pivot)
+        # print(*im_list, sep='\n')
 
         gif_list = []
         for image, pivot, rect in im_list:
@@ -256,7 +261,7 @@ class ImageGenerator:
                 rect["height"] + max_pivot["y"] - pivot["y"]
             )
             im_t = image.crop(new_size)
-            # print(new_size, image.size)
+            # print(new_size, image.size, im_t.size)
 
             im_r = im_t.resize((im_t.size[0] * scale_factor, im_t.size[1] * scale_factor), PIL.Image.NEAREST)
             gif_list.append(im_r)
@@ -268,11 +273,10 @@ class ImageGenerator:
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
 
-        total_duration = base_duration / frame_rate
+        total_duration = base_duration // frame_rate
 
         name = self.change_name(name)
-        gif_list[0].save(f"{sf_text}/{prefix_name}{name}{postfix_name}.gif", save_all=True, append_images=gif_list[1:],
-                         duration=total_duration, loop=0, disposal=2)
+        tr_save.save_transparent_gif(gif_list, total_duration, f"{sf_text}/{prefix_name}{name}{postfix_name}.gif")
 
 
 class SimpleGenerator(ImageGenerator):
@@ -339,6 +343,9 @@ class SimpleGenerator(ImageGenerator):
                 save_dlc = "/guns"
             case "frameB_red.png":
                 save_dlc = "/red_dlc"
+
+        if osf := obj.get("save_folder"):
+            save_folder += osf
 
         save_folder += f"/{save_dlc}"
 
@@ -426,11 +433,33 @@ class ArcanaImageGenerator(SimpleGenerator):
         self.folderToSave = "arcana"
         self.langFileName = "arcanaLang.json"
 
-        self.available_gen.remove(GenType.FRAME)
+        self.defaultFrameName = "frameG.png"
 
     @staticmethod
     def change_name(name):
         return name[name.find("-") + 1:].strip()
+
+    def len_data(self, data: dict):
+        return 2 * super().len_data(data)
+
+    def unit_generator(self, data: dict):
+        return self.arcana_generator(data)
+
+    @staticmethod
+    def arcana_generator(data: dict):
+        for k, v in data.items():
+            vv = v.copy()
+            vv.update({
+                "for": [GenType.SCALE],
+                "save_folder": "/picture"
+            })
+            yield k, vv
+
+            vv = v.copy()
+            vv.update({
+                "texture": "items",
+            })
+            yield k, vv
 
 
 class PropsImageGenerator(SimpleGenerator):
@@ -445,6 +474,25 @@ class PropsImageGenerator(SimpleGenerator):
         self.folderToSave = "props"
 
         self.animLeadingZeros = 0
+
+        self.available_gen.remove(GenType.FRAME)
+        self.available_gen.append(GenType.ANIM)
+
+
+class AdvMerchantsGenerator(SimpleGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.ADV_MERCHANTS
+        self.scaleFactor = 4
+        self.dataSpriteKey = "staticSprite"
+        self.dataTextureKey = "staticSpriteTexture"
+
+        self.dataObjectKey = "charName"
+        self.langFileName = "characterLang.json"
+
+        self.folderToSave = "adventure merchants"
+
+        self.animLeadingZeros = 2
 
         self.available_gen.remove(GenType.FRAME)
         self.available_gen.append(GenType.ANIM)
@@ -613,7 +661,8 @@ class StageImageGenerator(TableGenerator):
         im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
                                    PIL.Image.NEAREST)
 
-        text = self.change_name(name)
+        text = name.strip()
+        save_name = self.change_name(name)
         font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 50 * scale_factor / self.scaleFactor)
         w = font.getbbox(text)[2] + scale_factor
         h = font.getbbox(text + "|")[3]
@@ -622,7 +671,7 @@ class StageImageGenerator(TableGenerator):
 
         draw = ImageDraw.Draw(canvas)
         draw.text((3, -5), text, "#eef92b", font, stroke_width=1)
-        canvas.save(f"{sf_text}/text/Stage-{text}.png")
+        canvas.save(f"{sf_text}/text/Stage-{save_name}.png")
 
         # canvas.show()
         # im_crop.show()
@@ -633,7 +682,7 @@ class StageImageGenerator(TableGenerator):
         frx //= 2
         fry //= 2
         im_frame_r.alpha_composite(canvas, (crx - frx, cry - fry))
-        im_frame_r.save(f"{sf_text}/Stage-{text}.png")
+        im_frame_r.save(f"{sf_text}/Stage-{save_name}.png")
 
 
 class StageSetImageGenerator(StageImageGenerator):
