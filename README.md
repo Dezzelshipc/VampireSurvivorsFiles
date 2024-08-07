@@ -8,8 +8,8 @@ Ripped from v1.10 + Moonspell + Foscari + Meeting + Guns
 
 ## Unpacker (v0.10)
 
-Run [unpacker.py](unpacker.py). It can unpack images, get language strings and split them to different files and
-languages, unpack images based on data files and make them with unifed names, making (almost correct) animations
+Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to different files and
+languages, unpack images based on data files and make them with unified names, making (almost correct) animations
 of characters and enemies.
 
 ### Getting started
@@ -19,11 +19,11 @@ Use [Python 3.12](https://www.python.org/downloads/) and install dependencies `p
 Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) **Export Unity Project** with settings:
 
 * Turn off "_Skip StreamingAssets Folder_",
-* "_Script Content Level_" to _**Level 0**_,
+* "_Script Content Level_" set to _**Level 0**_,
 * "_Sprite Export Format_" set to _**Texture**_.
 
 Main game and each DLC must be ripped separately (You have to own DLCs).
-In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders to open in AssetRipper.
+In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open in AssetRipper.
 
 Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
 folders (`...\ExportedProject\Assets`).
