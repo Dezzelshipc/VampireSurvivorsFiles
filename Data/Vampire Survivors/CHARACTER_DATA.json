@@ -10,7 +10,7 @@
       "spriteName": "newAntonio_01.png",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newAntonio_01.png",
@@ -19,16 +19,17 @@
           "headOffsets": [ { "x": 3, "y": 0} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Antonio_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": 3, "y": 0} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Gains 10% more Damage every 10 levels (max +50%).",
       "isBought": true,
@@ -74,7 +75,12 @@
         "COOLDOWN",
         "COOLDOWN",
         "AMOUNT",
-        "AMOUNT"
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
       ]
     },
     {
@@ -112,7 +118,6 @@
     {
       "level": 1,
       "startingWeapon": "MAGIC_MISSILE",
-      "cooldown": 1,
       "charName": "Imelda",
       "surname": "Belpaese",
       "spriteName": "newImelda_01.png",
@@ -120,7 +125,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newImelda_01.png",
@@ -128,21 +133,44 @@
           "unlocked": true
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Imelda_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_IMELDA_UNBLINDED",
+          "name": "Unblinded",
+          "textureName": "characters",
+          "spriteName": "skin_imeldaunblinded_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Starts with a Level 5 Empty Tome.",
+          "speed": 0.4,
+          "moveSpeed": 0.4,
+          "cooldown": -0.10,
+          "exAccessories": [
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN"
+          ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Gains 10% more Experience every 5 levels (max +30%).",
       "isBought": false,
       "price": 10,
       "completedStages": [],
       "survivedMinutes": 0,
       "maxHp": 100,
+      "cooldown": 1,
       "armor": 0,
       "regen": 0,
       "moveSpeed": 1,
@@ -249,7 +277,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newPasqualina_01.png",
@@ -257,15 +285,16 @@
           "unlocked": true
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Pasqualina_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Projectiles get 10% faster every 5 levels (max +30%).",
       "isBought": false,
       "price": 100,
@@ -369,7 +398,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newGennaro_01.png",
@@ -378,16 +407,17 @@
           "headOffsets": [ { "x": 6, "y": 0} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Gennaro_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": 6, "y": 0} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Permanent +1 projectile (all weapons).",
       "isBought": false,
       "price": 500,
@@ -486,7 +516,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newArca_01.png",
@@ -495,16 +525,17 @@
           "headOffsets": [ { "x": 2, "y": 1} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Arca_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 6,
           "unlocked": true,
           "headOffsets": [ { "x": 2, "y": 1} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Weapon cooldown is reduced by 5% every 10 levels (max -15%).",
       "portraitName": "p_arca.png",
       "isBought": false,
@@ -602,7 +633,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newPorta_01.png",
@@ -611,16 +642,17 @@
           "headOffsets": [ { "x": 0, "y": 2} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Porta_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 7,
           "unlocked": true,
           "headOffsets": [ { "x": 0, "y": 2} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Permanent +30% Area. Starts with temporary cooldown bonus.",
       "portraitName": "p_porta.png",
       "isBought": false,
@@ -725,7 +757,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newLama_01.png",
@@ -734,16 +766,17 @@
           "headOffsets": [ { "x": 1, "y": 1} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Lama_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": 1, "y": 1} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Gains +5% Might, Move Speed, and Curse every 10 levels (max +20%).",
       "portraitName": "p_lama.png",
       "isBought": false,
@@ -850,7 +883,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newOld3_01.png",
@@ -859,16 +892,37 @@
           "headOffsets": [ { "x": 2, "y": -2} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Old3_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 5,
           "unlocked": true,
           "headOffsets": [ { "x": 2, "y": -2} ]
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_POE_RETIRED",
+          "name": "Retired",
+          "textureName": "characters",
+          "spriteName": "skin_poeretired_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Starts with a Level 5 Pummarola.",
+          "maxHp": 30,
+          "regen": 5,
+          "exAccessories": [
+            "REGEN",
+            "REGEN",
+            "REGEN",
+            "REGEN",
+            "REGEN"
+          ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 70,
       "armor": 0,
       "regen": 0,
@@ -963,7 +1017,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newSuora_01.png",
@@ -971,15 +1025,16 @@
           "unlocked": true
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Suora_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 150,
       "armor": 0,
       "regen": 0.5,
@@ -1113,7 +1168,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newDommario_01.png",
@@ -1122,16 +1177,17 @@
           "headOffsets": [ { "x": 2, "y": 0} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Dommario_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 5,
           "unlocked": true,
           "headOffsets": [ { "x": 2, "y": 0} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -1198,7 +1254,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newKrochi_01.png",
@@ -1207,7 +1263,7 @@
           "headOffsets": [ { "x": 1, "y": 0} ]
         },
         {
-          "id": 2,
+          "skinType": "CROCI_NOCROSS",
           "name": "Nocross",
           "textureName": "characters",
           "spriteName": "newKrochiplain_01.png",
@@ -1216,16 +1272,17 @@
           "headOffsets": [ { "x": 1, "y": 0} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Krochi_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": 1, "y": 0} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -1314,17 +1371,18 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
-          "name": "Default",
+          "skinType": "LEGACY",
+          "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Christine_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": 1, "y": 0} ]
         },
         {
-          "id": 1,
-          "name": "Legacy",
+          "skinType": "DEFAULT",
+          "name": "NewSkin",
           "textureName": "characters",
           "spriteName": "newChristine_01.png",
           "walkingFrames": 4,
@@ -1332,7 +1390,7 @@
           "headOffsets": [ { "x": 1, "y": 0} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "LEGACY",
       "maxHp": 50,
       "armor": 0,
       "regen": 0,
@@ -1438,17 +1496,18 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
-          "name": "Default",
+          "skinType": "LEGACY",
+          "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Pugnala_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": 3, "y": 2} ]
         },
         {
-          "id": 1,
-          "name": "Legacy",
+          "skinType": "DEFAULT",
+          "name": "New",
           "textureName": "characters",
           "spriteName": "newPugnala_01.png",
           "walkingFrames": 4,
@@ -1456,7 +1515,7 @@
           "headOffsets": [ { "x": 3, "y": 2} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "LEGACY",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -1551,7 +1610,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newGiovanna_01.png",
@@ -1560,16 +1619,17 @@
           "headOffsets": [ { "x": -1, "y": -6} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Giovanna_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": -1, "y": -6} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -1679,7 +1739,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newPoppea_01.png",
@@ -1687,15 +1747,16 @@
           "unlocked": true
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Poppea_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -1778,17 +1839,18 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
-          "name": "Default",
+          "skinType": "LEGACY",
+          "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Concetta_i01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 5,
           "unlocked": true,
           "headOffsets": [ { "x": -2, "y": 0} ]
         },
         {
-          "id": 1,
-          "name": "Legacy",
+          "skinType": "DEFAULT",
+          "name": "New",
           "textureName": "characters",
           "spriteName": "newConcetta_i01.png",
           "walkingFrames": 4,
@@ -1796,7 +1858,7 @@
           "headOffsets": [ { "x": -2, "y": 0} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "LEGACY",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -1884,7 +1946,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Mortaccio_01.png",
@@ -1893,7 +1955,7 @@
           "headOffsets": [ { "x": 7, "y": 0} ]
         },
         {
-          "id": 4,
+          "skinType": "HALLOWS",
           "name": "Hallows",
           "textureName": "characters",
           "spriteName": "hMortaccio_01.png",
@@ -1902,7 +1964,7 @@
           "headOffsets": [ { "x": 7, "y": 0} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -2005,7 +2067,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Cavallo_01.png",
@@ -2014,7 +2076,7 @@
           "headOffsets": [ { "x": 8, "y": 1} ]
         },
         {
-          "id": 4,
+          "skinType": "HALLOWS",
           "name": "Hallows",
           "textureName": "characters",
           "spriteName": "hCavallo_01.png",
@@ -2023,7 +2085,7 @@
           "headOffsets": [ { "x": 8, "y": 1} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -2164,7 +2226,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Ramba_01.png",
@@ -2173,7 +2235,7 @@
           "headOffsets": [ { "x": 5, "y": -1} ]
         },
         {
-          "id": 4,
+          "skinType": "HALLOWS",
           "name": "Hallows",
           "textureName": "characters",
           "spriteName": "hRamba_01.png",
@@ -2182,7 +2244,7 @@
           "headOffsets": [ { "x": 5, "y": -1} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -2271,7 +2333,7 @@
       "walkFrameRate": 16,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Dog_01.png",
@@ -2280,7 +2342,7 @@
           "headOffsets": [ { "x": 7, "y": -11} ]
         },
         {
-          "id": 4,
+          "skinType": "HALLOWS",
           "name": "Hallows",
           "textureName": "characters",
           "spriteName": "hDog_01.png",
@@ -2304,7 +2366,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -2709,7 +2771,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newAssunta_01.png",
@@ -2718,16 +2780,17 @@
           "headOffsets": [ { "x": 0, "y": 1} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "Assunta_01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [ { "x": 0, "y": 1} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Gains +0.5% Might, Projectile speed, Duration, and Area every level.",
       "bgm": "BGM_Vento",
       "isBought": false,
@@ -3184,7 +3247,7 @@
       "textureName": "characters",
       "portraitName": "p_avatar.png",
       "walkingFrames": 4,
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Starts with extra Arcana XIX - Heart Of Fire. Grows stronger with every level, but also loses control.",
       "bgm": "BGM_Spoopy",
       "isBought": false,
@@ -3569,7 +3632,7 @@
       },
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Peppino_01.png",
@@ -3578,7 +3641,7 @@
           "headOffsets": [ { "x": 0, "y": 30} ]
         },
         {
-          "id": 5,
+          "skinType": "XMAS",
           "name": "December",
           "textureName": "characters",
           "spriteName": "DecPeppino_01.png",
@@ -3589,7 +3652,7 @@
         }
       ],
       "walkFrameRate": 4,
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 120,
       "armor": 2,
       "regen": 0,
@@ -3787,7 +3850,7 @@
       "portraitName": "p_mis.png",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "_0x00000000_i01.png",
@@ -3796,8 +3859,8 @@
           "headOffsets": [ { "x": 3, "y": 8} ]
         },
         {
-          "id": 1,
-          "name": "Legacy",
+          "skinType": "FINO_DARK",
+          "name": "Dark",
           "textureName": "characters",
           "spriteName": "missingL_01.png",
           "walkingFrames": 4,
@@ -3805,7 +3868,7 @@
           "headOffsets": [ { "x": 3, "y": 8} ]
         },
         {
-          "id": 2,
+          "skinType": "FINO_EYE",
           "name": "Eye",
           "textureName": "characters",
           "spriteName": "Missing_01.png",
@@ -3814,7 +3877,7 @@
           "headOffsets": [ { "x": 3, "y": 8} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "",
       "isBought": false,
       "price": 66666,
@@ -4045,7 +4108,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "newXLReaper_i01.png",
@@ -4054,16 +4117,17 @@
           "headOffsets": [ { "x": 0, "y": 12} ]
         },
         {
-          "id": 1,
+          "skinType": "LEGACY",
           "name": "Legacy",
           "textureName": "characters",
           "spriteName": "XLReaper_i01.png",
+          "suffix": "(Legacy)",
           "walkingFrames": 8,
           "unlocked": true,
           "headOffsets": [ { "x": 0, "y": 12} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "bodyOffset": {
         "x": 16,
         "y": 32
@@ -4150,7 +4214,7 @@
       "textureName": "characters",
       "portraitName": "p_sigma.png",
       "walkingFrames": 4,
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "She owns everything.",
       "headOffsets": [ { "x": 1, "y": 0} ],
       "bgm": "BGM_Solution",
@@ -4260,7 +4324,7 @@
       "walkingFrames": 5,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Robert_i01.png",
@@ -4269,11 +4333,11 @@
           "headOffsets": [ { "x": 1, "y": 3} ]
         }
       ],
-      "currentSkinIndex": 0,
-      "description": "Recovers 25% Max Health and gains +8 Max Health (Max +400) when health reaches a critically low level.",
+      "currentSkin": "DEFAULT",
+      "description": "Recovers 25% Max Health and gains +32 Max Health (Max +665) when health reaches a critically low level.",
       "portraitName": "p_robbert.png",
       "isBought": false,
-      "price": 500,
+      "price": 100,
       "completedStages": [],
       "survivedMinutes": 0,
       "maxHp": 100,
@@ -4365,7 +4429,7 @@
       "walkingFrames": 5,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Sheemonita_i01.png",
@@ -4374,7 +4438,7 @@
           "headOffsets": [ { "x": 1, "y": 3} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Freezes all enemies for 10 seconds when health reaches a critically low level.",
       "portraitName": "p_shemoonita.png",
       "isBought": false,
@@ -4454,7 +4518,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "Santa_01.png",
@@ -4463,7 +4527,7 @@
           "headOffsets": [ { "x": 1, "y": 3} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "Starts with temporary cooldown bonus. May occasionally find a Candybox or an Arma Dio when levelling up.",
       "isBought": false,
       "price": 666,
@@ -4546,7 +4610,7 @@
       "walkingFrames": 4,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "characters",
           "spriteName": "xSpaceDude_01.png",
@@ -4555,7 +4619,7 @@
           "headOffsets": [ { "x": 1, "y": 3} ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "description": "May occasionally activate weapons twice.",
       "portraitName": "p_spacedude.png",
       "isBought": false,
@@ -4613,6 +4677,201 @@
         "AREA",
         "REVIVAL",
         "REVIVAL"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "BATSBATSBATS": [
+    {
+      "hidden": true,
+      "secret": true,
+      "level": 1,
+      "startingWeapon": "BATTILIA2",
+      "prefix": "Bats",
+      "charName": "Bats",
+      "surname": "Bats",
+      "textureName": "characters",
+      "spriteName": "bbbats_i01.png",
+      "portraitName": "p_bats.png",
+      "charSelTexture": "characters",
+      "charSelFrame" : "BatsBatsBatsSelect.png",
+      "walkingFrames": 4,
+      "description": "Starting weapon grows stronger when levelling up. Revivals also affect Amount.",
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp": 180,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 2,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "charm": 0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_BATSBATSBATS": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "BATTILIA",
+      "prefix": "Bats",
+      "charName": "Bats",
+      "surname": "Bats",
+      "textureName": "characters",
+      "spriteName": "bbbats_i01.png",
+      "portraitName": "p_bats.png",
+      "charSelTexture": "characters",
+      "charSelFrame" : "BatsBatsBatsSelect.png",
+      "walkingFrames": 4,
+      "description": "Starting weapon grows stronger when levelling up. Revivals also affect Amount.",
+      "isBought": false,
+      "price": 5000,
+      "scale" : 0.5,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp": 180,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "charm": 0,
+      "showcase": [
+        "BATTILIA",
+        "COOLDOWN",
+        "SPEED",
+        "ARMOR",
+        "BATTILIA",
+        "COOLDOWN",
+        "SPEED",
+        "ARMOR",
+        "BATTILIA",
+        "COOLDOWN",
+        "SPEED",
+        "ARMOR",
+        "BATTILIA",
+        "COOLDOWN",
+        "SPEED",
+        "ARMOR",
+        "BATTILIA",
+        "AMOUNT",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "BATTILIA",
+        "AMOUNT",
+        "MAXHEALTH",
+        "MAXHEALTH"
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [
+
+          ],
+          "loadout": [
+            "BATTILIA","BATTILIA","BATTILIA","BATTILIA","BATTILIA","BATTILIA",
+            "AMOUNT","AMOUNT",
+            "REVIVAL","REVIVAL",
+            "SPEED","SPEED","SPEED","SPEED","SPEED",
+            "POWER","POWER","POWER","POWER","POWER",
+            "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN",
+            "LUCK","LUCK","LUCK","LUCK","LUCK"
+          ],
+          "autoShuffle": true
+        }
       ],
       "hiddenWeapons": [],
       "enemiesKilled": 0,
@@ -4877,6 +5136,8 @@
         "x": 16,
         "y": 32
       },
+      "charSelTexture": "characters",
+      "charSelFrame" : "GyoruntinSelect.png",
       "maxHp": 130,
       "armor": 3,
       "regen": 0,

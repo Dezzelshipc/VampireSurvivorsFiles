@@ -410,6 +410,8 @@
       "GUNS_COUNTER",
       "SILF2_COUNTER",
       "TRIASSO3",
+      "MISSPELL",
+      "MISSPELL2",
       "PRISMATICMISS",
       "PRISMATICMISS2",
       "FB_FULLAUTO",
@@ -466,6 +468,113 @@
     "items": [],
     "texture": "randomazzo",
     "frameName": "21.png",
+    "enabled": false,
+    "unlocked": false,
+    "major": true
+  },
+  
+  "23": {
+    "arcanaType": 23,
+    "name": "I - Sapphire Mist",
+    "description": "All weapons have a chance to fire twice instead of once when activated. The effect is further augmented on listed active weapons.",
+    "weapons": [
+      "TRIASSO1",
+      "TRIASSO2",
+      "TRIASSO3",
+      "MISSPELL",
+      "MISSPELL2",
+      "BUBBLES",
+      "BUBBLES2",
+      "PARTY",
+      "LUCK"
+    ],
+    "items": [],
+    "texture": "randomazzo",
+    "frameName": "23.png",
+    "enabled": false,
+    "unlocked": false,
+    "major": true
+  },
+  "28": {
+    "arcanaType": 28,
+    "name": "VI - Moonlight Bolero",
+    "description": "An extra treasure boss spawns every minute. The treasure it carries might occasionally contain arcanas and random passive weapons.",
+    "weapons": [
+    ],
+    "items": [
+      "STATS_TREASURE_1",
+      "STATS_TREASURE_2",
+      "STATS_TREASURE_5",
+      "STATS_TREASURE_4"
+    ],
+    "texture": "randomazzo",
+    "frameName": "28.png",
+    "enabled": false,
+    "unlocked": false,
+    "major": true
+  },
+  "32": {
+    "arcanaType": 32,
+    "name": "X - Hail from the Future",
+    "description": "Receive an item when levelling up.",
+    "weapons": [
+      "CANDYBOX",
+      "ARMADIO"
+    ],
+    "items": [
+      "ROSARY",
+      "OROLOGION",
+      "VACUUM",
+      "GILDED",
+      "GOLDFINGER"
+    ],
+    "texture": "randomazzo",
+    "frameName": "32.png",
+    "enabled": false,
+    "unlocked": false,
+    "major": true
+  },
+  "34": {
+    "arcanaType": 34,
+    "name": "XII - Crystal Cries",
+    "description": "Defeating frozen enemies gives bonus MaxHealth, Recovery, and Growth. Triggers an Orologion when health reaches a critically low level.",
+    "weapons": [
+      "MAXHEALTH",
+      "REGEN",
+      "GROWTH"
+    ],
+    "items": [
+      "OROLOGION",
+      "BONUS_FROZENSOUL"
+    ],
+    "texture": "randomazzo",
+    "frameName": "34.png",
+    "enabled": false,
+    "unlocked": false,
+    "major": true
+  },
+  "43": {
+    "arcanaType": 43,
+    "name": "XXI - Wandering the Jet Black",
+    "description": "Recovering health or receiving damage builds up explosions.",
+    "weapons": [
+      "VAMPIRICA",
+      "VENTO2",
+      "VORTEX",
+      "FLOWER",
+      "REGEN",
+      "SILVERWIND",
+      "SILVERWIND2",
+      "NIGHTSWORD2",
+      "C1_MEDICAL1",
+      "C1_MEDICAL2",
+      "MAGNET"
+    ],
+    "items": [
+      "ROAST"
+    ],
+    "texture": "randomazzo",
+    "frameName": "43.png",
     "enabled": false,
     "unlocked": false,
     "major": true

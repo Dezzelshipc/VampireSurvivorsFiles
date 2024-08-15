@@ -1,6 +1,6 @@
 {
   "ADV_POES_001": {
-    "progressKey": "PoesParadiseAdventure",
+    "progressKey": "AGarlicParadise",
     "index": 2,
     "coreAdventureData": {
       "name": "A Garlic Paradise",
@@ -8,7 +8,13 @@
       "completionCoinReward": 35000,
       "startingCharacter": "CAMILLO",
       "startingStage": "ADV_POE_1_Acres",
-      "subtitleImage": "ADV_Title_AGarlicParadise"
+      "subtitleImage": "ADV_Title_AGarlicParadise",
+      "completionSkinsReward": [
+        {
+          "character": "CAMILLO",
+          "skin": "SKIN_POE_RETIRED"
+        }
+      ]
     },
     "CHARACTER_DATA": [
       "CAMILLO",
@@ -212,7 +218,13 @@
       "completionCoinReward": 35000,
       "startingCharacter": "IMELDA",
       "startingStage": "ADV_IME_1_Chapel",
-      "subtitleImage": "ADV_Title_WorldOfLightAndDark"
+      "subtitleImage": "ADV_Title_WorldOfLightAndDark",
+      "completionSkinsReward": [
+        {
+          "character": "IMELDA",
+          "skin": "SKIN_IMELDA_UNBLINDED"
+        }
+      ]
     },
     "CHARACTER_DATA": [
       "IMELDA",

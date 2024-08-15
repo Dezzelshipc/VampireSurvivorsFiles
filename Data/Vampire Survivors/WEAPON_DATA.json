@@ -2494,7 +2494,7 @@
       "frameName":"armadio.png",
       "collectionFrame":"frameB_bold.png",
       "poolLimit": 0,
-      "rarity": 10,
+      "rarity": 50,
       "dropRateAffectedByLuck": true,
       "interval": 9007199254740991,
       "repeatInterval": 9007199254740991,
@@ -3089,6 +3089,7 @@
       "critMul": 2
     }
   ],
+  
   "NDUJA": [
     {
       "level": 1,
@@ -3370,6 +3371,34 @@
       "hitsWalls": false
     }
   ],
+  "D20_JETBLACK": [
+    {
+      "level": 1,
+      "bulletType": "D20_JETBLACK",
+      "name": "Wandering the Jet Black",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "dummyBlood.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 0,
+      "poolLimit": 150,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 80,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 10000,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+  
   "NOVA_FIRE": [
     {
       "level": 1,
@@ -3449,6 +3478,7 @@
       "knockback": 3
     }
   ],
+  
   "POWER": [
     {
       "level": 1,

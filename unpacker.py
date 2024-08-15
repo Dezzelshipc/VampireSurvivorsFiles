@@ -279,18 +279,6 @@ class Unpacker(tk.Tk):
         if self.last_loaded_folder and os.path.exists(self.last_loaded_folder):
             os.startfile(self.last_loaded_folder)
 
-    def select_assets_dir(self):
-        full_path = fd.askdirectory(
-            title='Select assets directory',
-            initialdir=self.assets_dir
-        )
-
-        if not full_path:
-            return
-
-        self.set_assets_dir(full_path)
-
-
     def select_and_unpack(self, start_path):
         def thread_generate_by_meta(p_dir: str, p_file: str, scale: int = 1):
             meta, im = self.get_meta_by_full_path(p_dir, p_file)
@@ -348,6 +336,16 @@ class Unpacker(tk.Tk):
             with open(file_path) as f:
                 sprites = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]["sprites"]
 
+            image = Image.open(full_path)
+            if len(sprites) == 0:
+                sprites = [{
+                    "name": p_file.replace(".png", ""),
+                    "rect": {
+                        "x": 0, "y": 0, "width": image.width, "height": image.height
+                    },
+                    "pivot": {"x": 0.5, "y": 0.5}
+                }]
+
             self.loaded_meta.update(
                 {
                     file: {
@@ -356,7 +354,7 @@ class Unpacker(tk.Tk):
                             "pivot": s["pivot"]
                         } for s in sprites
                     },
-                    file + "Image": Image.open(full_path)
+                    file + "Image": image
                 }
             )
 
@@ -365,9 +363,12 @@ class Unpacker(tk.Tk):
 
     def generate_by_meta(self, meta: dict, im: Image, file: str, scale_factor: int = 1):
         file = file.replace(".png", "")
-        folder_to_save = f"./Images/Generated/By meta/{file}"
 
         total = len(meta)
+        if total > 1:
+            folder_to_save = f"./Images/Generated/By meta/{file}"
+        else:
+            folder_to_save = f"./Images/Generated/By meta/_SingeSprites"
 
         if total == 0:
             showwarning("Warning",

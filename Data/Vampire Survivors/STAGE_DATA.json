@@ -7511,130 +7511,6 @@
       ]
     }
   ],
-  "COOP": [
-    {
-      "order": 1110,
-      "alwaysHidden": true,
-      "hidden": true,
-      "unlocked": false,
-      "stageName": "The Coop",
-      "description": "",
-      "uiTexture": "UI",
-      "uiFrame": "stage_whiteout.png",
-      "texture": "UI",
-      "frameName": "stage_whiteout_icon.png",
-      "frameNameUnlock": "stage_whiteout_icon.png",
-      "bestiaryBG": "background_moonspell.png",
-      "stageNumber": "Bonus",
-      "tips": "",
-      "relics": [
-        "RELIC_SPEEDUP"
-      ],
-      "yellowRelics": [],
-      "BGM": "BGM_Snow",
-      "sideBBGM": "BGM_Snow",
-      "validForCharcaterData": true,
-      "mods": {
-        "TimeLimit": 1200,
-        "ClockSpeed": 1,
-        "PlayerPxSpeed": 1.35,
-        "EnemySpeed": 0.9,
-        "ProjectileSpeed": 1,
-        "GoldMultiplier": 1,
-        "EnemyHealthMultiplier": 1,
-        "LuckBonus": 0,
-        "XPBonus": 1
-      },
-      "hyper": {
-        "unlocked": true,
-        "TimeLimit": 1200,
-        "ClockSpeed": 1,
-        "PlayerPxSpeed": 0.65,
-        "EnemySpeed": 0.1,
-        "ProjectileSpeed": 0.15,
-        "GoldMultiplier": 0.25,
-        "LuckBonus": 0,
-        "XPBonus": 0,
-        "EnemyHealthMultiplier": 0,
-        "StartingSpawns": 10
-      },
-      "inverse": {
-        "tint": 16732497,
-        "GoldMultiplier": 2,
-        "EnemyHealthMultiplier": 2,
-        "LuckBonus": 0.2,
-        "TimeMods": {
-          "start": 0,
-          "hpPerMinute": 0.1,
-          "speedPerMinute": 0.3
-        }
-      },
-      "background": {
-        "texture": "",
-        "movingBackground": true
-      },
-      "dayNight": false,
-      "startingSpawns": 50,
-      "minute": 0,
-      "destructibleType": "BRAZIER",
-      "spawnType": "HORIZONTAL",
-      "destructibleFreq": 2000,
-      "destructibleChance": 80,
-      "destructibleChanceMax": 90,
-      "maxDestructibles": 10,
-      "BGTextureName": "bg_null",
-      "tileset": {
-        "setKey": "CoopTexturePacked",
-        "setPath": "assets/tilesets/CoopTexturePacked.png",
-        "mapKey": "Coop",
-        "mapPath": "assets/tilesets/Coop.json",
-        "isTiling": true,
-        "hasWallsCheckDestructibleLogic": false,
-        "SizeX": 1024,
-        "SizeY": 512
-      },
-      "minimum": 15,
-      "frequency": 1000,
-      "enemies": [
-        "COOP_ABRAXAS",  
-        "COOP_ABRAXASCROWN",
-        "COOP_ABRAXASHALO",
-        "COOP_CHICKEN",
-        "COOP_COCK",
-        "COOP_CHIK",
-        "COOP_EGG"
-      ],
-      "bosses": []
-    },
-    {
-      "minute": 1,
-      "minimum": 30,
-      "frequency": 1000,
-      "enemies": [
-        "COOP_ABRAXAS",
-        "COOP_ABRAXASCROWN",
-        "COOP_ABRAXASHALO",
-        "COOP_CHICKEN",
-        "COOP_COCK",
-        "COOP_CHIK",
-        "COOP_EGG"
-      ]
-    },
-    {
-      "minute": 20,
-      "minimum": 1,
-      "frequency": 10000,
-      "enemies": [],
-      "bosses": [
-        "BOSS_XLDEATH"
-      ],
-      "events": [
-        {
-          "eventType": "CYCLE_COMPLETE"
-        }
-      ]
-    }
-  ],
   "SPAZIE": [
     {
       "order": 1120,
@@ -9287,7 +9163,7 @@
     },
     {
       "minute": 19,
-      "minimum": 30,
+      "minimum": 20,
       "frequency": 500,
       "enemies": [
         "EX_BOSSGYORUNTIN_SOLID"
@@ -11136,9 +11012,9 @@
     }
   ],
 
-  "KAGERO": [
+  "DEVILROOM": [
     {
-      "alwaysHidden": true,
+      "alwaysHidden": false,
       "hidden": true,
       "unlocked": false,
       "order": 11000,
@@ -11149,79 +11025,79 @@
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "bestiaryBG": "background_forest.png",
-      "stageNumber": "Challenge",
-      "BGM": "BGM_Bones",
-      "sideBBGM": "BGM_Bones",
-      "tips": "Random enemy waves from normal stages",
-      "hyperTips": "50% Gold bonus\n10% Luck bonus",
+      "stageNumber": "???",
+      "BGM": "BGM_Devil",
+      "sideBBGM": "BGM_Devil",
+      "tips": "- ",
+      "hyperTips": "- ",
+      "hasLights": true,
       "relics": [
-        "RELIC_BANGER"
+        "RELIC_DARKASSO"
       ],
       "yellowRelics": [],
-      "validForCharcaterData": true,
+      "validForCharcaterData": false,
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
-        "PlayerPxSpeed": 1.25,
-        "EnemySpeed": 1.25,
-        "ProjectileSpeed": 1,
-        "GoldMultiplier": 1,
-        "EnemyHealthMultiplier": 1.5,
+        "PlayerPxSpeed": 1.9,
+        "EnemySpeed": 1.9,
+        "ProjectileSpeed": 1.15,
+        "GoldMultiplier": 1.5,
+        "EnemyHealthMultiplier": 1.0,
         "LuckBonus": 0,
         "XPBonus": 1
       },
       "hyper": {
-        "unlocked": false,
+        "unlocked": true,
         "TimeLimit": 1800,
         "ClockSpeed": 1,
-        "PlayerPxSpeed": 0.65,
-        "EnemySpeed": 0.65,
-        "ProjectileSpeed": 0.15,
-        "GoldMultiplier": 0.5,
-        "EnemyHealthMultiplier": 0.5,
-        "LuckBonus": 0.1,
+        "PlayerPxSpeed": 0,
+        "EnemySpeed": 0,
+        "ProjectileSpeed": 0,
+        "GoldMultiplier": 0,
+        "EnemyHealthMultiplier": 0,
+        "LuckBonus": 0,
         "XPBonus": 0,
-        "StartingSpawns": 30
+        "StartingSpawns": 0
       },
       "inverse": {
-        "tint": 8978431,
-        "GoldMultiplier": 2,
-        "EnemyHealthMultiplier": 2,
-        "LuckBonus": 0.2,
-        "TimeMods": {
-          "start": 0,
-          "hpPerMinute": 0.05,
-          "speedPerMinute": 0.005
-        }
+        "GoldMultiplier": 1,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0
       },
       "background": {
-        "texture": "bg_null"
+        "texture": "bg_null",
+        "movingBackground": true
       },
       
       "tileset": {
-        "setKey": "KageroTexturePacked",
-        "setPath": "assets/tilesets/KageroTexturePacked.png",
-        "mapKey": "Kagero",
-        "mapPath": "assets/tilesets/Kagero.json",
-        "isTiling": false
+        "setKey": "DevilRoomTexturePacked",
+        "setPath": "assets/tilesets/DevilRoomTexturePacked.png",
+        "mapKey": "DevilRoom",
+        "mapPath": "assets/tilesets/DevilRoom.json",
+        "isTiling": false,
+        "minTreasureX": 256,
+        "maxTreasureX": 768
       },
-      
+
+      "allowVisualInversion": false,
       "InverseDayColor": 8978431,
       "InverseNightColor": 2263176,
-      "startingSpawns": 20,
+      "startingSpawns": 0,
       "minute": 0,
       "destructibleType": "BRAZIER2",
       "destructibleFreq": 1000,
       "destructibleChance": 50,
-      "destructibleChanceMax": 100,
-      "maxDestructibles": 12,
+      "destructibleChanceMax": 80,
+      "maxDestructibles": 20,
       
       "minimum": 20,
       "frequency": 100,
       "enemies": [
         "DEVIL_HP_1"
       ],
-      "bosses": []
+      "bosses": [
+      ]
     },
     {
       "minute": 1,
@@ -11233,7 +11109,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11251,7 +11127,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11269,7 +11145,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11287,7 +11163,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11305,7 +11181,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11323,7 +11199,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11341,7 +11217,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11359,7 +11235,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11377,7 +11253,7 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EXISTING_ANY",
+          "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY",
@@ -11387,8 +11263,7 @@
     },
     {
       "minute": 10,
-      "arcanaHolder": "BOSS_XLSWORDIAN_2",
-      "arcanaTreasure": {
+      "treasure": {
         "chances": [
           1,
           10,
@@ -11396,9 +11271,9 @@
         ],
         "level": 1,
         "prizeTypes": [
-          "EVO_ARCANA",
           "EVOLUTION",
-          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY"
         ]

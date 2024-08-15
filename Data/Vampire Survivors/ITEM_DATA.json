@@ -10,7 +10,8 @@
     "unlocksAt": 100000,
     "value": 50,
     "inTreasures": false,
-    "seen": true
+    "seen": true,
+    "collection": "BaseGame"
   },
   "COIN": {
     "name": "Gold Coin",
@@ -24,7 +25,8 @@
     "value": 1,
     "inTreasures": false,
     "seen": true,
-    "feverMS": 500
+    "feverMS": 500,
+    "collection": "BaseGame"
   },
   "COINBAG1": {
     "name": "Coin Bag",
@@ -37,7 +39,8 @@
     "unlocksAt": 0,
     "inTreasures": false,
     "value": 10,
-    "feverMS": 5000
+    "feverMS": 5000,
+    "collection": "BaseGame"
   },
   "COINBAG2": {
     "name": "Big Coin Bag",
@@ -49,7 +52,8 @@
     "rarity": 0,
     "unlocksAt": 100000,
     "hidden": true,
-    "value": 25
+    "value": 25,
+    "collection": "BaseGame"
   },
   "COINBAGMAX": {
     "name": "Rich Coin Bag",
@@ -62,7 +66,8 @@
     "unlocksAt": 5,
     "value": 100,
     "isRare": true,
-    "feverMS": 10000
+    "feverMS": 10000,
+    "collection": "BaseGame"
   },
   "TREASURE": {
     "name": "Treasure Chest",
@@ -74,7 +79,8 @@
     "rarity": 0,
     "unlocksAt": 1000000,
     "inTreasures": false,
-    "value": 0
+    "value": 0,
+    "collection": "BaseGame"
   },
   "ROSARY": {
     "name": "Rosary",
@@ -87,7 +93,8 @@
     "unlocksAt": 8,
     "value": 500,
     "isRare": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "BaseGame"
   },
   "NFT": {
     "name": "Nduja Fritta",
@@ -100,7 +107,8 @@
     "unlocksAt": 0,
     "value": 500,
     "isRare": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "BaseGame"
   },
   "OROLOGION": {
     "name": "Orologion",
@@ -113,7 +121,8 @@
     "unlocksAt": 4,
     "value": 50,
     "isRare": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "BaseGame"
   },
   "VACUUM": {
     "name": "Vacuum",
@@ -126,7 +135,8 @@
     "unlocksAt": 12,
     "value": 500,
     "isRare": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "BaseGame"
   },
   "ROAST": {
     "name": "Floor Chicken",
@@ -139,7 +149,8 @@
     "unlocksAt": 0,
     "value": 30,
     "isRare": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "BaseGame"
   },
   "LITTLEHEART": {
     "name": "Little Heart",
@@ -152,7 +163,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "collection": "BaseGame"
   },
   "GILDED": {
     "name": "Gilded Clover",
@@ -165,20 +177,8 @@
     "unlocksAt": 30,
     "inTreasures": false,
     "value": 1000,
-    "sealable": true
-  },
-  "CLOVER": {
-    "name": "Little Clover",
-    "description": "Pick up to get 10% luckier.",
-    "tips": "",
-    "texture": "items",
-    "frameName": "Clover2.png",
-    "pickedupAmount": 0,
-    "rarity": 0.5,
-    "unlocksAt": 0,
-    "inTreasures": false,
-    "value": 0.1,
-    "sealable": true
+    "sealable": true,
+    "collection": "BaseGame"
   },
   "GOLDFINGER": {
     "name": "Gold Finger",
@@ -192,7 +192,36 @@
     "inTreasures": false,
     "value": 1000,
     "sealable": true,
-    "requiresItem": "RELIC_TRISECTION"
+    "requiresItem": "RELIC_TRISECTION",
+    "collection": "Extra"
+  },
+  "CLOVER": {
+    "name": "Little Clover",
+    "description": "Pick up to get 10% luckier.",
+    "tips": "",
+    "texture": "items",
+    "frameName": "Clover2.png",
+    "pickedupAmount": 0,
+    "rarity": 0.5,
+    "unlocksAt": 0,
+    "inTreasures": false,
+    "value": 0.1,
+    "sealable": true,
+    "collection": "BaseGame"
+  },
+  "BONUS_FROZENSOUL": {
+    "name": "Crystallized Soul",
+    "description": "Pick up to get a minor bonus to MaxHealth, Recovery, and Growth.",
+    "tips": "",
+    "texture": "items",
+    "frameName": "FrozenSoul.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 1,
+    "collection": "Extra"
   },
   "CART_ACCEL": {
     "name": "Acceleration",
@@ -272,6 +301,32 @@
     "hidden": true,
     "value": 0
   },
+  "STATS_TREASURE_4": {
+    "name": "",
+    "description": "4",
+    "tips": "",
+    "texture": "items",
+    "frameName": "BoxOpen4.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0
+  },
+  "STATS_TREASURE_5": {
+    "name": "",
+    "description": "5",
+    "tips": "",
+    "texture": "items",
+    "frameName": "BoxArcana.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0
+  },
   "ALWAYS_COINBAG2": {
     "name": "[Always] Big Coin Bag",
     "description": "Adds 25 to your gold coins total.",
@@ -309,7 +364,8 @@
     "unlocksAt": 100000,
     "value": 30,
     "isSpecialOption": true,
-    "seen": true
+    "seen": true,
+    "collection": "BaseGame"
   },
   "DUMMY_LIGHTSOURCE": {
     "name": "",
@@ -429,7 +485,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_GOUDA": {
     "name": "Ars Gouda",
@@ -444,7 +501,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_MAP": {
     "name": "Milky Way Map",
@@ -459,7 +517,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_BANGER": {
     "name": "Magic Banger",
@@ -474,7 +533,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_TEAR": {
     "name": "Sorceress' Tears",
@@ -489,7 +549,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_GLASSMASK": {
     "name": "Glass Vizard",
@@ -504,7 +565,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 10000,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_GOLDENEGG": {
     "name": "Golden Egg",
@@ -518,7 +580,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 10000,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_NOSEGLASSES": {
     "name": "Mindbender",
@@ -533,7 +596,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 10000,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_YELLOW": {
     "name": "Yellow Sign",
@@ -548,7 +612,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_SECRETS": {
     "name": "Forbidden Scrolls of Morbane",
@@ -563,7 +628,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 10000,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_GGOSPEL": {
     "name": "Great Gospel",
@@ -578,7 +644,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_MIRROR": {
     "name": "Gracia's Mirror",
@@ -593,7 +660,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_TRUMPET": {
     "name": "Seventh Trumpet",
@@ -608,7 +676,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },  
   "RELIC_ATLAS": {
     "name": "Atlas Gate",
@@ -625,24 +694,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "sealable": false
-  },
-  "RELIC_SPEEDUP": {
-    "name": "Roast chicken with a clock in the middle",
-    "description": "Allows to speed gameplay up.",
-    "tips": "",
-    "achievementTips": "Game Speed Modifier.",
-    "texture": "items",
-    "frameName": "speedup.png",
-    "collectionFrame": "frameB_bold.png",
-    "pickedupAmount": 0,
-    "rarity": 0,
-    "unlocksAt": 1000000,
-    "inTreasures": false,
-    "hidden": true,
-    "value": 0,
-    "isRelic": true,
-    "sealable": true
+    "sealable": false,
+    "collection": "Extra"
   },
   "RELIC_MALACHITE": {
     "name": "Chaos Malachite",
@@ -659,7 +712,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "Extra"
   },
   "RELIC_ROSALIA": {
     "name": "Chaos Rosalia",
@@ -676,7 +730,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "Extra"
   },
   "RELIC_ALTEMANNA": {
     "name": "Chaos Altemanna",
@@ -693,7 +748,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "sealable": true
+    "sealable": true,
+    "collection": "Extra"
   },
   "RELIC_TRISECTION": {
     "name": "Trisection",
@@ -709,7 +765,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "Extra"
   },
   "RELIC_BRAVESTORY": {
     "name": "Brave Story",
@@ -725,7 +782,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "Extra"
   },
   "RELIC_CHARM": {
     "name": "Apoplexy",
@@ -741,7 +799,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "Extra"
   },
   "RELIC_ANTIDOTE": {
     "name": "Antidote",
@@ -757,7 +816,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "Extra"
   },
   "RELIC_MAP_AS": {
     "name": "Astral Stair Map",
@@ -773,7 +833,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "Extra"
   },
   "RELIC_MAP_MS": {
     "name": "Mt.Moonspell Map",
@@ -790,7 +851,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "Moonspell"
+    "requiresDLC": "Moonspell",
+    "collection": "Moonspell"
   },
   "RELIC_MAP_FS": {
     "name": "Lake Foscari Map",
@@ -807,7 +869,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "Foscari"
+    "requiresDLC": "Foscari",
+    "collection": "Foscari"
   },
   "RELIC_MAP_CHAL": {
     "name": "Polus Replica Map",
@@ -824,7 +887,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "Chalcedony"
+    "requiresDLC": "Chalcedony",
+    "collection": "Chalcedony"
   },
   "RELIC_MAP_FB": {
     "name": "Galuga Jungle Map",
@@ -841,7 +905,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "FirstBlood"
+    "requiresDLC": "FirstBlood",
+    "collection": "FirstBlood"
   },
   "RELIC_RANDOMAZZO": {
     "name": "Randomazzo",
@@ -856,7 +921,8 @@
     "inTreasures": false,
     "hidden": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "BaseGame"
   },
   "RELIC_DARKASSO": {
     "hidden": true,
@@ -871,7 +937,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "collection": "Extra"
   },
   "COFFIN": {
     "name": "",

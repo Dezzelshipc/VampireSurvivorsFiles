@@ -1,4 +1,4 @@
-﻿{
+{
   "ANTONIO": {
     "merchantCharacter": "ANTONIO",
     "portraitSprite": "mercAntonio",
@@ -239,7 +239,15 @@
       "C1_GARBA1",
       "C1_TONGUE1",
       "C1_SAMPLES1",
-      "C1_HATCOLLECTION1"
+      "C1_HATCOLLECTION1",
+      "C1_SHRINK_CREWMA",
+      "C1_SHRINK_ENGINE",
+      "C1_SHRINK_GHOSTT",
+      "C1_SHRINK_SHAPES",
+      "C1_SHRINK_GUARDI",
+      "C1_SHRINK_IMPOST",
+      "C1_SHRINK_SCIENT",
+      "C1_SHRINK_HORSEE"
     ]
   },
   "FB_SIMONDO": {
@@ -261,7 +269,8 @@
       "FB_PRISMCUTLASS",
       "FB_HOMING",
       "FB_DIVERMINES",
-      "FB_METALCLAW"
+      "FB_METALCLAW",
+      "FB_WEAPONPU"
     ]
   }
 }

@@ -1,4 +1,4 @@
-{
+{  
   "BAT1": [
     {
       "level": 1,
@@ -11444,6 +11444,7 @@
   ],
   "STARDUST_BLINDER_PATROL": [
     {
+      "skipCredits": true,
       "level": 10,
       "maxHp": 5,
       "speed": 140,
@@ -11471,6 +11472,7 @@
   ],
   "DEVIL_HP_1": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_1",
       "level": 3,
       "maxHp": 0.5,
@@ -11491,11 +11493,14 @@
       "frameNames": [
         "Imp_0"
       ],
+      "tint": 13369344,
+      "materialType": "DefaultSpriteTintHue",
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_2": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_2",
       "level": 3,
       "maxHp": 1,
@@ -11516,11 +11521,14 @@
       "frameNames": [
         "Dullahan0_0"
       ],
+      "tint": 13369344,
+      "materialType": "DefaultSpriteTintHue",
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_3": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_3",
       "level": 3,
       "maxHp": 1.5,
@@ -11546,6 +11554,7 @@
   ],
   "DEVIL_HP_4": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_4",
       "level": 3,
       "maxHp": 2,
@@ -11571,6 +11580,7 @@
   ],
   "DEVIL_HP_5": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_5",
       "level": 3,
       "maxHp": 2.5,
@@ -11591,11 +11601,14 @@
       "frameNames": [
         "Devil3_0"
       ],
+      "tint": 13369344,
+      "materialType": "DefaultSpriteTintHue",
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_6": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_6",
       "level": 5,
       "maxHp": 3,
@@ -11621,6 +11634,7 @@
   ],
   "DEVIL_HP_7": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_7",
       "level": 5,
       "maxHp": 3.5,
@@ -11636,16 +11650,17 @@
       "passThroughWalls": false,
       "lives": 2,
       "idleFrameCount": 4,
-      "end": 29,
-      "textureName": "enemies3",
+      "end": 16,
+      "textureName": "enemies2023",
       "frameNames": [
-        "XLDemon1_0"
+        "ImperialPulp_0"
       ],
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_8": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_8",
       "level": 9,
       "maxHp": 4,
@@ -11664,13 +11679,14 @@
       "end": 29,
       "textureName": "enemies3",
       "frameNames": [
-        "XLDemon1_alt_0"
+        "XLDemon1_0"
       ],
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_9": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_9",
       "level": 9,
       "maxHp": 4.5,
@@ -11689,13 +11705,16 @@
       "end": 29,
       "textureName": "enemies3",
       "frameNames": [
-        "XLDemon2_0"
+        "XLDemon1_alt_0"
       ],
+      "tint": 13369344,
+      "materialType": "DefaultSpriteTintHue",
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_10": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_10",
       "level": 9,
       "maxHp": 5,
@@ -11714,13 +11733,14 @@
       "end": 29,
       "textureName": "enemies3",
       "frameNames": [
-        "XLDeamon5_0"
+        "XLDemon2_0"
       ],
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_11": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_11",
       "level": 9,
       "maxHp": 5,
@@ -11736,16 +11756,17 @@
       "passThroughWalls": false,
       "lives": 6,
       "idleFrameCount": 4,
-      "end": 29,
-      "textureName": "enemies3",
+      "end": 11,
+      "textureName": "enemies2023",
       "frameNames": [
-        "XLDeamon5_0"
+        "hellpup_0"
       ],
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_12": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_12",
       "level": 9,
       "maxHp": 5,
@@ -11771,11 +11792,12 @@
   ],
   "DEVIL_HP_13": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_13",
       "level": 9,
       "maxHp": 5,
       "speed": 140,
-      "power": 9,
+      "power": 10,
       "xp": 4,
       "knockback": 0,
       "maxKnockback": 2,
@@ -11786,21 +11808,22 @@
       "passThroughWalls": false,
       "lives": 8,
       "idleFrameCount": 4,
-      "end": 29,
-      "textureName": "enemies3",
+      "end": 11,
+      "textureName": "enemies2023",
       "frameNames": [
-        "XLDeamon5_0"
+        "fisherHead_0"
       ],
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_14": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_14",
       "level": 9,
       "maxHp": 5,
       "speed": 140,
-      "power": 9,
+      "power": 10,
       "xp": 4,
       "knockback": 0,
       "maxKnockback": 2,
@@ -11811,21 +11834,22 @@
       "passThroughWalls": false,
       "lives": 9,
       "idleFrameCount": 4,
-      "end": 29,
-      "textureName": "enemies3",
+      "end": 11,
+      "textureName": "enemies2023",
       "frameNames": [
-        "XLDeamon5_0"
+        "ogreHead_0"
       ],
       "killedAmount": 0
     }
   ],
   "DEVIL_HP_15": [
     {
+      "skipCredits": true,
       "enemyType": "DEVIL_HP_15",
       "level": 9,
       "maxHp": 5,
       "speed": 140,
-      "power": 9,
+      "power": 11,
       "xp": 4.5,
       "knockback": 0,
       "maxKnockback": 2,
@@ -11836,12 +11860,215 @@
       "passThroughWalls": false,
       "lives": 10,
       "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "trueDevil_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_TRUEDEVIL": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_TRUEDEVIL",
+      "level": 30,
+      "maxHp": 8,
+      "speed": 120,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "xp": 25,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "lives": 10,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "trueDevil_0"
+      ]
+    }
+  ],
+  "EX_DEMON_RED": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_DEMON_RED",
+      "level": 9,
+      "maxHp": 50,
+      "speed": 120,
+      "power": 11,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "lives": 7,
+      "idleFrameCount": 4,
       "end": 29,
       "textureName": "enemies3",
       "frameNames": [
         "XLDeamon5_0"
       ],
+      "killedAmount": 0,
+      "tint": 13369344,
+      "materialType": "DefaultSpriteTintHue"
+    }
+  ],
+  "EX_HELLPUP": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_HELLPUP",
+      "level": 200,
+      "maxHp": 6,
+      "speed": 180,
+      "power": 20,
+      "xp": 20,
+      "skills": [
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "hellpup_0.png"
+      ],
       "killedAmount": 0
+    }
+  ],
+  "EX_IMPERIALPULP": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_IMPERIALPULP",
+      "level": 50,
+      "maxHp": 5,
+      "speed": 120,
+      "power": 20,
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "ImperialPulp_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BOSS_OGREHEAD": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_BOSS_OGREHEAD",
+      "level": 9,
+      "maxHp": 10,
+      "speed": 100,
+      "power": 40,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "scale": 1.5,
+      "passThroughWalls": true,
+      "lives": 9,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "ogreHead_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATGOBLIN": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_BATGOBLIN",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 200,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0.1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0, 1
+      ],
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "batGoblinG_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_BATGOBLIN2": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_BATGOBLIN2",
+      "level": 9,
+      "maxHp": 5,
+      "speed": 200,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0.1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0, 1
+      ],
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "batGoblin_0"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_TREASURE_VICIOUSHUNGER": [
+    {
+      "skipCredits": true,
+      "level": 7,
+      "maxHp": 10,
+      "speed": 150,
+      "power": 15,
+      "skills": [
+        0
+      ],
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 21,
+      "scale": 2,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "textureName": "enemies2",
+      "idleFrameCount": 30,
+      "frameNames": [
+        "eye_0.png"
+      ]
     }
   ]
 }

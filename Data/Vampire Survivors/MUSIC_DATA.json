@@ -349,9 +349,9 @@
     "title": "Catch you at Carlo's",
     "author": "Daniele Zandara",
     "source": "Carlo Cart",
-    "unlockedByStage": null,
+    "unlockedByStage": "CARLOCART",
     "unlockedByCharacter": null,
-    "isUnlocked": true,
+    "isUnlocked": false,
     "icon": "stage_carlocart_icon.png",
     "hyperMod": {
       "rate": 1.0625,
@@ -366,9 +366,9 @@
     "title": "Awe of the Unknown",
     "author": "Daniele Zandara",
     "source": "Laborratory",
-    "unlockedByStage": null,
+    "unlockedByStage": "LABORRATORY",
     "unlockedByCharacter": null,
-    "isUnlocked": true,
+    "isUnlocked": false,
     "icon": "stage_laborratory_icon.png",
     "hyperMod": {
       "rate": 1.0625,
@@ -571,6 +571,24 @@
       "detune": -1000
     }
   },
+  "BGM_Devil": {
+    "title": "Call of the Bloodmoon",
+    "author": "Daniele Zandara",
+    "source": "Devil's Room",
+    "unlockedByStage": "DEVILROOM",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "Tarots2.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.5,
+      "detune": -1000
+    }
+  },
   "BGM_Machine": {
     "title": "The Eudaimonia Machine",
     "author": "Daniele Zandara",
@@ -661,7 +679,7 @@
     }
   },
   "BGM_Magic_KAZ": {
-    "title": "An Introdutcion to Kazoo",
+    "title": "An Introduction to Kazoo",
     "author": "Daniele Zandara",
     "source": "Eleanor Uziron",
     "unlockedByStage": "LIBRARY",

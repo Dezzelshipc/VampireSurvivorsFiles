@@ -19290,7 +19290,7 @@
             "EXISTING_ANY",
             "EXISTING_ANY"
           ]
-        },
+        }
       },
       {
         "minute": 15,
@@ -19859,7 +19859,7 @@
           "repeat": 1,
           "chance": 10
         }
-      ],
+      ]
     },
     {
       "minute": 10,
@@ -20045,7 +20045,7 @@
       "minimum": 140,
       "frequency": 1000,
       "enemies": [
-        "FB_WALKINGBALL",
+        "FB_WALKINGBALL"
       ]
     },
     {
@@ -20327,7 +20327,7 @@
           "eventType": "FB_CAPSULE_EVENT",
           "delay": 10000,
           "repeat": 1
-        },
+        }
       ]
     },
     {
@@ -21535,7 +21535,7 @@
           "repeat": 1,
           "chance": 10
         }
-      ],
+      ]
     },
     {
       "minute": 10,
@@ -21951,7 +21951,7 @@
           "repeat": 2,
           "chance": 100
         }
-      ],
+      ]
       },
     {
       "minute": 1,
@@ -22238,7 +22238,7 @@
       "enemies": [
         "FB_POISONOUSINSECTGEL",
         "FB_ZAKOALIEN",
-        "FB_GREEDER",
+        "FB_GREEDER"
       ]
     },
     {
@@ -23168,7 +23168,7 @@
           "repeat": 1,
           "chance": 10
         }
-      ],
+      ]
     },
     {
       "minute": 10,
