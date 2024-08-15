@@ -352,11 +352,8 @@ class SimpleGenerator(ImageGenerator):
         if self.dataObjectKey and lang_file and lang_file.get(k_id):
             name = lang_file.get(k_id).get(self.dataObjectKey)
 
-        sprite_id = obj.get("id", 0)
-        if obj.get("name") == "Hallows":
-            name += f"-H"
-        elif sprite_id != 0:
-            name += f"-{sprite_id + 1}"
+        if obj.get("skinType", "DEFAULT") != "DEFAULT":
+            name += f"-{obj.get("name", "Default")}"
 
         if "Megalo" in obj.get('prefix', ''):
             name = f"Megalo {name}"
@@ -434,6 +431,9 @@ class ArcanaImageGenerator(SimpleGenerator):
         self.langFileName = "arcanaLang.json"
 
         self.defaultFrameName = "frameG.png"
+
+    def get_frame_name(self, obj):
+        return obj.get(self.frameKey, self.defaultFrameName if not obj.get("arcanaType") >= 22 else "frameH.png")
 
     @staticmethod
     def change_name(name):
