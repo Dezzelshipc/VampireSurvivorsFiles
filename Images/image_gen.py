@@ -116,7 +116,7 @@ class ImageGenerator:
         return im.crop(
             (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y'])), meta_data
 
-    def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1) -> Image:
+    def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1, is_save=True) -> Image:
         try:
             if meta.get(f"{file_name}1"):
                 file_name = f"{file_name}1"
@@ -147,11 +147,13 @@ class ImageGenerator:
             os.makedirs(sf_text)
 
         name = self.change_name(name)
-        im_crop_r.save(f"{sf_text}/{prefix_name}{name}.png")
+        if is_save:
+            im_crop_r.save(f"{sf_text}/{prefix_name}{name}.png")
 
         return im_crop, meta_data
 
-    def save_png_icon(self, im_frame_data, im_obj_data, name, save_folder, scale_factor=1) -> None:
+    def save_png_icon(self, im_frame_data, im_obj_data, name, save_folder, scale_factor=1,
+                      add_data: dict = None) -> None:
         p_dir = os.path.split(__file__)[0]
 
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
@@ -316,12 +318,18 @@ class SimpleGenerator(ImageGenerator):
 
         return frame_name, 0, 0, frame_name
 
-    def make_image(self, func_meta, k_id, obj: dict, lang_file=None, **settings):
+    def make_image(self, func_meta, k_id, obj: dict, lang_data: dict = None, add_data: dict = None, **settings):
         name = obj.get(self.dataObjectKey) or k_id
         texture_name = obj.get(self.dataTextureKey)
         file_name = self.get_sprite_name(obj).replace(".png", "")
         frame_name = self.get_frame_name(obj)
         save_folder = self.folderToSave or texture_name
+
+        add_data = add_data or {}
+        add_data.update({
+            "func_meta": func_meta,
+            "k_id": k_id
+        })
 
         if save_folder.endswith("/"):
             save_folder += texture_name
@@ -349,14 +357,23 @@ class SimpleGenerator(ImageGenerator):
 
         save_folder += f"/{save_dlc}"
 
-        if self.dataObjectKey and lang_file and lang_file.get(k_id):
-            name = lang_file.get(k_id).get(self.dataObjectKey)
+        if self.dataObjectKey and lang_data:
+            name = lang_data.get(self.dataObjectKey)
+
+        add_data.update({
+            "clear_name": name,
+        })
 
         if obj.get("skinType", "DEFAULT") != "DEFAULT":
             name += f"-{obj.get("name", "Default")}"
+        elif obj.get("id", 0) != 0:
+            name += f"-{obj.get("id")}"
 
         if "Megalo" in obj.get('prefix', ''):
             name = f"Megalo {name}"
+
+        if obj.get("alwaysHidden") and self.assets_type in [Type.CHARACTER]:
+            name += f"-{k_id}"
 
         using_list = obj.get('for', GenType.main_list())
         scale_factor = settings[str(GenType.SCALE)]
@@ -366,12 +383,12 @@ class SimpleGenerator(ImageGenerator):
                 prep = self.get_prepared_frame(file_name, "i")
                 im_obj = self.save_png(meta, im, prep[0], name, save_folder, scale_factor=scale_factor)
             else:
-                im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor)
+                im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor, is_save=GenType.SCALE not in obj.get("not_save", []) )
 
         if settings.get(str(GenType.FRAME)) and GenType.FRAME in using_list:
             im_frame = self.get_frame(frame_name, *func_meta("", "UI"))
             if im_frame or self.assets_type in [Type.STAGE, Type.STAGE_SET]:
-                self.save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=scale_factor)
+                self.save_png_icon(im_frame, im_obj, name, save_folder, scale_factor=scale_factor, add_data=add_data)
 
         if settings.get(str(GenType.ANIM)) and GenType.ANIM in using_list:
             if self.assets_type in [Type.ENEMY]:
@@ -383,7 +400,7 @@ class SimpleGenerator(ImageGenerator):
             else:
                 prep = self.get_prepared_frame(file_name)
                 self.save_gif(meta, im, prep[0], name, save_folder, obj.get(self.dataAnimFramesKey),
-                              frame_rate=obj.get("walkFrameRate", 6), scale_factor=scale_factor, leading_zeros=2,
+                              frame_rate=obj.get("walkFrameRate", 6), scale_factor=scale_factor, leading_zeros=prep[1],
                               start_index=prep[2],
                               file_name_clean=prep[3])
 
@@ -413,6 +430,9 @@ class ItemImageGenerator(SimpleGenerator):
         self.dataObjectKey = "name"
         self.langFileName = "itemLang.json"
         self.defaultFrameName = "frameC.png"
+
+
+        self.available_gen.extend([GenType.ANIM])
 
     def get_frame_name(self, obj):
         return obj.get(self.frameKey, self.defaultFrameName if not obj.get("isRelic") else "frameF.png")
@@ -532,10 +552,9 @@ class CharacterImageGenerator(TableGenerator):
         self.folderToSave = "characters/"
         self.langFileName = "characterLang.json"
         self.dataAnimFramesKey = "walkingFrames"
+        self.iconGroup = "Select"
 
-        self.available_gen.remove(GenType.FRAME)
-        self.available_gen.append(GenType.ANIM)
-        self.available_gen.append(GenType.ATTACK_ANIM)
+        self.available_gen.extend([GenType.ANIM, GenType.ATTACK_ANIM])
 
     @staticmethod
     def len_data(data: dict):
@@ -557,6 +576,16 @@ class CharacterImageGenerator(TableGenerator):
             else:
                 yield k, v
 
+            if v.get("charSelFrame"):
+                char = v.copy()
+                char.update({
+                    "textureName": v.get("charSelTexture"),
+                    "spriteName": v.get("charSelFrame"),
+                    "for": [GenType.SCALE, GenType.FRAME],
+                    "not_save": [GenType.SCALE]
+                })
+                yield k, char
+
     def sprite_anims_generator(self, data: dict):
         sprite_anims_types = {
             "rangedAttack": ("-Ranged-Attack",),
@@ -575,6 +604,104 @@ class CharacterImageGenerator(TableGenerator):
                     })
 
                     yield k, char
+
+    @staticmethod
+    def get_frame(_frame_name, _meta, _im):
+        p_dir = os.path.split(__file__)[0]
+        p_file = f"{p_dir}/CharacterSelectFrame.png"
+
+        im = Image.open(p_file)
+        meta_data = {
+            "rect": {
+                "x": 0, "y": 0, "width": im.width, "height": im.height
+            },
+            "pivot": {"x": 6 / im.width, "y": 0}
+        }
+
+        return im, meta_data
+
+    def save_png_icon(self, im_frame_data, im_obj_data, name, save_folder, scale_factor=1,
+                      add_data: dict = None) -> None:
+        obj_im, obj_data = im_obj_data
+        frame_im, frame_data = im_frame_data
+
+        func_meta = add_data["func_meta"]
+        weapon_data = add_data["weapon"]
+        char_data = add_data["character"]
+        k_id = add_data["k_id"]
+
+        w_id = char_data[k_id][0].get("startingWeapon")
+
+        if w_id:
+            weapon_data = weapon_data.get(w_id)
+            if not weapon_data:
+                return
+            w_texture = weapon_data[0].get("texture")
+            meta, im = func_meta("", w_texture)
+            file_name = weapon_data[0].get("frameName").replace(".png", "")
+
+            try:
+                if meta.get(f"{file_name}1"):
+                    file_name = f"{file_name}1"
+                    meta_data = meta.get(file_name)
+                else:
+                    meta_data = meta.get(file_name) or meta.get(int(file_name))
+            except ValueError:
+                meta_data = None
+
+            if meta_data is None:
+                print(f"Skipped {name}, {file_name}")
+                return
+
+            rect = meta_data["rect"]
+
+            sx, sy = im.size
+            w_sprite = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+            w_sprite = w_sprite.resize((w_sprite.size[0] * 4, w_sprite.size[1] * 4), PIL.Image.NEAREST)
+
+            w_sprite_black = w_sprite.copy()
+
+            pixdata = w_sprite_black.load()
+            for y in range(w_sprite_black.size[1]):
+                for x in range(w_sprite_black.size[0]):
+                    if pixdata[x, y][3] > 10:
+                        pixdata[x, y] = (0, 0, 0, 255)
+
+            weapon_offset = {
+                "x": frame_im.width - w_sprite.width - 10, "y": frame_im.height - w_sprite.height - 12,
+            }
+
+            frame_im.alpha_composite(w_sprite_black, (weapon_offset["x"], weapon_offset["y"]))
+
+            frame_im.alpha_composite(w_sprite, (weapon_offset["x"] - 8, weapon_offset["y"] - 4))
+
+        obj_im = obj_im.resize((int(obj_im.size[0] * 3.8), int(obj_im.size[1] * 3.8)), PIL.Image.NEAREST)
+
+        frame_im.alpha_composite(obj_im, (12, frame_im.height - obj_im.height - 11))
+
+
+        p_dir = os.path.split(__file__)[0]
+        sf_text = f'{p_dir}/Generated/{save_folder}/icon'
+        if not os.path.isdir(sf_text):
+            os.makedirs(sf_text)
+            os.makedirs(sf_text + '/text')
+
+        save_name = self.change_name(name)
+        text = add_data["clear_name"].strip()
+        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 32)
+        w = font.getbbox(text)[2] + 4
+        h = font.getbbox(text + "|")[3]
+
+        canvas = Image.new('RGBA', (int(w), int(h)))
+
+        draw = ImageDraw.Draw(canvas)
+        draw.text((3, -5), text, "#ffffff", font, stroke_width=1)
+
+        canvas.save(f"{sf_text}/text/{self.iconGroup}-{save_name}.png")
+
+        frame_im.alpha_composite(canvas, (14, 23))
+
+        frame_im.save(f"{sf_text}/{self.iconGroup}-{save_name}.png")
 
 
 class PowerUpImageGenerator(TableGenerator):
@@ -645,7 +772,8 @@ class StageImageGenerator(TableGenerator):
 
         self.folderToSave = "stage"
 
-    def save_png_icon(self, _, im_obj, name, save_folder, scale_factor=1):
+    def save_png_icon(self, _, im_obj, name, save_folder, scale_factor=1,
+                      add_data: dict = None):
         im_obj = im_obj[0]
         if im_obj is None:
             return

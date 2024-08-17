@@ -14,7 +14,7 @@ import threading
 
 import Config.config as config
 import Translations.language as lang_module
-import Data.data as concat_data
+import Data.data as data_module
 import Images.image_gen as image_gen
 
 
@@ -548,7 +548,7 @@ class Unpacker(tk.Tk):
                     self.progress_bar_set(i := i + 1, total)
 
     def data_concatenate(self):
-        gen = concat_data.concatenate(True)
+        gen = data_module.concatenate(True)
 
         for i, total in gen:
             self.progress_bar_set(i + 1, total)
@@ -587,8 +587,10 @@ class Unpacker(tk.Tk):
 
     def data_to_image(self):
         def thread_load_data():
-            with open(path_data, 'r', encoding="UTF-8") as f:
-                data = json.loads(f.read())
+
+            data = data_module.get_data_file(path_data)
+            file_name = os.path.split(path_data)[1]
+            add_data = {}
 
             self.outer_progress_bar.change_label(f"Getting language file")
             lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
@@ -604,6 +606,17 @@ class Unpacker(tk.Tk):
 
                 if gen.assets_type == image_gen.Type.ARCANA:
                     texture_set.add("items")
+
+                if gen.assets_type == image_gen.Type.CHARACTER:
+                    weapon_gen = image_gen.IGFactory.get("weapon")
+                    w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
+                    add_data.update({
+                        "weapon": w_data,
+                        "character": data
+                    })
+
+                    texture_set.update(weapon_gen.textures_set(w_data))
+
 
             for texture in texture_set:
                 if texture is None:
@@ -628,10 +641,11 @@ class Unpacker(tk.Tk):
 
             self.outer_progress_bar.close_bar()
 
-            for i, obj in enumerate(ug):
+            for i, (k_id, obj) in enumerate(ug):
                 self.progress_bar_set(i + 1, total)
-                gen.make_image(self.get_meta_by_full_path, obj[0], obj[1],
-                               lang_file=lang,
+                gen.make_image(self.get_meta_by_full_path, k_id, obj,
+                               lang_data=(lang or {}).get(k_id),
+                               add_data=add_data,
                                **generator_settings)
 
             self.last_loaded_folder = os.path.abspath("./Images/Generated")
