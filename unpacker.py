@@ -269,10 +269,10 @@ class Unpacker(tk.Tk):
     def change_config(self):
         self.config.change_config(self)
 
-    def progress_bar_set(self, index, total):
-        self.progress_bar['value'] = index * 100 / total
+    def progress_bar_set(self, current, total):
+        self.progress_bar['value'] = current * 100 / total
         self.progress_bar.update()
-        self.l_progress_bar_string.set(f"{index} / {total}")
+        self.l_progress_bar_string.set(f"{current} / {total}")
         self.l_progress_bar.update()
 
     def open_last_loaded(self):
@@ -408,6 +408,11 @@ class Unpacker(tk.Tk):
                     f.readline()
                 text = f.read()
 
+            if len(text) < 1000:
+                showerror("Error", f"I2Languages does not contain necessary data. (length: {len(text)}) You must manually copy data. (See README.md on how to)")
+                self.outer_progress_bar.close_bar()
+                return
+
             folder_to_save = "./Translations"
             if not os.path.exists(folder_to_save):
                 os.makedirs(folder_to_save)
@@ -420,12 +425,12 @@ class Unpacker(tk.Tk):
             self.last_loaded_folder = os.path.abspath(folder_to_save)
 
         if not self.assets_dir.endswith("Assets"):
-            showwarning("Warning", "Assets directory must be selected.")
+            showerror("Error", "Assets directory must be selected.")
             return
 
         file_path = self.assets_dir + "/Resources/I2Languages.asset"
         if not os.path.exists(file_path):
-            showwarning("Warning", "Assets directory does not contain language file (I2Languages.asset).")
+            showerror("Error", "Assets directory does not contain language file (I2Languages.asset).")
             return
 
         direct, file = os.path.split(file_path)
