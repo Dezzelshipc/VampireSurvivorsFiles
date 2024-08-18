@@ -14,7 +14,7 @@
       "bgm": "BGM_CAL_NoAliens",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Crewmate_01.png",
@@ -38,7 +38,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Gains stat bonuses every time a weapon is brought to max level.",
       "price": 100,
@@ -116,7 +116,7 @@
       "bgm": "BGM_CAL_NoDucks",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Engineer_01.png",
@@ -140,7 +140,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Gets to choose a passive weapon at level 2, 12, 22, and 32.",
       "price": 500,
@@ -217,7 +217,7 @@
       "bgm": "BGM_CAL_NoGhosts",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Ghost_01.png",
@@ -241,7 +241,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Cannot be damaged nor deal damage, but disappears after reaching the current Time Limit. Ignores walls.",
       "price": 500,
@@ -318,7 +318,7 @@
       "bgm": "BGM_CAL_HideSeek",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Shapeshifter_01.png",
@@ -342,7 +342,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Copies per-level bonuses of other characters, or can choose a per-level bonus when alone. Can leave behind body parts when getting damaged.",
       "price": 500,
@@ -419,7 +419,7 @@
       "bgm": "BGM_CAL_NoGhosts",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Guardian_01.png",
@@ -443,7 +443,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Gains +1 Revival when reviving. Increases Armor and Recovery of nearby characters. Ignores walls.",
       "price": 500,
@@ -520,7 +520,7 @@
       "bgm": "BGM_CAL_HideSeek",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Impostor_01.png",
@@ -544,7 +544,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Becomes stronger and invincible for a fixed interval after defeating a large amount of enemies, or an ally.",
       "price": 500,
@@ -621,7 +621,7 @@
       "bgm": "BGM_CAL_NoVamps",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Scientist_01.png",
@@ -645,7 +645,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Gets -10% Luck every 10 levels (max -90%). Can choose a per-level bonus every 10 levels (max 5 times). ",
       "price": 500,
@@ -764,7 +764,7 @@
       },
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_01.png",
@@ -773,8 +773,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 1,
-          "name": "Default",
+          "skinType": "C1_HORSE_PINK",
+          "name": "Pink",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_pink_01.png",
           "walkingFrames": 4,
@@ -782,8 +782,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 2,
-          "name": "Default",
+          "skinType": "C1_HORSE_PURPLE",
+          "name": "Purple",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_purple_01.png",
           "walkingFrames": 4,
@@ -791,8 +791,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 3,
-          "name": "Default",
+          "skinType": "C1_HORSE_BLUE",
+          "name": "Blue",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_blue_01.png",
           "walkingFrames": 4,
@@ -800,8 +800,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 4,
-          "name": "Default",
+          "skinType": "C1_HORSE_GREEN",
+          "name": "Green",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_green_01.png",
           "walkingFrames": 4,
@@ -809,8 +809,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 5,
-          "name": "Default",
+          "skinType": "C1_HORSE_YELLOW",
+          "name": "Yellow",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_yellow_01.png",
           "walkingFrames": 4,
@@ -818,8 +818,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 6,
-          "name": "Default",
+          "skinType": "C1_HORSE_ORANGE",
+          "name": "Orange",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_orange_01.png",
           "walkingFrames": 4,
@@ -827,8 +827,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 7,
-          "name": "Default",
+          "skinType": "C1_HORSE_RED",
+          "name": "Red",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_red_01.png",
           "walkingFrames": 4,
@@ -836,8 +836,8 @@
           "headOffsets": [ { "x": 10, "y": -6} ]
         },
         {
-          "id": 8,
-          "name": "Default",
+          "skinType": "C1_HORSE_RAINBOW",
+          "name": "Rainbow",
           "textureName": "chalcedony",
           "spriteName": "C01Horse_r_01.png",
           "walkingFrames": 8,
@@ -861,7 +861,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -941,7 +941,7 @@
       "bgm": "BGM_CAL_MainTheme",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "chalcedony",
           "spriteName": "C01Impostor2_01.png",
@@ -965,7 +965,7 @@
           }
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Wasn't me.",
       "price": 1000,

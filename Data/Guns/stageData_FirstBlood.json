@@ -55,8 +55,8 @@
         "LuckBonus": 0.2,
         "TimeMods": {
           "start": 0,
-          "hpPerMinute": 0.3,
-          "speedPerMinute": 0.3
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
         }
       },
       "background": {
@@ -932,7 +932,8 @@
       "events": [
         {
           "eventType": "FB_BIGFUZZ_POINTER",
-          "duration": 179000
+          "duration": 179000,
+          "chance": -1
         },
         {
           "eventType": "GENERIC_SWARM",
@@ -1080,8 +1081,8 @@
         "LuckBonus": 0.2,
         "TimeMods": {
           "start": 0,
-          "hpPerMinute": 0.1,
-          "speedPerMinute": 0.3
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
         }
       },
       "background": {

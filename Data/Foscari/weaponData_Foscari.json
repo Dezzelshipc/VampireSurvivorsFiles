@@ -78,7 +78,7 @@
       "area": 1,
       "speed": 1,
       "amount": 1,
-      "duration": 500,
+      "duration": 600,
       "hitBoxDelay": 400,
       "hitsWalls": false,
       "critChance": 0.2,
@@ -89,20 +89,20 @@
       "area": 0.2
     },
     {
-      "duration": 250,
-      "area": 0.2
+      "duration": 500,
+      "area": 0.4
     },
     {
       "power": 0.5,
-      "area": 0.2
+      "speed": 0.25
     },
     {
-      "duration": 250,
-      "area": 0.2
+      "duration": 500,
+      "area": 0.4
     },
     {
       "power": 0.5,
-      "area": 0.2
+      "speed": 0.25
     }
   ],
   "SPELL_STRIKE": [
@@ -161,7 +161,7 @@
       "bulletType": "SPELL_STROM",
       "name": "SpellStrom",
       "description": "Union of SpellString, SpellStream, and SpellStrike. Grows stronger after every singularity.",
-      "tips": "",
+      "tips": "-",
       "texture": "items",
       "frameName": "2SpellStrom.png",
       "collectionFrame": "frameB_green.png",
@@ -660,7 +660,7 @@
       "bulletType": "SHADOWSERVANT_COUNTER",
       "name": "Silver Sliver",
       "description": "Counterpart to Shadow Servant and Ophion from Arcana I - Gemini.",
-      "tips": "",
+      "tips": "-",
       "texture": "items",
       "frameName": "2ShadowServant_Counter.png",
       "collectionFrame": "frameB_green.png",
@@ -706,7 +706,7 @@
       "bulletType": "PARTY",
       "name": "Party Pooper",
       "description": "Counterpart to Party Popper from Arcana I - Gemini.",
-      "tips": "",
+      "tips": "-",
       "texture": "items",
       "frameName": "2Party2.png",
       "collectionFrame": "frameB_green.png",
@@ -752,8 +752,8 @@
       "level": 1,
       "bulletType": "INSATIABLE",
       "name": "Insatiable",
-      "description": "",
-      "tips": "",
+      "description": "-",
+      "tips": "-",
       "texture": "items",
       "frameName": "2insatiable.png",
       "hidden": true,

@@ -12,15 +12,33 @@
       "bgm": "BGM_Magic",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "Eleanor_i01.png",
           "walkingFrames": 4,
           "unlocked": true
+        },
+        {
+          "skinType": "SKIN_ELEANOR_AREA",
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Eleanor_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "startingWeapon": "SPELL_STREAM"
+        },
+        {
+          "skinType": "SKIN_ELEANOR_MIGHT",
+          "name": "Default",
+          "textureName": "foscariChars",
+          "spriteName": "Eleanor_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "startingWeapon": "SPELL_STRIKE"
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Receives SpellStream at Level 10 and SpellStrike at Level 20. Receives Academy Badge at Level 30.",
       "isBought": false,
@@ -114,7 +132,7 @@
       "bgm": "BGM_War",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "Victor_i01.png",
@@ -125,24 +143,24 @@
               "x": 6,
               "y": 2
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "foscariChars",
+              "spriteName": "Victor_a01.png",
+              "framesNumber": 5,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 6,
+                  "y": 2
+                }
+              ]
+            }
+          }
         }
       ],
-      "spriteAnims": {
-        "meleeAttack": {
-          "textureName": "foscariChars",
-          "spriteName": "Victor_a01.png",
-          "framesNumber": 5,
-          "frameRate": 8,
-          "headOffsets": [
-            {
-              "x": 6,
-              "y": 2
-            }
-          ]
-        }
-      },
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Gains a temporary Armor bonus after getting damaged. Receives Academy Badge at Level 30.",
       "isBought": false,
@@ -232,7 +250,7 @@
       "bgm": "BGM_Deception",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "Keira_i01.png",
@@ -243,24 +261,24 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "rangedAttack": {
+              "textureName": "foscariChars",
+              "spriteName": "Keira_a01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         }
       ],
-      "spriteAnims": {
-        "rangedAttack": {
-          "textureName": "foscariChars",
-          "spriteName": "Keira_a01.png",
-          "framesNumber": 6,
-          "frameRate": 12,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
-        }
-      },
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 4,
       "description": "Gains +1% Luck every level. Receives Academy Badge at Level 30.",
       "isBought": false,
@@ -347,7 +365,7 @@
       "portraitName": "p_2luminaire.png",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "Luminaire_i01.png",
@@ -361,7 +379,7 @@
           ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 5,
       "description": "Triggers a Rosary when levelling up. Gets a temporary Might, Cooldown, and MoveSpeed bonus after reviving.",
       "isBought": false,
@@ -461,7 +479,7 @@
       "portraitName": "p_2genevieve.png",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "Genevieve_i01.png",
@@ -475,7 +493,7 @@
           ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 5,
       "description": "Triggers a Vacuum when levelling up. Once per life, triggers World Eater after receiving fatal damage.",
       "isBought": false,
@@ -570,7 +588,7 @@
       "bgm": "BGM_Genevieve",
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "TrueGenevieve_i01.png",
@@ -584,7 +602,7 @@
           ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "walkingFrames": 5,
       "description": "It will literally eat the world.",
       "isBought": false,
@@ -678,7 +696,7 @@
       },
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "Sammy_i01.png",
@@ -710,7 +728,7 @@
           "racingAngle": 45
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 2,
@@ -819,7 +837,7 @@
       "survivedMinutes": 0,
       "skins": [
         {
-          "id": 0,
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "foscariChars",
           "spriteName": "Gul_i01.png",
@@ -833,7 +851,7 @@
           ]
         }
       ],
-      "currentSkinIndex": 0,
+      "currentSkin": "DEFAULT",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
