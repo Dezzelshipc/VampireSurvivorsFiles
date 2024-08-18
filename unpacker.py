@@ -150,7 +150,6 @@ class Unpacker(tk.Tk):
         self.resizable(False, False)
         self.title('Resource unpacker VS')
 
-        self.assets_dir = "/"
         self.load_config()
 
         b_info = ttk.Button(
@@ -173,14 +172,14 @@ class Unpacker(tk.Tk):
         b_unpack_by_meta = ttk.Button(
             self,
             text="Select image to unpack",
-            command=lambda: self.select_and_unpack(self.assets_dir)
+            command=lambda: self.select_and_unpack(self.get_assets_dir())
         )
         b_unpack_by_meta.grid(row=2, column=1)
 
         b_assets_folder = ttk.Button(
             self,
             text=".. from spritesheets",
-            command=lambda: self.select_and_unpack(self.assets_dir + "/Resources/spritesheets")
+            command=lambda: self.select_and_unpack(f"{self.get_assets_dir()}/Resources/spritesheets")
         )
         b_assets_folder.grid(row=2, column=2)
 
@@ -257,7 +256,15 @@ class Unpacker(tk.Tk):
 
     def load_config(self):
         self.config = config.Config()
-        self.assets_dir = os.path.normpath(self.config["VS_ASSETS"])
+
+    def change_config(self):
+        self.config.change_config(self)
+
+    def get_assets_dir(self):
+        path = os.path.normpath(self.config["VS_ASSETS"])
+        if not path.endswith("Assets"):
+            path = None
+        return path or "/"
 
     @staticmethod
     def info():
@@ -266,8 +273,6 @@ class Unpacker(tk.Tk):
                  f"Read README.md for more info."
                  )
 
-    def change_config(self):
-        self.config.change_config(self)
 
     def progress_bar_set(self, current, total):
         self.progress_bar['value'] = current * 100 / total
@@ -424,11 +429,11 @@ class Unpacker(tk.Tk):
             self.progress_bar_set(1, 1)
             self.last_loaded_folder = os.path.abspath(folder_to_save)
 
-        if not self.assets_dir.endswith("Assets"):
+        if not self.get_assets_dir().endswith("Assets"):
             showerror("Error", "Assets directory must be selected.")
             return
 
-        file_path = self.assets_dir + "/Resources/I2Languages.asset"
+        file_path = f"{self.get_assets_dir()}/Resources/I2Languages.asset"
         if not os.path.exists(file_path):
             showerror("Error", "Assets directory does not contain language file (I2Languages.asset).")
             return
@@ -519,7 +524,7 @@ class Unpacker(tk.Tk):
         t.start()
 
     def get_data(self):
-        if not self.assets_dir.endswith("Assets"):
+        if not self.get_assets_dir().endswith("Assets"):
             showwarning("Warning", "Assets directory must be selected.")
             return
 
@@ -576,12 +581,20 @@ class Unpacker(tk.Tk):
 
     @staticmethod
     def assets_gen(paths: list):
-        dirs = paths
+        dirs = list(map(os.path.normpath, paths))
         files = []
+        missing_paths = []
         while len(dirs) > 0:
             this_dir = dirs.pop(0)
+            if not os.path.exists(this_dir):
+                missing_paths.append(this_dir)
+                continue
+
             files.extend(f for f in os.scandir(this_dir) if f.name.endswith(".meta") and not f.is_dir())
             dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
+
+        if missing_paths:
+            showerror("Error", f"Missing paths: {missing_paths}" )
 
         return files
 
@@ -589,7 +602,6 @@ class Unpacker(tk.Tk):
         def thread_load_data():
 
             data = data_module.get_data_file(path_data)
-            file_name = os.path.split(path_data)[1]
             add_data = {}
 
             self.outer_progress_bar.change_label(f"Getting language file")
@@ -650,11 +662,11 @@ class Unpacker(tk.Tk):
 
             self.last_loaded_folder = os.path.abspath("./Images/Generated")
 
-        if not self.assets_dir.endswith("Assets"):
+        if not self.get_assets_dir().endswith("Assets"):
             showerror("Error", "Assets directory must be selected.")
             return
 
-        paths = [self.assets_dir + "/Resources/spritesheets"]
+        paths = [f"{self.get_assets_dir()}/Resources/spritesheets"]
         for f in filter(lambda x: "VS" not in x and "ASSETS" in x, self.config.data):
             p = os.path.join(self.config[f], "Texture2D")
             if os.path.exists(p):
