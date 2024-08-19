@@ -19,6 +19,7 @@ class Type(Enum):
     POWERUP = 7
     PROPS = 8
     ADV_MERCHANTS = 9
+    HIT_VFX = 10
 
 
 class GenType(Enum):
@@ -58,6 +59,8 @@ class IGFactory:
             return PropsImageGenerator()
         elif "adventuremerchants" in data_file:
             return AdvMerchantsGenerator()
+        elif "hitvfx" in data_file:
+            return HitVFXGenerator()
 
         return None
 
@@ -67,6 +70,7 @@ class ImageGenerator:
         self.assets_type = Type.NONE
         self.dataSpriteKey = None
         self.dataTextureKey = None
+        self.dataTextureName = None
         self.dataObjectKey = None
         self.scaleFactor = 1
         self.folderToSave = None
@@ -77,7 +81,7 @@ class ImageGenerator:
 
         self.iconGroup = "Icon"
 
-        self.animLeadingZeros = 2
+        self.animLeadingZeros = None
 
         self.available_gen = [GenType.SCALE, GenType.FRAME]
 
@@ -116,18 +120,43 @@ class ImageGenerator:
         return im.crop(
             (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y'])), meta_data
 
-    def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1, is_save=True) -> Image:
-        try:
-            if meta.get(f"{file_name}1"):
-                file_name = f"{file_name}1"
-                meta_data = meta.get(file_name)
-            else:
-                meta_data = meta.get(file_name) or meta.get(int(file_name))
-        except ValueError:
-            meta_data = None
+    def save_png(self, meta, im, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1,
+                 is_save=True, file_name_clean=None, leading_zeros=0, add_data: dict = None) -> Image:
+
+        file_name_clean = file_name_clean or file_name
+
+        leading_zeros = self.animLeadingZeros and abs(self.animLeadingZeros) or leading_zeros
+
+        def filter_func(x):
+            x = str(x).lower()
+            file_name_lower = file_name_clean.lower()
+            return x.startswith(file_name_lower) and re.match(
+                fr"^{file_name_lower}{r"\d" * leading_zeros}$", x)
+
+        frames_list = sorted(filter(filter_func, meta.keys()))
+        file_name = frames_list[0] if frames_list else file_name
+
+        file_names = [file_name]
+        if add_data and add_data.get("prep"):
+            file_names.append(add_data["prep"][0])
+
+        meta_data = None
+        while file_names:
+            file_name = file_names.pop(0)
+            try:
+                if meta.get(f"{file_name}1"):
+                    file_name = f"{file_name}1"
+                    meta_data = meta.get(file_name)
+                else:
+                    meta_data = meta.get(file_name) or meta.get(int(file_name))
+            except ValueError:
+                meta_data = None
+
+            if meta_data:
+                break
 
         if meta_data is None:
-            print(f"Skipped {name}, {file_name}")
+            print(f"Image: skipped {name=}, {file_name=}")
             return
 
         rect = meta_data["rect"]
@@ -201,26 +230,30 @@ class ImageGenerator:
         name = self.change_name(name)
         im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
-    def save_gif(self, meta, im: Image, file_name, name, save_folder, frames_count: None | int = None,
-                 prefix_name="Animated-", postfix_name="", save_append="", frame_rate=6, scale_factor=1,
-                 base_duration=1000, start_index=1, file_name_clean=None,
-                 leading_zeros: None | int = None) -> None:
+    def save_gif(self, meta, im: Image, file_name, name, save_folder, prefix_name="Animated-", postfix_name="",
+                 save_append="", frame_rate=6, scale_factor=1, base_duration=1000, file_name_clean=None,
+                 leading_zeros: None | int = None, limit_frames_count=1000) -> None:
         sx, sy = im.size
 
         file_name_clean = file_name_clean or file_name
 
-        if not frames_count:
-            frames_count = len(list(
-                filter(lambda k: str(k).startswith(file_name_clean) and re.match(fr"^{file_name_clean}\d", str(k)),
-                       meta.keys())))
+        leading_zeros = self.animLeadingZeros and abs(self.animLeadingZeros) or leading_zeros
+
+        def filter_func(x):
+            x = str(x).lower()
+            file_name_lower = file_name_clean.lower()
+            return x.startswith(file_name_lower) and re.match(
+                fr"^{file_name_lower}{r"\d" * leading_zeros}$", x)
+
+        frames_list = sorted(filter(filter_func, meta.keys()))
+        frames_count = len(frames_list)
+
+        print(frames_list, leading_zeros, fr"^{file_name_clean}{r"\d" * leading_zeros}$")
 
         im_list = []
-        skipped_frames = 0
-        for i in range(frames_count):
-            append = ""
-            if start_index or leading_zeros:
-                append = str(i + start_index).zfill(leading_zeros or self.animLeadingZeros)
-            frame_name = f"{file_name_clean}{append}"
+        for i, frame_name in enumerate(frames_list):
+            if limit_frames_count and i >= limit_frames_count:
+                break
 
             try:
                 meta_data = meta.get(frame_name) or meta.get(int(frame_name))
@@ -228,8 +261,7 @@ class ImageGenerator:
                 meta_data = None
 
             if meta_data is None:
-                print(f"Skipped {name}, {frame_name} not found, total frames count {frames_count}")
-                skipped_frames += 1
+                print(f"Anim: skipped {name=}, {frame_name=} not found, total {frames_count=}")
                 continue
 
             rect = meta_data["rect"]
@@ -248,7 +280,6 @@ class ImageGenerator:
 
         if not im_list:
             return
-        frames_count -= skipped_frames
 
         max_pivot = {k: max(d[1][k] for d in im_list) for k in im_list[0][1].keys()}
         # print(file_name_clean, max_pivot)
@@ -298,29 +329,29 @@ class SimpleGenerator(ImageGenerator):
     def get_frame_name(self, obj):
         return obj.get(self.frameKey, self.defaultFrameName)
 
-    @staticmethod
-    def get_prepared_frame(frame_name, add="") -> (str, int, int, str):
+    def get_prepared_frame(self, frame_name, add="") -> (str, int, str):
+        if self.animLeadingZeros and self.animLeadingZeros < 0:
+            return frame_name, 0, 0, frame_name
+
         number = re.search(r"(\d+)$", frame_name)
         fn = frame_name
 
         if number:
             fn = fn[:number.start()]
             zeros = len(number.group(1))
-            start = int(number.group(1))
             if add == "i":
                 zeros = 2
-                start = 1
 
-            return f"{fn}{add}{number.group(1)}", zeros, start, f"{fn}{add}"
+            return f"{fn}{add}{number.group(1)}", zeros, f"{fn}{add}"
 
         if add == "i":
-            return f"{frame_name}_{add}01", 2, 1, f"{fn}_{add}"
+            return f"{frame_name}_{add}01", 2, f"{fn}_{add}"
 
-        return frame_name, 0, 0, frame_name
+        return frame_name, 0, frame_name
 
     def make_image(self, func_meta, k_id, obj: dict, lang_data: dict = None, add_data: dict = None, **settings):
         name = obj.get(self.dataObjectKey) or k_id
-        texture_name = obj.get(self.dataTextureKey)
+        texture_name = obj.get(self.dataTextureKey, self.dataTextureName)
         file_name = self.get_sprite_name(obj).replace(".png", "")
         frame_name = self.get_frame_name(obj)
         save_folder = self.folderToSave or texture_name
@@ -380,10 +411,14 @@ class SimpleGenerator(ImageGenerator):
 
         if GenType.SCALE in using_list:
             if self.assets_type in [Type.ENEMY]:
-                prep = self.get_prepared_frame(file_name, "i")
-                im_obj = self.save_png(meta, im, prep[0], name, save_folder, scale_factor=scale_factor)
+                prep = self.get_prepared_frame(file_name)
+                prep_i = self.get_prepared_frame(file_name, "i")
+
+                im_obj = self.save_png(meta, im, prep_i[0], name, save_folder, scale_factor=scale_factor,
+                                       leading_zeros=prep_i[1], file_name_clean=prep_i[2], add_data={"prep": prep})
             else:
-                im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor, is_save=GenType.SCALE not in obj.get("not_save", []) )
+                im_obj = self.save_png(meta, im, file_name, name, save_folder, scale_factor=scale_factor,
+                                       is_save=GenType.SCALE not in obj.get("not_save", []))
 
         if settings.get(str(GenType.FRAME)) and GenType.FRAME in using_list:
             im_frame = self.get_frame(frame_name, *func_meta("", "UI"))
@@ -393,29 +428,26 @@ class SimpleGenerator(ImageGenerator):
         if settings.get(str(GenType.ANIM)) and GenType.ANIM in using_list:
             if self.assets_type in [Type.ENEMY]:
                 prep = self.get_prepared_frame(file_name, "i")
-                self.save_gif(meta, im, prep[0], name, save_folder, obj.get(self.dataAnimFramesKey),
-                              scale_factor=scale_factor, leading_zeros=2, start_index=prep[2],
-                              file_name_clean=prep[3])
+                self.save_gif(meta, im, prep[0], name, save_folder, scale_factor=scale_factor, file_name_clean=prep[2],
+                              leading_zeros=2)
 
             else:
                 prep = self.get_prepared_frame(file_name)
-                self.save_gif(meta, im, prep[0], name, save_folder, obj.get(self.dataAnimFramesKey),
-                              frame_rate=obj.get("walkFrameRate", 6), scale_factor=scale_factor, leading_zeros=prep[1],
-                              start_index=prep[2],
-                              file_name_clean=prep[3])
+                self.save_gif(meta, im, prep[0], name, save_folder, frame_rate=obj.get("walkFrameRate", 6),
+                              scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
+                              limit_frames_count=obj.get(self.dataAnimFramesKey))
 
         if settings.get(str(GenType.DEATH_ANIM)) and GenType.DEATH_ANIM in using_list:
             prep = self.get_prepared_frame(file_name)
-            self.save_gif(meta, im, prep[0], name, save_folder, None, prefix_name="Animated-Death-",
-                          save_append="_death", scale_factor=scale_factor, frame_rate=20, leading_zeros=prep[1],
-                          start_index=prep[2], file_name_clean=prep[3])
+            self.save_gif(meta, im, prep[0], name, save_folder, prefix_name="Animated-Death-", save_append="_death",
+                          frame_rate=20, scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1])
 
         if settings.get(str(GenType.ATTACK_ANIM)) and GenType.ATTACK_ANIM in using_list:
             prep = self.get_prepared_frame(file_name)
-            self.save_gif(meta, im, prep[0], name, save_folder, None, prefix_name="Animated-",
-                          save_append="_attack", scale_factor=scale_factor, frame_rate=obj.get("frameRate", 6),
-                          leading_zeros=2, start_index=prep[2], file_name_clean=prep[3],
-                          postfix_name=obj.get("postfix_name"))
+            self.save_gif(meta, im, prep[0], name, save_folder, prefix_name="Animated-",
+                          postfix_name=obj.get("postfix_name"), save_append="_attack",
+                          frame_rate=obj.get("frameRate", 6), scale_factor=scale_factor, file_name_clean=prep[2],
+                          leading_zeros=2, limit_frames_count=obj.get("framesNumber"))
 
 
 class ItemImageGenerator(SimpleGenerator):
@@ -430,7 +462,6 @@ class ItemImageGenerator(SimpleGenerator):
         self.dataObjectKey = "name"
         self.langFileName = "itemLang.json"
         self.defaultFrameName = "frameC.png"
-
 
         self.available_gen.extend([GenType.ANIM])
 
@@ -469,15 +500,18 @@ class ArcanaImageGenerator(SimpleGenerator):
     def arcana_generator(data: dict):
         for k, v in data.items():
             vv = v.copy()
+            add_folder = "/dark" if vv.get("arcanaType") >= 22 else ""
+
             vv.update({
                 "for": [GenType.SCALE],
-                "save_folder": "/picture"
+                "save_folder": f"{add_folder}/picture"
             })
             yield k, vv
 
             vv = v.copy()
             vv.update({
                 "texture": "items",
+                "save_folder": add_folder
             })
             yield k, vv
 
@@ -493,7 +527,7 @@ class PropsImageGenerator(SimpleGenerator):
 
         self.folderToSave = "props"
 
-        self.animLeadingZeros = 0
+        self.animLeadingZeros = -1
 
         self.available_gen.remove(GenType.FRAME)
         self.available_gen.append(GenType.ANIM)
@@ -516,6 +550,27 @@ class AdvMerchantsGenerator(SimpleGenerator):
 
         self.available_gen.remove(GenType.FRAME)
         self.available_gen.append(GenType.ANIM)
+
+
+class HitVFXGenerator(SimpleGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = Type.HIT_VFX
+        self.scaleFactor = 4
+        self.dataSpriteKey = "impactFrameName"
+        # self.dataTextureKey = "staticSpriteTexture"
+        self.dataTextureName = "vfx"
+
+        # self.dataObjectKey = "charName"
+        # self.langFileName = "characterLang.json"
+
+        self.folderToSave = "hit vfx"
+
+        self.available_gen.remove(GenType.FRAME)
+        self.available_gen.append(GenType.ANIM)
+
+    def textures_set(self, data: dict) -> set:
+        return {self.dataTextureName}
 
 
 class TableGenerator(SimpleGenerator):
@@ -559,7 +614,8 @@ class CharacterImageGenerator(TableGenerator):
     @staticmethod
     def len_data(data: dict):
         return (sum(len(v[0].get("skins")) if v[0].get("skins") else 1 for v in data.values()) +
-                sum(len(v[0].get("spriteAnims")) if v[0].get("spriteAnims") else 0 for v in data.values()))
+                sum(len(v[0].get("spriteAnims")) if v[0].get("spriteAnims") else 0 for v in data.values()) +
+                sum(1 if v[0].get("charSelFrame") else 0 for v in data.values()))
 
     def unit_generator(self, data: dict):
         return itertools.chain(self.skins_generator(data), self.sprite_anims_generator(data))
@@ -593,17 +649,19 @@ class CharacterImageGenerator(TableGenerator):
         }
         for k, vv in data.items():
             v = self.get_table_unit(vv, 0)
-            if anims := v.get("spriteAnims", False):
-                for anim_type, anim_data in anims.items():
-                    char = v.copy()
-                    char.update(anim_data)
-                    char.update({
-                        "animType": anim_type,
-                        "postfix_name": sprite_anims_types[anim_type][0],
-                        "for": [GenType.ATTACK_ANIM]
-                    })
-
-                    yield k, char
+            if skins := v.get("skins", False):
+                for skin in skins:
+                    if anims := skin.get("spriteAnims", False):
+                        print(k, anims)
+                        for anim_type, anim_data in anims.items():
+                            char = v.copy()
+                            char.update(anim_data)
+                            char.update({
+                                "animType": anim_type,
+                                "postfix_name": sprite_anims_types[anim_type][0],
+                                "for": [GenType.ATTACK_ANIM]
+                            })
+                            yield k, char
 
     @staticmethod
     def get_frame(_frame_name, _meta, _im):
@@ -679,7 +737,6 @@ class CharacterImageGenerator(TableGenerator):
 
         frame_im.alpha_composite(obj_im, (12, frame_im.height - obj_im.height - 11))
 
-
         p_dir = os.path.split(__file__)[0]
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
         if not os.path.isdir(sf_text):
@@ -736,7 +793,6 @@ class EnemyImageGenerator(TableGenerator):
         self.dataAnimFramesKey = "idleFrameCount"
 
         self.folderToSave = "enemy"
-        self.animLeadingZeros = 1
 
         self.available_gen.remove(GenType.FRAME)
         self.available_gen.extend([GenType.ANIM, GenType.DEATH_ANIM])
