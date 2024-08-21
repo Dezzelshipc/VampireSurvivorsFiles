@@ -38,15 +38,16 @@ def gen_tilemap(path: str, assets_files: list, func_get_meta=None):
     p_dir, p_file = os.path.split(path)
     this_dir, this_file = os.path.split(__file__)
 
+
+    print(f"Started {p_file} parsing")
     doc = UnityDocument.load_yaml(path)
     doc.file_path = None
-    print(f"{p_file} parsed")
+    print(f"Ended {p_file} Started")
 
     tilemaps = doc.filter(class_names=("Tilemap",), attributes=("m_Tiles",))
     if not tilemaps:
         showerror("Error", f"Not found any tilemap for {p_file}.")
         return
-    print(f"{p_file} filtered")
 
     name = doc.entry.m_Name
     texture = f"{name}TexturePacked"
