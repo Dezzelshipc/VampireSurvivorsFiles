@@ -16,6 +16,7 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
+import Images.tilemap_gen as tilemap_gen
 
 
 class Unpacker(tk.Tk):
@@ -249,6 +250,12 @@ class Unpacker(tk.Tk):
         )
         b_data_to_image.grid(row=9, column=1)
 
+        ttk.Button(
+            self,
+            text="Get stage tilemap (WIP)",
+            command=self.tilemap_data
+        ).grid(row=9, column=2)
+
         self.loaded_meta = {}
         self.data_from_popup = None
 
@@ -322,7 +329,7 @@ class Unpacker(tk.Tk):
         t = threading.Thread(target=thread_generate_by_meta, args=[direct, file, scale_factor])
         t.start()
 
-    def get_meta_by_full_path(self, p_dir: str, p_file: str) -> (dict, Image.Image):
+    def get_meta_by_full_path(self, p_dir: str, p_file: str, is_internal_id: bool = False) -> (dict, Image.Image):
         p_file = p_file.replace(".meta", "")
         file = p_file.replace(".png", "").lower()
         full_path = os.path.join(p_dir, p_file)
@@ -351,12 +358,15 @@ class Unpacker(tk.Tk):
                     "pivot": {"x": 0.5, "y": 0.5}
                 }]
 
+
             self.loaded_meta.update(
                 {
                     file: {
-                        s["name"]: {
+                        (s["name"] if not is_internal_id else s["internalID"]): {
+                            "name": s["name"],
+                            "internalID": s["internalID"],
                             "rect": s["rect"],
-                            "pivot": s["pivot"]
+                            "pivot": s["pivot"],
                         } for s in sprites
                     },
                     file + "Image": image
@@ -579,8 +589,14 @@ class Unpacker(tk.Tk):
 
         return full_path
 
-    @staticmethod
-    def assets_gen(paths: list):
+
+    def get_assets_meta_files(self):
+        paths = [f"{self.get_assets_dir()}/Resources/spritesheets"]
+        for f in filter(lambda x: "ASSETS" in x, self.config.data):
+            p = os.path.join(self.config[f], "Texture2D")
+            if os.path.exists(p):
+                paths.append(p)
+
         dirs = list(map(os.path.normpath, paths))
         files = []
         missing_paths = []
@@ -666,13 +682,7 @@ class Unpacker(tk.Tk):
             showerror("Error", "Assets directory must be selected.")
             return
 
-        paths = [f"{self.get_assets_dir()}/Resources/spritesheets"]
-        for f in filter(lambda x: "VS" not in x and "ASSETS" in x, self.config.data):
-            p = os.path.join(self.config[f], "Texture2D")
-            if os.path.exists(p):
-                paths.append(p)
-
-        all_assets = self.assets_gen(paths)
+        all_assets = self.get_assets_meta_files()
 
         path_data = self.data_selector()
 
@@ -700,6 +710,28 @@ class Unpacker(tk.Tk):
 
         t = threading.Thread(target=thread_load_data)
         t.start()
+
+    def tilemap_data(self):
+        start_path = f"{self.get_assets_dir()}\\PrefabInstance"
+
+        filetypes = [
+            ('Prefab', '*.prefab')
+        ]
+
+        full_path = fd.askopenfilename(
+            title='Open a file',
+            initialdir=start_path,
+            filetypes=filetypes
+        )
+
+        if not full_path:
+            return
+
+        all_assets = self.get_assets_meta_files()
+
+        tilemap_gen.gen_tilemap(full_path, all_assets, func_get_meta=self.get_meta_by_full_path)
+
+        self.last_loaded_folder = os.path.abspath("./Images/Generated/tilemaps")
 
 
 if __name__ == '__main__':
