@@ -9,8 +9,10 @@ from PIL import Image, ImageFont, ImageDraw
 from PIL import ImageOps
 
 __loaded_sprites = dict()
-def __get_sprite(image: Image, internal_id: int, meta: dict):
-    image_key = str(image)
+
+
+def __get_sprite(spritesheet: Image, internal_id: int, meta: dict, size_tile: tuple):
+    image_key = str(spritesheet)
     if image_key not in __loaded_sprites:
         __loaded_sprites.update({
             image_key: dict()
@@ -24,8 +26,15 @@ def __get_sprite(image: Image, internal_id: int, meta: dict):
             return None
 
         rect = sprite_data["rect"]
-        sx, sy = image.size
-        im_crop = image.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+        sx, sy = spritesheet.size
+        im_crop = spritesheet.crop(
+            (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+
+        shift_x = int(sprite_data['rect']['width'] * sprite_data['pivot']['x'])
+        shift_y = int(sprite_data['rect']['height'] * sprite_data['pivot']['y'])
+
+        im_crop = im_crop.crop(
+            (shift_x, im_crop.height - shift_y - size_tile[1], size_tile[0] - shift_x, im_crop.height - shift_y))
 
         __loaded_sprites[image_key].update({
             internal_id: im_crop
@@ -37,7 +46,6 @@ def __get_sprite(image: Image, internal_id: int, meta: dict):
 def gen_tilemap(path: str, assets_files: list, func_get_meta=None):
     p_dir, p_file = os.path.split(path)
     this_dir, this_file = os.path.split(__file__)
-
 
     print(f"Started {p_file} parsing")
     doc = UnityDocument.load_yaml(path)
@@ -89,20 +97,18 @@ def gen_tilemap(path: str, assets_files: list, func_get_meta=None):
 
     im_map = Image.new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
     for tilemap in tilemaps:
-        # _origin = tilemap.m_Origin
-        # origin_x, origin_y = int(_origin['x']), int(_origin['y'])
-
         tile_sprite_array = list(map(lambda x: int(x["m_Data"]["fileID"]), tilemap.m_TileSpriteArray))
-        tile_matrix_array = list(map(lambda x: { k: float(v) for k,v in x["m_Data"].items() }, tilemap.m_TileMatrixArray))
+        tile_matrix_array = list(
+            map(lambda x: {k: float(v) for k, v in x["m_Data"].items()}, tilemap.m_TileMatrixArray))
         tiles = map(lambda x: {
-            "pos": { k: int(v) for k, v in x["first"].items() },
+            "pos": {k: int(v) for k, v in x["first"].items()},
             "tile_index": int(x["second"]["m_TileIndex"]),
             "matrix_index": int(x["second"]["m_TileMatrixIndex"])
         }, tilemap.m_Tiles)
 
         for tile in tiles:
             tile_index = tile_sprite_array[tile["tile_index"]]
-            sprite = __get_sprite(image, tile_index, meta)
+            sprite = __get_sprite(image, tile_index, meta, (size_tile_x, size_tile_y))
 
             matrix = tile_matrix_array[tile["matrix_index"]]
             if matrix["e00"] < 0:
