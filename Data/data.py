@@ -65,17 +65,21 @@ def concatenate(is_gen=False):
         for _ in gen:
             pass
 
+
 def get_data_path(file_name):
     if not file_name:
         return None
     p_dir = __file__.split(os.sep)
     return "\\".join(p_dir[:-2] + ['Data', 'Generated', file_name])
 
-def get_data_file(path):
-    if not path:
+
+def get_data_file(path) -> dict | None:
+    if not path or not os.path.exists(path):
         return None
+
     with open(path, 'r', encoding="UTF-8") as f:
         return json.loads(f.read())
+
 
 if __name__ == "__main__":
     concatenate()

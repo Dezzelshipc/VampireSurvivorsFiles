@@ -256,7 +256,9 @@ class Unpacker(tk.Tk):
             command=self.tilemap_data
         ).grid(row=9, column=2)
 
-        self.loaded_meta = {}
+        self.loaded_meta = dict()
+        self.guid_table = dict()
+
         self.data_from_popup = None
 
         self.outer_progress_bar = None
@@ -279,7 +281,6 @@ class Unpacker(tk.Tk):
                  f"To use unpacker you need to rip assets from the game.\n"
                  f"Read README.md for more info."
                  )
-
 
     def progress_bar_set(self, current, total):
         self.progress_bar['value'] = current * 100 / total
@@ -358,7 +359,6 @@ class Unpacker(tk.Tk):
                     "pivot": {"x": 0.5, "y": 0.5}
                 }]
 
-
             self.loaded_meta.update(
                 {
                     file: {
@@ -398,7 +398,7 @@ class Unpacker(tk.Tk):
         print(f"Files out of {total}:")
 
         self.progress_bar_set(0, total)
-        for i, (pic_name, meta_data) in enumerate(meta.items()):
+        for i, (_, meta_data) in enumerate(meta.items()):
             rect = meta_data["rect"]
             print(f"\r{i + 1}", end="")
             self.progress_bar_set(i + 1, total)
@@ -410,10 +410,38 @@ class Unpacker(tk.Tk):
 
             im_crop = im_crop.resize((im_crop.size[0] * scale_factor, im_crop.size[1] * scale_factor),
                                      PIL.Image.NEAREST)
-            im_crop.save(f"{folder_to_save}/{pic_name}.png")
+            im_crop.save(f"{folder_to_save}/{meta_data["name"]}.png")
 
         print()
         self.last_loaded_folder = os.path.abspath(folder_to_save)
+
+    @staticmethod
+    def get_meta_guid(path) -> str | None:
+        if not path or not os.path.exists(path):
+            return None
+
+        with open(path, 'r', encoding="UTF-8") as f:
+            for line in f.readlines()[:10]:
+                key, val = line.split(":")
+
+                if key == "guid":
+                    return val.strip()
+
+                if not val:
+                    return None
+
+    def get_path_by_guid(self, guid: id):
+        all_assets = self.get_assets_meta_files()
+
+        if guid not in self.guid_table:
+            for path in all_assets:
+                asset_guid = self.get_meta_guid(path)
+                self.guid_table.update({
+                    asset_guid: path
+                })
+
+        return self.guid_table.get(guid)
+
 
     def languages_get(self):
         def thread_languages_get(file_path_):
@@ -424,7 +452,8 @@ class Unpacker(tk.Tk):
                 text = f.read()
 
             if len(text) < 1000:
-                showerror("Error", f"I2Languages does not contain necessary data. (length: {len(text)}) You must manually copy data. (See README.md on how to)")
+                showerror("Error",
+                          f"I2Languages does not contain necessary data. (length: {len(text)}) You must manually copy data. (See README.md on how to)")
                 self.outer_progress_bar.close_bar()
                 return
 
@@ -589,7 +618,6 @@ class Unpacker(tk.Tk):
 
         return full_path
 
-
     def get_assets_meta_files(self):
         paths = [f"{self.get_assets_dir()}/Resources/spritesheets"]
         for f in filter(lambda x: "ASSETS" in x, self.config.data):
@@ -610,7 +638,7 @@ class Unpacker(tk.Tk):
             dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
 
         if missing_paths:
-            showerror("Error", f"Missing paths: {missing_paths}" )
+            showerror("Error", f"Missing paths: {missing_paths}")
 
         return files
 
@@ -644,7 +672,6 @@ class Unpacker(tk.Tk):
                     })
 
                     texture_set.update(weapon_gen.textures_set(w_data))
-
 
             for texture in texture_set:
                 if texture is None:
@@ -727,9 +754,8 @@ class Unpacker(tk.Tk):
         if not full_path:
             return
 
-        all_assets = self.get_assets_meta_files()
-
-        tilemap_gen.gen_tilemap(full_path, all_assets, func_get_meta=self.get_meta_by_full_path)
+        tilemap_gen.gen_tilemap(full_path, func_get_meta=self.get_meta_by_full_path,
+                                func_path_by_guid=self.get_path_by_guid)
 
         self.last_loaded_folder = os.path.abspath("./Images/Generated/tilemaps")
 

@@ -8,6 +8,7 @@ from unityparser import UnityDocument
 from PIL import Image, ImageFont, ImageDraw
 from PIL import ImageOps
 
+__loaded_prefabs = dict()
 __loaded_sprites = dict()
 
 
@@ -43,45 +44,45 @@ def __get_sprite(spritesheet: Image, internal_id: int, meta: dict, size_tile: tu
     return __loaded_sprites[image_key][internal_id]
 
 
-def gen_tilemap(path: str, assets_files: list, func_get_meta=None):
+def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
     p_dir, p_file = os.path.split(path)
     this_dir, this_file = os.path.split(__file__)
 
-    print(f"Started {p_file} parsing")
-    doc = UnityDocument.load_yaml(path)
-    doc.file_path = None
-    print(f"Ended {p_file} Started")
+    if path not in __loaded_prefabs:
+        print(f"Started {p_file} parsing")
+        doc = UnityDocument.load_yaml(path)
+        doc.file_path = None
+        __loaded_prefabs.update({
+            path: doc
+        })
+        print(f"Ended {p_file} parsing")
 
-    tilemaps = doc.filter(class_names=("Tilemap",), attributes=("m_Tiles",))
+    prefab = __loaded_prefabs[path]
+
+    tilemaps = prefab.filter(class_names=("Tilemap",), attributes=("m_Tiles",))
     if not tilemaps:
         showerror("Error", f"Not found any tilemap for {p_file}.")
         return
 
-    name = doc.entry.m_Name
-    texture = f"{name}TexturePacked"
+    guid_set = set()
+    for tilemap in tilemaps:
+        array = map(lambda x: x["m_Data"]["guid"], tilemap.m_TileSpriteArray)
+        guid_set.update(array)
 
-    def filter_assets(x):
-        name_low = x.name.lower()
-        texture_low = texture.lower()
-        return name_low.startswith(f"{texture_low}") and name_low.endswith(f".png.meta")
+    print(guid_set)
 
-    metas = list(filter(filter_assets, assets_files))
+    texture_paths_meta = { guid: func_path_by_guid(guid) for guid in guid_set }
+    print(texture_paths_meta)
 
-    if not metas:
-        showerror("Error", f"{texture} not found for {p_file}.")
+    if None in texture_paths_meta.items():
+        showerror("Error", f"Packed texture not found for {p_file}. (guids: {texture_paths_meta})")
         return
 
-    def dir_key(x):
-        try:
-            return int(x.name.split("_")[-1])
-        except ValueError:
-            return -1
+    print(f"Started generating tilemap for {p_file}")
 
-    metas = sorted(metas, key=dir_key)
-    print(metas)
-    meta_file = metas[-1]
-
-    meta, image = func_get_meta(*os.path.split(meta_file), is_internal_id=True)
+    textures = {
+        guid: func_get_meta(*os.path.split(path), is_internal_id=True) for guid, path in texture_paths_meta.items()
+    }
 
     size_tile_x, size_tile_y = 32, 32
 
@@ -97,7 +98,7 @@ def gen_tilemap(path: str, assets_files: list, func_get_meta=None):
 
     im_map = Image.new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
     for tilemap in tilemaps:
-        tile_sprite_array = list(map(lambda x: int(x["m_Data"]["fileID"]), tilemap.m_TileSpriteArray))
+        tile_sprite_array = list(map(lambda x: (int(x["m_Data"]["fileID"]), x["m_Data"]["guid"]) , tilemap.m_TileSpriteArray))
         tile_matrix_array = list(
             map(lambda x: {k: float(v) for k, v in x["m_Data"].items()}, tilemap.m_TileMatrixArray))
         tiles = map(lambda x: {
@@ -107,7 +108,9 @@ def gen_tilemap(path: str, assets_files: list, func_get_meta=None):
         }, tilemap.m_Tiles)
 
         for tile in tiles:
-            tile_index = tile_sprite_array[tile["tile_index"]]
+            tile_index, texture_guid = tile_sprite_array[tile["tile_index"]]
+
+            meta, image = textures[texture_guid]
             sprite = __get_sprite(image, tile_index, meta, (size_tile_x, size_tile_y))
 
             matrix = tile_matrix_array[tile["matrix_index"]]
@@ -122,4 +125,4 @@ def gen_tilemap(path: str, assets_files: list, func_get_meta=None):
     save_file = p_file.replace(".prefab", "")
     im_map.save(f"{save_folder}/{save_file}.png")
 
-    print(f"Done {p_file}")
+    print(f"Generation for tilemap {p_file} ended")
