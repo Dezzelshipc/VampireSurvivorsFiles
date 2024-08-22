@@ -6,7 +6,7 @@ Ripped from v1.11 + Moonspell + Foscari + Meeting + Guns
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 
-## Unpacker (v0.12c)
+## Unpacker (v0.12d)
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
@@ -34,7 +34,7 @@ folders (`...\ExportedProject\Assets`).
 ### Functions
 
 **Select image to unpack**: select png sprite sheet from assets to split it into separate
-sprites. ([Images/Generated/By meta](Images) folder)
+sprites. ([Images/Generated/_By meta](Images) folder)
 
 * **.. from spritesheets**: opens _spritesheets_ folder to unpack. (works when entered path in config)
 
@@ -58,5 +58,5 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
     * Some of datas can produce images with frames or animations. (Selecting that datas will have corresponding
       checkboxes)
 
-* **Get stage tilemap**: Generate stage tile map from prefab file. Big prefabs (> 5 MB) have slow parse. (WIP; some
-  maps probably have z-index issues.)
+* **Get stage tilemap**: Generate stage tile map from prefab file. Big prefabs (> 5 MB) have slow parse. (WIP; few
+  maps have tile rotating issues.)

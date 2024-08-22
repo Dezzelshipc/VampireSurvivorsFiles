@@ -1,18 +1,16 @@
 from tkinter.messagebox import showerror
 
-import yaml
-import json
 import os
-import re
+
+from fontTools.cffLib import Index
 from unityparser import UnityDocument
-from PIL import Image, ImageFont, ImageDraw
-from PIL import ImageOps
+from PIL import Image
 
 __loaded_prefabs = dict()
 __loaded_sprites = dict()
 
 
-def __get_sprite(spritesheet: Image, internal_id: int, meta: dict, size_tile: tuple):
+def __get_sprite(spritesheet: Image, internal_id: int, meta: dict, size_tile: tuple) -> Image:
     image_key = str(spritesheet)
     if image_key not in __loaded_sprites:
         __loaded_sprites.update({
@@ -44,8 +42,33 @@ def __get_sprite(spritesheet: Image, internal_id: int, meta: dict, size_tile: tu
     return __loaded_sprites[image_key][internal_id]
 
 
+def __affine_transform(image: Image, matrix: tuple) -> Image:
+    a, b, c, d, e, f = matrix
+
+    size = image.size
+    if b or d:
+        size = (image.size[1], image.size[0])
+
+    if a < 0 or b < 0:
+        c -= 1
+    if d < 0 or e < 0:
+        f -= 1
+
+    transformed = Image.new(mode="RGBA", size=size)
+    px_tr = transformed.load()
+    for y in range(transformed.height):
+        for x in range(transformed.width):
+            try:
+                px_tr[x, y] = image.getpixel((a * x + b * y + c, d * x + e * y + f))
+            except IndexError:
+                print(image, (a * x + b * y + c, d * x + e * y + f))
+
+    return transformed
+
+
 def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
     p_dir, p_file = os.path.split(path)
+    save_file = p_file.replace(".prefab", "")
     this_dir, this_file = os.path.split(__file__)
 
     if path not in __loaded_prefabs:
@@ -55,7 +78,7 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
         __loaded_prefabs.update({
             path: doc
         })
-        print(f"Ended {p_file} parsing")
+        print(f"Finished {p_file} parsing")
 
     prefab = __loaded_prefabs[path]
 
@@ -69,9 +92,9 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
         array = map(lambda x: x["m_Data"]["guid"], tilemap.m_TileSpriteArray)
         guid_set.update(array)
 
-    print(guid_set)
+    print(f"Required guids: {guid_set}")
 
-    texture_paths_meta = { guid: func_path_by_guid(guid) for guid in guid_set }
+    texture_paths_meta = {guid: func_path_by_guid(guid) for guid in guid_set}
     print(texture_paths_meta)
 
     if None in texture_paths_meta.items():
@@ -86,7 +109,7 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
 
     size_tile_x, size_tile_y = 32, 32
 
-    save_folder = f"{this_dir}/Generated/tilemaps"
+    save_folder = f"{this_dir}/Generated/_Tilemaps/{save_file}/"
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
@@ -97,10 +120,11 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
         size_map_y = max(size_map_y, int(_size['y']))
 
     im_map = Image.new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
-    for tilemap in tilemaps:
-        tile_sprite_array = list(map(lambda x: (int(x["m_Data"]["fileID"]), x["m_Data"]["guid"]) , tilemap.m_TileSpriteArray))
+    for i, tilemap in enumerate(tilemaps):
+        tile_sprite_array = list(
+            map(lambda x: (int(x["m_Data"]["fileID"]), x["m_Data"]["guid"]), tilemap.m_TileSpriteArray))
         tile_matrix_array = list(
-            map(lambda x: {k: float(v) for k, v in x["m_Data"].items()}, tilemap.m_TileMatrixArray))
+            map(lambda x: {k: int(float(v)) for k, v in x["m_Data"].items()}, tilemap.m_TileMatrixArray))
         tiles = map(lambda x: {
             "pos": {k: int(v) for k, v in x["first"].items()},
             "tile_index": int(x["second"]["m_TileIndex"]),
@@ -114,15 +138,17 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
             sprite = __get_sprite(image, tile_index, meta, (size_tile_x, size_tile_y))
 
             matrix = tile_matrix_array[tile["matrix_index"]]
-            if matrix["e00"] < 0:
-                sprite = ImageOps.mirror(sprite)
-
-            if matrix["e11"] < 0:
-                sprite = ImageOps.flip(sprite)
+            if matrix["e00"] != 1 or matrix["e11"] != 1:
+                affine_matrix = (
+                    matrix["e00"], matrix["e01"], matrix["e02"], matrix["e10"], matrix["e11"], matrix["e12"])
+                sprite = __affine_transform(sprite, affine_matrix)
 
             im_map.alpha_composite(sprite, (tile['pos']['x'] * size_tile_x, abs(tile['pos']['y']) * size_tile_y))
 
-    save_file = p_file.replace(".prefab", "")
+        im_map.save(f"{save_folder}/{save_file}-{i}.png")
+
     im_map.save(f"{save_folder}/{save_file}.png")
 
-    print(f"Generation for tilemap {p_file} ended")
+    print(f"Generation for tilemap {p_file} finished")
+
+    return save_folder

@@ -381,9 +381,9 @@ class Unpacker(tk.Tk):
 
         total = len(meta)
         if total > 1:
-            folder_to_save = f"./Images/Generated/By meta/{file}"
+            folder_to_save = f"./Images/Generated/_By meta/{file}"
         else:
-            folder_to_save = f"./Images/Generated/By meta/_SingeSprites"
+            folder_to_save = f"./Images/Generated/_By meta/_SingeSprites"
 
         if total == 0:
             showwarning("Warning",
@@ -434,11 +434,13 @@ class Unpacker(tk.Tk):
         all_assets = self.get_assets_meta_files()
 
         if guid not in self.guid_table:
+            print("Collecting guids of all spritesheets")
             for path in all_assets:
                 asset_guid = self.get_meta_guid(path)
                 self.guid_table.update({
                     asset_guid: path
                 })
+            print("Collected guids of all spritesheets")
 
         return self.guid_table.get(guid)
 
@@ -754,10 +756,9 @@ class Unpacker(tk.Tk):
         if not full_path:
             return
 
-        tilemap_gen.gen_tilemap(full_path, func_get_meta=self.get_meta_by_full_path,
+        save_folder = tilemap_gen.gen_tilemap(full_path, func_get_meta=self.get_meta_by_full_path,
                                 func_path_by_guid=self.get_path_by_guid)
-
-        self.last_loaded_folder = os.path.abspath("./Images/Generated/tilemaps")
+        self.last_loaded_folder = save_folder
 
 
 if __name__ == '__main__':
