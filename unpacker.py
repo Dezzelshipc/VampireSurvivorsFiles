@@ -252,7 +252,7 @@ class Unpacker(tk.Tk):
 
         ttk.Button(
             self,
-            text="Get stage tilemap (WIP)",
+            text="Get stage tilemap",
             command=self.tilemap_data
         ).grid(row=9, column=2)
 

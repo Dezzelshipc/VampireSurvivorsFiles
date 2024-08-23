@@ -1,10 +1,9 @@
-from tkinter.messagebox import showerror
+from tkinter.messagebox import showerror, askyesno
 
 import os
 
-from fontTools.cffLib import Index
 from unityparser import UnityDocument
-from PIL import Image
+from PIL import Image, ImageOps
 
 __loaded_prefabs = dict()
 __loaded_sprites = dict()
@@ -45,31 +44,40 @@ def __get_sprite(spritesheet: Image, internal_id: int, meta: dict, size_tile: tu
 def __affine_transform(image: Image, matrix: tuple) -> Image:
     a, b, c, d, e, f = matrix
 
-    size = image.size
+    if a + b < 0:
+        image = ImageOps.mirror(image)
+
+    if d + e < 0:
+        image = ImageOps.flip(image)
+
     if b or d:
-        size = (image.size[1], image.size[0])
+        image = image.rotate(-90)
+        image = ImageOps.flip(image)
 
-    if a < 0 or b < 0:
-        c -= 1
-    if d < 0 or e < 0:
-        f -= 1
-
-    transformed = Image.new(mode="RGBA", size=size)
-    px_tr = transformed.load()
-    for y in range(transformed.height):
-        for x in range(transformed.width):
-            try:
-                px_tr[x, y] = image.getpixel((a * x + b * y + c, d * x + e * y + f))
-            except IndexError:
-                print(image, (a * x + b * y + c, d * x + e * y + f))
-
-    return transformed
+    return image
 
 
 def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
     p_dir, p_file = os.path.split(path)
     save_file = p_file.replace(".prefab", "")
     this_dir, this_file = os.path.split(__file__)
+
+    if path not in __loaded_prefabs:
+        is_found_tilemap = False
+        with open(path, "r") as f:
+            for line in f.readlines():
+                if "Tilemap" in line:
+                    is_found_tilemap = True
+                    break
+
+        if not is_found_tilemap:
+            showerror("Error", f"Not found any tilemap for {p_file}.")
+            return
+
+    is_proceed = askyesno("Generation", f"Found tilemap for {p_file}.\nDo you want to generate it?")
+
+    if not is_proceed:
+        return
 
     if path not in __loaded_prefabs:
         print(f"Started {p_file} parsing")
@@ -79,6 +87,8 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
             path: doc
         })
         print(f"Finished {p_file} parsing")
+    else:
+        print(f"Already parsed {p_file}")
 
     prefab = __loaded_prefabs[path]
 
@@ -139,9 +149,9 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
 
             matrix = tile_matrix_array[tile["matrix_index"]]
             if matrix["e00"] != 1 or matrix["e11"] != 1:
-                affine_matrix = (
-                    matrix["e00"], matrix["e01"], matrix["e02"], matrix["e10"], matrix["e11"], matrix["e12"])
-                sprite = __affine_transform(sprite, affine_matrix)
+                affine = (matrix["e00"], matrix["e01"], matrix["e02"], matrix["e10"], matrix["e11"], matrix["e12"])
+                affine = (matrix["e00"], matrix["e10"], matrix["e20"], matrix["e01"], matrix["e11"], matrix["e21"])
+                sprite = __affine_transform(sprite, affine)
 
             im_map.alpha_composite(sprite, (tile['pos']['x'] * size_tile_x, abs(tile['pos']['y']) * size_tile_y))
 
@@ -152,3 +162,46 @@ def gen_tilemap(path: str, func_get_meta=None, func_path_by_guid=None):
     print(f"Generation for tilemap {p_file} finished")
 
     return save_folder
+
+
+def __test(path, func_get_meta):
+    tile_id = 21300000
+
+    meta, image = func_get_meta(*os.path.split(path), is_internal_id=True)
+
+    sprite = __get_sprite(image, tile_id, meta, (32, 32))
+
+    transform_list = ((1, 1), (1, -1), (-1, 1), (-1, -1))
+
+    save_folder = "./Generated/_Test"
+    if not os.path.exists(save_folder):
+        os.makedirs(save_folder)
+
+    for i, (x1, x2) in enumerate(transform_list):
+        aff1 = (x1, 0, 0, 0, x2, 0)
+        aff2 = (0, x1, 0, x2, 0, 0)
+
+        sprite1 = __affine_transform(sprite, aff1)
+        sprite2 = __affine_transform(sprite, aff2)
+
+        sprite1.save(f"{save_folder}/{tile_id}-1_{i}.png")
+        sprite2.save(f"{save_folder}/{tile_id}-2_{i}.png")
+
+
+if __name__ == "__main__":
+    from unpacker import Unpacker
+
+    unp = Unpacker()
+    all_assets = unp.get_assets_meta_files()
+
+    texture = "Atlas_LibraryTexturePacked_1_0"
+
+    def filter_assets(x):
+        name_low = x.name.lower()
+        texture_low = texture.lower()
+        return name_low.startswith(f"{texture_low}") and name_low.endswith(f"{texture_low}.png.meta")
+
+    meta_path = list(filter(filter_assets, all_assets))[0]
+    print(meta_path)
+
+    __test(meta_path, unp.get_meta_by_full_path)
