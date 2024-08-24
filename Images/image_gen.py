@@ -248,7 +248,7 @@ class ImageGenerator:
         frames_list = sorted(filter(filter_func, meta.keys()))
         frames_count = len(frames_list)
 
-        print(frames_list, leading_zeros, fr"^{file_name_clean}{r"\d" * leading_zeros}$")
+        # print(frames_list, leading_zeros, fr"^{file_name_clean}{r"\d" * leading_zeros}$")
 
         im_list = []
         for i, frame_name in enumerate(frames_list):
@@ -807,10 +807,24 @@ class EnemyImageGenerator(TableGenerator):
     def skins_generator(self, data: dict):
         for k, vv in data.items():
             v = self.get_table_unit(vv, 0)
+
+            add_i = 0
+            if alias := v.get("alias"):
+                v1 = v.copy()
+                v1.update(alias)
+                for i, frame in enumerate(v1.get("frameNames")):
+                    enemy = v1.copy()
+                    enemy["frameNames"] = frame
+                    enemy["id"] = i
+
+                    yield k, enemy
+
+                add_i = len(v1.get("frameNames"))
+
             for i, frame in enumerate(v.get("frameNames")):
                 enemy = v.copy()
                 enemy["frameNames"] = frame
-                enemy["id"] = i
+                enemy["id"] = i + add_i
 
                 yield k, enemy
 
