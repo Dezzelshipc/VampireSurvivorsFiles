@@ -31,6 +31,9 @@ AssetRipper.
 Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
 folders (`...\ExportedProject\Assets`).
 
+* _**Enable multiprocessing**_ can increase speed in some cases in exchange for "fully" loading CPU.
+    * Currently only for: _Get stage tilemap_.
+
 ### Functions
 
 **Select image to unpack**: select png sprite sheet from assets to split it into separate

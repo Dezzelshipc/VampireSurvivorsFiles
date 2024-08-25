@@ -22,12 +22,17 @@ class Config:
 
             self.variables = {}
 
-            for key, path in config.data.items():
-                tk.Label(self, text=f"{key}\t{config.DLCS[key]}").pack()
-                str_var = tk.StringVar(self, path)
-                textbox = tk.Entry(self, textvariable=str_var, width=100)
-                textbox.pack()
-                self.variables.update({key: str_var})
+            for key, path in self.config.data.items():
+                if "ASSETS" in key:
+                    tk.Label(self, text=f"{key}\t{config.DLCS[key]}").pack()
+                    str_var = tk.StringVar(self, path)
+                    tk.Entry(self, textvariable=str_var, width=100).pack()
+                    self.variables.update({key: str_var})
+
+            key = "MULTIPROCESSING"
+            bool_var_mp = tk.BooleanVar(self, self.config[key])
+            tk.Checkbutton(self, text="Enable multiprocessing for some generators", variable=bool_var_mp).pack()
+            self.variables.update({key: bool_var_mp})
 
             save_button = ttk.Button(
                 self,
@@ -39,16 +44,19 @@ class Config:
         def try_save(self):
             variables = {}
             for key, str_var in self.variables.items():
-                var: str = str_var.get()
+                if "ASSETS" in key:
+                    var: str = str_var.get()
 
-                if not var:
-                    var = "\\"
+                    if not var:
+                        var = "\\"
 
-                if not var.endswith("Assets") and var != "\\" and var != "/":
-                    showerror("Error",
-                              f"Every path to DLC must end with 'Assets' or be empty.\nError in {key}")
-                    return
-                variables.update({key: var})
+                    if not var.endswith("Assets") and var != "\\" and var != "/":
+                        showerror("Error",
+                                  f"Every path to DLC must end with 'Assets' or be empty.\nError in {key}")
+                        return
+                    variables.update({key: var})
+                else:
+                    variables.update({key: self.variables[key].get()})
 
             if not os.path.exists(self.config.config_path):
                 self.config.save_file()
@@ -69,6 +77,7 @@ class Config:
             "EM_ASSETS": "/",
             "OG_ASSETS": "/",
             "IS_ASSETS": "/",
+            "MULTIPROCESSING": False,
         }
         self.DLCS = {
             "VS_ASSETS": "Vampire Survivors",
@@ -84,6 +93,9 @@ class Config:
         if not os.path.exists(self.config_path):
             self.save_file()
 
+        self.update_config()
+
+    def update_config(self):
         with open(self.config_path, "r", encoding="UTF-8") as f:
             json_file = json.loads(f.read())
             self.data.update(json_file)
@@ -93,10 +105,11 @@ class Config:
             f.write(json.dumps(data or self.default, ensure_ascii=False, indent=2))
 
     def __getitem__(self, item) -> str:
-        return self.data[item] or self.default[item]
+        self.update_config()
+        return self.data.get(item, self.default.get(item))
 
     def change_config(self, parent):
-        cc = self.ConfigChanger(parent, self)
+        self.ConfigChanger(parent, self)
 
     def get_dlc_name(self, item) -> str | None:
         return self.DLCS.get(item, None)
