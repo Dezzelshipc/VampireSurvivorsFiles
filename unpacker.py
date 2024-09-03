@@ -16,7 +16,10 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
-import Images.tilemap_gen as tilemap_gen
+from Images.tilemap_gen import gen_tilemap
+from Images.image_unified_gen import gen_unified_images
+from Utility.utility import CheckBoxes, run_multiprocess
+from Utility.meta_data import MetaDataHandler
 
 
 class Unpacker(tk.Tk):
@@ -38,45 +41,6 @@ class Unpacker(tk.Tk):
 
         def close_bar(self):
             self.progressbar.stop()
-            self.destroy()
-
-    class CheckBoxes(tk.Toplevel):
-        def __init__(self, parent, list_to_boxes):
-            super().__init__(parent)
-            self.parent = parent
-            self.title("Select languages")
-            label = ttk.Label(self, text="Select languages to include in split files")
-            label.pack()
-
-            self.global_state = tk.BooleanVar()
-
-            cb = ttk.Checkbutton(self, text="Select/Deselect all",
-                                 variable=self.global_state,
-                                 command=self.set_all)
-            cb.pack()
-
-            self.states = []
-
-            for i, val in enumerate(list_to_boxes):
-                var = tk.BooleanVar()
-                cb = ttk.Checkbutton(self, text=val['Name'], variable=var)
-                cb.pack()
-                self.states.append(var)
-
-            b_ok = ttk.Button(self, text="Select", command=self.__close)
-            b_ok.pack()
-
-        def get_states(self):
-            return [v.get() for v in self.states]
-
-        def set_all(self):
-            state = self.global_state.get()
-
-            for x in self.states:
-                x.set(state)
-
-        def __close(self):
-            self.parent.data_from_popup = self.get_states()
             self.destroy()
 
     class GeneratorDialog(tk.Toplevel):
@@ -143,7 +107,7 @@ class Unpacker(tk.Tk):
             self.parent.data_from_popup.update({"exit": self.exit})
             self.destroy()
 
-    def __init__(self, width=700, height=300):
+    def __init__(self, width=650, height=350):
         super().__init__()
         self.width = width
         self.height = height
@@ -215,7 +179,7 @@ class Unpacker(tk.Tk):
 
         b_language_to_json = ttk.Button(
             self,
-            text="Convert language strings to json",
+            text="Convert language\nstrings to json",
             command=self.languages_get_json
         )
         b_language_to_json.grid(row=5, column=2)
@@ -250,14 +214,23 @@ class Unpacker(tk.Tk):
         )
         b_data_to_image.grid(row=9, column=1)
 
+        b_data_to_image = ttk.Button(
+            self,
+            text="Get images with\nunified names by data (rewrite)",
+            command=self.unified_image_gen_handler
+        )
+        # b_data_to_image.grid(row=10, column=1)
+
         ttk.Button(
             self,
             text="Get stage tilemap",
-            command=self.tilemap_data
+            command=self.tilemap_gen_handler
         ).grid(row=9, column=2)
 
         self.loaded_meta = dict()
         self.guid_table = dict()
+
+        MetaDataHandler().load_assets_meta_files()
 
         self.data_from_popup = None
 
@@ -329,6 +302,11 @@ class Unpacker(tk.Tk):
 
         t = threading.Thread(target=thread_generate_by_meta, args=[direct, file, scale_factor])
         t.start()
+
+    def get_meta_by_set_of_paths(self, texture_paths_set: set, is_internal_id: bool = False):
+        args = [(*os.path.split(path), is_internal_id) for path in texture_paths_set]
+        print(args)
+        return run_multiprocess(self.get_meta_by_full_path, args)
 
     def get_meta_by_full_path(self, p_dir: str, p_file: str, is_internal_id: bool = False) -> (dict, Image.Image):
         p_file = p_file.replace(".meta", "")
@@ -529,20 +507,20 @@ class Unpacker(tk.Tk):
             yaml_file = self.get_lang_meta()
 
             langs_list = yaml_file["MonoBehaviour"]["mSource"]["mLanguages"]
-
+            langs_list = [lang['Name'] for lang in langs_list]
             self.outer_progress_bar.close_bar()
             self.last_loaded_folder = os.path.abspath(folder_to_save)
 
-            self.data_from_popup = None
-            cbs = self.CheckBoxes(self, langs_list)
+            cbs = CheckBoxes(langs_list, parent=self, label="Select languages to include in split files", title="Select languages")
             cbs.wait_window()
+            data_from_popup = cbs.return_data
 
-            if not self.data_from_popup:
+            if not data_from_popup:
                 return
 
-            using_list = [(i, x[0]['Name']) for i, x in enumerate(zip(langs_list, self.data_from_popup)) if x[1]]
+            using_list = [(i, x[0]) for i, x in enumerate(zip(langs_list, data_from_popup)) if x[1]]
 
-            if len(using_list) == 0:
+            if not using_list:
                 showerror("Error", "No language has been selected.")
                 return
 
@@ -740,15 +718,20 @@ class Unpacker(tk.Tk):
         t = threading.Thread(target=thread_load_data)
         t.start()
 
-    def tilemap_data(self):
-        start_path = f"{self.get_assets_dir()}\\PrefabInstance"
+
+    def unified_image_gen_handler(self):
+        start_path = f".\\Data"
+        if not os.path.exists(start_path):
+            showerror("Error",
+                      "Data folder not exists.")
+            return
 
         filetypes = [
-            ('Prefab', '*.prefab')
+            ('JSON', '*.json')
         ]
 
         full_path = fd.askopenfilename(
-            title='Open a file',
+            title='Select data file',
             initialdir=start_path,
             filetypes=filetypes
         )
@@ -756,8 +739,34 @@ class Unpacker(tk.Tk):
         if not full_path:
             return
 
-        save_folder = tilemap_gen.gen_tilemap(full_path, func_get_meta=self.get_meta_by_full_path,
-                                func_path_by_guid=self.get_path_by_guid)
+        all_assets = self.get_assets_meta_files()
+
+        gen_unified_images(full_path, all_assets)
+
+
+    def tilemap_gen_handler(self):
+        start_path = f"{self.get_assets_dir()}\\PrefabInstance"
+        if not os.path.exists(start_path):
+            showwarning("Error",
+                        "PrefabInstance folder in assets not exists.")
+            start_path = './'
+
+        filetypes = [
+            ('Prefab', '*.prefab')
+        ]
+
+        full_path = fd.askopenfilename(
+            title='Select prefab file',
+            initialdir=start_path,
+            filetypes=filetypes
+        )
+
+        if not full_path:
+            return
+
+        MetaDataHandler().load_guid_paths()
+
+        save_folder = gen_tilemap(full_path)
         self.last_loaded_folder = save_folder
 
 

@@ -5,8 +5,10 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showerror
 
+from Utility.singleton import Singleton
 
-class Config:
+
+class Config(metaclass=Singleton):
     class ConfigChanger(tk.Toplevel):
         def __init__(self, parent, config):
             super().__init__(parent)
