@@ -69,27 +69,6 @@
     "maxHp": 1,
     "destructibleType": "WEATHERNODE"
   },
-  "FOSCARI_SEAL_1": {
-    "textureName": "items",
-    "frameName": "Seal1_",
-    "destroyedAmount": 0,
-    "maxHp": 100,
-    "destructibleType": "FOSCARI_SEAL_1"
-  },
-  "FOSCARI_SEAL_2": {
-    "textureName": "items",
-    "frameName": "Seal2_",
-    "destroyedAmount": 0,
-    "maxHp": 100,
-    "destructibleType": "FOSCARI_SEAL_2"
-  },
-  "FOSCARI_SEAL_3": {
-    "textureName": "items",
-    "frameName": "Seal3_",
-    "destroyedAmount": 0,
-    "maxHp": 100,
-    "destructibleType": "FOSCARI_SEAL_3"
-  },
   "TRAINLEVER": {
     "textureName": "items",
     "frameName": "Lever",
@@ -159,5 +138,12 @@
     "destroyedAmount": 0,
     "maxHp": 5,
     "destructibleType": "FB_EXPLOCAR"
+  },
+  "TP_DOOR": {
+    "textureName": "TP_items",
+    "frameName": "TP_Item_DoorA_01",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "TP_DOOR"
   }
 }

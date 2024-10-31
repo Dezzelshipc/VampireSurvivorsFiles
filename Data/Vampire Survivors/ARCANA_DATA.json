@@ -35,7 +35,25 @@
       "C1_TONGUE1",
       "C1_TONGUE2",
       "FB_PRISMCUTLASS",
-      "FB_TIMEWARP"
+      "FB_TIMEWARP",
+      "TP_FIRE1",
+      "TP_FIRE2",
+      "TP_ICE1",
+      "TP_ICE2",
+      "TP_WIND1",
+      "TP_WIND2",
+      "TP_EARTH1",
+      "TP_EARTH2",
+      "TP_ELEC1",
+      "TP_ELEC2",
+      "TP_ACID1",
+      "TP_ACID2",
+      "TP_HOLY1",
+      "TP_HOLY2",
+      "TP_EVIL1",
+      "TP_EVIL2",
+      "TP_ENERGY1",
+      "TP_ENERGY2"
     ],
     "items": [
       "NFT"
@@ -69,7 +87,14 @@
       "FB_LASER",
       "FB_PROTONBEAM",
       "SANTAJAVELIN",
-      "SANTAJAVELIN2"
+      "SANTAJAVELIN2",
+      "TP_ALCHEMYWHIP2",
+	  "TP_LEMURIA1",
+	  "TP_LEMURIA2",
+      "TP_HOLY1",
+      "TP_HOLY2",
+      "TP_EVIL1",
+      "TP_EVIL2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -91,7 +116,11 @@
       "LOOP",
       "SANTAJAVELIN",
       "SANTAJAVELIN2",
-      "CART2"
+      "CART2",
+      "TP_ELEC1",
+      "TP_ELEC2",
+      "TP_ACID1",
+      "TP_ACID2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -168,7 +197,15 @@
       "FLASHARROW2",
       "FB_PROTOTYPE_A",
       "FB_PROTOTYPE_B",
-      "FB_PROTOTYPE_C"
+      "FB_PROTOTYPE_C",
+	  "TP_JAVELIN1",
+	  "TP_JAVELIN2",
+	  "TP_IRONBALL1",
+	  "TP_IRONBALL2",
+	  "TP_BWAKA1",
+	  "TP_BWAKA2",
+	  "TP_SHURIKEN1",
+	  "TP_SHURIKEN2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -245,7 +282,11 @@
       "CART2",
       "C1_HATCOLLECTION1",
       "FB_SONIC",
-      "FB_WAVE"
+      "FB_WAVE",
+      "TP_WIND1",
+      "TP_WIND2",
+      "TP_EARTH1",
+      "TP_EARTH2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -311,7 +352,12 @@
       "FB_LASER",
       "FB_PROTONBEAM",
       "FB_PRISMCUTLASS",
-      "FB_PRISMCUTLASS_COUNTER"
+      "FB_PRISMCUTLASS_COUNTER",
+	  "TP_DRAGONWATER1",
+	  "TP_DRAGONWATER2",
+      "TP_ICE1",
+      "TP_ICE2",
+	  "TP_ICEBRAND"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -356,12 +402,35 @@
       "VENTO2",
       "VICTORY",
       "ICELANCE2",
+      "SANTAJAVELIN",
+      "SANTAJAVELIN2",
       "NIGHTSWORD2",
       "SWORD",
       "SWORD2",
       "FLASHARROW",
       "FLASHARROW2",
-      "C1_TONGUE2"
+      "C1_TONGUE2",
+      "TP_ALCHEMYWHIP1",
+      "TP_ALCHEMYWHIP2",
+      "TP_SONICWHIP1",
+      "TP_SONICWHIP2",
+      "TP_DRAGONWATER1",
+      "TP_DRAGONWATER2",
+      "TP_LEMURIA1",
+      "TP_LEMURIA2",
+      "TP_WINDWHIP1",
+      "TP_WINDWHIP2",
+      "TP_HOLYWHIP1",
+      "TP_HOLYWHIP2",
+      "TP_PLATINUMWHIP1",
+      "TP_PLATINUMWHIP2",
+      "TP_MARTIALWHIP1",
+      "TP_MARTIALWHIP2",
+      "TP_SLASH1",
+      "TP_SLASH2",
+      "TP_CONFODERE1",
+      "TP_CONFODERE2",
+      "TP_CONFODERE3"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -423,7 +492,15 @@
       "FB_FIREARM",
       "FB_FIREWALL",
       "FB_HOMING",
-      "FB_MULTISTAGE"
+      "FB_MULTISTAGE",
+	  "TP_MARTIALWHIP1",
+      "TP_MARTIALWHIP2",
+      "TP_FIRE1",
+      "TP_FIRE2",
+      "TP_RPG1",
+      "TP_RPG2",
+      "TP_SAVROG_WEAPON",
+	  "TP_AURABLAST_WEAPON"
     ],
     "items": [
       "DUMMY_LIGHTSOURCE"
@@ -463,7 +540,9 @@
       "MANNAGGIA",
       "LANCET",
       "LAUREL",
-      "MAGNET"
+      "MAGNET",
+      "TP_RAPIDUS1",
+      "TP_RAPIDUS2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -493,7 +572,8 @@
     "frameName": "23.png",
     "enabled": false,
     "unlocked": false,
-    "major": true
+    "major": true,
+    "contentGroup":"EXTRA"
   },
   "28": {
     "arcanaType": 28,
@@ -511,7 +591,8 @@
     "frameName": "28.png",
     "enabled": false,
     "unlocked": false,
-    "major": true
+    "major": true,
+    "contentGroup":"EXTRA"
   },
   "32": {
     "arcanaType": 32,
@@ -526,13 +607,17 @@
       "OROLOGION",
       "VACUUM",
       "GILDED",
-      "GOLDFINGER"
+      "GOLDFINGER",
+      "NFT",
+      "COINBAG1",
+      "COINBAGMAX"
     ],
     "texture": "randomazzo",
     "frameName": "32.png",
     "enabled": false,
     "unlocked": false,
-    "major": true
+    "major": true,
+    "contentGroup":"EXTRA"
   },
   "34": {
     "arcanaType": 34,
@@ -551,7 +636,8 @@
     "frameName": "34.png",
     "enabled": false,
     "unlocked": false,
-    "major": true
+    "major": true,
+    "contentGroup":"EXTRA"
   },
   "43": {
     "arcanaType": 43,
@@ -577,6 +663,7 @@
     "frameName": "43.png",
     "enabled": false,
     "unlocked": false,
-    "major": true
+    "major": true,
+    "contentGroup":"EXTRA"
   }
 }

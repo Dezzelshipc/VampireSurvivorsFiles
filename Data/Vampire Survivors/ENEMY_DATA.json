@@ -1,4 +1,4 @@
-{  
+{
   "BAT1": [
     {
       "level": 1,
@@ -3933,7 +3933,9 @@
       "speed": 50,
       "power": 1,
       "knockback": 0,
-      "skills" : [0],
+      "skills": [
+        0
+      ],
       "maxKnockback": 3,
       "deathKB": 1,
       "xp": 1,
@@ -3955,7 +3957,9 @@
       "speed": 400,
       "power": 1,
       "knockback": 0,
-      "skills" : [0],
+      "skills": [
+        0
+      ],
       "maxKnockback": 3,
       "deathKB": 1,
       "xp": 1,
@@ -3970,92 +3974,99 @@
       ]
     }
   ],
-  "ADV_XLFLOWER_SMALL": [{
-    "enemyType": "ADV_XLFLOWER_SMALL",
-    "level": 1,
-    "maxHp": 0.2,
-    "speed": 80,
-    "power": 8,
-    "xp": 1,
-    "knockback": 1,
-    "maxKnockback": 3,
-    "deathKB": 2,
-    "passThroughWalls": false,
-    "scale": 0.8,
-    "idleFrameCount": 4,
-    "end": 29,
-    "tint": 13404228,
-    "textureName": "enemies",
-    "frameNames": [
-      "XLFlower1_0.png"
-    ],
-    "killedAmount": 0
-  }],
-  "ADV_MOON_GARLIC_SMALL": [{
-    "enemyType": "ADV_MOON_GARLIC_SMALL",
-    "level": 1,
-    "maxHp": 0.5,
-    "speed": 80,
-    "power": 16,
-    "xp": 1,
-    "knockback": 1,
-    "maxKnockback": 3,
-    "deathKB": 2,
-    "passThroughWalls": false,
-    "scale": 0.65,
-    "idleFrameCount": 5,
-    "end": 16,
-    "textureName": "enemies2",
-    "frameNames": [
-      "Plant_0.png"
-    ],
-    "killedAmount": 0
-  }],
-  "ADV_MOLISANI_MOVING2": [{
-    "enemyType": "ADV_MOLISANI_MOVING2",
-    "level": 1,
-    "maxHp": 0.3,
-    "speed": 50,
-    "power": 1,
-    "xp": 2,
-    "knockback": 0,
-    "maxKnockback": 3,
-    "deathKB": 1,
-    "skills": [
-      0
-    ],
-    "passThroughWalls": false,
-    "end": 29,
-    "textureName": "enemiesM",
-    "frameNames": [
-      "D1_0.png",
-      "D2_0.png",
-      "D3_0.png"
-    ]
-  }],
-  "ADV_MOLISANI_MOVING3": [{
-    "enemyType": "ADV_MOLISANI_MOVING3",
-    "level": 1,
-    "maxHp": 0.3,
-    "speed": 50,
-    "power": 1,
-    "xp": 3,
-    "knockback": 0,
-    "maxKnockback": 3,
-    "deathKB": 1,
-    "skills": [
-      0
-    ],
-    "passThroughWalls": false,
-    "end": 29,
-    "textureName": "enemiesM",
-    "frameNames": [
-      "E1_0.png",
-      "E2_0.png",
-      "E3_0.png"
-    ]
-  }],
-  
+  "ADV_XLFLOWER_SMALL": [
+    {
+      "enemyType": "ADV_XLFLOWER_SMALL",
+      "level": 1,
+      "maxHp": 0.2,
+      "speed": 80,
+      "power": 8,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "scale": 0.8,
+      "idleFrameCount": 4,
+      "end": 29,
+      "tint": 13404228,
+      "textureName": "enemies",
+      "frameNames": [
+        "XLFlower1_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_MOON_GARLIC_SMALL": [
+    {
+      "enemyType": "ADV_MOON_GARLIC_SMALL",
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 80,
+      "power": 16,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "scale": 0.65,
+      "idleFrameCount": 5,
+      "end": 16,
+      "textureName": "enemies2",
+      "frameNames": [
+        "Plant_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "ADV_MOLISANI_MOVING2": [
+    {
+      "enemyType": "ADV_MOLISANI_MOVING2",
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 50,
+      "power": 1,
+      "xp": 2,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "end": 29,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "D1_0.png",
+        "D2_0.png",
+        "D3_0.png"
+      ]
+    }
+  ],
+  "ADV_MOLISANI_MOVING3": [
+    {
+      "enemyType": "ADV_MOLISANI_MOVING3",
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 50,
+      "power": 1,
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": false,
+      "end": 29,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "E1_0.png",
+        "E2_0.png",
+        "E3_0.png"
+      ]
+    }
+  ],
   "MOLISANO_BASE": [
     {
       "level": 1,
@@ -4204,7 +4215,11 @@
       "killedAmount": 0,
       "textureName": "enemiesM",
       "end": 29,
-      "frameNames": ["D1_0.png", "D2_0.png", "D3_0.png"]
+      "frameNames": [
+        "D1_0.png",
+        "D2_0.png",
+        "D3_0.png"
+      ]
     }
   ],
   "MOLISANO_FAGIOLO": [
@@ -4604,8 +4619,6 @@
       ]
     }
   ],
-
-
   "MS_ADV_MADDONNAS1": [
     {
       "skipCredits": true,
@@ -4678,7 +4691,6 @@
       ]
     }
   ],
-  
   "EX_ILLUSION": [
     {
       "level": 1,
@@ -4707,7 +4719,10 @@
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
-        "EX_ILLUSION2", "MS_ADV_MADDONNAS1", "MS_ADV_MADDONNAS2", "MS_ADV_MADDONNAS3"
+        "EX_ILLUSION2",
+        "MS_ADV_MADDONNAS1",
+        "MS_ADV_MADDONNAS2",
+        "MS_ADV_MADDONNAS3"
       ]
     }
   ],
@@ -4839,7 +4854,6 @@
       ]
     }
   ],
-
   "EX_CONSTABLEBOT": [
     {
       "skipCredits": true,
@@ -4904,7 +4918,11 @@
       ],
       "killedAmount": 0,
       "bInclude": true,
-      "bVariants": ["EX_TDCCC", "EX_CONSTABLEBOT", "EX_ER2000"],
+      "bVariants": [
+        "EX_TDCCC",
+        "EX_CONSTABLEBOT",
+        "EX_ER2000"
+      ],
       "bPlaces": [
         "LABORRATORY"
       ]
@@ -4953,7 +4971,7 @@
       "passThroughWalls": false,
       "idleFrameCount": 4,
       "end": 22,
-      "scale" : 1.5,
+      "scale": 1.5,
       "textureName": "enemies2023",
       "frameNames": [
         "bigRoboto_0.png"
@@ -4974,7 +4992,6 @@
       "deathKB": 0,
       "killedAmount": 0,
       "xp": 3,
-
       "passThroughWalls": false,
       "idleFrameCount": 4,
       "end": 15,
@@ -5102,8 +5119,6 @@
       ]
     }
   ],
-  
-  
   "EX_FISHMAN_1GREEN": [
     {
       "skipCredits": true,
@@ -5115,7 +5130,7 @@
       "maxKnockback": 3,
       "deathKB": 1,
       "xp": 1,
-      "tint": 7191722, 
+      "tint": 7191722,
       "frameNames": [
         "Merman3_0.png"
       ],
@@ -5167,7 +5182,7 @@
       "killedAmount": 0,
       "end": 21,
       "idleFrameCount": 5,
-      "scale" : 0.65,
+      "scale": 0.65,
       "textureName": "enemies2023",
       "frameNames": [
         "Gyoruntin_0.png"
@@ -5178,7 +5193,6 @@
       ]
     }
   ],
-
   "EX_YTRAINEE_SWARM": [
     {
       "skipCredits": true,
@@ -5223,7 +5237,8 @@
       "idleFrameCount": 5,
       "killedAmount": 0,
       "skills": [
-        1, 2
+        1,
+        2
       ]
     }
   ],
@@ -5259,7 +5274,8 @@
       "speed": 300,
       "power": 15,
       "skills": [
-        0, 1
+        0,
+        1
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -5278,7 +5294,6 @@
       ]
     }
   ],
-
   "EX_MUD_FASTSWARM": [
     {
       "skipCredits": true,
@@ -5350,7 +5365,6 @@
       "killedAmount": 0
     }
   ],
-
   "EX_CONSTABLEBOT_RANGED": [
     {
       "skipCredits": true,
@@ -5370,7 +5384,6 @@
         "ConstableBot_0.png"
       ],
       "killedAmount": 0,
-
       "fireDelay": 500,
       "bulletType": "BULLET_SM1"
     }
@@ -5395,7 +5408,6 @@
       "frameNames": [
         "TDCCC_0.png"
       ],
-
       "fireDelay": 500,
       "bulletType": "BULLET_SM1"
     }
@@ -5418,7 +5430,6 @@
       "frameNames": [
         "BountyHunter_0.png"
       ],
-
       "fireDelay": 500,
       "bulletType": "BULLET_SM1"
     }
@@ -5440,18 +5451,16 @@
       "passThroughWalls": false,
       "idleFrameCount": 4,
       "end": 22,
-      "scale" : 1.5,
+      "scale": 1.5,
       "textureName": "enemies2023",
       "frameNames": [
         "bigRoboto_0.png"
       ],
       "killedAmount": 0,
-
       "fireDelay": 250,
       "bulletType": "BULLET_SM2"
     }
   ],
-  
   "BULLET_SM1": [
     {
       "skipCredits": true,
@@ -5500,7 +5509,6 @@
       "killedAmount": 0
     }
   ],
-
   "EX_RACING_BAT3": [
     {
       "skipCredits": true,
@@ -5567,7 +5575,6 @@
       "killedAmount": 0
     }
   ],
-
   "EX_RACING_FISHMAN_1": [
     {
       "skipCredits": true,
@@ -5669,7 +5676,6 @@
       "killedAmount": 0
     }
   ],
-
   "EX_RACING_PILE1": [
     {
       "skipCredits": true,
@@ -5797,7 +5803,8 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0, 1
+        0,
+        1
       ],
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -5833,7 +5840,7 @@
     {
       "skipCredits": true,
       "level": 1,
-      "maxHp": 3.0,
+      "maxHp": 3,
       "speed": 200,
       "power": 3,
       "knockback": 0.6,
@@ -5875,7 +5882,6 @@
       "killedAmount": 0
     }
   ],
-  
   "EX_CART_REAPER": [
     {
       "skipCredits": true,
@@ -6030,7 +6036,6 @@
       "killedAmount": 0,
       "scale": 1.5,
       "xp": 0,
-      
       "end": 13,
       "idleFrameCount": 4,
       "textureName": "enemiesM",
@@ -6039,8 +6044,6 @@
       ]
     }
   ],
-
-  
   "EX_BATS_COUNTER": [
     {
       "enemyType": "EX_BATS_COUNTER",
@@ -6547,7 +6550,6 @@
       "killedAmount": 0
     }
   ],
-  
   "EX_PHALIEN_XL": [
     {
       "enemyType": "EX_PHALIEN_XL",
@@ -6571,7 +6573,10 @@
       ],
       "bInclude": true,
       "bHighlight": false,
-      "bVariants" : ["EX_PHALIEN_L", "EX_PHALIEN"],
+      "bVariants": [
+        "EX_PHALIEN_L",
+        "EX_PHALIEN"
+      ],
       "killedAmount": 0
     }
   ],
@@ -6687,7 +6692,6 @@
       ]
     }
   ],
-  
   "EX_CUBE_HITS_STATIC": [
     {
       "enemyType": "EX_CUBE_HITS_STATIC",
@@ -6902,10 +6906,14 @@
       "bInclude": true,
       "bIncludeColorVariants": true,
       "bHighlight": false,
-      "bVariants" : ["EX_CUBE_HITS_STATIC", "EX_CUBE_HITS_AGGRO","EX_CUBE_HITS_MEDUSA", "EX_CUBE_HITS_FACING"]
+      "bVariants": [
+        "EX_CUBE_HITS_STATIC",
+        "EX_CUBE_HITS_AGGRO",
+        "EX_CUBE_HITS_MEDUSA",
+        "EX_CUBE_HITS_FACING"
+      ]
     }
   ],
-  
   "PILE4": [
     {
       "level": 3,
@@ -7480,7 +7488,9 @@
       "end": 16,
       "textureName": "enemies2",
       "idleFrameCount": 5,
-      "frameNames": ["Plant_0.png"],
+      "frameNames": [
+        "Plant_0.png"
+      ],
       "bName": "Garlic",
       "bDesc": "The ghastly consequences of experimental pesticide. Despite the name, they are not related to traditional garlic, making them useless as wards against the surely inevitable appearance of a vampire.",
       "bPlaces": [
@@ -11495,7 +11505,14 @@
       ],
       "tint": 13369344,
       "materialType": "DefaultSpriteTintHue",
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["DEVIL_HP_3", "DEVIL_HP_4", "DEVIL_HP_5",
+        "DEVIL_HP_8", "DEVIL_HP_9", "DEVIL_HP_10", "DEVIL_HP_12"]
     }
   ],
   "DEVIL_HP_2": [
@@ -11655,7 +11672,13 @@
       "frameNames": [
         "ImperialPulp_0"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["EX_IMPERIALPULP"]
     }
   ],
   "DEVIL_HP_8": [
@@ -11761,7 +11784,13 @@
       "frameNames": [
         "hellpup_0"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["EX_HELLPUP"]
     }
   ],
   "DEVIL_HP_12": [
@@ -11813,7 +11842,13 @@
       "frameNames": [
         "fisherHead_0"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
     }
   ],
   "DEVIL_HP_14": [
@@ -11839,7 +11874,13 @@
       "frameNames": [
         "ogreHead_0"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["EX_BOSS_OGREHEAD"]
     }
   ],
   "DEVIL_HP_15": [
@@ -11865,7 +11906,13 @@
       "frameNames": [
         "trueDevil_0"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["EX_TRUEDEVIL"]
     }
   ],
   "EX_TRUEDEVIL": [
@@ -12007,7 +12054,8 @@
       "maxKnockback": 1,
       "deathKB": 1,
       "skills": [
-        0, 1
+        0,
+        1
       ],
       "passThroughWalls": true,
       "idleFrameCount": 4,
@@ -12016,7 +12064,13 @@
       "frameNames": [
         "batGoblinG_0"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["EX_BATGOBLIN2"]
     }
   ],
   "EX_BATGOBLIN2": [
@@ -12032,7 +12086,8 @@
       "maxKnockback": 1,
       "deathKB": 1,
       "skills": [
-        0, 1
+        0,
+        1
       ],
       "passThroughWalls": true,
       "idleFrameCount": 4,
@@ -12068,7 +12123,13 @@
       "idleFrameCount": 30,
       "frameNames": [
         "eye_0.png"
-      ]
+      ],
+      "bName": "---",
+      "bDesc": "---",
+      "bPlaces": ["DEVILROOM"],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
     }
   ]
 }

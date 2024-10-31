@@ -20,7 +20,12 @@
       "sideBBGM": "BMG_Moonspell",
       "validForCharcaterData": true,
       "cff": "MIANG",
-      "zoom": 0.17,
+      "zoom": 1,
+      "preload": {
+        "textures": [
+          "MapMS"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,

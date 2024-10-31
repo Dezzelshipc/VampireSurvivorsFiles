@@ -1,0 +1,2186 @@
+{
+  "TP_ACID1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ACID2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ALCHEMYWHIP1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_ALCHEMYWHIP2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_ALUCARDSPEAR1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_ALUCARDSPEAR2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_ALUCARDSHIELD" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ALUCARDSWORD1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_ALUCARDSWORD2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_MARTIALWHIP1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_MARTIALWHIP2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_BWAKA1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_BWAKA2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_CHAUVE1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_CHAUVE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_CONFODERE1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_CONFODERE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_CONFODERE3" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_CUSTOS1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_CUSTOS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_CUSTOS3" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    }
+  ],
+  "TP_CUSTOS4" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_DARK1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_DARK2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_DISCUS1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_DISCUS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_DOMINUS1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_DOMINUS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "TP_DOMINUS3" :  [
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    }
+  ],
+  "TP_EARTH1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_EARTH2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ELEC1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ELEC2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ENERGY1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ENERGY2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_EVIL1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_EVIL2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_FIRE1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_FIRE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_GUN1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "TP_GUN2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "TP_HOLY1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_HOLYWHIP1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_HOLYWHIP2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_ICE1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_ICE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_IRONBALL1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_IRONBALL2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_JAVELIN1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_JAVELIN2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_LEMURIA1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_LEMURIA2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_LIGHT1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_LIGHT2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_MACE1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.01,
+      "max": 1
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_MACE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.01,
+      "max": 1
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_PLATINUMWHIP1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_PLATINUMWHIP2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_RAPIDUS1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_RAPIDUS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_RPG1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_RPG2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_SACREDBEASTS1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SACREDBEASTS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SHIELD1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SHIELD2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SHURIKEN1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "TP_SHURIKEN2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "TP_SLASH1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_SLASH2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_SONICWHIP1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SONICWHIP2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SPITE1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_SPITE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_STARFLAIL1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_STARFLAIL2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_UNIVERSITAS" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_DRAGONWATER1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_DRAGONWATER2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_WIND1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_WIND2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_WINDWHIP1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_WINDWHIP2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_WINEGLASS1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_WINEGLASS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  
+  "TP_AURABLAST_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_DARKRIFT" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_ELEVATOR_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_GEARS_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_GOTH_MISSILE" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_GRANDCROSS" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_HEADS_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_HYDROSTORM" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_NEUTRON_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_PENDULUM_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SAVROG_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SOULSTEAL_WEAPON" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_SPIRITTORNADO" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_VALMANWAY" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_ICEBRAND" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+	{
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SWORD_BROTHERS" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    }
+  ],
+  "TP_SUMMON_SPIRIT" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ]
+}

@@ -1,1 +1,2604 @@
-{"FS_GOBLIN":[{"level":1,"maxHp":0.75,"speed":140,"power":5,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":1,"idleFrameCount":4,"end":12,"killedAmount":0,"textureName":"foscariChars","frameNames":["Goblin_0.png"],"bName":"Chompo","bDesc":"Yep, it's a goblin. Also comes in red at some point.","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":["FS_GOBLIN_RED"]}],"FS_GOBLIN_RED":[{"level":10,"maxHp":0.4,"speed":200,"power":3,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":2,"skills":[0],"tint":16746632,"idleFrameCount":4,"end":12,"killedAmount":0,"textureName":"foscariChars","frameNames":["Goblin_0.png"]}],"FS_GEF":[{"level":3,"maxHp":1.5,"speed":140,"power":3,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":2,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Gef_0.png"],"bName":"Ceffoose","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_SALMON_DUSA":[{"level":1,"maxHp":0.1,"speed":240,"maxSpeed":340,"power":1,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":1,"passThroughWalls":true,"skills":[3,1],"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Salmon_0.png"]}],"FS_SALMON":[{"level":6,"maxHp":1,"speed":200,"power":5,"knockback":0,"maxKnockback":3,"deathKB":0,"xp":1.5,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Salmon_0.png"],"bName":"Wiseparke","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_SALMON2":[{"level":8,"maxHp":2,"speed":200,"power":5,"knockback":0,"maxKnockback":3,"deathKB":0,"killedAmount":0,"xp":1.5,"scale":1.2,"idleFrameCount":4,"end":18,"textureName":"foscariChars","frameNames":["Salmon_0.png","pSalmon_0.png"]}],"FS_SALMON_PINK":[{"level":9,"maxHp":3,"speed":200,"power":5,"knockback":0,"maxKnockback":3,"deathKB":0,"killedAmount":0,"xp":1.5,"idleFrameCount":4,"end":18,"textureName":"foscariChars","frameNames":["pSalmon_0.png"]}],"FS_SELKIE":[{"level":10,"maxHp":0.4,"speed":200,"power":3,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":2,"skills":[0],"idleFrameCount":4,"end":13,"killedAmount":0,"textureName":"foscariChars","frameNames":["Selkie_0.png"],"bName":"Nutmeg","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_BOSS_SELKIE":[{"level":10,"maxHp":5,"speed":170,"power":10,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":30,"skills":[0],"scale":1.5,"idleFrameCount":4,"end":13,"killedAmount":0,"textureName":"foscariChars","frameNames":["Selkie_0.png"]}],"FS_WULVER":[{"level":11,"maxHp":15,"speed":100,"power":8,"knockback":0.2,"maxKnockback":3,"deathKB":2,"xp":2,"idleFrameCount":4,"end":13,"killedAmount":0,"textureName":"foscariChars","frameNames":["Wulver_0.png"],"bName":"Vulvio","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_BOSS_WULVER":[{"level":11,"maxHp":15,"speed":160,"power":20,"skills":[0],"res_Freeze":1.1,"knockback":0.5,"maxKnockback":1,"deathKB":2,"xp":30,"scale":1.5,"idleFrameCount":4,"end":13,"killedAmount":0,"textureName":"foscariChars","frameNames":["Wulver_0.png"]}],"FS_LAMB":[{"level":12,"maxHp":20,"speed":100,"power":1,"knockback":0,"maxKnockback":1,"deathKB":2,"xp":2,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Lamb_0.png"],"bName":"Lammuga","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_BOSS_LAMB":[{"level":12,"maxHp":15,"speed":200,"power":30,"skills":[0],"knockback":0,"maxKnockback":1,"deathKB":2,"xp":30,"scale":1.5,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Lamb_0.png"]}],"FS_HTROW":[{"level":1,"maxHp":1,"speed":140,"power":5,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":1,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["TrowH_0.png"],"bName":"Hill Trow","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_STROW":[{"level":1,"maxHp":7,"speed":100,"power":8,"knockback":0.3,"maxKnockback":3,"deathKB":1,"xp":2,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["TrowS_0.png"],"bName":"Sea Trow","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_CLOWN":[{"level":15,"maxHp":22,"speed":130,"power":14,"knockback":0.8,"maxKnockback":3,"deathKB":1,"xp":3,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Clown_0.png"],"bName":"Sam the Sundown Clown","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_BOSS_CLOWN":[{"level":15,"maxHp":4,"speed":170,"power":10,"skills":[0],"knockback":0.8,"maxKnockback":3,"deathKB":1,"xp":30,"scale":1.5,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Clown_0.png"]}],"FS_CLOWN_SWARM":[{"level":15,"maxHp":22,"speed":600,"power":8,"knockback":0.1,"maxKnockback":1,"deathKB":1,"xp":3,"skills":[1],"res_Defang":1,"passThroughWalls":false,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Clown_0.png"]}],"FS_CAKE":[{"level":1,"maxHp":1,"speed":140,"power":1,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":1,"skills":[1,0],"idleFrameCount":6,"end":29,"killedAmount":0,"textureName":"foscariChars","frameNames":["Cake_0.png"],"bName":"Sammy","bDesc":"The caterpillar cake from Vampire Survivors™. You're legally obligated to have one as your birthday cake if you're 30+ yo. Keep away from children. Not edible.","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":true,"bVariants":[]}],"FS_BROWN":[{"level":1,"maxHp":0.1,"speed":160,"maxSpeed":200,"power":2,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":1,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Brownie_0.png"],"bName":"Brownie","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_GREEN":[{"level":23,"maxHp":50,"speed":180,"power":20,"knockback":0.5,"maxKnockback":3,"deathKB":1,"xp":3,"idleFrameCount":5,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["GreenKnight_0.png"],"bName":"Green Knight","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":["FS_GREEN_RED","FS_BOSS_GREEN_GREEN"]}],"FS_GREEN_RED":[{"level":22,"maxHp":50,"speed":100,"power":20,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":3,"idleFrameCount":5,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["rGreenKnight_0.png"]}],"FS_BOSS_GREEN_GREEN":[{"level":23,"maxHp":20,"speed":180,"power":20,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":1,"xp":30,"scale":1.5,"idleFrameCount":5,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["gGreenKnight_0.png"]}],"FS_BOSS_GREEN_28":[{"level":28,"maxHp":8,"speed":120,"power":20,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":1,"xp":25,"scale":1.5,"idleFrameCount":5,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["GreenKnight_0.png"]}],"FS_BOSS_GREEN_RED_28":[{"level":28,"maxHp":8,"speed":120,"power":20,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":1,"xp":25,"scale":1.5,"idleFrameCount":5,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["rGreenKnight_0.png"]}],"FS_BOSS_GREEN_GREEN_28":[{"level":28,"maxHp":8,"speed":120,"power":20,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":1,"xp":25,"scale":1.5,"idleFrameCount":5,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["gGreenKnight_0.png"]}],"FS_MUSH_PATROL":[{"level":6,"maxHp":40,"speed":140,"power":10,"knockback":0,"maxKnockback":0,"deathKB":0,"killedAmount":0,"xp":2.5,"end":18,"patrolDuration":3000,"textureName":"foscariChars","idleFrameCount":4,"frameNames":["Mush_0.png"]}],"FS_AILLEN":[{"level":15,"maxHp":22,"speed":130,"power":14,"knockback":0.4,"maxKnockback":3,"deathKB":1,"xp":3,"idleFrameCount":4,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["Aillen_0.png"],"bName":"Crocifriggitore","bDesc":"Aillen","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_DUERG":[{"level":4,"maxHp":1.3,"speed":160,"maxSpeed":200,"power":4,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":1,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Duergar_0.png"],"bName":"Notadam","bDesc":"Duergar","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_GLORY":[{"level":29,"maxHp":90,"speed":190,"power":15,"knockback":0.1,"maxKnockback":2,"deathKB":1,"passThroughWalls":true,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Glory_0.png"],"bName":"Hand of Glory","bDesc":"Only appears at minute 29 to try doing a spook.","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_MARI":[{"level":29,"maxHp":90,"speed":140,"power":15,"knockback":0.1,"maxKnockback":2,"deathKB":1,"idleFrameCount":4,"end":16,"killedAmount":0,"textureName":"foscariChars","frameNames":["Mari_0.png"],"passThroughWalls":true,"bName":"Maronna","bDesc":"Only appears at minute 29 to try doing a spook.","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_NJUGG":[{"level":13,"maxHp":7,"speed":160,"power":5,"knockback":0.3,"maxKnockback":3,"deathKB":1,"xp":2,"idleFrameCount":4,"end":14,"killedAmount":0,"textureName":"foscariChars","frameNames":["Njuggles_0.png"],"bName":"Njuggles","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":["FS_NJUGGB"]}],"FS_NJUGGB":[{"level":13,"maxHp":7,"speed":160,"power":5,"knockback":0.3,"maxKnockback":3,"deathKB":1,"xp":2,"passThroughWalls":true,"idleFrameCount":4,"end":14,"killedAmount":0,"textureName":"foscariChars","frameNames":["NjugglesB_0.png"]}],"FS_BOSS_NJUGGLES":[{"level":13,"maxHp":5,"speed":170,"power":10,"knockback":0.3,"maxKnockback":3,"deathKB":1,"xp":30,"skills":[0],"idleFrameCount":4,"end":14,"killedAmount":0,"textureName":"foscariChars","frameNames":["Njuggles_0.png"]}],"FS_BOSS_WORM":[{"maxHp":20,"speed":160,"power":30,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":2,"xp":30,"idleFrameCount":4,"end":21,"killedAmount":0,"textureName":"foscariChars","frameNames":["Worm_0.png"]}],"FS_BOSS_WORMB":[{"maxHp":18,"speed":180,"power":30,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":2,"xp":30,"passThroughWalls":true,"idleFrameCount":4,"end":21,"killedAmount":0,"textureName":"foscariChars","frameNames":["WormB_0.png"]}],"FS_HAG":[{"level":27,"maxHp":70,"speed":140,"power":15,"knockback":0,"maxKnockback":2,"deathKB":1,"killedAmount":0,"xp":3,"idleFrameCount":4,"end":20,"textureName":"enemies","frameNames":["hag_0.png"],"bName":"Average Hag","bDesc":"","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_MUSH_HP":[{"level":1,"maxHp":5,"speed":140,"power":10,"skills":[0],"knockback":0.1,"maxKnockback":2,"deathKB":1,"killedAmount":0,"xp":5,"scale":1.5,"end":18,"textureName":"foscariChars","idleFrameCount":4,"frameNames":["Mush_0.png"],"bName":"Fungoman","bDesc":"Used as a special defender type.","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":["FS_MUSH_PATROL"]}],"FS_XLMANTIS_HP":[{"level":10,"maxHp":4,"speed":80,"power":20,"knockback":0,"maxKnockback":3,"deathKB":0,"killedAmount":0,"skills":[0],"xp":3,"end":29,"textureName":"enemies","idleFrameCount":4,"frameNames":["XLMantis_0.png"]}],"FS_XLFLOWER_HP":[{"level":10,"maxHp":5,"speed":80,"power":20,"knockback":0,"maxKnockback":3,"deathKB":0,"killedAmount":0,"skills":[0],"xp":10,"end":29,"textureName":"enemies","idleFrameCount":4,"frameNames":["XLFlower1_0.png"]}],"FS_COCKATRICE_BOSS1":[{"level":15,"maxHp":4,"speed":170,"power":10,"skills":[0],"knockback":0.8,"maxKnockback":3,"deathKB":1,"xp":3,"end":29,"textureName":"enemies","idleFrameCount":4,"frameNames":["XLCockatrice1_0.png"]}],"FS_COCKATRICE_BOSS2":[{"level":15,"maxHp":4,"speed":170,"power":10,"skills":[0],"knockback":0.8,"maxKnockback":3,"deathKB":1,"xp":3,"scale":1.5,"end":29,"textureName":"enemies","idleFrameCount":4,"frameNames":["XLCockatrice1_0.png"]}],"FS_COCKATRICE_BOSS3":[{"level":15,"maxHp":4,"speed":170,"power":10,"skills":[0],"knockback":0.8,"maxKnockback":3,"deathKB":1,"xp":3,"scale":1.5,"tint":16729343,"end":29,"textureName":"enemies","idleFrameCount":4,"frameNames":["XLCockatrice1_0.png"]}],"FS_GGHOST":[{"level":25,"maxHp":0.5,"speed":160,"power":5,"res_Freeze":2,"res_Knockback":1,"res_Debuffs":1,"knockback":0,"maxKnockback":1,"deathKB":1,"xp":1,"alpha":0.5,"skills":[0],"idleFrameCount":4,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["gGhost_0.png"],"bName":"Ghostly Apparition","bDesc":"Exclusively summoned by the Avatar of Gaea.","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":["FS_GGGHOST"]}],"FS_GGGHOST":[{"level":25,"maxHp":0.5,"speed":200,"power":5,"res_Freeze":2,"res_Knockback":1,"res_Debuffs":1,"knockback":0,"maxKnockback":1,"deathKB":1,"xp":1,"alpha":0.5,"skills":[0],"idleFrameCount":4,"end":15,"killedAmount":0,"textureName":"foscariChars","frameNames":["ggGhost_0.png"],"passThroughWalls":true}],"FS_BOSS_AGAEA":[{"level":100,"maxHp":0.75,"speed":140,"power":5,"res_Freeze":2,"res_Knockback":1,"res_Debuffs":1,"knockback":0,"maxKnockback":1,"deathKB":1,"xp":1,"idleFrameCount":4,"end":60,"killedAmount":0,"textureName":"foscariChars","frameNames":["AGaea_0.png"],"passThroughWalls":true,"bName":"Avatar of Gaea","bDesc":"The embodiment of the benevolent aspects of nature. Allegedly. Boss of the fairytale part of the DLC.","bPlaces":["FOSCARI"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_CAULD":[{"level":1,"maxHp":0.5,"speed":140,"power":4,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":1,"idleFrameCount":4,"end":20,"killedAmount":0,"textureName":"foscariChars","frameNames":["Cauld_0.png"],"bName":"Cauld","bDesc":"","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":[]}],"REDUSA":[{"level":2,"maxHp":1.5,"speed":100,"power":6,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":2.2,"frameNames":["Redusa_0.png"],"end":13,"textureName":"enemiesM","idleFrameCount":4,"killedAmount":0,"bName":"Redusa Head","bDesc":"","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":[]}],"RELLYFISH":[{"level":4,"maxHp":14,"speed":200,"power":6,"knockback":0.2,"skills":[1],"passThroughWalls":true,"maxKnockback":3,"deathKB":2,"xp":2.5,"frameNames":["JellyRed_0.png"],"end":16,"textureName":"enemiesM","idleFrameCount":4,"killedAmount":0,"bName":"Rellyfish","bDesc":"Like a jellyfish, but will be red.","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":[]}],"RELLYFISH_SWARM":[{"maxHp":18,"speed":150,"power":10,"skills":[1],"res_Defang":1,"knockback":0.2,"maxKnockback":3,"deathKB":2,"xp":2.5,"frameNames":["JellyRed_0.png"],"end":16,"textureName":"enemiesM","idleFrameCount":4,"killedAmount":0}],"HEMO":[{"level":1,"maxHp":0.5,"speed":140,"power":5,"knockback":1,"maxKnockback":3,"deathKB":1,"alpha":0.85,"xp":1,"idleFrameCount":4,"killedAmount":0,"textureName":"enemiesM","end":24,"frameNames":["Hemo1_0.png"],"bName":"Blood Moss","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":["HEMO2"]}],"HEMO2":[{"level":5,"maxHp":1,"speed":140,"power":5,"knockback":1,"maxKnockback":3,"deathKB":1,"alpha":0.85,"xp":2,"idleFrameCount":4,"killedAmount":0,"textureName":"enemiesM","end":24,"frameNames":["Hemo2_0.png"]}],"BOSS_XLBLINDER":[{"level":20,"maxHp":50,"speed":150,"power":25,"skills":[0],"res_Freeze":2,"res_Knockback":1,"res_Debuffs":1,"res_Defang":1,"knockback":0,"maxKnockback":0,"deathKB":0,"killedAmount":0,"scale":1.5,"xp":30,"end":13,"idleFrameCount":4,"textureName":"enemiesM","frameNames":["Sleeper_0.png"],"bName":"The Blinder","bDesc":"It's supposed to cast a veil of darkness around you if it touches you, so that you wouldn't be able to see much, but your screen is probably already full of particles and effects, so we didn't bother.","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":["FS_BLINDER_PATROL"]}],"FS_BLINDER_PATROL":[{"level":10,"maxHp":5,"speed":140,"power":10,"skills":[0],"res_Freeze":2,"res_Knockback":1,"res_Debuffs":1,"res_Defang":1,"knockback":0,"maxKnockback":0,"deathKB":0,"killedAmount":0,"xp":5,"patrolDuration":5000,"end":13,"idleFrameCount":4,"textureName":"enemiesM","frameNames":["Sleeper_0.png"]}],"FS_BOSS_REDUSA":[{"level":10,"maxHp":10,"speed":180,"power":20,"skills":[0],"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":30,"tint":16764108,"frameNames":["Redusa_0.png"],"end":13,"textureName":"enemiesM","idleFrameCount":4}],"FS_BOSS_FLAMINGSKULL":[{"level":10,"maxHp":10,"speed":180,"power":20,"skills":[0],"res_Rosary":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"alpha":0.65,"xp":30,"idleFrameCount":4,"end":15,"textureName":"foscariChars","frameNames":["bossFlamingSkull_0.png"]}],"FS_BOSS_MEATY":[{"level":10,"maxHp":10,"speed":180,"power":20,"skills":[0],"res_Rosary":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":4,"end":17,"textureName":"foscariChars","frameNames":["Meatball_0.png"]}],"FS_BOSS_MEATBALL":[{"level":10,"maxHp":10,"speed":180,"power":20,"skills":[0],"res_Rosary":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":4,"end":16,"textureName":"foscariChars","frameNames":["bossUskull_0.png"]}],"FS_BOSS_EDNA":[{"level":10,"maxHp":10,"speed":180,"power":20,"skills":[0],"res_Rosary":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":4,"end":18,"textureName":"foscariChars","frameNames":["bossEdna_0.png"]}],"FS_BOSS_HORWORM":[{"level":10,"maxHp":20,"speed":180,"power":20,"skills":[0],"res_Freeze":1.1,"res_Rosary":1,"res_Debuffs":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":5,"end":18,"textureName":"foscariChars","frameNames":["bossHworm_0.png"]}],"FS_BOSS_HORMARI":[{"level":10,"maxHp":20,"speed":180,"power":20,"skills":[0],"res_Freeze":1.1,"res_Rosary":1,"res_Debuffs":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":5,"end":15,"textureName":"foscariChars","frameNames":["bossHmari_0.png"]}],"FS_BOSS_HORCAULD":[{"level":10,"maxHp":20,"speed":180,"power":20,"skills":[0],"res_Freeze":1.1,"res_Rosary":1,"res_Debuffs":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":5,"end":20,"textureName":"foscariChars","frameNames":["bossHcauld_0.png"]}],"FS_BOSS_MEATY_29":[{"level":30,"maxHp":8,"speed":120,"power":20,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"xp":25,"idleFrameCount":4,"end":17,"textureName":"foscariChars","frameNames":["bossMeatball_0.png"]}],"FS_BOSS_MEATBALL_29":[{"level":30,"maxHp":8,"speed":120,"power":20,"skills":[0],"res_Freeze":1,"knockback":0,"maxKnockback":1,"deathKB":1,"killedAmount":0,"scale":1.5,"idleFrameCount":4,"end":16,"textureName":"foscariChars","frameNames":["bossUskull_0.png"]}],"FS_ROTGHOUL":[{"level":5,"maxHp":12,"speed":100,"power":7,"knockback":0,"maxKnockback":1,"deathKB":2,"xp":4,"idleFrameCount":4,"end":22,"killedAmount":0,"textureName":"foscariChars","frameNames":["Ugul_0.png"],"bName":"Rotting Ghoul","bDesc":"","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":true,"bVariants":[]}],"FS_ROTGHOUL_SWARM":[{"level":5,"maxHp":25,"speed":600,"power":9,"res_Defang":1,"knockback":0.5,"maxKnockback":3,"deathKB":3,"xp":2.25,"passThroughWalls":false,"skills":[1],"idleFrameCount":4,"end":22,"killedAmount":0,"textureName":"foscariChars","frameNames":["Ugul_0.png"]}],"FS_FLAMINGSKULL":[{"level":7,"maxHp":6,"speed":100,"power":8,"knockback":1,"maxKnockback":3,"deathKB":2,"killedAmount":0,"alpha":0.65,"xp":2.5,"idleFrameCount":4,"end":15,"textureName":"foscariChars","frameNames":["FlamingSkull_0.png"],"bName":"Burning Skull","bDesc":"","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_WORM":[{"level":8,"maxHp":13,"speed":200,"power":8,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":4,"idleFrameCount":4,"end":21,"killedAmount":0,"textureName":"foscariChars","frameNames":["Worm_0.png"],"bName":"Missing Church","bDesc":"","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":["FS_WORM2"]}],"FS_WORM2":[{"level":12,"maxHp":20,"speed":200,"power":9,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":4,"passThroughWalls":true,"idleFrameCount":4,"end":21,"killedAmount":0,"textureName":"foscariChars","frameNames":["WormB_0.png"]}],"FS_SNAK1":[{"level":4,"maxHp":1.5,"speed":100,"power":10,"knockback":1,"maxKnockback":3,"deathKB":5,"killedAmount":0,"xp":2,"end":11,"idleFrameCount":6,"textureName":"foscariChars","frameNames":["snakeB_0.png"],"bName":"Snek","bDesc":"I'm pretty sure we already had a bestiary entry for plain snakes, but they had some fancy name. These tantacles of darkness are instead Sneks.","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_SNAK2":[{"level":4,"maxHp":1.5,"speed":100,"power":10,"knockback":1,"maxKnockback":3,"deathKB":5,"killedAmount":0,"xp":2,"end":11,"idleFrameCount":6,"textureName":"foscariChars","frameNames":["snakeB_0.png"]}],"FS_SNAK3":[{"level":4,"maxHp":1.5,"speed":100,"power":10,"knockback":1,"maxKnockback":3,"deathKB":5,"killedAmount":0,"xp":2,"end":11,"idleFrameCount":6,"textureName":"foscariChars","frameNames":["snakeB_0.png"]}],"FS_SNAK4":[{"level":4,"maxHp":1.5,"speed":100,"power":10,"knockback":1,"maxKnockback":3,"deathKB":5,"killedAmount":0,"xp":2,"end":11,"idleFrameCount":6,"textureName":"foscariChars","frameNames":["snakeB_0.png"]}],"FS_SNAK_SWARM":[{"level":4,"maxHp":2.5,"speed":700,"power":6,"knockback":0,"maxKnockback":3,"deathKB":1,"killedAmount":0,"xp":2,"skills":[1],"res_Defang":1,"passThroughWalls":true,"idleFrameCount":6,"end":11,"textureName":"foscariChars","frameNames":["snakeB_0.png"]}],"FS_SHOOTER1":[{"level":6,"maxHp":2.5,"speed":0,"power":10,"knockback":0,"maxKnockback":0,"deathKB":1,"xp":1.5,"fireDelay":2000,"bulletType":"BULLET_1","frameNames":["Shooter_0.png"],"end":15,"textureName":"foscariChars","idleFrameCount":4,"killedAmount":0,"bName":"Lost Head","bDesc":"","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_SHOOTER2":[{"level":10,"maxHp":15,"speed":0,"power":10,"knockback":0,"maxKnockback":0,"deathKB":1,"xp":1.75,"fireDelay":1500,"bulletType":"BULLET_2","frameNames":["Shooter_0.png"],"end":15,"textureName":"foscariChars","idleFrameCount":4,"killedAmount":0}],"FS_MEATBALL":[{"level":9,"maxHp":25,"speed":130,"power":10,"knockback":0.5,"maxKnockback":3,"deathKB":3,"xp":2.75,"idleFrameCount":4,"end":16,"killedAmount":0,"textureName":"foscariChars","frameNames":["Uskull_0.png"],"bName":"Meatball","bDesc":"","bPlaces":["FOSCARI2"],"bIndex":0,"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_MEATY":[{"level":14,"maxHp":15,"speed":100,"power":8,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":3,"idleFrameCount":4,"end":17,"killedAmount":0,"textureName":"foscariChars","frameNames":["Meatball_0.png"],"bName":"Frozen Meatball","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_EDNA":[{"level":14,"maxHp":30,"speed":100,"power":11,"knockback":0,"maxKnockback":1,"deathKB":2,"xp":3.5,"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Edna_0.png"],"bName":"Edna","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_HORCAULD":[{"level":15,"maxHp":30,"speed":140,"power":15,"knockback":0,"maxKnockback":2,"deathKB":2,"killedAmount":0,"xp":2.5,"end":20,"idleFrameCount":5,"textureName":"foscariChars","frameNames":["Hcauld_0.png"],"bName":"Cold Cauld","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_HORWORM":[{"level":16,"maxHp":30,"speed":160,"power":15,"knockback":1,"maxKnockback":2,"deathKB":0,"killedAmount":0,"xp":3,"idleFrameCount":5,"end":18,"textureName":"foscariChars","frameNames":["Hworm_0.png"],"bName":"Well Dweller","bDesc":"Well well well.","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_HORNJUGG":[{"level":17,"maxHp":25,"speed":280,"power":10,"knockback":0.5,"maxKnockback":3,"deathKB":3,"xp":2.75,"idleFrameCount":5,"end":14,"killedAmount":0,"textureName":"foscariChars","frameNames":["Hnjuggles_0.png"],"bName":"Wet Njuggles","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_HORAILLEN":[{"level":19,"maxHp":50,"speed":150,"power":15,"knockback":0,"maxKnockback":2,"deathKB":0,"killedAmount":0,"xp":3,"end":14,"idleFrameCount":4,"textureName":"foscariChars","frameNames":["Haillen_0.png"],"bName":"Crocifriggitone","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_HORDUERG":[{"level":19,"maxHp":18,"speed":150,"power":8,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":2.5,"idleFrameCount":5,"end":13,"killedAmount":0,"textureName":"foscariChars","frameNames":["Hduergar_0.png"],"bName":"Still Notadam","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_HORGLORY":[{"level":7,"maxHp":70,"speed":140,"power":15,"knockback":0,"maxKnockback":2,"deathKB":0,"killedAmount":0,"xp":3,"idleFrameCount":5,"end":16,"textureName":"foscariChars","frameNames":["Hglory_0.png"],"bName":"Glove of Glory","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_HORMARI":[{"level":7,"maxHp":70,"speed":140,"power":20,"knockback":0,"maxKnockback":2,"deathKB":0,"killedAmount":0,"xp":3,"idleFrameCount":5,"end":15,"textureName":"foscariChars","frameNames":["Hmari_0.png"],"bName":"Maronna Meea","bDesc":"","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_FMBALOR":[{"level":25,"maxHp":70,"speed":140,"power":20,"res_Defang":1,"knockback":0,"maxKnockback":2,"deathKB":0,"killedAmount":0,"xp":3,"scale":1.5,"idleFrameCount":5,"end":15,"textureName":"foscariChars","frameNames":["Balor_0.png"]}],"FS_FMCETHLENN":[{"level":25,"maxHp":15,"speed":160,"power":20,"res_Defang":1,"skills":[0],"res_Freeze":1.1,"knockback":0.5,"maxKnockback":1,"deathKB":2,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":5,"end":15,"textureName":"foscariChars","frameNames":["Cethl_0.png"],"bName":"Fomorians","bDesc":"Invaders from yet another world. They look out of place even for our standards. They appear at minute 25 with an added 'glitch' effect in the stage to highlight something is more off than usual.","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":["FS_FMCONAND","FS_FMBALOR","FS_FMINDECH","FS_FMELATHA"]}],"FS_FMCONAND":[{"level":25,"maxHp":70,"speed":140,"power":20,"res_Defang":1,"knockback":0,"maxKnockback":2,"deathKB":0,"killedAmount":0,"xp":3,"idleFrameCount":5,"end":15,"textureName":"foscariChars","frameNames":["Cona_0.png"]}],"FS_FMELATHA":[{"level":25,"maxHp":15,"speed":160,"power":20,"res_Defang":1,"skills":[0],"res_Freeze":1.1,"knockback":0.5,"maxKnockback":1,"deathKB":2,"killedAmount":0,"scale":1.5,"xp":30,"idleFrameCount":5,"end":15,"textureName":"foscariChars","frameNames":["Elat_0.png"]}],"FS_FMINDECH":[{"level":25,"maxHp":70,"speed":140,"power":20,"res_Defang":1,"knockback":0,"maxKnockback":2,"deathKB":0,"killedAmount":0,"xp":3,"idleFrameCount":5,"end":15,"textureName":"foscariChars","frameNames":["Impe_0.png"]}],"FS_BOSS_JENEVIV":[{"level":100,"maxHp":300,"speed":170,"power":40,"skills":[0],"res_Freeze":2,"res_Knockback":1,"res_Debuffs":1,"res_Rosary":1,"res_Defang":1,"knockback":0,"maxKnockback":1,"deathKB":0,"xp":0,"idleFrameCount":5,"end":63,"killedAmount":0,"textureName":"foscariChars","frameNames":["Jeneviv_0.png"],"passThroughWalls":true,"bName":"Je-Ne-Viv","bDesc":"Could eat anything but the ground. Part human, part demon, part undead, part monster, part abomination, but definitely not a vampire. The true boss of the horror part of the DLC, will have some fancy cutscenes about reviving and devouring poor Eleanor.","bPlaces":["FOSCARI2"],"bInclude":true,"bHighlight":false,"bVariants":[]}],"FS_SNAKBOMB":[{"level":1,"maxHp":1.1,"speed":300,"power":3,"skills":[2,0],"knockback":1,"maxKnockback":3,"deathKB":1,"xp":0,"moreX":25,"moreY":60,"alpha":0.75,"end":11,"idleFrameCount":6,"killedAmount":0,"textureName":"foscariChars","frameNames":["snakeB_0.png"],"passThroughWalls":true}],"FS_SNAKSHIELD":[{"level":1,"maxHp":0.1,"speed":300,"power":0,"knockback":0,"maxKnockback":0,"deathKB":0,"xp":0,"scale":1.5,"shieldDuration":3000,"end":11,"idleFrameCount":6,"killedAmount":0,"textureName":"foscariChars","frameNames":["snakeB_0.png"],"passThroughWalls":true}],"FS_BROWN_HP":[{"level":1,"maxHp":0.1,"speed":160,"maxSpeed":200,"power":2,"knockback":1,"maxKnockback":3,"deathKB":1,"xp":1,"skills":[0],"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Brownie_0.png"]}],"FS_SALMON_HP":[{"level":6,"maxHp":1,"speed":200,"power":5,"knockback":0,"maxKnockback":3,"deathKB":0,"xp":1.5,"skills":[0],"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["Salmon_0.png"]}],"FS_NJUGGB_HP":[{"level":13,"maxHp":2,"speed":160,"power":5,"knockback":0.3,"maxKnockback":3,"deathKB":1,"xp":2,"passThroughWalls":true,"skills":[0],"idleFrameCount":4,"end":14,"killedAmount":0,"textureName":"foscariChars","frameNames":["NjugglesB_0.png"]}],"FS_STROW_HP":[{"level":13,"maxHp":2,"speed":100,"power":8,"knockback":0.3,"maxKnockback":3,"deathKB":1,"xp":2,"skills":[0],"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["TrowS_0.png"]}],"FS_HTROW_HP":[{"level":1,"maxHp":0.5,"speed":140,"power":5,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":1,"skills":[0],"idleFrameCount":4,"end":18,"killedAmount":0,"textureName":"foscariChars","frameNames":["TrowH_0.png"]}],"FS_CRATE_HP":[{"level":1,"maxHp":1,"speed":0,"power":0,"res_Defang":1,"knockback":0,"maxKnockback":0,"deathKB":0,"xp":0,"skills":[0],"killedAmount":0,"textureName":"enemiesM","end":13,"frameNames":["crate_0.png"]}],"FS_POT_HP":[{"level":1,"maxHp":2,"speed":0,"power":0,"res_Defang":1,"knockback":0,"maxKnockback":0,"deathKB":0,"xp":5,"killedAmount":0,"textureName":"enemiesM","end":13,"frameNames":["pot_0.png"]}],"FS_ANFORA_HP":[{"level":1,"maxHp":2,"speed":0,"power":0,"res_Defang":1,"knockback":0,"maxKnockback":0,"deathKB":0,"xp":5,"alpha":0.9,"tint":8947882,"killedAmount":0,"textureName":"enemiesM","end":29,"frameNames":["H1_0.png","H2_0.png"]}],"FS_FLOWER":[{"level":1,"maxHp":2,"speed":140,"power":5,"knockback":1,"maxKnockback":3,"deathKB":2,"xp":1,"killedAmount":0,"end":29,"textureName":"enemies","idleFrameCount":4,"frameNames":["Flower1_0.png","Flower2_0.png"]}]}
+{
+  "FS_GOBLIN": [
+    {
+      "level": 1,
+      "maxHp": 0.75,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "end": 12,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Goblin_0.png"
+      ],
+      "bName": "Chompo",
+      "bDesc": "Yep, it's a goblin. Also comes in red at some point.",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_GOBLIN_RED"
+      ]
+    }
+  ],
+  "FS_GOBLIN_RED": [
+    {
+      "level": 10,
+      "maxHp": 0.4,
+      "speed": 200,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        0
+      ],
+      "tint": 16746632,
+      "idleFrameCount": 4,
+      "end": 12,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Goblin_0.png"
+      ]
+    }
+  ],
+  "FS_GEF": [
+    {
+      "level": 3,
+      "maxHp": 1.5,
+      "speed": 140,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Gef_0.png"
+      ],
+      "bName": "Ceffoose",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_SALMON_DUSA": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 240,
+      "maxSpeed": 340,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "passThroughWalls": true,
+      "skills": [
+        3,
+        1
+      ],
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Salmon_0.png"
+      ]
+    }
+  ],
+  "FS_SALMON": [
+    {
+      "level": 6,
+      "maxHp": 1,
+      "speed": 200,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 1.5,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Salmon_0.png"
+      ],
+      "bName": "Wiseparke",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_SALMON2": [
+    {
+      "level": 8,
+      "maxHp": 2,
+      "speed": 200,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "scale": 1.2,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Salmon_0.png",
+        "pSalmon_0.png"
+      ]
+    }
+  ],
+  "FS_SALMON_PINK": [
+    {
+      "level": 9,
+      "maxHp": 3,
+      "speed": 200,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "pSalmon_0.png"
+      ]
+    }
+  ],
+  "FS_SELKIE": [
+    {
+      "level": 10,
+      "maxHp": 0.4,
+      "speed": 200,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 13,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Selkie_0.png"
+      ],
+      "bName": "Nutmeg",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_BOSS_SELKIE": [
+    {
+      "level": 10,
+      "maxHp": 5,
+      "speed": 170,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 30,
+      "skills": [
+        0
+      ],
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 13,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Selkie_0.png"
+      ]
+    }
+  ],
+  "FS_WULVER": [
+    {
+      "level": 11,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 8,
+      "knockback": 0.2,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "end": 13,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Wulver_0.png"
+      ],
+      "bName": "Vulvio",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_BOSS_WULVER": [
+    {
+      "level": 11,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 30,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 13,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Wulver_0.png"
+      ]
+    }
+  ],
+  "FS_LAMB": [
+    {
+      "level": 12,
+      "maxHp": 20,
+      "speed": 100,
+      "power": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Lamb_0.png"
+      ],
+      "bName": "Lammuga",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_BOSS_LAMB": [
+    {
+      "level": 12,
+      "maxHp": 15,
+      "speed": 200,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 30,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Lamb_0.png"
+      ]
+    }
+  ],
+  "FS_HTROW": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "TrowH_0.png"
+      ],
+      "bName": "Hill Trow",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_STROW": [
+    {
+      "level": 1,
+      "maxHp": 7,
+      "speed": 100,
+      "power": 8,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "TrowS_0.png"
+      ],
+      "bName": "Sea Trow",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_CLOWN": [
+    {
+      "level": 15,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Clown_0.png"
+      ],
+      "bName": "Sam the Sundown Clown",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_BOSS_CLOWN": [
+    {
+      "level": 15,
+      "maxHp": 4,
+      "speed": 170,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 30,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Clown_0.png"
+      ]
+    }
+  ],
+  "FS_CLOWN_SWARM": [
+    {
+      "level": 15,
+      "maxHp": 22,
+      "speed": 600,
+      "power": 8,
+      "knockback": 0.1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 3,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Clown_0.png"
+      ]
+    }
+  ],
+  "FS_CAKE": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "skills": [
+        1,
+        0
+      ],
+      "idleFrameCount": 6,
+      "end": 29,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Cake_0.png"
+      ],
+      "bName": "Sammy",
+      "bDesc": "The caterpillar cake from Vampire Survivors™. You're legally obligated to have one as your birthday cake if you're 30+ yo. Keep away from children. Not edible.",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": true,
+      "bVariants": []
+    }
+  ],
+  "FS_BROWN": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Brownie_0.png"
+      ],
+      "bName": "Brownie",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_GREEN": [
+    {
+      "level": 23,
+      "maxHp": 50,
+      "speed": 180,
+      "power": 20,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "GreenKnight_0.png"
+      ],
+      "bName": "Green Knight",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_GREEN_RED",
+        "FS_BOSS_GREEN_GREEN"
+      ]
+    }
+  ],
+  "FS_GREEN_RED": [
+    {
+      "level": 22,
+      "maxHp": 50,
+      "speed": 100,
+      "power": 20,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "rGreenKnight_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_GREEN_GREEN": [
+    {
+      "level": 23,
+      "maxHp": 20,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 30,
+      "scale": 1.5,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "gGreenKnight_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_GREEN_28": [
+    {
+      "level": 28,
+      "maxHp": 8,
+      "speed": 120,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 25,
+      "scale": 1.5,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "GreenKnight_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_GREEN_RED_28": [
+    {
+      "level": 28,
+      "maxHp": 8,
+      "speed": 120,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 25,
+      "scale": 1.5,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "rGreenKnight_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_GREEN_GREEN_28": [
+    {
+      "level": 28,
+      "maxHp": 8,
+      "speed": 120,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 25,
+      "scale": 1.5,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "gGreenKnight_0.png"
+      ]
+    }
+  ],
+  "FS_MUSH_PATROL": [
+    {
+      "level": 6,
+      "maxHp": 40,
+      "speed": 140,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 18,
+      "patrolDuration": 3000,
+      "textureName": "foscariEnemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Mush_0.png"
+      ]
+    }
+  ],
+  "FS_AILLEN": [
+    {
+      "level": 15,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.4,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Aillen_0.png"
+      ],
+      "bName": "Crocifriggitore",
+      "bDesc": "Aillen",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_DUERG": [
+    {
+      "level": 4,
+      "maxHp": 1.3,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Duergar_0.png"
+      ],
+      "bName": "Notadam",
+      "bDesc": "Duergar",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_GLORY": [
+    {
+      "level": 29,
+      "maxHp": 90,
+      "speed": 190,
+      "power": 15,
+      "knockback": 0.1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Glory_0.png"
+      ],
+      "bName": "Hand of Glory",
+      "bDesc": "Only appears at minute 29 to try doing a spook.",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_MARI": [
+    {
+      "level": 29,
+      "maxHp": 90,
+      "speed": 140,
+      "power": 15,
+      "knockback": 0.1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "idleFrameCount": 4,
+      "end": 16,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Mari_0.png"
+      ],
+      "passThroughWalls": true,
+      "bName": "Maronna",
+      "bDesc": "Only appears at minute 29 to try doing a spook.",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_NJUGG": [
+    {
+      "level": 13,
+      "maxHp": 7,
+      "speed": 160,
+      "power": 5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "end": 14,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Njuggles_0.png"
+      ],
+      "bName": "Njuggles",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_NJUGGB"
+      ]
+    }
+  ],
+  "FS_NJUGGB": [
+    {
+      "level": 13,
+      "maxHp": 7,
+      "speed": 160,
+      "power": 5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 14,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "NjugglesB_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_NJUGGLES": [
+    {
+      "level": 13,
+      "maxHp": 5,
+      "speed": 170,
+      "power": 10,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 30,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 14,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Njuggles_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_WORM": [
+    {
+      "maxHp": 20,
+      "speed": 160,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "end": 21,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Worm_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_WORMB": [
+    {
+      "maxHp": 18,
+      "speed": 180,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 21,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "WormB_0.png"
+      ]
+    }
+  ],
+  "FS_HAG": [
+    {
+      "level": 27,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "enemies",
+      "frameNames": [
+        "hag_0.png"
+      ],
+      "bName": "Average Hag",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_MUSH_HP": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 5,
+      "scale": 1.5,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Mush_0.png"
+      ],
+      "bName": "Fungoman",
+      "bDesc": "Used as a special defender type.",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_MUSH_PATROL"
+      ]
+    }
+  ],
+  "FS_XLMANTIS_HP": [
+    {
+      "level": 10,
+      "maxHp": 4,
+      "speed": 80,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "XLMantis_0.png"
+      ]
+    }
+  ],
+  "FS_XLFLOWER_HP": [
+    {
+      "level": 10,
+      "maxHp": 5,
+      "speed": 80,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "skills": [
+        0
+      ],
+      "xp": 10,
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "XLFlower1_0.png"
+      ]
+    }
+  ],
+  "FS_COCKATRICE_BOSS1": [
+    {
+      "level": 15,
+      "maxHp": 4,
+      "speed": 170,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "XLCockatrice1_0.png"
+      ]
+    }
+  ],
+  "FS_COCKATRICE_BOSS2": [
+    {
+      "level": 15,
+      "maxHp": 4,
+      "speed": 170,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "scale": 1.5,
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "XLCockatrice1_0.png"
+      ]
+    }
+  ],
+  "FS_COCKATRICE_BOSS3": [
+    {
+      "level": 15,
+      "maxHp": 4,
+      "speed": 170,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "scale": 1.5,
+      "tint": 16729343,
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "XLCockatrice1_0.png"
+      ]
+    }
+  ],
+  "FS_GGHOST": [
+    {
+      "level": 25,
+      "maxHp": 0.5,
+      "speed": 160,
+      "power": 5,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 1,
+      "alpha": 0.5,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "gGhost_0.png"
+      ],
+      "bName": "Ghostly Apparition",
+      "bDesc": "Exclusively summoned by the Avatar of Gaea.",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_GGGHOST"
+      ]
+    }
+  ],
+  "FS_GGGHOST": [
+    {
+      "level": 25,
+      "maxHp": 0.5,
+      "speed": 200,
+      "power": 5,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 1,
+      "alpha": 0.5,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "ggGhost_0.png"
+      ],
+      "passThroughWalls": true
+    }
+  ],
+  "FS_BOSS_AGAEA": [
+    {
+      "level": 100,
+      "maxHp": 0.75,
+      "speed": 140,
+      "power": 5,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "end": 60,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "AGaea_0.png"
+      ],
+      "passThroughWalls": true,
+      "bName": "Avatar of Gaea",
+      "bDesc": "The embodiment of the benevolent aspects of nature. Allegedly. Boss of the fairytale part of the DLC.",
+      "bPlaces": [
+        "FOSCARI"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_CAULD": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "end": 20,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Cauld_0.png"
+      ],
+      "bName": "Cauld",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "REDUSA": [
+    {
+      "level": 2,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 6,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.2,
+      "frameNames": [
+        "Redusa_0.png"
+      ],
+      "end": 13,
+      "textureName": "enemiesM",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Redusa Head",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "RELLYFISH": [
+    {
+      "level": 4,
+      "maxHp": 14,
+      "speed": 200,
+      "power": 6,
+      "knockback": 0.2,
+      "skills": [
+        1
+      ],
+      "passThroughWalls": true,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.5,
+      "frameNames": [
+        "JellyRed_0.png"
+      ],
+      "end": 16,
+      "textureName": "enemiesM",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Rellyfish",
+      "bDesc": "Like a jellyfish, but will be red.",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "RELLYFISH_SWARM": [
+    {
+      "maxHp": 18,
+      "speed": 150,
+      "power": 10,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "knockback": 0.2,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.5,
+      "frameNames": [
+        "JellyRed_0.png"
+      ],
+      "end": 16,
+      "textureName": "enemiesM",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "HEMO": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "alpha": 0.85,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 24,
+      "frameNames": [
+        "Hemo1_0.png"
+      ],
+      "bName": "Blood Moss",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "HEMO2"
+      ]
+    }
+  ],
+  "HEMO2": [
+    {
+      "level": 5,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "alpha": 0.85,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 24,
+      "frameNames": [
+        "Hemo2_0.png"
+      ]
+    }
+  ],
+  "BOSS_XLBLINDER": [
+    {
+      "level": 20,
+      "maxHp": 50,
+      "speed": 150,
+      "power": 25,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "end": 13,
+      "idleFrameCount": 4,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "Sleeper_0.png"
+      ],
+      "bName": "The Blinder",
+      "bDesc": "It's supposed to cast a veil of darkness around you if it touches you, so that you wouldn't be able to see much, but your screen is probably already full of particles and effects, so we didn't bother.",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_BLINDER_PATROL"
+      ]
+    }
+  ],
+  "FS_BLINDER_PATROL": [
+    {
+      "level": 10,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 5,
+      "patrolDuration": 5000,
+      "end": 13,
+      "idleFrameCount": 4,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "Sleeper_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_REDUSA": [
+    {
+      "level": 10,
+      "maxHp": 10,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "tint": 16764108,
+      "frameNames": [
+        "Redusa_0.png"
+      ],
+      "end": 13,
+      "textureName": "enemiesM",
+      "idleFrameCount": 4
+    }
+  ],
+  "FS_BOSS_FLAMINGSKULL": [
+    {
+      "level": 10,
+      "maxHp": 10,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Rosary": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "alpha": 0.65,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossFlamingSkull_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_MEATY": [
+    {
+      "level": 10,
+      "maxHp": 10,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Rosary": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "end": 17,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Meatball_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_MEATBALL": [
+    {
+      "level": 10,
+      "maxHp": 10,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Rosary": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "end": 16,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossUskull_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_EDNA": [
+    {
+      "level": 10,
+      "maxHp": 10,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Rosary": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossEdna_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_HORWORM": [
+    {
+      "level": 10,
+      "maxHp": 20,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 5,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossHworm_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_HORMARI": [
+    {
+      "level": 10,
+      "maxHp": 20,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossHmari_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_HORCAULD": [
+    {
+      "level": 10,
+      "maxHp": 20,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 5,
+      "end": 20,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossHcauld_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_MEATY_29": [
+    {
+      "level": 30,
+      "maxHp": 8,
+      "speed": 120,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 25,
+      "idleFrameCount": 4,
+      "end": 17,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossMeatball_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_MEATBALL_29": [
+    {
+      "level": 30,
+      "maxHp": 8,
+      "speed": 120,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "end": 16,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "bossUskull_0.png"
+      ]
+    }
+  ],
+  "FS_ROTGHOUL": [
+    {
+      "level": 5,
+      "maxHp": 12,
+      "speed": 100,
+      "power": 7,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 4,
+      "idleFrameCount": 4,
+      "end": 22,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Ugul_0.png"
+      ],
+      "bName": "Rotting Ghoul",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": true,
+      "bVariants": []
+    }
+  ],
+  "FS_ROTGHOUL_SWARM": [
+    {
+      "level": 5,
+      "maxHp": 25,
+      "speed": 600,
+      "power": 9,
+      "res_Defang": 1,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "xp": 2.25,
+      "passThroughWalls": false,
+      "skills": [
+        1
+      ],
+      "idleFrameCount": 4,
+      "end": 22,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Ugul_0.png"
+      ]
+    }
+  ],
+  "FS_FLAMINGSKULL": [
+    {
+      "level": 7,
+      "maxHp": 6,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "alpha": 0.65,
+      "xp": 2.5,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "FlamingSkull_0.png"
+      ],
+      "bName": "Burning Skull",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_WORM": [
+    {
+      "level": 8,
+      "maxHp": 13,
+      "speed": 200,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 4,
+      "idleFrameCount": 4,
+      "end": 21,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Worm_0.png"
+      ],
+      "bName": "Missing Church",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_WORM2"
+      ]
+    }
+  ],
+  "FS_WORM2": [
+    {
+      "level": 12,
+      "maxHp": 20,
+      "speed": 200,
+      "power": 9,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 4,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 21,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "WormB_0.png"
+      ]
+    }
+  ],
+  "FS_SNAK1": [
+    {
+      "level": 4,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 11,
+      "idleFrameCount": 6,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "snakeB_0.png"
+      ],
+      "bName": "Snek",
+      "bDesc": "I'm pretty sure we already had a bestiary entry for plain snakes, but they had some fancy name. These tantacles of darkness are instead Sneks.",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_SNAK2": [
+    {
+      "level": 4,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 11,
+      "idleFrameCount": 6,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "snakeB_0.png"
+      ]
+    }
+  ],
+  "FS_SNAK3": [
+    {
+      "level": 4,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 11,
+      "idleFrameCount": 6,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "snakeB_0.png"
+      ]
+    }
+  ],
+  "FS_SNAK4": [
+    {
+      "level": 4,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 11,
+      "idleFrameCount": 6,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "snakeB_0.png"
+      ]
+    }
+  ],
+  "FS_SNAK_SWARM": [
+    {
+      "level": 4,
+      "maxHp": 2.5,
+      "speed": 700,
+      "power": 6,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 2,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 6,
+      "end": 11,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "snakeB_0.png"
+      ]
+    }
+  ],
+  "FS_SHOOTER1": [
+    {
+      "level": 6,
+      "maxHp": 2.5,
+      "speed": 0,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 1.5,
+      "fireDelay": 2000,
+      "bulletType": "BULLET_1",
+      "frameNames": [
+        "Shooter_0.png"
+      ],
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Lost Head",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_SHOOTER2": [
+    {
+      "level": 10,
+      "maxHp": 15,
+      "speed": 0,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 1.75,
+      "fireDelay": 1500,
+      "bulletType": "BULLET_2",
+      "frameNames": [
+        "Shooter_0.png"
+      ],
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "FS_MEATBALL": [
+    {
+      "level": 9,
+      "maxHp": 25,
+      "speed": 130,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "xp": 2.75,
+      "idleFrameCount": 4,
+      "end": 16,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Uskull_0.png"
+      ],
+      "bName": "Meatball",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bIndex": 0,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_MEATY": [
+    {
+      "level": 14,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "end": 17,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Meatball_0.png"
+      ],
+      "bName": "Frozen Meatball",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_EDNA": [
+    {
+      "level": 14,
+      "maxHp": 30,
+      "speed": 100,
+      "power": 11,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 3.5,
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Edna_0.png"
+      ],
+      "bName": "Edna",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_HORCAULD": [
+    {
+      "level": 15,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 20,
+      "idleFrameCount": 5,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hcauld_0.png"
+      ],
+      "bName": "Cold Cauld",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_HORWORM": [
+    {
+      "level": 16,
+      "maxHp": 30,
+      "speed": 160,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hworm_0.png"
+      ],
+      "bName": "Well Dweller",
+      "bDesc": "Well well well.",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_HORNJUGG": [
+    {
+      "level": 17,
+      "maxHp": 25,
+      "speed": 280,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "xp": 2.75,
+      "idleFrameCount": 5,
+      "end": 14,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hnjuggles_0.png"
+      ],
+      "bName": "Wet Njuggles",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_HORAILLEN": [
+    {
+      "level": 19,
+      "maxHp": 50,
+      "speed": 150,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 14,
+      "idleFrameCount": 4,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Haillen_0.png"
+      ],
+      "bName": "Crocifriggitone",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_HORDUERG": [
+    {
+      "level": 19,
+      "maxHp": 18,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.5,
+      "idleFrameCount": 5,
+      "end": 13,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hduergar_0.png"
+      ],
+      "bName": "Still Notadam",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_HORGLORY": [
+    {
+      "level": 7,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 16,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hglory_0.png"
+      ],
+      "bName": "Glove of Glory",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_HORMARI": [
+    {
+      "level": 7,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hmari_0.png"
+      ],
+      "bName": "Maronna Meea",
+      "bDesc": "",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_FMBALOR": [
+    {
+      "level": 25,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 20,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "scale": 1.5,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Balor_0.png"
+      ]
+    }
+  ],
+  "FS_FMCETHLENN": [
+    {
+      "level": 25,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 20,
+      "res_Defang": 1,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Cethl_0.png"
+      ],
+      "bName": "Fomorians",
+      "bDesc": "Invaders from yet another world. They look out of place even for our standards. They appear at minute 25 with an added 'glitch' effect in the stage to highlight something is more off than usual.",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "FS_FMCONAND",
+        "FS_FMBALOR",
+        "FS_FMINDECH",
+        "FS_FMELATHA"
+      ]
+    }
+  ],
+  "FS_FMCONAND": [
+    {
+      "level": 25,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 20,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Cona_0.png"
+      ]
+    }
+  ],
+  "FS_FMELATHA": [
+    {
+      "level": 25,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 20,
+      "res_Defang": 1,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Elat_0.png"
+      ]
+    }
+  ],
+  "FS_FMINDECH": [
+    {
+      "level": 25,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 20,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Impe_0.png"
+      ]
+    }
+  ],
+  "FS_BOSS_JENEVIV": [
+    {
+      "level": 100,
+      "maxHp": 300,
+      "speed": 170,
+      "power": 40,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 0,
+      "idleFrameCount": 5,
+      "end": 63,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Jeneviv_0.png"
+      ],
+      "passThroughWalls": true,
+      "bName": "Je-Ne-Viv",
+      "bDesc": "Could eat anything but the ground. Part human, part demon, part undead, part monster, part abomination, but definitely not a vampire. The true boss of the horror part of the DLC, will have some fancy cutscenes about reviving and devouring poor Eleanor.",
+      "bPlaces": [
+        "FOSCARI2"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "FS_SNAKBOMB": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 300,
+      "power": 3,
+      "skills": [
+        2,
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "moreX": 25,
+      "moreY": 60,
+      "alpha": 0.75,
+      "end": 11,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "snakeB_0.png"
+      ],
+      "passThroughWalls": true
+    }
+  ],
+  "FS_SNAKSHIELD": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 300,
+      "power": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "scale": 1.5,
+      "shieldDuration": 3000,
+      "end": 11,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "snakeB_0.png"
+      ],
+      "passThroughWalls": true
+    }
+  ],
+  "FS_BROWN_HP": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Brownie_0.png"
+      ]
+    }
+  ],
+  "FS_SALMON_HP": [
+    {
+      "level": 6,
+      "maxHp": 1,
+      "speed": 200,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 1.5,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Salmon_0.png"
+      ]
+    }
+  ],
+  "FS_NJUGGB_HP": [
+    {
+      "level": 13,
+      "maxHp": 2,
+      "speed": 160,
+      "power": 5,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "passThroughWalls": true,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 14,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "NjugglesB_0.png"
+      ]
+    }
+  ],
+  "FS_STROW_HP": [
+    {
+      "level": 13,
+      "maxHp": 2,
+      "speed": 100,
+      "power": 8,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "TrowS_0.png"
+      ]
+    }
+  ],
+  "FS_HTROW_HP": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "end": 18,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "TrowH_0.png"
+      ]
+    }
+  ],
+  "FS_CRATE_HP": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 0,
+      "power": 0,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "skills": [
+        0
+      ],
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 13,
+      "frameNames": [
+        "crate_0.png"
+      ]
+    }
+  ],
+  "FS_POT_HP": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 0,
+      "power": 0,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 5,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 13,
+      "frameNames": [
+        "pot_0.png"
+      ]
+    }
+  ],
+  "FS_ANFORA_HP": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 0,
+      "power": 0,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 5,
+      "alpha": 0.9,
+      "tint": 8947882,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 29,
+      "frameNames": [
+        "H1_0.png",
+        "H2_0.png"
+      ]
+    }
+  ],
+  "FS_FLOWER": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "killedAmount": 0,
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Flower1_0.png",
+        "Flower2_0.png"
+      ]
+    }
+  ]
+}

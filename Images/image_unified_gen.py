@@ -11,7 +11,7 @@ from PIL.Image import Resampling
 from Utility.singleton import Singleton
 from Utility.utility import run_multiprocess
 from Data.data import get_data_file
-from Utility.meta_data import get_meta_by_name_set
+from Utility.meta_data import get_meta_by_name_set, MetaData, get_meta_dict_by_name_set
 from Utility.image_functions import crop_image_rect, resize_image
 
 class UnifiedImageHandler(metaclass=Singleton):
@@ -21,7 +21,7 @@ class UnifiedImageHandler(metaclass=Singleton):
 
 
 def gen_unified_images(path: str, assets_paths: list):
-    raise NotImplementedError("Rewrite is in progress.")
+    # raise NotImplementedError("Rewrite is in progress.")
     handler = UnifiedImageHandler()
 
     data = get_data_file(path)
@@ -40,11 +40,7 @@ def gen_unified_images(path: str, assets_paths: list):
 
     texture_set = gen.get_textures_set()
 
-    meta_data = get_meta_by_name_set(texture_set)
-
-    handler.textures = {
-        texture_name: val for texture_name, val in zip(texture_set, meta_data)
-    }
+    handler.textures = get_meta_dict_by_name_set(texture_set)
 
     if GenType.IMAGE in req_gens:
         run_multiprocess(gen.gen_image, gen.entries)
@@ -97,10 +93,10 @@ class SimpleGenerator:
     def get_gens_tips() -> dict[GenType: str]:
         return {
             GenType.IMAGE: "Scale factor",
-            GenType.IMAGE_FRAME: "Also generate frame variants",
-            GenType.ANIM: "Also generate animations",
-            GenType.DEATH_ANIM: "Also generate death animations",
-            GenType.ATTACK_ANIM: "Also generate attack animations",
+            GenType.IMAGE_FRAME: "Generate frame variants",
+            GenType.ANIM: "Generate animations",
+            GenType.DEATH_ANIM: "Generate death animations",
+            GenType.ATTACK_ANIM: "Generate attack animations",
         }
 
     @staticmethod

@@ -8,7 +8,7 @@
       "cooldown": 1,
       "charName": "Crewmate",
       "surname": "Dino",
-      "textureName": "chalcedony",
+      "textureName": "character_c01crewmate",
       "spriteName": "C01Crewmate_01.png",
       "portraitName": "p_crewmate.png",
       "bgm": "BGM_CAL_NoAliens",
@@ -16,11 +16,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01crewmate",
           "spriteName": "C01Crewmate_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -73,15 +78,28 @@
         "C1_REPORT1",
         "C1_REPORT1",
         "C1_REPORT1",
-        
         "AMOUNT",
         "AMOUNT",
-        
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER"
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER"
       ]
     },
     {
@@ -110,7 +128,7 @@
       "cooldown": 1,
       "charName": "Engineer",
       "surname": "Gino",
-      "textureName": "chalcedony",
+      "textureName": "character_c01engineer",
       "spriteName": "C01Engineer_01.png",
       "portraitName": "p_engineer.png",
       "bgm": "BGM_CAL_NoDucks",
@@ -118,11 +136,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01engineer",
           "spriteName": "C01Engineer_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -174,15 +197,28 @@
         "C1_SWIPECARD1",
         "C1_SWIPECARD1",
         "C1_SWIPECARD1",
-
         "AMOUNT",
         "AMOUNT",
-
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER"
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER"
       ]
     },
     {
@@ -211,7 +247,7 @@
       "cooldown": 1,
       "charName": "Ghost",
       "surname": "Lino",
-      "textureName": "chalcedony",
+      "textureName": "character_c01ghost",
       "spriteName": "C01Ghost_01.png",
       "portraitName": "p_ghost.png",
       "bgm": "BGM_CAL_NoGhosts",
@@ -219,11 +255,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01ghost",
           "spriteName": "C01Ghost_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -275,15 +316,28 @@
         "C1_MEDICAL1",
         "C1_MEDICAL1",
         "C1_MEDICAL1",
-
         "AMOUNT",
         "AMOUNT",
-
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER"
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER"
       ]
     },
     {
@@ -312,7 +366,7 @@
       "cooldown": 1,
       "charName": "Shapeshifter",
       "surname": "Nino",
-      "textureName": "chalcedony",
+      "textureName": "character_c01shapeshifter",
       "spriteName": "C01Shapeshifter_01.png",
       "portraitName": "p_shapeshifter.png",
       "bgm": "BGM_CAL_HideSeek",
@@ -320,11 +374,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01shapeshifter",
           "spriteName": "C01Shapeshifter_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -376,15 +435,28 @@
         "C1_VENT1",
         "C1_VENT1",
         "C1_VENT1",
-
         "AMOUNT",
         "AMOUNT",
-
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER"
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER"
       ]
     },
     {
@@ -413,7 +485,7 @@
       "cooldown": 1,
       "charName": "Guardian",
       "surname": "Pina",
-      "textureName": "chalcedony",
+      "textureName": "character_c01guardian",
       "portraitName": "p_guardian.png",
       "spriteName": "C01Guardian_01.png",
       "bgm": "BGM_CAL_NoGhosts",
@@ -421,11 +493,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01guardian",
           "spriteName": "C01Guardian_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -477,15 +554,28 @@
         "C1_GARBA1",
         "C1_GARBA1",
         "C1_GARBA1",
-
         "AMOUNT",
         "AMOUNT",
-
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER",
-        "AREA", "COOLDOWN", "REGEN", "POWER"
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "REGEN",
+        "POWER"
       ]
     },
     {
@@ -514,7 +604,7 @@
       "cooldown": 1,
       "charName": "Impostor",
       "surname": "Rina",
-      "textureName": "chalcedony",
+      "textureName": "character_c01impostor",
       "spriteName": "C01Impostor_01.png",
       "portraitName": "p_impostor.png",
       "bgm": "BGM_CAL_HideSeek",
@@ -522,11 +612,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01impostor",
           "spriteName": "C01Impostor_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -578,15 +673,28 @@
         "C1_TONGUE1",
         "C1_TONGUE1",
         "C1_TONGUE1",
-
         "AMOUNT",
         "AMOUNT",
-
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER",
-        "AREA", "COOLDOWN", "SPEED", "POWER"
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "SPEED",
+        "POWER"
       ]
     },
     {
@@ -615,7 +723,7 @@
       "cooldown": 1,
       "charName": "Scientist",
       "surname": "Mina",
-      "textureName": "chalcedony",
+      "textureName": "character_c01scientist",
       "spriteName": "C01Scientist_01.png",
       "portraitName": "p_scientist.png",
       "bgm": "BGM_CAL_NoVamps",
@@ -623,11 +731,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01scientist",
           "spriteName": "C01Scientist_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -680,20 +793,33 @@
         "C1_SAMPLES1",
         "C1_SAMPLES1",
         "C1_SAMPLES1",
-        "C1_SHRINK_SCIENT", "C1_SHRINK_SCIENT", "C1_SHRINK_SCIENT",
-        
+        "C1_SHRINK_SCIENT",
+        "C1_SHRINK_SCIENT",
+        "C1_SHRINK_SCIENT",
         "AMOUNT",
         "AMOUNT",
-
-        "AREA", "COOLDOWN", "DURATION", "POWER",
-        "AREA", "COOLDOWN", "DURATION", "POWER",
-        "AREA", "COOLDOWN", "DURATION", "POWER",
-        "AREA", "COOLDOWN", "DURATION", "POWER",
-        "AREA", "COOLDOWN", "DURATION", "POWER"
-        
+        "AREA",
+        "COOLDOWN",
+        "DURATION",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "DURATION",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "DURATION",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "DURATION",
+        "POWER",
+        "AREA",
+        "COOLDOWN",
+        "DURATION",
+        "POWER"
       ],
-      "onEveryLevelUp": {
-      }
+      "onEveryLevelUp": {}
     },
     {
       "level": 20,
@@ -750,7 +876,7 @@
       "charName": "Horse",
       "surname": "",
       "spriteName": "C01Horse_01.png",
-      "textureName": "chalcedony",
+      "textureName": "character_c01horse",
       "portraitName": "p_horse.png",
       "walkingFrames": 4,
       "description": "Gets more projectiles every 20 levels (max+4).",
@@ -766,90 +892,135 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_PINK",
           "name": "Pink",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_pink_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_PURPLE",
           "name": "Purple",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_purple_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_BLUE",
           "name": "Blue",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_blue_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_GREEN",
           "name": "Green",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_green_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_YELLOW",
           "name": "Yellow",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_yellow_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_ORANGE",
           "name": "Orange",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_orange_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_RED",
           "name": "Red",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_red_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "C1_HORSE_RAINBOW",
           "name": "Rainbow",
-          "textureName": "chalcedony",
+          "textureName": "character_c01horse",
           "spriteName": "C01Horse_r_01.png",
           "walkingFrames": 8,
           "unlocked": true,
-          "headOffsets": [ { "x": 10, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": -6
+            }
+          ]
         }
       ],
       "racingOffsets": [
         {
           "vehicleType": "CART",
           "racingOffset": {
-            "x": 0.00,
+            "x": 0,
             "y": -0.08
           }
         },
@@ -882,6 +1053,7 @@
       "skips": 0,
       "banish": 0,
       "showcase": [
+        "C1_HATCOLLECTION1",
         "C1_HATCOLLECTION1",
         "C1_HATCOLLECTION1",
         "C1_HATCOLLECTION1",
@@ -925,7 +1097,6 @@
       "growth": -1
     }
   ],
-
   "C1_MEGAIMPOSTOR": [
     {
       "level": 1,
@@ -935,7 +1106,7 @@
       "prefix": "Megalo",
       "charName": "Impostor",
       "surname": "Rina",
-      "textureName": "chalcedony",
+      "textureName": "character_c01impostor",
       "spriteName": "C01Impostor2_01.png",
       "portraitName": "p_megaimpostor.png",
       "bgm": "BGM_CAL_MainTheme",
@@ -943,11 +1114,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "chalcedony",
+          "textureName": "character_c01impostor",
           "spriteName": "C01Impostor2_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
       "racingOffsets": [

@@ -30,7 +30,7 @@ def __generator_concatenate():
 
     names = [f.name.split("_")[0].split('.')[0].lower().replace("data", "") for f in
              os.scandir(path + "/Vampire Survivors")]
-    dlcs = ["Vampire Survivors", "Moonspell", "Foscari", "Meeting", "Guns"]
+    dlcs = ["Vampire Survivors", "Moonspell", "Foscari", "Meeting", "Guns", "Ode"]
 
     dlc_paths = [[f.path for f in os.scandir(f"{path}/{dlc}")] for dlc in dlcs if os.path.exists(f"{path}/{dlc}")]
 

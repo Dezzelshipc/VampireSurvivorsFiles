@@ -380,6 +380,8 @@ class SimpleGenerator(ImageGenerator):
                 save_dlc = "/meeting"
             case "frameB_gray.png":
                 save_dlc = "/guns"
+            case "frameB_sotn.png":
+                save_dlc = "/ode"
             case "frameB_red.png":
                 save_dlc = "/red_dlc"
 
@@ -445,7 +447,7 @@ class SimpleGenerator(ImageGenerator):
         if settings.get(str(GenType.ATTACK_ANIM)) and GenType.ATTACK_ANIM in using_list:
             prep = self.get_prepared_frame(file_name)
             self.save_gif(meta, im, prep[0], name, save_folder, prefix_name="Animated-",
-                          postfix_name=obj.get("postfix_name"), save_append="_attack",
+                          postfix_name=obj.get("postfix_name"), save_append="_special",
                           frame_rate=obj.get("frameRate", 6), scale_factor=scale_factor, file_name_clean=prep[2],
                           leading_zeros=2, limit_frames_count=obj.get("framesNumber"))
 
@@ -604,7 +606,7 @@ class CharacterImageGenerator(TableGenerator):
         self.dataSpriteKey = "spriteName"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "charName"
-        self.folderToSave = "characters/"
+        self.folderToSave = "characters"
         self.langFileName = "characterLang.json"
         self.dataAnimFramesKey = "walkingFrames"
         self.iconGroup = "Select"
@@ -643,22 +645,18 @@ class CharacterImageGenerator(TableGenerator):
                 yield k, char
 
     def sprite_anims_generator(self, data: dict):
-        sprite_anims_types = {
-            "rangedAttack": ("-Ranged-Attack",),
-            "meleeAttack": ("-Melee-Attack",),
-        }
         for k, vv in data.items():
             v = self.get_table_unit(vv, 0)
             if skins := v.get("skins", False):
                 for skin in skins:
                     if anims := skin.get("spriteAnims", False):
-                        print(k, anims)
+                        # print(k, anims)
                         for anim_type, anim_data in anims.items():
                             char = v.copy()
                             char.update(anim_data)
                             char.update({
                                 "animType": anim_type,
-                                "postfix_name": sprite_anims_types[anim_type][0],
+                                "postfix_name": f"-{anim_type}",
                                 "for": [GenType.ATTACK_ANIM]
                             })
                             yield k, char

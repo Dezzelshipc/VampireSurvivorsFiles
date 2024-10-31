@@ -78,6 +78,7 @@ class Config(metaclass=Singleton):
             "FS_ASSETS": "/",
             "EM_ASSETS": "/",
             "OG_ASSETS": "/",
+            "OC_ASSETS": "/",
             "IS_ASSETS": "/",
             "MULTIPROCESSING": False,
         }
@@ -87,6 +88,7 @@ class Config(metaclass=Singleton):
             "FS_ASSETS": "Foscari",
             "EM_ASSETS": "Meeting",
             "OG_ASSETS": "Guns",
+            "OC_ASSETS": "Ode",
             "IS_ASSETS": "TBA",
         }
         self.data = self.default.copy()
@@ -115,6 +117,9 @@ class Config(metaclass=Singleton):
 
     def get_dlc_name(self, item) -> str | None:
         return self.DLCS.get(item, None)
+
+    def get_multiprocessing(self):
+        return self["MULTIPROCESSING"]
 
 
 if __name__ == "__main__":

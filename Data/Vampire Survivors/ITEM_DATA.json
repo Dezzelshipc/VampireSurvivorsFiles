@@ -11,7 +11,7 @@
     "value": 50,
     "inTreasures": false,
     "seen": true,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "COIN": {
     "name": "Gold Coin",
@@ -26,7 +26,7 @@
     "inTreasures": false,
     "seen": true,
     "feverMS": 500,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "COINBAG1": {
     "name": "Coin Bag",
@@ -40,7 +40,7 @@
     "inTreasures": false,
     "value": 10,
     "feverMS": 5000,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "COINBAG2": {
     "name": "Big Coin Bag",
@@ -53,7 +53,7 @@
     "unlocksAt": 100000,
     "hidden": true,
     "value": 25,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "COINBAGMAX": {
     "name": "Rich Coin Bag",
@@ -67,7 +67,7 @@
     "value": 100,
     "isRare": true,
     "feverMS": 10000,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "TREASURE": {
     "name": "Treasure Chest",
@@ -80,7 +80,7 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "value": 0,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "ROSARY": {
     "name": "Rosary",
@@ -94,7 +94,7 @@
     "value": 500,
     "isRare": true,
     "sealable": true,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "NFT": {
     "name": "Nduja Fritta",
@@ -108,7 +108,7 @@
     "value": 500,
     "isRare": true,
     "sealable": true,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "OROLOGION": {
     "name": "Orologion",
@@ -122,7 +122,7 @@
     "value": 50,
     "isRare": true,
     "sealable": true,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "VACUUM": {
     "name": "Vacuum",
@@ -136,7 +136,7 @@
     "value": 500,
     "isRare": true,
     "sealable": true,
-    "collection": "BaseGame"
+    "contentGroup": "BASE"
   },
   "ROAST": {
     "name": "Floor Chicken",
@@ -150,7 +150,7 @@
     "value": 30,
     "isRare": true,
     "sealable": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "LITTLEHEART": {
     "name": "Little Heart",
@@ -164,7 +164,7 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "GILDED": {
     "name": "Gilded Clover",
@@ -178,7 +178,7 @@
     "inTreasures": false,
     "value": 1000,
     "sealable": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "GOLDFINGER": {
     "name": "Gold Finger",
@@ -193,7 +193,7 @@
     "value": 1000,
     "sealable": true,
     "requiresItem": "RELIC_TRISECTION",
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "CLOVER": {
     "name": "Little Clover",
@@ -207,7 +207,7 @@
     "inTreasures": false,
     "value": 0.1,
     "sealable": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "BONUS_FROZENSOUL": {
     "name": "Crystallized Soul",
@@ -221,7 +221,7 @@
     "hidden": true,
     "inTreasures": false,
     "value": 1,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "CART_ACCEL": {
     "name": "Acceleration",
@@ -365,7 +365,7 @@
     "value": 30,
     "isSpecialOption": true,
     "seen": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "DUMMY_LIGHTSOURCE": {
     "name": "",
@@ -486,7 +486,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_GOUDA": {
     "name": "Ars Gouda",
@@ -502,7 +502,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_MAP": {
     "name": "Milky Way Map",
@@ -518,7 +518,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_BANGER": {
     "name": "Magic Banger",
@@ -534,7 +534,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_TEAR": {
     "name": "Sorceress' Tears",
@@ -550,7 +550,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_GLASSMASK": {
     "name": "Glass Vizard",
@@ -566,7 +566,7 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_GOLDENEGG": {
     "name": "Golden Egg",
@@ -581,7 +581,7 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_NOSEGLASSES": {
     "name": "Mindbender",
@@ -597,7 +597,7 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_YELLOW": {
     "name": "Yellow Sign",
@@ -613,7 +613,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_SECRETS": {
     "name": "Forbidden Scrolls of Morbane",
@@ -629,7 +629,7 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_GGOSPEL": {
     "name": "Great Gospel",
@@ -645,7 +645,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_MIRROR": {
     "name": "Gracia's Mirror",
@@ -661,7 +661,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_TRUMPET": {
     "name": "Seventh Trumpet",
@@ -677,8 +677,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
-  },  
+    "contentGroup":"BASE"
+  },
   "RELIC_ATLAS": {
     "name": "Atlas Gate",
     "description": "Enables base game Adventures.",
@@ -695,7 +695,7 @@
     "value": 0,
     "isRelic": true,
     "sealable": false,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_MALACHITE": {
     "name": "Chaos Malachite",
@@ -713,7 +713,7 @@
     "value": 0,
     "isRelic": true,
     "sealable": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_ROSALIA": {
     "name": "Chaos Rosalia",
@@ -731,7 +731,7 @@
     "value": 0,
     "isRelic": true,
     "sealable": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_ALTEMANNA": {
     "name": "Chaos Altemanna",
@@ -749,7 +749,7 @@
     "value": 0,
     "isRelic": true,
     "sealable": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_TRISECTION": {
     "name": "Trisection",
@@ -766,7 +766,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_BRAVESTORY": {
     "name": "Brave Story",
@@ -783,7 +783,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_CHARM": {
     "name": "Apoplexy",
@@ -800,7 +800,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_ANTIDOTE": {
     "name": "Antidote",
@@ -817,7 +817,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_MAP_AS": {
     "name": "Astral Stair Map",
@@ -834,7 +834,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "RELIC_MAP_MS": {
     "name": "Mt.Moonspell Map",
@@ -851,8 +851,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "Moonspell",
-    "collection": "Moonspell"
+    "requiresDLC": "MOONSPELL",
+    "contentGroup": "MOONSPELL"
   },
   "RELIC_MAP_FS": {
     "name": "Lake Foscari Map",
@@ -869,8 +869,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "Foscari",
-    "collection": "Foscari"
+    "requiresDLC": "FOSCARI",
+    "contentGroup": "FOSCARI"
   },
   "RELIC_MAP_CHAL": {
     "name": "Polus Replica Map",
@@ -887,8 +887,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "Chalcedony",
-    "collection": "Chalcedony"
+    "requiresDLC": "CHALCEDONY",
+    "contentGroup": "CHALCEDONY"
   },
   "RELIC_MAP_FB": {
     "name": "Galuga Jungle Map",
@@ -906,7 +906,7 @@
     "value": 0,
     "isRelic": true,
     "requiresDLC": "FirstBlood",
-    "collection": "FirstBlood"
+    "contentGroup": "FIRST_BLOOD"
   },
   "RELIC_RANDOMAZZO": {
     "name": "Randomazzo",
@@ -922,7 +922,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "collection": "BaseGame"
+    "contentGroup":"BASE"
   },
   "RELIC_DARKASSO": {
     "hidden": true,
@@ -931,6 +931,7 @@
     "tips": "",
     "achievementTips": "Darkanas",
     "texture": "items",
+    "collectionFrame": "frameB_bold.png",
     "frameName": "Tarots2.png",
     "pickedupAmount": 0,
     "rarity": 0,
@@ -938,7 +939,7 @@
     "inTreasures": false,
     "value": 0,
     "isRelic": true,
-    "collection": "Extra"
+    "contentGroup": "EXTRA"
   },
   "COFFIN": {
     "name": "",
@@ -1062,5 +1063,132 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0
+  },
+  "TP_CYCLEGATE": {
+    "name": "",
+    "description": "",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "vfx",
+    "frameName": "NoDraw.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0
+  },
+
+  "TP_RELIC_MASK_SUN": {
+    "name": "Aspect of Sun",
+    "description": "Fragment of The Directer. Allows to have a health bar.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_SUN.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png"
+  },
+  "TP_RELIC_MASK_MOON": {
+    "name": "Aspect of Moon",
+    "description": "Fragment of The Directer. Allows to materialise XP gems and items.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_MOON.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png"
+  },
+  "TP_RELIC_MASK_CITY": {
+    "name": "Aspect of City",
+    "description": "Fragment of The Directer. Allows to accumulate XP and level-up.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_CITY.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png"
+  },
+  "TP_RELIC_MASK_VOLCANO": {
+    "name": "Aspect of Volcano",
+    "description": "Fragment of The Directer. Allows to have active and passive weapon slots.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_VOLCANO.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png"
+  },
+  "TP_RELIC_MASK_SEAWINDS": {
+    "name": "Aspect of Seawinds",
+    "description": "Fragment of The Directer. Allows to move the character and touch things.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_SEAWINDS.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png"
+  },
+  "TP_RELIC_MASK_STONE": {
+    "name": "Aspect of Stone",
+    "description": "Fragment of The Directer. Allows to accumulate gold and kills. Handle with care.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_STONE.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png"
+  },
+  "TP_RELIC_MASK_BLACK": {
+    "name": "Aspect of Black",
+    "description": "Fragment of The Directer. The beginning of everything.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_BLACK.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png"
   }
 }

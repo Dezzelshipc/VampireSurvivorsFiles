@@ -21,9 +21,17 @@
       "tips": "",
       "hyperTips": "",
       "cff": "C1_CREWMATE",
-      "zoom": 0.17,
+      "zoom": 1,
       "validForCharcaterData": true,
       "hasCharacterSpotlight": true,
+      "preload": {
+        "textures": [
+          "MapCAL",
+          "collab1 parallax back",
+          "collab1 parallax front",
+          "collab1 parallax mid"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,

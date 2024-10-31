@@ -1,0 +1,3380 @@
+{
+  "TP_FLEAMAN": [
+    {
+      "maxHp": 1,
+      "speed": 180,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "xp": 1,
+      "frameNames": [
+        "TP_FleaMan_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Flea Man",
+      "bDesc": "@@.",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.2,
+        "offsetY": 15,
+        "offsetX": 10
+      }
+    }
+  ],
+  "TP_MEGA_FLEAMAN": [
+    {
+      "maxHp": 25,
+      "scale": 2,
+      "speed": 150,
+      "power": 25,
+      "knockback": 0.1,
+      "maxKnockback": 1.5,
+      "deathKB": 1,
+      "xp": 4,
+      "frameNames": [
+        "TP_FleaMan_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Flea Man",
+      "bDesc": "@@.",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.2,
+        "offsetY": 15,
+        "offsetX": 10
+      }
+    }
+  ],
+  "TP_FLEAMAN_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 700,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        1
+      ],
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 10,
+      "frameNames": [
+        "TP_FleaMan_0.png"
+      ],
+      "enemyType": "TP_FLEAMAN_SWARM"
+    }
+  ],
+  "TP_FLEARIDER": [
+    {
+      "level": 10,
+      "maxHp": 20,
+      "speed": 170,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 8,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_FLEARIDER_0.png"
+      ],
+      "bName": "Flea Rider",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [],
+      "enemyType": "TP_FLEARIDER",
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": 0,
+        "offsetX": -5
+      }
+    }
+  ],
+  "TP_FLEAARMOR": [
+    {
+      "maxHp": 12.5,
+      "power": 12,
+      "speed": 120,
+      "knockback": 0.2,
+      "maxKnockback": 1.5,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2,
+      "bName": "Flea Armor",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "idleFrameCount": 4,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_FleaArmor_0.png"
+      ],
+      "end": 10,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": 5,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_MAGICBOOK_01": [
+    {
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 2,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "xp": 2,
+      "frameNames": [
+        "TP_MagicBook1_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "bName": "Magic Book",
+      "bDesc": "@@.",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [
+        "TP_MAGICBOOK_02"
+      ]
+    }
+  ],
+  "TP_MAGICBOOK_02": [
+    {
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 2,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "xp": 2,
+      "frameNames": [
+        "TP_MagicBook2_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "killedAmount": 0
+    }
+  ],
+  "TP_FROZENSHADE": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 8,
+      "killedAmount": 0,
+      "textureName": "TP_enemiesReuse",
+      "end": 14,
+      "frameNames": [
+        "TP_REUSE_FROZENSHADE_0.png"
+      ],
+      "bName": "Frozen Shade",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "enemyType": "TP_FROZENSHADE",
+      "colliderOverride": {
+        "radius": 0.45,
+        "offsetY": 10,
+        "offsetX": -5
+      }
+    }
+  ],
+  "TP_FROZENSHADE_02": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 8,
+      "killedAmount": 0,
+      "textureName": "TP_enemiesReuse",
+      "end": 14,
+      "frameNames": [
+        "TP_REUSE_FROZENSHADE_0.png"
+      ],
+      "bName": "Frozen Shade",
+      "bIndex": 0,
+      "bInclude": false,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "enemyType": "TP_FROZENSHADE",
+      "colliderOverride": {
+        "radius": 0.45,
+        "offsetY": 10,
+        "offsetX": -5
+      }
+    }
+  ],
+  "TP_GAIBON": [
+    {
+      "bInclude": false,
+      "bHighlight": false,
+      "level": 30,
+      "maxHp": 20,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 50,
+      "idleFrameCount": 4,
+      "textureName": "TP_enemies",
+      "end": 14,
+      "frameNames": [
+        "TP_GAIBON_0.png"
+      ],
+      "bName": "Gaibon",
+      "enemyType": "TP_GAIBON",
+      "colliderOverride": {
+        "offsetY": 25,
+        "radius": 0.25,
+        "offsetX": 10
+      }
+    }
+  ],
+  "TP_HARPY": [
+    {
+      "level": 1,
+      "scale": 1,
+      "maxHp": 5,
+      "speed": 130,
+      "power": 8,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 7,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 10,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_REUSE_HARPY_0.png"
+      ],
+      "bName": "Harpy",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [],
+      "enemyType": "TP_HARPY",
+      "colliderOverride": {
+        "offsetY": 20,
+        "radius": 0.3,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_PATROL_HARPY": [
+    {
+      "level": 1,
+      "patrolDuration": 2000,
+      "scale": 1,
+      "maxHp": 5,
+      "speed": 130,
+      "power": 8,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 7,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 10,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_REUSE_HARPY_0.png"
+      ],
+      "bName": "Harpy",
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "enemyType": "TP_HARPY",
+      "colliderOverride": {
+        "offsetY": 20,
+        "radius": 0.3,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_HIPPOGRYPH": [
+    {
+      "level": 1,
+      "maxHp": 10,
+      "speed": 130,
+      "power": 8,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 7,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 14,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_Hippogryph_0.png"
+      ],
+      "bName": "Hippogyph",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [],
+      "enemyType": "TP_HIPPOGRYPH"
+    }
+  ],
+  "TP_IMP": [
+    {
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "level": 1,
+      "maxHp": 7,
+      "speed": 140,
+      "power": 8,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 12,
+      "frameNames": [
+        "TP_Imp_0.png"
+      ],
+      "bName": "Imp",
+      "enemyType": "TP_IMP"
+    }
+  ],
+  "TP_PATROL_IMP": [
+    {
+      "level": 1,
+      "patrolDuration": 2000,
+      "maxHp": 7,
+      "speed": 140,
+      "power": 8,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 12,
+      "frameNames": [
+        "TP_Imp_0.png"
+      ],
+      "bName": "Imp",
+      "enemyType": "TP_IMP"
+    }
+  ],
+  "TP_MOLDYCORPSE": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 14,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_REUSE_MOLDYCORPSE_0.png"
+      ],
+      "bName": "Moldy Corpse",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [],
+      "enemyType": "TP_MOLDYCORPSE",
+      "colliderOverride": {
+        "offsetY": 0,
+        "radius": 0.55,
+        "offsetX": -10
+      }
+    }
+  ],
+  "TP_SPITTLEBONE_01": [
+    {
+      "level": 1,
+      "maxHp": 0.8,
+      "speed": 165,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "alpha": 0.85,
+      "xp": 1.2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 8,
+      "frameNames": [
+        "TP_SPITTLEBONE_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 0,
+        "offsetX": 0
+      },
+      "bName": "Spittle Bone",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [
+        "TP_SPITTLEBONE_02"
+      ]
+    }
+  ],
+  "TP_SPITTLEBONE_02": [
+    {
+      "level": 1,
+      "maxHp": 0.8,
+      "speed": 165,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "alpha": 0.85,
+      "xp": 1.2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 8,
+      "frameNames": [
+        "TP_SPITTLEBONE_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 0,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_UKOBACK": [
+    {
+      "level": 1,
+      "maxHp": 0.2,
+      "speed": 180,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 14,
+      "frameNames": [
+        "TP_UKOBACK_0.png"
+      ],
+      "bName": "Ukoback",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [],
+      "enemyType": "TP_UKOBACK"
+    }
+  ],
+  "TP_SPECTRE": [
+    {
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "level": 1,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 10,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 4,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 3,
+      "frameNames": [
+        "TP_REUSE_SPECTRE_0.png"
+      ],
+      "bName": "Spectre",
+      "enemyType": "TP_SPECTRE",
+      "colliderOverride": {
+        "offsetY": 0,
+        "radius": 0.35,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_SUCCUBUS": [
+    {
+      "level": 1,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemiesReuse",
+      "end": 9,
+      "frameNames": [
+        "TP_REUSE_SUCCUBUS_0.png"
+      ],
+      "bName": "Succubus",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "enemyType": "TP_SUCCUBUS",
+      "colliderOverride": {
+        "offsetY": 5,
+        "radius": 0.5,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_VALHALLAKNIGHT": [
+    {
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "level": 15,
+      "maxHp": 20,
+      "speed": 170,
+      "power": 12,
+      "res_Freeze": 1.1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "scale": 1,
+      "xp": 4,
+      "end": 17,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_VALHALLAKNIGHT_Bloodless_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.45,
+        "offsetY": -10,
+        "offsetX": -10
+      },
+      "enemyType": "TP_VALHALLAKNIGHT",
+      "bName": "Valhalla Knight"
+    }
+  ],
+  "TP_WARG_01": [
+    {
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "level": 1,
+      "maxHp": 15,
+      "speed": 140,
+      "power": 12,
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1.25,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "scale": 1,
+      "xp": 3,
+      "end": 14,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_WARG_0.png"
+      ],
+      "bName": "Warg",
+      "enemyType": "TP_WARG",
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": -15
+      }
+    }
+  ],
+  "TP_WARG_02": [
+    {
+      "bInclude": false,
+      "bHighlight": false,
+      "level": 1,
+      "maxHp": 15,
+      "speed": 140,
+      "power": 12,
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1.25,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "scale": 1,
+      "xp": 3,
+      "end": 14,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_WARG_0.png"
+      ],
+      "bName": "Warg",
+      "enemyType": "TP_WARG",
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": -15
+      }
+    }
+  ],
+  "TP_BITTERFLY": [
+    {
+      "maxHp": 0.9,
+      "power": 4,
+      "speed": 120,
+      "knockback": 3,
+      "maxKnockback": 5,
+      "deathKB": 3,
+      "weak_Fire": 1,
+      "killedAmount": 0,
+      "bName": "Bitterfly",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Bitterfly_0.png"
+      ],
+      "textureName": "TP_enemies",
+      "end": 8,
+      "xp": 1.2,
+      "passThroughWalls": true
+    }
+  ],
+  "TP_BRAUNERSPAINTING": [
+    {
+      "maxHp": 25,
+      "power": 10,
+      "speed": 130,
+      "knockback": 2,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "killedAmount": 0,
+      "xp": 2.75,
+      "bInclude": false,
+      "bHighlight": false,
+      "bName": "Bloody Painting",
+      "frameNames": [
+        "TP_REUSE_BRAUNERSPAINTING_0.png"
+      ],
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 19,
+      "end": 12,
+      "colliderOverride": {
+        "radius": 0.5,
+        "offsetY": 0,
+        "offsetX": -15
+      },
+      "passThroughWalls": true
+    }
+  ],
+  "TP_CAVETROLL": [
+    {
+      "maxHp": 9,
+      "power": 10,
+      "speed": 140,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "xp": 2.5,
+      "bName": "Cave Troll",
+      "bInclude": false,
+      "bHighlight": false,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_CaveTroll_0.png"
+      ],
+      "idleFrameCount": 4,
+      "end": 13,
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 5,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_FISHMAN_01": [
+    {
+      "maxHp": 3.8,
+      "power": 8,
+      "speed": 140,
+      "knockback": 1.5,
+      "maxKnockback": 2.5,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "scale": 1,
+      "bName": "Fishman",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "idleFrameCount": 5,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_FishMan_0.png"
+      ],
+      "end": 16,
+      "colliderOverride": {
+        "radius": 0.45,
+        "offsetY": -10,
+        "offsetX": -10
+      },
+      "enemyType": "TP_FISHMAN",
+      "bVariants": [
+        "TP_FISHMAN_02"
+      ]
+    }
+  ],
+  "TP_FISHMAN_02": [
+    {
+      "maxHp": 3.8,
+      "power": 8,
+      "speed": 135,
+      "knockback": 1.5,
+      "maxKnockback": 2.5,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "scale": 1,
+      "bName": "Fishman",
+      "bInclude": false,
+      "bHighlight": false,
+      "idleFrameCount": 5,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_FishMan_0.png"
+      ],
+      "end": 16,
+      "colliderOverride": {
+        "radius": 0.45,
+        "offsetY": -10,
+        "offsetX": -10
+      },
+      "enemyType": "TP_FISHMAN"
+    }
+  ],
+  "TP_PERSEPHONE_01": [
+    {
+      "level": 1,
+      "maxHp": 2.25,
+      "speed": 150,
+      "power": 10,
+      "knockback": 0.8,
+      "maxKnockback": 2.5,
+      "deathKB": 2,
+      "xp": 1.2,
+      "frameNames": [
+        "TP_Persephone_0.png"
+      ],
+      "end": 12,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -5,
+        "offsetX": -5
+      },
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Persephone",
+      "bDesc": "Keeping the castle clean by any means neccescary.",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    ,
+      "bVariants": [
+        "TP_PERSEPHONE_02",
+        "TP_PERSEPHONE_03",
+        "TP_PERSEPHONEVACCUUM"
+      ]
+    }
+  ],
+  "TP_PERSEPHONE_02": [
+    {
+      "level": 1,
+      "maxHp": 2.25,
+      "speed": 150,
+      "power": 10,
+      "knockback": 0.8,
+      "maxKnockback": 2.5,
+      "deathKB": 2,
+      "xp": 1.2,
+      "frameNames": [
+        "TP_Persephone_0.png"
+      ],
+      "end": 12,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -5,
+        "offsetX": -5
+      },
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "TP_PERSEPHONE_03": [
+    {
+      "level": 1,
+      "maxHp": 2.25,
+      "speed": 150,
+      "power": 10,
+      "knockback": 0.8,
+      "maxKnockback": 2.5,
+      "deathKB": 2,
+      "xp": 1.2,
+      "frameNames": [
+        "TP_Persephone_0.png"
+      ],
+      "end": 12,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -5,
+        "offsetX": -5
+      },
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "TP_PERSEPHONEVACCUUM": [
+    {
+      "maxHp": 1.0,
+      "scale": 1,
+      "speed": 140,
+      "power": 3,
+      "knockback": 0.5,
+      "maxKnockback": 2,
+      "deathKB": 1.5,
+      "xp": 1,
+      "frameNames": [
+        "TP_Reuse_PersephoneVaccuumA_0.png"
+      ],
+      "end": 8,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 2,
+      "killedAmount": 0,
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": -10,
+        "offsetX": 5
+      }
+    }
+  ],
+  "TP_GHOST": [
+    {
+      "maxHp": 1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 1.5,
+      "frameNames": [
+        "TP_Ghost_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Ghost",
+      "bDesc": "@@.",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "passThroughWalls": true
+    }
+  ],
+  "TP_SKELETONSPEAR": [
+    {
+      "maxHp": 1.5,
+      "speed": 140,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "frameNames": [
+        "TP_ReuseSkeletonSpear_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Spear Skeleton",
+      "bDesc": "@@.",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.35
+      }
+    }
+  ],
+  "TP_FLYINGZOMBIE_01": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 120,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 10,
+      "frameNames": [
+        "TP_FlyingZombie_0.png"
+      ],
+      "bName": "Flying Zombie",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "idleFrameCount": 5,
+      "bVariants": [
+        "TP_FLYINGZOMBIE_02"
+      ]
+    }
+  ],
+  "TP_FLYINGZOMBIE_02": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 120,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 10,
+      "frameNames": [
+        "TP_FlyingZombie_0.png"
+      ],
+      "idleFrameCount": 5
+    }
+  ],
+  "TP_DULLAHAN_01": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 110,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 1.2,
+      "end": 14,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Dullahan_0.png"
+      ],
+      "bName": "Dullahan",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [
+        "TP_DULLAHAN_02",
+        "TP_DULLAHAN_03"
+      ]
+    }
+  ],
+  "TP_DULLAHAN_02": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 110,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 1.2,
+      "end": 14,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Dullahan_0.png"
+      ]
+    }
+  ],
+  "TP_DULLAHAN_03": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 110,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 1.2,
+      "end": 14,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Dullahan_0.png"
+      ]
+    }
+  ],
+  "TP_SKELETONAPE": [
+    {
+      "level": 1,
+      "maxHp": 8.5,
+      "speed": 130,
+      "power": 10,
+      "knockback": 0.4,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 8,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_SkeletonApe_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bName": "Skeleton Ape"
+    }
+  ],
+  "TP_YORICK_01": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 145,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1.3,
+      "frameNames": [
+        "TP_Yorick_0.png"
+      ],
+      "end": 9,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Yorick",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [
+        "TP_YORICK_02"
+      ]
+    }
+  ],
+  "TP_YORICK_02": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 145,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1.3,
+      "frameNames": [
+        "TP_Yorick_0.png"
+      ],
+      "end": 9,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "TP_AMALARICSNIPER": [
+    {
+      "level": 3,
+      "maxHp": 6,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_AmalaricSniper_0.png"
+      ],
+      "bName": "Amalaric Sniper",
+      "bInclude": false,
+      "bHighlight": false,
+      "end": 8
+    }
+  ],
+  "TP_PATROL_AMALARICSNIPER": [
+    {
+      "level": 3,
+      "patrolDuration": 2000,
+      "maxHp": 6,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_AmalaricSniper_0.png"
+      ],
+      "bName": "Amalaric Sniper",
+      "bInclude": false,
+      "bHighlight": false,
+      "end": 8
+    }
+  ],
+  "TP_FLYINGSKELETON": [
+    {
+      "level": 5,
+      "maxHp": 25,
+      "speed": 130,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "xp": 2.75,
+      "frameNames": [
+        "TP_FlyingSkeleton_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "bName": "Flying Skeleton",
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_GURKHAKNIFEMASTER": [
+    {
+      "level": 1,
+      "maxHp": 17.5,
+      "scale": 1,
+      "speed": 160,
+      "power": 12.5,
+      "knockback": 0.25,
+      "maxKnockback": 1.25,
+      "deathKB": 1,
+      "xp": 2.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 14,
+      "frameNames": [
+        "TP_GurkhaKnifeMaster_0.png"
+      ],
+      "bName": "Gurkha Knife Master",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bhighlight": false
+    }
+  ],
+  "TP_GORGON": [
+    {
+      "maxHp": 5,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "xp": 2,
+      "frameNames": [
+        "TP_Gorgon_0.png"
+      ],
+      "end": 12,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Gorgon",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bhighlight": false,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -15,
+        "offsetX": -5
+      }
+    }
+  ],
+  "TP_BONEGOLEM": [
+    {
+      "maxHp": 16,
+      "speed": 130,
+      "power": 12,
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1.25,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_BoneGolem_0.png"
+      ],
+      "bName": "Bone Golem",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetX": -5,
+        "offsetY": -5
+      }
+    }
+  ],
+  "TP_DISCARMOR": [
+    {
+      "level": 1,
+      "scale": 1,
+      "maxHp": 20,
+      "speed": 120,
+      "power": 15,
+      "knockback": 0.25,
+      "maxKnockback": 1.25,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 10,
+      "frameNames": [
+        "TP_DiscArmor_0.png"
+      ],
+      "bName": "Disc Armor",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bDesc": "An echo bounces between the interior walls of this animated armor, the guttural cry of a long dead warrior screaming into eternity: \"LET. IT. RIP\".  "
+    }
+  ],
+  "TP_ALASTOR": [
+    {
+      "level": 6,
+      "maxHp": 30,
+      "speed": 160,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 8,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_Alastor_0.png"
+      ],
+      "bName": "Alastor",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_PATROL_ALASTOR": [
+    {
+      "level": 6,
+      "patrolDuration": 2000,
+      "maxHp": 30,
+      "speed": 160,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 8,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_Alastor_0.png"
+      ],
+      "bName": "Alastor",
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_WARGRIDER": [
+    {
+      "level": 1,
+      "maxHp": 25,
+      "speed": 140,
+      "power": 20,
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 5,
+      "xp": 5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_WargRider_0.png"
+      ],
+      "bName": "Warg Rider",
+      "bInclude": false,
+      "bHighlight": false,
+      "end": 18
+    }
+  ],
+  "TP_MALACHI": [
+    {
+      "level": 5,
+      "maxHp": 30,
+      "speed": 100,
+      "power": 11,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "end": 24,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Malachi_0.png"
+      ],
+      "bName": "Malachi",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_WEREWOLF": [
+    {
+      "level": 1,
+      "maxHp": 18,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 7,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Werewolf_0.png"
+      ],
+      "bName": "Castle Werewolf",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.45,
+        "offsetX": -5,
+        "offsetY": -7.5
+      }
+    }
+  ],
+  "TP_AXEARMOR_01": [
+    {
+      "level": 1,
+      "scale": 1,
+      "maxHp": 4.6,
+      "speed": 125,
+      "power": 9,
+      "knockback": 0.5,
+      "maxKnockback": 1.5,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "end": 8,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Reuse_Axearmor_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      "bName": "Axe Armor",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "enemyType": "TP_AXEARMOR_01",
+      "bVariants": [
+        "TP_AXEARMOR_02"
+      ]
+    }
+  ],
+  "TP_AXEARMOR_02": [
+    {
+      "level": 1,
+      "scale": 1,
+      "maxHp": 4.8,
+      "speed": 125,
+      "power": 9,
+      "knockback": 0.5,
+      "maxKnockback": 1.5,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "end": 8,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Reuse_Axearmor_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      "enemyType": "TP_AXEARMOR_02"
+    }
+  ],
+  "TP_AXEARMOR_FAST": [
+    {
+      "level": 1,
+      "scale": 1,
+      "maxHp": 4.8,
+      "speed": 400,
+      "power": 5,
+      "knockback": 0.5,
+      "maxKnockback": 1.5,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "end": 8,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Reuse_Axearmor_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      "enemyType": "TP_AXEARMOR_FAST"
+    }
+  ],
+  "TP_KILLERDOLL": [
+    {
+      "level": 1,
+      "maxHp": 1.6,
+      "speed": 150,
+      "power": 6,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1.3,
+      "end": 8,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_KillerDoll_0.png"
+      ],
+      "bName": "Killer Doll",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.5,
+        "offsetX": -7.5,
+        "offsetY": -2.5
+      }
+    }
+  ],
+  "TP_MUDMAN": [
+    {
+      "level": 1,
+      "maxHp": 4,
+      "speed": 110,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "end": 16,
+      "frameNames": [
+        "TP_MudMan_0.png"
+      ],
+      "bName": "Mud Man",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "textureName": "TP_enemies",
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -5,
+        "offsetX": -5
+      }
+    }
+  ],
+
+  "TP_MEDUSAHEAD": [
+    {
+      "maxHp": 0.2,
+      "speed": 180,
+      "power": 5,
+      "knockback": 2,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "frameNames": [
+        "TP_MEDUSAHEAD_0.png"
+      ],
+      "end": 10,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Medusa Head",
+      "bDesc": "@@.",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.2,
+        "offsetY": 15,
+        "offsetX": 10
+      }
+    }
+  ],
+  "TP_CORPSEWEED_WALL": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 10,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "skills": [
+        0
+      ],
+      "xp": 1.5,
+      "end": 10,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "TP_CorpseWeed_0.png"
+      ],
+      "bName": "Corpseweed",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "enemyType": "TP_CORPSEWEED_WALL",
+      "colliderOverride": {
+        "radius": 0.5,
+        "offsetX": -10
+      }
+    }
+  ],
+  "TP_BONEARK": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "alpha": 0.85,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 12,
+      "frameNames": [
+        "TP_BoneArk_0.png"
+      ],
+      "fireDelay": 6000,
+      "fireDelayRandomness": 3000,
+      "firingRangeMin": 10,
+      "firingRangeMax": 100,
+      "bulletType": "TP_BONE_BULLET",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bName": "Bone Ark",
+      "enemyType": "TP_BONEARK"
+    }
+  ],
+  "TP_BONEPILLAR": [
+    {
+      "level": 3,
+      "maxHp": 2,
+      "speed": 0,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 2,
+      "fireDelay": 1000,
+      "bulletType": "TP_BONE_BULLET",
+      "frameNames": [
+        "TP_BONEPILLAR_0.png"
+      ],
+      "end": 11,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 3,
+      "killedAmount": 0,
+      "bName": "Bone Pillar",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bVariants": [
+        "TP_BONEPILLAR_EVENT"
+      ]
+    }
+  ],
+  "TP_BONEPILLAR_EVENT": [
+    {
+      "level": 3,
+      "maxHp": 1,
+      "speed": 0,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 1.5,
+      "skills": [
+        0
+      ],
+      "fireDelay": 10000,
+      "fireDelayRandomness": 5000,
+      "bulletType": "TP_BONE_BULLET",
+      "frameNames": [
+        "TP_BONEPILLAR_0.png"
+      ],
+      "end": 11,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 3,
+      "killedAmount": 0,
+      "bName": "Bone Pillar",
+      "bPlaces": [],
+      "bIndex": 0
+    }
+  ],
+  "TP_BONE_BULLET": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 400,
+      "power": 5,
+      "skills": [
+        1
+      ],
+      "scale": 1,
+      "passThroughWalls": true,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "frameNames": [
+        "TP_BONE_BULLET_0.png"
+      ],
+      "idleFrameCount": 4,
+      "end": 0,
+      "textureName": "TP_enemiesReuse",
+      "killedAmount": 0,
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_LEGION": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_LEGION",
+      "level": 21,
+      "maxHp": 50,
+      "speed": 160,
+      "power": 30,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 64,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "TP_BOSS_LEGION_SECTION": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_LEGION_SECTION",
+      "level": 21,
+      "maxHp": 20,
+      "speed": 0,
+      "power": 10,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 32,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "killedAmount": 0,
+      "materialType": "ColourReplacement",
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_LEGION_ZOMBIE": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_LEGION_ZOMBIE",
+      "level": 5,
+      "maxHp": 1,
+      "speed": 200,
+      "power": 5,
+      "xp": 0,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [],
+      "res_Defang": 0,
+      "res_Freeze": 0,
+      "res_Rosary": 0,
+      "res_Debuffs": 0,
+      "res_Corridor": 0,
+      "passThroughWalls": true,
+      "scale": 16,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "killedAmount": 0,
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_BEELZEBUB": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_BEELZEBUB",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 0,
+      "power": 30,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 64,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "TP_BOSS_BEELZEBUB_SECTION": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_BEELZEBUB_SECTION",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 0,
+      "power": 10,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 32,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "killedAmount": 0,
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_BEELZEBUB_BEE": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_BEELZEBUB_BEE",
+      "level": 5,
+      "maxHp": 5,
+      "speed": 100,
+      "power": 5,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "skills": [],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 0,
+      "res_Debuffs": 1,
+      "res_Corridor": 0,
+      "passThroughWalls": true,
+      "scale": 16,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "TP_BOSS_JIANGSHI": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_JIANGSHI",
+      "scale": 1.5,
+      "maxHp": 24,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 10,
+      "textureName": "TP_Enemies",
+      "frameNames": [
+        "TP_JiangShi_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_KEREMET": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_KEREMET",
+      "scale": 1.5,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 20,
+      "textureName": "TP_Enemies",
+      "frameNames": [
+        "TP_Keremet_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_ZEPHYR": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_ZEPHYR",
+      "scale": 1.5,
+      "maxHp": 24,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 2,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 16,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Zephyr_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_STONEROSE": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_STONEROSE",
+      "scale": 1.25,
+      "maxHp": 15,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 1,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_StoneRose_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_MALPHAS": [
+    {
+      "level": 30,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 50,
+      "end": 20,
+      "textureName": "TP_enemiesReuse",
+      "idleFrameCount": 7,
+      "frameNames": [
+        "TP_Malphas_0.png"
+      ],
+      "colliderOverride": {
+        "offsetY": 60,
+        "radius": 0.2,
+        "offsetX": 30
+      }
+    }
+  ],
+  "TP_BOSS_OLROX": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_OLROX",
+      "maxHp": 50,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 0,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Olrox_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "offsetX": -8,
+        "offsetY": 0,
+        "radius": 0.6
+      }
+    }
+  ],
+  "TP_BOSS_OLROX2": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_OLROX2",
+      "maxHp": 50,
+      "speed": 350,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0.5,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 0,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_OlroxMonster_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_GAIBON": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_GAIBON",
+      "level": 4400,
+      "scale": 1.5,
+      "maxHp": 44,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "textureName": "TP_enemiesReuse",
+      "end": 14,
+      "frameNames": [
+        "TP_REUSE_GAIBON_0.png"
+      ],
+      "colliderOverride": {
+        "offsetY": 25,
+        "radius": 0.25,
+        "offsetX": 10
+      }
+    }
+  ],
+  "TP_BOSS_SLOGRA": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_SLOGRA",
+      "level": 4400,
+      "scale": 1.5,
+      "maxHp": 44,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 3,
+      "textureName": "TP_enemiesReuse",
+      "end": 12,
+      "frameNames": [
+        "TP_Reuse_Slorga_0.png"
+      ],
+      "colliderOverride": {
+        "offsetY": 25,
+        "radius": 0.25,
+        "offsetX": 10
+      }
+    }
+  ],
+  "TP_BOSS_BEHEMOTH": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_BEHEMOTH",
+      "scale": 1.5,
+      "maxHp": 40,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Behemoth(Bloodless)_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetX": 16,
+        "offsetY": -24
+      },
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_TREANT": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_TREANT",
+      "scale": 1.5,
+      "maxHp": 35,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "textureName": "TP_enemies",
+      "end": 12,
+      "frameNames": [
+        "TP_Treant_0.png"
+      ],
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_ABBADON": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_ABBADON",
+      "level": 4400,
+      "scale": 1.5,
+      "maxHp": 24,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 1,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Abbadon_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_MENACE": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_MENACE",
+      "level": 4400,
+      "scale": 1.25,
+      "maxHp": 44,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 8,
+      "end": 21,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_MENACE_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.375,
+        "offsetY": 36,
+        "offsetX": 0
+      },
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_ELIGOR": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_ELIGOR",
+      "maxHp": 50,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 6,
+      "end": 1,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Eligor_0.png"
+      ],
+      "colliderOverride": {
+        "offsetY": 25,
+        "radius": 0.25,
+        "offsetX": 10
+      },
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_GALAMOTH": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_GALAMOTH",
+      "level": 4400,
+      "maxHp": 44,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 6,
+      "end": 0,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Galamoth_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_GERGOTH": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_GERGOTH",
+      "scale": 1.1,
+      "maxHp": 40,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 1,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Gergoth_0.png"
+      ],
+      "killedAmount": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_GIANTMEDUSAHEAD": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_GIANTMEDUSAHEAD",
+      "scale": 1.5,
+      "maxHp": 24,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 5,
+      "end": 16,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_GiantMedusaHead_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -25,
+        "offsetX": -10
+      },
+      "killedAmount": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_PUPPETMASTER": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_PUPPETMASTER",
+      "level": 4400,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 11,
+      "textureName": "TP_enemiesReuse",
+      "frameNames": [
+        "TP_BOSS_PUPPETMASTER_0.png"
+      ],
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_BLACKMORE": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_BLACKMORE",
+      "maxHp": 44,
+      "scale": 1.5,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "weak_Fire": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 0,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_BLACKMORE_CONDUCTOR_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.5,
+        "offsetY": 0,
+        "offsetX": -10
+      },
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_PARANOIA": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_PARANOIA",
+      "scale": 1.25,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 1,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Paranoia_0.png"
+      ],
+      "colliderOverride": {
+        "offsetY": 25,
+        "radius": 0.25,
+        "offsetX": 10
+      },
+      "killedAmount": 0,
+      "bName": "---",
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_BRACHYURA": [
+    {
+      "level": 30,
+      "maxHp": 50,
+      "speed": 200,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 50,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "textureName": "TP_enemies",
+      "end": 0,
+      "frameNames": [
+        "TP_BRACHYURA_0.png"
+      ],
+      "bName": "---",
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -60,
+        "offsetX": -10
+      }
+    }
+  ],
+  "TP_BOSS_BRACHYURA_CLAW": [
+    {
+      "level": 30,
+      "maxHp": 0.5,
+      "speed": 0,
+      "power": 12,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 10,
+      "passThroughWalls": true,
+      "idleFrameCount": 3,
+      "lives": 17,
+      "textureName": "TP_enemies",
+      "end": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "frameNames": [
+        "TP_BOSS_BRACHYURACLAW%_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_GIANTBAT": [
+    {
+      "level": 30,
+      "maxHp": 20,
+      "speed": 160,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 50,
+      "passThroughWalls": true,
+      "idleFrameCount": 5,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -20,
+        "offsetX": -5
+      },
+      "frameNames": [
+        "TP_GIANTBAT_0.png"
+      ],
+      "bName": "---",
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "TP_BOSS_DEATH": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_DEATH",
+      "level": 21,
+      "maxHp": 300,
+      "speed": 160,
+      "power": 30,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 64,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "killedAmount": 0,
+      "materialType": "DefaultSpriteLit"
+    }
+  ],
+  "TP_BOSS_DEATHARM": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_DEATHARM",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 160,
+      "power": 30,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 64,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "killedAmount": 0,
+      "materialType": "DefaultSpriteLit"
+    }
+  ],
+  "TP_BOSS_DEATH_SCYTHE": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_DEATH_SCYTHE",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 160,
+      "power": 6,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "passThroughWalls": true,
+      "scale": 2,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "killedAmount": 0,
+      "materialType": "DefaultSpriteLit"
+    }
+  ],
+  "TP_BOSS_DEATH_SCYTHEBIG": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_BOSS_DEATH_SCYTHEBIG",
+      "level": 21,
+      "maxHp": 30,
+      "speed": 40,
+      "power": 0,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 2,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "killedAmount": 0,
+      "materialType": "DefaultSpriteLit"
+    }
+  ],
+  "TP_BOSS_SLORGA": [
+    {
+      "level": 1,
+      "scale": 1.2,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 12,
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": 0
+      },
+      "bInclude": false,
+      "bHighlight": false,
+      "idleFrameCount": 3,
+      "textureName": "TP_enemiesReuse",
+      "frameNames": [
+        "TP_REUSE_SLORGA_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_DOPPLEGANGER": [
+    {
+      "skipCredits": true,
+      "enemyType": "TP_DOPPLEGANGER",
+      "level": 21,
+      "maxHp": 10,
+      "speed": 200,
+      "power": 25,
+      "xp": 0,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        0
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": false,
+      "scale": 1,
+      "idleFrameCount": 1,
+      "end": 0,
+      "textureName": "vfx",
+      "frameNames": [
+        "WhiteDot.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "killedAmount": 0
+    }
+  ],
+  "TP_BOSS_MUMMY": [
+    {
+      "maxHp": 24,
+      "skills": [
+        0
+      ],
+      "power": 11,
+      "scale": 1.4,
+      "speed": 80,
+      "knockback": 0.3,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 40,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Mummy_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "idleFrameCount": 5,
+      "end": 19,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -5,
+        "offsetX": -5
+      }
+    }
+  ],
+  "TP_BOSS_CREATURE": [
+    {
+      "maxHp": 22,
+      "skills": [
+        0
+      ],
+      "power": 22,
+      "speed": 100,
+      "scale": 1.5,
+      "knockback": 0.3,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_TheCreature_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "idleFrameCount": 4,
+      "end": 19,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": 0,
+        "offsetX": -10
+      }
+    }
+  ],
+  "TP_BOSS_BAT": [
+    {
+      "level": 1,
+      "maxHp": 4,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 0.7,
+      "maxKnockback": 2.5,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "res_Defang": 1,
+      "end": 12,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Boss_Bat_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "idleFrameCount": 4,
+      "bName": "Familiar Bat"
+    }
+  ],
+  "TP_BOSS_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 4,
+      "speed": 140,
+      "power": 10,
+      "scale": 1.4,
+      "skills": [
+        0
+      ],
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "res_Defang": 1,
+      "end": 16,
+      "textureName": "TP_enemies",
+      "frameNames": [
+        "TP_Medusa_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "idleFrameCount": 4,
+      "bName": "The Medusa",
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -5,
+        "offsetX": 0
+      }
+    }
+  ],
+  "TP_BOSS_BUGBEAR": [
+    {
+      "scale": 1.4,
+      "maxHp": 10.5,
+      "skills": [
+        0
+      ],
+      "speed": 150,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Defang": 1,
+      "frameNames": [
+        "TP_Bugbear_0.png"
+      ],
+      "textureName": "TP_enemies",
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "bName": "Bugbear",
+      "bIndex": 0,
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "end": 37,
+      "colliderOverride": {
+        "radius": 0.5,
+        "offsetX": -10,
+        "offsetY": -5
+      }
+    }
+  ],
+  "TP_BOSS_DEVIL": [
+    {
+      "scale": 1.4,
+      "maxHp": 15.5,
+      "skills": [
+        0
+      ],
+      "power": 20,
+      "speed": 130,
+      "knockback": 0.1,
+      "maxKnockback": 1,
+      "deathKB": 7,
+      "killedAmount": 0,
+      "xp": 30,
+      "res_Defang": 1,
+      "end": 22,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "TP_Devil_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "bName": "Devil"
+    }
+  ],
+  "TP_BOSS_MINOTAUR": [
+    {
+      "maxHp": 18.5,
+      "speed": 100,
+      "power": 20,
+      "scale": 1.5,
+      "skills": [
+        0
+      ],
+      "knockback": 0,
+      "maxKnockback": 0.5,
+      "deathKB": 2,
+      "xp": 25,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "frameNames": [
+        "TP_Minotaur_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
+      "end": 14,
+      "idleFrameCount": 5,
+      "textureName": "TP_enemies",
+      "killedAmount": 0,
+      "bName": "Minotaur",
+      "enemyType": "TP_MINOTAUR",
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -15,
+        "offsetX": -10
+      }
+    }
+  ],
+  "TP_MINIBOSS_SISYPHUSYORICK": [
+    {
+      "level": 1,
+      "maxHp": 6,
+      "speed": 120,
+      "power": 12,
+      "knockback": 0.25,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 15,
+      "frameNames": [
+        "TP_Yorick_0.png"
+      ],
+      "end": 23,
+      "textureName": "TP_enemies",
+      "idleFrameCount": 1,
+      "killedAmount": 0,
+      "bName": "Yorick",
+      "bInclude": false,
+      "bHighlight": false,
+      "skills": [
+        0
+      ],
+      "scale": 2,
+      "enemyType": "TP_MINIBOSS_SISYPHUSYORICK"
+    }
+  ],
+  "TP_BOSS_STELLA": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 80,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "res_Freeze": 100,
+      "res_Rosary": 100,
+      "res_Debuffs": 100,
+      "res_Knockback": 100,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Stella_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_LORETTA": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 80,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "res_Freeze": 100,
+      "res_Rosary": 100,
+      "res_Debuffs": 100,
+      "res_Knockback": 100,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Loretta_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_CARMILLA": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 80,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "res_Freeze": 100,
+      "res_Rosary": 100,
+      "res_Debuffs": 100,
+      "res_Knockback": 100,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Carmilla_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_WALTER": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 80,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "res_Freeze": 100,
+      "res_Rosary": 100,
+      "res_Debuffs": 100,
+      "res_Knockback": 100,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Walter_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_JOACHIM": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 80,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "res_Freeze": 100,
+      "res_Rosary": 100,
+      "res_Debuffs": 100,
+      "res_Knockback": 100,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Joachim_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_SOLEIL": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 80,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "res_Freeze": 100,
+      "res_Rosary": 100,
+      "res_Debuffs": 100,
+      "res_Knockback": 100,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Soleil_0.png"
+      ]
+    }
+  ],
+  "TP_BOSS_SUCCUBUS": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 80,
+      "skills": [
+        0
+      ],
+      "power": 10,
+      "res_Freeze": 100,
+      "res_Rosary": 100,
+      "res_Debuffs": 100,
+      "res_Knockback": 100,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 30,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "TP_enemies",
+      "end": 1,
+      "frameNames": [
+        "TP_Succubus_0.png"
+      ]
+    }
+  ]
+}

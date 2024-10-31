@@ -1,0 +1,26 @@
+﻿{
+  "TP_LIBRARIAN": {
+    "merchantCharacter": "TP_LIBRARIAN",
+    "portraitSprite": "mercLibrarian",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Librarian_i01",
+    "staticSpriteTexture": "character_tp_librarian",
+    "textLocKey": "adv_merc_TP_LIBRARIAN",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_VALMANWAY",
+      "TP_ICEBRAND",
+      "TP_GOTH_MISSILE",
+      "TP_AURABLAST_WEAPON",
+      "TP_SAVROG_WEAPON",
+      "TP_NEUTRON_WEAPON",
+      "TP_HYDROSTORM",
+      "TP_GRANDCROSS",
+      "TP_SUMMON_SPIRIT",
+      "TP_DARKRIFT",
+      "TP_SOULSTEAL_WEAPON",
+      "TP_SWORD_BROTHERS",
+      "TP_SPIRITTORNADO"
+    ]
+  }
+}

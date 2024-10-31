@@ -7,23 +7,27 @@
       "startingWeapon": "FB_FULLAUTO",
       "charName": "Bill",
       "surname": "Rizer",
-      "textureName": "firstBlood",
+      "textureName": "character_billrizer",
       "spriteName": "BillRizer_i01",
       "portraitName": "p_fbBill.png",
       "bgm": "BGM_FB_COVER_02_Wate",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_billrizer",
           "spriteName": "BillRizer_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_billrizer",
               "spriteName": "BillRizer_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -66,13 +70,36 @@
       "banish": 4,
       "defang": 0,
       "showcase": [
-        "FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO","FB_FULLAUTO",
-
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "FB_WEAPONPU"
+        "FB_FULLAUTO",
+        "FB_FULLAUTO",
+        "FB_FULLAUTO",
+        "FB_FULLAUTO",
+        "FB_FULLAUTO",
+        "FB_FULLAUTO",
+        "FB_FULLAUTO",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -100,23 +127,27 @@
       "startingWeapon": "FB_RAPIDFIRE",
       "charName": "Lance",
       "surname": "Bean",
-      "textureName": "firstBlood",
+      "textureName": "character_lancebean",
       "spriteName": "LanceBean_i01.png",
       "portraitName": "p_fbLance.png",
       "bgm": "BGM_FB_COVER_11_Fort",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_lancebean",
           "spriteName": "LanceBean_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_lancebean",
               "spriteName": "LanceBean_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -165,12 +196,30 @@
         "FB_RAPIDFIRE",
         "FB_RAPIDFIRE",
         "FB_RAPIDFIRE",
-        "FB_RAPIDFIRE",        
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_RAPIDFIRE",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -198,23 +247,27 @@
       "startingWeapon": "FB_SPREAD",
       "charName": "Ariana",
       "surname": "",
-      "textureName": "firstBlood",
+      "textureName": "character_ariana",
       "spriteName": "Ariana_i01.png",
       "portraitName": "p_fbAriana.png",
       "bgm": "BGM_FB_K01_Spir",
-
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_ariana",
           "spriteName": "Ariana_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_ariana",
               "spriteName": "Ariana_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -257,12 +310,36 @@
       "banish": 0,
       "defang": 0,
       "showcase": [
-        "FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD","FB_SPREAD",
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_SPREAD",
+        "FB_SPREAD",
+        "FB_SPREAD",
+        "FB_SPREAD",
+        "FB_SPREAD",
+        "FB_SPREAD",
+        "FB_SPREAD",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -290,23 +367,27 @@
       "startingWeapon": "FB_LASER",
       "charName": "Lucia",
       "surname": "Zero",
-      "textureName": "firstBlood",
+      "textureName": "character_luciazero",
       "spriteName": "LuciaZero_i01.png",
       "portraitName": "p_fbLucia.png",
       "bgm": "BGM_FB_K04_Blue",
-
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_luciazero",
           "spriteName": "LuciaZero_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_luciazero",
               "spriteName": "LuciaZero_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -349,12 +430,36 @@
       "banish": 0,
       "defang": 0,
       "showcase": [
-        "FB_LASER","FB_LASER","FB_LASER","FB_LASER","FB_LASER","FB_LASER","FB_LASER",
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_LASER",
+        "FB_LASER",
+        "FB_LASER",
+        "FB_LASER",
+        "FB_LASER",
+        "FB_LASER",
+        "FB_LASER",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -374,7 +479,6 @@
       "growth": -1
     }
   ],
-  
   "FB_BRADFANG": [
     {
       "level": 1,
@@ -383,23 +487,27 @@
       "startingWeapon": "FB_FIREARM",
       "charName": "Brad",
       "surname": "Fang",
-      "textureName": "firstBlood",
+      "textureName": "character_bradfang",
       "spriteName": "BradFang_i01.png",
       "portraitName": "p_fbBrad.png",
       "bgm": "BGM_FB_COVER_06_Hard",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_bradfang",
           "spriteName": "BradFang_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_bradfang",
               "spriteName": "BradFang_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -411,7 +519,7 @@
               ]
             },
             "meleeAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_bradfang",
               "spriteName": "BradFang_aa01.png",
               "framesNumber": 5,
               "frameRate": 12,
@@ -454,12 +562,37 @@
       "banish": 0,
       "defang": 0,
       "showcase": [
-        "FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM","FB_FIREARM",
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_FIREARM",
+        "FB_FIREARM",
+        "FB_FIREARM",
+        "FB_FIREARM",
+        "FB_FIREARM",
+        "FB_FIREARM",
+        "FB_FIREARM",
+        "FB_FIREARM",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -487,23 +620,27 @@
       "startingWeapon": "FB_SONIC",
       "charName": "Browny",
       "surname": "",
-      "textureName": "firstBlood",
+      "textureName": "character_browny",
       "spriteName": "Browny_i01.png",
       "portraitName": "p_fbBrowny.png",
       "bgm": "BGM_FB_COVER_05_Yoro",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_browny",
           "spriteName": "Browny_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_browny",
               "spriteName": "Browny_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -546,12 +683,31 @@
       "banish": 0,
       "defang": 0,
       "showcase": [
-        "FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC","FB_SONIC",
-
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "ARMOR","ARMOR","ARMOR","ARMOR","ARMOR",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_SONIC",
+        "FB_SONIC",
+        "FB_SONIC",
+        "FB_SONIC",
+        "FB_SONIC",
+        "FB_SONIC",
+        "FB_SONIC",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -579,23 +735,27 @@
       "startingWeapon": "FB_BLADECROSSBOW",
       "charName": "Sheena",
       "surname": "Etranzi",
-      "textureName": "firstBlood",
+      "textureName": "character_sheenaetranzi",
       "spriteName": "SheenaEtranzi_i01.png",
       "portraitName": "p_fbSheena.png",
       "bgm": "BGM_FB_K07_Some",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_sheenaetranzi",
           "spriteName": "SheenaEtranzi_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_sheenaetranzi",
               "spriteName": "SheenaEtranzi_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -633,18 +793,46 @@
       "growth": 1,
       "greed": 1,
       "curse": 1,
-      "rerolls":  8,
-      "skips":    0,
-      "banish":   0,
-      "defang":   0,
+      "rerolls": 8,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
       "showcase": [
-        "FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW","FB_BLADECROSSBOW",
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "LUCK","LUCK","LUCK","LUCK","LUCK",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_BLADECROSSBOW",
+        "FB_BLADECROSSBOW",
+        "FB_BLADECROSSBOW",
+        "FB_BLADECROSSBOW",
+        "FB_BLADECROSSBOW",
+        "FB_BLADECROSSBOW",
+        "FB_BLADECROSSBOW",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -672,23 +860,27 @@
       "startingWeapon": "FB_PRISMCUTLASS",
       "charName": "Probotector",
       "surname": "",
-      "textureName": "firstBlood",
+      "textureName": "character_probotector",
       "spriteName": "Probetector_i01.png",
       "portraitName": "p_fbProbo.png",
       "bgm": "BGM_FB_COVER_09_Gtra",
-
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_probotector",
           "spriteName": "Probetector_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_probotector",
               "spriteName": "Probetector_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -700,7 +892,7 @@
               ]
             },
             "meleeAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_probotector",
               "spriteName": "Probetector_am01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -743,13 +935,41 @@
       "banish": 0,
       "defang": 0,
       "showcase": [
-        "FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS","FB_PRISMCUTLASS",
-        "AMOUNT","AMOUNT",
-        "MOVESPEED","MOVESPEED","MOVESPEED","MOVESPEED","MOVESPEED",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_PRISMCUTLASS",
+        "FB_PRISMCUTLASS",
+        "FB_PRISMCUTLASS",
+        "FB_PRISMCUTLASS",
+        "FB_PRISMCUTLASS",
+        "FB_PRISMCUTLASS",
+        "FB_PRISMCUTLASS",
+        "AMOUNT",
+        "AMOUNT",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -769,7 +989,6 @@
       "growth": -1
     }
   ],
-  
   "FB_STANLEY": [
     {
       "level": 1,
@@ -778,23 +997,27 @@
       "startingWeapon": "FB_HOMING",
       "charName": "Stanley",
       "surname": "",
-      "textureName": "firstBlood",
+      "textureName": "character_stanley",
       "spriteName": "Stanley_i01.png",
       "portraitName": "p_fbStanley.png",
       "bgm": "BGM_FB_K10_Moon",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_stanley",
           "spriteName": "Stanley_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_stanley",
               "spriteName": "Stanley_a01.png",
               "framesNumber": 5,
               "frameRate": 12,
@@ -837,12 +1060,36 @@
       "banish": 0,
       "defang": 0,
       "showcase": [
-        "FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING","FB_HOMING",
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_HOMING",
+        "FB_HOMING",
+        "FB_HOMING",
+        "FB_HOMING",
+        "FB_HOMING",
+        "FB_HOMING",
+        "FB_HOMING",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -871,23 +1118,27 @@
       "prefix": "",
       "charName": "Newt",
       "surname": "Plissken",
-      "textureName": "firstBlood",
+      "textureName": "character_newt",
       "spriteName": "Newt_i01.png",
       "portraitName": "p_fbNewt.png",
       "bgm": "BGM_FB_K03_Zeph",
-
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_newt",
           "spriteName": "Newt_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_newt",
               "spriteName": "Newt_a01.png",
               "framesNumber": 4,
               "frameRate": 12,
@@ -930,13 +1181,41 @@
       "banish": 0,
       "defang": 0,
       "showcase": [
-        "FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES","FB_DIVERMINES",
-        "AMOUNT","AMOUNT",
-        "AREA","AREA","AREA","AREA","AREA",
-        "MAGNET","MAGNET","MAGNET","MAGNET","MAGNET",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_DIVERMINES",
+        "FB_DIVERMINES",
+        "FB_DIVERMINES",
+        "FB_DIVERMINES",
+        "FB_DIVERMINES",
+        "FB_DIVERMINES",
+        "FB_DIVERMINES",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -965,7 +1244,7 @@
       "prefix": "Colonel",
       "charName": "Bahamut",
       "surname": "",
-      "textureName": "firstBlood",
+      "textureName": "character_colonel",
       "spriteName": "Colonel_i01.png",
       "portraitName": "p_fbColonel.png",
       "bgm": "BGM_FB_K12_Last",
@@ -973,19 +1252,23 @@
         "x": 16,
         "y": 32
       },
-
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_colonel",
           "spriteName": "Colonel_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": -5} ],
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ],
           "spriteAnims": {
             "meleeAttack": {
-              "textureName": "firstBlood",
+              "textureName": "character_colonel",
               "spriteName": "Colonel_aa01.png",
               "framesNumber": 5,
               "frameRate": 12,
@@ -1007,34 +1290,62 @@
       "survivedMinutes": 0,
       "enemiesKilled": 0,
       "stageData": [],
-      "maxHp":      200,
-      "regen":      0,
-      "armor":      2,
-      "moveSpeed":  1.8,
-      "power":      1.5,
-      "speed":      1,
-      "duration":   1,
-      "area":       1,
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0.25,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "defang":     0,
+      "maxHp": 200,
+      "regen": 0,
+      "armor": 2,
+      "moveSpeed": 1.8,
+      "power": 1.5,
+      "speed": 1,
+      "duration": 1,
+      "area": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0.25,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "defang": 0,
       "showcase": [
-        "FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW","FB_METALCLAW",
-        "AMOUNT","AMOUNT",
-        "MAXHEALTH","MAXHEALTH","MAXHEALTH","MAXHEALTH","MAXHEALTH",
-        "AREA","AREA","AREA","AREA","AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "DURATION","DURATION","DURATION","DURATION","DURATION",
-        "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN", "COOLDOWN","FB_WEAPONPU"
+        "FB_METALCLAW",
+        "FB_METALCLAW",
+        "FB_METALCLAW",
+        "FB_METALCLAW",
+        "FB_METALCLAW",
+        "FB_METALCLAW",
+        "FB_METALCLAW",
+        "AMOUNT",
+        "AMOUNT",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "FB_WEAPONPU"
       ]
     },
     {
@@ -1063,7 +1374,7 @@
       "charName": "Simondo",
       "surname": "",
       "spriteName": "Simondo_i01.png",
-      "textureName": "firstBlood",
+      "textureName": "character_simondo",
       "portraitName": "p_fbSimondo.png",
       "walkingFrames": 4,
       "description": "Simondo doesn't need weapons.",
@@ -1075,11 +1386,16 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "firstBlood",
+          "textureName": "character_simondo",
           "spriteName": "Simondo_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 7, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 7,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",

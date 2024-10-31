@@ -4,7 +4,7 @@
     "portraitSprite": "mercAntonio",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newAntonio_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_antonio",
     "textLocKey": "adv_merc_ANTONIO",
     "merchantInventory": [
       "POWER",
@@ -18,7 +18,7 @@
     "portraitSprite": "mercImelda",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newImelda_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_imelda",
     "textLocKey": "adv_merc_IMELDA",
     "merchantInventory": [
       "COOLDOWN",
@@ -32,7 +32,7 @@
     "portraitSprite": "mercPasqualina",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newPasqualina_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_pasqualina",
     "textLocKey": "adv_merc_PASQUALINA",
     "merchantInventory": [
       "LUCK",
@@ -46,7 +46,7 @@
     "portraitSprite": "mercGennaro",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newGennaro_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_gennaro",
     "textLocKey": "adv_merc_GENNARO",
     "merchantInventory": [
       "MAXHEALTH",
@@ -60,7 +60,7 @@
     "portraitSprite": "mercAssunta",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newAssunta_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_assunta",
     "textLocKey": "adv_merc_ASSUNTA",
     "merchantInventory": [
       "WHIP",
@@ -75,7 +75,7 @@
     "portraitSprite": "mercPoe",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newOld3_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_poe",
     "textLocKey": "adv_merc_CAMILLO",
     "merchantInventory": [
       "GARLIC",
@@ -87,7 +87,7 @@
     "portraitSprite": "mercSanta",
     "portraitSpriteTexture": "UI",
     "staticSprite": "Santa_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_santa",
     "textLocKey": "adv_merc_SANTA",
     "merchantInventory": [
       "HOLYWATER",
@@ -105,7 +105,7 @@
     "portraitSprite": "mercPugnala",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newPugnala_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_pugnala",
     "textLocKey": "adv_merc_PUGNALA",
     "merchantInventory": [
       "GUNS",
@@ -119,7 +119,7 @@
     "portraitSprite": "mercPoppea",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newPoppea_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_poppea",
     "textLocKey": "adv_merc_POPPEA",
     "merchantInventory": [
       "SONG",
@@ -134,7 +134,7 @@
     "portraitSprite": "mercGiovanna",
     "portraitSpriteTexture": "UI",
     "staticSprite": "newGiovanna_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_giovanna",
     "textLocKey": "adv_merc_GIOVANNA",
     "merchantInventory": [
       "GATTI",
@@ -149,7 +149,7 @@
     "portraitSprite": "mercAmbrojoe",
     "portraitSpriteTexture": "UI",
     "staticSprite": "Hat_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_ambrojoe",
     "textLocKey": "adv_merc_AMBROGIO",
     "merchantInventory": [
       "BONE",
@@ -165,7 +165,7 @@
     "portraitSprite": "mercAvatar",
     "portraitSpriteTexture": "UI",
     "staticSprite": "v_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_avatar",
     "textLocKey": "adv_merc_AVATAR",
     "merchantInventory": [
       "MISSPELL",
@@ -179,19 +179,19 @@
     "portraitSprite": "mercXanthia",
     "portraitSpriteTexture": "UI",
     "staticSprite": "Xanthia_01",
-    "staticSpriteTexture": "characters",
+    "staticSpriteTexture": "character_xanthia",
     "textLocKey": "adv_merc_MARIASOFIA",
     "merchantInventory": [
       "VICTORY",
       "PHASER"
     ]
   },
-  "TONY": {
-    "merchantCharacter": "TONY",
+  "MCCOY": {
+    "merchantCharacter": "MCCOY",
     "portraitSprite": "mercMcCoy",
     "portraitSpriteTexture": "UI",
     "staticSprite": "McCoy_i01",
-    "staticSpriteTexture": "moonspellChars",
+    "staticSpriteTexture": "character_mccoy",
     "textLocKey": "adv_merc_TONY",
     "DLC": "Moonspell",
     "merchantInventory": [
@@ -209,7 +209,7 @@
     "portraitSprite": "mercSammy",
     "portraitSpriteTexture": "UI",
     "staticSprite": "Sammy_i01",
-    "staticSpriteTexture": "foscariChars",
+    "staticSpriteTexture": "character_sammy",
     "textLocKey": "adv_merc_CTRPCAKE",
     "DLC": "Foscari",
     "merchantInventory": [
@@ -228,7 +228,7 @@
     "portraitSprite": "p_horse",
     "portraitSpriteTexture": "UI",
     "staticSprite": "C01Horse_01",
-    "staticSpriteTexture": "chalcedony",
+    "staticSpriteTexture": "character_c01horse",
     "textLocKey": "adv_merc_C1_HORSE",
     "DLC": "Chalcedony",
     "merchantInventory": [
@@ -255,7 +255,7 @@
     "portraitSprite": "mercSimondo",
     "portraitSpriteTexture": "UI",
     "staticSprite": "Simondo_i01",
-    "staticSpriteTexture": "firstBlood",
+    "staticSpriteTexture": "character_simondo",
     "textLocKey": "adv_merc_FB_SIMONDO",
     "DLC": "FirstBlood",
     "merchantInventory": [
@@ -271,6 +271,161 @@
       "FB_DIVERMINES",
       "FB_METALCLAW",
       "FB_WEAPONPU"
+    ]
+  },
+  "TP_LIBRARIAN": {
+    "merchantCharacter": "TP_LIBRARIAN",
+    "portraitSprite": "mercLibrarian",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Librarian_i01",
+    "staticSpriteTexture": "character_tp_librarian",
+    "textLocKey": "adv_merc_TP_LIBRARIAN",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_VALMANWAY",
+      "TP_ICEBRAND",
+      "TP_GOTH_MISSILE",
+      "TP_AURABLAST_WEAPON",
+      "TP_SAVROG_WEAPON",
+      "TP_NEUTRON_WEAPON",
+      "TP_HYDROSTORM",
+      "TP_GRANDCROSS",
+      "TP_SUMMON_SPIRIT",
+      "TP_DARKRIFT",
+      "TP_SOULSTEAL_WEAPON",
+      "TP_SWORD_BROTHERS",
+      "TP_SPIRITTORNADO"
+    ]
+  },
+  "TP_SONIA": {
+    "merchantCharacter": "TP_SONIA",
+    "portraitSprite": "mercSonia",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Sonia_i01",
+    "staticSpriteTexture": "character_tp_sonia",
+    "textLocKey": "adv_merc_TP_SONIA",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_ALCHEMYWHIP1",
+      "TP_SONICWHIP1",
+      "TP_DRAGONWATER1",
+      "TP_WINDWHIP1",
+      "TP_LEMURIA1",
+      "TP_HOLYWHIP1",
+      "TP_PLATINUMWHIP1",
+      "TP_MARTIALWHIP1"
+    ]
+  },
+  "TP_HAMMER": {
+    "merchantCharacter": "TP_HAMMER",
+    "portraitSprite": "mercHammer",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Hammer_i01",
+    "staticSpriteTexture": "character_tp_hammer",
+    "textLocKey": "adv_merc_TP_HAMMER",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_BWAKA1",
+      "TP_SHURIKEN1",
+      "TP_JAVELIN1",
+      "TP_DISCUS1",
+      "TP_IRONBALL1",
+      "TP_GUN1",
+      "TP_RPG1",
+      "TP_WINEGLASS1"
+    ]
+  },
+  "TP_JULIA": {
+    "merchantCharacter": "TP_JULIA",
+    "portraitSprite": "mercJulia",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Julia_i01",
+    "staticSpriteTexture": "character_tp_julia",
+    "textLocKey": "adv_merc_TP_JULIA",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_FIRE1",
+      "TP_ICE1",
+      "TP_WIND1",
+      "TP_EARTH1",
+      "TP_ELEC1",
+      "TP_ACID1",
+      "TP_EVIL1",
+      "TP_HOLY1"
+    ]
+  },
+  "TP_VINCENT": {
+    "merchantCharacter": "TP_VINCENT",
+    "portraitSprite": "mercVincent",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Vincent_i01",
+    "staticSpriteTexture": "character_tp_vincent",
+    "textLocKey": "adv_merc_TP_VINCENT",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_ALUCARDSWORD1",
+      "TP_SLASH1",
+      "TP_MACE1",
+      "TP_STARFLAIL1",
+      "TP_ALUCARDSPEAR1",
+      "TP_CHAUVE1",
+      "TP_SHIELD1",
+      "TP_SACREDBEASTS1"
+    ]
+  },
+  "TP_ALBUS": {
+    "merchantCharacter": "TP_ALBUS",
+    "portraitSprite": "mercAlbus",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Albus_i01",
+    "staticSpriteTexture": "character_tp_albus",
+    "textLocKey": "adv_merc_TP_ALBUS",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_CONFODERE1",
+      "TP_SPITE1",
+      "TP_LIGHT1",
+      "TP_DARK1",
+      "TP_ENERGY1",
+      "TP_RAPIDUS1",
+      "TP_CUSTOS1",
+      "TP_CUSTOS2",
+      "TP_CUSTOS3",
+      "TP_DOMINUS1",
+      "TP_DOMINUS2",
+      "TP_DOMINUS3"
+    ]
+  },
+  "TP_HECTOR": {
+    "merchantCharacter": "TP_HECTOR",
+    "portraitSprite": "mercHector",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Hector_i01",
+    "staticSpriteTexture": "character_tp_hector",
+    "textLocKey": "adv_merc_TP_HECTOR",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_MORNINGSTAR",
+      "TP_SPELLBOOK",
+      "TP_DIABOLOGUE",
+      "TP_SPECTRALSWORD",
+      "TP_COATOFARMS",
+      "TP_FAMILIARFORGE"
+    ]
+  },
+  "TP_ELIZABETH": {
+    "merchantCharacter": "TP_ELIZABETH",
+    "portraitSprite": "mercElizabeth",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "TP_Elizabeth_i01",
+    "staticSpriteTexture": "character_tp_elizabeth",
+    "textLocKey": "adv_merc_TP_ELIZABETH",
+    "DLC": "ThosePeople",
+    "merchantInventory": [
+      "TP_GEARS_WEAPON",
+      "TP_PENDULUM_WEAPON",
+      "TP_HEADS_WEAPON",
+      "TP_ELEVATOR_WEAPON"
     ]
   }
 }

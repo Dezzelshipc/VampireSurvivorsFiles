@@ -2,7 +2,7 @@
   "FB_GALUGA": [
     {
       "order": 100500,
-      "stageName": "A highway",
+      "stageName": "Hectic Highway",
       "description": "Wow never seen one of these before.",
       "uiTexture": "UI",
       "uiFrame": "stage_cityjungle.png",
@@ -14,7 +14,7 @@
       "unlocked": true,
       "hidden": false,
       "cff": "FB_BILLRIZER",
-      "zoom": 0.17,
+      "zoom": 1,
       "tips": "",
       "relics": [
         "RELIC_MAP_FB"
@@ -24,6 +24,11 @@
       "sideBBGM": "BGM_FB_K00_Jung",
       "validForCharcaterData": true,
       "hasCharacterSpotlight": true,
+      "preload": {
+        "textures": [
+          "MapFB"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -87,58 +92,58 @@
         "mapRelic": "RELIC_MAP_FB"
       },
       "spawnType": "MAPPED",
-        "poolsMapping": [
-          {
-            "key": 0,
-            "type": "FB_LEDDER",
-            "pool": null
-          },
-          {
-            "key": 1,
-            "type": "FB_LEDDER",
-            "pool": null
-          },
-          {
-            "key": 2,
-            "type": "FB_GREEDER",
-            "pool": null
-          },
-          {
-            "key": 3,
-            "type": "FB_MOSQUITO",
-            "pool": null
-          },
-          {
-            "key": 4,
-            "type": "FB_HUMANFACEDDOG",
-            "pool": null
-          },
-          {
-            "key": 5,
-            "type": "FB_JUNKYARDCAR",
-            "pool": null
-          },
-          {
-            "key": 6,
-            "type": "FB_BUGGER",
-            "pool": null
-          },
-          {
-            "key": 7,
-            "type": "FB_POISONOUSINSECTGEL",
-            "pool": null
-          },
-          {
-            "key": 8,
-            "type": "FB_BUNDLE",
-            "pool": null
-          },
-          {
-            "key": 9,
-            "type": "FB_BUGGER",
-            "pool": null
-          }
-        ],
+      "poolsMapping": [
+        {
+          "key": 0,
+          "type": "FB_LEDDER",
+          "pool": null
+        },
+        {
+          "key": 1,
+          "type": "FB_LEDDER",
+          "pool": null
+        },
+        {
+          "key": 2,
+          "type": "FB_GREEDER",
+          "pool": null
+        },
+        {
+          "key": 3,
+          "type": "FB_MOSQUITO",
+          "pool": null
+        },
+        {
+          "key": 4,
+          "type": "FB_HUMANFACEDDOG",
+          "pool": null
+        },
+        {
+          "key": 5,
+          "type": "FB_JUNKYARDCAR",
+          "pool": null
+        },
+        {
+          "key": 6,
+          "type": "FB_BUGGER",
+          "pool": null
+        },
+        {
+          "key": 7,
+          "type": "FB_POISONOUSINSECTGEL",
+          "pool": null
+        },
+        {
+          "key": 8,
+          "type": "FB_BUNDLE",
+          "pool": null
+        },
+        {
+          "key": 9,
+          "type": "FB_BUGGER",
+          "pool": null
+        }
+      ],
       "minimum": 20,
       "frequency": 1000,
       "enemies": [
@@ -193,7 +198,7 @@
       "frequency": 1000,
       "enemies": [
         "FB_GREEDER"
-        ],
+      ],
       "events": [
         {
           "eventType": "FB_CAPSULE_EVENT",
@@ -987,7 +992,7 @@
       ]
     },
     {
-      "minute": 29, 
+      "minute": 29,
       "minimum": 180,
       "frequency": 1000,
       "enemies": [
@@ -1050,6 +1055,11 @@
       "BGM": "BGM_FB_COVER_05_Yoro",
       "sideBBGM": "BGM_FB_COVER_05_Yoro",
       "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "backgroundHighway"
+        ]
+      },
       "mods": {
         "TimeLimit": 1200,
         "ClockSpeed": 1,
@@ -1099,7 +1109,7 @@
       "destructibleChanceMax": 50,
       "maxDestructibles": 12,
       "BGTextureName": "bg_null",
-      "isRacingStage" : true,
+      "isRacingStage": true,
       "tileset": {
         "setKey": "CoopTexturePacked",
         "setPath": "assets/tilesets/CoopTexturePacked.png",

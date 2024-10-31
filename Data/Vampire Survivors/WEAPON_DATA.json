@@ -2464,7 +2464,7 @@
       "tips": "Requires: Candybox.",
       "texture": "items",
       "frameName": "candybox2.png",
-      "collectionFrame": "frameB_bold.png",
+      "collectionFrame": "frameB_special.png",
       "isUnlocked": false,
       "isEvolution": true,
       "hidden": true,
@@ -2480,35 +2480,10 @@
       "duration": 0
     }
   ],
-  "ARMADIO": [
-    {
-      "isUnlocked": false,
-      "hidden": true,
-      "level": 1,
-      "sealable": true,
-      "bulletType": "ARMADIO",
-      "name": "Arma Dio",
-      "description": "Allows you to choose any passive weapon.",
-      "tips": "Appearance in level up options affected by Luck.",
-      "texture":"items",
-      "frameName":"armadio.png",
-      "collectionFrame":"frameB_bold.png",
-      "poolLimit": 0,
-      "rarity": 50,
-      "dropRateAffectedByLuck": true,
-      "interval": 9007199254740991,
-      "repeatInterval": 9007199254740991,
-      "power": 0,
-      "area": 0,
-      "speed": 0,
-      "amount": 0,
-      "duration": 0,
-      "despawnOnUnavailable": false
-    }
-  ],
   "BATTILIA": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "BATTILIA",
       "price": 400,
@@ -2534,11 +2509,12 @@
       "amount": 10,
       "hitsWalls": false,
       "critChance": 0.2,
-      "critMul": 2
+      "critMul": 2,
+      "penetrating": 2
     },
     {
       "speed": 0.3,
-      "penetrating" : 1
+      "penetrating": 1
     },
     {
       "amount": 1,
@@ -2550,7 +2526,7 @@
     },
     {
       "speed": 0.3,
-      "penetrating" : 2
+      "penetrating": 2
     },
     {
       "amount": 1,
@@ -2558,7 +2534,7 @@
     },
     {
       "amount": 1,
-      "penetrating" : 3
+      "penetrating": 3
     },
     {
       "amount": 1,
@@ -2569,6 +2545,7 @@
   "BATTILIA2": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "BATTILIA2",
       "name": "Mazzo Familiar",
@@ -2601,7 +2578,7 @@
       "hitsWalls": false,
       "critChance": 0.05,
       "critMul": 2,
-      "penetrating": 10
+      "penetrating": 20
     }
   ],
   "VICTORY": [
@@ -2615,7 +2592,7 @@
       "tips": "Ignores: Speed, Duration.",
       "texture": "items",
       "frameName": "victory1.png",
-      "collectionFrame": "frameB_bold.png",
+      "collectionFrame": "frameB_special.png",
       "evoInto": "SOLES",
       "isUnlocked": false,
       "hidden": true,
@@ -2632,7 +2609,10 @@
       "critMul": 2,
       "canCrit": false,
       "unexcludeSelf": true,
-      "customDescValue": "Enables critical hits and combo finisher."
+      "customDescValue": "Enables critical hits and combo finisher.",
+      "evoSynergy": [
+        "PANDORA"
+      ]
     },
     {
       "amount": 1
@@ -2682,7 +2662,7 @@
       "tips": "Requires Max: Victory Sword, Torrona's Box.",
       "texture": "items",
       "frameName": "solesolution.png",
-      "collectionFrame": "frameB_bold.png",
+      "collectionFrame": "frameB_special.png",
       "requires": [
         "VICTORY"
       ],
@@ -2719,7 +2699,7 @@
       "tips": "",
       "texture": "items",
       "frameName": "flame1.png",
-      "collectionFrame": "frameB_bold.png",
+      "collectionFrame": "frameB_special.png",
       "evoInto": "MISSPELL2",
       "isUnlocked": false,
       "hidden": true,
@@ -2732,7 +2712,10 @@
       "area": 1,
       "speed": 1,
       "amount": 12,
-      "duration": 400
+      "duration": 400,
+      "evoSynergy": [
+        "PANDORA"
+      ]
     },
     {
       "speed": 0.25
@@ -2769,7 +2752,7 @@
       "tips": "Requires Max: Torrona's Box.",
       "texture": "items",
       "frameName": "flame3.png",
-      "collectionFrame": "frameB_bold.png",
+      "collectionFrame": "frameB_special.png",
       "evolvesFrom": [
         "MISSPELL"
       ],
@@ -2797,6 +2780,7 @@
   "ICELANCE": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "ICELANCE",
       "price": 800,
@@ -2855,6 +2839,7 @@
   "ICELANCE2": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "ICELANCE2",
       "name": "Celestial Voulge",
@@ -2891,6 +2876,7 @@
   ],
   "SANTAJAVELIN": [
     {
+      "contentGroup": "EXTRA",
       "alwaysHidden": false,
       "isUnlocked": false,
       "hidden": true,
@@ -2919,7 +2905,7 @@
       "area": 1,
       "speed": 1,
       "amount": 1,
-      "knockback" : 0,
+      "knockback": 0,
       "hitsWalls": false,
       "critChance": 0.05,
       "canCrit": true,
@@ -2930,29 +2916,30 @@
     },
     {
       "amount": 1,
-      "interval" : -500
+      "interval": -500
     },
     {
-      "power": 1.0
+      "power": 1
     },
     {
       "area": 0.5,
-      "interval" : -500
+      "interval": -500
     },
     {
       "amount": 1
     },
     {
-      "power": 1.0,
-      "interval" : -500
+      "power": 1,
+      "interval": -500
     },
     {
-      "power": 3.0,
+      "power": 3,
       "addEvolvedWeapon": "SANTAJAVELIN2"
     }
   ],
   "SANTAJAVELIN2": [
     {
+      "contentGroup": "EXTRA",
       "alwaysHidden": false,
       "isUnlocked": false,
       "hidden": true,
@@ -2983,7 +2970,7 @@
       "interval": 5000,
       "repeatInterval": 200,
       "duration": 1000,
-      "power": 7.0,
+      "power": 7,
       "area": 1.5,
       "speed": 1,
       "amount": 3,
@@ -2996,6 +2983,7 @@
   "PHASER": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "PHASER",
       "price": 800,
@@ -3053,6 +3041,7 @@
   "PHASER2": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "PHASER2",
       "price": 800,
@@ -3075,7 +3064,6 @@
       "isUnlocked": true,
       "hidden": true,
       "hitVFX": 5,
-      
       "poolLimit": 200,
       "rarity": 1,
       "interval": 5000,
@@ -3089,7 +3077,33 @@
       "critMul": 2
     }
   ],
-  
+  "ARMADIO": [
+    {
+      "contentGroup": "EXTRA",
+      "isUnlocked": false,
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "ARMADIO",
+      "name": "Arma Dio",
+      "description": "Allows you to choose any passive weapon.",
+      "tips": "Appearance in level up options affected by Luck.",
+      "texture": "items",
+      "frameName": "armadio.png",
+      "collectionFrame": "frameB_bold.png",
+      "poolLimit": 0,
+      "rarity": 30,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "despawnOnUnavailable": false
+    }
+  ],
   "NDUJA": [
     {
       "level": 1,
@@ -3137,6 +3151,56 @@
       "area": 2,
       "speed": 3,
       "amount": 12,
+      "duration": 1000
+    }
+  ],
+  "CONEOFCOLD": [
+    {
+      "level": 1,
+      "bulletType": "CONEOFCOLD",
+      "name": "Sorbetto",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "sorbetto.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 2,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 500,
+      "repeatInterval": 40,
+      "power": 1,
+      "area": 2,
+      "speed": 3,
+      "amount": 12,
+      "duration": 1000
+    }
+  ],
+  "FLOOD": [
+    {
+      "level": 1,
+      "bulletType": "FLOOD",
+      "name": "Acquazzone",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "acquazzone.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 2,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 5000,
+      "repeatInterval": 500,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
       "duration": 1000
     }
   ],
@@ -3398,7 +3462,6 @@
       "hitsWalls": false
     }
   ],
-  
   "NOVA_FIRE": [
     {
       "level": 1,
@@ -3478,7 +3541,6 @@
       "knockback": 3
     }
   ],
-  
   "POWER": [
     {
       "level": 1,
@@ -4007,7 +4069,12 @@
       "area": 0.04,
       "unexcludeSelf": true,
       "override": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
-      "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by %0%"
+      "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by %0%",
+      "evoSynergy": [
+        "VICTORY",
+        "MISSPELL"
+      ],
+      "evoInto": "SOLES"
     },
     {
       "power": 0.03,
@@ -4062,55 +4129,53 @@
       "curse": 1
     }
   ],
-
   "PARMA": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "isUnlocked": false,
       "hidden": true,
-      "alwaysHidden": true,
+      "alwaysHidden": false,
       "isSpecialOnly": true,
       "bulletType": "PARMA",
       "name": "Parm Aegis ",
       "description": "Increases invulnerability time after getting damaged by 50ms.",
+      "tips": "Obtainable only via Arma Dio.",
       "texture": "items",
       "frameName": "parma.png",
       "collectionFrame": "frameB_bold.png",
       "rarity": 40,
       "isPowerUp": true,
       "invulTimeBonus": 50,
-      "unexcludeSelf": true,
-      "customDescValue": "Increases invulnerability time after getting damaged by %0ms."
+      "unexcludeSelf": true
     },
     {
-      "invulTimeBonus": 50,
-      "customDesc": 50
+      "invulTimeBonus": 50
     },
     {
-      "invulTimeBonus": 50,
-      "customDesc": 50
+      "invulTimeBonus": 50
     },
     {
-      "invulTimeBonus": 50,
-      "customDesc": 50
+      "invulTimeBonus": 50
     },
     {
-      "invulTimeBonus": 50,
-      "customDesc": 50
+      "invulTimeBonus": 50
     }
   ],
   "DOMINION": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "isUnlocked": false,
       "hidden": true,
-      "alwaysHidden": true,
+      "alwaysHidden": false,
       "isSpecialOnly": true,
       "bulletType": "DOMINION",
       "name": "Karoma's Mana",
       "description": "Increases enemies spawn quantity by 10. Increases duration of Gold Fever and Gold Finger by 10%.",
+      "tips": "Obtainable only via Arma Dio.",
       "texture": "items",
       "frameName": "dominion.png",
       "collectionFrame": "frameB_bold.png",
@@ -4118,34 +4183,29 @@
       "isPowerUp": true,
       "charm": 10,
       "fever": 0.1,
-      "unexcludeSelf": true,
-      "customOverrideValue": "",
-      "customDescValue": "Increases enemies spawn quantity by %0. Increases duration of Gold Fever and Gold Finger by %0%."
+      "unexcludeSelf": true
     },
     {
       "charm": 10,
-      "fever": 0.1,
-      "customDesc": 10
+      "fever": 0.1
     },
     {
       "charm": 10,
-      "fever": 0.1,
-      "customDesc": 10
+      "fever": 0.1
     },
     {
       "charm": 10,
-      "fever": 0.1,
-      "customDesc": 10
+      "fever": 0.1
     },
     {
       "charm": 10,
-      "fever": 0.1,
-      "customDesc": 10
+      "fever": 0.1
     }
   ],
   "TETRAFORCE": [
     {
       "level": 1,
+      "contentGroup": "EXTRA",
       "sealable": true,
       "isUnlocked": false,
       "hidden": true,
@@ -4421,12 +4481,13 @@
   ],
   "SANTAJAVELINCOUNTER": [
     {
+      "contentGroup": "EXTRA",
       "alwaysHidden": false,
       "isUnlocked": false,
       "hidden": true,
       "isSpecialOnly": true,
       "level": 1,
-      "sealable": true,
+      "sealable": false,
       "bulletType": "SANTAJAVELINCOUNTER",
       "price": 400,
       "name": "Levelin'EEE",
@@ -4445,7 +4506,7 @@
       "area": 1,
       "speed": 1,
       "amount": 1,
-      "knockback" : 0,
+      "knockback": 0,
       "hitsWalls": false,
       "critChance": 0.05,
       "canCrit": true,
@@ -4456,24 +4517,24 @@
     },
     {
       "amount": 1,
-      "interval" : -500
+      "interval": -500
     },
     {
-      "power": 1.0
+      "power": 1
     },
     {
       "area": 0.5,
-      "interval" : -500
+      "interval": -500
     },
     {
       "amount": 1
     },
     {
-      "power": 1.0,
-      "interval" : -500
+      "power": 1,
+      "interval": -500
     },
     {
-      "power": 3.0
+      "power": 3
     }
   ],
   "SILVER": [

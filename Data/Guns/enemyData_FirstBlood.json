@@ -1,0 +1,2014 @@
+{
+  "FB_LEDDER": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_LEDDER",
+      "level": 10,
+      "maxHp": 1,
+      "speed": 200,
+      "power": 3,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 25,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "ledderman_0.png"
+      ],
+      "fireDelay": 6000,
+      "fireDelayRandomness": 3000,
+      "firingRangeMin": 10,
+      "firingRangeMax": 100,
+      "bulletType": "FB_BULLET",
+      "bInclude": true,
+      "bVariants": [
+        "FB_LEDDER_UNARMED"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_LEDDER_UNARMED": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_LEDDER",
+      "level": 3,
+      "maxHp": 0.3,
+      "speed": 120,
+      "power": 3,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 25,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "ledderman_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_GREEDER": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_GREEDER",
+      "level": 30,
+      "maxHp": 3,
+      "speed": 180,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 24,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Greeder_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_WARLORD": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_WARLORD",
+      "level": 80,
+      "maxHp": 8,
+      "speed": 160,
+      "power": 5,
+      "xp": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 25,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Warlord_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "BOSS_FB_WARLORD"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_MOSQUITO": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_MOSQUITO",
+      "level": 50,
+      "maxHp": 5,
+      "speed": 240,
+      "power": 1,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 4,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "WingLizard_0.png"
+      ],
+      "bVariants": [
+        "FB_MOSQUITO_FLYING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_EVILSNOWMAN": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_EVILSNOWMAN",
+      "level": 120,
+      "maxHp": 12,
+      "speed": 180,
+      "power": 5,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "EvilSnowman_0.png"
+      ],
+      "bVariants": [
+        "FB_EVILSNOWMAN_RACING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "bInclude": true,
+      "killedAmount": 0
+    }
+  ],
+  "FB_ALIENCENTIPEDE": [
+    {
+      "skipCredits": true,
+      "level": 30,
+      "maxHp": 3,
+      "speed": 300,
+      "power": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        0,
+        1
+      ],
+      "passThroughWalls": true,
+      "textureName": "firstBloodEnemies",
+      "idleFrameCount": 5,
+      "end": 0,
+      "frameNames": [
+        "AlienCentipedeHead.png"
+      ],
+      "flagName": "AlienCentipedeBody.png",
+      "bInclude": true,
+      "bVariants": [
+        "FB_ALIENCENTIPEDE_FLYING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_CHICKEN": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_CHICKEN",
+      "level": 500,
+      "maxHp": 50,
+      "speed": 120,
+      "power": 25,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 22,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "fbChicken_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "BOSS_FB_CHICKEN",
+        "BOSS_FB_CHICKEN_RACING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_METALALIEN": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_METALALIEN",
+      "level": 700,
+      "maxHp": 70,
+      "speed": 180,
+      "power": 30,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 20,
+      "colliderOverride": {
+        "radius": 0.18,
+        "offsetX": 40,
+        "offsetY": 44
+      },
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "MetalAlien_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "BOSS_FB_METALALIEN",
+        "BOSS_FB_METALALIEN_FLYING",
+        "FB_METALALIEN_FLYING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_HUMANFACEDDOG": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_HUMANFACEDDOG",
+      "level": 30,
+      "maxHp": 3,
+      "speed": 280,
+      "power": 3,
+      "xp": 1,
+      "knockback": 3,
+      "maxKnockback": 6,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 23,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "HumanFaceDog_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_GARTH": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_GARTH",
+      "level": 120,
+      "maxHp": 12,
+      "speed": 130,
+      "power": 10,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 24,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Garth_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_WALKINGBALL": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_WALKINGBALL",
+      "level": 350,
+      "maxHp": 35,
+      "speed": 180,
+      "power": 5,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "BallWalker_0.png"
+      ],
+      "bVariants": [
+        "FB_WALKINGBALL_RACING",
+        "BOSS_FB_WALKINGBALL_RACING"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_HELLRIDER": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_HELLRIDER",
+      "level": 80,
+      "maxHp": 8,
+      "speed": 220,
+      "power": 10,
+      "xp": 2,
+      "knockback": 2,
+      "maxKnockback": 5,
+      "deathKB": 10,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "HellRider_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "FB_HELLRIDER_RACING",
+        "FB_HELLRIDER2_RACING",
+        "FB_HELLRIDER_SWARM"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_JUNKYARDCAR": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_JUNKYARDCAR",
+      "level": 450,
+      "maxHp": 45,
+      "speed": 80,
+      "power": 10,
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 5,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "JunkyardCar_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "BOSS_FB_JUNKYARDCAR",
+        "BOSS_FB_JUNKYARDCAR_RACING",
+        "FB_JUNKYARDCAR_RACING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_FLIGHTZAKO": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_FLIGHTZAKO",
+      "level": 400,
+      "maxHp": 40,
+      "speed": 160,
+      "power": 15,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "FlightZako_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "FB_FLIGHTZAKO_FLYING",
+        "BOSS_FB_FLIGHTZAKO",
+        "BOSS_FB_FLIGHTZAKO_FLYING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_M78": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_M78",
+      "level": 1200,
+      "maxHp": 120,
+      "speed": 180,
+      "power": 25,
+      "xp": 30,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "emme78_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "BOSS_FB_M78",
+        "BOSS_FB_M78_RACING",
+        "FB_M78_RACING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_BUGGER": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_BUGGER",
+      "level": 200,
+      "maxHp": 20,
+      "speed": 400,
+      "power": 1,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 14,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Bugger_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "FB_BUGGER_SWARM"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_POISONOUSINSECTGEL": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_POISONOUSINSECTGEL",
+      "level": 300,
+      "maxHp": 30,
+      "speed": 100,
+      "power": 5,
+      "xp": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "PoisonousInsectGel_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "FB_FB_POISONOUSINSECTGEL_SWARM"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_BUNDLE": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_BUNDLE",
+      "level": 250,
+      "maxHp": 25,
+      "speed": 360,
+      "power": 5,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Bundle_0.png"
+      ],
+      "bInclude": true,
+      "bVariants": [
+        "FB_BUNDLE_FLYING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_ZAKOALIEN": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_ZAKOALIEN",
+      "level": 600,
+      "maxHp": 60,
+      "speed": 180,
+      "power": 10,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 24,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "ZakoAlien_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_GIGAFLY": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_GIGAFLY",
+      "level": 800,
+      "maxHp": 80,
+      "speed": 260,
+      "power": 3,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 9,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "GigaFly_0.png"
+      ],
+      "bVariants": [
+        "FB_GIGAFLY_SWARM",
+        "FB_WINGLIZARD_FLYING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "bInclude": true,
+      "killedAmount": 0
+    }
+  ],
+  "FB_MUTANTCRAWLER": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_MUTANTCRAWLER",
+      "level": 1000,
+      "maxHp": 100,
+      "speed": 220,
+      "power": 5,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "MutantCrawler_0.png"
+      ],
+      "bVariants": [
+        "BOSS_FB_MUTANTCRAWLER",
+        "FB_MUTANTCRAWLER_RACING"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "bInclude": true,
+      "killedAmount": 0
+    }
+  ],
+  "FB_KIMKOH": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_KIMKOH",
+      "level": 2000,
+      "maxHp": 200,
+      "speed": 120,
+      "power": 20,
+      "xp": 20,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Defang": 1,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Kimkoh_0.png"
+      ],
+      "bVariants": [
+        "BOSS_FB_KIMKOH"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_WARLORD": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_WARLORD",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "xp": 30,
+      "end": 25,
+      "idleFrameCount": 4,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Warlord_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_CHICKEN": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_CHICKEN",
+      "level": 2000,
+      "maxHp": 20,
+      "speed": 120,
+      "power": 25,
+      "skills": [
+        0
+      ],
+      "xp": 25,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "fbChicken_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_JUNKYARDCAR": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_JUNKYARDCAR",
+      "level": 100,
+      "maxHp": 10,
+      "speed": 80,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 5,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "JunkyardCar_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "BOSS_FB_FLIGHTZAKO": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_FLIGHTZAKO",
+      "level": 100,
+      "maxHp": 5,
+      "speed": 160,
+      "power": 15,
+      "skills": [
+        0
+      ],
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "FlightZako_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_M78": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_M78",
+      "level": 2400,
+      "maxHp": 24,
+      "speed": 180,
+      "power": 25,
+      "skills": [
+        0
+      ],
+      "xp": 30,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "emme78_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_METALALIEN": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_METALALIEN",
+      "level": 2200,
+      "maxHp": 22,
+      "speed": 180,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "xp": 30,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "colliderOverride": {
+        "radius": 0.18,
+        "offsetX": 40,
+        "offsetY": 44
+      },
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "MetalAlien_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_GORDEA": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_GORDEA",
+      "level": 4400,
+      "maxHp": 44,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        0
+      ],
+      "xp": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "BigBotGordea_0.png"
+      ],
+      "bVariants": [
+        "FB_GORDEA_RACING"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_MUTANTCRAWLER": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_MUTANTCRAWLER",
+      "level": 1500,
+      "maxHp": 15,
+      "speed": 200,
+      "power": 5,
+      "skills": [
+        0
+      ],
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "MutantCrawler_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_KIMKOH": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_KIMKOH",
+      "level": 3600,
+      "maxHp": 36,
+      "skills": [
+        0
+      ],
+      "speed": 120,
+      "power": 20,
+      "xp": 20,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Kimkoh_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_TAKA": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_TAKA",
+      "level": 5000,
+      "maxHp": 50,
+      "speed": 140,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "xp": 50,
+      "knockback": 0.1,
+      "maxKnockback": 0.3,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 23,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Taka_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 14,
+        "offsetY": -16
+      },
+      "bVariants": [
+        "BOSS_FB_TAKA_RACING"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_BIGFUZZ": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_BIGFUZZ",
+      "level": 7000,
+      "maxHp": 70,
+      "speed": 0,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 3,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Bugger_0.png"
+      ],
+      "bInclude": true,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_PATROL_WARLORD": [
+    {
+      "skipCredits": true,
+      "patrolDuration": 2000,
+      "enemyType": "FB_PATROL_WARLORD",
+      "level": 80,
+      "maxHp": 8,
+      "speed": 160,
+      "power": 5,
+      "xp": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 25,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Warlord_0.png"
+      ],
+      "bInclude": false,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_PATROL_FLIGHTZAKO": [
+    {
+      "skipCredits": true,
+      "patrolDuration": 2000,
+      "enemyType": "FB_PATROL_FLIGHTZAKO",
+      "level": 400,
+      "maxHp": 40,
+      "speed": 160,
+      "power": 15,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "FlightZako_0.png"
+      ],
+      "bInclude": false,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_PATROL_GIGAFLY": [
+    {
+      "skipCredits": true,
+      "patrolDuration": 2000,
+      "enemyType": "FB_PATROL_GIGAFLY",
+      "level": 800,
+      "maxHp": 80,
+      "speed": 260,
+      "power": 3,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 9,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "GigaFly_0.png"
+      ],
+      "bInclude": false,
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_BUGGER_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 600,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        1
+      ],
+      "killedAmount": 0,
+      "textureName": "firstBloodEnemies",
+      "end": 16,
+      "frameNames": [
+        "Bugger_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_FB_POISONOUSINSECTGEL_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 1,
+      "speed": 300,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1.5,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        1
+      ],
+      "killedAmount": 0,
+      "textureName": "firstBloodEnemies",
+      "end": 16,
+      "frameNames": [
+        "PoisonousInsectGel_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_GIGAFLY_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 600,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        1
+      ],
+      "killedAmount": 0,
+      "textureName": "firstBloodEnemies",
+      "end": 9,
+      "frameNames": [
+        "GigaFly_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_HELLRIDER_SWARM": [
+    {
+      "skipCredits": true,
+      "level": 30,
+      "maxHp": 3,
+      "speed": 800,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        1
+      ],
+      "killedAmount": 0,
+      "textureName": "firstBloodEnemies",
+      "end": 9,
+      "frameNames": [
+        "HellRider_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_BULLET_FIREBALL": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 10000,
+      "speed": 1000,
+      "power": 20,
+      "skills": [
+        1
+      ],
+      "passThroughWalls": true,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 0,
+      "frameNames": [
+        "ProjectileFireball.png"
+      ],
+      "end": 0,
+      "textureName": "vfx",
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_BULLET_EYELASER": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 10000,
+      "speed": 200,
+      "power": 10,
+      "skills": [
+        1
+      ],
+      "passThroughWalls": true,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "frameNames": [
+        "PrismC.png"
+      ],
+      "end": 0,
+      "textureName": "vfx",
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_BULLET_BOMB": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 200,
+      "power": 20,
+      "skills": [
+        1
+      ],
+      "passThroughWalls": true,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 0,
+      "frameNames": [
+        "ProjectileSpike1.png"
+      ],
+      "end": 0,
+      "textureName": "vfx",
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_BULLET": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 400,
+      "power": 5,
+      "skills": [
+        1
+      ],
+      "scale": 0.5,
+      "passThroughWalls": true,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "frameNames": [
+        "FB_Bullet_0.png"
+      ],
+      "idleFrameCount": 3,
+      "end": 0,
+      "textureName": "firstBloodEnemies",
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_MOSQUITO_FLYING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_MOSQUITO_FLYING",
+      "level": 20,
+      "maxHp": 2,
+      "speed": 160,
+      "power": 1,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 4,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "WingLizard_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_BUNDLE_FLYING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_BUNDLE_FLYING",
+      "level": 100,
+      "maxHp": 10,
+      "speed": 360,
+      "power": 5,
+      "xp": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Bundle_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_WINGLIZARD_FLYING": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 600,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        1
+      ],
+      "killedAmount": 0,
+      "textureName": "firstBloodEnemies",
+      "end": 9,
+      "frameNames": [
+        "GigaFly_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_FLIGHTZAKO_FLYING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_FLIGHTZAKO_FLYING",
+      "level": 120,
+      "maxHp": 12,
+      "speed": 160,
+      "power": 15,
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "FlightZako_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_FLIGHTZAKO_FLYING": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_FLIGHTZAKO_FLYING",
+      "level": 150,
+      "maxHp": 5,
+      "speed": 160,
+      "power": 15,
+      "xp": 10,
+      "skills": [
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "passThroughWalls": false,
+      "scale": 1.5,
+      "tint": 16776349,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "FlightZako_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_METALALIEN_FLYING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_METALALIEN_FLYING",
+      "level": 700,
+      "maxHp": 70,
+      "speed": 180,
+      "power": 30,
+      "xp": 30,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 5,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "MetalAlien_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.18,
+        "offsetX": 40,
+        "offsetY": 44
+      },
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_METALALIEN_FLYING": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_METALALIEN_FLYING",
+      "level": 200,
+      "maxHp": 5,
+      "speed": 180,
+      "power": 30,
+      "xp": 30,
+      "scale": 1.5,
+      "tint": 16776349,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "skills": [
+        0
+      ],
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "MetalAlien_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.18,
+        "offsetX": 40,
+        "offsetY": 44
+      },
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_ALIENCENTIPEDE_FLYING": [
+    {
+      "skipCredits": true,
+      "level": 50,
+      "maxHp": 5,
+      "speed": 300,
+      "power": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 4,
+      "skills": [
+        1
+      ],
+      "passThroughWalls": true,
+      "textureName": "firstBloodEnemies",
+      "idleFrameCount": 5,
+      "end": 0,
+      "frameNames": [
+        "AlienCentipedeHead.png"
+      ],
+      "flagName": "AlienCentipedeBody.png",
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_HELLRIDER_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_HELLRIDER_RACING",
+      "level": 80,
+      "maxHp": 8,
+      "speed": 220,
+      "power": 10,
+      "xp": 4,
+      "knockback": 2,
+      "maxKnockback": 5,
+      "deathKB": 10,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "HellRider_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_HELLRIDER2_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_HELLRIDER2_RACING",
+      "level": 10,
+      "maxHp": 2,
+      "speed": 200,
+      "power": 4,
+      "xp": 2,
+      "knockback": 2,
+      "maxKnockback": 5,
+      "deathKB": 10,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "HellRider_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_MUTANTCRAWLER_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_MUTANTCRAWLER",
+      "level": 30,
+      "maxHp": 3,
+      "speed": 200,
+      "power": 5,
+      "xp": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "MutantCrawler_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_WALKINGBALL_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_WALKINGBALL_RACING",
+      "level": 40,
+      "maxHp": 4,
+      "speed": 180,
+      "power": 5,
+      "xp": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "BallWalker_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "BOSS_FB_WALKINGBALL_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_WALKINGBALL_RACING",
+      "level": 40,
+      "maxHp": 4,
+      "speed": 180,
+      "power": 5,
+      "xp": 30,
+      "skills": [
+        0
+      ],
+      "scale": 1.5,
+      "tint": 16776349,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "BallWalker_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_EVILSNOWMAN_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_EVILSNOWMAN_RACING",
+      "level": 40,
+      "maxHp": 4,
+      "speed": 180,
+      "power": 5,
+      "xp": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "EvilSnowman_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_JUNKYARDCAR_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_JUNKYARDCAR",
+      "level": 200,
+      "maxHp": 20,
+      "speed": 80,
+      "power": 10,
+      "xp": 10,
+      "knockback": 1,
+      "maxKnockback": 5,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "JunkyardCar_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "BOSS_FB_JUNKYARDCAR_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_JUNKYARDCAR_RACING",
+      "level": 100,
+      "maxHp": 4,
+      "speed": 80,
+      "power": 10,
+      "xp": 10,
+      "skills": [
+        0
+      ],
+      "scale": 1.5,
+      "tint": 16776349,
+      "knockback": 1,
+      "maxKnockback": 5,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "JunkyardCar_0.png"
+      ],
+      "killedAmount": 0,
+      "bPlaces": [
+        "FB_GALUGA"
+      ]
+    }
+  ],
+  "FB_CHICKEN_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_CHICKEN_RACING",
+      "level": 500,
+      "maxHp": 50,
+      "speed": 120,
+      "power": 25,
+      "xp": 25,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 22,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "fbChicken_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_CHICKEN_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_CHICKEN_RACING",
+      "level": 200,
+      "maxHp": 4,
+      "speed": 120,
+      "power": 25,
+      "xp": 25,
+      "skills": [
+        0
+      ],
+      "scale": 1.5,
+      "tint": 16776349,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 22,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "fbChicken_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_M78_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_M78",
+      "level": 1000,
+      "maxHp": 100,
+      "speed": 180,
+      "power": 25,
+      "xp": 30,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 20,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "emme78_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_M78_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_M78_RACING",
+      "level": 200,
+      "maxHp": 5,
+      "speed": 180,
+      "power": 25,
+      "xp": 30,
+      "skills": [
+        0
+      ],
+      "scale": 1.5,
+      "tint": 16776349,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 12,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "emme78_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_GORDEA_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "FB_GORDEA_RACING",
+      "level": 100,
+      "maxHp": 25,
+      "speed": 140,
+      "power": 10,
+      "xp": 3,
+      "skills": [
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 6,
+      "end": 21,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "BigBotGordea_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "BOSS_FB_TAKA_RACING": [
+    {
+      "skipCredits": true,
+      "enemyType": "BOSS_FB_TAKA_RACING",
+      "level": 2500,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 30,
+      "xp": 50,
+      "skills": [
+        0
+      ],
+      "knockback": 0.1,
+      "maxKnockback": 0.3,
+      "deathKB": 0,
+      "res_Freeze": 1.1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 23,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "Taka_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 14,
+        "offsetY": -16
+      },
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "FB_SIMONDO": [
+    {
+      "level": 99,
+      "maxHp": 40,
+      "speed": 5,
+      "power": 1,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "scale": 2,
+      "xp": 100,
+      "end": 6,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "firstBloodEnemies",
+      "frameNames": [
+        "SimondoE_0.png"
+      ],
+      "bPlaces": [
+        "FB_GALUGA"
+      ],
+      "bInclude": true
+    }
+  ]
+}

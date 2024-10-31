@@ -256,6 +256,8 @@ def gen_tilemap(path: str):
     print(f"Required guids: {guid_set}")
 
     meta_datas = get_meta_by_guid_set(guid_set)
+
+    # TODO: texture splitter before creating tilemap
     textures = {
         meta_data.guid: (meta_data.image, meta_data.data_id) for meta_data in meta_datas
     }

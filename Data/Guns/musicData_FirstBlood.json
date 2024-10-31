@@ -1,0 +1,350 @@
+{
+  "BGM_FB_COVER_00_Jung": {
+    "title": "Battle in the Jungle - VS version",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": "FB_GALUGA",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBloodCover.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_COVER_02_Wate": {
+    "title": "Bloody Falls - VS version",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_BILLRIZER",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBloodCover.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_COVER_11_Fort": {
+    "title": "Military Fortress - VS version",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_LANCE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBloodCover.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_COVER_06_Hard": {
+    "title": "The Hard Corps - VS version",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_BRADFANG",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBloodCover.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_COVER_05_Yoro": {
+    "title": "Yoru no Nikusyokujyu - VS version",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": "FB_HIGHWAY",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBloodCover.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_COVER_09_Gtra": {
+    "title": "GTR Attack! - VS version",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_PROBO",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBloodCover.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+
+  "BGM_FB_K00_Jung": {
+    "title": "Battle in the Jungle - Normal",
+    "author": "",
+    "source": "Contra 4",
+    "unlockedByStage": "FB_GALUGA",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K08_JNHD": {
+    "title": "Battle in the Jungle - Hard",
+    "author": "",
+    "source": "Contra 4",
+    "unlockedByStage": "FB_GALUGA",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K02_Wate": {
+    "title": "Bloody Falls",
+    "author": "",
+    "source": "Contra 4",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_BILLRIZER",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+
+  "BGM_FB_K06_Hard": {
+    "title": "The Hard Corps",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_BRADFANG",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K05_Yoro": {
+    "title": "Yoru no Nikusyokujyu",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": "FB_HIGHWAY",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K09_Gtra": {
+    "title": "GTR Attack!",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_PROBO",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+
+  
+  "BGM_FB_K01_Spir": {
+    "title": "A Spirit of Bushi",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_ARIANA",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K04_Blue": {
+    "title": "Blue Gale",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_LUCIA",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K03_Zeph": {
+    "title": "Zephyr",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_NEWT",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+    
+  "BGM_FB_K07_Some": {
+    "title": "Something Wonderful",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_SHEENA",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  
+  "BGM_FB_K10_Moon": {
+    "title": "Moonlit Army",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_STANLEY",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K12_Last": {
+    "title": "Last Springsteen",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_COLONEL",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_FB_K13_Rave": {
+    "title": "R.A.V.E.",
+    "author": "",
+    "source": "Contra Hard Corps",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "FB_SIMONDO",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_firstBlood.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  }
+}

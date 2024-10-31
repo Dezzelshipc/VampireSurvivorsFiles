@@ -876,6 +876,7 @@
       "stageNumber": "???",
       "unlocked": true,
       "hidden": false,
+      "isMerchantBanned": true,
       "BGM": "BGM_Machine",
       "tips": "",
       "hyperTips": "",
@@ -927,18 +928,29 @@
         "VACUUM",
         "ROSARY"
       ],
-      "preload": [
-        "dummy1",
-        "dummy2",
-        "dummy3",
-        "dummy4",
-        "dummy5"
-      ],
-      "preloadVideos": [
-        "Chestnobg",
-        "Chestnobg2",
-        "Chestnobg3"
-      ],
+      "preload": {
+        "textures": [
+          "dummy1",
+          "dummy2",
+          "dummy3",
+          "dummy4",
+          "dummy5",
+          "background6"
+        ],
+        "bgm": [
+          "Phase0",
+          "Phase1",
+          "Phase2",
+          "Phase3",
+          "Phase4",
+          "Phase5"
+        ],
+        "videos": [
+          "Chestnobg",
+          "Chestnobg2",
+          "Chestnobg3"
+        ]
+      },
       "spawnType": "STANDARD",
       "startingSpawns": 40,
       "minute": 0,
@@ -970,6 +982,11 @@
       "sideBBGM": "BGM_Chapet",
       "tips": "",
       "validForCharcaterData": false,
+      "preload": {
+        "textures": [
+          "backgroundX"
+        ]
+      },
       "mods": {
         "TimeLimit": 120,
         "ClockSpeed": 1,
@@ -1083,6 +1100,11 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "character_avatar"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -2954,6 +2976,11 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "background4"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -3946,6 +3973,12 @@
         "RELIC_GGOSPEL"
       ],
       "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "backgroundX",
+          "character_cosmo"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -4563,7 +4596,6 @@
       ]
     }
   ],
-  
   "MOLISE": [
     {
       "hidden": false,
@@ -4580,6 +4612,11 @@
       "tips": "Enemies don't move",
       "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies' health +60%",
       "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "bg_molise"
+        ]
+      },
       "mods": {
         "TimeLimit": 900,
         "ClockSpeed": 1,
@@ -5022,7 +5059,13 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
-      "zoom": 0.05,
+      "zoom": 3.4,
+      "preload": {
+        "textures": [
+          "bg_water",
+          "backgroundW"
+        ]
+      },
       "mods": {
         "TimeLimit": 900,
         "ClockSpeed": 1,
@@ -5384,6 +5427,13 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "_MISSING",
+          "bg_ram",
+          "bg_forest"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -5589,7 +5639,12 @@
         "RELIC_SECRETS"
       ],
       "validForCharcaterData": true,
-      "zoom": 0.25,
+      "zoom": 0.68,
+      "preload": {
+        "textures": [
+          "bg_bonezone"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -5642,7 +5697,7 @@
       "destructibleChance": 40,
       "destructibleChanceMax": 50,
       "maxDestructibles": 10,
-      "BGTextureName": "bg_bone",
+      "BGTextureName": "bg_bonezone",
       "hasLights": true,
       "LootTable": [
         "COIN",
@@ -6450,6 +6505,11 @@
       "yellowRelics": [
         "RELIC_ATLAS"
       ],
+      "preload": {
+        "textures": [
+          "bg_forest"
+        ]
+      },
       "mods": {
         "TimeLimit": 900,
         "ClockSpeed": 1,
@@ -7022,7 +7082,6 @@
       ]
     }
   ],
-  
   "WHITEOUT": [
     {
       "order": 1100,
@@ -7528,13 +7587,18 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
-      "zoom": 0.7,
+      "zoom": 0.24,
       "uiTexture": "UI",
       "uiFrame": "stage_spazie.png",
       "texture": "UI",
       "frameName": "stage_spazie_icon.png",
       "frameNameUnlock": "stage_spazie_icon.png",
       "bestiaryBG": "background_space.png",
+      "preload": {
+        "textures": [
+          "backgroundSpace"
+        ]
+      },
       "mods": {
         "TimeLimit": 1200,
         "ClockSpeed": 1,
@@ -7574,7 +7638,7 @@
       "dayNight": false,
       "BGTextureName": "hStars1",
       "background": {
-        "texture": "background_Astral",
+        "texture": "backgroundSpace",
         "movingBackground": true
       },
       "tileset": {
@@ -7604,7 +7668,12 @@
           "eventType": "INVADERS",
           "duration": 30000,
           "moreX": 8,
-          "moreY": ["EX_BATSPACE_A","EX_BATSPACE_B","EX_BATSPACE_C","EX_BATSPACE_D"],
+          "moreY": [
+            "EX_BATSPACE_A",
+            "EX_BATSPACE_B",
+            "EX_BATSPACE_C",
+            "EX_BATSPACE_D"
+          ],
           "moreZ": 500
         }
       ]
@@ -7636,7 +7705,9 @@
         "ECTO2",
         "EX_PICKLE"
       ],
-      "bosses": ["EX_PHALIEN_XL_BOSS"],
+      "bosses": [
+        "EX_PHALIEN_XL_BOSS"
+      ],
       "events": [
         {
           "eventType": "GENERIC_SWARM",
@@ -7740,7 +7811,9 @@
         "EX_BROCCOLI_SCALE",
         "EX_PICKLE"
       ],
-      "bosses": ["EX_PHALIEN_XL_BOSS"],
+      "bosses": [
+        "EX_PHALIEN_XL_BOSS"
+      ],
       "events": [
         {
           "eventType": "MEDUSA_SWARM",
@@ -7831,7 +7904,9 @@
         "EX_ANTBRAIN",
         "EX_ANT"
       ],
-      "bosses": ["EX_PHALIEN_XL_BOSS"],
+      "bosses": [
+        "EX_PHALIEN_XL_BOSS"
+      ],
       "events": [
         {
           "eventType": "MONSTER_DANCE",
@@ -7887,7 +7962,9 @@
           "eventType": "INVADERS",
           "duration": 30000,
           "moreX": 40,
-          "moreY": ["EX_BATSPACE_HP"],
+          "moreY": [
+            "EX_BATSPACE_HP"
+          ],
           "moreZ": 500
         }
       ]
@@ -7927,7 +8004,9 @@
       "minute": 12,
       "minimum": 40,
       "frequency": 2000,
-      "bosses": ["EX_PHALIEN_XL_BOSS"],
+      "bosses": [
+        "EX_PHALIEN_XL_BOSS"
+      ],
       "enemies": [
         "EX_PHALIEN_XL"
       ]
@@ -7947,7 +8026,9 @@
       "minute": 14,
       "minimum": 110,
       "frequency": 100,
-      "bosses": ["EX_PHALIEN_XL_BOSS"],
+      "bosses": [
+        "EX_PHALIEN_XL_BOSS"
+      ],
       "enemies": [
         "EX_ANT_SCALE",
         "EX_ANTBRAIN_SCALE",
@@ -7967,7 +8048,9 @@
           "eventType": "INVADERS",
           "duration": 30000,
           "moreX": 40,
-          "moreY": ["EX_CUBE_HITS_PATH"],
+          "moreY": [
+            "EX_CUBE_HITS_PATH"
+          ],
           "moreZ": 500
         }
       ],
@@ -8001,7 +8084,9 @@
       "minute": 17,
       "minimum": 100,
       "frequency": 500,
-      "bosses": ["EX_PHALIEN_XL_BOSS"],
+      "bosses": [
+        "EX_PHALIEN_XL_BOSS"
+      ],
       "enemies": [
         "EX_PHALIEN_XL"
       ],
@@ -8072,8 +8157,7 @@
       "BGM": "BGM_Carts",
       "sideBBGM": "BGM_Carts",
       "tips": "Everything was a stage hazard.",
-      "relics": [
-      ],
+      "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "mods": {
@@ -8134,7 +8218,7 @@
       "destructibleChanceMax": 60,
       "maxDestructibles": 12,
       "BGTextureName": "bg_null",
-      "isRacingStage" : true,
+      "isRacingStage": true,
       "minimum": 20,
       "frequency": 1000,
       "enemies": [
@@ -8168,8 +8252,7 @@
           "EXISTING_ANY"
         ]
       },
-      "events": [
-      ]
+      "events": []
     },
     {
       "minute": 2,
@@ -8304,8 +8387,7 @@
           "EXISTING_ANY"
         ]
       },
-      "events": [
-      ]
+      "events": []
     },
     {
       "minute": 8,
@@ -8448,8 +8530,7 @@
           "EXISTING_ANY"
         ]
       },
-      "events": [
-      ]
+      "events": []
     },
     {
       "minute": 13,
@@ -8480,8 +8561,7 @@
       "minute": 15,
       "minimum": 5,
       "frequency": 5000,
-      "enemies": [
-      ],
+      "enemies": [],
       "bosses": [
         "BOSS_XLDEATH"
       ],
@@ -8492,7 +8572,6 @@
       ]
     }
   ],
-  
   "LABORRATORY": [
     {
       "order": 1200,
@@ -8511,8 +8590,7 @@
       "BGM": "BGM_Labor",
       "sideBBGM": "BGM_Labor",
       "tips": "Everything was a stage hazard.",
-      "relics": [
-      ],
+      "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "mods": {
@@ -9200,7 +9278,6 @@
       ]
     }
   ],
-  
   "BATCOUNTRY": [
     {
       "order": 10100,
@@ -9223,7 +9300,7 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
-      "zoom": 0.05,
+      "zoom": 3.4,
       "LootTable": [
         "COIN",
         "COINBAG1",
@@ -9234,6 +9311,11 @@
         "CLOVER",
         "GILDED"
       ],
+      "preload": {
+        "textures": [
+          "bg_white"
+        ]
+      },
       "mods": {
         "TimeLimit": 1200,
         "ClockSpeed": 1,
@@ -9799,7 +9881,13 @@
         "OROLOGION",
         "GOLDFINGER"
       ],
-      "zoom": 0.17,
+      "zoom": 1,
+      "preload": {
+        "textures": [
+          "background_Astral",
+          "MapAS"
+        ]
+      },
       "mods": {
         "TimeLimit": 1200,
         "ClockSpeed": 1,
@@ -10498,6 +10586,12 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "character_scorej",
+          "background4"
+        ]
+      },
       "mods": {
         "TimeLimit": 1200,
         "ClockSpeed": 1,
@@ -11011,7 +11105,6 @@
       ]
     }
   ],
-
   "DEVILROOM": [
     {
       "alwaysHidden": false,
@@ -11024,18 +11117,24 @@
       "uiFrame": "stage_kagero.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
-      "bestiaryBG": "background_forest.png",
+      "bestiaryBG": "background_1665.png",
       "stageNumber": "???",
       "BGM": "BGM_Devil",
       "sideBBGM": "BGM_Devil",
       "tips": "- ",
       "hyperTips": "- ",
       "hasLights": true,
+      "isMerchantBanned": true,
       "relics": [
         "RELIC_DARKASSO"
       ],
       "yellowRelics": [],
       "validForCharcaterData": false,
+      "preload": {
+        "textures": [
+          "backgroundDevil"
+        ]
+      },
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -11043,7 +11142,7 @@
         "EnemySpeed": 1.9,
         "ProjectileSpeed": 1.15,
         "GoldMultiplier": 1.5,
-        "EnemyHealthMultiplier": 1.0,
+        "EnemyHealthMultiplier": 1,
         "LuckBonus": 0,
         "XPBonus": 1
       },
@@ -11069,7 +11168,6 @@
         "texture": "bg_null",
         "movingBackground": true
       },
-      
       "tileset": {
         "setKey": "DevilRoomTexturePacked",
         "setPath": "assets/tilesets/DevilRoomTexturePacked.png",
@@ -11079,7 +11177,6 @@
         "minTreasureX": 256,
         "maxTreasureX": 768
       },
-
       "allowVisualInversion": false,
       "InverseDayColor": 8978431,
       "InverseNightColor": 2263176,
@@ -11090,14 +11187,12 @@
       "destructibleChance": 50,
       "destructibleChanceMax": 80,
       "maxDestructibles": 20,
-      
       "minimum": 20,
       "frequency": 100,
       "enemies": [
         "DEVIL_HP_1"
       ],
-      "bosses": [
-      ]
+      "bosses": []
     },
     {
       "minute": 1,

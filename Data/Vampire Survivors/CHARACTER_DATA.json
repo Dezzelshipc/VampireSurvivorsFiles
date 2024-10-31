@@ -6,27 +6,37 @@
       "cooldown": 1,
       "charName": "Antonio",
       "surname": "Belpaese",
-      "textureName": "characters",
+      "textureName": "character_antonio",
       "spriteName": "newAntonio_01.png",
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_antonio",
           "spriteName": "newAntonio_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 3, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_antonio",
           "spriteName": "Antonio_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 3, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -121,13 +131,13 @@
       "charName": "Imelda",
       "surname": "Belpaese",
       "spriteName": "newImelda_01.png",
-      "textureName": "characters",
+      "textureName": "character_imelda",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_imelda",
           "spriteName": "newImelda_01.png",
           "walkingFrames": 4,
           "unlocked": true
@@ -135,7 +145,7 @@
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_imelda",
           "spriteName": "Imelda_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
@@ -145,7 +155,7 @@
           "price": 0,
           "skinType": "SKIN_IMELDA_UNBLINDED",
           "name": "Unblinded",
-          "textureName": "characters",
+          "textureName": "character_imelda",
           "spriteName": "skin_imeldaunblinded_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
@@ -153,7 +163,7 @@
           "description": "Starts with a Level 5 Empty Tome.",
           "speed": 0.4,
           "moveSpeed": 0.4,
-          "cooldown": -0.10,
+          "cooldown": -0.1,
           "exAccessories": [
             "COOLDOWN",
             "COOLDOWN",
@@ -273,13 +283,13 @@
       "charName": "Pasqualina",
       "surname": "Belpaese",
       "spriteName": "newPasqualina_01.png",
-      "textureName": "characters",
+      "textureName": "character_pasqualina",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_pasqualina",
           "spriteName": "newPasqualina_01.png",
           "walkingFrames": 4,
           "unlocked": true
@@ -287,7 +297,7 @@
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_pasqualina",
           "spriteName": "Pasqualina_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
@@ -394,27 +404,37 @@
       "charName": "Gennaro",
       "surname": "Belpaese",
       "spriteName": "newGennaro_01.png",
-      "textureName": "characters",
+      "textureName": "character_gennaro",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_gennaro",
           "spriteName": "newGennaro_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 6, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_gennaro",
           "spriteName": "Gennaro_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 6, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -512,27 +532,37 @@
       "charName": "Arca",
       "surname": "Ladonna",
       "spriteName": "newArca_01.png",
-      "textureName": "characters",
+      "textureName": "character_arca",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_arca",
           "spriteName": "newArca_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 2, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 2,
+              "y": 1
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_arca",
           "spriteName": "Arca_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 6,
           "unlocked": true,
-          "headOffsets": [ { "x": 2, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 2,
+              "y": 1
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -629,27 +659,37 @@
       "charName": "Porta",
       "surname": "Ladonna",
       "spriteName": "newPorta_01.png",
-      "textureName": "characters",
+      "textureName": "character_porta",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_porta",
           "spriteName": "newPorta_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": 2} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 2
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_porta",
           "spriteName": "Porta_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 7,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": 2} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 2
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -753,27 +793,37 @@
       "charName": "Lama",
       "surname": "Ladonna",
       "spriteName": "newLama_01.png",
-      "textureName": "characters",
+      "textureName": "character_lama",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_lama",
           "spriteName": "newLama_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 1
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_lama",
           "spriteName": "Lama_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 1
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -873,7 +923,7 @@
       "charName": "Poe",
       "surname": "Ratcho",
       "spriteName": "newOld3_01.png",
-      "textureName": "characters",
+      "textureName": "character_poe",
       "walkingFrames": 4,
       "description": "Permanent +25% Pickup range and -30 Max Health.",
       "portraitName": "p_poe.png",
@@ -885,27 +935,37 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_poe",
           "spriteName": "newOld3_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 2, "y": -2} ]
+          "headOffsets": [
+            {
+              "x": 2,
+              "y": -2
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_poe",
           "spriteName": "Old3_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 5,
           "unlocked": true,
-          "headOffsets": [ { "x": 2, "y": -2} ]
+          "headOffsets": [
+            {
+              "x": 2,
+              "y": -2
+            }
+          ]
         },
         {
           "price": 0,
           "skinType": "SKIN_POE_RETIRED",
           "name": "Retired",
-          "textureName": "characters",
+          "textureName": "character_poe",
           "spriteName": "skin_poeretired_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
@@ -1007,7 +1067,7 @@
       "charName": "Clerici",
       "surname": "",
       "spriteName": "newSuora_01.png",
-      "textureName": "characters",
+      "textureName": "character_suora",
       "walkingFrames": 4,
       "description": "Permanent +0.5 HP/s and +50 Max Health. Starts with temporary Area bonus.",
       "portraitName": "p_clerici.png",
@@ -1019,7 +1079,7 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_suora",
           "spriteName": "newSuora_01.png",
           "walkingFrames": 4,
           "unlocked": true
@@ -1027,7 +1087,7 @@
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_suora",
           "spriteName": "Suora_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
@@ -1158,7 +1218,7 @@
       "charName": "Dommario",
       "surname": "",
       "spriteName": "newDommario_01.png",
-      "textureName": "characters",
+      "textureName": "character_dommario",
       "walkingFrames": 4,
       "description": "Permanent +40% Duration and Speed, -40% Move Speed.",
       "portraitName": "p_dommario.png",
@@ -1170,21 +1230,31 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_dommario",
           "spriteName": "newDommario_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 2, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 2,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_dommario",
           "spriteName": "Dommario_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 5,
           "unlocked": true,
-          "headOffsets": [ { "x": 2, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 2,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -1244,7 +1314,7 @@
       "charName": "Krochi",
       "surname": "Freetto",
       "spriteName": "newKrochi_01.png",
-      "textureName": "characters",
+      "textureName": "character_krochi",
       "walkingFrames": 4,
       "description": "Starts with 1 Revival. Gains 1 more Revival at level 33.",
       "portraitName": "p_croci.png",
@@ -1256,30 +1326,45 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_krochi",
           "spriteName": "newKrochi_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "CROCI_NOCROSS",
           "name": "Nocross",
-          "textureName": "characters",
+          "textureName": "character_krochi",
           "spriteName": "newKrochiplain_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_krochi",
           "spriteName": "Krochi_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -1361,7 +1446,7 @@
       "charName": "Christine",
       "surname": "Davain",
       "spriteName": "Christine_01.png",
-      "textureName": "characters",
+      "textureName": "character_christine",
       "walkingFrames": 4,
       "description": "Starts with 1 extra level.",
       "portraitName": "p_christine.png",
@@ -1373,21 +1458,31 @@
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_christine",
           "spriteName": "Christine_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "DEFAULT",
           "name": "NewSkin",
-          "textureName": "characters",
+          "textureName": "character_christine",
           "spriteName": "newChristine_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "LEGACY",
@@ -1485,7 +1580,7 @@
       "charName": "Pugnala",
       "surname": "Provola",
       "spriteName": "Pugnala_01.png",
-      "textureName": "characters",
+      "textureName": "character_pugnala",
       "portraitName": "Coff.png",
       "walkingFrames": 4,
       "description": "Gains +1% Might every level.",
@@ -1498,21 +1593,31 @@
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_pugnala",
           "spriteName": "Pugnala_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 3, "y": 2} ]
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 2
+            }
+          ]
         },
         {
           "skinType": "DEFAULT",
           "name": "New",
-          "textureName": "characters",
+          "textureName": "character_pugnala",
           "spriteName": "newPugnala_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 3, "y": 2} ]
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 2
+            }
+          ]
         }
       ],
       "currentSkin": "LEGACY",
@@ -1599,7 +1704,7 @@
       "charName": "Giovanna",
       "surname": "Grana",
       "spriteName": "newGiovanna_01.png",
-      "textureName": "characters",
+      "textureName": "character_giovanna",
       "portraitName": "Coff.png",
       "walkingFrames": 5,
       "description": "Gains +1% Projectile speed every level.",
@@ -1612,21 +1717,31 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_giovanna",
           "spriteName": "newGiovanna_01.png",
           "walkingFrames": 5,
           "unlocked": true,
-          "headOffsets": [ { "x": -1, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": -1,
+              "y": -6
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_giovanna",
           "spriteName": "Giovanna_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": -1, "y": -6} ]
+          "headOffsets": [
+            {
+              "x": -1,
+              "y": -6
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -1728,7 +1843,7 @@
       "charName": "Poppea",
       "surname": "Pecorina",
       "spriteName": "newPoppea_01.png",
-      "textureName": "characters",
+      "textureName": "character_poppea",
       "portraitName": "Coff.png",
       "walkingFrames": 4,
       "description": "Gains +1% Duration every level.",
@@ -1741,7 +1856,7 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_poppea",
           "spriteName": "newPoppea_01.png",
           "walkingFrames": 5,
           "unlocked": true
@@ -1749,7 +1864,7 @@
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_poppea",
           "spriteName": "Poppea_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
@@ -1828,7 +1943,7 @@
       "charName": "Concetta",
       "surname": "Caciotta",
       "spriteName": "Concetta_i01.png",
-      "textureName": "characters",
+      "textureName": "character_concetta",
       "portraitName": "Coff.png",
       "walkingFrames": 4,
       "description": "Gains +1% Area every level.",
@@ -1841,21 +1956,31 @@
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_concetta",
           "spriteName": "Concetta_i01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 5,
           "unlocked": true,
-          "headOffsets": [ { "x": -2, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": -2,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "DEFAULT",
           "name": "New",
-          "textureName": "characters",
+          "textureName": "character_concetta",
           "spriteName": "newConcetta_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": -2, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": -2,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "LEGACY",
@@ -1936,7 +2061,7 @@
       "charName": "Mortaccio",
       "surname": "",
       "spriteName": "Mortaccio_01.png",
-      "textureName": "characters",
+      "textureName": "character_mortaccio",
       "portraitName": "p_mortaccio.png",
       "walkingFrames": 4,
       "description": "Gets more projectiles every 20 levels (max +3).",
@@ -1948,20 +2073,30 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_mortaccio",
           "spriteName": "Mortaccio_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 7, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 7,
+              "y": 0
+            }
+          ]
         },
         {
           "skinType": "HALLOWS",
           "name": "Hallows",
-          "textureName": "characters",
+          "textureName": "character_mortaccio",
           "spriteName": "hMortaccio_01.png",
           "walkingFrames": 4,
           "unlocked": false,
-          "headOffsets": [ { "x": 7, "y": 0} ]
+          "headOffsets": [
+            {
+              "x": 7,
+              "y": 0
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -2057,7 +2192,7 @@
       "charName": "Cavallo",
       "surname": "",
       "spriteName": "Cavallo_01.png",
-      "textureName": "characters",
+      "textureName": "character_cavallo",
       "portraitName": "p_cavallo.png",
       "walkingFrames": 4,
       "description": "Gets more projectiles every 20 levels (max +3).",
@@ -2069,20 +2204,30 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_cavallo",
           "spriteName": "Cavallo_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 8, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 8,
+              "y": 1
+            }
+          ]
         },
         {
           "skinType": "HALLOWS",
           "name": "Hallows",
-          "textureName": "characters",
+          "textureName": "character_cavallo",
           "spriteName": "hCavallo_01.png",
           "walkingFrames": 4,
           "unlocked": false,
-          "headOffsets": [ { "x": 8, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 8,
+              "y": 1
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -2216,7 +2361,7 @@
       "charName": "Ramba",
       "surname": "",
       "spriteName": "Ramba_01.png",
-      "textureName": "characters",
+      "textureName": "character_ramba",
       "portraitName": "p_ramba.png",
       "walkingFrames": 4,
       "description": "Gets more projectiles every 20 levels (max +3).",
@@ -2228,20 +2373,30 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_ramba",
           "spriteName": "Ramba_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 5, "y": -1} ]
+          "headOffsets": [
+            {
+              "x": 5,
+              "y": -1
+            }
+          ]
         },
         {
           "skinType": "HALLOWS",
           "name": "Hallows",
-          "textureName": "characters",
+          "textureName": "character_ramba",
           "spriteName": "hRamba_01.png",
           "walkingFrames": 4,
           "unlocked": false,
-          "headOffsets": [ { "x": 5, "y": -1} ]
+          "headOffsets": [
+            {
+              "x": 5,
+              "y": -1
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -2320,7 +2475,7 @@
       "charName": "O'Sole",
       "surname": "Meeo",
       "spriteName": "Dog_01.png",
-      "textureName": "characters",
+      "textureName": "character_osole",
       "portraitName": "p_osole.png",
       "walkingFrames": 5,
       "description": "Gets more projectiles every 20 levels (max +3).",
@@ -2335,20 +2490,30 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_osole",
           "spriteName": "Dog_01.png",
           "walkingFrames": 16,
           "unlocked": true,
-          "headOffsets": [ { "x": 7, "y": -11} ]
+          "headOffsets": [
+            {
+              "x": 7,
+              "y": -11
+            }
+          ]
         },
         {
           "skinType": "HALLOWS",
           "name": "Hallows",
-          "textureName": "characters",
+          "textureName": "character_osole",
           "spriteName": "hDog_01.png",
           "walkingFrames": 16,
           "unlocked": false,
-          "headOffsets": [ { "x": 7, "y": -11} ]
+          "headOffsets": [
+            {
+              "x": 7,
+              "y": -11
+            }
+          ]
         }
       ],
       "racingOffsets": [
@@ -2457,11 +2622,16 @@
       "charName": "Ambrojoe",
       "surname": "",
       "spriteName": "Hat_01.png",
-      "textureName": "characters",
+      "textureName": "character_ambrojoe",
       "portraitName": "p_ambrojoe.png",
       "walkingFrames": 4,
       "description": "Gets more projectiles every 20 levels (max +3). Starts with temporary Amount bonus.",
-      "headOffsets": [ { "x": -1, "y": 0} ],
+      "headOffsets": [
+        {
+          "x": -1,
+          "y": 0
+        }
+      ],
       "isBought": false,
       "price": 500,
       "completedStages": [],
@@ -2568,10 +2738,15 @@
       "surname": "Valletto",
       "spriteName": "Gallo_01.png",
       "portraitName": "portal.png",
-      "textureName": "characters",
+      "textureName": "character_gallo",
       "walkingFrames": 4,
       "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%).",
-      "headOffsets": [ { "x": 2, "y": 1} ],
+      "headOffsets": [
+        {
+          "x": 2,
+          "y": 1
+        }
+      ],
       "isBought": false,
       "price": 2000,
       "completedStages": [],
@@ -2673,11 +2848,16 @@
       "charName": "Divano",
       "surname": "Thelma",
       "spriteName": "Divano_01.png",
-      "textureName": "characters",
+      "textureName": "character_divano",
       "portraitName": "cape.png",
       "walkingFrames": 4,
       "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5).",
-      "headOffsets": [ { "x": -3, "y": 0} ],
+      "headOffsets": [
+        {
+          "x": -3,
+          "y": 0
+        }
+      ],
       "isBought": false,
       "price": 2000,
       "completedStages": [],
@@ -2766,28 +2946,38 @@
       "charName": "Zi'Assunta",
       "surname": "Belpaese",
       "spriteName": "newAssunta_01.png",
-      "textureName": "characters",
+      "textureName": "character_assunta",
       "portraitName": "Coff.png",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_assunta",
           "spriteName": "newAssunta_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 1
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_assunta",
           "spriteName": "Assunta_01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": 1} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 1
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -2876,10 +3066,15 @@
       "charName": "Exdash",
       "surname": "Exiviiq",
       "spriteName": "Exdash_01.png",
-      "textureName": "characters",
+      "textureName": "character_exdash",
       "walkingFrames": 6,
       "description": "At least they're lucky.",
-      "headOffsets": [ { "x": 0, "y": -3} ],
+      "headOffsets": [
+        {
+          "x": 0,
+          "y": -3
+        }
+      ],
       "portraitName": "p_g1.png",
       "isBought": false,
       "price": 777,
@@ -2963,10 +3158,15 @@
       "charName": "Toastie",
       "surname": "",
       "spriteName": "uExdash_01.png",
-      "textureName": "characters",
+      "textureName": "character_panini",
       "walkingFrames": 6,
       "description": "So much potential.",
-      "headOffsets": [ { "x": 0, "y": -3} ],
+      "headOffsets": [
+        {
+          "x": 0,
+          "y": -3
+        }
+      ],
       "portraitName": "p_g2.png",
       "isBought": false,
       "price": 777,
@@ -3058,11 +3258,16 @@
       "charName": "Smith IV",
       "surname": "",
       "spriteName": "nExdash_01.png",
-      "textureName": "characters",
+      "textureName": "character_smith",
       "portraitName": "p_g3.png",
       "walkingFrames": 6,
       "description": "The quirky white bear.",
-      "headOffsets": [ { "x": 0, "y": -3} ],
+      "headOffsets": [
+        {
+          "x": 0,
+          "y": -3
+        }
+      ],
       "isBought": false,
       "price": 7777,
       "completedStages": [],
@@ -3125,11 +3330,16 @@
       "prefix": "",
       "charName": "Random",
       "surname": "",
-      "textureName": "characters",
+      "textureName": "character_random",
       "spriteName": "random_01.png",
       "walkingFrames": 30,
       "description": "Random.",
-      "headOffsets": [ { "x": 0, "y": -2} ],
+      "headOffsets": [
+        {
+          "x": 0,
+          "y": -2
+        }
+      ],
       "isBought": false,
       "price": 5000,
       "completedStages": [],
@@ -3184,12 +3394,17 @@
       "prefix": "Boon",
       "charName": "Marrabbio",
       "surname": "",
-      "textureName": "characters",
+      "textureName": "character_marrabbio",
       "spriteName": "Marrabbio_01.png",
       "portraitName": "p_noob.png",
       "walkingFrames": 4,
       "description": "",
-      "headOffsets": [ { "x": 6, "y": 0} ],
+      "headOffsets": [
+        {
+          "x": 6,
+          "y": 0
+        }
+      ],
       "isBought": false,
       "price": 666,
       "completedStages": [],
@@ -3244,7 +3459,7 @@
       "charName": "Avatar",
       "surname": "Infernas",
       "spriteName": "v_01.png",
-      "textureName": "characters",
+      "textureName": "character_avatar",
       "portraitName": "p_avatar.png",
       "walkingFrames": 4,
       "currentSkin": "DEFAULT",
@@ -3349,12 +3564,17 @@
       "prefix": "",
       "charName": "Minnah",
       "surname": "Mannarah",
-      "textureName": "characters",
+      "textureName": "character_minnah",
       "spriteName": "Minnah_01.png",
       "portraitName": "p_minnah.png",
       "walkingFrames": 4,
       "description": "Might, Projectile speed, Duration, Area, and Cooldown change every minute.",
-      "headOffsets": [ { "x": 7, "y": 3} ],
+      "headOffsets": [
+        {
+          "x": 7,
+          "y": 3
+        }
+      ],
       "isBought": false,
       "price": 666,
       "completedStages": [],
@@ -3486,12 +3706,17 @@
       "prefix": "",
       "charName": "Leda",
       "surname": "",
-      "textureName": "characters",
+      "textureName": "character_leda",
       "spriteName": "XLLeda_i01.png",
       "portraitName": "p_leda.png",
       "walkingFrames": 4,
       "description": "",
-      "headOffsets": [ { "x": 15, "y": 15} ],
+      "headOffsets": [
+        {
+          "x": 15,
+          "y": 15
+        }
+      ],
       "isBought": false,
       "price": 666,
       "completedStages": [],
@@ -3550,11 +3775,16 @@
       "charName": "Cosmo",
       "surname": "Pavone",
       "spriteName": "Cosmic_01.png",
-      "textureName": "characters",
+      "textureName": "character_cosmo",
       "portraitName": "p_pavone.png",
       "walkingFrames": 4,
       "description": "Gains +1 Recovery and +1% Luck every level. Gains +1 Revival every 100 levels. Has hidden weapons.",
-      "headOffsets": [ { "x": 10, "y": -9} ],
+      "headOffsets": [
+        {
+          "x": 10,
+          "y": -9
+        }
+      ],
       "isBought": false,
       "price": 666,
       "completedStages": [],
@@ -3618,7 +3848,7 @@
       "charName": "Peppino",
       "surname": "",
       "spriteName": "Peppino_01.png",
-      "textureName": "characters",
+      "textureName": "character_peppino",
       "portraitName": "p_peppino.png",
       "walkingFrames": 1,
       "description": "Starts with temporarily reduced Area.",
@@ -3634,21 +3864,31 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_peppino",
           "spriteName": "Peppino_01.png",
           "walkingFrames": 1,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": 30} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 30
+            }
+          ]
         },
         {
           "skinType": "XMAS",
           "name": "December",
-          "textureName": "characters",
+          "textureName": "character_peppino",
           "spriteName": "DecPeppino_01.png",
           "walkingFrames": 4,
           "unlocked": true,
           "walkFrameRate": 4,
-          "headOffsets": [ { "x": 0, "y": 30} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 30
+            }
+          ]
         }
       ],
       "walkFrameRate": 4,
@@ -3753,11 +3993,16 @@
       "charName": "Trouser",
       "surname": "",
       "spriteName": "Pantalone_01.png",
-      "textureName": "characters",
+      "textureName": "character_trouser",
       "portraitName": "p_pantalone.png",
       "walkingFrames": 4,
       "description": "Gains +1% Greed every level. Gold Fever lasts longer.",
-      "headOffsets": [ { "x": 3, "y": 0} ],
+      "headOffsets": [
+        {
+          "x": 3,
+          "y": 0
+        }
+      ],
       "isBought": false,
       "price": 5000,
       "completedStages": [],
@@ -3844,7 +4089,7 @@
       "startingWeapon": 0,
       "charName": "missingN",
       "surname": "",
-      "textureName": "characters",
+      "textureName": "character_missing",
       "spriteName": "_0x00000000_i01.png",
       "walkingFrames": 4,
       "portraitName": "p_mis.png",
@@ -3852,29 +4097,44 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_missing",
           "spriteName": "_0x00000000_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 3, "y": 8} ]
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 8
+            }
+          ]
         },
         {
           "skinType": "FINO_DARK",
           "name": "Dark",
-          "textureName": "characters",
+          "textureName": "character_missing",
           "spriteName": "missingL_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 3, "y": 8} ]
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 8
+            }
+          ]
         },
         {
           "skinType": "FINO_EYE",
           "name": "Eye",
-          "textureName": "characters",
+          "textureName": "character_missing",
           "spriteName": "Missing_01.png",
           "walkingFrames": 12,
           "unlocked": true,
-          "headOffsets": [ { "x": 3, "y": 8} ]
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 8
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -3920,12 +4180,17 @@
       "prefix": "",
       "charName": "Gains",
       "surname": "Boros",
-      "textureName": "characters",
+      "textureName": "character_boros",
       "spriteName": "Gains_01.png",
       "portraitName": "p_boros.png",
       "walkingFrames": 5,
       "description": "Gains +2% Growth every level.",
-      "headOffsets": [ { "x": 8, "y": 12} ],
+      "headOffsets": [
+        {
+          "x": 8,
+          "y": 12
+        }
+      ],
       "isBought": false,
       "price": 666,
       "completedStages": [],
@@ -3986,10 +4251,23 @@
       "charName": "Gyorunton",
       "surname": "",
       "spriteName": "Dragogion_01.png",
-      "textureName": "characters",
+      "textureName": "character_dragogion",
       "walkingFrames": 4,
       "description": "Gains +1% Curse every level. Can find evolutions in any Treasure Chest.",
-      "headOffsets": [ { "x": -5, "y": -10}, { "x": -5, "y": 15}, { "x": 19, "y": 0} ],
+      "headOffsets": [
+        {
+          "x": -5,
+          "y": -10
+        },
+        {
+          "x": -5,
+          "y": 15
+        },
+        {
+          "x": 19,
+          "y": 0
+        }
+      ],
       "portraitName": "p_gyorunton.png",
       "isBought": false,
       "price": 5000,
@@ -4097,7 +4375,7 @@
       "prefix": "Mask of the",
       "charName": "Red Death",
       "surname": "",
-      "textureName": "characters",
+      "textureName": "character_reddeath",
       "spriteName": "newXLReaper_i01.png",
       "portraitName": "p_reddeath.png",
       "walkingFrames": 5,
@@ -4110,21 +4388,31 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_reddeath",
           "spriteName": "newXLReaper_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": 12} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 12
+            }
+          ]
         },
         {
           "skinType": "LEGACY",
           "name": "Legacy",
-          "textureName": "characters",
+          "textureName": "character_reddeath",
           "spriteName": "XLReaper_i01.png",
           "suffix": "(Legacy)",
           "walkingFrames": 8,
           "unlocked": true,
-          "headOffsets": [ { "x": 0, "y": 12} ]
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 12
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -4211,12 +4499,17 @@
       "charName": "Sigma",
       "surname": "",
       "spriteName": "s_01.png",
-      "textureName": "characters",
+      "textureName": "character_sigma",
       "portraitName": "p_sigma.png",
       "walkingFrames": 4,
       "currentSkin": "DEFAULT",
       "description": "She owns everything.",
-      "headOffsets": [ { "x": 1, "y": 0} ],
+      "headOffsets": [
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
       "bgm": "BGM_Solution",
       "isBought": false,
       "price": 0,
@@ -4320,17 +4613,22 @@
       "charName": "Robbert",
       "surname": "",
       "spriteName": "Robert_i01.png",
-      "textureName": "characters",
+      "textureName": "character_robbert",
       "walkingFrames": 5,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_robbert",
           "spriteName": "Robert_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 3} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -4425,17 +4723,22 @@
       "charName": "She-Moon",
       "surname": "Eeta",
       "spriteName": "Sheemonita_i01.png",
-      "textureName": "characters",
+      "textureName": "character_shemoon",
       "walkingFrames": 5,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_shemoon",
           "spriteName": "Sheemonita_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 3} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -4513,18 +4816,23 @@
       "charName": "Santa",
       "surname": "Ladonna",
       "spriteName": "Santa_01.png",
-      "textureName": "characters",
+      "textureName": "character_santa",
       "portraitName": "p_santa.png",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_santa",
           "spriteName": "Santa_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 3} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -4536,7 +4844,7 @@
       "maxHp": 100,
       "armor": 2,
       "regen": 0,
-      "moveSpeed": 1.0,
+      "moveSpeed": 1,
       "power": 1,
       "cooldown": 0.3,
       "area": 1,
@@ -4553,16 +4861,64 @@
       "skips": 0,
       "banish": 0,
       "showcase": [
-        "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER", "HOLYWATER",
-        "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK", "HOLYBOOK",
-        "CROSS", "CROSS", "CROSS", "CROSS", "CROSS", "CROSS", "CROSS", "CROSS",
-        "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN", "SANTAJAVELIN",
-        "AREA", "AREA", "AREA", "AREA", "AREA",
-        "SPEED","SPEED","SPEED","SPEED","SPEED",
-        "LUCK","LUCK","LUCK","LUCK","LUCK",
-        "AMOUNT","AMOUNT",
-        "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN",
-        "DURATION","DURATION","DURATION","DURATION","DURATION"
+        "HOLYWATER",
+        "HOLYWATER",
+        "HOLYWATER",
+        "HOLYWATER",
+        "HOLYWATER",
+        "HOLYWATER",
+        "HOLYWATER",
+        "HOLYWATER",
+        "HOLYBOOK",
+        "HOLYBOOK",
+        "HOLYBOOK",
+        "HOLYBOOK",
+        "HOLYBOOK",
+        "HOLYBOOK",
+        "HOLYBOOK",
+        "HOLYBOOK",
+        "CROSS",
+        "CROSS",
+        "CROSS",
+        "CROSS",
+        "CROSS",
+        "CROSS",
+        "CROSS",
+        "CROSS",
+        "SANTAJAVELIN",
+        "SANTAJAVELIN",
+        "SANTAJAVELIN",
+        "SANTAJAVELIN",
+        "SANTAJAVELIN",
+        "SANTAJAVELIN",
+        "SANTAJAVELIN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION"
       ],
       "hiddenWeapons": [],
       "enemiesKilled": 0,
@@ -4606,17 +4962,22 @@
       "charName": "Space Dude",
       "surname": "",
       "spriteName": "xSpaceDude_01.png",
-      "textureName": "characters",
+      "textureName": "character_spacedude",
       "walkingFrames": 4,
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "characters",
+          "textureName": "character_spacedude",
           "spriteName": "xSpaceDude_01.png",
           "walkingFrames": 4,
           "unlocked": true,
-          "headOffsets": [ { "x": 1, "y": 3} ]
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -4708,11 +5069,11 @@
       "prefix": "Bats",
       "charName": "Bats",
       "surname": "Bats",
-      "textureName": "characters",
+      "textureName": "character_batsbatsbats",
       "spriteName": "bbbats_i01.png",
       "portraitName": "p_bats.png",
-      "charSelTexture": "characters",
-      "charSelFrame" : "BatsBatsBatsSelect.png",
+      "charSelTexture": "character_batsbatsbats",
+      "charSelFrame": "BatsBatsBatsSelect.png",
       "walkingFrames": 4,
       "description": "Starting weapon grows stronger when levelling up. Revivals also affect Amount.",
       "isBought": false,
@@ -4794,16 +5155,16 @@
       "prefix": "Bats",
       "charName": "Bats",
       "surname": "Bats",
-      "textureName": "characters",
+      "textureName": "character_batsbatsbats",
       "spriteName": "bbbats_i01.png",
       "portraitName": "p_bats.png",
-      "charSelTexture": "characters",
-      "charSelFrame" : "BatsBatsBatsSelect.png",
+      "charSelTexture": "character_batsbatsbats",
+      "charSelFrame": "BatsBatsBatsSelect.png",
       "walkingFrames": 4,
       "description": "Starting weapon grows stronger when levelling up. Revivals also affect Amount.",
       "isBought": false,
       "price": 5000,
-      "scale" : 0.5,
+      "scale": 0.5,
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
@@ -4858,17 +5219,38 @@
       ],
       "levelUpPresets": [
         {
-          "startingLoadout": [
-
-          ],
+          "startingLoadout": [],
           "loadout": [
-            "BATTILIA","BATTILIA","BATTILIA","BATTILIA","BATTILIA","BATTILIA",
-            "AMOUNT","AMOUNT",
-            "REVIVAL","REVIVAL",
-            "SPEED","SPEED","SPEED","SPEED","SPEED",
-            "POWER","POWER","POWER","POWER","POWER",
-            "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN",
-            "LUCK","LUCK","LUCK","LUCK","LUCK"
+            "BATTILIA",
+            "BATTILIA",
+            "BATTILIA",
+            "BATTILIA",
+            "BATTILIA",
+            "BATTILIA",
+            "AMOUNT",
+            "AMOUNT",
+            "REVIVAL",
+            "REVIVAL",
+            "SPEED",
+            "SPEED",
+            "SPEED",
+            "SPEED",
+            "SPEED",
+            "POWER",
+            "POWER",
+            "POWER",
+            "POWER",
+            "POWER",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK"
           ],
           "autoShuffle": true
         }
@@ -4903,7 +5285,7 @@
       "prefix": "",
       "charName": "Rose",
       "surname": "De Infernas",
-      "textureName": "characters",
+      "textureName": "character_rose",
       "spriteName": "xRose_01.png",
       "portraitName": "p_rose.png",
       "walkingFrames": 4,
@@ -5025,11 +5407,16 @@
       "prefix": "",
       "charName": "Scorej-Oni",
       "surname": "",
-      "textureName": "characters",
+      "textureName": "character_scorej",
       "spriteName": "Scorej_01.png",
       "portraitName": "p_scorej.png",
       "description": "Gains a hidden Lightning Ring every 8 levels (max 6) that also fires when losing health.",
-      "headOffsets": [ { "x": 5, "y": 10} ],
+      "headOffsets": [
+        {
+          "x": 5,
+          "y": 10
+        }
+      ],
       "walkingFrames": 4,
       "isBought": false,
       "price": 5000,
@@ -5123,10 +5510,23 @@
       "charName": "Gyoruntin",
       "surname": "",
       "spriteName": "Gyoruntin_01.png",
-      "textureName": "characters",
+      "textureName": "character_gyoruntin",
       "walkingFrames": 5,
       "description": "Starting weapon grows stronger when levelling up. Gains +1% Curse every level. Ignores walls.",
-      "headOffsets": [ { "x": -5, "y": -10}, { "x": -5, "y": 15}, { "x": 19, "y": 0} ],
+      "headOffsets": [
+        {
+          "x": -5,
+          "y": -10
+        },
+        {
+          "x": -5,
+          "y": 15
+        },
+        {
+          "x": 19,
+          "y": 0
+        }
+      ],
       "portraitName": "p_gyoruntin.png",
       "isBought": false,
       "price": 5000,
@@ -5136,13 +5536,13 @@
         "x": 16,
         "y": 32
       },
-      "charSelTexture": "characters",
-      "charSelFrame" : "GyoruntinSelect.png",
+      "charSelTexture": "character_gyoruntin",
+      "charSelFrame": "GyoruntinSelect.png",
       "maxHp": 130,
       "armor": 3,
       "regen": 0,
       "moveSpeed": 1.8,
-      "power": 1.0,
+      "power": 1,
       "cooldown": 1,
       "area": 1,
       "speed": 1,

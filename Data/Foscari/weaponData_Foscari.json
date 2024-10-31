@@ -2,6 +2,7 @@
   "SPELL_STRING": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STRING",
       "price": 300,
@@ -55,6 +56,7 @@
   "SPELL_STREAM": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STREAM",
       "price": 300,
@@ -108,6 +110,7 @@
   "SPELL_STRIKE": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STRIKE",
       "price": 300,
@@ -157,6 +160,7 @@
   "SPELL_STROM": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STROM",
       "name": "SpellStrom",
@@ -195,6 +199,7 @@
   "SWORD": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SWORD",
       "price": 800,
@@ -252,6 +257,7 @@
     {
       "hidden": false,
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SWORD2",
       "name": "Legionnaire",
@@ -289,6 +295,7 @@
   "FLASHARROW": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "FLASHARROW",
       "price": 400,
@@ -351,6 +358,7 @@
     {
       "hidden": false,
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "FLASHARROW2",
       "name": "Millionaire",
@@ -387,6 +395,7 @@
   "PRISMATICMISS": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "PRISMATICMISS",
       "price": 800,
@@ -446,6 +455,7 @@
   "PRISMATICMISS2": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "PRISMATICMISS2",
       "name": "Luminaire",
@@ -482,6 +492,7 @@
   "SHADOWSERVANT": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SHADOWSERVANT",
       "price": 800,
@@ -534,6 +545,7 @@
   "SHADOWSERVANT2": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SHADOWSERVANT2",
       "name": "Ophion",
@@ -572,6 +584,7 @@
   "PARTY": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "PARTY",
       "price": 1,
@@ -620,6 +633,7 @@
   "ACADEMYBADGE": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "hidden": false,
       "bulletType": "ACADEMYBADGE",
       "name": "Academy Badge",
@@ -657,6 +671,7 @@
   "SHADOWSERVANT_COUNTER": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "bulletType": "SHADOWSERVANT_COUNTER",
       "name": "Silver Sliver",
       "description": "Counterpart to Shadow Servant and Ophion from Arcana I - Gemini.",
@@ -702,6 +717,7 @@
   "PARTY_COUNTER": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "sealable": false,
       "bulletType": "PARTY",
       "name": "Party Pooper",
@@ -750,6 +766,7 @@
   "INSATIABLE": [
     {
       "level": 1,
+      "contentGroup": "FOSCARI",
       "bulletType": "INSATIABLE",
       "name": "Insatiable",
       "description": "-",

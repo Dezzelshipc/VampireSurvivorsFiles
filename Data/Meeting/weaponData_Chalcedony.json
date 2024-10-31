@@ -2,6 +2,7 @@
   "C1_REPORT1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_REPORT1",
       "price": 400,
@@ -21,7 +22,7 @@
       "interval": 2200,
       "repeatInterval": 100,
       "power": 0.65,
-      "area": 1.0,
+      "area": 1,
       "speed": 1,
       "amount": 1,
       "hitsWalls": false,
@@ -38,18 +39,10 @@
       "knockback": 5,
       "customDesc": 10,
       "interval": -200,
-      "addNormalWeapon" : null
+      "addNormalWeapon": null
     },
     {
-      "power": 1.0
-    },
-    {
-      "knockback": 5,
-      "customDesc": 10,
-      "interval": -200
-    },
-    {
-      "power": 1.0
+      "power": 1
     },
     {
       "knockback": 5,
@@ -57,13 +50,22 @@
       "interval": -200
     },
     {
-      "power": 1.0,
+      "power": 1
+    },
+    {
+      "knockback": 5,
+      "customDesc": 10,
+      "interval": -200
+    },
+    {
+      "power": 1,
       "addEvolvedWeapon": "C1_REPORT2"
     }
   ],
   "C1_REPORT2": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_REPORT2",
       "name": "Emergency Meeting",
@@ -72,7 +74,6 @@
       "texture": "items",
       "frameName": "Report2.png",
       "collectionFrame": "frameB_purple.png",
-
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -85,7 +86,6 @@
       "requiresMax": [
         "C1_SHRINK_CREWMA"
       ],
-      
       "poolLimit": 100,
       "rarity": 1,
       "interval": 1600,
@@ -103,6 +103,7 @@
   "C1_SWIPECARD1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SWIPECARD1",
       "price": 400,
@@ -126,7 +127,7 @@
       "speed": 0.8,
       "amount": 1,
       "hitsWalls": false,
-      "critChance": 0.70,
+      "critChance": 0.7,
       "critMul": 1
     },
     {
@@ -138,7 +139,7 @@
       "repeatInterval": -10,
       "power": 0.5,
       "speed": 0.1,
-      "addNormalWeapon" : null
+      "addNormalWeapon": null
     },
     {
       "repeatInterval": -10,
@@ -170,6 +171,7 @@
   "C1_SWIPECARD2": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SWIPECARD2",
       "name": "Wire Fix",
@@ -178,7 +180,6 @@
       "texture": "items",
       "frameName": "SwipeCard2.png",
       "collectionFrame": "frameB_purple.png",
-
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -191,7 +192,6 @@
       "requiresMax": [
         "C1_SHRINK_ENGINE"
       ],
-      
       "poolLimit": 100,
       "rarity": 1,
       "interval": 1000,
@@ -208,6 +208,7 @@
   "C1_MEDICAL1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_MEDICAL1",
       "price": 200,
@@ -242,7 +243,7 @@
     },
     {
       "interval": -2000,
-      "addNormalWeapon" : null
+      "addNormalWeapon": null
     },
     {
       "interval": -2000,
@@ -266,6 +267,7 @@
   "C1_MEDICAL2": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_MEDICAL2",
       "name": "Paranormal Scan",
@@ -274,7 +276,6 @@
       "texture": "items",
       "frameName": "Medical2.png",
       "collectionFrame": "frameB_purple.png",
-      
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -287,7 +288,6 @@
       "requiresMax": [
         "C1_SHRINK_GHOSTT"
       ],
-      
       "poolLimit": 100,
       "rarity": 1,
       "interval": 20000,
@@ -304,6 +304,7 @@
   "C1_VENT1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_VENT1",
       "price": 400,
@@ -339,7 +340,7 @@
       "addNormalWeapon": "C1_SHRINK_SHAPES"
     },
     {
-      "addNormalWeapon" : null,
+      "addNormalWeapon": null,
       "area": 0.5
     },
     {
@@ -347,7 +348,7 @@
       "customDesc": 2
     },
     {
-      "interval" : -1000
+      "interval": -1000
     },
     {
       "amount": 2,
@@ -365,6 +366,7 @@
   "C1_VENT2": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_VENT2",
       "name": "Ejection",
@@ -373,7 +375,6 @@
       "texture": "items",
       "frameName": "Vent2.png",
       "collectionFrame": "frameB_purple.png",
-
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -386,7 +387,6 @@
       "requiresMax": [
         "C1_SHRINK_SHAPES"
       ],
-      
       "poolLimit": 100,
       "rarity": 1,
       "interval": 10000,
@@ -404,6 +404,7 @@
   "C1_GARBA1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_GARBA1",
       "price": 400,
@@ -430,20 +431,20 @@
       "hitBoxDelay": 500,
       "knockback": 0.1,
       "hitsWalls": false,
-      "penetrating" : 1
+      "penetrating": 1
     },
     {
-      "penetrating" : 2,
+      "penetrating": 2,
       "duration": 500,
       "addNormalWeapon": "C1_SHRINK_GUARDI"
     },
     {
       "power": 0.2,
       "speed": 0.3,
-      "addNormalWeapon" : null
+      "addNormalWeapon": null
     },
     {
-      "penetrating" : 2,
+      "penetrating": 2,
       "duration": 500
     },
     {
@@ -451,7 +452,7 @@
       "speed": 0.3
     },
     {
-      "penetrating" : 2,
+      "penetrating": 2,
       "duration": 500
     },
     {
@@ -460,15 +461,16 @@
       "repeatInterval": -40
     },
     {
-      "penetrating" : 2,
+      "penetrating": 2,
       "amount": 5,
       "repeatInterval": -40,
-      "addEvolvedWeapon" : "C1_GARBA2"
+      "addEvolvedWeapon": "C1_GARBA2"
     }
   ],
   "C1_GARBA2": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_GARBA2",
       "name": "Clear Asteroids",
@@ -477,7 +479,6 @@
       "texture": "items",
       "frameName": "Garbage2.png",
       "collectionFrame": "frameB_purple.png",
-      
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -490,12 +491,11 @@
       "requiresMax": [
         "C1_SHRINK_GUARDI"
       ],
-      
       "poolLimit": 200,
       "rarity": 1,
       "interval": 4000,
       "repeatInterval": 100,
-      "power": 5.0,
+      "power": 5,
       "area": 1,
       "speed": 1,
       "amount": 5,
@@ -507,6 +507,7 @@
   "C1_TONGUE1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_TONGUE1",
       "price": 400,
@@ -535,35 +536,36 @@
     },
     {
       "amount": 1,
-      "area" : 0.2,
+      "area": 0.2,
       "addNormalWeapon": "C1_SHRINK_IMPOST"
     },
     {
       "power": 1,
-      "addNormalWeapon" : null
+      "addNormalWeapon": null
     },
     {
       "amount": 1,
-      "area" : 0.2
+      "area": 0.2
     },
     {
       "power": 1
     },
     {
       "amount": 1,
-      "area" : 0.2
+      "area": 0.2
     },
     {
       "power": 1
     },
     {
-      "area" : 0.2,
+      "area": 0.2,
       "addEvolvedWeapon": "C1_TONGUE2"
     }
   ],
   "C1_TONGUE2": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_TONGUE2",
       "name": "Assassination",
@@ -572,7 +574,6 @@
       "texture": "items",
       "frameName": "Tongue2.png",
       "collectionFrame": "frameB_purple.png",
-
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -585,7 +586,6 @@
       "requiresMax": [
         "C1_SHRINK_IMPOST"
       ],
-      
       "poolLimit": 100,
       "rarity": 1,
       "interval": 1900,
@@ -602,6 +602,7 @@
   "C1_SAMPLES1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SAMPLES1",
       "price": 400,
@@ -628,16 +629,16 @@
       "hitsWalls": false,
       "critChance": 0.2,
       "critMul": 2,
-      "knockback" : 0.2
+      "knockback": 0.2
     },
     {
       "amount": 1,
-      "addNormalWeapon" : "C1_SHRINK_SCIENT",
+      "addNormalWeapon": "C1_SHRINK_SCIENT",
       "area": 0.3
     },
     {
       "amount": 1,
-      "addNormalWeapon" : null
+      "addNormalWeapon": null
     },
     {
       "amount": 1,
@@ -656,12 +657,13 @@
     {
       "amount": 1,
       "power": 0.5,
-      "addEvolvedWeapon" : "C1_SAMPLES2"
+      "addEvolvedWeapon": "C1_SAMPLES2"
     }
   ],
   "C1_SAMPLES2": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SAMPLES2",
       "name": "Rocket Science",
@@ -670,7 +672,6 @@
       "texture": "items",
       "frameName": "Samples2.png",
       "collectionFrame": "frameB_purple.png",
-      
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -683,7 +684,6 @@
       "requiresMax": [
         "C1_SHRINK_SCIENT"
       ],
-      
       "poolLimit": 100,
       "rarity": 1,
       "interval": 12000,
@@ -696,12 +696,13 @@
       "hitsWalls": false,
       "critChance": 0.2,
       "critMul": 2,
-      "knockback" : 0.2
+      "knockback": 0.2
     }
   ],
   "C1_HATCOLLECTION1": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "price": 1,
       "sealable": true,
       "bulletType": "C1_HATCOLLECTION1",
@@ -752,13 +753,13 @@
     },
     {
       "speed": 0.5,
-      "addNormalWeapon" : "C1_SHRINK_HORSEE"
+      "addNormalWeapon": "C1_SHRINK_HORSEE"
     }
   ],
-  
   "C1_TONGUE1_COUNTER": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": false,
       "bulletType": "C1_TONGUE1_COUNTER",
       "name": "Silver Tongue",
@@ -783,33 +784,33 @@
     },
     {
       "amount": 1,
-      "area" : 0.2
+      "area": 0.2
     },
     {
       "power": 1
     },
     {
       "amount": 1,
-      "area" : 0.2
+      "area": 0.2
     },
     {
       "power": 1
     },
     {
       "amount": 1,
-      "area" : 0.2
+      "area": 0.2
     },
     {
       "power": 1
     },
     {
-      "area" : 0.2
+      "area": 0.2
     }
   ],
-
   "C1_SHRINK_CREWMA": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_CREWMA",
       "name": "Shrunk Crewmate",
@@ -819,7 +820,9 @@
       "texture": "items",
       "frameName": "C1_SHRINK_CREWMA.png",
       "collectionFrame": "frameB_purple.png",
-      "evoSynergy": ["C1_REPORT1"],
+      "evoSynergy": [
+        "C1_REPORT1"
+      ],
       "evoInto": "C1_REPORT2",
       "isUnlocked": true,
       "hidden": false,
@@ -840,6 +843,7 @@
   "C1_SHRINK_ENGINE": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_ENGINE",
       "name": "Shrunk Engineer",
@@ -849,7 +853,9 @@
       "texture": "items",
       "frameName": "C1_SHRINK_ENGINE.png",
       "collectionFrame": "frameB_purple.png",
-      "evoSynergy": ["C1_SWIPECARD1"],
+      "evoSynergy": [
+        "C1_SWIPECARD1"
+      ],
       "evoInto": "C1_SWIPECARD2",
       "isUnlocked": true,
       "hidden": false,
@@ -870,6 +876,7 @@
   "C1_SHRINK_GHOSTT": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_GHOSTT",
       "name": "Shrunk Ghost",
@@ -879,7 +886,9 @@
       "texture": "items",
       "frameName": "C1_SHRINK_GHOSTT.png",
       "collectionFrame": "frameB_purple.png",
-      "evoSynergy": ["C1_MEDICAL1"],
+      "evoSynergy": [
+        "C1_MEDICAL1"
+      ],
       "evoInto": "C1_MEDICAL2",
       "isUnlocked": true,
       "hidden": false,
@@ -900,6 +909,7 @@
   "C1_SHRINK_SHAPES": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_SHAPES",
       "name": "Shrunk Shapeshifter",
@@ -909,7 +919,9 @@
       "texture": "items",
       "frameName": "C1_SHRINK_SHAPES.png",
       "collectionFrame": "frameB_purple.png",
-      "evoSynergy": ["C1_VENT1"],
+      "evoSynergy": [
+        "C1_VENT1"
+      ],
       "evoInto": "C1_VENT2",
       "isUnlocked": true,
       "hidden": false,
@@ -930,6 +942,7 @@
   "C1_SHRINK_GUARDI": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_GUARDI",
       "name": "Shrunk Guardian",
@@ -939,7 +952,9 @@
       "texture": "items",
       "frameName": "C1_SHRINK_GUARDI.png",
       "collectionFrame": "frameB_purple.png",
-      "evoSynergy": ["C1_GARBA1"],
+      "evoSynergy": [
+        "C1_GARBA1"
+      ],
       "evoInto": "C1_GARBA2",
       "isUnlocked": true,
       "hidden": false,
@@ -960,6 +975,7 @@
   "C1_SHRINK_IMPOST": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_IMPOST",
       "name": "Shrunk Impostor",
@@ -969,7 +985,9 @@
       "texture": "items",
       "frameName": "C1_SHRINK_IMPOST.png",
       "collectionFrame": "frameB_purple.png",
-      "evoSynergy": ["C1_TONGUE1"],
+      "evoSynergy": [
+        "C1_TONGUE1"
+      ],
       "evoInto": "C1_TONGUE2",
       "isUnlocked": true,
       "hidden": false,
@@ -990,6 +1008,7 @@
   "C1_SHRINK_SCIENT": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_SCIENT",
       "name": "Shrunk Scientist",
@@ -999,7 +1018,9 @@
       "texture": "chalcedony",
       "frameName": "C1_SHRINK_SCIENT.png",
       "collectionFrame": "frameB_purple.png",
-      "evoSynergy": ["C1_SAMPLES1"],
+      "evoSynergy": [
+        "C1_SAMPLES1"
+      ],
       "evoInto": "C1_SAMPLES2",
       "isUnlocked": true,
       "hidden": false,
@@ -1020,6 +1041,7 @@
   "C1_SHRINK_HORSEE": [
     {
       "level": 1,
+      "contentGroup": "CHALCEDONY",
       "sealable": true,
       "bulletType": "C1_SHRINK_HORSEE",
       "name": "Shrunk Horse",

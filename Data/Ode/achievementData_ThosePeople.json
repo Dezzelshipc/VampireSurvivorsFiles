@@ -1,0 +1,709 @@
+{
+  "TP_Leon_FindCoffin1": {
+    "description": "Find and open the first coffin on Dracula's Castle.",
+    "characterToUnlock": "TP_LEON"
+  },
+  "TP_Sonia_HeartRefresh": {
+    "description": "Find 14 Heart Refresh.",
+    "characterToUnlock": "TP_SONIA"
+  },
+  "TP_Trevor_Boss1": {
+    "description": "Defeat the Giant Medusa Head at the Entrance of Dracula's Castle.",
+    "characterToUnlock": "TP_TREVOR"
+  },
+  "TP_Sypha_EvoDragonwater": {
+    "description": "Evolve the Water Dragon Whip.",
+    "characterToUnlock": "TP_SYPHA"
+  },
+  "TP_Grant_Boss2": {
+    "description": "Defeat the Puppet Master at the Marble Gallery of Dracula's Castle.",
+    "characterToUnlock": "TP_GRANT"
+  },
+  "TP_Alucard_Boss3": {
+    "description": "Defeat the Doppelganger at the Marble Gallery of Dracula's Castle.",
+    "characterToUnlock": "TP_ALUCARD"
+  },
+  "TP_Hector_KarmaCoins": {
+    "description": "After defeating <BOSS>, find 21 Karma Coins.",
+    "characterToUnlock": "TP_HECTOR"
+  },
+  "TP_Christopher_EvoSworb": {
+    "description": "Evolve the Alucart Sworb.",
+    "characterToUnlock": "TP_CHRISTOPHER"
+  },
+  "TP_Simon_EvoLemuria": {
+    "description": "Evolve the Jet Black Whip.",
+    "characterToUnlock": "TP_SIMON"
+  },
+  "TP_Juste_EvoCurse": {
+    "description": "Evolve the Wind Whip.",
+    "characterToUnlock": "TP_JUSTE"
+  },
+  
+  "TP_Julius_FindCoffin2": {
+    "description": "Find and open the second coffin on Dracula's Castle.",
+    "characterToUnlock": "TP_JULIUS"
+  },
+  "TP_Yoko_Boss4": {
+    "description": "Defeat Paranoia at the --- of Dracula's Castle.",
+    "characterToUnlock": "TP_YOKO"
+  },
+  "TP_Soma_Boss5": {
+    "description": "Defeat Blackmore at the --- of Dracula's Castle.",
+    "characterToUnlock": "TP_SOMA"
+  },
+  "TP_Jonhathan_EvoRPG": {
+    "description": "Evolve the Hand Grenade.",
+    "characterToUnlock": "TP_JONATHAN"
+  },
+  "TP_Charlotte_Mirrors": {
+    "description": "After defeating <BOSS>, find 28 Mirrors of Truth.",
+    "characterToUnlock": "TP_CHARLOTTE"
+  },
+  "TP_John_EvoSpells": {
+    "description": "Evolve Raging Fire, Ice Fangs, Gale Force, and Rock Riot.",
+    "characterToUnlock": "TP_JOHN"
+  },
+  "TP_Eric_EvoJavelin": {
+    "description": "Evolve the Javelin.",
+    "characterToUnlock": "TP_ERIC"
+  },
+  "TP_Shanoa_EvoTwo": {
+    "description": "Evolve the Iron Ball and the Alucard Spear.",
+    "characterToUnlock": "TP_SHANOA"
+  },
+  
+  "TP_Maria_unlock": {
+    "description": "Complete any stage with Shanoa and Juste Belmont.",
+    "characterToUnlock": "TP_MARIAA"
+  },
+  "TP_Richter_EvoBeasts": {
+    "description": "Evolve the Sacred Beasts.",
+    "characterToUnlock": "TP_RICHTER"
+  },
+  
+  "TP_Teleport1": {
+    "description": "Defeat <BOSS>.",
+    "relicToUnlock": "TP_RELIC_TELEPORT1"
+  },
+  "TP_Teleport2": {
+    "description": "Defeat <BOSS>.",
+    "relicToUnlock": "TP_RELIC_TELEPORT2"
+  },
+  "TP_Teleport3": {
+    "description": "Defeat <BOSS>.",
+    "relicToUnlock": "TP_RELIC_TELEPORT3"
+  },
+  "TP_Teleport4": {
+    "description": "Defeat <BOSS>.",
+    "relicToUnlock": "TP_RELIC_TELEPORT4"
+  },
+  "TP_Teleport5": {
+    "description": "Defeat <BOSS>.",
+    "relicToUnlock": "TP_RELIC_TELEPORT5",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Teleport6": {
+    "description": "Defeat <BOSS>.",
+    "relicToUnlock": "TP_RELIC_TELEPORT6",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Relic_BlackDisk": {
+    "description": "___",
+    "relicToUnlock": "TP_RELIC_BLACK_DISK",
+    "mistery": true
+  },
+  "TP_Relic_CastleMap": {
+    "description": "___",
+    "relicToUnlock": "TP_RELIC_CASTLEMAP"
+  },
+  "TP_Relic_LibrarianCard": {
+    "description": "___",
+    "relicToUnlock": "TP_RELIC_LIBRARIAN",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Relic_PileOfSecrets": {
+    "description": "___",
+    "relicToUnlock": "TP_RELIC_PILEOFSECRETS",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Relic_EbonyCrimsonStone": {
+    "description": "___",
+    "relicToUnlock": "TP_RELIC_STONES",
+    "requiresItem": "TP_RELIC_PILEOFSECRETS"
+  },
+  "TP_Hyper_Castle": {
+    "description": "Defeat Malphas in Ode to Castlevania.",
+    "hyperToUnlock": "TP_CASTLE"
+  },
+  "TP_Dracula_FindCoffin3": {
+    "description": "Find and open the third coffin on Dracula's Castle.",
+    "characterToUnlock": "TP_DRACULA",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  
+  "TP_Lisa_WineGlass": {
+    "description": "___",
+    "characterToUnlock": "TP_LISA",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Shaft_Light": {
+    "description": "___",
+    "characterToUnlock": "TP_SHAFT",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Elizabeth_Dark": {
+    "description": "___",
+    "characterToUnlock": "TP_ELIZABETH",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Vincent_Spells": {
+    "description": "___",
+    "characterToUnlock": "TP_VINCENT",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Mina_Shield": {
+    "description": "___",
+    "characterToUnlock": "TP_MINA",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Albus_Confodere": {
+    "description": "___",
+    "characterToUnlock": "TP_ALBUS",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Barlowe_Spite": {
+    "description": "___",
+    "characterToUnlock": "TP_BARLOWE",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Isaac_Mace": {
+    "description": "___",
+    "characterToUnlock": "TP_ISAAC",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_SaintGermain_Chauve": {
+    "description": "___",
+    "characterToUnlock": "TP_STGERMAIN",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Julia_Energy": {
+    "description": "___",
+    "characterToUnlock": "TP_JULIA",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Sara_AlchemyWhip": {
+    "description": "___",
+    "characterToUnlock": "TP_SARA",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Rinaldo_Flail": {
+    "description": "___",
+    "characterToUnlock": "TP_RINALDO",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Quincy_PlatinumWhip": {
+    "description": "___",
+    "characterToUnlock": "TP_QUINCY",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Maxim_HolyWhip": {
+    "description": "___",
+    "characterToUnlock": "TP_MAXIM",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Nathan_SonicWhip": {
+    "description": "___",
+    "characterToUnlock": "TP_NATHAN",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Reinhardt_FindCoffin4": {
+    "description": "Find and open the fourth coffin on Dracula's Castle.",
+    "characterToUnlock": "TP_REINHARDT",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Henry_Slash": {
+    "description": "___",
+    "characterToUnlock": "TP_HENRY",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Cornell_Gun": {
+    "description": "___",
+    "characterToUnlock": "TP_CORNELL",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Carrie_Custos": {
+    "description": "___",
+    "characterToUnlock": "TP_CARRIE",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  
+  "TP_Weapon_WHIP_1": {
+    "description": "___",
+    "weaponToUnlock": "TP_ALCHEMYWHIP1"
+  },
+  "TP_Weapon_WHIP_2": {
+    "description": "___",
+    "weaponToUnlock": "TP_SONICWHIP1"
+  },
+  "TP_Weapon_WHIP_3": {
+    "description": "___",
+    "weaponToUnlock": "TP_DRAGONWATER1"
+  },
+  "TP_Weapon_WHIP_4": {
+    "description": "___",
+    "weaponToUnlock": "TP_WINDWHIP1"
+  },
+  "TP_Weapon_WHIP_5": {
+    "description": "___",
+    "weaponToUnlock": "TP_LEMURIA1"
+  },
+  "TP_Weapon_WHIP_6": {
+    "description": "___",
+    "weaponToUnlock": "TP_HOLYWHIP1"
+  },
+  "TP_Weapon_WHIP_7": {
+    "description": "___",
+    "weaponToUnlock": "TP_PLATINUMWHIP1"
+  },
+  "TP_Weapon_WHIP_8": {
+    "description": "___",
+    "weaponToUnlock": "TP_MARTIALWHIP1"
+  },
+
+  "TP_Weapon_PROJECTILE_1": {
+    "description": "___",
+    "weaponToUnlock": "TP_BWAKA1"
+  },
+  "TP_Weapon_PROJECTILE_2": {
+    "description": "___",
+    "weaponToUnlock": "TP_SHURIKEN1"
+  },
+  "TP_Weapon_PROJECTILE_3": {
+    "description": "___",
+    "weaponToUnlock": "TP_JAVELIN1"
+  },
+  "TP_Weapon_PROJECTILE_4": {
+    "description": "___",
+    "weaponToUnlock": "TP_IRONBALL1"
+  },
+  "TP_Weapon_PROJECTILE_5": {
+    "description": "___",
+    "weaponToUnlock": "TP_DISCUS1"
+  },
+  "TP_Weapon_PROJECTILE_6": {
+    "description": "___",
+    "weaponToUnlock": "TP_GUN1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_PROJECTILE_7": {
+    "description": "___",
+    "weaponToUnlock": "TP_RPG1"
+  },
+  "TP_Weapon_PROJECTILE_8": {
+    "description": "___",
+    "weaponToUnlock": "TP_WINEGLASS1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+
+  "TP_Weapon_SPELL_1": {
+    "description": "___",
+    "weaponToUnlock": "TP_FIRE1"
+  },
+  "TP_Weapon_SPELL_2": {
+    "description": "___",
+    "weaponToUnlock": "TP_ICE1"
+  },
+  "TP_Weapon_SPELL_3": {
+    "description": "___",
+    "weaponToUnlock": "TP_WIND1"
+  },
+  "TP_Weapon_SPELL_4": {
+    "description": "___",
+    "weaponToUnlock": "TP_EARTH1"
+  },
+  "TP_Weapon_SPELL_5": {
+    "description": "___",
+    "weaponToUnlock": "TP_ELEC1"
+  },
+  "TP_Weapon_SPELL_6": {
+    "description": "___",
+    "weaponToUnlock": "TP_ACID1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_SPELL_7": {
+    "description": "___",
+    "weaponToUnlock": "TP_HOLY1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_SPELL_8": {
+    "description": "___",
+    "weaponToUnlock": "TP_EVIL1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+
+  "TP_Weapon_WEAPON_1": {
+    "description": "___",
+    "weaponToUnlock": "TP_ALUCARDSWORD1"
+  },
+  "TP_Weapon_WEAPON_2": {
+    "description": "___",
+    "weaponToUnlock": "TP_SLASH1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_WEAPON_3": {
+    "description": "___",
+    "weaponToUnlock": "TP_ALUCARDSPEAR1"
+  },
+  "TP_Weapon_WEAPON_4": {
+    "description": "___",
+    "weaponToUnlock": "TP_CHAUVE1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_WEAPON_5": {
+    "description": "___",
+    "weaponToUnlock": "TP_MACE1"
+  },
+  "TP_Weapon_WEAPON_6": {
+    "description": "___",
+    "weaponToUnlock": "TP_STARFLAIL1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_WEAPON_7": {
+    "description": "___",
+    "weaponToUnlock": "TP_SHIELD1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_WEAPON_8": {
+    "description": "___",
+    "weaponToUnlock": "TP_SACREDBEASTS1"
+  },
+
+  "TP_Weapon_GLYPH_1": {
+    "description": "___",
+    "weaponToUnlock": "TP_CONFODERE1"
+  },
+  "TP_Weapon_GLYPH_2": {
+    "description": "___",
+    "weaponToUnlock": "TP_SPITE1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_GLYPH_3": {
+    "description": "___",
+    "weaponToUnlock": "TP_LIGHT1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_GLYPH_4": {
+    "description": "___",
+    "weaponToUnlock": "TP_DARK1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_GLYPH_5": {
+    "description": "___",
+    "weaponToUnlock": "TP_ENERGY1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_GLYPH_6": {
+    "description": "___",
+    "weaponToUnlock": "TP_RAPIDUS1",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_GLYPH_7": {
+    "description": "___",
+    "weaponToUnlock": "TP_CUSTOS1"
+  },
+  "TP_Weapon_GLYPH_8": {
+    "description": "___",
+    "weaponToUnlock": "TP_CUSTOS2"
+  },
+  "TP_Weapon_GLYPH_9": {
+    "description": "___",
+    "weaponToUnlock": "TP_CUSTOS3",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+  "TP_Weapon_GLYPH_10": {
+    "description": "___",
+    "weaponToUnlock": "TP_DOMINUS1"
+  },
+  "TP_Weapon_GLYPH_11": {
+    "description": "___",
+    "weaponToUnlock": "TP_DOMINUS2"
+  },
+  "TP_Weapon_GLYPH_12": {
+    "description": "___",
+    "weaponToUnlock": "TP_DOMINUS3",
+    "requiresItem": "TP_RELIC_BLACK_DISK"
+  },
+
+  "TP_Selector_FamiliarForge": {
+    "description": "Find a Familiar Forge.",
+    "weaponToUnlock": "TP_FAMILIARFORGE"
+  },
+  "TP_Selector_MorningStar": {
+    "description": "Unlock all 8 magic whips.",
+    "weaponToUnlock": "TP_MORNINGSTAR",
+    "skinsToUnlock": [
+      {
+        "character": "TP_LEON",
+        "skin": "SKIN_TP_LEON_MORNINGSTAR"
+      },
+      {
+        "character": "TP_SONIA",
+        "skin": "SKIN_TP_SONIA_MORNINGSTAR"
+      },
+      {
+        "character": "TP_TREVOR",
+        "skin": "SKIN_TP_TREVOR_MORNINGSTAR"
+      },
+      {
+        "character": "TP_CHRISTOPHER",
+        "skin": "SKIN_TP_CHRISTOPHER_MORNINGSTAR"
+      },
+      {
+        "character": "TP_SIMON",
+        "skin": "SKIN_TP_SIMON_MORNINGSTAR"
+      },
+      {
+        "character": "TP_JUSTE",
+        "skin": "SKIN_TP_JUSTE_MORNINGSTAR"
+      },
+      {
+        "character": "TP_RICHTER",
+        "skin": "SKIN_TP_RICHTER_MORNINGSTAR"
+      },
+      {
+        "character": "TP_JULIUS",
+        "skin": "SKIN_TP_JULIUS_MORNINGSTAR"
+      },
+      {
+        "character": "TP_JONATHAN",
+        "skin": "SKIN_TP_JONHATHAN_MORNINGSTAR"
+      },
+      {
+        "character": "TP_JONATHAN_AND_CHARLOTTE",
+        "skin": "SKIN_TP_JONHATHAN_MORNINGSTAR"
+      },
+      {
+        "character": "TP_NATHAN",
+        "skin": "SKIN_TP_NATHAN_2MS"
+      },
+      {
+        "character": "TP_JOHN",
+        "skin": "SKIN_TP_JOHN_3MS"
+      }
+    ]
+  },
+  "TP_Selector_SpectralSword": {
+    "description": "Unlock all 8 magic weapons.",
+    "weaponToUnlock": "TP_SPECTRALSWORD",
+    "skinsToUnlock": [
+      {
+        "character": "TP_JONATHAN",
+        "skin": "SKIN_TP_JONHATHAN_SPECTRALSWORD"
+      },
+      {
+        "character": "TP_JONATHAN_AND_CHARLOTTE",
+        "skin": "SKIN_TP_JONHATHAN_SPECTRALSWORD"
+      },
+      {
+        "character": "TP_REINHARDT",
+        "skin": "SKIN_TP_REINHARDT_2SW"
+      },
+      {
+        "character": "TP_ISAAC",
+        "skin": "SKIN_TP_ISAAC_2SW"
+      },
+      {
+        "character": "TP_ERIC",
+        "skin": "SKIN_TP_ERIC_2SW"
+      },
+      {
+        "character": "TP_MARIAA",
+        "skin": "SKIN_TP_MARIA_2SW"
+      },
+      {
+        "character": "TP_HECTOR",
+        "skin": "SKIN_TP_HECTOR_2SW"
+      },
+      {
+        "character": "TP_STGERMAIN",
+        "skin": "SKIN_TP_STGERMAIN_2SW"
+      }
+    ]
+  },
+  "TP_Selector_Spellbook": {
+    "description": "Unlock all 8 spells.",
+    "weaponToUnlock": "TP_SPELLBOOK",
+    "skinsToUnlock": [
+      {
+        "character": "TP_CHARLOTTE",
+        "skin": "SKIN_TP_CHARLOTTE_2"
+      },
+      {
+        "character": "TP_CHARLOTTE_AND_JONATHAN",
+        "skin": "SKIN_TP_CHARLOTTE_2"
+      },
+      {
+        "character": "TP_SYPHA",
+        "skin": "SKIN_TP_SYPHA_2"
+      },
+      {
+        "character": "TP_JULIA",
+        "skin": "SKIN_TP_JULIA_2"
+      },
+      {
+        "character": "TP_CARRIE",
+        "skin": "SKIN_TP_CARRIE_2"
+      },
+      {
+        "character": "TP_YOKO",
+        "skin": "SKIN_TP_YOKO_2"
+      },
+      {
+        "character": "TP_RINALDO",
+        "skin": "SKIN_TP_RINALDO_2"
+      },
+      {
+        "character": "TP_MINA",
+        "skin": "SKIN_TP_MINA_2"
+      },
+      {
+        "character": "TP_ELIZABETH",
+        "skin": "SKIN_TP_ELIZABETH_2SB"
+      },
+      {
+        "character": "TP_MARIAA",
+        "skin": "SKIN_TP_MARIA_3SB"
+      },
+      {
+        "character": "TP_MARIAA",
+        "skin": "SKIN_TP_MARIA_5SB"
+      },
+      {
+        "character": "TP_SARA",
+        "skin": "SKIN_TP_SARA_2SB"
+      },
+      {
+        "character": "TP_LISA",
+        "skin": "SKIN_TP_LISA_2SB"
+      },
+      {
+        "character": "TP_NATHAN",
+        "skin": "SKIN_TP_NATHAN_2SB"
+      },
+      {
+        "character": "TP_BARLOWE",
+        "skin": "SKIN_TP_BARLOWE_4SB"
+      }
+    ]
+  },
+  "TP_Selector_Diabologue": {
+    "description": "Unlock all 12 glyphs.",
+    "weaponToUnlock": "TP_DIABOLOGUE",
+    "skinsToUnlock": [
+      {
+        "character": "TP_ISAAC",
+        "skin": "SKIN_TP_ISAAC_3DB"
+      },
+      {
+        "character": "TP_ELIZABETH",
+        "skin": "SKIN_TP_ELIZABETH_3DB"
+      },
+      {
+        "character": "TP_SHAFT",
+        "skin": "SKIN_TP_SHAFT_2DB"
+      },
+      {
+        "character": "TP_STGERMAIN",
+        "skin": "SKIN_TP_STGERMAIN_2DB"
+      },
+      {
+        "character": "TP_CORNELL",
+        "skin": "SKIN_TP_CORNELL_2DB"
+      },
+      {
+        "character": "TP_CORNELL_BCM",
+        "skin": "SKIN_TP_CORNELL_B"
+      },
+      {
+        "character": "TP_BARLOWE",
+        "skin": "SKIN_TP_BARLOWE_3DB"
+      },
+      {
+        "character": "TP_ALBUS",
+        "skin": "SKIN_TP_ALBUS_2DB"
+      },
+      {
+        "character": "TP_DRACULA",
+        "skin": "SKIN_TP_DRACULA_2DB"
+      }
+    ]
+  },
+  "TP_Selector_CoatOfArms": {
+    "description": "Unlock all 16 vampire killing tools.",
+    "weaponToUnlock": "TP_COATOFARMS",
+    "skinsToUnlock": [
+      {
+        "character": "TP_JONATHAN",
+        "skin": "SKIN_TP_JONHATHAN_COATOFARMS"
+      },
+      {
+        "character": "TP_JONATHAN_AND_CHARLOTTE",
+        "skin": "SKIN_TP_JONHATHAN_COATOFARMS"
+      },
+      {
+        "character": "TP_REINHARDT",
+        "skin": "SKIN_TP_REINHARDT_3CA"
+      },
+      {
+        "character": "TP_ERIC",
+        "skin": "SKIN_TP_ERIC_3CA"
+      },
+      {
+        "character": "TP_VINCENT",
+        "skin": "SKIN_TP_VINCENT_2CA"
+      },
+      {
+        "character": "TP_HECTOR",
+        "skin": "SKIN_TP_HECTOR_3CA"
+      },
+      {
+        "character": "TP_JOHN",
+        "skin": "SKIN_TP_JOHN_2CA"
+      },
+      {
+        "character": "TP_GRANT",
+        "skin": "SKIN_TP_GRANT_2CA"
+      },
+      {
+        "character": "TP_QUINCY",
+        "skin": "SKIN_TP_QUINCY_2CA"
+      },
+      {
+        "character": "TP_HENRY",
+        "skin": "SKIN_TP_HENRY_2CA"
+      },
+      {
+        "character": "TP_MAXIM",
+        "skin": "SKIN_TP_MAXIM_2CA"
+      }
+    ]
+  },
+  "TP_Selector_Candybox": {
+    "description": "Unlock Morning Star, Belnades Spellbook, Coat of Arms, Ebony Diabologue, and Spectral Sword.",
+    "skinsToUnlock": [
+      {
+        "character": "TP_SOMA",
+        "skin": "SKIN_TP_SOMA_2"
+      },
+      {
+        "character": "TP_SHANOA",
+        "skin": "SKIN_TP_SHANOA_2"
+      },
+      {
+        "character": "TP_ALUCARD",
+        "skin": "SKIN_TP_ALUCARD_2"
+      }
+    ]
+  }
+}

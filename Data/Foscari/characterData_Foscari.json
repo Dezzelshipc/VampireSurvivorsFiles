@@ -7,14 +7,14 @@
       "charName": "Eleanor",
       "surname": "Uziron",
       "spriteName": "Eleanor_i01.png",
-      "textureName": "foscariChars",
+      "textureName": "character_eleanor",
       "portraitName": "p_2eleanor.png",
       "bgm": "BGM_Magic",
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_eleanor",
           "spriteName": "Eleanor_i01.png",
           "walkingFrames": 4,
           "unlocked": true
@@ -22,7 +22,7 @@
         {
           "skinType": "SKIN_ELEANOR_AREA",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_eleanor",
           "spriteName": "Eleanor_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
@@ -31,7 +31,7 @@
         {
           "skinType": "SKIN_ELEANOR_MIGHT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_eleanor",
           "spriteName": "Eleanor_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
@@ -126,7 +126,7 @@
       "startingWeapon": "SWORD",
       "charName": "Maruto",
       "surname": "Cuts",
-      "textureName": "foscariChars",
+      "textureName": "character_victor",
       "spriteName": "Victor_i01.png",
       "portraitName": "p_2viktor.png",
       "bgm": "BGM_War",
@@ -134,7 +134,7 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_victor",
           "spriteName": "Victor_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
@@ -146,7 +146,7 @@
           ],
           "spriteAnims": {
             "meleeAttack": {
-              "textureName": "foscariChars",
+              "textureName": "character_victor",
               "spriteName": "Victor_a01.png",
               "framesNumber": 5,
               "frameRate": 8,
@@ -244,7 +244,7 @@
       "startingWeapon": "FLASHARROW",
       "charName": "Keitha",
       "surname": "Muort",
-      "textureName": "foscariChars",
+      "textureName": "character_kiera",
       "spriteName": "Keira_i01.png",
       "portraitName": "p_2keira.png",
       "bgm": "BGM_Deception",
@@ -252,7 +252,7 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_kiera",
           "spriteName": "Keira_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
@@ -264,7 +264,7 @@
           ],
           "spriteAnims": {
             "rangedAttack": {
-              "textureName": "foscariChars",
+              "textureName": "character_kiera",
               "spriteName": "Keira_a01.png",
               "framesNumber": 6,
               "frameRate": 12,
@@ -361,13 +361,13 @@
       "charName": "Luminaire",
       "surname": "Foscari",
       "spriteName": "Luminaire_i01.png",
-      "textureName": "foscariChars",
+      "textureName": "character_luminaire",
       "portraitName": "p_2luminaire.png",
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_luminaire",
           "spriteName": "Luminaire_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
@@ -475,13 +475,13 @@
       "charName": "Genevieve",
       "surname": "Gruyère",
       "spriteName": "Genevieve_i01.png",
-      "textureName": "foscariChars",
+      "textureName": "character_genevive",
       "portraitName": "p_2genevieve.png",
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_genevive",
           "spriteName": "Genevieve_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
@@ -583,14 +583,14 @@
       "charName": "Je-Ne-Viv",
       "surname": "",
       "spriteName": "TrueGenevieve_i01.png",
-      "textureName": "foscariChars",
+      "textureName": "character_truegenevive",
       "portraitName": "p_2megag.png",
       "bgm": "BGM_Genevieve",
       "skins": [
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_truegenevive",
           "spriteName": "TrueGenevieve_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
@@ -681,7 +681,7 @@
       "charName": "Sammy",
       "surname": "",
       "spriteName": "Sammy_i01.png",
-      "textureName": "foscariChars",
+      "textureName": "character_sammy",
       "portraitName": "p_2sammy.png",
       "walkingFrames": 6,
       "description": "Gains XP when picking up Gold Coins and Coin Bags. Starts with temporarily reduced Might.",
@@ -698,7 +698,7 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_sammy",
           "spriteName": "Sammy_i01.png",
           "walkingFrames": 6,
           "unlocked": true,
@@ -827,7 +827,7 @@
       "charName": "Rottin'Ghoul",
       "surname": "",
       "spriteName": "Gul_i01.png",
-      "textureName": "foscariChars",
+      "textureName": "character_rottenghoul",
       "portraitName": "p_2ghoul.png",
       "walkingFrames": 4,
       "description": "Gets more projectiles every 20 levels (max+4).",
@@ -839,7 +839,7 @@
         {
           "skinType": "DEFAULT",
           "name": "Default",
-          "textureName": "foscariChars",
+          "textureName": "character_rottenghoul",
           "spriteName": "Gul_i01.png",
           "walkingFrames": 4,
           "unlocked": true,

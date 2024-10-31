@@ -1,0 +1,6601 @@
+{
+  "TP_ALCHEMYWHIP1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Alchemy Whip",
+      "bulletType": "TP_ALCHEMYWHIP1",
+      "weaponType": "TP_ALCHEMYWHIP1",
+      "evoInto": "TP_ALCHEMYWHIP2",
+      "evoSynergy": [
+        "REVIVAL"
+      ],
+      "frameName": "TP_ALCHEMYWHIP1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "poolLimit": 100,
+      "rarity": 80,
+      "interval": 1500,
+      "repeatInterval": 300,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1500,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "canCrit": false,
+      "isUnlocked": false,
+      "sealable": true,
+      "intervalDependsOnDuration": false,
+      "description": "-",
+      "knockback": 5
+    },
+    {
+      "power": 0.5,
+      "area": 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "power": 0.5,
+      "area": 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "power": 0.5,
+      "area": 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "TP_ALCHEMYWHIP2"
+    }
+  ],
+  "TP_ALCHEMYWHIP2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Vampire Killer",
+      "bulletType": "TP_ALCHEMYWHIP2",
+      "weaponType": "TP_ALCHEMYWHIP2",
+      "frameName": "TP_ALCHEMYWHIP2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "sealable": true,
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_ALCHEMYWHIP1"
+      ],
+      "requires": [
+        "REVIVAL"
+      ],
+      "rarity": 1,
+      "power": 8,
+      "secondaryPower": 4,
+      "area": 1.6,
+      "speed": 1,
+      "amount": 2,
+      "duration": 1500,
+      "hitBoxDelay": 500,
+      "knockback": 6,
+      "interval": 1500,
+      "repeatInterval": 200,
+      "critChance": 0.05,
+      "critMul": 2,
+      "canCrit": true,
+      "description": "-"
+    }
+  ],
+  "TP_WINDWHIP1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Simon's Curse",
+      "bulletType": "TP_WINDWHIP1",
+      "frameName": "TP_WINDWHIP1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "Increases curse. Creates damaging zones that slow enemies.",
+      "tips": "Good Duration and Curse scaling.  ",
+      "evoInto": "TP_WINDWHIP2",
+      "evoSynergy": [
+        "GROWTH"
+      ],
+      "isUnlocked": false,
+      "sealable": true,
+      "poolLimit": 100,
+      "rarity": 80,
+      "interval": 1550,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "knockback": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -200,
+      "repeatInterval": -100,
+      "addEvolvedWeapon": "TP_WINDWHIP2"
+    }
+  ],
+  "TP_WINDWHIP2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_WINDWHIP2",
+      "weaponType": "TP_WINDWHIP2",
+      "frameName": "TP_WINDWHIP2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_WINDWHIP1"
+      ],
+      "requires": [
+        "GROWTH"
+      ],
+      "rarity": 1,
+      "interval": 1350,
+      "repeatInterval": 100,
+      "power": 3,
+      "area": 1.4,
+      "speed": 1,
+      "amount": 2,
+      "penetrating": 1,
+      "knockback": 2,
+      "critChance": 0.2,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_PLATINUMWHIP1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Platinum Whip",
+      "bulletType": "TP_PLATINUMWHIP1",
+      "frameName": "TP_PLATINUMWHIP1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_PLATINUMWHIP2",
+      "evoSynergy": [
+        "LUCK"
+      ],
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 80,
+      "interval": 3000,
+      "power": 1,
+      "secondaryPower": 0.6,
+      "area": 0.8,
+      "speed": 0.8,
+      "amount": 1,
+      "duration": 1000,
+      "knockback": 2,
+      "penetrating": 3,
+      "repeatInterval": 100,
+      "critChance": 0.1,
+      "critMul": 2,
+      "tips": "-",
+      "description": "-"
+    },
+    {
+      "amount": 1,
+      "penetrating": 2
+    },
+    {
+      "power": 1,
+      "area": 0.2,
+      "secondaryPower": 0.6
+    },
+    {
+      "amount": 1,
+      "penetrating": 2
+    },
+    {
+      "power": 1,
+      "speed": 0.2,
+      "secondaryPower": 0.6
+    },
+    {
+      "amount": 1,
+      "penetrating": 2
+    },
+    {
+      "power": 1,
+      "interval": -1000,
+      "secondaryPower": 0.6
+    },
+    {
+      "penetrating": 6,
+      "addEvolvedWeapon": "TP_PLATINUMWHIP2"
+    }
+  ],
+  "TP_PLATINUMWHIP2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_PLATINUMWHIP2",
+      "weaponType": "TP_PLATINUMWHIP2",
+      "frameName": "TP_PLATINUMWHIP2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_PLATINUMWHIP1"
+      ],
+      "requires": [
+        "LUCK"
+      ],
+      "rarity": 1,
+      "interval": 1500,
+      "repeatInterval": 100,
+      "power": 5,
+      "secondaryPower": 3,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 65535,
+      "knockback": 2,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_DRAGONWATER1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Dragon Water",
+      "bulletType": "TP_DRAGONWATER1",
+      "frameName": "TP_DRAGONWATER1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_DRAGONWATER2",
+      "evoSynergy": [
+        "MAGNET"
+      ],
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 80,
+      "power": 1,
+      "secondaryPower": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 5,
+      "penetrating": 1,
+      "interval": 1500,
+      "repeatInterval": 300,
+      "duration": 1000,
+      "hitBoxDelay": 16,
+      "description": "Generates a string of damaging spheres that target the nearest enemy.",
+      "critChance": 0.1,
+      "critMul": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 300
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "secondaryPower": 0.5
+    },
+    {
+      "duration": 300
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "secondaryPower": 0.5,
+      "addEvolvedWeapon": "TP_DRAGONWATER2"
+    }
+  ],
+  "TP_DRAGONWATER2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DRAGONWATER2",
+      "weaponType": "TP_DRAGONWATER2",
+      "frameName": "TP_DRAGONWATER2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "poolLimit": 200,
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_DRAGONWATER1"
+      ],
+      "requires": [
+        "MAGNET"
+      ],
+      "rarity": 1,
+      "duration": 2000,
+      "penetrating": 1,
+      "interval": 1500,
+      "hitBoxDelay": 16,
+      "repeatInterval": 150,
+      "power": 4,
+      "secondaryPower": 2,
+      "area": 1.4,
+      "speed": 1,
+      "amount": 2,
+      "knockback": 5,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_SONICWHIP1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_SONICWHIP1",
+      "weaponType": "TP_SONICWHIP1",
+      "frameName": "TP_ORIGINS1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_SONICWHIP2",
+      "evoSynergy": [
+        "CURSE"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 70,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "duration": 1000,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true,
+      "chance": 0.004
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.3
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.3
+    },
+    {
+      "power": 0.5,
+      "addEvolvedWeapon": "TP_SONICWHIP2"
+    }
+  ],
+  "TP_SONICWHIP2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_SONICWHIP2",
+      "weaponType": "TP_SONICWHIP2",
+      "frameName": "TP_ORIGINS2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_SONICWHIP1"
+      ],
+      "requires": [
+        "CURSE"
+      ],
+      "rarity": 1,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "duration": 1000,
+      "power": 2.5,
+      "area": 1.6,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true,
+      "chance": 0.004
+    }
+  ],
+  "TP_LEMURIA1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_LEMURIA1",
+      "weaponType": "TP_LEMURIA1",
+      "frameName": "TP_LEMURIA1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "evoInto": "TP_LEMURIA2",
+      "evoSynergy": [
+        "GREED"
+      ],
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 100,
+      "interval": 2500,
+      "repeatInterval": 50,
+      "power": 1,
+      "secondaryPower": 1.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 5,
+      "critChance": 0.15,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    },
+    {
+      "power": 1,
+      "secondaryPower": 1.5
+    },
+    {
+      "amount": 2
+    },
+    {
+      "area": 0.3
+    },
+    {
+      "power": 1,
+      "secondaryPower": 1.5
+    },
+    {
+      "amount": 2
+    },
+    {
+      "interval": -1000
+    },
+    {
+      "amount": 2,
+      "addEvolvedWeapon": "TP_LEMURIA2"
+    }
+  ],
+  "TP_LEMURIA2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_LEMURIA2",
+      "weaponType": "TP_LEMURIA2",
+      "frameName": "TP_LEMURIA2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_LEMURIA1"
+      ],
+      "requires": [
+        "GREED"
+      ],
+      "rarity": 1,
+      "interval": 1500,
+      "repeatInterval": 50,
+      "power": 4,
+      "secondaryPower": 6,
+      "area": 1.3,
+      "speed": 1,
+      "amount": 7,
+      "penetrating": 1,
+      "knockback": 5,
+      "critChance": 0.15,
+      "critMul": 2,
+      "hitsWalls": true,
+      "sealable": true
+    }
+  ],
+  "TP_HOLYWHIP1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_HOLYWHIP1",
+      "weaponType": "TP_HOLYWHIP1",
+      "frameName": "TP_HOLYWHIP1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_HOLYWHIP2",
+      "evoSynergy": [
+        "AREA"
+      ],
+      "price": 100,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 70,
+      "interval": 2500,
+      "repeatInterval": 100,
+      "power": 1,
+      "secondaryPower": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 1,
+      "knockback": 5,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": true,
+      "sealable": true
+    },
+    {
+      "power": 1,
+      "secondaryPower": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1,
+      "secondaryPower": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1,
+      "secondaryPower": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1,
+      "secondaryPower": 0.5,
+      "addEvolvedWeapon": "TP_HOLYWHIP2"
+    }
+  ],
+  "TP_HOLYWHIP2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_HOLYWHIP2",
+      "weaponType": "TP_HOLYWHIP2",
+      "frameName": "TP_HOLYWHIP2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_HOLYWHIP1"
+      ],
+      "requires": [
+        "AREA"
+      ],
+      "rarity": 1,
+      "interval": 2500,
+      "repeatInterval": 100,
+      "power": 6,
+      "secondaryPower": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 6,
+      "penetrating": 1,
+      "knockback": 5,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_MARTIALWHIP1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_MARTIALWHIP1",
+      "weaponType": "TP_MARTIALWHIP1",
+      "frameName": "TP_MARTIALWHIP1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_MARTIALWHIP2",
+      "evoSynergy": [
+        "MAXHEALTH"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 70,
+      "interval": 2500,
+      "repeatInterval": 100,
+      "power": 1,
+      "secondaryPower": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 5,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": true,
+      "sealable": true
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 1,
+      "secondaryPower": 1
+    },
+    {
+      "amount": 2,
+      "area": 0.2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 1,
+      "area": 0.2,
+      "secondaryPower": 1
+    },
+    {
+      "amount": 2,
+      "addEvolvedWeapon": "TP_MARTIALWHIP2"
+    }
+  ],
+  "TP_MARTIALWHIP2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_MARTIALWHIP2",
+      "weaponType": "TP_MARTIALWHIP2",
+      "frameName": "TP_MARTIALWHIP2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_MARTIALWHIP1"
+      ],
+      "requires": [
+        "MAXHEALTH"
+      ],
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 100,
+      "power": 4,
+      "secondaryPower": 3,
+      "area": 1.6,
+      "speed": 1,
+      "amount": 5,
+      "penetrating": 1,
+      "knockback": 5,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_SHURIKEN1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_SHURIKEN1",
+      "weaponType": "TP_SHURIKEN1",
+      "frameName": "TP_SHURIKEN1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_SHURIKEN2",
+      "evoSynergy": [
+        "COOLDOWN"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 70,
+      "interval": 1200,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "amount": 1,
+      "power": 0.5,
+      "repeatInterval": -20
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "penetrating": 1,
+      "power": 0.5
+    },
+    {
+      "amount": 2,
+      "repeatInterval": -20,
+      "addEvolvedWeapon": "TP_SHURIKEN2"
+    }
+  ],
+  "TP_SHURIKEN2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_SHURIKEN2",
+      "weaponType": "TP_SHURIKEN2",
+      "frameName": "TP_SHURIKEN2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "volume": 0.18,
+      "evolvesFrom": [
+        "TP_SHURIKEN1"
+      ],
+      "requires": [
+        "COOLDOWN"
+      ],
+      "poolLimit": 70,
+      "rarity": 1,
+      "interval": 400,
+      "repeatInterval": 40,
+      "power": 2,
+      "area": 1.3,
+      "speed": 1,
+      "amount": 6,
+      "penetrating": 3,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true
+    }
+  ],
+  "TP_BWAKA1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Curved Knife",
+      "bulletType": "TP_BWAKA1",
+      "weaponType": "TP_BWAKA1",
+      "frameName": "TP_BWAKA1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_BWAKA2",
+      "evoSynergy": [
+        "SPEED"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 100,
+      "interval": 2500,
+      "repeatInterval": 250,
+      "power": 0.8,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1500,
+      "penetrating": 1,
+      "knockback": 1,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true,
+      "unexcludeSelf": true
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "duration": 500,
+      "power": 0.5
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -25
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "duration": 500,
+      "repeatInterval": -25
+    },
+    {
+      "amount": 1,
+      "power": 0.5
+    },
+    {
+      "penetrating": 2,
+      "repeatInterval": -25,
+      "addEvolvedWeapon": "TP_BWAKA2"
+    }
+  ],
+  "TP_BWAKA2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Bwaka Knife",
+      "bulletType": "TP_BWAKA2",
+      "weaponType": "TP_BWAKA2",
+      "frameName": "TP_BWAKA2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_BWAKA1"
+      ],
+      "requires": [
+        "SPEED"
+      ],
+      "rarity": 1,
+      "poolLimit": 70,
+      "interval": 2000,
+      "repeatInterval": 150,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "amount": 4,
+      "duration": 3000,
+      "penetrating": 5,
+      "knockback": 1,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_JAVELIN1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Javelin",
+      "bulletType": "TP_JAVELIN1",
+      "evoInto": "TP_JAVELIN2",
+      "frameName": "TP_JAVELIN1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 70,
+      "poolLimit": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 750,
+      "knockback": 2,
+      "interval": 2500,
+      "repeatInterval": 200,
+      "penetrating": 2,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "evoSynergy": [
+        "DURATION"
+      ]
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "duration": 250
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 250,
+      "penetrating": 1
+    },
+    {
+      "amount": 1,
+      "penetrating": 2,
+      "addEvolvedWeapon": "TP_JAVELIN2"
+    }
+  ],
+  "TP_JAVELIN2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Alucard Spear",
+      "bulletType": "TP_JAVELIN2",
+      "weaponType": "TP_JAVELIN2",
+      "frameName": "TP_JAVELIN2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "sealable": true,
+      "rarity": 1,
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_JAVELIN1"
+      ],
+      "requires": [
+        "DURATION"
+      ],
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 4,
+      "duration": 1250,
+      "knockback": 2,
+      "penetrating": 65535,
+      "interval": 2500,
+      "repeatInterval": 100,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "canCrit": false,
+      "description": "Evolved Spear. Fires a constant flurry of spears. Changing horizontal direction triggers a spin attack. ",
+      "poolLimit": 100
+    }
+  ],
+  "TP_DISCUS1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DISCUS1",
+      "weaponType": "TP_DISCUS1",
+      "frameName": "TP_DISCUS1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_DISCUS2",
+      "evoSynergy": [
+        "PARMA"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 70,
+      "poolLimit": 100,
+      "interval": 4000,
+      "repeatInterval": 300,
+      "duration": 2000,
+      "power": 1,
+      "area": 0.6,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 2,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true,
+      "unexcludeSelf": true
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -300,
+      "area": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -300,
+      "area": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "addEvolvedWeapon": "TP_DISCUS2"
+    }
+  ],
+  "TP_DISCUS2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DISCUS2",
+      "weaponType": "TP_DISCUS2",
+      "frameName": "TP_DISCUS2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_DISCUS1"
+      ],
+      "requires": [
+        "PARMA"
+      ],
+      "requiresMax": [
+        "PARMA"
+      ],
+      "rarity": 1,
+      "poolLimit": 100,
+      "interval": 3400,
+      "repeatInterval": 200,
+      "duration": 5000,
+      "power": 3,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 1,
+      "knockback": 2,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true
+    }
+  ],
+  "TP_IRONBALL1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Iron Ball",
+      "bulletType": "TP_IRONBALL1",
+      "weaponType": "TP_IRONBALL1",
+      "frameName": "TP_IRONBALL1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_IRONBALL2",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 100,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 5,
+      "interval": 4000,
+      "repeatInterval": 50,
+      "hitsWalls": true,
+      "description": "Falls straight down quickly.",
+      "sealable": true,
+      "penetrating": 1000,
+      "tips": "Ignores Speed. \nDuration decreases Speed. \n ",
+      "evoSynergy": [
+        "ARMOR"
+      ]
+    },
+    {
+      "area": 0.25,
+      "interval": -200
+    },
+    {
+      "power": 1
+    },
+    {
+      "area": 0.25,
+      "interval": -200
+    },
+    {
+      "power": 1
+    },
+    {
+      "area": 0.25,
+      "interval": -200
+    },
+    {
+      "power": 1
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "TP_IRONBALL2"
+    }
+  ],
+  "TP_IRONBALL2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Wrecking Bawl",
+      "bulletType": "TP_IRONBALL2",
+      "weaponType": "TP_IRONBALL2",
+      "frameName": "TP_IRONBALL2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "rarity": 1,
+      "evolvesFrom": [
+        "TP_IRONBALL1"
+      ],
+      "requires": [
+        "ARMOR"
+      ],
+      "power": 10,
+      "area": 2,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 5,
+      "interval": 3000,
+      "repeatInterval": 200,
+      "penetrating": 1000,
+      "hitsWalls": true,
+      "sealable": true,
+      "description": "Evolved Iron Ball. Powerful damaging ball spins based on movement. "
+    }
+  ],
+  "TP_GUN1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_GUN1",
+      "weaponType": "TP_GUN1",
+      "frameName": "TP_GUN1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_GUN2",
+      "evoSynergy": [
+        "DOMINION"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 100,
+      "interval": 4000,
+      "repeatInterval": 0,
+      "power": 3,
+      "secondaryPower": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 1,
+      "knockback": 8,
+      "critChance": 0.01,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 2,
+      "secondaryPower": 1
+    },
+    {
+      "amount": 2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 2,
+      "secondaryPower": 1
+    },
+    {
+      "amount": 2
+    },
+    {
+      "power": 2,
+      "secondaryPower": 1,
+      "addEvolvedWeapon": "TP_GUN2"
+    }
+  ],
+  "TP_GUN2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_GUN2",
+      "weaponType": "TP_GUN2",
+      "frameName": "TP_GUN2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_GUN1"
+      ],
+      "requires": [
+        "DOMINION"
+      ],
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 10,
+      "secondaryPower": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 7,
+      "penetrating": 1,
+      "knockback": 15,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": true,
+      "sealable": true
+    }
+  ],
+  "TP_RPG1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_RPG1",
+      "frameName": "TP_RPG1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_RPG2",
+      "evoSynergy": [
+        "AREA"
+      ],
+      "sealable": true,
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1000,
+      "penetrating": 1,
+      "interval": 3300,
+      "repeatInterval": 200,
+      "description": "-",
+      "knockback": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "interval": -1000
+    },
+    {
+      "power": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 2,
+      "addEvolvedWeapon": "TP_RPG2"
+    }
+  ],
+  "TP_RPG2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_RPG2",
+      "frameName": "TP_RPG2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "rarity": 1,
+      "sealable": true,
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_RPG1"
+      ],
+      "requires": [
+        "AREA"
+      ],
+      "requiresMax": [
+        "AREA"
+      ],
+      "power": 4,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 3,
+      "duration": 5000,
+      "knockback": 5,
+      "penetrating": 1,
+      "interval": 2000,
+      "repeatInterval": 50,
+      "description": "-"
+    }
+  ],
+  "TP_WINEGLASS1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_WINEGLASS1",
+      "weaponType": "TP_WINEGLASS1",
+      "frameName": "TP_WINEGLASS1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_WINEGLASS2",
+      "evoSynergy": [
+        "REVIVAL"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 100,
+      "interval": 3000,
+      "repeatInterval": 500,
+      "power": 1,
+      "area": 1,
+      "speed": 0.4,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.05,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "speed": 0.3
+    },
+    {
+      "power": 0.2,
+      "area": 0.2,
+      "repeatInterval": -150
+    },
+    {
+      "amount": 1
+    },
+    {
+      "speed": 0.3
+    },
+    {
+      "power": 0.2,
+      "area": 0.2,
+      "repeatInterval": -150
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "TP_WINEGLASS2"
+    }
+  ],
+  "TP_WINEGLASS2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_WINEGLASS2",
+      "weaponType": "TP_WINEGLASS2",
+      "frameName": "TP_WINEGLASS2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_WINEGLASS1"
+      ],
+      "requires": [
+        "REVIVAL"
+      ],
+      "requiresMax": [
+        "REVIVAL"
+      ],
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 200,
+      "power": 1.5,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 4,
+      "penetrating": 1,
+      "duration": 1000,
+      "knockback": 0.5,
+      "critChance": 0.05,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_FIRE1": [
+    {
+      "name": "Raging Fire",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_FIRE1",
+      "price": 10,
+      "description": "Generates an exploding damaging zone.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_FIRE1.png",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 250,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "evoSynergy": [
+        "POWER"
+      ],
+      "evoInto": "TP_FIRE2",
+      "knockback": 0.5
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 3,
+      "addEvolvedWeapon": "TP_FIRE2"
+    }
+  ],
+  "TP_FIRE2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Salamender",
+      "bulletType": "TP_FIRE2",
+      "weaponType": "TP_FIRE2",
+      "frameName": "TP_FIRE2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isEvolution": true,
+      "skipRemovingBaseWeapon": true,
+      "evolvesFrom": [],
+      "requires": [
+        "TP_FIRE1",
+        "POWER"
+      ],
+      "requiresMax": [
+        "TP_FIRE1",
+        "POWER"
+      ],
+      "rarity": 1,
+      "isUnlocked": true,
+      "poolLimit": 200,
+      "interval": 6000,
+      "repeatInterval": 100,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "amount": 10,
+      "penetrating": 1000,
+      "duration": 3500,
+      "hitBoxDelay": 1000,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_ICE1": [
+    {
+      "name": "Ice Fang",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ICE1",
+      "price": 10,
+      "description": "Generates damaging zones in a straight line.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ICE1.png",
+      "evoInto": "TP_ICE2",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 0.7,
+      "speed": 1,
+      "amount": 2,
+      "penetrating": 0,
+      "duration": 1100,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "unexcludeSelf": true,
+      "evoSynergy": [
+        "DURATION"
+      ],
+      "knockback": 5
+    },
+    {
+      "interval": -500,
+      "area": 0.15
+    },
+    {
+      "power": 0.5,
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "area": 0.15,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.15
+    },
+    {
+      "power": 0.5,
+      "duration": 500
+    },
+    {
+      "power": 0.5,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -50,
+      "addEvolvedWeapon": "TP_ICE2"
+    }
+  ],
+  "TP_ICE2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Cocytus",
+      "bulletType": "TP_ICE2",
+      "weaponType": "TP_ICE2",
+      "frameName": "TP_ICE2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": ".",
+      "isEvolution": true,
+      "sealable": true,
+      "skipRemovingBaseWeapon": true,
+      "evolvesFrom": [],
+      "requires": [
+        "TP_ICE1",
+        "DURATION"
+      ],
+      "requiresMax": [
+        "TP_ICE1",
+        "DURATION"
+      ],
+      "rarity": 1,
+      "isUnlocked": true,
+      "poolLimit": 200,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1600,
+      "interval": 6000,
+      "repeatInterval": 200,
+      "hitBoxDelay": 500,
+      "knockback": 0
+    }
+  ],
+  "TP_WIND1": [
+    {
+      "name": "Gale Force",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_WIND1",
+      "price": 10,
+      "description": "Fires lingering projectiles.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_WIND1.png",
+      "isUnlocked": false,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 0.3,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0.3,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "evoSynergy": [
+        "SPEED"
+      ],
+      "evoInto": "TP_WIND2",
+      "unexcludeSelf": true
+    },
+    {
+      "power": 0.2,
+      "speed": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "power": 0.2,
+      "speed": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "power": 0.2,
+      "speed": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "power": 0.4,
+      "addEvolvedWeapon": "TP_WIND2"
+    }
+  ],
+  "TP_WIND2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Pneuma Pneuma",
+      "weaponType": "TP_WIND2",
+      "bulletType": "TP_WIND2",
+      "frameName": "TP_WIND2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "skipRemovingBaseWeapon": true,
+      "isEvolution": true,
+      "evolvesFrom": [],
+      "requires": [
+        "TP_WIND1",
+        "SPEED"
+      ],
+      "requiresMax": [
+        "TP_WIND1",
+        "SPEED"
+      ],
+      "rarity": 1,
+      "isUnlocked": true,
+      "poolLimit": 200,
+      "interval": 7000,
+      "power": 2,
+      "area": 2,
+      "speed": 2.5,
+      "amount": 5,
+      "knockback": 0.3,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "repeatInterval": 400,
+      "sealable": true,
+      "hitsWalls": false,
+      "description": "."
+    }
+  ],
+  "TP_EARTH1": [
+    {
+      "name": "Rock Riot",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_EARTH1",
+      "price": 10,
+      "description": "Fires projectiles from a fixed location.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_EARTH1.png",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 10000,
+      "repeatInterval": 400,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "evoSynergy": [
+        "GREED"
+      ],
+      "evoInto": "TP_EARTH2",
+      "unexcludeSelf": true,
+      "knockback": 0.5
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.2,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 3,
+      "addEvolvedWeapon": "TP_EARTH2"
+    }
+  ],
+  "TP_EARTH2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Gemma Torpor",
+      "bulletType": "TP_EARTH2",
+      "weaponType": "TP_EARTH2",
+      "frameName": "TP_EARTH2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "sealable": true,
+      "skipRemovingBaseWeapon": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_EARTH1"
+      ],
+      "requires": [
+        "GREED"
+      ],
+      "requiresMax": [
+        "GREED"
+      ],
+      "rarity": 1,
+      "isUnlocked": true,
+      "poolLimit": 200,
+      "power": 5,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "hitsWalls": false,
+      "duration": 1500,
+      "knockback": 0.5,
+      "penetrating": 0,
+      "interval": 9000,
+      "repeatInterval": 300,
+      "description": "Drops rocks from above. Rocks turn into static damaging crystals.",
+      "canCrit": true,
+      "critChance": 0.3,
+      "critMul": 2,
+      "hitBoxDelay": 500
+    }
+  ],
+  "TP_ELEC1": [
+    {
+      "name": "Fulgur",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ELEC1",
+      "price": 200,
+      "description": "Strikes at fixed locations.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ELEC1.png",
+      "evoInto": "TP_ELEC2",
+      "evoSynergy": [
+        "AMOUNT"
+      ],
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 8000,
+      "repeatInterval": 1000,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 1000,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "unexcludeSelf": true,
+      "knockback": 5
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "amount": 3
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "amount": 3
+    },
+    {
+      "interval": -500,
+      "area": 0.1,
+      "addEvolvedWeapon": "TP_ELEC2"
+    }
+  ],
+  "TP_ELEC2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Fulgur's Bellow",
+      "bulletType": "TP_ELEC2",
+      "frameName": "TP_ELEC2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "skipRemovingBaseWeapon": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_ELEC1"
+      ],
+      "requires": [
+        "AMOUNT"
+      ],
+      "requiresMax": [
+        "AMOUNT"
+      ],
+      "rarity": 1,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "power": 2,
+      "area": 1,
+      "speed": 1.2,
+      "amount": 5,
+      "duration": 1000,
+      "hitBoxDelay": 800,
+      "interval": 6500,
+      "repeatInterval": 200,
+      "penetrating": 1000,
+      "description": "Union of Thunder Loop and Tallhammer. Lightning strikes thrice, creates moving spheres of chain lightning.  ",
+      "sealable": true,
+      "knockback": 5
+    }
+  ],
+  "TP_ACID1": [
+    {
+      "name": "Acidic Bubbles",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACID1",
+      "price": 200,
+      "description": "Fires slow moving damaging zones.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ACID1.png",
+      "evoInto": "TP_ACID2",
+      "evoSynergy": [
+        "ARMOR"
+      ],
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 7000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 0.6,
+      "speed": 1.25,
+      "amount": 1,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "unexcludeSelf": true,
+      "knockback": 0.5
+    },
+    {
+      "interval": -500,
+      "duration": 250,
+      "repeatInterval": -25
+    },
+    {
+      "power": 0.25,
+      "amount": 1
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 0.25,
+      "amount": 1
+    },
+    {
+      "duration": 250,
+      "repeatInterval": -25
+    },
+    {
+      "power": 0.25,
+      "speed": 0.2
+    },
+    {
+      "power": 0.25,
+      "amount": 1,
+      "addEvolvedWeapon": "TP_ACID2"
+    }
+  ],
+  "TP_ACID2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_ACID2",
+      "weaponType": "TP_ACID2",
+      "frameName": "TP_ACID2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "skipRemovingBaseWeapon": true,
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_ACID1"
+      ],
+      "requires": [
+        "ARMOR"
+      ],
+      "requiresMax": [
+        "ARMOR"
+      ],
+      "rarity": 1,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "interval": 6000,
+      "duration": 2000,
+      "repeatInterval": 0,
+      "power": 2,
+      "area": 1,
+      "speed": 1.5,
+      "amount": 10,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_EVIL1": [
+    {
+      "name": "Hex",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_EVIL1",
+      "price": 200,
+      "description": "-",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_EVIL1.png",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 10000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 3000,
+      "hitBoxDelay": 1000,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "evoSynergy": [
+        "CURSE"
+      ],
+      "evoInto": "TP_EVIL2",
+      "unexcludeSelf": true,
+      "knockback": 2
+    },
+    {
+      "interval": -500,
+      "power": 0.5
+    },
+    {
+      "speed": 0.1,
+      "area": 0.1
+    },
+    {
+      "amount": 3
+    },
+    {
+      "interval": -500,
+      "power": 0.5
+    },
+    {
+      "speed": 0.1,
+      "area": 0.1
+    },
+    {
+      "duration": 1000
+    },
+    {
+      "interval": -500,
+      "power": 0.5,
+      "addEvolvedWeapon": "TP_EVIL2"
+    }
+  ],
+  "TP_EVIL2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_EVIL2",
+      "weaponType": "TP_EVIL2",
+      "frameName": "TP_EVIL2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "skipRemovingBaseWeapon": true,
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_EVIL1"
+      ],
+      "requires": [
+        "CURSE"
+      ],
+      "requiresMax": [
+        "CURSE"
+      ],
+      "isUnlocked": true,
+      "rarity": 1,
+      "poolLimit": 200,
+      "interval": 8500,
+      "duration": 4000,
+      "hitBoxDelay": 1000,
+      "repeatInterval": 200,
+      "power": 2.5,
+      "area": 1.2,
+      "speed": 1.2,
+      "amount": 6,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_HOLY1": [
+    {
+      "name": "Refectio",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_HOLY1",
+      "price": 200,
+      "description": "Damages nearby enemies. Decreases Curse by 5% per Amount.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_HOLY1.png",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 0.3,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "knockback": 0.5,
+      "duration": 1000,
+      "hitBoxDelay": 1000,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "evoSynergy": [
+        "LUCK"
+      ],
+      "evoInto": "TP_HOLY2",
+      "unexcludeSelf": true
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 3,
+      "addEvolvedWeapon": "TP_HOLY2"
+    }
+  ],
+  "TP_HOLY2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_HOLY2",
+      "weaponType": "TP_HOLY2",
+      "frameName": "TP_HOLY2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "skipRemovingBaseWeapon": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_HOLY1"
+      ],
+      "requires": [
+        "LUCK"
+      ],
+      "requiresMax": [
+        "LUCK"
+      ],
+      "rarity": 1,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "interval": 60000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_MACE1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "MACE",
+      "bulletType": "TP_MACE1",
+      "weaponType": "TP_MACE1",
+      "frameName": "TP_MACE1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_MACE2",
+      "description": "Swings in a damaging arc that passes through enemies. ",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "power": 3,
+      "area": 1,
+      "speed": 0.8,
+      "amount": 1,
+      "duration": 450,
+      "knockback": 1,
+      "interval": 3500,
+      "repeatInterval": 200,
+      "penetrating": 1000,
+      "evoSynergy": [
+        "MAXHEALTH"
+      ],
+      "tips": "Duration extends swing time.",
+      "sealable": true,
+      "critChance": 0.01,
+      "critMul": 5
+    },
+    {
+      "duration": 200
+    },
+    {
+      "power": 2
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "duration": 150
+    },
+    {
+      "duration": 100,
+      "power": 1
+    },
+    {
+      "area": 0.1,
+      "power": 1
+    },
+    {
+      "area": 0.1,
+      "duration": 100,
+      "addEvolvedWeapon": "TP_MACE2"
+    }
+  ],
+  "TP_MACE2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Tallhammer",
+      "bulletType": "TP_MACE2",
+      "weaponType": "TP_MACE2",
+      "frameName": "TP_MACE2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_MACE1"
+      ],
+      "requires": [
+        "MAXHEALTH"
+      ],
+      "rarity": 1,
+      "description": "Evolved Mace. Enemies struck may trigger areas of chain lightning. ",
+      "power": 8,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 650,
+      "knockback": 2,
+      "penetrating": 1000,
+      "interval": 2000,
+      "repeatInterval": 200,
+      "sealable": true,
+      "critChance": 0.01,
+      "critMul": 100
+    }
+  ],
+  "TP_STARFLAIL1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_STARFLAIL1",
+      "weaponType": "TP_STARFLAIL1",
+      "frameName": "TP_STARFLAIL1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_STARFLAIL2",
+      "evoSynergy": [
+        "REGEN"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 500,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "speed": 0.3,
+      "interval": -500
+    },
+    {
+      "area": 0.1,
+      "duration": 500
+    },
+    {
+      "amount": 1
+    },
+    {
+      "speed": 0.3,
+      "interval": -500
+    },
+    {
+      "area": 0.1,
+      "duration": 500
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "TP_STARFLAIL2"
+    }
+  ],
+  "TP_STARFLAIL2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_STARFLAIL2",
+      "weaponType": "TP_STARFLAIL2",
+      "frameName": "TP_STARFLAIL2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_STARFLAIL1"
+      ],
+      "requires": [
+        "REGEN"
+      ],
+      "rarity": 1,
+      "interval": 4000,
+      "duration": 1500,
+      "repeatInterval": 100,
+      "power": 2,
+      "area": 1.25,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_ALUCARDSPEAR1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Alucard Spear",
+      "bulletType": "TP_ALUCARDSPEAR1",
+      "evoInto": "TP_ALUCARDSPEAR2",
+      "frameName": "TP_ALUCARDSPEAR1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 60,
+      "poolLimit": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 2000,
+      "interval": 3000,
+      "repeatInterval": 200,
+      "critChance": 0.05,
+      "critMul": 2,
+      "evoSynergy": [
+        "MOVESPEED"
+      ],
+      "knockback": 2
+    },
+    {
+      "area": 0.3,
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "area": 0.3,
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "interval": -500,
+      "addEvolvedWeapon": "TP_ALUCARDSPEAR2"
+    }
+  ],
+  "TP_ALUCARDSPEAR2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Aero Slice",
+      "bulletType": "TP_ALUCARDSPEAR2",
+      "weaponType": "TP_ALUCARDSPEAR2",
+      "frameName": "TP_ALUCARDSPEAR2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "sealable": true,
+      "evolvesFrom": [
+        "TP_ALUCARDSPEAR1"
+      ],
+      "requires": [
+        "MOVESPEED"
+      ],
+      "rarity": 1,
+      "power": 5,
+      "area": 2,
+      "speed": 1,
+      "amount": 3,
+      "duration": 5000,
+      "knockback": 2,
+      "penetrating": 1000,
+      "interval": 2500,
+      "repeatInterval": 200,
+      "critChance": 0.05,
+      "critMul": 2,
+      "canCrit": true,
+      "description": "- "
+    }
+  ],
+  "TP_CHAUVE1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Trident",
+      "bulletType": "TP_CHAUVE1",
+      "frameName": "TP_CHAUVE1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_CHAUVE2",
+      "evoSynergy": [
+        "AMOUNT"
+      ],
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 60,
+      "poolLimit": 200,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "duration": 750,
+      "knockback": 1,
+      "penetrating": 1,
+      "interval": 4000,
+      "repeatInterval": 200,
+      "description": "-",
+      "critChance": 0.05,
+      "critMul": 2,
+      "canCrit": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.3
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.3
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "TP_CHAUVE2"
+    }
+  ],
+  "TP_CHAUVE2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Chauve-souris",
+      "weaponType": "TP_CHAUVE2",
+      "bulletType": "TP_CHAUVE2",
+      "frameName": "TP_CHAUVE2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_CHAUVE1"
+      ],
+      "requires": [
+        "AMOUNT"
+      ],
+      "requiresMax": [
+        "AMOUNT"
+      ],
+      "rarity": 1,
+      "interval": 4000,
+      "repeatInterval": 200,
+      "power": 2,
+      "secondaryPower": 4,
+      "area": 1.6,
+      "amount": 5,
+      "speed": 1,
+      "duration": 1300,
+      "knockback": 1,
+      "description": "-",
+      "sealable": true,
+      "critChance": 0.3,
+      "critMul": 1,
+      "canCrit": true
+    }
+  ],
+  "TP_SHIELD1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Shaman Shield",
+      "bulletType": "TP_SHIELD1",
+      "weaponType": "TP_SHIELD1",
+      "frameName": "TP_SHIELD1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_SHIELD2",
+      "evoSynergy": [
+        "PARMA"
+      ],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 200,
+      "interval": 7000,
+      "duration": 2000,
+      "repeatInterval": 0,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true,
+      "hitBoxDelay": 2000,
+      "knockback": 5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -250
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.2,
+      "speed": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -250,
+      "addEvolvedWeapon": "TP_SHIELD2"
+    }
+  ],
+  "TP_SHIELD2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Dark Shield",
+      "bulletType": "TP_SHIELD2",
+      "frameName": "TP_SHIELD2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "sealable": true,
+      "evolvesFrom": [
+        "TP_SHIELD1"
+      ],
+      "requires": [
+        "PARMA"
+      ],
+      "rarity": 1,
+      "power": 2,
+      "area": 1.2,
+      "speed": 1.2,
+      "amount": 4,
+      "penetrating": 1000,
+      "interval": 7000,
+      "duration": 3000,
+      "repeatInterval": 0,
+      "hitBoxDelay": 250,
+      "knockback": 5
+    }
+  ],
+  "TP_SACREDBEASTS1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Guardians' Targe",
+      "bulletType": "TP_SACREDBEASTS1",
+      "weaponType": "TP_SACREDBEASTS1",
+      "frameName": "TP_SACREDBEASTS1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "Fires projectiles when touching enemies, in Retaliation, and when Overhealing by 8+.",
+      "evoInto": "TP_SACREDBEASTS2",
+      "evoSynergy": [
+        "REGEN"
+      ],
+      "price": 10,
+      "tips": "-",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 50,
+      "poolLimit": 200,
+      "interval": 7000,
+      "duration": 2000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "hitBoxDelay": 1000,
+      "knockback": 5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -250
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.2,
+      "speed": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -250,
+      "addEvolvedWeapon": "TP_SACREDBEASTS2"
+    }
+  ],
+  "TP_SACREDBEASTS2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Sacred Targe",
+      "bulletType": "TP_SACREDBEASTS2",
+      "frameName": "TP_SACREDBEASTS2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "Evolution of Guardian Targe. Overhealing by 32+ also triggers a period of invulnerability.",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "sealable": true,
+      "evolvesFrom": [
+        "TP_SACREDBEASTS1"
+      ],
+      "requires": [
+        "REGEN"
+      ],
+      "rarity": 1,
+      "power": 2,
+      "area": 1.2,
+      "speed": 1.2,
+      "amount": 4,
+      "penetrating": 1000,
+      "interval": 7000,
+      "duration": 3000,
+      "repeatInterval": 100,
+      "hitBoxDelay": 250,
+      "knockback": 5
+    }
+  ],
+  "TP_SLASH1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Tyrfing",
+      "bulletType": "TP_SLASH1",
+      "weaponType": "TP_SLASH1",
+      "frameName": "TP_SLASH1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_SLASH2",
+      "evoSynergy": [
+        "POWER"
+      ],
+      "price": 100,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 200,
+      "interval": 4000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 0.8,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.1,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    },
+    {
+      "speed": 0.25,
+      "area": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.5
+    },
+    {
+      "interval": -500,
+      "repeatInterval": -50
+    },
+    {
+      "speed": 0.25,
+      "area": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.5
+    },
+    {
+      "interval": -500,
+      "repeatInterval": -50,
+      "amount": 1
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "TP_SLASH2"
+    }
+  ],
+  "TP_SLASH2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_SLASH2",
+      "weaponType": "TP_SLASH2",
+      "frameName": "TP_SLASH2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_SLASH1"
+      ],
+      "requires": [
+        "POWER"
+      ],
+      "rarity": 1,
+      "poolLimit": 70,
+      "interval": 3000,
+      "repeatInterval": 400,
+      "power": 9,
+      "area": 1.5,
+      "speed": 1.5,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.2,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_ALUCARDSWORD1": [
+    {
+      "level": 1,
+      "price": 10,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Alucart Sworb",
+      "bulletType": "TP_ALUCARDSWORD1",
+      "weaponType": "TP_ALUCARDSWORD1",
+      "frameName": "TP_ALUCARDSWORD1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_ALUCARDSWORD2",
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 100,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 0.5,
+      "interval": 2000,
+      "repeatInterval": 150,
+      "critChance": 0.05,
+      "critMul": 3,
+      "canCrit": false,
+      "sealable": true,
+      "description": "-",
+      "tips": "-",
+      "knockback": 2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "TP_ALUCARDSWORD2"
+    }
+  ],
+  "TP_ALUCARDSWORD2": [
+    {
+      "level": 1,
+      "price": 10,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Alucard Sword",
+      "bulletType": "TP_ALUCARDSWORD2",
+      "weaponType": "TP_ALUCARDSWORD2",
+      "frameName": "TP_ALUCARDSWORD2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_ALUCARDSWORD1"
+      ],
+      "requiresMax": [
+        "TP_ALUCARDSWORD1"
+      ],
+      "evolutionLine": [
+        "TP_ALUCARDSWORD1",
+        "TP_ALUCARDSWORD2",
+        "TP_ALUCARDSHIELD"
+      ],
+      "rarity": 50,
+      "power": 5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1,
+      "interval": 2000,
+      "repeatInterval": 150,
+      "critChance": 0.1,
+      "critMul": 3,
+      "sealable": true,
+      "description": "-",
+      "knockback": 2
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.25,
+      "addEvolvedWeapon": "TP_ALUCARDSHIELD"
+    }
+  ],
+  "TP_ALUCARDSHIELD": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Alucard Shield",
+      "bulletType": "TP_ALUCARDSHIELD",
+      "frameName": "TP_ALUCARDSHIELD.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "sealable": true,
+      "power": 25.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 2000,
+      "knockback": 10,
+      "penetrating": 1,
+      "interval": 10000,
+      "repeatInterval": 500,
+      "rarity": 1,
+      "hasUniqueRequirements": true,
+      "hitBoxDelay": 500,
+      "canCrit": true,
+      "critMul": 2,
+      "critChance": 0.05
+    }
+  ],
+  "TP_CONFODERE1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Confodere",
+      "bulletType": "TP_CONFODERE1",
+      "weaponType": "TP_CONFODERE1",
+      "frameName": "TP_CONFODERE1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 50,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 80,
+      "poolLimit": 100,
+      "interval": 2200,
+      "repeatInterval": 100,
+      "power": 0.6,
+      "area": 1,
+      "speed": 1,
+      "amount": 6,
+      "penetrating": 0,
+      "knockback": 0.1,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    },
+    {
+      "interval": -200
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1,
+      "addEvolvedWeapon": "TP_CONFODERE2"
+    }
+  ],
+  "TP_CONFODERE2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Vol Confodere",
+      "bulletType": "TP_CONFODERE2",
+      "weaponType": "TP_CONFODERE2",
+      "frameName": "TP_CONFODERE2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 50,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_CONFODERE1"
+      ],
+      "evolutionLine": [
+        "TP_CONFODERE1",
+        "TP_CONFODERE2",
+        "TP_CONFODERE3"
+      ],
+      "rarity": 50,
+      "interval": 2000,
+      "repeatInterval": 75,
+      "power": 1,
+      "area": 1.1,
+      "speed": 1,
+      "amount": 8,
+      "penetrating": 0,
+      "knockback": 0.1,
+      "critChance": 0.1,
+      "critMul": 2,
+      "hitsWalls": true,
+      "sealable": true
+    },
+    {
+      "interval": -200
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1,
+      "addEvolvedWeapon": "TP_CONFODERE3"
+    }
+  ],
+  "TP_CONFODERE3": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Melio Confodere",
+      "bulletType": "TP_CONFODERE3",
+      "weaponType": "TP_CONFODERE3",
+      "frameName": "TP_CONFODERE3.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 50,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_CONFODERE2"
+      ],
+      "rarity": 50,
+      "interval": 1800,
+      "repeatInterval": 50,
+      "power": 1.4,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 10,
+      "penetrating": 1,
+      "knockback": 0.1,
+      "critChance": 0.3,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    },
+    {
+      "interval": -200
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1
+    }
+  ],
+  "TP_ENERGY1": [
+    {
+      "name": "Globus",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ENERGY1",
+      "price": 10,
+      "description": "Fires two bouncing projectiles. Duration affected by Amount.",
+      "tips": "Best with: Speed, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ENERGY1.png",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 100,
+      "interval": 5000,
+      "repeatInterval": 200,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "duration": 750,
+      "hitBoxDelay": 500,
+      "hitsWalls": true,
+      "critChance": 0.3,
+      "critMul": 2,
+      "evoSynergy": [
+        "COOLDOWN"
+      ],
+      "evoInto": "TP_ENERGY2",
+      "knockback": 2
+    },
+    {
+      "power": 0.3,
+      "speed": 0.5
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "area": 0.25,
+      "speed": 0.5
+    },
+    {
+      "power": 0.3,
+      "speed": 0.5
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "area": 0.25,
+      "speed": 0.5
+    },
+    {
+      "duration": 500,
+      "addEvolvedWeapon": "TP_ENERGY2"
+    }
+  ],
+  "TP_ENERGY2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Nitesco",
+      "bulletType": "TP_ENERGY2",
+      "weaponType": "TP_ENERGY2",
+      "frameName": "TP_ENERGY2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_ENERGY1"
+      ],
+      "requires": [
+        "COOLDOWN"
+      ],
+      "requiresMax": [
+        "COOLDOWN"
+      ],
+      "rarity": 1,
+      "interval": 5000,
+      "repeatInterval": 100,
+      "power": 2,
+      "area": 2,
+      "speed": 1,
+      "amount": 1,
+      "hitBoxDelay": 200,
+      "penetrating": 1,
+      "duration": 1500,
+      "knockback": 0.1,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_SPITE1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Optical Shot",
+      "bulletType": "TP_SPITE1",
+      "frameName": "TP_SPITE1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoInto": "TP_SPITE2",
+      "evoSynergy": [
+        "DOMINION"
+      ],
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 60,
+      "poolLimit": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 0.6,
+      "amount": 1,
+      "duration": 5000,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "hitsWalls": false,
+      "description": "-",
+      "knockback": 5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.25,
+      "speed": 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "area": 0.25,
+      "speed": 0.2
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "TP_SPITE2"
+    }
+  ],
+  "TP_SPITE2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Acerbatus",
+      "bulletType": "TP_SPITE2",
+      "frameName": "TP_SPITE2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "sealable": true,
+      "evolvesFrom": [
+        "TP_SPITE1"
+      ],
+      "requires": [
+        "DOMINION"
+      ],
+      "requiresMax": [
+        "DOMINION"
+      ],
+      "rarity": 1,
+      "poolLimit": 100,
+      "power": 5,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 3,
+      "duration": 5000,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "hitsWalls": false,
+      "description": "-",
+      "knockback": 10
+    }
+  ],
+  "TP_CUSTOS1": [
+    {
+      "level": 1,
+      "description": "Summons Cerberus' firey head in faced direction. ",
+      "unexcludeSelf": true,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Dextro Custos",
+      "bulletType": "TP_CUSTOS1",
+      "evoInto": "TP_CUSTOS4",
+      "frameName": "TP_CUSTOS1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 70,
+      "poolLimit": 100,
+      "power": 2,
+      "secondaryPower": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 3000,
+      "penetrating": 1000,
+      "interval": 3000,
+      "repeatInterval": 300,
+      "evoSynergy": [
+        "TP_CUSTOS2",
+        "TP_CUSTOS3"
+      ],
+      "knockback": 2
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "power": 2,
+      "secondaryPower": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1,
+      "power": 2,
+      "secondaryPower": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.2
+    }
+  ],
+  "TP_CUSTOS2": [
+    {
+      "level": 1,
+      "description": "Summons Cerberus' icy head opposite to faced direction. May freeze enemies.",
+      "weaponType": "TP_CUSTOS2",
+      "unexcludeSelf": true,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Sinistro Custos",
+      "bulletType": "TP_CUSTOS2",
+      "evoInto": "TP_CUSTOS4",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 70,
+      "poolLimit": 100,
+      "power": 2,
+      "secondaryPower": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 3000,
+      "penetrating": 1000,
+      "interval": 3000,
+      "repeatInterval": 300,
+      "frameName": "TP_CUSTOS2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "evoSynergy": [
+        "TP_CUSTOS1",
+        "TP_CUSTOS3"
+      ],
+      "knockback": 2
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "power": 2,
+      "secondaryPower": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1,
+      "power": 2,
+      "secondaryPower": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.2
+    }
+  ],
+  "TP_CUSTOS3": [
+    {
+      "level": 1,
+      "unexcludeSelf": true,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Centralis Custos",
+      "bulletType": "TP_CUSTOS3",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_CUSTOS3.png",
+      "evoInto": "TP_CUSTOS4",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 70,
+      "poolLimit": 100,
+      "description": "Boosts aggressive stats but decreases defensive stats.  ",
+      "power": 0.8,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1300,
+      "interval": 1300,
+      "repeatInterval": 0,
+      "knockback": 0,
+      "evoSynergy": [
+        "TP_CUSTOS1",
+        "TP_CUSTOS2"
+      ]
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "interval": -100,
+      "power": 0.4
+    },
+    {
+      "area": 0.1,
+      "power": 0.4
+    },
+    {
+      "interval": -100,
+      "power": 0.4
+    },
+    {
+      "area": 0.2,
+      "interval": -100,
+      "addEvolvedWeapon": "TP_CUSTOS4"
+    }
+  ],
+  "TP_CUSTOS4": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Trinum Custodem",
+      "bulletType": "TP_CUSTOS4",
+      "description": "Union of Dextros, Sinistro, and Arma Custos.",
+      "frameName": "TP_CUSTOS4.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": true,
+      "sealable": true,
+      "power": 6,
+      "secondaryPower": 2,
+      "area": 1.4,
+      "speed": 1,
+      "amount": 1,
+      "duration": 9000,
+      "penetrating": 1000,
+      "interval": 5000,
+      "repeatInterval": 300,
+      "isEvolution": true,
+      "requiresMax": [
+        "TP_CUSTOS1",
+        "TP_CUSTOS2",
+        "TP_CUSTOS3"
+      ],
+      "evolvesFrom": [
+        "TP_CUSTOS1",
+        "TP_CUSTOS2",
+        "TP_CUSTOS3"
+      ],
+      "rarity": 1,
+      "knockback": 2
+    }
+  ],
+  "TP_DOMINUS1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DOMINUS1",
+      "weaponType": "TP_DOMINUS1",
+      "frameName": "TP_DOMINUS1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 1665,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 100,
+      "interval": 6000,
+      "repeatInterval": 100,
+      "duration": 2000,
+      "hitBoxDelay": 2000,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 65535,
+      "knockback": 2,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true,
+      "evoSynergy": [
+        "TP_DOMINUS2",
+        "TP_DOMINUS3"
+      ],
+      "evoInto": "TP_DOMINUS4",
+      "unexcludeSelf": true
+    },
+    {
+      "speed": 0.5
+    },
+    {
+      "power": 2
+    },
+    {
+      "amount": 2
+    },
+    {
+      "power": 2
+    },
+    {
+      "interval": -1000
+    }
+  ],
+  "TP_DOMINUS2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DOMINUS2",
+      "weaponType": "TP_DOMINUS2",
+      "frameName": "TP_DOMINUS2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 1665,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 100,
+      "interval": 6000,
+      "repeatInterval": 100,
+      "duration": 1000,
+      "hitBoxDelay": 1000,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "penetrating": 3,
+      "knockback": 2,
+      "critChance": 0,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true,
+      "evoSynergy": [
+        "TP_DOMINUS1",
+        "TP_DOMINUS3"
+      ],
+      "evoInto": "TP_DOMINUS4",
+      "unexcludeSelf": true
+    },
+    {
+      "speed": 0.5,
+      "penetrating": 1
+    },
+    {
+      "power": 2,
+      "penetrating": 2
+    },
+    {
+      "area": 0.3,
+      "penetrating": 3
+    },
+    {
+      "amount": 2,
+      "penetrating": 4
+    },
+    {
+      "interval": -1000,
+      "penetrating": 5
+    }
+  ],
+  "TP_DOMINUS3": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DOMINUS3",
+      "weaponType": "TP_DOMINUS3",
+      "frameName": "TP_DOMINUS3.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 1665,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 100,
+      "interval": 1000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": true,
+      "sealable": true,
+      "evoSynergy": [
+        "TP_DOMINUS1",
+        "TP_DOMINUS2"
+      ],
+      "evoInto": "TP_DOMINUS4",
+      "customDescValue": "Increases total Area, Might, Speed and Duration by %0%."
+    },
+    {
+      "customDesc": 8
+    },
+    {
+      "customDesc": 8
+    },
+    {
+      "customDesc": 8
+    },
+    {
+      "customDesc": 8
+    },
+    {
+      "customDesc": 8,
+      "addEvolvedWeapon": "TP_DOMINUS4"
+    }
+  ],
+  "TP_DOMINUS4": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DOMINUS4",
+      "weaponType": "TP_DOMINUS4",
+      "frameName": "TP_DOMINUS4.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 1665,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_DOMINUS1",
+        "TP_DOMINUS2",
+        "TP_DOMINUS3"
+      ],
+      "requiresMax": [
+        "TP_DOMINUS1",
+        "TP_DOMINUS2",
+        "TP_DOMINUS3"
+      ],
+      "rarity": 1,
+      "interval": 30000,
+      "repeatInterval": 100,
+      "power": 6,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0,
+      "critChance": 0,
+      "critMul": 1,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_RAPIDUS1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_RAPIDUS1",
+      "price": 100,
+      "name": "Sonic Dash",
+      "description": "Increases Move Speed and damages nearby enemies. Area and Speed increase damage.",
+      "tips": "Ignores: Amount.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_RAPIDUS1.png",
+      "evoInto": "TP_RAPIDUS2",
+      "isUnlocked": false,
+      "rarity": 50,
+      "poolLimit": 50,
+      "interval": 10000,
+      "duration": 4000,
+      "repeatInterval": 0,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "charges": 0,
+      "hitsWalls": false,
+      "evoSynergy": [
+        "MOVESPEED"
+      ],
+      "unexcludeSelf": true,
+      "knockback": 5
+    },
+    {
+      "interval": -500
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.25,
+      "duration": 500
+    },
+    {
+      "interval": -500
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.25,
+      "duration": 500
+    },
+    {
+      "duration": 500,
+      "addEvolvedWeapon": "TP_RAPIDUS2"
+    }
+  ],
+  "TP_RAPIDUS2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_RAPIDUS2",
+      "price": 100,
+      "name": "Rapidus Fio",
+      "description": "Evolved Sonic Dash. Also provides a Shield when firing.",
+      "tips": "Requires: .",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_RAPIDUS2.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_RAPIDUS1"
+      ],
+      "requires": [
+        "MOVESPEED"
+      ],
+      "requiresMax": [
+        "MOVESPEED"
+      ],
+      "rarity": 1,
+      "poolLimit": 50,
+      "interval": 8000,
+      "duration": 5500,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "charges": 1,
+      "hitsWalls": false,
+      "knockback": 5
+    }
+  ],
+  "TP_LIGHT1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Luminato",
+      "bulletType": "TP_LIGHT1",
+      "frameName": "TP_LIGHT1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 60,
+      "poolLimit": 200,
+      "power": 1,
+      "area": 0.8,
+      "speed": 0.8,
+      "amount": 1,
+      "duration": 1600,
+      "interval": 6000,
+      "repeatInterval": 200,
+      "evoInto": "TP_LIGHT2",
+      "evoSynergy": [
+        "GROWTH"
+      ],
+      "description": "Fires orbiting orbs of light in faced direction. ",
+      "knockback": 0.5
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "speed": 0.2
+    },
+    {
+      "duration": 400
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "TP_LIGHT2"
+    }
+  ],
+  "TP_LIGHT2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_LIGHT2",
+      "weaponType": "TP_LIGHT2",
+      "frameName": "TP_LIGHT2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_LIGHT1"
+      ],
+      "requires": [
+        "GROWTH"
+      ],
+      "requiresMax": [
+        "GROWTH"
+      ],
+      "rarity": 5,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "duration": 2000,
+      "interval": 6000,
+      "repeatInterval": 200,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true,
+      "unexcludeSelf": true
+    },
+    {
+      "area": 0.2,
+      "speed": 0.2
+    },
+    {
+      "power": 0.3,
+      "amount": 1,
+      "addEvolvedWeapon": "TP_UNIVERSITAS"
+    }
+  ],
+  "TP_DARK1": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Umbral Hex",
+      "bulletType": "TP_DARK1",
+      "frameName": "TP_DARK1.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "sealable": true,
+      "rarity": 60,
+      "poolLimit": 200,
+      "power": 1,
+      "area": 0.8,
+      "speed": 0.8,
+      "amount": 1,
+      "duration": 1600,
+      "interval": 6000,
+      "repeatInterval": 200,
+      "evoInto": "TP_DARK2",
+      "evoSynergy": [
+        "MAGNET"
+      ],
+      "description": "Fires orbiting orbs of light in faced direction. ",
+      "knockback": 0.5
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "speed": 0.2
+    },
+    {
+      "duration": 400
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "TP_DARK2"
+    }
+  ],
+  "TP_DARK2": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_DARK2",
+      "weaponType": "TP_DARK2",
+      "frameName": "TP_DARK2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "TP_DARK1"
+      ],
+      "requires": [
+        "MAGNET"
+      ],
+      "requiresMax": [
+        "MAGNET"
+      ],
+      "rarity": 5,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "duration": 2000,
+      "interval": 6000,
+      "repeatInterval": 200,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true,
+      "unexcludeSelf": true
+    },
+    {
+      "area": 0.2,
+      "speed": 0.2
+    },
+    {
+      "power": 0.3,
+      "amount": 1
+    }
+  ],
+  "TP_UNIVERSITAS": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_UNIVERSITAS",
+      "weaponType": "TP_UNIVERSITAS",
+      "frameName": "TP_UNIVERSITAS.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 1000,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "requires": [
+        "TP_LIGHT2",
+        "TP_DARK2"
+      ],
+      "requiresMax": [
+        "TP_LIGHT2",
+        "TP_DARK2"
+      ],
+      "displayAsPassive": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 30000,
+      "duration": 3000,
+      "repeatInterval": 100,
+      "power": 5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 2,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_MORNINGSTAR": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Morning Star",
+      "weaponType": "TP_MORNINGSTAR",
+      "bulletType": "TP_MORNINGSTAR",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_MORNINGSTAR.png",
+      "rarity": 2,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "isUnlocked": false,
+      "sealable": true,
+      "description": "Allows you to choose a sub-weapon.",
+      "poolLimit": 0
+    }
+  ],
+  "TP_COATOFARMS": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Coat Of Arms",
+      "bulletType": "TP_COATOFARMS",
+      "weaponType": "TP_COATOFARMS",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_COATOFARMS.png",
+      "rarity": 2,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "isUnlocked": false,
+      "sealable": true,
+      "description": "Allows you to choose a sub-weapon.",
+      "poolLimit": 0
+    }
+  ],
+  "TP_SPELLBOOK": [
+    {
+      "name": "Belnades Spellbook",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "weaponType": "TP_SPELLBOOK",
+      "bulletType": "TP_SPELLBOOK",
+      "frameName": "TP_SPELLBOOK.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "rarity": 2,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "isUnlocked": false,
+      "sealable": true,
+      "description": "Allows you to choose a sub-weapon.",
+      "poolLimit": 0
+    }
+  ],
+  "TP_SPECTRALSWORD": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Spectral Sword",
+      "bulletType": "TP_SPECTRALSWORD",
+      "weaponType": "TP_SPECTRALSWORD",
+      "frameName": "TP_SPECTRALSWORD.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "rarity": 2,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "isUnlocked": false,
+      "sealable": true,
+      "description": "Allows you to choose a sub-weapon.",
+      "poolLimit": 0
+    }
+  ],
+  "TP_DIABOLOGUE": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Unstable Cyclopaedia",
+      "bulletType": "TP_DIABOLOGUE",
+      "weaponType": "TP_DIABOLOGUE",
+      "frameName": "TP_DIABOLOGUE.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "rarity": 2,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "isUnlocked": false,
+      "sealable": true,
+      "description": "Allows you to choose a sub-weapon.",
+      "poolLimit": 0
+    }
+  ],
+  "TP_FAMILIARFORGE": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Familiar Forge",
+      "bulletType": "TP_FAMILIARFORGE",
+      "weaponType": "TP_FAMILIARFORGE",
+      "frameName": "TP_FAMILIARFORGE.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "rarity": 6,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "allowDuplicates": true,
+      "isUnlocked": false,
+      "sealable": true,
+      "description": "Allows you to summon a familiar.",
+      "poolLimit": 0
+    }
+  ],
+  "TP_VALMANWAY": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Valmanway",
+      "bulletType": "TP_VALMANWAY",
+      "weaponType": "TP_VALMANWAY",
+      "frameName": "TP_VALMANWAY.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "sealable": true,
+      "price": 2800,
+      "description": "Stronger with movement.",
+      "tips": "Ignores: speed, duration.",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "interval": 1400,
+      "repeatInterval": 65,
+      "power": 1,
+      "area": 0.7,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "unexcludeSelf": true,
+      "knockback": 2
+    },
+    {
+      "power": 0.25,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.25,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.25,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.25,
+      "amount": 1
+    }
+  ],
+  "TP_ICEBRAND": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "TP_ICEBRAND",
+      "contentGroup": "THOSE_PEOPLE",
+      "weaponType": "TP_ICEBRAND",
+      "frameName": "TP_ICEBRAND.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 2800,
+      "isUnlocked": false,
+      "hidden": true,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "canCrit": false,
+      "description": "-",
+      "penetrating": 2,
+      "unexcludeSelf": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1000,
+      "hitBoxDelay": 1000,
+      "knockback": 5
+    },
+    {
+      "amount": 1,
+      "penetrating": 1
+    },
+    {
+      "speed": 0.3,
+      "area": 0.25
+    },
+    {
+      "duration": 500,
+      "power": 1
+    },
+    {
+      "amount": 1,
+      "penetrating": 1
+    },
+    {
+      "speed": 0.3,
+      "area": 0.25
+    },
+    {
+      "duration": 500,
+      "power": 1
+    },
+    {
+      "amount": 1,
+      "penetrating": 1
+    }
+  ],
+  "TP_GOTH_MISSILE": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_GOTH_MISSILE",
+      "weaponType": "TP_GOTH_MISSILE",
+      "frameName": "TP_GOTH_MISSILE.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "isEvolution": false,
+      "price": 2800,
+      "interval": 5000,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 2,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 2
+    },
+    {
+      "speed": 0.5,
+      "power": 0.5
+    },
+    {
+      "power": 2
+    },
+    {
+      "amount": 2
+    },
+    {
+      "speed": 0.5,
+      "power": 0.5
+    },
+    {
+      "power": 2
+    },
+    {
+      "amount": 2
+    }
+  ],
+  "TP_AURABLAST_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Aura Blast",
+      "bulletType": "TP_AURABLAST_WEAPON",
+      "weaponType": "TP_AURABLAST_WEAPON",
+      "frameName": "TP_AURABLAST_WEAPON.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "hidden": true,
+      "price": 2800,
+      "poolLimit": 100,
+      "rarity": 20,
+      "interval": 5000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "canCrit": false,
+      "sealable": true,
+      "intervalDependsOnDuration": false,
+      "description": "-",
+      "unexcludeSelf": true,
+      "knockback": 5
+    },
+    {
+      "amount": 1,
+      "interval": -200
+    },
+    {
+      "power": 1,
+      "area": 0.2
+    },
+    {
+      "amount": 1,
+      "interval": -200
+    },
+    {
+      "power": 1,
+      "area": 0.2
+    },
+    {
+      "amount": 1,
+      "interval": -200
+    },
+    {
+      "power": 1,
+      "area": 0.2
+    },
+    {
+      "area": 0.2,
+      "interval": -200
+    }
+  ],
+  "TP_SAVROG_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Svarog Statue",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_SAVROG_WEAPON.png",
+      "description": "Generates damaging zones when moving.",
+      "price": 2800,
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "sealable": true,
+      "power": 0.5,
+      "area": 0.7,
+      "speed": 1,
+      "amount": 1,
+      "hitBoxDelay": 1000,
+      "duration": 5000,
+      "knockback": 0,
+      "interval": 10000,
+      "repeatInterval": 200,
+      "unexcludeSelf": true
+    },
+    {
+      "area": 0.3
+    },
+    {
+      "interval": -1000
+    },
+    {
+      "duration": 500
+    },
+    {
+      "area": 0.3
+    },
+    {
+      "interval": -1000
+    },
+    {
+      "duration": 500
+    },
+    {
+      "power": 0.5
+    }
+  ],
+  "TP_NEUTRON_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Troll Bomb",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_NEUTRON_BOMB.png",
+      "description": "This one doesn't bounce.",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "sealable": true,
+      "price": 2800,
+      "power": 100,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 2000,
+      "knockback": 0,
+      "interval": 120000,
+      "repeatInterval": 200,
+      "unexcludeSelf": true
+    },
+    {
+      "interval": -10000
+    },
+    {
+      "interval": -10000
+    },
+    {
+      "interval": -10000
+    },
+    {
+      "interval": -10000
+    },
+    {
+      "interval": -10000
+    },
+    {
+      "interval": -10000
+    },
+    {
+      "power": 700
+    }
+  ],
+  "TP_HYDROSTORM": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_HYDROSTORM",
+      "weaponType": "TP_HYDROSTORM",
+      "frameName": "TP_HYDROSTORM.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 2800,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 200,
+      "rarity": 20,
+      "isEvolution": false,
+      "interval": 10000,
+      "duration": 2000,
+      "hitBoxDelay": 1210,
+      "repeatInterval": 25,
+      "power": 0.3,
+      "area": 1,
+      "speed": 0.5,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true,
+      "unexcludeSelf": true
+    },
+    {
+      "power": 0.1,
+      "duration": 500
+    },
+    {
+      "power": 0.1,
+      "speed": 0.25
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1,
+      "duration": 500
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1,
+      "speed": 0.25
+    },
+    {
+      "power": 0.1,
+      "duration": 500
+    }
+  ],
+  "TP_GRANDCROSS": [
+    {
+      "level": 1,
+      "sealable": true,
+      "price": 2800,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_GRANDCROSS",
+      "weaponType": "TP_GRANDCROSS",
+      "frameName": "TP_GRANDCROSS.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "interval": 36000,
+      "repeatInterval": 100,
+      "power": 3,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 500,
+      "hitsWalls": false,
+      "hitBoxDelay": 100,
+      "penetrating": 1,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1,
+      "unexcludeSelf": true
+    },
+    {
+      "interval": -3000
+    },
+    {
+      "interval": -3000
+    },
+    {
+      "interval": -3000
+    },
+    {
+      "amount": 3
+    },
+    {
+      "interval": -3000
+    },
+    {
+      "interval": -3000
+    },
+    {
+      "interval": -3000
+    },
+    {
+      "power": 7
+    }
+  ],
+  "TP_SUMMON_SPIRIT": [
+    {
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "THOSE_PEOPLE",
+      "bulletType": "TP_SUMMON_SPIRIT",
+      "price": 2800,
+      "name": "Summon Spirit",
+      "description": "___",
+      "tips": "Ignores: Duration.",
+      "texture": "TP_items",
+      "frameName": "TP_SUMMON_SPIRIT.png",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "poolLimit": 60,
+      "rarity": 20,
+      "interval": 1200,
+      "repeatInterval": 100,
+      "duration": 2000,
+      "hitBoxDelay": 500,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "hitsWalls": false,
+      "unexcludeSelf": true,
+      "knockback": 5
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "interval": -200
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 1
+    }
+  ],
+  "TP_SOULSTEAL_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Soul Steal",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_SOULSTEAL.png",
+      "description": "Attempts to destroy all enemies and turn them into hearts.",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "sealable": true,
+      "price": 2800,
+      "power": 0.6,
+      "area": 1,
+      "speed": 1,
+      "amount": 7,
+      "duration": 2000,
+      "knockback": 0,
+      "interval": 120000,
+      "repeatInterval": 150,
+      "hitsWalls": false,
+      "chance": 0.25,
+      "customDescValue": "%0% chance to generate a heart.",
+      "unexcludeSelf": true
+    },
+    {
+      "chance": 0.25,
+      "customDesc": 50
+    },
+    {
+      "interval": -20000
+    },
+    {
+      "interval": -20000
+    },
+    {
+      "chance": 0.25,
+      "customDesc": 75
+    },
+    {
+      "power": 2.4
+    },
+    {
+      "interval": -20000
+    },
+    {
+      "power": 3
+    },
+    {
+      "chance": 0.25,
+      "customDesc": 100
+    }
+  ],
+  "TP_DARKRIFT": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Dark Rift",
+      "bulletType": "TP_DARKRIFT",
+      "weaponType": "TP_DARKRIFT",
+      "frameName": "TP_DARKRIFT.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 2800,
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1.1,
+      "speed": 1,
+      "amount": 3,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "canCrit": false,
+      "sealable": true,
+      "intervalDependsOnDuration": false,
+      "description": "-",
+      "unexcludeSelf": true,
+      "knockback": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "interval": -500
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "interval": -500
+    },
+    {
+      "amount": 1,
+      "area": 0.2
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1,
+      "area": 0.2
+    }
+  ],
+  "TP_SWORD_BROTHERS": [
+    {
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "THOSE_PEOPLE",
+      "bulletType": "TP_SWORD_BROTHERS",
+      "price": 2800,
+      "name": "Sword Brothers",
+      "description": "___",
+      "tips": "___",
+      "texture": "TP_items",
+      "frameName": "TP_SWORD_BROTHERS.png",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 20,
+      "interval": 20000,
+      "repeatInterval": 500,
+      "duration": 2000,
+      "power": 3,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 10,
+      "unexcludeSelf": true
+    },
+    {
+      "power": 1
+    },
+    {
+      "interval": -2000
+    },
+    {
+      "power": 1
+    },
+    {
+      "interval": -2000
+    },
+    {
+      "power": 1
+    },
+    {
+      "interval": -2000
+    },
+    {
+      "power": 3
+    }
+  ],
+  "TP_SPIRITTORNADO": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Red Jewel",
+      "bulletType": "TP_SPIRITTORNADO",
+      "weaponType": "TP_SPIRITTORNADO",
+      "frameName": "TP_SPIRITTORNADO.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 2800,
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 20,
+      "interval": 8000,
+      "repeatInterval": 200,
+      "power": 1,
+      "secondaryPower": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "duration": 3000,
+      "critChance": 0.2,
+      "critMul": 2,
+      "canCrit": false,
+      "sealable": true,
+      "intervalDependsOnDuration": false,
+      "description": "-",
+      "unexcludeSelf": true,
+      "knockback": 5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 500
+    },
+    {
+      "speed": 0.5
+    },
+    {
+      "power": 0.5,
+      "amount": 1
+    },
+    {
+      "duration": 500
+    },
+    {
+      "speed": 0.5
+    },
+    {
+      "amount": 1,
+      "power": 1
+    }
+  ],
+  "TP_VALMANWAY_SONICWHIP": [
+    {
+      "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Valmanway",
+      "bulletType": "TP_VALMANWAY",
+      "weaponType": "TP_VALMANWAY_SONICWHIP",
+      "frameName": "TP_VALMANWAY.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "sealable": true,
+      "price": 800,
+      "description": "Stronger with movement.",
+      "tips": "Ignores: speed, duration.",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1400,
+      "repeatInterval": 65,
+      "power": 2,
+      "area": 2,
+      "speed": 1,
+      "amount": 66,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "unexcludeSelf": true,
+      "knockback": 2
+    }
+  ],
+  "TP_GOTH_MISSILE_HOLYWHIP2": [
+    {
+      "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_GOTH_MISSILE",
+      "weaponType": "TP_GOTH_MISSILE_HOLYWHIP2",
+      "frameName": "TP_GOTH_MISSILE.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "-",
+      "tips": "-",
+      "poolLimit": 100,
+      "isUnlocked": false,
+      "isEvolution": true,
+      "rarity": 1,
+      "interval": 5000,
+      "repeatInterval": 50,
+      "power": 10,
+      "area": 1,
+      "speed": 2,
+      "amount": 7,
+      "penetrating": 1,
+      "knockback": 2,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_AURABLAST_MARTIALWHIP": [
+    {
+      "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Aura Blast",
+      "bulletType": "TP_AURABLAST_WEAPON",
+      "weaponType": "TP_AURABLAST_WEAPON",
+      "frameName": "TP_AURABLAST_WEAPON.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 10,
+      "interval": 5000,
+      "repeatInterval": 100,
+      "power": 8,
+      "area": 2,
+      "speed": 1,
+      "amount": 6,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "canCrit": false,
+      "sealable": true,
+      "intervalDependsOnDuration": false,
+      "description": "-",
+      "knockback": 2
+    }
+  ],
+  "TP_HYDROSTORM_WATERDRAGONWHIP": [
+    {
+      "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_HYDROSTORM",
+      "weaponType": "TP_HYDROSTORM_WATERDRAGONWHIP",
+      "frameName": "TP_HYDROSTORM.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "poolLimit": 200,
+      "isUnlocked": false,
+      "isEvolution": false,
+      "rarity": 1,
+      "interval": 10000,
+      "duration": 3500,
+      "hitBoxDelay": 1210,
+      "repeatInterval": 25,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0,
+      "critChance": 0.3,
+      "critMul": 3,
+      "hitsWalls": false,
+      "sealable": true
+    }
+  ],
+  "TP_GRANDCROSS_PLATINUMWHIP": [
+    {
+      "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "sealable": true,
+      "price": 400,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_GRANDCROSS_PLATINUMWHIP",
+      "weaponType": "TP_GRANDCROSS",
+      "frameName": "TP_GRANDCROSS.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "power": 2.4,
+      "area": 1,
+      "speed": 1.5,
+      "amount": 3,
+      "duration": 600,
+      "hitsWalls": false,
+      "hitBoxDelay": 100,
+      "penetrating": 1,
+      "critChance": 0,
+      "critMul": 2,
+      "knockback": 1
+    }
+  ],
+  "TP_SPIRITTORNADO_WINDWHIP": [
+    {
+      "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Red Jewel",
+      "bulletType": "TP_SPIRITTORNADO_WINDWHIP",
+      "weaponType": "TP_SPIRITTORNADO_WINDWHIP",
+      "frameName": "TP_SPIRITTORNADO.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 10,
+      "interval": 5000,
+      "repeatInterval": 200,
+      "power": 1,
+      "secondaryPower": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "duration": 3000,
+      "critChance": 0.2,
+      "critMul": 2,
+      "canCrit": false,
+      "sealable": true,
+      "intervalDependsOnDuration": false,
+      "description": "-",
+      "knockback": 5
+    }
+  ],
+  "TP_DARKRIFT_JETBLACKWHIP": [
+    {
+      "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Dark Rift",
+      "bulletType": "TP_DARKRIFT",
+      "weaponType": "TP_DARKRIFT",
+      "frameName": "TP_DARKRIFT.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "poolLimit": 50,
+      "rarity": 100,
+      "interval": 1500,
+      "repeatInterval": 0,
+      "power": 8,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 6,
+      "hitsWalls": false,
+      "critChance": 0.2,
+      "critMul": 2,
+      "canCrit": false,
+      "isUnlocked": false,
+      "sealable": true,
+      "intervalDependsOnDuration": false,
+      "description": "-",
+      "knockback": 0.5
+    }
+  ],
+  "TP_GEARS_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Clock Tower",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_GEARS_WEAPON.png",
+      "description": ".",
+      "isUnlocked": false,
+      "rarity": 20,
+      "poolLimit": 50,
+      "sealable": true,
+      "price": 1000,
+      "power": 1,
+      "area": 0.6,
+      "speed": 0.7,
+      "amount": 1,
+      "hitBoxDelay": 500,
+      "duration": 5000,
+      "knockback": 0,
+      "interval": 10000,
+      "repeatInterval": 200,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.1,
+      "interval": -500
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.1,
+      "interval": -500
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.1,
+      "interval": -500
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "power": 1
+    }
+  ],
+  "TP_PENDULUM_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Clock Tower",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_PENDULUM_WEAPON.png",
+      "description": ".",
+      "isUnlocked": false,
+      "rarity": 20,
+      "poolLimit": 50,
+      "sealable": true,
+      "price": 1000,
+      "power": 1,
+      "area": 0.6,
+      "speed": 0.7,
+      "amount": 1,
+      "hitBoxDelay": 500,
+      "duration": 5000,
+      "knockback": 0,
+      "interval": 10000,
+      "repeatInterval": 200,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.1,
+      "interval": -500
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.1,
+      "interval": -500
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.1,
+      "interval": -500
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "power": 1
+    }
+  ],
+  "TP_ELEVATOR_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Clock Tower",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ELEVATOR_WEAPON.png",
+      "description": ".",
+      "isUnlocked": false,
+      "rarity": 20,
+      "poolLimit": 50,
+      "sealable": true,
+      "price": 1000,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitBoxDelay": 2500,
+      "duration": 2500,
+      "knockback": 0,
+      "interval": 10000,
+      "repeatInterval": 200,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "power": 1
+    },
+    {
+      "speed": 0.5
+    },
+    {
+      "power": 1
+    },
+    {
+      "speed": 0.5
+    },
+    {
+      "power": 1
+    },
+    {
+      "speed": 0.5
+    },
+    {
+      "power": 1
+    },
+    {
+      "speed": 0.5
+    }
+  ],
+  "TP_HEADS_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Clock Tower",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_HEADS_WEAPON.png",
+      "description": ".",
+      "isUnlocked": false,
+      "rarity": 20,
+      "poolLimit": 50,
+      "sealable": true,
+      "price": 1000,
+      "power": 1,
+      "area": 1,
+      "speed": 0.6,
+      "amount": 1,
+      "hitBoxDelay": 1000,
+      "duration": 3000,
+      "knockback": 0,
+      "interval": 10000,
+      "repeatInterval": 200,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -200
+    },
+    {
+      "speed": 0.2,
+      "interval": -500
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -200
+    },
+    {
+      "speed": 0.2,
+      "interval": -500
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -200
+    },
+    {
+      "speed": 0.2,
+      "interval": -500
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -300
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "TP_CLOCKTOWER_WEAPON"
+    }
+  ],
+  "TP_CLOCKTOWER_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Clock Tower",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_CLOCKTOWER_WEAPON.png",
+      "description": ".",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "requiresMax": [
+        "TP_GEARS_WEAPON",
+        "TP_PENDULUM_WEAPON",
+        "TP_ELEVATOR_WEAPON",
+        "TP_HEADS_WEAPON"
+      ],
+      "evolvesFrom": [
+        "TP_GEARS_WEAPON",
+        "TP_PENDULUM_WEAPON",
+        "TP_ELEVATOR_WEAPON",
+        "TP_HEADS_WEAPON"
+      ],
+      "skipRemovingBaseWeapon": true,
+      "rarity": 1,
+      "poolLimit": 100,
+      "sealable": true,
+      "price": 1000,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitBoxDelay": 1000,
+      "duration": 3000,
+      "knockback": 0,
+      "interval": 10000,
+      "repeatInterval": 200
+    }
+  ],
+  "TP_ENERGY1_COUNTER": [
+    {
+      "name": "Anti Globus",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_ENERGY1_COUNTER",
+      "price": 10,
+      "description": "Fires two bouncing projectiles. Duration affected by Amount.",
+      "tips": "Best with: Speed, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ENERGY1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 4000,
+      "repeatInterval": 200,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "duration": 750,
+      "hitBoxDelay": 500,
+      "hitsWalls": true,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 2
+    },
+    {
+      "power": 0.3,
+      "speed": 0.5
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "area": 0.25,
+      "speed": 0.5
+    },
+    {
+      "power": 0.3,
+      "speed": 0.5
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "area": 0.25,
+      "speed": 0.5
+    },
+    {
+      "duration": 500
+    }
+  ],
+  "TP_FIRE1_COUNTER": [
+    {
+      "name": "Anti Raging Fire",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_FIRE1_COUNTER",
+      "price": 10,
+      "description": "Generates an exploding damaging zone.",
+      "tips": "Best with: Area, Duration.",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_FIRE1.png",
+      "texture": "TP_items",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 250,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 0.5
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 3
+    }
+  ],
+  "TP_ICE1_COUNTER": [
+    {
+      "name": "Anti Ice Fang",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_ICE1_COUNTER",
+      "price": 10,
+      "description": "Generates damaging zones in a straight line.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ICE1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 0.7,
+      "speed": 1,
+      "amount": 2,
+      "penetrating": 0,
+      "duration": 1100,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 5
+    },
+    {
+      "interval": -500,
+      "area": 0.15
+    },
+    {
+      "power": 0.5,
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "area": 0.15,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.15
+    },
+    {
+      "power": 0.5,
+      "duration": 500
+    },
+    {
+      "power": 0.5,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -50
+    }
+  ],
+  "TP_EARTH1_COUNTER": [
+    {
+      "name": "Anti Rock Riot",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_EARTH1_COUNTER",
+      "price": 10,
+      "description": "Fires projectiles from a fixed location.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_EARTH1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 10000,
+      "repeatInterval": 400,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 0.5
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 3
+    }
+  ],
+  "TP_WIND1_COUNTER": [
+    {
+      "name": "Anti Gale Force",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_WIND1_COUNTER",
+      "price": 10,
+      "description": "Fires lingering projectiles.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_WIND1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 0.3,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 0.3
+    },
+    {
+      "power": 0.2,
+      "speed": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "power": 0.2,
+      "speed": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "power": 0.2,
+      "speed": 0.5
+    },
+    {
+      "amount": 1,
+      "area": 0.3
+    },
+    {
+      "power": 0.4
+    }
+  ],
+  "TP_ELEC1_COUNTER": [
+    {
+      "name": "Anti Fulgur",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_ELEC1_COUNTER",
+      "price": 10,
+      "description": "Strikes at fixed locations.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ELEC1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 8000,
+      "repeatInterval": 1000,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 1000,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 5
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "amount": 3
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    },
+    {
+      "power": 0.3,
+      "duration": 250
+    },
+    {
+      "amount": 3
+    },
+    {
+      "interval": -500,
+      "area": 0.1
+    }
+  ],
+  "TP_ACID1_COUNTER": [
+    {
+      "name": "Speculo Acidic Bubbles",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_ACID1_COUNTER",
+      "price": 10,
+      "description": "Fires slow moving damaging zones.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_ACID1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 7000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 0.6,
+      "speed": 1.25,
+      "amount": 1,
+      "penetrating": 0,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 0.5
+    },
+    {
+      "interval": -500,
+      "duration": 250,
+      "repeatInterval": -25
+    },
+    {
+      "power": 0.25,
+      "amount": 1
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 0.25,
+      "amount": 1
+    },
+    {
+      "duration": 250,
+      "repeatInterval": -25
+    },
+    {
+      "power": 0.25,
+      "speed": 0.2
+    },
+    {
+      "power": 0.25,
+      "amount": 1
+    }
+  ],
+  "TP_HOLY1_COUNTER": [
+    {
+      "name": "Anti Refectio",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": false,
+      "bulletType": "TP_HOLY1",
+      "price": 10,
+      "description": "Damages nearby enemies. Decreases Curse by 5% per Amount.",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_HOLY1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 7000,
+      "repeatInterval": 200,
+      "power": 0.3,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 0,
+      "knockback": 0.5,
+      "duration": 1000,
+      "hitBoxDelay": 1000,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "power": 1,
+      "area": 0.3,
+      "repeatInterval": -50
+    },
+    {
+      "amount": 3
+    }
+  ],
+  "TP_EVIL1_COUNTER": [
+    {
+      "name": "Anti Hex",
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_EVIL1",
+      "price": 200,
+      "description": "-",
+      "tips": "Best with: Area, Duration.",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_EVIL1.png",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "rarity": 60,
+      "poolLimit": 200,
+      "interval": 10000,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 3000,
+      "hitBoxDelay": 1000,
+      "hitsWalls": false,
+      "critChance": 0.3,
+      "critMul": 2,
+      "knockback": 2
+    },
+    {
+      "interval": -500,
+      "power": 0.5
+    },
+    {
+      "speed": 0.1,
+      "area": 0.1
+    },
+    {
+      "amount": 3
+    },
+    {
+      "interval": -500,
+      "power": 0.5
+    },
+    {
+      "speed": 0.1,
+      "area": 0.1
+    },
+    {
+      "duration": 1000
+    },
+    {
+      "interval": -500,
+      "power": 0.5
+    }
+  ],
+  "TP_NEUTRON_PICKUP": [
+    {
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Neutron Bomb",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_NEUTRON_BOMB.png",
+      "description": "Deals high damage in a large area.",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "rarity": 1,
+      "power": 800,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 2000,
+      "knockback": 0,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991
+    }
+  ],
+  "TP_SOULSTEAL_PICKUP": [
+    {
+      "hidden": true,
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Soul Steal",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "frameName": "TP_SOULSTEAL.png",
+      "description": "Attempts to destroy all enemies and turn them into hearts.",
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "rarity": 1,
+      "power": 20,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 2000,
+      "knockback": 0,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991
+    }
+  ],
+  "TP_ACC_FAMILIAR_UKOBACK": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_UKOBACK",
+      "weaponType": "TP_ACC_FAMILIAR_UKOBACK",
+      "frameName": "TP_ACC_FAMILIAR_UKOBACK.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Ukoback Familiar",
+      "description": "Summons an angry familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_UKOBAK",
+      "followerAI": "Masochistic"
+    }
+  ],
+  "TP_ACC_FAMILIAR_BITTERFLY": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_BITTERFLY",
+      "weaponType": "TP_ACC_FAMILIAR_BITTERFLY",
+      "frameName": "TP_ACC_FAMILIAR_BITTERFLY.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Bitterfly Familiar",
+      "description": "Summons a quiet familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_BITTERFLY",
+      "followerAI": "Defensive"
+    }
+  ],
+  "TP_ACC_FAMILIAR_IMP": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_IMP",
+      "weaponType": "TP_ACC_FAMILIAR_IMP",
+      "frameName": "TP_ACC_FAMILIAR_IMP.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Imp Familiar",
+      "description": "Summons a naughty familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_IMP",
+      "followerAI": "Aggressive"
+    }
+  ],
+  "TP_ACC_FAMILIAR_ALLEGEDGHOST": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_ALLEGEDGHOST",
+      "weaponType": "TP_ACC_FAMILIAR_ALLEGEDGHOST",
+      "frameName": "TP_ACC_FAMILIAR_ALLEGEDGHOST.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Alleged Ghost Familiar",
+      "description": "Summons a non-existent familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_GHOST",
+      "followerAI": "MirrorInput"
+    }
+  ],
+  "TP_ACC_FAMILIAR_WIZARD": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_WIZARD",
+      "weaponType": "TP_ACC_FAMILIAR_WIZARD",
+      "frameName": "TP_ACC_FAMILIAR_WIZARD.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Mage Familiar",
+      "description": "Summons a magical familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_WIZARD",
+      "followerAI": "DelayedPositionCopy"
+    }
+  ],
+  "TP_ACC_FAMILIAR_FAIRY": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_FAIRY",
+      "weaponType": "TP_ACC_FAMILIAR_FAIRY",
+      "frameName": "TP_ACC_FAMILIAR_FAIRY.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Faerie Familiar",
+      "description": "Summons a good natured familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_FAIRY",
+      "followerAI": "Defensive"
+    }
+  ],
+  "TP_ACC_FAMILIAR_PUMPKIN": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_PUMPKIN",
+      "weaponType": "TP_ACC_FAMILIAR_PUMPKIN",
+      "frameName": "TP_ACC_FAMILIAR_PUMPKIN.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Pumpkin Familiar",
+      "description": "Summons a crazy familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_PUMPKIN",
+      "followerAI": "ChaoticAF"
+    }
+  ],
+  "TP_ACC_FAMILIAR_CARDINAL": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_CARDINAL",
+      "weaponType": "TP_ACC_FAMILIAR_CARDINAL",
+      "frameName": "TP_ACC_FAMILIAR_CARDINAL.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Sacred Cardinal",
+      "description": "Summons a fiery familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_CARDINAL",
+      "followerAI": "Defensive"
+    }
+  ],
+  "TP_ACC_FAMILIAR_DRAGON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_DRAGON",
+      "weaponType": "TP_ACC_FAMILIAR_DRAGON",
+      "frameName": "TP_ACC_FAMILIAR_DRAGON.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Sacred Dragon",
+      "description": "Summons a fizzy familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_DRAGON",
+      "followerAI": "Defensive"
+    }
+  ],
+  "TP_ACC_FAMILIAR_TIGER": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_TIGER",
+      "weaponType": "TP_ACC_FAMILIAR_TIGER",
+      "frameName": "TP_ACC_FAMILIAR_TIGER.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Sacred Tiger",
+      "description": "Summons a chilled familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_TIGER",
+      "followerAI": "Defensive"
+    }
+  ],
+  "TP_ACC_FAMILIAR_TURTLE": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "sealable": true,
+      "bulletType": "TP_ACC_FAMILIAR_TURTLE",
+      "weaponType": "TP_ACC_FAMILIAR_TURTLE",
+      "frameName": "TP_ACC_FAMILIAR_TURTLE.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 40,
+      "name": "Sacred Turtle",
+      "description": "Summons a grounded familiar.",
+      "tips": "-",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 1,
+      "allowDuplicates": true,
+      "followerType": "TP_FOLLOWER_TURTLE",
+      "followerAI": "Defensive"
+    }
+  ],
+  "TP_SHAFTORB": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "-",
+      "bulletType": "TP_SHAFTORB",
+      "weaponType": "TP_SHAFTORB",
+      "frameName": "TP_SHAFTORB.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isEvolution": false,
+      "hitsWalls": false,
+      "sealable": false,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "rarity": 1,
+      "power": 2,
+      "area": 1.3,
+      "speed": 1,
+      "amount": 2,
+      "duration": 2000,
+      "interval": 500,
+      "repeatInterval": 200,
+      "knockback": 0.5,
+      "critChance": 0.3,
+      "critMul": 3
+    }
+  ],
+  "TP_BLUEFIRE_WEAPON": [
+    {
+      "level": 1,
+      "contentGroup": "THOSE_PEOPLE",
+      "name": "Burning Alcarde",
+      "bulletType": "TP_BLUEFIRE_WEAPON",
+      "weaponType": "TP_ENERGY2",
+      "frameName": "TP_ENERGY2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isEvolution": false,
+      "hitsWalls": false,
+      "sealable": false,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 3,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 500,
+      "repeatInterval": 40,
+      "power": 3,
+      "area": 2,
+      "speed": 1.5,
+      "amount": 12,
+      "duration": 1000,
+      "critChance": 0.3,
+      "critMul": 3,
+      "knockback": 5
+    }
+  ],
+  "TP_DEATHHAND": [
+    {
+      "level": 1,
+      "sealable": false,
+      "bulletType": "TP_DEATHHAND",
+      "name": "Anima of Death",
+      "description": "Hands of Death.",
+      "tips": "Damage to die for",
+      "frameName": "TP_ENERGY2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isEvolution": false,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 80,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 6.5,
+      "area": 1.6,
+      "speed": 1.75,
+      "amount": 3,
+      "duration": 2600,
+      "knockback": 5,
+      "contentGroup": "THOSE_PEOPLE"
+    }
+  ],
+  "TP_DRACULAHAND": [
+    {
+      "level": 1,
+      "sealable": false,
+      "bulletType": "TP_DRACULAHAND",
+      "name": "Anima of Dracula",
+      "description": "Hands of Dracula.",
+      "tips": "You'll be Vlad you have this!",
+      "frameName": "TP_ENERGY2.png",
+      "texture": "TP_items",
+      "collectionFrame": "frameB_sotn.png",
+      "isEvolution": false,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 80,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 6.5,
+      "area": 1.6,
+      "speed": 1.75,
+      "amount": 3,
+      "duration": 2600,
+      "knockback": 5,
+      "contentGroup": "THOSE_PEOPLE"
+    }
+  ],
+  "TP_POWEROFLIRE": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "TP_POWEROFLIRE",
+      "name": "Power of Lire",
+      "description": ".",
+      "tips": ".",
+      "frameName": "lire.png",
+      "texture": "items",
+      "isEvolution": false,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 20,
+      "rarity": 1,
+      "interval": 60000,
+      "duration": 1000,
+      "repeatInterval": 1500,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 1,
+      "chance": 1,
+      "hitsWalls": false,
+      "contentGroup": "THOSE_PEOPLE"
+    }
+  ]
+}

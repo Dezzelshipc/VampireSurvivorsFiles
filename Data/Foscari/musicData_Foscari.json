@@ -1,1 +1,128 @@
-{"BGM_Foscari":{"title":"Tides of the Foscari","author":"Daniele Zandara","source":"Lake Foscari","unlockedByStage":"FOSCARI","unlockedByCharacter":null,"unlockedByItem":null,"isUnlocked":false,"icon":"stage_foscari_icon.png","hyperMod":{"rate":1.0625,"detune":0},"forsakenMod":{"rate":1.125,"detune":-1000}},"BGM_Magic":{"title":"An Introduction to Sorcery","author":"Daniele Zandara","source":"Eleanor Uziron","unlockedByStage":null,"unlockedByCharacter":"ELEANOR","unlockedByItem":null,"isUnlocked":false,"icon":"p_2eleanor.png","hyperMod":{"rate":1.0625,"detune":0},"forsakenMod":{"rate":1.125,"detune":-1000}},"BGM_War":{"title":"Slaying Dragons","author":"Daniele Zandara","source":"Viktor Shamenna","unlockedByStage":null,"unlockedByCharacter":"VICTOR","unlockedByItem":null,"isUnlocked":false,"icon":"p_2viktor.png","hyperMod":{"rate":1.0625,"detune":0},"forsakenMod":{"rate":1.125,"detune":-1000}},"BGM_Deception":{"title":"Hide and Steal","author":"Daniele Zandara","source":"Keira Kastori","unlockedByStage":null,"unlockedByCharacter":"KEIRA","unlockedByItem":null,"isUnlocked":false,"icon":"p_2keira.png","hyperMod":{"rate":1.0625,"detune":0},"forsakenMod":{"rate":1.125,"detune":-1000}},"BGM_Luminaire":{"title":"The Heart of the World","author":"Daniele Zandara","source":"Luminaire Foscari","unlockedByStage":null,"unlockedByCharacter":"LUMINAIRE","unlockedByItem":null,"isUnlocked":false,"icon":"p_2luminaire.png","hyperMod":{"rate":1.0625,"detune":0},"forsakenMod":{"rate":1.125,"detune":-1000}},"BGM_Foscari2":{"title":"Ashes of the Banished","author":"Daniele Zandara","source":"Abyss Foscari","unlockedByStage":"FOSCARI2","unlockedByCharacter":null,"unlockedByItem":null,"isUnlocked":false,"icon":"stage_foscari2_icon.png","hyperMod":{"rate":1.0625,"detune":0},"forsakenMod":{"rate":1.125,"detune":-1000}},"BGM_Genevieve":{"title":"The World Eater","author":"Daniele Zandara","source":"True Genevieve","unlockedByStage":null,"unlockedByCharacter":"MEGAGENEVIEVE","unlockedByItem":null,"isUnlocked":false,"icon":"p_2megag.png","hyperMod":{"rate":1.0625,"detune":0},"forsakenMod":{"rate":1.125,"detune":-1000}}}
+{
+  "BGM_Foscari": {
+    "title": "Tides of the Foscari",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": "FOSCARI",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "stage_foscari_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_Magic": {
+    "title": "An Introduction to Sorcery",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "ELEANOR",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_2eleanor.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_War": {
+    "title": "Slaying Dragons",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "VICTOR",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_2viktor.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_Deception": {
+    "title": "Hide and Steal",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "KEIRA",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_2keira.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_Luminaire": {
+    "title": "The Heart of the World",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "LUMINAIRE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_2luminaire.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_Foscari2": {
+    "title": "Ashes of the Banished",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": "FOSCARI2",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "stage_foscari2_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  },
+  "BGM_Genevieve": {
+    "title": "The World Eater",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "MEGAGENEVIEVE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_2megag.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  }
+}

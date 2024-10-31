@@ -78,11 +78,11 @@ def get_meta_guid(path: str):
 
 class MetaData:
     def __init__(self, name, guid, image, data_name, data_id):
-        self.name = name
-        self.guid = guid
-        self.image = image
-        self.data_name = data_name
-        self.data_id = data_id
+        self.name: str = name
+        self.guid: str = guid
+        self.image: Image = image
+        self.data_name: dict[str: dict] = data_name
+        self.data_id: dict[int: dict] = data_id
 
 
 def __get_meta(meta_path: str) -> MetaData:

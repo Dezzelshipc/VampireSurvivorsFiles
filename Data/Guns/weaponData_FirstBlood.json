@@ -2,6 +2,7 @@
   "FB_FULLAUTO": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_FULLAUTO",
       "price": 400,
@@ -35,29 +36,29 @@
       "customDescValue": "Reduce cooldown by %0ms."
     },
     {
-      "interval":  -20,
+      "interval": -20,
       "customDesc": 20
     },
     {
-      "interval":  -20,
+      "interval": -20,
       "customDesc": 20
     },
     {
-      "interval":  -20,
+      "interval": -20,
       "customDesc": 20
     },
     {
       "power": 0.5
     },
     {
-      "interval":  -20,
+      "interval": -20,
       "customDesc": 20
     },
     {
       "penetrating": 1
     },
     {
-      "interval":  -20,
+      "interval": -20,
       "customDesc": 20,
       "addEvolvedWeapon": "FB_PROTOTYPE_A"
     }
@@ -65,6 +66,7 @@
   "FB_PROTOTYPE_A": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_PROTOTYPE_A",
       "price": 400,
@@ -85,7 +87,7 @@
       "isUnlocked": true,
       "poolLimit": 200,
       "rarity": 1,
-      "interval":       150,
+      "interval": 150,
       "repeatInterval": 150,
       "power": 1,
       "area": 1,
@@ -98,10 +100,10 @@
       "knockback": 1
     }
   ],
-  
   "FB_RAPIDFIRE": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_RAPIDFIRE",
       "price": 10,
@@ -125,7 +127,7 @@
       "interval": 2000,
       "repeatInterval": 16,
       "duration": 400,
-      "power": 2.0,
+      "power": 2,
       "area": 1,
       "speed": 2,
       "amount": 3,
@@ -160,6 +162,7 @@
   "FB_PROTOTYPE_B": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_PROTOTYPE_B",
       "price": 10,
@@ -184,7 +187,7 @@
       "interval": 2000,
       "repeatInterval": 16,
       "duration": 400,
-      "power": 6.0,
+      "power": 6,
       "area": 1,
       "speed": 2,
       "amount": 7,
@@ -194,10 +197,10 @@
       "critMul": 3
     }
   ],
-  
   "FB_SPREAD": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_SPREAD",
       "name": "Spread Shot",
@@ -259,6 +262,7 @@
   "FB_PROTOTYPE_C": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_PROTOTYPE_C",
       "name": "Prototype C",
@@ -285,15 +289,15 @@
       "repeatInterval": 0,
       "power": 3.5,
       "area": 1,
-      "speed": 2.0,
+      "speed": 2,
       "amount": 9,
       "duration": 100
     }
   ],
-  
   "FB_LASER": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_LASER",
       "price": 200,
@@ -356,6 +360,7 @@
   "FB_PROTONBEAM": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "price": 1,
       "sealable": true,
       "bulletType": "FB_PROTONBEAM",
@@ -391,10 +396,10 @@
       "intervalDependsOnDuration": false
     }
   ],
-
   "FB_FIREARM": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_FIREARM",
       "price": 1600,
@@ -451,6 +456,7 @@
   "FB_FIREWALL": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_FIREWALL",
       "name": "Fire L3G5",
@@ -480,10 +486,10 @@
       "duration": 1000
     }
   ],
-  
   "FB_SONIC": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_SONIC",
       "price": 200,
@@ -530,7 +536,7 @@
     },
     {
       "penetrating": 1,
-      "interval" : -500
+      "interval": -500
     },
     {
       "amount": 1,
@@ -542,13 +548,14 @@
     },
     {
       "duration": 400,
-      "interval" : -500,
+      "interval": -500,
       "addEvolvedWeapon": "FB_WAVE"
     }
   ],
   "FB_WAVE": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_WAVE",
       "price": 400,
@@ -573,7 +580,7 @@
       "interval": 1400,
       "repeatInterval": 100,
       "power": 3,
-      "area": 1.0,
+      "area": 1,
       "penetrating": 2,
       "speed": 2,
       "amount": 1,
@@ -582,10 +589,10 @@
       "hitsWalls": false
     }
   ],
-  
   "FB_HOMING": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_HOMING",
       "price": 400,
@@ -610,7 +617,7 @@
       "repeatInterval": 64,
       "power": 2,
       "area": 1,
-      "speed": 1.0,
+      "speed": 1,
       "amount": 3,
       "penetrating": 0,
       "hitsWalls": false,
@@ -621,11 +628,9 @@
     },
     {
       "amount": 1
-      
     },
     {
       "interval": -200
-      
     },
     {
       "penetrating": 1
@@ -647,6 +652,7 @@
   "FB_MULTISTAGE": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_MULTISTAGE",
       "price": 400,
@@ -681,10 +687,10 @@
       "knockback": 1
     }
   ],
-
   "FB_DIVERMINES": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_DIVERMINES",
       "name": "Diver Mines",
@@ -715,7 +721,7 @@
     },
     {
       "power": 1,
-      "interval" : -500
+      "interval": -500
     },
     {
       "amount": 1,
@@ -723,7 +729,7 @@
     },
     {
       "power": 1,
-      "area" : 0.3
+      "area": 0.3
     },
     {
       "amount": 1,
@@ -731,7 +737,7 @@
     },
     {
       "power": 1,
-      "interval" : -500
+      "interval": -500
     },
     {
       "amount": 1,
@@ -746,6 +752,7 @@
   "FB_CRUSH": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_CRUSH",
       "price": 800,
@@ -779,10 +786,10 @@
       "hitsWalls": false
     }
   ],
-    
   "FB_BLADECROSSBOW": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_BLADECROSSBOW",
       "price": 200,
@@ -843,6 +850,7 @@
   "FB_CROSSBOWCRASH": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_CROSSBOWCRASH",
       "price": 400,
@@ -879,10 +887,10 @@
       "knockback": 1
     }
   ],
-
   "FB_PRISMCUTLASS": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_PRISMCUTLASS",
       "price": 10,
@@ -944,6 +952,7 @@
   "FB_TIMEWARP": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_TIMEWARP",
       "price": 400,
@@ -980,10 +989,10 @@
       "knockback": 1
     }
   ],
-  
   "FB_METALCLAW": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_METALCLAW",
       "price": 800,
@@ -1045,6 +1054,7 @@
   "FB_BIGFUZZYFIST": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_BIGFUZZYFIST",
       "name": "Big Fuzzy Fist",
@@ -1072,10 +1082,10 @@
       "rarity": 1
     }
   ],
-
   "FB_WEAPONPU": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_WEAPONPU",
       "price": 40,
@@ -1086,8 +1096,7 @@
       "frameName": "fb_weaponup.png",
       "collectionFrame": "frameB_gray.png",
       "customDescValue": "Allows to evolve Contra Force weapons.",
-      "evoSynergy": [
-      ],
+      "evoSynergy": [],
       "isUnlocked": true,
       "hidden": false,
       "alwaysHidden": false,
@@ -1101,6 +1110,7 @@
   "FB_FIREEXPLOSION": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "bulletType": "FB_FIREEXPLOSION",
       "name": "First Blood Explosion",
       "description": "",
@@ -1124,10 +1134,10 @@
       "hitsWalls": false
     }
   ],
-
   "FB_EXPLOBARRELHAZARD": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "bulletType": "FB_EXPLOBARRELHAZARD",
       "name": "Average Explosive Barrel",
       "description": "",
@@ -1144,7 +1154,7 @@
       "interval": 5000,
       "repeatInterval": 5000,
       "power": 6,
-      "area": 2.0,
+      "area": 2,
       "speed": 1,
       "amount": 1,
       "duration": 1000,
@@ -1154,6 +1164,7 @@
   "FB_EXPLOCARHAZARD": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "bulletType": "FB_EXPLOCARHAZARD",
       "name": "Average Explosive Car",
       "description": "",
@@ -1170,7 +1181,7 @@
       "interval": 5000,
       "repeatInterval": 5000,
       "power": 12,
-      "area": 6.0,
+      "area": 6,
       "speed": 1,
       "amount": 1,
       "duration": 1000,
@@ -1180,6 +1191,7 @@
   "FB_PRISMCUTLASS_COUNTER": [
     {
       "level": 1,
+      "contentGroup": "FIRST_BLOOD",
       "bulletType": "FB_PRISMCUTLASS_COUNTER",
       "name": "Prism Cutlass",
       "description": "Attacks horizontally, passes through enemies and may freeze them.",
