@@ -192,6 +192,10 @@ def __create_Tilemap_image(tilemap: Tilemap, im_map: Image, textures: dict[str: 
         sprite_data = data_id.get(tile_inner_id)
         sprite = __get_sprite(image, sprite_data, (size_tile_x, size_tile_y))
 
+        if not sprite:
+            print(f"Sprite error: {texture_guid=} {tile_inner_id=} {sprite_data=}")
+            continue
+
         matrix = tile_matrix_array[tile["matrix_index"]]
         if matrix["e00"] != 1 or matrix["e11"] != 1:
             affine = (matrix["e00"], matrix["e10"], matrix["e20"], matrix["e01"], matrix["e11"], matrix["e21"])

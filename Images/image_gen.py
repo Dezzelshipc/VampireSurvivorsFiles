@@ -652,11 +652,13 @@ class CharacterImageGenerator(TableGenerator):
                     if anims := skin.get("spriteAnims", False):
                         # print(k, anims)
                         for anim_type, anim_data in anims.items():
+                            postfix_words =re.findall('.[^A-Z]*', anim_type)
+                            postfix_words[0] = postfix_words[0].title()
                             char = v.copy()
                             char.update(anim_data)
                             char.update({
                                 "animType": anim_type,
-                                "postfix_name": f"-{anim_type}",
+                                "postfix_name": f"-{"-".join(postfix_words)}",
                                 "for": [GenType.ATTACK_ANIM]
                             })
                             yield k, char
