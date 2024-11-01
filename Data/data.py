@@ -45,7 +45,20 @@ def __generator_concatenate():
             for p in paths:
                 cur_p = p
                 with open_f(p) as file:
-                    outdata.update(json.loads(clean_json(file.read())))
+                    data = json.loads(clean_json(file.read()))
+                    # add contentGroup aka dlc
+                    if "Data_" in p:
+                        file_name = os.path.basename(p).split(".")[0]
+                        cg = re.findall('.[^A-Z]*', file_name.split("_")[-1])
+                        cg = "_".join([c.upper() for c in cg])
+                        for k, v in data.items():
+                            vv = v
+                            while isinstance(vv, list):
+                                vv = vv[0]
+                            if not vv.get("contentGroup"):
+                                vv["contentGroup"] = cg
+                        #
+                    outdata.update(data)
 
             with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
                 outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))

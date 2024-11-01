@@ -362,33 +362,15 @@ class SimpleGenerator(ImageGenerator):
             "k_id": k_id
         })
 
-        if save_folder.endswith("/"):
-            save_folder += texture_name
+        save_folder += "/" + (obj.get("contentGroup") if obj.get("contentGroup") else "BASE_GAME")
 
         meta, im = func_meta("", texture_name)
         if not meta:
             print(f"Skipped {name}: {texture_name} texture not found")
             return
 
-        save_dlc = ''
-        match frame_name:
-            case "frameB_blue.png":
-                save_dlc = "/moonspell"
-            case "frameB_green.png":
-                save_dlc = "/foscari"
-            case "frameB_purple.png":
-                save_dlc = "/meeting"
-            case "frameB_gray.png":
-                save_dlc = "/guns"
-            case "frameB_sotn.png":
-                save_dlc = "/ode"
-            case "frameB_red.png":
-                save_dlc = "/red_dlc"
-
         if osf := obj.get("save_folder"):
             save_folder += osf
-
-        save_folder += f"/{save_dlc}"
 
         if self.dataObjectKey and lang_data:
             name = lang_data.get(self.dataObjectKey)
@@ -652,7 +634,7 @@ class CharacterImageGenerator(TableGenerator):
                     if anims := skin.get("spriteAnims", False):
                         # print(k, anims)
                         for anim_type, anim_data in anims.items():
-                            postfix_words =re.findall('.[^A-Z]*', anim_type)
+                            postfix_words = re.findall('.[^A-Z]*', anim_type)
                             postfix_words[0] = postfix_words[0].title()
                             char = v.copy()
                             char.update(anim_data)
