@@ -193,7 +193,7 @@ def __create_Tilemap_image(tilemap: Tilemap, im_map: Image, textures: dict[str: 
         sprite = __get_sprite(image, sprite_data, (size_tile_x, size_tile_y))
 
         if not sprite:
-            print(f"Sprite error: {texture_guid=} {tile_inner_id=} {sprite_data=}")
+            print(f"Sprite error: {image=} {len(data_id)=} {texture_guid=} {tile_inner_id=} {sprite_data=}")
             continue
 
         matrix = tile_matrix_array[tile["matrix_index"]]

@@ -381,6 +381,7 @@ class SimpleGenerator(ImageGenerator):
 
         if obj.get("skinType", "DEFAULT") != "DEFAULT":
             name += f"-{obj.get("name", "Default")}"
+            save_folder += "/skins"
         elif obj.get("id", 0) != 0:
             name += f"-{obj.get("id")}"
 
@@ -389,6 +390,7 @@ class SimpleGenerator(ImageGenerator):
 
         if obj.get("alwaysHidden") and self.assets_type in [Type.CHARACTER]:
             name += f"-{k_id}"
+            save_folder += "/hidden_skins"
 
         using_list = obj.get('for', GenType.main_list())
         scale_factor = settings[str(GenType.SCALE)]
@@ -727,7 +729,7 @@ class CharacterImageGenerator(TableGenerator):
 
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()
-        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 32)
+        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 30)
         w = font.getbbox(text)[2] + 4
         h = font.getbbox(text + "|")[3]
 

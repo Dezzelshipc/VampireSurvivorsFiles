@@ -251,9 +251,9 @@
       "bInclude": false,
       "bHighlight": false,
       "level": 30,
-      "maxHp": 20,
+      "maxHp": 15,
       "speed": 180,
-      "power": 20,
+      "power": 15,
       "skills": [
         0
       ],
@@ -683,7 +683,7 @@
     {
       "maxHp": 0.9,
       "power": 4,
-      "speed": 120,
+      "speed": 100,
       "knockback": 3,
       "maxKnockback": 5,
       "deathKB": 3,
@@ -700,7 +700,7 @@
       "textureName": "TP_enemies",
       "end": 8,
       "xp": 1.2,
-      "passThroughWalls": true
+      "passThroughWalls": false
     }
   ],
   "TP_BRAUNERSPAINTING": [
@@ -846,8 +846,7 @@
     ,
       "bVariants": [
         "TP_PERSEPHONE_02",
-        "TP_PERSEPHONE_03",
-        "TP_PERSEPHONEVACCUUM"
+        "TP_PERSEPHONE_03"
       ]
     }
   ],
@@ -945,7 +944,7 @@
       "bInclude": true,
       "bPlaces": ["TP_CASTLE"],
       "bHighlight": false,
-      "passThroughWalls": true
+      "passThroughWalls": false
     }
   ],
   "TP_SKELETONSPEAR": [
@@ -1761,7 +1760,7 @@
       "skipCredits": true,
       "enemyType": "TP_BOSS_LEGION",
       "level": 21,
-      "maxHp": 50,
+      "maxHp": 40,
       "speed": 160,
       "power": 30,
       "xp": 50,
@@ -1794,7 +1793,7 @@
       "skipCredits": true,
       "enemyType": "TP_BOSS_LEGION_SECTION",
       "level": 21,
-      "maxHp": 20,
+      "maxHp": 15,
       "speed": 0,
       "power": 10,
       "xp": 0,
@@ -1859,7 +1858,7 @@
       "skipCredits": true,
       "enemyType": "TP_BOSS_BEELZEBUB",
       "level": 21,
-      "maxHp": 30,
+      "maxHp": 40,
       "speed": 0,
       "power": 30,
       "xp": 50,
@@ -1970,10 +1969,10 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 5,
       "end": 10,
-      "textureName": "TP_Enemies",
+      "textureName": "TP_enemies",
       "frameNames": [
         "TP_JiangShi_0.png"
       ],
@@ -2003,10 +2002,10 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 5,
       "end": 20,
-      "textureName": "TP_Enemies",
+      "textureName": "TP_enemies",
       "frameNames": [
         "TP_Keremet_0.png"
       ],
@@ -2036,7 +2035,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 4,
       "end": 16,
       "textureName": "TP_enemies",
@@ -2069,7 +2068,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 5,
       "end": 1,
       "textureName": "TP_enemies",
@@ -2132,7 +2131,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 4,
       "end": 0,
       "textureName": "TP_enemies",
@@ -2168,7 +2167,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 4,
       "end": 0,
       "textureName": "TP_enemies",
@@ -2268,7 +2267,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 5,
       "textureName": "TP_enemies",
       "end": 1,
@@ -2305,7 +2304,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 6,
       "textureName": "TP_enemies",
       "end": 12,
@@ -2338,7 +2337,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 4,
       "end": 1,
       "textureName": "TP_enemies",
@@ -2479,7 +2478,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 6,
       "end": 1,
       "textureName": "TP_enemies",
@@ -2548,7 +2547,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 6,
       "end": 11,
       "textureName": "TP_enemiesReuse",
@@ -2582,7 +2581,7 @@
       "res_Defang": 1,
       "res_Rosary": 1,
       "weak_Fire": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 5,
       "end": 0,
       "textureName": "TP_enemies",
@@ -2620,7 +2619,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "res_Rosary": 1,
-      "passThroughWalls": false,
+      "passThroughWalls": true,
       "idleFrameCount": 4,
       "end": 1,
       "textureName": "TP_enemies",
@@ -2906,7 +2905,7 @@
       "level": 21,
       "maxHp": 10,
       "speed": 200,
-      "power": 25,
+      "power": 15,
       "xp": 0,
       "knockback": 0,
       "maxKnockback": 1,
@@ -3252,12 +3251,12 @@
       "scale": 1.5,
       "xp": 30,
       "passThroughWalls": true,
-      "idleFrameCount": 4,
+      "idleFrameCount": 5,
       "killedAmount": 0,
       "textureName": "TP_enemies",
       "end": 1,
       "frameNames": [
-        "TP_Carmilla_0.png"
+        "TP_BOSS_Carmilla_0.png"
       ]
     }
   ],
@@ -3315,7 +3314,7 @@
       "textureName": "TP_enemies",
       "end": 1,
       "frameNames": [
-        "TP_Joachim_0.png"
+        "TP_BOSS_Joachim_0.png"
       ]
     }
   ],
