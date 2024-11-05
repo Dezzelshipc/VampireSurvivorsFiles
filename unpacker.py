@@ -643,14 +643,15 @@ class Unpacker(tk.Tk):
                 if gen.assets_type == image_gen.Type.ARCANA:
                     texture_set.add("items")
 
-                if gen.assets_type == image_gen.Type.CHARACTER:
-                    weapon_gen = image_gen.IGFactory.get("weapon")
-                    w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
-                    add_data.update({
-                        "weapon": w_data,
-                        "character": data
-                    })
+            if gen.assets_type == image_gen.Type.CHARACTER:
+                weapon_gen = image_gen.IGFactory.get("weapon")
+                w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
+                add_data.update({
+                    "weapon": w_data,
+                    "character": data
+                })
 
+                if generator_settings.get(str(gt.FRAME)):
                     texture_set.update(weapon_gen.textures_set(w_data))
 
             for texture in texture_set:

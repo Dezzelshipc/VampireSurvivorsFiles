@@ -379,14 +379,21 @@ class SimpleGenerator(ImageGenerator):
             "clear_name": name,
         })
 
+
+
+        # find with same name for char
+        if self.assets_type in [Type.CHARACTER] and (prefix := obj.get('prefix')):
+            flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == name
+
+            main_object = list(filter(flt, add_data["character"].values()))
+            if main_object:
+                name = f"{prefix} {name}"
+
         if obj.get("skinType", "DEFAULT") != "DEFAULT":
             name += f"-{obj.get("name", "Default")}"
             save_folder += "/skins"
         elif obj.get("id", 0) != 0:
             name += f"-{obj.get("id")}"
-
-        if "Megalo" in obj.get('prefix', ''):
-            name = f"Megalo {name}"
 
         if obj.get("alwaysHidden") and self.assets_type in [Type.CHARACTER]:
             name += f"-{k_id}"
