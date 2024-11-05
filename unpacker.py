@@ -633,7 +633,7 @@ class Unpacker(tk.Tk):
             dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
 
         if missing_paths:
-            print(f"Missing paths {missing_paths} while trying to access meta files for images")
+            print(f"Missing paths {missing_paths} while trying to access meta files for images.")
             # showerror("Error", f"Missing paths: {missing_paths}")
 
         return files
