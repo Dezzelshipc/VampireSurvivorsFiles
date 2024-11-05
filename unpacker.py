@@ -292,6 +292,8 @@ class Unpacker(tk.Tk):
 
         direct, file = os.path.split(full_path)
 
+        print(f"Unpacking {file}")
+
         if not os.path.exists(full_path + ".meta"):
             showerror("Error", f"{file}.meta is unable to find in this directory.")
             return
@@ -340,11 +342,11 @@ class Unpacker(tk.Tk):
             self.loaded_meta.update(
                 {
                     file: {
-                        (s["name"] if not is_internal_id else s["internalID"]): {
-                            "name": s["name"],
-                            "internalID": s["internalID"],
-                            "rect": s["rect"],
-                            "pivot": s["pivot"],
+                        (s.get("name") if not is_internal_id else s.get("internalID")): {
+                            "name": s.get("name"),
+                            "internalID": s.get("internalID"),
+                            "rect": s.get("rect"),
+                            "pivot": s.get("pivot"),
                         } for s in sprites
                     },
                     file + "Image": image
@@ -356,6 +358,7 @@ class Unpacker(tk.Tk):
 
     def generate_by_meta(self, meta: dict, im: Image, file: str, scale_factor: int = 1):
         file = file.replace(".png", "")
+        print(f"Generating by meta")
 
         total = len(meta)
         if total > 1:
@@ -448,6 +451,7 @@ class Unpacker(tk.Tk):
             self.progress_bar_set(1, 1)
             self.last_loaded_folder = os.path.abspath(folder_to_save)
 
+
         if not self.get_assets_dir().endswith("Assets"):
             showerror("Error", "Assets directory must be selected.")
             return
@@ -456,6 +460,8 @@ class Unpacker(tk.Tk):
         if not os.path.exists(file_path):
             showerror("Error", "Assets directory does not contain language file (I2Languages.asset).")
             return
+
+        print("Copying I2Languages")
 
         direct, file = os.path.split(file_path)
 
@@ -487,11 +493,14 @@ class Unpacker(tk.Tk):
             self.outer_progress_bar.close_bar()
             self.last_loaded_folder = os.path.abspath(folder_to_save)
 
+
         lang_yaml = './Translations/I2Languages.yaml'
 
         if not os.path.exists(lang_yaml):
             showerror("Error", "Language file must be gotten from assets first.")
             return
+
+        print("Converting I2Languages to json")
 
         direct, file = os.path.split(lang_yaml)
 
@@ -531,9 +540,12 @@ class Unpacker(tk.Tk):
 
         lang_yaml = './Translations/I2Languages.yaml'
 
+
         if not os.path.exists(lang_yaml):
-            showerror("Error", "Language file must be gotten from assets first.")
+            showerror("Error", "Language file must be copied from assets first.")
             return
+
+        print("Splitting I2Languages to separate categories")
 
         direct, file = os.path.split(lang_yaml)
 
@@ -546,6 +558,8 @@ class Unpacker(tk.Tk):
         if not self.get_assets_dir().endswith("Assets"):
             showwarning("Warning", "Assets directory must be selected.")
             return
+
+        print("Copying data files")
 
         p_assets = list(filter(lambda x: "ASSETS" in x, self.config.data))
         paths = [
@@ -572,6 +586,7 @@ class Unpacker(tk.Tk):
                     self.progress_bar_set(i := i + 1, total)
 
     def data_concatenate(self):
+        print("Concatenating data files")
         gen = data_module.concatenate(True)
 
         for i, total in gen:
@@ -618,7 +633,8 @@ class Unpacker(tk.Tk):
             dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
 
         if missing_paths:
-            showerror("Error", f"Missing paths: {missing_paths}")
+            print(f"Missing paths {missing_paths} while trying to access meta files for images")
+            # showerror("Error", f"Missing paths: {missing_paths}")
 
         return files
 
@@ -710,6 +726,8 @@ class Unpacker(tk.Tk):
         if self.data_from_popup["exit"]:
             return
 
+        print(f"Started generating images for {gen.assets_type} ({os.path.split(path_data)[-1]})")
+
         generator_settings = self.data_from_popup
 
         gt = image_gen.GenType
@@ -764,6 +782,8 @@ class Unpacker(tk.Tk):
 
         if not full_path:
             return
+
+        print(f"Started generating tilemap {os.path.split(full_path)[-1]}")
 
         MetaDataHandler().load_guid_paths()
 

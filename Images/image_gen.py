@@ -305,11 +305,13 @@ class ImageGenerator:
 
         if not os.path.isdir(sf_text):
             os.makedirs(sf_text)
+            # os.makedirs(sf_text+"_webp")
 
         total_duration = base_duration // frame_rate
 
         name = self.change_name(name)
         tr_save.save_transparent_gif(gif_list, total_duration, f"{sf_text}/{prefix_name}{name}{postfix_name}.gif")
+        # tr_save.save_transparent_webp(gif_list, total_duration, f"{sf_text}_webp/{prefix_name}{name}{postfix_name}.webp")
 
 
 class SimpleGenerator(ImageGenerator):
@@ -378,8 +380,6 @@ class SimpleGenerator(ImageGenerator):
         add_data.update({
             "clear_name": name,
         })
-
-
 
         # find with same name for char
         if self.assets_type in [Type.CHARACTER] and (prefix := obj.get('prefix')):
