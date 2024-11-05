@@ -141,6 +141,7 @@ class ImageGenerator:
             file_names.append(add_data["prep"][0])
 
         meta_data = None
+        error = None
         while file_names:
             file_name = file_names.pop(0)
             try:
@@ -149,14 +150,15 @@ class ImageGenerator:
                     meta_data = meta.get(file_name)
                 else:
                     meta_data = meta.get(file_name) or meta.get(int(file_name))
-            except ValueError:
+            except ValueError as e:
+                error = e
                 meta_data = None
 
             if meta_data:
                 break
 
         if meta_data is None:
-            print(f"Image: skipped {name=}, {file_name=}")
+            print(f"Image: skipped {name=}, {file_name=}, {error=}")
             return
 
         rect = meta_data["rect"]

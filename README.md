@@ -20,9 +20,11 @@ Use [Python 3.12](https://www.python.org/downloads/) and install dependencies `p
 Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) **Export Unity Project** with settings:
 
 * Turn off "_Skip StreamingAssets Folder_",
-* "_Script Content Level_" set to _**Level 0**_ (Higher level could crash ripper for some reason, but only from Level 1
-  you can rip I2Languages),
-* "_Sprite Export Format_" set to _**Texture**_.
+* "_Bundled Assets Export Mode_" set to _**Group By Asset Type**_,
+* "_Script Content Level_" set to _**Level 2**_ (**Warning**: Levels 1,2 could crash ripper for some reason (in old
+  versions), but only from Level 1 you can rip I2Languages. If it crashes try level 0),
+* "_Sprite Export Format_" set to _**Texture**_,
+* Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings. 
 
 Main game and each DLC must be ripped separately (You have to own DLCs).
 In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open in
