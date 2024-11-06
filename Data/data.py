@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import re
 
 
@@ -22,7 +23,7 @@ def gen_path(paths, name):
     return ([i for i in paths if f"{name}_data" in i.lower()] + [i for i in paths if name in i.lower()] + [""])[0]
 
 
-def __generator_concatenate():
+def __generator_concatenate(add_content_group=True):
     path = os.path.split(__file__)[0]
     folder_to_save = path + "/Generated"
     if not os.path.exists(folder_to_save):
@@ -47,30 +48,42 @@ def __generator_concatenate():
                 with open_f(p) as file:
                     data = json.loads(clean_json(file.read()))
                     # add contentGroup aka dlc
-                    if "Data_" in p:
+                    if add_content_group and "Data_" in p:
                         file_name = os.path.basename(p).split(".")[0]
                         cg = re.findall('.[^A-Z]*', file_name.split("_")[-1])
                         cg = "_".join([c.upper() for c in cg])
+
+                        has_cg = False
                         for k, v in data.items():
                             vv = v
                             while isinstance(vv, list):
                                 vv = vv[0]
-                            if not vv.get("contentGroup"):
-                                vv["contentGroup"] = cg
-                        #
+                            if vv.get("contentGroup"):
+                                has_cg = True
+                                break
+
+                        if not has_cg:
+                            for k, v in data.items():
+                                vv = v
+                                while isinstance(vv, list):
+                                    vv = vv[0]
+                                if not vv.get("contentGroup"):
+                                    vv["contentGroup"] = cg
+
                     outdata.update(data)
 
             with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
                 outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))
 
         except json.decoder.JSONDecodeError as e:
-            print(f"{name, os.path.split(cur_p)[-1]} skipped: error {e}")
+            print(f"! {name, os.path.basename(cur_p)} skipped: error {e}",
+                        file=sys.stderr)
 
         yield i, total_len
 
 
-def concatenate(is_gen=False):
-    gen = __generator_concatenate()
+def concatenate(is_gen=False, add_content_group=True):
+    gen = __generator_concatenate(add_content_group=add_content_group)
 
     if is_gen:
         return gen

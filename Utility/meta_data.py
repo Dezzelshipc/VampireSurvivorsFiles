@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 from tkinter import Image
 
@@ -39,7 +40,8 @@ class MetaDataHandler(metaclass=Singleton):
             dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
 
         if missing_paths:
-            print(f"Missing paths {missing_paths} while trying to access meta files for images.")
+            print(f"! Missing paths {missing_paths} while trying to access meta files for images.",
+                  file=sys.stderr)
             # showerror("Error", f"Missing paths: {missing_paths}")
 
         self.assets_paths.update(files)
@@ -76,6 +78,7 @@ def get_meta_guid(path: str):
 
             if not val:
                 return None
+
 
 class MetaData:
     def __init__(self, name, guid, image, data_name, data_id):
@@ -139,7 +142,8 @@ def get_meta_by_name_set(name_set: set, is_multiprocess=True) -> list[MetaData]:
             return name_low in lower_set
 
         paths = list(filter(filter_assets, handler.assets_paths))
-        loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False, is_multiprocess=is_multiprocess)
+        loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False,
+                                                       is_multiprocess=is_multiprocess)
 
         for data_file in loaded_data:
             handler.loaded_assets_meta.update({
@@ -163,7 +167,8 @@ def get_meta_by_guid_set(guid_set: set, is_multiprocess=True) -> list[MetaData]:
 
     if not_loaded_guid_set:
         paths = [handler.assets_guid_path.get(guid) for guid in not_loaded_guid_set]
-        loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False, is_multiprocess=is_multiprocess)
+        loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False,
+                                                       is_multiprocess=is_multiprocess)
 
         for data_file in loaded_data:
             handler.loaded_assets_meta.update({
@@ -186,4 +191,3 @@ if __name__ == "__main__":
 
     a = get_meta_dict_by_name_set({"UI", "enemies2023"})
     print(a)
-

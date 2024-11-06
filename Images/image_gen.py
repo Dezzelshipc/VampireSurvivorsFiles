@@ -2,6 +2,7 @@ import itertools
 import re
 from enum import Enum
 import os
+import sys
 from PIL import Image, ImageFont, ImageDraw
 import PIL.Image
 import Images.transparent_save as tr_save
@@ -158,7 +159,8 @@ class ImageGenerator:
                 break
 
         if meta_data is None:
-            print(f"Image: skipped {name=}, {file_name=}, {error=}")
+            print(f"! Image: skipped {name=}, {file_name=}, {error=}",
+                  file=sys.stderr)
             return
 
         rect = meta_data["rect"]
@@ -263,7 +265,8 @@ class ImageGenerator:
                 meta_data = None
 
             if meta_data is None:
-                print(f"Anim: skipped {name=}, {frame_name=} not found, total {frames_count=}")
+                print(f"! Anim: skipped {name=}, {frame_name=} not found, total {frames_count=}",
+                      file=sys.stderr)
                 continue
 
             rect = meta_data["rect"]
@@ -370,7 +373,8 @@ class SimpleGenerator(ImageGenerator):
 
         meta, im = func_meta("", texture_name)
         if not meta:
-            print(f"Skipped {name}: {texture_name} texture not found")
+            print(f"! Skipped {name}: {texture_name} texture not found",
+                  file=sys.stderr)
             return
 
         if osf := obj.get("save_folder"):
@@ -388,10 +392,10 @@ class SimpleGenerator(ImageGenerator):
             flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == name
 
             main_object = list(filter(flt, add_data["character"].values()))
-            if main_object:
+            if main_object or "megalo" in prefix.lower():
                 name = f"{prefix} {name}"
 
-        if obj.get("skinType", "DEFAULT") != "DEFAULT":
+        if obj.get("skinType", "default").lower() != "default":
             name += f"-{obj.get("name", "Default")}"
             save_folder += "/skins"
         elif obj.get("id", 0) != 0:
@@ -425,10 +429,15 @@ class SimpleGenerator(ImageGenerator):
                 prep = self.get_prepared_frame(file_name, "i")
                 self.save_gif(meta, im, prep[0], name, save_folder, scale_factor=scale_factor, file_name_clean=prep[2],
                               leading_zeros=2)
-
             else:
                 prep = self.get_prepared_frame(file_name)
                 self.save_gif(meta, im, prep[0], name, save_folder, frame_rate=obj.get("walkFrameRate", 6),
+                              scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
+                              limit_frames_count=obj.get(self.dataAnimFramesKey))
+
+
+                prep = self.get_prepared_frame(file_name+"1")
+                self.save_gif(meta, im, prep[0], name+"__1", save_folder, frame_rate=obj.get("walkFrameRate", 6),
                               scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
                               limit_frames_count=obj.get(self.dataAnimFramesKey))
 
@@ -683,10 +692,7 @@ class CharacterImageGenerator(TableGenerator):
 
         w_id = char_data[k_id][0].get("startingWeapon")
 
-        if w_id:
-            weapon_data = weapon_data.get(w_id)
-            if not weapon_data:
-                return
+        if w_id and (weapon_data := weapon_data.get(w_id)):
             w_texture = weapon_data[0].get("texture")
             meta, im = func_meta("", w_texture)
             file_name = weapon_data[0].get("frameName").replace(".png", "")
@@ -701,7 +707,8 @@ class CharacterImageGenerator(TableGenerator):
                 meta_data = None
 
             if meta_data is None:
-                print(f"Skipped {name}, {file_name}")
+                print(f"! Skipped {name}, {file_name}",
+                      file=sys.stderr)
                 return
 
             rect = meta_data["rect"]

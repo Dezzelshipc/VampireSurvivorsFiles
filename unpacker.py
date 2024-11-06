@@ -1,12 +1,13 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog as fd
-from tkinter.messagebox import showerror, showwarning, showinfo
+from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
 
 import yaml
 import json
 import os
+import sys
 import shutil
 from PIL import Image
 import PIL.Image
@@ -323,21 +324,28 @@ class Unpacker(tk.Tk):
             file_path = full_path + ".meta"
 
             if not os.path.exists(file_path):
-                print(f"file {file_path} not exists")
+                print(f"! file {file_path} not exists",
+                      file=sys.stderr)
                 return None
 
             with open(file_path) as f:
-                sprites = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]["sprites"]
+                spriteSheet = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]
+                sprites = spriteSheet["sprites"]
 
             image = Image.open(full_path)
             if len(sprites) == 0:
                 sprites = [{
                     "name": p_file.replace(".png", ""),
+                    "internalID": spriteSheet.get("internalID"),
                     "rect": {
                         "x": 0, "y": 0, "width": image.width, "height": image.height
                     },
                     "pivot": {"x": 0.5, "y": 0.5}
                 }]
+                if not spriteSheet.get("spriteID"):
+                    print(
+                        f"! Not found sprites and spriteID for {os.path.basename(full_path)}. It could be caused by ripping with wrong sprite setting.",
+                        file=sys.stderr)
 
             self.loaded_meta.update(
                 {
@@ -353,7 +361,7 @@ class Unpacker(tk.Tk):
                 }
             )
 
-            print(f"Parse {p_file}.meta ended")
+            print(f"Parse {p_file}.meta ended. {len(sprites)=}")
         return self.loaded_meta[file], self.loaded_meta[file + "Image"]
 
     def generate_by_meta(self, meta: dict, im: Image, file: str, scale_factor: int = 1):
@@ -425,7 +433,6 @@ class Unpacker(tk.Tk):
 
         return self.guid_table.get(guid)
 
-
     def languages_get(self):
         def thread_languages_get(file_path_):
             self.progress_bar_set(0, 1)
@@ -450,7 +457,6 @@ class Unpacker(tk.Tk):
             self.outer_progress_bar.close_bar()
             self.progress_bar_set(1, 1)
             self.last_loaded_folder = os.path.abspath(folder_to_save)
-
 
         if not self.get_assets_dir().endswith("Assets"):
             showerror("Error", "Assets directory must be selected.")
@@ -493,7 +499,6 @@ class Unpacker(tk.Tk):
             self.outer_progress_bar.close_bar()
             self.last_loaded_folder = os.path.abspath(folder_to_save)
 
-
         lang_yaml = './Translations/I2Languages.yaml'
 
         if not os.path.exists(lang_yaml):
@@ -520,7 +525,8 @@ class Unpacker(tk.Tk):
             self.outer_progress_bar.close_bar()
             self.last_loaded_folder = os.path.abspath(folder_to_save)
 
-            cbs = CheckBoxes(langs_list, parent=self, label="Select languages to include in split files", title="Select languages")
+            cbs = CheckBoxes(langs_list, parent=self, label="Select languages to include in split files",
+                             title="Select languages")
             cbs.wait_window()
             data_from_popup = cbs.return_data
 
@@ -539,7 +545,6 @@ class Unpacker(tk.Tk):
                 self.progress_bar_set(i + 1, total)
 
         lang_yaml = './Translations/I2Languages.yaml'
-
 
         if not os.path.exists(lang_yaml):
             showerror("Error", "Language file must be copied from assets first.")
@@ -586,8 +591,14 @@ class Unpacker(tk.Tk):
                     self.progress_bar_set(i := i + 1, total)
 
     def data_concatenate(self):
-        print("Concatenating data files")
-        gen = data_module.concatenate(True)
+        add_content_group = askyesno("Add content group",
+                                     "Do you want to add 'contentGroup' (DLC) field to objects in merged file"
+                                     "if it is not present in original data file?\n"
+                                     "Helps to separate image generation by DLC (ex. for characters)\n"
+                                     "Default: True")
+
+        print(f"Concatenating data files. {add_content_group=}")
+        gen = data_module.concatenate(is_gen=True, add_content_group=add_content_group)
 
         for i, total in gen:
             self.progress_bar_set(i + 1, total)
@@ -633,7 +644,8 @@ class Unpacker(tk.Tk):
             dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
 
         if missing_paths:
-            print(f"Missing paths {missing_paths} while trying to access meta files for images.")
+            print(f"! Missing paths {missing_paths} while trying to access meta files for images.",
+                  file=sys.stderr)
             # showerror("Error", f"Missing paths: {missing_paths}")
 
         return files
@@ -650,7 +662,8 @@ class Unpacker(tk.Tk):
                 lang = lang.get('en')
             else:
                 lang = None
-                print(f"Not found english for lang file: {gen.langFileName}")
+                print(f"! Not found english for lang file: {gen.langFileName}",
+                      file=sys.stderr)
 
             texture_set = gen.textures_set(data)
             if generator_settings.get(str(gt.FRAME)):
@@ -726,7 +739,7 @@ class Unpacker(tk.Tk):
         if self.data_from_popup["exit"]:
             return
 
-        print(f"Started generating images for {gen.assets_type} ({os.path.split(path_data)[-1]})")
+        print(f"Started generating images for {gen.assets_type} ({os.path.basename(path_data)})")
 
         generator_settings = self.data_from_popup
 
@@ -736,7 +749,6 @@ class Unpacker(tk.Tk):
 
         t = threading.Thread(target=thread_load_data)
         t.start()
-
 
     def unified_image_gen_handler(self):
         start_path = f".\\Data"
@@ -761,7 +773,6 @@ class Unpacker(tk.Tk):
         all_assets = self.get_assets_meta_files()
 
         gen_unified_images(full_path, all_assets)
-
 
     def tilemap_gen_handler(self):
         start_path = f"{self.get_assets_dir()}\\PrefabInstance"
