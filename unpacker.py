@@ -17,6 +17,7 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
+import Audio.audio_unified_gen as audio_gen
 from Images.tilemap_gen import gen_tilemap
 from Images.image_unified_gen import gen_unified_images
 from Utility.utility import CheckBoxes, run_multiprocess
@@ -57,16 +58,14 @@ class Unpacker(tk.Tk):
             ttk.Label(self, text="Scale factor").pack()
             scale_input = ttk.Entry(self)
             scale_input.insert(0, gen.scaleFactor)
-            scale_input.pack(pady=[0,5])
+            scale_input.pack(pady=[0, 5])
             self.settings.update({gt.SCALE: scale_input})
-
 
             ttk.Label(self, text="Add postfix to all images").pack()
             postfix_input = ttk.Entry(self)
             postfix_input.insert(0, "")
-            postfix_input.pack(pady=[0,5])
+            postfix_input.pack(pady=[0, 5])
             self.settings.update({"add_postfix": postfix_input})
-
 
             if gt.FRAME in gen.available_gen:
                 text = "Also generate with frame variants"
@@ -95,7 +94,6 @@ class Unpacker(tk.Tk):
                 ttk.Checkbutton(self, text="Also generate attack animations", variable=attack_anim_bool).pack()
 
                 self.settings.update({gt.ATTACK_ANIM: attack_anim_bool})
-
 
             b_ok = ttk.Button(self, text="Start", command=self.__close)
             b_ok.pack()
@@ -234,6 +232,12 @@ class Unpacker(tk.Tk):
             text="Get stage tilemap",
             command=self.tilemap_gen_handler
         ).grid(row=9, column=2)
+
+        ttk.Button(
+            self,
+            text="Get unified audio",
+            command=self.audio_gen_handler
+        ).grid(row=10, column=2)
 
         self.loaded_meta = dict()
         self.guid_table = dict()
@@ -807,6 +811,26 @@ class Unpacker(tk.Tk):
 
         save_folder = gen_tilemap(full_path)
         self.last_loaded_folder = save_folder
+
+    def audio_gen_handler(self):
+        data_path = self.data_selector()
+        if "music" not in os.path.basename(data_path).lower():
+            showerror("Error", "'Music' data file must be selected.")
+            return
+
+        save_types_list = audio_gen.AudioSaveType.get()
+
+        cbs = CheckBoxes(save_types_list, parent=self, label="Select languages to include in split files",
+                         title="Select languages")
+        cbs.wait_window()
+        data_from_popup = cbs.return_data
+
+        if not data_from_popup:
+            return
+
+        save_types_dict = [t for i, t in enumerate(save_types_list) if data_from_popup[i]]
+
+        self.last_loaded_folder = audio_gen.gen_audio(data_path, save_types_dict)
 
 
 if __name__ == '__main__':

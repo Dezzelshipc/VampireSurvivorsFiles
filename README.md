@@ -6,7 +6,7 @@ Ripped from v1.12 + Moonspell + Foscari + Meeting + Guns + Ode
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 
-## Unpacker (v0.12)
+## Unpacker (v0.13a)
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
@@ -24,7 +24,7 @@ Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) **Export Unity P
 * "_Script Content Level_" set to _**Level 2**_ (**Warning**: Levels 1,2 could crash ripper for some reason (in old
   versions), but only from Level 1 you can rip I2Languages. If it crashes try level 0),
 * "_Sprite Export Format_" set to _**Texture**_,
-* Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings. 
+* Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings.
 
 Main game and each DLC must be ripped separately (You have to own DLCs).
 In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open in
@@ -66,3 +66,6 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
 
 * **Get stage tilemap**: Generate stage tile map from prefab file. Big prefabs (> 5 MB) have slow parse. One-block maps
   most likely will have file size higher 10 MB.
+
+* **Get unified audio**: Copies audio files from musicData. Ability to select change of names: "Code names", "Audio
+  titles"

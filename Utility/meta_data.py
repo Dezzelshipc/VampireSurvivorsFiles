@@ -92,7 +92,7 @@ class MetaData:
 def __get_meta(meta_path: str) -> MetaData:
     time_start_parsing = time.time()
 
-    meta_path_name = os.path.split(meta_path)[1]
+    meta_path_name = os.path.basename(meta_path)
     print(f"Started parsing {meta_path_name}")
     image_path = meta_path.replace(".meta", "")
     image = Image.open(image_path)
@@ -122,7 +122,7 @@ def __get_meta(meta_path: str) -> MetaData:
         })
 
     guid = entry['guid']
-    name = meta_path_name.replace(".png", "").replace(".meta", "").lower()
+    name = os.path.basename( meta_path_name.replace(".meta", "") ).lower()
 
     print(f"Finished parsing {meta_path_name} [{guid=}] ({round(time.time() - time_start_parsing, 2)} sec)")
 
