@@ -52,15 +52,21 @@ class Unpacker(tk.Tk):
             ttk.Label(self, text="Select settings for exporting files").pack()
 
             self.settings = dict()
-
-            ttk.Label(self, text="Scale factor").pack()
-
-            scale_input = ttk.Entry(self)
-            scale_input.insert(0, gen.scaleFactor)
-            scale_input.pack()
             gt = image_gen.GenType
 
+            ttk.Label(self, text="Scale factor").pack()
+            scale_input = ttk.Entry(self)
+            scale_input.insert(0, gen.scaleFactor)
+            scale_input.pack(pady=[0,5])
             self.settings.update({gt.SCALE: scale_input})
+
+
+            ttk.Label(self, text="Add postfix to all images").pack()
+            postfix_input = ttk.Entry(self)
+            postfix_input.insert(0, "")
+            postfix_input.pack(pady=[0,5])
+            self.settings.update({"add_postfix": postfix_input})
+
 
             if gt.FRAME in gen.available_gen:
                 text = "Also generate with frame variants"
@@ -89,6 +95,7 @@ class Unpacker(tk.Tk):
                 ttk.Checkbutton(self, text="Also generate attack animations", variable=attack_anim_bool).pack()
 
                 self.settings.update({gt.ATTACK_ANIM: attack_anim_bool})
+
 
             b_ok = ttk.Button(self, text="Start", command=self.__close)
             b_ok.pack()

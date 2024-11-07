@@ -369,6 +369,10 @@ class SimpleGenerator(ImageGenerator):
             "k_id": k_id
         })
 
+        pst = settings.get("add_postfix")
+        if pst:
+            save_folder += f"_{pst}"
+
         save_folder += "/" + (obj.get("contentGroup") if obj.get("contentGroup") else "BASE_GAME")
 
         meta, im = func_meta("", texture_name)
@@ -386,6 +390,9 @@ class SimpleGenerator(ImageGenerator):
         add_data.update({
             "clear_name": name,
         })
+
+        if pst:
+            name += f"_{pst}"
 
         # find with same name for char
         if self.assets_type in [Type.CHARACTER] and (prefix := obj.get('prefix')):
@@ -435,9 +442,8 @@ class SimpleGenerator(ImageGenerator):
                               scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
                               limit_frames_count=obj.get(self.dataAnimFramesKey))
 
-
-                prep = self.get_prepared_frame(file_name+"1")
-                self.save_gif(meta, im, prep[0], name+"__1", save_folder, frame_rate=obj.get("walkFrameRate", 6),
+                prep = self.get_prepared_frame(file_name + "1")
+                self.save_gif(meta, im, prep[0], name + "__1", save_folder, frame_rate=obj.get("walkFrameRate", 6),
                               scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
                               limit_frames_count=obj.get(self.dataAnimFramesKey))
 
@@ -746,9 +752,20 @@ class CharacterImageGenerator(TableGenerator):
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()
         font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 30)
-        w = font.getbbox(text)[2] + 4
-        h = font.getbbox(text + "|")[3]
+        w = font.getbbox(text)[2] + scale_factor
 
+        print(save_name, frame_im.size, font.getbbox(text), end=" ")
+
+        if w > frame_im.size[0] - 4 * scale_factor:
+            if " " in text:
+                text = text[::-1].replace(" ", "\n", 1)[::-1]
+                print(f"{repr(text)}", end=" ")
+
+            font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 28)
+
+        print(font.getbbox(text))
+
+        w, h = frame_im.size
         canvas = Image.new('RGBA', (int(w), int(h)))
 
         draw = ImageDraw.Draw(canvas)
@@ -756,7 +773,7 @@ class CharacterImageGenerator(TableGenerator):
 
         canvas.save(f"{sf_text}/text/{self.iconGroup}-{save_name}.png")
 
-        frame_im.alpha_composite(canvas, (14, 23))
+        frame_im.alpha_composite(canvas, (14, 20))
 
         frame_im.save(f"{sf_text}/{self.iconGroup}-{save_name}.png")
 
@@ -859,8 +876,8 @@ class StageImageGenerator(TableGenerator):
         im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
                                    PIL.Image.NEAREST)
 
-        text = name.strip()
         save_name = self.change_name(name)
+        text = add_data["clear_name"].strip()
         font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 50 * scale_factor / self.scaleFactor)
         w = font.getbbox(text)[2] + scale_factor
         h = font.getbbox(text + "|")[3]

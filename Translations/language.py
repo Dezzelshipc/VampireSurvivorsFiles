@@ -32,6 +32,11 @@ def generator_split_to_files(languages: dict, lang_list: list):
             if isinstance(entry, str):
                 entry = entry.replace(" ", " ").strip()
 
+                if "char" in group_name:
+                    to_upper_list = ["prefix", "charName", "surname"]
+                    if id_key[1] in to_upper_list:
+                        entry = entry[0].upper() + entry[1:]
+
             if is_part_object:
                 if len(id_key) < 2:
                     continue
