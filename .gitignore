@@ -1,7 +1,8 @@
 *.meta
 \.idea
 *.env
-*/Generated
+*/Generated*
 */__pycache__
 Config*.json
 RawData
+test*

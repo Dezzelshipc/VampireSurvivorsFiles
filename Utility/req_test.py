@@ -42,6 +42,13 @@ def test_requirements():
     return True
 
 
+
+def check_pydub():
+    from pydub.utils import which
+    files = ("ffmpeg", "avconv")
+    return any([which(f) for f in files])
+
+
 if __name__ == "__main__":
     if not test_requirements():
         input()

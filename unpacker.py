@@ -18,7 +18,6 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
-import Audio.audio_unified_gen as audio_gen
 from Images.tilemap_gen import gen_tilemap
 from Images.image_unified_gen import gen_unified_images
 from Utility.utility import CheckBoxes, run_multiprocess
@@ -814,7 +813,18 @@ class Unpacker(tk.Tk):
         self.last_loaded_folder = save_folder
 
     def audio_gen_handler(self):
+        from Utility.req_test import check_pydub
+        if not check_pydub() :
+            print("FFmpeg not found")
+            showerror("Error", "FFmpeg not found")
+            return
+
+        import Audio.audio_unified_gen as audio_gen
+
         data_path = self.data_selector()
+        if not data_path:
+            return
+
         if "music" not in os.path.basename(data_path).lower():
             showerror("Error", "'Music' data file must be selected.")
             return
@@ -829,14 +839,16 @@ class Unpacker(tk.Tk):
         if not data_from_popup:
             return
 
-        save_types_list = [t for i, t in enumerate(save_types_list) if data_from_popup[i]]
+        save_types_set = {t for i, t in enumerate(save_types_list) if data_from_popup[i]}
 
-        if not save_types_list:
+        if not save_types_set:
             return
 
-        self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_list)
+        print(f"Started audio generating {os.path.basename(data_path)}, {save_types_set}")
+
+        self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_set)
         if error:
-            showerror(error)
+            showerror("Error", error)
 
 
 if __name__ == '__main__':
