@@ -68,4 +68,5 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
   most likely will have file size higher 10 MB.
 
 * **Get unified audio**: Copies audio files from musicData. Ability to select change of names: "Code names", "Audio
-  titles"
+  titles", "Relative object names"
+* * "Relative object names" requires split eng lang data.

@@ -3,6 +3,7 @@ from tkinter import ttk
 from tkinter import filedialog as fd
 from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
+from typing import AnyStr
 
 import yaml
 import json
@@ -615,7 +616,7 @@ class Unpacker(tk.Tk):
             self.progress_bar_set(i + 1, total)
 
     @staticmethod
-    def data_selector():
+    def data_selector() -> AnyStr | None:
         path = "./Data"
         if not os.path.exists(path):
             return
@@ -828,9 +829,14 @@ class Unpacker(tk.Tk):
         if not data_from_popup:
             return
 
-        save_types_dict = [t for i, t in enumerate(save_types_list) if data_from_popup[i]]
+        save_types_list = [t for i, t in enumerate(save_types_list) if data_from_popup[i]]
 
-        self.last_loaded_folder = audio_gen.gen_audio(data_path, save_types_dict)
+        if not save_types_list:
+            return
+
+        self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_list)
+        if error:
+            showerror(error)
 
 
 if __name__ == '__main__':

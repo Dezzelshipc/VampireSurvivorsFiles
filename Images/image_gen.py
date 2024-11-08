@@ -366,7 +366,8 @@ class SimpleGenerator(ImageGenerator):
         add_data = add_data or {}
         add_data.update({
             "func_meta": func_meta,
-            "k_id": k_id
+            "k_id": k_id,
+            "object": obj
         })
 
         pst = settings.get("add_postfix")
@@ -639,18 +640,27 @@ class CharacterImageGenerator(TableGenerator):
                     char.update(skin)
 
                     yield k, char
+
+                    if v.get("charSelFrame"):
+                        char.update({
+                            "textureName": v.get("charSelTexture"),
+                            "spriteName": v.get("charSelFrame"),
+                            "for": [GenType.SCALE, GenType.FRAME],
+                            "not_save": [GenType.SCALE]
+                        })
+                        yield k, char
             else:
                 yield k, v
 
-            if v.get("charSelFrame"):
-                char = v.copy()
-                char.update({
-                    "textureName": v.get("charSelTexture"),
-                    "spriteName": v.get("charSelFrame"),
-                    "for": [GenType.SCALE, GenType.FRAME],
-                    "not_save": [GenType.SCALE]
-                })
-                yield k, char
+                if v.get("charSelFrame"):
+                    char = v.copy()
+                    char.update({
+                        "textureName": v.get("charSelTexture"),
+                        "spriteName": v.get("charSelFrame"),
+                        "for": [GenType.SCALE, GenType.FRAME],
+                        "not_save": [GenType.SCALE]
+                    })
+                    yield k, char
 
     def sprite_anims_generator(self, data: dict):
         for k, vv in data.items():
@@ -693,10 +703,10 @@ class CharacterImageGenerator(TableGenerator):
 
         func_meta = add_data["func_meta"]
         weapon_data = add_data["weapon"]
-        char_data = add_data["character"]
+        char_data = add_data["object"]
         k_id = add_data["k_id"]
 
-        w_id = char_data[k_id][0].get("startingWeapon")
+        w_id = char_data.get("startingWeapon")
 
         if w_id and (weapon_data := weapon_data.get(w_id)):
             w_texture = weapon_data[0].get("texture")
@@ -753,19 +763,16 @@ class CharacterImageGenerator(TableGenerator):
         text = add_data["clear_name"].strip()
         font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 30)
         w = font.getbbox(text)[2] + scale_factor
-
-        print(save_name, frame_im.size, font.getbbox(text), end=" ")
+        h = font.getbbox(text+"|")[3]
 
         if w > frame_im.size[0] - 4 * scale_factor:
             if " " in text:
                 text = text[::-1].replace(" ", "\n", 1)[::-1]
-                print(f"{repr(text)}", end=" ")
 
             font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 28)
+            w = font.getbbox(text)[2] + scale_factor
+            h = (font.getbbox("|" + text + "|")[3] + scale_factor) * 2
 
-        print(font.getbbox(text))
-
-        w, h = frame_im.size
         canvas = Image.new('RGBA', (int(w), int(h)))
 
         draw = ImageDraw.Draw(canvas)
