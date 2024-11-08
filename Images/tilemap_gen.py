@@ -6,7 +6,7 @@ import time
 from unityparser import UnityDocument
 from PIL import Image, ImageOps
 
-from Config.config import Config
+from Config.config import Config, CfgKey
 from Utility.singleton import Singleton
 from Utility.utility import CheckBoxes, run_multiprocess
 from Utility.meta_data import MetaData, get_meta_dict_by_guid_set, get_meta_by_guid_set
@@ -240,7 +240,7 @@ def gen_tilemap(path: str):
     exclude_data = exclude_cbs.return_data
     exclude_layers = [i for i in range(count_layers) if exclude_data[i]]
 
-    print(f"Multiprocessing: {handler.config["MULTIPROCESSING"]}")
+    print(f"Multiprocessing: {handler.config[CfgKey.MULTIPROCESSING]}")
     print(f"Excluded layers: {exclude_layers}")
 
     if path not in handler.loaded_prefabs:

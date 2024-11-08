@@ -28,7 +28,7 @@ def __get_musicPlaylists() -> list[dict]:
     config = Config()
 
     prefab_dirs = []
-    for f in filter(lambda x: "ASSETS" in x, config.data):
+    for f in filter(lambda x: "ASSETS" in x.value, config.data):
         p = os.path.join(config[f], "PrefabInstance")
         if os.path.exists(p):
             prefab_dirs.append(p)
@@ -62,7 +62,7 @@ def __get_audioClips() -> list[os.DirEntry]:
     config = Config()
 
     audio_clips_dirs = []
-    for f in filter(lambda x: "ASSETS" in x, config.data):
+    for f in filter(lambda x: "ASSETS" in x.value, config.data):
         p = os.path.join(config[f], "AudioClip")
         if os.path.exists(p):
             audio_clips_dirs.append(p)

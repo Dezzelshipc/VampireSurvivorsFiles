@@ -6,7 +6,7 @@ Ripped from v1.12 + Moonspell + Foscari + Meeting + Guns + Ode
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 
-## Unpacker (v0.13b)
+## Unpacker (v0.14)
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
@@ -39,6 +39,9 @@ folders (`...\ExportedProject\Assets`).
 
 ### Functions
 
+* **Magic button to rip data automatically**: provided paths to _VS steam_ folder, _AssetRipper_ folder and _DLC_
+  folders you can select what files to rip.
+
 **Select image to unpack**: select png sprite sheet from assets to split it into separate
 sprites. ([Images/Generated/_By meta](Images) folder)
 
@@ -69,5 +72,7 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
 
 * **Get unified audio**: Copies audio files from musicData. Ability to select change of names: "Code names", "Audio
   titles", "Relative object names"
-* * "Relative object names" requires split eng lang data.
-* * Requires **[ffmpeg](https://ffmpeg.org)**.
+*
+    * "Relative object names" requires split eng lang data.
+*
+    * Requires **[ffmpeg](https://ffmpeg.org)**.

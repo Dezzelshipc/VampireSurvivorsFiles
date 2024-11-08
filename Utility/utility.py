@@ -3,13 +3,13 @@ import tkinter as tk
 from tkinter import ttk
 from collections.abc import Iterable
 from multiprocessing import Pool
-from Config.config import Config
+from Config.config import Config, CfgKey
 
 
 def run_multiprocess(func, args_list: Iterable, is_many_args = True, is_multiprocess = True, processes=None):
     __config = Config()
 
-    if is_multiprocess and __config["MULTIPROCESSING"]:
+    if is_multiprocess and __config[CfgKey.MULTIPROCESSING]:
         with Pool(processes) as p:
             if is_many_args:
                 return p.starmap(func, args_list)

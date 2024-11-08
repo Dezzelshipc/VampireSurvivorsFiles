@@ -9,7 +9,7 @@ from PIL import Image
 
 from Utility.singleton import Singleton
 from Utility.utility import run_multiprocess
-from Config.config import Config
+from Config.config import Config, CfgKey
 
 
 class MetaDataHandler(metaclass=Singleton):
@@ -21,8 +21,8 @@ class MetaDataHandler(metaclass=Singleton):
         self.loaded_assets_meta: dict[str: MetaData] = dict()
 
     def load_assets_meta_files(self):
-        paths = [f"{self.config["VS_ASSETS"]}/Resources/spritesheets"]
-        for f in filter(lambda x: "ASSETS" in x, self.config.data):
+        paths = [f"{self.config[CfgKey.VS]}/Resources/spritesheets"]
+        for f in filter(lambda x: "ASSETS" in x.value, self.config.data):
             p = os.path.join(self.config[f], "Texture2D")
             if os.path.exists(p):
                 paths.append(p)

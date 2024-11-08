@@ -18,6 +18,7 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
+from Config.config import CfgKey, DLCType
 from Images.image_unified_gen import gen_unified_images
 from Utility.utility import CheckBoxes, run_multiprocess
 from Utility.meta_data import MetaDataHandler
@@ -238,6 +239,12 @@ class Unpacker(tk.Tk):
             command=self.audio_gen_handler
         ).grid(row=10, column=2)
 
+        ttk.Button(
+            self,
+            text="Magic button to\nrip data automatically",
+            command=self.data_ripper
+        ).grid(row=5, column=0)
+
         self.loaded_meta = dict()
         self.guid_table = dict()
 
@@ -254,7 +261,7 @@ class Unpacker(tk.Tk):
         self.config.change_config(self)
 
     def get_assets_dir(self):
-        path = os.path.normpath(self.config["VS_ASSETS"])
+        path = os.path.normpath(self.config[CfgKey.VS])
         if not path.endswith("Assets"):
             path = None
         return path or "/"
@@ -576,11 +583,11 @@ class Unpacker(tk.Tk):
 
         print("Copying data files")
 
-        p_assets = list(filter(lambda x: "ASSETS" in x, self.config.data))
+        p_assets = list(filter(lambda x: "ASSETS" in x.value, self.config.data))
         paths = [
             (
                 f"{self.config[dlc_id]}\\TextAsset",
-                self.config.get_dlc_name(dlc_id)
+                DLCType.get_dlc_name(dlc_id)
             ) for dlc_id in p_assets
         ]
         paths = list(filter(lambda x: x[1], paths))
@@ -636,7 +643,7 @@ class Unpacker(tk.Tk):
 
     def get_assets_meta_files(self):
         paths = [f"{self.get_assets_dir()}/Resources/spritesheets"]
-        for f in filter(lambda x: "ASSETS" in x, self.config.data):
+        for f in filter(lambda x: "ASSETS" in x.value, self.config.data):
             p = os.path.join(self.config[f], "Texture2D")
             if os.path.exists(p):
                 paths.append(p)
@@ -814,7 +821,7 @@ class Unpacker(tk.Tk):
 
     def audio_gen_handler(self):
         from Utility.req_test import check_pydub
-        if not check_pydub() :
+        if not check_pydub():
             print("FFmpeg not found")
             showerror("Error", "FFmpeg not found")
             return
@@ -849,6 +856,33 @@ class Unpacker(tk.Tk):
         self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_set)
         if error:
             showerror("Error", error)
+
+    def data_ripper(self):
+        if not self.config[CfgKey.STEAM_VS] or not self.config[CfgKey.RIPPER]:
+            showerror("Error", "Not found path to VS steam folder or AssetRipper")
+            return
+
+        dlc_types_list = []
+        for d in DLCType.get_all():
+            if self.config[d.value.config_key]:
+                dlc_types_list.append(d)
+
+        cbs = CheckBoxes(dlc_types_list, parent=self, label="Select languages to include in split files",
+                         title="Select languages")
+        cbs.wait_window()
+        data_from_popup = cbs.return_data
+
+        if not data_from_popup:
+            return
+
+        dlc_types_set = {t for i, t in enumerate(dlc_types_list) if data_from_popup[i]}
+
+        if not dlc_types_set:
+            return
+
+        print(f"Started ripping files: {dlc_types_set}")
+        from Ripper.ripper import rip_files
+        rip_files(dlc_types_set)
 
 
 if __name__ == '__main__':
