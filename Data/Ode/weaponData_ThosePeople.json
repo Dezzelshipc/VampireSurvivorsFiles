@@ -2449,6 +2449,9 @@
       "requires": [
         "MAXHEALTH"
       ],
+	  "requiresMax": [
+        "MAXHEALTH"
+      ],
       "rarity": 1,
       "description": "Evolved Mace. Enemies struck may trigger areas of chain lightning. ",
       "power": 8,
@@ -2545,6 +2548,9 @@
         "TP_STARFLAIL1"
       ],
       "requires": [
+        "REGEN"
+      ],
+	  "requiresMax": [
         "REGEN"
       ],
       "rarity": 1,
@@ -3928,6 +3934,7 @@
       "amount": 1,
       "charges": 0,
       "hitsWalls": false,
+      "hitBoxDelay": 2000,
       "evoSynergy": [
         "MOVESPEED"
       ],
@@ -3994,6 +4001,7 @@
       "amount": 1,
       "charges": 1,
       "hitsWalls": false,
+      "hitBoxDelay": 2000,
       "knockback": 5
     }
   ],
@@ -6067,7 +6075,7 @@
       "name": "Anti Hex",
       "level": 1,
       "contentGroup": "THOSE_PEOPLE",
-      "sealable": true,
+      "sealable": false,
       "bulletType": "TP_EVIL1",
       "price": 200,
       "description": "-",

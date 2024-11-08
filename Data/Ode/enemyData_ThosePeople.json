@@ -713,7 +713,7 @@
       "deathKB": 3,
       "killedAmount": 0,
       "xp": 2.75,
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bName": "Bloody Painting",
       "frameNames": [
@@ -1167,7 +1167,7 @@
         "TP_AmalaricSniper_0.png"
       ],
       "bName": "Amalaric Sniper",
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "end": 8
     }
@@ -2207,6 +2207,9 @@
       "frameNames": [
         "TP_REUSE_GAIBON_0.png"
       ],
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
       "colliderOverride": {
         "offsetY": 25,
         "radius": 0.25,
@@ -2241,6 +2244,9 @@
       "frameNames": [
         "TP_Reuse_Slorga_0.png"
       ],
+      "bInclude": true,
+      "bPlaces": ["TP_CASTLE"],
+      "bHighlight": false,
       "colliderOverride": {
         "offsetY": 25,
         "radius": 0.25,
@@ -2926,7 +2932,7 @@
       "frameNames": [
         "WhiteDot.png"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "killedAmount": 0
     }

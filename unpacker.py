@@ -18,7 +18,6 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
-from Images.tilemap_gen import gen_tilemap
 from Images.image_unified_gen import gen_unified_images
 from Utility.utility import CheckBoxes, run_multiprocess
 from Utility.meta_data import MetaDataHandler
@@ -786,6 +785,7 @@ class Unpacker(tk.Tk):
         gen_unified_images(full_path, all_assets)
 
     def tilemap_gen_handler(self):
+        from Images.tilemap_gen import gen_tilemap
         start_path = f"{self.get_assets_dir()}\\PrefabInstance"
         if not os.path.exists(start_path):
             showwarning("Error",
