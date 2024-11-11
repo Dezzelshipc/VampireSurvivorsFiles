@@ -45,6 +45,7 @@ class DLCType(Enum):
     EM = DLC(3, CfgKey.EM, "CHALCEDONY", "2690330", "Emergency Meeting")
     OG = DLC(4, CfgKey.OG, "FIRST_BLOOD", "2887680", "Operation Guns")
     OC = DLC(5, CfgKey.OC, "THOSE_PEOPLE", "3210350", "Ode to Castlevania")
+    # IS = DLC(6, CfgKey.IS, "-", "-", "IS")
 
     def __str__(self):
         return self.value.full_name
@@ -201,7 +202,8 @@ class Config(metaclass=Singleton):
     def update_config(self):
         with open(self.config_path, "r", encoding="UTF-8") as f:
             json_file = json.loads(f.read())
-            self.data.update({CfgKey(k): v for k, v in json_file.items()})
+            self.data.update({dlc.value.config_key: "" for dlc in DLCType.get_all()})
+            self.data.update({CfgKey(k): v for k, v in json_file.items() if k in CfgKey})
 
     def save_file(self, data: dict | None = None):
         with open(self.config_path, "w", encoding="UTF-8") as f:
