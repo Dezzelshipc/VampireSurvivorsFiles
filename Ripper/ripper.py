@@ -3,7 +3,7 @@ import time
 import requests
 import os
 
-from Config.config import DLCType, Config, DLC, CfgKey
+from Config.config import DLCType, Config, CfgKey
 
 ripper_port = 56636
 ripper_url = f"http://127.0.0.1:{ripper_port}/"
@@ -55,6 +55,10 @@ def rip_files(dlc_list: set[DLCType]):
 
     for dlc in sorted(map(lambda x: x.value, dlc_list)):
         assets_path = (os.path.normpath(config[dlc.config_key]).replace(remove_from_path, ""))
+
+        if dlc.steam_index not in steam_folder:
+            print(f"Skipping {dlc.code_name} - Steam folder {dlc.steam_index} not found")
+            continue
 
         time_start_ripping = time.time()
 
