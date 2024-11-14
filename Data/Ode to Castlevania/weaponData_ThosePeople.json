@@ -987,7 +987,7 @@
       "area": 1,
       "speed": 1,
       "amount": 1,
-      "duration": 750,
+      "duration": 1000,
       "knockback": 2,
       "interval": 2500,
       "repeatInterval": 200,
@@ -1000,23 +1000,23 @@
       ]
     },
     {
-      "amount": 1
-    },
-    {
-      "penetrating": 1
-    },
-    {
-      "duration": 250
-    },
-    {
-      "penetrating": 1
+      "penetrating": 2
     },
     {
       "amount": 1
     },
     {
-      "duration": 250,
-      "penetrating": 1
+      "power": 1
+    },
+    {
+      "penetrating": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1,
+      "penetrating": 2
     },
     {
       "amount": 1,
@@ -1044,11 +1044,11 @@
       "requires": [
         "DURATION"
       ],
-      "power": 1,
+      "power": 3,
       "area": 1,
       "speed": 1,
       "amount": 4,
-      "duration": 1250,
+      "duration": 1500,
       "knockback": 2,
       "penetrating": 65535,
       "interval": 2500,
@@ -2674,14 +2674,14 @@
       "sealable": true,
       "rarity": 60,
       "poolLimit": 200,
-      "power": 0.5,
+      "power": 1,
       "area": 1,
       "speed": 1,
       "amount": 2,
       "duration": 750,
       "knockback": 1,
       "penetrating": 1,
-      "interval": 4000,
+      "interval": 3000,
       "repeatInterval": 200,
       "description": "-",
       "critChance": 0.05,
@@ -2692,21 +2692,24 @@
       "amount": 1
     },
     {
-      "area": 0.3
+      "area": 0.4
     },
     {
-      "power": 0.5
+      "power": 1,
+	  "interval": -500
     },
     {
       "amount": 1
     },
     {
-      "area": 0.3
+      "area": 0.4
     },
     {
-      "power": 0.5
+      "power": 1,
+	  "interval": -500
     },
     {
+	  "power": 1,
       "amount": 1,
       "addEvolvedWeapon": "TP_CHAUVE2"
     }
@@ -2733,18 +2736,18 @@
         "AMOUNT"
       ],
       "rarity": 1,
-      "interval": 4000,
-      "repeatInterval": 200,
-      "power": 2,
-      "secondaryPower": 4,
-      "area": 1.6,
+      "interval": 2000,
+      "repeatInterval": 150,
+      "power": 4,
+      "secondaryPower": 8,
+      "area": 1.8,
       "amount": 5,
       "speed": 1,
       "duration": 1300,
       "knockback": 1,
       "description": "-",
       "sealable": true,
-      "critChance": 0.3,
+      "critChance": 0.4,
       "critMul": 1,
       "canCrit": true
     }
@@ -2961,7 +2964,7 @@
       "penetrating": 1,
       "knockback": 0.5,
       "critChance": 0.1,
-      "critMul": 3,
+      "critMul": 2,
       "hitsWalls": false,
       "sealable": true
     },
@@ -3027,7 +3030,7 @@
       "penetrating": 1,
       "knockback": 0.5,
       "critChance": 0.2,
-      "critMul": 3,
+      "critMul": 2,
       "hitsWalls": false,
       "sealable": true
     }
@@ -6136,7 +6139,7 @@
       "name": "Neutron Bomb",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "frameName": "TP_NEUTRON_BOMB.png",
+      "frameName": "TP_NEUTRON_BOMB1.png",
       "description": "Deals high damage in a large area.",
       "isUnlocked": false,
       "isSpecialOnly": true,

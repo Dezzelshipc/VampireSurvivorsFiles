@@ -60,9 +60,10 @@ def rip_files(dlc_list: set[DLCType]):
             print(f"Skipping {dlc.code_name} - Steam folder {dlc.steam_index} not found")
             continue
 
+        print(dlc.code_name, "Loading to", assets_path, end="... ", flush=True)
+
         time_start_ripping = time.time()
 
-        print(dlc.code_name, "Loading to", assets_path, end="... ")
         requests.post(ripper_url + "LoadFolder", data={"Path": steam_folder[dlc.steam_index].path})
 
         print("Exporting", end="... ")
