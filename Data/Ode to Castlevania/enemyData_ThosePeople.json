@@ -195,7 +195,7 @@
       "maxKnockback": 3,
       "deathKB": 1,
       "xp": 1,
-      "idleFrameCount": 8,
+      "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "TP_enemiesReuse",
       "end": 14,
@@ -226,7 +226,7 @@
       "maxKnockback": 3,
       "deathKB": 1,
       "xp": 1,
-      "idleFrameCount": 8,
+      "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "TP_enemiesReuse",
       "end": 14,
@@ -1453,16 +1453,16 @@
       "deathKB": 2,
       "killedAmount": 0,
       "xp": 1.5,
-      "end": 8,
+      "end": 12,
       "textureName": "TP_enemiesReuse",
       "idleFrameCount": 4,
       "frameNames": [
-        "TP_Reuse_Axearmor_0.png"
+        "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.3,
-        "offsetX": 0,
-        "offsetY": 0
+        "radius": 0.55,
+        "offsetX": -10,
+        "offsetY": 5
       },
       "bName": "Axe Armor",
       "bInclude": true,
@@ -1486,16 +1486,16 @@
       "deathKB": 2,
       "killedAmount": 0,
       "xp": 1.5,
-      "end": 8,
+      "end": 12,
       "textureName": "TP_enemiesReuse",
       "idleFrameCount": 4,
       "frameNames": [
-        "TP_Reuse_Axearmor_0.png"
+        "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.3,
-        "offsetX": 0,
-        "offsetY": 0
+        "radius": 0.55,
+        "offsetX": -10,
+        "offsetY": 5
       },
       "enemyType": "TP_AXEARMOR_02"
     }
@@ -1512,16 +1512,16 @@
       "deathKB": 2,
       "killedAmount": 0,
       "xp": 1.5,
-      "end": 8,
+      "end": 12,
       "textureName": "TP_enemiesReuse",
       "idleFrameCount": 4,
       "frameNames": [
-        "TP_Reuse_Axearmor_0.png"
+        "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.3,
-        "offsetX": 0,
-        "offsetY": 0
+        "radius": 0.55,
+        "offsetX": -10,
+        "offsetY": 5
       },
       "enemyType": "TP_AXEARMOR_FAST"
     }
@@ -2102,14 +2102,14 @@
       "xp": 50,
       "end": 20,
       "textureName": "TP_enemiesReuse",
-      "idleFrameCount": 7,
+      "idleFrameCount": 5,
       "frameNames": [
         "TP_Malphas_0.png"
       ],
       "colliderOverride": {
-        "offsetY": 60,
-        "radius": 0.2,
-        "offsetX": 30
+        "radius": 0.15,
+        "offsetX": 35,        
+        "offsetY": 50
       }
     }
   ],
@@ -2462,7 +2462,12 @@
       "killedAmount": 0,
       "bName": "---",
       "bInclude": false,
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": -10,
+        "offsetY": -10
+      }
     }
   ],
   "TP_BOSS_GERGOTH": [

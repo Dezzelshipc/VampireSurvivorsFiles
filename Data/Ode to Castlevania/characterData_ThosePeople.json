@@ -3485,6 +3485,21 @@
               "y": -5
             }
           ]
+        },
+        {
+          "startingWeapon" : "TP_MORNINGSTAR",
+          "skinType": "SKIN_TP_REINHARDT_4MS",
+          "name": "SKIN_TP_REINHARDT_4MS",
+          "textureName": "character_tp_reinhardt",
+          "spriteName": "TP_Reinhardt_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -5
+            }
+          ]
         }
       ],
 
@@ -8202,7 +8217,7 @@
       "portraitName": "tp_axearmor.png",
       "textureName": "character_tp_axearmor",
       "spriteName": "TP_AxeArmor_i01.png",
-      "walkingFrames": 2,
+      "walkingFrames": 4,
       "startingWeapon": "AXE",
 
       "skins": [
@@ -8356,7 +8371,7 @@
           "name": "Default",
           "textureName": "character_tp_frozenshade",
           "spriteName": "TP_FrozenShade_i01.png",
-          "walkingFrames": 8,
+          "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [
             {
@@ -8832,7 +8847,7 @@
       "spriteName": "TP_Malphas_w01.png",
       "charSelTexture": "character_tp_malphas",
       "charSelFrame": "TP_MalphasSelect.png",
-      "walkingFrames": 7,
+      "walkingFrames": 5,
       "startingWeapon": "VOID",
       "bodyOffset": {
         "x": 32,
@@ -9294,7 +9309,7 @@
       "power":      3.5,
       "area":       1,
       "speed":      1,
-      "duration":   1,
+      "duration":   1.2,
       "amount":     0,
       "luck":       1,
       "growth":     1,
@@ -9420,7 +9435,7 @@
       "maxHp":      400,
       "armor":      2,
       "regen":      0,
-      "moveSpeed":  1.5,
+      "moveSpeed":  2,
       "power":      3.5,
       "area":       1,
       "speed":      1,
@@ -9570,7 +9585,7 @@
         "x": 17,
         "y": 29
       },
-      "maxHp":      400,
+      "maxHp":      666,
       "armor":      2,
       "regen":      0,
       "moveSpeed":  1.5,

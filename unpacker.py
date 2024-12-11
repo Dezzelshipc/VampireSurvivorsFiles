@@ -883,7 +883,7 @@ class Unpacker(tk.Tk):
         print(f"Started ripping files: {dlc_types_set}")
         from Ripper.ripper import rip_files
         rip_files(dlc_types_set)
-        
+
         print("Finished ripping files")
 
 
