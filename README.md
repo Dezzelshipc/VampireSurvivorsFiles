@@ -17,25 +17,33 @@ of characters and enemies.
 
 Use [Python 3.12](https://www.python.org/downloads/) and install dependencies `pip install -r requirements.txt`
 
-Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) **Export Unity Project** with settings:
-
-* Turn off "_Skip StreamingAssets Folder_",
-* "_Bundled Assets Export Mode_" set to _**Group By Asset Type**_,
-* "_Script Content Level_" set to _**Level 2**_ (**Warning**: Levels 1,2 could crash ripper for some reason (in old
-  versions), but only from Level 1 you can rip I2Languages. If it crashes try level 0),
-* "_Sprite Export Format_" set to _**Texture**_,
-* Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings.
-
-Main game and each DLC must be ripped separately (You have to own DLCs).
-In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open in
-AssetRipper.
-
 Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
-folders (`...\ExportedProject\Assets`).
+folders (`...\ExportedProject\Assets`, can be empty to automatically rip files).
+* ***NOTE*** that ripping will **remove
+everything** in selected folders!
 
-* _**Enable multiprocessing**_ can increase speed in some cases in exchange for "fully" loading CPU (and possibility of
+Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) 
+
+* **Automatically** - Enter path to AssetRipper.exe and Steam folder for Vampire Survivors in config. Press *Magic button* and
+  select DLCs to rip. Your previous settings for AssetRipper will be saved.
+
+* **Manually** - Export with **Export Unity Project** with settings:
+
+  * Turn off "_Skip StreamingAssets Folder_",
+  * "_Bundled Assets Export Mode_" set to _**Group By Asset Type**_,
+  * "_Script Content Level_" set to _**Level 2**_ (**Warning**: Levels 1,2 could crash ripper for some reason (in old
+    versions), but only from Level 1 you can rip I2Languages. If it crashes try level 0),
+  * "_Sprite Export Format_" set to _**Texture**_,
+  * Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings.
+
+    * Main game and each DLC must be ripped separately (You have to own DLCs).
+      In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open in
+      AssetRipper.
+
+_**Enable multiprocessing**_ can increase speed in some cases in exchange for "fully" loading CPU (and possibility of
   overflowing memory for very big files).
-    * Currently only for: _Get stage tilemap_.
+  
+  * Currently only for: _Get stage tilemap_.
 
 ### Functions
 
@@ -72,7 +80,5 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
 
 * **Get unified audio**: Copies audio files from musicData. Ability to select change of names: "Code names", "Audio
   titles", "Relative object names"
-*
-    * "Relative object names" requires split eng lang data.
-*
-    * Requires **[ffmpeg](https://ffmpeg.org)**.
+  * "Relative object names" requires split eng lang data.
+  * Requires **[ffmpeg](https://ffmpeg.org)**.
