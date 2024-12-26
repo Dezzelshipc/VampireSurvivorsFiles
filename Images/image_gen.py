@@ -413,6 +413,9 @@ class SimpleGenerator(ImageGenerator):
             name += f"-{k_id}"
             save_folder += "/hidden_skins"
 
+        if osfp := obj.get("save_folder_postfix"):
+            save_folder += osfp
+
         using_list = obj.get('for', GenType.main_list())
         scale_factor = settings[str(GenType.SCALE)]
 
@@ -632,6 +635,7 @@ class CharacterImageGenerator(TableGenerator):
         return itertools.chain(self.skins_generator(data), self.sprite_anims_generator(data))
 
     def skins_generator(self, data: dict):
+
         for k, vv in data.items():
             v = self.get_table_unit(vv, 0)
             if skins := v.get("skins", False):
@@ -646,7 +650,8 @@ class CharacterImageGenerator(TableGenerator):
                             "textureName": v.get("charSelTexture"),
                             "spriteName": v.get("charSelFrame"),
                             "for": [GenType.SCALE, GenType.FRAME],
-                            "not_save": [GenType.SCALE]
+                            # "not_save": [GenType.SCALE],
+                            "save_folder_postfix": "/select"
                         })
                         yield k, char
             else:
@@ -658,7 +663,8 @@ class CharacterImageGenerator(TableGenerator):
                         "textureName": v.get("charSelTexture"),
                         "spriteName": v.get("charSelFrame"),
                         "for": [GenType.SCALE, GenType.FRAME],
-                        "not_save": [GenType.SCALE]
+                        # "not_save": [GenType.SCALE],
+                        "save_folder_postfix": "/select"
                     })
                     yield k, char
 
