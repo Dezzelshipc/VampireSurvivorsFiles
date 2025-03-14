@@ -49,6 +49,7 @@ def rip_files(dlc_list: set[DLCType]):
                     settings_to.write(settings_from.read())
 
         os.startfile(ripper, 'open', f"--port {ripper_port} --launch-browser False")
+        time.sleep(0.5)
 
     remove_from_path = os.path.normpath("\\ExportedProject\\Assets")
     steam_folder = {p.name: p for p in os.scandir(config[CfgKey.STEAM_VS])}
@@ -66,8 +67,13 @@ def rip_files(dlc_list: set[DLCType]):
 
         requests.post(ripper_url + "LoadFolder", data={"Path": steam_folder[dlc.steam_index].path})
 
-        print("Exporting", end="... ")
+        os.makedirs(assets_path, exist_ok=True)
+        print("Exporting UnityProject", end="... ")
         requests.post(ripper_url + "Export/UnityProject", data={"Path": assets_path})
+
+        # os.makedirs(f"{assets_path}_PrimaryContent", exist_ok=True)
+        # print("Exporting PrimaryContent", end="... ")
+        # requests.post(ripper_url + "Export/PrimaryContent", data={"Path": f"{assets_path}_PrimaryContent"})
 
         print(f" ({round(time.time() - time_start_ripping, 2)} sec) Resetting")
         requests.post(ripper_url + "Reset")

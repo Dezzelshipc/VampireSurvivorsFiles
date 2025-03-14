@@ -45,7 +45,9 @@ def __generator_concatenate(add_content_group=True):
         cur_p = ""
         try:
             outdata = {}
+            index_start = 0
             for p in paths:
+                index_cur = 0
                 cur_p = p
                 with open_f(p) as file:
                     data = json.loads(clean_json(file.read()))
@@ -72,7 +74,32 @@ def __generator_concatenate(add_content_group=True):
                                 if not vv.get("contentGroup"):
                                     vv["contentGroup"] = cg
 
+                    same_id = []
+
+                    if "trophy" not in name:
+                        for j, (k, v) in enumerate(data.items()):
+                            if len(v) <= 0:
+                                continue
+
+                            vv = v
+                            while isinstance(vv, list) :
+                                vv = vv[0]
+
+                            index_cur = j + index_start
+                            vv["_index"] = index_cur
+
+                            if outdata.get(k):
+                                same_id.append(k)
+                                vv["_note"] = f"Found object with same id: {k}. Saved this object with different id"
+
+                    for _id in same_id:
+                        new_id = f"{_id}_DOUBLE"
+                        data[ new_id  ] = data[ _id ]
+                        del data[_id]
+
                     outdata.update(data)
+
+                index_start = index_cur + 1
 
             with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
                 outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))

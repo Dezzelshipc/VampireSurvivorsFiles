@@ -621,7 +621,7 @@ class Unpacker(tk.Tk):
             self.progress_bar_set(i + 1, total)
 
     @staticmethod
-    def data_selector() -> AnyStr | None:
+    def data_selector(add_title="") -> AnyStr | None:
         path = "./Data"
         if not os.path.exists(path):
             return
@@ -631,7 +631,7 @@ class Unpacker(tk.Tk):
         ]
 
         full_path = fd.askopenfilename(
-            title='Open a data file',
+            title=f'Open a data file{add_title}',
             initialdir=path,
             filetypes=filetypes
         )
@@ -828,7 +828,7 @@ class Unpacker(tk.Tk):
 
         import Audio.audio_unified_gen as audio_gen
 
-        data_path = self.data_selector()
+        data_path = self.data_selector(": any music.json")
         if not data_path:
             return
 
@@ -853,7 +853,7 @@ class Unpacker(tk.Tk):
 
         print(f"Started audio generating {os.path.basename(data_path)}, {save_types_set}")
 
-        self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_set)
+        self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_set, self)
         if error:
             showerror("Error", error)
 
