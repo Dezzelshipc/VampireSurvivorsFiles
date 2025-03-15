@@ -135,6 +135,46 @@ def get_data_file(path) -> dict | None:
     with open(path, 'r', encoding="UTF-8") as f:
         return json.loads(f.read())
 
+def get_all_fields(file_name):
+    data = get_data_file(get_data_path(file_name))
+    entry = None
+    for k, v in data.items():
+        entry = v
+        break
+
+    fields_data = [{}]
+
+    for _id, vals in data.items():
+        lst = vals
+        if not isinstance(entry, list):
+            lst = [vals]
+
+        for i, d in enumerate(lst):
+            if len(fields_data) < i+1:
+                fields_data.append({})
+            for k, v in d.items():
+                if k in fields_data[i]:
+                    if type(v) != fields_data[i][k][0]:
+                        continue
+
+                if isinstance(v, (int, float)) and not isinstance(v, bool):
+                    if k not in fields_data[i]:
+                        fields_data[i][k] = [type(v),1e10,-1e10] # type, min, max
+
+                    fields_data[i][k][1] = min(fields_data[i][k][1], v)
+                    fields_data[i][k][2] = max(fields_data[i][k][2], v)
+                elif isinstance(v, (list, dict)):
+                    if k not in fields_data[i]:
+                        fields_data[i][k] = [type(v), []]  # type, min, max
+                    fields_data[i][k][-1].append(v)
+                else:
+                    if k not in fields_data[i]:
+                        fields_data[i][k] = [type(v), set()]  # type, min, max
+                    fields_data[i][k][-1].add(v)
+
+    return fields_data
+
 
 if __name__ == "__main__":
-    concatenate()
+    # concatenate()
+    get_all_fields("characterData_Full.json")
