@@ -111,7 +111,7 @@ class TransparentAnimatedGifConverter(object):
         return self._img_p
 
 
-def _create_animated_gif(images: List[Image], durations: Union[int, List[int]]) -> Tuple[Image, dict]:
+def _create_animated(images: List[Image], durations: Union[int, List[int]], save_format: str) -> Tuple[Image, dict]:
     """If the image is a GIF, create an its thumbnail here."""
     save_kwargs = dict()
     new_images: List[Image] = []
@@ -126,7 +126,7 @@ def _create_animated_gif(images: List[Image], durations: Union[int, List[int]]) 
 
     output_image = new_images[0]
     save_kwargs.update(
-        format='GIF',
+        format=save_format,
         save_all=True,
         optimize=False,
         append_images=new_images[1:],
@@ -149,45 +149,26 @@ def save_transparent_gif(images: List[Image], durations: Union[int, List[int]], 
     Returns:
         Image - The PIL Image object (after first saving the image to the specified target)
     """
-    root_frame, save_args = _create_animated_gif(images, durations)
+    root_frame, save_args = _create_animated(images, durations, 'GIF')
     root_frame.save(save_file, **save_args)
 
-def _create_animated_webp(images: List[Image], durations: Union[int, List[int]]) -> Tuple[Image, dict]:
-    """If the image is a GIF, create an its thumbnail here."""
+
+def save_transparent_webp(images: List[Image], durations: Union[int, List[int]], save_file):
     save_kwargs = dict()
-    new_images: List[Image] = []
 
-    for frame in images:
-        thumbnail = frame.copy()  # type: Image
-        thumbnail_rgba = thumbnail.convert(mode='RGBA')
-        thumbnail_rgba.thumbnail(size=frame.size, reducing_gap=3.0)
-        converter = TransparentAnimatedGifConverter(img_rgba=thumbnail_rgba)
-        thumbnail_p = converter.process()  # type: Image
-        new_images.append(thumbnail_p)
-
-    output_image = new_images[0]
+    output_image = images[0]
     save_kwargs.update(
         format='WEBP',
         save_all=True,
         optimize=False,
-        append_images=new_images[1:],
+        append_images=images[1:],
         duration=durations,
         disposal=2,  # Other disposals don't work
         loop=0)
-    return output_image, save_kwargs
 
-def save_transparent_webp(images: List[Image], durations: Union[int, List[int]], save_file):
-    """Creates a transparent GIF, adjusting to avoid transparency issues that are present in the PIL library
+    root_frame, save_args = output_image, save_kwargs
+    root_frame.save(save_file, **save_args)
 
-    Note that this does NOT work for partial alpha. The partial alpha gets discarded and replaced by solid colors.
-
-    Parameters:
-        images: a list of PIL Image objects that compose the GIF frames
-        durations: an int or List[int] that describes the animation durations for the frames of this GIF
-        save_file: A filename (string), pathlib.Path object or file object. (This parameter corresponds
-                   and is passed to the PIL.Image.save() method.)
-    Returns:
-        Image - The PIL Image object (after first saving the image to the specified target)
-    """
-    root_frame, save_args = _create_animated_gif(images, durations)
+def save_transparent_apng(images: List[Image], durations: Union[int, List[int]], save_file):
+    root_frame, save_args = _create_animated(images, durations, 'APNG')
     root_frame.save(save_file, **save_args)

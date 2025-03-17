@@ -308,15 +308,16 @@ class ImageGenerator:
 
         sf_text = f'{p_dir}/Generated/{save_folder}/anim{save_append}'
 
-        if not os.path.isdir(sf_text):
-            os.makedirs(sf_text)
-            # os.makedirs(sf_text+"_webp")
+        os.makedirs(sf_text, exist_ok=True)
+        # os.makedirs(sf_text+"_webp", exist_ok=True)
+        # os.makedirs(sf_text+"_apng", exist_ok=True)
 
         total_duration = base_duration // frame_rate
 
         name = self.change_name(name)
         tr_save.save_transparent_gif(gif_list, total_duration, f"{sf_text}/{prefix_name}{name}{postfix_name}.gif")
         # tr_save.save_transparent_webp(gif_list, total_duration, f"{sf_text}_webp/{prefix_name}{name}{postfix_name}.webp")
+        # tr_save.save_transparent_apng(gif_list, total_duration, f"{sf_text}_apng/{prefix_name}{name}{postfix_name}.apng")
 
 
 class SimpleGenerator(ImageGenerator):
