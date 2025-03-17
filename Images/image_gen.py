@@ -232,25 +232,37 @@ class ImageGenerator:
         name = self.change_name(name)
         im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
 
-    def save_gif(self, meta, im: Image, file_name, name, save_folder, prefix_name="Animated-", postfix_name="",
-                 save_append="", frame_rate=6, scale_factor=1, base_duration=1000, file_name_clean=None,
-                 leading_zeros: None | int = None, limit_frames_count=1000) -> None:
+    def save_anim(self, meta, im: Image, file_name, name, save_folder, prefix_name="Animated-", postfix_name="",
+                  save_append="", frame_rate=6, scale_factor=1, base_duration=1000, file_name_clean=None,
+                  leading_zeros: None | int = None, limit_frames_count=1000) -> None:
         sx, sy = im.size
 
         file_name_clean = file_name_clean or file_name
 
         leading_zeros = self.animLeadingZeros and abs(self.animLeadingZeros) or leading_zeros
 
+        death_anim = "death" in prefix_name.lower()
+        postfix_leading_zeros = ""
+        if death_anim:
+            postfix_leading_zeros = "+"
+
         def filter_func(x):
             x = str(x).lower()
             file_name_lower = file_name_clean.lower()
             return x.startswith(file_name_lower) and re.match(
-                fr"^{file_name_lower}{r"\d" * leading_zeros}$", x)
+                fr"^{file_name_lower}{r"\d" * leading_zeros}{postfix_leading_zeros}$", x)
 
-        frames_list = sorted(filter(filter_func, meta.keys()))
+        def sort_key(x):
+            if death_anim:
+                num = x.split("_")[-1]
+            else:
+                num = x[-leading_zeros:]
+            return int(num) if num.isnumeric() else 0
+
+        frames_list = sorted(filter(filter_func, meta.keys()), key=sort_key)
         frames_count = len(frames_list)
 
-        # print(frames_list, leading_zeros, fr"^{file_name_clean}{r"\d" * leading_zeros}$")
+        print(frames_list, leading_zeros, fr"^{file_name_clean}{r"\d" * leading_zeros}$")
 
         im_list = []
         for i, frame_name in enumerate(frames_list):
@@ -306,15 +318,16 @@ class ImageGenerator:
 
         sf_text = f'{p_dir}/Generated/{save_folder}/anim{save_append}'
 
-        os.makedirs(sf_text+"/gif", exist_ok=True)
-        os.makedirs(sf_text+"/webp", exist_ok=True)
-        os.makedirs(sf_text+"/apng", exist_ok=True)
+        os.makedirs(sf_text + "/gif", exist_ok=True)
+        os.makedirs(sf_text + "/webp", exist_ok=True)
+        os.makedirs(sf_text + "/apng", exist_ok=True)
 
         total_duration = base_duration // frame_rate
 
         name = self.change_name(name)
         tr_save.save_transparent_gif(gif_list, total_duration, f"{sf_text}/gif/{prefix_name}{name}{postfix_name}.gif")
-        tr_save.save_transparent_webp(gif_list, total_duration, f"{sf_text}/webp/{prefix_name}{name}{postfix_name}.webp")
+        tr_save.save_transparent_webp(gif_list, total_duration,
+                                      f"{sf_text}/webp/{prefix_name}{name}{postfix_name}.webp")
         tr_save.save_transparent_apng(gif_list, total_duration, f"{sf_text}/apng/{prefix_name}{name}{postfix_name}.png")
 
 
@@ -437,30 +450,30 @@ class SimpleGenerator(ImageGenerator):
         if settings.get(str(GenType.ANIM)) and GenType.ANIM in using_list:
             if self.assets_type in [Type.ENEMY]:
                 prep = self.get_prepared_frame(file_name, "i")
-                self.save_gif(meta, im, prep[0], name, save_folder, scale_factor=scale_factor, file_name_clean=prep[2],
-                              leading_zeros=2)
+                self.save_anim(meta, im, prep[0], name, save_folder, scale_factor=scale_factor, file_name_clean=prep[2],
+                               leading_zeros=2)
             else:
                 prep = self.get_prepared_frame(file_name)
-                self.save_gif(meta, im, prep[0], name, save_folder, frame_rate=obj.get("walkFrameRate", 6),
-                              scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
-                              limit_frames_count=obj.get(self.dataAnimFramesKey))
+                self.save_anim(meta, im, prep[0], name, save_folder, frame_rate=obj.get("walkFrameRate", 6),
+                               scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
+                               limit_frames_count=obj.get(self.dataAnimFramesKey))
 
                 prep = self.get_prepared_frame(file_name + "1")
-                self.save_gif(meta, im, prep[0], name + "__1", save_folder, frame_rate=obj.get("walkFrameRate", 6),
-                              scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
-                              limit_frames_count=obj.get(self.dataAnimFramesKey))
+                self.save_anim(meta, im, prep[0], name + "__1", save_folder, frame_rate=obj.get("walkFrameRate", 6),
+                               scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1],
+                               limit_frames_count=obj.get(self.dataAnimFramesKey))
 
         if settings.get(str(GenType.DEATH_ANIM)) and GenType.DEATH_ANIM in using_list:
             prep = self.get_prepared_frame(file_name)
-            self.save_gif(meta, im, prep[0], name, save_folder, prefix_name="Animated-Death-", save_append="_death",
-                          frame_rate=20, scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1])
+            self.save_anim(meta, im, prep[0], name, save_folder, prefix_name="Animated-Death-", save_append="_death",
+                           frame_rate=20, scale_factor=scale_factor, file_name_clean=prep[2], leading_zeros=prep[1])
 
         if settings.get(str(GenType.ATTACK_ANIM)) and GenType.ATTACK_ANIM in using_list:
             prep = self.get_prepared_frame(file_name)
-            self.save_gif(meta, im, prep[0], name, save_folder, prefix_name="Animated-",
-                          postfix_name=obj.get("postfix_name"), save_append="_special",
-                          frame_rate=obj.get("frameRate", 6), scale_factor=scale_factor, file_name_clean=prep[2],
-                          leading_zeros=2, limit_frames_count=obj.get("framesNumber"))
+            self.save_anim(meta, im, prep[0], name, save_folder, prefix_name="Animated-",
+                           postfix_name=obj.get("postfix_name"), save_append="_special",
+                           frame_rate=obj.get("frameRate", 6), scale_factor=scale_factor, file_name_clean=prep[2],
+                           leading_zeros=2, limit_frames_count=obj.get("framesNumber"))
 
 
 class ItemImageGenerator(SimpleGenerator):
@@ -768,7 +781,7 @@ class CharacterImageGenerator(TableGenerator):
         text = add_data["clear_name"].strip()
         font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 30)
         w = font.getbbox(text)[2] + scale_factor
-        h = font.getbbox(text+"|")[3]
+        h = font.getbbox(text + "|")[3]
 
         if w > frame_im.size[0] - 4 * scale_factor:
             if " " in text:
