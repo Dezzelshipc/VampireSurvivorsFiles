@@ -51,8 +51,7 @@ def generator_split_to_files(languages: dict, lang_list: list):
                 full_d[group_name][lang].update({full_key[1]: entry})
 
     for group_name in full_d.keys():
-        if not os.path.exists(folder_to_save):
-            os.makedirs(folder_to_save)
+        os.makedirs(folder_to_save, exist_ok=True)
 
         with open(f'{folder_to_save}/{group_name}.json', 'w', encoding="UTF-8") as part_file:
             part_file.write(json.dumps(full_d[group_name], ensure_ascii=False, indent=2))

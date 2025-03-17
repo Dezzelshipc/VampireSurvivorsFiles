@@ -80,4 +80,5 @@ def rip_files(dlc_list: set[DLCType]):
 
 
 if __name__ == "__main__":
-    rip_files({DLCType.MS, DLCType.OG, DLCType.FS})
+    # rip_files({DLCType.MS, DLCType.OG, DLCType.FS})
+    pass

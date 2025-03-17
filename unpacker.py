@@ -398,8 +398,7 @@ class Unpacker(tk.Tk):
                         "But it is also possible that data was ripped with incorrect setting.")
             return
 
-        if not os.path.exists(folder_to_save):
-            os.makedirs(folder_to_save)
+        os.makedirs(folder_to_save, exist_ok=True)
 
         print(f"Files out of {total}:")
 
@@ -465,8 +464,7 @@ class Unpacker(tk.Tk):
                 return
 
             folder_to_save = "./Translations"
-            if not os.path.exists(folder_to_save):
-                os.makedirs(folder_to_save)
+            os.makedirs(folder_to_save, exist_ok=True)
 
             with open(folder_to_save + "/I2Languages.yaml", 'w', encoding="UTF-8") as yml:
                 yml.write(text)
@@ -507,8 +505,8 @@ class Unpacker(tk.Tk):
             yaml_file = self.get_lang_meta()
 
             folder_to_save = "./Translations/Generated"
-            if not os.path.exists(folder_to_save):
-                os.makedirs(folder_to_save)
+
+            os.makedirs(folder_to_save, exist_ok=True)
 
             with open(folder_to_save + "/I2Languages.json", 'w', encoding="UTF-8") as json_file:
                 json_file.write(json.dumps(yaml_file, ensure_ascii=False, indent=None))

@@ -28,8 +28,7 @@ def gen_path(paths, name):
 def __generator_concatenate(add_content_group=True):
     path = os.path.split(__file__)[0]
     folder_to_save = path + "/Generated"
-    if not os.path.exists(folder_to_save):
-        os.makedirs(folder_to_save)
+    os.makedirs(folder_to_save, exist_ok=True)
 
     names = [f.name.split("_")[0].split('.')[0].lower().replace("data", "") for f in
              os.scandir(path + "/Vampire Survivors")]

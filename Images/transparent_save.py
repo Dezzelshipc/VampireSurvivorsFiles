@@ -111,7 +111,7 @@ class TransparentAnimatedGifConverter(object):
         return self._img_p
 
 
-def _create_animated(images: List[Image], durations: Union[int, List[int]], save_format: str) -> Tuple[Image, dict]:
+def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], save_format: str) -> Tuple[Image, dict]:
     """If the image is a GIF, create an its thumbnail here."""
     save_kwargs = dict()
     new_images: List[Image] = []
@@ -135,8 +135,22 @@ def _create_animated(images: List[Image], durations: Union[int, List[int]], save
         loop=0)
     return output_image, save_kwargs
 
+def _create_animated(images: List[Image], durations: Union[int, List[int]], save_format: str, disposal: int = 2) -> Tuple[Image, dict]:
+    """If the image is a GIF, create an its thumbnail here."""
+    save_kwargs = dict()
 
-def save_transparent_gif(images: List[Image], durations: Union[int, List[int]], save_file):
+    output_image = images[0]
+    save_kwargs.update(
+        format=save_format,
+        save_all=True,
+        optimize=False,
+        append_images=images[1:],
+        duration=durations,
+        disposal=disposal,  # Other disposals don't work
+        loop=0)
+    return output_image, save_kwargs
+
+def save_transparent_gif2(images: List[Image], durations: Union[int, List[int]], save_file):
     """Creates a transparent GIF, adjusting to avoid transparency issues that are present in the PIL library
 
     Note that this does NOT work for partial alpha. The partial alpha gets discarded and replaced by solid colors.
@@ -149,26 +163,20 @@ def save_transparent_gif(images: List[Image], durations: Union[int, List[int]], 
     Returns:
         Image - The PIL Image object (after first saving the image to the specified target)
     """
+    root_frame, save_args = _create_animated_gif(images, durations, 'GIF')
+    root_frame.save(save_file, **save_args)
+
+
+def save_transparent_gif(images: List[Image], durations: Union[int, List[int]], save_file):
     root_frame, save_args = _create_animated(images, durations, 'GIF')
     root_frame.save(save_file, **save_args)
 
 
 def save_transparent_webp(images: List[Image], durations: Union[int, List[int]], save_file):
-    save_kwargs = dict()
-
-    output_image = images[0]
-    save_kwargs.update(
-        format='WEBP',
-        save_all=True,
-        optimize=False,
-        append_images=images[1:],
-        duration=durations,
-        disposal=2,  # Other disposals don't work
-        loop=0)
-
-    root_frame, save_args = output_image, save_kwargs
+    root_frame, save_args = _create_animated(images, durations, 'WEBP')
     root_frame.save(save_file, **save_args)
 
+
 def save_transparent_apng(images: List[Image], durations: Union[int, List[int]], save_file):
-    root_frame, save_args = _create_animated(images, durations, 'APNG')
+    root_frame, save_args = _create_animated(images, durations, 'PNG', 1)
     root_frame.save(save_file, **save_args)

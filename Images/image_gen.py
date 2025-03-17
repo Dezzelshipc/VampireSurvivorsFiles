@@ -176,8 +176,7 @@ class ImageGenerator:
 
         sf_text = f'{p_dir}/Generated/{save_folder}'
 
-        if not os.path.isdir(sf_text):
-            os.makedirs(sf_text)
+        os.makedirs(sf_text, exist_ok=True)
 
         name = self.change_name(name)
         if is_save:
@@ -191,8 +190,7 @@ class ImageGenerator:
 
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
 
-        if not os.path.isdir(sf_text):
-            os.makedirs(sf_text)
+        os.makedirs(sf_text, exist_ok=True)
 
         if im_obj_data is None:
             return
@@ -308,16 +306,16 @@ class ImageGenerator:
 
         sf_text = f'{p_dir}/Generated/{save_folder}/anim{save_append}'
 
-        os.makedirs(sf_text, exist_ok=True)
-        # os.makedirs(sf_text+"_webp", exist_ok=True)
-        # os.makedirs(sf_text+"_apng", exist_ok=True)
+        os.makedirs(sf_text+"/gif", exist_ok=True)
+        os.makedirs(sf_text+"/webp", exist_ok=True)
+        os.makedirs(sf_text+"/apng", exist_ok=True)
 
         total_duration = base_duration // frame_rate
 
         name = self.change_name(name)
-        tr_save.save_transparent_gif(gif_list, total_duration, f"{sf_text}/{prefix_name}{name}{postfix_name}.gif")
-        # tr_save.save_transparent_webp(gif_list, total_duration, f"{sf_text}_webp/{prefix_name}{name}{postfix_name}.webp")
-        # tr_save.save_transparent_apng(gif_list, total_duration, f"{sf_text}_apng/{prefix_name}{name}{postfix_name}.apng")
+        tr_save.save_transparent_gif(gif_list, total_duration, f"{sf_text}/gif/{prefix_name}{name}{postfix_name}.gif")
+        tr_save.save_transparent_webp(gif_list, total_duration, f"{sf_text}/webp/{prefix_name}{name}{postfix_name}.webp")
+        tr_save.save_transparent_apng(gif_list, total_duration, f"{sf_text}/apng/{prefix_name}{name}{postfix_name}.png")
 
 
 class SimpleGenerator(ImageGenerator):
@@ -762,9 +760,9 @@ class CharacterImageGenerator(TableGenerator):
 
         p_dir = os.path.split(__file__)[0]
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
-        if not os.path.isdir(sf_text):
-            os.makedirs(sf_text)
-            os.makedirs(sf_text + '/text')
+
+        os.makedirs(sf_text, exist_ok=True)
+        os.makedirs(sf_text + '/text', exist_ok=True)
 
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()
@@ -883,9 +881,8 @@ class StageImageGenerator(TableGenerator):
 
         sf_text = f'{p_dir}/Generated/{save_folder}/icon'
 
-        if not os.path.isdir(sf_text):
-            os.makedirs(sf_text)
-            os.makedirs(sf_text + "/text")
+        os.makedirs(sf_text, exist_ok=True)
+        os.makedirs(sf_text + "/text", exist_ok=True)
 
         im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
                                    PIL.Image.NEAREST)
