@@ -4,13 +4,13 @@ import os
 from math import log2, pow, ceil
 import time
 from unityparser import UnityDocument
-from PIL import Image, ImageOps
+from PIL import Image
 
 from Config.config import Config, CfgKey
 from Utility.singleton import Singleton
-from Utility.utility import CheckBoxes, run_multiprocess
-from Utility.meta_data import MetaData, get_meta_dict_by_guid_set, get_meta_by_guid_set
-from Utility.image_functions import crop_image_rect, resize_image
+from Utility.utility import CheckBoxes, run_multiprocess, write_in_file_end, clear_file
+from Utility.meta_data import get_meta_by_guid_set
+from Utility.image_functions import crop_image_rect, resize_image, affine_transform
 
 this_dir, this_file = os.path.split(__file__)
 
@@ -30,8 +30,7 @@ class TilemapDataHandler(metaclass=Singleton):
         return 32, 32
 
 
-def __get_sprite(spritesheet: Image, sprite_data: dict, size_tile: tuple) -> Image:
-
+def __get_sprite_cropped(spritesheet: Image, sprite_data: dict, size_tile: tuple) -> Image:
     if not sprite_data:
         return None
 
@@ -46,20 +45,21 @@ def __get_sprite(spritesheet: Image, sprite_data: dict, size_tile: tuple) -> Ima
     return im_crop
 
 
-def __affine_transform(image: Image, matrix: tuple) -> Image:
-    a, b, c, d, e, f = matrix
+def __get_sprite(spritesheet: Image, sprite_data: dict) -> Image:
+    if not sprite_data:
+        return None
 
-    if a + b < 0:
-        image = ImageOps.mirror(image)
+    return crop_image_rect(spritesheet, sprite_data["rect"])
 
-    if d + e < 0:
-        image = ImageOps.flip(image)
 
-    if b or d:
-        image = image.rotate(-90)
-        image = ImageOps.flip(image)
+def __resize_sprite_for_tile(image: Image, sprite_data: dict, size_tile: tuple):
+    im_crop = image.copy()
 
-    return image
+    shift_x = int(sprite_data['rect']['width'] * sprite_data['pivot']['x'])
+    shift_y = int(sprite_data['rect']['height'] * sprite_data['pivot']['y'])
+
+    return im_crop.crop(
+        (shift_x, im_crop.height - shift_y - size_tile[1], shift_x + size_tile[0], im_crop.height - shift_y))
 
 
 def __split_tilemap_prefab(tilemap: list):
@@ -178,31 +178,37 @@ def __create_Tilemap_image(tilemap: Tilemap, im_map: Image, textures: dict[str: 
     size_tile_x, size_tile_y = TilemapDataHandler.get_size_tile()
 
     tile_sprite_array = [(int(x["m_Data"]["fileID"]), x["m_Data"]["guid"]) for x in tilemap.m_TileSpriteArray]
-    tile_matrix_array = [{k: int(float(v)) for k, v in x["m_Data"].items()} for x in tilemap.m_TileMatrixArray]
+    tile_matrix_array = [{k: float(v) for k, v in x["m_Data"].items()} if int(x["m_RefCount"]) > 0 else {} for x in tilemap.m_TileMatrixArray ]
     tiles = ({
         "pos": {k: int(v) for k, v in x["first"].items()},
         "tile_index": int(x["second"]["m_TileIndex"]),
         "matrix_index": int(x["second"]["m_TileMatrixIndex"])
     } for x in tilemap.m_Tiles)
 
+    log_path = os.path.join(os.path.split(save_path)[0], "errors.log")
+    log_list = []
     for tile in tiles:
         tile_inner_id, texture_guid = tile_sprite_array[tile["tile_index"]]
 
         image, data_id = textures.get(texture_guid)
         sprite_data = data_id.get(tile_inner_id)
-        sprite = __get_sprite(image, sprite_data, (size_tile_x, size_tile_y))
+
+        sprite = __get_sprite(image, sprite_data)
+        sprite = __resize_sprite_for_tile(sprite, sprite_data, (size_tile_x, size_tile_y))
 
         if not sprite:
-            print(f"Sprite error: {image=} {len(data_id)=} {texture_guid=} {tile_inner_id=} {sprite_data=}")
+            line = f"Sprite error: {image=} {len(data_id)=} {texture_guid=} {tile_inner_id=} {sprite_data=}\n"
+            log_list.append(line)
             continue
 
         matrix = tile_matrix_array[tile["matrix_index"]]
         if matrix["e00"] != 1 or matrix["e11"] != 1:
-            affine = (matrix["e00"], matrix["e10"], matrix["e20"], matrix["e01"], matrix["e11"], matrix["e21"])
-            sprite = __affine_transform(sprite, affine)
+            affine = (matrix["e00"], matrix["e10"], matrix["e01"], matrix["e11"])
+            sprite = affine_transform(sprite, affine)
 
         im_map.alpha_composite(sprite, (tile['pos']['x'] * size_tile_x, abs(tile['pos']['y']) * size_tile_y))
 
+    write_in_file_end(log_path, log_list)
     __save_image(im_map, save_path)
 
     return im_map
@@ -270,6 +276,7 @@ def gen_tilemap(path: str):
         os.makedirs(save_folder)
 
     print(f"Started generating tilemap for {p_file}")
+    clear_file(os.path.join(save_folder, "errors.log"))
     time_start_generation = time.time()
 
     size_tile_x, size_tile_y = handler.size_tile
@@ -287,68 +294,58 @@ def gen_tilemap(path: str):
         for i, tilemap in enumerate(tilemaps)
     )
 
-    tilemap_layers = run_multiprocess(__create_Tilemap_image, args_create_tilemap)
+    tilemap_layers = run_multiprocess(__create_Tilemap_image, args_create_tilemap, is_multiprocess=False)
 
     print(f"Started composing layers for {p_file}")
 
-    composed_tilemaps = []
     for i, layer in enumerate(tilemap_layers):
         if i in exclude_layers:
             continue
         im_map.alpha_composite(layer)
-        composed_tilemaps.append(im_map.copy())
-
-        # __save_image(im_map, f"{save_folder}/{save_file}-{i}.png")
-
-    args_composed = ((image, f"{save_folder}/{save_file}-{i}.png") for i, image in enumerate(composed_tilemaps))
-
-    run_multiprocess(__save_image, args_composed)
+        __save_image(im_map, f"{save_folder}/{save_file}-{i}.png")
 
     print(f"Finished generation for tilemap {p_file} ({round(time.time() - time_start_generation, 2)} sec)")
 
     return save_folder
 
 
-def __test(path, func_get_meta):
-    tile_id = 21300000
-
-    meta, image = func_get_meta(*os.path.split(path), is_internal_id=True)
-
-    sprite = __get_sprite(image, meta.get(tile_id), (32, 32))
-
-    transform_list = ((1, 1), (1, -1), (-1, 1), (-1, -1))
-
-    save_folder = "./Generated/_Test"
-    if not os.path.exists(save_folder):
-        os.makedirs(save_folder)
-
-    for i, (x1, x2) in enumerate(transform_list):
-        aff1 = (x1, 0, 0, 0, x2, 0)
-        aff2 = (0, x1, 0, x2, 0, 0)
-
-        sprite1 = __affine_transform(sprite, aff1)
-        sprite2 = __affine_transform(sprite, aff2)
-
-        sprite1.save(f"{save_folder}/{tile_id}-1_{i}.png")
-        sprite2.save(f"{save_folder}/{tile_id}-2_{i}.png")
-
-
 if __name__ == "__main__":
-    from unpacker import Unpacker
+    def __test(name: str, tile_id: int):
+        from Utility.meta_data import get_meta_by_name_set, MetaDataHandler
+        MetaDataHandler().load_guid_paths()
+        meta_list = get_meta_by_name_set({name}, is_multiprocess=False)
 
-    unp = Unpacker()
-    all_assets = unp.get_assets_meta_files()
+        image = meta_list[0].image
+        meta = meta_list[0].data_id
 
-    texture = "Atlas_LibraryTexturePacked_1_0"
+        size_tile = (32,) * 2
+        sprite_data = meta.get(tile_id)
 
+        # sprite = __get_sprite_cropped(image, sprite_data, size_tile)
+        sprite = __get_sprite(image, sprite_data)
 
-    def filter_assets(x):
-        name_low = x.name.lower()
-        texture_low = texture.lower()
-        return name_low.startswith(f"{texture_low}") and name_low.endswith(f"{texture_low}.png.meta")
+        transform_list = ((1, 1), (1, -1), (-1, 1), (-1, -1))
 
+        save_folder = "./Generated/_Tilemaps/_Test"
+        os.makedirs(save_folder, exist_ok=True)
+        sprite.save(f"{save_folder}/{tile_id}.png")
 
-    meta_path = list(filter(filter_assets, all_assets))[0]
-    print(meta_path)
+        for i, (x1, x2) in enumerate(transform_list):
+            aff1 = (x1, 0, 0, x2)
+            aff2 = (0, x1, x2, 0)
 
-    __test(meta_path, unp.get_meta_by_full_path)
+            sprite1 = sprite.copy()
+            sprite2 = sprite.copy()
+
+            sprite1 = __resize_sprite_for_tile(sprite1, sprite_data, size_tile)
+            sprite2 = __resize_sprite_for_tile(sprite2, sprite_data, size_tile)
+
+            sprite1 = affine_transform(sprite1, aff1)
+            sprite2 = affine_transform(sprite2, aff2)
+
+            sprite1.save(f"{save_folder}/{tile_id}-1_{i}.png")
+            sprite2.save(f"{save_folder}/{tile_id}-2_{i}.png")
+
+    texture = "Collab1_Tileset1_V6"
+    t_id = 21303880
+    __test(texture, t_id)

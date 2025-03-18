@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageOps
 from PIL.Image import Resampling
 
 from Utility.utility import run_multiprocess
@@ -25,3 +25,19 @@ def split_image(meta_data: MetaData) -> dict[str|int: Image]:
             data["internalID"]: sprite
         })
     return sprites_dict
+
+
+def affine_transform(image: Image, matrix: tuple) -> Image:
+    e00, e10, e01, e11 = matrix
+
+    if e00 + e10 < 0:
+        image = ImageOps.mirror(image)
+
+    if e01 + e11 < 0:
+        image = ImageOps.flip(image)
+
+    if e10 or e01:
+        image = image.rotate(-90)
+        image = ImageOps.flip(image)
+
+    return image

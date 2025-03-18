@@ -7,6 +7,7 @@ from dataclasses import dataclass
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showerror
+from typing import Self
 
 from Utility.singleton import Singleton
 
@@ -55,7 +56,7 @@ class DLCType(Enum):
         return f"<{DLCType.__name__}.{self.name} - {val.code_name} - {val.full_name}>"
 
     @classmethod
-    def get_all(cls):
+    def get_all(cls) -> list[Self]:
         dlcs = [*cls]
         return list(sorted(dlcs, key=lambda x: x.value))
 
@@ -75,6 +76,11 @@ class DLCType(Enum):
     def get_code_name(config_key: CfgKey) -> str | None:
         dlc = DLCType.get_by_config(config_key)
         return dlc.code_name if dlc else None
+
+    @classmethod
+    def get(cls, index: int) -> Self | None:
+        _all = cls.get_all()
+        return _all[index] if index < len(_all) else None
 
 
 class Config(metaclass=Singleton):

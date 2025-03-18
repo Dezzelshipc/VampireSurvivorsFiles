@@ -6,7 +6,7 @@ from multiprocessing import Pool
 from Config.config import Config, CfgKey
 
 
-def run_multiprocess(func, args_list: Iterable, is_many_args = True, is_multiprocess = True, processes=None):
+def run_multiprocess(func, args_list: Iterable, is_many_args=True, is_multiprocess=True, processes=None):
     __config = Config()
 
     if is_multiprocess and __config[CfgKey.MULTIPROCESSING]:
@@ -23,10 +23,11 @@ def run_multiprocess(func, args_list: Iterable, is_many_args = True, is_multipro
 
 
 class CheckBoxes(tk.Toplevel):
-    def __init__(self, list_to_boxes, title="", label="", parent=None):
+    def __init__(self, list_to_boxes, title="", label="", parent=None, width: int = 300):
         super().__init__(parent)
         self.parent = parent
         self.title(title)
+        self.minsize(width, 200)
         label = ttk.Label(self, text=label)
         label.pack()
 
@@ -61,3 +62,35 @@ class CheckBoxes(tk.Toplevel):
     def __close(self):
         self.return_data = self.get_states()
         self.destroy()
+
+
+class ButtonsBox(tk.Toplevel):
+    def __init__(self, list_to_texts, title="", label="", parent=None, width: int = 300):
+        super().__init__(parent)
+        self.parent = parent
+        self.minsize(width, 200)
+        self.title(title)
+        label = ttk.Label(self, text=label)
+        label.pack()
+
+        self.return_data = None
+
+        for i, val in enumerate(list_to_texts):
+            button = tk.Button(self, text=val, command=self.__close(i))
+            button.pack()
+
+    def __close(self, i):
+        def f():
+            self.return_data = i
+            self.destroy()
+
+        return f
+
+
+def clear_file(save_path: str | os.PathLike[str]):
+    with open(save_path, "w+", encoding="UTF-8") as f:
+        f.write("")
+
+def write_in_file_end(save_path: str | os.PathLike[str], lines: list[str]):
+    with open(save_path, "a+", encoding="UTF-8") as f:
+        f.writelines(lines)

@@ -11,6 +11,9 @@ from Utility.singleton import Singleton
 from Utility.utility import run_multiprocess
 from Config.config import Config, CfgKey
 
+def normalize_str(s: str):
+    return s.lower().replace(".png", "").replace(".meta", "")
+
 
 class MetaDataHandler(metaclass=Singleton):
     def __init__(self):
@@ -99,14 +102,18 @@ def __get_meta(meta_path: str) -> MetaData:
 
     doc = UnityDocument.load_yaml(meta_path, try_preserve_types=True)
     entry = doc.entry
-    data = entry["TextureImporter"]["spriteSheet"]["sprites"]
+
+    internal_id_to_name_table = entry["TextureImporter"]["internalIDToNameTable"]
+    sprites_data = entry["TextureImporter"]["spriteSheet"]["sprites"]
 
     prepared_data_name = dict()
     prepared_data_id = dict()
-    for data_entry in data:
+    for i, data_entry in enumerate(sprites_data):
+        internal_id = list(internal_id_to_name_table[i]['first'].values())[0] # not depends on key
+
         prepared_data_entry = {
-            'name': data_entry['name'],
-            'internalID': data_entry['internalID'],
+            'name': normalize_str(data_entry['name']),
+            'internalID': internal_id,
             'rect': {
                 k: float(v) for k, v in data_entry['rect'].items()
             },
@@ -118,11 +125,11 @@ def __get_meta(meta_path: str) -> MetaData:
             data_entry['name']: prepared_data_entry
         })
         prepared_data_id.update({
-            data_entry['internalID']: prepared_data_entry
+            internal_id: prepared_data_entry
         })
 
     guid = entry['guid']
-    name = os.path.basename( meta_path_name.replace(".meta", "") ).lower()
+    name = os.path.basename( normalize_str( meta_path_name ) )
 
     print(f"Finished parsing {meta_path_name} [{guid=}] ({round(time.time() - time_start_parsing, 2)} sec)")
 
@@ -134,11 +141,10 @@ def get_meta_by_name_set(name_set: set, is_multiprocess=True) -> list[MetaData]:
     not_loaded_name_set = {name for name in name_set if name.lower() not in handler.loaded_assets_meta}
 
     if not_loaded_name_set:
-        lower_set = {name.lower() for name in not_loaded_name_set}
+        lower_set = {normalize_str(name) for name in not_loaded_name_set}
 
         def filter_assets(x):
-            x = os.path.split(x)[1]
-            name_low = x.lower().replace(".png", "").replace(".meta", "")
+            name_low = normalize_str(os.path.split(x)[1])
             return name_low in lower_set
 
         paths = list(filter(filter_assets, handler.assets_paths))

@@ -18,9 +18,9 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
-from Config.config import CfgKey, DLCType
+from Config.config import CfgKey, DLCType, Config
 from Images.image_unified_gen import gen_unified_images
-from Utility.utility import CheckBoxes, run_multiprocess
+from Utility.utility import CheckBoxes, run_multiprocess, ButtonsBox
 from Utility.meta_data import MetaDataHandler
 
 
@@ -260,8 +260,8 @@ class Unpacker(tk.Tk):
     def change_config(self):
         self.config.change_config(self)
 
-    def get_assets_dir(self):
-        path = os.path.normpath(self.config[CfgKey.VS])
+    def get_assets_dir(self, key: CfgKey = CfgKey.VS):
+        path = os.path.normpath(self.config[key])
         if not path.endswith("Assets"):
             path = None
         return path or "/"
@@ -790,9 +790,28 @@ class Unpacker(tk.Tk):
         gen_unified_images(full_path, all_assets)
 
     def tilemap_gen_handler(self):
-        from Images.tilemap_gen import gen_tilemap
-        start_path = f"{self.get_assets_dir()}\\PrefabInstance"
-        if not os.path.exists(start_path):
+
+        all_dlcs = config.DLCType.get_all()
+        bb = ButtonsBox(all_dlcs, "Select DLC", "Select DLC to open respective folder", self)
+        bb.wait_window()
+
+        if bb.return_data is None:
+            return
+
+        selected_dlc = all_dlcs[ bb.return_data or 0 ].value
+
+        is_found = False
+        folders = ["GameObject", "PrefabInstance"]
+
+        start_path = './'
+        for folder in folders:
+            start_path = f"{self.get_assets_dir(selected_dlc.config_key)}\\{folder}"
+            if os.path.exists(start_path):
+                is_found = True
+                break
+
+
+        if not is_found:
             showwarning("Error",
                         "PrefabInstance folder in assets not exists.")
             start_path = './'
@@ -802,7 +821,7 @@ class Unpacker(tk.Tk):
         ]
 
         full_path = fd.askopenfilename(
-            title='Select prefab file',
+            title='Select prefab file of tilemap',
             initialdir=start_path,
             filetypes=filetypes
         )
@@ -814,6 +833,7 @@ class Unpacker(tk.Tk):
 
         MetaDataHandler().load_guid_paths()
 
+        from Images.tilemap_gen import gen_tilemap
         save_folder = gen_tilemap(full_path)
         self.last_loaded_folder = save_folder
 
