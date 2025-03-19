@@ -147,6 +147,9 @@ class ImageGenerator:
             file_name = file_names.pop(0)
             try:
                 if meta.get(f"{file_name}1"):
+                    print(file_name+"1", meta.get(f"{file_name}1"))
+
+                if self.assets_type == Type.PROPS and meta.get(f"{file_name}1"):
                     file_name = f"{file_name}1"
                     meta_data = meta.get(file_name)
                 else:
@@ -253,6 +256,8 @@ class ImageGenerator:
                 fr"^{file_name_lower}{r"\d" * leading_zeros}{postfix_leading_zeros}$", x)
 
         def sort_key(x):
+            if isinstance(x, int):
+                return x
             if death_anim:
                 num = x.split("_")[-1]
             else:
@@ -262,7 +267,7 @@ class ImageGenerator:
         frames_list = sorted(filter(filter_func, meta.keys()), key=sort_key)
         frames_count = len(frames_list)
 
-        print(frames_list, leading_zeros, fr"^{file_name_clean}{r"\d" * leading_zeros}$")
+        # print(frames_list, leading_zeros, fr"^{file_name_clean}{r"\d" * leading_zeros}$")
 
         im_list = []
         for i, frame_name in enumerate(frames_list):
