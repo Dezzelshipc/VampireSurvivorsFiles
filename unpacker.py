@@ -69,7 +69,7 @@ class Unpacker(tk.Tk):
 
             if gt.FRAME in gen.available_gen:
                 text = "Also generate with frame variants"
-                if gen.assets_type in [image_gen.Type.STAGE, image_gen.Type.STAGE_SET]:
+                if gen.assets_type in [image_gen.DataType.STAGE, image_gen.DataType.STAGE_SET]:
                     text = "Also generate with name of stage"
 
                 frame_bool = tk.BooleanVar()
@@ -89,11 +89,11 @@ class Unpacker(tk.Tk):
 
                 self.settings.update({gt.DEATH_ANIM: death_anim_bool})
 
-            if gt.ATTACK_ANIM in gen.available_gen:
+            if gt.SPECIAL_ANIM in gen.available_gen:
                 attack_anim_bool = tk.BooleanVar()
                 ttk.Checkbutton(self, text="Also generate attack animations", variable=attack_anim_bool).pack()
 
-                self.settings.update({gt.ATTACK_ANIM: attack_anim_bool})
+                self.settings.update({gt.SPECIAL_ANIM: attack_anim_bool})
 
             b_ok = ttk.Button(self, text="Start", command=self.__close)
             b_ok.pack()
@@ -684,10 +684,10 @@ class Unpacker(tk.Tk):
             if generator_settings.get(str(gt.FRAME)):
                 texture_set.add("UI")
 
-                if gen.assets_type == image_gen.Type.ARCANA:
+                if gen.assets_type == image_gen.DataType.ARCANA:
                     texture_set.add("items")
 
-            if gen.assets_type == image_gen.Type.CHARACTER:
+            if gen.assets_type == image_gen.DataType.CHARACTER:
                 weapon_gen = image_gen.IGFactory.get("weapon")
                 w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
                 add_data.update({

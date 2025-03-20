@@ -82,3 +82,10 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
   titles", "Relative object names"
   * "Relative object names" requires split eng lang data.
   * Requires **[ffmpeg](https://ffmpeg.org)**.
+
+
+## Future plans
+* Keep support for new content updates and DLC.
+* Rewrite Image gen and unpacker.py-only functions to support MetaDataHandler.
+* Rewrite Image gen to better pipeline (i.e. cache sprites).
+* Tweak Tilemap gen to split tiles' atlas only once.

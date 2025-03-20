@@ -111,7 +111,7 @@ class TransparentAnimatedGifConverter(object):
         return self._img_p
 
 
-def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], save_format: str) -> Tuple[Image, dict]:
+def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], save_format: str, alpha_threshold: int = 0) -> Tuple[Image, dict]:
     """If the image is a GIF, create an its thumbnail here."""
     save_kwargs = dict()
     new_images: List[Image] = []
@@ -120,7 +120,7 @@ def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], 
         thumbnail = frame.copy()  # type: Image
         thumbnail_rgba = thumbnail.convert(mode='RGBA')
         thumbnail_rgba.thumbnail(size=frame.size, reducing_gap=3.0)
-        converter = TransparentAnimatedGifConverter(img_rgba=thumbnail_rgba)
+        converter = TransparentAnimatedGifConverter(img_rgba=thumbnail_rgba, alpha_threshold=alpha_threshold)
         thumbnail_p = converter.process()  # type: Image
         new_images.append(thumbnail_p)
 
@@ -150,7 +150,7 @@ def _create_animated(images: List[Image], durations: Union[int, List[int]], save
         loop=0)
     return output_image, save_kwargs
 
-def save_transparent_gif2(images: List[Image], durations: Union[int, List[int]], save_file):
+def save_transparent_gif2(images: List[Image], durations: Union[int, List[int]], save_file, alpha_threshold: int = 0):
     """Creates a transparent GIF, adjusting to avoid transparency issues that are present in the PIL library
 
     Note that this does NOT work for partial alpha. The partial alpha gets discarded and replaced by solid colors.
@@ -160,10 +160,11 @@ def save_transparent_gif2(images: List[Image], durations: Union[int, List[int]],
         durations: an int or List[int] that describes the animation durations for the frames of this GIF
         save_file: A filename (string), pathlib.Path object or file object. (This parameter corresponds
                    and is passed to the PIL.Image.save() method.)
+        alpha_threshold: absolute value of alpha channel
     Returns:
         Image - The PIL Image object (after first saving the image to the specified target)
     """
-    root_frame, save_args = _create_animated_gif(images, durations, 'GIF')
+    root_frame, save_args = _create_animated_gif(images, durations, 'GIF', alpha_threshold=alpha_threshold)
     root_frame.save(save_file, **save_args)
 
 
