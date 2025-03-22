@@ -21,6 +21,7 @@ class DataType(Enum):
     PROPS = 8
     ADV_MERCHANTS = 9
     HIT_VFX = 10
+    ALBUM = 11
 
 
 class GenType(Enum):
@@ -62,12 +63,16 @@ class IGFactory:
             return AdvMerchantsGenerator()
         elif "hitvfx" in data_file:
             return HitVFXGenerator()
+        elif "album" in data_file:
+            return AlbumCoversGenerator()
 
         return None
 
 
 class ImageGenerator:
     def __init__(self):
+        self.fontFileName = "Courier.ttf"
+
         self.assets_type = DataType.NONE
         self.dataSpriteKey = None
         self.dataTextureKey = None
@@ -80,7 +85,8 @@ class ImageGenerator:
         self.defaultFrameName = None
         self.dataAnimFramesKey = None
 
-        self.iconGroup = "Icon"
+        self.imagePrefix = None
+        self.iconPrefix = "Icon"
 
         self.animLeadingZeros = None
 
@@ -183,6 +189,7 @@ class ImageGenerator:
 
         os.makedirs(sf_text, exist_ok=True)
 
+        prefix_name = self.imagePrefix or prefix_name
         if is_save:
             im_crop_r.save(f"{sf_text}/{prefix_name}{name}.png")
 
@@ -234,7 +241,7 @@ class ImageGenerator:
                                      PIL.Image.NEAREST)
 
         name = self.change_name(name)
-        im_frame_r.save(f"{sf_text}/{self.iconGroup}-{name}.png")
+        im_frame_r.save(f"{sf_text}/{self.iconPrefix}-{name}.png")
 
     def save_anim(self, meta, im: Image, file_name, name, save_folder, prefix_name="Animated-", postfix_name="",
                   save_append="", frame_rate=6, scale_factor=1, base_duration=1000, file_name_clean=None,
@@ -588,17 +595,28 @@ class AdvMerchantsGenerator(SimpleGenerator):
         self.available_gen.append(GenType.ANIM)
 
 
+class AlbumCoversGenerator(SimpleGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = DataType.ALBUM
+        self.scaleFactor = 1
+        self.dataSpriteKey = "icon"
+        self.dataTextureKey = "icon"
+
+        self.dataObjectKey = "title"
+
+        self.folderToSave = "album covers"
+        self.imagePrefix = "Album-"
+
+        self.available_gen.remove(GenType.FRAME)
+
 class HitVFXGenerator(SimpleGenerator):
     def __init__(self):
         super().__init__()
         self.assets_type = DataType.HIT_VFX
         self.scaleFactor = 4
         self.dataSpriteKey = "impactFrameName"
-        # self.dataTextureKey = "staticSpriteTexture"
         self.dataTextureName = "vfx"
-
-        # self.dataObjectKey = "charName"
-        # self.langFileName = "characterLang.json"
 
         self.folderToSave = "hit vfx"
 
@@ -793,7 +811,7 @@ class CharacterImageGenerator(TableGenerator):
 
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()
-        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 30)
+        font = ImageFont.truetype(fr"{p_dir}/{self.fontFileName}", 30)
         w = font.getbbox(text)[2] + scale_factor
         h = font.getbbox(text + "|")[3]
 
@@ -801,7 +819,7 @@ class CharacterImageGenerator(TableGenerator):
             if " " in text:
                 text = text[::-1].replace(" ", "\n", 1)[::-1]
 
-            font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 28)
+            font = ImageFont.truetype(fr"{p_dir}/{self.fontFileName}", 28)
             w = font.getbbox(text)[2] + scale_factor
             h = (font.getbbox("|" + text + "|")[3] + scale_factor) * 2
 
@@ -916,7 +934,7 @@ class StageImageGenerator(TableGenerator):
 
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()
-        font = ImageFont.truetype(fr"{p_dir}/Courier.ttf", 50 * scale_factor / self.scaleFactor)
+        font = ImageFont.truetype(fr"{p_dir}/{self.fontFileName}", 50 * scale_factor / self.scaleFactor)
         w = font.getbbox(text)[2] + scale_factor
         h = font.getbbox(text + "|")[3]
 

@@ -5,6 +5,7 @@ import os
 from dataclasses import dataclass
 
 import tkinter as tk
+from pathlib import Path
 from tkinter import ttk
 from tkinter.messagebox import showerror
 from typing import Self
@@ -28,6 +29,10 @@ class CfgKey(Enum):
 
     def __str__(self):
         return self.value
+
+    @classmethod
+    def get_non_path_keys(cls) -> set[Self]:
+        return {cls.MULTIPROCESSING}
 
 
 @dataclass(order=True, unsafe_hash=True)
@@ -135,7 +140,7 @@ class Config(metaclass=Singleton):
             variables = {}
             for key, str_var in self.variables.items():
                 if "ASSETS" in key.value:
-                    var: str = str_var.get() or ""
+                    var: str | Path = str_var.get() or ""
 
                     if var in ["\\"] or len(var) < 2:
                         var = ""
@@ -146,7 +151,7 @@ class Config(metaclass=Singleton):
                         return
 
                     if var:
-                        var = os.path.normpath(var)
+                        var = Path(var)
 
                     variables.update({key: var})
 
@@ -167,7 +172,7 @@ class Config(metaclass=Singleton):
                             showerror("Error", "'AssetRipper[...].exe' does not exists")
                             return
 
-                        var = os.path.normpath(var)
+                        var = Path(var)
 
                     variables.update({key: var})
 
@@ -178,7 +183,7 @@ class Config(metaclass=Singleton):
                             showerror("Error", "Path to 'VampireSurvivors.exe' in steam folder does not exist")
                             return
 
-                        var = os.path.normpath(var)
+                        var = Path(var)
 
                     variables.update({key: var})
 
@@ -198,7 +203,8 @@ class Config(metaclass=Singleton):
 
     def __init__(self):
         self.data: dict[CfgKey: str | None] = dict()
-        self.config_path = os.path.join(os.path.split(__file__)[0], "Config.json")
+        path = Path(__file__).parent
+        self.config_path = path.joinpath("Config.json")
 
         if not os.path.exists(self.config_path):
             self.save_file()
@@ -207,15 +213,20 @@ class Config(metaclass=Singleton):
 
     def update_config(self):
         with open(self.config_path, "r", encoding="UTF-8") as f:
-            json_file = json.loads(f.read())
+            try:
+                json_file = json.loads(f.read())
+            except json.decoder.JSONDecodeError as e:
+                print(e)
+                json_file = {}
+
             self.data.update({dlc.value.config_key: "" for dlc in DLCType.get_all()})
-            self.data.update({CfgKey(k): v for k, v in json_file.items() if k in CfgKey})
+            self.data.update({CfgKey(k): (v if CfgKey(k) in CfgKey.get_non_path_keys() else Path(v)) for k, v in json_file.items() if k in CfgKey})
 
     def save_file(self, data: dict | None = None):
         with open(self.config_path, "w", encoding="UTF-8") as f:
-            f.write(json.dumps({k.value: v for k, v in (data or {}).items()}, ensure_ascii=False, indent=2))
+            f.write(json.dumps({k.value: ( str(v) if isinstance(v, Path) else v  ) for k, v in (data or {}).items()}, ensure_ascii=False, indent=2))
 
-    def __getitem__(self, item) -> str:
+    def __getitem__(self, item) -> Path | str:
         self.update_config()
         return self.data.get(item)
 

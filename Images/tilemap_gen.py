@@ -1,3 +1,4 @@
+from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
 
 import os
@@ -218,9 +219,9 @@ def __save_image(image: Image, path: str):
     image.save(path)
 
 
-def gen_tilemap(path: str):
+def gen_tilemap(path: Path) -> Path:
     handler = TilemapDataHandler()
-
+    # TODO: Replace os.path to Path
     p_dir, p_file = os.path.split(path)
     save_file = p_file.replace(".prefab", "")
     save_folder = f"{this_dir}/Generated/_Tilemaps/{save_file}/"
@@ -312,7 +313,7 @@ def gen_tilemap(path: str):
 if __name__ == "__main__":
     def __test(name: str, tile_id: int):
         from Utility.meta_data import get_meta_by_name_set, MetaDataHandler
-        MetaDataHandler().load_guid_paths()
+        MetaDataHandler().load()
         meta_list = get_meta_by_name_set({name}, is_multiprocess=False)
 
         image = meta_list[0].image

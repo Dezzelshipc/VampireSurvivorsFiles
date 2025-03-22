@@ -1,6 +1,8 @@
 import os
 import sys
 import time
+
+from pathlib import Path
 from tkinter import Image
 
 from unityparser import UnityDocument
@@ -11,26 +13,26 @@ from Utility.singleton import Singleton
 from Utility.utility import run_multiprocess
 from Config.config import Config, CfgKey
 
-def normalize_str(s: str):
-    return s.lower().replace(".png", "").replace(".meta", "")
+
+def normalize_str(s: str) -> str:
+    return str(s).lower().replace(".png", "").replace(".meta", "")
 
 
 class MetaDataHandler(metaclass=Singleton):
     def __init__(self):
         self.config = Config()
-        self.assets_paths = set()
+        self.assets_paths: set[Path] = set()
         self.assets_guid_path = dict()
 
         self.loaded_assets_meta: dict[str: MetaData] = dict()
 
     def load_assets_meta_files(self):
-        paths = [f"{self.config[CfgKey.VS]}/Resources/spritesheets"]
+        dirs = [self.config[CfgKey.VS].joinpath("Resources", "spritesheets")]
         for f in filter(lambda x: "ASSETS" in x.value, self.config.data):
-            p = os.path.join(self.config[f], "Texture2D")
-            if os.path.exists(p):
-                paths.append(p)
+            p = self.config[f].joinpath("Texture2D")
+            if p.exists():
+                dirs.append(p)
 
-        dirs = list(map(os.path.normpath, paths))
         files = []
         missing_paths = []
         while dirs:
@@ -39,20 +41,20 @@ class MetaDataHandler(metaclass=Singleton):
                 missing_paths.append(this_dir)
                 continue
 
-            files.extend(f.path for f in os.scandir(this_dir) if f.name.endswith(".meta") and not f.is_dir())
-            dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
+            files.extend(f for f in this_dir.iterdir() if ".meta" in Path(f).suffixes and not f.is_dir())
+            dirs.extend(f for f in this_dir.iterdir() if f.is_dir())
 
         if missing_paths:
             print(f"! Missing paths {missing_paths} while trying to access meta files for images.",
                   file=sys.stderr)
             # showerror("Error", f"Missing paths: {missing_paths}")
 
-        self.assets_paths.update(files)
+        self.assets_paths.update(map(Path, files))
         print("Loaded meta paths")
 
         return self
 
-    def load_guid_paths(self):
+    def load(self):
         if self.assets_guid_path:
             return
 
@@ -60,7 +62,7 @@ class MetaDataHandler(metaclass=Singleton):
             self.load_assets_meta_files()
 
         print("Started collecting guid of every asset")
-        guid_path = run_multiprocess(get_meta_guid, self.assets_paths, is_many_args=False)
+        guid_path = run_multiprocess(_get_meta_guid, self.assets_paths, is_many_args=False)
         for entry in guid_path:
             self.assets_guid_path.update(entry)
         print("Finished collecting guid of every asset")
@@ -68,7 +70,7 @@ class MetaDataHandler(metaclass=Singleton):
         return self
 
 
-def get_meta_guid(path: str):
+def _get_meta_guid(path: str):
     if not path or not os.path.exists(path):
         return None
 
@@ -90,14 +92,18 @@ class MetaData:
         self.image: Image = image
         self.data_name: dict[str: dict] = data_name
         self.data_id: dict[int: dict] = data_id
+        self._sprites: dict[str: Image] = dict() # Other signature (type)?
+
+    def get_sprites(self) -> dict[str: Image]:
+        raise NotImplementedError("Not implemented splitting sprites")
 
 
-def __get_meta(meta_path: str) -> MetaData:
+def __get_meta(meta_path: Path) -> MetaData:
     time_start_parsing = time.time()
 
-    meta_path_name = os.path.basename(meta_path)
+    meta_path_name = meta_path.name
     print(f"Started parsing {meta_path_name}")
-    image_path = meta_path.replace(".meta", "")
+    image_path = meta_path.with_suffix("")
     image = Image.open(image_path)
 
     doc = UnityDocument.load_yaml(meta_path, try_preserve_types=True)
@@ -106,10 +112,24 @@ def __get_meta(meta_path: str) -> MetaData:
     internal_id_to_name_table = entry["TextureImporter"]["internalIDToNameTable"]
     sprites_data = entry["TextureImporter"]["spriteSheet"]["sprites"]
 
+    # if single sprite
+    if not internal_id_to_name_table and not sprites_data:
+        sprite_sheet = entry["TextureImporter"]["spriteSheet"]
+        internal_id = sprite_sheet['internalID']
+        internal_id_to_name_table = [{'first': {0: internal_id}}]
+        sprites_data = [{
+            "name": image_path.stem,
+            "internalID": internal_id,
+            "rect": {
+                "x": 0, "y": 0, "width": image.width, "height": image.height
+            },
+            "pivot": {"x": 0.5, "y": 0.5}
+        }]
+
     prepared_data_name = dict()
     prepared_data_id = dict()
     for i, data_entry in enumerate(sprites_data):
-        internal_id = list(internal_id_to_name_table[i]['first'].values())[0] # not depends on key
+        internal_id = list(internal_id_to_name_table[i]['first'].values())[0]  # not depends on key
 
         prepared_data_entry = {
             'name': normalize_str(data_entry['name']),
@@ -129,7 +149,7 @@ def __get_meta(meta_path: str) -> MetaData:
         })
 
     guid = entry['guid']
-    name = os.path.basename( normalize_str( meta_path_name ) )
+    name = os.path.basename(normalize_str(meta_path_name))
 
     print(f"Finished parsing {meta_path_name} [{guid=}] ({round(time.time() - time_start_parsing, 2)} sec)")
 
@@ -137,14 +157,15 @@ def __get_meta(meta_path: str) -> MetaData:
 
 
 def get_meta_by_name_set(name_set: set, is_multiprocess=True) -> list[MetaData]:
+    normalized_set = {normalize_str(name) for name in name_set}
     handler = MetaDataHandler()
-    not_loaded_name_set = {name for name in name_set if name.lower() not in handler.loaded_assets_meta}
+    not_loaded_name_set = {name for name in normalized_set if name not in handler.loaded_assets_meta}
 
     if not_loaded_name_set:
         lower_set = {normalize_str(name) for name in not_loaded_name_set}
 
         def filter_assets(x):
-            name_low = normalize_str(os.path.split(x)[1])
+            name_low = normalize_str(Path(x).name)
             return name_low in lower_set
 
         paths = list(filter(filter_assets, handler.assets_paths))
@@ -157,7 +178,7 @@ def get_meta_by_name_set(name_set: set, is_multiprocess=True) -> list[MetaData]:
                 data_file.guid: data_file,
             })
 
-    return [handler.loaded_assets_meta.get(name.lower()) for name in name_set]
+    return [handler.loaded_assets_meta.get(name) for name in normalized_set]
 
 
 def get_meta_dict_by_name_set(name_set: set, is_multiprocess=True) -> dict[str: MetaData]:
@@ -192,8 +213,38 @@ def get_meta_dict_by_guid_set(guid_set: set, is_multiprocess=True) -> dict[str: 
     }
 
 
-if __name__ == "__main__":
-    MetaDataHandler().load_guid_paths()
+def get_meta_by_name(name: str, is_multiprocess=True) -> MetaData:
+    meta_data = get_meta_by_name_set({name}, is_multiprocess)
+    return meta_data[0] if meta_data else None
 
-    a = get_meta_dict_by_name_set({"UI", "enemies2023"})
-    print(a)
+
+def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
+    meta_data = get_meta_by_guid_set({guid}, is_multiprocess)
+    return meta_data[0] if meta_data else None
+
+
+if __name__ == "__main__":
+    def _print_guid(data: MetaData):
+        print(data.guid)
+
+
+    def __test():
+        handler = MetaDataHandler()
+        handler.load()
+
+        def _print_all_guids():
+            list(map(_print_guid, handler.loaded_assets_meta.values()))
+            print()
+
+        get_meta_by_name("UI")
+
+        print(handler.loaded_assets_meta)
+
+        _print_all_guids()
+        a = get_meta_by_name("enemies2023")
+        _print_all_guids()
+        a.guid += "-!_ADDED HERE_!"
+        _print_all_guids()
+
+
+    __test()

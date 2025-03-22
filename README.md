@@ -6,7 +6,7 @@ Ripped from v1.12 + Moonspell + Foscari + Meeting + Guns + Ode
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 
-## Unpacker (v0.14)
+## Unpacker (v0.14.1)
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
@@ -86,6 +86,9 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
 
 ## Future plans
 * Keep support for new content updates and DLC.
-* Rewrite Image gen and unpacker.py-only functions to support MetaDataHandler.
+
+* Change os.path to pathlib.Path.
+* Add sprite atlas splitting function to MetaData 
+* Add JsonDataHandler similar to MetaDataHandler.
 * Rewrite Image gen to better pipeline (i.e. cache sprites).
 * Tweak Tilemap gen to split tiles' atlas only once.

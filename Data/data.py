@@ -84,8 +84,9 @@ def __generator_concatenate(add_content_group=True):
                             while isinstance(vv, list) :
                                 vv = vv[0]
 
-                            index_cur = j + index_start
-                            vv["_index"] = index_cur
+                            if not all([isinstance(v, (dict, list)) for k, v in vv.items()]):
+                                index_cur = j + index_start
+                                vv["_index"] = index_cur
 
                             if outdata.get(k):
                                 same_id.append(k)

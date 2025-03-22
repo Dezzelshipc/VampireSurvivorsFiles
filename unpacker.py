@@ -1,4 +1,5 @@
 import tkinter as tk
+from pathlib import Path
 from tkinter import ttk
 from tkinter import filedialog as fd
 from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
@@ -20,8 +21,8 @@ import Data.data as data_module
 import Images.image_gen as image_gen
 from Config.config import CfgKey, DLCType, Config
 from Images.image_unified_gen import gen_unified_images
-from Utility.utility import CheckBoxes, run_multiprocess, ButtonsBox
-from Utility.meta_data import MetaDataHandler
+from Utility.utility import CheckBoxes, ButtonsBox
+from Utility.meta_data import MetaDataHandler, get_meta_by_name
 
 
 class Unpacker(tk.Tk):
@@ -165,7 +166,7 @@ class Unpacker(tk.Tk):
         self.l_progress_bar = ttk.Label(self, textvariable=self.l_progress_bar_string)
         self.l_progress_bar.grid(row=2, column=0)
 
-        self.last_loaded_folder = None
+        self.last_loaded_folder: Path | None = None
 
         b_last_loaded_folder = ttk.Button(
             self,
@@ -246,7 +247,6 @@ class Unpacker(tk.Tk):
         ).grid(row=5, column=0)
 
         self.loaded_meta = dict()
-        self.guid_table = dict()
 
         MetaDataHandler().load_assets_meta_files()
 
@@ -260,11 +260,11 @@ class Unpacker(tk.Tk):
     def change_config(self):
         self.config.change_config(self)
 
-    def get_assets_dir(self, key: CfgKey = CfgKey.VS):
-        path = os.path.normpath(self.config[key])
-        if not path.endswith("Assets"):
+    def get_assets_dir(self, key: CfgKey = CfgKey.VS) -> Path:
+        path = self.config[key]
+        if not "assets" in path.stem.lower():
             path = None
-        return path or "/"
+        return path or Path("./")
 
     @staticmethod
     def info():
@@ -280,12 +280,19 @@ class Unpacker(tk.Tk):
         self.l_progress_bar.update()
 
     def open_last_loaded(self):
-        if self.last_loaded_folder and os.path.exists(self.last_loaded_folder):
+        if self.last_loaded_folder and self.last_loaded_folder.exists():
             os.startfile(self.last_loaded_folder)
 
     def select_and_unpack(self, start_path):
         def thread_generate_by_meta(p_dir: str, p_file: str, scale: int = 1):
-            meta, im = self.get_meta_by_full_path(p_dir, p_file)
+            def meta_func(path, name):
+                d = get_meta_by_name(name)
+                if d:
+                    return d.data_name, d.image
+                else:
+                    return (None,)*2
+
+            meta, im = meta_func(p_dir, p_file)
 
             self.outer_progress_bar.close_bar()
 
@@ -323,63 +330,6 @@ class Unpacker(tk.Tk):
         t = threading.Thread(target=thread_generate_by_meta, args=[direct, file, scale_factor])
         t.start()
 
-    def get_meta_by_set_of_paths(self, texture_paths_set: set, is_internal_id: bool = False):
-        args = [(*os.path.split(path), is_internal_id) for path in texture_paths_set]
-        print(args)
-        return run_multiprocess(self.get_meta_by_full_path, args)
-
-    def get_meta_by_full_path(self, p_dir: str, p_file: str, is_internal_id: bool = False) -> (dict, Image.Image):
-        p_file = p_file.replace(".meta", "")
-        file = p_file.replace(".png", "").lower()
-        full_path = os.path.join(p_dir, p_file)
-        if file not in self.loaded_meta:
-            if not p_dir:
-                return None, None
-
-            print(f"Parsing {p_file}.meta")
-
-            file_path = full_path + ".meta"
-
-            if not os.path.exists(file_path):
-                print(f"! file {file_path} not exists",
-                      file=sys.stderr)
-                return None
-
-            with open(file_path) as f:
-                spriteSheet = dict(yaml.safe_load(f.read()))["TextureImporter"]["spriteSheet"]
-                sprites = spriteSheet["sprites"]
-
-            image = Image.open(full_path)
-            if len(sprites) == 0:
-                sprites = [{
-                    "name": p_file.replace(".png", ""),
-                    "internalID": spriteSheet.get("internalID"),
-                    "rect": {
-                        "x": 0, "y": 0, "width": image.width, "height": image.height
-                    },
-                    "pivot": {"x": 0.5, "y": 0.5}
-                }]
-                if not spriteSheet.get("spriteID"):
-                    print(
-                        f"! Not found sprites and spriteID for {os.path.basename(full_path)}. It could be caused by ripping with wrong sprite setting.",
-                        file=sys.stderr)
-
-            self.loaded_meta.update(
-                {
-                    file: {
-                        (s.get("name") if not is_internal_id else s.get("internalID")): {
-                            "name": s.get("name"),
-                            "internalID": s.get("internalID"),
-                            "rect": s.get("rect"),
-                            "pivot": s.get("pivot"),
-                        } for s in sprites
-                    },
-                    file + "Image": image
-                }
-            )
-
-            print(f"Parse {p_file}.meta ended. {len(sprites)=}")
-        return self.loaded_meta[file], self.loaded_meta[file + "Image"]
 
     def generate_by_meta(self, meta: dict, im: Image, file: str, scale_factor: int = 1):
         file = file.replace(".png", "")
@@ -418,7 +368,7 @@ class Unpacker(tk.Tk):
             im_crop.save(f"{folder_to_save}/{meta_data["name"]}.png")
 
         print()
-        self.last_loaded_folder = os.path.abspath(folder_to_save)
+        self.last_loaded_folder = Path(folder_to_save).absolute()
 
     @staticmethod
     def get_meta_guid(path) -> str | None:
@@ -434,20 +384,6 @@ class Unpacker(tk.Tk):
 
                 if not val:
                     return None
-
-    def get_path_by_guid(self, guid: id):
-        all_assets = self.get_assets_meta_files()
-
-        if guid not in self.guid_table:
-            print("Collecting guids of all spritesheets")
-            for path in all_assets:
-                asset_guid = self.get_meta_guid(path)
-                self.guid_table.update({
-                    asset_guid: path
-                })
-            print("Collected guids of all spritesheets")
-
-        return self.guid_table.get(guid)
 
     def languages_get(self):
         def thread_languages_get(file_path_):
@@ -619,9 +555,9 @@ class Unpacker(tk.Tk):
             self.progress_bar_set(i + 1, total)
 
     @staticmethod
-    def data_selector(add_title="") -> AnyStr | None:
-        path = "./Data"
-        if not os.path.exists(path):
+    def data_selector(add_title="") -> Path | None:
+        path = Path("./Data")
+        if not path.exists():
             return
 
         filetypes = [
@@ -637,7 +573,7 @@ class Unpacker(tk.Tk):
         if not full_path:
             return None
 
-        return full_path
+        return Path(full_path)
 
     def get_assets_meta_files(self):
         paths = [f"{self.get_assets_dir()}/Resources/spritesheets"]
@@ -680,61 +616,38 @@ class Unpacker(tk.Tk):
                 print(f"! Not found english for lang file: {gen.langFileName}",
                       file=sys.stderr)
 
-            texture_set = gen.textures_set(data)
-            if generator_settings.get(str(gt.FRAME)):
-                texture_set.add("UI")
-
-                if gen.assets_type == image_gen.DataType.ARCANA:
-                    texture_set.add("items")
-
             if gen.assets_type == image_gen.DataType.CHARACTER:
-                weapon_gen = image_gen.IGFactory.get("weapon")
                 w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
                 add_data.update({
                     "weapon": w_data,
                     "character": data
                 })
 
-                if generator_settings.get(str(gt.FRAME)):
-                    texture_set.update(weapon_gen.textures_set(w_data))
-
-            for texture in texture_set:
-                if texture is None:
-                    continue
-
-                def filter_assets(x):
-                    name_low = x.name.lower()
-                    texture_low = texture.lower()
-                    return name_low.startswith(f"{texture_low}") and name_low.endswith(f"{texture_low}.png.meta")
-
-                meta = list(filter(filter_assets, all_assets))
-                print(texture, meta)
-
-                if meta:
-                    meta = meta[0]
-                    m_dir, m_file = os.path.split(meta)
-                    self.outer_progress_bar.change_label(f"Parsing {m_file}")
-                    self.get_meta_by_full_path(m_dir, m_file)
-
             total = gen.len_data(data)
             ug = gen.unit_generator(data)
 
             self.outer_progress_bar.close_bar()
 
+            def meta_func(path, name):
+                d = get_meta_by_name(name)
+                if d:
+                    return d.data_name, d.image
+                else:
+                    return (None,)*2
+
             for i, (k_id, obj) in enumerate(ug):
                 self.progress_bar_set(i + 1, total)
-                gen.make_image(self.get_meta_by_full_path, k_id, obj,
+                gen.make_image(meta_func,
+                               k_id, obj,
                                lang_data=(lang or {}).get(k_id),
                                add_data=add_data,
                                **generator_settings)
 
-            self.last_loaded_folder = os.path.abspath("./Images/Generated")
+            self.last_loaded_folder = Path("./Images/Generated").absolute()
 
-        if not self.get_assets_dir().endswith("Assets"):
+        if "assets" not in self.get_assets_dir().stem.lower():
             showerror("Error", "Assets directory must be selected.")
             return
-
-        all_assets = self.get_assets_meta_files()
 
         path_data = self.data_selector()
 
@@ -757,8 +670,6 @@ class Unpacker(tk.Tk):
         print(f"Started generating images for {gen.assets_type} ({os.path.basename(path_data)})")
 
         generator_settings = self.data_from_popup
-
-        gt = image_gen.GenType
 
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
 
@@ -803,10 +714,10 @@ class Unpacker(tk.Tk):
         is_found = False
         folders = ["GameObject", "PrefabInstance"]
 
-        start_path = './'
+        start_path = Path('./')
         for folder in folders:
-            start_path = f"{self.get_assets_dir(selected_dlc.config_key)}\\{folder}"
-            if os.path.exists(start_path):
+            start_path = self.get_assets_dir(selected_dlc.config_key).joinpath( folder )
+            if start_path.exists():
                 is_found = True
                 break
 
@@ -829,9 +740,11 @@ class Unpacker(tk.Tk):
         if not full_path:
             return
 
-        print(f"Started generating tilemap {os.path.split(full_path)[-1]}")
+        full_path = Path(full_path)
 
-        MetaDataHandler().load_guid_paths()
+        print(f"Started generating tilemap {full_path.name}")
+
+        MetaDataHandler().load()
 
         from Images.tilemap_gen import gen_tilemap
         save_folder = gen_tilemap(full_path)
@@ -850,7 +763,7 @@ class Unpacker(tk.Tk):
         if not data_path:
             return
 
-        if "music" not in os.path.basename(data_path).lower():
+        if "music" not in data_path.stem.lower():
             showerror("Error", "'Music' data file must be selected.")
             return
 
@@ -869,7 +782,7 @@ class Unpacker(tk.Tk):
         if not save_types_set:
             return
 
-        print(f"Started audio generating {os.path.basename(data_path)}, {save_types_set}")
+        print(f"Started audio generating {data_path.name}, {save_types_set}")
 
         self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_set, self)
         if error:
@@ -885,8 +798,8 @@ class Unpacker(tk.Tk):
             if self.config[d.value.config_key]:
                 dlc_types_list.append(d)
 
-        cbs = CheckBoxes(dlc_types_list, parent=self, label="Select languages to include in split files",
-                         title="Select languages")
+        cbs = CheckBoxes(dlc_types_list, parent=self, label="Select DLCs to rip",
+                         title="Select DLCs")
         cbs.wait_window()
         data_from_popup = cbs.return_data
 
