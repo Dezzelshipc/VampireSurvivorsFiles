@@ -88,7 +88,6 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
 * Keep support for new content updates and DLC.
 
 * Change os.path to pathlib.Path.
-* Add sprite atlas splitting function to MetaData 
 * Add JsonDataHandler similar to MetaDataHandler.
 * Rewrite Image gen to better pipeline (i.e. cache sprites).
 * Tweak Tilemap gen to split tiles' atlas only once.

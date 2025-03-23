@@ -1,30 +1,51 @@
+from typing import TypeVar
+
 from PIL import Image, ImageOps
 from PIL.Image import Resampling
+from dataclasses import dataclass
 
-from Utility.utility import run_multiprocess
-from .meta_data import MetaData
+TRect = TypeVar("TRect", bound="SpriteRect")
+TPivot = TypeVar("TPivot", bound="SpritePivot")
 
-def crop_image_rect(image: Image, rect: dict):
+
+@dataclass
+class SpriteRect:
+    x: float
+    y: float
+    width: float
+    height: float
+
+    @staticmethod
+    def from_dict(args: dict) -> TRect:
+        return SpriteRect(args["x"], args["y"], args["width"], args["height"])
+
+    def __getitem__(self, item):
+        # SHOULD NOT BE USED NORMALLY
+        return self.__getattribute__(item)
+
+
+@dataclass
+class SpritePivot:
+    x: float
+    y: float
+
+    @staticmethod
+    def from_dict(args: dict) -> TPivot:
+        return SpritePivot(args["x"], args["y"])
+
+    def __getitem__(self, item):
+        # SHOULD NOT BE USED NORMALLY
+        return self.__getattribute__(item)
+
+
+def crop_image_rect(image: Image, rect: SpriteRect | dict):
+    _rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
     sx, sy = image.size
-    return image.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+    return image.crop((_rect.x, sy - _rect.y - _rect.height, _rect.x + _rect.width, sy - _rect.y))
 
 
 def resize_image(image: Image, scale_factor: float):
     return image.resize((image.size[0] * scale_factor, image.size[1] * scale_factor), Resampling.NEAREST)
-
-
-def split_image(meta_data: MetaData) -> dict[str|int: Image]:
-    sprites_args = [ (meta_data.image, data['rect']) for name, data in meta_data.data_name.items() ]
-    sprites = run_multiprocess(crop_image_rect, sprites_args)
-
-    sprites_zipped = zip(sprites, meta_data.data_name.items())
-    sprites_dict = dict()
-    for sprite, (_, data) in sprites_zipped:
-        sprites_dict.update({
-            data["name"]: sprite,
-            data["internalID"]: sprite
-        })
-    return sprites_dict
 
 
 def affine_transform(image: Image, matrix: tuple) -> Image:

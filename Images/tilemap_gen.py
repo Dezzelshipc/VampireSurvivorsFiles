@@ -307,17 +307,17 @@ def gen_tilemap(path: Path) -> Path:
 
     print(f"Finished generation for tilemap {p_file} ({round(time.time() - time_start_generation, 2)} sec)")
 
-    return save_folder
+    return Path(save_folder)
 
 
 if __name__ == "__main__":
     def __test(name: str, tile_id: int):
-        from Utility.meta_data import get_meta_by_name_set, MetaDataHandler
+        from Utility.meta_data import get_meta_by_name, MetaDataHandler
         MetaDataHandler().load()
-        meta_list = get_meta_by_name_set({name}, is_multiprocess=False)
+        meta_list = get_meta_by_name(name, is_multiprocess=False)
 
-        image = meta_list[0].image
-        meta = meta_list[0].data_id
+        image = meta_list.image
+        meta = meta_list.data_id
 
         size_tile = (32,) * 2
         sprite_data = meta.get(tile_id)

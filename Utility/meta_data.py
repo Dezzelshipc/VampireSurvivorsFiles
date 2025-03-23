@@ -1,14 +1,14 @@
-import os
 import sys
 import time
 
 from pathlib import Path
 from tkinter import Image
+from typing import Dict
 
 from unityparser import UnityDocument
-from tkinter.messagebox import showerror
 from PIL import Image
 
+from Utility.image_functions import crop_image_rect, SpriteRect, SpritePivot
 from Utility.singleton import Singleton
 from Utility.utility import run_multiprocess
 from Config.config import Config, CfgKey
@@ -37,17 +37,16 @@ class MetaDataHandler(metaclass=Singleton):
         missing_paths = []
         while dirs:
             this_dir = dirs.pop(0)
-            if not os.path.exists(this_dir):
+            if not this_dir.exists():
                 missing_paths.append(this_dir)
                 continue
 
-            files.extend(f for f in this_dir.iterdir() if ".meta" in Path(f).suffixes and not f.is_dir())
+            files.extend(f for f in this_dir.iterdir() if ".meta" in f.suffixes and not f.is_dir())
             dirs.extend(f for f in this_dir.iterdir() if f.is_dir())
 
         if missing_paths:
             print(f"! Missing paths {missing_paths} while trying to access meta files for images.",
                   file=sys.stderr)
-            # showerror("Error", f"Missing paths: {missing_paths}")
 
         self.assets_paths.update(map(Path, files))
         print("Loaded meta paths")
@@ -70,8 +69,8 @@ class MetaDataHandler(metaclass=Singleton):
         return self
 
 
-def _get_meta_guid(path: str):
-    if not path or not os.path.exists(path):
+def _get_meta_guid(path: Path):
+    if not path or not path.exists():
         return None
 
     with open(path, 'r', encoding="UTF-8") as f:
@@ -85,17 +84,45 @@ def _get_meta_guid(path: str):
                 return None
 
 
+class SpriteData:
+    def __init__(self, name, real_name, internal_id, rect, pivot):
+        self.name: str = name
+        self.real_name: str = real_name
+        self.internal_id: int = internal_id
+        self.rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
+        self.pivot: SpritePivot = pivot if isinstance(pivot, SpritePivot) else SpritePivot.from_dict(pivot)
+
+        self.sprite = None
+
+    def __repr__(self):
+        return f"[{self.__class__.__name__}: {self.real_name=} {self.internal_id=} {self.rect} {self.pivot} {self.sprite}]"
+
+    def __getitem__(self, item):
+        # SHOULD NOT BE USED NORMALLY
+        return self.__getattribute__(item)
+
+
 class MetaData:
-    def __init__(self, name, guid, image, data_name, data_id):
+    def __init__(self, name: str, guid: str, image: Image, data_name: Dict[str, SpriteData], data_id: Dict[int, SpriteData]):
         self.name: str = name
         self.guid: str = guid
         self.image: Image = image
-        self.data_name: dict[str: dict] = data_name
-        self.data_id: dict[int: dict] = data_id
-        self._sprites: dict[str: Image] = dict() # Other signature (type)?
+        self.data_name: Dict[str, SpriteData] = data_name
+        self.data_id: Dict[int, SpriteData] = data_id
 
-    def get_sprites(self) -> dict[str: Image]:
-        raise NotImplementedError("Not implemented splitting sprites")
+        self.__added_sprites = False
+
+    def init_sprites(self) -> None:
+        if not self.__added_sprites:
+            for entries in self.data_name.values():
+                entries.sprite = crop_image_rect(self.image, entries.rect)
+                pass
+
+        self.__added_sprites = True
+
+    def __getitem__(self, item):
+        # SHOULD NOT BE USED NORMALLY
+        return self.__getattribute__(item)
 
 
 def __get_meta(meta_path: Path) -> MetaData:
@@ -118,7 +145,8 @@ def __get_meta(meta_path: Path) -> MetaData:
         internal_id = sprite_sheet['internalID']
         internal_id_to_name_table = [{'first': {0: internal_id}}]
         sprites_data = [{
-            "name": image_path.stem,
+            "name": normalize_str(image_path.stem),
+            'real_name': image_path.stem,
             "internalID": internal_id,
             "rect": {
                 "x": 0, "y": 0, "width": image.width, "height": image.height
@@ -131,16 +159,18 @@ def __get_meta(meta_path: Path) -> MetaData:
     for i, data_entry in enumerate(sprites_data):
         internal_id = list(internal_id_to_name_table[i]['first'].values())[0]  # not depends on key
 
-        prepared_data_entry = {
-            'name': normalize_str(data_entry['name']),
-            'internalID': internal_id,
-            'rect': {
+        prepared_data_entry = SpriteData(
+            name=normalize_str(data_entry['name']),
+            real_name=data_entry['name'],
+            internal_id=internal_id,
+            rect={
                 k: float(v) for k, v in data_entry['rect'].items()
             },
-            'pivot': {
+            pivot={
                 k: float(v) for k, v in data_entry['pivot'].items()
             }
-        }
+        )
+
         prepared_data_name.update({
             data_entry['name']: prepared_data_entry
         })
@@ -149,9 +179,9 @@ def __get_meta(meta_path: Path) -> MetaData:
         })
 
     guid = entry['guid']
-    name = os.path.basename(normalize_str(meta_path_name))
+    name = normalize_str(meta_path_name)
 
-    print(f"Finished parsing {meta_path_name} [{guid=}] ({round(time.time() - time_start_parsing, 2)} sec)")
+    print(f"Finished parsing {meta_path_name} [{guid=}] ({time.time() - time_start_parsing:.2f} sec)")
 
     return MetaData(name, guid, image, prepared_data_name, prepared_data_id)
 
@@ -224,27 +254,25 @@ def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
 
 
 if __name__ == "__main__":
-    def _print_guid(data: MetaData):
-        print(data.guid)
-
-
     def __test():
         handler = MetaDataHandler()
         handler.load()
 
-        def _print_all_guids():
-            list(map(_print_guid, handler.loaded_assets_meta.values()))
-            print()
-
-        get_meta_by_name("UI")
+        ui = get_meta_by_name("UI")
 
         print(handler.loaded_assets_meta)
 
-        _print_all_guids()
-        a = get_meta_by_name("enemies2023")
-        _print_all_guids()
-        a.guid += "-!_ADDED HERE_!"
-        _print_all_guids()
+        ui.init_sprites()
+
+        for g, a in handler.loaded_assets_meta.items():
+            print(g)
+            for k, v in a.data_name.items():
+                print(k, v)
+                break
+
+            for k, v in a.data_id.items():
+                print(k, v)
+                break
 
 
     __test()

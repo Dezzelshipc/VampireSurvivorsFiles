@@ -4,7 +4,6 @@ from tkinter import ttk
 from tkinter import filedialog as fd
 from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
-from typing import AnyStr
 
 import yaml
 import json
@@ -151,7 +150,7 @@ class Unpacker(tk.Tk):
         b_assets_folder = ttk.Button(
             self,
             text=".. from spritesheets",
-            command=lambda: self.select_and_unpack(f"{self.get_assets_dir()}/Resources/spritesheets")
+            command=lambda: self.select_and_unpack(self.get_assets_dir().joinpath("Resources", "spritesheets"))
         )
         b_assets_folder.grid(row=2, column=2)
 
@@ -283,22 +282,8 @@ class Unpacker(tk.Tk):
         if self.last_loaded_folder and self.last_loaded_folder.exists():
             os.startfile(self.last_loaded_folder)
 
-    def select_and_unpack(self, start_path):
-        def thread_generate_by_meta(p_dir: str, p_file: str, scale: int = 1):
-            def meta_func(path, name):
-                d = get_meta_by_name(name)
-                if d:
-                    return d.data_name, d.image
-                else:
-                    return (None,)*2
-
-            meta, im = meta_func(p_dir, p_file)
-
-            self.outer_progress_bar.close_bar()
-
-            self.generate_by_meta(meta, im, p_file, scale_factor=scale)
-
-        if not os.path.exists(start_path):
+    def select_and_unpack(self, start_path: Path):
+        if not start_path.exists():
             showwarning("Warning", "Assets directory must be selected.")
             return
 
@@ -315,23 +300,28 @@ class Unpacker(tk.Tk):
         if not full_path:
             return
 
-        direct, file = os.path.split(full_path)
+        full_path = Path(full_path)
+
+        file = full_path.name
 
         print(f"Unpacking {file}")
 
-        if not os.path.exists(full_path + ".meta"):
-            showerror("Error", f"{file}.meta is unable to find in this directory.")
-            return
-
         scale_factor = askinteger("Scale", "Type scale multiplier", initialvalue=1)
 
-        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}.meta")
+        def meta_func(name):
+            d = get_meta_by_name(name)
+            if d:
+                return d.data_name, d.image
+            else:
+                return (None,) * 2
 
-        t = threading.Thread(target=thread_generate_by_meta, args=[direct, file, scale_factor])
-        t.start()
+        meta, im = meta_func(file)
+
+        self.generate_by_meta(meta, im, file, scale_factor=scale_factor)
 
 
     def generate_by_meta(self, meta: dict, im: Image, file: str, scale_factor: int = 1):
+        # TODO: replace by meta_data.MetaData.get_sprites()
         file = file.replace(".png", "")
         print(f"Generating by meta")
 
@@ -370,23 +360,8 @@ class Unpacker(tk.Tk):
         print()
         self.last_loaded_folder = Path(folder_to_save).absolute()
 
-    @staticmethod
-    def get_meta_guid(path) -> str | None:
-        if not path or not os.path.exists(path):
-            return None
-
-        with open(path, 'r', encoding="UTF-8") as f:
-            for line in f.readlines()[:10]:
-                key, val = line.split(":")
-
-                if key == "guid":
-                    return val.strip()
-
-                if not val:
-                    return None
-
     def languages_get(self):
-        def thread_languages_get(file_path_):
+        def thread_languages_get(file_path_: Path):
             self.progress_bar_set(0, 1)
             with open(file_path_, 'r', encoding="UTF-8") as f:
                 for _ in range(3):
@@ -399,15 +374,15 @@ class Unpacker(tk.Tk):
                 self.outer_progress_bar.close_bar()
                 return
 
-            folder_to_save = "./Translations"
-            os.makedirs(folder_to_save, exist_ok=True)
+            folder_to_save = Path("./Translations").absolute()
+            folder_to_save.mkdir(parents=True, exist_ok=True)
 
-            with open(folder_to_save + "/I2Languages.yaml", 'w', encoding="UTF-8") as yml:
+            with open(folder_to_save.joinpath("I2Languages.yaml"), 'w', encoding="UTF-8") as yml:
                 yml.write(text)
 
             self.outer_progress_bar.close_bar()
             self.progress_bar_set(1, 1)
-            self.last_loaded_folder = os.path.abspath(folder_to_save)
+            self.last_loaded_folder = folder_to_save
 
         if not self.get_assets_dir().endswith("Assets"):
             showerror("Error", "Assets directory must be selected.")
@@ -742,7 +717,7 @@ class Unpacker(tk.Tk):
 
         full_path = Path(full_path)
 
-        print(f"Started generating tilemap {full_path.name}")
+        print(f"Started generating tilemap {full_path!r}")
 
         MetaDataHandler().load()
 
@@ -782,7 +757,7 @@ class Unpacker(tk.Tk):
         if not save_types_set:
             return
 
-        print(f"Started audio generating {data_path.name}, {save_types_set}")
+        print(f"Started audio generating {data_path!r}, {save_types_set}")
 
         self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_set, self)
         if error:
