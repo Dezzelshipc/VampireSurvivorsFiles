@@ -3,7 +3,7 @@ import time
 
 from pathlib import Path
 from tkinter import Image
-from typing import Dict
+from typing import Dict, Self
 
 from unityparser import UnityDocument
 from PIL import Image
@@ -14,20 +14,28 @@ from Utility.utility import run_multiprocess
 from Config.config import Config, CfgKey
 
 
-def normalize_str(s: str) -> str:
-    return str(s).lower().replace(".png", "").replace(".meta", "")
+def normalize_str(path) -> str:
+    path = Path(str(path))
+    name = path.name
+    try:
+        index = name.index('.')
+    except ValueError:
+        index = None
+    return name[:index].lower()
 
 
 class MetaDataHandler(metaclass=Singleton):
     def __init__(self):
         self.config = Config()
-        self.assets_paths: set[Path] = set()
-        self.assets_guid_path = dict()
+        self._assets_name_path: Dict[str: Path] = {}
+        self._assets_guid_path: Dict[str: Path] = {}
 
-        self.loaded_assets_meta: dict[str: MetaData] = dict()
+        self.loaded_assets_meta: Dict[str: MetaData] = {}
 
-    def load_assets_meta_files(self):
-        dirs = [self.config[CfgKey.VS].joinpath("Resources", "spritesheets")]
+        self.__load()
+
+    def __load_assets_meta_files(self) -> Self:
+        dirs = [self.config[CfgKey.VS].joinpath("Resources")]
         for f in filter(lambda x: "ASSETS" in x.value, self.config.data):
             p = self.config[f].joinpath("Texture2D")
             if p.exists():
@@ -48,28 +56,37 @@ class MetaDataHandler(metaclass=Singleton):
             print(f"! Missing paths {missing_paths} while trying to access meta files for images.",
                   file=sys.stderr)
 
-        self.assets_paths.update(map(Path, files))
+        self._assets_name_path.update({normalize_str(f): f for f in files})
         print("Loaded meta paths")
 
         return self
 
-    def load(self):
-        if self.assets_guid_path:
+    def __load(self) -> Self:
+        if self._assets_guid_path:
             return
 
-        if not self.assets_paths:
-            self.load_assets_meta_files()
+        if not self._assets_name_path:
+            self.__load_assets_meta_files()
 
         print("Started collecting guid of every asset")
-        guid_path = run_multiprocess(_get_meta_guid, self.assets_paths, is_many_args=False)
-        for entry in guid_path:
-            self.assets_guid_path.update(entry)
+        guid_path = run_multiprocess(_get_meta_guid, self._assets_name_path.values(), is_many_args=False)
+        self._assets_guid_path.update(guid_path)
         print("Finished collecting guid of every asset")
 
         return self
 
+    def get_path_by_name(self, name: str) -> Path:
+        return self._assets_name_path.get(normalize_str(name))
 
-def _get_meta_guid(path: Path):
+    def get_path_by_name_no_meta(self, name: str) -> Path:
+        path = self.get_path_by_name(name)
+        return path.with_suffix("") if path else None
+
+    def get_path_by_guid(self, guid: str) -> Path:
+        return self._assets_guid_path.get(normalize_str(guid))
+
+
+def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
     if not path or not path.exists():
         return None
 
@@ -78,7 +95,7 @@ def _get_meta_guid(path: Path):
             key, val = line.split(":")
 
             if key.strip() == "guid":
-                return {val.strip(): path}
+                return val.strip(), path
 
             if not val:
                 return None
@@ -103,7 +120,8 @@ class SpriteData:
 
 
 class MetaData:
-    def __init__(self, name: str, guid: str, image: Image, data_name: Dict[str, SpriteData], data_id: Dict[int, SpriteData]):
+    def __init__(self, name: str, guid: str, image: Image, data_name: Dict[str, SpriteData],
+                 data_id: Dict[int, SpriteData]):
         self.name: str = name
         self.guid: str = guid
         self.image: Image = image
@@ -172,7 +190,8 @@ def __get_meta(meta_path: Path) -> MetaData:
         )
 
         prepared_data_name.update({
-            data_entry['name']: prepared_data_entry
+            data_entry['name']: prepared_data_entry,
+            normalize_str(data_entry['name']): prepared_data_entry
         })
         prepared_data_id.update({
             internal_id: prepared_data_entry
@@ -192,13 +211,7 @@ def get_meta_by_name_set(name_set: set, is_multiprocess=True) -> list[MetaData]:
     not_loaded_name_set = {name for name in normalized_set if name not in handler.loaded_assets_meta}
 
     if not_loaded_name_set:
-        lower_set = {normalize_str(name) for name in not_loaded_name_set}
-
-        def filter_assets(x):
-            name_low = normalize_str(Path(x).name)
-            return name_low in lower_set
-
-        paths = list(filter(filter_assets, handler.assets_paths))
+        paths = [handler.get_path_by_name(name) for name in not_loaded_name_set]
         loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False,
                                                        is_multiprocess=is_multiprocess)
 
@@ -223,7 +236,7 @@ def get_meta_by_guid_set(guid_set: set, is_multiprocess=True) -> list[MetaData]:
     not_loaded_guid_set = {guid for guid in guid_set if guid not in handler.loaded_assets_meta}
 
     if not_loaded_guid_set:
-        paths = [handler.assets_guid_path.get(guid) for guid in not_loaded_guid_set]
+        paths = [handler.get_path_by_guid(guid) for guid in not_loaded_guid_set]
         loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False,
                                                        is_multiprocess=is_multiprocess)
 
@@ -254,17 +267,18 @@ def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
 
 
 if __name__ == "__main__":
+    hndlr = MetaDataHandler()
+
+
     def __test():
-        handler = MetaDataHandler()
-        handler.load()
 
         ui = get_meta_by_name("UI")
 
-        print(handler.loaded_assets_meta)
+        print(hndlr.loaded_assets_meta)
 
         ui.init_sprites()
 
-        for g, a in handler.loaded_assets_meta.items():
+        for g, a in hndlr.loaded_assets_meta.items():
             print(g)
             for k, v in a.data_name.items():
                 print(k, v)
@@ -275,4 +289,5 @@ if __name__ == "__main__":
                 break
 
 
-    __test()
+    # __test()
+    get_meta_by_name("I2Languages")

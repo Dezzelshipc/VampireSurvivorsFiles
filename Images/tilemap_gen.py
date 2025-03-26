@@ -313,7 +313,7 @@ def gen_tilemap(path: Path) -> Path:
 if __name__ == "__main__":
     def __test(name: str, tile_id: int):
         from Utility.meta_data import get_meta_by_name, MetaDataHandler
-        MetaDataHandler().load()
+        MetaDataHandler()
         meta_list = get_meta_by_name(name, is_multiprocess=False)
 
         image = meta_list.image

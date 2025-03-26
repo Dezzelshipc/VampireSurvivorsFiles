@@ -43,9 +43,9 @@
 ### Weapon
 * List of levels. First entry:
   1. level - always 1
-  2. name - str - english name for weapon, may **not** be equal to lang files
-  3. description - str - english description for weapon, may **not** be equal to lang files
-  4. tips - str - english tips for weapon, may **not** be equal to lang files
+  2. name - str - english name for weapon, might **not** be equal to lang files
+  3. description - str - english description for weapon, might **not** be equal to lang files
+  4. tips - str - english tips for weapon, might **not** be equal to lang files
   5. texture - str - name of png sprite atlas that contains weapon's
   6. frameName - str - name of sprite in 'texture' atlas.
   7. collectionFrame - name of weapon frame for collection page (in UI.png)
@@ -67,8 +67,8 @@
 ### Character
 * List of levels. First entry:
   1. level - always 1
-  2. prefix, charName, surname - str - full name of character, may **not** be equal to lang files
-  3. description - str - description of character, may **not** be equal to lang files
+  2. prefix, charName, surname - str - full name of character, might **not** be equal to lang files
+  3. description - str - description of character, might **not** be equal to lang files
   4. skins (and in main entry)
      1. startingWeapon - str - id of starting weapon (can be also 0 or VOID)
      2. skinType - str - id of skin

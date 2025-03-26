@@ -1,5 +1,7 @@
 import shutil
 import time
+from pathlib import Path
+
 import requests
 import os
 
@@ -10,7 +12,7 @@ ripper_url = f"http://127.0.0.1:{ripper_port}/"
 
 
 def rip_files(dlc_list: set[DLCType]):
-    f_path, f_name = os.path.split(__file__)
+    f_path = Path(__file__).parent
 
     config = Config()
 
@@ -19,12 +21,12 @@ def rip_files(dlc_list: set[DLCType]):
 
     ripper = None
     ripper_settings = None
-    this_settings = os.path.join(f_path, settings_name)
+    this_settings = f_path.joinpath(settings_name)
 
-    for p in os.scandir(ripper_path):
-        if "AssetRipper" in p.name and ".exe" in p.name:
+    for p in ripper_path.iterdir():
+        if "AssetRipper" in p.name and ".exe" in p.suffixes:
             ripper = p
-        if "Settings" in p.name and ".json" in p.name and "old" not in p.name:
+        if "Settings" in p.name and ".json" in p.suffixes and "old" not in p.name:
             ripper_settings = p
 
     is_working = True
@@ -36,26 +38,38 @@ def rip_files(dlc_list: set[DLCType]):
     if not is_working:
         # copy existing setting, save as 'old' and copy needed settings in folder
         if not ripper_settings:
-            ripper_settings = os.path.join(ripper_path, settings_name)
+            ripper_settings = ripper_path.joinpath(settings_name)
             shutil.copy(this_settings, ripper_settings)
 
         else:
-            old_ripper_settings = ripper_settings.path.replace(".json", ".old.json")
-            if not os.path.exists(old_ripper_settings):
+            old_ripper_settings = ripper_settings.with_suffix(".old.json")
+            if not old_ripper_settings.exists():
                 shutil.copy(ripper_settings, old_ripper_settings)
 
             with open(this_settings, "r") as settings_from:
                 with open(ripper_settings, "w") as settings_to:
                     settings_to.write(settings_from.read())
 
-        os.startfile(ripper, 'open', f"--port {ripper_port} --launch-browser False")
-        time.sleep(0.5)
+        os.startfile(ripper, "open", f"--port {ripper_port} --launch-browser False")
 
-    remove_from_path = os.path.normpath("\\ExportedProject\\Assets")
-    steam_folder = {p.name: p for p in os.scandir(config[CfgKey.STEAM_VS])}
+        wait_time = 1
+        while wait_time < 10:
+            time.sleep(wait_time)
+            try:
+                requests.get(ripper_url)
+                break
+            except requests.ConnectionError:
+                wait_time *= 2
+                print(f"Ripper is not loaded. Trying reconnect in {wait_time} sec.")
+
+
+    remove_from_path = ["ExportedProject", "Assets"]
+    steam_folder = {p.name: p for p in config[CfgKey.STEAM_VS].iterdir()}
 
     for dlc in sorted(map(lambda x: x.value, dlc_list)):
-        assets_path = (os.path.normpath(config[dlc.config_key]).replace(remove_from_path, ""))
+        assets_path = config[dlc.config_key]
+        while assets_path.stem in remove_from_path:
+            assets_path = assets_path.parent
 
         if dlc.steam_index not in steam_folder:
             print(f"Skipping {dlc.code_name} - Steam folder {dlc.steam_index} not found")
@@ -65,11 +79,11 @@ def rip_files(dlc_list: set[DLCType]):
 
         time_start_ripping = time.time()
 
-        requests.post(ripper_url + "LoadFolder", data={"Path": steam_folder[dlc.steam_index].path})
+        requests.post(ripper_url + "LoadFolder", data={"Path": steam_folder[dlc.steam_index] })
 
-        os.makedirs(assets_path, exist_ok=True)
+        assets_path.mkdir(parents=True, exist_ok=True)
         print("Exporting UnityProject", end="... ")
-        requests.post(ripper_url + "Export/UnityProject", data={"Path": assets_path})
+        requests.post(ripper_url + "Export\\UnityProject", data={"Path": assets_path})
 
         # os.makedirs(f"{assets_path}_PrimaryContent", exist_ok=True)
         # print("Exporting PrimaryContent", end="... ")

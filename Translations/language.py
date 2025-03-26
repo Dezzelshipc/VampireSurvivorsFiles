@@ -1,6 +1,14 @@
-import yaml
+from pathlib import Path
+from tkinter.messagebox import showerror
+
 import json
 import os
+from typing import Dict, Tuple
+
+from Data.data_type import DataType
+from Utility.meta_data import MetaDataHandler
+
+LANG_FILE_PATH = Path(__file__).with_name("I2Languages.yaml")
 
 
 def generator_split_to_files(languages: dict, lang_list: list):
@@ -81,8 +89,28 @@ def get_lang_file(path):
         return json.loads(f.read())
 
 
-if __name__ == "__main__":
-    with open('I2Languages.yaml', 'r', encoding="UTF-8") as file:
-        yaml_file = yaml.safe_load(file)
+def copy_lang_file() -> Tuple[Path | None, None | str]:
+    handler = MetaDataHandler()
+    if not ((path := handler.get_path_by_name_no_meta("i2languages")) and path.exists()):
+        return None, f"Languages file not found"
 
-    a = split_to_files(yaml_file, [(0, "en"), (7, "ru")])
+    with open(path, 'r', encoding="UTF-8") as f:
+        for _ in range(3):
+            f.readline()
+        text = f.read()
+
+    if len(text) < 1000:
+        return None, f"I2Languages does not contain necessary data. (length: {len(text)}) You must manually copy data. (See README.md on how to)"
+
+    with open(LANG_FILE_PATH, 'w', encoding="UTF-8") as yml:
+        yml.write(text)
+
+    return LANG_FILE_PATH.parent, None
+
+
+if __name__ == "__main__":
+    # with open('I2Languages.yaml', 'r', encoding="UTF-8") as file:
+    #     yaml_file = yaml.safe_load(file)
+    #
+    # a = split_to_files(yaml_file, [(0, "en"), (7, "ru")])
+    copy_lang_file()

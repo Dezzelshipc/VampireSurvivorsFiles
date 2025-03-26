@@ -18,10 +18,13 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
-from Config.config import CfgKey, DLCType, Config
+from Config.config import CfgKey, DLCType
 from Images.image_unified_gen import gen_unified_images
+from Utility.image_functions import resize_image
 from Utility.utility import CheckBoxes, ButtonsBox
 from Utility.meta_data import MetaDataHandler, get_meta_by_name
+
+ROOT_FOLDER = Path(__file__).parent.absolute()
 
 
 class Unpacker(tk.Tk):
@@ -143,14 +146,14 @@ class Unpacker(tk.Tk):
         b_unpack_by_meta = ttk.Button(
             self,
             text="Select image to unpack",
-            command=lambda: self.select_and_unpack(self.get_assets_dir())
+            command=self.unpack_by_meta
         )
         b_unpack_by_meta.grid(row=2, column=1)
 
         b_assets_folder = ttk.Button(
             self,
             text=".. from spritesheets",
-            command=lambda: self.select_and_unpack(self.get_assets_dir().joinpath("Resources", "spritesheets"))
+            command=self.unpack_by_meta_from_spritesheets
         )
         b_assets_folder.grid(row=2, column=2)
 
@@ -220,11 +223,11 @@ class Unpacker(tk.Tk):
         )
         b_data_to_image.grid(row=9, column=1)
 
-        b_data_to_image = ttk.Button(
-            self,
-            text="Get images with\nunified names by data (rewrite)",
-            command=self.unified_image_gen_handler
-        )
+        # b_data_to_image = ttk.Button(
+        #     self,
+        #     text="Get images with\nunified names by data (rewrite)",
+        #     command=self.unified_image_gen_handler
+        # )
         # b_data_to_image.grid(row=10, column=1)
 
         ttk.Button(
@@ -247,7 +250,7 @@ class Unpacker(tk.Tk):
 
         self.loaded_meta = dict()
 
-        MetaDataHandler().load_assets_meta_files()
+        MetaDataHandler()
 
         self.data_from_popup = None
 
@@ -282,18 +285,41 @@ class Unpacker(tk.Tk):
         if self.last_loaded_folder and self.last_loaded_folder.exists():
             os.startfile(self.last_loaded_folder)
 
-    def select_and_unpack(self, start_path: Path):
-        if not start_path.exists():
-            showwarning("Warning", "Assets directory must be selected.")
+    def unpack_by_meta_from_spritesheets(self):
+        folder = self.get_assets_dir().joinpath("Resources", "spritesheets")
+
+        if not folder.exists():
+            showwarning("Warning", "Spritesheets folder does not found.")
             return
 
+        self.generate_by_meta(folder)
+
+    def unpack_by_meta(self):
+        selected_dlc = self.select_dlc()
+        if not selected_dlc:
+            return
+        selected_dlc = selected_dlc.value
+
+        _start_path = self.get_assets_dir(selected_dlc.config_key)
+        start_paths = [_start_path.joinpath("Texture2D"), _start_path]
+
+        while (start_path := start_paths.pop(0)) and not start_path.exists():
+            pass
+
+        if not start_paths:
+            showwarning("Warning", "Assets folder not found.")
+            return
+
+        self.generate_by_meta(start_path)
+
+    def generate_by_meta(self, selecting_path: Path):
         filetypes = [
             ('Images', '*.png')
         ]
 
         full_path = fd.askopenfilename(
             title='Open a file',
-            initialdir=start_path,
+            initialdir=selecting_path,
             filetypes=filetypes
         )
 
@@ -304,104 +330,54 @@ class Unpacker(tk.Tk):
 
         file = full_path.name
 
-        print(f"Unpacking {file}")
+        print(f"Generating {file} by meta")
 
-        scale_factor = askinteger("Scale", "Type scale multiplier", initialvalue=1)
+        scale_factor = askinteger("Scale", "Input scale multiplier", initialvalue=1)
 
-        def meta_func(name):
-            d = get_meta_by_name(name)
-            if d:
-                return d.data_name, d.image
-            else:
-                return (None,) * 2
+        data = get_meta_by_name(file)
 
-        meta, im = meta_func(file)
-
-        self.generate_by_meta(meta, im, file, scale_factor=scale_factor)
-
-
-    def generate_by_meta(self, meta: dict, im: Image, file: str, scale_factor: int = 1):
-        # TODO: replace by meta_data.MetaData.get_sprites()
-        file = file.replace(".png", "")
-        print(f"Generating by meta")
-
-        total = len(meta)
-        if total > 1:
-            folder_to_save = f"./Images/Generated/_By meta/{file}"
-        else:
-            folder_to_save = f"./Images/Generated/_By meta/_SingeSprites"
-
-        if total == 0:
-            showwarning("Warning",
-                        "Meta file of this picture does not containing needed data.\n"
-                        "Some files does not contain it.\n"
-                        "But it is also possible that data was ripped with incorrect setting.")
+        if not data:
+            showerror("Error", f"MetaData not found for {file}")
             return
 
-        os.makedirs(folder_to_save, exist_ok=True)
+        data.init_sprites()
 
-        print(f"Files out of {total}:")
+        total_len = len(data.data_name)
 
-        self.progress_bar_set(0, total)
-        for i, (_, meta_data) in enumerate(meta.items()):
-            rect = meta_data["rect"]
+        folder_to_save = ROOT_FOLDER.joinpath("Images", "Generated", "_By meta")
+        if total_len > 1:
+            folder_to_save = folder_to_save.joinpath(full_path.stem)
+        else:
+            folder_to_save = folder_to_save.joinpath("_SingeSprites")
+
+        folder_to_save.mkdir(parents=True, exist_ok=True)
+
+        print(f"Files out of {total_len}:")
+        self.progress_bar_set(0, total_len)
+
+        for i, (_, sprite_data) in enumerate(data.data_name.items()):
+            sprite = resize_image(sprite_data.sprite, scale_factor)
+            sprite.save(folder_to_save.joinpath(str(sprite_data.real_name)).with_suffix(".png"))
+
             print(f"\r{i + 1}", end="")
-            self.progress_bar_set(i + 1, total)
-
-            sx, sy = im.size
-
-            im_crop = im.crop(
-                (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
-
-            im_crop = im_crop.resize((im_crop.size[0] * scale_factor, im_crop.size[1] * scale_factor),
-                                     PIL.Image.NEAREST)
-            im_crop.save(f"{folder_to_save}/{meta_data["name"]}.png")
+            self.progress_bar_set(i + 1, total_len)
 
         print()
-        self.last_loaded_folder = Path(folder_to_save).absolute()
+        self.last_loaded_folder = folder_to_save.absolute()
 
     def languages_get(self):
-        def thread_languages_get(file_path_: Path):
-            self.progress_bar_set(0, 1)
-            with open(file_path_, 'r', encoding="UTF-8") as f:
-                for _ in range(3):
-                    f.readline()
-                text = f.read()
-
-            if len(text) < 1000:
-                showerror("Error",
-                          f"I2Languages does not contain necessary data. (length: {len(text)}) You must manually copy data. (See README.md on how to)")
-                self.outer_progress_bar.close_bar()
-                return
-
-            folder_to_save = Path("./Translations").absolute()
-            folder_to_save.mkdir(parents=True, exist_ok=True)
-
-            with open(folder_to_save.joinpath("I2Languages.yaml"), 'w', encoding="UTF-8") as yml:
-                yml.write(text)
-
-            self.outer_progress_bar.close_bar()
-            self.progress_bar_set(1, 1)
+        print("Copying I2Languages.assets")
+        self.progress_bar_set(0, 1)
+        folder_to_save, error = lang_module.copy_lang_file()
+        if error:
+            showerror("Error", error)
+            print(error, file=sys.stderr)
+        else:
             self.last_loaded_folder = folder_to_save
+        self.progress_bar_set(1, 1)
+        print("Copying finished")
 
-        if not self.get_assets_dir().endswith("Assets"):
-            showerror("Error", "Assets directory must be selected.")
-            return
-
-        file_path = f"{self.get_assets_dir()}/Resources/I2Languages.asset"
-        if not os.path.exists(file_path):
-            showerror("Error", "Assets directory does not contain language file (I2Languages.asset).")
-            return
-
-        print("Copying I2Languages")
-
-        direct, file = os.path.split(file_path)
-
-        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}.meta")
-
-        t = threading.Thread(target=thread_languages_get, args=[file_path])
-        t.start()
-
+    ##
     def get_lang_meta(self) -> dict | None:
         lang_path = './Translations/I2Languages.yaml'
 
@@ -486,8 +462,8 @@ class Unpacker(tk.Tk):
         t.start()
 
     def get_data(self):
-        if not self.get_assets_dir().endswith("Assets"):
-            showwarning("Warning", "Assets directory must be selected.")
+        if not self.get_assets_dir().exists():
+            showwarning("Warning", "VS assets folder must be entered.")
             return
 
         print("Copying data files")
@@ -550,32 +526,6 @@ class Unpacker(tk.Tk):
 
         return Path(full_path)
 
-    def get_assets_meta_files(self):
-        paths = [f"{self.get_assets_dir()}/Resources/spritesheets"]
-        for f in filter(lambda x: "ASSETS" in x.value, self.config.data):
-            p = os.path.join(self.config[f], "Texture2D")
-            if os.path.exists(p):
-                paths.append(p)
-
-        dirs = list(map(os.path.normpath, paths))
-        files = []
-        missing_paths = []
-        while len(dirs) > 0:
-            this_dir = dirs.pop(0)
-            if not os.path.exists(this_dir):
-                missing_paths.append(this_dir)
-                continue
-
-            files.extend(f for f in os.scandir(this_dir) if f.name.endswith(".meta") and not f.is_dir())
-            dirs.extend(f for f in os.scandir(this_dir) if f.is_dir())
-
-        if missing_paths:
-            print(f"! Missing paths {missing_paths} while trying to access meta files for images.",
-                  file=sys.stderr)
-            # showerror("Error", f"Missing paths: {missing_paths}")
-
-        return files
-
     def data_to_image(self):
         def thread_load_data():
 
@@ -608,7 +558,7 @@ class Unpacker(tk.Tk):
                 if d:
                     return d.data_name, d.image
                 else:
-                    return (None,)*2
+                    return (None,) * 2
 
             for i, (k_id, obj) in enumerate(ug):
                 self.progress_bar_set(i + 1, total)
@@ -651,56 +601,36 @@ class Unpacker(tk.Tk):
         t = threading.Thread(target=thread_load_data)
         t.start()
 
-    def unified_image_gen_handler(self):
-        start_path = f".\\Data"
-        if not os.path.exists(start_path):
-            showerror("Error",
-                      "Data folder not exists.")
-            return
-
-        filetypes = [
-            ('JSON', '*.json')
-        ]
-
-        full_path = fd.askopenfilename(
-            title='Select data file',
-            initialdir=start_path,
-            filetypes=filetypes
-        )
-
-        if not full_path:
-            return
-
-        all_assets = self.get_assets_meta_files()
-
-        gen_unified_images(full_path, all_assets)
-
-    def tilemap_gen_handler(self):
-
+    def select_dlc(self) -> DLCType | None:
         all_dlcs = config.DLCType.get_all()
         bb = ButtonsBox(all_dlcs, "Select DLC", "Select DLC to open respective folder", self)
         bb.wait_window()
 
         if bb.return_data is None:
-            return
+            return None
 
-        selected_dlc = all_dlcs[ bb.return_data or 0 ].value
+        return all_dlcs[bb.return_data or 0]
+
+    def tilemap_gen_handler(self):
+        selected_dlc = self.select_dlc()
+        if not selected_dlc:
+            return
+        selected_dlc = selected_dlc.value
 
         is_found = False
         folders = ["GameObject", "PrefabInstance"]
 
-        start_path = Path('./')
+        start_path = ROOT_FOLDER
         for folder in folders:
-            start_path = self.get_assets_dir(selected_dlc.config_key).joinpath( folder )
+            start_path = self.get_assets_dir(selected_dlc.config_key).joinpath(folder)
             if start_path.exists():
                 is_found = True
                 break
 
-
         if not is_found:
             showwarning("Error",
-                        "PrefabInstance folder in assets not exists.")
-            start_path = './'
+                        "Prefab folder not found.")
+            start_path = ROOT_FOLDER
 
         filetypes = [
             ('Prefab', '*.prefab')
@@ -718,8 +648,6 @@ class Unpacker(tk.Tk):
         full_path = Path(full_path)
 
         print(f"Started generating tilemap {full_path!r}")
-
-        MetaDataHandler().load()
 
         from Images.tilemap_gen import gen_tilemap
         save_folder = gen_tilemap(full_path)

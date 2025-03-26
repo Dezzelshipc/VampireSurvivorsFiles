@@ -6,7 +6,11 @@ Ripped from v1.12 + Moonspell + Foscari + Meeting + Guns + Ode
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 
-## Unpacker (v0.14.1)
+## Data Files
+
+Game data files and DLC data files located in [Data](Data) folder.
+
+## Unpacker (v0.14.1) - Data manager and Image generator
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
