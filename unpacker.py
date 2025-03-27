@@ -18,9 +18,10 @@ import Config.config as config
 import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
+import Images.transparent_save as tr_save
 from Config.config import CfgKey, DLCType
 from Images.image_unified_gen import gen_unified_images
-from Utility.image_functions import resize_image
+from Utility.image_functions import resize_image, crop_image_rect_left_top
 from Utility.utility import CheckBoxes, ButtonsBox
 from Utility.meta_data import MetaDataHandler, get_meta_by_name
 
@@ -118,10 +119,8 @@ class Unpacker(tk.Tk):
 
     def __init__(self, width=650, height=350):
         super().__init__()
-        self.width = width
-        self.height = height
-        self.geometry(f"{width}x{height}")
-        self.resizable(False, False)
+        self.minsize(width, height)
+
         self.title('Resource unpacker VS')
 
         self.load_config()
@@ -145,17 +144,31 @@ class Unpacker(tk.Tk):
 
         b_unpack_by_meta = ttk.Button(
             self,
-            text="Select image to unpack",
-            command=self.unpack_by_meta
+            text="Select image to unpack images",
+            command=lambda: self.unpack_by_meta(self.generate_images_by_meta)
         )
         b_unpack_by_meta.grid(row=2, column=1)
 
-        b_assets_folder = ttk.Button(
+        b_unpack_img_spritesheets = ttk.Button(
             self,
             text=".. from spritesheets",
-            command=self.unpack_by_meta_from_spritesheets
+            command=lambda: self.unpack_by_meta_from_spritesheets(self.generate_images_by_meta)
         )
-        b_assets_folder.grid(row=2, column=2)
+        b_unpack_img_spritesheets.grid(row=2, column=2)
+
+        b_unpack_anim_by_meta = ttk.Button(
+            self,
+            text="Select image to\nunpack animations",
+            command=lambda: self.unpack_by_meta(self.generate_animation_by_meta)
+        )
+        b_unpack_anim_by_meta.grid(row=3, column=1)
+
+        b_unpack_anim_spritesheets = ttk.Button(
+            self,
+            text=".. from spritesheets",
+            command=lambda: self.unpack_by_meta_from_spritesheets(self.generate_animation_by_meta)
+        )
+        b_unpack_anim_spritesheets.grid(row=3, column=2)
 
         self.progress_bar = ttk.Progressbar(
             self,
@@ -175,7 +188,7 @@ class Unpacker(tk.Tk):
             text="Open last loaded folder",
             command=self.open_last_loaded
         )
-        b_last_loaded_folder.grid(row=3, column=1)
+        b_last_loaded_folder.grid(row=5, column=0)
 
         self.rowconfigure(4, minsize=30)
 
@@ -246,7 +259,7 @@ class Unpacker(tk.Tk):
             self,
             text="Magic button to\nrip data automatically",
             command=self.data_ripper
-        ).grid(row=5, column=0)
+        ).grid(row=9, column=0)
 
         self.loaded_meta = dict()
 
@@ -276,7 +289,7 @@ class Unpacker(tk.Tk):
                  )
 
     def progress_bar_set(self, current, total):
-        self.progress_bar['value'] = current * 100 / total
+        self.progress_bar['value'] = current * 100 / total if total else 100
         self.progress_bar.update()
         self.l_progress_bar_string.set(f"{current} / {total}")
         self.l_progress_bar.update()
@@ -285,16 +298,16 @@ class Unpacker(tk.Tk):
         if self.last_loaded_folder and self.last_loaded_folder.exists():
             os.startfile(self.last_loaded_folder)
 
-    def unpack_by_meta_from_spritesheets(self):
+    def unpack_by_meta_from_spritesheets(self, generate_function):
         folder = self.get_assets_dir().joinpath("Resources", "spritesheets")
 
         if not folder.exists():
             showwarning("Warning", "Spritesheets folder does not found.")
             return
 
-        self.generate_by_meta(folder)
+        self.generate_by_meta_selector(folder, generate_function)
 
-    def unpack_by_meta(self):
+    def unpack_by_meta(self, generate_function):
         selected_dlc = self.select_dlc()
         if not selected_dlc:
             return
@@ -310,9 +323,10 @@ class Unpacker(tk.Tk):
             showwarning("Warning", "Assets folder not found.")
             return
 
-        self.generate_by_meta(start_path)
+        self.generate_by_meta_selector(start_path, generate_function)
 
-    def generate_by_meta(self, selecting_path: Path):
+    @staticmethod
+    def generate_by_meta_selector(selecting_path: Path, generate_function):
         filetypes = [
             ('Images', '*.png')
         ]
@@ -328,11 +342,15 @@ class Unpacker(tk.Tk):
 
         full_path = Path(full_path)
 
+        generate_function(full_path)
+
+    def generate_images_by_meta(self, full_path):
         file = full_path.name
 
         print(f"Generating {file} by meta")
 
         scale_factor = askinteger("Scale", "Input scale multiplier", initialvalue=1)
+        if not scale_factor: return
 
         data = get_meta_by_name(file)
 
@@ -344,7 +362,7 @@ class Unpacker(tk.Tk):
 
         total_len = len(data.data_name)
 
-        folder_to_save = ROOT_FOLDER.joinpath("Images", "Generated", "_By meta")
+        folder_to_save = ROOT_FOLDER.joinpath("Images", "Generated", "_By meta Image")
         if total_len > 1:
             folder_to_save = folder_to_save.joinpath(full_path.stem)
         else:
@@ -358,6 +376,87 @@ class Unpacker(tk.Tk):
         for i, (_, sprite_data) in enumerate(data.data_name.items()):
             sprite = resize_image(sprite_data.sprite, scale_factor)
             sprite.save(folder_to_save.joinpath(str(sprite_data.real_name)).with_suffix(".png"))
+
+            print(f"\r{i + 1}", end="")
+            self.progress_bar_set(i + 1, total_len)
+
+        print()
+        self.last_loaded_folder = folder_to_save.absolute()
+
+    def generate_animation_by_meta(self, full_path):
+        file = full_path.name
+
+        print(f"Generating {file} by meta")
+
+        scale_factor = askinteger("Scale", "Input scale multiplier", initialvalue=1)
+        if not scale_factor: return
+        frame_rate = askinteger("Frame rate", "Input frame rate (frames per second)", initialvalue=6)
+        if not frame_rate: return
+
+        anim_types = ["gif", "gif|alpha>=50", "webp", "apng"]
+        cbs = CheckBoxes(anim_types, parent=self,
+                         label="Select animation extension to use.\n(GIF does not support partial transparency)",
+                         title="Select anim types")
+        cbs.wait_window()
+        selected_anim_types = cbs.return_data
+
+        data = get_meta_by_name(file)
+
+        if not data:
+            showerror("Error", f"MetaData not found for {file}")
+            return
+
+        data.init_animations()
+
+        animations = data.get_animations()
+
+        total_len = len(animations)
+
+        if not total_len or not any(selected_anim_types):
+            print(f"Found {total_len} animations and selected {selected_anim_types}")
+            return
+
+        folder_to_save = ROOT_FOLDER.joinpath("Images", "Generated", "_By meta Anim")
+        if total_len > 1:
+            folder_to_save = folder_to_save.joinpath(full_path.stem)
+        else:
+            folder_to_save = folder_to_save.joinpath("_SingeAnimations")
+
+        folder_to_save.mkdir(parents=True, exist_ok=True)
+
+        duration = 1000 // frame_rate
+
+        print(f"Animations out of {total_len}:")
+        self.progress_bar_set(0, total_len)
+
+        for i, anim in enumerate(animations):
+            sprites_list = []
+            for img, rect, sprite_name in anim.get_sprites_iter():
+                sprite = crop_image_rect_left_top(img, rect)
+                sprite = resize_image(sprite, scale_factor)
+                sprites_list.append(sprite)
+
+            if selected_anim_types[0]:
+                path = folder_to_save.joinpath("gif")
+                path.mkdir(exist_ok=True)
+                tr_save.save_transparent_gif2(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(".gif"))
+
+            if selected_anim_types[1]:
+                path = folder_to_save.joinpath("gif_a50")
+                path.mkdir(exist_ok=True)
+                tr_save.save_transparent_gif2(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(".gif"),
+                                              alpha_threshold=50)
+
+            if selected_anim_types[2]:
+                path = folder_to_save.joinpath("webp")
+                path.mkdir(exist_ok=True)
+                tr_save.save_transparent_webp(sprites_list, duration,
+                                              path.joinpath(str(anim.name)).with_suffix(".webp"))
+
+            if selected_anim_types[3]:
+                path = folder_to_save.joinpath("apng")
+                path.mkdir(exist_ok=True)
+                tr_save.save_transparent_webp(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(".png"))
 
             print(f"\r{i + 1}", end="")
             self.progress_bar_set(i + 1, total_len)

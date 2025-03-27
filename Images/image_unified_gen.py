@@ -12,7 +12,7 @@ from Utility.singleton import Singleton
 from Utility.utility import run_multiprocess
 from Data.data import get_data_file
 from Utility.meta_data import get_meta_by_name_set, MetaData, get_meta_dict_by_name_set
-from Utility.image_functions import crop_image_rect, resize_image
+from Utility.image_functions import crop_image_rect_left_bot, resize_image
 
 class UnifiedImageHandler(metaclass=Singleton):
     def __init__(self):

@@ -1,5 +1,6 @@
 import os
 import tkinter as tk
+from pathlib import Path
 from tkinter import ttk
 from collections.abc import Iterable
 from multiprocessing import Pool
@@ -94,3 +95,13 @@ def clear_file(save_path: str | os.PathLike[str]):
 def write_in_file_end(save_path: str | os.PathLike[str], lines: list[str]):
     with open(save_path, "a+", encoding="UTF-8") as f:
         f.writelines(lines)
+
+
+def normalize_str(s) -> str:
+    s = Path(str(s))
+    name = s.name
+    try:
+        index = name.index('.')
+    except ValueError:
+        index = None
+    return name[:index].lower()

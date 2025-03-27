@@ -8,20 +8,11 @@ from typing import Dict, Self
 from unityparser import UnityDocument
 from PIL import Image
 
-from Utility.image_functions import crop_image_rect, SpriteRect, SpritePivot
+from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
 from Utility.singleton import Singleton
-from Utility.utility import run_multiprocess
+from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
+from Utility.utility import run_multiprocess, normalize_str
 from Config.config import Config, CfgKey
-
-
-def normalize_str(path) -> str:
-    path = Path(str(path))
-    name = path.name
-    try:
-        index = name.index('.')
-    except ValueError:
-        index = None
-    return name[:index].lower()
 
 
 class MetaDataHandler(metaclass=Singleton):
@@ -101,24 +92,6 @@ def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
                 return None
 
 
-class SpriteData:
-    def __init__(self, name, real_name, internal_id, rect, pivot):
-        self.name: str = name
-        self.real_name: str = real_name
-        self.internal_id: int = internal_id
-        self.rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
-        self.pivot: SpritePivot = pivot if isinstance(pivot, SpritePivot) else SpritePivot.from_dict(pivot)
-
-        self.sprite = None
-
-    def __repr__(self):
-        return f"[{self.__class__.__name__}: {self.real_name=} {self.internal_id=} {self.rect} {self.pivot} {self.sprite}]"
-
-    def __getitem__(self, item):
-        # SHOULD NOT BE USED NORMALLY
-        return self.__getattribute__(item)
-
-
 class MetaData:
     def __init__(self, name: str, guid: str, image: Image, data_name: Dict[str, SpriteData],
                  data_id: Dict[int, SpriteData]):
@@ -129,14 +102,47 @@ class MetaData:
         self.data_id: Dict[int, SpriteData] = data_id
 
         self.__added_sprites = False
+        self.__added_animations = False
 
     def init_sprites(self) -> None:
         if not self.__added_sprites:
-            for entries in self.data_name.values():
-                entries.sprite = crop_image_rect(self.image, entries.rect)
-                pass
+            for entry in self.data_name.values():
+                entry.sprite = crop_image_rect_left_bot(self.image, entry.rect)
+            self.__added_sprites = True
 
-        self.__added_sprites = True
+    def init_animations(self) -> None:
+        if not self.__added_animations:
+            self.init_sprites()
+            anim_frames = {}
+            for entry in self.data_name.values():
+                sprite_name = entry.real_name
+                name, count = split_name_count(sprite_name)
+                if sprite_name in SKIP_ANIM_NAMES_LIST:
+                    print(f"! Skipped frame: {sprite_name} with count {count}. If it should be part with animation, tell this dev!")
+                    continue
+                if name not in anim_frames:
+                    anim_frames[name] = set()
+                anim_frames[name].add((sprite_name, count))
+
+            anim_frames = {
+                name: list(map(lambda x: x[0], sorted(frames, key=lambda x: x[-1])))
+                for name, frames in anim_frames.items()
+            }
+
+            for name, sprite_name_list in anim_frames.items():
+                sprite_list = [self.data_name.get(sprite) for sprite in sprite_name_list]
+                rect_list = get_rects_by_sprite_list(sprite_list)
+
+                anim_data = AnimationData(name, sprite_name_list, rect_list, [s.sprite for s in sprite_list])
+
+                if len(anim_data) > 1:
+                    for sprite_name in sprite_name_list:
+                        self.data_name[sprite_name].animation = anim_data
+
+            self.__added_animations = True
+
+    def get_animations(self) -> set[AnimationData]:
+        return set(sprite.animation for sprite in self.data_name.values() if sprite.animation is not None)
 
     def __getitem__(self, item):
         # SHOULD NOT BE USED NORMALLY
@@ -269,25 +275,13 @@ def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
 if __name__ == "__main__":
     hndlr = MetaDataHandler()
 
+    aaaa = get_meta_by_name("character_tp_alucard")
+    # aaaa = get_meta_by_name("TP_enemies")
+    # aaaa = get_meta_by_name("logoAnimation")
 
-    def __test():
+    aaaa.init_sprites()
+    aaaa.init_animations()
 
-        ui = get_meta_by_name("UI")
+    a = aaaa.get_animations()
 
-        print(hndlr.loaded_assets_meta)
-
-        ui.init_sprites()
-
-        for g, a in hndlr.loaded_assets_meta.items():
-            print(g)
-            for k, v in a.data_name.items():
-                print(k, v)
-                break
-
-            for k, v in a.data_id.items():
-                print(k, v)
-                break
-
-
-    # __test()
-    get_meta_by_name("I2Languages")
+    pass

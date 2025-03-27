@@ -11,7 +11,7 @@ from Config.config import Config, CfgKey
 from Utility.singleton import Singleton
 from Utility.utility import CheckBoxes, run_multiprocess, write_in_file_end, clear_file
 from Utility.meta_data import get_meta_by_guid_set
-from Utility.image_functions import crop_image_rect, resize_image, affine_transform
+from Utility.image_functions import crop_image_rect_left_bot, resize_image, affine_transform
 
 this_dir, this_file = os.path.split(__file__)
 
@@ -35,7 +35,7 @@ def __get_sprite_cropped(spritesheet: Image, sprite_data: dict, size_tile: tuple
     if not sprite_data:
         return None
 
-    im_crop = crop_image_rect(spritesheet, sprite_data["rect"])
+    im_crop = crop_image_rect_left_bot(spritesheet, sprite_data["rect"])
 
     shift_x = int(sprite_data['rect']['width'] * sprite_data['pivot']['x'])
     shift_y = int(sprite_data['rect']['height'] * sprite_data['pivot']['y'])
@@ -50,7 +50,7 @@ def __get_sprite(spritesheet: Image, sprite_data: dict) -> Image:
     if not sprite_data:
         return None
 
-    return crop_image_rect(spritesheet, sprite_data["rect"])
+    return crop_image_rect_left_bot(spritesheet, sprite_data["rect"])
 
 
 def __resize_sprite_for_tile(image: Image, sprite_data: dict, size_tile: tuple):

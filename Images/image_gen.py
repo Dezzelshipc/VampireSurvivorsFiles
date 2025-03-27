@@ -8,7 +8,7 @@ from typing import Dict
 from PIL import Image, ImageFont, ImageDraw
 import PIL.Image
 import Images.transparent_save as tr_save
-from Utility.meta_data import SpriteData
+from Utility.sprite_data import SpriteData
 
 
 class DataType(Enum):
