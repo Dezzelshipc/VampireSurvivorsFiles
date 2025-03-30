@@ -1,30 +1,27 @@
 import itertools
+import json
+import os
+import shutil
+import sys
+import threading
 import tkinter as tk
 from pathlib import Path
-from tkinter import ttk
 from tkinter import filedialog as fd
+from tkinter import ttk
 from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
 
 import yaml
-import json
-import os
-import sys
-import shutil
-from PIL import Image
-import PIL.Image
-import threading
 
 import Config.config as config
-import Translations.language as lang_module
 import Data.data as data_module
 import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
+import Translations.language as lang_module
 from Config.config import CfgKey, DLCType
-from Images.image_unified_gen import gen_unified_images
 from Utility.image_functions import resize_image, crop_image_rect_left_top
-from Utility.utility import CheckBoxes, ButtonsBox
 from Utility.meta_data import MetaDataHandler, get_meta_by_name
+from Utility.utility import CheckBoxes, ButtonsBox
 
 ROOT_FOLDER = Path(__file__).parent.absolute()
 
@@ -289,10 +286,16 @@ class Unpacker(tk.Tk):
                  f"Read README.md for more info."
                  )
 
-    def progress_bar_set(self, current, total):
+    def progress_bar_set_percent(self, current, total):
         self.progress_bar['value'] = current * 100 / total if total else 100
         self.progress_bar.update()
         self.l_progress_bar_string.set(f"{current} / {total}")
+        self.l_progress_bar.update()
+
+    def progress_bar_set_sec(self, seconds: float):
+        self.progress_bar['value'] = (seconds * 10) % 100
+        self.progress_bar.update()
+        self.l_progress_bar_string.set(f"{seconds:.2f}")
         self.l_progress_bar.update()
 
     def open_last_loaded(self):
@@ -372,14 +375,14 @@ class Unpacker(tk.Tk):
         folder_to_save.mkdir(parents=True, exist_ok=True)
 
         print(f"Files out of {total_len}:")
-        self.progress_bar_set(0, total_len)
+        self.progress_bar_set_percent(0, total_len)
 
         for i, (_, sprite_data) in enumerate(data.data_name.items()):
             sprite = resize_image(sprite_data.sprite, scale_factor)
             sprite.save(folder_to_save.joinpath(str(sprite_data.real_name)).with_suffix(".png"))
 
             print(f"\r{i + 1}", end="")
-            self.progress_bar_set(i + 1, total_len)
+            self.progress_bar_set_percent(i + 1, total_len)
 
         print()
         self.last_loaded_folder = folder_to_save.absolute()
@@ -447,7 +450,7 @@ class Unpacker(tk.Tk):
         ]
 
         print(f"Animations out of {total_len}:")
-        self.progress_bar_set(0, total_len)
+        self.progress_bar_set_percent(0, total_len)
 
         for i, anim in enumerate(animations):
             sprites_list = []
@@ -462,21 +465,21 @@ class Unpacker(tk.Tk):
                 func(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(ext))
 
             print(f"\r{i + 1}", end="")
-            self.progress_bar_set(i + 1, total_len)
+            self.progress_bar_set_percent(i + 1, total_len)
 
         print()
         self.last_loaded_folder = folder_to_save.absolute()
 
     def languages_get(self):
         print("Copying I2Languages.assets")
-        self.progress_bar_set(0, 1)
+        self.progress_bar_set_percent(0, 1)
         folder_to_save, error = lang_module.copy_lang_file()
         if error:
             showerror("Error", error)
             print(error, file=sys.stderr)
         else:
             self.last_loaded_folder = folder_to_save
-        self.progress_bar_set(1, 1)
+        self.progress_bar_set_percent(1, 1)
         print("Copying finished")
 
     ##
@@ -546,7 +549,7 @@ class Unpacker(tk.Tk):
             gen = lang_module.split_to_files(yaml_file, using_list, is_gen=True)
 
             for i, total in gen:
-                self.progress_bar_set(i + 1, total)
+                self.progress_bar_set_percent(i + 1, total)
 
         lang_yaml = './Translations/I2Languages.yaml'
 
@@ -592,7 +595,7 @@ class Unpacker(tk.Tk):
 
                 for entry in entries:
                     shutil.copy2(entry, data_path)
-                    self.progress_bar_set(i := i + 1, total)
+                    self.progress_bar_set_percent(i := i + 1, total)
 
     def data_concatenate(self):
         add_content_group = askyesno("Add content group",
@@ -605,7 +608,7 @@ class Unpacker(tk.Tk):
         gen = data_module.concatenate(is_gen=True, add_content_group=add_content_group)
 
         for i, total in gen:
-            self.progress_bar_set(i + 1, total)
+            self.progress_bar_set_percent(i + 1, total)
 
     @staticmethod
     def data_selector(add_title="") -> Path | None:
@@ -663,7 +666,7 @@ class Unpacker(tk.Tk):
                     return (None,) * 2
 
             for i, (k_id, obj) in enumerate(ug):
-                self.progress_bar_set(i + 1, total)
+                self.progress_bar_set_percent(i + 1, total)
                 gen.make_image(meta_func,
                                k_id, obj,
                                lang_data=(lang or {}).get(k_id),
@@ -789,7 +792,8 @@ class Unpacker(tk.Tk):
 
         print(f"Started audio generating {data_path!r}, {save_types_set}")
 
-        self.last_loaded_folder, error = audio_gen.gen_audio(data_path, save_types_set, self)
+        self.last_loaded_folder, error = audio_gen.gen_music_tracks(data_path, save_types_set,
+                                                                    self.progress_bar_set_percent)
         if error:
             showerror("Error", error)
 

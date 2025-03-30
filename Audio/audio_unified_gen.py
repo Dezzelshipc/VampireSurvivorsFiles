@@ -1,7 +1,9 @@
+from time import sleep
+from dataclasses import dataclass
 from enum import Enum
 
 from pathlib import Path
-from typing import Tuple
+from typing import Tuple, Literal
 
 from Config.config import Config
 import Data.data as data_handler
@@ -10,8 +12,8 @@ import Translations.language as lang_handler
 from unityparser import UnityDocument
 from pydub import AudioSegment
 
+from Utility.timer import Timeit
 from Utility.utility import run_multiprocess
-from unpacker import Unpacker
 
 import shutil
 
@@ -29,7 +31,7 @@ class AudioSaveType(Enum):
         return self.value
 
 
-def __get_musicPlaylists() -> list[dict]:
+def __get_music_playlists() -> list[dict]:
     config = Config()
 
     base_dirs = ["PrefabInstance", "GameObject", "Resources"]
@@ -66,7 +68,7 @@ def __get_musicPlaylists() -> list[dict]:
     return music_playlists
 
 
-def __get_audioClipsPaths() -> list[Path]:
+def __get_audio_clips_paths() -> list[Path]:
     config = Config()
 
     audio_clips_dirs = []
@@ -87,11 +89,66 @@ def __get_audioClipsPaths() -> list[Path]:
     return audio_clips
 
 
-def __get_audioClip(path: Path) -> Tuple[Path, AudioSegment]:
+def __get_audio_clip(path: Path) -> Tuple[Path, AudioSegment]:
     return path, AudioSegment.from_file(path, format=path.suffix.replace(".", ""))
 
 
-def gen_audio(music_json_path: Path, save_name_types: set[AudioSaveType], unpacker: Unpacker = None) -> (
+@dataclass
+class MusicTrack:
+    audio: AudioSegment
+    tags: dict[Literal["artist", "album", "title", "source"], str]
+    code_name: str
+    ext: str
+    content_group: str
+    has_same_name: bool
+
+    def get_code_name_ext(self):
+        return f"{self.code_name}.{self.ext}"
+
+
+def __get_full_music_track(audio_clips, music_data, playlist_data) -> MusicTrack:
+    code_name = playlist_data['playlistName']
+
+    cur_data = music_data.get(code_name) or {}
+
+    tags = {
+        "artist": cur_data.get("author"),
+        "album": cur_data.get("source"),
+        "source": cur_data.get("source"),
+        "title": cur_data.get("title")
+    }
+    if None in tags.values():
+        tags = {}
+
+    has_same_name = (sngn := playlist_data['MusicSettings'][0]['songName'].lower()) and bool(
+        cur_data.get("source")) and audio_clips.get(sngn + "_0")
+
+    clips = []
+    ext = ""
+    for setting in playlist_data['MusicSettings']:
+        song_name = setting['songName'].lower()
+        if has_same_name:
+            song_name += "_0"
+
+        clip_data = audio_clips.get(song_name)
+        ext = clip_data.suffix.replace(".", "")
+
+        clips.append(clip_data)
+
+    clips = run_multiprocess(__get_audio_clip, clips, is_many_args=False, is_multiprocess=False)
+    audio: AudioSegment = sum(dict(clips).values())
+
+    content_group = cur_data.get("contentGroup", "BASE_GAME")
+
+    return MusicTrack(audio, tags, code_name, ext, content_group, has_same_name)
+
+
+def __save_track(music_track: MusicTrack, save_path: Path):
+    music_track.audio.export(save_path, music_track.ext, tags=music_track.tags)
+
+
+def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
+                     func_progress_bar_set_percent=lambda c, t: 0) -> (
         str | None, None | str):
     save_name_types.add(AudioSaveType.CODE_NAME)
 
@@ -137,28 +194,33 @@ def gen_audio(music_json_path: Path, save_name_types: set[AudioSaveType], unpack
         if len(datas) < len(data_files):
             return None, f"! Not found split lang files for relative generator: {not_found}"
 
-    music_playlists_raw = __get_musicPlaylists()
+    music_playlists_raw = __get_music_playlists()
 
     music_ids_with_authors = dict(filter(lambda x: bool(x[-1].get("author")), music_data.items())).keys()
 
     music_playlists = list(filter(lambda x: x.get("playlistName") in music_ids_with_authors, music_playlists_raw))
     music_playlists.extend(filter(lambda x: x.get("playlistName") not in music_ids_with_authors, music_playlists_raw))
 
-    audio_clips = __get_audioClipsPaths()
+    audio_clips = __get_audio_clips_paths()
     audio_clips = {ac.stem.lower(): ac for ac in audio_clips}
 
     total_len = len(music_playlists)
 
-    print(f"Generating music {total_len}:")
+    print(f"Multiprocessing: {Config().get_multiprocessing()}")
+    print(f"Generating {total_len} tacks")
 
-    already_generated = dict()
-    for kk, music in enumerate(music_playlists):
-        print(f"\r{kk + 1}", end="")
-        code_name = music['playlistName']
+    args_gen_tracks = (
+        (audio_clips, music_data, playlist_data)
+        for playlist_data in music_playlists
+    )
+    timeit = Timeit()
 
-        cur_data = music_data.get(code_name) or {}
-        content_group = cur_data.get("contentGroup", "BASE_GAME")
+    audio_tracks: list[MusicTrack] = run_multiprocess(__get_full_music_track, args_gen_tracks)
 
+    print(f"Generated tacks ({timeit:.2f} sec)")
+
+    content_group_set = {track.content_group for track in audio_tracks}
+    for content_group in content_group_set:
         for save_type in save_name_types:
             sp = save_path.joinpath(str(save_type), content_group)
             sp.mkdir(parents=True, exist_ok=True)
@@ -172,48 +234,45 @@ def gen_audio(music_json_path: Path, save_name_types: set[AudioSaveType], unpack
                     sp.mkdir(parents=True, exist_ok=True)
                     sp.joinpath("prefix").mkdir(parents=True, exist_ok=True)
 
-        tags = {
-            "artist": cur_data.get("author"),
-            "album": cur_data.get("source"),
-            "title": cur_data.get("title")
-        }
-        if None in tags.values():
-            tags = {}
+    def path_dest(s_type: AudioSaveType, m_track: MusicTrack, *other):
+        return save_path.joinpath(str(s_type), m_track.content_group, *other)
 
-        has_same_name = (sngn := music['MusicSettings'][0]['songName'].lower()) and bool(
-            cur_data.get("source")) and audio_clips.get(sngn + "_0")
+    timeit = Timeit()
+    print("Saving tracks with code names")
 
-        clips = []
-        ext = ""
-        for setting in music['MusicSettings']:
-            song_name = setting['songName'].lower()
-            if has_same_name:
-                song_name += "_0"
+    args_save_tracks = [
+        (music_tack, path_dest(AudioSaveType.CODE_NAME, music_tack) / music_tack.get_code_name_ext())
+        for music_tack in audio_tracks
+    ]
+    run_multiprocess(__save_track, args_save_tracks)
 
-            clip_data = audio_clips.get(song_name)
-            ext = clip_data.suffix.replace(".", "")
+    print(f"Saved tracks with code names ({timeit:.2f} sec)")
 
-            clips.append(clip_data)
+    if not save_name_types.difference({AudioSaveType.CODE_NAME}):
+        return save_path, None
 
-        clips = run_multiprocess(__get_audioClip, clips, is_many_args=False)
-        audio: AudioSegment = sum(dict(clips).values())
+    timeit = Timeit()
+    print("Saving tracks with other names:")
 
-        def path_dest(s_type: AudioSaveType, *other):
-            return save_path.joinpath(str(s_type), content_group, *other)
+    already_generated = dict()
+    for kk, (music_track, code_name_path) in enumerate(args_save_tracks):
+        code_name = music_track.code_name
+        tags = music_track.tags
+        has_same_name = music_track.has_same_name
+        ext = music_track.ext
 
-        save_name = f"{code_name}.{ext}"
-        code_name_path = path_dest(AudioSaveType.CODE_NAME, save_name)
-        audio.export(code_name_path, ext, tags=tags)
+        cur_data = music_data.get(code_name) or {}
 
-        if AudioSaveType.TITLE_NAME in save_name_types and (title := cur_data.get("title")):
+        if AudioSaveType.TITLE_NAME in save_name_types and (title := tags.get("title")):
             title_add = ""
-            if (source := cur_data.get("source")) and ("Castlevania" in source):
+            if (source := tags.get("source")) and ("Castlevania" in source):
                 title_add = " - " + source.replace("Castlevania", "").strip()
 
             save_name = f"{title}{title_add}.{ext}"
 
-            shutil.copy(code_name_path, path_dest(AudioSaveType.TITLE_NAME, save_name))
-            shutil.copy(code_name_path, path_dest(AudioSaveType.TITLE_NAME, "prefix", "Audio-" + save_name))
+            shutil.copy(code_name_path, path_dest(AudioSaveType.TITLE_NAME, music_track, save_name))
+            shutil.copy(code_name_path,
+                        path_dest(AudioSaveType.TITLE_NAME, music_track, "prefix", "Audio-" + save_name))
 
         if AudioSaveType.RELATIVE_NAME in save_name_types:
 
@@ -249,15 +308,16 @@ def gen_audio(music_json_path: Path, save_name_types: set[AudioSaveType], unpack
 
                 already_generated.update({save_name: True})
 
-                shutil.copy(code_name_path, path_dest(AudioSaveType.RELATIVE_NAME, cur_type, save_name))
-                shutil.copy(code_name_path,
-                            path_dest(AudioSaveType.RELATIVE_NAME, cur_type, "prefix", "Audio-" + save_name))
+                shutil.copy(code_name_path, path_dest(AudioSaveType.RELATIVE_NAME, music_track, cur_type, save_name))
+                shutil.copy(code_name_path, path_dest(AudioSaveType.RELATIVE_NAME, music_track, cur_type, "prefix",
+                                                      "Audio-" + save_name))
 
-        if unpacker:
-            unpacker.progress_bar_set(kk + 1, total_len)
+        print(f"\r{kk + 1}", end="")
+        func_progress_bar_set_percent(kk + 1, total_len)
 
+    print(f"\nFinished saving tracks with other names ({timeit:.2f} sec)")
     return save_path, None
 
 
 if __name__ == "__main__":
-    gen_audio(data_handler.get_data_path("musicData_Full.json"), set())
+    gen_music_tracks(data_handler.get_data_path("musicData_Full.json"), set())

@@ -23,41 +23,48 @@ Use [Python 3.12](https://www.python.org/downloads/) and install dependencies `p
 
 Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
 folders (`...\ExportedProject\Assets`, can be empty to automatically rip files).
+
 * ***NOTE*** that ripping will **remove
-everything** in selected folders!
+  everything** in selected folders!
 
-Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) 
+Using [AssetRipper](https://github.com/AssetRipper/AssetRipper)
 
-* **Automatically** - Enter path to AssetRipper.exe and Steam folder for Vampire Survivors in config. Press *Magic button* and
+* **Automatically** - Enter path to AssetRipper.exe and Steam folder for Vampire Survivors in config. Press *Magic
+  button* and
   select DLCs to rip. Your previous settings for AssetRipper will be saved.
 
 * **Manually** - Export with **Export Unity Project** with settings:
 
-  * Turn off "_Skip StreamingAssets Folder_",
-  * "_Bundled Assets Export Mode_" set to _**Group By Asset Type**_,
-  * "_Script Content Level_" set to _**Level 2**_ (**Warning**: Levels 1,2 could crash ripper for some reason (in old
-    versions), but only from Level 1 you can rip I2Languages. If it crashes try level 0),
-  * "_Sprite Export Format_" set to _**Texture**_,
-  * Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings.
+    * Turn off "_Skip StreamingAssets Folder_",
+    * "_Bundled Assets Export Mode_" set to _**Group By Asset Type**_,
+    * "_Script Content Level_" set to _**Level 2**_ (**Warning**: Levels 1,2 could crash ripper for some reason (in old
+      versions), but only from Level 1 you can rip I2Languages. If it crashes try level 0),
+    * "_Sprite Export Format_" set to _**Texture**_,
+    * Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings.
 
-    * Main game and each DLC must be ripped separately (You have to own DLCs).
-      In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open in
-      AssetRipper.
+        * Main game and each DLC must be ripped separately (You have to own DLCs).
+          In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open
+          in
+          AssetRipper.
 
 _**Enable multiprocessing**_ can increase speed in some cases in exchange for "fully" loading CPU (and possibility of
-  overflowing memory for very big files).
-  
-  * Currently only for: _Get stage tilemap_.
+overflowing memory for very big files).
+
+* Currently for: _Get stage tilemap_, _Get unified audio_.
 
 ### Functions
 
 * **Magic button to rip data automatically**: provided paths to _VS steam_ folder, _AssetRipper_ folder and _DLC_
   folders you can select what files to rip.
 
-**Select image to unpack**: select png sprite sheet from assets to split it into separate
+**Select image to unpack images**: select png sprite sheet from assets to split it into separate
 sprites. ([Images/Generated/_By meta](Images) folder)
 
 * **.. from spritesheets**: opens _spritesheets_ folder to unpack. (works when entered path in config)
+
+* **Select image to unpack animations** and **.. from spritesheets**: select png sprite sheet from assets to split it
+  into separate
+  animations. (Animations are defined by sorting names of sprites)
 
 **Open last loaded folder**: opens folder that contains data from previous action.
 
@@ -79,16 +86,16 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
     * Some of datas can produce images with frames or animations. (Selecting that datas will have corresponding
       checkboxes)
 
-* **Get stage tilemap**: Generate stage tile map from prefab file. Big prefabs (> 5 MB) have slow parse. One-block maps
-  most likely will have file size higher 10 MB.
+* **Get stage tilemap**: Generate stage tile map from prefab file. Big prefabs (> 5 MB) have slow parse. One-block
+  maps (i.e. from DLC) most likely will have file size higher 10 MB.
 
 * **Get unified audio**: Copies audio files from musicData. Ability to select change of names: "Code names", "Audio
   titles", "Relative object names"
-  * "Relative object names" requires split eng lang data.
-  * Requires **[ffmpeg](https://ffmpeg.org)**.
-
+    * "Relative object names" requires split eng lang data.
+    * Requires **[ffmpeg](https://ffmpeg.org)**.
 
 ## Future plans
+
 * Keep support for new content updates and DLC.
 
 * Change os.path to pathlib.Path.
