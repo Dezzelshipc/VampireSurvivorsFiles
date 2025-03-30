@@ -1,3 +1,4 @@
+import itertools
 import tkinter as tk
 from pathlib import Path
 from tkinter import ttk
@@ -388,10 +389,15 @@ class Unpacker(tk.Tk):
 
         print(f"Generating {file} by meta")
 
-        scale_factor = askinteger("Scale", "Input scale multiplier", initialvalue=1)
+        scale_factor_initial = 1
+        scale_factor = askinteger("Scale", "Input scale multiplier", initialvalue=scale_factor_initial)
         if not scale_factor: return
-        frame_rate = askinteger("Frame rate", "Input frame rate (frames per second)", initialvalue=6)
+        scale_factor = (scale_factor > 0) and scale_factor or scale_factor_initial
+
+        frame_rate_initial = 6
+        frame_rate = askinteger("Frame rate", "Input frame rate (frames per second)", initialvalue=frame_rate_initial)
         if not frame_rate: return
+        frame_rate = (frame_rate > 0) and frame_rate or frame_rate_initial
 
         anim_types = ["gif", "gif|alpha>=50", "webp", "apng"]
         cbs = CheckBoxes(anim_types, parent=self,
@@ -399,6 +405,10 @@ class Unpacker(tk.Tk):
                          title="Select anim types")
         cbs.wait_window()
         selected_anim_types = cbs.return_data
+
+        if not selected_anim_types or not any(selected_anim_types):
+            print("Not selected any animation extension")
+            return
 
         data = get_meta_by_name(file)
 
@@ -412,9 +422,12 @@ class Unpacker(tk.Tk):
 
         total_len = len(animations)
 
-        if not total_len or not any(selected_anim_types):
-            print(f"Found {total_len} animations and selected {selected_anim_types}")
+        if not total_len:
+            print(f"Not found animations for {file}")
             return
+
+        selected_types = list(itertools.compress(anim_types, selected_anim_types))
+        print(f"Selected {scale_factor=}, {frame_rate=}, selected extensions={selected_types}")
 
         folder_to_save = ROOT_FOLDER.joinpath("Images", "Generated", "_By meta Anim")
         if total_len > 1:
@@ -426,6 +439,13 @@ class Unpacker(tk.Tk):
 
         duration = 1000 // frame_rate
 
+        relative_data = [
+            (".gif", "gif", tr_save.save_transparent_gif2),
+            (".gif", "gif_a50", lambda *x: tr_save.save_transparent_gif2(*x, alpha_threshold=50)),
+            (".webp", "webp", tr_save.save_transparent_webp),
+            (".png", "apng", tr_save.save_transparent_apng),
+        ]
+
         print(f"Animations out of {total_len}:")
         self.progress_bar_set(0, total_len)
 
@@ -436,27 +456,10 @@ class Unpacker(tk.Tk):
                 sprite = resize_image(sprite, scale_factor)
                 sprites_list.append(sprite)
 
-            if selected_anim_types[0]:
-                path = folder_to_save.joinpath("gif")
+            for ext, folder, func in itertools.compress(relative_data, selected_anim_types):
+                path = folder_to_save.joinpath(folder)
                 path.mkdir(exist_ok=True)
-                tr_save.save_transparent_gif2(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(".gif"))
-
-            if selected_anim_types[1]:
-                path = folder_to_save.joinpath("gif_a50")
-                path.mkdir(exist_ok=True)
-                tr_save.save_transparent_gif2(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(".gif"),
-                                              alpha_threshold=50)
-
-            if selected_anim_types[2]:
-                path = folder_to_save.joinpath("webp")
-                path.mkdir(exist_ok=True)
-                tr_save.save_transparent_webp(sprites_list, duration,
-                                              path.joinpath(str(anim.name)).with_suffix(".webp"))
-
-            if selected_anim_types[3]:
-                path = folder_to_save.joinpath("apng")
-                path.mkdir(exist_ok=True)
-                tr_save.save_transparent_webp(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(".png"))
+                func(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(ext))
 
             print(f"\r{i + 1}", end="")
             self.progress_bar_set(i + 1, total_len)
@@ -746,7 +749,7 @@ class Unpacker(tk.Tk):
 
         full_path = Path(full_path)
 
-        print(f"Started generating tilemap {full_path!r}")
+        print(f"Selected for generating tilemap: {full_path!r}")
 
         from Images.tilemap_gen import gen_tilemap
         save_folder = gen_tilemap(full_path)

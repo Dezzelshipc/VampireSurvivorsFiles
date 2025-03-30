@@ -234,7 +234,7 @@ class Config(metaclass=Singleton):
         self.ConfigChanger(parent, self)
 
     def get_multiprocessing(self):
-        return self["MULTIPROCESSING"]
+        return self[CfgKey.MULTIPROCESSING]
 
 
 if __name__ == "__main__":

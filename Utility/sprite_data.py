@@ -15,7 +15,7 @@ class SpriteRect:
     height: float
 
     @staticmethod
-    def from_dict(args: dict) -> TRect:
+    def from_dict(args: dict[str, float]) -> TRect:
         return SpriteRect(args["x"], args["y"], args["width"], args["height"])
 
     def __getitem__(self, item):
@@ -29,7 +29,7 @@ class SpritePivot:
     y: float
 
     @staticmethod
-    def from_dict(args: dict) -> TPivot:
+    def from_dict(args: dict[str, float]) -> TPivot:
         return SpritePivot(args["x"], args["y"])
 
     def __getitem__(self, item):
@@ -38,7 +38,7 @@ class SpritePivot:
 
 
 class AnimationData:
-    def __init__(self, name: str, frames_names: list, rects: list[SpriteRect], sprites: list[Image]):
+    def __init__(self, name: str, frames_names: list[str], rects: list[SpriteRect], sprites: list[Image]):
         self.name = name
         self._frames_names = frames_names
         self._rects = rects
@@ -52,18 +52,19 @@ class AnimationData:
 
 
 class SpriteData:
-    def __init__(self, name, real_name, internal_id, rect, pivot):
-        self.name: str = name
-        self.real_name: str = real_name
-        self.internal_id: int = internal_id
-        self.rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
-        self.pivot: SpritePivot = pivot if isinstance(pivot, SpritePivot) else SpritePivot.from_dict(pivot)
+    def __init__(self, name: str, real_name: str, internal_id_set: set[int], rect: SpriteRect | dict[str, float],
+                 pivot: SpritePivot | dict[str, float]):
+        self.name = name
+        self.real_name = real_name
+        self.internal_id_set = internal_id_set
+        self.rect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
+        self.pivot = pivot if isinstance(pivot, SpritePivot) else SpritePivot.from_dict(pivot)
 
         self.sprite: Image | None = None
         self.animation: AnimationData | None = None
 
     def __repr__(self):
-        return f"[{self.__class__.__name__}: {self.real_name=} {self.internal_id=} {self.rect} {self.pivot} {self.sprite}]"
+        return super().__repr__().replace(" object", f": {self.real_name}, {self.sprite=}")
 
     def __getitem__(self, item):
         # SHOULD NOT BE USED NORMALLY

@@ -6,6 +6,7 @@ import requests
 import os
 
 from Config.config import DLCType, Config, CfgKey
+from Utility.timer import Timeit
 
 ripper_port = 56636
 ripper_url = f"http://127.0.0.1:{ripper_port}/"
@@ -77,7 +78,7 @@ def rip_files(dlc_list: set[DLCType]):
 
         print(dlc.code_name, "Loading to", assets_path, end="... ", flush=True)
 
-        time_start_ripping = time.time()
+        timeit = Timeit()
 
         requests.post(ripper_url + "LoadFolder", data={"Path": steam_folder[dlc.steam_index] })
 
@@ -89,7 +90,7 @@ def rip_files(dlc_list: set[DLCType]):
         # print("Exporting PrimaryContent", end="... ")
         # requests.post(ripper_url + "Export/PrimaryContent", data={"Path": f"{assets_path}_PrimaryContent"})
 
-        print(f" ({round(time.time() - time_start_ripping, 2)} sec) Resetting")
+        print(f" ({timeit:.2f} sec) Resetting")
         requests.post(ripper_url + "Reset")
 
 

@@ -4,13 +4,14 @@ from pathlib import Path
 from tkinter import ttk
 from collections.abc import Iterable
 from multiprocessing import Pool
-from Config.config import Config, CfgKey
+from Config.config import Config
 
 
-def run_multiprocess(func, args_list: Iterable, is_many_args=True, is_multiprocess=True, processes=None):
+def run_multiprocess(func, args_list: Iterable, is_many_args=True, is_multiprocess=True, processes=None) -> list:
     __config = Config()
+    is_config_mp = __config.get_multiprocessing()
 
-    if is_multiprocess and __config[CfgKey.MULTIPROCESSING]:
+    if is_multiprocess and is_config_mp:
         with Pool(processes) as p:
             if is_many_args:
                 return p.starmap(func, args_list)

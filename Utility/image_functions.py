@@ -6,17 +6,17 @@ from PIL.Image import Resampling
 from Utility.sprite_data import SpriteData, SpriteRect
 
 
-def crop_image_rect_left_bot(image: Image, rect: SpriteRect | dict):
+def crop_image_rect_left_bot(image: Image, rect: SpriteRect | dict)-> Image:
     _rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
     sx, sy = image.size
     return image.crop((_rect.x, sy - _rect.y - _rect.height, _rect.x + _rect.width, sy - _rect.y))
 
-def crop_image_rect_left_top(image: Image, rect: SpriteRect | dict):
+def crop_image_rect_left_top(image: Image, rect: SpriteRect | dict)-> Image:
     _rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
     return image.crop((_rect.x, _rect.y, _rect.width + _rect.x, _rect.height + _rect.y))
 
 
-def resize_image(image: Image, scale_factor: float):
+def resize_image(image: Image, scale_factor: float) -> Image:
     return image.resize((image.size[0] * scale_factor, image.size[1] * scale_factor), Resampling.NEAREST)
 
 
