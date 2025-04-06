@@ -573,14 +573,12 @@ class Unpacker(tk.Tk):
 
         print("Copying data files")
 
-        p_assets = list(filter(lambda x: "ASSETS" in x.value, self.config.data))
         paths = [
             (
-                f"{self.config[dlc_id]}\\TextAsset",
-                DLCType.get_dlc_name(dlc_id)
-            ) for dlc_id in p_assets
+                self.config[dlc_type.value.config_key].joinpath("TextAsset"),
+                dlc_type.value.full_name
+            ) for dlc_type in DLCType.get_all_types()
         ]
-        paths = list(filter(lambda x: x[1], paths))
 
         total = 0
         i = 0
@@ -707,7 +705,7 @@ class Unpacker(tk.Tk):
         t.start()
 
     def select_dlc(self) -> DLCType | None:
-        all_dlcs = config.DLCType.get_all()
+        all_dlcs = config.DLCType.get_all_types()
         bb = ButtonsBox(all_dlcs, "Select DLC", "Select DLC to open respective folder", self)
         bb.wait_window()
 
@@ -803,7 +801,7 @@ class Unpacker(tk.Tk):
             return
 
         dlc_types_list = []
-        for d in DLCType.get_all():
+        for d in DLCType.get_all_types():
             if self.config[d.value.config_key]:
                 dlc_types_list.append(d)
 

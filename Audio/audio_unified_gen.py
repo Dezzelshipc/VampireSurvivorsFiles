@@ -1,21 +1,18 @@
-from time import sleep
+import shutil
 from dataclasses import dataclass
 from enum import Enum
-
 from pathlib import Path
 from typing import Tuple, Literal
 
-from Config.config import Config
+from pydub import AudioSegment
+from unityparser import UnityDocument
+
 import Data.data as data_handler
 import Translations.language as lang_handler
-
-from unityparser import UnityDocument
-from pydub import AudioSegment
-
+from Config.config import Config
+from Utility.meta_data import MetaDataHandler
 from Utility.timer import Timeit
-from Utility.utility import run_multiprocess
-
-import shutil
+from Utility.utility import run_multiprocess, normalize_str
 
 
 class AudioSaveType(Enum):
@@ -32,61 +29,40 @@ class AudioSaveType(Enum):
 
 
 def __get_music_playlists() -> list[dict]:
-    config = Config()
+    handler = MetaDataHandler()
 
-    base_dirs = ["PrefabInstance", "GameObject", "Resources"]
+    search_list = ["MasterAudio", "DynamicSoundGroup", "ProjectContext"]
 
-    prefab_dirs = []
-    for f in filter(lambda x: "ASSETS" in x.value, config.data):
-        for b_dir in base_dirs:
-            p = config[f].joinpath(b_dir)
-            if p.exists():
-                prefab_dirs.append(p)
+    def flt(tuple_s_p: tuple[str, Path]):
+        s, _ = tuple_s_p
+        return any(normalize_str(search) in normalize_str(s) for search in search_list)
 
-    audio_prefabs = []
-
-    def filt(x: Path):
-        search_list = ["MasterAudio", "DynamicSoundGroup ", "ProjectContext"]
-        for s in search_list:
-            if x.is_file() and s.lower() in x.stem.lower() and ".meta" not in x.suffixes:
-                return True
-        return False
-
-    for pref_dir in prefab_dirs:
-        all_prefs = pref_dir.iterdir()
-        audio_prefabs.extend(list(filter(filt, all_prefs)))
+    audio_prefabs = handler.filter_paths(flt)
+    audio_prefabs = set(dict(audio_prefabs).values())
 
     music_playlists = []
     print("Parsing audio prefabs:", end=" ")
     for audio_prefab in audio_prefabs:
-        print(audio_prefab.name, end=" ")
-        ud = UnityDocument.load_yaml(audio_prefab)
-        music_playlists.extend(
-            *[x.musicPlaylists for x in ud.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",))])
+        print(audio_prefab.name, end=". ")
+        ud = UnityDocument.load_yaml(audio_prefab.with_suffix(""))
+        playlists: list[list] = [x.musicPlaylists for x in
+                                 ud.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",))]
+        if playlists:
+            music_playlists.extend(*playlists)
     print()
 
     return music_playlists
 
 
-def __get_audio_clips_paths() -> list[Path]:
-    config = Config()
+def __get_audio_clips_paths() -> set[Path]:
+    handler = MetaDataHandler()
 
-    audio_clips_dirs = []
-    for f in filter(lambda x: "ASSETS" in x.value, config.data):
-        p = config[f].joinpath("AudioClip")
-        if p.exists():
-            audio_clips_dirs.append(p)
+    def flt(tuple_s_p: tuple[str, Path]):
+        _, p = tuple_s_p
+        return p.match("*/AudioClip/*")
 
-    audio_clips = []
-
-    def filt(x: Path):
-        return ".meta" not in x.suffixes
-
-    for ac_dir in audio_clips_dirs:
-        all_prefs = ac_dir.iterdir()
-        audio_clips.extend(list(map(Path, filter(filt, all_prefs))))
-
-    return audio_clips
+    audio_clips = handler.filter_paths(flt)
+    return set(map(lambda x: x.with_suffix(""), dict(audio_clips).values()))
 
 
 def __get_audio_clip(path: Path) -> Tuple[Path, AudioSegment]:
@@ -121,24 +97,26 @@ def __get_full_music_track(audio_clips, music_data, playlist_data) -> MusicTrack
         tags = {}
 
     has_same_name = (sngn := playlist_data['MusicSettings'][0]['songName'].lower()) and bool(
-        cur_data.get("source")) and audio_clips.get(sngn + "_0")
+        tags.get("source")) and audio_clips.get(sngn + "_0")
 
     clips = []
     ext = ""
     for setting in playlist_data['MusicSettings']:
-        song_name = setting['songName'].lower()
+        song_name = normalize_str(setting['songName'])
         if has_same_name:
             song_name += "_0"
 
         clip_data = audio_clips.get(song_name)
+        if not clip_data:
+            print(f"Music track not found by song name ({song_name})")
         ext = clip_data.suffix.replace(".", "")
 
         clips.append(clip_data)
 
     clips = run_multiprocess(__get_audio_clip, clips, is_many_args=False, is_multiprocess=False)
-    audio: AudioSegment = sum(dict(clips).values())
+    audio: AudioSegment = sum(dict(clips).values()) if clips else AudioSegment()
 
-    content_group = cur_data.get("contentGroup", "BASE_GAME")
+    content_group = cur_data and cur_data.get("contentGroup", "BASE_GAME") or "UNCATEGORIZED"
 
     return MusicTrack(audio, tags, code_name, ext, content_group, has_same_name)
 
@@ -202,7 +180,7 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
     music_playlists.extend(filter(lambda x: x.get("playlistName") not in music_ids_with_authors, music_playlists_raw))
 
     audio_clips = __get_audio_clips_paths()
-    audio_clips = {ac.stem.lower(): ac for ac in audio_clips}
+    audio_clips = {normalize_str(ac): ac for ac in audio_clips}
 
     total_len = len(music_playlists)
 

@@ -1,10 +1,8 @@
-from enum import Enum
 import json
 import os
-
-from dataclasses import dataclass
-
 import tkinter as tk
+from dataclasses import dataclass
+from enum import Enum
 from pathlib import Path
 from tkinter import ttk
 from tkinter.messagebox import showerror
@@ -61,12 +59,17 @@ class DLCType(Enum):
         return f"<{DLCType.__name__}.{self.name} - {val.code_name} - {val.full_name}>"
 
     @classmethod
-    def get_all(cls) -> list[Self]:
+    def get_all_types(cls) -> list[Self]:
         dlcs = [*cls]
         return list(sorted(dlcs, key=lambda x: x.value))
 
     @classmethod
-    def get_by_config(cls, config_key: CfgKey) -> DLC | None:
+    def get_all_dlc(cls) -> list[DLC]:
+        dlcs = [*cls]
+        return list(sorted(map(lambda x:x.value, dlcs)))
+
+    @classmethod
+    def get_by_cfgkey(cls, config_key: CfgKey) -> DLC | None:
         for dlc in [*cls]:
             if dlc.value.config_key == config_key:
                 return dlc.value
@@ -74,21 +77,22 @@ class DLCType(Enum):
 
     @staticmethod
     def get_dlc_name(config_key: CfgKey) -> str | None:
-        dlc = DLCType.get_by_config(config_key)
+        dlc = DLCType.get_by_cfgkey(config_key)
         return dlc.full_name if dlc else None
 
     @staticmethod
     def get_code_name(config_key: CfgKey) -> str | None:
-        dlc = DLCType.get_by_config(config_key)
+        dlc = DLCType.get_by_cfgkey(config_key)
         return dlc.code_name if dlc else None
 
     @classmethod
     def get(cls, index: int) -> Self | None:
-        _all = cls.get_all()
+        _all = cls.get_all_types()
         return _all[index] if index < len(_all) else None
 
 
 class Config(metaclass=Singleton):
+    # TODO: Rewrite this piece of code
     class ConfigChanger(tk.Toplevel):
         def __init__(self, parent, config):
             super().__init__(parent)
@@ -104,7 +108,7 @@ class Config(metaclass=Singleton):
 
             for key, path in self.config.data.items():
                 if "ASSETS" in key.value:
-                    dlc = DLCType.get_by_config(key)
+                    dlc = DLCType.get_by_cfgkey(key)
                     if dlc is None:
                         continue
 
@@ -219,7 +223,7 @@ class Config(metaclass=Singleton):
                 print(e)
                 json_file = {}
 
-            self.data.update({dlc.value.config_key: "" for dlc in DLCType.get_all()})
+            self.data.update({dlc.value.config_key: "" for dlc in DLCType.get_all_types()})
             self.data.update({CfgKey(k): (v if CfgKey(k) in CfgKey.get_non_path_keys() else Path(v)) for k, v in json_file.items() if k in CfgKey})
 
     def save_file(self, data: dict | None = None):

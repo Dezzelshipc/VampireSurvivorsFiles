@@ -1,5 +1,4 @@
 import itertools
-import os
 from math import log2, pow, ceil
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
@@ -304,9 +303,9 @@ if __name__ == "__main__":
 
         transform_list = ((1, 1), (1, -1), (-1, 1), (-1, -1))
 
-        save_folder = "./Generated/_Tilemaps/_Test"
-        os.makedirs(save_folder, exist_ok=True)
-        sprite.save(f"{save_folder}/{tile_id}.png")
+        save_folder = Path("./Generated/_Tilemaps/_Test")
+        save_folder.mkdir(parents=True, exist_ok=True)
+        sprite.save(save_folder.joinpath(f"{tile_id}.png"))
 
         for i, (x1, x2) in enumerate(transform_list):
             aff1 = (x1, 0, 0, x2)
@@ -321,8 +320,8 @@ if __name__ == "__main__":
             sprite1 = affine_transform(sprite1, aff1)
             sprite2 = affine_transform(sprite2, aff2)
 
-            sprite1.save(f"{save_folder}/{tile_id}-1_{i}.png")
-            sprite2.save(f"{save_folder}/{tile_id}-2_{i}.png")
+            sprite1.save(save_folder.joinpath(f"{tile_id}-1_{i}.png"))
+            sprite2.save(save_folder.joinpath(f"{tile_id}-2_{i}.png"))
 
 
     texture = "Collab1_Tileset1_V6"

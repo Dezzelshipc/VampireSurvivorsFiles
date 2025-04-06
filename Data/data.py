@@ -5,6 +5,7 @@ import re
 
 from Config.config import DLCType
 
+# TODO: Rewrite to some handler-kind
 
 def clean_json(string):
     # extra commas
@@ -32,7 +33,7 @@ def __generator_concatenate(add_content_group=True):
 
     names = [f.name.split("_")[0].split('.')[0].lower().replace("data", "") for f in
              os.scandir(path + "/Vampire Survivors")]
-    dlcs = list(map(lambda x: x.value.full_name, DLCType.get_all()))
+    dlcs = list(map(lambda x: x.value.full_name, DLCType.get_all_types()))
 
     dlc_paths = [[f.path for f in os.scandir(f"{path}/{dlc}")] for dlc in dlcs if os.path.exists(f"{path}/{dlc}")]
 

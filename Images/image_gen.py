@@ -3,13 +3,13 @@ import re
 from enum import Enum
 import os
 import sys
-from typing import Dict
 
 from PIL import Image, ImageFont, ImageDraw
 import PIL.Image
 import Images.transparent_save as tr_save
 from Utility.sprite_data import SpriteData
 
+# TODO: Rewrite to MetaDataHandler
 
 class DataType(Enum):
     NONE = None
@@ -130,7 +130,7 @@ class ImageGenerator:
         return im.crop(
             (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y'])), meta_data
 
-    def save_png(self, meta: Dict[str, SpriteData], im: Image, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1,
+    def save_png(self, meta: dict[str, SpriteData], im: Image, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1,
                  is_save=True, file_name_clean=None, leading_zeros=0, add_data: dict = None) -> Image:
 
         file_name_clean = file_name_clean or file_name

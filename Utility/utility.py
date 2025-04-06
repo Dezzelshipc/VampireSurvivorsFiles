@@ -1,9 +1,9 @@
-import os
 import tkinter as tk
-from pathlib import Path
-from tkinter import ttk
 from collections.abc import Iterable
 from multiprocessing import Pool
+from pathlib import Path
+from tkinter import ttk
+
 from Config.config import Config
 
 
@@ -89,11 +89,11 @@ class ButtonsBox(tk.Toplevel):
         return f
 
 
-def clear_file(save_path: str | os.PathLike[str]):
+def clear_file(save_path: Path):
     with open(save_path, "w+", encoding="UTF-8") as f:
         f.write("")
 
-def write_in_file_end(save_path: str | os.PathLike[str], lines: list[str]):
+def write_in_file_end(save_path: Path, lines: list[str]):
     with open(save_path, "a+", encoding="UTF-8") as f:
         f.writelines(lines)
 

@@ -1,18 +1,16 @@
-import sys
-
+from collections.abc import Callable
 from pathlib import Path
 from tkinter import Image
-from typing import Self
 
-from unityparser import UnityDocument
 from PIL import Image
+from unityparser import UnityDocument
 
+from Config.config import Config, DLCType
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
 from Utility.utility import run_multiprocess, normalize_str
-from Config.config import Config, CfgKey
 
 
 class MetaDataHandler(metaclass=Singleton):
@@ -23,38 +21,33 @@ class MetaDataHandler(metaclass=Singleton):
 
         self.loaded_assets_meta: dict[str, MetaData] = {}
 
-        self.__load()
+        self._load_assets_meta_file_paths()
+        self._load_assets_meta_files_guids()
 
-    def __load_assets_meta_files(self) -> Self:
+    def _load_assets_meta_file_paths(self) -> None:
         if self._assets_name_path:
             return
 
         timeit = Timeit()
 
-        missing_paths = []
-        dirs = [self.config[CfgKey.VS].joinpath("Resources")]
-        for f in filter(lambda x: "ASSETS" in x.value, self.config.data):
-            p = self.config[f].joinpath("Texture2D")
-            if p.exists():
-                dirs.append(p)
-            else:
-                missing_paths.append((str(f), p))
+        path_roots = ["Resources", "Texture2D", "TextAsset", "GameObject", "PrefabInstance", "AudioClip"]
+
+        dirs = []
+        for dlc in DLCType.get_all_dlc():
+            for root in path_roots:
+                path = self.config[dlc.config_key].joinpath(root)
+                if path.exists():
+                    dirs.append(path)
 
         files = []
         for this_dir in dirs:
             files.extend(this_dir.rglob("*.meta"))
 
-        if missing_paths:
-            print(f"! Missing paths {missing_paths} while trying to access meta files for images.",
-                  file=sys.stderr)
-
         self._assets_name_path.update({normalize_str(f): f for f in files})
         print(f"Loaded {len(files)} meta paths ({timeit:.2f} sec)")
 
-        return self
-
-    def __load(self) -> Self:
-        self.__load_assets_meta_files()
+    def _load_assets_meta_files_guids(self) -> None:
+        self._load_assets_meta_file_paths()
 
         if not self._assets_guid_path:
             print("Started collecting guid of every asset")
@@ -62,8 +55,6 @@ class MetaDataHandler(metaclass=Singleton):
             guid_path = run_multiprocess(_get_meta_guid, self._assets_name_path.values(), is_many_args=False)
             self._assets_guid_path.update(guid_path)
             print(f"Finished collecting guid of every asset ({timeit:.2f} sec)")
-
-        return self
 
     def get_path_by_name(self, name: str) -> Path | None:
         return self._assets_name_path.get(normalize_str(name))
@@ -74,6 +65,9 @@ class MetaDataHandler(metaclass=Singleton):
 
     def get_path_by_guid(self, guid: str) -> Path | None:
         return self._assets_guid_path.get(normalize_str(guid))
+
+    def filter_paths(self, f_filter: Callable[[tuple[str, Path]], bool]) -> set[(str, Path)]:
+        return set(filter(f_filter, self._assets_name_path.items()))
 
 
 def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
@@ -288,10 +282,10 @@ def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
 if __name__ == "__main__":
     hndlr = MetaDataHandler()
 
-    # a = get_meta_by_name("character_tp_alucard")
+    a = get_meta_by_name("character_tp_alucard")
     # a = get_meta_by_name("TP_enemies")
     # a = get_meta_by_name("logoAnimation")
-    a = get_meta_by_guid('72aae9af674a9e14fbfc1f85ab3e23c9')
+    # a = get_meta_by_guid('72aae9af674a9e14fbfc1f85ab3e23c9')
 
     a.init_sprites()
 

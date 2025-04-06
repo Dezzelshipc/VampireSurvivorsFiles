@@ -1,16 +1,13 @@
-from pathlib import Path
-from tkinter.messagebox import showerror
-
 import json
 import os
-from typing import Dict, Tuple
+from pathlib import Path
+from typing import Tuple
 
-from Data.data_type import DataType
 from Utility.meta_data import MetaDataHandler
 
 LANG_FILE_PATH = Path(__file__).with_name("I2Languages.yaml")
 
-
+# TODO: Rewrite this
 def generator_split_to_files(languages: dict, lang_list: list):
     folder_to_save = os.path.normpath(os.path.split(__file__)[0] + '/Generated/Split')
 
