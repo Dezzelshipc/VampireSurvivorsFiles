@@ -1,13 +1,16 @@
+import asyncio
 import tkinter as tk
-from collections.abc import Iterable
+from collections.abc import Iterable, Awaitable
 from multiprocessing import Pool
 from pathlib import Path
 from tkinter import ttk
+from typing import Callable
 
 from Config.config import Config
 
 
-def run_multiprocess(func, args_list: Iterable, is_many_args=True, is_multiprocess=True, processes=None) -> list:
+def run_multiprocess[T, U](func: Callable[[U], T], args_list: Iterable[U], is_many_args=True, is_multiprocess=True,
+                           processes=None) -> list[T]:
     __config = Config()
     is_config_mp = __config.get_multiprocessing()
 
@@ -22,6 +25,25 @@ def run_multiprocess(func, args_list: Iterable, is_many_args=True, is_multiproce
             return [func(*args) for args in args_list]
         else:
             return [func(args) for args in args_list]
+
+
+async def __run_async[T, U](func: Callable[[U], Awaitable[T]], args_list: Iterable[U], is_many_args=True) -> list[T]:
+    if is_many_args:
+        return await asyncio.gather(*[asyncio.to_thread(func, *args) for args in args_list])
+    else:
+        return await asyncio.gather(*[asyncio.to_thread(func, args) for args in args_list])
+
+
+def run_concurrent_sync[T, U](func: Callable[[U], T], args_list: Iterable[U], is_many_args=True) -> list[T]:
+    return asyncio.run(__run_async(func, args_list, is_many_args))
+
+
+async def run_concurrent_async[T, U](func: Callable[[U], Awaitable[T]], args_list: Iterable[U], is_many_args=True) -> \
+        list[T]:
+    if is_many_args:
+        return await asyncio.gather(*[func(*args) for args in args_list])
+    else:
+        return await asyncio.gather(*[func(args) for args in args_list])
 
 
 class CheckBoxes(tk.Toplevel):
@@ -92,6 +114,7 @@ class ButtonsBox(tk.Toplevel):
 def clear_file(save_path: Path):
     with open(save_path, "w+", encoding="UTF-8") as f:
         f.write("")
+
 
 def write_in_file_end(save_path: Path, lines: list[str]):
     with open(save_path, "a+", encoding="UTF-8") as f:

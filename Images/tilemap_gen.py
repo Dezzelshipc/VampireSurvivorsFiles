@@ -1,18 +1,22 @@
+import asyncio
 import itertools
+import time
+from io import StringIO
 from math import log2, pow, ceil
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
 
 from PIL import Image
-from unityparser import UnityDocument
 
 from Config.config import Config
-from Utility.image_functions import affine_transform
+from Utility import UnityDocument2
+from Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
 from Utility.singleton import Singleton
-from Utility.sprite_data import SpriteData
+from Utility.sprite_data import SpriteData, SpriteRect
 from Utility.timer import Timeit
-from Utility.utility import CheckBoxes, run_multiprocess, write_in_file_end, clear_file
+from Utility.utility import CheckBoxes, run_multiprocess, write_in_file_end, clear_file, run_concurrent_sync, \
+    run_concurrent_async
 
 THIS_FOLDER = Path(__file__).parent
 
@@ -42,13 +46,11 @@ class Tilemap:
 
 
 def __resize_sprite_for_tile(image: Image, sprite_data: SpriteData, size_tile: tuple[int, int]) -> Image:
-    im_crop = image.copy()
-
     shift_x = int(sprite_data.rect.width * sprite_data.pivot.x)
     shift_y = int(sprite_data.rect.height * sprite_data.pivot.y)
 
-    return im_crop.crop(
-        (shift_x, im_crop.height - shift_y - size_tile[1], shift_x + size_tile[0], im_crop.height - shift_y))
+    rect = SpriteRect(shift_x, shift_y, size_tile[0], size_tile[1])
+    return crop_image_rect_left_bot(image, rect)
 
 
 def __split_tilemap_prefab(tilemap: list[str]) -> list[list[str]]:
@@ -116,10 +118,10 @@ def __load_UnityDocument(path: Path) -> tuple[list[Tilemap | None], int]:
         count_layers = len(list_tilemaps)
         list_part_tilemaps = run_multiprocess(__split_tilemap_prefab, list_tilemaps, is_many_args=False)
 
-        parts_dir = THIS_FOLDER / "Generated/_Tilemaps/_Split for generation"
-        parts_dir.mkdir(parents=True, exist_ok=True)
+        print(
+            f"Needed parsing for {len(list_part_tilemaps)} tilemaps for total of {sum(len(part_tilemaps) for part_tilemaps in list_part_tilemaps)} parts")
 
-        args_list = ((header, part_tilmap, i, j, parts_dir) for i, part_tilemaps in enumerate(list_part_tilemaps) for
+        args_list = ((header, part_tilmap, i, j) for i, part_tilemaps in enumerate(list_part_tilemaps) for
                      j, part_tilmap in enumerate(part_tilemaps))
 
         processed_parts = run_multiprocess(__load_UnityDocument_part, args_list)
@@ -133,21 +135,16 @@ def __load_UnityDocument(path: Path) -> tuple[list[Tilemap | None], int]:
             else:
                 out_list[ind].extend_tilemap(part[0])
 
-        parts_dir.rmdir()
-
         return out_list, count_layers
 
 
-def __load_UnityDocument_part(header: list, tilemap: list, index_prefab: int, index_part: int, parts_dir: Path) -> \
+def __load_UnityDocument_part(header: list, tilemap: list, index_prefab: int, index_part: int) -> \
         tuple[Tilemap, int, int]:
     text = "".join(header) + "".join(tilemap)
 
-    path_part = parts_dir / f"Prefab-{index_prefab}-{index_part}.prefab"
-    with open(path_part, "w") as fp:
-        fp.write(text)
+    with StringIO(text) as prefab:
+        doc = UnityDocument2.load_yaml(prefab)
 
-    doc = UnityDocument.load_yaml(path_part)
-    path_part.unlink()
     return Tilemap(doc.entry), index_prefab, index_part
 
 
@@ -187,7 +184,6 @@ def __create_Tilemap_image(tilemap: Tilemap, new_image: Image, data_by_guid: dic
         new_image.alpha_composite(sprite, (tile['pos']['x'] * size_tile_x, abs(tile['pos']['y']) * size_tile_y))
 
     write_in_file_end(save_path.with_name("errors.log"), log_list)
-    __save_image(new_image, save_path)
 
     return new_image
 
@@ -196,7 +192,7 @@ def __save_image(image: Image, path: Path) -> None:
     image.save(path)
 
 
-def gen_tilemap(path: Path) -> Path | None:
+def gen_tilemap(path: Path, __is_full_auto=True) -> Path | None:
     handler = TilemapDataHandler()
 
     p_file = path.name
@@ -212,17 +208,21 @@ def gen_tilemap(path: Path) -> Path | None:
     else:
         count_layers = handler.loaded_prefabs[path][1]
 
-    is_proceed = askyesno("Generation", f"Found tilemap for {p_file}.\nDo you want to generate it?")
+    is_proceed = askyesno("Generation",
+                          f"Found tilemap for {p_file}.\nDo you want to generate it?") if __is_full_auto else True
 
     if not is_proceed:
         return
 
-    exclude_cbs = CheckBoxes(range(count_layers),
-                             title="Layers to exclude",
-                             label="Select layers to exclude in generation")
-    exclude_cbs.wait_window()
-    exclude_data = exclude_cbs.return_data
-    exclude_layers = set(itertools.compress(range(count_layers), exclude_data))
+    if __is_full_auto:
+        exclude_cbs = CheckBoxes(range(count_layers),
+                                 title="Layers to exclude",
+                                 label="Select layers to exclude in generation")
+        exclude_cbs.wait_window()
+        exclude_data = exclude_cbs.return_data
+        exclude_layers = set(itertools.compress(range(count_layers), exclude_data))
+    else:
+        exclude_layers = set()
 
     print(f"Multiprocessing: {handler.config.get_multiprocessing()}")
     print(f"Excluded layers: {exclude_layers}")
@@ -270,16 +270,26 @@ def gen_tilemap(path: Path) -> Path | None:
 
     tilemap_layers = run_multiprocess(__create_Tilemap_image, args_create_tilemap, is_multiprocess=False)
 
+    args_save_tilemap_layers = (
+        (tilemap_layer, save_folder / f"{save_file}-Layer-{i}.png")
+        for i, tilemap_layer in enumerate(tilemap_layers)
+    )
+
+    run_concurrent_sync(__save_image, args_save_tilemap_layers)
+
     print(f"Finished generation for tilemap layers {p_file} ({timeit:.2f} sec)")
 
     print(f"Started composing layers for {p_file}")
     timeit = Timeit()
 
+    save_composite = []
     for i, layer in enumerate(tilemap_layers):
         if i in exclude_layers:
             continue
         im_map.alpha_composite(layer)
-        __save_image(im_map, save_folder / f"{save_file}-{i}.png")
+        save_composite.append((im_map.copy(), save_folder / f"{save_file}-{i}.png"))
+
+    run_concurrent_sync(__save_image, save_composite)
 
     print(f"Finished generation for tilemap {p_file} ({timeit:.2f} sec)")
 
@@ -287,7 +297,10 @@ def gen_tilemap(path: Path) -> Path | None:
 
 
 if __name__ == "__main__":
-    def __test(name: str, tile_id: int):
+    def __test():
+        name = "Collab1_Tileset1_V6"
+        tile_id = 21303880
+
         from Utility.meta_data import get_meta_by_name, MetaDataHandler
         MetaDataHandler()
         meta = get_meta_by_name(name, is_multiprocess=False)
@@ -324,6 +337,24 @@ if __name__ == "__main__":
             sprite2.save(save_folder.joinpath(f"{tile_id}-2_{i}.png"))
 
 
-    texture = "Collab1_Tileset1_V6"
-    t_id = 21303880
-    __test(texture, t_id)
+    # __test()
+
+    def __profile():
+        from tkinter import filedialog as fd
+        from Config.config import Config, CfgKey
+        full_path = fd.askopenfilename(
+            title='Select prefab file of tilemap',
+            initialdir=Config()[CfgKey.VS],
+            filetypes=[('Prefab', '*.prefab')]
+        )
+        if not full_path:
+            return
+        full_path = Path(full_path)
+
+        import cProfile
+        print("Started")
+        with cProfile.Profile() as pr:
+            gen_tilemap(full_path, False)
+            pr.print_stats('time')
+
+    # __profile()

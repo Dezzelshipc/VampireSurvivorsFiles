@@ -1,0 +1,1 @@
+from .unityparser2 import UnityDocument2
