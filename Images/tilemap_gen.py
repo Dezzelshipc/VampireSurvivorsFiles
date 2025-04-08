@@ -1,6 +1,4 @@
-import asyncio
 import itertools
-import time
 from io import StringIO
 from math import log2, pow, ceil
 from pathlib import Path
@@ -9,14 +7,13 @@ from tkinter.messagebox import showerror, askyesno
 from PIL import Image
 
 from Config.config import Config
-from Utility import UnityDocument2
+from Utility import unity_load_yaml
 from Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, SpriteRect
 from Utility.timer import Timeit
-from Utility.utility import CheckBoxes, run_multiprocess, write_in_file_end, clear_file, run_concurrent_sync, \
-    run_concurrent_async
+from Utility.utility import CheckBoxes, run_multiprocess, write_in_file_end, clear_file, run_concurrent_sync
 
 THIS_FOLDER = Path(__file__).parent
 
@@ -140,10 +137,8 @@ def __load_UnityDocument(path: Path) -> tuple[list[Tilemap | None], int]:
 
 def __load_UnityDocument_part(header: list, tilemap: list, index_prefab: int, index_part: int) -> \
         tuple[Tilemap, int, int]:
-    text = "".join(header) + "".join(tilemap)
 
-    with StringIO(text) as prefab:
-        doc = UnityDocument2.load_yaml(prefab)
+    doc = unity_load_yaml(StringIO("".join(header) + "".join(tilemap)))
 
     return Tilemap(doc.entry), index_prefab, index_part
 

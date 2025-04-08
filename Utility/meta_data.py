@@ -16,6 +16,9 @@ from Utility.utility import run_multiprocess, normalize_str
 class MetaDataHandler(metaclass=Singleton):
     def __init__(self):
         self.config = Config()
+
+        self._found_files: list[Path] = []
+
         self._assets_name_path: dict[str, Path] = {}
         self._assets_guid_path: dict[str, Path] = {}
 
@@ -39,12 +42,26 @@ class MetaDataHandler(metaclass=Singleton):
                 if path.exists():
                     dirs.append(path)
 
-        files = []
         for this_dir in dirs:
-            files.extend(this_dir.rglob("*.meta"))
+            self._found_files.extend(this_dir.rglob("*.meta"))
 
-        self._assets_name_path.update({normalize_str(f): f for f in files})
-        print(f"Loaded {len(files)} meta paths ({timeit:.2f} sec)")
+        # deduplication
+        files_by_stem = {}
+        for f in self._found_files:
+            if not files_by_stem.get(f.stem):
+                files_by_stem[f.stem] = []
+            files_by_stem[f.stem].append(f)
+
+        biggest_files = []
+        for f_list in files_by_stem.values():
+            if len(f_list) > 1:
+                biggest_files.append(list(reversed(sorted(f_list, key=lambda x: x.stat().st_size)))[0])
+            else:
+                biggest_files.append(f_list[0])
+        #
+
+        self._assets_name_path.update({normalize_str(f): f for f in biggest_files})
+        print(f"Loaded {len(self._found_files)} meta paths ({timeit:.2f} sec)")
 
     def _load_assets_meta_files_guids(self) -> None:
         self._load_assets_meta_file_paths()
@@ -52,7 +69,7 @@ class MetaDataHandler(metaclass=Singleton):
         if not self._assets_guid_path:
             print("Started collecting guid of every asset")
             timeit = Timeit()
-            guid_path = run_multiprocess(_get_meta_guid, self._assets_name_path.values(), is_many_args=False)
+            guid_path = run_multiprocess(_get_meta_guid, self._found_files, is_many_args=False)
             self._assets_guid_path.update(guid_path)
             print(f"Finished collecting guid of every asset ({timeit:.2f} sec)")
 
@@ -282,10 +299,9 @@ def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
 if __name__ == "__main__":
     hndlr = MetaDataHandler()
 
-    a = get_meta_by_name("character_tp_alucard")
-    # a = get_meta_by_name("TP_enemies")
-    # a = get_meta_by_name("logoAnimation")
-    # a = get_meta_by_guid('72aae9af674a9e14fbfc1f85ab3e23c9')
+    # a = get_meta_by_name("enemies2")
+    # a = get_meta_by_name("enemies")
+    a = get_meta_by_guid('f2e351beec1ed57408f2e8aab0db8951')
 
     a.init_sprites()
 

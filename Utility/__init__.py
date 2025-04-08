@@ -1,1 +1,1 @@
-from .unityparser2 import UnityDocument2
+from .unityparser2 import unity_load_yaml

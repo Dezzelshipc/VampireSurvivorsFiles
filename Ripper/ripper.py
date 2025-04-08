@@ -80,11 +80,11 @@ def rip_files(dlc_list: set[DLCType]):
 
         timeit = Timeit()
 
-        requests.post(ripper_url + "LoadFolder", data={"Path": steam_folder[dlc.steam_index] })
+        requests.post(ripper_url + "LoadFolder", data={"Path": steam_folder[dlc.steam_index]})
 
         assets_path.mkdir(parents=True, exist_ok=True)
         print("Exporting UnityProject", end="... ")
-        requests.post(ripper_url + "Export\\UnityProject", data={"Path": assets_path})
+        requests.post(ripper_url + "Export/UnityProject", data={"Path": assets_path})
 
         # os.makedirs(f"{assets_path}_PrimaryContent", exist_ok=True)
         # print("Exporting PrimaryContent", end="... ")
