@@ -19,9 +19,9 @@ import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
 import Translations.language as lang_module
 from Config.config import CfgKey, DLCType
-from Utility.logger import Logger
-from Utility.constants import ROOT_FOLDER
+from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants
 from Utility.image_functions import resize_image, crop_image_rect_left_top
+from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler, get_meta_by_name
 from Utility.utility import CheckBoxes, ButtonsBox
 
@@ -757,8 +757,7 @@ class Unpacker(tk.Tk):
         self.last_loaded_folder = save_folder
 
     def audio_gen_handler(self):
-        from Utility.req_test import check_pydub
-        if not check_pydub():
+        if not DeferConstants.is_pydub():
             print("FFmpeg not found")
             showerror("Error", "FFmpeg not found")
             return
@@ -828,5 +827,7 @@ class Unpacker(tk.Tk):
 if __name__ == '__main__':
     sys.stdout = Logger(sys.stdout)
     sys.stderr = Logger(sys.stderr)
+    IS_DEBUG and print(f"{IS_DEBUG = }\n")
+
     app = Unpacker()
     app.mainloop()

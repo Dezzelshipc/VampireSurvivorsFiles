@@ -10,10 +10,11 @@ from Config.config import Config
 from Utility import unity_load_yaml
 from Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
+from Utility.multirun import run_multiprocess, run_concurrent_sync
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, SpriteRect
 from Utility.timer import Timeit
-from Utility.utility import CheckBoxes, run_multiprocess, write_in_file_end, clear_file, run_concurrent_sync
+from Utility.utility import CheckBoxes, write_in_file_end, clear_file
 
 THIS_FOLDER = Path(__file__).parent
 
@@ -135,7 +136,7 @@ def __load_UnityDocument(path: Path) -> tuple[list[Tilemap | None], int]:
         return out_list, count_layers
 
 
-def __load_UnityDocument_part(header: list, tilemap: list, index_prefab: int, index_part: int) -> \
+def __load_UnityDocument_part(header: list[str], tilemap: list[str], index_prefab: int, index_part: int) -> \
         tuple[Tilemap, int, int]:
 
     doc = unity_load_yaml(StringIO("".join(header) + "".join(tilemap)))

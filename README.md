@@ -10,7 +10,7 @@ Ripped from v1.12 + Moonspell + Foscari + Meeting + Guns + Ode
 
 Game data files and DLC data files located in [Data](Data) folder.
 
-## Unpacker (v0.14.4) - Data manager and Image generator
+## Unpacker (v0.15.0) - Data manager and Image generator
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
@@ -98,6 +98,5 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
 
 * Keep support for new content updates and DLC.
 
-* Change os.path to pathlib.Path.
 * Add JsonDataHandler similar to MetaDataHandler.
 * Rewrite Image gen to better pipeline (i.e. cache sprites).

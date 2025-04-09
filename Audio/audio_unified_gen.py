@@ -1,8 +1,9 @@
+import asyncio
 import shutil
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Tuple, Literal
+from typing import Literal
 
 from pydub import AudioSegment
 from unityparser import UnityDocument
@@ -11,8 +12,9 @@ import Data.data as data_handler
 import Translations.language as lang_handler
 from Config.config import Config
 from Utility.meta_data import MetaDataHandler
+from Utility.multirun import run_concurrent_sync, run_gather, run_multiprocess, run_multiprocess_single
 from Utility.timer import Timeit
-from Utility.utility import run_multiprocess, normalize_str
+from Utility.utility import normalize_str
 
 
 class AudioSaveType(Enum):
@@ -28,7 +30,7 @@ class AudioSaveType(Enum):
         return self.value
 
 
-def __get_music_playlists() -> list[dict]:
+def _get_music_playlists() -> list[dict]:
     handler = MetaDataHandler()
 
     search_list = ["MasterAudio", "DynamicSoundGroup", "ProjectContext"]
@@ -40,21 +42,22 @@ def __get_music_playlists() -> list[dict]:
     audio_prefabs = handler.filter_paths(flt)
     audio_prefabs = set(dict(audio_prefabs).values())
 
-    music_playlists = []
-    print("Parsing audio prefabs:", end=" ")
-    for audio_prefab in audio_prefabs:
-        print(audio_prefab.name, end=". ")
-        ud = UnityDocument.load_yaml(audio_prefab.with_suffix(""))
-        playlists: list[list] = [x.musicPlaylists for x in
-                                 ud.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",))]
-        if playlists:
-            music_playlists.extend(*playlists)
-    print()
+    timeit = Timeit()
+    print(f"Parsing audio prefabs ({len(audio_prefabs)})... ", end=" ")
+
+    args_load = (audio_prefab.with_suffix("") for audio_prefab in audio_prefabs)
+    uds = run_concurrent_sync(UnityDocument.load_yaml, args_load)
+
+    print(f"Finished parsing audio prefabs ({timeit:.2f} sec)")
+
+    music_playlists = [item for ud in uds for pl in
+                       ud.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",)) for item in
+                       pl.musicPlaylists]
 
     return music_playlists
 
 
-def __get_audio_clips_paths() -> set[Path]:
+def _get_audio_clips_paths() -> set[Path]:
     handler = MetaDataHandler()
 
     def flt(tuple_s_p: tuple[str, Path]):
@@ -65,13 +68,14 @@ def __get_audio_clips_paths() -> set[Path]:
     return set(map(lambda x: x.with_suffix(""), dict(audio_clips).values()))
 
 
-def __get_audio_clip(path: Path) -> Tuple[Path, AudioSegment]:
+def _get_audio_clip(path: Path) -> tuple[Path, AudioSegment]:
     return path, AudioSegment.from_file(path, format=path.suffix.replace(".", ""))
 
 
 @dataclass
 class MusicTrack:
-    audio: AudioSegment
+    audio: AudioSegment | None
+    audio_clips_paths: list[Path]
     tags: dict[Literal["artist", "album", "title", "source"], str]
     code_name: str
     ext: str
@@ -81,8 +85,13 @@ class MusicTrack:
     def get_code_name_ext(self):
         return f"{self.code_name}.{self.ext}"
 
+    async def init_audio(self):
+        clips: list[tuple[Path, AudioSegment]] = await asyncio.gather(
+            *[asyncio.to_thread(_get_audio_clip, path) for path in self.audio_clips_paths])
+        self.audio = sum(dict(clips).values()) if clips else AudioSegment()
 
-def __get_full_music_track(audio_clips, music_data, playlist_data) -> MusicTrack:
+
+def _get_music_track(audio_clips, music_data, playlist_data) -> MusicTrack:
     code_name = playlist_data['playlistName']
 
     cur_data = music_data.get(code_name) or {}
@@ -113,15 +122,12 @@ def __get_full_music_track(audio_clips, music_data, playlist_data) -> MusicTrack
 
         clips.append(clip_data)
 
-    clips = run_multiprocess(__get_audio_clip, clips, is_many_args=False, is_multiprocess=False)
-    audio: AudioSegment = sum(dict(clips).values()) if clips else AudioSegment()
-
     content_group = cur_data and cur_data.get("contentGroup", "BASE_GAME") or "UNCATEGORIZED"
 
-    return MusicTrack(audio, tags, code_name, ext, content_group, has_same_name)
+    return MusicTrack(None, clips, tags, code_name, ext, content_group, has_same_name)
 
 
-def __save_track(music_track: MusicTrack, save_path: Path):
+def _save_track(music_track: MusicTrack, save_path: Path):
     music_track.audio.export(save_path, music_track.ext, tags=music_track.tags)
 
 
@@ -172,14 +178,14 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
         if len(datas) < len(data_files):
             return None, f"! Not found split lang files for relative generator: {not_found}"
 
-    music_playlists_raw = __get_music_playlists()
+    music_playlists_raw = _get_music_playlists()
 
     music_ids_with_authors = dict(filter(lambda x: bool(x[-1].get("author")), music_data.items())).keys()
 
     music_playlists = list(filter(lambda x: x.get("playlistName") in music_ids_with_authors, music_playlists_raw))
     music_playlists.extend(filter(lambda x: x.get("playlistName") not in music_ids_with_authors, music_playlists_raw))
 
-    audio_clips = __get_audio_clips_paths()
+    audio_clips = _get_audio_clips_paths()
     audio_clips = {normalize_str(ac): ac for ac in audio_clips}
 
     total_len = len(music_playlists)
@@ -193,7 +199,8 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
     )
     timeit = Timeit()
 
-    audio_tracks: list[MusicTrack] = run_multiprocess(__get_full_music_track, args_gen_tracks)
+    audio_tracks: list[MusicTrack] = run_concurrent_sync(_get_music_track, args_gen_tracks)
+    run_gather(*[track.init_audio() for track in audio_tracks])
 
     print(f"Generated tacks ({timeit:.2f} sec)")
 
@@ -222,7 +229,7 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
         (music_tack, path_dest(AudioSaveType.CODE_NAME, music_tack) / music_tack.get_code_name_ext())
         for music_tack in audio_tracks
     ]
-    run_multiprocess(__save_track, args_save_tracks)
+    run_concurrent_sync(_save_track, args_save_tracks)
 
     print(f"Saved tracks with code names ({timeit:.2f} sec)")
 

@@ -1,49 +1,6 @@
-import asyncio
 import tkinter as tk
-from collections.abc import Iterable, Awaitable
-from multiprocessing import Pool
 from pathlib import Path
 from tkinter import ttk
-from typing import Callable
-
-from Config.config import Config
-
-
-def run_multiprocess[T, U](func: Callable[[U], T], args_list: Iterable[U], is_many_args=True, is_multiprocess=True,
-                           processes=None) -> list[T]:
-    __config = Config()
-    is_config_mp = __config.get_multiprocessing()
-
-    if is_multiprocess and is_config_mp:
-        with Pool(processes) as p:
-            if is_many_args:
-                return p.starmap(func, args_list)
-            else:
-                return p.map(func, args_list)
-    else:
-        if is_many_args:
-            return [func(*args) for args in args_list]
-        else:
-            return [func(args) for args in args_list]
-
-
-async def __run_async[T, U](func: Callable[[U], Awaitable[T]], args_list: Iterable[U], is_many_args=True) -> list[T]:
-    if is_many_args:
-        return await asyncio.gather(*[asyncio.to_thread(func, *args) for args in args_list])
-    else:
-        return await asyncio.gather(*[asyncio.to_thread(func, args) for args in args_list])
-
-
-def run_concurrent_sync[T, U](func: Callable[[U], T], args_list: Iterable[U], is_many_args=True) -> list[T]:
-    return asyncio.run(__run_async(func, args_list, is_many_args))
-
-
-async def run_concurrent_async[T, U](func: Callable[[U], Awaitable[T]], args_list: Iterable[U], is_many_args=True) -> \
-        list[T]:
-    if is_many_args:
-        return await asyncio.gather(*[func(*args) for args in args_list])
-    else:
-        return await asyncio.gather(*[func(args) for args in args_list])
 
 
 class CheckBoxes(tk.Toplevel):

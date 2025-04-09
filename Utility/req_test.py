@@ -1,8 +1,11 @@
 """Test availability of required packages."""
+import asyncio
+import itertools
 import sys
+from itertools import repeat
 from pathlib import Path
 from importlib.metadata import version, PackageNotFoundError
-
+from typing import Generator, AsyncGenerator, Any, Coroutine
 
 from pip._internal.req.req_file import parse_requirements
 from pip._internal.req.constructors import install_req_from_parsed_requirement
@@ -47,6 +50,9 @@ def check_pydub():
     from pydub.utils import which
     files = ("ffmpeg", "avconv")
     return any([which(f) for f in files])
+
+async def check_pydub_defer():
+    return await asyncio.to_thread(check_pydub)
 
 
 if __name__ == "__main__":

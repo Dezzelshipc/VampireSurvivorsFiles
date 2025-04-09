@@ -10,7 +10,8 @@ from Utility.image_functions import crop_image_rect_left_bot, split_name_count, 
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
-from Utility.utility import run_multiprocess, normalize_str
+from Utility.utility import normalize_str
+from Utility.multirun import run_multiprocess
 
 
 class MetaDataHandler(metaclass=Singleton):
