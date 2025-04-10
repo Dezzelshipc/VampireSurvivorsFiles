@@ -22,5 +22,18 @@
       "TP_SWORD_BROTHERS",
       "TP_SPIRITTORNADO"
     ]
+  },
+  "MARIASOFIA": {
+    "merchantCharacter": "MARIASOFIA",
+    "isAnimated": true,
+    "portraitSprite": "mercXanthia",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "Xanthia_01",
+    "staticSpriteTexture": "character_xanthia",
+    "textLocKey": "adv_merc_MARIASOFIA",
+    "DLC": "Emeralds",
+    "merchantInventoryItems": [
+      "RELIC_EME_DISK"
+    ]
   }
 }

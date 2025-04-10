@@ -1,0 +1,776 @@
+{
+  "EME_RAPIER1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_RAPIER2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_RAPIER3": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_DUAL1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_DUAL2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_PUNCH1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_PUNCH2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_PUNCH3": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_MECH1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "EME_MECH2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "EME_MECH3": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "EME_KATANA1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "EME_KATANA2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "EME_BLOOD1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_BLOOD2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_MAGIC1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_MAGIC2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_KNIFE1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    },
+	{
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_KNIFE2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    },
+	{
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_AXE1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "EME_AXE2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "EME_SPEAR1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "EME_SPEAR2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "EME_SPEAR3": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "EME_PISTOL1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "EME_PISTOL2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "EME_LONGSWORD1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_LONGSWORD2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_LONGSWORD3": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_CANNON1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_CANNON2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_CANNON3": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_KICK1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_KICK2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_GREATSWORD1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_GREATSWORD2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_GREATSWORD3": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "EME_WAVE": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+	{
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EME_WAVE2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+	{
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ]
+}

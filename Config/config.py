@@ -22,6 +22,8 @@ class CfgKey(Enum):
     EM = "EM_ASSETS"
     OG = "OG_ASSETS"
     OC = "OC_ASSETS"
+    ED = "ED_ASSETS"
+
 
     IS = "IS_ASSETS"
 
@@ -49,7 +51,9 @@ class DLCType(Enum):
     EM = DLC(3, CfgKey.EM, "CHALCEDONY", "2690330", "Emergency Meeting")
     OG = DLC(4, CfgKey.OG, "FIRST_BLOOD", "2887680", "Operation Guns")
     OC = DLC(5, CfgKey.OC, "THOSE_PEOPLE", "3210350", "Ode to Castlevania")
-    # IS = DLC(6, CfgKey.IS, "-", "-", "IS")
+    ED = DLC(6, CfgKey.ED, "EMERALDS", "3451100", "Emerald Diorama")
+
+    # IS = DLC(-1, CfgKey.IS, "-", "-", "IS")
 
     def __str__(self):
         return self.value.full_name

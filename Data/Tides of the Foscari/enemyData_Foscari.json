@@ -2600,5 +2600,313 @@
         "Flower2_0.png"
       ]
     }
+  ],
+  
+  "FOSCARI_COUNTER": [
+    {
+      "level": 1,
+      "maxHp": 0.75,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "end": 12,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Goblin_0.png"
+      ],
+      "bVariants": [
+        "FS_GOBLIN",
+        "FS_GEF",
+        "FS_SALMON",
+        "FS_WULVER",
+        "FS_LAMB",
+        "FS_HTROW",
+        "FS_STROW",
+        "FS_CLOWN",
+        "FS_BROWN",
+        "FS_GREEN",
+        "FS_CAKE",
+        "FS_MARI",
+        "FS_AILLEN",
+        "FS_BALOR",
+        "FS_AGAEA",
+        "FS_DUERG",
+        "FS_NJUGG",
+        "FS_CAULD",
+        "FS_GLORY",
+        "FS_WORM",
+        "FS_HAG",
+        "FS_HORAILLEN",
+        "FS_HORDUERG",
+        "FS_HORNJUGG",
+        "FS_HORMARI",
+        "FS_HORCAULD",
+        "FS_HORGLORY",
+        "FS_HORWORM",
+        "FS_EDNA",
+        "FS_FSKULL",
+        "FS_UGUL",
+        "FS_HEMO",
+        "FS_MEAT",
+        "FS_USKULL",
+        "FS_NJUGGB",
+        "FS_WORMB",
+        "FS_GOBLIN_RED",
+        "FS_SALMON2",
+        "FS_SALMON_PINK",
+        "FS_GREEN_RED",
+        "FS_SELKIE",
+        "FS_BOSS_SELKIE",
+        "FS_BOSS_NJUGGLES",
+        "FS_BOSS_CLOWN",
+        "FS_BOSS_WULVER",
+        "FS_BOSS_LAMB",
+        "FS_BOSS_WORM",
+        "FS_BOSS_WORMB",
+        "FS_BOSS_GREEN_GREEN",
+        "FS_BOSS_GREEN_28",
+        "FS_BOSS_GREEN_GREEN_28",
+        "FS_BOSS_GREEN_RED_28",
+        "FS_BOSS_AGAEA",
+        "FS_BOSS_JENEVIV",
+        "FS_WORM2",
+        "FS_SNAK1",
+        "FS_SNAK2",
+        "FS_SNAK3",
+        "FS_SNAK4",
+        "FS_FMBALOR",
+        "FS_FLAMINGSKULL",
+        "FS_ROTGHOUL",
+        "FS_MEATY",
+        "FS_MEATBALL",
+        "BOSS_XLBLINDER",
+        "FS_SHOOTER1",
+        "FS_SHOOTER2",
+        "HEMO",
+        "HEMO2",
+        "REDUSA",
+        "FS_FMCETHLENN",
+        "FS_FMINDECH",
+        "FS_FMCONAND",
+        "FS_FMELATHA",
+        "FS_SALMON_DUSA",
+        "FS_CLOWN_SWARM",
+        "FS_MUSH_PATROL",
+        "FS_BROWN_HP",
+        "FS_SALMON_HP",
+        "FS_MUSH_HP",
+        "FS_NJUGGB_HP",
+        "FS_STROW_HP",
+        "FS_HTROW_HP",
+        "FS_SNAK_SWARM",
+        "FS_GGHOST",
+        "FS_GGGHOST",
+        "RELLYFISH",
+        "FS_SNAKBOMB",
+        "FS_SNAKSHIELD",
+        "FS_COCKATRICE_BOSS1",
+        "FS_COCKATRICE_BOSS2",
+        "FS_COCKATRICE_BOSS3",
+        "FS_XLMANTIS_HP",
+        "FS_XLFLOWER_HP",
+        "FS_CRATE_HP",
+        "FS_POT_HP",
+        "FS_FLOWER",
+        "FS_ROTGHOUL_SWARM",
+        "RELLYFISH_SWARM",
+        "FS_BLINDER_PATROL",
+        "FS_BOSS_REDUSA",
+        "FS_BOSS_FLAMINGSKULL",
+        "FS_BOSS_MEATY",
+        "FS_BOSS_MEATBALL",
+        "FS_BOSS_EDNA",
+        "FS_BOSS_HORWORM",
+        "FS_BOSS_HORMARI",
+        "FS_BOSS_HORCAULD",
+        "FS_BOSS_MEATY_29",
+        "FS_BOSS_MEATBALL_29",
+        "FS_ANFORA_HP"
+      ]
+    }
+  ],
+
+  
+  "FS_FLAMINGSKULL_FLYING": [
+    {
+      "level": 7,
+      "maxHp": 6,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "alpha": 0.65,
+      "xp": 2.5,
+      "idleFrameCount": 4,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "FlamingSkull_0.png"
+      ]
+    }
+  ],
+  "FS_MEATY_FLYING": [
+    {
+      "level": 14,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "end": 17,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Meatball_0.png"
+      ]
+    }
+  ],
+  "FS_MEATBALL_FLYING": [
+    {
+      "level": 9,
+      "maxHp": 25,
+      "speed": 130,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "xp": 2.75,
+      "idleFrameCount": 4,
+      "end": 16,
+      "killedAmount": 0,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Uskull_0.png"
+      ]
+    }
+  ],
+  "FS_HORCAULD_FLYING": [
+    {
+      "level": 15,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 20,
+      "idleFrameCount": 5,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hcauld_0.png"
+      ]
+    }
+  ],
+  "FS_HORGLORY_FLYING": [
+    {
+      "level": 7,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 16,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hglory_0.png"
+      ]
+    }
+  ],
+  "FS_HORMARI_FLYING": [
+    {
+      "level": 7,
+      "maxHp": 70,
+      "speed": 140,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "textureName": "foscariEnemies",
+      "frameNames": [
+        "Hmari_0.png"
+      ]
+    }
+  ],
+  "FS_MUSH_BOSS": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "size": 2,
+      "skills": [
+        0
+      ],
+      "knockback": 0.1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 5,
+      "scale": 1.5,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Mush_0.png"
+      ],
+      "bName": "Fungoman",
+      "bDesc": "Used as a special defender type.",
+      "bPlaces": [
+        "FOSCARI"
+      ]
+    }
+  ],
+  "FS_MUSH_BOSSMINION": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 140,
+      "power": 10,
+      "size": 1,
+      "skills": [
+        0
+      ],
+      "knockback": 0.1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 1,
+      "scale": 0.9,
+      "end": 18,
+      "textureName": "foscariEnemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Mush_0.png"
+      ],
+      "bName": "Fungoman",
+      "bDesc": "Used as a special defender type.",
+      "bPlaces": [
+        "FOSCARI"
+      ]
+    }
   ]
 }

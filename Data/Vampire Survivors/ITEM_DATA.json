@@ -80,7 +80,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "value": 0,
-    "contentGroup": "BASE"
+    "contentGroup": "BASE",
+    "showAboveAll" : true
   },
   "ROSARY": {
     "name": "Rosary",
@@ -105,10 +106,42 @@
     "pickedupAmount": 0,
     "rarity": 1,
     "unlocksAt": 0,
-    "value": 500,
+    "value": 300,
     "isRare": true,
     "sealable": true,
     "contentGroup": "BASE"
+  },
+  "SORBETTO": {
+    "name": "Sorbetto",
+    "description": "Temporarily emits cones of cold. Affected by player stats.",
+    "tips": "Drop rate affected by Luck.",
+    "texture": "items",
+    "frameName": "sorbetto1.png",
+    "pickedupAmount": 0,
+    "rarity": 1,
+    "unlocksAt": 0,
+    "value": 300,
+    "isRare": true,
+    "sealable": true,
+    "contentGroup": "EXTRA",
+    "requiresArcana": "T12_OUT_OF_TIME"
+  },
+  "STATIC_GOLDPILE": {
+    "name": "Gold Pile",
+    "description": "Adds a lot to your Gold coins total.",
+    "tips": ".",
+    "texture": "items",
+    "frameName": "MoneyPile.png",
+    "pickedupAmount": 0,
+    "isRare": false,
+    "feverMS": 10000,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 1000,
+    "contentGroup": "EXTRA",
+    "ignoreForcedMovement": true
   },
   "OROLOGION": {
     "name": "Orologion",
@@ -260,7 +293,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 1000
+    "value": 1000,
+    "showAboveAll" : true
   },
   "STATS_TREASURE_1": {
     "name": "",
@@ -273,7 +307,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "STATS_TREASURE_2": {
     "name": "",
@@ -286,7 +321,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "STATS_TREASURE_3": {
     "name": "",
@@ -299,7 +335,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "STATS_TREASURE_4": {
     "name": "",
@@ -312,7 +349,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "STATS_TREASURE_5": {
     "name": "",
@@ -325,7 +363,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "ALWAYS_COINBAG2": {
     "name": "[Always] Big Coin Bag",
@@ -470,7 +509,8 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "isRelic": true
+    "isRelic": true,
+    "showAboveAll" : true
   },
   "RELIC_GRIMOIRE": {
     "name": "Grim Grimoire",
@@ -486,7 +526,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_GOUDA": {
     "name": "Ars Gouda",
@@ -502,7 +543,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_MAP": {
     "name": "Milky Way Map",
@@ -518,7 +560,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_BANGER": {
     "name": "Magic Banger",
@@ -534,7 +577,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_TEAR": {
     "name": "Sorceress' Tears",
@@ -550,7 +594,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_GLASSMASK": {
     "name": "Glass Vizard",
@@ -566,7 +611,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_GOLDENEGG": {
     "name": "Golden Egg",
@@ -581,7 +627,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_NOSEGLASSES": {
     "name": "Mindbender",
@@ -597,7 +644,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_YELLOW": {
     "name": "Yellow Sign",
@@ -613,7 +661,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_SECRETS": {
     "name": "Forbidden Scrolls of Morbane",
@@ -629,7 +678,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_GGOSPEL": {
     "name": "Great Gospel",
@@ -645,7 +695,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_MIRROR": {
     "name": "Gracia's Mirror",
@@ -661,7 +712,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_TRUMPET": {
     "name": "Seventh Trumpet",
@@ -677,7 +729,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_ATLAS": {
     "name": "Atlas Gate",
@@ -695,7 +748,8 @@
     "value": 0,
     "isRelic": true,
     "sealable": false,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_MALACHITE": {
     "name": "Chaos Malachite",
@@ -713,7 +767,8 @@
     "value": 0,
     "isRelic": true,
     "sealable": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_ROSALIA": {
     "name": "Chaos Rosalia",
@@ -731,7 +786,8 @@
     "value": 0,
     "isRelic": true,
     "sealable": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_ALTEMANNA": {
     "name": "Chaos Altemanna",
@@ -749,7 +805,8 @@
     "value": 0,
     "isRelic": true,
     "sealable": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_TRISECTION": {
     "name": "Trisection",
@@ -766,7 +823,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_BRAVESTORY": {
     "name": "Brave Story",
@@ -783,7 +841,27 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
+  },
+  "RELIC_SPEEDUP": {
+    "name": "Roast chicken with a clock in the middle",
+    "description": "Allows to speed gameplay up.",
+    "tips": "",
+    "achievementTips": "Game Speed Modifier.",
+    "texture": "items",
+    "frameName": "speedup.png",
+    "collectionFrame": "frameB_bold.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 0,
+    "isRelic": true,
+    "sealable": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_CHARM": {
     "name": "Apoplexy",
@@ -800,7 +878,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_ANTIDOTE": {
     "name": "Antidote",
@@ -817,7 +896,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_MAP_AS": {
     "name": "Astral Stair Map",
@@ -834,7 +914,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "RELIC_MAP_MS": {
     "name": "Mt.Moonspell Map",
@@ -852,7 +933,8 @@
     "value": 0,
     "isRelic": true,
     "requiresDLC": "MOONSPELL",
-    "contentGroup": "MOONSPELL"
+    "contentGroup": "MOONSPELL",
+    "showAboveAll" : true
   },
   "RELIC_MAP_FS": {
     "name": "Lake Foscari Map",
@@ -870,7 +952,8 @@
     "value": 0,
     "isRelic": true,
     "requiresDLC": "FOSCARI",
-    "contentGroup": "FOSCARI"
+    "contentGroup": "FOSCARI",
+    "showAboveAll" : true
   },
   "RELIC_MAP_CHAL": {
     "name": "Polus Replica Map",
@@ -888,7 +971,8 @@
     "value": 0,
     "isRelic": true,
     "requiresDLC": "CHALCEDONY",
-    "contentGroup": "CHALCEDONY"
+    "contentGroup": "CHALCEDONY",
+    "showAboveAll" : true
   },
   "RELIC_MAP_FB": {
     "name": "Galuga Jungle Map",
@@ -906,7 +990,8 @@
     "value": 0,
     "isRelic": true,
     "requiresDLC": "FirstBlood",
-    "contentGroup": "FIRST_BLOOD"
+    "contentGroup": "FIRST_BLOOD",
+    "showAboveAll" : true
   },
   "RELIC_RANDOMAZZO": {
     "name": "Randomazzo",
@@ -922,7 +1007,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE"
+    "contentGroup":"BASE",
+    "showAboveAll" : true
   },
   "RELIC_DARKASSO": {
     "hidden": true,
@@ -939,7 +1025,8 @@
     "inTreasures": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup": "EXTRA"
+    "contentGroup": "EXTRA",
+    "showAboveAll" : true
   },
   "COFFIN": {
     "name": "",
@@ -953,7 +1040,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "MERCHANT": {
     "name": "",
@@ -967,7 +1055,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "EGGMAN": {
     "name": "",
@@ -981,7 +1070,8 @@
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 0
+    "value": 0,
+    "showAboveAll" : true
   },
   "HEALER": {
     "name": "",
@@ -1093,7 +1183,8 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "collectionFrame": "frameB_sotn.png"
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll" : true
   },
   "TP_RELIC_MASK_MOON": {
     "name": "Aspect of Moon",
@@ -1109,7 +1200,8 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "collectionFrame": "frameB_sotn.png"
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll" : true
   },
   "TP_RELIC_MASK_CITY": {
     "name": "Aspect of City",
@@ -1125,7 +1217,8 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "collectionFrame": "frameB_sotn.png"
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll" : true
   },
   "TP_RELIC_MASK_VOLCANO": {
     "name": "Aspect of Volcano",
@@ -1141,7 +1234,8 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "collectionFrame": "frameB_sotn.png"
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll" : true
   },
   "TP_RELIC_MASK_SEAWINDS": {
     "name": "Aspect of Seawinds",
@@ -1157,7 +1251,8 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "collectionFrame": "frameB_sotn.png"
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll" : true
   },
   "TP_RELIC_MASK_STONE": {
     "name": "Aspect of Stone",
@@ -1173,7 +1268,8 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "collectionFrame": "frameB_sotn.png"
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll" : true
   },
   "TP_RELIC_MASK_BLACK": {
     "name": "Aspect of Black",
@@ -1189,6 +1285,7 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "collectionFrame": "frameB_sotn.png"
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll" : true
   }
 }

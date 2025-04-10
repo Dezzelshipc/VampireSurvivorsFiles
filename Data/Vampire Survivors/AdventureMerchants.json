@@ -123,9 +123,10 @@
     "textLocKey": "adv_merc_POPPEA",
     "merchantInventory": [
       "SONG",
+      "LAUREL",
       "SILF",
       "SILF2",
-      "LAUREL"
+      "EX_GAEA1"
     ]
   },
   "GIOVANNA": {
@@ -426,6 +427,33 @@
       "TP_PENDULUM_WEAPON",
       "TP_HEADS_WEAPON",
       "TP_ELEVATOR_WEAPON"
+    ]
+  },
+  "EME_MRS": {
+    "merchantCharacter": "EME_MRS",
+    "portraitSprite": "mercMrs",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "eme_mrs_i01",
+    "staticSpriteTexture": "character_eme_mrs",
+    "textLocKey": "adv_merc_MRS",
+    "DLC": "Emeralds",
+    "merchantInventory": [
+      "EME_RAPIER1",
+      "EME_LONGSWORD1",
+      "EME_DUAL1",
+      "EME_GREATSWORD1",
+      "EME_PUNCH1",
+      "EME_KICK1",
+      "EME_CANNON1",
+      "EME_MECH1",
+      "EME_PISTOL1",
+      "EME_KNIFE1",
+      "EME_KATANA1",
+      "EME_AXE1",
+      "EME_BLOOD1",
+      "EME_SPEAR1",
+      "EME_MAGIC1",
+      "EME_WAVE"
     ]
   }
 }

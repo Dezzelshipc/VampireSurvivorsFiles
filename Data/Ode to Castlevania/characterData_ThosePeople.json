@@ -1428,7 +1428,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         },
         {
           "skinType": "SKIN_TP_JONHATHAN_MORNINGSTAR",
@@ -8202,7 +8240,11 @@
         "AMOUNT"
       ],
       "enemiesKilled": 0,
-      "stageData": []
+      "stageData": [],
+      "bodyOffset": {
+        "x": 2,
+        "y": 5
+      }
     }
   ],
   "TP_AXEARMOR": [
@@ -8422,8 +8464,8 @@
       "enemiesKilled": 0,
       "stageData": [],
       "bodyOffset": {
-        "x": 8,
-        "y": 48
+        "x": 2,
+        "y": 20
       }
     },
     {
@@ -8850,8 +8892,8 @@
       "walkingFrames": 5,
       "startingWeapon": "VOID",
       "bodyOffset": {
-        "x": 32,
-        "y": 126
+        "x": 55,
+        "y": 112
       },
       "bgm": "BGM_TP_sotn_FestivalOfServants",
 

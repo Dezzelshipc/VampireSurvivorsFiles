@@ -39,9 +39,9 @@ class MetaDataHandler(metaclass=Singleton):
         dirs = []
         for dlc in DLCType.get_all_dlc():
             for root in path_roots:
-                path = self.config[dlc.config_key].joinpath(root)
-                if path.exists():
-                    dirs.append(path)
+                path = self.config[dlc.config_key] and self.config[dlc.config_key].joinpath(root)
+                if path and path.exists():
+                        dirs.append(path)
 
         for this_dir in dirs:
             self._found_files.extend(this_dir.rglob("*.meta"))

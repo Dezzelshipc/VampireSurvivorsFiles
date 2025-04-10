@@ -379,6 +379,24 @@
       "detune": -800
     }
   },
+  "BGM_TheCoop": {
+    "title": "Martes de poncle",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": "COOP",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "stage_coop_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.5,
+      "detune": -1000
+    }
+  },
   "BGM_BatCountry": {
     "title": "Mighty Illusion",
     "author": "Filippo Vicarelli",

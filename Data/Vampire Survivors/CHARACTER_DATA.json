@@ -4739,6 +4739,29 @@
               "y": 3
             }
           ]
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_SHEMOON_REBORN",
+          "name": "Reborn",
+          "textureName": "character_shemoon",
+          "spriteName": "skin_rebornshemoon_i01.png",
+          "walkingFrames": 5,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Starts with a Level 5 Wing and a hidden Valkyrie Turner.",
+          "revivals":  7,
+          "luck":      1.0,
+          "exAccessories": [
+            "MOVESPEED",
+            "MOVESPEED",
+            "MOVESPEED",
+            "MOVESPEED",
+            "MOVESPEED"
+          ],
+          "hiddenWeapons": [
+            "TRAPANO2"
+          ]
         }
       ],
       "currentSkin": "DEFAULT",
@@ -4935,6 +4958,105 @@
     {
       "level": 4,
       "cooldown": 0.2
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "YOLO": [
+    {
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EX_GAEA1",
+      "prefix": "",
+      "charName": "Gazebo",
+      "surname": "",
+      "noHurt": true,
+      "spriteName": "Gazebo_01.png",
+      "textureName": "character_gazebo",
+      "walkingFrames": 4,
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_gazebo",
+          "spriteName": "Gazebo_01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
+        }
+      ],
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "currentSkin": "DEFAULT",
+      "description": "Overhealing by +30 gives a cumulative bonus to a random stat.",
+      "portraitName": "p_gazebo.png",
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":        100,
+      "armor":        0,
+      "regen":        0,
+      "moveSpeed":    1.5,
+      "power":        1,
+      "cooldown":     1,
+      "area":         1,
+      "speed":        1,
+      "duration":     1,
+      "amount":       0,
+      "luck":         1,
+      "growth":       1,
+      "greed":        1,
+      "curse":        1,
+      "magnet":       0,
+      "revivals":     0,
+      "rerolls":      0,
+      "skips":        0,
+      "banish":       0,
+      "showcase": [
+        "PARMA",
+        "PARMA",
+        "PARMA",
+        "PARMA",
+        "PARMA",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
     },
     {
       "growth": 1,
@@ -5251,6 +5373,184 @@
             "LUCK",
             "LUCK",
             "LUCK"
+          ],
+          "autoShuffle": true
+        }
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_MOONRABBIT": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "isBought": false,
+      "level": 1,
+      "startingWeapon": "PHASER",
+      "prefix": "Absolutely Normal",
+      "charName": "Rabbit",
+      "surname": "",
+      "textureName": "character_spacedette",
+      "spriteName": "moonrabbit_i01.png",
+      "portraitName": "p_bats.png",
+      "walkingFrames": 4,
+      "description": " ",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 0,
+        "y": 10
+      },
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "cooldown": 1,
+      "area": 0.5,
+      "speed": 1,
+      "duration": 1,
+      "amount": 1,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "charm": 0,
+      "showcase": [
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "PHASER",
+            "PHASER",
+            "PHASER",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "AMOUNT",
+            "AMOUNT"
+          ],
+          "autoShuffle": true
+        }
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_MOONDUCK": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "isBought": false,
+      "level": 1,
+      "startingWeapon": "PHASER",
+      "prefix": "Absolutely Normal",
+      "charName": "Duck",
+      "surname": "",
+      "textureName": "character_spacedette",
+      "spriteName": "moonduck_i01.png",
+      "portraitName": "p_bats.png",
+      "walkingFrames": 4,
+      "description": " ",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 0,
+        "y": 5
+      },
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "cooldown": 1,
+      "area": 0.5,
+      "speed": 1,
+      "duration": 1,
+      "amount": 1,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "charm": 0,
+      "showcase": [
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "PHASER",
+            "PHASER",
+            "PHASER",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "COOLDOWN",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "AMOUNT",
+            "AMOUNT"
           ],
           "autoShuffle": true
         }
@@ -5598,6 +5898,371 @@
     {
       "level": 20,
       "growth": 1
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "SPACEDUDETTE": [
+    {
+      "hidden": true,
+      "secret": true,
+      "level": 1,
+      "startingWeapon": "PHASER2",
+      "charName": "Space Dette",
+      "surname": "",
+      "spriteName": "SDette_i01.png",
+      "textureName": "character_spacedette",
+      "walkingFrames": 4,
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_spacedette",
+          "spriteName": "SDette_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 1,
+              "y": 3
+            }
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "description": "Starting weapon grows stronger when levelling up. Gets more fans when defeating a large amount of enemies.",
+      "portraitName": "p_spacedette.png",
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.4,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "REVIVAL",
+        "REVIVAL"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_ENEMY": [
+    {
+      "allowCoopOutline":false,
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "FOLLOWER_GARLIC",
+      "prefix": "",
+      "charName": "Thrall",
+      "surname": "",
+      "spriteName": "Bat1_0.png",
+      "portraitName": "p_bats.png",
+      "walkingFrames": 4,
+      "description": "-",
+      "isBought": false,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":      100,
+      "regen":      0,
+      "armor":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "speed":      1,
+      "area":       0.75,
+      "duration":   1,
+      "cooldown":   1.2,
+      "amount":     0,
+      "revivals":   0,
+      "magnet":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "price":      0,
+      "showcase": [
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+          ],
+          "autoShuffle": true
+        }
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": [],
+      "textureName": "enemies"
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FS_FOLLOWER_HILLTROW": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "GARLIC",
+      "prefix": "",
+      "charName": "",
+      "surname": "",
+      "textureName": "character_followers",
+      "spriteName": "FollowerTrowH_i01.png",
+      "portraitName": "p_bats.png",
+
+      "walkingFrames": 4,
+      "description": "-",
+      "isBought": false,
+      "completedStages": [],
+      "survivedMinutes": 0,
+
+      "maxHp":      100,
+      "regen":      0,
+      "armor":      0,
+      "moveSpeed":  1.5,
+
+      "power":      1,
+      "speed":      1,
+      "area":       0.35,
+      "duration":   1,
+
+      "cooldown":   1,
+      "amount":     0,
+      "revivals":   0,
+      "magnet":     0,
+
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+
+      "price": 16650000,
+      "showcase": [
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "GARLIC",
+            "GARLIC",
+            "GARLIC",
+            "GARLIC",
+            "GARLIC",
+            "GARLIC",
+            "MOVESPEED",
+            "MOVESPEED",
+            "MOVESPEED",
+            "MOVESPEED",
+            "MOVESPEED"
+          ],
+          "autoShuffle": true
+        }
+      ],
+      "hiddenWeapons": [
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FS_FOLLOWER_BROWNIE": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "VOID",
+      "prefix": "",
+      "charName": "",
+      "surname": "",
+      "textureName": "character_followers",
+      "spriteName": "FollowerBrownie_i01.png",
+      "portraitName": "p_bats.png",
+
+      "walkingFrames": 4,
+      "description": "-",
+      "isBought": false,
+      "completedStages": [],
+      "survivedMinutes": 0,
+
+      "maxHp":      100,
+      "regen":      0,
+      "armor":      0,
+      "moveSpeed":  1.5,
+
+      "power":      0.5,
+      "speed":      1,
+      "area":       1,
+      "duration":   1,
+
+      "cooldown":   1,
+      "amount":     0,
+      "revivals":   0,
+      "magnet":     1,
+
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+
+      "price": 16650000,
+      "showcase": [
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "MAGNET",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GREED",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK"
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "MAGNET",
+            "MAGNET",
+            "MAGNET",
+            "MAGNET",
+            "MAGNET",
+            "GREED",
+            "GREED",
+            "GREED",
+            "GREED",
+            "GREED",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK",
+            "LUCK"
+          ],
+          "autoShuffle": true
+        }
+      ],
+      "hiddenWeapons": [
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
     },
     {
       "growth": 1,

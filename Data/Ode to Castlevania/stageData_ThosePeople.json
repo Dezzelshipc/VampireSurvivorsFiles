@@ -23,6 +23,7 @@
       "BGM": "BGM_FB_COVER_00_Jung",
       "sideBBGM": "BGM_FB_K00_Jung",
       "validForCharcaterData": true,
+      "disableGlobalLight" : true,
       "hasCharacterSpotlight": true,
       "mods": {
         "TimeLimit": 1800,
@@ -118,6 +119,7 @@
       "BGM": "BGM_FB_COVER_00_Jung",
       "sideBBGM": "BGM_FB_K00_Jung",
       "validForCharcaterData": true,
+      "disableGlobalLight" : true,
       "hasCharacterSpotlight": true,
       "mods": {
         "TimeLimit": 1800,
@@ -213,6 +215,7 @@
       "BGM": "BGM_FB_COVER_00_Jung",
       "sideBBGM": "BGM_FB_K00_Jung",
       "validForCharcaterData": true,
+      "disableGlobalLight" : true,
       "hasCharacterSpotlight": true,
       "mods": {
         "TimeLimit": 1800,
@@ -945,6 +948,7 @@
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
+      "disableGlobalLight" : true,
       "hasCharacterSpotlight": true,
       "allowVisualInversion": false,
       "hasLights": true,

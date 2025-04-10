@@ -1,0 +1,2417 @@
+{
+  "EME_RAPIERDUAL": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "EME_RAPIER1",
+      "cooldown": 1,
+      "charName": "Tsunanori",
+      "surname": "Mido",
+      "textureName": "character_eme_rapierman",
+      "spriteName": "RapierMan_i01.png",
+      "portraitName": "p_char_rapier.png",
+      "bgm": "BGM_EME_DESTINY",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "RapierMan_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_rapierman",
+              "spriteName": "RapierMan_a01.png",
+              "framesNumber": 5,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_DUALSWORDSMAN",
+          "startingWeapon": "EME_DUAL1",
+          "name": "Dual Swords",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "DualSwordsMan_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_rapierman",
+              "spriteName": "DualSwordsMan_a01.png",
+              "framesNumber": 6,
+              "frameRate": 14,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_EME_SOLO_FLEURET",
+          "startingWeapon": "EME_RAPIER1",
+          "name": "Solo Rapier",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "RapierMan_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_rapierman",
+              "spriteName": "RapierMan_a01.png",
+              "framesNumber": 5,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_EME_SOLO_DUAL",
+          "startingWeapon": "EME_DUAL1",
+          "name": "Dual Swords",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "DualSwordsMan_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_rapierman",
+              "spriteName": "DualSwordsMan_a01.png",
+              "framesNumber": 6,
+              "frameRate": 14,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1.2,
+      "duration":   1.2,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_PUNCHKICK": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "EME_PUNCH1",
+      "cooldown": 1,
+      "charName": "Bonnie",
+      "surname": "Blair",
+      "textureName": "character_eme_formina",
+      "spriteName": "EME_bonnie_i01.png",
+      "portraitName": "p_char_punch.png",
+      "bgm": "BGM_EME_POLICE",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_bonnie_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_bonnie_punch_a01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }        
+        },
+        {
+          "skinType": "SKIN_EME_B_KICK",
+          "startingWeapon": "EME_KICK1",
+          "name": "KickKick",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_bonnie_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_bonnie_kick_a01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          } 
+        },
+        {
+          "skinType": "SKIN_EME_SOLO_PUNCH",
+          "startingWeapon": "EME_PUNCH1",
+          "name": "Punch Solo",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_bonnie_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_bonnie_punch_a01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_EME_SOLO_KICK",
+          "startingWeapon": "EME_KICK1",
+          "name": "Kick Solo",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_bonnie_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_bonnie_kick_a01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      140,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_CANNONGUN": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "EME_CANNON1",
+      "cooldown": 1,
+      "charName": "Formina",
+      "surname": "Franklyn",
+      "textureName": "character_eme_formina",
+      "spriteName": "EME_formina_minigun_i01.png",
+      "portraitName": "p_char_cannon.png",
+      "bgm": "BGM_EME_POLICE",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Saber Machine Gun",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_formina_minigun_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "spriteAnims": {
+            "rangedAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_formina_minigun_r01.png",
+              "framesNumber": 4,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_EME_F_PISTOL",
+          "startingWeapon": "EME_PISTOL1",
+          "name": "Vector Ray",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_formina_pistol_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "spriteAnims": {
+            "rangedAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_formina_pistol2_r01.png",
+              "framesNumber": 4,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_EME_SOLO_CANNON",
+          "startingWeapon": "EME_CANNON1",
+          "name": "Saber Machine Gun",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_formina_minigun_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "spriteAnims": {
+            "rangedAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_formina_minigun_r01.png",
+              "framesNumber": 4,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_EME_SOLO_PISTOL",
+          "startingWeapon": "EME_PISTOL1",
+          "name": "Vector Ray",
+          "textureName": "character_eme_formina",
+          "spriteName": "EME_formina_pistol_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "spriteAnims": {
+            "rangedAttack": {
+              "textureName": "character_eme_formina",
+              "spriteName": "EME_formina_pistol2_r01.png",
+              "framesNumber": 4,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      1,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_MECHKATANA": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "EME_MECH1",
+      "cooldown": 1,
+      "charName": "",
+      "surname": "",
+      "textureName": "character_eme_divano",
+      "spriteName": "EME_divano5retropod_i01.png",
+      "portraitName": "p_char_mech.png",
+      "bgm": "BGM_EME_BEAT",
+      "skins": [
+        {
+          "skinType": "SKIN_EME_D_RETRO",
+          "name": "Default",
+          "maxHp":      20,
+          "armor":      1,
+          "textureName": "character_eme_divano",
+          "spriteName": "EME_divano5retropod_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_EME_D_TANK",
+          "startingWeapon": "EME_MECH1",
+          "maxHp": 100,
+          "armor": 2,
+          "moveSpeed" : -0.2,
+          "name": "Tank Mech",
+          "textureName": "character_eme_divano",
+          "spriteName": "EME_divano5battletank_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "bodyOffset": {
+            "x": 16,
+            "y": 29
+          },
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_EME_D_MOVE",
+          "startingWeapon": "EME_MECH1",
+          "maxHp": -50,
+          "magnet": 1,
+          "moveSpeed" : 1,
+          "name": "Mover Mech",
+          "textureName": "character_eme_divano",
+          "spriteName": "EME_divano5float_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "bodyOffset": {
+            "x": 7,
+            "y": 8
+          },
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_EME_D_SHAN",
+          "startingWeapon": "EME_MECH1",
+          "maxHp":      20,
+          "armor":      1,
+          "area":       0.3,
+          "speed":      0.3,
+          "name": "Shanks Mech",
+          "textureName": "character_eme_divano",
+          "spriteName": "EME_divano5legs_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "bodyOffset": {
+            "x": 29,
+            "y": 18
+          },
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_EME_D_PARA",
+          "startingWeapon": "EME_MECH1",
+          "maxHp":      40,
+          "armor":      1,
+          "power":      0.3,
+          "duration":   0.3,
+          "name": "Paradox",
+          "textureName": "character_eme_divano",
+          "spriteName": "EME_divano5special_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "bodyOffset": {
+            "x": 20,
+            "y": 27
+          },
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_EME_D_KATANA",
+          "startingWeapon": "EME_KATANA1",
+          "maxHp":      20,
+          "armor":      1,
+          "name": "Katana",
+          "textureName": "character_eme_divano",
+          "spriteName": "EME_divano5_walk_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "rangedAttack": {
+              "textureName": "character_eme_divano",
+              "spriteName": "EME_divano5_armshoot1.png",
+              "framesNumber": 4,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 3,
+                  "y": 0
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "currentSkin": "SKIN_EME_D_RETRO",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "EME_MAGICALL": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "EME_MAGIC1",
+      "cooldown": 1,
+      "charName": "Ameya",
+      "surname": "Aisling",
+      "textureName": "character_eme_witch",
+      "spriteName": "EME_ameya_i01.png",
+      "portraitName": "p_char_magic.png",
+      "bgm": "BGM_EME_ENCHANTED",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_eme_witch",
+          "spriteName": "EME_ameya_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EME_SELECTOR",
+          "skinType": "SKIN_EME_SELECT",
+          "name": "Default",
+          "textureName": "character_eme_witch",
+          "spriteName": "EME_ameya_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    5,
+      "skips":      5,
+      "banish":     5,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "AMOUNT",
+        "AMOUNT",
+        "EME_MAGIC1",
+        "EME_MAGIC1",
+        "EME_MAGIC1",
+        "EME_MAGIC1",
+        "EME_MAGIC1",
+        "EME_MAGIC1",
+        "EME_MAGIC1",
+        "EME_MAGIC1"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_SWORDBITE": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "EME_LONGSWORD1",
+      "cooldown": 1,
+      "charName": "Siugnas",
+      "textureName": "character_eme_siugnas",
+      "spriteName": "EME_siugnas_sword_i01.png",
+      "portraitName": "p_char_longsword.png",
+      "bgm": "BGM_EME_DARKNESS",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Siugnas Longsword",
+          "textureName": "character_eme_siugnas",
+          "spriteName": "EME_siugnas_sword_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_eme_siugnas",
+              "spriteName": "EME_siugnas_sword_a01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "skinType": "SKIN_EME_S_BLOOD",
+          "startingWeapon": "EME_BLOOD1",
+          "name": "Blood",
+          "textureName": "character_eme_siugnas",
+          "spriteName": "EME_siugnas_vampire_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "spriteAnims": {
+            "magicAttack": {
+              "textureName": "character_eme_siugnas",
+              "spriteName": "EME_siugnas_vampire_a01.png",
+              "framesNumber": 6,
+              "frameRate": 18,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "bodyOffset": {
+        "x": 10,
+        "y": 21
+      },
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0.2,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     1,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_EXGREATSWORD": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "bgm": "BGM_EME_FIERCE",
+      "level": 1,
+      "startingWeapon": "EME_GREATSWORD1",
+      "charName": "",
+      "surname": "",
+      "textureName": "character_eme_finalemperor",
+      "spriteName": "char_finalemperor_i01.png",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": ".",
+      "portraitName": "p_char_greatsword.png",
+      "price": 25000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1.5,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_EXAXE": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "bgm": "BGM_EME_ODDS",
+      "level": 1,
+      "startingWeapon": "EME_AXE1",
+      "charName": "",
+      "surname": "",
+      "textureName": "character_eme_dolores",
+      "spriteName": "EME_dolores_i01.png",
+      "walkingFrames": 4,
+      "description": ".",
+      "portraitName": "p_char_axe.png",
+      "price": 25000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 13,
+        "y": 18
+      },
+      
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1.2,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1.2,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   1,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "EME_EXKNIFE": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "bgm": "BGM_EME_WORLD",
+      "level": 1,
+      "startingWeapon": "EME_KNIFE1",
+      "charName": "",
+      "surname": "",
+      "textureName": "character_eme_macha",
+      "spriteName": "eme_macha_i01.png",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": ".",
+      "portraitName": "p_char_knife.png",
+      "price": 25000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":       100,
+      "armor":       0,
+      "regen":       0,
+      "moveSpeed":   1,
+      "power":       1,
+      "cooldown":    0.9,
+      "area":        1.2,
+      "speed":       1.2,
+      "duration":    1.2,
+      "amount":      0,
+      "luck":        1,
+      "growth":      1.2,
+      "greed":       1,
+      "curse":       1,
+      "magnet":      0,
+      "revivals":    0,
+      "rerolls":     5,
+      "skips":       5,
+      "banish":      5,
+      "charm":      50,
+      "showcase": [
+      ],
+      "enemiesKilled": 0,
+      "stageData": [],
+      "hiddenWeapons": [
+        "EME_MAGIC2"
+      ]
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_EXSPEAR": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "bgm": "BGM_EME_QUICK",
+      "level": 1,
+      "startingWeapon": "EME_SPEAR1",
+      "charName": "",
+      "surname": "",
+      "textureName": "character_eme_lita",
+      "spriteName": "eme_lita_i01.png",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": ".",
+      "portraitName": "p_char_spear.png",
+      "price": 25000,
+      "bodyOffset": {
+        "x": 8,
+        "y": 32
+      },
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  2,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      2,
+      "duration":   1,
+      "amount":     1,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    5,
+      "skips":      5,
+      "banish":     5,
+      "showcase": [
+      ],
+      "hiddenWeapons": [
+        "EME_RING_WOOD"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_PUPALL": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "EME_KATANA1",
+      "cooldown": 1,
+      "charName": "Kugutsu",
+      "surname": "",
+      "textureName": "character_eme_rapierman",
+      "spriteName": "EME_musashi_i01.png",
+      "portraitName" : "p_char_puppet",
+      "skins": [
+        {
+          "startingWeapon": "EME_KATANA1",
+          "skinType": "SKIN_EME_MUS",
+          "name": "",
+          "prefix": "",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_musashi_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EME_KNIFE1",
+          "skinType": "SKIN_EME_KOM",
+          "name": "",
+          "prefix": "",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_komachi_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EME_PISTOL1",
+          "skinType": "SKIN_EME_BOH",
+          "name": "",
+          "prefix": "",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_boh_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EME_PUNCH1",
+          "skinType": "SKIN_EME_SUK",
+          "name": "",
+          "prefix": "",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_sukune_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "currentSkin": "SKIN_EME_MUS",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 25000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      120,
+      "armor":      1,
+      "regen":      0,
+      "moveSpeed":  1.3,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_MRS": [
+    {
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "noHurt": true,
+      "level": 1,
+      "startingWeapon": "EME_SELECTOR",
+      "charName": "Mr.S",
+      "surname": "",
+      "textureName": "character_eme_mrs",
+      "spriteName": "eme_mrs_i01.png",
+      "portraitName" : "p_char_mrs",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": "-",
+      "price": 100000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "cooldown":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AMOUNT",
+        "AMOUNT",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH"
+      ],
+      "exWeapons" :[
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1,
+      "amount" : 1
+    },
+    {
+      "level": 40,
+      "growth": 1,
+      "amount" : 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    },
+    {
+      "level": 60,
+      "amount" : 1
+    },
+    {
+      "level": 80,
+      "amount" : 1
+    }
+  ],
+  
+  "EME_CATS": [
+    {
+      "hidden":   true,
+      "secret":   true,
+      "isBought": false,
+      "noHurt": true,
+      "level": 1,
+      "startingWeapon": "VOID",
+      "prefix": "",
+      "charName": "Lolo, Hiss, Meow, and Purr",
+      "surname": "",
+      "textureName": "character_eme_witch",
+      "spriteName": "EME_catscombined_i01.png",
+      "portraitName": "",
+      "description": "",
+      "walkingFrames": 4,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 8,
+        "y": 17
+      },
+      "maxHp": 50,
+      "armor": 0,
+      "regen": 1,
+      "moveSpeed": 1.4,
+      "power": 0.4,
+      "cooldown": 1,
+      "area": 0.6,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1.4,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 8,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+      ],
+      "hiddenWeapons": [
+        "EME_RING_CHAOS"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_KINA": [
+    {
+      "hidden":   true,
+      "secret":   true,
+      "isBought": false,
+      "level": 1,
+      "startingWeapon": 0,
+      "prefix": "",
+      "charName": "Kina",
+      "surname": "",
+      "textureName": "character_eme_kina",
+      "spriteName": "eme_kina_i01.png",
+      "portraitName": "",
+      "description": "",
+      "walkingFrames": 4,
+      "price": 1000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 16,
+        "y": 25
+      },
+      "maxHp": 110,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1.2,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN"
+      ],
+      "hiddenWeapons": [
+        "EME_SWORD_SWALLOW",
+        "EME_SWORD_GALE"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_IMAKOO": [
+    {
+      "hidden":   true,
+      "secret":   true,
+      "isBought": false,
+      "level": 1,
+      "startingWeapon": 0,
+      "prefix": "",
+      "charName": "Imakoo",
+      "surname": "",
+      "textureName": "character_eme_imakoo",
+      "spriteName": "eme_imakoo_i01.png",
+      "portraitName": "",
+      "description": "",
+      "walkingFrames": 4,
+      "price": 1000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 16,
+        "y": 25
+      },
+      "maxHp": 120,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.1,
+      "power": 1.3,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 0.6,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN"
+      ],
+      "hiddenWeapons": [
+        "EME_AXE_HELLFURY",
+        "EME_BLOOD_BLOODRAGE"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_DEMON": [
+    {
+      "hidden":   true,
+      "secret":   true,
+      "isBought": false,
+      "level": 1,
+      "startingWeapon": "EME_BLOOD2",
+      "prefix": "",
+      "charName": "Demonic Final Emperor",
+      "surname": "",
+      "textureName": "character_eme_demonicfinalemperor",
+      "spriteName": "EME_DemonicFinalEmperor_i01.png",
+      "portraitName": "",
+      "description": "",
+      "walkingFrames": 4,
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "bodyOffset": {
+        "x": 16,
+        "y": 25
+      },
+      "maxHp": 177,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 0.7,
+      "power": 1.3,
+      "cooldown": 1,
+      "area": 1.3,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 0.7,
+      "growth": 1,
+      "greed": 1,
+      "curse": 2,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 10,
+      "showcase": [
+      ],
+      "hiddenWeapons": [
+        "EME_RING_METAL"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_PUPKATANA_FOLLOWER": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EME_KATANA1",
+      "cooldown": 1,
+      "charName": "Kugutsu",
+      "surname": "",
+      "textureName": "character_eme_rapierman",
+      "spriteName": "EME_musashi_i01.png",
+      "skins": [
+        {
+          "startingWeapon": "EME_KATANA1",
+          "skinType": "DEFAULT",
+          "name": "Musashi",
+          "prefix": "Musashi the",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_musashi_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "isBought": true,
+      "price": 100,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 120,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.3,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "EME_DUAL1",
+        "EME_DUAL1",
+        "EME_DUAL1",
+        "EME_DUAL1",
+        "EME_DUAL1",
+        "EME_DUAL1",
+        "EME_DUAL1"
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "EME_KATANA1",
+            "EME_KATANA1",
+            "EME_KATANA1",
+            "EME_KATANA1",
+            "MAXHEALTH",
+            "MAXHEALTH",
+            "MAXHEALTH",
+            "MAXHEALTH",
+            "MAXHEALTH",
+            "COOLDOWN",
+            "POWER",
+            "POWER"
+          ],
+          "autoShuffle": true
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_PUPKNIFE_FOLLOWER": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EME_KNIFE1",
+      "cooldown": 1,
+      "charName": "Komachi",
+      "surname": "the Kugutsu",
+      "textureName": "character_eme_rapierman",
+      "spriteName": "EME_komachi_i01.png",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_komachi_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "isBought": true,
+      "price": 0,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 120,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.3,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "exWeapons": [],
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT"
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "EME_KNIFE1",
+            "EME_KNIFE1",
+            "EME_KNIFE1",
+            "EME_KNIFE1",
+            "ARMOR",
+            "ARMOR",
+            "ARMOR",
+            "ARMOR",
+            "ARMOR",
+            "AMOUNT",
+            "COOLDOWN",
+            "DURATION"
+          ],
+          "autoShuffle": true
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_PUPGUN_FOLLOWER": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EME_PISTOL1",
+      "cooldown": 1,
+      "charName": "Boh",
+      "surname": "the Kugutsu",
+      "textureName": "character_eme_rapierman",
+      "spriteName": "EME_boh_i01.png",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_boh_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "isBought": true,
+      "price": 0,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 120,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.3,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "EME_RAPIER1",
+        "EME_RAPIER1",
+        "EME_RAPIER1",
+        "EME_RAPIER1",
+        "EME_RAPIER1",
+        "EME_RAPIER1"
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "EME_PISTOL1",
+            "EME_PISTOL1",
+            "EME_PISTOL1",
+            "EME_PISTOL1",
+            "REGEN",
+            "REGEN",
+            "REGEN",
+            "REGEN",
+            "REGEN",
+            "COOLDOWN",
+            "AMOUNT",
+            "AMOUNT",
+            "POWER"
+          ],
+          "autoShuffle": true
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_PUPPUNCH_FOLLOWER": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EME_PUNCH1",
+      "cooldown": 1,
+      "charName": "Sukune",
+      "surname": "the Kugutsu",
+      "textureName": "character_eme_rapierman",
+      "spriteName": "EME_sukune_i01.png",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_eme_rapierman",
+          "spriteName": "EME_sukune_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "-",
+      "isBought": true,
+      "price": 0,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 120,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.3,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "EME_RAPIER3",
+        "EME_RAPIER3",
+        "EME_RAPIER3",
+        "EME_RAPIER3",
+        "EME_RAPIER3",
+        "EME_RAPIER3"
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "EME_PUNCH1",
+            "EME_PUNCH1",
+            "EME_PUNCH1",
+            "EME_PUNCH1",
+            "POWER",
+            "POWER",
+            "POWER",
+            "POWER",
+            "POWER",
+            "COOLDOWN",
+            "AMOUNT",
+            "REVIVAL",
+            "REVIVAL"
+          ],
+          "autoShuffle": true
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "EME_CATS_FOLLOWER": [
+  {
+    "alwaysHidden": true,
+    "hidden": true,
+    "secret": true,
+    "noHurt": true,
+    "level": 1,
+    "startingWeapon": "VOID",
+    "prefix": "",
+    "charName": "Lolo, Hiss, Meow, and Purr",
+    "surname": "",
+    "textureName": "character_eme_witch",
+    "spriteName": "eme_cat_black_i01.png",
+    "portraitName": "",
+    "description": "",
+    "walkingFrames": 4,
+    "isBought": false,
+    "price": 5000,
+    "completedStages": [],
+    "survivedMinutes": 0,
+    "maxHp": 50,
+    "armor": 0,
+    "regen": 0,
+    "moveSpeed": 1.4,
+    "power": 0.4,
+    "cooldown": 1,
+    "area": 0.6,
+    "speed": 1,
+    "duration": 1,
+    "amount": 0,
+    "luck": 1.4,
+    "growth": 1,
+    "greed": 1,
+    "curse": 1,
+    "magnet": 0,
+    "revivals": 0,
+    "rerolls": 0,
+    "skips": 0,
+    "banish": 0,
+    "showcase": [
+    ],
+    "hiddenWeapons": [
+    ],
+    "enemiesKilled": 0,
+    "stageData": [],
+    "levelUpPresets": [
+      {
+        "startingLoadout": [],
+        "loadout": [
+          "POWER",
+          "POWER",
+          "POWER",
+          "POWER",
+          "POWER",
+          "AREA",
+          "AREA",
+          "AREA",
+          "AREA",
+          "AREA",
+          "SPEED",
+          "SPEED",
+          "SPEED",
+          "SPEED",
+          "SPEED",
+          "COOLDOWN",
+          "COOLDOWN",
+          "COOLDOWN",
+          "COOLDOWN",
+          "COOLDOWN",
+          "DURATION",
+          "DURATION",
+          "DURATION",
+          "DURATION",
+          "DURATION",
+          "AMOUNT",
+          "AMOUNT"
+        ],
+        "autoShuffle": true
+      }
+    ]
+  },
+  {
+    "growth": 1,
+    "level": 20
+  },
+  {
+    "growth": 1,
+    "level": 40
+  },
+  {
+    "level": 21,
+    "growth": -1
+  },
+  {
+    "level": 41,
+    "growth": -1
+  }
+]
+}

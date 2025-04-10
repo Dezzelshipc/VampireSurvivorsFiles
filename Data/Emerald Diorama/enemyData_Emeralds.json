@@ -1,0 +1,1563 @@
+{
+  "EME_CALAMITY_B": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 240,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 18,
+      "frameNames": [
+        "EME_calamityblack_0.png"
+      ],
+      "skills": [
+        3,
+        1
+      ],
+      "passThroughWalls": true,
+      "maxSpeed": 340,
+      
+      "bName": "Spirit",
+      "bDesc": ".",
+      "bPlaces": [
+        "EMERALD"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_CALAMITY_U",
+        "EME_CALAMITY_R",
+        "EME_CALAMITY_W",
+        "EME_CALAMITY_Y"
+      ]
+    }
+  ],
+  "EME_CALAMITY_U": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 240,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 15,
+      "frameNames": [
+        "EME_calamityblue_0.png"
+      ],
+      "maxSpeed": 340,
+      "skills": [
+        3,
+        1
+      ],
+      "passThroughWalls": true
+    }
+  ],
+  "EME_CALAMITY_R": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 240,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 17,
+      "frameNames": [
+        "EME_calamityred_0.png"
+      ],
+      "passThroughWalls": true,
+      "skills": [
+        3,
+        1
+      ],
+      "maxSpeed": 340
+    }
+  ],
+  "EME_CALAMITY_W": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 240,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 15,
+      "frameNames": [
+        "EME_calamitywhite_0.png"
+      ],
+      "passThroughWalls": true,
+      "skills": [
+        3,
+        1
+      ],
+      "maxSpeed": 340
+    }
+  ],
+  "EME_CALAMITY_Y": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 240,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 15,
+      "frameNames": [
+        "EME_calamityyellow_0.png"
+      ],
+      "passThroughWalls": true,
+      "skills": [
+        3,
+        1
+      ],
+      "maxSpeed": 340
+    }
+  ],
+  "EME_GATEBOSS_SPIRITBEAST": [
+    {
+      "level": 1,
+      "maxHp": 18,
+      "speed": 140,
+      "power": 10,
+      "scale": 1.5,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "skills": [
+        0
+      ],
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 19,
+      "frameNames": [
+        "EME_divinewoodspirit_0.png"
+      ],
+      "passThroughWalls": true,
+      
+      "bName": "Spirit Beast",
+      "bDesc": ".",
+      "bPlaces": [
+        "EMERALD"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EME_BOAR": [
+    {
+      "level": 1,
+      "maxHp": 12,
+      "speed": 135,
+      "power": 8,
+      "knockback": 0.6,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_boar_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetX": -4,
+        "offsetY": -3
+      },
+      "scale": 1.1,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_BOAR"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_GATEBOSS_DRAGON": [
+    {
+      "level": 1,
+      "maxHp": 15,
+      "speed": 140,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "xp": 1,
+      "scale": 1.5,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "skills": [
+        0
+      ],
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_earthdragon_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -4,
+        "offsetX": 0
+      },
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_GOBLIN": [
+    {
+      "level": 1,
+      "maxHp": 1.3,
+      "speed": 130,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1.1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_goblin_0.png"
+      ],
+      "scale": 1.25,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_GOBLIN"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_BALL": [
+    {
+      "level": 1,
+      "maxHp": 1.7,
+      "speed": 200,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1.8,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 10,
+      "frameNames": [
+        "EME_ball_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetY": -5,
+        "offsetX": 5
+      },
+      "passThroughWalls": true,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BALL2"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_BALL2": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 250,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 10,
+      "frameNames": [
+        "EME_ball2_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetY": -5,
+        "offsetX": 5
+      },
+      "passThroughWalls": true
+    }
+  ],
+  "EME_BIRD": [
+    {
+      "level": 1,
+      "maxHp": 1.2,
+      "speed": 160,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 10,
+      "frameNames": [
+        "EME_bird_0.png"
+      ],
+      "maxSpeed": 200,
+      "passThroughWalls": true,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BIRD2",
+        "EME_BIRD3"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_BIRD2": [
+    {
+      "level": 1,
+      "maxHp": 3.4,
+      "speed": 160,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1.7,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 10,
+      "frameNames": [
+        "EME_bird2_0.png"
+      ],
+      "maxSpeed": 200,
+      "passThroughWalls": true
+    }
+  ],
+  "EME_BIRD3": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 160,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 10,
+      "frameNames": [
+        "EME_bird3_0.png"
+      ],
+      "maxSpeed": 200,
+      "passThroughWalls": true
+    }
+  ],
+  "EME_OGRE": [
+    {
+      "level": 1,
+      "maxHp": 45,
+      "speed": 120,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 2.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "colliderOverride": {
+        "radius": 0.55,
+        "offsetY": -3,
+        "offsetX": -8
+      },
+      "frameNames": [
+        "EME_ogre_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_OGRE",
+        "EME_SUSPICIOUS_OGRE"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_BAT": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 200,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1.3,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 14,
+      "frameNames": [
+        "EME_bat_0.png"
+      ],
+      "maxSpeed": 200,
+      "passThroughWalls": true,
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 1,
+        "offsetY": -2
+      },
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_BAT",
+        "EME_PATROL_BAT"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_DOG": [
+    {
+      "level": 1,
+      "maxHp": 10,
+      "speed": 210,
+      "power": 9,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.4,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_dog_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -3,
+        "offsetX": -5
+      },
+      "scale": 1.1,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_DOG3",
+        "EME_BOSS_DOG"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_DOG3": [
+    {
+      "level": 1,
+      "maxHp": 22,
+      "speed": 230,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2.8,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_dog3_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -3,
+        "offsetX": -5
+      },
+      "scale": 1.1
+    }
+  ],
+  "EME_FROG": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 7,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 12,
+      "passThroughWalls": false,
+      "frameNames": [
+        "EME_frog_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_FROG3",
+        "EME_BOSS_FROG"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_FROG3": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 180,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 12,
+      "frameNames": [
+        "EME_frog3_0.png"
+      ]
+    }
+  ],
+  "EME_KELPIE": [
+    {
+      "level": 1,
+      "maxHp": 55,
+      "speed": 120,
+      "power": 18,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 20,
+      "frameNames": [
+        "EME_kelpie_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -3,
+        "offsetX": -3
+      },
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_KELPIE"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_RASCAL": [
+    {
+      "level": 1,
+      "maxHp": 0.2,
+      "speed": 200,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 12,
+      "skills": [
+        0
+      ],
+      "frameNames": [
+        "EME_rascal_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": -3
+      },
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_RASCAL_SWARM"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_SLIME": [
+    {
+      "level": 1,
+      "maxHp": 70,
+      "speed": 110,
+      "power": 20,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 5,
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 20,
+      "frameNames": [
+        "EME_slime_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -2,
+        "offsetX": -4
+      },
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_SLIME"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_ALRAUNE": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 160,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_alraune_0.png"
+      ],
+      "maxSpeed": 200,
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 2,
+        "offsetX": 0
+      },
+      "scale": 0.8,
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_ANT": [
+    {
+      "level": 1,
+      "maxHp": 33,
+      "speed": 140,
+      "power": 15,
+      "knockback": 2,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 3.3,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 16,
+      "frameNames": [
+        "EME_Ant_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_ANT"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_MOCH": [
+    {
+      "level": 1,
+      "maxHp": 55,
+      "speed": 80,
+      "power": 22,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 7,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 0,
+      "frameNames": [
+        "EME_moch_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 7,
+        "offsetX": 4
+      },
+      "scale": 1.25,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_MOCH"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_SKELETON": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 115,
+      "power": 13,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 1.6,
+      "xp": 2.2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 15,
+      "frameNames": [
+        "EME_Skeleton_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_SKELETON"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_WEREWOLF": [
+    {
+      "level": 1,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 20,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2.2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 20,
+      "frameNames": [
+        "EME_Werewolf_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EME_BOSS_WEREWOLF"
+      ],
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_GATEBOSS_SPECTER": [
+    {
+      "level": 1,
+      "maxHp": 100,
+      "scale": 1.5,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "speed": 200,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 16,
+      "passThroughWalls": true,
+      "frameNames": [
+        "EME_specterOfIwanagaHime_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EMERALD"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": -20,
+        "offsetX": 0
+      }
+    }
+  ],
+  "EME_GATEBOSS_IRONMAIDEN": [
+    {
+      "level": 1,
+      "maxHp": 100,
+      "scale": 1.5,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "speed": 120,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 16,
+      "frameNames": [
+        "EME_ironMaiden_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_GATEBOSS_FINALEMPEROR": [
+    {
+      "level": 1,
+      "maxHp": 50,
+      "scale": 1.5,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "speed": 120,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "xp": 10,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 14,
+      "frameNames": [
+        "EME_finalEmperorMonster_0"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EMERALD"
+      ]
+    }
+  ],
+  "EME_GATEBOSS_LIVINGANGUISH": [
+    {
+      "level": 1,
+      "maxHp": 255,
+      "scale": 1.5,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "speed": 160,
+      "power": 30,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 17,
+      "frameNames": [
+        "EME_livingAnguish_0.png"
+      ],
+      "passThroughWalls": true,
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EMERALD"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -10,
+        "offsetX": 0
+      }
+    }
+  ],
+  "EME_BOSS_FROG": [
+    {
+      "level": 1,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "maxHp": 4,
+      "speed": 140,
+      "power": 15,
+      "knockback": 0.5,
+      "maxKnockback": 2,
+      "deathKB": 0.5,
+      "xp": 10,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 12,
+      "frameNames": [
+        "EME_frog2_0.png"
+      ],
+      "scale": 1.5,
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_BOSS_GOBLIN": [
+    {
+      "level": 1,
+      "res_Defang": 1,
+      "maxHp": 22,
+      "speed": 140,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 2,
+      "deathKB": 0.5,
+      "xp": 10,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 12,
+      "frameNames": [
+        "EME_goblin2_0.png"
+      ],
+      "scale": 1.5,
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_BOSS_BOAR": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 11,
+      "speed": 120,
+      "power": 15,
+      "knockback": 0.1,
+      "maxKnockback": 0.2,
+      "deathKB": 0.3,
+      "xp": 15,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_boar2_0.png"
+      ],
+      "skills": [
+        0
+      ],
+      "scale": 1.5
+    }
+  ],
+  "EME_BOSS_BAT": [
+    {
+      "level": 1,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "maxHp": 4,
+      "speed": 200,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 2,
+      "deathKB": 0.5,
+      "xp": 10,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 0,
+      "frameNames": [
+        "EME_bat_0.png"
+      ],
+      "scale": 1.5,
+      "skills": [
+        0
+      ],
+      "passThroughWalls": true
+    }
+  ],
+  "EME_BOSS_SKELETON": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 13,
+      "speed": 130,
+      "power": 20,
+      "knockback": 0.2,
+      "maxKnockback": 0.5,
+      "deathKB": 0.5,
+      "xp": 20,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 15,
+      "frameNames": [
+        "EME_Skeleton_0.png"
+      ],
+      "scale": 1.5,
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_BOSS_WEREWOLF": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 14,
+      "speed": 160,
+      "power": 20,
+      "knockback": 0.2,
+      "maxKnockback": 0.5,
+      "deathKB": 0.5,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 20,
+      "frameNames": [
+        "EME_Werewolf_0.png"
+      ],
+      "skills": [
+        0
+      ],
+      "scale": 1.5
+    }
+  ],
+  "EME_BOSS_DOG": [
+    {
+      "level": 1,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "maxHp": 8,
+      "speed": 200,
+      "power": 15,
+      "knockback": 0.3,
+      "maxKnockback": 1,
+      "deathKB": 0.5,
+      "xp": 20,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 11,
+      "frameNames": [
+        "EME_dog2_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -3,
+        "offsetX": -3
+      },
+      "scale": 1.5,
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_BOSS_KELPIE": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 12.5,
+      "speed": 160,
+      "power": 30,
+      "knockback": 0.2,
+      "maxKnockback": 0.5,
+      "deathKB": 0.5,
+      "xp": 25,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 20,
+      "frameNames": [
+        "EME_kelpie2_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -3,
+        "offsetX": -3
+      },
+      "scale": 1.5,
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_BOSS_SLIME": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 16,
+      "speed": 120,
+      "power": 40,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0.3,
+      "xp": 35,
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 20,
+      "frameNames": [
+        "EME_slime_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -2,
+        "offsetX": -4
+      },
+      "skills": [
+        0
+      ],
+      "scale": 1.5
+    }
+  ],
+  "EME_BOSS_MOCH": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 20,
+      "speed": 100,
+      "power": 44,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 40,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 22,
+      "frameNames": [
+        "EME_moch_0.png"
+      ],
+      "scale": 1.5,
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_BOSS_OGRE": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 18,
+      "speed": 140,
+      "power": 40,
+      "knockback": 0.1,
+      "maxKnockback": 0.3,
+      "deathKB": 0.5,
+      "xp": 35,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 18,
+      "colliderOverride": {
+        "radius": 0.55,
+        "offsetY": -3,
+        "offsetX": -8
+      },
+      "frameNames": [
+        "EME_ogre2_0.png"
+      ],
+      "scale": 1.5,
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_BOSS_ANT": [
+    {
+      "level": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "scale": 1.5,
+      "maxHp": 16,
+      "speed": 140,
+      "power": 22,
+      "knockback": 0.2,
+      "maxKnockback": 0.5,
+      "deathKB": 1,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 16,
+      "frameNames": [
+        "EME_Ant2_0.png"
+      ],
+      "skills": [
+        0
+      ]
+    }
+  ],
+  "EME_ALRAUNE_BOMB": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 360,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 1.5,
+      "idleFrameCount": 2,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 0,
+      "frameNames": [
+        "EME_alraune_bomb_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 2,
+        "offsetX": 0
+      },
+      "scale": 0.8,
+      "skills": [
+        2,
+        0
+      ],
+      "passThroughWalls": true,
+      "moreX": 50,
+      "moreY": 60
+    }
+  ],
+  "EME_RASCAL_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 10,
+      "speed": 1000,
+      "power": 3,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 1,
+      "res_Defang": 1,
+      "skills": [
+        1
+      ],
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 12,
+      "frameNames": [
+        "EME_rascal2_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": -3
+      }
+    }
+  ],
+  "EME_CALAMITY_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.8,
+      "speed": 240,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 15,
+      "frameNames": [
+        "EME_calamityblack_0.png",
+        "EME_calamityblue_0.png",
+        "EME_calamityred_0.png",
+        "EME_calamitywhite_0.png",
+        "EME_calamityyellow_0.png"
+      ],
+      "skills": [
+        3,
+        1,
+        0
+      ],
+      "passThroughWalls": true,
+      "maxSpeed": 340
+    }
+  ],
+  "EME_SPECTERHEAD_PINK": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 400,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 2,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 9,
+      "frameNames": [
+        "EME_specter_head1_0.png"
+
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 2,
+        "offsetX": 0
+      },
+      "scale": 1.3,
+      "skills": [
+        2,
+        0
+      ],
+      "passThroughWalls": true,
+      "moreX": 50,
+      "moreY": 60
+    }
+  ],
+  "EME_SPECTERHEAD_BLUE": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 300,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 2,
+      "killedAmount": 0,
+      "textureName": "emeralds",
+      "end": 9,
+      "frameNames": [
+        "EME_specter_head2_0.png"
+
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 2,
+        "offsetX": 0
+      },
+      "scale": 1.4,
+      "skills": [
+        2,
+        0
+      ],
+      "passThroughWalls": true,
+      "moreX": 50,
+      "moreY": 60
+    }
+  ],
+  "EME_PATROL_BAT": [
+    {
+      "level": 6,
+      "maxHp": 25,
+      "speed": 250,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 29,
+      "patrolDuration": 2000,
+      "passThroughWalls": true,
+      "textureName": "emeralds",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "EME_bat_0.png"
+      ]
+    }
+  ],
+  "EME_PATROL_CALAMITY": [
+    {
+      "level": 7,
+      "maxHp": 70,
+      "speed": 200,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 29,
+      "scale": 1,
+      "patrolDuration": 2000,
+      "passThroughWalls": true,
+      "textureName": "emeralds",
+      "idleFrameCount": 4,
+      "frameNames": [
+          "EME_calamityblack_0.png",
+          "EME_calamityblue_0.png",
+          "EME_calamityred_0.png",
+          "EME_calamitywhite_0.png",
+          "EME_calamityyellow_0.png"
+        ]
+      }
+    ],
+    "EME_SUSPICIOUS_OGRE": [
+      {
+        "level": 1,
+        "res_Freeze": 1.1,
+        "res_Rosary": 1,
+        "res_Debuffs": 1,
+        "res_Defang": 1,
+        "maxHp": 40,
+        "speed": 120,
+        "power": 30,
+        "knockback": 0.5,
+        "maxKnockback": 1.5,
+        "deathKB": 0.5,
+        "xp": 50,
+        "idleFrameCount": 4,
+        "killedAmount": 0,
+        "textureName": "emeralds",
+        "end": 18,
+        "colliderOverride": {
+          "radius": 0.55,
+          "offsetY": -3,
+          "offsetX": -8
+        },
+        "frameNames": [
+          "EME_ogre_0.png"
+        ],
+        "scale": 1.5,
+        "skills": [
+          0
+        ]
+      }
+    ],
+    "EME_BOSS_CURSEDMONARCH": [
+      {
+        "level": 1,
+        "maxHp": 40,
+        "speed": 160,
+        "power": 10,
+        "scale": 2.5,
+        "res_Rosary": 1,
+        "res_Debuffs": 1,
+        "res_Defang": 1,
+        "skills": [
+          0
+        ],
+        "knockback": 0,
+        "maxKnockback": 0,
+        "deathKB": 2,
+        "xp": 1,
+        "idleFrameCount": 5,
+        "killedAmount": 0,
+        "textureName": "emeralds",
+        "end": 20,
+        "frameNames": [
+          "EME_cursedmonarch_0.png"
+        ],
+        "passThroughWalls": true
+      }
+    ]    
+  }

@@ -13,7 +13,8 @@
     "value": 60,
     "isRare": true,
     "sealable": true,
-    "excludeFromDefaultLootTable": true
+    "excludeFromDefaultLootTable": true,
+    "showAboveAll" : true
   },
   "TP_HEART_REFRESH": {
     "contentGroup": "THOSE_PEOPLE",
@@ -112,7 +113,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_TELEPORT1": {
     "name": "Stallion Gate",
@@ -129,7 +131,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_TELEPORT2": {
     "name": "Scorpion Gate",
@@ -146,7 +149,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_TELEPORT3": {
     "name": "Capra Gate",
@@ -163,7 +167,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_TELEPORT4": {
     "name": "King's Gate",
@@ -180,7 +185,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_TELEPORT5": {
     "name": "Serpent Gate",
@@ -197,7 +203,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_TELEPORT6": {
     "name": "Beast Gate",
@@ -214,7 +221,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
 
   "TP_RELIC_BLACK_DISK": {
@@ -232,7 +240,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_LIBRARIAN": {
     "name": "Wood Carving Score",
@@ -249,7 +258,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_PILEOFSECRETS": {
     "name": "Pile of Secrets",
@@ -266,7 +276,8 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   },
   "TP_RELIC_STONES": {
     "name": "Ebony and Crimson Stones",
@@ -282,7 +293,9 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
+    "sealable": true,
     "collectionFrame": "frameB_sotn.png",
-    "contentGroup": "THOSE_PEOPLE"
+    "contentGroup": "THOSE_PEOPLE",
+    "showAboveAll" : true
   }
 }

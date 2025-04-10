@@ -1,0 +1,49 @@
+{
+  "RELIC_EME_DISK": {
+    "contentGroup": "EMERALDS",
+    "name": "Emerald Disk",
+    "description": "Allows to enter the Emerald Diorama.",
+    "tips": "-",
+    "achievementTips": "Emerald Diorama Expansion.",
+    "collectionFrame": "frameB_emerald.png",
+    "texture": "items",
+    "frameName": "relic_emerald_disk.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 50000,
+    "isRelic": true,
+    "sealable": false
+  },
+  "EME_CATY": {
+    "name": "Cat",
+    "description": "Is cat.",
+    "tips": "Is cat.",
+    "texture": "items",
+    "frameName": "Rosary1.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "value": 500,
+    "isRare": true,
+    "sealable": true,
+    "hidden": true
+  },
+  "EME_TELEPORTER": {
+    "name": "",
+    "description": "",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "Healer.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0
+  }
+}

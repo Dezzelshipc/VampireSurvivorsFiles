@@ -23,6 +23,7 @@
       "cff": "C1_CREWMATE",
       "zoom": 1,
       "validForCharcaterData": true,
+      "disableGlobalLight" : true,
       "hasCharacterSpotlight": true,
       "preload": {
         "textures": [

@@ -58,7 +58,8 @@
       "BGM_SpaceDude",
       "BGM_Labor",
       "BGM_Carts",
-      "BGM_Devil"
+      "BGM_Devil",
+      "BGM_TheCoop"
     ]
   },
   "LegacyOfTheMoonspell": {
@@ -251,6 +252,23 @@
       "BGM_TP_SuccessorOfFate",
       "BGM_TP_cotm_Awake",
       "BGM_TP_jud_MadForest"
+    ]
+  },
+  "EmeraldDiorama": {
+    "isUnlocked": true,
+    "title": "Emerald Diorama Series",
+    "icon": "VS_InGame_Album_EmeraldDiorama.png",
+    "contentGroupType" : "EMERALDS",
+    "trackList" : [
+      "BGM_EME_QUICK",
+      "BGM_EME_DESTINY",
+      "BGM_EME_ENCHANTED",
+      "BGM_EME_POLICE",
+      "BGM_EME_BEAT",
+      "BGM_EME_DARKNESS",
+      "BGM_EME_FIERCE",
+      "BGM_EME_ODDS",
+      "BGM_EME_WORLD"
     ]
   }
 }

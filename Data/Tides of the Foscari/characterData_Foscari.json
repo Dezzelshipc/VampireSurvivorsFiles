@@ -494,6 +494,7 @@
         }
       ],
       "currentSkin": "DEFAULT",
+      "needsCart" : false,
       "walkingFrames": 5,
       "description": "Triggers a Vacuum when levelling up. Once per life, triggers World Eater after receiving fatal damage.",
       "isBought": false,
@@ -603,6 +604,7 @@
         }
       ],
       "currentSkin": "DEFAULT",
+      "needsCart" : false,
       "walkingFrames": 5,
       "description": "It will literally eat the world.",
       "isBought": false,
@@ -921,6 +923,139 @@
     {
       "amount": 1,
       "level": 80
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FS_FOLLOWER_LEGIONNAIRE": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "SWORD",
+      "charName": "Legionnaire",
+      "surname": "",
+      "textureName": "character_victor",
+      "spriteName": "Victor_i01.png",
+      "portraitName": "p_2viktor.png",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_victor",
+          "spriteName": "Victor_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 2
+            }
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_victor",
+              "spriteName": "Victor_a01.png",
+              "framesNumber": 5,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 6,
+                  "y": 2
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "walkingFrames": 4,
+      "description": "Gains a temporary Armor bonus after getting damaged. Receives Academy Badge at Level 30.",
+      "isBought": false,
+      "price": 3000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp": 120,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1.2,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1.1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "SWORD",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ],
+      "levelUpPresets": [
+        {
+          "startingLoadout": [],
+          "loadout": [
+            "SWORD",
+            "SWORD",
+            "SWORD",
+            "SWORD",
+            "SWORD",
+            "SWORD"
+          ],
+          "autoShuffle": true
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
     },
     {
       "level": 21,

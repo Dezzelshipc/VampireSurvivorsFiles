@@ -211,7 +211,7 @@
   },
   "ADV_IMEL_001": {
     "progressKey": "WorldOfLightAndDark",
-    "index": 3,
+    "index": 8,
     "coreAdventureData": {
       "name": "World of Light and Dark",
       "startingCoins": 5000,
@@ -462,7 +462,239 @@
       "SHADERED"
     ]
   },
+  "ADV_SHEMOON_001": {
+    "progressKey": "ToEndAnIceAge",
+    "index": 16,
+    "coreAdventureData": {
+      "name": "To End An Ice Age",
+      "startingCoins": 5000,
+      "completionCoinReward": 35000,
+      "startingCharacter": "SHEMOONITA",
+      "startingStage": "ADV_SHEMOON_001",
+      "subtitleImage": "ADV_Title_ToEndAnIceAge",
+      "completionSkinsReward": [
+        {
+          "character": "SHEMOONITA",
+          "skin": "SKIN_SHEMOON_REBORN"
+        }
+      ]
+    },
+    "CHARACTER_DATA": [
+      "SHEMOONITA",
+      "MORTACCIO",
+      "MARIA",
+      "PAVONE",
+      "CRISTINA",
+      "EXDASH",
+      "PANINI",
+      "SMITH",
+      "YOLO"
+    ],
+    "STAGE_DATA": "STAGESET_SHEMOON",
+    "WEAPON_DATA": [
+      "MAGIC_MISSILE",
+      "HOLY_MISSILE",
+      "ICELANCE",
+      "ICELANCE2",
+      "VENTO",
+      "VENTO2",
+      "PENTAGRAM",
+      "SIRE",
+      "WHIP",
+      "VAMPIRICA",
+      "CROSS",
+      "HEAVENSWORD",
+      "LANCET",
+      "LAUREL",
+      "POWER",
+      "ARMOR",
+      "MAXHEALTH",
+      "LUCK",
+      "GROWTH",
+      "MOVESPEED"
+    ],
+    "PROGRESS_DATA": {
+      "SHEMOON_ACH001": {
+        "progressKey": "SHEMOON_ACH001",
+        "description": "Open the coffin in Ice Age.",
+        "stageToUnlock": "ADV_SHEMOON_002",
+        "characterToUnlock": "MORTACCIO",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter2",
+          "requiredStage": "ADV_SHEMOON_001",
+          "foundCoffin": "MORTACCIO"
+        }
+      },
+      "SHEMOON_ACH002": {
+        "progressKey": "SHEMOON_ACH002",
+        "description": "Open the coffin in Ice Cream.",
+        "stageToUnlock": "ADV_SHEMOON_003",
+        "characterToUnlock": "MARIA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter3",
+          "requiredStage": "ADV_SHEMOON_002",
+          "foundCoffin": "MARIA"
+        }
+      },
+      "SHEMOON_ACH003": {
+        "progressKey": "SHEMOON_ACH003",
+        "description": "Open the coffin in A Fiery Apparition.",
+        "stageToUnlock": "ADV_SHEMOON_004",
+        "characterToUnlock": "PAVONE",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter4",
+          "requiredStage": "ADV_SHEMOON_003",
+          "foundCoffin": "PAVONE"
+        }
+      },
+      "SHEMOON_ACH004": {
+        "progressKey": "SHEMOON_ACH004",
+        "description": "Open the coffin in A Pure Heart.",
+        "stageToUnlock": "ADV_SHEMOON_005",
+        "characterToUnlock": "CRISTINA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter5",
+          "requiredStage": "ADV_SHEMOON_004",
+          "foundCoffin": "CRISTINA"
+        }
+      },
+      "SHEMOON_ACH005": {
+        "progressKey": "SHEMOON_ACH005",
+        "description": "Make 30000 Roast Chickens.",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapterFinal",
+          "requiredStage": "ADV_SHEMOON_005",
+          "requiredEnemyKillCount": 30000,
+          "requiredEnemyKillType": "COOP_CHICKEN_COUNTER"
+        }
+      },
+      "SHEMOON_ACH006": {
+        "progressKey": "SHEMOON_ACH006",
+        "description": "Survive 10 minutes with Cosmo Pavone.",
+        "characterToUnlock": "EXDASH",
+        "goldPrize": 777,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_g1",
+          "requiredMinute": 10,
+          "requiredCharacter": "PAVONE"
+        }
+      },
+      "SHEMOON_ACH007": {
+        "progressKey": "SHEMOON_ACH007",
+        "description": "Survive 20 minutes with Cosmo Pavone.",
+        "characterToUnlock": "PANINI",
+        "goldPrize": 777,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_g2",
+          "requiredMinute": 20,
+          "requiredCharacter": "PAVONE"
+        }
+      },
+      "SHEMOON_ACH008": {
+        "progressKey": "SHEMOON_ACH008",
+        "description": "Survive 30 minutes with Cosmo Pavone.",
+        "characterToUnlock": "SMITH",
+        "goldPrize": 777,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_g3",
+          "requiredMinute": 30,
+          "requiredCharacter": "PAVONE"
+        }
+      },
+      "SHEMOON_ACH009": {
+        "progressKey": "SHEMOON_ACH009",
+        "description": "Reach Level 40 with She-Moon Eeta.",
+        "characterToUnlock": "YOLO",
+        "goldPrize": 1000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_gazebo",
+          "requiredCharacter": "SHEMOONITA",
+          "requiredLevel": 40
+        }
+      },
+      "SHEMOON_ACH010": {
+        "progressKey": "SHEMOON_ACH010",
+        "description": "Find the Fire Wand.",
+        "weaponToUnlock": "FIREBALL",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "WandFire",
+          "foundWeaponType": "FIREBALL"
+        }
+      },
+      "SHEMOON_ACH011": {
+        "progressKey": "SHEMOON_ACH011",
+        "description": "Find the Bracelet.",
+        "weaponToUnlock": "TRIASSO1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "bracelet1",
+          "foundWeaponType": "TRIASSO1"
+        }
+      },
+      "SHEMOON_ACH012": {
+        "progressKey": "SHEMOON_ACH012",
+        "description": "Find the Santa Water.",
+        "weaponToUnlock": "HOLYWATER",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "HolyWater",
+          "foundWeaponType": "HOLYWATER"
+        }
+      },
+      "SHEMOON_ACH013": {
+        "progressKey": "SHEMOON_ACH013",
+        "description": "Find the Shadow Pinion.",
+        "weaponToUnlock": "TRAPANO",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "trapano",
+          "foundWeaponType": "TRAPANO"
+        }
+      },
+      "SHEMOON_ACH014": {
+        "progressKey": "SHEMOON_ACH014",
+        "description": "Find the Parm Aegis.",
+        "weaponToUnlock": "PARMA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "parma",
+          "foundWeaponType": "PARMA"
+        }
+      },
+      "SHEMOON_ACH015": {
+        "progressKey": "SHEMOON_ACH015",
+        "description": "Reach Level 80.",
+        "stageToUnlock": "ADV_BAZAAR",
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "stage_bazaar_icon",
+          "requiredLevel": 80
+        }
+      }
+    }
+  },
   "ADV_LMS_001": {
+    "progressKey": "LegacyOfTheMoonspell",
     "index": 1000,
     "coreAdventureData": {
       "name": "Legacy of the Moonspell",
@@ -675,6 +907,235 @@
     "EXTRA_BESTIARY_TYPES": [
       "MS_GOSHADOKURO"
     ]
+  },
+  "ADV_TIDES_001": {
+    "progressKey": "ADV_LMS_001",
+    "index": 10010,
+    "coreAdventureData": {
+      "name": "Tides of the Foscari",
+      "startingCoins": 15000,
+      "completionCoinReward": 100000,
+      "startingCharacter": "GHOUL",
+      "startingStage": "ADV_FOSCARI_001",
+      "requiresDLC": "Foscari",
+      "subtitleImage": "FS01"
+    },
+    "CHARACTER_DATA": [
+      "GHOUL",
+      "LUMINAIRE",
+      "KEIRA",
+      "VICTOR",
+      "ELEANOR",
+      "CTRPCAKE",
+      "GENEVIEVE",
+      "MEGAGENEVIEVE"
+    ],
+    "STAGE_DATA": "STAGESET_FOSCARI",
+    "WEAPON_DATA": [
+      "PARTY",
+      "SHADOWSERVANT",
+      "SHADOWSERVANT2",
+      "PRISMATICMISS",
+      "PRISMATICMISS2",
+      "FLASHARROW",
+      "FLASHARROW2",
+      "SWORD",
+      "SWORD2",
+      "SPELL_STRING",
+      "SPELL_STREAM",
+      "SPELL_STRIKE",
+      "SPELL_STROM",
+      "GATTI",
+      "STIGRANGATTI",
+      "PENTAGRAM",
+      "SIRE",
+      "SONG",
+      "MANNAGGIA",
+      "TRIASSO1",
+      "TRIASSO2",
+      "TRIASSO3",
+      "SANTAJAVELIN",
+      "SANTAJAVELIN2",
+      "EX_GAEA1",
+      "EX_GAEA2",
+      "LAUREL",
+      "ARMOR",
+      "SPEED",
+      "LUCK",
+      "GROWTH",
+      "GREED",
+      "CURSE",
+      "PARMA"
+    ], 
+    "PROGRESS_DATA": {
+      "FS001_ACH001": {
+        "progressKey": "FS001_ACH001",
+        "description": "With Rottin'Ghoul, help Genevieve evolve the Shadow Servant in \"The World Eater\" .",
+        "stageToUnlock": "ADV_FOSCARI_002",
+        "characterToUnlock": "LUMINAIRE",
+        "goldPrize": 5000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter2",
+          "requiredStage": "ADV_FOSCARI_001",
+          "requiredCharacter": "GHOUL",
+          "foundWeaponType": "SHADOWSERVANT2"
+        }
+      },
+      "FS001_ACH002": {
+        "progressKey": "FS001_ACH002",
+        "description": "With Luminaire, evolve the Prismatic Missile in \"The Guardian of the Lake\" before the time limit.",
+        "stageToUnlock": "ADV_FOSCARI_003",
+        "characterToUnlock": "KEIRA",
+        "goldPrize": 1000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter3",
+          "requiredStage": "ADV_FOSCARI_002",
+          "requiredCharacter": "LUMINAIRE",
+          "foundWeaponType": "PRISMATICMISS2"
+        }
+      },
+      "FS001_ACH003": {
+        "progressKey": "FS001_ACH003",
+        "description": "With Keira, reach Level 30 in \"The Sly Swashbuckler\".",
+        "stageToUnlock": "ADV_FOSCARI_004",
+        "characterToUnlock": "VICTOR",
+        "goldPrize": 1000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter4",
+          "requiredStage": "ADV_FOSCARI_003",
+          "requiredCharacter": "KEIRA",
+          "requiredLevel": 30
+        }
+      },
+      "FS001_ACH004": {
+        "progressKey": "FS001_ACH004",
+        "description": "With Viktor, reach Level 30 in \"The Undefeated Champion\".",
+        "stageToUnlock": "ADV_FOSCARI_005",
+        "characterToUnlock": "ELEANOR",
+        "goldPrize": 1000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter5",
+          "requiredStage": "ADV_FOSCARI_004",
+          "requiredCharacter": "VICTOR",
+          "requiredLevel": 30
+        }
+      },
+      "FS001_ACH005": {
+        "progressKey": "FS001_ACH005",
+        "description": "With Eleanor, reach Level 30 in \"The Star Pupil\".",
+        "stageToUnlock": "ADV_FOSCARI_006",
+        "goldPrize": 1000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter6",
+          "requiredStage": "ADV_FOSCARI_005",
+          "requiredCharacter": "ELEANOR",
+          "requiredLevel": 30
+        }
+      },
+      "FS001_ACH006": {
+        "progressKey": "FS001_ACH006",
+        "description": "With a party of Eleanor, Viktor, and Keitha, survive 30 minutes in \"Tides of the Foscari\".",
+        "stageToUnlock": "ADV_FOSCARI_007",
+        "goldPrize": 1000,
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapterFinal",
+          "requiredMinute": 30,
+          "requiredStage": "ADV_FOSCARI_006",
+          "requiredCharacter": "ELEANOR"
+        }
+      },
+      "FS001_ACH007": {
+        "progressKey": "FS001_ACH007",
+        "description": "Unite Spellstring, Spellstream, and Spellstrike.",
+        "goldPrize": 3000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "2SpellStrom",
+          "foundWeaponType": "SPELL_STROM"
+        }
+      },
+      "FS001_ACH008": {
+        "progressKey": "FS001_ACH008",
+        "description": "Evolve the Eskizzibur.",
+        "goldPrize": 3000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "2Legionnaire",
+          "foundWeaponType": "SWORD2"
+        }
+      },
+      "FS001_ACH009": {
+        "progressKey": "FS001_ACH009",
+        "description": "Evolve the Flash Arrow",
+        "goldPrize": 3000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "2Millionaire",
+          "foundWeaponType": "FLASHARROW2"
+        }
+      },
+      "FS001_ACH010": {
+        "progressKey": "FS001_ACH010",
+        "description": "Survive the judgement of the Avatar of Gaea.",
+        "goldPrize": 3000,
+        "adventureUnlockData": {
+          "iconTextureName": "items",
+          "iconSpriteName": "icon_gazeofgaea",
+          "requiredEnemyKillType": "FS_BOSS_AGAEA",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      "FS001_ACH011": {
+        "progressKey": "FS001_ACH011",
+        "description": "Find the forbidden coffin in \"Tides of the Foscari\".",
+        "characterToUnlock": "CTRPCAKE",
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_2sammy",
+          "foundCoffin": "CTRPCAKE"
+        }
+      },
+      "FS001_ACH012": {
+        "progressKey": "FS001_ACH012",
+        "description": "With the true horror, devour everything in \"The True Horror\".",
+        "characterToUnlock": "GENEVIEVE",
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_2genevieve",
+          "requiredStage": "ADV_FOSCARI_007",
+          "requiredCharacter": "CTRPCAKE",
+          "requiredEnemyKillType": "FOSCARI_COUNTER",
+          "requiredEnemyKillCount": 100000
+        }
+      },
+      "FS001_ACH013": {
+        "progressKey": "FS001_ACH013",
+        "description": "Survive 30 minutes with Genevieve.",
+        "characterToUnlock": "MEGAGENEVIEVE",
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_2megag",
+          "requiredCharacter": "GENEVIEVE",
+          "requiredMinute": 30
+        }
+      },
+      "FS001_ACH014": {
+        "progressKey": "FS001_ACH014",
+        "description": "Reach Level 80.",
+        "stageToUnlock": "ADV_BAZAAR",
+        "adventureUnlockData": {
+          "iconTextureName": "UI",
+          "iconSpriteName": "stage_bazaar_icon",
+          "requiredLevel": 80
+        }
+      }
+    }
   },
   "ADV_EMER_001": {
     "progressKey": "EmergencyMeeting",

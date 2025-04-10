@@ -56,7 +56,8 @@
       "TP_ENERGY2"
     ],
     "items": [
-      "NFT"
+      "NFT",
+	  "SORBETTO"
     ],
     "texture": "randomazzo",
     "frameName": "01.png",
@@ -94,7 +95,14 @@
       "TP_HOLY1",
       "TP_HOLY2",
       "TP_EVIL1",
-      "TP_EVIL2"
+      "TP_EVIL2",
+	  "EME_MAGIC1",
+	  "EME_MAGIC2",
+	  "EME_BLOOD1",
+	  "EME_BLOOD2",
+	  "EME_SPEAR1",
+	  "EME_SPEAR2",
+	  "EME_SPEAR3"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -120,7 +128,9 @@
       "TP_ELEC1",
       "TP_ELEC2",
       "TP_ACID1",
-      "TP_ACID2"
+      "TP_ACID2",
+	  "EME_KICK1",
+	  "EME_KICK2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -298,7 +308,7 @@
   "12": {
     "arcanaType": 12,
     "name": "XII - Out of Bounds",
-    "description": "Freezing enemies generates explosions. Orologions are easier to find.",
+    "description": "Freezing enemies generates explosions. Orologions are easier to find. Sorbettos could also be found.",
     "weapons": [
       "LANCET",
       "ICELANCE2",
@@ -306,10 +316,14 @@
       "MIRAGEROBE2",
       "FB_PRISMCUTLASS",
       "FB_PRISMCUTLASS_COUNTER",
-      "FB_TIMEWARP"
+      "FB_TIMEWARP",
+	  "EME_RAPIER1",
+	  "EME_RAPIER2",
+	  "EME_RAPIER3"
     ],
     "items": [
-      "OROLOGION"
+      "OROLOGION",
+      "SORBETTO"
     ],
     "texture": "randomazzo",
     "frameName": "12.png",
@@ -357,7 +371,14 @@
 	  "TP_DRAGONWATER2",
       "TP_ICE1",
       "TP_ICE2",
-	  "TP_ICEBRAND"
+	  "TP_ICEBRAND",
+	  "EME_RAPIER1",
+	  "EME_RAPIER2",
+	  "EME_RAPIER3",
+	  "EME_MECH2",
+	  "EME_MECH3",
+	  "EME_MAGIC1",
+	  "EME_MAGIC2"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -430,7 +451,16 @@
       "TP_SLASH2",
       "TP_CONFODERE1",
       "TP_CONFODERE2",
-      "TP_CONFODERE3"
+      "TP_CONFODERE3",
+	  "EME_KATANA1",
+	  "EME_KATANA2",
+	  "EME_KNIFE1",
+	  "EME_KNIFE2",
+	  "EME_AXE1",
+	  "EME_AXE2",
+	  "EME_GREATSWORD1",
+	  "EME_GREATSWORD2",
+	  "EME_GREATSWORD3"
     ],
     "items": [],
     "texture": "randomazzo",
@@ -500,7 +530,18 @@
       "TP_RPG1",
       "TP_RPG2",
       "TP_SAVROG_WEAPON",
-	  "TP_AURABLAST_WEAPON"
+	  "TP_AURABLAST_WEAPON",
+	  "EME_PUNCH1",
+	  "EME_PUNCH2",
+	  "EME_PUNCH3",
+	  "EME_CANNON1",
+	  "EME_CANNON2",
+	  "EME_CANNON3",
+	  "EME_MECH1",
+	  "EME_MECH2",
+	  "EME_MECH3",
+	  "EME_MAGIC1",
+	  "EME_MAGIC2"
     ],
     "items": [
       "DUMMY_LIGHTSOURCE"
@@ -564,6 +605,8 @@
       "MISSPELL2",
       "BUBBLES",
       "BUBBLES2",
+	  "EME_PISTOL1",
+	  "EME_PISTOL2",
       "PARTY",
       "LUCK"
     ],
@@ -575,6 +618,43 @@
     "major": true,
     "contentGroup":"EXTRA"
   },
+  "25": {
+    "arcanaType": 25,
+    "name": "III - Hidden Anathema",
+    "description": "Food pickups grant cumulative bonuses to random stats based on their rarity or healing value.",
+    "weapons": [
+      "REGEN"
+    ],
+    "items": [
+      "ROAST",
+      "NFT",
+      "SORBETTO",
+      "TP_WALL_CHICKEN"
+    ],
+    "texture": "randomazzo",
+    "frameName": "25.png",
+    "enabled": false,
+    "unlocked": false,
+    "major": true,
+    "contentGroup":"EXTRA"
+  },
+  /*"27": {
+    "arcanaType": 27,
+    "name": "V - Pale Diamond Incursion",
+    "description": "Listed weapons aim at the nearest enemy. Their critical damage multiplier is increased by 100% (if they can critically hit).",
+    "weapons": [
+      "KNIFE",
+      "PRISMATICMISS"
+    ],
+    "items": [
+    ],
+    "texture": "randomazzo",
+    "frameName": "27.png",
+    "enabled": false,
+    "unlocked": false,
+    "major": true,
+    "contentGroup":"EXTRA"
+  },*/
   "28": {
     "arcanaType": 28,
     "name": "VI - Moonlight Bolero",

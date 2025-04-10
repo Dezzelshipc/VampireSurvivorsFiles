@@ -877,6 +877,7 @@
       "unlocked": true,
       "hidden": false,
       "isMerchantBanned": true,
+      "isSpeedupBanned": true,
       "BGM": "BGM_Machine",
       "tips": "",
       "hyperTips": "",
@@ -983,6 +984,7 @@
       "tips": "",
       "validForCharcaterData": false,
 	  "isMerchantBanned": true,
+      "isSpeedupBanned": true,
       "preload": {
         "textures": [
           "backgroundX"
@@ -5056,7 +5058,8 @@
       "tips": "Extra stage items",
       "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
       "relics": [
-        "RELIC_GLASSMASK"
+        "RELIC_GLASSMASK", 
+        "RELIC_EME_DISK"
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
@@ -7571,9 +7574,707 @@
       ]
     }
   ],
-  "SPAZIE": [
+  "COOP": [
     {
       "order": 1120,
+      "alwaysHidden": false,
+      "hidden": true,
+      "unlocked": false,
+      "stageName": "The Coop",
+      "description": "",
+      "uiTexture": "UI",
+      "uiFrame": "stage_thecoop.png",
+      "texture": "UI",
+      "frameName": "stage_coop_icon.png",
+      "frameNameUnlock": "stage_coop_icon.png",
+      "bestiaryBG": "background_forest.png",
+      "stageNumber": "Bonus",
+      "tips": "",
+      "relics": [
+        "RELIC_SPEEDUP"
+      ],
+      "yellowRelics": [],
+      "BGM": "BGM_TheCoop",
+      "sideBBGM": "BGM_TheCoop",
+      "validForCharcaterData": true,
+      "allowVisualInversion" : false,
+      "mods": {
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.35,
+        "EnemySpeed": 1,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 0.35,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.25,
+          "speedPerMinute": 0.0
+        }
+      },
+      "hyper": {
+        "unlocked": true,
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0.65,
+        "EnemySpeed": 0.65,
+        "ProjectileSpeed": 0.15,
+        "GoldMultiplier": 0.25,
+        "LuckBonus": 0,
+        "XPBonus": 0,
+        "EnemyHealthMultiplier": 1,
+        "StartingSpawns": 0
+      },
+      "inverse": {
+        "tint": 16732497,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.1,
+          "speedPerMinute": 0.3
+        }
+      },
+      "background": {
+        "texture": "",
+        "movingBackground": true
+      },
+      "dayNight": false,
+      "startingSpawns": 50,
+      "zoom": 1,
+      "minute": 0,
+      "destructibleType": "BRAZIER",
+      "spawnType": "HORIZONTAL",
+      "destructibleFreq": 2000,
+      "destructibleChance": 80,
+      "destructibleChanceMax": 90,
+      "maxDestructibles": 8,
+      "BGTextureName": "bg_null",
+      "tileset": {
+        "setKey": "CoopTexturePacked",
+        "setPath": "assets/tilesets/CoopTexturePacked.png",
+        "mapKey": "Coop",
+        "mapPath": "assets/tilesets/Coop.json",
+        "isTiling": true,
+        "hasWallsCheckDestructibleLogic": false,
+        "SizeX": 1024,
+        "SizeY": 512,
+        "minTreasureX": 12,
+        "maxTreasureX": 16384,
+        "minTreasureY": 130,
+        "maxTreasureY": 477
+      },
+      "minimum": 100,
+      "frequency": 100,
+      "enemies": [
+        "COOP_CHICKEN"
+      ],
+      "bosses": ["COOP_CHICKEN_SPECIAL"]
+    },
+    {
+      "minute": 1,
+      "minimum": 70,
+      "frequency": 500,
+      "enemies": [
+        "COOP_CHICKEN_H",
+        "COOP_COCK_H",
+        "COOP_CHIK_H",
+        "COOP_EGG_H"
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 200,
+      "frequency": 50,
+      "enemies": [
+        "COOP_CHICKEN",
+        "COOP_CHIK_H"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 10000,
+          "moreX": 40,
+          "repeat": 1,
+          "moreY": "COOP_EGG_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 70,
+      "frequency": 400,
+      "enemies": [
+        "COOP_CHICKEN_H",
+        "COOP_CHIK",
+        "COOP_CHICKEN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 10000,
+          "moreX": 30,
+          "repeat": 1,
+          "moreY": "COOP_EGG_SWARM"
+        }
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXAS"
+      ],
+      "treasure": {
+        "chances": [
+          0.1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 200,
+      "frequency": 50,
+      "enemies": [
+        "COOP_CHIK",
+        "COOP_EGG_H",
+        "COOP_COCK"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 5000,
+          "moreX": 15,
+          "repeat": 4,
+          "moreY": "COOP_CHICKEN_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 8000,
+          "moreX": 3,
+          "moreY": "COOP_ROAST_CHICKEN_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 60,
+      "frequency": 250,
+      "enemies": [
+        "COOP_CHIK",
+        "COOP_EGG",
+        "COOP_COCK_H"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 5000,
+          "moreX": 20,
+          "repeat": 3,
+          "moreY": "COOP_CHICKEN_SWARM"
+        }
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXAS"
+      ],
+      "treasure": {
+        "chances": [
+          0.1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 70,
+      "frequency": 200,
+      "enemies": [
+        "COOP_EGG_H",
+        "COOP_COCK",
+        "COOP_CHICKEN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 5000,
+          "moreX": 30,
+          "repeat": 3,
+          "moreY": "COOP_CHIK_SWARM"
+        }
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXAS"
+      ],
+      "treasure": {
+        "chances": [
+          0.1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 7,
+      "minimum": 70,
+      "frequency": 100,
+      "enemies": [
+        "COOP_ROAST_CHICKEN_H",
+        "COOP_CHICKEN",
+        "COOP_COCK",
+        "COOP_EGG_H"
+      ],
+      "arcanaHolder": "COOP_BOSS_COCK",
+      "arcanaTreasure": {
+        "chances": [
+          0.1,
+          1,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 90,
+      "frequency": 50,
+      "enemies": [
+        "COOP_ROAST_CHICKEN",
+        "COOP_COCK",
+        "COOP_CHIK_H"
+      ],
+      "bosses": [
+       "COOP_BOSS_ABRAXAS"
+      ],
+      "treasure": {
+      "chances": [
+          3,
+          10,
+          50
+        ],
+      "level": 1,
+      "prizeTypes": [
+        "EXISTING_WEAPON",
+        "EXISTING_ANY",
+        "EXISTING_ANY",
+        "EXISTING_ANY",
+        "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+        "eventType": "GENERIC_SWARM",
+        "delay": 10000,
+        "moreX": 40,
+        "repeat": 3,
+        "moreY": "COOP_CHICKEN_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 9,
+      "minimum": 100,
+      "frequency": 50,
+      "enemies": [
+        "COOP_CHICKEN_H",
+        "COOP_CHICKEN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 6000,
+          "moreX": 30,
+          "repeat": 3,
+          "moreY": "COOP_EGG_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 10000,
+          "moreX": 40,
+          "repeat": 4,
+          "moreY": "COOP_CHIK_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 10,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "COOP_EGG_H",
+        "COOP_CHIK_H",
+        "COOP_ABRAXAS"
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXASCROWN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 10000,
+          "moreX": 40,
+          "repeat": 2,
+          "moreY": "COOP_CHICKEN_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 11,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "COOP_ABRAXAS",
+        "COOP_CHICKEN_H",
+        "COOP_CHIK"
+      ]
+    },
+    {
+      "minute": 12,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "COOP_COCK",
+        "COOP_ROAST_CHICKEN_H"
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXASCROWN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 8000,
+          "moreX": 30,
+          "repeat": 3,
+          "moreY": "COOP_CHICKEN_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 13,
+      "minimum": 90,
+      "frequency": 800,
+      "enemies": [
+        "COOP_ABRAXAS",
+        "COOP_CHICKEN"
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXASCROWN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 14,
+      "minimum": 130,
+      "frequency": 500,
+      "enemies": [
+        "COOP_ABRAXAS_H",
+        "COOP_COCK"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 8000,
+          "moreX": 30,
+          "repeat": 3,
+          "moreY": "COOP_CHICKEN_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 12000,
+          "moreX": 10,
+          "repeat": 2,
+          "moreY": "COOP_ROAST_CHICKEN_SWARM"
+        }
+      ],
+      "arcanaHolder": "COOP_BOSS_COCK",
+      "arcanaTreasure": {
+        "chances": [
+          0.1,
+          1,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 15,
+      "minimum": 150,
+      "frequency": 800,
+      "enemies": [
+        "COOP_CHICKEN_H",
+        "COOP_COCK"
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXASHALO"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 8000,
+          "moreX": 10,
+          "repeat": 3,
+          "moreY": "COOP_ROAST_CHICKEN_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 12000,
+          "moreX": 60,
+          "repeat": 2,
+          "moreY": "COOP_EGG_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 16,
+      "minimum": 160,
+      "frequency": 1000,
+      "enemies": [
+        "COOP_ABRAXAS",
+        "COOP_COCK_H",
+        "COOP_CHICKEN"
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXASCROWN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 17,
+      "minimum": 90,
+      "frequency": 1000,
+      "enemies": [
+        "COOP_ABRAXAS_H",
+        "COOP_COCK",
+        "COOP_ABRAXASCROWN_H"
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXASHALO"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 8000,
+          "moreX": 20,
+          "repeat": 3,
+          "moreY": "COOP_ROAST_CHICKEN_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 12000,
+          "moreX": 50,
+          "repeat": 4,
+          "moreY": "COOP_CHICKEN_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 18,
+      "minimum": 100,
+      "frequency": 600,
+      "enemies": [
+        "COOP_ABRAXAS",
+        "COOP_ABRAXASCROWN",
+        "COOP_CHIK_H"
+      ],
+      "bosses": [
+        "COOP_BOSS_ABRAXASHALO"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 10000,
+          "moreX": 20,
+          "repeat": 3,
+          "moreY": "COOP_ROAST_CHICKEN_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 12000,
+          "moreX": 60,
+          "repeat": 2,
+          "moreY": "COOP_CHICKEN_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 19,
+      "minimum": 150,
+      "frequency": 1000,
+      "enemies": [
+        "COOP_ABRAXAS_H",
+        "COOP_ABRAXASCROWN_H",
+        "COOP_ABRAXASHALO_H"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 12000,
+          "moreX": 60,
+          "repeat": 3,
+          "moreY": "COOP_CHICKEN_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
+  "SPAZIE": [
+    {
+      "order": 1130,
       "stageKey": "SPAZIE",
       "hidden": true,
       "unlocked": false,
@@ -8142,7 +8843,7 @@
   ],
   "CARLOCART": [
     {
-      "order": 1130,
+      "order": 1140,
       "alwaysHidden": false,
       "hidden": true,
       "unlocked": false,
@@ -8158,6 +8859,7 @@
       "BGM": "BGM_Carts",
       "sideBBGM": "BGM_Carts",
       "tips": "Everything was a stage hazard.",
+      "isSpeedupBanned": true,
       "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,

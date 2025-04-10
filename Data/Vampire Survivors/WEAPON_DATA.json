@@ -2336,6 +2336,7 @@
       "requiresMax": [
         "TRIASSO1"
       ],
+      "evolutionLine":["TRIASSO1","TRIASSO2","TRIASSO3"],
       "hitVFX": 3,
       "evoInto": "TRIASSO3",
       "isEvolution": true,
@@ -2581,6 +2582,7 @@
       "penetrating": 20
     }
   ],
+
   "VICTORY": [
     {
       "level": 1,
@@ -2874,6 +2876,98 @@
       "freezeChance": 0.05
     }
   ],
+  "EX_GAEA1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_GAEA1",
+      "price": 800,
+      "name": "Gaze of Gaea",
+      "description": "Might defang enemies.",
+      "tips": "Ignores: speed, duration.",
+      "texture": "items",
+      "frameName": "icon_gazeofgaea.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "PARMA"
+      ],
+      "evoInto": "EX_GAEA2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 2000,
+      "repeatInterval": 200,
+      "duration" : 200,
+      "hitBoxDelay": 300,
+      "power": 0.5,
+      "area": 0.50,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "chance" : 0.03
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 200
+    },
+    {
+      "chance" : 0.01,
+      "area": 0.15
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 200
+    },
+    {
+      "chance" : 0.01,
+      "area": 0.15,
+      "addEvolvedWeapon": "EX_GAEA2"
+    }
+  ],
+  "EX_GAEA2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_GAEA2",
+      "name": "Embrace of Gaea",
+      "description": "Evolved Gaze of Gaea. Retaliates. Damage is increased while invulnerable.",
+      "tips": "Requires: Parm Aegis.",
+      "texture": "items",
+      "frameName": "icon_shawlofgaea.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EX_GAEA1"
+      ],
+      "requires": [
+        "PARMA"
+      ],
+      "hidden": true,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "duration" : 800,
+      "hitBoxDelay": 300,
+      "power": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "chance" : 0.05
+    }
+  ],
   "SANTAJAVELIN": [
     {
       "contentGroup": "EXTRA",
@@ -3158,6 +3252,31 @@
     {
       "level": 1,
       "bulletType": "CONEOFCOLD",
+      "name": "Sorbetto",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "sorbetto.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": 2,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 500,
+      "repeatInterval": 40,
+      "power": 1,
+      "area": 2,
+      "speed": 3,
+      "amount": 12,
+      "duration": 1000
+    }
+  ],
+  "CONEOFCOLD_COUNTER": [
+    {
+      "level": 1,
+      "bulletType": "CONEOFCOLD_COUNTER",
       "name": "Sorbetto",
       "description": "",
       "tips": "",
@@ -4137,7 +4256,7 @@
       "isUnlocked": false,
       "hidden": true,
       "alwaysHidden": false,
-      "isSpecialOnly": true,
+      "isSpecialOnly": false,
       "bulletType": "PARMA",
       "name": "Parm Aegis ",
       "description": "Increases invulnerability time after getting damaged by 50ms.",
@@ -4733,6 +4852,59 @@
     },
     {
       "curse": 0.05
+    }
+  ],
+
+  "FOLLOWER_GARLIC": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FOLLOWER_GARLIC",
+      "price": 800,
+      "name": "Garlic",
+      "description": ".",
+      "tips": ".",
+      "texture": "items",
+      "frameName": "Garlic.png",
+      "hidden": true,
+      "isUnlocked": false,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 1300,
+      "duration": 1300,
+      "repeatInterval": 0,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "interval": -100,
+      "power": 0.1
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "interval": -100,
+      "power": 0.2
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "interval": -100,
+      "power": 0.1
+    },
+    {
+      "power": 0.2
     }
   ]
 }

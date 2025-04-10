@@ -1,0 +1,1020 @@
+{
+  "EMERALD": [
+    {
+      "order": 100701,
+      "stageName": "Emeralds",
+      "description": "",
+      "uiTexture": "UI",
+      "uiFrame": "stage_EmeraldDiorama.png",
+      "texture": "UI",
+      "frameName": "p_stage_emeralds.png",
+      "bestiaryBG": "background_emeralds.png",
+      "stageNumber": "Special",
+      "unlocked": false,
+      "BGM": "BGM_EME_QUICK",
+      "sideBBGM": "BGM_EME_DESTINY",
+      "tips": "",
+      "validForCharcaterData": true,
+      "zoom": 0.28,
+      "mods": {
+        "TimeLimit": 1800,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.25,
+        "EnemySpeed": 1.25,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1.25,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": false,
+        "TimeLimit": 1800,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0.75,
+        "EnemySpeed": 0.75,
+        "ProjectileSpeed": 0.25,
+        "GoldMultiplier": 0.5,
+        "EnemyHealthMultiplier": 0,
+        "LuckBonus": 0.1,
+        "XPBonus": 0,
+        "StartingSpawns": 10
+      },
+      "inverse": {
+        "unlocked": true,
+        "tint": 8947950,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
+        }
+      },
+      "tileset": {
+        "isTiling": true,
+        "hasWallsCheckDestructibleLogic": true,
+        "SizeX": 2048, 
+        "SizeY": 2048,
+        "detailsTexture": "eme_pause_map_full.png",
+        "mapRelic": "RELIC_MAP"
+      },
+      "background": {
+        "texture": ""
+      },
+      "startingSpawns": 50,
+      "minute": 0,
+      "destructibleType": "BRAZIER",
+      "spawnType": "MAPPED",
+      "destructibleFreq": 1000,
+      "destructibleChance": 10,
+      "destructibleChanceMax": 50,
+      "maxDestructibles": 10,
+      "BGTextureName": "bg_null",
+      "dayNight": false,
+      "tilemapTiledJSON": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapTiledIMG": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapPos": {
+        "x": 0,
+        "y": 0
+      },
+      "minimum": 20,
+      "frequency": 1000,
+      "enemies": [
+        "EME_FROG"
+      ],
+      "bosses": []
+    },
+    {
+      "minute": 1,
+      "minimum": 30,
+      "frequency": 1000,
+      "enemies": [
+        "EME_FROG",
+        "EME_ALRAUNE"
+      ],
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 10000,
+          "repeat": 2,
+          "moreX": 6,
+          "moreY": "EME_CALAMITY_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "EME_FROG",
+        "EME_BIRD"
+      ],
+      "bosses": [
+        "EME_BOSS_FROG"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 3,
+          "moreX": 8,
+          "moreY": "EME_CALAMITY_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 40,
+      "frequency": 250,
+      "enemies": [
+        "EME_GOBLIN",
+        "EME_ALRAUNE"
+      ]
+    },
+    {
+      "minute": 4,
+      "minimum": 50,
+      "frequency": 250,
+      "enemies": [
+        "EME_BIRD",
+        "EME_GOBLIN"
+      ],
+      "bosses": [
+        "EME_BOSS_FROG"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 5,
+      "minimum": 25,
+      "frequency": 1000,
+      "enemies": [
+        "EME_BOAR",
+        "EME_FROG3"
+      ],
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 4,
+          "moreX": 10,
+          "moreY": "EME_CALAMITY_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 6,
+      "minimum": 30,
+      "frequency": 500,
+      "enemies": [
+        "EME_GOBLIN",
+        "EME_BAT"
+      ],
+      "bosses": [],
+      "treasure": {
+        "chances": [],
+        "prizeTypes": []
+      },
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 30000,
+          "moreX": 1,
+          "moreY": "EME_ALRAUNE_BOMB"
+        },
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 40000,
+          "moreX": 1,
+          "moreY": "EME_ALRAUNE_BOMB"
+        },
+        {
+          "delay": 50000,
+          "eventType": "SHADE_BOMB_RED",
+          "moreX": 1,
+          "moreY": "EME_ALRAUNE_BOMB"
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 60,
+      "frequency": 400,
+      "enemies": [
+        "EME_BOAR",
+        "EME_RASCAL"
+      ],
+      "bosses": [
+        "EME_BOSS_BOAR"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ],
+        "level": 1
+      },
+      "arcanaTreasure": {
+        "chances": [],
+        "prizeTypes": []
+      },
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 10000,
+          "moreX": 1,
+          "moreY": "EME_ALRAUNE_BOMB",
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 8,
+      "enemies": [
+        "EME_FROG2",
+        "EME_SKELETON"
+      ],
+      "minimum": 40,
+      "frequency": 1400,
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM",
+          "delay": 5000,
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 9,
+      "enemies": [
+        "EME_BAT",
+        "EME_SKELETON"
+      ],
+      "bosses": [
+        "EME_BOSS_WEREWOLF"
+      ],
+      "minimum": 55,
+      "frequency": 1000,
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 5000,
+          "moreX": 1,
+          "moreY": "EME_ALRAUNE_BOMB",
+          "repeat": 8
+        }
+      ]
+    },
+    {
+      "minute": 10,
+      "enemies": [
+        "EME_DOG"
+      ],
+      "bosses": [
+        "EME_BOSS_KELPIE"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "minimum": 20,
+      "frequency": 500,
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 4,
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM"
+        },
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 20000,
+          "moreX": 2,
+          "moreY": "EME_ALRAUNE_BOMB",
+          "repeat": 2
+        }
+      ]
+    },
+    {
+      "minute": 11,
+      "enemies": [
+        "EME_DOG",
+        "EME_BALL"
+      ],
+      "minimum": 50,
+      "frequency": 300,
+      "bosses": [
+        "EME_BOSS_WEREWOLF"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ],
+        "level": 1
+      },
+      "arcanaHolder": "EME_BOSS_BAT",
+      "arcanaTreasure": {
+        "level": 1,
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "enemies": [
+        "EME_BOAR",
+        "EME_SKELETON"
+      ],
+      "minimum": 50,
+      "frequency": 1000,
+      "bosses": [
+        "EME_BOSS_BOAR"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 4,
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 13,
+      "enemies": [
+        "EME_BALL",
+        "EME_KELPIE"
+      ],
+      "bosses": [],
+      "minimum": 50,
+      "frequency": 500,
+      "treasure": {
+        "chances": [],
+        "prizeTypes": []
+      },
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 10000,
+          "moreX": 2,
+          "moreY": "EME_ALRAUNE_BOMB",
+          "repeat": 3
+        },
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 5,
+          "moreX": 14,
+          "moreY": "EME_CALAMITY_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 14,
+      "enemies": [
+        "EME_BOAR",
+        "EME_SKELETON",
+        "EME_BIRD"
+      ],
+      "bosses": [
+        "EME_BOSS_SKELETON"
+      ],
+      "minimum": 100,
+      "frequency": 500,
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "arcanaTreasure": {
+        "chances": [],
+        "prizeTypes": []
+      }
+    },
+    {
+      "minute": 15,
+      "enemies": [
+        "EME_WEREWOLF",
+        "EME_KELPIE"
+      ],
+      "bosses": [
+        "EME_BOSS_SLIME"
+      ],
+      "minimum": 40,
+      "frequency": 1000,
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 6,
+          "moreY": "EME_RASCAL_SWARM",
+          "delay": 5000,
+          "repeat": 6
+        }
+      ]
+    },
+    {
+      "minute": 16,
+      "enemies": [
+        "EME_ANT",
+        "EME_BIRD"
+      ],
+      "minimum": 55,
+      "frequency": 700,
+      "bosses": [
+        "EME_BOSS_MOCH"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 4,
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 17,
+      "enemies": [
+        "EME_BALL",
+        "EME_FROG3",
+        "EME_MOCH"
+      ],
+      "bosses": [
+        "EME_BOSS_ANT"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "minimum": 35,
+      "frequency": 800,
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 5000,
+          "moreX": 3,
+          "moreY": "EME_ALRAUNE_BOMB",
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 18,
+      "enemies": [
+        "EME_DOG",
+        "EME_WEREWOLF"
+      ],
+      "minimum": 80,
+      "frequency": 500,
+      "bosses": [
+        "EME_BOSS_SLIME"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 12,
+          "moreY": "EME_RASCAL_SWARM",
+          "delay": 5000,
+          "repeat": 6
+        }
+      ]
+    },
+    {
+      "minute": 19,
+      "enemies": [
+        "EME_SKELETON",
+        "EME_BALL2",
+        "EME_BAT"
+      ],
+      "minimum": 80,
+      "frequency": 500,
+      "bosses": [
+        "EME_BOSS_ANT"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 20,
+      "enemies": [
+        "EME_KELPIE",
+        "EME_ANT"
+      ],
+      "bosses": [
+        "EME_BOSS_MOCH"
+      ],
+      "minimum": 100,
+      "frequency": 250,
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 8,
+          "moreY": "EME_RASCAL_SWARM",
+          "delay": 4000,
+          "repeat": 8
+        }
+      ]
+    },
+    {
+      "minute": 21,
+      "arcanaHolder": "EME_BOSS_BAT",
+      "arcanaTreasure": {
+        "level": 1,
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "enemies": [
+        "EME_BALL",
+        "EME_WEREWOLF",
+        "EME_OGRE"
+      ],
+      "minimum": 200,
+      "frequency": 250,
+      "bosses": [
+        "EME_BOSS_OGRE"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 2000,
+          "moreX": 2,
+          "moreY": "EME_ALRAUNE_BOMB",
+          "repeat": 25
+        }
+      ]
+    },
+    {
+      "minute": 22,
+      "enemies": [
+        "EME_ANT",
+        "EME_OGRE"
+      ],
+      "minimum": 160,
+      "frequency": 200,
+      "bosses": [
+        "EME_BOSS_ANT"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 4,
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 23,
+      "enemies": [
+        "EME_BIRD",
+        "EME_BIRD2",
+        "EME_SLIME"
+      ],
+      "minimum": 200,
+      "frequency": 200,
+      "bosses": [
+        "EME_BOSS_MOCH"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 24,
+      "enemies": [
+        "EME_BALL",
+        "EME_KELPIE",
+        "EME_BOSS_FROG"
+      ],
+      "minimum": 100,
+      "frequency": 500,
+      "bosses": [
+        "EME_BOSS_KELPIE"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 25,
+      "enemies": [
+        "EME_RASCAL",
+        "EME_GOBLIN"
+      ],
+      "minimum": 150,
+      "frequency": 300,
+      "bosses": [
+        "EME_BOSS_CURSEDMONARCH"
+      ],
+      "treasure": {
+        "level": 1,
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 10,
+          "moreY": "EME_RASCAL_SWARM",
+          "delay": 3000,
+          "repeat": 10
+        }
+      ]
+    },
+    {
+      "minute": 26,
+      "enemies": [
+        "EME_RASCAL",
+        "EME_ANT"
+      ],
+      "minimum": 140,
+      "frequency": 400,
+      "bosses": [],
+      "treasure": {
+        "chances": [],
+        "prizeTypes": []
+      },
+      "events": [
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 12,
+          "moreY": "EME_RASCAL_SWARM",
+          "delay": 3000,
+          "repeat": 19
+        }
+      ]
+    },
+    {
+      "minute": 27,
+      "enemies": [
+        "EME_BOSS_FROG",
+        "EME_BOSS_BOAR",
+        "EME_BOSS_SKELETON"
+      ],
+      "minimum": 60,
+      "frequency": 800,
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM",
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 28,
+      "enemies": [
+        "EME_DOG3",
+        "EME_BOSS_WEREWOLF",
+        "EME_SLIME"
+      ],
+      "minimum": 100,
+      "frequency": 1000,
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 4,
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM"
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 16,
+          "moreY": "EME_RASCAL_SWARM",
+          "delay": 3000,
+          "repeat": 19
+        }
+      ]
+    },
+    {
+      "minute": 29,
+      "enemies": [
+        "EME_BOSS_GOBLIN",
+        "EME_MOCH",
+        "EME_SLIME"
+      ],
+      "minimum": 60,
+      "frequency": 600,
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "delay": 5000,
+          "repeat": 4,
+          "moreX": 12,
+          "moreY": "EME_CALAMITY_SWARM"
+        },
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 1000,
+          "moreX": 4,
+          "moreY": "EME_ALRAUNE_BOMB",
+          "repeat": 60
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 20,
+          "moreY": "EME_RASCAL_SWARM",
+          "delay": 2500,
+          "repeat": 24
+        }
+      ]
+    },
+    {
+      "minute": 30,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ],
+      "minimum": 1,
+      "frequency": 10000
+    }
+  ]
+}

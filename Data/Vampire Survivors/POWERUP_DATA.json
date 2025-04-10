@@ -667,5 +667,50 @@
     {
       "seal": 1
     }
+  ],
+  "SEAL4": [
+    {
+      "level": 0,
+      "hidden": true,
+      "bulletType": "SEAL4",
+      "name": "Seal IV",
+      "description": "Allows to Banish four items from level up choices, or pickups from light sources. Use in COLLECTION menu.",
+      "texture": "items",
+      "frameName": "sealIcon4.png",
+      "isPowerUp": true,
+      "isAnUnlockable": true,
+      "price": 10000,
+      "seal": 1,
+      "unlockedRank": 10,
+      "specialBG": true,
+      "active": true
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    },
+    {
+      "seal": 1
+    }
   ]
 }

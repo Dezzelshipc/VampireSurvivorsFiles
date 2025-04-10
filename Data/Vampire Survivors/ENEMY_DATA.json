@@ -4751,9 +4751,9 @@
     {
       "skipCredits": true,
       "level": 30,
-      "maxHp": 25,
+      "maxHp": 60,
       "speed": 100,
-      "power": 25,
+      "power": 20,
       "skills": [
         0
       ],
@@ -6044,6 +6044,725 @@
       ]
     }
   ],
+
+  "COOP_CHICKEN_SPECIAL": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 500,
+      "skills": [1],
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "chk_0.png"
+      ]
+    }
+  ],
+
+  "COOP_CHICKEN_COUNTER": [
+    {
+      "level": 1,
+      "maxHp": 0.65,
+      "speed": 300,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "chk_0.png"
+      ],
+      "bVariants": [
+        "COOP_CHICKEN",
+        "COOP_CHICKEN_H",
+        "COOP_COCK_H",
+        "COOP_CHIK_H",
+        "COOP_ABRAXAS_H",
+        "COOP_ABRAXASCROWN_H",
+        "COOP_ABRAXASHALO_H",
+        "COOP_BOSS_ABRAXAS",
+        "COOP_BOSS_ABRAXASCROWN",
+        "COOP_BOSS_ABRAXASHALO",
+        "COOP_CHICKEN_SWARM",
+        "COOP_COCK_SWARM",
+        "COOP_CHIK_SWARM",
+        "COOP_EGG_SWARM",
+        "COOP_CHICKEN_SPECIAL",
+        "COOP_ROAST_CHICKEN",
+        "COOP_ROAST_CHICKEN_H",
+        "COOP_ROAST_CHICKEN_SWARM",
+        "COOP_BOSS_COCK",
+        "COOP_CHICKEN_SLOW",
+        "COOP_PATROL",
+        "COOP_CHICKEN",
+        "COOP_COCK",
+        "COOP_CHIK",
+        "COOP_EGG",
+        "COOP_SPICYCHICKEN",
+        "COOP_COCKATRICE",
+        "COOP_EGG_H" 
+      ]
+    }
+  ],
+  "COOP_CHICKEN": [
+    {
+      "level": 1,
+      "maxHp": 0.65,
+      "speed": 300,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "chk_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_CHICKEN_H",
+      "COOP_CHICKEN_SWARM"
+      ]
+    }
+  ],
+  "COOP_CHICKEN_H": [
+    {
+      "level": 1,
+      "maxHp": 0.65,
+      "speed": 600,
+      "power": 7,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "chk_0.png"
+      ]
+    }
+  ],
+  "COOP_CHICKEN_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.65,
+      "speed": 800,
+      "power": 7,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "chk_0.png"
+      ]
+    }
+  ],
+  "COOP_COCK": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 250,
+      "power": 7,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "coc_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_COCK_H",
+      "COOP_COCK_SWARM"
+      ]
+    }
+  ],
+  "COOP_COCK_H": [
+    {
+      "level": 1,
+      "maxHp": 1.4,
+      "speed": 600,
+      "power": 7,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "coc_0.png"
+      ]
+    }
+  ],
+  "COOP_COCK_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 1.4,
+      "speed": 800,
+      "power": 7,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "coc_0.png"
+      ]
+    }
+  ],
+  "COOP_CHIK": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 280,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "ick_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_CHIK_H",
+      "COOP_CHIK_SWARM"
+      ]
+    }
+  ],
+  "COOP_CHIK_H": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 450,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "ick_0.png"
+      ]
+    }
+  ],
+  "COOP_CHIK_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 800,
+      "power": 4,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "ick_0.png"
+      ]
+    }
+  ],
+  "COOP_EGG": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 220,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "gg_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_EGG_H",
+      "COOP_EGG_SWARM"
+      ]
+    }
+  ],
+  "COOP_EGG_H": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 450,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "gg_0.png"
+      ]
+    }
+  ],
+  "COOP_EGG_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 800,
+      "power": 3,
+      "skills": [
+        1
+      ],
+      "res_Defang": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "gg_0.png"
+      ]
+    }
+  ],
+  
+  "COOP_ROAST_CHICKEN": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 130,
+      "power": 9,
+      "skills": [
+        2,
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "moreX": 50,
+      "moreY": 60,
+      "idleFrameCount": 2,
+      "passThroughWalls": true,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "frameNames": [
+        "Roast_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_ROAST_CHICKEN_H",
+      "COOP_ROAST_CHICKEN_SWARM"
+      ]
+    }
+  ],
+  "COOP_ROAST_CHICKEN_H": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 330,
+      "power": 9,
+      "skills": [
+        2,
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "moreX": 50,
+      "moreY": 60,
+      "idleFrameCount": 2,
+      "passThroughWalls": true,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "frameNames": [
+        "Roast_0.png"
+      ]
+    }
+  ],
+  "COOP_ROAST_CHICKEN_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 700,
+      "power": 9,
+      "skills": [
+        2,
+        0
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "moreX": 50,
+      "moreY": 60,
+      "idleFrameCount": 2,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "frameNames": [
+        "Roast_0.png"
+      ]
+    }
+  ],
+
+  "COOP_PATROL": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 100,
+      "power": 12,
+      "skills": [
+        0
+      ],
+      "patrolDuration": 500,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 3,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxas_0.png",
+        "abraxasCrown_0.png",
+        "abraxasHalo_0.png"
+      ]
+    }
+  ],
+  "COOP_ABRAXAS": [
+    {
+      "level": 1,
+      "maxHp": 7,
+      "speed": 250,
+      "power": 12,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxas_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": 0
+      },
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_ABRAXAS_H",
+      "COOP_BOSS_ABRAXAS"
+      ]
+    }
+  ],
+  "COOP_ABRAXAS_H": [
+    {
+      "level": 1,
+      "maxHp": 7,
+      "speed": 700,
+      "power": 12,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxas_0.png"
+      ]
+    }
+  ],
+  "COOP_ABRAXASCROWN": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 250,
+      "power": 16,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 5,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxasCrown_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_ABRAXASCROWN_H",
+      "COOP_BOSS_ABRAXASCROWN"
+      ]
+    }
+  ],
+  "COOP_ABRAXASCROWN_H": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 700,
+      "power": 16,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 5,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxasCrown_0.png"
+      ]
+    }
+  ],
+  "COOP_ABRAXASHALO": [
+    {
+      "level": 1,
+      "maxHp": 25,
+      "speed": 250,
+      "power": 16,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 10,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxasHalo_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_ABRAXASHALO_H",
+      "COOP_BOSS_ABRAXASHALO"
+      ]
+    }
+  ],
+  "COOP_ABRAXASHALO_H": [
+    {
+      "level": 1,
+      "maxHp": 25,
+      "speed": 700,
+      "power": 16,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 10,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxasHalo_0.png"
+      ]
+    }
+  ],
+  
+  "COOP_BOSS_ABRAXAS": [
+    {
+      "level": 1,
+      "maxHp": 6,
+      "speed": 220,
+      "power": 18,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "scale": 1.5,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 60,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxas_0.png"
+      ]
+    }
+  ],
+  "COOP_BOSS_ABRAXASCROWN": [
+    {
+      "level": 1,
+      "maxHp": 12,
+      "speed": 220,
+      "power": 30,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "scale": 1.5,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 60,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxasCrown_0.png"
+      ]
+    }
+  ],
+  "COOP_BOSS_ABRAXASHALO": [
+    {
+      "level": 1,
+      "maxHp": 18,
+      "speed": 220,
+      "power": 40,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "scale": 1.5,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 60,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 13,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "abraxasHalo_0.png"
+      ]
+    }
+  ],
+  "COOP_BOSS_COCK": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 150,
+      "power": 20,
+      "skills": [
+        0
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "scale": 1.5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 20,
+      "tint": 16711935,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "coc_0.png"
+      ]
+    }
+  ],
+  
   "EX_BATS_COUNTER": [
     {
       "enemyType": "EX_BATS_COUNTER",

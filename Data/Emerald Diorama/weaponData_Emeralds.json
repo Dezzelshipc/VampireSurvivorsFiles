@@ -1,0 +1,2579 @@
+{
+  "EME_RAPIER1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_RAPIER1",
+      "price": 800,
+      "name": "Fleuret",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_RAPIER1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isUnlocked": false,
+      "evoInto": "EME_RAPIER2",
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 2350,
+      "repeatInterval": 100,
+      "power": 0.6,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "duration": 1000,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "interval": -500
+    }
+  ],
+  "EME_RAPIER2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_RAPIER2",
+      "price": 800,
+      "name": "Estoc",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_RAPIER2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_RAPIER1"
+      ],
+      "evolutionLine": [
+        "EME_RAPIER1",
+        "EME_RAPIER2",
+        "EME_RAPIER3"
+      ],
+      "evoInto": "EME_RAPIER3",
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1350,
+      "repeatInterval": 100,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 1000,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 0.6
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "EME_RAPIER3": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_RAPIER3",
+      "price": 800,
+      "name": "Espada Ropera",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_RAPIER3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_RAPIER2"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1350,
+      "repeatInterval": 100,
+      "power": 1.8,
+      "area": 1.4,
+      "speed": 1,
+      "amount": 5,
+      "duration": 1000,
+      "hitsWalls": false
+    }
+  ],
+  "EME_LONGSWORD1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_LONGSWORD1",
+      "price": 800,
+      "name": "Town Sword",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_LONGSWORD1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_LONGSWORD2",
+      "isUnlocked": false,
+      
+      "poolLimit":      50,
+      "rarity":         50,
+      "interval":       3000,
+      "repeatInterval": 200,
+      "power":          0.65,
+      "area":           0.9,
+      "speed":          1,
+      "amount":         2,
+      "duration":       500,
+      "hitsWalls":      false,
+      "critChance":     0.05,
+      "critMul":        2
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    }
+  ],
+  "EME_LONGSWORD2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_LONGSWORD2",
+      "price": 800,
+      "name": "Lordstar",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_LONGSWORD2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_LONGSWORD1"
+      ],
+      "evolutionLine": [
+        "EME_LONGSWORD1",
+        "EME_LONGSWORD2",
+        "EME_LONGSWORD3"
+      ],
+      "evoInto": "EME_LONGSWORD3",
+      "isUnlocked": true,
+
+      "poolLimit":      50,
+      "rarity":         50,
+      "interval":       3000,
+      "repeatInterval": 160,
+      "power":          1.25,
+      "area":           1.1,
+      "speed":          1,
+      "amount":         4,
+      "duration":       500,
+      "hitsWalls":      false,
+      "critChance":     0.05,
+      "critMul":        2
+    },
+    {
+      "amount": 2,
+      "repeatInterval": -30
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "amount": 2,
+      "repeatInterval": -30
+    }
+  ],
+  "EME_LONGSWORD3": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_LONGSWORD3",
+      "price": 800,
+      "name": "Dayblade",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_LONGSWORD3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_LONGSWORD2"
+      ],
+      "isUnlocked": true,
+
+      "poolLimit":      50,
+      "rarity":         50,
+      "interval":       2500,
+      "repeatInterval": 100,
+      "power":          2,
+      "area":           1.2,
+      "speed":          1,
+      "amount":         8,
+      "duration":       500,
+      "hitsWalls":      false,
+      "critChance":     0.05,
+      "critMul":        2
+    }
+  ],
+  "EME_DUAL1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_DUAL1",
+      "price": 800,
+      "name": "Splashers",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_DUAL1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_DUAL2",
+      "evoSynergy": [
+        "DURATION"
+      ],
+      "hitVFX": 12,
+      "isUnlocked": false,
+      "poolLimit": 30,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 200,
+      "power": 2,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "interval": -250,
+      "duration": 500
+    },
+    {
+      "power": 1,
+      "area": 0.25
+    },
+    {
+      "interval": -250,
+      "duration": 500
+    },
+    {
+      "power": 1,
+      "area": 0.25
+    },
+    {
+      "interval": -250,
+      "duration": 500
+    },
+    {
+      "interval": -250,
+      "duration": 500
+    }
+  ],
+  "EME_DUAL2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_DUAL2",
+      "price": 800,
+      "name": "Pursuant Blades",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_DUAL2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_DUAL1"
+      ],
+      "requires": [
+        "DURATION"
+      ],
+      "hitVFX": 15,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 150,
+      "power": 4,
+      "duration": 3000,
+      "hitBoxDelay": 500,
+      "area": 1.75,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "speed": 0.25
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "speed": 0.25
+    },
+    {
+      "amount": 1
+    }
+  ],
+  
+  "EME_GREATSWORD1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_GREATSWORD1",
+      "price": 800,
+      "name": "Flamberge",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_GREATSWORD1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "evoInto": "EME_GREATSWORD2",
+      "poolLimit": 50,
+      "rarity": 50,
+
+      "unexcludeSelf": true,
+      "interval":       4000,
+      "repeatInterval": 200,
+      "power":          2,
+      "area":           0.6,
+      "speed":          1,
+      "amount":         1,
+      "duration":       1000,
+      "hitsWalls":      false,
+      "critChance":     0.02,
+      "critMul":        2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "area": 0.2
+    }
+  ],
+  "EME_GREATSWORD2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_GREATSWORD2",
+      "price": 800,
+      "name": "Zweihander",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_GREATSWORD2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_GREATSWORD1"
+      ],
+      "evolutionLine": [
+        "EME_GREATSWORD1",
+        "EME_GREATSWORD2",
+        "EME_GREATSWORD3"
+      ],
+      "evoInto": "EME_GREATSWORD3",
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+
+      "unexcludeSelf": true,
+      "interval":       4000,
+      "repeatInterval": 200,
+      "power":          3,
+      "area":           1,
+      "speed":          1,
+      "amount":         2,
+      "duration":       1000,
+      "hitsWalls":      false,
+      "critChance":     0.02,
+      "critMul":        2
+    },
+    {
+      "critChance": 0.04
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "critChance": 0.04
+    }
+  ],
+  "EME_GREATSWORD3": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_GREATSWORD3",
+      "price": 800,
+      "name": "Galatyn",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_GREATSWORD3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_GREATSWORD2"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval":         4000,
+      "repeatInterval":   200,
+      "power":            6,
+      "area":             1,
+      "speed":            1,
+      "amount":           3,
+      "duration":         1000,
+      "critChance":       0.10,
+      "critMul":          2,
+      "hitsWalls": false
+    }
+  ],
+  "EME_PUNCH1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_PUNCH1",
+      "price": 800,
+      "name": "Punch",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_PUNCH1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "evoInto": "EME_PUNCH2",
+      "poolLimit": 40,
+      "rarity": 50,
+      "interval":       4000,
+      "duration":       1000,
+      "repeatInterval": 300,
+      "power": 0.65,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -400
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "interval": -400
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "EME_PUNCH2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_PUNCH2",
+      "price": 800,
+      "name": "Pressure Point",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_PUNCH2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_PUNCH1"
+      ],
+      "evolutionLine": [
+        "EME_PUNCH1",
+        "EME_PUNCH2",
+        "EME_PUNCH3"
+      ],
+      "evoInto": "EME_PUNCH3",
+      "isUnlocked": true,
+      "poolLimit": 40,
+      "rarity": 1,
+      "interval":       3200,
+      "duration":       1000,
+      "repeatInterval": 300,
+      "power": 0.65,
+      "area": 1.1,
+      "speed": 1,
+      "amount": 3,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -200,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -200,
+      "area": 0.1
+    },
+    {
+      "power": 0.5
+    }
+  ],
+  "EME_PUNCH3": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_PUNCH3",
+      "price": 800,
+      "name": "Gilded Hand",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_PUNCH3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_PUNCH2"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 40,
+      "rarity": 1,
+      "interval":       2800,
+      "duration":       1000,
+      "repeatInterval": 300,
+      "power": 1.65,
+      "area": 1.3,
+      "speed": 1,
+      "amount": 4,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+  "EME_KICK1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_KICK1",
+      "price": 800,
+      "name": "Kick",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_KICK1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_KICK2",
+      "evoSynergy": [
+        "REGEN"
+      ],
+      "isUnlocked": false,
+      "poolLimit": 30,
+      "rarity": 50,
+      "interval": 2500,
+      "repeatInterval": 200,
+      "power": 1,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "power": 0.2,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.2,
+      "area": 0.1
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "interval": -500
+    }
+  ],
+  "EME_KICK2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_KICK2",
+      "price": 800,
+      "name": "Triangle Kick",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_KICK2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_KICK1"
+      ],
+      "requires": [
+        "REGEN"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1850,
+      "repeatInterval": 100,
+      "duration": 3000,
+      "hitBoxDelay": 500,
+      "power": 3,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 3,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "power": 0.2
+    },
+    {
+      "amount": 1
+    }
+  ],
+  
+  "EME_CANNON1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "name": "Saber Machine Gun",
+      "bulletType": "EME_CANNON1",
+      "weaponType": "EME_CANNON1",
+      "texture": "EME_items",
+      "frameName": "EME_CANNON1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_CANNON2",
+      "evoSynergy": [],
+      "price": 10,
+      "description": "-",
+      "tips": "-",
+      "isUnlocked": false,
+      "rarity": 60,
+      "poolLimit": 200,
+      "customDescValue": "Increase Duration by %0ms.",
+      
+      "interval":             4000,
+      "repeatInterval":       20,
+      "power":                0.05,
+      "duration":             26,
+      "area":                 1,
+      "speed":                1,
+      "amount":               1,
+      "penetrating":          0,
+      "knockback":            0.5,
+      "hitsWalls":            true,
+      "sealable":             true
+    },
+    {
+      "repeatInterval": -3,
+      "amount":   1,
+      "interval": 500
+    },
+    {
+      "duration": 12,
+      "customDesc": 12
+    },
+    {
+      "power": 0.05
+    },
+    {
+      "duration": 12,
+      "customDesc": 12
+    },
+    {
+      "repeatInterval": -3,
+      "amount": 1,
+      "interval": 500
+    }
+  ],
+  "EME_CANNON2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_CANNON2",
+      "price": 800,
+      "name": "Hecaton Machine Gun ",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_CANNON2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_CANNON1"
+      ],
+      "evolutionLine": [
+        "EME_CANNON1",
+        "EME_CANNON2",
+        "EME_CANNON3"
+      ],
+      "evoInto": "EME_CANNON3",
+      "isUnlocked": true,
+      "customDescValue": "Increase Duration by %0ms.",
+      
+      "poolLimit": 200,
+      "rarity": 1,
+
+      "interval":             5000,
+      "repeatInterval":       14,
+      "power":                0.1,
+      "duration":             50,
+      "area":                 1,
+      "speed":                1,
+      "amount":               3,
+      "penetrating":          0,
+      "knockback": 0.5,
+      "hitsWalls": true
+    },
+    {
+      "duration": 25,
+      "customDesc": 25
+    },
+    {
+      "repeatInterval": -3,
+      "amount": 1,
+      "interval": 500
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "repeatInterval": -3,
+      "amount": 1,
+      "interval": 500
+    },
+    {
+      "penetrating":          1
+    }
+  ],
+  "EME_CANNON3": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_CANNON3",
+      "price": 800,
+      "name": "Divergence",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_CANNON3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_CANNON2"
+      ],
+      "isUnlocked": true,
+      "customDescValue": "Increase Duration by %0ms.",
+      "poolLimit": 200,
+      "rarity": 1,
+
+      "interval":             6000,
+      "repeatInterval":       5,
+      "power":                0.2,
+      "duration":             75,
+      "area":                 1,
+      "speed":                1,
+      "amount":               6,
+      "penetrating":          1,
+      "knockback": 0.5,
+      "hitsWalls": true
+    }
+  ],
+  "EME_MECH1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_MECH1",
+      "price": 800,
+      "name": "Super Missile",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_MECH1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "evoInto": "EME_MECH2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 3250,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "penetrating": 0,
+      "duration": 600,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "speed": 0.1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -250
+    }
+  ],
+  "EME_MECH2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_MECH2",
+      "price": 800,
+      "name": "Hydra Cannon",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_MECH2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_MECH1"
+      ],
+      "evolutionLine": [
+        "EME_MECH1",
+        "EME_MECH2",
+        "EME_MECH3"
+      ],
+      "evoInto": "EME_MECH3",
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 2,
+      "area": 1,
+      "speed": 1.1,
+      "amount": 1,
+	  "penetrating": 2,
+      "duration": 600,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "penetrating": 2
+    },
+    {
+      "speed": 0.2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -500
+    }
+  ],
+  "EME_MECH3": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_MECH3",
+      "price": 800,
+      "name": "Hyperion Bazooka",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_MECH3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_MECH2"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 2500,
+      "repeatInterval": 0,
+      "power": 3,
+      "area": 1,
+      "speed": 1.3,
+      "amount": 1,
+	  "penetrating": 65535,
+      "duration": 600,
+      "hitsWalls": false
+    }
+  ],
+  "EME_PISTOL1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_PISTOL1",
+      "price": 800,
+      "name": "Eagle Gun",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_PISTOL1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_PISTOL2",
+      "evoSynergy": [
+        "POWER"
+      ],
+      "isUnlocked": false,
+
+      "poolLimit":      200,
+      "rarity":         50,
+      "interval":       4000,
+      "repeatInterval": 200,
+      "power":          0.5,
+      "area":           1,
+      "speed":          1.25,
+      "amount":         1,
+      "duration":       1000,
+      "hitsWalls":      false,
+      "unexcludeSelf":  true
+    },
+    {
+      "area": 0.25,
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "interval": -250,
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "power": 0.25,
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "area": 0.25,
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "interval": -250,
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "power": 0.25,
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "interval": -250,
+      "amount": 1,
+      "repeatInterval": -10
+    }
+  ],
+  "EME_PISTOL2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_PISTOL2",
+      "price": 800,
+      "name": "Pendragon",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_PISTOL2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_PISTOL1"
+      ],
+      "requires": [
+        "POWER"
+      ],
+      "isUnlocked": true,
+
+      "poolLimit":      200,
+      "rarity":         50,
+      "interval":       3000,
+      "repeatInterval": 100,
+      "power":          1,
+      "area":           1.5,
+      "speed":          1.25,
+      "amount":         8,
+      "duration":       1500,
+      "hitsWalls":      false,
+      "unexcludeSelf":  true
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -40
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -40
+    },
+    {
+      "power": 0.5
+    }
+  ],
+  
+  "EME_KNIFE1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_KNIFE1",
+      "price": 800,
+      "name": "Khukuri",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_KNIFE1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_KNIFE2",
+      "evoSynergy": [
+        "PARMA"
+      ],
+      "hitVFX": 4,
+      "isUnlocked": false,
+      "poolLimit":        100,
+      "rarity":           50,
+      "interval":         4000,
+      "repeatInterval":   200,
+      "power":            0.65,
+      "duration":         200,
+      "hitBoxDelay":      100,
+      "area":             1,
+      "speed":            1,
+      "amount":           1,
+      "hitsWalls":        true,
+      "penetrating":      0,
+      "unexcludeSelf":    true,
+      "critChance":       0.025,
+      "critMul":          3
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "interval": -250,
+      "duration": 100
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -250,
+      "duration": 100
+    },
+    {
+      "area": 0.25
+    }
+  ],
+  "EME_KNIFE2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_KNIFE2",
+      "price": 800,
+      "name": "Jetstream",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_KNIFE2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "isUnlocked": true,
+      "rarity":           1,
+      "evolvesFrom": [
+        "EME_KNIFE1"
+      ],
+      "requires": [
+        "PARMA"
+      ],
+      "hitVFX": 4,
+      "poolLimit":        100,
+      "interval":         3500,
+      "repeatInterval":   100,
+      "power":            1.65,
+      "duration":         400,
+      "hitBoxDelay":      100,
+      "area":             1.5,
+      "speed":            1,
+      "amount":           3,
+      "hitsWalls":        true,
+      "penetrating":      0,
+      "unexcludeSelf":    true,
+      "critChance":       0.05,
+      "critMul":          3
+    },
+    {
+      "power": 0.25
+    },
+    {
+      "interval": -500
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "interval": -500
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.25
+    }
+  ],
+  "EME_KATANA1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_KATANA1",
+      "price": 800,
+      "name": "Twin Dragon",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_KATANA1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_KATANA2",
+      "evoSynergy": [
+        "DOMINION"
+      ],
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 50,
+      
+      "interval":       4000,
+      "repeatInterval": 150,
+      "power":          1,
+      "duration":       1000,
+      "area":           0.9,
+      "speed":          1,
+      "amount":         1,
+      "hitsWalls": false,
+      "unexcludeSelf": true,
+	  "critChance": 0.05,
+      "critMul": 2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -500
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1,
+      "power": 0.5
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    }
+  ],
+  "EME_KATANA2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_KATANA2",
+      "price": 800,
+      "name": "Gekkabijin",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_KATANA2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_KATANA1"
+      ],
+      "requires": [
+        "DOMINION"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      
+      "interval":       3000,
+      "repeatInterval": 100,
+      "power":          2.5,
+      "duration":       1000,
+      "area":           1,
+      "speed":          1,
+      "amount":         3,
+      "hitsWalls": false,
+      "unexcludeSelf": true,
+	  "critChance": 0.05,
+      "critMul": 3
+    },
+    {
+      "interval": -500
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -500
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "EME_AXE1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_AXE1",
+      "price": 800,
+      "name": "Bullova",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_AXE1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_AXE2",
+      "evoSynergy": [
+        "CURSE"
+      ],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 2300,
+      "repeatInterval": 100,
+      "power":  1,
+      "area":   1,
+      "speed":  1,
+      "amount": 1,
+      "hitsWalls": false,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "critChance":   0.05,
+      "critMul":      2,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1,
+      "interval": -200
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "interval": -200
+    },
+    {
+      "power": 0.5,
+      "duration": 500
+    }
+  ],
+  "EME_AXE2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_AXE2",
+      "price": 800,
+      "name": "Bilqis",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_AXE2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_AXE1"
+      ],
+      "requires": [
+        "CURSE"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1700,
+      "repeatInterval": 100,
+      "power":        3,
+      "area":         1,
+      "speed":        1,
+      "amount":       4,
+      "hitsWalls":    false,
+      "duration":     1500,
+      "hitBoxDelay":  500,
+      "critChance":   0.05,
+      "critMul":      2,
+      "unexcludeSelf": true
+    },
+    {
+      "duration": 500
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -200
+    },
+    {
+      "duration": 500
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "critMul":      1
+    },
+    {
+      "duration": 500
+    }
+  ],
+  "EME_BLOOD1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_BLOOD1",
+      "price": 800,
+      "name": "Sanguine Star",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_BLOOD1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoInto": "EME_BLOOD2",
+      "evoSynergy": [
+        "GREED"
+      ],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 50,
+      "power":        0.8,
+      "area":         1,
+      "speed":        1,
+      "amount":       2,
+      "duration":     1000,
+      "hitBoxDelay":  500,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -1000
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "EME_BLOOD2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_BLOOD2",
+      "price": 800,
+      "name": "Blood Chalice",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_BLOOD2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_BLOOD1"
+      ],
+      "requires": [
+        "GREED"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval":       3000,
+      "repeatInterval": 50,
+      "power":        1.6,
+      "area":         1,
+      "speed":        1,
+      "amount":       6,
+      "duration":     1000,
+      "hitBoxDelay":  500,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.2,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -500
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.2,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    }
+  ],
+
+  "EME_SPEAR1": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_SPEAR1",
+      "price": 800,
+      "name": "Glaive",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_SPEAR1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "evoInto": "EME_SPEAR2",
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      
+      "interval":       2800,
+      "repeatInterval": 130,
+      "power":          0.6,
+      "area":           0.8,
+      "speed":          0.8,
+      "amount":         1,
+      "duration":       1000,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "speed": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.3
+    }
+  ],
+  "EME_SPEAR2": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_SPEAR2",
+      "price": 800,
+      "name": "Feather Spear",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_SPEAR2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_SPEAR1"
+      ],
+      "evolutionLine": [
+        "EME_SPEAR1",
+        "EME_SPEAR2",
+        "EME_SPEAR3"
+      ],
+      "evoInto": "EME_SPEAR3",
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      
+      "interval":       2800,
+      "repeatInterval": 100,
+      "power":          1.2,
+      "area":           0.8,
+      "speed":          1,
+      "amount":         3,
+      "duration":       1000,
+      "hitsWalls":      false,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area" : 0.1
+    },
+    {
+      "power": 0.6
+    },
+    {
+      "area" : 0.1
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "EME_SPEAR3": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_SPEAR3",
+      "price": 800,
+      "name": "Lohengrin",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_SPEAR3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_SPEAR2"
+      ],
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval":       2500,
+      "repeatInterval": 70,
+      "power":          2.4,
+      "area":           1,
+      "speed":          1.2,
+      "amount":         6,
+      "duration":       1000,
+      "hitsWalls":      false
+    }
+  ],
+  "EME_MAGIC1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_MAGIC1",
+      "price": 800,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Spirit Rings",
+      "texture": "EME_items",
+      "frameName": "EME_MAGIC1.png",
+      "evoSynergy": [],
+      "evoInto": "EME_MAGIC2",
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval":       4000,
+      "repeatInterval": 100,
+      "power":    1,
+      "area":     1,
+      "speed":    1,
+      "amount":   1,
+      
+      "duration":     1000,
+      "hitBoxDelay":  500,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 250
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 250
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "EME_MAGIC2"
+    }
+  ],
+  "EME_MAGIC2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_MAGIC2",
+      "price": 10,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Rings of Calamity",
+      "texture": "EME_items",
+      "frameName": "EME_MAGIC2.png",
+      "evolvesFrom": [ "EME_MAGIC1" ],
+      "evoSynergy": [],
+	  "hasUniqueRequirements": true,
+      "isEvolution": true,
+      "isUnlocked": true,
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval":       4000,
+      "repeatInterval": 100,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "amount": 5,
+      "duration": 1500,
+      "hitBoxDelay": 500,
+      "hitsWalls": false
+    }
+  ],
+  "EME_WAVE": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EME_WAVE",
+      "contentGroup": "EMERALDS",
+      "collectionFrame": "frameB_emerald.png",
+      "price": 1,
+      "name": "Emerald Rapture",
+      "description": ".",
+      "tips": ".",
+      "texture": "EME_items",
+      "frameName": "EME_WAVE1.png",
+      "evoInto": "EME_WAVE2",
+      "evoSynergy": [
+        "GROWTH"
+      ],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power":    10,
+      "area":     1,
+      "speed":    0.75,
+      "amount":   1,
+      "duration": 2000,
+      "customDescValue": "Strikes more often. %0% better chance to leave XP intact.",
+      "unexcludeSelf": true
+    },
+    {
+      "duration": 200,
+      "area": 0.2,
+      "customDesc": 5
+    },
+    {
+      "amount": 1,
+      "customDesc": 5
+    },
+    {
+      "speed": 0.5,
+      "area": 0.2,
+      "customDesc": 5
+    },
+    {
+      "amount": 1,
+      "customDesc": 5
+    },
+    {
+      "duration": 200,
+      "customDesc": 5
+    },
+    {
+      "amount": 1,
+      "customDesc": 5
+    },
+    {
+      "duration": 200,
+      "speed": 0.5,
+      "customDesc": 5,
+      "addEvolvedWeapon" : "EME_WAVE2"
+    }
+  ],
+  "EME_WAVE2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EME_WAVE2",
+      "contentGroup": "EMERALDS",
+      "collectionFrame": "frameB_emerald.png",
+      "price": 1,
+      "name": "Emerald Wave",
+      "description": ".",
+      "tips": "Requires: Crown.",
+      "texture": "EME_items",
+      "frameName": "EME_WAVE2.png",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EME_WAVE"
+      ],
+      "requires": [
+        "GROWTH"
+      ],
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 10,
+      "area": 1,
+      "speed": 2,
+      "amount": 4,
+      "duration": 2600
+    }
+  ],
+  
+  "EME_SELECTOR": [
+    {
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Inspiration",
+      "bulletType": "EME_SELECTOR",
+      "weaponType": "EME_SELECTOR",
+      "frameName": "EME_SELECTOR.png",
+      "texture": "EME_items",
+      "rarity": 2,
+      "dropRateAffectedByLuck": true,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+      "isUnlocked": false,
+      "sealable": true,
+      "description": "Allows you to choose a sub-weapon.",
+      "poolLimit": 0
+    }
+  ],
+
+  "EME_RING_FIRE": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_RING_FIRE",
+      "price": 800,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Sunlight",
+      "texture": "EME_items",
+      "frameName": "EME_MAGICRED.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity":         0,
+      "interval":       2000,
+      "repeatInterval": 100,
+      "power":    1,
+      "area":     1,
+      "speed":    1,
+      "amount":   1,
+
+      "duration":     1000,
+      "hitBoxDelay":  500,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -200
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -200
+    },
+    {
+      "power": 1
+    }
+  ],
+  "EME_RING_WATER": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_RING_WATER",
+      "price": 800,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Aqua Sphere",
+      "texture": "EME_items",
+      "frameName": "EME_MAGICBLACK.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 80,
+      "rarity":         0,
+      "interval":       3000,
+      "repeatInterval": 200,
+      "power":    1,
+      "area":     1,
+      "speed":    1,
+      "amount":   1,
+
+      "duration":     2250,
+      "hitBoxDelay":  500,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.5,
+      "speed": 0.2
+    },
+    {
+      "power": 0.5,
+      "duration": 250
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5,
+      "speed": 0.2
+    },
+    {
+      "power": 0.5,
+      "duration": 250
+    },
+    {
+      "power": 0.5,
+      "speed": 0.2
+    },
+    {
+      "duration": 500
+    }
+  ],
+  "EME_RING_WOOD": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_RING_WOOD",
+      "price": 800,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Heaven's Thunder",
+      "texture": "EME_items",
+      "frameName": "EME_MAGIC1.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity":         0,
+      "interval":       4000,
+      "repeatInterval": 100,
+      "power":    1,
+      "area":     1,
+      "speed":    1,
+      "amount":   3,
+
+      "duration":     1000,
+      "hitBoxDelay":  500,
+      "hitsWalls": false
+    },
+    {
+      "amount": 2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 2
+    }
+  ],
+  "EME_RING_EARTH": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_RING_EARTH",
+      "price": 800,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Hypergravity",
+      "texture": "EME_items",
+      "frameName": "EME_MAGICYELLOW.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity":         0,
+      "interval":       12000,
+      "repeatInterval": 1000,
+      "power":    0.7,
+      "area":     1,
+      "speed":    1,
+      "amount":   1,
+
+      "duration":     1000,
+      "hitBoxDelay":  500,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1
+    },
+    {
+      "power": 0.1
+    }
+  ],
+  "EME_RING_METAL": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_RING_METAL",
+      "price": 800,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Vermillion Sands",
+      "texture": "EME_items",
+      "frameName": "EME_MAGICWHITE.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity":         0,
+      "interval":       20000,
+      "repeatInterval": 2000,
+      "power":    1,
+      "area":     1.05,
+      "speed":    1,
+      "amount":   1,
+
+      "duration":     3000,
+      "hitBoxDelay":  800,
+      "hitsWalls": false
+    },
+    {
+      "duration": 1000
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "interval": -2000
+    },
+    {
+      "area": 0.25
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 1000
+    }
+  ],
+  "EME_RING_CHAOS": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "contentGroup": "EMERALDS",
+      "bulletType": "EME_RING_CHAOS",
+      "price": 800,
+      "collectionFrame": "frameB_emerald.png",
+      "name": "Chaos Disaster",
+      "texture": "EME_items",
+      "frameName": "EME_MAGICCHAOS.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity":         0,
+      "interval":       75000,
+      "repeatInterval": 3500,
+      "power":    1,
+      "area":     1,
+      "speed":    1,
+      "amount":   1,
+
+      "duration":     1000,
+      "hitBoxDelay":  500,
+      "hitsWalls": false
+    },
+    {
+      "interval": -5000
+    },
+    {
+      "power": 1
+    },
+    {
+      "interval": -5000
+    },
+    {
+      "power": 1
+    },
+    {
+      "interval": -5000
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount":   1
+    }
+  ],
+  "EME_MECH_RAVE": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_MECH_RAVE",
+      "price": 800,
+      "name": "",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_MECH3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval":       5000,
+      "repeatInterval": 0,
+      "power":          2,
+      "area":           1,
+      "speed":          1,
+      "amount":         3,
+      "duration":       200,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1,
+      "duration": 200
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "duration": 200
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "duration": 200
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "duration": 200
+    }
+  ],
+  "EME_MECH_BALLMISS": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_MECH_BALLMISS",
+      "price": 800,
+      "name": "",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_MECH3.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval":       5000,
+      "repeatInterval": 100,
+      "power":          1,
+      "area":           1,
+      "speed":          1,
+      "amount":         4,
+      "duration":       200,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    }
+  ],
+  "EME_AXE_HELLFURY": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_AXE_HELLFURY",
+      "price": 800,
+      "name": "",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_AXE1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval":       20000,
+      "repeatInterval": 100,
+      "power":          1,
+      "area":           1,
+      "speed":          1,
+      "amount":         1,
+      "duration":       5000,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.25
+    },
+    {
+      "power": 0.25
+    },
+    {
+      "power": 0.25
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    }
+  ],
+  "EME_BLOOD_BLOODRAGE": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_BLOOD_BLOODRAGE",
+      "price": 800,
+      "name": "",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_BLOOD1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval":       10000,
+      "repeatInterval": 50,
+      "power":          0.8,
+      "area":           1,
+      "speed":          1,
+      "amount":         2,
+      "duration":       1000,
+      "hitBoxDelay":    500,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "EME_SWORD_SWALLOW": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_SWORD_SWALLOW",
+      "price": 800,
+      "name": "",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_LONGSWORD1.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval":       6000,
+      "repeatInterval": 200,
+      "power":          1,
+      "area":           1,
+      "speed":          1,
+      "amount":         1,
+      "duration":       2500,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "EME_SWORD_GALE": [
+    {
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "level": 1,
+      "contentGroup": "EMERALDS",
+      "sealable": true,
+      "bulletType": "EME_SWORD_GALE",
+      "price": 800,
+      "name": "",
+      "description": "-",
+      "tips": "-",
+      "texture": "EME_items",
+      "frameName": "EME_LONGSWORD2.png",
+      "collectionFrame": "frameB_emerald.png",
+      "evoSynergy": [],
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval":       12000,
+      "repeatInterval": 100,
+      "power":          1,
+      "area":           1,
+      "speed":          1,
+      "amount":         1,
+      "duration":       2500,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.25
+    },
+    {
+      "power": 0.25
+    },
+    {
+      "power": 0.25
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "power": 0.5
+    }
+  ]
+}

@@ -14,6 +14,8 @@ def clean_json(string):
 
     # comments: //
     string = re.sub(r"\s*//.*\n", "\n", string)
+    # comments: /* */
+    string = re.sub(r"(?s)/\\*.*?\\*/", "", string)
 
     return string
 
