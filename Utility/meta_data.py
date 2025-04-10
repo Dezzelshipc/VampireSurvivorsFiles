@@ -49,14 +49,15 @@ class MetaDataHandler(metaclass=Singleton):
         # deduplication
         files_by_stem = {}
         for f in self._found_files:
-            if not files_by_stem.get(f.stem):
-                files_by_stem[f.stem] = []
-            files_by_stem[f.stem].append(f)
+            name_norm = normalize_str(f)
+            if not files_by_stem.get(name_norm):
+                files_by_stem[name_norm] = []
+            files_by_stem[name_norm].append(f)
 
         biggest_files = []
         for f_list in files_by_stem.values():
             if len(f_list) > 1:
-                biggest_files.append(list(reversed(sorted(f_list, key=lambda x: x.stat().st_size)))[0])
+                biggest_files.append(list(reversed(sorted(f_list, key=lambda x:  1e10 * int("png" in x.name) + x.stat().st_size)))[0])
             else:
                 biggest_files.append(f_list[0])
         #
@@ -300,9 +301,9 @@ def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
 if __name__ == "__main__":
     hndlr = MetaDataHandler()
 
-    # a = get_meta_by_name("enemies2")
+    a = get_meta_by_name("character_mortaccio")
     # a = get_meta_by_name("enemies")
-    a = get_meta_by_guid('f2e351beec1ed57408f2e8aab0db8951')
+    # a = get_meta_by_guid('f2e351beec1ed57408f2e8aab0db8951')
 
     a.init_sprites()
 

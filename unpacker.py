@@ -637,6 +637,7 @@ class Unpacker(tk.Tk):
 
             self.outer_progress_bar.change_label(f"Getting language file")
             lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
+
             if lang and lang.get('en'):
                 lang = lang.get('en')
             else:
@@ -646,9 +647,11 @@ class Unpacker(tk.Tk):
 
             if gen.assets_type == image_gen.DataType.CHARACTER:
                 w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
+                lang_skins = lang_module.get_lang_file(lang_module.get_lang_path("skinLang.json"))
                 add_data.update({
                     "weapon": w_data,
-                    "character": data
+                    "character": data,
+                    "lang_skins": lang_skins.get("en")
                 })
 
             total = gen.len_data(data)

@@ -111,7 +111,7 @@ class ImageGenerator:
 
     @staticmethod
     def change_name(name):
-        return re.sub(r'[<>:/|\\?*]', '', name.strip())
+        return re.sub(r'[<>:/|\\?*\"\']', '', name.strip())
 
     @staticmethod
     def get_frame(frame_name, meta, im):
@@ -417,29 +417,45 @@ class SimpleGenerator(ImageGenerator):
         if osf := obj.get("save_folder"):
             save_folder += osf
 
+        clear_name = None
         if self.dataObjectKey and lang_data:
-            name = lang_data.get(self.dataObjectKey)
+            name = clear_name = lang_data.get(self.dataObjectKey)
+
+            if self.assets_type in [DataType.CHARACTER]:
+                surname = lang_data.get('surname') or " "
+                space2 = surname[0] in [":", ","] and "" or " "
+                name = f"{lang_data.get('prefix') or ""} {name}{space2}{surname}".strip()
+
+                skin_type = obj.get("skinType", "DEFAULT")
+                lang_skins = add_data.get("lang_skins")
+                if (skin_obj := lang_skins.get(skin_type)) and (obj.get('name', 'default').lower() != "default"):
+                    suffix = skin_obj.get("suffix") or " "
+                    space_suf = suffix[0] in [":", ","] and "" or " "
+                    name = f"{skin_obj.get("prefix") or ""} {name}{space_suf}{suffix}"
+                    save_folder += "/skins"
+                elif obj.get('name', 'default').lower() != "default":
+                    name += f" {obj.get('name')}"
+                    save_folder += "/skins"
+                elif obj.get("id", 0) != 0:
+                    name += f"-{obj.get("id")}"
+                    save_folder += "/skins"
 
         add_data.update({
-            "clear_name": name,
+            "clear_name": clear_name or name,
         })
 
         if pst:
             name += f"_{pst}"
 
         # find with same name for char
-        if self.assets_type in [DataType.CHARACTER] and (prefix := obj.get('prefix')):
-            flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == name
+        # if self.assets_type in [DataType.CHARACTER] and (prefix := obj.get('prefix')):
+        #     flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == name
+        #
+        #     main_object = list(filter(flt, add_data["character"].values()))
+        #     if main_object or "megalo" in prefix.lower():
+        #         name = f"{prefix} {name}"
 
-            main_object = list(filter(flt, add_data["character"].values()))
-            if main_object or "megalo" in prefix.lower():
-                name = f"{prefix} {name}"
 
-        if obj.get("skinType", "default").lower() != "default":
-            name += f"-{obj.get("name", "Default")}"
-            save_folder += "/skins"
-        elif obj.get("id", 0) != 0:
-            name += f"-{obj.get("id")}"
 
         if obj.get("alwaysHidden") and self.assets_type in [DataType.CHARACTER]:
             # name += f"-{k_id}"
