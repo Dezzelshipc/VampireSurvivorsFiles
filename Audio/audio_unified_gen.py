@@ -86,9 +86,11 @@ class MusicTrack:
         return f"{self.code_name}.{self.ext}"
 
     async def init_audio(self):
+        if not self.ext:
+            return
         clips: list[tuple[Path, AudioSegment]] = await asyncio.gather(
             *[asyncio.to_thread(_get_audio_clip, path) for path in self.audio_clips_paths])
-        self.audio = sum(dict(clips).values()) if clips else AudioSegment()
+        self.audio = sum(dict(clips).values()) if clips else None
 
 
 def _get_music_track(audio_clips, music_data, playlist_data) -> MusicTrack:
@@ -117,8 +119,9 @@ def _get_music_track(audio_clips, music_data, playlist_data) -> MusicTrack:
 
         clip_data = audio_clips.get(song_name)
         if not clip_data:
-            print(f"Music track not found by song name ({song_name})")
-        ext = clip_data.suffix.replace(".", "")
+            print(f"Music track not found by song name ({song_name=} ;; {setting['songName']=})")
+        else:
+            ext = clip_data.suffix.replace(".", "")
 
         clips.append(clip_data)
 
@@ -201,6 +204,7 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
 
     audio_tracks: list[MusicTrack] = run_concurrent_sync(_get_music_track, args_gen_tracks)
     run_gather(*[track.init_audio() for track in audio_tracks])
+    audio_tracks = list(filter(lambda x: x.audio, audio_tracks))
 
     print(f"Generated tacks ({timeit:.2f} sec)")
 

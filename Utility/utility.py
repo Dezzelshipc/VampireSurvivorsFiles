@@ -85,4 +85,4 @@ def normalize_str(s) -> str:
         index = name.index('.')
     except ValueError:
         index = None
-    return name[:index].lower()
+    return name[:index].lower().replace(",", "_")
