@@ -22,7 +22,7 @@ from Config.config import CfgKey, DLCType
 from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants
 from Utility.image_functions import resize_image, crop_image_rect_left_top
 from Utility.logger import Logger
-from Utility.meta_data import MetaDataHandler, get_meta_by_name
+from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
 from Utility.utility import CheckBoxes, ButtonsBox
 
 
@@ -665,6 +665,8 @@ class Unpacker(tk.Tk):
                     return d.data_name, d.image
                 else:
                     return (None,) * 2
+
+            get_meta_by_name_set(gen.textures_set(data))
 
             for i, (k_id, obj) in enumerate(ug):
                 self.progress_bar_set_percent(i + 1, total)

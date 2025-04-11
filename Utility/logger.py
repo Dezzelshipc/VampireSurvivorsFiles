@@ -15,7 +15,7 @@ class Logger(TextIO, ABC):
         clear_file(self.log_path)
 
     def log(self):
-        return open(self.log_path, "a")
+        return open(self.log_path, "a", encoding="UTF-8")
 
     def write(self, __s):
         self.stream.write(__s)

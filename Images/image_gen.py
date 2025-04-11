@@ -9,6 +9,7 @@ import PIL.Image
 import Images.transparent_save as tr_save
 from Utility.sprite_data import SpriteData
 
+
 # TODO: Rewrite to MetaDataHandler
 
 class DataType(Enum):
@@ -111,7 +112,7 @@ class ImageGenerator:
 
     @staticmethod
     def change_name(name):
-        return re.sub(r'[<>:/|\\?*\"\']', '', name.strip())
+        return re.sub(r'[<>:/|\\?*\"]', '', name.strip())
 
     @staticmethod
     def get_frame(frame_name, meta, im):
@@ -130,7 +131,8 @@ class ImageGenerator:
         return im.crop(
             (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y'])), meta_data
 
-    def save_png(self, meta: dict[str, SpriteData], im: Image, file_name, name, save_folder, prefix_name="Sprite-", scale_factor=1,
+    def save_png(self, meta: dict[str, SpriteData], im: Image, file_name, name, save_folder, prefix_name="Sprite-",
+                 scale_factor=1,
                  is_save=True, file_name_clean=None, leading_zeros=0, add_data: dict = None) -> Image:
 
         file_name_clean = file_name_clean or file_name
@@ -181,7 +183,8 @@ class ImageGenerator:
 
         sx, sy = im.size
 
-        im_crop: Image = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+        im_crop: Image = im.crop(
+            (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
 
         im_crop_r = im_crop.resize((im_crop.size[0] * scale_factor, im_crop.size[1] * scale_factor),
                                    PIL.Image.NEAREST)
@@ -355,7 +358,7 @@ class SimpleGenerator(ImageGenerator):
     def unit_generator(self, data: dict):
         return ((k, self.get_simple_uint(v)) for k, v in data.items())
 
-    def textures_set(self, data: dict):
+    def textures_set(self, data: dict) -> set[str]:
         return set(self.get_simple_uint(v).get(self.dataTextureKey) for v in data.values())
 
     @staticmethod
@@ -422,15 +425,24 @@ class SimpleGenerator(ImageGenerator):
             name = clear_name = lang_data.get(self.dataObjectKey)
 
             if self.assets_type in [DataType.CHARACTER]:
-                surname = lang_data.get('surname') or " "
-                space2 = surname[0] in [":", ","] and "" or " "
-                name = f"{lang_data.get('prefix') or ""} {name}{space2}{surname}".strip()
+                if obj.get("is_full"):
+                    surname = lang_data.get('surname') or " "
+                    space2 = surname[0] not in [":", ","] and " " or ""
+                    name = f"{lang_data.get('prefix') or ""} {name}{space2}{surname}".strip()
+                    save_folder += "/full"
+                elif prefix := obj.get('prefix'):
+                    # find with same name for char
+                    flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == name
+
+                    main_object = list(filter(flt, add_data["character"].values()))
+                    if main_object or "megalo" in prefix.lower():
+                        name = f"{prefix} {name}"
 
                 skin_type = obj.get("skinType", "DEFAULT")
                 lang_skins = add_data.get("lang_skins")
                 if (skin_obj := lang_skins.get(skin_type)) and (obj.get('name', 'default').lower() != "default"):
                     suffix = skin_obj.get("suffix") or " "
-                    space_suf = suffix[0] in [":", ","] and "" or " "
+                    space_suf = suffix[0] not in [":", ","] and " " or ""
                     name = f"{skin_obj.get("prefix") or ""} {name}{space_suf}{suffix}"
                     save_folder += "/skins"
                 elif obj.get('name', 'default').lower() != "default":
@@ -439,6 +451,7 @@ class SimpleGenerator(ImageGenerator):
                 elif obj.get("id", 0) != 0:
                     name += f"-{obj.get("id")}"
                     save_folder += "/skins"
+                # print(clear_name, "|", name, "|", obj.get("is_full"))
 
         add_data.update({
             "clear_name": clear_name or name,
@@ -446,15 +459,6 @@ class SimpleGenerator(ImageGenerator):
 
         if pst:
             name += f"_{pst}"
-
-        # find with same name for char
-        # if self.assets_type in [DataType.CHARACTER] and (prefix := obj.get('prefix')):
-        #     flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == name
-        #
-        #     main_object = list(filter(flt, add_data["character"].values()))
-        #     if main_object or "megalo" in prefix.lower():
-        #         name = f"{prefix} {name}"
-
 
 
         if obj.get("alwaysHidden") and self.assets_type in [DataType.CHARACTER]:
@@ -517,7 +521,7 @@ class ItemImageGenerator(SimpleGenerator):
         super().__init__()
         self.assets_type = DataType.ITEM
         self.frameKey = "collectionFrame"
-        self.scaleFactor = 8
+        self.scaleFactor = 1
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.folderToSave = "items"
@@ -536,7 +540,7 @@ class ArcanaImageGenerator(SimpleGenerator):
         super().__init__()
         self.assets_type = DataType.ARCANA
         self.frameKey = None
-        self.scaleFactor = 4
+        self.scaleFactor = 1
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
@@ -582,7 +586,7 @@ class PropsImageGenerator(SimpleGenerator):
     def __init__(self):
         super().__init__()
         self.assets_type = DataType.PROPS
-        self.scaleFactor = 8
+        self.scaleFactor = 1
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "frameName"
@@ -599,7 +603,7 @@ class AdvMerchantsGenerator(SimpleGenerator):
     def __init__(self):
         super().__init__()
         self.assets_type = DataType.ADV_MERCHANTS
-        self.scaleFactor = 4
+        self.scaleFactor = 1
         self.dataSpriteKey = "staticSprite"
         self.dataTextureKey = "staticSpriteTexture"
 
@@ -629,11 +633,12 @@ class AlbumCoversGenerator(SimpleGenerator):
 
         self.available_gen.remove(GenType.FRAME)
 
+
 class HitVFXGenerator(SimpleGenerator):
     def __init__(self):
         super().__init__()
         self.assets_type = DataType.HIT_VFX
-        self.scaleFactor = 4
+        self.scaleFactor = 1
         self.dataSpriteKey = "impactFrameName"
         self.dataTextureName = "vfx"
 
@@ -661,7 +666,7 @@ class WeaponImageGenerator(TableGenerator):
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
-        self.scaleFactor = 8
+        self.scaleFactor = 1
         self.frameKey = "collectionFrame"
         self.folderToSave = "weapons"
         self.defaultFrameName = "frameB.png"
@@ -673,7 +678,7 @@ class CharacterImageGenerator(TableGenerator):
         super().__init__()
         self.assets_type = DataType.CHARACTER
         self.frameKey = "collectionFrame"
-        self.scaleFactor = 4
+        self.scaleFactor = 1
         self.dataSpriteKey = "spriteName"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "charName"
@@ -704,6 +709,12 @@ class CharacterImageGenerator(TableGenerator):
 
                     yield k, char
 
+                    char_full = char.copy()
+                    char_full.update({
+                        "is_full": True
+                    })
+                    yield k, char_full
+
                     if v.get("charSelFrame"):
                         char.update({
                             "textureName": v.get("charSelTexture"),
@@ -715,6 +726,12 @@ class CharacterImageGenerator(TableGenerator):
                         yield k, char
             else:
                 yield k, v
+
+                char_full = v.copy()
+                char_full.update({
+                    "is_full": True
+                })
+                yield k, char_full
 
                 if v.get("charSelFrame"):
                     char = v.copy()
@@ -858,7 +875,7 @@ class PowerUpImageGenerator(TableGenerator):
     def __init__(self):
         super().__init__()
         self.assets_type = DataType.POWERUP
-        self.scaleFactor = 8
+        self.scaleFactor = 1
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
@@ -878,7 +895,7 @@ class EnemyImageGenerator(TableGenerator):
         super().__init__()
         self.assets_type = DataType.ENEMY
         self.frameKey = None
-        self.scaleFactor = 4
+        self.scaleFactor = 1
         self.dataSpriteKey = "frameNames"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = None
@@ -927,7 +944,7 @@ class StageImageGenerator(TableGenerator):
         super().__init__()
         self.assets_type = DataType.STAGE
         self.frameKey = None
-        self.scaleFactor = 4
+        self.scaleFactor = 1
         self.dataSpriteKey = "uiFrame"
         self.dataTextureKey = "uiTexture"
         self.dataObjectKey = "stageName"

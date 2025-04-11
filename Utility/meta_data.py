@@ -203,14 +203,15 @@ def __get_meta(meta_path: Path) -> MetaData:
     prepared_data_id = dict()
     for i, data_entry in enumerate(sprites_data):
         internal_id = list(internal_id_to_name_table[i]['first'].values())[0]  # not depends on key
-        norm_name = normalize_str(data_entry['name'])
+        data_name = str(data_entry['name'])
+        norm_name = normalize_str(data_name)
 
         if prepared_data_entry := prepared_data_name.get(norm_name):
             prepared_data_entry.internal_id_set.add(internal_id)
         else:
             prepared_data_entry = SpriteData(
                 name=norm_name,
-                real_name=data_entry['name'],
+                real_name=data_name,
                 internal_id_set={internal_id},
                 rect={
                     k: float(v) for k, v in data_entry['rect'].items()
@@ -221,7 +222,7 @@ def __get_meta(meta_path: Path) -> MetaData:
             )
 
             prepared_data_name.update({
-                data_entry['name']: prepared_data_entry,
+                data_name: prepared_data_entry,
                 norm_name: prepared_data_entry
             })
 
