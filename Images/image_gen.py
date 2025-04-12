@@ -944,7 +944,8 @@ class StageImageGenerator(TableGenerator):
         super().__init__()
         self.assets_type = DataType.STAGE
         self.frameKey = None
-        self.scaleFactor = 1
+        self.scaleFactor = 4
+        self.defaultScaleFactor = 4
         self.dataSpriteKey = "uiFrame"
         self.dataTextureKey = "uiTexture"
         self.dataObjectKey = "stageName"
@@ -970,9 +971,15 @@ class StageImageGenerator(TableGenerator):
 
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()
-        font = ImageFont.truetype(fr"{p_dir}/{self.fontFileName}", 50 * scale_factor / self.scaleFactor)
-        w = font.getbbox(text)[2] + scale_factor
-        h = font.getbbox(text + "|")[3]
+        base_scale = 50
+        while True:
+            font = ImageFont.truetype(fr"{p_dir}/{self.fontFileName}", base_scale * scale_factor / self.defaultScaleFactor)
+            w = font.getbbox(text)[2] + scale_factor
+            h = font.getbbox(text + "|")[3]
+            if w/scale_factor + 10 > im_obj.size[0]:
+                base_scale -= 2
+            else:
+                break
 
         canvas = Image.new('RGBA', (int(w), int(h)))
 
@@ -1004,7 +1011,11 @@ class StageSetImageGenerator(StageImageGenerator):
         return sum(len(d) for d in data.values())
 
     def unit_generator(self, data: dict):
-        return ((k, self.get_table_unit(v, 0)) for set_v in data.values() for k, v in set_v.items())
+        def get_adv_unit(main_obj: dict, add_obj: dict):
+            main_obj.update(add_obj)
+            return main_obj
+
+        return ((k, get_adv_unit(self.get_table_unit(v, 0), {"save_folder": "/"+adv_id.strip()} )) for adv_id, set_v in data.items() for k, v in set_v.items())
 
     def textures_set(self, data: dict):
         return set(

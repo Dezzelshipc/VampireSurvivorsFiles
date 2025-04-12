@@ -147,7 +147,8 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
     music_data = data_handler.get_data_file(music_json_path)
 
     datas = {}
-    convert: dict[str: set] = {}
+    convert: dict[str: set[str, str, bool]] = {}
+    bgm_keys = ["bgm", "BGM", "sideBBGM"]
     if AudioSaveType.RELATIVE_NAME in save_name_types:
         not_found = []
         data_files = {
@@ -156,21 +157,23 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
             "unlockedByItem": ("itemLang.json", "name", "Item", None),
         }
 
-        bgm_keys = ["bgm", "BGM", "sideBBGM"]
-        for k, items in data_files.items():
+        for data_key, items in data_files.items():
             file_name = items[0]
             lang = lang_handler.get_lang_file(lang_handler.get_lang_path(file_name))
             dat: dict = data_handler.get_data_file(data_handler.get_data_path(items[3]))
             if dat:
-                for kk, vv in dat.items():
+                for data_entry_id, vv in dat.items():
                     for bgm_key in bgm_keys:
                         if bgm := vv[0].get(bgm_key):
                             if bgm not in convert:
                                 convert[bgm] = set()
-                            convert[bgm].add((k, kk))
+
+                            is_b_side = (bgm_key == bgm_keys[-1]) and (convert[bgm] not in (data_key, data_entry_id, False))
+
+                            convert[bgm].add((data_key, data_entry_id, is_b_side))
 
             if lang and (eng := lang.get("en")):
-                datas.update({k: {
+                datas.update({data_key: {
                     "lang": eng,
                     "key": items[1],
                     "type": items[2]
@@ -205,6 +208,8 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
     audio_tracks: list[MusicTrack] = run_concurrent_sync(_get_music_track, args_gen_tracks)
     run_gather(*[track.init_audio() for track in audio_tracks])
     audio_tracks = list(filter(lambda x: x.audio, audio_tracks))
+
+    total_len = len(audio_tracks)
 
     print(f"Generated tacks ({timeit:.2f} sec)")
 
@@ -266,28 +271,33 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
         if AudioSaveType.RELATIVE_NAME in save_name_types:
 
             related_objects: set = convert.get(code_name) or set()
-            for k in ["unlockedByItem"]:
-                if v := cur_data.get(k):
-                    related_objects.add((k, v))
+            for data_key in ["unlockedByItem"]:
+                if data_entry_id := cur_data.get(data_key):
+                    related_objects.add((data_key, data_entry_id, ""))
 
-            for k, v in related_objects:
-                key_name = datas[k]["key"]
-                cur_type = datas[k]["type"]
-                cur_obj = datas[k]["lang"].get(v) or {}
+            for data_key, data_entry_id, is_b_side in related_objects:
+                key_name = datas[data_key]["key"]
+                cur_type = datas[data_key]["type"]
+                cur_obj = datas[data_key]["lang"].get(data_entry_id) or {}
                 name = cur_obj.get(key_name) or code_name
 
-                if prefix := cur_obj.get('prefix'):
-                    flt = lambda x: x and not x.get("prefix") and x.get("charName") == name
 
-                    main_object = list(filter(flt, datas["unlockedByCharacter"]["lang"].values()))
-                    if main_object or "megalo" in prefix.lower():
-                        name = f"{prefix} {name}"
+                surname = cur_obj.get('surname') or " "
+                space2 = surname[0] not in [":", ","] and " " or ""
+                name = f"{cur_obj.get('prefix') or ""} {name}{space2}{surname}".strip()
+
+                # if prefix := cur_obj.get('prefix'):
+                #     flt = lambda x: x and not x.get("prefix") and x.get("charName") == name
+                #
+                #     main_object = list(filter(flt, datas["unlockedByCharacter"]["lang"].values()))
+                #     if main_object or "megalo" in prefix.lower():
+                #         name = f"{prefix} {name}"
+
+                if has_same_name or is_b_side:
+                    name += " B"
 
                 def pst(ii):
                     return ii if ii > 0 else ""
-
-                if has_same_name:
-                    name += " B"
 
                 j = 0
                 save_name = f"{name}{pst(j)}.{ext}"
