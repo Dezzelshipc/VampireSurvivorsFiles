@@ -1,3 +1,4 @@
+import sys
 from collections.abc import Callable
 from pathlib import Path
 from tkinter import Image
@@ -41,7 +42,7 @@ class MetaDataHandler(metaclass=Singleton):
             for root in path_roots:
                 path = self.config[dlc.config_key] and self.config[dlc.config_key].joinpath(root)
                 if path and path.exists():
-                        dirs.append(path)
+                    dirs.append(path)
 
         for this_dir in dirs:
             self._found_files.extend(this_dir.rglob("*.meta"))
@@ -57,7 +58,8 @@ class MetaDataHandler(metaclass=Singleton):
         biggest_files = []
         for f_list in files_by_stem.values():
             if len(f_list) > 1:
-                biggest_files.append(list(reversed(sorted(f_list, key=lambda x:  1e10 * int("png" in x.name) + x.stat().st_size)))[0])
+                biggest_files.append(
+                    list(reversed(sorted(f_list, key=lambda x: 1e10 * int("png" in x.name) + x.stat().st_size)))[0])
             else:
                 biggest_files.append(f_list[0])
         #
@@ -152,7 +154,10 @@ class MetaData:
                 sprite_list = [self.data_name.get(sprite) for sprite in sprite_name_list]
                 rect_list = get_rects_by_sprite_list(sprite_list)
 
-                anim_data = AnimationData(name, sprite_name_list, rect_list, [s.sprite for s in sprite_list])
+                anim_data = AnimationData(name,
+                                          sprite_name_list,
+                                          rect_list,
+                                          [s.sprite for s in sprite_list])
 
                 if len(anim_data) > 1:
                     for sprite_name in sprite_name_list:

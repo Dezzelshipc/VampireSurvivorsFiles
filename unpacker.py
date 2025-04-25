@@ -20,7 +20,7 @@ import Images.transparent_save as tr_save
 import Translations.language as lang_module
 from Config.config import CfgKey, DLCType
 from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants
-from Utility.image_functions import resize_image, crop_image_rect_left_top
+from Utility.image_functions import resize_image, get_anim_sprites_ready
 from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
 from Utility.utility import CheckBoxes, ButtonsBox
@@ -453,11 +453,7 @@ class Unpacker(tk.Tk):
         self.progress_bar_set_percent(0, total_len)
 
         for i, anim in enumerate(animations):
-            sprites_list = []
-            for img, rect, sprite_name in anim.get_sprites_iter():
-                sprite = crop_image_rect_left_top(img, rect)
-                sprite = resize_image(sprite, scale_factor)
-                sprites_list.append(sprite)
+            sprites_list = get_anim_sprites_ready(anim, scale_factor)
 
             for ext, folder, func in itertools.compress(relative_data, selected_anim_types):
                 path = folder_to_save.joinpath(folder)
@@ -633,7 +629,9 @@ class Unpacker(tk.Tk):
         def thread_load_data():
 
             data = data_module.get_data_file(path_data)
-            add_data = {}
+            add_data = {
+                "p_file": p_file
+            }
 
             self.outer_progress_bar.change_label(f"Getting language file")
             lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
@@ -648,10 +646,12 @@ class Unpacker(tk.Tk):
             if gen.assets_type == image_gen.DataType.CHARACTER:
                 w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
                 lang_skins = lang_module.get_lang_file(lang_module.get_lang_path("skinLang.json"))
+                lang_weapon = lang_module.get_lang_file(lang_module.get_lang_path("weaponLang.json"))
                 add_data.update({
                     "weapon": w_data,
                     "character": data,
-                    "lang_skins": lang_skins.get("en")
+                    "lang_skins": lang_skins.get("en"),
+                    "lang_weapon": lang_weapon.get("en")
                 })
 
             total = gen.len_data(data)
@@ -659,22 +659,13 @@ class Unpacker(tk.Tk):
 
             self.outer_progress_bar.close_bar()
 
-            def meta_func(path, name):
-                d = get_meta_by_name(name)
-                if d:
-                    return d.data_name, d.image
-                else:
-                    return (None,) * 2
-
-            get_meta_by_name_set(gen.textures_set(data))
+            metas = get_meta_by_name_set(gen.textures_set(data))
+            for meta in metas:
+                meta.init_sprites()
 
             for i, (k_id, obj) in enumerate(ug):
                 self.progress_bar_set_percent(i + 1, total)
-                gen.make_image(meta_func,
-                               k_id, obj,
-                               lang_data=(lang or {}).get(k_id),
-                               add_data=add_data,
-                               **generator_settings)
+                gen.make_image(k_id, obj, lang_data=(lang or {}).get(k_id), add_data=add_data, **generator_settings)
 
             self.last_loaded_folder = Path("./Images/Generated").absolute()
 

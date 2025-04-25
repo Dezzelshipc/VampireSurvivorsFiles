@@ -2,16 +2,18 @@ import re
 
 from PIL import Image, ImageOps
 from PIL.Image import Resampling
+from matplotlib.animation import Animation
 
-from Utility.sprite_data import SpriteData, SpriteRect
+from Utility.sprite_data import SpriteData, SpriteRect, AnimationData
 
 
-def crop_image_rect_left_bot(image: Image, rect: SpriteRect | dict)-> Image:
+def crop_image_rect_left_bot(image: Image, rect: SpriteRect | dict) -> Image:
     _rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
     sx, sy = image.size
     return image.crop((_rect.x, sy - _rect.y - _rect.height, _rect.x + _rect.width, sy - _rect.y))
 
-def crop_image_rect_left_top(image: Image, rect: SpriteRect | dict)-> Image:
+
+def crop_image_rect_left_top(image: Image, rect: SpriteRect | dict) -> Image:
     _rect: SpriteRect = rect if isinstance(rect, SpriteRect) else SpriteRect.from_dict(rect)
     return image.crop((_rect.x, _rect.y, _rect.width + _rect.x, _rect.height + _rect.y))
 
@@ -20,7 +22,11 @@ def resize_image(image: Image, scale_factor: float) -> Image:
     return image.resize((image.size[0] * scale_factor, image.size[1] * scale_factor), Resampling.NEAREST)
 
 
-def affine_transform(image: Image, matrix: tuple) -> Image:
+def resize_list_images(images: list[Image], scale_factor: float) -> list[Image]:
+    return list(map(resize_image, images, (scale_factor,) * len(images)))
+
+
+def affine_transform(image: Image, matrix: tuple[int, int, int, int]) -> Image:
     e00, e10, e01, e11 = matrix
 
     if e00 + e10 < 0:
@@ -73,3 +79,12 @@ def get_rects_by_sprite_list(sprites_list: list[SpriteData]) -> list[SpriteRect]
         ))
 
     return sprite_rects
+
+
+def get_anim_sprites_ready(anim: AnimationData, scale_factor: int = 1) -> list[Image]:
+    sprites_list = []
+    for img, rect, sprite_name in anim.get_sprites_iter():
+        sprite = crop_image_rect_left_top(img, rect)
+        sprite = resize_image(sprite, scale_factor)
+        sprites_list.append(sprite)
+    return sprites_list

@@ -47,6 +47,12 @@ class AnimationData:
     def get_sprites_iter(self) -> Iterator[tuple[Image, SpriteRect, str]]:
         return zip(self._sprites, self._rects, self._frames_names)
 
+    def get_sprites(self):
+        return self._sprites
+
+    def get_frames_names(self):
+        return self._frames_names
+
     def __len__(self):
         return len(self._frames_names)
 
