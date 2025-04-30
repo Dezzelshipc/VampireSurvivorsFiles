@@ -8,6 +8,7 @@ import PIL.Image
 from PIL import Image, ImageFont, ImageDraw
 
 import Images.transparent_save as tr_save
+from Utility.constants import DEFAULT_ANIMATION_FRAME_RATE
 from Utility.image_functions import get_anim_sprites_ready
 from Utility.meta_data import get_meta_by_name
 from Utility.sprite_data import SpriteData
@@ -254,7 +255,7 @@ class ImageGenerator:
         im_frame_r.save(f"{sf_text}/{self.iconPrefix}-{name}.png")
 
     def save_anim(self, meta: dict[str, SpriteData], file_name, name, save_folder, prefix_name="Animated-", postfix_name="",
-                  save_append="", frame_rate=6, scale_factor=1, base_duration=1000) -> None:
+                  save_append="", frame_rate=DEFAULT_ANIMATION_FRAME_RATE, scale_factor=1, base_duration=1000) -> None:
 
         sprite_data = meta.get(normalize_str(file_name))
 
@@ -311,11 +312,14 @@ class SimpleGenerator(ImageGenerator):
 
         if number:
             fn = fn[:number.start()]
-            zeros = len(number.group(1))
             if add == "i":
                 zeros = 2
+                num = int("1")
+            else:
+                zeros = len(number.group(1))
+                num = int(number.group(1))
 
-            return f"{fn}{add}{number.group(1)}", zeros, f"{fn}{add}"
+            return f"{fn}{add}{num:0{zeros}}", zeros, f"{fn}{add}"
 
         if add == "i":
             return f"{frame_name}_{add}01", 2, f"{fn}_{add}"
@@ -467,11 +471,11 @@ class SimpleGenerator(ImageGenerator):
                 self.save_anim(meta, prep[0], name, save_folder, scale_factor=scale_factor)
             else:
                 prep = self.get_prepared_frame(file_name)
-                self.save_anim(meta, prep[0], name, save_folder, frame_rate=obj.get("walkFrameRate", 6),
+                self.save_anim(meta, prep[0], name, save_folder, frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
                                scale_factor=scale_factor)
 
                 prep = self.get_prepared_frame(file_name + "1")
-                self.save_anim(meta, prep[0], name + "__1", save_folder, frame_rate=obj.get("walkFrameRate", 6),
+                self.save_anim(meta, prep[0], name + "__1", save_folder, frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
                                scale_factor=scale_factor)
 
         if settings.get(str(GenType.DEATH_ANIM)) and GenType.DEATH_ANIM in using_list:
@@ -483,7 +487,7 @@ class SimpleGenerator(ImageGenerator):
             prep = self.get_prepared_frame(file_name)
             self.save_anim(meta, prep[0], name, save_folder, prefix_name="Animated-",
                            postfix_name=obj.get("postfix_name"), save_append="_special",
-                           frame_rate=obj.get("frameRate", 6), scale_factor=scale_factor)
+                           frame_rate=obj.get("frameRate", DEFAULT_ANIMATION_FRAME_RATE), scale_factor=scale_factor)
 
 
 class ItemImageGenerator(SimpleGenerator):

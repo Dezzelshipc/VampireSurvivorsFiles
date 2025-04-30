@@ -1,4 +1,3 @@
-import sys
 from collections.abc import Callable
 from pathlib import Path
 from tkinter import Image
@@ -8,11 +7,11 @@ from unityparser import UnityDocument
 
 from Config.config import Config, DLCType
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
+from Utility.multirun import run_multiprocess
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
 from Utility.utility import normalize_str
-from Utility.multirun import run_multiprocess
 
 
 class MetaDataHandler(metaclass=Singleton):

@@ -18,3 +18,6 @@ class DeferConstants(metaclass=Singleton):
         if cls._is_pydub is None:
             cls._is_pydub = asyncio.run(cls._pydub_defer_checker)
         return cls._is_pydub
+
+
+DEFAULT_ANIMATION_FRAME_RATE = 6
