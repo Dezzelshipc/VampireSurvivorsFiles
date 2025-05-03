@@ -31,6 +31,7 @@ class DataType(Enum):
     ADV_MERCHANTS = 9
     HIT_VFX = 10
     ALBUM = 11
+    MUSIC = 12
 
 
 class GenType(Enum):
@@ -74,6 +75,8 @@ class IGFactory:
             return HitVFXGenerator()
         elif "album" in data_file:
             return AlbumCoversGenerator()
+        elif "music" in data_file:
+            return MusicIconsGenerator()
 
         return None
 
@@ -135,6 +138,12 @@ class ImageGenerator:
 
         return im.crop(
             (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y'])), meta_data
+
+    def get_name_clear_path(self, obj, name, lang_data, add_data) -> (str, str | None, str):
+        clear_name = None
+        if self.dataObjectKey and lang_data:
+            name = clear_name = lang_data.get(self.dataObjectKey)
+        return name, clear_name, ""
 
     def save_png(self, meta: dict[str, SpriteData], im: Image, file_name, name, save_folder, prefix_name=None,
                  scale_factor=1,
@@ -254,7 +263,8 @@ class ImageGenerator:
         name = self.change_name(name)
         im_frame_r.save(f"{sf_text}/{self.iconPrefix}-{name}.png")
 
-    def save_anim(self, meta: dict[str, SpriteData], file_name, name, save_folder, prefix_name="Animated-", postfix_name="",
+    def save_anim(self, meta: dict[str, SpriteData], file_name, name, save_folder, prefix_name="Animated-",
+                  postfix_name="",
                   save_append="", frame_rate=DEFAULT_ANIMATION_FRAME_RATE, scale_factor=1, base_duration=1000) -> None:
 
         sprite_data = meta.get(normalize_str(file_name))
@@ -371,65 +381,9 @@ class SimpleGenerator(ImageGenerator):
         if osf := obj.get("save_folder"):
             save_folder += osf
 
-        clear_name = None
-        if self.dataObjectKey and lang_data:
-            name = clear_name = lang_data.get(self.dataObjectKey)
+        name, clear_name, add_save_path = self.get_name_clear_path(obj, name, lang_data, add_data)
 
-            if self.assets_type in [DataType.CHARACTER]:
-                is_full_name = obj.get("is_full_name")
-                save_folder += (is_full_name and "/full_name") or "/short_name"
-
-                if is_full_name:
-                    surname = lang_data.get('surname') or " "
-                    space2 = surname[0] not in [":", ","] and " " or ""
-                    name = f"{lang_data.get('prefix') or ""} {clear_name}{space2}{surname}".strip()
-                elif prefix := obj.get('prefix'):
-                    # find with same name for char
-                    flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == clear_name
-
-                    main_object = list(filter(flt, add_data["character"].values()))
-                    if main_object or "megalo" in prefix.lower():
-                        name = f"{prefix} {clear_name}"
-
-                if obj.get("is_weapon_skin"):
-                    save_folder += "/skins_weapon"
-
-                    lang_weapon = add_data.get("lang_weapon")
-
-                    start_weapon_id = obj.get("startingWeapon")
-                    if obj.get("defaultStartingWeapon") == start_weapon_id:
-                        save_folder += "/default_weapon"
-
-                    if start_weapon_id not in ["VOID", 0, "0", None]:
-                        weapon_name = lang_weapon.get(start_weapon_id, {}).get("name")
-                        name += f" ({weapon_name})"
-
-                else:
-                    add_save_folder = False
-
-                    skin_type = obj.get("skinType", "DEFAULT")
-                    lang_skins = add_data.get("lang_skins")
-                    if (skin_obj := lang_skins.get(skin_type)) and (obj.get('name', 'default').lower() != "default"):
-                        suffix = skin_obj.get("suffix") or " "
-                        space_suf = suffix[0] not in [":", ","] and " " or ""
-                        name = f"{skin_obj.get("prefix") or ""} {name}{space_suf}{suffix}"
-                        add_save_folder=True
-                    elif obj.get('name', 'default').lower() != "default":
-                        name += f" {obj.get('name')}"
-                        add_save_folder=True
-                    elif obj.get("id", 0) != 0:
-                        name += f"-{obj.get("id")}"
-                        add_save_folder=True
-
-                    if add_save_folder:
-                        save_folder += "/skins"
-
-                    if obj.get("charSelFrame") and not obj.get("is_select"):
-                        save_folder += "/without_select_img"
-
-        elif self.assets_type in [DataType.CHARACTER]:
-            save_folder += "/other_names"
-
+        save_folder += add_save_path
 
         add_data.update({
             "clear_name": clear_name or name,
@@ -438,10 +392,6 @@ class SimpleGenerator(ImageGenerator):
         if pst:
             name += f"_{pst}"
 
-
-        if obj.get("alwaysHidden") and self.assets_type in [DataType.CHARACTER]:
-            # name += f"-{k_id}"
-            save_folder += "/hidden_skins"
 
         if osfp := obj.get("save_folder_postfix"):
             save_folder += osfp
@@ -471,11 +421,13 @@ class SimpleGenerator(ImageGenerator):
                 self.save_anim(meta, prep[0], name, save_folder, scale_factor=scale_factor)
             else:
                 prep = self.get_prepared_frame(file_name)
-                self.save_anim(meta, prep[0], name, save_folder, frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
+                self.save_anim(meta, prep[0], name, save_folder,
+                               frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
                                scale_factor=scale_factor)
 
                 prep = self.get_prepared_frame(file_name + "1")
-                self.save_anim(meta, prep[0], name + "__1", save_folder, frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
+                self.save_anim(meta, prep[0], name + "__1", save_folder,
+                               frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
                                scale_factor=scale_factor)
 
         if settings.get(str(GenType.DEATH_ANIM)) and GenType.DEATH_ANIM in using_list:
@@ -608,6 +560,42 @@ class AlbumCoversGenerator(SimpleGenerator):
         self.available_gen.remove(GenType.FRAME)
 
 
+class MusicIconsGenerator(SimpleGenerator):
+    def __init__(self):
+        super().__init__()
+        self.assets_type = DataType.MUSIC
+        self.scaleFactor = 1
+        self.dataSpriteKey = "icon"
+        self.dataTextureName = "UI"
+
+        self.dataObjectKey = "title"
+
+        self.folderToSave = "music icons"
+        self.imagePrefix = "Music-"
+
+        self.available_gen.remove(GenType.FRAME)
+
+    def get_name_clear_path(self, obj, name, lang_data, add_data) -> (str, str, str):
+        add_save_path = ""
+        postfix_list = [
+            ("castlevania", "source"),
+            ("vampire survivors", "author")
+        ]
+        source_l = obj.get("source").lower() or obj.get("title").lower()
+        check = [postfix[0] in source_l for postfix in postfix_list]
+        if (any(check)
+                and (true_index := check.index(True)) is not None
+                and (to_add := obj.get(postfix_list[true_index][1]))
+        ):
+
+            name += f"-{to_add}"
+            add_save_path += f"/{to_add}"
+        return name, None, add_save_path
+
+    def textures_set(self, data: dict) -> set:
+        return {self.dataTextureName}
+
+
 class HitVFXGenerator(SimpleGenerator):
     def __init__(self):
         super().__init__()
@@ -663,6 +651,71 @@ class CharacterImageGenerator(TableGenerator):
 
         self.available_gen.extend([GenType.ANIM, GenType.SPECIAL_ANIM])
 
+    def get_name_clear_path(self, obj, name, lang_data, add_data) -> (str, str, str):
+        add_save_path = ""
+        clear_name = None
+        if self.dataObjectKey and lang_data:
+            name = clear_name = lang_data.get(self.dataObjectKey)
+
+            is_full_name = obj.get("is_full_name")
+            add_save_path += (is_full_name and "/full_name") or "/short_name"
+
+            if is_full_name:
+                surname = lang_data.get('surname') or " "
+                space2 = surname[0] not in [":", ","] and " " or ""
+                name = f"{lang_data.get('prefix') or ""} {clear_name}{space2}{surname}".strip()
+            elif prefix := obj.get('prefix'):
+                # find with same name for char
+                flt = lambda x: not x[0].get("prefix") and x[0].get(self.dataObjectKey) == clear_name
+
+                main_object = list(filter(flt, add_data["character"].values()))
+                if main_object or "megalo" in prefix.lower():
+                    name = f"{prefix} {clear_name}"
+
+            if obj.get("is_weapon_skin"):
+                add_save_path += "/skins_weapon"
+
+                lang_weapon = add_data.get("lang_weapon")
+
+                start_weapon_id = obj.get("startingWeapon")
+                if obj.get("defaultStartingWeapon") == start_weapon_id:
+                    add_save_path += "/default_weapon"
+
+                if start_weapon_id not in ["VOID", 0, "0", None]:
+                    weapon_name = lang_weapon.get(start_weapon_id, {}).get("name")
+                    name += f" ({weapon_name})"
+
+            else:
+                add_save_folder = False
+
+                skin_type = obj.get("skinType", "DEFAULT")
+                lang_skins = add_data.get("lang_skins")
+                if (skin_obj := lang_skins.get(skin_type)) and (obj.get('name', 'default').lower() != "default"):
+                    suffix = skin_obj.get("suffix") or " "
+                    space_suf = suffix[0] not in [":", ","] and " " or ""
+                    name = f"{skin_obj.get("prefix") or ""} {name}{space_suf}{suffix}"
+                    add_save_folder = True
+                elif obj.get('name', 'default').lower() != "default":
+                    name += f" {obj.get('name')}"
+                    add_save_folder = True
+                elif obj.get("id", 0) != 0:
+                    name += f"-{obj.get("id")}"
+                    add_save_folder = True
+
+                if add_save_folder:
+                    add_save_path += "/skins"
+
+                if obj.get("charSelFrame") and not obj.get("is_select"):
+                    add_save_path += "/without_select_img"
+
+        else:
+            add_save_path += "/other_names"
+
+        if obj.get("alwaysHidden"):
+            add_save_path += "/hidden_skins"
+
+        return name, clear_name, add_save_path
+
     @staticmethod
     def len_data(data: dict):
         return (sum(len(v[0].get("skins")) if v[0].get("skins") else 1 for v in data.values()) +
@@ -697,7 +750,6 @@ class CharacterImageGenerator(TableGenerator):
                             "is_select": True
                         })
                         yield k, char
-
 
     def sprite_anims_generator(self, data: dict):
         for k, vv in data.items():
@@ -933,10 +985,11 @@ class StageImageGenerator(TableGenerator):
         text = add_data["clear_name"].strip()
         base_scale = 50
         while True:
-            font = ImageFont.truetype(fr"{p_dir}/{self.fontFileName}", base_scale * scale_factor / self.defaultScaleFactor)
+            font = ImageFont.truetype(fr"{p_dir}/{self.fontFileName}",
+                                      base_scale * scale_factor / self.defaultScaleFactor)
             w = font.getbbox(text)[2] + scale_factor
             h = font.getbbox(text + "|")[3]
-            if w/scale_factor + 10 > im_obj.size[0]:
+            if w / scale_factor + 10 > im_obj.size[0]:
                 base_scale -= 2
             else:
                 break
@@ -975,7 +1028,8 @@ class StageSetImageGenerator(StageImageGenerator):
             main_obj.update(add_obj)
             return main_obj
 
-        return ((k, get_adv_unit(self.get_table_unit(v, 0), {"save_folder": "/"+adv_id.strip()} )) for adv_id, set_v in data.items() for k, v in set_v.items())
+        return ((k, get_adv_unit(self.get_table_unit(v, 0), {"save_folder": "/" + adv_id.strip()})) for adv_id, set_v in
+                data.items() for k, v in set_v.items())
 
     def textures_set(self, data: dict):
         return set(
