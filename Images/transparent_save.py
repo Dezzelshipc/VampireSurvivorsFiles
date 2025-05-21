@@ -4,8 +4,9 @@
 # There is a long-standing issue with the Pillow library that messes up GIF transparency by replacing the
 # transparent pixels with black pixels (among other issues) when the GIF is saved using PIL.Image.save().
 # This code works around the issue and allows us to properly generate transparent GIFs.
-
-from typing import Tuple, List, Union
+from os import PathLike
+from pathlib import Path
+from typing import Tuple, List, Union, Callable
 from collections import defaultdict
 from random import randrange
 from itertools import chain
@@ -61,7 +62,7 @@ class TransparentAnimatedGifConverter(object):
         self._palette_replaces['idx_from'].append(0)
         self._palette_replaces['idx_to'].append(new_idx)
         self._img_p_parsedpalette[new_idx] = self._img_p_parsedpalette[0]
-        del(self._img_p_parsedpalette[0])
+        del (self._img_p_parsedpalette[0])
 
     def _get_unused_color(self) -> tuple:
         """ Return a color for the palette that does not collide with any other already in the palette."""
@@ -111,7 +112,8 @@ class TransparentAnimatedGifConverter(object):
         return self._img_p
 
 
-def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], save_format: str, alpha_threshold: int = 0) -> Tuple[Image, dict]:
+def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], save_format: str,
+                         alpha_threshold: int = 0) -> Tuple[Image, dict]:
     """If the image is a GIF, create an its thumbnail here."""
     save_kwargs = dict()
     new_images: List[Image] = []
@@ -135,7 +137,9 @@ def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], 
         loop=0)
     return output_image, save_kwargs
 
-def _create_animated(images: List[Image], durations: Union[int, List[int]], save_format: str, disposal: int = 2) -> Tuple[Image, dict]:
+
+def _create_animated(images: List[Image], durations: Union[int, List[int]], save_format: str, disposal: int = 2) -> \
+Tuple[Image, dict]:
     """If the image is a GIF, create an its thumbnail here."""
     save_kwargs = dict()
 
@@ -150,7 +154,8 @@ def _create_animated(images: List[Image], durations: Union[int, List[int]], save
         loop=0)
     return output_image, save_kwargs
 
-def save_transparent_gif2(images: List[Image], durations: Union[int, List[int]], save_file, alpha_threshold: int = 0):
+
+def save_transparent_gif(images: list[Image], durations: Union[int, list[int]], save_file: PathLike, alpha_threshold: int = 0):
     """Creates a transparent GIF, adjusting to avoid transparency issues that are present in the PIL library
 
     Note that this does NOT work for partial alpha. The partial alpha gets discarded and replaced by solid colors.
@@ -168,16 +173,32 @@ def save_transparent_gif2(images: List[Image], durations: Union[int, List[int]],
     root_frame.save(save_file, **save_args)
 
 
-def save_transparent_gif(images: List[Image], durations: Union[int, List[int]], save_file):
+##
+def save_transparent_gif2(images: list[Image], durations: Union[int, list[int]], save_file: PathLike):
     root_frame, save_args = _create_animated(images, durations, 'GIF')
     root_frame.save(save_file, **save_args)
 
 
-def save_transparent_webp(images: List[Image], durations: Union[int, List[int]], save_file):
+def save_transparent_webp(images: list[Image], durations: Union[int, list[int]], save_file: PathLike):
     root_frame, save_args = _create_animated(images, durations, 'WEBP')
     root_frame.save(save_file, **save_args)
 
 
-def save_transparent_apng(images: List[Image], durations: Union[int, List[int]], save_file):
+def save_transparent_apng(images: list[Image], durations: Union[int, list[int]], save_file: PathLike):
     root_frame, save_args = _create_animated(images, durations, 'PNG', 1)
     root_frame.save(save_file, **save_args)
+
+
+SAVE_DATA: list[tuple[str, str, Callable[[list[Image], Union[int, list[int]], PathLike], None]]] = [
+    (".gif", "gif", save_transparent_gif),
+    (".gif", "gif_a50", lambda *x: save_transparent_gif(*x, alpha_threshold=50)),
+    (".webp", "webp", save_transparent_webp),
+    (".png", "apng", save_transparent_apng),
+]
+
+ANIM_SAVE_TYPES: list[str] = [
+    "gif",
+    "gif|alpha>=50",
+    "webp",
+    "apng"
+]

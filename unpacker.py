@@ -19,7 +19,7 @@ import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
 import Translations.language as lang_module
 from Config.config import CfgKey, DLCType
-from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants
+from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE
 from Utility.image_functions import resize_image, get_anim_sprites_ready
 from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
@@ -397,12 +397,12 @@ class Unpacker(tk.Tk):
         if not scale_factor: return
         scale_factor = (scale_factor > 0) and scale_factor or scale_factor_initial
 
-        frame_rate_initial = 6
+        frame_rate_initial = DEFAULT_ANIMATION_FRAME_RATE
         frame_rate = askinteger("Frame rate", "Input frame rate (frames per second)", initialvalue=frame_rate_initial)
         if not frame_rate: return
         frame_rate = (frame_rate > 0) and frame_rate or frame_rate_initial
 
-        anim_types = ["gif", "gif|alpha>=50", "webp", "apng"]
+        anim_types = tr_save.ANIM_SAVE_TYPES
         cbs = CheckBoxes(anim_types, parent=self,
                          label="Select animation extension to use.\n(GIF does not support partial transparency)",
                          title="Select anim types")
@@ -442,20 +442,13 @@ class Unpacker(tk.Tk):
 
         duration = 1000 // frame_rate
 
-        relative_data = [
-            (".gif", "gif", tr_save.save_transparent_gif2),
-            (".gif", "gif_a50", lambda *x: tr_save.save_transparent_gif2(*x, alpha_threshold=50)),
-            (".webp", "webp", tr_save.save_transparent_webp),
-            (".png", "apng", tr_save.save_transparent_apng),
-        ]
-
         print(f"Animations out of {total_len}:")
         self.progress_bar_set_percent(0, total_len)
 
         for i, anim in enumerate(animations):
             sprites_list = get_anim_sprites_ready(anim, scale_factor)
 
-            for ext, folder, func in itertools.compress(relative_data, selected_anim_types):
+            for ext, folder, func in itertools.compress(tr_save.SAVE_DATA, selected_anim_types):
                 path = folder_to_save.joinpath(folder)
                 path.mkdir(exist_ok=True)
                 func(sprites_list, duration, path.joinpath(str(anim.name)).with_suffix(ext))
@@ -629,9 +622,6 @@ class Unpacker(tk.Tk):
         def thread_load_data():
 
             data = data_module.get_data_file(path_data)
-            add_data = {
-                "p_file": p_file
-            }
 
             self.outer_progress_bar.change_label(f"Getting language file")
             lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
@@ -680,6 +670,10 @@ class Unpacker(tk.Tk):
 
         p_dir, p_file = os.path.split(path_data)
 
+        add_data = {
+            "p_file": p_file
+        }
+
         gen = image_gen.IGFactory.get(p_file)
 
         if gen is None:
@@ -694,6 +688,17 @@ class Unpacker(tk.Tk):
         print(f"Started generating images for {gen.assets_type} ({os.path.basename(path_data)})")
 
         generator_settings = self.data_from_popup
+
+        if gen.is_anim(generator_settings):
+            anim_types = tr_save.ANIM_SAVE_TYPES
+            cbs = CheckBoxes(anim_types, parent=self,
+                             label="Select animation extension to use.\n(GIF does not support partial transparency)",
+                             title="Select anim types")
+            cbs.wait_window()
+            add_data.update({
+                "selected_anim_types": cbs.return_data or {}
+            })
+
 
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
 

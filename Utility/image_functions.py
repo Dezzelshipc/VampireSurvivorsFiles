@@ -88,3 +88,50 @@ def get_anim_sprites_ready(anim: AnimationData, scale_factor: int = 1) -> list[I
         sprite = resize_image(sprite, scale_factor)
         sprites_list.append(sprite)
     return sprites_list
+
+
+from PIL import Image, ImageColor
+
+from PIL import Image
+
+
+def apply_tint(image_path, output_path, tint_color):
+    """
+    Apply tint by manually modifying pixel values.
+
+    Args:
+        image_path: Path to the input image
+        output_path: Path to save the tinted image
+        tint_color: RGB tuple for tint color (e.g., (255, 153, 0))
+    """
+    img = Image.open(image_path).convert('RGB')
+    pixels = img.load()
+
+    # Get image dimensions
+    width, height = img.size
+
+    # Process each pixel
+    for x in range(width):
+        for y in range(height):
+            r, g, b = pixels[x, y]
+
+            # Blend with tint color
+            r = int(r * tint_color[0] /255 )
+            g = int(g * tint_color[1] /255 )
+            b = int(b * tint_color[2] /255 )
+
+            pixels[x, y] = (r, g, b)
+
+
+
+    img.rotate(180).save(output_path)
+
+
+
+if __name__ == "__main__":
+    apply_tint(r"",
+               r"",
+               (255, 170, 255)
+               )
+
+    # (136,136, 238)

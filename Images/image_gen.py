@@ -3,6 +3,7 @@ import os
 import re
 import sys
 from enum import Enum
+from pathlib import Path
 
 import PIL.Image
 from PIL import Image, ImageFont, ImageDraw
@@ -13,6 +14,14 @@ from Utility.image_functions import get_anim_sprites_ready
 from Utility.meta_data import get_meta_by_name
 from Utility.sprite_data import SpriteData
 from Utility.utility import normalize_str
+
+THIS_FOLDER = Path(__file__).parent
+
+K_ID = "k_id"
+IS_K_ID = "is_k_id"
+ENUMERATE = "enumerate"
+
+FRAME_NAMES = "frameNames"
 
 
 # TODO: Rewrite to MetaDataHandler
@@ -119,8 +128,14 @@ class ImageGenerator:
         return obj[index]
 
     @staticmethod
-    def change_name(name):
+    def change_name(name: str):
         return re.sub(r'[<>:/|\\?*\"]', '', name.strip())
+
+    @staticmethod
+    def is_anim(settings):
+        return (settings.get(str(GenType.ANIM)) or
+                settings.get(str(GenType.SPECIAL_ANIM)) or
+                settings.get(str(GenType.DEATH_ANIM)))
 
     @staticmethod
     def get_frame(frame_name, meta, im):
@@ -141,9 +156,18 @@ class ImageGenerator:
 
     def get_name_clear_path(self, obj, name, lang_data, add_data) -> (str, str | None, str):
         clear_name = None
-        if self.dataObjectKey and lang_data:
-            name = clear_name = lang_data.get(self.dataObjectKey)
-        return name, clear_name, ""
+        add_path = ""
+
+        if obj.get(IS_K_ID):
+            name = add_data.get(K_ID)
+            add_path = "/ID"
+        elif self.dataObjectKey and lang_data and (tmp_name := lang_data.get(self.dataObjectKey)):
+            name = clear_name = tmp_name
+
+        if obj.get(ENUMERATE, 0) != 0:
+            name += f"-{obj.get(ENUMERATE) + 1}"
+
+        return name, clear_name, add_path
 
     def save_png(self, meta: dict[str, SpriteData], im: Image, file_name, name, save_folder, prefix_name=None,
                  scale_factor=1,
@@ -264,8 +288,10 @@ class ImageGenerator:
         im_frame_r.save(f"{sf_text}/{self.iconPrefix}-{name}.png")
 
     def save_anim(self, meta: dict[str, SpriteData], file_name, name, save_folder, prefix_name="Animated-",
-                  postfix_name="",
-                  save_append="", frame_rate=DEFAULT_ANIMATION_FRAME_RATE, scale_factor=1, base_duration=1000) -> None:
+                  postfix_name="", save_append="", frame_rate=DEFAULT_ANIMATION_FRAME_RATE, scale_factor=1,
+                  base_duration=1000, add_data: dict = None) -> None:
+
+        duration = base_duration // frame_rate
 
         sprite_data = meta.get(normalize_str(file_name))
 
@@ -275,25 +301,14 @@ class ImageGenerator:
 
         sprites = get_anim_sprites_ready(sprite_data.animation, scale_factor)
 
-        p_dir = os.path.split(__file__)[0]
-
-        sf_text = f'{p_dir}/Generated/{save_folder}/anim{save_append}'
-
-        os.makedirs(sf_text + "/gif", exist_ok=True)
-        os.makedirs(sf_text + "/gif_50_alpha", exist_ok=True)
-        os.makedirs(sf_text + "/webp", exist_ok=True)
-        os.makedirs(sf_text + "/apng", exist_ok=True)
-
-        total_duration = base_duration // frame_rate
+        sf_text = THIS_FOLDER / f'Generated/{save_folder}/anim{save_append}'
 
         name = self.change_name(name)
-        tr_save.save_transparent_gif2(sprites, total_duration, f"{sf_text}/gif/{prefix_name}{name}{postfix_name}.gif")
-        tr_save.save_transparent_gif2(sprites, total_duration,
-                                      f"{sf_text}/gif_50_alpha/{prefix_name}{name}{postfix_name}.gif",
-                                      alpha_threshold=50)
-        tr_save.save_transparent_webp(sprites, total_duration,
-                                      f"{sf_text}/webp/{prefix_name}{name}{postfix_name}.webp")
-        tr_save.save_transparent_apng(sprites, total_duration, f"{sf_text}/apng/{prefix_name}{name}{postfix_name}.png")
+
+        for ext, folder, func in itertools.compress(tr_save.SAVE_DATA, add_data["selected_anim_types"]):
+            path = sf_text.joinpath(folder)
+            path.mkdir(exist_ok=True, parents=True)
+            func(sprites, duration, path.joinpath(f"{prefix_name}{name}{postfix_name}{ext}"))
 
 
 class SimpleGenerator(ImageGenerator):
@@ -354,7 +369,7 @@ class SimpleGenerator(ImageGenerator):
 
         add_data.update({
             "func_meta": func_meta,
-            "k_id": k_id,
+            K_ID: k_id,
             "object": obj
         })
 
@@ -366,9 +381,7 @@ class SimpleGenerator(ImageGenerator):
 
         meta_data = get_meta_by_name(texture_name)
         meta_data.init_sprites()
-        if (settings.get(str(GenType.ANIM)) or
-                settings.get(str(GenType.SPECIAL_ANIM)) or
-                settings.get(str(GenType.DEATH_ANIM))):
+        if self.is_anim(settings):
             meta_data.init_animations()
 
         meta = meta_data.data_name
@@ -385,13 +398,15 @@ class SimpleGenerator(ImageGenerator):
 
         save_folder += add_save_path
 
+        if not obj.get(IS_K_ID) and k_id in name:
+            save_folder += "/No lang id"
+
         add_data.update({
             "clear_name": clear_name or name,
         })
 
         if pst:
             name += f"_{pst}"
-
 
         if osfp := obj.get("save_folder_postfix"):
             save_folder += osfp
@@ -418,28 +433,29 @@ class SimpleGenerator(ImageGenerator):
         if settings.get(str(GenType.ANIM)) and GenType.ANIM in using_list:
             if self.assets_type in [DataType.ENEMY]:
                 prep = self.get_prepared_frame(file_name, "i")
-                self.save_anim(meta, prep[0], name, save_folder, scale_factor=scale_factor)
+                self.save_anim(meta, prep[0], name, save_folder, scale_factor=scale_factor, add_data=add_data)
             else:
                 prep = self.get_prepared_frame(file_name)
                 self.save_anim(meta, prep[0], name, save_folder,
                                frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
-                               scale_factor=scale_factor)
+                               scale_factor=scale_factor, add_data=add_data)
 
                 prep = self.get_prepared_frame(file_name + "1")
                 self.save_anim(meta, prep[0], name + "__1", save_folder,
                                frame_rate=obj.get("walkFrameRate", DEFAULT_ANIMATION_FRAME_RATE),
-                               scale_factor=scale_factor)
+                               scale_factor=scale_factor, add_data=add_data)
 
         if settings.get(str(GenType.DEATH_ANIM)) and GenType.DEATH_ANIM in using_list:
             prep = self.get_prepared_frame(file_name)
             self.save_anim(meta, prep[0], name, save_folder, prefix_name="Animated-Death-", save_append="_death",
-                           frame_rate=20, scale_factor=scale_factor)
+                           frame_rate=20, scale_factor=scale_factor, add_data=add_data)
 
         if settings.get(str(GenType.SPECIAL_ANIM)) and GenType.SPECIAL_ANIM in using_list:
             prep = self.get_prepared_frame(file_name)
             self.save_anim(meta, prep[0], name, save_folder, prefix_name="Animated-",
                            postfix_name=obj.get("postfix_name"), save_append="_special",
-                           frame_rate=obj.get("frameRate", DEFAULT_ANIMATION_FRAME_RATE), scale_factor=scale_factor)
+                           frame_rate=obj.get("frameRate", DEFAULT_ANIMATION_FRAME_RATE), scale_factor=scale_factor,
+                           add_data=add_data)
 
 
 class ItemImageGenerator(SimpleGenerator):
@@ -587,7 +603,6 @@ class MusicIconsGenerator(SimpleGenerator):
                 and (true_index := check.index(True)) is not None
                 and (to_add := obj.get(postfix_list[true_index][1]))
         ):
-
             name += f"-{to_add}"
             add_save_path += f"/{to_add}"
         return name, None, add_save_path
@@ -910,7 +925,7 @@ class EnemyImageGenerator(TableGenerator):
         self.scaleFactor = 1
         self.dataSpriteKey = "frameNames"
         self.dataTextureKey = "textureName"
-        self.dataObjectKey = None
+        self.dataObjectKey = "bName"
         self.langFileName = "enemiesLang.json"
         self.dataAnimFramesKey = "idleFrameCount"
 
@@ -927,28 +942,49 @@ class EnemyImageGenerator(TableGenerator):
         return self.skins_generator(data)
 
     def skins_generator(self, data: dict):
+        variants_to_skip: set[str] = set()
         for k, vv in data.items():
             v = self.get_table_unit(vv, 0)
+            if (b_vars := v.get("bVariants")) and (v.get("bInclude")):
+                fn = vv[0][FRAME_NAMES]
+                for b_var in b_vars:
+                    variants_to_skip.add(b_var)
+                    if b_var in data:
+                        to_add = data[b_var][0].get(FRAME_NAMES)
+                        fn.extend(to_add)
+                vv[0][FRAME_NAMES] = list(dict.fromkeys(fn))
 
-            add_i = 0
-            if alias := v.get("alias"):
-                v1 = v.copy()
-                v1.update(alias)
-                for i, frame in enumerate(v1.get("frameNames")):
-                    enemy = v1.copy()
-                    enemy["frameNames"] = frame
-                    enemy["id"] = i
+        for k, vv in data.items():
+            if k in variants_to_skip:
+                continue
+
+            v = vv[0]
+
+            for is_k_id in [False, True]:
+                v[IS_K_ID] = is_k_id
+                add_i = 0
+                if alias := v.get("alias"):
+                    v1 = v.copy()
+                    v1.update(alias)
+                    for _, frame in enumerate(v1.get(FRAME_NAMES)):
+                        enemy = v1.copy()
+                        enemy[FRAME_NAMES] = frame
+                        enemy[ENUMERATE] = add_i
+
+                        add_i += 1
+
+                        yield k, enemy
+
+                    add_i = len(v1.get(FRAME_NAMES))
+
+                for _, frame in enumerate(v.get(FRAME_NAMES)):
+                    enemy = v.copy()
+                    enemy[FRAME_NAMES] = frame
+                    enemy[ENUMERATE] = add_i
+
+                    add_i += 1
 
                     yield k, enemy
-
-                add_i = len(v1.get("frameNames"))
-
-            for i, frame in enumerate(v.get("frameNames")):
-                enemy = v.copy()
-                enemy["frameNames"] = frame
-                enemy["id"] = i + add_i
-
-                yield k, enemy
 
 
 class StageImageGenerator(TableGenerator):

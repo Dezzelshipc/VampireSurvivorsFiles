@@ -20,4 +20,4 @@ class DeferConstants(metaclass=Singleton):
         return cls._is_pydub
 
 
-DEFAULT_ANIMATION_FRAME_RATE = 6
+DEFAULT_ANIMATION_FRAME_RATE = 7
