@@ -4,7 +4,7 @@ from math import log2, pow, ceil
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
 
-from PIL.Image import Image
+from PIL.Image import Image, new as image_new
 
 from Config.config import Config
 from Utility import unity_load_yaml
@@ -257,7 +257,7 @@ def gen_tilemap(path: Path, __is_full_auto=True) -> Path | None:
         size_map_y = max(size_map_y, int(_size['y']))
 
     size_tile_x, size_tile_y = handler.size_tile
-    im_map = Image.new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
+    im_map = image_new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
 
     args_create_tilemap = (
         (tilemap, im_map.copy(), meta_data, save_folder / f"{save_file}-Layer-{i}.png")

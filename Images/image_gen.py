@@ -5,7 +5,7 @@ import sys
 from enum import Enum
 from pathlib import Path
 
-from PIL.Image import Image, Resampling
+from PIL.Image import Image, Resampling, open as image_open, new as image_new
 from PIL import ImageFont, ImageDraw
 
 import Images.transparent_save as tr_save
@@ -280,7 +280,7 @@ class ImageGenerator:
         im_frame.alpha_composite(im_obj)
 
         im_frame_r = im_frame.resize((im_frame.size[0] * scale_factor, im_frame.size[1] * scale_factor),
-                                     Image.NEAREST)
+                                     Resampling.NEAREST)
 
         name = self.change_name(name)
         im_frame_r.save(f"{sf_text}/{self.iconPrefix}-{name}.png")
@@ -794,7 +794,7 @@ class CharacterImageGenerator(TableGenerator):
         p_dir = os.path.split(__file__)[0]
         p_file = f"{p_dir}/CharacterSelectFrame.png"
 
-        im = Image.open(p_file)
+        im = image_open(p_file)
         meta_data = {
             "rect": {
                 "x": 0, "y": 0, "width": im.width, "height": im.height
@@ -884,7 +884,7 @@ class CharacterImageGenerator(TableGenerator):
             w = font.getbbox(text)[2] + scale_factor
             h = (font.getbbox("|" + text + "|")[3] + scale_factor) * 2
 
-        canvas = Image.new('RGBA', (int(w), int(h)))
+        canvas = image_new('RGBA', (int(w), int(h)))
 
         draw = ImageDraw.Draw(canvas)
         draw.text((3, -5), text, "#ffffff", font, stroke_width=1)
@@ -1028,7 +1028,7 @@ class StageImageGenerator(TableGenerator):
             else:
                 break
 
-        canvas = Image.new('RGBA', (int(w), int(h)))
+        canvas = image_new('RGBA', (int(w), int(h)))
 
         draw = ImageDraw.Draw(canvas)
         draw.text((3, -5), text, "#eef92b", font, stroke_width=1)
