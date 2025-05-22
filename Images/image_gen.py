@@ -5,17 +5,15 @@ import sys
 from enum import Enum
 from pathlib import Path
 
-import PIL.Image
-from PIL import Image, ImageFont, ImageDraw
+from PIL.Image import Image, Resampling
+from PIL import ImageFont, ImageDraw
 
 import Images.transparent_save as tr_save
-from Utility.constants import DEFAULT_ANIMATION_FRAME_RATE
+from Utility.constants import DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER
 from Utility.image_functions import get_anim_sprites_ready
 from Utility.meta_data import get_meta_by_name
 from Utility.sprite_data import SpriteData
 from Utility.utility import normalize_str
-
-THIS_FOLDER = Path(__file__).parent
 
 K_ID = "k_id"
 IS_K_ID = "is_k_id"
@@ -225,7 +223,7 @@ class ImageGenerator:
             (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
 
         im_crop_r = im_crop.resize((im_crop.size[0] * scale_factor, im_crop.size[1] * scale_factor),
-                                   PIL.Image.NEAREST)
+                                   Resampling.NEAREST)
 
         p_dir = os.path.split(__file__)[0]
 
@@ -282,7 +280,7 @@ class ImageGenerator:
         im_frame.alpha_composite(im_obj)
 
         im_frame_r = im_frame.resize((im_frame.size[0] * scale_factor, im_frame.size[1] * scale_factor),
-                                     PIL.Image.NEAREST)
+                                     Image.NEAREST)
 
         name = self.change_name(name)
         im_frame_r.save(f"{sf_text}/{self.iconPrefix}-{name}.png")
@@ -301,7 +299,7 @@ class ImageGenerator:
 
         sprites = get_anim_sprites_ready(sprite_data.animation, scale_factor)
 
-        sf_text = THIS_FOLDER / f'Generated/{save_folder}/anim{save_append}'
+        sf_text = IMAGES_FOLDER / f'Generated/{save_folder}/anim{save_append}'
 
         name = self.change_name(name)
 
@@ -844,7 +842,7 @@ class CharacterImageGenerator(TableGenerator):
 
             sx, sy = im.size
             w_sprite = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
-            w_sprite = w_sprite.resize((w_sprite.size[0] * 4, w_sprite.size[1] * 4), PIL.Image.NEAREST)
+            w_sprite = w_sprite.resize((w_sprite.size[0] * 4, w_sprite.size[1] * 4), Resampling.NEAREST)
 
             w_sprite_black = w_sprite.copy()
 
@@ -862,7 +860,7 @@ class CharacterImageGenerator(TableGenerator):
 
             frame_im.alpha_composite(w_sprite, (weapon_offset["x"] - 8, weapon_offset["y"] - 4))
 
-        obj_im = obj_im.resize((int(obj_im.size[0] * 3.8), int(obj_im.size[1] * 3.8)), PIL.Image.NEAREST)
+        obj_im = obj_im.resize((int(obj_im.size[0] * 3.8), int(obj_im.size[1] * 3.8)), Resampling.NEAREST)
 
         frame_im.alpha_composite(obj_im, (12, frame_im.height - obj_im.height - 11))
 
@@ -1015,7 +1013,7 @@ class StageImageGenerator(TableGenerator):
         os.makedirs(sf_text + "/text", exist_ok=True)
 
         im_frame_r = im_obj.resize((im_obj.size[0] * scale_factor, im_obj.size[1] * scale_factor),
-                                   PIL.Image.NEAREST)
+                                   Resampling.NEAREST)
 
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()

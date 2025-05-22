@@ -11,8 +11,9 @@ from unityparser import UnityDocument
 import Data.data as data_handler
 import Translations.language as lang_handler
 from Config.config import Config
+from Utility.constants import GENERATED
 from Utility.meta_data import MetaDataHandler
-from Utility.multirun import run_concurrent_sync, run_gather, run_multiprocess, run_multiprocess_single
+from Utility.multirun import run_concurrent_sync, run_gather
 from Utility.timer import Timeit
 from Utility.utility import normalize_str
 
@@ -142,7 +143,7 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
     full_file_path = Path(__file__)
     f_path = full_file_path.parent
 
-    save_path = f_path.joinpath("Generated")
+    save_path = f_path / GENERATED
 
     music_data = data_handler.get_data_file(music_json_path)
 

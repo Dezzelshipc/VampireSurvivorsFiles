@@ -2,7 +2,7 @@ from collections.abc import Callable
 from pathlib import Path
 from tkinter import Image
 
-from PIL import Image
+from PIL.Image import Image, open as image_open
 from unityparser import UnityDocument
 
 from Config.config import Config, DLCType
@@ -180,7 +180,7 @@ def __get_meta(meta_path: Path) -> MetaData:
     meta_path_name = meta_path.name
     print(f"Started parsing {meta_path_name}")
     image_path = meta_path.with_suffix("")
-    image = Image.open(image_path)
+    image = image_open(image_path)
 
     doc = UnityDocument.load_yaml(meta_path, try_preserve_types=True)
     entry = doc.entry

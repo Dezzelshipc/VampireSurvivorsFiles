@@ -4,12 +4,11 @@
 # There is a long-standing issue with the Pillow library that messes up GIF transparency by replacing the
 # transparent pixels with black pixels (among other issues) when the GIF is saved using PIL.Image.save().
 # This code works around the issue and allows us to properly generate transparent GIFs.
-from os import PathLike
-from pathlib import Path
-from typing import Tuple, List, Union, Callable
 from collections import defaultdict
-from random import randrange
 from itertools import chain
+from os import PathLike
+from random import randrange
+from typing import Union, Callable
 
 from PIL.Image import Image
 
@@ -112,11 +111,11 @@ class TransparentAnimatedGifConverter(object):
         return self._img_p
 
 
-def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], save_format: str,
-                         alpha_threshold: int = 0) -> Tuple[Image, dict]:
+def _create_animated_gif(images: list[Image], durations: Union[int, list[int]], save_format: str,
+                         alpha_threshold: int = 0) -> tuple[Image, dict]:
     """If the image is a GIF, create an its thumbnail here."""
     save_kwargs = dict()
-    new_images: List[Image] = []
+    new_images: list[Image] = []
 
     for frame in images:
         thumbnail = frame.copy()  # type: Image
@@ -138,8 +137,8 @@ def _create_animated_gif(images: List[Image], durations: Union[int, List[int]], 
     return output_image, save_kwargs
 
 
-def _create_animated(images: List[Image], durations: Union[int, List[int]], save_format: str, disposal: int = 2) -> \
-Tuple[Image, dict]:
+def _create_animated(images: list[Image], durations: Union[int, list[int]], save_format: str, disposal: int = 2) -> \
+tuple[Image, dict]:
     """If the image is a GIF, create an its thumbnail here."""
     save_kwargs = dict()
 
@@ -162,7 +161,7 @@ def save_transparent_gif(images: list[Image], durations: Union[int, list[int]], 
 
     Parameters:
         images: a list of PIL Image objects that compose the GIF frames
-        durations: an int or List[int] that describes the animation durations for the frames of this GIF
+        durations: an int or list[int] that describes the animation durations for the frames of this GIF
         save_file: A filename (string), pathlib.Path object or file object. (This parameter corresponds
                    and is passed to the PIL.Image.save() method.)
         alpha_threshold: absolute value of alpha channel

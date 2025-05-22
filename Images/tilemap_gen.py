@@ -4,7 +4,7 @@ from math import log2, pow, ceil
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
 
-from PIL import Image
+from PIL.Image import Image
 
 from Config.config import Config
 from Utility import unity_load_yaml

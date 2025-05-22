@@ -1,15 +1,12 @@
 """Test availability of required packages."""
 import asyncio
-import itertools
 import sys
-from itertools import repeat
-from pathlib import Path
 from importlib.metadata import version, PackageNotFoundError
-from typing import Generator, AsyncGenerator, Any, Coroutine
+from pathlib import Path
 
-from pip._internal.req.req_file import parse_requirements
-from pip._internal.req.constructors import install_req_from_parsed_requirement
 from pip._internal.network.session import PipSession
+from pip._internal.req.constructors import install_req_from_parsed_requirement
+from pip._internal.req.req_file import parse_requirements
 
 _REQUIREMENTS_PATH = Path(__file__).parent.with_name("requirements.txt")
 

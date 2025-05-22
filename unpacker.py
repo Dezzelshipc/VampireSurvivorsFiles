@@ -12,6 +12,7 @@ from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
 
 import yaml
+from PIL.Image import open as image_open
 
 import Config.config as config
 import Data.data as data_module
@@ -19,8 +20,9 @@ import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
 import Translations.language as lang_module
 from Config.config import CfgKey, DLCType
-from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE
-from Utility.image_functions import resize_image, get_anim_sprites_ready
+from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
+    GENERATED, TILEMAPS
+from Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
 from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
 from Utility.utility import CheckBoxes, ButtonsBox
@@ -115,7 +117,7 @@ class Unpacker(tk.Tk):
             self.parent.data_from_popup.update({"exit": self.exit})
             self.destroy()
 
-    def __init__(self, width=650, height=350):
+    def __init__(self, width=650, height=370):
         super().__init__()
         self.minsize(width, height)
 
@@ -243,21 +245,29 @@ class Unpacker(tk.Tk):
 
         ttk.Button(
             self,
-            text="Get stage tilemap",
-            command=self.tilemap_gen_handler
-        ).grid(row=9, column=2)
-
-        ttk.Button(
-            self,
             text="Get unified audio",
             command=self.audio_gen_handler
-        ).grid(row=10, column=2)
+        ).grid(row=9, column=2)
 
         ttk.Button(
             self,
             text="Magic button to\nrip data automatically",
             command=self.data_ripper
         ).grid(row=9, column=0)
+
+        ttk.Label(self, text="").grid(row=10, column=1)
+
+        ttk.Button(
+            self,
+            text="Get stage tilemap",
+            command=self.tilemap_gen_handler
+        ).grid(row=11, column=1)
+
+        ttk.Button(
+            self,
+            text="Create inv tilemap",
+            command=self.create_inverse_tilemap
+        ).grid(row=11, column=2)
 
         self.loaded_meta = dict()
 
@@ -699,7 +709,6 @@ class Unpacker(tk.Tk):
                 "selected_anim_types": cbs.return_data or {}
             })
 
-
         self.outer_progress_bar = self.ProgressBar(self, f"Parsing {p_file}")
 
         t = threading.Thread(target=thread_load_data)
@@ -823,6 +832,46 @@ class Unpacker(tk.Tk):
         rip_files(dlc_types_set)
 
         print("Finished ripping files")
+
+    def create_inverse_tilemap(self):
+        selecting_path = IMAGES_FOLDER / GENERATED / TILEMAPS
+        while not selecting_path.exists():
+            selecting_path = selecting_path.parent
+
+        filetypes = [
+            ('Images', '*.png')
+        ]
+
+        full_path = fd.askopenfilename(
+            title='Open an image file of tilemap',
+            initialdir=selecting_path,
+            filetypes=filetypes
+        )
+
+        if not full_path:
+            return
+
+        tint_dec_int = askinteger("Enter tint", "Enter tint in form of integer base 10")
+        tint = (
+            (tint_dec_int >> 16) & 0xff,
+            (tint_dec_int >> 8) & 0xff,
+            tint_dec_int & 0xff
+        )
+
+        is_create = askyesno("Create inverse?",
+                             f"Create inverse with {tint=} [ {tint_dec_int} / {hex(tint_dec_int).upper()[2:]} ]")
+        if not is_create:
+            return
+
+        full_path = Path(full_path)
+        save_path = full_path.parent / "Inverse" / full_path.name
+
+        image = image_open(full_path)
+
+        save_path.parent.mkdir(exist_ok=True, parents=True)
+        apply_tint(image, tint).rotate(180).save(save_path)
+
+        self.last_loaded_folder = save_path.parent
 
 
 if __name__ == '__main__':

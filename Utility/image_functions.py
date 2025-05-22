@@ -1,8 +1,7 @@
 import re
 
-from PIL import Image, ImageOps
-from PIL.Image import Resampling
-from matplotlib.animation import Animation
+from PIL import ImageOps
+from PIL.Image import Image, Resampling
 
 from Utility.sprite_data import SpriteData, SpriteRect, AnimationData
 
@@ -18,11 +17,11 @@ def crop_image_rect_left_top(image: Image, rect: SpriteRect | dict) -> Image:
     return image.crop((_rect.x, _rect.y, _rect.width + _rect.x, _rect.height + _rect.y))
 
 
-def resize_image(image: Image, scale_factor: float) -> Image:
+def resize_image(image: Image, scale_factor: int) -> Image:
     return image.resize((image.size[0] * scale_factor, image.size[1] * scale_factor), Resampling.NEAREST)
 
 
-def resize_list_images(images: list[Image], scale_factor: float) -> list[Image]:
+def resize_list_images(images: list[Image], scale_factor: int) -> list[Image]:
     return list(map(resize_image, images, (scale_factor,) * len(images)))
 
 
@@ -90,48 +89,25 @@ def get_anim_sprites_ready(anim: AnimationData, scale_factor: int = 1) -> list[I
     return sprites_list
 
 
-from PIL import Image, ImageColor
-
-from PIL import Image
-
-
-def apply_tint(image_path, output_path, tint_color):
-    """
-    Apply tint by manually modifying pixel values.
-
-    Args:
-        image_path: Path to the input image
-        output_path: Path to save the tinted image
-        tint_color: RGB tuple for tint color (e.g., (255, 153, 0))
-    """
-    img = Image.open(image_path).convert('RGB')
+def apply_tint(image: Image, tint_color: tuple[int, int, int]) -> Image:
+    img = image.copy().convert('RGB')
     pixels = img.load()
 
-    # Get image dimensions
     width, height = img.size
 
-    # Process each pixel
     for x in range(width):
         for y in range(height):
             r, g, b = pixels[x, y]
 
-            # Blend with tint color
-            r = int(r * tint_color[0] /255 )
-            g = int(g * tint_color[1] /255 )
-            b = int(b * tint_color[2] /255 )
+            r = int(r * tint_color[0] / 255)
+            g = int(g * tint_color[1] / 255)
+            b = int(b * tint_color[2] / 255)
 
             pixels[x, y] = (r, g, b)
 
-
-
-    img.rotate(180).save(output_path)
-
+    return img
 
 
 if __name__ == "__main__":
-    apply_tint(r"",
-               r"",
-               (255, 170, 255)
-               )
-
-    # (136,136, 238)
+    pass
+    # (255, 170, 255) (136,136, 238)

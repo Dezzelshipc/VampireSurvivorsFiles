@@ -9,6 +9,18 @@ IS_DEBUG: bool = (sys.monitoring.get_tool(sys.monitoring.DEBUGGER_ID)) is not No
 
 ROOT_FOLDER = Path(__file__).parent.parent.absolute()
 
+AUDIO_FOLDER = ROOT_FOLDER / "Audio"
+CONFIG_FOLDER = ROOT_FOLDER / "Config"
+DATA_FOLDER = ROOT_FOLDER / "Data"
+IMAGES_FOLDER = ROOT_FOLDER / "Images"
+RIPPER_FOLDER = ROOT_FOLDER / "Ripper"
+TRANSLATIONS_FOLDER = ROOT_FOLDER / "Translations"
+UTILITY_FOLDER = ROOT_FOLDER / "Utility"
+
+GENERATED = "Generated"
+TILEMAPS = "_Tilemaps"
+
+
 class DeferConstants(metaclass=Singleton):
     _pydub_defer_checker = check_pydub_defer()
     _is_pydub = None

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from tkinter import Image
+from PIL.Image import Image
 
 from typing import TypeVar, Iterator
 
