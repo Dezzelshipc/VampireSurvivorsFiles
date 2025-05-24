@@ -3,9 +3,9 @@ from pathlib import Path
 from tkinter import Image
 
 from PIL.Image import Image, open as image_open
-from unityparser import UnityDocument
 
 from Config.config import Config, DLCType
+from Utility.unityparser2 import unity_load_yaml
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
 from Utility.multirun import run_multiprocess
 from Utility.singleton import Singleton
@@ -182,8 +182,9 @@ def __get_meta(meta_path: Path) -> MetaData:
     image_path = meta_path.with_suffix("")
     image = image_open(image_path)
 
-    doc = UnityDocument.load_yaml(meta_path, try_preserve_types=True)
-    entry = doc.entry
+    with open(meta_path) as fm:
+        doc = unity_load_yaml(fm, try_preserve_types=True)
+        entry = doc.entry
 
     internal_id_to_name_table = entry["TextureImporter"]["internalIDToNameTable"]
     sprites_data = entry["TextureImporter"]["spriteSheet"]["sprites"]
