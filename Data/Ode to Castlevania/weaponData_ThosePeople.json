@@ -3189,6 +3189,7 @@
       "frameName": "TP_CONFODERE1.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
+	  "evoInto": "TP_CONFODERE2",
       "price": 50,
       "description": "-",
       "tips": "-",
@@ -3248,6 +3249,7 @@
         "TP_CONFODERE2",
         "TP_CONFODERE3"
       ],
+	  "evoInto": "TP_CONFODERE3",
       "rarity": 50,
       "interval": 2000,
       "repeatInterval": 75,

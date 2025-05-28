@@ -1272,7 +1272,7 @@
           "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "character_tp_john",
-          "spriteName": "TP_John_i01.png",
+          "spriteName": "TP_John_i02.png",
           "walkingFrames": 4,
           "unlocked": true,
           "headOffsets": [
@@ -1287,7 +1287,7 @@
           "skinType": "SKIN_TP_JOHN_2CA",
           "name": "SKIN_TP_JOHN_2CA",
           "textureName": "character_tp_john",
-          "spriteName": "TP_John_i01.png",
+          "spriteName": "TP_John_i02.png",
           "walkingFrames": 4,
           "unlocked": false,
           "headOffsets": [
@@ -1302,7 +1302,7 @@
           "skinType": "SKIN_TP_JOHN_3MS",
           "name": "SKIN_TP_JOHN_3MS",
           "textureName": "character_tp_john",
-          "spriteName": "TP_John_i01.png",
+          "spriteName": "TP_John_i02.png",
           "walkingFrames": 4,
           "unlocked": false,
           "headOffsets": [
@@ -1484,7 +1484,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         },
         {
           "skinType": "SKIN_TP_JONHATHAN_COATOFARMS",
@@ -1502,7 +1540,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         },
         {
           "skinType": "SKIN_TP_JONHATHAN_SPECTRALSWORD",
@@ -1520,7 +1596,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         }
       ]
     },
@@ -6638,7 +6752,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         },
         {
           "skinType": "SKIN_TP_JONHATHAN_MORNINGSTAR",
@@ -6656,7 +6808,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         },
         {
           "skinType": "SKIN_TP_JONHATHAN_COATOFARMS",
@@ -6674,7 +6864,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         },
         {
           "skinType": "SKIN_TP_JONHATHAN_SPECTRALSWORD",
@@ -6692,7 +6920,45 @@
               "x": 0,
               "y": -5
             }
-          ]
+          ],
+          "spriteAnims": {
+            "meleeAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_melee01.png",
+              "framesNumber": 6,
+              "frameRate": 12,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "rangedAttack": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_ranged01.png",
+              "framesNumber": 7,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            },
+            "idleAnimation": {
+              "textureName": "character_tp_jonathanandcharlotte",
+              "spriteName": "TP_Jonathan_i01.png",
+              "framesNumber": 1,
+              "frameRate": 8,
+              "headOffsets": [
+                {
+                  "x": 0,
+                  "y": -5
+                }
+              ]
+            }
+          }
         }
       ]
     },
@@ -9681,7 +9947,11 @@
         "AMOUNT"
       ],
       "exWeapons": [],
-      "hiddenWeapons" :[      ]
+      "hiddenWeapons" :[      ],
+      "onEveryLevelUp": {
+        "power": 0.01,
+        "revivals": 0.01
+      }
     },
     {
       "level": 20,
