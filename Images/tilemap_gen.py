@@ -7,7 +7,7 @@ from tkinter.messagebox import showerror, askyesno
 from PIL.Image import Image, new as image_new
 
 from Config.config import Config
-from Utility import unity_load_yaml
+from Utility.unityparser2 import unity_load_yaml
 from Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
 from Utility.multirun import run_multiprocess, run_concurrent_sync

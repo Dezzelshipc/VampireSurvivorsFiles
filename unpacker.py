@@ -358,7 +358,7 @@ class Unpacker(tk.Tk):
 
         generate_function(full_path)
 
-    def generate_images_by_meta(self, full_path):
+    def generate_images_by_meta(self, full_path: Path):
         file = full_path.name
 
         print(f"Generating {file} by meta")
@@ -366,11 +366,16 @@ class Unpacker(tk.Tk):
         scale_factor = askinteger("Scale", "Input scale multiplier", initialvalue=1)
         if not scale_factor: return
 
-        data = get_meta_by_name(file)
+        full_path_meta = full_path.with_name(file + ".meta")
+        mdh = MetaDataHandler()
 
-        if not data:
-            showerror("Error", f"MetaData not found for {file}")
-            return
+        if not mdh.has_meta(full_path_meta):
+            if not full_path_meta.exists():
+                showerror("Error", f"MetaData not found for {file}")
+                return
+            mdh.add_meta_data(full_path_meta)
+
+        data = get_meta_by_name(file)
 
         data.init_sprites()
 

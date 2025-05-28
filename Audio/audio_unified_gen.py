@@ -6,11 +6,11 @@ from pathlib import Path
 from typing import Literal
 
 from pydub import AudioSegment
-from unityparser import UnityDocument
 
 import Data.data as data_handler
 import Translations.language as lang_handler
 from Config.config import Config
+from Utility.unityparser2 import unity_load_yaml
 from Utility.constants import GENERATED
 from Utility.meta_data import MetaDataHandler
 from Utility.multirun import run_concurrent_sync, run_gather
@@ -47,7 +47,7 @@ def _get_music_playlists() -> list[dict]:
     print(f"Parsing audio prefabs ({len(audio_prefabs)})... ", end=" ")
 
     args_load = (audio_prefab.with_suffix("") for audio_prefab in audio_prefabs)
-    uds = run_concurrent_sync(UnityDocument.load_yaml, args_load)
+    uds = run_concurrent_sync(unity_load_yaml, args_load)
 
     print(f"Finished parsing audio prefabs ({timeit:.2f} sec)")
 
