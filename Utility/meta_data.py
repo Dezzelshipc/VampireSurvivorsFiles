@@ -7,7 +7,7 @@ from PIL.Image import Image, open as image_open
 from Config.config import Config, DLCType
 from Utility.unityparser2 import unity_load_yaml
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
-from Utility.multirun import run_multiprocess
+from Utility.multirun import run_multiprocess, run_multiprocess_single
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
@@ -46,7 +46,7 @@ class MetaDataHandler(metaclass=Singleton):
         for this_dir in dirs:
             self._found_files.extend(this_dir.rglob("*.meta"))
 
-        # deduplication
+        ### deduplication
         files_by_stem = {}
         for f in self._found_files:
             name_norm = normalize_str(f)
@@ -61,7 +61,7 @@ class MetaDataHandler(metaclass=Singleton):
                     list(reversed(sorted(f_list, key=lambda x: 1e10 * int("png" in x.name) + x.stat().st_size)))[0])
             else:
                 biggest_files.append(f_list[0])
-        #
+        ###
 
         self._assets_name_path.update({normalize_str(f): f for f in biggest_files})
         print(f"Loaded {len(self._found_files)} meta paths ({timeit:.2f} sec)")
@@ -72,9 +72,19 @@ class MetaDataHandler(metaclass=Singleton):
         if not self._assets_guid_path:
             print("Started collecting guid of every asset")
             timeit = Timeit()
-            guid_path = run_multiprocess(_get_meta_guid, self._found_files, is_many_args=False)
+            guid_path = run_multiprocess_single(_get_meta_guid, self._found_files)
             self._assets_guid_path.update(guid_path)
             print(f"Finished collecting guid of every asset ({timeit:.2f} sec)")
+
+    def add_meta_data(self, path: Path) -> None:
+        norm = normalize_str(path)
+        self._assets_name_path.update({norm: path})
+        guid_path = _get_meta_guid(path)
+        self._assets_guid_path.update([guid_path])
+
+    def has_meta(self, path: Path) -> bool:
+        norm = normalize_str(path)
+        return norm in self._assets_name_path
 
     def get_path_by_name(self, name: str) -> Path | None:
         return self._assets_name_path.get(normalize_str(name))

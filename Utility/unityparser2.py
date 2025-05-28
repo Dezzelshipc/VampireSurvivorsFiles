@@ -136,7 +136,7 @@ def _split_yaml_string(entry_index: int, entry: str) -> list[tuple[int, int, str
 
     FIRST = "- first"
 
-    if FIRST not in entry:
+    if not re.search(r"\s{2,}-", entry).start() or len(entry) < 1e5:
         return [(entry_index, 0, entry)]
 
     header: str = ""
@@ -230,7 +230,8 @@ if __name__ == "__main__":
     # fp = r"C:\Programs\GitHub\VampireSurvivorsFiles_RAW_no_git\0VS\ExportedProject\Assets\GameObject\AstralStair.prefab"
     # fp = r"C:\Programs\GitHub\VampireSurvivorsFiles_RAW_no_git\0VS\ExportedProject\Assets\GameObject\CarloCart.prefab"
     # fp = r"C:\Programs\GitHub\VampireSurvivorsFiles_RAW_no_git\0VS\ExportedProject\Assets\GameObject\Coop.prefab"
-    fp = r"C:\Programs\GitHub\VampireSurvivorsFiles\Images\Generated\_Tilemaps\__Test\Coop_t.prefab"
+    # fp = r"C:\Programs\GitHub\VampireSurvivorsFiles\Images\Generated\_Tilemaps\__Test\Coop_t.prefab"
+    fp = r"C:\Programs\GitHub\VampireSurvivorsFiles\Images\Generated\_Tilemaps\__Test\Coop_t2.prefab"
 
     fp = Path(fp)
 
@@ -257,7 +258,7 @@ if __name__ == "__main__":
 
         assert par == seq
 
-    # __timeit()
+    __timeit()
 
 
     def __profile():
@@ -274,6 +275,6 @@ if __name__ == "__main__":
             pr.print_stats('time')
 
 
-    __profile()
+    # __profile()
 
     pass
