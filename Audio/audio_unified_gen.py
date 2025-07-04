@@ -10,11 +10,11 @@ from pydub import AudioSegment
 import Data.data as data_handler
 import Translations.language as lang_handler
 from Config.config import Config
-from Utility.unityparser2 import unity_load_yaml
 from Utility.constants import GENERATED
 from Utility.meta_data import MetaDataHandler
 from Utility.multirun import run_concurrent_sync, run_gather
 from Utility.timer import Timeit
+from Utility.unityparser2 import UnityDoc
 from Utility.utility import normalize_str
 
 
@@ -47,13 +47,16 @@ def _get_music_playlists() -> list[dict]:
     print(f"Parsing audio prefabs ({len(audio_prefabs)})... ", end=" ")
 
     args_load = (audio_prefab.with_suffix("") for audio_prefab in audio_prefabs)
-    uds = run_concurrent_sync(unity_load_yaml, args_load)
+    uds = run_concurrent_sync(UnityDoc.yaml_parse_file_smart, args_load)
 
     print(f"Finished parsing audio prefabs ({timeit:.2f} sec)")
 
-    music_playlists = [item for ud in uds for pl in
-                       ud.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",)) for item in
-                       pl.musicPlaylists]
+    music_playlists = [
+        item
+        for ud in uds
+        for pl in ud.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",))
+        for item in pl.get("musicPlaylists")
+    ]
 
     return music_playlists
 
@@ -169,7 +172,8 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
                             if bgm not in convert:
                                 convert[bgm] = set()
 
-                            is_b_side = (bgm_key == bgm_keys[-1]) and (convert[bgm] not in (data_key, data_entry_id, False))
+                            is_b_side = (bgm_key == bgm_keys[-1]) and (
+                                        convert[bgm] not in (data_key, data_entry_id, False))
 
                             convert[bgm].add((data_key, data_entry_id, is_b_side))
 
@@ -281,7 +285,6 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
                 cur_type = datas[data_key]["type"]
                 cur_obj = datas[data_key]["lang"].get(data_entry_id) or {}
                 name = cur_obj.get(key_name) or code_name
-
 
                 surname = cur_obj.get('surname') or " "
                 space2 = surname[0] not in [":", ","] and " " or ""

@@ -1,12 +1,11 @@
 import itertools
-import math
 import os
 import re
 from dataclasses import dataclass
 from io import StringIO
 from itertools import starmap
 from pathlib import Path
-from typing import TextIO, Self, Callable
+from typing import TextIO, Self, Callable, Iterable
 
 import yaml
 from yaml import Node, MappingNode, Loader
@@ -20,39 +19,27 @@ from yaml.scanner import Scanner
 from Utility.multirun import run_multiprocess
 from Utility.timer import Timeit
 
+MAX_PARSE_BATCH_SIZE = 1 << 12
 
-def unity_load_yaml(text_io: TextIO, try_preserve_types=False):
-    """
-    :param text_io: Text wrapper of text to parse
-    :param try_preserve_types: If true, will deserialize what seems to be int and float types to the same Python
-        data types instead of deserializing them all as the string type. When/if this value is later serialized
-        back it might be represented differently in some corner cases.
-    """
-    from unityparser.loader import SmartUnityLoader
-    from unityparser.register import UnityScalarRegister
-    from unityparser.utils import load_all
-    from unityparser import UnityDocument
-    from unityparser.loader import UnityLoader
-    from unityparser.utils import UNIX_LINE_ENDINGS
-
-    loader_cls = SmartUnityLoader if try_preserve_types else UnityLoader
-    register = UnityScalarRegister()
-    with text_io as fp:
-        loader = loader_cls(fp)
-        loader.check_data()
-        fp.seek(0)
-        version = loader.yaml_version
-        tags = loader.non_default_tags
-        data = [d for d in load_all(fp, register, loader_cls)]
-        # use document line endings if no mixed lien endings found, else default to linux
-        line_endings = UNIX_LINE_ENDINGS if isinstance(fp.newlines, tuple) else fp.newlines
-    doc = UnityDocument(data, newline=line_endings, file_path=None, register=register, version=version,
-                        tags=tags)
-    return doc
 
 @dataclass
 class UnityDoc:
     entries: list["UnityYAMLEntry"]
+
+    def __getattribute__(self, item):
+        if item == "entry":
+            return self.entries[0]
+        return super().__getattribute__(item)
+
+    def filter(self, class_names: Iterable[str] | None = None, attributes: Iterable[str] | None = None):
+        entries = self.entries
+        if class_names:
+            s_class_names = set(class_names)
+            entries = filter(lambda x: x and ( x.className in s_class_names ), entries)
+        if attributes:
+            s_attributes = set(attributes)
+            entries = filter(lambda x: x and ( s_attributes <= x.get_attrs() ), entries)
+        return list(entries)
 
     @staticmethod
     def yaml_parse_text_smart(text: str) -> Self:
@@ -99,7 +86,7 @@ class UnityDoc:
         text_split_enum: enumerate[str] = enumerate(map(lambda x: unity_tag + x, text_split))
 
         text_split_parts_list = starmap(_split_yaml_string, text_split_enum)
-        text_split_parts = (part for parts in text_split_parts_list for part in parts) # flatten
+        text_split_parts = (part for parts in text_split_parts_list for part in parts)  # flatten
 
         entries_parts = run_multiprocess(_yaml_load_part, text_split_parts)
 
@@ -128,7 +115,6 @@ def _yaml_load_part(i: int, j: int, entry: str) -> tuple[int, int, "UnityYAMLEnt
     return i, j, yaml.load(entry, UnityLoaderR)
 
 
-MAX_PARSE_BATCH_SIZE = 1 << 12
 def _split_yaml_string(entry_index: int, entry: str) -> list[tuple[int, int, str]]:
     """
     Assumption: Only long part is dictionary in form of " - first: ... second: ... " (m_Tiles)
@@ -136,7 +122,8 @@ def _split_yaml_string(entry_index: int, entry: str) -> list[tuple[int, int, str
 
     FIRST = "- first"
 
-    if not re.search(r"\s{2,}-", entry).start() or len(entry) < 1e5:
+    search = re.search(r"\s{2,}-", entry)
+    if not search or not search.start() or len(entry) < 1e5:
         return [(entry_index, 0, entry)]
 
     header: str = ""
@@ -183,6 +170,7 @@ def _split_yaml_string(entry_index: int, entry: str) -> list[tuple[int, int, str
 
     return ret
 
+
 @dataclass
 class UnityYAMLEntry:
     className: str
@@ -193,9 +181,15 @@ class UnityYAMLEntry:
     def __repr__(self):
         return f"<{self.__class__.__name__} className={self.className}, fileID={self.fileID}>"
 
+    def get(self, item):
+        return self.data.get(item)
+
     def extend_data(self, other: Self):
         assert self.fileID == other.fileID
         self.data["m_Tiles"].extend(other.data["m_Tiles"])
+
+    def get_attrs(self):
+        return set(self.data.keys())
 
 
 class UnityParserR(Parser):
@@ -237,7 +231,7 @@ if __name__ == "__main__":
 
 
     def __timeit():
-        from unityparser import UnityDocument
+        # from unityparser import UnityDocument
 
         timeit = Timeit()
         par = UnityDoc.yaml_parse_file_parallel(fp)
@@ -251,12 +245,12 @@ if __name__ == "__main__":
         seq = UnityDoc.yaml_parse_file(fp)
         print(timeit)
 
-
         # timeit = Timeit()
         # UnityDocument.load_yaml(fp)
         # print(timeit)
 
         assert par == seq
+
 
     __timeit()
 

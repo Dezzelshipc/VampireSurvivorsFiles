@@ -5,12 +5,12 @@ from tkinter import Image
 from PIL.Image import Image, open as image_open
 
 from Config.config import Config, DLCType
-from Utility.unityparser2 import unity_load_yaml
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
 from Utility.multirun import run_multiprocess, run_multiprocess_single
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
+from Utility.unityparser2 import UnityDoc
 from Utility.utility import normalize_str
 
 
@@ -192,9 +192,8 @@ def __get_meta(meta_path: Path) -> MetaData:
     image_path = meta_path.with_suffix("")
     image = image_open(image_path)
 
-    with open(meta_path) as fm:
-        doc = unity_load_yaml(fm, try_preserve_types=True)
-        entry = doc.entry
+    doc = UnityDoc.yaml_parse_file(meta_path)
+    entry = doc.entry
 
     internal_id_to_name_table = entry["TextureImporter"]["internalIDToNameTable"]
     sprites_data = entry["TextureImporter"]["spriteSheet"]["sprites"]
@@ -285,8 +284,7 @@ def get_meta_by_guid_set(guid_set: set, is_multiprocess=True) -> set[MetaData]:
 
     if not_loaded_guid_set:
         paths = [handler.get_path_by_guid(guid) for guid in not_loaded_guid_set]
-        loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False,
-                                                       is_multiprocess=is_multiprocess)
+        loaded_data: list[MetaData] = run_multiprocess_single(__get_meta, paths, is_multiprocess=is_multiprocess)
 
         for data_file in loaded_data:
             handler.loaded_assets_meta.update({

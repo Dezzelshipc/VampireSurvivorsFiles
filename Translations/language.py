@@ -88,7 +88,8 @@ def get_lang_file(path):
 
 def copy_lang_file() -> Tuple[Path | None, None | str]:
     handler = MetaDataHandler()
-    if not ((path := handler.get_path_by_name_no_meta("i2languages")) and path.exists()):
+    path = handler.get_path_by_name_no_meta("i2languages")
+    if not (path and path.exists()):
         return None, f"Languages file not found"
 
     with open(path, 'r', encoding="UTF-8") as f:

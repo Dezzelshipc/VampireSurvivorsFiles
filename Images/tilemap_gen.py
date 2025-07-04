@@ -1,5 +1,4 @@
 import itertools
-from io import StringIO
 from math import log2, pow, ceil
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
@@ -7,13 +6,13 @@ from tkinter.messagebox import showerror, askyesno
 from PIL.Image import Image, new as image_new
 
 from Config.config import Config
-from Utility.unityparser2 import unity_load_yaml
 from Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
 from Utility.multirun import run_multiprocess, run_concurrent_sync
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, SpriteRect
 from Utility.timer import Timeit
+from Utility.unityparser2 import UnityDoc, UnityYAMLEntry
 from Utility.utility import CheckBoxes, write_in_file_end, clear_file
 
 THIS_FOLDER = Path(__file__).parent
@@ -33,13 +32,13 @@ class TilemapDataHandler(metaclass=Singleton):
 
 
 class Tilemap:
-    def __init__(self, doc):
-        self.m_Size = doc.m_Size
-        self.m_TileMatrixArray = doc.m_TileMatrixArray
-        self.m_TileSpriteArray = doc.m_TileSpriteArray
-        self.m_Tiles = doc.m_Tiles
+    def __init__(self, doc: UnityYAMLEntry):
+        self.m_Size = doc.get("m_Size")
+        self.m_TileMatrixArray = doc.get("m_TileMatrixArray")
+        self.m_TileSpriteArray = doc.get("m_TileSpriteArray")
+        self.m_Tiles = doc.get("m_Tiles")
 
-    def extend_tilemap(self, other):
+    def extend_tilemap(self, other: "Tilemap"):
         self.m_Tiles.extend(other.m_Tiles)
 
 
@@ -139,7 +138,7 @@ def __load_UnityDocument(path: Path) -> tuple[list[Tilemap | None], int]:
 def __load_UnityDocument_part(header: list[str], tilemap: list[str], index_prefab: int, index_part: int) -> \
         tuple[Tilemap, int, int]:
 
-    doc = unity_load_yaml(StringIO("".join(header) + "".join(tilemap)))
+    doc = UnityDoc.yaml_parse_text("".join(header) + "".join(tilemap))
 
     return Tilemap(doc.entry), index_prefab, index_part
 
