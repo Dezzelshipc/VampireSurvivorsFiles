@@ -7,7 +7,7 @@ from Utility.constants import IS_DEBUG
 
 
 def run_multiprocess[** P, T](func: Callable[P, T], args: Iterable[P.args], is_many_args=True, is_multiprocess=True,
-                              processes=None) -> list[T]:
+                              processes=None, is_generator=False) -> list[T]:
     """
     Applies sync function to list of arguments in multiprocessing environment and returns list of results
 
@@ -16,6 +16,7 @@ def run_multiprocess[** P, T](func: Callable[P, T], args: Iterable[P.args], is_m
     :param is_many_args: Should be set to False when args is a list of values. Default: True
     :param is_multiprocess: When set to False, disables multiprocessing environment and instead calls list comprehension. Default: True
     :param processes: Number of processes to use. Default: None (auto)
+    :param is_generator: When is_generator==True and is_multiprocess==False then list generator will be returned. Default: False
     :return: List of functions results
     """
     is_config_mp = Config().get_multiprocessing() and not IS_DEBUG
@@ -27,7 +28,8 @@ def run_multiprocess[** P, T](func: Callable[P, T], args: Iterable[P.args], is_m
             else:
                 return p.map(func, args)
     else:
-        return [is_many_args and func(*arg) or func(arg) for arg in args]
+        gen = (is_many_args and func(*arg) or func(arg) for arg in args)
+        return gen if is_generator else list(gen)
 
 
 def run_multiprocess_single[** P, T](func: Callable[P, T], args: Iterable[P.args], is_multiprocess=True,

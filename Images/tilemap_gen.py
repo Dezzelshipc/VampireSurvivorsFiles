@@ -2,6 +2,7 @@ import itertools
 from math import log2, pow, ceil
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
+from typing import Callable
 
 from PIL.Image import Image, new as image_new
 
@@ -50,100 +51,13 @@ def __resize_sprite_for_tile(image: Image, sprite_data: SpriteData, size_tile: t
     return crop_image_rect_left_bot(image, rect)
 
 
-def __split_tilemap_prefab(tilemap: list[str]) -> list[list[str]]:
-    ref_count = 0
-    for line in reversed(tilemap):
-        if "m_RefCount" in line:
-            ref_count = int(line.split(":")[-1])
-            break
-
-    # print(ref_count)
-    max_count = 20_000
-    if not ref_count or ref_count < max_count:
-        return [tilemap]
-
-    last_header_i = tilemap.index("  m_Tiles:\n")
-    first_footer_i = tilemap.index("  m_AnimatedTiles: {}\n")
-
-    header = tilemap[:last_header_i + 1]
-    footer = tilemap[first_footer_i:]
-    content = tilemap[last_header_i + 1:first_footer_i]
-
-    buckets = int(pow(2, ceil(log2(ref_count) - log2(max_count))))
-    bucket = ref_count // buckets
-
-    total_index = 0
-    split_content = []
-    for line in content:
-        if "- first" in line:
-            if total_index == 0:
-                split_content.append([])
-            total_index = (total_index + 1) % bucket
-
-        split_content[-1].append(line)
-
-    out_list = []
-    for part_content in split_content:
-        lst = []
-        lst.extend(header)
-        lst.extend(part_content)
-        lst.extend(footer)
-        out_list.append(lst)
-
-    return out_list
+def __load_unity_document(path: Path) -> tuple[list[Tilemap | None], int]:
+    doc = UnityDoc.yaml_parse_file_smart(path, lambda x: "Tilemap:" in x)
+    tilemaps = [Tilemap(tilemap) for tilemap in doc.entries]
+    return tilemaps, len(tilemaps)
 
 
-def __load_UnityDocument(path: Path) -> tuple[list[Tilemap | None], int]:
-    with open(path, "r") as fp:
-        header = fp.readlines()[:2]
-        fp.seek(0)
-        line_prev = ""
-        list_tilemaps = []
-        is_tilemap = False
-        for line in fp.readlines():
-            split = line.split(":")
-            if split[-1] == "\n" and " " not in split[0] or "---" in split[0]:
-                is_tilemap = (split[0] == "Tilemap")
-                if is_tilemap:
-                    list_tilemaps.append([line_prev])
-
-            if is_tilemap:
-                list_tilemaps[-1].append(line)
-
-            line_prev = line
-
-        count_layers = len(list_tilemaps)
-        list_part_tilemaps = run_multiprocess(__split_tilemap_prefab, list_tilemaps, is_many_args=False)
-
-        print(
-            f"Needed parsing for {len(list_part_tilemaps)} tilemaps for total of {sum(len(part_tilemaps) for part_tilemaps in list_part_tilemaps)} parts")
-
-        args_list = ((header, part_tilmap, i, j) for i, part_tilemaps in enumerate(list_part_tilemaps) for
-                     j, part_tilmap in enumerate(part_tilemaps))
-
-        processed_parts = run_multiprocess(__load_UnityDocument_part, args_list)
-        out_list: list[Tilemap | None] = [None] * count_layers
-
-        # print(processed_parts, count_layers, out_list)
-        for part in processed_parts:
-            ind = part[1]
-            if not out_list[ind]:
-                out_list[ind] = part[0]
-            else:
-                out_list[ind].extend_tilemap(part[0])
-
-        return out_list, count_layers
-
-
-def __load_UnityDocument_part(header: list[str], tilemap: list[str], index_prefab: int, index_part: int) -> \
-        tuple[Tilemap, int, int]:
-
-    doc = UnityDoc.yaml_parse_text("".join(header) + "".join(tilemap))
-
-    return Tilemap(doc.entry), index_prefab, index_part
-
-
-def __create_Tilemap_image(tilemap: Tilemap, new_image: Image, data_by_guid: dict[str: MetaData],
+def __create_tilemap_image(tilemap: Tilemap, new_image: Image, data_by_guid: dict[str: MetaData],
                            save_path: Path) -> Image:
     size_tile_x, size_tile_y = TilemapDataHandler.get_size_tile()
 
@@ -187,7 +101,8 @@ def __save_image(image: Image, path: Path) -> None:
     image.save(path)
 
 
-def gen_tilemap(path: Path, __is_full_auto=True) -> Path | None:
+def gen_tilemap(path: Path, __is_full_auto=True,
+                func_progress_bar_set_percent: Callable[[int|float, int|float], None]=lambda c, t: 0) -> Path | None:
     handler = TilemapDataHandler()
 
     p_file = path.name
@@ -199,7 +114,7 @@ def gen_tilemap(path: Path, __is_full_auto=True) -> Path | None:
         count_layers = _text.count("Tilemap:")
         if not count_layers:
             showerror("Error", f"Not found any tilemap for {p_file}.")
-            return
+            return None
     else:
         count_layers = handler.loaded_prefabs[path][1]
 
@@ -207,7 +122,7 @@ def gen_tilemap(path: Path, __is_full_auto=True) -> Path | None:
                           f"Found tilemap for {p_file}.\nDo you want to generate it?") if __is_full_auto else True
 
     if not is_proceed:
-        return
+        return None
 
     if __is_full_auto:
         exclude_cbs = CheckBoxes(range(count_layers),
@@ -226,7 +141,7 @@ def gen_tilemap(path: Path, __is_full_auto=True) -> Path | None:
         print(f"Started {p_file} parsing")
         timeit = Timeit()
         handler.loaded_prefabs.update({
-            path: __load_UnityDocument(path)
+            path: __load_unity_document(path)
         })
         print(f"Finished {p_file} parsing ({timeit:.2f} sec)")
     else:
@@ -255,36 +170,57 @@ def gen_tilemap(path: Path, __is_full_auto=True) -> Path | None:
         size_map_x = max(size_map_x, int(_size['x']))
         size_map_y = max(size_map_y, int(_size['y']))
 
+
     size_tile_x, size_tile_y = handler.size_tile
-    im_map = image_new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
+    def get_transparent_image():
+        return image_new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
+
+    total_map_size = size_map_x * size_map_y
+    is_concurrent = total_map_size < 100_000
+    print(f"Tilemap size: x={size_map_x}, y={size_map_y}; total={total_map_size}, {is_concurrent=}")
 
     args_create_tilemap = (
-        (tilemap, im_map.copy(), meta_data, save_folder / f"{save_file}-Layer-{i}.png")
+        (tilemap, get_transparent_image(), meta_data, save_folder / f"{save_file}-Layer-{i}.png")
         for i, tilemap in enumerate(tilemaps)
     )
 
-    tilemap_layers = run_multiprocess(__create_Tilemap_image, args_create_tilemap, is_multiprocess=False)
+    tilemap_layers = run_multiprocess(__create_tilemap_image, args_create_tilemap,
+                                      is_multiprocess=False, is_generator=not is_concurrent)
 
-    args_save_tilemap_layers = (
-        (tilemap_layer, save_folder / f"{save_file}-Layer-{i}.png")
-        for i, tilemap_layer in enumerate(tilemap_layers)
-    )
-
-    run_concurrent_sync(__save_image, args_save_tilemap_layers)
+    if is_concurrent:
+        args_save_tilemap_layers = (
+            (tilemap_layer, save_folder / f"{save_file}-Layer-{i}.png")
+            for i, tilemap_layer in enumerate(tilemap_layers)
+        )
+        run_concurrent_sync(__save_image, args_save_tilemap_layers)
 
     print(f"Finished generation for tilemap layers {p_file} ({timeit:.2f} sec)")
 
     print(f"Started composing layers for {p_file}")
     timeit = Timeit()
 
-    save_composite = []
-    for i, layer in enumerate(tilemap_layers):
-        if i in exclude_layers:
-            continue
-        im_map.alpha_composite(layer)
-        save_composite.append((im_map.copy(), save_folder / f"{save_file}-{i}.png"))
+    im_map = get_transparent_image()
 
-    run_concurrent_sync(__save_image, save_composite)
+    if is_concurrent:
+        save_composite = []
+        for i, layer in enumerate(tilemap_layers):
+            func_progress_bar_set_percent(i, count_layers)
+
+            if i in exclude_layers:
+                continue
+            im_map.alpha_composite(layer)
+            save_composite.append((im_map.copy(), save_folder / f"{save_file}-{i}.png"))
+
+        run_concurrent_sync(__save_image, save_composite)
+    else:
+        for i, layer in enumerate(tilemap_layers):
+            func_progress_bar_set_percent(i, count_layers)
+
+            __save_image(layer.copy(), save_folder / f"{save_file}-Layer-{i}.png")
+            if i in exclude_layers:
+                continue
+            im_map.alpha_composite(layer)
+            __save_image(im_map.copy(), save_folder / f"{save_file}-{i}.png")
 
     print(f"Finished generation for tilemap {p_file} ({timeit:.2f} sec)")
 

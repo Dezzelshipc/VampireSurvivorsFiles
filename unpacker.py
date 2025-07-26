@@ -768,7 +768,7 @@ class Unpacker(tk.Tk):
         print(f"Selected for generating tilemap: {full_path!r}")
 
         from Images.tilemap_gen import gen_tilemap
-        save_folder = gen_tilemap(full_path)
+        save_folder = gen_tilemap(full_path, self.progress_bar_set_percent)
         self.last_loaded_folder = save_folder
 
     def audio_gen_handler(self):

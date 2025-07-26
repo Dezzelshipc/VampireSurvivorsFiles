@@ -42,33 +42,41 @@ class UnityDoc:
         return list(entries)
 
     @staticmethod
-    def yaml_parse_text_smart(text: str) -> Self:
-        if len(text) < 1e6:
-            return UnityDoc.yaml_parse_text(text)
+    def yaml_parse_text_smart(text: str, filter_func: Callable[[str], bool] = None) -> Self:
+        if len(text) < 1e7:
+            return UnityDoc.yaml_parse_text(text, filter_func)
         else:
-            return UnityDoc.yaml_parse_text_parallel(text)
+            return UnityDoc.yaml_parse_text_parallel(text, filter_func)
 
     @staticmethod
-    def yaml_parse_io_smart(text_io: TextIO) -> Self:
+    def yaml_parse_io_smart(text_io: TextIO, filter_func: Callable[[str], bool] = None) -> Self:
         with text_io as _f:
             text = _f.read()
-        return UnityDoc.yaml_parse_text_smart(text)
+        return UnityDoc.yaml_parse_text_smart(text, filter_func)
 
     @staticmethod
-    def yaml_parse_file_smart(path: os.PathLike[str]) -> Self:
+    def yaml_parse_file_smart(path: os.PathLike[str], filter_func: Callable[[str], bool] = None) -> Self:
         with open(path, "r", encoding="UTF-8") as _f:
-            return UnityDoc.yaml_parse_io_smart(_f)
+            return UnityDoc.yaml_parse_io_smart(_f, filter_func)
 
     @staticmethod
-    def yaml_parse_text(text: str) -> Self:
-        entries = list(yaml.load_all(text, UnityLoaderR))
+    def yaml_parse_text(text: str, filter_func: Callable[[str], bool] = None) -> Self:
+        text_parse = text
+
+        if filter_func:
+            unity_tag = "--- "
+            text_split = text.split(unity_tag)[1:]
+            text_split = filter(filter_func, text_split)
+            text_parse = unity_tag + unity_tag.join(text_split)
+
+        entries = list(yaml.load_all(text_parse, UnityLoaderR))
         return UnityDoc(entries)
 
     @staticmethod
-    def yaml_parse_io(text_io: TextIO) -> Self:
+    def yaml_parse_io(text_io: TextIO, filter_func: Callable[[str], bool] = None) -> Self:
         with text_io as _f:
             text = _f.read()
-        return UnityDoc.yaml_parse_text(text)
+        return UnityDoc.yaml_parse_text(text, filter_func)
 
     @staticmethod
     def yaml_parse_file(path: os.PathLike[str]) -> Self:
@@ -256,7 +264,7 @@ if __name__ == "__main__":
 
 
     def __profile():
-        from Images.tilemap_gen import __load_UnityDocument
+        from Images.tilemap_gen import __load_unity_document
         import cProfile
         print("Started")
         with cProfile.Profile() as pr:
@@ -265,7 +273,7 @@ if __name__ == "__main__":
 
         print("Started")
         with cProfile.Profile() as pr:
-            __load_UnityDocument(fp)
+            __load_unity_document(fp)
             pr.print_stats('time')
 
 
