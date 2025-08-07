@@ -1,3 +1,4 @@
+import re
 import tkinter as tk
 from pathlib import Path
 from tkinter import ttk
@@ -86,3 +87,19 @@ def normalize_str(s) -> str:
     except ValueError:
         index = None
     return name[:index].lower().replace(",", "_")
+
+
+def clean_json(string):
+    # extra commas
+    string = re.sub(r",[ \t\r\n]+}", "}", string)
+    string = re.sub(r",[ \t\r\n]+]", "]", string)
+
+    # comments: //
+    string = re.sub(r"\s*//.*\n", "\n", string)
+    # comments: /* */
+    string = re.sub(r"(?s)/\*.*?\*/", "", string)
+
+    return string
+
+def to_pascalcase(s):
+  return re.sub(r"([_\-])+", " ", s).title().replace(" ", "").replace("*","")

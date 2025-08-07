@@ -204,7 +204,7 @@ def gen_tilemap(path: Path, __is_full_auto=True,
     if is_concurrent:
         save_composite = []
         for i, layer in enumerate(tilemap_layers):
-            func_progress_bar_set_percent(i, count_layers)
+            func_progress_bar_set_percent(i, count_layers-1)
 
             if i in exclude_layers:
                 continue
@@ -214,7 +214,7 @@ def gen_tilemap(path: Path, __is_full_auto=True,
         run_concurrent_sync(__save_image, save_composite)
     else:
         for i, layer in enumerate(tilemap_layers):
-            func_progress_bar_set_percent(i, count_layers)
+            func_progress_bar_set_percent(i, count_layers-1)
 
             __save_image(layer.copy(), save_folder / f"{save_file}-Layer-{i}.png")
             if i in exclude_layers:

@@ -51,7 +51,7 @@ def rip_files(dlc_list: set[DLCType]):
                 with open(ripper_settings, "w") as settings_to:
                     settings_to.write(settings_from.read())
 
-        os.startfile(ripper, "open", f"--port {ripper_port} --launch-browser False")
+        os.startfile(ripper, "open", f"--port {ripper_port} --launch-browser=false")
 
         wait_time = 1
         while wait_time < 10:

@@ -6,7 +6,7 @@ from PIL.Image import Image, open as image_open
 
 from Config.config import Config, DLCType
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
-from Utility.multirun import run_multiprocess, run_multiprocess_single
+from Utility.multirun import run_multiprocess, run_multiprocess_single, run_concurrent_sync
 from Utility.singleton import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
@@ -34,7 +34,7 @@ class MetaDataHandler(metaclass=Singleton):
 
         timeit = Timeit()
 
-        path_roots = ["Resources", "Texture2D", "TextAsset", "GameObject", "PrefabInstance", "AudioClip"]
+        path_roots = ["Resources", "Texture2D", "TextAsset", "GameObject", "PrefabInstance", "AudioClip", "MonoBehaviour"]
 
         dirs = []
         for dlc in DLCType.get_all_dlc():
@@ -72,6 +72,7 @@ class MetaDataHandler(metaclass=Singleton):
         if not self._assets_guid_path:
             print("Started collecting guid of every asset")
             timeit = Timeit()
+            # guid_path = run_concurrent_sync(_get_meta_guid, self._found_files)
             guid_path = run_multiprocess_single(_get_meta_guid, self._found_files)
             self._assets_guid_path.update(guid_path)
             print(f"Finished collecting guid of every asset ({timeit:.2f} sec)")
@@ -96,7 +97,11 @@ class MetaDataHandler(metaclass=Singleton):
     def get_path_by_guid(self, guid: str) -> Path | None:
         return self._assets_guid_path.get(normalize_str(guid))
 
-    def filter_paths(self, f_filter: Callable[[tuple[str, Path]], bool]) -> set[(str, Path)]:
+    def get_path_by_guid_no_meta(self, guid: str) -> Path | None:
+        path = self.get_path_by_guid(guid)
+        return path.with_suffix("") if path else None
+
+    def filter_paths(self, f_filter: Callable[[tuple[str, Path]], bool]) -> set[tuple[str, Path]]:
         return set(filter(f_filter, self._assets_name_path.items()))
 
 

@@ -16,12 +16,13 @@ from PIL.Image import open as image_open
 
 import Config.config as config
 import Data.data as data_module
+from Data.data import DataHandler
 import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
 import Translations.language as lang_module
 from Config.config import CfgKey, DLCType
 from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
-    GENERATED, TILEMAPS
+    GENERATED, TILEMAPS, DATA_FOLDER
 from Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
 from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
@@ -577,27 +578,21 @@ class Unpacker(tk.Tk):
 
         print("Copying data files")
 
-        paths = [
-            (
-                self.config[dlc_type.value.config_key].joinpath("TextAsset"),
-                dlc_type.value.full_name
-            ) for dlc_type in DLCType.get_all_types()
-        ]
-
-        total = 0
+        total_amount = DataHandler.get_total_amount()
         i = 0
-        for path, dlc in paths:
-            data_path = f"./Data/{dlc}"
-            if os.path.exists(path):
-                entries = list(filter(lambda x: not x.name.endswith(".meta"), os.scandir(path)))
-                total += len(entries)
-                if os.path.exists(data_path):
-                    shutil.rmtree(data_path)
-                os.mkdir(data_path)
 
-                for entry in entries:
-                    shutil.copy2(entry, data_path)
-                    self.progress_bar_set_percent(i := i + 1, total)
+        dlc_types = DLCType.get_all_types()
+        for dlc_type in dlc_types:
+            data_files = DataHandler.get_dict_by_dlc_type(dlc_type)
+            save_path = DATA_FOLDER / dlc_type.value.full_name
+            save_path.mkdir(parents=True, exist_ok=True)
+            for data_type, data_file in data_files.items():
+                with open((save_path / data_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
+                    f.write(data_file.get_raw_text())
+
+                self.progress_bar_set_percent(i := i + 1, total_amount)
+
+
 
     def data_concatenate(self):
         add_content_group = askyesno("Add content group",
@@ -754,21 +749,24 @@ class Unpacker(tk.Tk):
             ('Prefab', '*.prefab')
         ]
 
-        full_path = fd.askopenfilename(
-            title='Select prefab file of tilemap',
+        full_paths_ask = fd.askopenfilenames(
+            title='Select prefab files of tilemap',
             initialdir=start_path,
             filetypes=filetypes
         )
 
-        if not full_path:
+        if not full_paths_ask:
             return
 
-        full_path = Path(full_path)
+        full_paths = list(map(Path, full_paths_ask))
 
-        print(f"Selected for generating tilemap: {full_path!r}")
+        print(f"Selected for generating tilemap: {full_paths!r}")
 
         from Images.tilemap_gen import gen_tilemap
-        save_folder = gen_tilemap(full_path, self.progress_bar_set_percent)
+        save_folder = None
+        for full_path in full_paths:
+            save_folder = gen_tilemap(full_path, func_progress_bar_set_percent=self.progress_bar_set_percent)
+        print(f"Finished generating all tilemaps: {[fp.name for fp in full_paths]}")
         self.last_loaded_folder = save_folder
 
     def audio_gen_handler(self):
@@ -869,14 +867,16 @@ class Unpacker(tk.Tk):
             return
 
         full_path = Path(full_path)
-        save_path = full_path.parent / "Inverse" / full_path.name
+        save_path = full_path.parent / "Inverse"
 
         image = image_open(full_path)
 
-        save_path.parent.mkdir(exist_ok=True, parents=True)
-        apply_tint(image, tint).rotate(180).save(save_path)
+        save_path.mkdir(exist_ok=True, parents=True)
+        img = apply_tint(image, tint)
+        img.save(save_path / full_path.name)
+        img.rotate(180).save(save_path / full_path.with_stem(full_path.stem + "_inv").name)
 
-        self.last_loaded_folder = save_path.parent
+        self.last_loaded_folder = save_path
 
 
 if __name__ == '__main__':

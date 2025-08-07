@@ -1,4 +1,3 @@
-import sys
 from abc import ABC
 from typing import TextIO
 
@@ -10,7 +9,7 @@ class Logger(TextIO, ABC):
 
     log_path = ROOT_FOLDER / "unpacker.log"
 
-    def __init__(self, stream):
+    def __init__(self, stream: TextIO):
         self.stream = stream
         clear_file(self.log_path)
 
