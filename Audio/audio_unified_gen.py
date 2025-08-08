@@ -3,7 +3,7 @@ import shutil
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Literal, Callable
+from typing import Literal, Callable, Any
 
 from pydub import AudioSegment
 
@@ -32,7 +32,7 @@ class AudioSaveType(Enum):
         return self.value
 
 
-def _get_music_playlists() -> list[dict]:
+def _get_music_playlists() -> list[dict[str, Any]]:
     handler = MetaDataHandler()
 
     search_list = ["MasterAudio", "DynamicSoundGroup", "ProjectContext"]
@@ -48,15 +48,15 @@ def _get_music_playlists() -> list[dict]:
     print(f"Parsing audio prefabs ({len(audio_prefabs)})... ", end=" ")
 
     args_load = (audio_prefab.with_suffix("") for audio_prefab in audio_prefabs)
-    uds = run_concurrent_sync(UnityDoc.yaml_parse_file_smart, args_load)
+    all_unity_playlists = run_concurrent_sync(UnityDoc.yaml_parse_file_smart, args_load)
 
-    print(f"Finished parsing audio prefabs ({timeit:.2f} sec)")
+    print(f"Finished parsing audio prefabs {timeit!r}")
 
-    music_playlists = [
-        item
-        for ud in uds
-        for pl in ud.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",))
-        for item in pl.get("musicPlaylists")
+    music_playlists: list[dict[str, Any]] = [
+        entry
+        for unity_playlist in all_unity_playlists
+        for playlist in unity_playlist.filter(class_names=('MonoBehaviour',), attributes=("musicPlaylists",))
+        for entry in playlist.get("musicPlaylists")
     ]
 
     return music_playlists
@@ -98,7 +98,7 @@ class MusicTrack:
         self.audio = sum(dict(clips).values()) if clips else None
 
 
-def _get_music_track(audio_clips, music_data, playlist_data) -> MusicTrack:
+def _get_music_track(audio_clips: dict[str, Path], music_data: dict[str, Any], playlist_data) -> MusicTrack:
     code_name = playlist_data['playlistName']
 
     cur_data = music_data.get(code_name) or {}
@@ -112,19 +112,32 @@ def _get_music_track(audio_clips, music_data, playlist_data) -> MusicTrack:
     if None in tags.values():
         tags = {}
 
-    has_same_name = (sngn := playlist_data['MusicSettings'][0]['songName'].lower()) and bool(
-        tags.get("source")) and audio_clips.get(sngn + "_0")
+    song_name_main = normalize_str(playlist_data['MusicSettings'][0]['songName'])
+
+    is_vs = True
+    found_songs = list(filter(lambda k_v: song_name_main + "_" in normalize_str(k_v[0])
+                                          or song_name_main == normalize_str(k_v[0]), audio_clips.items()))
+    if len(found_songs) > 1:
+        is_vs = "_vs_" in normalize_str(code_name) or " - Vampire Survivors" in tags["title"]
+        if is_vs:
+            print(f"Found songs with duplicate names: {found_songs}. Separating them by their file sizes.")
+
+        found_songs = list(sorted(found_songs, key=lambda k_v: k_v[-1].stat().st_size, reverse=is_vs))
+
+    song_name_current = normalize_str(found_songs[0]) if found_songs else song_name_main
+
+    has_same_name = not is_vs
 
     clips = []
     ext = ""
     for setting in playlist_data['MusicSettings']:
         song_name = normalize_str(setting['songName'])
-        if has_same_name:
-            song_name += "_0"
+
+        song_name = song_name_current.replace(song_name_main, song_name)
 
         clip_data = audio_clips.get(song_name)
         if not clip_data:
-            print(f"Music track not found by song name ({song_name=} ;; {setting['songName']=})")
+            print(f"Music track not found by song ({song_name=} ;; {setting['songName']=})")
         else:
             ext = clip_data.suffix.replace(".", "")
 
@@ -158,7 +171,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
         not_found = []
         data_files = {
             "unlockedByStage": ("stageLang.json", "stageName", "Stage", data_module.DataType.STAGE),
-            "unlockedByCharacter": ("characterLang.json", "charName", "Character",  data_module.DataType.CHARACTER),
+            "unlockedByCharacter": ("characterLang.json", "charName", "Character", data_module.DataType.CHARACTER),
             "unlockedByItem": ("itemLang.json", "name", "Item", None),
         }
 
@@ -175,7 +188,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
                                 convert[bgm] = set()
 
                             is_b_side = (bgm_key == bgm_keys[-1]) and (
-                                        convert[bgm] not in (data_key, data_entry_id, False))
+                                    convert[bgm] not in (data_key, data_entry_id, False))
 
                             convert[bgm].add((data_key, data_entry_id, is_b_side))
 
@@ -191,15 +204,15 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
         if len(datas) < len(data_files):
             return None, f"! Not found split lang files for relative generator: {not_found}"
 
-    music_playlists_raw = _get_music_playlists()
+    music_playlists = _get_music_playlists()
 
-    music_ids_with_authors = dict(filter(lambda x: bool(x[-1].get("author")), music_data.items())).keys()
+    # music_ids_with_authors = dict(filter(lambda x: bool(x[-1].get("author")), music_data.items())).keys()
+    #
+    # music_playlists = list(filter(lambda x: x.get("playlistName") in music_ids_with_authors, music_playlists_raw))
+    # music_playlists.extend(filter(lambda x: x.get("playlistName") not in music_ids_with_authors, music_playlists_raw))
 
-    music_playlists = list(filter(lambda x: x.get("playlistName") in music_ids_with_authors, music_playlists_raw))
-    music_playlists.extend(filter(lambda x: x.get("playlistName") not in music_ids_with_authors, music_playlists_raw))
-
-    audio_clips = _get_audio_clips_paths()
-    audio_clips = {normalize_str(ac): ac for ac in audio_clips}
+    audio_clips_path = _get_audio_clips_paths()
+    audio_clips = {normalize_str(ac): ac for ac in audio_clips_path}
 
     total_len = len(music_playlists)
 
@@ -218,7 +231,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
 
     total_len = len(audio_tracks)
 
-    print(f"Generated tacks ({timeit:.2f} sec)")
+    print(f"Generated tacks {timeit!r}")
 
     content_group_set = {track.content_group for track in audio_tracks}
     for content_group in content_group_set:
@@ -247,7 +260,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
     ]
     run_concurrent_sync(_save_track, args_save_tracks)
 
-    print(f"Saved tracks with code names ({timeit:.2f} sec)")
+    print(f"Saved tracks with code names {timeit!r}")
 
     if not save_name_types.difference({AudioSaveType.CODE_NAME}):
         return save_path, None
@@ -267,7 +280,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
         if AudioSaveType.TITLE_NAME in save_name_types and (title := tags.get("title")):
             title_add = ""
             if (source := tags.get("source")) and ("Castlevania" in source):
-                title_add = " - " + source.replace("Castlevania", "").strip()
+                title_add = " (" + source.replace("Castlevania", "").strip() + ")"
 
             save_name = f"{title}{title_add}.{ext}"
 
@@ -320,7 +333,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
         print(f"\r{kk + 1}", end="")
         func_progress_bar_set_percent(kk + 1, total_len)
 
-    print(f"\nFinished saving tracks with other names ({timeit:.2f} sec)")
+    print(f"\nFinished saving tracks with other names {timeit!r}")
     return save_path, None
 
 

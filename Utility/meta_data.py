@@ -65,7 +65,7 @@ class MetaDataHandler(metaclass=Singleton):
         for f_list in files_by_stem.values():
             if len(f_list) > 1:
                 biggest_files.append(
-                    list(reversed(sorted(f_list, key=lambda x: 1e10 * int("png" in x.name) + x.stat().st_size)))[0])
+                    list(sorted(f_list, key=lambda x: 1e10 * int("png" in x.name) + x.stat().st_size, reverse=True))[0])
             else:
                 biggest_files.append(f_list[0])
         ###
