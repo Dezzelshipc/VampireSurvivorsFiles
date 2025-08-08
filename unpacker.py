@@ -12,11 +12,12 @@ from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
 
 import yaml
+from typing import Literal
 from PIL.Image import open as image_open
 
 import Config.config as config
 import Data.data as data_module
-from Data.data import DataHandler
+from Data.data import DataHandler, COMPOUND_DATA
 import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
 import Translations.language as lang_module
@@ -26,6 +27,7 @@ from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANI
 from Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
 from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
+from Utility.timer import Timeit
 from Utility.utility import CheckBoxes, ButtonsBox
 
 
@@ -323,7 +325,7 @@ class Unpacker(tk.Tk):
         self.generate_by_meta_selector(folder, generate_function)
 
     def unpack_by_meta(self, generate_function):
-        selected_dlc = self.select_dlc()
+        selected_dlc = self.dlc_selector()
         if not selected_dlc:
             return
         selected_dlc = selected_dlc.value
@@ -576,62 +578,51 @@ class Unpacker(tk.Tk):
             showwarning("Warning", "VS assets folder must be entered.")
             return
 
-        print("Copying data files")
+        _time = Timeit()
+        print("Copying data files.")
 
         total_amount = DataHandler.get_total_amount()
         i = 0
 
         dlc_types = DLCType.get_all_types()
         for dlc_type in dlc_types:
-            data_files = DataHandler.get_dict_by_dlc_type(dlc_type)
             save_path = DATA_FOLDER / dlc_type.value.full_name
             save_path.mkdir(parents=True, exist_ok=True)
+
+            data_files = DataHandler.get_dict_by_dlc_type(dlc_type)
             for data_type, data_file in data_files.items():
                 with open((save_path / data_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
-                    f.write(data_file.get_raw_text())
+                    f.write(data_file.raw_text())
 
                 self.progress_bar_set_percent(i := i + 1, total_amount)
 
-
+        print(f"Finished copying data files. {_time!r}")
 
     def data_concatenate(self):
-        add_content_group = askyesno("Add content group",
-                                     "Do you want to add 'contentGroup' (DLC) field to objects in merged file"
-                                     "if it is not present in original data file?\n"
-                                     "Helps to separate image generation by DLC (ex. for characters)\n"
-                                     "Default: True")
+        _time = Timeit()
+        print(f"Concatenating data files.")
+        data_types = data_module.DataType.get_all_types()
+        i = 0
 
-        print(f"Concatenating data files. {add_content_group=}")
-        gen = data_module.concatenate(is_gen=True, add_content_group=add_content_group)
+        for data_type in data_types:
+            save_path = DATA_FOLDER / GENERATED
+            save_path.mkdir(parents=True, exist_ok=True)
 
-        for i, total in gen:
-            self.progress_bar_set_percent(i + 1, total)
+            data_file = DataHandler.get_data(None, data_type)
+            with open((save_path / data_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
+                f.write(data_file.raw_text())
 
-    @staticmethod
-    def data_selector(add_title="") -> Path | None:
-        path = Path("./Data")
-        if not path.exists():
-            return
+            self.progress_bar_set_percent(i := i + 1, len(data_types))
 
-        filetypes = [
-            ('JSON', '*.json')
-        ]
-
-        full_path = fd.askopenfilename(
-            title=f'Open a data file{add_title}',
-            initialdir=path,
-            filetypes=filetypes
-        )
-
-        if not full_path:
-            return None
-
-        return Path(full_path)
+        print(f"Finished concatenating data files. {_time!r}")
 
     def data_to_image(self):
         def thread_load_data():
+            if not path_data or not os.path.exists(path_data):
+                return None
 
-            data = data_module.get_data_file(path_data)
+            with open(path_data, 'r', encoding="UTF-8") as f:
+                data = json.loads(f.read())
 
             self.outer_progress_bar.change_label(f"Getting language file")
             lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
@@ -644,7 +635,7 @@ class Unpacker(tk.Tk):
                       file=sys.stderr)
 
             if gen.assets_type == image_gen.DataType.CHARACTER:
-                w_data = data_module.get_data_file(data_module.get_data_path("weaponData_Full.json"))
+                w_data = DataHandler.get_data(COMPOUND_DATA, data_module.DataType.WEAPON).data()
                 lang_skins = lang_module.get_lang_file(lang_module.get_lang_path("skinLang.json"))
                 lang_weapon = lang_module.get_lang_file(lang_module.get_lang_path("weaponLang.json"))
                 add_data.update({
@@ -672,6 +663,16 @@ class Unpacker(tk.Tk):
         if "assets" not in self.get_assets_dir().stem.lower():
             showerror("Error", "Assets directory must be selected.")
             return
+
+        # selected_dlc = self.dlc_selector(allow_compound=True, parent=self)
+        # if not selected_dlc:
+        #     return
+        #
+        # selected_data = self.data_selector_data(selected_dlc, parent=self)
+        # if not selected_data:
+        #     return
+        #
+        #####
 
         path_data = self.data_selector()
 
@@ -714,9 +715,13 @@ class Unpacker(tk.Tk):
         t = threading.Thread(target=thread_load_data)
         t.start()
 
-    def select_dlc(self) -> DLCType | None:
+    @staticmethod
+    def dlc_selector(allow_compound: bool = False, parent=None) -> DLCType | Literal[COMPOUND_DATA] | None:
         all_dlcs = config.DLCType.get_all_types()
-        bb = ButtonsBox(all_dlcs, "Select DLC", "Select DLC to open respective folder", self)
+        if allow_compound:
+            all_dlcs.append(COMPOUND_DATA)
+
+        bb = ButtonsBox(all_dlcs, "Select DLC", "Select DLC from which data file will be selected", parent)
         bb.wait_window()
 
         if bb.return_data is None:
@@ -724,8 +729,42 @@ class Unpacker(tk.Tk):
 
         return all_dlcs[bb.return_data or 0]
 
+    @staticmethod
+    def data_selector_data(dlc_type: DLCType | Literal[COMPOUND_DATA],
+                           parent=None) -> data_module.DataType | None:
+        data_types = list(DataHandler.get_dict_by_dlc_type(dlc_type).keys())
+
+        bb = ButtonsBox(data_types, "Select Data Type", "Select data file", parent)
+        bb.wait_window()
+
+        if bb.return_data is None:
+            return None
+
+        return data_types[bb.return_data or 0]
+
+    @staticmethod
+    def data_selector(add_title="") -> Path | None:
+        path = Path("./Data")
+        if not path.exists():
+            return None
+
+        filetypes = [
+            ('JSON', '*.json')
+        ]
+
+        full_path = fd.askopenfilename(
+            title=f'Open a data file{add_title}',
+            initialdir=path,
+            filetypes=filetypes
+        )
+
+        if not full_path:
+            return None
+
+        return Path(full_path)
+
     def tilemap_gen_handler(self):
-        selected_dlc = self.select_dlc()
+        selected_dlc = self.dlc_selector()
         if not selected_dlc:
             return
         selected_dlc = selected_dlc.value
@@ -777,12 +816,8 @@ class Unpacker(tk.Tk):
 
         import Audio.audio_unified_gen as audio_gen
 
-        data_path = self.data_selector(": any music.json")
+        data_path = self.dlc_selector(allow_compound=True, parent=self)
         if not data_path:
-            return
-
-        if "music" not in data_path.stem.lower():
-            showerror("Error", "'Music' data file must be selected.")
             return
 
         save_types_list = audio_gen.AudioSaveType.get()

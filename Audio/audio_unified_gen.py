@@ -7,9 +7,10 @@ from typing import Literal, Callable
 
 from pydub import AudioSegment
 
-import Data.data as data_handler
+import Data.data as data_module
 import Translations.language as lang_handler
-from Config.config import Config
+from Config.config import Config, DLCType
+from Data.data import COMPOUND_DATA
 from Utility.constants import GENERATED
 from Utility.meta_data import MetaDataHandler
 from Utility.multirun import run_concurrent_sync, run_gather
@@ -138,8 +139,8 @@ def _save_track(music_track: MusicTrack, save_path: Path):
     music_track.audio.export(save_path, music_track.ext, tags=music_track.tags)
 
 
-def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
-                     func_progress_bar_set_percent: Callable[[int|float, int|float], None]=lambda c, t: 0) -> (
+def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_types: set[AudioSaveType],
+                     func_progress_bar_set_percent: Callable[[int | float, int | float], None] = lambda c, t: 0) -> (
         str | None, None | str):
     save_name_types.add(AudioSaveType.CODE_NAME)
 
@@ -148,7 +149,7 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
 
     save_path = f_path / GENERATED
 
-    music_data = data_handler.get_data_file(music_json_path)
+    music_data = data_module.DataHandler.get_data(music_dlc, data_module.DataType.MUSIC).data()
 
     datas = {}
     convert: dict[str: set[str, str, bool]] = {}
@@ -156,16 +157,17 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
     if AudioSaveType.RELATIVE_NAME in save_name_types:
         not_found = []
         data_files = {
-            "unlockedByStage": ("stageLang.json", "stageName", "Stage", "stageData_Full.json"),
-            "unlockedByCharacter": ("characterLang.json", "charName", "Character", "characterData_Full.json"),
+            "unlockedByStage": ("stageLang.json", "stageName", "Stage", data_module.DataType.STAGE),
+            "unlockedByCharacter": ("characterLang.json", "charName", "Character",  data_module.DataType.CHARACTER),
             "unlockedByItem": ("itemLang.json", "name", "Item", None),
         }
 
         for data_key, items in data_files.items():
             file_name = items[0]
             lang = lang_handler.get_lang_file(lang_handler.get_lang_path(file_name))
-            dat: dict = data_handler.get_data_file(data_handler.get_data_path(items[3]))
+            dat = data_module.DataHandler.get_data(COMPOUND_DATA, items[3])
             if dat:
+                dat = dat.data()
                 for data_entry_id, vv in dat.items():
                     for bgm_key in bgm_keys:
                         if bgm := vv[0].get(bgm_key):
@@ -323,4 +325,4 @@ def gen_music_tracks(music_json_path: Path, save_name_types: set[AudioSaveType],
 
 
 if __name__ == "__main__":
-    gen_music_tracks(data_handler.get_data_path("musicData_Full.json"), set())
+    gen_music_tracks(COMPOUND_DATA, set())

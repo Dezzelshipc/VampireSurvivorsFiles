@@ -1,17 +1,17 @@
 import json
-import os
-import re
-import sys
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal, Final
 
 from Config.config import DLCType
+from Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
 from Utility.meta_data import MetaDataHandler
 from Utility.singleton import Singleton
 from Utility.unityparser2 import UnityDoc
 from Utility.utility import clean_json, to_pascalcase
+
+COMPOUND_DATA: Final[str] = "Compound Data"
 
 
 def open_f(path):
@@ -36,11 +36,13 @@ class DataType(Enum):
     PROPS = "Props"
     SECRET = "Secret"
     STAGE = "Stage"
-    # TROPHY00 = None
-    # TROPHY01 = None
     WEAPON = "Weapon"
 
     NONE = None
+
+    @classmethod
+    def get_all_types(cls) -> set["DataType"]:
+        return {*cls}.difference({DataType.NONE})
 
     @staticmethod
     def from_data_file(data_file_key: str) -> "DataType":
@@ -88,34 +90,103 @@ class DataType(Enum):
 class DataFile:
     guid: str
     __path: Path
+    __to_concat: dict[DLCType, "DataFile"] | None = None
     __data: dict[str, Any] | None = None
     __raw_text: str | None = None
 
-    def __init__(self, guid: str):
+    def __init__(self, guid: str | None, data_to_concat: dict[DLCType, "DataFile"] = None):
         self.guid = guid
+        self.__to_concat = data_to_concat
 
     def __load(self):
         if self.__data:
             return
 
-        self.__path = MetaDataHandler().get_path_by_guid_no_meta(self.guid)
+        if not self.__to_concat:
+            self.__path = MetaDataHandler().get_path_by_guid_no_meta(self.guid)
 
-        with open_f(self.__path) as f:
-            self.__raw_text = f.read()
+            with open_f(self.__path) as f:
+                self.__raw_text = f.read()
 
-        self.__data = json.loads(clean_json(self.__raw_text))
+            self.__data = json.loads(clean_json(self.__raw_text))
+        else:
+            self.__data = _concatenate(self.__to_concat)
+            self.__raw_text = json.dumps(self.__data, ensure_ascii=False, indent=2)
 
-    def get_data(self) -> dict[str, Any]:
+    def data(self) -> dict[str, Any]:
         self.__load()
         return self.__data
 
-    def get_raw_text(self) -> str:
+    def raw_text(self) -> str:
         self.__load()
         return self.__raw_text
 
 
+def _concatenate(data_to_concat: dict[DLCType, DataFile]):
+    out_data = {}
+    index_start = 0
+    for dlc_type in DLCType.get_all_types():
+        index_cur = 0
+
+        data = data_to_concat.get(dlc_type)
+        if not data:
+            continue
+
+        data = data.data()
+
+        # add contentGroup aka dlc
+        cg = dlc_type.value.code_name
+
+        has_cg = False
+        for k, v in data.items():
+            vv = v
+            while isinstance(vv, list) and vv:
+                vv = vv[0]
+            if isinstance(vv, dict) and vv.get("contentGroup"):
+                has_cg = True
+                break
+
+        if not has_cg:
+            for k, v in data.items():
+                vv = v
+                while isinstance(vv, list) and vv:
+                    vv = vv[0]
+                if isinstance(vv, dict) and not vv.get("contentGroup"):
+                    vv["contentGroup"] = cg
+
+        same_id = []
+
+        for j, (k, v) in enumerate(data.items()):
+            if len(v) <= 0:
+                continue
+
+            vv = v
+            while isinstance(vv, list):
+                vv = vv[0]
+
+            if not all([isinstance(v, (dict, list)) for k, v in vv.items()]):
+                index_cur = j + index_start
+                vv["_index"] = index_cur
+
+            if out_data.get(k):
+                same_id.append(k)
+                vv["_note"] = f"Found object with same id: {k}. Saved this object with different id"
+
+        for _id in same_id:
+            new_id = f"{_id}_DOUBLE"
+            data[new_id] = data[_id]
+            del data[_id]
+
+        out_data.update(data)
+
+        index_start = index_cur + 1
+
+    return out_data
+
+
 class DataHandler(metaclass=Singleton):
     _loaded_data: dict[DLCType, dict[DataType, DataFile]] = {}
+    _concat_data: dict[DataType, DataFile] = {}
 
     @classmethod
     def load(cls):
@@ -126,14 +197,14 @@ class DataHandler(metaclass=Singleton):
         loaded_data = {}
 
         mdh = MetaDataHandler()
-        vs_data = list(mdh.filter_paths(lambda name_path: "DataManagerSettings".lower() in name_path[0]))
+        vs_data = list(mdh.filter_paths(lambda name_path: DATA_MANAGER_SETTINGS.lower() in name_path[0]))
 
         if vs_data:
             doc = UnityDoc.yaml_parse_file(vs_data[0][1].with_suffix(""))
             loaded_data[DLCType.VS] = doc.entries[0].data['_Settings']
 
         all_dlc_types = DLCType.get_all_types()
-        dlc_datas = mdh.filter_paths(lambda name_path: "BundleManifestData".lower() in name_path[0])
+        dlc_datas = mdh.filter_paths(lambda name_path: BUNDLE_MANIFEST_DATA.lower() in name_path[0])
         for name, path in dlc_datas:
             for dlc_type in all_dlc_types:
                 if to_pascalcase(dlc_type.value.code_name).lower() in name:
@@ -149,15 +220,27 @@ class DataHandler(metaclass=Singleton):
 
             cls._loaded_data[dlc_type] = current_dlc
 
-    @classmethod
-    def get_dict_by_dlc_type(cls, dlc_type: DLCType) -> dict[DataType, DataFile]:
-        cls.load()
-        return cls._loaded_data.get(dlc_type)
+        for data_type in DataType.get_all_types():
+            concat_data: dict[DLCType, DataFile] = {}
+            for dlc_type in all_dlc_types:
+                concat_data[dlc_type] = cls._loaded_data.get(dlc_type, {}).get(data_type)
+            cls._concat_data[data_type] = DataFile(None, concat_data)
 
     @classmethod
-    def get_data(cls, dlc_type: DLCType, data_type: DataType) -> DataFile:
+    def get_dict_by_dlc_type(cls, dlc_type: DLCType | Literal[COMPOUND_DATA]) -> dict[DataType, DataFile]:
         cls.load()
-        return cls._loaded_data.get(dlc_type, {}).get(data_type)
+        if dlc_type == COMPOUND_DATA:
+            return cls._concat_data
+        else:
+            return cls._loaded_data.get(dlc_type)
+
+    @classmethod
+    def get_data(cls, dlc_type: DLCType | Literal[COMPOUND_DATA], data_type: DataType | None) -> DataFile:
+        cls.load()
+        if dlc_type == COMPOUND_DATA:
+            return cls._concat_data.get(data_type)
+        else:
+            return cls._loaded_data.get(dlc_type, {}).get(data_type)
 
     @classmethod
     def get_total_amount(cls) -> int:
@@ -168,126 +251,9 @@ class DataHandler(metaclass=Singleton):
 if __name__ == "__main__":
     DataHandler.load()
 
-########
 
-
-
-def gen_path(paths, name):
-    return ([i for i in paths if f"{name}_data" in i.lower()] + [i for i in paths if name in i.lower()] + [""])[0]
-
-
-def __generator_concatenate(add_content_group=True):
-    path = os.path.split(__file__)[0]
-    folder_to_save = path + "/Generated"
-    os.makedirs(folder_to_save, exist_ok=True)
-
-    names = [f.name.split("_")[0].split('.')[0].lower().replace("data", "") for f in
-             os.scandir(path + "/Vampire Survivors")]
-    dlcs = list(map(lambda x: x.value.full_name, DLCType.get_all_types()))
-
-    dlc_paths = [[f.path for f in os.scandir(f"{path}/{dlc}")] for dlc in dlcs if os.path.exists(f"{path}/{dlc}")]
-
-    total_len = len(names)
-
-    for i, name in enumerate(names):
-        paths = list(filter(lambda x: x, [gen_path(p, name) for p in dlc_paths]))
-
-        cur_p = ""
-        try:
-            outdata = {}
-            index_start = 0
-            for p in paths:
-                index_cur = 0
-                cur_p = p
-                with open_f(p) as file:
-                    data = json.loads(clean_json(file.read()))
-                    # add contentGroup aka dlc
-                    if add_content_group and "Data_" in p:
-                        file_name = os.path.basename(p).split(".")[0]
-                        cg = re.findall('.[^A-Z]*', file_name.split("_")[-1])
-                        cg = "_".join([c.upper() for c in cg])
-
-                        has_cg = False
-                        for k, v in data.items():
-                            vv = v
-                            while isinstance(vv, list):
-                                vv = vv[0]
-                            if vv.get("contentGroup"):
-                                has_cg = True
-                                break
-
-                        if not has_cg:
-                            for k, v in data.items():
-                                vv = v
-                                while isinstance(vv, list):
-                                    vv = vv[0]
-                                if not vv.get("contentGroup"):
-                                    vv["contentGroup"] = cg
-
-                    same_id = []
-
-                    if "trophy" not in name:
-                        for j, (k, v) in enumerate(data.items()):
-                            if len(v) <= 0:
-                                continue
-
-                            vv = v
-                            while isinstance(vv, list) :
-                                vv = vv[0]
-
-                            if not all([isinstance(v, (dict, list)) for k, v in vv.items()]):
-                                index_cur = j + index_start
-                                vv["_index"] = index_cur
-
-                            if outdata.get(k):
-                                same_id.append(k)
-                                vv["_note"] = f"Found object with same id: {k}. Saved this object with different id"
-
-                    for _id in same_id:
-                        new_id = f"{_id}_DOUBLE"
-                        data[ new_id  ] = data[ _id ]
-                        del data[_id]
-
-                    outdata.update(data)
-
-                index_start = index_cur + 1
-
-            with open(f"{folder_to_save}/{name}Data_Full.json", "w", encoding="UTF-8") as outfile:
-                outfile.write(json.dumps(outdata, ensure_ascii=False, indent=2))
-
-        except json.decoder.JSONDecodeError as e:
-            print(f"! {name, os.path.basename(cur_p)} skipped: error {e}",
-                        file=sys.stderr)
-
-        yield i, total_len
-
-
-def concatenate(is_gen=False, add_content_group=True):
-    gen = __generator_concatenate(add_content_group=add_content_group)
-
-    if is_gen:
-        return gen
-    else:
-        for _ in gen:
-            pass
-
-
-def get_data_path(file_name):
-    if not file_name:
-        return None
-    p_dir = __file__.split(os.sep)
-    return "\\".join(p_dir[:-2] + ['Data', 'Generated', file_name])
-
-
-def get_data_file(path) -> dict | None:
-    if not path or not os.path.exists(path):
-        return None
-
-    with open(path, 'r', encoding="UTF-8") as f:
-        return json.loads(f.read())
-
-def get_all_fields(file_name):
-    data = get_data_file(get_data_path(file_name))
+def get_all_fields(dlc_type: DLCType | None, data_type: DataType):
+    data = DataHandler.get_data(dlc_type, data_type).data()
     entry = None
     for k, v in data.items():
         entry = v
@@ -301,7 +267,7 @@ def get_all_fields(file_name):
             lst = [vals]
 
         for i, d in enumerate(lst):
-            if len(fields_data) < i+1:
+            if len(fields_data) < i + 1:
                 fields_data.append({})
             for k, v in d.items():
                 if k in fields_data[i]:
@@ -310,7 +276,7 @@ def get_all_fields(file_name):
 
                 if isinstance(v, (int, float)) and not isinstance(v, bool):
                     if k not in fields_data[i]:
-                        fields_data[i][k] = [type(v),1e10,-1e10] # type, min, max
+                        fields_data[i][k] = [type(v), 1e10, -1e10]  # type, min, max
 
                     fields_data[i][k][1] = min(fields_data[i][k][1], v)
                     fields_data[i][k][2] = max(fields_data[i][k][2], v)
@@ -324,8 +290,3 @@ def get_all_fields(file_name):
                     fields_data[i][k][-1].add(v)
 
     return fields_data
-
-#
-# if __name__ == "__main__":
-#     # concatenate()
-#     get_all_fields("characterData_Full.json")

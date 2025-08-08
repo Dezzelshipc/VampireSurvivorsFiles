@@ -16,3 +16,6 @@ class Timeit:
 
     def __format__(self, format_spec):
         return format(self.get_sec(), format_spec)
+
+    def __repr__(self):
+        return f"({self:.2f} sec)"

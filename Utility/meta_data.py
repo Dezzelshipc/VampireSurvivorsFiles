@@ -5,6 +5,8 @@ from tkinter import Image
 from PIL.Image import Image, open as image_open
 
 from Config.config import Config, DLCType
+from Utility.constants import RESOURCES, TEXTURE_2D, TEXT_ASSET, GAME_OBJECT, PREFAB_INSTANCE, AUDIO_CLIP, \
+    MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
 from Utility.multirun import run_multiprocess, run_multiprocess_single, run_concurrent_sync
 from Utility.singleton import Singleton
@@ -34,17 +36,22 @@ class MetaDataHandler(metaclass=Singleton):
 
         timeit = Timeit()
 
-        path_roots = ["Resources", "Texture2D", "TextAsset", "GameObject", "PrefabInstance", "AudioClip", "MonoBehaviour"]
+        path_roots = [
+            (RESOURCES,""),
+            (TEXTURE_2D,""),
+            (TEXT_ASSET,""),
+            (GAME_OBJECT,""),
+            (PREFAB_INSTANCE,""),
+            (AUDIO_CLIP,""),
+            (MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS),
+            (MONO_BEHAVIOUR, BUNDLE_MANIFEST_DATA)
+        ]
 
-        dirs = []
         for dlc in DLCType.get_all_dlc():
-            for root in path_roots:
+            for root, file_name in path_roots:
                 path = self.config[dlc.config_key] and self.config[dlc.config_key].joinpath(root)
                 if path and path.exists():
-                    dirs.append(path)
-
-        for this_dir in dirs:
-            self._found_files.extend(this_dir.rglob("*.meta"))
+                    self._found_files.extend(path.rglob(f"{file_name}*.meta"))
 
         ### deduplication
         files_by_stem = {}
@@ -110,14 +117,16 @@ def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
         return None
 
     with open(path, 'r', encoding="UTF-8") as f:
-        for line in f.readlines()[:10]:
-            key, val = line.split(":")
+        for i, line in enumerate(f.readlines()):
+            if "guid" in line:
+                key, val = line.split(":")
 
-            if key.strip() == "guid":
-                return val.strip(), path
+                if key.strip() == "guid":
+                    return val.strip(), path
 
-            if not val:
+            if i > 3:
                 return None
+        return None
 
 
 class MetaData:

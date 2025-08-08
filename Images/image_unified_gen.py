@@ -10,7 +10,6 @@ from PIL.Image import Resampling
 
 from Utility.singleton import Singleton
 from Utility.multirun import run_multiprocess
-from Data.data import get_data_file
 from Utility.meta_data import get_meta_by_name_set, MetaData, get_meta_dict_by_name_set
 from Utility.image_functions import crop_image_rect_left_bot, resize_image
 
@@ -24,28 +23,28 @@ def gen_unified_images(path: str, assets_paths: list):
     # raise NotImplementedError("Rewrite is in progress.")
     handler = UnifiedImageHandler()
 
-    data = get_data_file(path)
-    gen = get_generator(path)
-
-    if not gen:
-        showerror("Error",
-                  "Generator for data file not found.")
-        return
-
-    dialog = GeneratorDialog(gen)
-    dialog.wait_window()
-    req_gens = dialog.return_data
-
-    gen.load_data(data, req_gens)
-
-    texture_set = gen.get_textures_set()
-
-    handler.textures = get_meta_dict_by_name_set(texture_set)
-
-    if GenType.IMAGE in req_gens:
-        run_multiprocess(gen.gen_image, gen.entries)
-
-    pass
+    # data = get_data_file(path)
+    # gen = get_generator(path)
+    #
+    # if not gen:
+    #     showerror("Error",
+    #               "Generator for data file not found.")
+    #     return
+    #
+    # dialog = GeneratorDialog(gen)
+    # dialog.wait_window()
+    # req_gens = dialog.return_data
+    #
+    # gen.load_data(data, req_gens)
+    #
+    # texture_set = gen.get_textures_set()
+    #
+    # handler.textures = get_meta_dict_by_name_set(texture_set)
+    #
+    # if GenType.IMAGE in req_gens:
+    #     run_multiprocess(gen.gen_image, gen.entries)
+    #
+    # pass
 
 
 class GenType(Enum):

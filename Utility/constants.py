@@ -20,6 +20,17 @@ UTILITY_FOLDER = ROOT_FOLDER / "Utility"
 GENERATED = "Generated"
 TILEMAPS = "_Tilemaps"
 
+RESOURCES = "Resources"
+TEXTURE_2D = "Texture2D"
+TEXT_ASSET = "TextAsset"
+GAME_OBJECT = "GameObject"
+PREFAB_INSTANCE = "PrefabInstance"
+AUDIO_CLIP = "AudioClip"
+MONO_BEHAVIOUR = "MonoBehaviour"
+
+DATA_MANAGER_SETTINGS = "DataManagerSettings"
+BUNDLE_MANIFEST_DATA = "BundleManifestData"
+
 
 class DeferConstants(metaclass=Singleton):
     _pydub_defer_checker = check_pydub_defer()
