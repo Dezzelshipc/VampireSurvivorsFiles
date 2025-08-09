@@ -1,13 +1,14 @@
 import asyncio
 import sys
 from pathlib import Path
+from typing import Final
 
 from Utility.req_test import check_pydub_defer
-from Utility.singleton import Singleton
+from Utility.special_classes import Singleton
 
-IS_DEBUG: bool = (sys.monitoring.get_tool(sys.monitoring.DEBUGGER_ID)) is not None or (sys.gettrace() is not None)
+IS_DEBUG: Final[bool] = (sys.monitoring.get_tool(sys.monitoring.DEBUGGER_ID)) is not None or (sys.gettrace() is not None)
 
-ROOT_FOLDER = Path(__file__).parent.parent.absolute()
+ROOT_FOLDER: Final[Path] = Path(__file__).parent.parent.absolute()
 
 AUDIO_FOLDER = ROOT_FOLDER / "Audio"
 CONFIG_FOLDER = ROOT_FOLDER / "Config"
@@ -17,19 +18,22 @@ RIPPER_FOLDER = ROOT_FOLDER / "Ripper"
 TRANSLATIONS_FOLDER = ROOT_FOLDER / "Translations"
 UTILITY_FOLDER = ROOT_FOLDER / "Utility"
 
-GENERATED = "Generated"
-TILEMAPS = "_Tilemaps"
+GENERATED: Final[str] = "Generated"
+SPLIT: Final[str] = "Split"
+TILEMAPS: Final[str] = "_Tilemaps"
 
-RESOURCES = "Resources"
-TEXTURE_2D = "Texture2D"
-TEXT_ASSET = "TextAsset"
-GAME_OBJECT = "GameObject"
-PREFAB_INSTANCE = "PrefabInstance"
-AUDIO_CLIP = "AudioClip"
-MONO_BEHAVIOUR = "MonoBehaviour"
+RESOURCES: Final[str] = "Resources"
+TEXTURE_2D: Final[str] = "Texture2D"
+TEXT_ASSET: Final[str] = "TextAsset"
+GAME_OBJECT: Final[str] = "GameObject"
+PREFAB_INSTANCE: Final[str] = "PrefabInstance"
+AUDIO_CLIP: Final[str] = "AudioClip"
+MONO_BEHAVIOUR: Final[str] = "MonoBehaviour"
 
-DATA_MANAGER_SETTINGS = "DataManagerSettings"
-BUNDLE_MANIFEST_DATA = "BundleManifestData"
+DATA_MANAGER_SETTINGS: Final[str] = "DataManagerSettings"
+BUNDLE_MANIFEST_DATA: Final[str] = "BundleManifestData"
+
+COMPOUND_DATA: Final[str] = "Compound Data"
 
 
 class DeferConstants(metaclass=Singleton):
@@ -43,4 +47,4 @@ class DeferConstants(metaclass=Singleton):
         return cls._is_pydub
 
 
-DEFAULT_ANIMATION_FRAME_RATE = 7
+DEFAULT_ANIMATION_FRAME_RATE: Final[int] = 7

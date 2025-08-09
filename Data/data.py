@@ -2,16 +2,14 @@ import json
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Any, Literal, Final
+from typing import Any, Literal
 
 from Config.config import DLCType
-from Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
+from Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA, COMPOUND_DATA
 from Utility.meta_data import MetaDataHandler
-from Utility.singleton import Singleton
+from Utility.special_classes import Objectless
 from Utility.unityparser2 import UnityDoc
 from Utility.utility import clean_json, to_pascalcase
-
-COMPOUND_DATA: Final[str] = "Compound Data"
 
 
 def open_f(path):
@@ -89,12 +87,15 @@ class DataType(Enum):
 @dataclass
 class DataFile:
     guid: str
+    __data_type: DataType | Literal[COMPOUND_DATA]
     __path: Path
     __to_concat: dict[DLCType, "DataFile"] | None = None
     __data: dict[str, Any] | None = None
     __raw_text: str | None = None
 
-    def __init__(self, guid: str | None, data_to_concat: dict[DLCType, "DataFile"] = None):
+    def __init__(self, data_type: DataType | Literal[COMPOUND_DATA], guid: str | None,
+                 data_to_concat: dict[DLCType, "DataFile"] = None):
+        self.__data_type = data_type
         self.guid = guid
         self.__to_concat = data_to_concat
 
@@ -121,6 +122,9 @@ class DataFile:
         self.__load()
         return self.__raw_text
 
+    def data_type(self) -> DataType:
+        return self.__data_type
+
 
 def _concatenate(data_to_concat: dict[DLCType, DataFile]):
     out_data = {}
@@ -128,16 +132,17 @@ def _concatenate(data_to_concat: dict[DLCType, DataFile]):
     for dlc_type in DLCType.get_all_types():
         index_cur = 0
 
-        data = data_to_concat.get(dlc_type)
-        if not data:
+        data_file = data_to_concat.get(dlc_type)
+        if not data_file:
             continue
 
-        data = data.data()
+        data = data_file.data()
 
         # add contentGroup aka dlc
         cg = dlc_type.value.code_name
 
-        has_cg = False
+        ## Monster condition ;-)
+        has_cg = False or data_file.data_type() == DataType.ADVENTURE_STAGE_SET
         for k, v in data.items():
             vv = v
             while isinstance(vv, list) and vv:
@@ -184,7 +189,7 @@ def _concatenate(data_to_concat: dict[DLCType, DataFile]):
     return out_data
 
 
-class DataHandler(metaclass=Singleton):
+class DataHandler(Objectless):
     _loaded_data: dict[DLCType, dict[DataType, DataFile]] = {}
     _concat_data: dict[DataType, DataFile] = {}
 
@@ -216,7 +221,8 @@ class DataHandler(metaclass=Singleton):
             current_dlc: dict[DataType, DataFile] = {}
             for key, file in data.items():
                 if len(file) > 1:
-                    current_dlc[DataType.from_data_file(key)] = DataFile(file["guid"])
+                    data_type = DataType.from_data_file(key)
+                    current_dlc[data_type] = DataFile(data_type, file["guid"])
 
             cls._loaded_data[dlc_type] = current_dlc
 
@@ -224,7 +230,7 @@ class DataHandler(metaclass=Singleton):
             concat_data: dict[DLCType, DataFile] = {}
             for dlc_type in all_dlc_types:
                 concat_data[dlc_type] = cls._loaded_data.get(dlc_type, {}).get(data_type)
-            cls._concat_data[data_type] = DataFile(None, concat_data)
+            cls._concat_data[data_type] = DataFile(COMPOUND_DATA, None, concat_data)
 
     @classmethod
     def get_dict_by_dlc_type(cls, dlc_type: DLCType | Literal[COMPOUND_DATA]) -> dict[DataType, DataFile]:

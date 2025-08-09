@@ -1,114 +1,215 @@
 import json
 import os
+from collections import OrderedDict
+from enum import Enum
 from pathlib import Path
-from typing import Tuple
+from typing import Tuple, Final, Any, Literal
 
+from Utility.constants import COMPOUND_DATA
 from Utility.meta_data import MetaDataHandler
+from Utility.special_classes import Singleton, Objectless
+from Utility.timer import Timeit
+from Utility.unityparser2 import UnityDoc
 
-LANG_FILE_PATH = Path(__file__).with_name("I2Languages.yaml")
+I2_LANGUAGES: Final[str] = "I2Languages"
 
-# TODO: Rewrite this
-def generator_split_to_files(languages: dict, lang_list: list):
-    folder_to_save = os.path.normpath(os.path.split(__file__)[0] + '/Generated/Split')
 
-    languages = languages["MonoBehaviour"]["mSource"]["mTerms"]
+class LangType(Enum):
+    ACHIEVEMENT = "achievementLang"
+    ADVENTURE = "adventureLang"
+    ARCANA = "arcanaLang"
+    CHARACTER = "characterLang"
+    ENEMIES = "enemiesLang"
+    EVENT = "eventLang"
+    GLOSSARY = "Glossary"
+    ITEM = "itemLang"
+    GENERAL = "lang"
+    MUSIC = "musicLang"
+    POWER_UP = "powerUpLang"
+    PROGRESS = "progressLang"
+    SECRET = "secretLang"
+    SKIN = "skinLang"
+    STAGE = "stageLang"
+    WEAPON = "weaponLang"
+    XBOX_ACH = "Xbox Achievements"
 
-    full_d = dict()
+    NONE = None
 
-    total_len = len(languages)
+    @classmethod
+    def get_all_types(cls) -> set["LangType"]:
+        return {*cls}.difference({cls.NONE})
 
-    for i, lang_string in enumerate(languages):
-        yield i, total_len
 
-        full_key = lang_string["Term"].split("/")
+class Lang(Enum):
+    EN = "en"
+    FR = "fr"
+    IT = "it"
+    DE = "de"
+    ES = "es"
+    PT_BR = "pt-BR"
+    PL = "pl"
+    RU = "ru"
+    TR = "tr"
+    ZH_CN = "zh-CN"
+    JS = "ja"
+    KO = "ko"
+    ZH_TW = "zh-TW"
+    UK = "uk"
 
-        group_name = full_key[0]
-        if group_name not in full_d:
-            full_d.update({group_name: {}})
-            for index, lang in lang_list:
-                full_d[group_name].update({lang: {}})
+    @classmethod
+    def get_all_langs(cls) -> set["Lang"]:
+        return {*cls}
 
-        is_part_object = "{" in full_key[1] or "}" in full_key[1]
-        id_key = full_key[1].replace("{", "").split("}")
 
-        for index, lang in lang_list:
-            entry = lang_string["Languages"][index]
+class LangFile:
+    __lang_type: LangType | Literal[COMPOUND_DATA]
+    __data: dict[str, Any] | None = None
+    __lang_data: dict[Lang, dict[str, Any]] | None = None
+    __raw_text: str | None = None
+    __json_text: str | None = None
 
-            if isinstance(entry, str):
-                entry = entry.replace(" ", " ").strip()
+    def __init__(self, lang_type: LangType | Literal[COMPOUND_DATA], data: dict[str, Any] | None = None,
+                 raw_text: str | None = None):
+        self.__lang_type = lang_type
+        if data:
+            self.__data = data
+        elif raw_text:
+            # Raw text in yaml
+            self.__raw_text = raw_text
 
-                if "char" in group_name:
-                    to_upper_list = ["prefix", "charName", "surname"]
-                    if id_key[1] in to_upper_list:
-                        entry = entry[0].upper() + entry[1:]
+    def __load(self):
+        if self.__data:
+            self.__raw_text = self.__json_text = json.dumps(self.__data, ensure_ascii=False, indent=2)
+        elif self.__raw_text:
+            self.__data = UnityDoc.yaml_parse_text_smart(self.__raw_text).entries[0].data
+            self.__json_text = json.dumps(self.__data, ensure_ascii=False, indent=2)
 
-            if is_part_object:
-                if len(id_key) < 2:
-                    continue
+    def __load_inverse(self):
+        self.__load()
+        self.__lang_data = gen_inverse_dict(self.__lang_type)
 
-                entry_id = id_key[0].strip()
-                if entry_id not in full_d[group_name][lang]:
-                    full_d[group_name][lang].update({entry_id: {}})
+    def data(self) -> dict[str, Any]:
+        self.__load()
+        return self.__data
 
-                full_d[group_name][lang][entry_id].update({id_key[1]: entry})
+    def raw_text(self) -> str:
+        self.__load()
+        return self.__raw_text
 
+    def json_text(self) -> str:
+        self.__load()
+        return self.__json_text
+
+    def lang_data(self) -> dict[Lang, dict[str, Any]]:
+        assert self.__lang_type != COMPOUND_DATA
+        self.__load_inverse()
+        return self.__lang_data
+
+    def get_lang(self, lang: Lang) -> dict[str, Any]:
+        return self.lang_data()[lang]
+
+
+class LangHandler(Objectless):
+    _full_file: LangFile = None
+    _loaded_data: dict[LangType, LangFile] = {}
+
+    @classmethod
+    def __load_i2languages(cls):
+        if cls._full_file:
+            return
+
+        mdh = MetaDataHandler()
+        i2lang = mdh.get_path_by_name_no_meta(I2_LANGUAGES)
+        assert i2lang
+
+        with open(i2lang, "r", encoding="utf-8") as f:
+            cls._full_file = LangFile(COMPOUND_DATA, raw_text=f.read())
+
+    @classmethod
+    def __load_separate(cls):
+        cls.__load_i2languages()
+
+        if cls._loaded_data:
+            return
+
+        loaded_data: dict[LangType, Any] = {lang_type: OrderedDict() for lang_type in LangType.get_all_types()}
+        full_data = cls._full_file.data()["mSource"]["mTerms"]
+
+        for i, lang_entry in enumerate(full_data):
+            lang_type_str, *full_key = lang_entry["Term"].replace("{", "").replace("}", "/").split("/")
+            lang_type = LangType(lang_type_str) if lang_type_str in LangType else LangType.NONE
+
+            values = loaded_data[lang_type]
+            for key in full_key[:-1]:
+                if key not in values:
+                    values[key] = OrderedDict()
+                values = values[key]
+            values[full_key[-1]] = [
+                e.replace(" ", " ").strip() if isinstance(e, str) else e
+                for e in lang_entry["Languages"]
+            ]
+
+        for lang_type, values in loaded_data.items():
+            cls._loaded_data[lang_type] = LangFile(lang_type, data=values)
+
+    @classmethod
+    def get_i2language(cls) -> LangFile:
+        cls.__load_i2languages()
+        return cls._full_file
+
+    @classmethod
+    def get_lang_list(cls, is_str: bool = False) -> list[Lang]:
+        i2l = cls.get_i2language().data()
+        langs = [Lang(e['Code']) for e in i2l["mSource"]["mLanguages"]]
+        if is_str:
+            langs = list(map(lambda lang: lang.value, langs))
+        return langs
+
+    @classmethod
+    def get_lang_file(cls, lang_type: LangType) -> LangFile | None:
+        cls.__load_separate()
+        return cls._loaded_data.get(lang_type)
+
+
+def gen_changed_list_to_dict(lang_type: LangType) -> dict[str, Any]:
+    lang_list = LangHandler.get_lang_list(True)
+
+    out_data = OrderedDict()
+
+    for key, val in LangHandler.get_lang_file(lang_type).data().items():
+        if isinstance(val, list):
+            out_data[key] = dict(zip(lang_list, val))
+        else:
+            out_data[key] = OrderedDict()
+            for key2, val2 in val.items():
+                out_data[key][key2] = dict(zip(lang_list, val2))
+
+    return out_data
+
+
+def gen_inverse_dict(lang_type: LangType, selected_langs: set[int] = None) -> dict[Lang, Any]:
+    lang_list = LangHandler.get_lang_list()
+
+    e_lang_list = enumerate(lang_list)
+    if selected_langs:
+        e_lang_list = [(i, x) for i, x in e_lang_list if i in selected_langs]
+
+    out_data = OrderedDict()
+
+    for i, lang in e_lang_list:
+        out_data[lang] = OrderedDict()
+        for key, val in LangHandler.get_lang_file(lang_type).data().items():
+            if isinstance(val, list):
+                out_data[lang][key] = val[i]
             else:
-                full_d[group_name][lang].update({full_key[1]: entry})
+                out_data[lang][key] = OrderedDict()
+                for key2, val2 in val.items():
+                    out_data[lang][key][key2] = val2[i]
 
-    for group_name in full_d.keys():
-        os.makedirs(folder_to_save, exist_ok=True)
-
-        with open(f'{folder_to_save}/{group_name}.json', 'w', encoding="UTF-8") as part_file:
-            part_file.write(json.dumps(full_d[group_name], ensure_ascii=False, indent=2))
-
-
-def split_to_files(languages: dict, lang_list: list, is_gen=False):
-    gen = generator_split_to_files(languages, lang_list)
-
-    if is_gen:
-        return gen
-    else:
-        for _ in gen:
-            pass
-
-
-def get_lang_path(file_name):
-    if not file_name:
-        return None
-    p_dir = __file__.split(os.sep)
-    return "\\".join(p_dir[:-2] + ['Translations', 'Generated', 'Split', file_name])
-
-
-def get_lang_file(path):
-    if not path:
-        return None
-    with open(path, 'r', encoding="UTF-8") as f:
-        return json.loads(f.read())
-
-
-def copy_lang_file() -> Tuple[Path | None, None | str]:
-    handler = MetaDataHandler()
-    path = handler.get_path_by_name_no_meta("i2languages")
-    if not (path and path.exists()):
-        return None, f"Languages file not found"
-
-    with open(path, 'r', encoding="UTF-8") as f:
-        for _ in range(3):
-            f.readline()
-        text = f.read()
-
-    if len(text) < 1000:
-        return None, f"I2Languages does not contain necessary data. (length: {len(text)}) You must manually copy data. (See README.md on how to)"
-
-    with open(LANG_FILE_PATH, 'w', encoding="UTF-8") as yml:
-        yml.write(text)
-
-    return LANG_FILE_PATH.parent, None
+    return out_data
 
 
 if __name__ == "__main__":
-    # with open('I2Languages.yaml', 'r', encoding="UTF-8") as file:
-    #     yaml_file = yaml.safe_load(file)
-    #
-    # a = split_to_files(yaml_file, [(0, "en"), (7, "ru")])
-    copy_lang_file()
+    # LangHandler.get_i2language().data()
+    a = gen_inverse_dict(LangType.ITEM, {0, 7})
+    print(a.keys())

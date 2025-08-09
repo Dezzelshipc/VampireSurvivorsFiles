@@ -10,7 +10,7 @@ from Config.config import Config
 from Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
 from Utility.multirun import run_multiprocess, run_concurrent_sync
-from Utility.singleton import Singleton
+from Utility.special_classes import Singleton
 from Utility.sprite_data import SpriteData, SpriteRect
 from Utility.timer import Timeit
 from Utility.unityparser2 import UnityDoc, UnityYAMLEntry

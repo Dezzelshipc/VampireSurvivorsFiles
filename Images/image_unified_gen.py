@@ -8,7 +8,7 @@ from tkinter.messagebox import showerror
 from PIL import Image
 from PIL.Image import Resampling
 
-from Utility.singleton import Singleton
+from Utility.special_classes import Singleton
 from Utility.multirun import run_multiprocess
 from Utility.meta_data import get_meta_by_name_set, MetaData, get_meta_dict_by_name_set
 from Utility.image_functions import crop_image_rect_left_bot, resize_image

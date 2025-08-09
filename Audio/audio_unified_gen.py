@@ -8,10 +8,11 @@ from typing import Literal, Callable, Any
 from pydub import AudioSegment
 
 import Data.data as data_module
-import Translations.language as lang_handler
+import Translations.language as lang_module
 from Config.config import Config, DLCType
-from Data.data import COMPOUND_DATA
-from Utility.constants import GENERATED
+from Data.data import DataType
+from Translations.language import LangType
+from Utility.constants import GENERATED, COMPOUND_DATA
 from Utility.meta_data import MetaDataHandler
 from Utility.multirun import run_concurrent_sync, run_gather
 from Utility.timer import Timeit
@@ -165,19 +166,19 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
     music_data = data_module.DataHandler.get_data(music_dlc, data_module.DataType.MUSIC).data()
 
     datas = {}
-    convert: dict[str: set[str, str, bool]] = {}
+    convert: dict[str, set[tuple[str, str, bool]]] = {}
     bgm_keys = ["bgm", "BGM", "sideBBGM"]
     if AudioSaveType.RELATIVE_NAME in save_name_types:
         not_found = []
-        data_files = {
-            "unlockedByStage": ("stageLang.json", "stageName", "Stage", data_module.DataType.STAGE),
-            "unlockedByCharacter": ("characterLang.json", "charName", "Character", data_module.DataType.CHARACTER),
-            "unlockedByItem": ("itemLang.json", "name", "Item", None),
+        data_files: dict[str, tuple[LangType, str, str, DataType | None]] = {
+            "unlockedByStage": (LangType.STAGE, "stageName", "Stage", DataType.STAGE),
+            "unlockedByCharacter": (LangType.CHARACTER, "charName", "Character", DataType.CHARACTER),
+            "unlockedByItem": (LangType.ITEM, "name", "Item", None),
         }
 
         for data_key, items in data_files.items():
-            file_name = items[0]
-            lang = lang_handler.get_lang_file(lang_handler.get_lang_path(file_name))
+            lang_type = items[0]
+            en_lang = lang_module.LangHandler.get_lang_file(lang_type).get_lang(lang_module.Lang.EN)
             dat = data_module.DataHandler.get_data(COMPOUND_DATA, items[3])
             if dat:
                 dat = dat.data()
@@ -192,24 +193,16 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
 
                             convert[bgm].add((data_key, data_entry_id, is_b_side))
 
-            if lang and (eng := lang.get("en")):
-                datas.update({data_key: {
-                    "lang": eng,
-                    "key": items[1],
-                    "type": items[2]
-                }})
-            else:
-                not_found.append(file_name)
+            datas.update({data_key: {
+                "lang": en_lang,
+                "key": items[1],
+                "type": items[2]
+            }})
 
         if len(datas) < len(data_files):
             return None, f"! Not found split lang files for relative generator: {not_found}"
 
     music_playlists = _get_music_playlists()
-
-    # music_ids_with_authors = dict(filter(lambda x: bool(x[-1].get("author")), music_data.items())).keys()
-    #
-    # music_playlists = list(filter(lambda x: x.get("playlistName") in music_ids_with_authors, music_playlists_raw))
-    # music_playlists.extend(filter(lambda x: x.get("playlistName") not in music_ids_with_authors, music_playlists_raw))
 
     audio_clips_path = _get_audio_clips_paths()
     audio_clips = {normalize_str(ac): ac for ac in audio_clips_path}

@@ -9,7 +9,7 @@ from Utility.constants import RESOURCES, TEXTURE_2D, TEXT_ASSET, GAME_OBJECT, PR
     MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
 from Utility.multirun import run_multiprocess, run_multiprocess_single, run_concurrent_sync
-from Utility.singleton import Singleton
+from Utility.special_classes import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
 from Utility.unityparser2 import UnityDoc

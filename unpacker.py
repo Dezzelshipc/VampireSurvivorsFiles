@@ -17,13 +17,14 @@ from PIL.Image import open as image_open
 
 import Config.config as config
 import Data.data as data_module
-from Data.data import DataHandler, COMPOUND_DATA
+from Data.data import DataHandler
 import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
 import Translations.language as lang_module
 from Config.config import CfgKey, DLCType
+from Translations.language import LangHandler, I2_LANGUAGES, LangType
 from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
-    GENERATED, TILEMAPS, DATA_FOLDER
+    GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA
 from Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
 from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
@@ -478,100 +479,81 @@ class Unpacker(tk.Tk):
         self.last_loaded_folder = folder_to_save.absolute()
 
     def languages_get(self):
-        print("Copying I2Languages.assets")
+        timeit = Timeit()
         self.progress_bar_set_percent(0, 1)
-        folder_to_save, error = lang_module.copy_lang_file()
-        if error:
-            showerror("Error", error)
-            print(error, file=sys.stderr)
-        else:
-            self.last_loaded_folder = folder_to_save
+        print("Copying I2Languages.assets")
+
+        i2l = LangHandler.get_i2language().raw_text()
+        with open((TRANSLATIONS_FOLDER / I2_LANGUAGES).with_suffix(".yaml"), "w", encoding="utf-8") as f:
+            f.write(i2l)
+
+        print(f"Copying I2Languages finished {timeit!r}")
         self.progress_bar_set_percent(1, 1)
-        print("Copying finished")
-
-    ##
-    def get_lang_meta(self) -> dict | None:
-        lang_path = './Translations/I2Languages.yaml'
-
-        if "I2Languages" not in self.loaded_meta:
-            with open(lang_path, 'r', encoding="UTF-8") as f:
-                self.loaded_meta.update({"I2Languages": yaml.safe_load(f.read())})
-
-        return self.loaded_meta["I2Languages"]
+        self.last_loaded_folder = TRANSLATIONS_FOLDER
 
     def languages_get_json(self):
-        def thread_languages_get_json():
-            yaml_file = self.get_lang_meta()
-
-            folder_to_save = "./Translations/Generated"
-
-            os.makedirs(folder_to_save, exist_ok=True)
-
-            with open(folder_to_save + "/I2Languages.json", 'w', encoding="UTF-8") as json_file:
-                json_file.write(json.dumps(yaml_file, ensure_ascii=False, indent=None))
-
-            self.outer_progress_bar.close_bar()
-            self.last_loaded_folder = os.path.abspath(folder_to_save)
-
-        lang_yaml = './Translations/I2Languages.yaml'
-
-        if not os.path.exists(lang_yaml):
-            showerror("Error", "Language file must be gotten from assets first.")
-            return
-
+        timeit = Timeit()
+        self.progress_bar_set_percent(0, 1)
+        save_folder = TRANSLATIONS_FOLDER / GENERATED
         print("Converting I2Languages to json")
 
-        direct, file = os.path.split(lang_yaml)
+        i2l = LangHandler.get_i2language().json_text()
+        with open((save_folder / I2_LANGUAGES).with_suffix(".json"), "w", encoding="utf-8") as f:
+            f.write(i2l)
 
-        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}")
-
-        t = threading.Thread(target=thread_languages_get_json)
-        t.start()
+        print(f"Converting I2Languages finished {timeit!r}")
+        self.progress_bar_set_percent(1, 1)
+        self.last_loaded_folder = save_folder
 
     def languages_split(self):
-        folder_to_save = "./Translations/Generated/Split"
+        split_types = ["Split as is", "Change lang list to dict", "Inverse hierarchy so lang is top key"]
 
-        def thread_languages_split():
-            yaml_file = self.get_lang_meta()
+        bb = ButtonsBox(split_types, "Select split type", "Select type of splitting langs", self)
+        bb.wait_window()
 
-            langs_list = yaml_file["MonoBehaviour"]["mSource"]["mLanguages"]
-            langs_list = [lang['Name'] for lang in langs_list]
-            self.outer_progress_bar.close_bar()
-            self.last_loaded_folder = os.path.abspath(folder_to_save)
-
-            cbs = CheckBoxes(langs_list, parent=self, label="Select languages to include in split files",
-                             title="Select languages")
-            cbs.wait_window()
-            data_from_popup = cbs.return_data
-
-            if not data_from_popup:
-                return
-
-            using_list = [(i, x[0]) for i, x in enumerate(zip(langs_list, data_from_popup)) if x[1]]
-
-            if not using_list:
-                showerror("Error", "No language has been selected.")
-                return
-
-            gen = lang_module.split_to_files(yaml_file, using_list, is_gen=True)
-
-            for i, total in gen:
-                self.progress_bar_set_percent(i + 1, total)
-
-        lang_yaml = './Translations/I2Languages.yaml'
-
-        if not os.path.exists(lang_yaml):
-            showerror("Error", "Language file must be copied from assets first.")
+        if bb.return_data is None:
             return
 
-        print("Splitting I2Languages to separate categories")
+        split_index = bb.return_data
+        selected_langs = None
 
-        direct, file = os.path.split(lang_yaml)
+        if split_index == len(split_types) - 1:
+            langs_list = LangHandler.get_lang_list()
+            cbs = CheckBoxes(LangHandler.get_lang_list(True), parent=self,
+                             label="Select languages to include in split files",
+                             title="Select languages")
+            cbs.wait_window()
+            if not cbs.return_data:
+                return
 
-        self.outer_progress_bar = self.ProgressBar(self, f"Parsing {file}")
+            selected_langs = {langs_list[i] for i, tf in enumerate(cbs.return_data) if tf}
+            print(f"Selected languages: {selected_langs}")
 
-        t = threading.Thread(target=thread_languages_split)
-        t.start()
+        split_funcs = [
+            lambda l_t: LangHandler.get_lang_file(l_t).json_text(),
+            lambda l_t: json.dumps(lang_module.gen_changed_list_to_dict(l_t), ensure_ascii=False, indent=2),
+            lambda l_t: json.dumps(
+                {lang.value: LangHandler.get_lang_file(l_t).get_lang(lang) for lang in selected_langs},
+                ensure_ascii=False, indent=2),
+        ]
+
+        _time = Timeit()
+        print(f"Splitting I2Languages to separate categories. ({split_types[split_index]})")
+        lang_types = LangType.get_all_types()
+        i = 0
+
+        for lang_type in lang_types:
+            save_path = TRANSLATIONS_FOLDER / GENERATED / SPLIT
+            save_path.mkdir(parents=True, exist_ok=True)
+
+            lang_file = split_funcs[split_index](lang_type)
+            if lang_file:
+                with open((save_path / lang_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
+                    f.write(lang_file)
+
+            self.progress_bar_set_percent(i := i + 1, len(lang_types))
+
+        print(f"Finished splitting I2Languages to separate categories. {_time!r}")
 
     def get_data(self):
         if not self.get_assets_dir().exists():
@@ -608,7 +590,7 @@ class Unpacker(tk.Tk):
             save_path = DATA_FOLDER / GENERATED
             save_path.mkdir(parents=True, exist_ok=True)
 
-            data_file = DataHandler.get_data(None, data_type)
+            data_file = DataHandler.get_data(COMPOUND_DATA, data_type)
             with open((save_path / data_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
                 f.write(data_file.raw_text())
 
@@ -619,30 +601,25 @@ class Unpacker(tk.Tk):
     def data_to_image(self):
         def thread_load_data():
             if not path_data or not os.path.exists(path_data):
-                return None
+                return
 
             with open(path_data, 'r', encoding="UTF-8") as f:
                 data = json.loads(f.read())
 
             self.outer_progress_bar.change_label(f"Getting language file")
-            lang = lang_module.get_lang_file(lang_module.get_lang_path(gen.langFileName))
 
-            if lang and lang.get('en'):
-                lang = lang.get('en')
-            else:
-                lang = None
-                print(f"! Not found english for lang file: {gen.langFileName}",
-                      file=sys.stderr)
+            lang = lang_module.LangHandler.get_lang_file(gen.langFileName).get_lang(lang_module.Lang.EN) \
+                if gen.langFileName != LangType.NONE else None
 
             if gen.assets_type == image_gen.DataType.CHARACTER:
                 w_data = DataHandler.get_data(COMPOUND_DATA, data_module.DataType.WEAPON).data()
-                lang_skins = lang_module.get_lang_file(lang_module.get_lang_path("skinLang.json"))
-                lang_weapon = lang_module.get_lang_file(lang_module.get_lang_path("weaponLang.json"))
+                lang_skins = lang_module.LangHandler.get_lang_file(LangType.SKIN).get_lang(lang_module.Lang.EN)
+                lang_weapon = lang_module.LangHandler.get_lang_file(LangType.WEAPON).get_lang(lang_module.Lang.EN)
                 add_data.update({
                     "weapon": w_data,
                     "character": data,
-                    "lang_skins": lang_skins.get("en"),
-                    "lang_weapon": lang_weapon.get("en")
+                    "lang_skins": lang_skins,
+                    "lang_weapon": lang_weapon
                 })
 
             total = gen.len_data(data)
@@ -658,31 +635,21 @@ class Unpacker(tk.Tk):
                 self.progress_bar_set_percent(i + 1, total)
                 gen.make_image(k_id, obj, lang_data=(lang or {}).get(k_id), add_data=add_data, **generator_settings)
 
-            self.last_loaded_folder = Path("./Images/Generated").absolute()
+            self.last_loaded_folder = Path(f"./Images/Generated/{add_data["p_file"]}").absolute()
 
         if "assets" not in self.get_assets_dir().stem.lower():
             showerror("Error", "Assets directory must be selected.")
             return
-
-        # selected_dlc = self.dlc_selector(allow_compound=True, parent=self)
-        # if not selected_dlc:
-        #     return
-        #
-        # selected_data = self.data_selector_data(selected_dlc, parent=self)
-        # if not selected_data:
-        #     return
-        #
-        #####
 
         path_data = self.data_selector()
 
         if not path_data:
             return
 
-        p_dir, p_file = os.path.split(path_data)
+        p_file = path_data.stem
 
         add_data = {
-            "p_file": p_file
+            "p_file": path_data.stem + "_" + path_data.parent.stem,
         }
 
         gen = image_gen.IGFactory.get(p_file)
@@ -816,9 +783,10 @@ class Unpacker(tk.Tk):
 
         import Audio.audio_unified_gen as audio_gen
 
-        data_path = self.dlc_selector(allow_compound=True, parent=self)
-        if not data_path:
-            return
+        # dlc_type = self.dlc_selector(allow_compound=True, parent=self)
+        # if not dlc_type:
+        #     return
+        dlc_type = COMPOUND_DATA
 
         save_types_list = audio_gen.AudioSaveType.get()
 
@@ -835,11 +803,12 @@ class Unpacker(tk.Tk):
         if not save_types_set:
             return
 
-        print(f"Started audio generating {data_path!r}, {save_types_set}")
+        print(f"Started audio generating {dlc_type!r}, {save_types_set}")
 
-        self.last_loaded_folder, error = audio_gen.gen_music_tracks(data_path, save_types_set,
+        self.last_loaded_folder, error = audio_gen.gen_music_tracks(dlc_type, save_types_set,
                                                                     self.progress_bar_set_percent)
         if error:
+            print(error, file=sys.stderr)
             showerror("Error", error)
 
     def data_ripper(self):

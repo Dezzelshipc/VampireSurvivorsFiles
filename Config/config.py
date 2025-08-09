@@ -8,7 +8,7 @@ from tkinter import ttk
 from tkinter.messagebox import showerror
 from typing import Self
 
-from Utility.singleton import Singleton
+from Utility.special_classes import Singleton
 
 
 class CfgKey(Enum):

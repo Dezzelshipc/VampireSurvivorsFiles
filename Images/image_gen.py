@@ -9,6 +9,7 @@ from PIL.Image import Image, Resampling, open as image_open, new as image_new
 from PIL import ImageFont, ImageDraw
 
 import Images.transparent_save as tr_save
+from Translations.language import LangType
 from Utility.constants import DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER
 from Utility.image_functions import get_anim_sprites_ready
 from Utility.meta_data import get_meta_by_name
@@ -100,7 +101,7 @@ class ImageGenerator:
         self.scaleFactor = 1
         self.folderToSave = None
         self.frameKey = None
-        self.langFileName = None
+        self.langFileName: LangType = LangType.NONE
         self.defaultFrameName = None
         self.dataAnimFramesKey = None
 
@@ -200,7 +201,7 @@ class ImageGenerator:
                     file_name = f"{file_name}1"
                     meta_data = meta.get(file_name)
                 else:
-                    meta_data = meta.get(file_name) or meta.get(int(file_name))
+                    meta_data = meta.get(file_name) or meta.get(int(file_name)) or meta.get(str(int(file_name)))
             except ValueError as e:
                 error = e
                 meta_data = None
@@ -466,7 +467,7 @@ class ItemImageGenerator(SimpleGenerator):
         self.dataTextureKey = "texture"
         self.folderToSave = "items"
         self.dataObjectKey = "name"
-        self.langFileName = "itemLang.json"
+        self.langFileName = LangType.ITEM
         self.defaultFrameName = "frameC.png"
 
         self.available_gen.extend([GenType.ANIM])
@@ -485,7 +486,7 @@ class ArcanaImageGenerator(SimpleGenerator):
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
         self.folderToSave = "arcana"
-        self.langFileName = "arcanaLang.json"
+        self.langFileName = LangType.ARCANA
 
         self.defaultFrameName = "frameG.png"
 
@@ -548,7 +549,7 @@ class AdvMerchantsGenerator(SimpleGenerator):
         self.dataTextureKey = "staticSpriteTexture"
 
         self.dataObjectKey = "charName"
-        self.langFileName = "characterLang.json"
+        self.langFileName = LangType.CHARACTER
 
         self.folderToSave = "adventure merchants"
 
@@ -645,7 +646,7 @@ class WeaponImageGenerator(TableGenerator):
         self.frameKey = "collectionFrame"
         self.folderToSave = "weapons"
         self.defaultFrameName = "frameB.png"
-        self.langFileName = "weaponLang.json"
+        self.langFileName = LangType.WEAPON
 
 
 class CharacterImageGenerator(TableGenerator):
@@ -658,7 +659,7 @@ class CharacterImageGenerator(TableGenerator):
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "charName"
         self.folderToSave = "characters"
-        self.langFileName = "characterLang.json"
+        self.langFileName = LangType.CHARACTER
         self.dataAnimFramesKey = "walkingFrames"
         self.iconPrefix = "Select"
 
@@ -841,7 +842,7 @@ class CharacterImageGenerator(TableGenerator):
             rect = meta_data["rect"]
 
             sx, sy = im.size
-            w_sprite = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+            w_sprite: Image = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
             w_sprite = w_sprite.resize((w_sprite.size[0] * 4, w_sprite.size[1] * 4), Resampling.NEAREST)
 
             w_sprite_black = w_sprite.copy()
@@ -904,7 +905,7 @@ class PowerUpImageGenerator(TableGenerator):
         self.dataSpriteKey = "frameName"
         self.dataTextureKey = "texture"
         self.dataObjectKey = "name"
-        self.langFileName = "powerUpLang.json"
+        self.langFileName = LangType.POWER_UP
 
         self.defaultFrameName = "frameD.png"
 
@@ -924,7 +925,7 @@ class EnemyImageGenerator(TableGenerator):
         self.dataSpriteKey = "frameNames"
         self.dataTextureKey = "textureName"
         self.dataObjectKey = "bName"
-        self.langFileName = "enemiesLang.json"
+        self.langFileName = LangType.ENEMIES
         self.dataAnimFramesKey = "idleFrameCount"
 
         self.folderToSave = "enemy"
@@ -995,7 +996,7 @@ class StageImageGenerator(TableGenerator):
         self.dataSpriteKey = "uiFrame"
         self.dataTextureKey = "uiTexture"
         self.dataObjectKey = "stageName"
-        self.langFileName = "stageLang.json"
+        self.langFileName = LangType.STAGE
 
         self.folderToSave = "stage"
 
