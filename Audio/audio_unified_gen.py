@@ -12,7 +12,7 @@ import Translations.language as lang_module
 from Config.config import Config, DLCType
 from Data.data import DataType
 from Translations.language import LangType
-from Utility.constants import GENERATED, COMPOUND_DATA
+from Utility.constants import GENERATED, COMPOUND_DATA, AUDIO_FOLDER
 from Utility.meta_data import MetaDataHandler
 from Utility.multirun import run_concurrent_sync, run_gather
 from Utility.timer import Timeit
@@ -158,8 +158,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
         str | None, None | str):
     save_name_types.add(AudioSaveType.CODE_NAME)
 
-    full_file_path = Path(__file__)
-    f_path = full_file_path.parent
+    f_path = AUDIO_FOLDER
 
     save_path = f_path / GENERATED
 

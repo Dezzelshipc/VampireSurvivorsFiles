@@ -5,18 +5,20 @@ from typing import Final
 
 from Utility.req_test import check_pydub_defer
 from Utility.special_classes import Singleton
+from Utility.utility import _find_main_py_file
 
-IS_DEBUG: Final[bool] = (sys.monitoring.get_tool(sys.monitoring.DEBUGGER_ID)) is not None or (sys.gettrace() is not None)
+IS_DEBUG: Final[bool] = (sys.monitoring.get_tool(sys.monitoring.DEBUGGER_ID)) is not None or (
+        sys.gettrace() is not None)
 
-ROOT_FOLDER: Final[Path] = Path(__file__).parent.parent.absolute()
+ROOT_FOLDER: Final[Path] = _find_main_py_file().parent.absolute()
 
-AUDIO_FOLDER = ROOT_FOLDER / "Audio"
-CONFIG_FOLDER = ROOT_FOLDER / "Config"
-DATA_FOLDER = ROOT_FOLDER / "Data"
-IMAGES_FOLDER = ROOT_FOLDER / "Images"
-RIPPER_FOLDER = ROOT_FOLDER / "Ripper"
-TRANSLATIONS_FOLDER = ROOT_FOLDER / "Translations"
-UTILITY_FOLDER = ROOT_FOLDER / "Utility"
+AUDIO_FOLDER: Final[Path] = ROOT_FOLDER / "Audio"
+CONFIG_FOLDER: Final[Path] = ROOT_FOLDER / "Config"
+DATA_FOLDER: Final[Path] = ROOT_FOLDER / "Data"
+IMAGES_FOLDER: Final[Path] = ROOT_FOLDER / "Images"
+RIPPER_FOLDER: Final[Path] = ROOT_FOLDER / "Ripper"
+TRANSLATIONS_FOLDER: Final[Path] = ROOT_FOLDER / "Translations"
+UTILITY_FOLDER: Final[Path] = ROOT_FOLDER / "Utility"
 
 GENERATED: Final[str] = "Generated"
 SPLIT: Final[str] = "Split"

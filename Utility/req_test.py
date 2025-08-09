@@ -2,13 +2,14 @@
 import asyncio
 import sys
 from importlib.metadata import version, PackageNotFoundError
-from pathlib import Path
 
 from pip._internal.network.session import PipSession
 from pip._internal.req.constructors import install_req_from_parsed_requirement
 from pip._internal.req.req_file import parse_requirements
 
-_REQUIREMENTS_PATH = Path(__file__).parent.with_name("requirements.txt")
+from Utility.utility import _find_main_py_file
+
+_REQUIREMENTS_PATH = _find_main_py_file().with_name("requirements.txt")
 
 
 def test_requirements():
@@ -42,11 +43,11 @@ def test_requirements():
     return True
 
 
-
 def check_pydub():
     from pydub.utils import which
     files = ("ffmpeg", "avconv")
     return any([which(f) for f in files])
+
 
 async def check_pydub_defer():
     return await asyncio.to_thread(check_pydub)

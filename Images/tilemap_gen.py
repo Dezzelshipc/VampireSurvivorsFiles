@@ -1,5 +1,4 @@
 import itertools
-from math import log2, pow, ceil
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
 from typing import Callable
@@ -7,6 +6,7 @@ from typing import Callable
 from PIL.Image import Image, new as image_new
 
 from Config.config import Config
+from Utility.constants import IMAGES_FOLDER, GENERATED, TILEMAPS
 from Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
 from Utility.multirun import run_multiprocess, run_concurrent_sync
@@ -15,8 +15,6 @@ from Utility.sprite_data import SpriteData, SpriteRect
 from Utility.timer import Timeit
 from Utility.unityparser2 import UnityDoc, UnityYAMLEntry
 from Utility.utility import CheckBoxes, write_in_file_end, clear_file
-
-THIS_FOLDER = Path(__file__).parent
 
 
 class TilemapDataHandler(metaclass=Singleton):
@@ -107,7 +105,7 @@ def gen_tilemap(path: Path, __is_full_auto=True,
 
     p_file = path.name
     save_file = path.with_suffix("").name
-    save_folder = Path(THIS_FOLDER, "Generated/_Tilemaps", save_file)
+    save_folder = Path(IMAGES_FOLDER, GENERATED, TILEMAPS, save_file)
 
     if path not in handler.loaded_prefabs:
         _text = path.read_text(encoding="UTF-8")

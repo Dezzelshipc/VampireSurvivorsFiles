@@ -103,3 +103,16 @@ def clean_json(string):
 
 def to_pascalcase(s):
   return re.sub(r"([_\-])+", " ", s).title().replace(" ", "").replace("*","")
+
+
+def _find_main_py_file(file_name: str = "unpacker.py") -> Path | None:
+    this_folder = Path(__file__).parent
+
+    for _ in range(4):
+        try:
+            return next(this_folder.glob(file_name))
+        except StopIteration:
+            this_folder = this_folder.parent
+
+    print(f"!!! Not found {file_name}")
+    return None

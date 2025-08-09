@@ -6,6 +6,7 @@ import requests
 import os
 
 from Config.config import DLCType, Config, CfgKey
+from Utility.constants import RIPPER_FOLDER
 from Utility.timer import Timeit
 
 ripper_port = 56636
@@ -13,8 +14,6 @@ ripper_url = f"http://127.0.0.1:{ripper_port}/"
 
 
 def rip_files(dlc_list: set[DLCType]):
-    f_path = Path(__file__).parent
-
     config = Config()
 
     ripper_path = config[CfgKey.RIPPER]
@@ -22,7 +21,7 @@ def rip_files(dlc_list: set[DLCType]):
 
     ripper = None
     ripper_settings = None
-    this_settings = f_path.joinpath(settings_name)
+    this_settings = RIPPER_FOLDER.joinpath(settings_name)
 
     for p in ripper_path.iterdir():
         if "AssetRipper" in p.name and ".exe" in p.suffixes:

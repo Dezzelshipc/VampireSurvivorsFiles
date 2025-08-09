@@ -8,6 +8,7 @@ from tkinter import ttk
 from tkinter.messagebox import showerror
 from typing import Self
 
+from Utility.constants import CONFIG_FOLDER
 from Utility.special_classes import Singleton
 
 
@@ -211,7 +212,7 @@ class Config(metaclass=Singleton):
 
     def __init__(self):
         self.data: dict[CfgKey: str | None] = dict()
-        path = Path(__file__).parent
+        path = CONFIG_FOLDER
         self.config_path = path.joinpath("Config.json")
 
         if not os.path.exists(self.config_path):

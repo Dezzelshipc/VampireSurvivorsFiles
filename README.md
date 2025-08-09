@@ -10,7 +10,7 @@ Ripped from v1.12 + Moonspell + Foscari + Meeting + Guns + Ode + Diorama
 
 Game data files and DLC data files located in [Data](Data) folder.
 
-## Unpacker (v0.15.3) - Data manager and Image generator
+## Unpacker (v0.16) - Data manager and Image generator
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
@@ -24,8 +24,7 @@ Use [Python 3.12](https://www.python.org/downloads/) and install dependencies `p
 Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
 folders (`...\ExportedProject\Assets`, can be empty to automatically rip files).
 
-* ***NOTE*** that ripping will **remove
-  everything** in selected folders!
+* ***NOTE*** that ripping will **remove everything** in selected folders!
 
 Using [AssetRipper](https://github.com/AssetRipper/AssetRipper)
 
@@ -98,5 +97,4 @@ to _**Level 1**_. If it crashes when ripping then manually copy data from resour
 
 * Keep support for new content updates and DLC.
 
-* Add JsonDataHandler similar to MetaDataHandler.
 * Rewrite Image gen to better pipeline (i.e. cache sprites).
