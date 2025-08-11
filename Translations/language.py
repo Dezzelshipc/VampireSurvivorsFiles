@@ -78,9 +78,9 @@ class LangFile:
             self.__raw_text = raw_text
 
     def __load(self):
-        if self.__data:
+        if self.__data and not self.__raw_text:
             self.__raw_text = self.__json_text = json.dumps(self.__data, ensure_ascii=False, indent=2)
-        elif self.__raw_text:
+        elif self.__raw_text and not self.__data:
             self.__data = UnityDoc.yaml_parse_text_smart(self.__raw_text).entries[0].data
             self.__json_text = json.dumps(self.__data, ensure_ascii=False, indent=2)
 

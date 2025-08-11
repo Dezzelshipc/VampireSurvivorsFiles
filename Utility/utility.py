@@ -58,7 +58,7 @@ class ButtonsBox(tk.Toplevel):
         self.return_data = None
 
         for i, val in enumerate(list_to_texts):
-            button = tk.Button(self, text=val, command=self.__close(i))
+            button = ttk.Button(self, text=val, command=self.__close(i))
             button.pack()
 
     def __close(self, i):

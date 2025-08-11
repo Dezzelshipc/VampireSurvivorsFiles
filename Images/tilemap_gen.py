@@ -19,8 +19,6 @@ from Utility.utility import CheckBoxes, write_in_file_end, clear_file
 
 class TilemapDataHandler(metaclass=Singleton):
     def __init__(self):
-        self.config = Config()
-
         self.loaded_prefabs: dict[Path, tuple[list[Tilemap | None], int]] = dict()
 
         self.size_tile = self.get_size_tile()
@@ -132,7 +130,7 @@ def gen_tilemap(path: Path, __is_full_auto=True,
     else:
         exclude_layers = set()
 
-    print(f"Multiprocessing: {handler.config.get_multiprocessing()}")
+    print(f"Multiprocessing: {Config.get_multiprocessing()}")
     print(f"Excluded layers: {exclude_layers}")
 
     if path not in handler.loaded_prefabs:
@@ -270,10 +268,10 @@ if __name__ == "__main__":
 
     def __profile():
         from tkinter import filedialog as fd
-        from Config.config import Config, CfgKey
+        from Config.config import CfgKey
         full_path = fd.askopenfilename(
             title='Select prefab file of tilemap',
-            initialdir=Config()[CfgKey.VS],
+            initialdir=Config.get_assets_dir(CfgKey.VS),
             filetypes=[('Prefab', '*.prefab')]
         )
         if not full_path:

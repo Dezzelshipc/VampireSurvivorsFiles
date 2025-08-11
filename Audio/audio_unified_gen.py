@@ -9,7 +9,7 @@ from pydub import AudioSegment
 
 import Data.data as data_module
 import Translations.language as lang_module
-from Config.config import Config, DLCType
+from Config.config import DLCType, Config
 from Data.data import DataType
 from Translations.language import LangType
 from Utility.constants import GENERATED, COMPOUND_DATA, AUDIO_FOLDER
@@ -208,7 +208,7 @@ def gen_music_tracks(music_dlc: DLCType | Literal[COMPOUND_DATA], save_name_type
 
     total_len = len(music_playlists)
 
-    print(f"Multiprocessing: {Config().get_multiprocessing()}")
+    print(f"Multiprocessing: {Config.get_multiprocessing()}")
     print(f"Generating {total_len} tacks")
 
     args_gen_tracks = (

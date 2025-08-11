@@ -19,7 +19,7 @@ def run_multiprocess[** P, T](func: Callable[P, T], args: Iterable[P.args], is_m
     :param is_generator: When is_generator==True and is_multiprocess==False then list generator will be returned. Default: False
     :return: List of functions results
     """
-    is_config_mp = Config().get_multiprocessing() and not IS_DEBUG
+    is_config_mp = Config.get_multiprocessing() and not IS_DEBUG
 
     if is_multiprocess and is_config_mp:
         with Pool(processes) as p:

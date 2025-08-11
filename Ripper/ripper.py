@@ -1,11 +1,10 @@
+import os
 import shutil
 import time
-from pathlib import Path
 
 import requests
-import os
 
-from Config.config import DLCType, Config, CfgKey
+from Config.config import DLCType, CfgKey, Config
 from Utility.constants import RIPPER_FOLDER
 from Utility.timer import Timeit
 
@@ -14,9 +13,7 @@ ripper_url = f"http://127.0.0.1:{ripper_port}/"
 
 
 def rip_files(dlc_list: set[DLCType]):
-    config = Config()
-
-    ripper_path = config[CfgKey.RIPPER]
+    ripper_path = Config[CfgKey.RIPPER]
     settings_name = "AssetRipper.Settings.json"
 
     ripper = None
@@ -62,14 +59,10 @@ def rip_files(dlc_list: set[DLCType]):
                 wait_time *= 2
                 print(f"Ripper is not loaded. Trying reconnect in {wait_time} sec.")
 
-
-    remove_from_path = ["ExportedProject", "Assets"]
-    steam_folder = {p.name: p for p in config[CfgKey.STEAM_VS].iterdir()}
+    steam_folder = {p.name: p for p in Config[CfgKey.STEAM_VS].iterdir()}
 
     for dlc in sorted(map(lambda x: x.value, dlc_list)):
-        assets_path = config[dlc.config_key]
-        while assets_path.stem in remove_from_path:
-            assets_path = assets_path.parent
+        assets_path = Config[dlc.config_key]
 
         if dlc.steam_index not in steam_folder:
             print(f"Skipping {dlc.code_name} - Steam folder {dlc.steam_index} not found")

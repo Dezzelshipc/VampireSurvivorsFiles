@@ -1,15 +1,19 @@
+import itertools
 import json
-import os
 import tkinter as tk
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 from tkinter import ttk
-from tkinter.messagebox import showerror
-from typing import Self
+from tkinter.filedialog import askdirectory
+from tkinter.messagebox import showerror, showinfo
+from typing import Self, Final, OrderedDict, Callable
 
-from Utility.constants import CONFIG_FOLDER
-from Utility.special_classes import Singleton
+from Utility.constants import CONFIG_FOLDER, ROOT_FOLDER
+from Utility.special_classes import Objectless
+
+ASSETS = "Assets"
+EXPORTED_PROJECT = "ExportedProject"
 
 
 class CfgKey(Enum):
@@ -25,8 +29,7 @@ class CfgKey(Enum):
     OC = "OC_ASSETS"
     ED = "ED_ASSETS"
 
-
-    IS = "IS_ASSETS"
+    # IS = "IS_ASSETS"
 
     def __str__(self):
         return self.value
@@ -34,6 +37,14 @@ class CfgKey(Enum):
     @classmethod
     def get_non_path_keys(cls) -> set[Self]:
         return {cls.MULTIPROCESSING}
+
+    @classmethod
+    def get_path_keys(cls) -> set[Self]:
+        return {*cls}.difference(cls.get_non_path_keys())
+
+    @classmethod
+    def get_assets_keys(cls) -> set[Self]:
+        return {*cls}.difference({CfgKey.MULTIPROCESSING, CfgKey.RIPPER, CfgKey.STEAM_VS})
 
 
 @dataclass(order=True, unsafe_hash=True)
@@ -71,7 +82,7 @@ class DLCType(Enum):
     @classmethod
     def get_all_dlc(cls) -> list[DLC]:
         dlcs = [*cls]
-        return list(sorted(map(lambda x:x.value, dlcs)))
+        return list(sorted(map(lambda x: x.value, dlcs)))
 
     @classmethod
     def get_by_cfgkey(cls, config_key: CfgKey) -> DLC | None:
@@ -96,156 +107,194 @@ class DLCType(Enum):
         return _all[index] if index < len(_all) else None
 
 
-class Config(metaclass=Singleton):
-    # TODO: Rewrite this piece of code
-    class ConfigChanger(tk.Toplevel):
-        def __init__(self, parent, config):
-            super().__init__(parent)
-            self.title("Parsing")
-            self.geometry("700x500")
-            self.config = config
+class Config(Objectless):
+    __data: OrderedDict[CfgKey, Path | bool] = OrderedDict()
 
-            ttk.Label(self,
-                      text="Enter path to ripped dlc assets.\t Must end with '...\\ExportedProject\\Assets' or be empty.").pack()
-            ttk.Label(self).pack()
+    _CONFIG_FILE: Final[Path] = CONFIG_FOLDER / "Config.json"
 
-            self.variables = {}
+    @classmethod
+    def load(cls):
+        cls.__data = cls._get_default_config()
+        if not cls._CONFIG_FILE.exists():
+            cls._CONFIG_FILE.parent.mkdir(parents=True, exist_ok=True)
+        else:
+            cls._load_config()
+            data, _ = cls._fix_assets_path(cls.__data)
+            cls.__data = data
 
-            for key, path in self.config.data.items():
-                if "ASSETS" in key.value:
-                    dlc = DLCType.get_by_cfgkey(key)
-                    if dlc is None:
-                        continue
+    @classmethod
+    def _save_config_file(cls):
+        with open(cls._CONFIG_FILE, "w", encoding="utf-8") as f:
+            f.write(json.dumps({
+                key.value: ("" if val == Path() else str(val)) if isinstance(val, Path) else val
+                for key, val in cls.__data.items()
+            }, ensure_ascii=False, indent=2))
 
-                    tk.Label(self, text=f"{key}\t{dlc.full_name}, {dlc.code_name}").pack()
-                    str_var = tk.StringVar(self, path)
-                    tk.Entry(self, textvariable=str_var, width=100).pack()
-                    self.variables.update({key: str_var})
+    @classmethod
+    def _get_default_config(cls):
+        data: OrderedDict[CfgKey, Path | bool] = OrderedDict(
+            {dlc.value.config_key: Path() for dlc in DLCType.get_all_types()})
+        data[CfgKey.RIPPER] = Path()
+        data[CfgKey.STEAM_VS] = Path()
+        data[CfgKey.MULTIPROCESSING] = False
+        return data
 
-            key = CfgKey.MULTIPROCESSING
-            bool_var_mp = tk.BooleanVar(self, config[key])
-            tk.Checkbutton(self, text="Enable multiprocessing for some generators", variable=bool_var_mp).pack()
-            self.variables.update({key: bool_var_mp})
-
-            key = CfgKey.RIPPER
-            tk.Label(self, text=f"{key}\tAsset Ripper. Folder must contain 'AssetRipper[...].exe'").pack()
-            str_var_ripper = tk.StringVar(self, config[key])
-            tk.Entry(self, textvariable=str_var_ripper, width=100).pack()
-            self.variables.update({key: str_var_ripper})
-
-            key = CfgKey.STEAM_VS
-            tk.Label(self, text=f"{key}\tVS steam folder. Folder must contain 'Vampire Survivors.exe'").pack()
-            str_var_steam = tk.StringVar(self, config[key])
-            tk.Entry(self, textvariable=str_var_steam, width=100).pack()
-            self.variables.update({key: str_var_steam})
-
-            ttk.Button(
-                self,
-                text="Save",
-                command=self.try_save
-            ).pack()
-
-        def try_save(self):
-            variables = {}
-            for key, str_var in self.variables.items():
-                if "ASSETS" in key.value:
-                    var: str | Path = str_var.get() or ""
-
-                    if var in ["\\"] or len(var) < 2:
-                        var = ""
-
-                    if var and not var.endswith("Assets"):
-                        showerror("Error",
-                                  f"Every path to DLC must end with 'Assets' or be empty.\nError in {key}")
-                        return
-
-                    if var:
-                        var = Path(var)
-
-                    variables.update({key: var})
-
-                elif CfgKey.RIPPER == key:
-                    var = str_var.get()
-                    if var:
-                        if not os.path.exists(var):
-                            showerror("Error", "Asset Ripper path does not exists")
-                            return
-
-                        is_in = False
-                        for p in os.scandir(var):
-                            if 'AssetRipper' in p.name and '.exe' in p.name:
-                                is_in = True
-                                break
-
-                        if not is_in:
-                            showerror("Error", "'AssetRipper[...].exe' does not exists")
-                            return
-
-                        var = Path(var)
-
-                    variables.update({key: var})
-
-                elif CfgKey.STEAM_VS == key:
-                    var = str_var.get()
-                    if var:
-                        if not os.path.exists(var + "\\VampireSurvivors.exe"):
-                            showerror("Error", "Path to 'VampireSurvivors.exe' in steam folder does not exist")
-                            return
-
-                        var = Path(var)
-
-                    variables.update({key: var})
-
-                else:
-                    variables.update({key: self.variables[key].get()})
-
-            if not os.path.exists(self.config.config_path):
-                self.config.save_file()
-
-            self.variables = variables
-            self.save()
-
-        def save(self):
-            self.config.data.update(self.variables)
-            self.config.save_file(self.variables)
-            self.destroy()
-
-    def __init__(self):
-        self.data: dict[CfgKey: str | None] = dict()
-        path = CONFIG_FOLDER
-        self.config_path = path.joinpath("Config.json")
-
-        if not os.path.exists(self.config_path):
-            self.save_file()
-
-        self.update_config()
-
-    def update_config(self):
-        with open(self.config_path, "r", encoding="UTF-8") as f:
+    @classmethod
+    def _load_config(cls):
+        with open(cls._CONFIG_FILE, "r", encoding="UTF-8") as f:
             try:
                 json_file = json.loads(f.read())
             except json.decoder.JSONDecodeError as e:
                 print(e)
-                json_file = {}
+                json_file = OrderedDict()
 
-            self.data.update({dlc.value.config_key: "" for dlc in DLCType.get_all_types()})
-            self.data.update({CfgKey(k): (v if CfgKey(k) in CfgKey.get_non_path_keys() else Path(v)) for k, v in json_file.items() if k in CfgKey})
+            cls.__data.update({
+                CfgKey(key): (val if CfgKey(key) in CfgKey.get_non_path_keys() else Path(val))
+                for key, val in json_file.items()
+                if key in CfgKey
+            })
 
-    def save_file(self, data: dict | None = None):
-        with open(self.config_path, "w", encoding="UTF-8") as f:
-            f.write(json.dumps({k.value: ( str(v) if isinstance(v, Path) else v  ) for k, v in (data or {}).items()}, ensure_ascii=False, indent=2))
+    @classmethod
+    def _update_data(cls, data: OrderedDict[CfgKey, Path | bool]):
+        cls.__data = data
 
-    def __getitem__(self, item) -> Path | str:
-        self.update_config()
-        return self.data.get(item)
+    @classmethod
+    def get_data(cls) -> OrderedDict[CfgKey, Path | bool]:
+        Config.load()
+        return cls.__data
 
-    def change_config(self, parent):
-        self.ConfigChanger(parent, self)
+    def __class_getitem__(cls, item: CfgKey) -> Path | bool:
+        return cls.get_data().get(item)
 
-    def get_multiprocessing(self):
-        return self[CfgKey.MULTIPROCESSING]
+    @classmethod
+    def get_multiprocessing(cls) -> bool:
+        return cls[CfgKey.MULTIPROCESSING]
+
+    @classmethod
+    def get_assets_dir(cls, dlc: CfgKey = CfgKey.VS) -> Path:
+        return cls.get_data().get(dlc) / EXPORTED_PROJECT / ASSETS
+
+    @staticmethod
+    def _fix_assets_path(data: OrderedDict[CfgKey, Path | bool]) -> (OrderedDict[CfgKey, Path | bool], bool):
+        is_changed = False
+
+        for key in CfgKey.get_assets_keys():
+            path = Path(data[key])
+            while EXPORTED_PROJECT in str(path) and ASSETS in str(path):
+                is_changed = True
+                path = path.parent
+
+            if path.name == EXPORTED_PROJECT:
+                is_changed = True
+                path = path.parent
+
+            data[key] = path
+
+        return data, is_changed
+
+    @classmethod
+    def change_config(cls, parent: tk.Tk = None):
+        Config.load()
+        cc = cls.CfgChanger(parent)
+        cc.wait_window()
+
+    class CfgChanger(tk.Toplevel):
+        def __init__(self, parent):
+            super().__init__(parent)
+            self.title("Change config")
+            self.geometry("700x520")
+
+            self.variables: dict[CfgKey, tk.StringVar | tk.BooleanVar | None] = dict(zip(
+                Config._get_default_config(),
+                itertools.cycle((None,))
+            ))
+
+            ttk.Label(self, text="Select path where to save ripped assets.").pack()
+            ttk.Label(self, text="!! When ripping all data in selected folder WILL BE REMOVED !!").pack()
+            ttk.Label(self).pack()
+
+            def select_folder(variable: tk.StringVar) -> Callable[[], None]:
+                def _in_func():
+                    folder = askdirectory(parent=self, initialdir=Path(variable.get()) or ROOT_FOLDER)
+                    if folder:
+                        variable.set(str(Path(folder)))
+
+                return _in_func
+
+            for key in self.variables.keys():
+                if key in CfgKey.get_non_path_keys():
+                    continue
+
+                info_text = ""
+                if dlc := DLCType.get_by_cfgkey(key):
+                    info_text = f"{dlc.full_name}. {dlc.code_name}"
+                else:
+                    match key:
+                        case CfgKey.RIPPER:
+                            info_text = f"Asset Ripper. Folder must contain 'AssetRipper[...].exe'"
+                        case CfgKey.STEAM_VS:
+                            info_text = f"VS steam folder. Folder must contain 'Vampire Survivors.exe'"
+                        case CfgKey.MULTIPROCESSING:
+                            continue
+
+                tk.Label(self, text=info_text).pack()
+
+                frame = ttk.Frame(self)
+                frame.pack()
+
+                path = Config[key]
+                path = "" if path == Path() else str(path)
+                self.variables[key] = tk.StringVar(frame, path)
+
+                ttk.Label(frame, text=str(key)).pack(side=tk.LEFT)
+                ttk.Entry(frame, textvariable=self.variables[key], width=90).pack(side=tk.LEFT)
+                ttk.Button(frame, text="Select folder", command=select_folder(self.variables[key])).pack(side=tk.LEFT)
+
+            frame = ttk.Frame(self)
+            frame.pack()
+
+            self.variables[CfgKey.MULTIPROCESSING] = tk.BooleanVar(self, Config[CfgKey.MULTIPROCESSING])
+            ttk.Checkbutton(frame, text="Enable multiprocessing for some generators",
+                            variable=self.variables[CfgKey.MULTIPROCESSING]).pack()
+
+            ttk.Button(self, text="Check paths and/or Save", command=self.try_save).pack()
+
+        def try_save(self):
+            # print({k: v.get() for k, v in self.variables.items()})
+            data, is_changed = Config._fix_assets_path(OrderedDict(
+                {k: Path(v.get()) if isinstance(v, tk.StringVar) else v.get() for k, v in self.variables.items()}
+            ))
+
+            for key in CfgKey.get_assets_keys():
+                self.variables[key].set(str(Path(data.get(key))))
+
+            if is_changed:
+                showinfo("Config changed",
+                         f"Removed '{EXPORTED_PROJECT}' and '{ASSETS}' from assets paths. Press button again to save.")
+
+            is_asset_ripper = bool(list(Path(self.variables[CfgKey.RIPPER].get()).glob("AssetRipper*.exe"))) or \
+                              Path(self.variables[CfgKey.RIPPER].get()) == Path()
+            if not is_asset_ripper:
+                showerror("Error: AssetRipper", "AssetRipper.exe not found in selected folder.")
+
+            is_steam_path = bool(list(Path(self.variables[CfgKey.STEAM_VS].get()).glob("Vampire*.exe"))) or \
+                            Path(self.variables[CfgKey.STEAM_VS].get()) == Path()
+            if not is_steam_path:
+                showerror("Error: VampireSurvivors", "Vampire Survivors.exe not found in selected folder.")
+
+            if is_changed or not is_asset_ripper or not is_steam_path:
+                return
+
+            self.__save()
+
+        def __save(self):
+            data = OrderedDict(
+                {k: Path(v.get()) if isinstance(v, tk.StringVar) else v.get() for k, v in self.variables.items()}
+            )
+            Config._update_data(data)
+            Config._save_config_file()
+            self.destroy()
 
 
 if __name__ == "__main__":
-    cfg = Config()
-    print(cfg["VS_ASSETS"])
+    Config.change_config()

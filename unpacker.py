@@ -1,7 +1,6 @@
 import itertools
 import json
 import os
-import shutil
 import sys
 import threading
 import tkinter as tk
@@ -10,18 +9,16 @@ from tkinter import filedialog as fd
 from tkinter import ttk
 from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
-
-import yaml
 from typing import Literal
+
 from PIL.Image import open as image_open
 
-import Config.config as config
 import Data.data as data_module
-from Data.data import DataHandler
 import Images.image_gen as image_gen
 import Images.transparent_save as tr_save
 import Translations.language as lang_module
-from Config.config import CfgKey, DLCType
+from Config.config import CfgKey, DLCType, Config
+from Data.data import DataHandler
 from Translations.language import LangHandler, I2_LANGUAGES, LangType
 from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
     GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA
@@ -127,8 +124,6 @@ class Unpacker(tk.Tk):
 
         self.title('Resource unpacker VS')
 
-        self.load_config()
-
         b_info = ttk.Button(
             self,
             text="Unpacker help",
@@ -139,7 +134,7 @@ class Unpacker(tk.Tk):
         b_info = ttk.Button(
             self,
             text="Change config",
-            command=self.change_config
+            command=lambda: Config.change_config(self),
         )
         b_info.grid(row=0, column=2)
 
@@ -281,17 +276,10 @@ class Unpacker(tk.Tk):
 
         self.outer_progress_bar = None
 
-    def load_config(self):
-        self.config = config.Config()
-
-    def change_config(self):
-        self.config.change_config(self)
-
-    def get_assets_dir(self, key: CfgKey = CfgKey.VS) -> Path:
-        path = self.config[key]
-        if not "assets" in path.stem.lower():
-            path = None
-        return path or Path("./")
+    @staticmethod
+    def get_assets_dir(key: CfgKey = CfgKey.VS) -> Path:
+        path = Config.get_assets_dir(key)
+        return path.exists() and path or Path()
 
     @staticmethod
     def info():
@@ -684,7 +672,7 @@ class Unpacker(tk.Tk):
 
     @staticmethod
     def dlc_selector(allow_compound: bool = False, parent=None) -> DLCType | Literal[COMPOUND_DATA] | None:
-        all_dlcs = config.DLCType.get_all_types()
+        all_dlcs = DLCType.get_all_types()
         if allow_compound:
             all_dlcs.append(COMPOUND_DATA)
 
@@ -812,13 +800,13 @@ class Unpacker(tk.Tk):
             showerror("Error", error)
 
     def data_ripper(self):
-        if not self.config[CfgKey.STEAM_VS] or not self.config[CfgKey.RIPPER]:
+        if not Config[CfgKey.STEAM_VS] or not Config[CfgKey.RIPPER]:
             showerror("Error", "Not found path to VS steam folder or AssetRipper")
             return
 
         dlc_types_list = []
         for d in DLCType.get_all_types():
-            if self.config[d.value.config_key]:
+            if Config[d.value.config_key]:
                 dlc_types_list.append(d)
 
         cbs = CheckBoxes(dlc_types_list, parent=self, label="Select DLCs to rip",

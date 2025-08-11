@@ -4,11 +4,11 @@ from tkinter import Image
 
 from PIL.Image import Image, open as image_open
 
-from Config.config import Config, DLCType
+from Config.config import DLCType, Config
 from Utility.constants import RESOURCES, TEXTURE_2D, TEXT_ASSET, GAME_OBJECT, PREFAB_INSTANCE, AUDIO_CLIP, \
     MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
-from Utility.multirun import run_multiprocess, run_multiprocess_single, run_concurrent_sync
+from Utility.multirun import run_multiprocess, run_multiprocess_single
 from Utility.special_classes import Singleton
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
@@ -18,8 +18,6 @@ from Utility.utility import normalize_str
 
 class MetaDataHandler(metaclass=Singleton):
     def __init__(self):
-        self.config = Config()
-
         self._found_files: list[Path] = []
 
         self._assets_name_path: dict[str, Path] = {}
@@ -49,7 +47,7 @@ class MetaDataHandler(metaclass=Singleton):
 
         for dlc in DLCType.get_all_dlc():
             for root, file_name in path_roots:
-                path = self.config[dlc.config_key] and self.config[dlc.config_key].joinpath(root)
+                path = Config.get_assets_dir(dlc.config_key) and Config.get_assets_dir(dlc.config_key).joinpath(root)
                 if path and path.exists():
                     self._found_files.extend(path.rglob(f"{file_name}*.meta"))
 

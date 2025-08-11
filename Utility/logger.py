@@ -1,15 +1,15 @@
-from abc import ABC
+from io import StringIO
 from typing import TextIO
 
 from Utility.constants import ROOT_FOLDER
 from Utility.utility import clear_file
 
 
-class Logger(TextIO, ABC):
-
+class Logger(StringIO):
     log_path = ROOT_FOLDER / "unpacker.log"
 
     def __init__(self, stream: TextIO):
+        super().__init__()
         self.stream = stream
         clear_file(self.log_path)
 
