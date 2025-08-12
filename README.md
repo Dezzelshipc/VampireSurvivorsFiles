@@ -19,7 +19,7 @@ of characters and enemies.
 
 ### Getting started
 
-Use [Python 3.12](https://www.python.org/downloads/) and install dependencies `pip install -r requirements.txt`
+Use [Python 3.12](https://www.python.org/downloads/) with _**tkinter**_ and install dependencies `pip install -r requirements.txt`
 
 Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
 folders (`...\ExportedProject\Assets`, can be empty to automatically rip files).

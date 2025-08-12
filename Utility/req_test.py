@@ -7,7 +7,10 @@ from pip._internal.network.session import PipSession
 from pip._internal.req.constructors import install_req_from_parsed_requirement
 from pip._internal.req.req_file import parse_requirements
 
-from Utility.utility import _find_main_py_file
+try:
+    from Utility.utility import _find_main_py_file
+except ImportError:
+    from utility import _find_main_py_file
 
 _REQUIREMENTS_PATH = _find_main_py_file().with_name("requirements.txt")
 
@@ -37,10 +40,17 @@ def test_requirements():
         for req in not_satisfied:
             print(f"!!!   {req["name"]} - Current: {req["current"]}, Required: {req["req"]}", file=sys.stderr)
         print("!!! Run 'pip install -r requirements.txt' to update and install packages", file=sys.stderr)
-        return False
     else:
         print("All packages up to date")
-    return True
+
+    is_tkinter = True
+    try:
+        import tkinter
+    except ImportError:
+        is_tkinter = False
+        print("!!! Module 'tkinter' not installed")
+
+    return is_tkinter and not bool(not_satisfied)
 
 
 def check_pydub():
