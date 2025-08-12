@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Final
 
 from Utility.req_test import check_pydub_defer
-from Utility.special_classes import Singleton
+from Utility.special_classes import Objectless
 from Utility.utility import _find_main_py_file
 
 IS_DEBUG: Final[bool] = (sys.monitoring.get_tool(sys.monitoring.DEBUGGER_ID)) is not None or (
@@ -38,7 +38,7 @@ BUNDLE_MANIFEST_DATA: Final[str] = "BundleManifestData"
 COMPOUND_DATA: Final[str] = "Compound Data"
 
 
-class DeferConstants(metaclass=Singleton):
+class DeferConstants(Objectless):
     _pydub_defer_checker = check_pydub_defer()
     _is_pydub = None
 

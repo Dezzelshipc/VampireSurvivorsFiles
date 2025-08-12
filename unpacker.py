@@ -24,7 +24,7 @@ from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANI
     GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA
 from Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
 from Utility.logger import Logger
-from Utility.meta_data import MetaDataHandler, get_meta_by_name, get_meta_by_name_set
+from Utility.meta_data import MetaDataHandler
 from Utility.timer import Timeit
 from Utility.utility import CheckBoxes, ButtonsBox
 
@@ -270,7 +270,7 @@ class Unpacker(tk.Tk):
 
         self.loaded_meta = dict()
 
-        MetaDataHandler()
+        MetaDataHandler.load()
 
         self.data_from_popup = None
 
@@ -359,15 +359,13 @@ class Unpacker(tk.Tk):
         if not scale_factor: return
 
         full_path_meta = full_path.with_name(file + ".meta")
-        mdh = MetaDataHandler()
-
-        if not mdh.has_meta(full_path_meta):
+        if not MetaDataHandler.has_meta(full_path_meta):
             if not full_path_meta.exists():
                 showerror("Error", f"MetaData not found for {file}")
                 return
-            mdh.add_meta_data(full_path_meta)
+            MetaDataHandler.add_meta_data(full_path_meta)
 
-        data = get_meta_by_name(file)
+        data = MetaDataHandler.get_meta_by_name(file)
 
         data.init_sprites()
 
@@ -420,13 +418,11 @@ class Unpacker(tk.Tk):
             print("Not selected any animation extension")
             return
 
-        data = get_meta_by_name(file)
+        data = MetaDataHandler.get_meta_by_name(file)
 
         if not data:
             showerror("Error", f"MetaData not found for {file}")
             return
-
-        data.init_animations()
 
         animations = data.get_animations()
 
@@ -615,7 +611,7 @@ class Unpacker(tk.Tk):
 
             self.outer_progress_bar.close_bar()
 
-            metas = get_meta_by_name_set(gen.textures_set(data))
+            metas = MetaDataHandler.get_meta_by_name_set(gen.textures_set(data))
             for meta in metas:
                 meta.init_sprites()
 

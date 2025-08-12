@@ -104,7 +104,7 @@ class DataFile:
             return
 
         if not self.__to_concat:
-            self.__path = MetaDataHandler().get_path_by_guid_no_meta(self.guid)
+            self.__path = MetaDataHandler.get_path_by_guid_no_meta(self.guid)
 
             with open_f(self.__path) as f:
                 self.__raw_text = f.read()
@@ -201,15 +201,14 @@ class DataHandler(Objectless):
         ## VS: "DataManagerSettings", Other: "BundleManifestData - [code_name (id) in PascalCase]"
         loaded_data = {}
 
-        mdh = MetaDataHandler()
-        vs_data = list(mdh.filter_paths(lambda name_path: DATA_MANAGER_SETTINGS.lower() in name_path[0]))
+        vs_data = list(MetaDataHandler.filter_paths(lambda name_path: DATA_MANAGER_SETTINGS.lower() in name_path[0]))
 
         if vs_data:
             doc = UnityDoc.yaml_parse_file(vs_data[0][1].with_suffix(""))
             loaded_data[DLCType.VS] = doc.entries[0].data['_Settings']
 
         all_dlc_types = DLCType.get_all_types()
-        dlc_datas = mdh.filter_paths(lambda name_path: BUNDLE_MANIFEST_DATA.lower() in name_path[0])
+        dlc_datas = MetaDataHandler.filter_paths(lambda name_path: BUNDLE_MANIFEST_DATA.lower() in name_path[0])
         for name, path in dlc_datas:
             for dlc_type in all_dlc_types:
                 if to_pascalcase(dlc_type.value.code_name).lower() in name:

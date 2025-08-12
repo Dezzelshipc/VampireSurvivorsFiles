@@ -8,106 +8,12 @@ from Config.config import DLCType, Config
 from Utility.constants import RESOURCES, TEXTURE_2D, TEXT_ASSET, GAME_OBJECT, PREFAB_INSTANCE, AUDIO_CLIP, \
     MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
 from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
-from Utility.multirun import run_multiprocess, run_multiprocess_single
-from Utility.special_classes import Singleton
+from Utility.multirun import run_multiprocess_single
+from Utility.special_classes import Objectless
 from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
 from Utility.timer import Timeit
 from Utility.unityparser2 import UnityDoc
 from Utility.utility import normalize_str
-
-
-class MetaDataHandler(metaclass=Singleton):
-    def __init__(self):
-        self._found_files: list[Path] = []
-
-        self._assets_name_path: dict[str, Path] = {}
-        self._assets_guid_path: dict[str, Path] = {}
-
-        self.loaded_assets_meta: dict[str, MetaData] = {}
-
-        self._load_assets_meta_file_paths()
-        self._load_assets_meta_files_guids()
-
-    def _load_assets_meta_file_paths(self) -> None:
-        if self._assets_name_path:
-            return
-
-        timeit = Timeit()
-
-        path_roots = [
-            (RESOURCES,""),
-            (TEXTURE_2D,""),
-            (TEXT_ASSET,""),
-            (GAME_OBJECT,""),
-            (PREFAB_INSTANCE,""),
-            (AUDIO_CLIP,""),
-            (MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS),
-            (MONO_BEHAVIOUR, BUNDLE_MANIFEST_DATA)
-        ]
-
-        for dlc in DLCType.get_all_dlc():
-            for root, file_name in path_roots:
-                path = Config.get_assets_dir(dlc.config_key) and Config.get_assets_dir(dlc.config_key).joinpath(root)
-                if path and path.exists():
-                    self._found_files.extend(path.rglob(f"{file_name}*.meta"))
-
-        ### deduplication
-        files_by_stem = {}
-        for f in self._found_files:
-            name_norm = normalize_str(f)
-            if not files_by_stem.get(name_norm):
-                files_by_stem[name_norm] = []
-            files_by_stem[name_norm].append(f)
-
-        biggest_files = []
-        for f_list in files_by_stem.values():
-            if len(f_list) > 1:
-                biggest_files.append(
-                    list(sorted(f_list, key=lambda x: 1e10 * int("png" in x.name) + x.stat().st_size, reverse=True))[0])
-            else:
-                biggest_files.append(f_list[0])
-        ###
-
-        self._assets_name_path.update({normalize_str(f): f for f in biggest_files})
-        print(f"Loaded {len(self._found_files)} meta paths ({timeit:.2f} sec)")
-
-    def _load_assets_meta_files_guids(self) -> None:
-        self._load_assets_meta_file_paths()
-
-        if not self._assets_guid_path:
-            print("Started collecting guid of every asset")
-            timeit = Timeit()
-            # guid_path = run_concurrent_sync(_get_meta_guid, self._found_files)
-            guid_path = run_multiprocess_single(_get_meta_guid, self._found_files)
-            self._assets_guid_path.update(guid_path)
-            print(f"Finished collecting guid of every asset ({timeit:.2f} sec)")
-
-    def add_meta_data(self, path: Path) -> None:
-        norm = normalize_str(path)
-        self._assets_name_path.update({norm: path})
-        guid_path = _get_meta_guid(path)
-        self._assets_guid_path.update([guid_path])
-
-    def has_meta(self, path: Path) -> bool:
-        norm = normalize_str(path)
-        return norm in self._assets_name_path
-
-    def get_path_by_name(self, name: str) -> Path | None:
-        return self._assets_name_path.get(normalize_str(name))
-
-    def get_path_by_name_no_meta(self, name: str) -> Path | None:
-        path = self.get_path_by_name(name)
-        return path.with_suffix("") if path else None
-
-    def get_path_by_guid(self, guid: str) -> Path | None:
-        return self._assets_guid_path.get(normalize_str(guid))
-
-    def get_path_by_guid_no_meta(self, guid: str) -> Path | None:
-        path = self.get_path_by_guid(guid)
-        return path.with_suffix("") if path else None
-
-    def filter_paths(self, f_filter: Callable[[tuple[str, Path]], bool]) -> set[tuple[str, Path]]:
-        return set(filter(f_filter, self._assets_name_path.items()))
 
 
 def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
@@ -189,6 +95,7 @@ class MetaData:
             print(f"Generated animations for {self.real_name} ({timeit:.2f} sec)")
 
     def get_animations(self) -> set[AnimationData]:
+        self.init_animations()
         return set(sprite.animation for sprite in self.data_name.values() if sprite.animation is not None)
 
     def __getitem__(self, item):
@@ -196,7 +103,7 @@ class MetaData:
         return self.__getattribute__(item)
 
 
-def __get_meta(meta_path: Path) -> MetaData:
+def _get_meta(meta_path: Path) -> MetaData:
     timeit = Timeit()
 
     meta_path_name = meta_path.name
@@ -264,72 +171,181 @@ def __get_meta(meta_path: Path) -> MetaData:
     return MetaData(name, meta_path_name, guid, image, prepared_data_name, prepared_data_id)
 
 
-def get_meta_by_name_set(name_set: set, is_multiprocess=True) -> set[MetaData]:
-    normalized_set = {normalize_str(name) for name in name_set}
-    handler = MetaDataHandler()
-    not_loaded_name_set = {name for name in normalized_set if name not in handler.loaded_assets_meta}
+class MetaDataHandler(Objectless):
+    _found_files: list[Path] = []
 
-    if not_loaded_name_set:
-        paths = [handler.get_path_by_name(name) for name in not_loaded_name_set]
-        loaded_data: list[MetaData] = run_multiprocess(__get_meta, paths, is_many_args=False,
-                                                       is_multiprocess=is_multiprocess)
+    _assets_name_path: dict[str, Path] = {}
+    _assets_guid_path: dict[str, Path] = {}
 
-        for data_file in loaded_data:
-            handler.loaded_assets_meta.update({
-                data_file.name: data_file,
-                data_file.guid: data_file,
-            })
+    loaded_assets_meta: dict[str, MetaData] = {}
 
-    return {handler.loaded_assets_meta.get(name) for name in normalized_set}
+    @classmethod
+    def load(cls):
+        cls._load_assets_meta_file_paths()
+        cls._load_assets_meta_files_guids()
 
+    @classmethod
+    def _load_assets_meta_file_paths(cls) -> None:
+        if cls._assets_name_path:
+            return
 
-def get_meta_dict_by_name_set(name_set: set, is_multiprocess=True) -> dict[str, MetaData]:
-    datas = get_meta_by_name_set(name_set, is_multiprocess)
-    return {
-        name: data for name, data in zip(name_set, datas)
-    }
+        timeit = Timeit()
 
+        path_roots = [
+            (RESOURCES, ""),
+            (TEXTURE_2D, ""),
+            (TEXT_ASSET, ""),
+            (GAME_OBJECT, ""),
+            (PREFAB_INSTANCE, ""),
+            (AUDIO_CLIP, ""),
+            (MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS),
+            (MONO_BEHAVIOUR, BUNDLE_MANIFEST_DATA)
+        ]
 
-def get_meta_by_guid_set(guid_set: set, is_multiprocess=True) -> set[MetaData]:
-    handler = MetaDataHandler()
-    not_loaded_guid_set = {guid for guid in guid_set if guid not in handler.loaded_assets_meta}
+        for dlc in DLCType.get_all_dlc():
+            for root, file_name in path_roots:
+                path = Config.get_assets_dir(dlc.config_key) and Config.get_assets_dir(dlc.config_key).joinpath(root)
+                if path and path.exists():
+                    cls._found_files.extend(path.rglob(f"{file_name}*.meta"))
 
-    if not_loaded_guid_set:
-        paths = [handler.get_path_by_guid(guid) for guid in not_loaded_guid_set]
-        loaded_data: list[MetaData] = run_multiprocess_single(__get_meta, paths, is_multiprocess=is_multiprocess)
+        ### deduplication
+        files_by_stem = {}
+        for f in cls._found_files:
+            name_norm = normalize_str(f)
+            if not files_by_stem.get(name_norm):
+                files_by_stem[name_norm] = []
+            files_by_stem[name_norm].append(f)
 
-        for data_file in loaded_data:
-            handler.loaded_assets_meta.update({
-                data_file.name: data_file,
-                data_file.guid: data_file,
-            })
+        biggest_files = []
+        for f_list in files_by_stem.values():
+            if len(f_list) > 1:
+                biggest_files.append(
+                    list(sorted(f_list, key=lambda x: 1e10 * int("png" in x.name) + x.stat().st_size, reverse=True))[0])
+            else:
+                biggest_files.append(f_list[0])
+        ###
 
-    return {handler.loaded_assets_meta.get(guid) for guid in guid_set}
+        cls._assets_name_path.update({normalize_str(f): f for f in biggest_files})
+        print(f"Loaded {len(cls._found_files)} meta paths ({timeit:.2f} sec)")
 
+    @classmethod
+    def _load_assets_meta_files_guids(cls) -> None:
+        cls._load_assets_meta_file_paths()
 
-def get_meta_dict_by_guid_set(guid_set: set, is_multiprocess=True) -> dict[str, MetaData]:
-    meta_datas = get_meta_by_guid_set(guid_set, is_multiprocess)
-    return {
-        meta_data.guid: meta_data for meta_data in meta_datas
-    }
+        if not cls._assets_guid_path:
+            print("Started collecting guid of every asset")
+            timeit = Timeit()
+            # guid_path = run_concurrent_sync(_get_meta_guid, self._found_files)
+            guid_path = run_multiprocess_single(_get_meta_guid, cls._found_files)
+            cls._assets_guid_path.update(guid_path)
+            print(f"Finished collecting guid of every asset ({timeit:.2f} sec)")
 
+    @classmethod
+    def add_meta_data(cls, path: Path) -> None:
+        norm = normalize_str(path)
+        cls._assets_name_path.update({norm: path})
+        guid_path = _get_meta_guid(path)
+        cls._assets_guid_path.update([guid_path])
 
-def get_meta_by_name(name: str, is_multiprocess=True) -> MetaData:
-    meta_data = get_meta_by_name_set({name}, is_multiprocess)
-    return meta_data.pop() if meta_data else None
+    @classmethod
+    def has_meta(cls, path: Path) -> bool:
+        cls.load()
+        norm = normalize_str(path)
+        return norm in cls._assets_name_path
 
+    @classmethod
+    def get_path_by_name(cls, name: str) -> Path | None:
+        cls.load()
+        return cls._assets_name_path.get(normalize_str(name))
 
-def get_meta_by_guid(guid: str, is_multiprocess=True) -> MetaData:
-    meta_data = get_meta_by_guid_set({guid}, is_multiprocess)
-    return meta_data.pop() if meta_data else None
+    @classmethod
+    def get_path_by_name_no_meta(cls, name: str) -> Path | None:
+        cls.load()
+        path = cls.get_path_by_name(name)
+        return path.with_suffix("") if path else None
+
+    @classmethod
+    def get_path_by_guid(cls, guid: str) -> Path | None:
+        cls.load()
+        return cls._assets_guid_path.get(normalize_str(guid))
+
+    @classmethod
+    def get_path_by_guid_no_meta(cls, guid: str) -> Path | None:
+        cls.load()
+        path = cls.get_path_by_guid(guid)
+        return path.with_suffix("") if path else None
+
+    @classmethod
+    def filter_paths(cls, f_filter: Callable[[tuple[str, Path]], bool]) -> set[tuple[str, Path]]:
+        cls.load()
+        return set(filter(f_filter, cls._assets_name_path.items()))
+
+    @classmethod
+    def get_meta_by_name_set(cls, name_set: set, is_multiprocess=True) -> set[MetaData]:
+        cls.load()
+
+        normalized_set = {normalize_str(name) for name in name_set}
+        not_loaded_name_set = {name for name in normalized_set if name not in cls.loaded_assets_meta}
+
+        if not_loaded_name_set:
+            paths = [cls.get_path_by_name(name) for name in not_loaded_name_set]
+            loaded_data: list[MetaData] = run_multiprocess_single(_get_meta, paths, is_multiprocess=is_multiprocess)
+
+            for data_file in loaded_data:
+                cls.loaded_assets_meta.update({
+                    data_file.name: data_file,
+                    data_file.guid: data_file,
+                })
+
+        return {cls.loaded_assets_meta.get(name) for name in normalized_set}
+
+    @classmethod
+    def get_meta_dict_by_name_set(cls, name_set: set, is_multiprocess=True) -> dict[str, MetaData]:
+        datas = cls.get_meta_by_name_set(name_set, is_multiprocess)
+        return {
+            name: data for name, data in zip(name_set, datas)
+        }
+
+    @classmethod
+    def get_meta_by_guid_set(cls, guid_set: set, is_multiprocess=True) -> set[MetaData]:
+        cls.load()
+
+        not_loaded_guid_set = {guid for guid in guid_set if guid not in cls.loaded_assets_meta}
+
+        if not_loaded_guid_set:
+            paths = [cls.get_path_by_guid(guid) for guid in not_loaded_guid_set]
+            loaded_data: list[MetaData] = run_multiprocess_single(_get_meta, paths, is_multiprocess=is_multiprocess)
+
+            for data_file in loaded_data:
+                cls.loaded_assets_meta.update({
+                    data_file.name: data_file,
+                    data_file.guid: data_file,
+                })
+
+        return {cls.loaded_assets_meta.get(guid) for guid in guid_set}
+
+    @classmethod
+    def get_meta_dict_by_guid_set(cls, guid_set: set, is_multiprocess=True) -> dict[str, MetaData]:
+        meta_datas = cls.get_meta_by_guid_set(guid_set, is_multiprocess)
+        return {
+            meta_data.guid: meta_data for meta_data in meta_datas
+        }
+
+    @classmethod
+    def get_meta_by_name(cls, name: str, is_multiprocess=True) -> MetaData:
+        meta_data = cls.get_meta_by_name_set({name}, is_multiprocess)
+        return meta_data.pop() if meta_data else None
+
+    @classmethod
+    def get_meta_by_guid(cls, guid: str, is_multiprocess=True) -> MetaData:
+        meta_data = cls.get_meta_by_guid_set({guid}, is_multiprocess)
+        return meta_data.pop() if meta_data else None
 
 
 if __name__ == "__main__":
-    hndlr = MetaDataHandler()
-
-    a = get_meta_by_name("character_mortaccio")
-    # a = get_meta_by_name("enemies")
-    # a = get_meta_by_guid('f2e351beec1ed57408f2e8aab0db8951')
+    a = MetaDataHandler.get_meta_by_name("character_mortaccio")
+    # a = MetaDataHandler.get_meta_by_name("enemies")
+    # a = MetaDataHandler.get_meta_by_guid('f2e351beec1ed57408f2e8aab0db8951')
 
     a.init_sprites()
 

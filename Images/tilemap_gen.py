@@ -8,24 +8,13 @@ from PIL.Image import Image, new as image_new
 from Config.config import Config
 from Utility.constants import IMAGES_FOLDER, GENERATED, TILEMAPS
 from Utility.image_functions import affine_transform, crop_image_rect_left_bot
-from Utility.meta_data import get_meta_dict_by_guid_set, MetaData
+from Utility.meta_data import MetaData, MetaDataHandler
 from Utility.multirun import run_multiprocess, run_concurrent_sync
-from Utility.special_classes import Singleton
+from Utility.special_classes import Objectless
 from Utility.sprite_data import SpriteData, SpriteRect
 from Utility.timer import Timeit
 from Utility.unityparser2 import UnityDoc, UnityYAMLEntry
 from Utility.utility import CheckBoxes, write_in_file_end, clear_file
-
-
-class TilemapDataHandler(metaclass=Singleton):
-    def __init__(self):
-        self.loaded_prefabs: dict[Path, tuple[list[Tilemap | None], int]] = dict()
-
-        self.size_tile = self.get_size_tile()
-
-    @staticmethod
-    def get_size_tile() -> tuple[int, int]:
-        return 32, 32
 
 
 class Tilemap:
@@ -37,6 +26,14 @@ class Tilemap:
 
     def extend_tilemap(self, other: "Tilemap"):
         self.m_Tiles.extend(other.m_Tiles)
+
+    @staticmethod
+    def get_size_tile() -> tuple[int, int]:
+        return 32, 32
+
+
+class TilemapDataHandler(Objectless):
+    loaded_prefabs: dict[Path, tuple[list[Tilemap | None], int]] = dict()
 
 
 def __resize_sprite_for_tile(image: Image, sprite_data: SpriteData, size_tile: tuple[int, int]) -> Image:
@@ -55,7 +52,7 @@ def __load_unity_document(path: Path) -> tuple[list[Tilemap | None], int]:
 
 def __create_tilemap_image(tilemap: Tilemap, new_image: Image, data_by_guid: dict[str: MetaData],
                            save_path: Path) -> Image:
-    size_tile_x, size_tile_y = TilemapDataHandler.get_size_tile()
+    size_tile_x, size_tile_y = Tilemap.get_size_tile()
 
     tile_sprite_array = [(int(x["m_Data"]["fileID"]), x["m_Data"]["guid"]) for x in tilemap.m_TileSpriteArray]
     tile_matrix_array = [{k: float(v) for k, v in x["m_Data"].items()} if int(x["m_RefCount"]) > 0 else {} for x in
@@ -98,21 +95,20 @@ def __save_image(image: Image, path: Path) -> None:
 
 
 def gen_tilemap(path: Path, __is_full_auto=True,
-                func_progress_bar_set_percent: Callable[[int|float, int|float], None]=lambda c, t: 0) -> Path | None:
-    handler = TilemapDataHandler()
-
+                func_progress_bar_set_percent: Callable[[int | float, int | float], None] = lambda c,
+                                                                                                   t: 0) -> Path | None:
     p_file = path.name
     save_file = path.with_suffix("").name
     save_folder = Path(IMAGES_FOLDER, GENERATED, TILEMAPS, save_file)
 
-    if path not in handler.loaded_prefabs:
+    if path not in TilemapDataHandler.loaded_prefabs:
         _text = path.read_text(encoding="UTF-8")
         count_layers = _text.count("Tilemap:")
         if not count_layers:
             showerror("Error", f"Not found any tilemap for {p_file}.")
             return None
     else:
-        count_layers = handler.loaded_prefabs[path][1]
+        count_layers = TilemapDataHandler.loaded_prefabs[path][1]
 
     is_proceed = askyesno("Generation",
                           f"Found tilemap for {p_file}.\nDo you want to generate it?") if __is_full_auto else True
@@ -133,23 +129,23 @@ def gen_tilemap(path: Path, __is_full_auto=True,
     print(f"Multiprocessing: {Config.get_multiprocessing()}")
     print(f"Excluded layers: {exclude_layers}")
 
-    if path not in handler.loaded_prefabs:
+    if path not in TilemapDataHandler.loaded_prefabs:
         print(f"Started {p_file} parsing")
         timeit = Timeit()
-        handler.loaded_prefabs.update({
+        TilemapDataHandler.loaded_prefabs.update({
             path: __load_unity_document(path)
         })
         print(f"Finished {p_file} parsing ({timeit:.2f} sec)")
     else:
         print(f"Already parsed {p_file}")
 
-    tilemaps, _ = handler.loaded_prefabs[path]
+    tilemaps, _ = TilemapDataHandler.loaded_prefabs[path]
 
     guid_set = {sprite["m_Data"]["guid"] for tilemap in tilemaps for sprite in tilemap.m_TileSpriteArray}
 
     print(f"Required guids: {guid_set}")
 
-    meta_data = get_meta_dict_by_guid_set(guid_set)
+    meta_data = MetaDataHandler.get_meta_dict_by_guid_set(guid_set)
 
     for md in meta_data.values():
         md.init_sprites()
@@ -166,8 +162,8 @@ def gen_tilemap(path: Path, __is_full_auto=True,
         size_map_x = max(size_map_x, int(_size['x']))
         size_map_y = max(size_map_y, int(_size['y']))
 
+    size_tile_x, size_tile_y = Tilemap.get_size_tile()
 
-    size_tile_x, size_tile_y = handler.size_tile
     def get_transparent_image():
         return image_new(mode="RGBA", size=(size_map_x * size_tile_x, size_map_y * size_tile_y))
 
@@ -200,7 +196,7 @@ def gen_tilemap(path: Path, __is_full_auto=True,
     if is_concurrent:
         save_composite = []
         for i, layer in enumerate(tilemap_layers):
-            func_progress_bar_set_percent(i, count_layers-1)
+            func_progress_bar_set_percent(i, count_layers - 1)
 
             if i in exclude_layers:
                 continue
@@ -210,7 +206,7 @@ def gen_tilemap(path: Path, __is_full_auto=True,
         run_concurrent_sync(__save_image, save_composite)
     else:
         for i, layer in enumerate(tilemap_layers):
-            func_progress_bar_set_percent(i, count_layers-1)
+            func_progress_bar_set_percent(i, count_layers - 1)
 
             __save_image(layer.copy(), save_folder / f"{save_file}-Layer-{i}.png")
             if i in exclude_layers:
@@ -228,9 +224,8 @@ if __name__ == "__main__":
         name = "Collab1_Tileset1_V6"
         tile_id = 21303880
 
-        from Utility.meta_data import get_meta_by_name, MetaDataHandler
-        MetaDataHandler()
-        meta = get_meta_by_name(name, is_multiprocess=False)
+        from Utility.meta_data import MetaDataHandler
+        meta = MetaDataHandler.get_meta_by_name(name, is_multiprocess=False)
         meta.init_sprites()
 
         meta = meta.data_id

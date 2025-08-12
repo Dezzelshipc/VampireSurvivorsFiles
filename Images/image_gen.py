@@ -3,16 +3,15 @@ import os
 import re
 import sys
 from enum import Enum
-from pathlib import Path
 
-from PIL.Image import Image, Resampling, open as image_open, new as image_new
 from PIL import ImageFont, ImageDraw
+from PIL.Image import Image, Resampling, open as image_open, new as image_new
 
 import Images.transparent_save as tr_save
 from Translations.language import LangType
 from Utility.constants import DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER
 from Utility.image_functions import get_anim_sprites_ready
-from Utility.meta_data import get_meta_by_name
+from Utility.meta_data import MetaDataHandler
 from Utility.sprite_data import SpriteData
 from Utility.utility import normalize_str
 
@@ -360,7 +359,7 @@ class SimpleGenerator(ImageGenerator):
         save_folder = f"{normalize_str(add_data.get("p_file"))}/{self.folderToSave or texture_name}"
 
         def func_meta(x):
-            d = get_meta_by_name(x)
+            d = MetaDataHandler.get_meta_by_name(x)
             if d:
                 return d.data_name, d.image
             else:
@@ -378,7 +377,7 @@ class SimpleGenerator(ImageGenerator):
 
         save_folder += "/" + (obj.get("contentGroup") if obj.get("contentGroup") else "BASE_GAME")
 
-        meta_data = get_meta_by_name(texture_name)
+        meta_data = MetaDataHandler.get_meta_by_name(texture_name)
         meta_data.init_sprites()
         if self.is_anim(settings):
             meta_data.init_animations()

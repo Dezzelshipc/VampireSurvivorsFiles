@@ -1,14 +1,11 @@
 import json
-import os
 from collections import OrderedDict
 from enum import Enum
-from pathlib import Path
-from typing import Tuple, Final, Any, Literal
+from typing import Final, Any, Literal
 
 from Utility.constants import COMPOUND_DATA
 from Utility.meta_data import MetaDataHandler
-from Utility.special_classes import Singleton, Objectless
-from Utility.timer import Timeit
+from Utility.special_classes import Objectless
 from Utility.unityparser2 import UnityDoc
 
 I2_LANGUAGES: Final[str] = "I2Languages"
@@ -118,8 +115,7 @@ class LangHandler(Objectless):
         if cls._full_file:
             return
 
-        mdh = MetaDataHandler()
-        i2lang = mdh.get_path_by_name_no_meta(I2_LANGUAGES)
+        i2lang = MetaDataHandler.get_path_by_name_no_meta(I2_LANGUAGES)
         assert i2lang
 
         with open(i2lang, "r", encoding="utf-8") as f:

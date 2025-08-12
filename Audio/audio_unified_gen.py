@@ -34,15 +34,13 @@ class AudioSaveType(Enum):
 
 
 def _get_music_playlists() -> list[dict[str, Any]]:
-    handler = MetaDataHandler()
-
     search_list = ["MasterAudio", "DynamicSoundGroup", "ProjectContext"]
 
     def flt(tuple_s_p: tuple[str, Path]):
         s, _ = tuple_s_p
         return any(normalize_str(search) in normalize_str(s) for search in search_list)
 
-    audio_prefabs = handler.filter_paths(flt)
+    audio_prefabs = MetaDataHandler.filter_paths(flt)
     audio_prefabs = set(dict(audio_prefabs).values())
 
     timeit = Timeit()
@@ -64,13 +62,11 @@ def _get_music_playlists() -> list[dict[str, Any]]:
 
 
 def _get_audio_clips_paths() -> set[Path]:
-    handler = MetaDataHandler()
-
     def flt(tuple_s_p: tuple[str, Path]):
         _, p = tuple_s_p
         return p.match("*/AudioClip/*")
 
-    audio_clips = handler.filter_paths(flt)
+    audio_clips = MetaDataHandler.filter_paths(flt)
     return set(map(lambda x: x.with_suffix(""), dict(audio_clips).values()))
 
 

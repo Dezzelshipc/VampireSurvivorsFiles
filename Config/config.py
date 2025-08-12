@@ -130,8 +130,8 @@ class Config(Objectless):
                 for key, val in cls.__data.items()
             }, ensure_ascii=False, indent=2))
 
-    @classmethod
-    def _get_default_config(cls):
+    @staticmethod
+    def _get_default_config():
         data: OrderedDict[CfgKey, Path | bool] = OrderedDict(
             {dlc.value.config_key: Path() for dlc in DLCType.get_all_types()})
         data[CfgKey.RIPPER] = Path()
