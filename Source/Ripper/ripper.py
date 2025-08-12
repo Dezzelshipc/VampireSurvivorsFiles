@@ -1,11 +1,12 @@
 import os
 import shutil
+import sys
 import time
 
 import requests
 
 from Config.config import DLCType, CfgKey, Config
-from Utility.constants import RIPPER_FOLDER
+from Utility.constants import RIPPER_FOLDER, to_source_path
 from Utility.timer import Timeit
 
 ripper_port = 56636
@@ -18,13 +19,20 @@ def rip_files(dlc_list: set[DLCType]):
 
     ripper = None
     ripper_settings = None
-    this_settings = RIPPER_FOLDER.joinpath(settings_name)
+    this_settings = to_source_path(RIPPER_FOLDER) / settings_name
 
-    for p in ripper_path.iterdir():
-        if "AssetRipper" in p.name and ".exe" in p.suffixes:
-            ripper = p
-        if "Settings" in p.name and ".json" in p.suffixes and "old" not in p.name:
-            ripper_settings = p
+    try:
+        ripper = next(ripper_path.rglob("AssetRippe*.exe"))
+    except StopIteration:
+        pass
+
+    try:
+        ripper_settings = next(ripper_path.rglob("AssetRipper.Setting*[!(old)].json"))
+    except StopIteration:
+        pass
+
+    if not ripper:
+        print("AssetRipper not found", file=sys.stderr)
 
     is_working = True
     try:

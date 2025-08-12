@@ -20,6 +20,7 @@ RIPPER_FOLDER: Final[Path] = ROOT_FOLDER / "Ripper"
 TRANSLATIONS_FOLDER: Final[Path] = ROOT_FOLDER / "Translations"
 UTILITY_FOLDER: Final[Path] = ROOT_FOLDER / "Utility"
 
+SOURCE: Final[str] = "Source"
 GENERATED: Final[str] = "Generated"
 SPLIT: Final[str] = "Split"
 TILEMAPS: Final[str] = "_Tilemaps"
@@ -37,6 +38,10 @@ BUNDLE_MANIFEST_DATA: Final[str] = "BundleManifestData"
 
 COMPOUND_DATA: Final[str] = "Compound Data"
 
+def to_source_path(path: Path) -> Path:
+    start = path.parent
+    end = path.name
+    return start / SOURCE / end
 
 class DeferConstants(Objectless):
     _pydub_defer_checker = check_pydub_defer()
