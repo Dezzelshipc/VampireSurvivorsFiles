@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 from Config.config import DLCType
-from Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA, COMPOUND_DATA
+from Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA, COMPOUND_DATA, COMPOUND_DATA_TYPE
 from Utility.meta_data import MetaDataHandler
 from Utility.special_classes import Objectless
 from Utility.unityparser2 import UnityDoc
@@ -87,13 +87,13 @@ class DataType(Enum):
 @dataclass
 class DataFile:
     guid: str
-    __data_type: DataType | Literal[COMPOUND_DATA]
+    __data_type: DataType | COMPOUND_DATA_TYPE
     __path: Path
     __to_concat: dict[DLCType, "DataFile"] | None = None
     __data: dict[str, Any] | None = None
     __raw_text: str | None = None
 
-    def __init__(self, data_type: DataType | Literal[COMPOUND_DATA], guid: str | None,
+    def __init__(self, data_type: DataType | COMPOUND_DATA_TYPE, guid: str | None,
                  data_to_concat: dict[DLCType, "DataFile"] = None):
         self.__data_type = data_type
         self.guid = guid
@@ -232,7 +232,7 @@ class DataHandler(Objectless):
             cls._concat_data[data_type] = DataFile(COMPOUND_DATA, None, concat_data)
 
     @classmethod
-    def get_dict_by_dlc_type(cls, dlc_type: DLCType | Literal[COMPOUND_DATA]) -> dict[DataType, DataFile]:
+    def get_dict_by_dlc_type(cls, dlc_type: DLCType | COMPOUND_DATA_TYPE) -> dict[DataType, DataFile]:
         cls.load()
         if dlc_type == COMPOUND_DATA:
             return cls._concat_data
@@ -240,7 +240,7 @@ class DataHandler(Objectless):
             return cls._loaded_data.get(dlc_type)
 
     @classmethod
-    def get_data(cls, dlc_type: DLCType | Literal[COMPOUND_DATA], data_type: DataType | None) -> DataFile:
+    def get_data(cls, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType | None) -> DataFile:
         cls.load()
         if dlc_type == COMPOUND_DATA:
             return cls._concat_data.get(data_type)

@@ -202,9 +202,9 @@ class MetaDataHandler(Objectless):
             (MONO_BEHAVIOUR, BUNDLE_MANIFEST_DATA)
         ]
 
-        for dlc in DLCType.get_all_dlc():
+        for dlc in DLCType.get_all_types():
             for root, file_name in path_roots:
-                path = Config.get_assets_dir(dlc.config_key) and Config.get_assets_dir(dlc.config_key).joinpath(root)
+                path = Config.get_assets_dir(dlc) and Config.get_assets_dir(dlc).joinpath(root)
                 if path and path.exists():
                     cls._found_files.extend(path.rglob(f"{file_name}*.meta"))
 

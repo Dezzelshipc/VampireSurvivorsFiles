@@ -263,10 +263,10 @@ if __name__ == "__main__":
 
     def __profile():
         from tkinter import filedialog as fd
-        from Config.config import CfgKey
+        from Config.config import DLCType
         full_path = fd.askopenfilename(
             title='Select prefab file of tilemap',
-            initialdir=Config.get_assets_dir(CfgKey.VS),
+            initialdir=Config.get_assets_dir(DLCType.VS),
             filetypes=[('Prefab', '*.prefab')]
         )
         if not full_path:

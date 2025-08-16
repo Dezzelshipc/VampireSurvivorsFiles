@@ -80,11 +80,6 @@ class DLCType(Enum):
         return list(sorted(dlcs, key=lambda x: x.value))
 
     @classmethod
-    def get_all_dlc(cls) -> list[DLC]:
-        dlcs = [*cls]
-        return list(sorted(map(lambda x: x.value, dlcs)))
-
-    @classmethod
     def get_by_cfgkey(cls, config_key: CfgKey) -> DLC | None:
         for dlc in [*cls]:
             if dlc.value.config_key == config_key:
@@ -156,7 +151,7 @@ class Config(Objectless):
 
     @classmethod
     def _update_data(cls, data: OrderedDict[CfgKey, Path | bool]):
-        cls.__data = data
+        cls.__data.update(data)
 
     @classmethod
     def get_data(cls) -> OrderedDict[CfgKey, Path | bool]:
@@ -171,8 +166,8 @@ class Config(Objectless):
         return cls[CfgKey.MULTIPROCESSING]
 
     @classmethod
-    def get_assets_dir(cls, dlc: CfgKey = CfgKey.VS) -> Path:
-        return cls.get_data().get(dlc) / EXPORTED_PROJECT / ASSETS
+    def get_assets_dir(cls, dlc: DLCType = DLCType.VS) -> Path:
+        return cls[dlc.value.config_key] / EXPORTED_PROJECT / ASSETS
 
     @staticmethod
     def _fix_assets_path(data: OrderedDict[CfgKey, Path | bool]) -> (OrderedDict[CfgKey, Path | bool], bool):
@@ -193,7 +188,7 @@ class Config(Objectless):
         return data, is_changed
 
     @classmethod
-    def change_config(cls, parent: tk.Tk = None):
+    def invoke_config_changer(cls, parent: tk.Tk = None):
         Config.load()
         cc = cls.CfgChanger(parent)
         cc.wait_window()
@@ -272,13 +267,15 @@ class Config(Objectless):
                 showinfo("Config changed",
                          f"Removed '{EXPORTED_PROJECT}' and '{ASSETS}' from assets paths. Press button again to save.")
 
-            is_asset_ripper = bool(list(Path(self.variables[CfgKey.RIPPER].get()).glob("AssetRipper*.exe"))) or \
-                              Path(self.variables[CfgKey.RIPPER].get()) == Path()
+            asset_ripper_path = Path(self.variables[CfgKey.RIPPER].get())
+            is_asset_ripper = asset_ripper_path == Path() or any(asset_ripper_path.glob("AssetRippe*.exe"))
+
             if not is_asset_ripper:
                 showerror("Error: AssetRipper", "AssetRipper.exe not found in selected folder.")
 
-            is_steam_path = bool(list(Path(self.variables[CfgKey.STEAM_VS].get()).glob("Vampire*.exe"))) or \
-                            Path(self.variables[CfgKey.STEAM_VS].get()) == Path()
+            steam_path = Path(self.variables[CfgKey.STEAM_VS].get())
+            is_steam_path = steam_path == Path() or any(steam_path.glob("Vampire*.exe"))
+
             if not is_steam_path:
                 showerror("Error: VampireSurvivors", "Vampire Survivors.exe not found in selected folder.")
 
@@ -297,4 +294,4 @@ class Config(Objectless):
 
 
 if __name__ == "__main__":
-    Config.change_config()
+    Config.invoke_config_changer()

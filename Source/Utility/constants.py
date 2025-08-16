@@ -1,7 +1,7 @@
 import asyncio
 import sys
 from pathlib import Path
-from typing import Final
+from typing import Final, Literal
 
 from Utility.req_test import check_pydub_defer
 from Utility.special_classes import Objectless
@@ -36,12 +36,24 @@ MONO_BEHAVIOUR: Final[str] = "MonoBehaviour"
 DATA_MANAGER_SETTINGS: Final[str] = "DataManagerSettings"
 BUNDLE_MANIFEST_DATA: Final[str] = "BundleManifestData"
 
-COMPOUND_DATA: Final[str] = "Compound Data"
+
+class COMPOUND_DATA(Objectless):
+    """
+    Special constant class for representing aggregated data from every DLC.
+    Uses type 'COMPOUND_DATA_TYPE'.
+    Cannot be instantiated directly. Should be used as 'COMPOUND_DATA'
+    """
+    pass
+
+
+COMPOUND_DATA_TYPE = COMPOUND_DATA.__class__
+
 
 def to_source_path(path: Path) -> Path:
     start = path.parent
     end = path.name
     return start / SOURCE / end
+
 
 class DeferConstants(Objectless):
     _pydub_defer_checker = check_pydub_defer()

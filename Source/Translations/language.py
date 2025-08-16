@@ -1,9 +1,10 @@
 import json
 from collections import OrderedDict
 from enum import Enum
-from typing import Final, Any, Literal
+from typing import Final, Any
 
 from Utility.constants import COMPOUND_DATA
+from Utility.constants import COMPOUND_DATA_TYPE
 from Utility.meta_data import MetaDataHandler
 from Utility.special_classes import Objectless
 from Utility.unityparser2 import UnityDoc
@@ -59,13 +60,13 @@ class Lang(Enum):
 
 
 class LangFile:
-    __lang_type: LangType | Literal[COMPOUND_DATA]
+    __lang_type: LangType | COMPOUND_DATA_TYPE
     __data: dict[str, Any] | None = None
     __lang_data: dict[Lang, dict[str, Any]] | None = None
     __raw_text: str | None = None
     __json_text: str | None = None
 
-    def __init__(self, lang_type: LangType | Literal[COMPOUND_DATA], data: dict[str, Any] | None = None,
+    def __init__(self, lang_type: LangType | COMPOUND_DATA_TYPE, data: dict[str, Any] | None = None,
                  raw_text: str | None = None):
         self.__lang_type = lang_type
         if data:

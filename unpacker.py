@@ -9,7 +9,6 @@ from tkinter import filedialog as fd
 from tkinter import ttk
 from tkinter.messagebox import showerror, showwarning, showinfo, askyesno
 from tkinter.simpledialog import askinteger
-from typing import Literal
 
 from PIL.Image import open as image_open
 
@@ -21,7 +20,8 @@ from Config.config import CfgKey, DLCType, Config
 from Data.data import DataHandler
 from Translations.language import LangHandler, I2_LANGUAGES, LangType
 from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
-    GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA
+    GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA, COMPOUND_DATA_TYPE, PREFAB_INSTANCE, \
+    GAME_OBJECT
 from Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
 from Utility.logger import Logger
 from Utility.meta_data import MetaDataHandler
@@ -134,7 +134,7 @@ class Unpacker(tk.Tk):
         b_info = ttk.Button(
             self,
             text="Change config",
-            command=lambda: Config.change_config(self),
+            command=lambda: Config.invoke_config_changer(self),
         )
         b_info.grid(row=0, column=2)
 
@@ -277,7 +277,7 @@ class Unpacker(tk.Tk):
         self.outer_progress_bar = None
 
     @staticmethod
-    def get_assets_dir(key: CfgKey = CfgKey.VS) -> Path:
+    def get_assets_dir(key: DLCType = DLCType.VS) -> Path:
         path = Config.get_assets_dir(key)
         return path.exists() and path or Path()
 
@@ -317,9 +317,8 @@ class Unpacker(tk.Tk):
         selected_dlc = self.dlc_selector()
         if not selected_dlc:
             return
-        selected_dlc = selected_dlc.value
 
-        _start_path = self.get_assets_dir(selected_dlc.config_key)
+        _start_path = self.get_assets_dir(selected_dlc)
         start_paths = [_start_path.joinpath("Texture2D"), _start_path]
 
         while (start_path := start_paths.pop(0)) and not start_path.exists():
@@ -667,7 +666,7 @@ class Unpacker(tk.Tk):
         t.start()
 
     @staticmethod
-    def dlc_selector(allow_compound: bool = False, parent=None) -> DLCType | Literal[COMPOUND_DATA] | None:
+    def dlc_selector(allow_compound: bool = False, parent=None) -> DLCType | COMPOUND_DATA_TYPE | None:
         all_dlcs = DLCType.get_all_types()
         if allow_compound:
             all_dlcs.append(COMPOUND_DATA)
@@ -681,7 +680,7 @@ class Unpacker(tk.Tk):
         return all_dlcs[bb.return_data or 0]
 
     @staticmethod
-    def data_selector_data(dlc_type: DLCType | Literal[COMPOUND_DATA],
+    def data_selector_data(dlc_type: DLCType | COMPOUND_DATA_TYPE,
                            parent=None) -> data_module.DataType | None:
         data_types = list(DataHandler.get_dict_by_dlc_type(dlc_type).keys())
 
@@ -718,14 +717,13 @@ class Unpacker(tk.Tk):
         selected_dlc = self.dlc_selector()
         if not selected_dlc:
             return
-        selected_dlc = selected_dlc.value
 
         is_found = False
-        folders = ["GameObject", "PrefabInstance"]
+        folders = [GAME_OBJECT, PREFAB_INSTANCE]
 
         start_path = ROOT_FOLDER
         for folder in folders:
-            start_path = self.get_assets_dir(selected_dlc.config_key).joinpath(folder)
+            start_path = self.get_assets_dir(selected_dlc).joinpath(folder)
             if start_path.exists():
                 is_found = True
                 break
