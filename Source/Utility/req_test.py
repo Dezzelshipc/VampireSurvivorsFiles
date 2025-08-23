@@ -8,7 +8,7 @@ from pip._internal.req.constructors import install_req_from_parsed_requirement
 from pip._internal.req.req_file import parse_requirements
 
 try:
-    from Utility.utility import _find_main_py_file
+    from Source.Utility.utility import _find_main_py_file
 except ImportError:
     from utility import _find_main_py_file
 

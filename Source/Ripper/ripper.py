@@ -5,9 +5,9 @@ import time
 
 import requests
 
-from Config.config import DLCType, CfgKey, Config
-from Utility.constants import RIPPER_FOLDER, to_source_path
-from Utility.timer import Timeit
+from Source.Config.config import DLCType, CfgKey, Config
+from Source.Utility.constants import RIPPER_FOLDER, to_source_path
+from Source.Utility.timer import Timeit
 
 ripper_port = 56636
 ripper_url = f"http://127.0.0.1:{ripper_port}/"

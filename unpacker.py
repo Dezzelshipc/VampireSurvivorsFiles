@@ -12,21 +12,22 @@ from tkinter.simpledialog import askinteger
 
 from PIL.Image import open as image_open
 
-import Data.data as data_module
-import Images.image_gen as image_gen
-import Images.transparent_save as tr_save
-import Translations.language as lang_module
-from Config.config import CfgKey, DLCType, Config
-from Data.data import DataHandler
-from Translations.language import LangHandler, I2_LANGUAGES, LangType
-from Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
+
+import Source.Data.data as data_module
+import Source.Images.image_gen as image_gen
+import Source.Images.transparent_save as tr_save
+import Source.Translations.language as lang_module
+from Source.Config.config import CfgKey, DLCType, Config
+from Source.Data.data import DataHandler
+from Source.Translations.language import LangHandler, I2_LANGUAGES, LangType
+from Source.Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
     GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA, COMPOUND_DATA_TYPE, PREFAB_INSTANCE, \
     GAME_OBJECT
-from Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
-from Utility.logger import Logger
-from Utility.meta_data import MetaDataHandler
-from Utility.timer import Timeit
-from Utility.utility import CheckBoxes, ButtonsBox
+from Source.Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
+from Source.Utility.logger import Logger
+from Source.Utility.meta_data import MetaDataHandler
+from Source.Utility.timer import Timeit
+from Source.Utility.utility import CheckBoxes, ButtonsBox
 
 
 class Unpacker(tk.Tk):

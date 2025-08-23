@@ -3,11 +3,11 @@ from collections import OrderedDict
 from enum import Enum
 from typing import Final, Any
 
-from Utility.constants import COMPOUND_DATA
-from Utility.constants import COMPOUND_DATA_TYPE
-from Utility.meta_data import MetaDataHandler
-from Utility.special_classes import Objectless
-from Utility.unityparser2 import UnityDoc
+from Source.Utility.constants import COMPOUND_DATA
+from Source.Utility.constants import COMPOUND_DATA_TYPE
+from Source.Utility.meta_data import MetaDataHandler
+from Source.Utility.special_classes import Objectless
+from Source.Utility.unityparser2 import UnityDoc
 
 I2_LANGUAGES: Final[str] = "I2Languages"
 

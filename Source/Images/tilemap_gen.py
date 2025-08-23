@@ -5,16 +5,16 @@ from typing import Callable
 
 from PIL.Image import Image, new as image_new
 
-from Config.config import Config
-from Utility.constants import IMAGES_FOLDER, GENERATED, TILEMAPS
-from Utility.image_functions import affine_transform, crop_image_rect_left_bot
-from Utility.meta_data import MetaData, MetaDataHandler
-from Utility.multirun import run_multiprocess, run_concurrent_sync
-from Utility.special_classes import Objectless
-from Utility.sprite_data import SpriteData, SpriteRect
-from Utility.timer import Timeit
-from Utility.unityparser2 import UnityDoc, UnityYAMLEntry
-from Utility.utility import CheckBoxes, write_in_file_end, clear_file
+from Source.Config.config import Config
+from Source.Utility.constants import IMAGES_FOLDER, GENERATED, TILEMAPS
+from Source.Utility.image_functions import affine_transform, crop_image_rect_left_bot
+from Source.Utility.meta_data import MetaData, MetaDataHandler
+from Source.Utility.multirun import run_multiprocess, run_concurrent_sync
+from Source.Utility.special_classes import Objectless
+from Source.Utility.sprite_data import SpriteData, SpriteRect
+from Source.Utility.timer import Timeit
+from Source.Utility.unityparser2 import UnityDoc, UnityYAMLEntry
+from Source.Utility.utility import CheckBoxes, write_in_file_end, clear_file
 
 
 class Tilemap:

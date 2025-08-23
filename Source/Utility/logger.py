@@ -1,8 +1,8 @@
 from io import StringIO
 from typing import TextIO
 
-from Utility.constants import ROOT_FOLDER
-from Utility.utility import clear_file
+from Source.Utility.constants import ROOT_FOLDER
+from Source.Utility.utility import clear_file
 
 
 class Logger(StringIO):

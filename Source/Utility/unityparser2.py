@@ -16,8 +16,8 @@ from yaml.reader import Reader
 from yaml.resolver import Resolver
 from yaml.scanner import Scanner
 
-from Utility.multirun import run_multiprocess
-from Utility.timer import Timeit
+from Source.Utility.multirun import run_multiprocess
+from Source.Utility.timer import Timeit
 
 MAX_PARSE_BATCH_SIZE = 1 << 12
 

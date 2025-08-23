@@ -7,17 +7,17 @@ from typing import Literal, Callable, Any
 
 from pydub import AudioSegment
 
-import Data.data as data_module
-import Translations.language as lang_module
-from Config.config import DLCType, Config
-from Data.data import DataType
-from Translations.language import LangType
-from Utility.constants import GENERATED, COMPOUND_DATA, AUDIO_FOLDER, COMPOUND_DATA_TYPE
-from Utility.meta_data import MetaDataHandler
-from Utility.multirun import run_concurrent_sync, run_gather
-from Utility.timer import Timeit
-from Utility.unityparser2 import UnityDoc
-from Utility.utility import normalize_str
+import Source.Data.data as data_module
+import Source.Translations.language as lang_module
+from Source.Config.config import DLCType, Config
+from Source.Data.data import DataType
+from Source.Translations.language import LangType
+from Source.Utility.constants import GENERATED, COMPOUND_DATA, AUDIO_FOLDER, COMPOUND_DATA_TYPE
+from Source.Utility.meta_data import MetaDataHandler
+from Source.Utility.multirun import run_concurrent_sync, run_gather
+from Source.Utility.timer import Timeit
+from Source.Utility.unityparser2 import UnityDoc
+from Source.Utility.utility import normalize_str
 
 
 class AudioSaveType(Enum):

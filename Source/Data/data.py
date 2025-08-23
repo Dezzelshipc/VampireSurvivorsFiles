@@ -4,12 +4,12 @@ from enum import Enum
 from pathlib import Path
 from typing import Any, Literal
 
-from Config.config import DLCType
-from Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA, COMPOUND_DATA, COMPOUND_DATA_TYPE
-from Utility.meta_data import MetaDataHandler
-from Utility.special_classes import Objectless
-from Utility.unityparser2 import UnityDoc
-from Utility.utility import clean_json, to_pascalcase
+from Source.Config.config import DLCType
+from Source.Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA, COMPOUND_DATA, COMPOUND_DATA_TYPE
+from Source.Utility.meta_data import MetaDataHandler
+from Source.Utility.special_classes import Objectless
+from Source.Utility.unityparser2 import UnityDoc
+from Source.Utility.utility import clean_json, to_pascalcase
 
 
 def open_f(path):

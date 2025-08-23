@@ -2,8 +2,8 @@ from asyncio import run, gather, to_thread
 from multiprocessing import Pool
 from typing import Callable, Iterable, Awaitable
 
-from Config.config import Config
-from Utility.constants import IS_DEBUG
+from Source.Config.config import Config
+from Source.Utility.constants import IS_DEBUG
 
 
 def run_multiprocess[** P, T](func: Callable[P, T], args: Iterable[P.args], is_many_args=True, is_multiprocess=True,

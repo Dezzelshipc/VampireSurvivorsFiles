@@ -7,13 +7,13 @@ from enum import Enum
 from PIL import ImageFont, ImageDraw
 from PIL.Image import Image, Resampling, open as image_open, new as image_new
 
-import Images.transparent_save as tr_save
-from Translations.language import LangType
-from Utility.constants import DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, to_source_path
-from Utility.image_functions import get_anim_sprites_ready
-from Utility.meta_data import MetaDataHandler
-from Utility.sprite_data import SpriteData
-from Utility.utility import normalize_str
+import Source.Images.transparent_save as tr_save
+from Source.Translations.language import LangType
+from Source.Utility.constants import DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, to_source_path
+from Source.Utility.image_functions import get_anim_sprites_ready
+from Source.Utility.meta_data import MetaDataHandler
+from Source.Utility.sprite_data import SpriteData
+from Source.Utility.utility import normalize_str
 
 K_ID = "k_id"
 IS_K_ID = "is_k_id"

@@ -3,7 +3,7 @@ import re
 from PIL import ImageOps
 from PIL.Image import Image, Resampling
 
-from Utility.sprite_data import SpriteData, SpriteRect, AnimationData
+from Source.Utility.sprite_data import SpriteData, SpriteRect, AnimationData
 
 
 def crop_image_rect_left_bot(image: Image, rect: SpriteRect | dict) -> Image:

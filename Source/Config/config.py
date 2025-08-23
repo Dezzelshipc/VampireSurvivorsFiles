@@ -9,8 +9,8 @@ from tkinter.filedialog import askdirectory
 from tkinter.messagebox import showerror, showinfo
 from typing import Self, Final, OrderedDict, Callable
 
-from Utility.constants import CONFIG_FOLDER, ROOT_FOLDER
-from Utility.special_classes import Objectless
+from Source.Utility.constants import CONFIG_FOLDER, ROOT_FOLDER
+from Source.Utility.special_classes import Objectless
 
 ASSETS = "Assets"
 EXPORTED_PROJECT = "ExportedProject"

@@ -4,16 +4,16 @@ from tkinter import Image
 
 from PIL.Image import Image, open as image_open
 
-from Config.config import DLCType, Config
-from Utility.constants import RESOURCES, TEXTURE_2D, TEXT_ASSET, GAME_OBJECT, PREFAB_INSTANCE, AUDIO_CLIP, \
+from Source.Config.config import DLCType, Config
+from Source.Utility.constants import RESOURCES, TEXTURE_2D, TEXT_ASSET, GAME_OBJECT, PREFAB_INSTANCE, AUDIO_CLIP, \
     MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
-from Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
-from Utility.multirun import run_multiprocess_single
-from Utility.special_classes import Objectless
-from Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
-from Utility.timer import Timeit
-from Utility.unityparser2 import UnityDoc
-from Utility.utility import normalize_str
+from Source.Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
+from Source.Utility.multirun import run_multiprocess_single
+from Source.Utility.special_classes import Objectless
+from Source.Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAMES_LIST
+from Source.Utility.timer import Timeit
+from Source.Utility.unityparser2 import UnityDoc
+from Source.Utility.utility import normalize_str
 
 
 def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
