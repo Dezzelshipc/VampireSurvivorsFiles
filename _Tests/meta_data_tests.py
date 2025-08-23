@@ -1,7 +1,7 @@
 from unittest import TestCase, main as ut_main
 
-from Utility.meta_data import MetaDataHandler, _get_meta_guid
-from Utility.utility import normalize_str
+from Source.Utility.meta_data import MetaDataHandler, _get_meta_guid
+from Source.Utility.utility import normalize_str
 
 
 class BaseMetaDataTest(TestCase):

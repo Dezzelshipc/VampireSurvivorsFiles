@@ -751,7 +751,7 @@ class Unpacker(tk.Tk):
 
         print(f"Selected for generating tilemap: {full_paths!r}")
 
-        from Images.tilemap_gen import gen_tilemap
+        from Source.Images.tilemap_gen import gen_tilemap
         save_folder = None
         for full_path in full_paths:
             save_folder = gen_tilemap(full_path, func_progress_bar_set_percent=self.progress_bar_set_percent)
@@ -764,7 +764,7 @@ class Unpacker(tk.Tk):
             showerror("Error", "FFmpeg not found")
             return
 
-        import Audio.audio_unified_gen as audio_gen
+        import Source.Audio.audio_unified_gen as audio_gen
 
         # dlc_type = self.dlc_selector(allow_compound=True, parent=self)
         # if not dlc_type:
@@ -818,7 +818,7 @@ class Unpacker(tk.Tk):
             return
 
         print(f"Started ripping files: {dlc_types_set}")
-        from Ripper.ripper import rip_files
+        from Source.Ripper.ripper import rip_files
         rip_files(dlc_types_set)
 
         print("Finished ripping files")
