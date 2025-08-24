@@ -9,7 +9,7 @@ from tkinter.filedialog import askdirectory
 from tkinter.messagebox import showerror, showinfo
 from typing import Self, Final, OrderedDict, Callable
 
-from Source.Utility.constants import CONFIG_FOLDER, ROOT_FOLDER
+from Source.Utility.constants import CONFIG_FOLDER, ROOT_FOLDER, COMPOUND_DATA_TYPE, COMPOUND_DATA
 from Source.Utility.special_classes import Objectless
 
 ASSETS = "Assets"
@@ -66,6 +66,10 @@ class DLCType(Enum):
     ED = DLC(6, CfgKey.ED, "EMERALDS", "3451100", "Emerald Diorama")
 
     # IS = DLC(-1, CfgKey.IS, "-", "-", "IS")
+
+    @staticmethod
+    def string(dlc: Self | COMPOUND_DATA_TYPE) -> str:
+        return str(dlc) if dlc != COMPOUND_DATA else dlc.value
 
     def __str__(self):
         return self.value.full_name

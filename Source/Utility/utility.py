@@ -5,13 +5,17 @@ from tkinter import ttk
 
 
 class CheckBoxes(tk.Toplevel):
-    def __init__(self, list_to_boxes, title="", label="", parent=None, width: int = 300):
+    def __init__(self, list_to_boxes, title="", label: str | list[str] = "", parent=None, width: int = 300):
         super().__init__(parent)
         self.parent = parent
         self.title(title)
         self.minsize(width, 200)
-        label = ttk.Label(self, text=label)
-        label.pack()
+
+        if isinstance(label, str):
+            ttk.Label(self, text=label).pack()
+        else:
+            for lab in label:
+                ttk.Label(self, text=lab).pack()
 
         self.global_state = tk.BooleanVar()
 
@@ -47,13 +51,17 @@ class CheckBoxes(tk.Toplevel):
 
 
 class ButtonsBox(tk.Toplevel):
-    def __init__(self, list_to_texts, title="", label="", parent=None, width: int = 300):
+    def __init__(self, list_to_texts, title="", label: str | list[str] = "", parent=None, width: int = 300):
         super().__init__(parent)
         self.parent = parent
         self.minsize(width, 200)
         self.title(title)
-        label = ttk.Label(self, text=label)
-        label.pack()
+
+        if isinstance(label, str):
+            ttk.Label(self, text=label).pack()
+        else:
+            for lab in label:
+                ttk.Label(self, text=lab).pack()
 
         self.return_data = None
 
@@ -86,7 +94,8 @@ def normalize_str(s) -> str:
         index = name.index('.')
     except ValueError:
         index = None
-    return name[:index].lower().replace(",", "_")
+    s = name[:index].lower().replace(",", "_")
+    return str(int(s) if s.isnumeric() else s)
 
 
 def clean_json(string):
@@ -101,8 +110,9 @@ def clean_json(string):
 
     return string
 
+
 def to_pascalcase(s):
-  return re.sub(r"([_\-])+", " ", s).title().replace(" ", "").replace("*","")
+    return re.sub(r"([_\-])+", " ", s).title().replace(" ", "").replace("*", "")
 
 
 def _find_main_py_file(file_name: str = "unpacker.py") -> Path | None:

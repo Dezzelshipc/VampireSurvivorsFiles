@@ -54,7 +54,7 @@ class MetaData:
                 entry.sprite = crop_image_rect_left_bot(self.image, entry.rect)
             self.__added_sprites = True
 
-            print(f"Generated sprites for {self.real_name} ({timeit:.2f} sec)")
+            print(f"Generated sprites for {self.real_name} {timeit!r}")
 
     def init_animations(self) -> None:
         if not self.__added_animations:
@@ -92,7 +92,7 @@ class MetaData:
 
             self.__added_animations = True
 
-            print(f"Generated animations for {self.real_name} ({timeit:.2f} sec)")
+            print(f"Generated animations for {self.real_name} {timeit!r}")
 
     def get_animations(self) -> set[AnimationData]:
         self.init_animations()
@@ -183,6 +183,14 @@ class MetaDataHandler(Objectless):
     def load(cls):
         cls._load_assets_meta_file_paths()
         cls._load_assets_meta_files_guids()
+
+    @classmethod
+    def unload(cls):
+        cls._found_files.clear()
+        cls._assets_name_path.clear()
+        cls._assets_guid_path.clear()
+        cls.loaded_assets_meta.clear()
+        print("MetaData unloaded")
 
     @classmethod
     def _load_assets_meta_file_paths(cls) -> None:
@@ -302,9 +310,13 @@ class MetaDataHandler(Objectless):
     @classmethod
     def get_meta_dict_by_name_set(cls, name_set: set, is_multiprocess=True) -> dict[str, MetaData]:
         datas = cls.get_meta_by_name_set(name_set, is_multiprocess)
-        return {
-            name: data for name, data in zip(name_set, datas)
+        meta_dict = {
+            data.real_name.replace(".png", "").replace(".meta", ""): data for data in datas
         }
+        meta_dict.update({
+            data.name: data for data in datas
+        })
+        return meta_dict
 
     @classmethod
     def get_meta_by_guid_set(cls, guid_set: set, is_multiprocess=True) -> set[MetaData]:

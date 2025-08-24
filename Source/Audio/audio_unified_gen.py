@@ -12,7 +12,7 @@ import Source.Translations.language as lang_module
 from Source.Config.config import DLCType, Config
 from Source.Data.data import DataType
 from Source.Translations.language import LangType
-from Source.Utility.constants import GENERATED, COMPOUND_DATA, AUDIO_FOLDER, COMPOUND_DATA_TYPE
+from Source.Utility.constants import GENERATED, COMPOUND_DATA, AUDIO_FOLDER, COMPOUND_DATA_TYPE, PROGRESS_BAR_FUNC_TYPE
 from Source.Utility.meta_data import MetaDataHandler
 from Source.Utility.multirun import run_concurrent_sync, run_gather
 from Source.Utility.timer import Timeit
@@ -150,7 +150,7 @@ def _save_track(music_track: MusicTrack, save_path: Path):
 
 
 def gen_music_tracks(music_dlc: DLCType | COMPOUND_DATA_TYPE, save_name_types: set[AudioSaveType],
-                     func_progress_bar_set_percent: Callable[[int | float, int | float], None] = lambda c, t: 0) -> (
+                     func_progress_bar_set_percent: PROGRESS_BAR_FUNC_TYPE = lambda c, t: 0) -> (
         str | None, None | str):
     save_name_types.add(AudioSaveType.CODE_NAME)
 

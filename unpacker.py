@@ -12,10 +12,10 @@ from tkinter.simpledialog import askinteger
 
 from PIL.Image import open as image_open
 
-
 import Source.Data.data as data_module
 import Source.Images.image_gen as image_gen
 import Source.Images.transparent_save as tr_save
+from Source.Images.image_gen_new import ImageGeneratorManager
 import Source.Translations.language as lang_module
 from Source.Config.config import CfgKey, DLCType, Config
 from Source.Data.data import DataHandler
@@ -23,7 +23,7 @@ from Source.Translations.language import LangHandler, I2_LANGUAGES, LangType
 from Source.Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
     GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA, COMPOUND_DATA_TYPE, PREFAB_INSTANCE, \
     GAME_OBJECT
-from Source.Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint
+from Source.Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint, resize_list_images
 from Source.Utility.logger import Logger
 from Source.Utility.meta_data import MetaDataHandler
 from Source.Utility.timer import Timeit
@@ -75,7 +75,7 @@ class Unpacker(tk.Tk):
 
             if gt.FRAME in gen.available_gen:
                 text = "Also generate with frame variants"
-                if gen.assets_type in [image_gen.DataType.STAGE, image_gen.DataType.STAGE_SET]:
+                if gen.assets_type in [image_gen.OldDataType.STAGE, image_gen.OldDataType.STAGE_SET]:
                     text = "Also generate with name of stage"
 
                 frame_bool = tk.BooleanVar()
@@ -236,12 +236,12 @@ class Unpacker(tk.Tk):
         )
         b_data_to_image.grid(row=9, column=1)
 
-        # b_data_to_image = ttk.Button(
-        #     self,
-        #     text="Get images with\nunified names by data (rewrite)",
-        #     command=self.unified_image_gen_handler
-        # )
-        # b_data_to_image.grid(row=10, column=1)
+        b_data_to_image = ttk.Button(
+            self,
+            text="Get images (rewrite)",
+            command=self.unified_image_generator
+        )
+        b_data_to_image.grid(row=10, column=1)
 
         ttk.Button(
             self,
@@ -255,7 +255,7 @@ class Unpacker(tk.Tk):
             command=self.data_ripper
         ).grid(row=9, column=0)
 
-        ttk.Label(self, text="").grid(row=10, column=1)
+        # ttk.Label(self, text="").grid(row=10, column=1)
 
         ttk.Button(
             self,
@@ -449,7 +449,8 @@ class Unpacker(tk.Tk):
         self.progress_bar_set_percent(0, total_len)
 
         for i, anim in enumerate(animations):
-            sprites_list = get_anim_sprites_ready(anim, scale_factor)
+            sprites_list = get_anim_sprites_ready(anim)
+            sprites_list = resize_list_images(sprites_list, scale_factor)
 
             for ext, folder, func in itertools.compress(tr_save.SAVE_DATA, selected_anim_types):
                 path = folder_to_save.joinpath(folder)
@@ -595,7 +596,7 @@ class Unpacker(tk.Tk):
             lang = lang_module.LangHandler.get_lang_file(gen.langFileName).get_lang(lang_module.Lang.EN) \
                 if gen.langFileName != LangType.NONE else None
 
-            if gen.assets_type == image_gen.DataType.CHARACTER:
+            if gen.assets_type == image_gen.OldDataType.CHARACTER:
                 w_data = DataHandler.get_data(COMPOUND_DATA, data_module.DataType.WEAPON).data()
                 lang_skins = lang_module.LangHandler.get_lang_file(LangType.SKIN).get_lang(lang_module.Lang.EN)
                 lang_weapon = lang_module.LangHandler.get_lang_file(LangType.WEAPON).get_lang(lang_module.Lang.EN)
@@ -666,19 +667,47 @@ class Unpacker(tk.Tk):
         t = threading.Thread(target=thread_load_data)
         t.start()
 
+    def unified_image_generator(self):
+        selected_dlc = self.dlc_selector(allow_compound=True, parent=self)
+
+        if not selected_dlc:
+            return
+
+        data_dict = DataHandler.get_dict_by_dlc_type(selected_dlc)
+        data_types = list(sorted(ImageGeneratorManager.get_supported_gen_types().intersection(data_dict.keys()),
+                                 key=lambda x: x.value))
+
+        show_text = selected_dlc.__repr__() if selected_dlc == COMPOUND_DATA else selected_dlc
+        bb = ButtonsBox(map(lambda x: x.value, data_types), "Select data type",
+                        ["Select data type which will be used to generate images", f"({show_text})"], self)
+        bb.wait_window()
+
+        if bb.return_data is None:
+            return
+
+        data_type = data_types[bb.return_data]
+        print(f"Started generating images for '{DLCType.string(selected_dlc)}' - '{data_type}'")
+
+        timeit = Timeit()
+        self.last_loaded_folder = ImageGeneratorManager.gen_unified_images(selected_dlc, data_type,
+                                                                           self.progress_bar_set_percent)
+        print(f"Finished generating unified images {timeit!r}")
+
     @staticmethod
     def dlc_selector(allow_compound: bool = False, parent=None) -> DLCType | COMPOUND_DATA_TYPE | None:
         all_dlcs = DLCType.get_all_types()
+        compound = COMPOUND_DATA.__repr__()
         if allow_compound:
-            all_dlcs.append(COMPOUND_DATA)
+            all_dlcs.append(compound)
 
         bb = ButtonsBox(all_dlcs, "Select DLC", "Select DLC from which data file will be selected", parent)
         bb.wait_window()
 
         if bb.return_data is None:
             return None
+        ret = all_dlcs[bb.return_data]
 
-        return all_dlcs[bb.return_data or 0]
+        return COMPOUND_DATA if ret == compound else ret
 
     @staticmethod
     def data_selector_data(dlc_type: DLCType | COMPOUND_DATA_TYPE,
@@ -823,6 +852,9 @@ class Unpacker(tk.Tk):
 
         print("Finished ripping files")
 
+        MetaDataHandler.unload()
+        MetaDataHandler.load()
+
     def create_inverse_tilemap(self):
         selecting_path = IMAGES_FOLDER / GENERATED / TILEMAPS
         while not selecting_path.exists():
@@ -873,3 +905,4 @@ if __name__ == '__main__':
 
     app = Unpacker()
     app.mainloop()
+    DeferConstants.is_pydub()

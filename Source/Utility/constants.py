@@ -1,7 +1,7 @@
 import asyncio
 import sys
 from pathlib import Path
-from typing import Final
+from typing import Final, Callable
 
 from Source.Utility.req_test import check_pydub_defer
 from Source.Utility.special_classes import Objectless
@@ -43,10 +43,16 @@ class COMPOUND_DATA(Objectless):
     Uses type 'COMPOUND_DATA_TYPE'.
     Cannot be instantiated directly. Should be used as 'COMPOUND_DATA'
     """
-    pass
+    value = "Compound Data"
+
+    @classmethod
+    def __repr__(cls) -> str:
+        return f"{cls.value} (all DLC)"
 
 
 COMPOUND_DATA_TYPE = COMPOUND_DATA.__class__
+
+PROGRESS_BAR_FUNC_TYPE = Callable[[int | float, int | float], None]
 
 
 def to_source_path(path: Path) -> Path:

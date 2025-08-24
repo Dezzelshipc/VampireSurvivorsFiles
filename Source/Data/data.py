@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Any, Literal
+from typing import Any
 
 from Source.Config.config import DLCType
 from Source.Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA, COMPOUND_DATA, COMPOUND_DATA_TYPE
@@ -92,6 +92,9 @@ class DataFile:
     __to_concat: dict[DLCType, "DataFile"] | None = None
     __data: dict[str, Any] | None = None
     __raw_text: str | None = None
+
+    def __repr__(self):
+        return f"<{self.__class__.__name__}: {self.__data_type}, {self.guid}>"
 
     def __init__(self, data_type: DataType | COMPOUND_DATA_TYPE, guid: str | None,
                  data_to_concat: dict[DLCType, "DataFile"] = None):
@@ -241,11 +244,7 @@ class DataHandler(Objectless):
 
     @classmethod
     def get_data(cls, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType | None) -> DataFile:
-        cls.load()
-        if dlc_type == COMPOUND_DATA:
-            return cls._concat_data.get(data_type)
-        else:
-            return cls._loaded_data.get(dlc_type, {}).get(data_type)
+        return (cls.get_dict_by_dlc_type(dlc_type) or {}).get(data_type)
 
     @classmethod
     def get_total_amount(cls) -> int:

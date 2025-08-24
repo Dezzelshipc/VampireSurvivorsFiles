@@ -1,4 +1,5 @@
 import re
+from typing import Iterable
 
 from PIL import ImageOps
 from PIL.Image import Image, Resampling
@@ -80,13 +81,16 @@ def get_rects_by_sprite_list(sprites_list: list[SpriteData]) -> list[SpriteRect]
     return sprite_rects
 
 
-def get_anim_sprites_ready(anim: AnimationData, scale_factor: int = 1) -> list[Image]:
+def get_adjusted_sprites_to_rect(image_rect: Iterable[tuple[Image, SpriteRect]]) -> list[Image]:
     sprites_list = []
-    for img, rect, sprite_name in anim.get_sprites_iter():
+    for img, rect in image_rect:
         sprite = crop_image_rect_left_top(img, rect)
-        sprite = resize_image(sprite, scale_factor)
         sprites_list.append(sprite)
     return sprites_list
+
+
+def get_anim_sprites_ready(anim: AnimationData) -> list[Image]:
+    return get_adjusted_sprites_to_rect((img, rect) for img, rect, sprite_name in anim.get_sprites_iter())
 
 
 def apply_tint(image: Image, tint_color: tuple[int, int, int]) -> Image:

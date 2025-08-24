@@ -6,7 +6,7 @@ from typing import Callable
 from PIL.Image import Image, new as image_new
 
 from Source.Config.config import Config
-from Source.Utility.constants import IMAGES_FOLDER, GENERATED, TILEMAPS
+from Source.Utility.constants import IMAGES_FOLDER, GENERATED, TILEMAPS, PROGRESS_BAR_FUNC_TYPE
 from Source.Utility.image_functions import affine_transform, crop_image_rect_left_bot
 from Source.Utility.meta_data import MetaData, MetaDataHandler
 from Source.Utility.multirun import run_multiprocess, run_concurrent_sync
@@ -95,8 +95,7 @@ def __save_image(image: Image, path: Path) -> None:
 
 
 def gen_tilemap(path: Path, __is_full_auto=True,
-                func_progress_bar_set_percent: Callable[[int | float, int | float], None] = lambda c,
-                                                                                                   t: 0) -> Path | None:
+                func_progress_bar_set_percent: PROGRESS_BAR_FUNC_TYPE = lambda c, t: 0) -> Path | None:
     p_file = path.name
     save_file = path.with_suffix("").name
     save_folder = Path(IMAGES_FOLDER, GENERATED, TILEMAPS, save_file)

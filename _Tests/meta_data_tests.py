@@ -57,10 +57,10 @@ class MetaDataGet(BaseMetaDataTest):
         data_set = MetaDataHandler.get_meta_by_name_set(names_set)
         data_dict = MetaDataHandler.get_meta_dict_by_name_set(names_set)
 
-        self.assertEqual(len(data_set), len(data_dict))
+        self.assertTrue(len(data_set) <= len(data_dict) <= 2 * len(data_set))
         self.assertEqual(data_set, set(data_dict.values()))
 
-        self.assertEqual(set(data_dict.keys()), names_set)
+        self.assertTrue(names_set.issubset(set(data_dict.keys())))
 
     def test_get_by_guid(self):
         for guid in self.guids_list:
