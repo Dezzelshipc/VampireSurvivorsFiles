@@ -30,7 +30,7 @@ class DataType(Enum):
     ITEM = "Item"
     LIMIT_BREAK = "LimitBreak"
     MUSIC = "Music"
-    POWERUP = "PowerUp"
+    POWER_UP = "PowerUp"
     PROPS = "Props"
     SECRET = "Secret"
     STAGE = "Stage"
@@ -62,7 +62,7 @@ class DataType(Enum):
             case "_MusicDataJsonAsset":
                 return DataType.MUSIC
             case "_PowerUpDataJsonAsset":
-                return DataType.POWERUP
+                return DataType.POWER_UP
             case "_PropsDataJsonAsset":
                 return DataType.PROPS
             case "_SecretsDataJsonAsset":

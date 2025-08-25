@@ -94,20 +94,20 @@ def get_anim_sprites_ready(anim: AnimationData) -> list[Image]:
 
 
 def apply_tint(image: Image, tint_color: tuple[int, int, int]) -> Image:
-    img = image.copy().convert('RGB')
+    img = image.copy().convert('RGBA')
     pixels = img.load()
 
     width, height = img.size
 
     for x in range(width):
         for y in range(height):
-            r, g, b = pixels[x, y]
+            r, g, b, a = pixels[x, y]
 
             r = int(r * tint_color[0] / 255)
             g = int(g * tint_color[1] / 255)
             b = int(b * tint_color[2] / 255)
 
-            pixels[x, y] = (r, g, b)
+            pixels[x, y] = (r, g, b, a)
 
     return img
 

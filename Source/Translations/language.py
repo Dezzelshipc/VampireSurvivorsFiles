@@ -8,6 +8,7 @@ from Source.Utility.constants import COMPOUND_DATA_TYPE
 from Source.Utility.meta_data import MetaDataHandler
 from Source.Utility.special_classes import Objectless
 from Source.Utility.unityparser2 import UnityDoc
+from Source.Utility.timer import Timeit
 
 I2_LANGUAGES: Final[str] = "I2Languages"
 
@@ -84,7 +85,8 @@ class LangFile:
 
     def __load_inverse(self):
         self.__load()
-        self.__lang_data = gen_inverse_dict(self.__lang_type)
+        if not self.__lang_data:
+            self.__lang_data = gen_inverse_dict(self.__lang_type)
 
     def data(self) -> dict[str, Any]:
         self.__load()
@@ -116,11 +118,16 @@ class LangHandler(Objectless):
         if cls._full_file:
             return
 
+        timeit = Timeit()
+        print("Loading I2Languages")
+
         i2lang = MetaDataHandler.get_path_by_name_no_meta(I2_LANGUAGES)
         assert i2lang
 
         with open(i2lang, "r", encoding="utf-8") as f:
             cls._full_file = LangFile(COMPOUND_DATA, raw_text=f.read())
+
+        print(f"Loaded I2Languages {timeit!r}")
 
     @classmethod
     def __load_separate(cls):
@@ -128,6 +135,10 @@ class LangHandler(Objectless):
 
         if cls._loaded_data:
             return
+
+
+        timeit = Timeit()
+        print("Initializing lang files")
 
         loaded_data: dict[LangType, Any] = {lang_type: OrderedDict() for lang_type in LangType.get_all_types()}
         full_data = cls._full_file.data()["mSource"]["mTerms"]
@@ -148,6 +159,8 @@ class LangHandler(Objectless):
 
         for lang_type, values in loaded_data.items():
             cls._loaded_data[lang_type] = LangFile(lang_type, data=values)
+
+        print(f"Initialized lang files {timeit!r}")
 
     @classmethod
     def get_i2language(cls) -> LangFile:
@@ -185,6 +198,9 @@ def gen_changed_list_to_dict(lang_type: LangType) -> dict[str, Any]:
 
 
 def gen_inverse_dict(lang_type: LangType, selected_langs: set[int] = None) -> dict[Lang, Any]:
+    timeit = Timeit()
+    print(f"Generating inverse lang for {lang_type}")
+
     lang_list = LangHandler.get_lang_list()
 
     e_lang_list = enumerate(lang_list)
@@ -202,6 +218,8 @@ def gen_inverse_dict(lang_type: LangType, selected_langs: set[int] = None) -> di
                 out_data[lang][key] = OrderedDict()
                 for key2, val2 in val.items():
                     out_data[lang][key][key2] = val2[i]
+
+    print(f"Generated inverse lang for {lang_type} {timeit!r}")
 
     return out_data
 
