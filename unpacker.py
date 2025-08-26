@@ -690,7 +690,7 @@ class Unpacker(tk.Tk):
 
         timeit = Timeit()
         self.last_loaded_folder = ImageGeneratorManager.gen_unified_images(selected_dlc, data_type,
-                                                                           self.progress_bar_set_percent)
+                                                                           self.progress_bar_set_percent, parent=self)
         print(f"Finished generating unified images {timeit!r}")
 
     @staticmethod
