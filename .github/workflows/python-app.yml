@@ -1,5 +1,6 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+# Adapted from https://github.com/orgs/community/discussions/62479
 
 name: Python application
 
@@ -17,12 +18,25 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+      # Display must be available globally for linux to know where xvfb is
+      DISPLAY: ":99.0"
+      QT_SELECT: "qt6"
+
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.12
       uses: actions/setup-python@v3
       with:
         python-version: "3.12"
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        # from https://stackoverflow.com/questions/60692711
+        sudo apt-get install -y xvfb libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0 libxcb-shape0 libglib2.0-0 libgl1-mesa-dev
+        sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev
+        # start xvfb in the background
+        sudo /usr/bin/Xvfb $DISPLAY -screen 0 1280x1024x24 &
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
