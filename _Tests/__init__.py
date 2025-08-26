@@ -1,6 +1,6 @@
 import unittest
 
-import multirun_tests, unpacker_open_tests
+from _Tests import multirun_tests, unpacker_open_tests
 
 
 def load_tests(loader, tests, pattern):
