@@ -54,4 +54,4 @@ jobs:
       run: python -m unittest discover
     - name: Start run.bat
       shell: bash
-      run: run.bat
+      run: ./run.bat
