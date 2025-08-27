@@ -52,6 +52,3 @@ jobs:
       run: python ./Source/Utility/req_test.py
     - name: Test with unittest
       run: python -m unittest discover
-    - name: Start run.bat
-      shell: bash
-      run: ./run.bat
