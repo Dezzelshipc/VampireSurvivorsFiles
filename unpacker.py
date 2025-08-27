@@ -124,6 +124,12 @@ class Unpacker(tk.Tk):
         self.minsize(width, height)
 
         self.title('Resource unpacker VS')
+        self.iconphoto(False, tk.PhotoImage(file='Source/Images/Show/_Sprite-Atlas Gate.png'))
+
+        ico_image = tk.PhotoImage(file='Source/Images/Show/_Sprite-Garlic.png')
+        label_ico = ttk.Label(self, image=ico_image)
+        label_ico.image = ico_image
+        label_ico.grid(row=0, column=0)
 
         b_info = ttk.Button(
             self,
@@ -231,17 +237,17 @@ class Unpacker(tk.Tk):
 
         b_data_to_image = ttk.Button(
             self,
-            text="Get images with\nunified names by data",
+            text="Get unified images (old)",
             command=self.data_to_image
         )
-        b_data_to_image.grid(row=9, column=1)
+        b_data_to_image.grid(row=10, column=1)
 
         b_data_to_image = ttk.Button(
             self,
-            text="Get images (rewrite)",
+            text="Get unified images (new)",
             command=self.unified_image_generator
         )
-        b_data_to_image.grid(row=10, column=1)
+        b_data_to_image.grid(row=9, column=1)
 
         ttk.Button(
             self,
@@ -251,7 +257,7 @@ class Unpacker(tk.Tk):
 
         ttk.Button(
             self,
-            text="Magic button to\nrip data automatically",
+            text="Magic button to rip data automatically",
             command=self.data_ripper
         ).grid(row=9, column=0)
 
@@ -268,8 +274,6 @@ class Unpacker(tk.Tk):
             text="Create inv tilemap",
             command=self.create_inverse_tilemap
         ).grid(row=11, column=2)
-
-        self.loaded_meta = dict()
 
         MetaDataHandler.load()
 
@@ -359,11 +363,11 @@ class Unpacker(tk.Tk):
         if not scale_factor: return
 
         full_path_meta = full_path.with_name(file + ".meta")
-        if not MetaDataHandler.has_meta(full_path_meta):
+        if not MetaDataHandler.has_meta_by_path(full_path_meta):
             if not full_path_meta.exists():
                 showerror("Error", f"MetaData not found for {file}")
                 return
-            MetaDataHandler.add_meta_data(full_path_meta)
+            MetaDataHandler.add_meta_data_by_path(full_path_meta)
 
         data = MetaDataHandler.get_meta_by_name(file)
 

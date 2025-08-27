@@ -10,7 +10,7 @@ Ripped from v1.13 + Moonspell + Foscari + Meeting + Guns + Ode + Diorama
 
 Game data files and DLC data files located in [Data](Data) folder.
 
-## Unpacker (v0.16.3) - Data manager and Image generator
+## Unpacker (v0.16.4) - Data manager and Image generator
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and

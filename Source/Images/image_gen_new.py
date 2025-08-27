@@ -8,25 +8,31 @@ from enum import Enum
 from pathlib import Path
 from typing import Any, Callable
 
-from PIL.Image import Image
+from PIL import ImageFont, ImageDraw
+from PIL.Image import Image, open as image_open, new as image_new
 
 from Source.Config.config import DLCType
 from Source.Data.data import DataHandler, DataType, DataFile
 from Source.Translations.language import LangHandler, LangType, Lang
 from Source.Utility.constants import to_source_path, IMAGES_FOLDER, COMPOUND_DATA_TYPE, GENERATED, \
-    PROGRESS_BAR_FUNC_TYPE
+    PROGRESS_BAR_FUNC_TYPE, COMPOUND_DATA
 from Source.Utility.image_functions import resize_image, get_adjusted_sprites_to_rect, get_rects_by_sprite_list
-from Source.Utility.meta_data import MetaDataHandler, MetaData
-from Source.Utility.sprite_data import SpriteData
+from Source.Utility.meta_data import MetaDataHandler
+from Source.Utility.sprite_data import SpriteData, SpriteRect
 from Source.Utility.utility import normalize_str
+from Utility.image_functions import make_image_black
 
+PREFIX = "prefix"
+CHAR_NAME = "charName"
+SURNAME = "surname"
 UI = "UI"
+
 KEY_ID = "key_id"
 ADD_TO_PATH_ENTRY = "add_to_path_entry"
 UNIQUE_SHORT_CHARACTER_NAME = "unique_short_character_name"
 FULL_CHARACTER_NAME = "full_character_name"
 
-FONT_FILE_PATH = to_source_path(IMAGES_FOLDER / "Courier.ttf")
+FONT_FILE_PATH = to_source_path(IMAGES_FOLDER) / "Courier.ttf"
 
 
 class GenType(Enum):
@@ -39,7 +45,9 @@ class GenType(Enum):
 
     ARCANA_PICTURE = 20
 
-    STAGE_WITH_NAME = 30
+    # CHARACTER_SELECT = 30
+
+    STAGE_WITH_NAME = 40
 
     @classmethod
     def get_types(cls) -> set["GenType"]:
@@ -62,8 +70,12 @@ class GenType(Enum):
             case GenType.ARCANA_PICTURE:
                 return "Generate arcana pictures"
 
+            # case GenType.CHARACTER_SELECT:
+            #     return "Generate special select"
+
             case GenType.STAGE_WITH_NAME:
                 return "Generate with stage name"
+        return None
 
 
 @dataclass
@@ -71,17 +83,24 @@ class EntryToSave:
     image: Image
     name: str
     name_wrapper: Callable[[str], str]
-    key_id: str
+    add_to_path: str | None = None
 
-    def save_entry(self, save_path: Path, entry: dict[str, Any], scale: int,
+    def save_entry(self, save_path: Path,
+                   entry: dict[str, Any],
+                   scale: int,
                    add_to_path: os.PathLike[str] | str = None) -> None:
         entry_save_path = save_path / entry.get("contentGroup", "BASE_GAME")
-        if self.name == self.key_id:
+        key_id = entry.get(KEY_ID)
+        if self.name == key_id:
             entry_save_path /= "No lang"
+        if entry.get("alwaysHidden"):
+            entry_save_path /= "Always hidden"
         if add_to_path:
             entry_save_path /= add_to_path
         if add_to_path_entry := entry.get(ADD_TO_PATH_ENTRY):
             entry_save_path /= add_to_path_entry
+        if self.add_to_path:
+            entry_save_path /= self.add_to_path
 
         entry_save_path.mkdir(parents=True, exist_ok=True)
 
@@ -91,14 +110,13 @@ class EntryToSave:
 
 @dataclass
 class SpriteEntryToSave(EntryToSave):
-    sprite_data: SpriteData
+    sprite_data: SpriteData = None
 
-    def __init__(self, sprite_data: SpriteData, name: str, name_wrapper: Callable[[str], str], key_id) -> None:
+    def __init__(self, sprite_data: SpriteData, name: str, name_wrapper: Callable[[str], str]) -> None:
         self.sprite_data = sprite_data
         self.image = sprite_data.sprite
         self.name = name
         self.name_wrapper = name_wrapper
-        self.key_id = key_id
 
 
 class ImageGeneratorManager:
@@ -112,7 +130,7 @@ class ImageGeneratorManager:
             case DataType.ADVENTURE_MERCHANTS:
                 return AdvMerchantsGenerator
             case DataType.ADVENTURE_STAGE_SET:
-                return None
+                return AdventureStageSetImageGenerator
             case DataType.ALBUM:
                 return AlbumCoversGenerator
             case DataType.ARCANA:
@@ -122,7 +140,7 @@ class ImageGeneratorManager:
             case DataType.CUSTOM_MERCHANTS:
                 return None
             case DataType.ENEMY:
-                return None # EnemyImageGenerator
+                return None  # EnemyImageGenerator
             case DataType.HIT_VFX:
                 return None
             case DataType.ITEM:
@@ -138,7 +156,7 @@ class ImageGeneratorManager:
             case DataType.SECRET:
                 return None
             case DataType.STAGE:
-                return None
+                return StageImageGenerator
             case DataType.WEAPON:
                 return WeaponImageGenerator
 
@@ -152,23 +170,21 @@ class ImageGeneratorManager:
     def gen_unified_images(dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
                            func_progress_bar_set_percent: PROGRESS_BAR_FUNC_TYPE = lambda c, t: 0,
                            parent=None) -> Path | None:
-        data_to_process = DataHandler.get_data(dlc_type, data_type)
+        gen_class: BaseImageGenerator.__class__ = ImageGeneratorManager.get_gen(data_type)
 
-        gen: BaseImageGenerator = ImageGeneratorManager.get_gen(data_type)()
-
-        if not gen:
+        if not gen_class:
             return None
 
-        dialog = GeneratorDialog(gen, parent=parent)
+        dialog = GeneratorDialog(gen_class, parent=parent)
         dialog.wait_window()
         req_gens: dict[GenType, int | bool] | None = dialog.return_data
 
         if not req_gens:
             return None
 
-        print(f"Selected settings for {gen.__class__.__name__}: {req_gens}")
+        print(f"Selected settings for {gen_class.__name__}: {req_gens}")
 
-        gen.load_data(data_to_process, req_gens)
+        gen: BaseImageGenerator = gen_class(dlc_type, data_type, req_gens)
 
         save_path = gen.main_generator(dlc_type, data_type, func_progress_bar_set_percent)
 
@@ -178,7 +194,7 @@ class ImageGeneratorManager:
 class BaseImageGenerator:
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME]
 
-    assets_type: DataType = DataType.NONE
+    data_type: DataType = DataType.NONE
     lang_type: LangType = LangType.NONE
 
     default_scale_factor = 1
@@ -193,27 +209,26 @@ class BaseImageGenerator:
 
     default_main_texture_name = None
 
-    is_use_data_name = False
-
     default_frame_name = None
 
-    def __init__(self):
-        self.requested_gens: dict[GenType, int | bool] = None
-        self.entries: list[dict] = None
-        self.meta_data: dict[str, MetaData] = None
-        self.lang_data: dict[str, Any] | None = None
+    def __init__(self, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
+                 requested_gen_types: dict[GenType, int | bool]):
+        self.data_file: DataFile | None = DataHandler.get_data(dlc_type, data_type)
 
-    def load_data(self, data: DataFile, requested_gen_types: dict[GenType, int | bool]) -> None:
-        self.requested_gens = requested_gen_types
         lang_data_full = LangHandler.get_lang_file(self.lang_type) or {}
         self.lang_data = lang_data_full and lang_data_full.get_lang(Lang.EN) or {}
-        self.entries = [
-            self.get_unit(key_id, entry.copy()) for key_id, entry in data.data().items()
-        ]
+
+        self.requested_gens = requested_gen_types
+        self._set_entries()
         self.meta_data = MetaDataHandler.get_meta_dict_by_name_set(self.get_textures_set())
 
         for texture_name, meta_data in self.meta_data.items():
             meta_data.init_sprites()
+
+    def _set_entries(self):
+        self.entries = [
+            self.get_unit(key_id, entry.copy()) for key_id, entry in self.data_file.data().items()
+        ]
 
     def main_generator(self, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
                        func_progress_bar_set_percent: PROGRESS_BAR_FUNC_TYPE = lambda c, t: 0) -> Path | None:
@@ -250,9 +265,17 @@ class BaseImageGenerator:
         return re.sub(r'[<>:/|\\?*]', '', name.strip())
 
     def get_unit(self, key_id: str, entry: dict[str, Any]) -> dict[str, Any]:
-        entry.update({
-            KEY_ID: key_id
-        })
+        to_update: dict[str, Any] = {
+            KEY_ID: key_id,
+        }
+
+        if self.lang_type != LangType.NONE:
+            lang_entry = self.lang_data and self.lang_data.get(key_id) or {}
+            entry_name = lang_entry.get(self.key_entry_name) or ""
+            to_update[self.key_entry_name] = entry_name
+
+        entry.update(to_update)
+
         return entry
 
     def get_frame_name(self, entry: dict[str, Any]) -> str:
@@ -279,19 +302,12 @@ class BaseImageGenerator:
             print(f"!!! Skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
             return None
 
-        key_id = entry.get(KEY_ID)
-        if self.is_use_data_name:
-            lang_entry = entry
-        else:
-            lang_entry = self.lang_data and self.lang_data.get(key_id) or {}
-
-        eng_name = lang_entry.get(self.key_entry_name) or key_id
+        eng_name = entry.get(self.key_entry_name) or entry.get(KEY_ID)
 
         return SpriteEntryToSave(
             sprite_data,
             eng_name,
-            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png",
-            entry.get(KEY_ID)
+            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png"
         )
 
     def gen_image_with_frame(self, entry: dict[str, Any]) -> EntryToSave | None:
@@ -321,8 +337,7 @@ class BaseImageGenerator:
         return EntryToSave(
             frame,
             eng_name,
-            lambda x: f"{self.save_icon_prefix}-{self.get_save_name(x)}.png",
-            entry.get(KEY_ID)
+            lambda x: f"{self.save_icon_prefix}-{self.get_save_name(x)}.png"
         )
 
     # def gen_anim(self, entry: dict[str, Any]):
@@ -338,7 +353,7 @@ class BaseImageGenerator:
 class ItemImageGenerator(BaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME]
 
-    assets_type: DataType = DataType.ITEM
+    data_type: DataType = DataType.ITEM
     lang_type: LangType = LangType.ITEM
 
     default_scale_factor = 1
@@ -360,7 +375,7 @@ class ItemImageGenerator(BaseImageGenerator):
 class ArcanaImageGenerator(BaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME, GenType.ARCANA_PICTURE]
 
-    assets_type: DataType = DataType.ARCANA
+    data_type: DataType = DataType.ARCANA
     lang_type: LangType = LangType.ARCANA
 
     default_scale_factor = 1
@@ -427,23 +442,19 @@ class ArcanaImageGenerator(BaseImageGenerator):
             print(f"!!! Skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
             return None
 
-        key_id = entry.get(KEY_ID)
-        lang_entry = self.lang_data and self.lang_data.get(key_id) or {}
-
-        eng_name = lang_entry.get(self.key_entry_name) or key_id
+        eng_name = entry.get(self.key_entry_name) or entry.get(KEY_ID)
 
         return EntryToSave(
             sprite_data.sprite,
             eng_name,
-            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png",
-            entry.get(KEY_ID)
+            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png"
         )
 
 
 class PropsImageGenerator(BaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.ANIM]
 
-    assets_type: DataType = DataType.PROPS
+    data_type: DataType = DataType.PROPS
     lang_type: LangType = LangType.NONE
 
     default_scale_factor = 1
@@ -468,7 +479,7 @@ class PropsImageGenerator(BaseImageGenerator):
 class AdvMerchantsGenerator(BaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.ANIM]
 
-    assets_type: DataType = DataType.ADVENTURE_MERCHANTS
+    data_type: DataType = DataType.ADVENTURE_MERCHANTS
     lang_type: LangType = LangType.CHARACTER
 
     default_scale_factor = 1
@@ -487,7 +498,7 @@ class AdvMerchantsGenerator(BaseImageGenerator):
 class AlbumCoversGenerator(BaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE]
 
-    assets_type: DataType = DataType.ALBUM
+    data_type: DataType = DataType.ALBUM
     lang_type: LangType = LangType.NONE
 
     default_scale_factor = 1
@@ -498,13 +509,11 @@ class AlbumCoversGenerator(BaseImageGenerator):
     key_sprite_name = "icon"
     key_entry_name = "title"
 
-    is_use_data_name = True
-
 
 class MusicIconsGenerator(BaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE]
 
-    assets_type: DataType = DataType.MUSIC
+    data_type: DataType = DataType.MUSIC
     lang_type: LangType = LangType.NONE
 
     default_scale_factor = 1
@@ -517,8 +526,6 @@ class MusicIconsGenerator(BaseImageGenerator):
     key_entry_name = "title"
 
     default_main_texture_name = UI
-
-    is_use_data_name = True
 
     def get_unit(self, key_id: str, entry: dict[str, Any]) -> dict[str, Any]:
         entry = super().get_unit(key_id, entry)
@@ -544,7 +551,7 @@ class ListBaseImageGenerator(BaseImageGenerator):
 class WeaponImageGenerator(ListBaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME]
 
-    assets_type: DataType = DataType.WEAPON
+    data_type: DataType = DataType.WEAPON
     lang_type: LangType = LangType.WEAPON
 
     key_main_texture_name = "texture"
@@ -557,7 +564,7 @@ class WeaponImageGenerator(ListBaseImageGenerator):
 class PowerUpImageGenerator(ListBaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME]
 
-    assets_type: DataType = DataType.POWER_UP
+    data_type: DataType = DataType.POWER_UP
     lang_type: LangType = LangType.POWER_UP
 
     default_scale_factor = 1
@@ -576,9 +583,9 @@ class PowerUpImageGenerator(ListBaseImageGenerator):
 
 
 class CharacterImageGenerator(ListBaseImageGenerator):
-    _available_gens: list[GenType] = [GenType.IMAGE]
+    _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME]
 
-    assets_type: DataType = DataType.CHARACTER
+    data_type: DataType = DataType.CHARACTER
     lang_type: LangType = LangType.CHARACTER
 
     save_image_prefix = "Sprite"
@@ -591,35 +598,95 @@ class CharacterImageGenerator(ListBaseImageGenerator):
 
     default_frame_name = "CharacterSelectFrame.png"
 
-    is_use_data_name = True
+    def __init__(self, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
+                 requested_gen_types: dict[GenType, int | bool]):
+        super().__init__(dlc_type, data_type, requested_gen_types)
 
-    def __init__(self):
-        super(ListBaseImageGenerator).__init__()
+        lang_data_full = LangHandler.get_lang_file(LangType.SKIN) or {}
+        self.lang_skin_data: dict[str, Any] | None = lang_data_full and lang_data_full.get_lang(Lang.EN) or {}
 
-        self.lang_skin_data: dict[str, Any] | None = None
+        self.weapon_image_gen = None
+        self.frame_image = None
+
+        if requested_gen_types.get(GenType.IMAGE_FRAME):
+            self.weapon_image_gen = WeaponImageGenerator(COMPOUND_DATA, DataType.WEAPON, {GenType.IMAGE: 1})
+            image_path = to_source_path(IMAGES_FOLDER) / self.default_frame_name
+            self.frame_image = image_open(image_path)
 
     def get_unit(self, key_id: str, entry: list[dict[str, Any]]) -> dict[str, Any]:
         entry = super().get_unit(key_id, entry)
         lang_entry = self.lang_data and self.lang_data.get(key_id) or {}
-        prefix = lang_entry.get("prefix") or ""
-        char_name = lang_entry.get("charName") or ""
-        surname = lang_entry.get("surname") or ""
+        prefix = lang_entry.get(PREFIX) or ""
+        char_name = lang_entry.get(CHAR_NAME) or ""
+        surname = lang_entry.get(SURNAME) or ""
         entry.update({
+            PREFIX: prefix,
+            CHAR_NAME: char_name,
+            SURNAME: surname,
             FULL_CHARACTER_NAME: f"{prefix} {char_name} {surname}".strip()
         })
         return entry
 
-    def load_data(self, data: DataFile, requested_gen_types: dict[GenType, int | bool]) -> None:
-        super().load_data(data, requested_gen_types)
+    def gen_image_with_frame(self, entry: dict[str, Any]) -> EntryToSave | None:
+        out_image_data: SpriteEntryToSave | None = self.gen_image(entry)
+        if out_image_data is None:
+            return None
 
-        lang_data_full = LangHandler.get_lang_file(LangType.SKIN) or {}
-        self.lang_skin_data = lang_data_full and lang_data_full.get_lang(Lang.EN) or {}
+        image_data = out_image_data.sprite_data
+        eng_name = out_image_data.name
+
+        char_sprite = resize_image(image_data.sprite, 3.8)
+        frame_image = self.frame_image.copy()
+
+        if (weapon_id := entry.get("startingWeapon")) and weapon_id not in ["VOID", "0", 0, None]:
+            weapon_data = self.weapon_image_gen.data_file.data().get(weapon_id)
+            weapon_entry = self.weapon_image_gen.gen_image(self.weapon_image_gen.get_unit(weapon_id, weapon_data))
+
+            weapon_image = resize_image(weapon_entry.image, 4)
+            weapon_image_shadow = make_image_black(weapon_image)
+
+            weapon_offset = {
+                "x": frame_image.width - weapon_image.width - 10, "y": frame_image.height - weapon_image.height - 12
+            }
+
+            frame_image.alpha_composite(weapon_image_shadow, (weapon_offset["x"], weapon_offset["y"]))
+            frame_image.alpha_composite(weapon_image, (weapon_offset["x"] - 8, weapon_offset["y"] - 4))
+
+        frame_image.alpha_composite(char_sprite, (12, frame_image.height - char_sprite.height - 11))
+
+        text = entry.get(CHAR_NAME)
+        font = ImageFont.truetype(FONT_FILE_PATH, 30)
+        width = font.getbbox(text)[2] + 1
+        height = font.getbbox(text + "|")[3]
+
+        if width > frame_image.size[0] - 4:
+            if " " in text:
+                text = text[::-1].replace(" ", "\n", 1)[::-1]
+
+            font = ImageFont.truetype(FONT_FILE_PATH, 28)
+            width = font.getbbox(text)[2] + 1
+            height = (font.getbbox("|" + text + "|")[3] + 1) * 2
+
+        canvas = image_new('RGBA', (int(width), int(height)))
+
+        draw = ImageDraw.Draw(canvas)
+        draw.text((3, -5), text, "#ffffff", font, stroke_width=1)
+
+        # canvas.save(f"{sf_text}/text/{self.iconPrefix}-{save_name}.png")
+
+        frame_image.alpha_composite(canvas, (14, 20))
+
+        return EntryToSave(
+            frame_image,
+            eng_name,
+            lambda x: f"{self.save_icon_prefix}-{self.get_save_name(x)}.png"
+        )
 
 
 class EnemyImageGenerator(ListBaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE]
 
-    assets_type: DataType = DataType.ENEMY
+    data_type: DataType = DataType.ENEMY
     lang_type: LangType = LangType.ENEMIES
 
     save_image_prefix = "Sprite"
@@ -629,18 +696,110 @@ class EnemyImageGenerator(ListBaseImageGenerator):
     key_frame_name = None
     key_entry_name = "bName"
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
+                 requested_gen_types: dict[GenType, int | bool]):
+        super().__init__(dlc_type, data_type, requested_gen_types)
         raise NotImplementedError(f"{self.__class__.__name__} not implemented")
 
 
+class StageImageGenerator(ListBaseImageGenerator):
+    _available_gens: list[GenType] = [GenType.IMAGE, GenType.STAGE_WITH_NAME]
+
+    data_type: DataType = DataType.STAGE
+    lang_type: LangType = LangType.STAGE
+
+    default_scale_factor = 1
+
+    save_image_prefix = "Stage"
+
+    key_main_texture_name = "uiTexture"
+    key_sprite_name = "uiFrame"
+    key_frame_name = None
+    key_entry_name = "stageName"
+
+    def main_generator(self, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
+                       func_progress_bar_set_percent: PROGRESS_BAR_FUNC_TYPE = lambda c, t: 0) -> Path | None:
+        scale = self.requested_gens[GenType.IMAGE]
+        save_path = super().main_generator(dlc_type, data_type, func_progress_bar_set_percent)
+
+        total_len = len(self.entries)
+
+        if self.requested_gens.get(GenType.STAGE_WITH_NAME):
+            for i, entry in enumerate(self.entries):
+                out_entry = self.gen_image_with_name(entry)
+                if out_entry:
+                    out_entry.save_entry(save_path, entry, scale, add_to_path="With name")
+
+                func_progress_bar_set_percent(i + 1, total_len)
+
+        return save_path
+
+    def gen_image_with_name(self, entry: dict[str, Any]) -> EntryToSave | None:
+        out_image_data: SpriteEntryToSave | None = self.gen_image(entry)
+        if out_image_data is None:
+            return None
+
+        image_data = out_image_data.sprite_data
+        eng_name = out_image_data.name
+
+        stage_image = resize_image(image_data.sprite, 4)
+
+        text = eng_name.strip()
+        base_scale = 50
+        while True:
+            font = ImageFont.truetype(FONT_FILE_PATH, base_scale)
+            w = font.getbbox(text)[2] + 4
+            h = font.getbbox(text + "|")[3]
+            if w + 40 > stage_image.size[0]:
+                base_scale -= 2
+            else:
+                break
+
+        canvas = image_new('RGBA', (int(w), int(h)))
+
+        draw = ImageDraw.Draw(canvas)
+        draw.text((3, -5), text, "#eef92b", font, stroke_width=1)
+
+        crx, cry = stage_image.size
+        crx //= 2
+        cry //= 5
+        frx, fry = canvas.size
+        frx //= 2
+        fry //= 2
+        stage_image.alpha_composite(canvas, (crx - frx, cry - fry))
+
+        return EntryToSave(
+            stage_image,
+            eng_name,
+            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png"
+        )
+
+
+class AdventureStageSetImageGenerator(StageImageGenerator):
+    data_type: DataType = DataType.ADVENTURE_STAGE_SET
+
+    def _set_entries(self):
+        self.entries = [
+            self.get_unit_adv(key_id.strip(), entry.copy(), adv_id.strip())
+            for adv_id, adv_entry in self.data_file.data().items()
+            for key_id, entry in adv_entry.items()
+        ]
+
+    def get_unit_adv(self, key_id: str, entry: list[dict[str, Any]], adv_id: str) -> dict[str, Any]:
+        entry = super().get_unit(key_id, entry)
+        entry.update({
+            ADD_TO_PATH_ENTRY: adv_id
+        })
+        return entry
+
+
 class GeneratorDialog(tk.Toplevel):
-    def __init__(self, gen: BaseImageGenerator, parent=None):
+    def __init__(self, gen: BaseImageGenerator.__class__, parent=None):
         super().__init__(parent)
         self.parent = parent
         self.title("Select settings")
         ttk.Label(self, text="Select settings for image generator").pack()
-        ttk.Label(self, text=f"({gen.assets_type})").pack()
+        ttk.Label(self, text=f"({gen.data_type})").pack()
 
         self.settings = dict()
 

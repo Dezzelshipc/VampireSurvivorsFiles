@@ -14,6 +14,7 @@ from Source.Utility.image_functions import get_anim_sprites_ready, resize_list_i
 from Source.Utility.meta_data import MetaDataHandler
 from Source.Utility.sprite_data import SpriteData
 from Source.Utility.utility import normalize_str
+from Utility.image_functions import make_image_black
 
 K_ID = "k_id"
 IS_K_ID = "is_k_id"
@@ -845,13 +846,7 @@ class CharacterImageGenerator(TableGenerator):
             w_sprite: Image = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
             w_sprite = w_sprite.resize((w_sprite.size[0] * 4, w_sprite.size[1] * 4), Resampling.NEAREST)
 
-            w_sprite_black = w_sprite.copy()
-
-            pixdata = w_sprite_black.load()
-            for y in range(w_sprite_black.size[1]):
-                for x in range(w_sprite_black.size[0]):
-                    if pixdata[x, y][3] > 10:
-                        pixdata[x, y] = (0, 0, 0, 255)
+            w_sprite_black = make_image_black( w_sprite.copy() )
 
             weapon_offset = {
                 "x": frame_im.width - w_sprite.width - 10, "y": frame_im.height - w_sprite.height - 12,

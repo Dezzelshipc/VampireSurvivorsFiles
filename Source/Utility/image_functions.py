@@ -18,8 +18,8 @@ def crop_image_rect_left_top(image: Image, rect: SpriteRect | dict) -> Image:
     return image.crop((_rect.x, _rect.y, _rect.width + _rect.x, _rect.height + _rect.y))
 
 
-def resize_image(image: Image, scale_factor: int) -> Image:
-    return image.resize((image.size[0] * scale_factor, image.size[1] * scale_factor), Resampling.NEAREST)
+def resize_image(image: Image, scale_factor: int | float) -> Image:
+    return image.resize((int(image.size[0] * scale_factor), int(image.size[1] * scale_factor)), Resampling.NEAREST)
 
 
 def resize_list_images(images: list[Image], scale_factor: int) -> list[Image]:
@@ -111,6 +111,17 @@ def apply_tint(image: Image, tint_color: tuple[int, int, int]) -> Image:
 
     return img
 
+
+def make_image_black(_image: Image, threshold: int = 10) -> Image:
+    image = _image.copy()
+    pixdata = image.load()
+    for y in range(image.size[1]):
+        for x in range(image.size[0]):
+            if pixdata[x, y][3] > threshold:
+                pixdata[x, y] = (0, 0, 0, 255)
+            else:
+                pixdata[x, y] = (0,)*4
+    return image
 
 if __name__ == "__main__":
     pass

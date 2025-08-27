@@ -166,7 +166,7 @@ def _get_meta(meta_path: Path) -> MetaData:
     guid = entry['guid']
     name = normalize_str(meta_path_name)
 
-    print(f"Finished parsing {meta_path_name} [{guid=}] ({timeit:.2f} sec)")
+    print(f"Finished parsing {meta_path_name} [{guid=}] {timeit!r}")
 
     return MetaData(name, meta_path_name, guid, image, prepared_data_name, prepared_data_id)
 
@@ -249,17 +249,28 @@ class MetaDataHandler(Objectless):
             print(f"Finished collecting guid of every asset ({timeit:.2f} sec)")
 
     @classmethod
-    def add_meta_data(cls, path: Path) -> None:
+    def add_meta_data_by_path(cls, path: Path) -> None:
         norm = normalize_str(path)
         cls._assets_name_path.update({norm: path})
         guid_path = _get_meta_guid(path)
         cls._assets_guid_path.update([guid_path])
 
     @classmethod
-    def has_meta(cls, path: Path) -> bool:
+    def has_meta_by_path(cls, path: Path) -> bool:
         cls.load()
         norm = normalize_str(path)
         return norm in cls._assets_name_path
+
+    @classmethod
+    def add_meta_data_by_meta(cls, name: str, _meta_data: MetaData) -> None:
+        cls.loaded_assets_meta.update({
+            normalize_str(name): _meta_data,
+            name: _meta_data
+        })
+
+    @classmethod
+    def has_meta_by_name(cls, name: str) -> bool:
+        return normalize_str(name) in cls.loaded_assets_meta
 
     @classmethod
     def get_path_by_name(cls, name: str) -> Path | None:
