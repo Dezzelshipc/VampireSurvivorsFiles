@@ -14,7 +14,7 @@ from Source.Utility.image_functions import get_anim_sprites_ready, resize_list_i
 from Source.Utility.meta_data import MetaDataHandler
 from Source.Utility.sprite_data import SpriteData
 from Source.Utility.utility import normalize_str
-from Utility.image_functions import make_image_black
+from Source.Utility.image_functions import make_image_black
 
 K_ID = "k_id"
 IS_K_ID = "is_k_id"

@@ -54,3 +54,6 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest discover
+    - name: Start run.bat
+      run: |
+        ./run.bat

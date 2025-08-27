@@ -28,6 +28,7 @@ from Source.Utility.logger import Logger
 from Source.Utility.meta_data import MetaDataHandler
 from Source.Utility.timer import Timeit
 from Source.Utility.utility import CheckBoxes, ButtonsBox
+from Source.Utility.constants import to_source_path
 
 
 class Unpacker(tk.Tk):
@@ -124,9 +125,10 @@ class Unpacker(tk.Tk):
         self.minsize(width, height)
 
         self.title('Resource unpacker VS')
-        self.iconphoto(False, tk.PhotoImage(file='Source/Images/Show/_Sprite-Atlas Gate.png'))
+        icon_folder = to_source_path(IMAGES_FOLDER)
+        self.iconphoto(False, tk.PhotoImage(file=icon_folder / "Show/_Sprite-Atlas Gate.png"))
 
-        ico_image = tk.PhotoImage(file='Source/Images/Show/_Sprite-Garlic.png')
+        ico_image = tk.PhotoImage(file=icon_folder / "Show/_Sprite-Garlic.png")
         label_ico = ttk.Label(self, image=ico_image)
         label_ico.image = ico_image
         label_ico.grid(row=0, column=0)

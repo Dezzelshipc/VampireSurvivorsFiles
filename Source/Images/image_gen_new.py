@@ -16,11 +16,11 @@ from Source.Data.data import DataHandler, DataType, DataFile
 from Source.Translations.language import LangHandler, LangType, Lang
 from Source.Utility.constants import to_source_path, IMAGES_FOLDER, COMPOUND_DATA_TYPE, GENERATED, \
     PROGRESS_BAR_FUNC_TYPE, COMPOUND_DATA
+from Source.Utility.image_functions import make_image_black
 from Source.Utility.image_functions import resize_image, get_adjusted_sprites_to_rect, get_rects_by_sprite_list
 from Source.Utility.meta_data import MetaDataHandler
-from Source.Utility.sprite_data import SpriteData, SpriteRect
+from Source.Utility.sprite_data import SpriteData
 from Source.Utility.utility import normalize_str
-from Utility.image_functions import make_image_black
 
 PREFIX = "prefix"
 CHAR_NAME = "charName"
