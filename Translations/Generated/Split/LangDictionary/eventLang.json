@@ -1,0 +1,698 @@
+{
+  "ROSARY": {
+    "displayName": {
+      "en": "Rosary",
+      "fr": "Chapelet",
+      "it": "Rosario",
+      "de": "Rosenkranz",
+      "es": "Rosario",
+      "pt-BR": "Rosário",
+      "pl": "Różaniec",
+      "ru": "Чётки",
+      "tr": "Tespih",
+      "zh-CN": "念珠",
+      "ja": "ロザリオ",
+      "ko": "묵주",
+      "zh-TW": "玫瑰念珠",
+      "uk": "Чотки"
+    }
+  },
+  "PET": {
+    "displayName": {
+      "en": "Pet",
+      "fr": "Amour toujours",
+      "it": "Compagno",
+      "de": "Hätschelei",
+      "es": "Mimos",
+      "pt-BR": "Carinho",
+      "pl": "Pupil",
+      "ru": "Любимчик",
+      "tr": "Evcil",
+      "zh-CN": "宠物",
+      "ja": "ペット",
+      "ko": "애완동물",
+      "zh-TW": "寵物",
+      "uk": "Улюбленець"
+    }
+  },
+  "CHICKEN_BONANZA": {
+    "displayName": {
+      "en": "Chicken Bonanza",
+      "fr": "Pactole de poulet",
+      "it": "Polli a volontà",
+      "de": "Brathähnchenbonanza",
+      "es": "Pollos a tutiplén",
+      "pt-BR": "Galeteria",
+      "pl": "Pieczony Kurczak",
+      "ru": "Куриное безумие",
+      "tr": "Tavuk Sarmalı",
+      "zh-CN": "鸿运烤鸡",
+      "ja": "チキンフィーバー",
+      "ko": "치킨 보난자",
+      "zh-TW": "鴻運烤雞",
+      "uk": "Курячий сказ"
+    }
+  },
+  "GOLD_FEVER": {
+    "displayName": {
+      "en": "Gold Fever",
+      "fr": "Pluie d'or",
+      "it": "Febbre dell'oro",
+      "de": "Goldrausch",
+      "es": "Fiebre del oro",
+      "pt-BR": "Febre de Ouro",
+      "pl": "Gorączka Złota",
+      "ru": "Золотая лихорадка",
+      "tr": "Altın Kasırgası",
+      "zh-CN": "淘金狂潮",
+      "ja": "ゴールドフィーバー",
+      "ko": "황금의 피버타임",
+      "zh-TW": "淘金狂潮",
+      "uk": "Золота лихоманка"
+    }
+  },
+  "FREE_PASSIVE": {
+    "displayName": {
+      "en": "Free Passive",
+      "fr": "Passif offert",
+      "it": "Passiva gratis",
+      "de": "Passivgeschenk",
+      "es": "Objeto pasivo",
+      "pt-BR": "Item Grátis",
+      "pl": "Darmowa Umiejętność Pasywna",
+      "ru": "Бесплатная пассивка",
+      "tr": "Pasif Kazanç",
+      "zh-CN": "随机被动",
+      "ja": "無料パッシブ",
+      "ko": "무료 패시브",
+      "zh-TW": "免費被動",
+      "uk": "Безплатна пасивна здатність"
+    }
+  },
+  "FIREBREATHING": {
+    "displayName": {
+      "en": "Firebreathing",
+      "fr": "Souffle enflammé",
+      "it": "Alito di fuoco",
+      "de": "Feuerspeierei",
+      "es": "Escupefuego",
+      "pt-BR": "Cospe-fogo",
+      "pl": "Oddech Ognia",
+      "ru": "Огненное дыхание",
+      "tr": "Alevnefesi",
+      "zh-CN": "炎息",
+      "ja": "ファイヤーブレス",
+      "ko": "화염 호흡",
+      "zh-TW": "炎息",
+      "uk": "Вогняний подих"
+    }
+  },
+  "LUCK_BOOST": {
+    "displayName": {
+      "en": "Luck Boost",
+      "fr": "Coup de chance",
+      "it": "Fortuna extra",
+      "de": "Glücksschub",
+      "es": "Aumento de suerte",
+      "pt-BR": "Reforço de Sorte",
+      "pl": "Doładowanie Szczęścia",
+      "ru": "Бустер удачи",
+      "tr": "Şans Artışı",
+      "zh-CN": "好运来",
+      "ja": "運ブースト",
+      "ko": "행운 부스트",
+      "zh-TW": "好運來",
+      "uk": "Талан"
+    }
+  },
+  "LIGHT_SOURCES": {
+    "displayName": {
+      "en": "Light Sources",
+      "fr": "Sources de lumière",
+      "it": "Fonti di luce",
+      "de": "Lichtquellen",
+      "es": "Fuentes de luz",
+      "pt-BR": "Show de Luzes",
+      "pl": "Źródła Światła",
+      "ru": "Источники света",
+      "tr": "Işık Kaynakları",
+      "zh-CN": "光源",
+      "ja": "光源",
+      "ko": "광원",
+      "zh-TW": "光源",
+      "uk": "Джерела світла"
+    }
+  },
+  "CANDYBOX": {
+    "displayName": {
+      "en": "Candybox",
+      "fr": "Boîte à bonbons",
+      "it": "Scatola di caramelle",
+      "de": "Süßigkeitenschachtel",
+      "es": "Caja de dulces",
+      "pt-BR": "Presentinho",
+      "pl": "Pudełko Czekoladek",
+      "ru": "Коробка конфет",
+      "tr": "Şeker Kutusu",
+      "zh-CN": "糖果盒",
+      "ja": "キャンディーボックス",
+      "ko": "사탕상자",
+      "zh-TW": "糖果盒",
+      "uk": "Коробка цукерок"
+    }
+  },
+  "BAT_SWARM": {
+    "displayName": {
+      "en": "Bat Swarm",
+      "fr": "Attaque vampirique",
+      "it": "Sciame di pipistrelli",
+      "de": "Fledermausschwarm",
+      "es": "Enjambre de murciélagos",
+      "pt-BR": "Torrente de Morcegos",
+      "pl": "Rój Nietoperzy",
+      "ru": "Стая летучих мышей",
+      "tr": "Yarasa Sürüsü",
+      "zh-CN": "蝙蝠群涌",
+      "ja": "コウモリの群れ",
+      "ko": "박쥐 무리",
+      "zh-TW": "蝙蝠群湧",
+      "uk": "Зграя кажанів"
+    }
+  },
+  "GHOST_SWARM": {
+    "displayName": {
+      "en": "Ghost Swarm",
+      "fr": "Attaque fantôme",
+      "it": "Sciame di fantasmi",
+      "de": "Geisterschwarm",
+      "es": "Enjambre de fantasmas",
+      "pt-BR": "Torrente de Fantasmas",
+      "pl": "Rój Duchów",
+      "ru": "Полчище призраков",
+      "tr": "Hayalet Sürüsü",
+      "zh-CN": "鬼魂群涌",
+      "ja": "ゴーストの群れ",
+      "ko": "고스트 무리",
+      "zh-TW": "鬼魂群湧",
+      "uk": "Орда привидів"
+    }
+  },
+  "MEDUSA_SWARM": {
+    "displayName": {
+      "en": "Merdusa Swarm",
+      "fr": "Attaque merdusée",
+      "it": "Sciame di merduse",
+      "de": "Mehrdusenschwarm",
+      "es": "Enjambre de mierdusas",
+      "pt-BR": "Torrente de Merdusas",
+      "pl": "Rój Merduz",
+      "ru": "Полчище горгон",
+      "tr": "Merdusa Sürüsü",
+      "zh-CN": "美杜莎群涌",
+      "ja": "メドゥーサの群れ",
+      "ko": "메두사 무리",
+      "zh-TW": "梅杜莎群湧",
+      "uk": "Орда мердуз"
+    }
+  },
+  "SKULL_SWARM": {
+    "displayName": {
+      "en": "Skull Swarm",
+      "fr": "Attaque crâneuse",
+      "it": "Sciame di teschi",
+      "de": "Schädelschwarm",
+      "es": "Enjambre de cráneos",
+      "pt-BR": "Torrente de Caveiras",
+      "pl": "Rój Czaszek",
+      "ru": "Полчище черепов",
+      "tr": "Kafatası Sürüsü",
+      "zh-CN": "头骨群涌",
+      "ja": "スカルの群れ",
+      "ko": "해골 무리",
+      "zh-TW": "頭骨群湧",
+      "uk": "Орда черепів"
+    }
+  },
+  "JELLY_SWARM": {
+    "displayName": {
+      "en": "Jelly Swarm",
+      "fr": "Attaque médusante",
+      "it": "Sciame di meduse",
+      "de": "Quallenschwarm",
+      "es": "Enjambre de medusas",
+      "pt-BR": "Torrente de Águas-vivas",
+      "pl": "Rój Meduz",
+      "ru": "Рой медуз",
+      "tr": "Denizanası Sürüsü",
+      "zh-CN": "水母群涌",
+      "ja": "クラゲの群れ",
+      "ko": "젤리 무리",
+      "zh-TW": "水母群湧",
+      "uk": "Зграя медуз"
+    }
+  },
+  "ECTO_SWARM": {
+    "displayName": {
+      "en": "Green Swarm",
+      "fr": "Attaque verte",
+      "it": "Sciame verde",
+      "de": "Grüner Schwarm",
+      "es": "Enjambre verde",
+      "pt-BR": "Torrente Verde",
+      "pl": "Zielony Rój",
+      "ru": "Зелёная погибель",
+      "tr": "Yeşil Sürüsü",
+      "zh-CN": "绿色群涌",
+      "ja": "緑の群れ",
+      "ko": "그린 무리",
+      "zh-TW": "綠怪群湧",
+      "uk": "Зелена згуба"
+    }
+  },
+  "DRAGON_SWARM": {
+    "displayName": {
+      "en": "Shrimps Swarm",
+      "fr": "Attaque draconique",
+      "it": "Sciame di gamberi",
+      "de": "Shrimps-Schwarm",
+      "es": "Enjambre de gambas",
+      "pt-BR": "Torrente de Camarões",
+      "pl": "Rój Krewetek",
+      "ru": "Стая креветок",
+      "tr": "Karides Sürüsü",
+      "zh-CN": "小虾群涌",
+      "ja": "エビの群れ",
+      "ko": "새우 무리",
+      "zh-TW": "小蝦群湧",
+      "uk": "Зграя креветок"
+    }
+  },
+  "IMP_SWARM": {
+    "displayName": {
+      "en": "Imp Swarm",
+      "fr": "Attaque diabolique",
+      "it": "Sciame di impediti",
+      "de": "Flatterwichtschwarm",
+      "es": "Enjambre de diablillos",
+      "pt-BR": "Torrente Demoníaca",
+      "pl": "Rój Palcochlików",
+      "ru": "Полчище бесов",
+      "tr": "Cüce Sürüsü",
+      "zh-CN": "小鬼群涌",
+      "ja": "インプの群れ",
+      "ko": "임프 무리",
+      "zh-TW": "小鬼群湧",
+      "uk": "Орда бісів"
+    }
+  },
+  "SKELETON_SWARM": {
+    "displayName": {
+      "en": "Skeleton Swarm",
+      "fr": "Attaque squelettique",
+      "it": "Sciame di scheletri",
+      "de": "Skelettschwarm",
+      "es": "Enjambre de esqueletos",
+      "pt-BR": "Torrente de Esqueletos",
+      "pl": "Rój Szkieletów",
+      "ru": "Полчище скелетов",
+      "tr": "İskelet Sürüsü",
+      "zh-CN": "骷髅群涌",
+      "ja": "スケルトンの群れ",
+      "ko": "스켈레톤 무리",
+      "zh-TW": "骷髏群湧",
+      "uk": "Орда скелетів"
+    }
+  },
+  "POLTER_ROULETTE": {
+    "displayName": {
+      "en": "Roulette",
+      "fr": "Roulette",
+      "it": "Roulette",
+      "de": "Roulette",
+      "es": "Ruleta",
+      "pt-BR": "Roleta",
+      "pl": "Ruletka",
+      "ru": "Рулетка",
+      "tr": "Rulet",
+      "zh-CN": "轮盘",
+      "ja": "ルーレット",
+      "ko": "룰렛",
+      "zh-TW": "隨機輪盤",
+      "uk": "Рулетка"
+    }
+  },
+  "PANIC_TIME": {
+    "displayName": {
+      "en": "Panic Time",
+      "fr": "Panique totale",
+      "it": "Momento fomento",
+      "de": "Panikmache",
+      "es": "Hora del pánico",
+      "pt-BR": "Hora do Pânico",
+      "pl": "Czas Paniki",
+      "ru": "Время паники",
+      "tr": "Panik Vakti",
+      "zh-CN": "恐慌时间",
+      "ja": "パニックタイム",
+      "ko": "패닉 타임",
+      "zh-TW": "恐慌時間",
+      "uk": "Час паніки"
+    }
+  },
+  "SUMMON_NIGHT": {
+    "displayName": {
+      "en": "Summon Night",
+      "fr": "Sombre appel",
+      "it": "Evoca notte",
+      "de": "Nachtbeschwörung",
+      "es": "Murcitransformación",
+      "pt-BR": "Noite da Invocação",
+      "pl": "Wezwij Noc",
+      "ru": "Призыв ночи",
+      "tr": "Summon Night",
+      "zh-CN": "晦夜引",
+      "ja": "夜の召喚",
+      "ko": "밤 소환",
+      "zh-TW": "晦夜引",
+      "uk": "Призов ночі"
+    }
+  },
+  "SUMMON_MOLISE": {
+    "displayName": {
+      "en": "Summon Il Molise",
+      "fr": "Appel du Molise",
+      "it": "Evoca il Molise",
+      "de": "Il Molise-Beschwörung",
+      "es": "Enemigos de Molise",
+      "pt-BR": "Invocação de Il Molise",
+      "pl": "Wezwij II Molise",
+      "ru": "Призыв Молиза",
+      "tr": "Summon Il Molise",
+      "zh-CN": "莫利塞召唤",
+      "ja": "地図にない場所を召喚",
+      "ko": "일 몰리제 소환",
+      "zh-TW": "召喚莫利塞",
+      "uk": "Призов Іл Моліз"
+    }
+  },
+  "ULTRA_WAVE": {
+    "displayName": {
+      "en": "Ultra Wave",
+      "fr": "Vague ultra",
+      "it": "Super onda",
+      "de": "Ultrawelle",
+      "es": "Ultraoleada",
+      "pt-BR": "Grande Onda",
+      "pl": "Wielka Fala",
+      "ru": "Мощная волна",
+      "tr": "Ultra Dalga",
+      "zh-CN": "超波",
+      "ja": "ウルトラウェーブ",
+      "ko": "울트라 웨이브",
+      "zh-TW": "究極之波",
+      "uk": "Потужна хвиля"
+    }
+  },
+  "CRAB_FEST": {
+    "displayName": {
+      "en": "Crab Fest",
+      "fr": "Panier de crabes",
+      "it": "Orda di granchi",
+      "de": "Krabbenfest",
+      "es": "Festival de cangrejos",
+      "pt-BR": "Torrente de Caranguejos",
+      "pl": "Festyn Krabów",
+      "ru": "Крабья вечеринка",
+      "tr": "Yengeç Festivali",
+      "zh-CN": "螃蟹集会",
+      "ja": "カニ祭り",
+      "ko": "크랩 축제",
+      "zh-TW": "螃蟹盛宴",
+      "uk": "Краб-фест"
+    }
+  },
+  "JELLY_WALL": {
+    "displayName": {
+      "en": "Jelly Wall",
+      "fr": "Muraille de méduses",
+      "it": "Muro di meduse",
+      "de": "Quallenmauer",
+      "es": "Barrera de medusas",
+      "pt-BR": "Paredão de Águas-vivas",
+      "pl": "Ściana Meduz",
+      "ru": "Стена медуз",
+      "tr": "Denizanası Duvarı",
+      "zh-CN": "水母墙",
+      "ja": "クラゲウォール",
+      "ko": "젤리 벽",
+      "zh-TW": "水母牆",
+      "uk": "Медузоцвіт"
+    }
+  },
+  "FLOWER_WALL": {
+    "displayName": {
+      "en": "Flower Wall",
+      "fr": "Muraille florale",
+      "it": "Muro di fiori",
+      "de": "Blumenmauer",
+      "es": "Barrera de flores",
+      "pt-BR": "Paredão de Flores",
+      "pl": "Ściana Kwiatów",
+      "ru": "Порчецвет",
+      "tr": "Çiçek Duvarı",
+      "zh-CN": "花墙",
+      "ja": "フラワーウォール",
+      "ko": "플라워 벽",
+      "zh-TW": "花牆",
+      "uk": "Скверноцвіт"
+    }
+  },
+  "PILE_ASSAULT": {
+    "displayName": {
+      "en": "Pile Assault",
+      "fr": "Attaques jumelées",
+      "it": "Assalto in mucchio",
+      "de": "Schädelschlacht",
+      "es": "Asalto siamés",
+      "pt-BR": "Ataque Serpentino",
+      "pl": "Atakujący Stos",
+      "ru": "Двуглавая атака",
+      "tr": "Yoğun Saldırı",
+      "zh-CN": "群起而攻之",
+      "ja": "パイルアサルト",
+      "ko": "더미 공격",
+      "zh-TW": "群起圍攻",
+      "uk": "Щільний натиск"
+    }
+  },
+  "MINO_RUSH": {
+    "displayName": {
+      "en": "Mino Rush",
+      "fr": "Minotaurture",
+      "it": "Mino-assalto",
+      "de": "Mino-Raserei",
+      "es": "Minostampida",
+      "pt-BR": "Boiada",
+      "pl": "Szarża Minotaurów",
+      "ru": "Раш минотавров",
+      "tr": "Mino Saldırısı",
+      "zh-CN": "牛头怪冲击",
+      "ja": "ミノラッシュ",
+      "ko": "미노 러시",
+      "zh-TW": "牛頭怪狂潮",
+      "uk": "Набіг мінотаврів"
+    }
+  },
+  "TWINS_PILES": {
+    "displayName": {
+      "en": "Scorpion Lair",
+      "fr": "Antre aux scorpions",
+      "it": "Tana dello scorpione",
+      "de": "Skorpiongrube",
+      "es": "Guarida de escorpiones",
+      "pt-BR": "Entre-caveiras",
+      "pl": "Gniazdo Skorpionów",
+      "ru": "Логово скорпиона",
+      "tr": "Akrep Yuvası",
+      "zh-CN": "蝎子窝",
+      "ja": "サソリの巣",
+      "ko": "전갈 소굴",
+      "zh-TW": "蠍子巢穴",
+      "uk": "Лігво скорпіона"
+    }
+  },
+  "SHOOTING_STAR": {
+    "displayName": {
+      "en": "Shooting Stars",
+      "fr": "Étoiles filantes",
+      "it": "Stelle cadenti",
+      "de": "Sternschnuppen",
+      "es": "Estrellas fugaces",
+      "pt-BR": "Estrelas Cadentes",
+      "pl": "Spadające Gwiazdy",
+      "ru": "Падающие звёзды",
+      "tr": "Kayan Yıldızlar",
+      "zh-CN": "流星",
+      "ja": "流星",
+      "ko": "별똥별",
+      "zh-TW": "流星群墜",
+      "uk": "Падучі зорі"
+    }
+  },
+  "STALKER": {
+    "displayName": {
+      "en": "The Stalker",
+      "fr": "Fauche-Fixette",
+      "it": "Il Persecutore",
+      "de": "Der Stalker",
+      "es": "La Acechadora",
+      "pt-BR": "O Perseguidor",
+      "pl": "Prześladowca",
+      "ru": "Преследователь",
+      "tr": "İz Sürücü",
+      "zh-CN": "阴魂",
+      "ja": "死神（緑）",
+      "ko": "스토커",
+      "zh-TW": "陰魂",
+      "uk": "Переслідувач"
+    }
+  },
+  "DROWNER": {
+    "displayName": {
+      "en": "The Drowner",
+      "fr": "Fauche-Déluge",
+      "it": "Il Sommersore",
+      "de": "Der Ersäufer",
+      "es": "La Inundadora",
+      "pt-BR": "O Afogador",
+      "pl": "Topiciel",
+      "ru": "Утопец",
+      "tr": "Boğucu",
+      "zh-CN": "水鬼",
+      "ja": "死神（青）",
+      "ko": "익사자",
+      "zh-TW": "水鬼",
+      "uk": "Потопельник"
+    }
+  },
+  "SABOTAGE_PICKLE_RUSH": {
+    "displayName": {
+      "en": "Pickle Rush",
+      "fr": "Ruée vers les cornichons",
+      "it": "Assalto di sottaceti",
+      "de": "Gurkenrausch",
+      "es": "Fiebre del pepinillo",
+      "pt-BR": "Vinagrete",
+      "pl": "Gorączka Ogóra",
+      "ru": "Огуречный ажиотаж",
+      "tr": "Turşuya Hücum",
+      "zh-CN": "泡菜热潮",
+      "ja": "ピクルス・ラッシュ",
+      "ko": "피클 러쉬",
+      "zh-TW": "醃黃瓜狂潮",
+      "uk": "Огірковий бум"
+    },
+    "newsfeed": {
+      "en": "Sensors detect a faint smell of vinegar from space. Please press the button to end the smell.",
+      "fr": "Les capteurs détectent une légère odeur de vinaigre en provenance de l'espace. Veuillez appuyer sur le bouton pour neutraliser l'odeur en question.",
+      "it": "I sensori rilevano un vago odore di aceto proveniente dallo spazio. Premi il pulsante per liberartene.",
+      "de": "Die Sensoren haben einen leichten Essiggeruch aus dem Weltraum erkannt. Bitte drücke den Knopf, damit der Geruch verschwindet.",
+      "es": "Los sensores detectan un olorcillo avinagrado en el espacio. Pulsa el botón para acabar con él.",
+      "pt-BR": "Os sensores detectam um leve cheiro de vinagre vindo do espaço. Pressione o botão para acabar com o cheiro.",
+      "pl": "Czujniki wykrywają delikatny zapach octu z kosmosu. Wciśnij przycisk, by zakończyć rozpylanie zapachu.",
+      "ru": "Сенсоры улавливают слабый запах уксуса из космоса. Нажмите кнопку, чтобы убрать запах.",
+      "tr": "Sensörler uzaydan gelen hafif bir sirke kokusu tespit etti. Kokuyu sonlandırmak için lütfen düğmeye bas.",
+      "zh-CN": "感应器探测到来自太空的淡淡酸味。请按下按钮，清除这股味道。",
+      "ja": "センサーが宇宙に漂う微かなお酢の匂いを探知。ボタンを押して匂いの探知を停止しよう。",
+      "ko": "센서가 우주에서 희미한 식초 냄새를 감지합니다. 냄새를 없애려면 버튼을 눌러주세요.",
+      "zh-TW": "感測器偵測到來自外太空的些微醃漬味。請按下按鈕來清除這些氣味。",
+      "uk": "Сенсори вловлюють слабкий запах оцту з космосу. Натисніть кнопку, щоби прибрати запах."
+    }
+  },
+  "SABOTAGION": {
+    "displayName": {
+      "en": "Sabotagion",
+      "fr": "Sabotagion",
+      "it": "Sabotaggion",
+      "de": "Sabotation",
+      "es": "Sabotagio",
+      "pt-BR": "Sabotageon",
+      "pl": "Sabotażon",
+      "ru": "Саботажаж",
+      "tr": "Sabotajlama",
+      "zh-CN": "破坏区",
+      "ja": "サボタージョン",
+      "ko": "방해공작자",
+      "zh-TW": "破壞蔓延",
+      "uk": "Саботаж'йон"
+    },
+    "newsfeed": {
+      "en": "Seismic activity detected. Kindly press the button to shift the planet's tectonic plates.",
+      "fr": "Activité sismique détectée. Veuillez appuyer sur le bouton pour déplacer les plaques tectoniques de la planète.",
+      "it": "Attività sismica rilevata. Premi il pulsante per far slittare le placche tettoniche del pianeta.",
+      "de": "Seismische Aktivität entdeckt. Drücke freundlicherweise den Knopf, um die tektonischen Platten des Planeten zu verschieben.",
+      "es": "Se ha detectado actividad sísmica. Pulsa el botón para desplazar las placas tectónicas del planeta.",
+      "pt-BR": "Atividade sísmica detectada. Pressione o botão para deslocar as placas tectônicas do planeta.",
+      "pl": "Wykryto aktywność sejsmiczną. Naciśnij przycisk, by przesunąć płyty tektoniczne planety.",
+      "ru": "Обнаружена сейсмическая активность. Нажмите кнопку, чтобы сдвинуть тектонические плиты планеты.",
+      "tr": "Sismik aktivite tespit edildi. Gezegenin tektonik levhalarını hareket ettirmek için lütfen düğmeye bas.",
+      "zh-CN": "检测到地震活动。请按下按钮，切换星球的构造板块。",
+      "ja": "地震活動を検出。ボタンを押して惑星の構造プレートを移動しよう。",
+      "ko": "지반 활동 감지. 버튼을 눌러 행성의 지각판을 옮기세요.",
+      "zh-TW": "偵測到地震活動。請按下按鈕以切換星球的構造板塊。",
+      "uk": "Зафіксовано сейсмічну активність. Натисніть кнопку, щоб зрушити тектонічні плити планети."
+    },
+    "newsfeedDouble": {
+      "en": "Eruptions are in progress and swarms of tourists are rushing in to witness the spectacle. Kindly press both buttons to prevent tourism.",
+      "fr": "Des éruptions sont en cours et des nuées de touristes jouent des coudes pour assister au spectacle. Veuillez appuyer sur les deux boutons pour neutraliser le tourisme.",
+      "it": "Sono in corso delle eruzioni e sciami di turisti si accalcano per ammirare lo spettacolo. Premi entrambi i pulsanti per impedire il turismo.",
+      "de": "Die Eruptionen sind in vollem Gange, und Touristen strömen in Scharen herbei, um das Spektakel zu bewundern. Bitte drücke beide Knöpfe, um die Touristenströme zu verhindern.",
+      "es": "Se están produciendo erupciones, y una multitud de turistas se apresuran a contemplar el espectáculo. Pulsa ambos botones para evitar el turismo.",
+      "pt-BR": "Há erupções ocorrendo, e multidões de turistas estão correndo para testemunhar o espetáculo. Pressione os dois botões para evitar o turismo.",
+      "pl": "Trwają erupcje, a tłumy turystów pędzą, by oglądać ten spektakl. Naciśnij oba przyciski, by powstrzymać turystów.",
+      "ru": "Извержения продолжаются, и толпы туристов устремляются, чтобы это увидеть. Нажмите обе кнопки, чтобы убрать потоки туристов.",
+      "tr": "Patlamalar devam ediyor ve turist grupları olayları seyretmek için akın akın geliyorlar. Turizmi önlemek için lütfen her iki düğmeye de bas.",
+      "zh-CN": "火山即将喷发，成群结队的游客正赶来目睹这一奇观。请按下两个按钮，防止游客靠近。",
+      "ja": "噴火が起ころうとしている中、大勢の観光客がその壮大な瞬間を目撃しようと押し寄せている。両方のボタンを押して、やってくる観光客を阻止しよう。",
+      "ko": "화산 폭발이 진행 중이며 이 광경을 보기 위해 수많은 관광객이 몰려들고 있습니다. 버튼 두 개를 모두 눌러 관광객을 막으세요.",
+      "zh-TW": "火山即將噴發，有無數的遊客連忙趕來欣賞眼前的奇觀。請同時按下兩個按鈕以請走這群遊客。",
+      "uk": "Виверження тривають, а натовпи туристів збігаються на видовище. Натисніть обидві кнопки, щоби прибрати навалу туристів."
+    }
+  },
+  "SABOTAGE_GENERIC_RUSH": {
+    "newsfeed": {
+      "en": "Massive saboteur population increase detected. Please push buttons to prevent overcrowding.",
+      "fr": "Augmentation importante de la population de saboteurs détectée. Veuillez appuyer sur les boutons pour neutraliser la surpopulation.",
+      "it": "Massiccio aumento della popolazione di sabotatori rilevato. Premi i pulsanti per impedire il sovraffollamento.",
+      "de": "Massiver Anstieg der Saboteurspopulation festgestellt. Bitte drücke die Knöpfe, um eine Überbevölkerung zu verhindern.",
+      "es": "Se ha detectado un gran incremento de población saboteadora. Pulsa los botones para evitar la superpoblación.",
+      "pt-BR": "Grande aumento da população de sabotadores detectado. Pressione botões para evitar a superlotação.",
+      "pl": "Wykryto masowy wzrost populacji sabotażystów. Naciśnij przyciski, by zapobiec przeludnieniu.",
+      "ru": "Обнаружен массовый рост числа саботажников. Нажмите кнопки, чтобы предотвратить переполнение.",
+      "tr": "Sabotajcı sayısında büyük bir artış tespit edildi. Lütfen aşırı kalabalığı önlemek için düğmelere bas.",
+      "zh-CN": "侦测到破坏者的数量激增。请按下按钮，防止过度拥挤。",
+      "ja": "サボタージュの人口爆増を検出。ボタンを押して過密化を防ごう。",
+      "ko": "대규모 파괴 공작원 개체 수 증가가 감지되었습니다. 혼잡을 방지하려면 버튼을 눌러주세요.",
+      "zh-TW": "偵測到破壞者的數量激增。請按下按鈕以避免人擠人的情況發生。",
+      "uk": "Зафіксоване масове зростання кількості саботажників. Натисніть кнопки, щоби запобігти переповненню."
+    }
+  },
+  "FB_EVENT": {
+    "": {
+      "en": "A huge alien cyborg presence has been detected in the North East of Neo City. Attack it aggressively!",
+      "fr": "Une présence cyborg extraterrestre a été détectée au nord-ouest de Neo City. Attaquez-la agressivement !",
+      "it": "È stata rilevata la presenza di un enorme cyborg alieno nel Nord-est di Neo City. Attaccalo aggressivamente!",
+      "de": "Nordöstlich von Neo City wurde ein riesiger Alien-Cyborg gesichtet. Vernichte ihn mit allen Mitteln!",
+      "es": "¡Se ha detectado un nivel muy alto de cíborgs y alienígenas al noreste de la Neociudad! ¡Ataca con agresividad!",
+      "pt-BR": "Uma grande presença ciborgue-alienígena foi detectada no Nordeste da Neocidade. Ataque com garra!",
+      "pl": "Wykryto obecność wielkiego, kosmicznego cyborga na północnym wschodzie Neo City. Walcz z nim zaciekle!",
+      "ru": "На северо-востоке Нео-Сити засекли нашествие инопланетных киборгов. Атакуйте яростно!",
+      "tr": "Neo Kent'in Kuzeydoğusunda devasa bir uzaylı cyborg varlığı tespit edildi. Hunharca saldır!",
+      "zh-CN": "在新城的东北一带探测到一个巨大的外星改造人。锁定目标，发动猛攻！",
+      "ja": "ネオシティの北東で巨大なエイリアン・サイボーグの存在が確認された。徹底的に攻撃せよ！",
+      "ko": "네오 시티 북동부에서 거대한 에일리언 사이보그의 존재를 감지했습니다. 격렬하게 공격하세요!",
+      "zh-TW": "在霓虹都市的東北邊有巨大外星生化人出沒。對這個敵人發起猛烈的攻勢吧！",
+      "uk": "Зафіксована навала роботів-прибульців на північному сході Нео-Сіті. Атакуйте, не соромтеся!"
+    }
+  }
+}

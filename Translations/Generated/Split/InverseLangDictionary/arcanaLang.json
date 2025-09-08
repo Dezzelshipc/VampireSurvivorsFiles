@@ -1,0 +1,1598 @@
+{
+  "en": {
+    "4": {
+      "name": "IV - Awake",
+      "description": "Gives +3 Revivals. Consuming a Revival gives +10% Max Health, +1 Armor, and +5% Might, Area, Duration, and Speed."
+    },
+    "5": {
+      "name": "V - Chaos in the Dark Night",
+      "description": "Overall projectile Speed continuously changes between -50% and +50% over 10 seconds. The character starts gaining +1% projectile Speed every level."
+    },
+    "6": {
+      "name": "VI - Sarabande of Healing",
+      "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+    },
+    "16": {
+      "name": "XVI - Slash",
+      "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+    },
+    "17": {
+      "name": "XVII - Lost & Found Painting",
+      "description": "Overall Duration continuously changes between -50% and +50% over 10 seconds. The character starts gaining +1% Duration every level."
+    },
+    "19": {
+      "name": "XIX - Heart of Fire",
+      "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+    },
+    "7": {
+      "name": "VII - Iron Blue Will",
+      "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+    },
+    "11": {
+      "name": "XI - Waltz of Pearls",
+      "description": "Listed weapon projectiles gain up to 3 bounces."
+    },
+    "15": {
+      "name": "XV - Disco of Gold",
+      "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+    },
+    "18": {
+      "name": "XVIII - Boogaloo of Illusions",
+      "description": "Overall Area continuously changes between -25% and +25% over 10 seconds. The character starts gaining +1% Area every level."
+    },
+    "12": {
+      "name": "XII - Out of Bounds",
+      "description": "Freezing enemies generates explosions. Orologions are easier to find. Sorbettos could also be found."
+    },
+    "14": {
+      "name": "XIV - Jail of Crystal",
+      "description": "Listed weapon projectiles have a chance to freeze enemies."
+    },
+    "8": {
+      "name": "VIII - Mad Groove",
+      "description": "Every 2 minutes attracts all standard stage items, pickups, and light sources towards the character."
+    },
+    "10": {
+      "name": "X - Beginning",
+      "description": "Listed weapons get +1 Amount. The character's main weapon and its evolution gain +3 Amount instead."
+    },
+    "3": {
+      "name": "III - Tragic Princess",
+      "description": "The cooldown of the listed weapons reduces when moving."
+    },
+    "20": {
+      "name": "XX - Silent Old Sanctuary",
+      "description": "Gives +3 Reroll, Skip, and Banish. Gives +20% Might and -8% Cooldown for each active weapon slot left empty."
+    },
+    "0": {
+      "name": "Game Killer",
+      "description": "Halts XP gain. Experience Gems turn into exploding projectiles. All Treasure Chests contain at least 3 items."
+    },
+    "1": {
+      "name": "I - Gemini",
+      "description": "Listed weapons come with a counterpart."
+    },
+    "2": {
+      "name": "II - Twilight Requiem",
+      "description": "Listed weapon projectiles generate explosions when they expire. Explosions damage is affected by Curse."
+    },
+    "13": {
+      "name": "XIII - Wicked Season",
+      "description": "Overall Growth, Luck, Greed, and Curse are doubled at fixed intervals. The character starts gaining +1% Growth, Luck, Greed, and Curse every 2 levels."
+    },
+    "9": {
+      "name": "IX - Divine Bloodline",
+      "description": "Armor also affects listed weapons' damage and reflects enemy damage. Character gains bonus damage depending on missing Health. Defeating enemies with retaliatory damage gives +0.5 Max Health."
+    },
+    "21": {
+      "name": "XXI - Blood Astronomia",
+      "description": "Listed weapons also emit special damaging zones affected by Amount and Magnet. Enemies within Magnet range take damage based on Amount."
+    },
+    "23": {
+      "name": "I - Sapphire Mist",
+      "description": "All weapons have a chance to fire twice instead of once when activated. The effect is further augmented on listed active weapons."
+    },
+    "28": {
+      "name": "VI - Moonlight Bolero",
+      "description": "An extra treasure boss spawns every minute. The treasure it carries might occasionally contain arcanas and random passive weapons."
+    },
+    "32": {
+      "name": "X - Hail from the Future",
+      "description": "Receive one of the listed items when levelling up."
+    },
+    "34": {
+      "name": "XII - Crystal Cries",
+      "description": "Defeating frozen enemies gives bonus MaxHealth, Recovery, and Growth. Triggers an Orologion when health reaches a critically low level."
+    },
+    "43": {
+      "name": "XXI - Wandering the Jet Black",
+      "description": "Losing health generates exploding projectiles. Explosion damage is increased by total recovered health and Magnet bonus. Explosion Area is increased by Magnet."
+    },
+    "25": {
+      "name": "III - Hidden Anathema",
+      "description": "Food pickups grant cumulative bonuses to random stats based on their rarity or healing value."
+    }
+  },
+  "fr": {
+    "4": {
+      "name": "IV - Éveil",
+      "description": "+3 Résurrections. Revivre octroie +10 % de santé max, +1 d'armure et +5 % de puissance, portée, durée et vitesse."
+    },
+    "5": {
+      "name": "V - Dans la nuit noire",
+      "description": "La vitesse des projectiles change toutes les 10 secondes et oscille entre -50 % et +50 %. Le personnage gagne +1 % de vitesse des projectiles à chaque niveau."
+    },
+    "6": {
+      "name": "VI - Sérénade de soin",
+      "description": "La guérison est doublée. Chaque PV récupéré blesse les ennemis à proximité."
+    },
+    "16": {
+      "name": "XVI - Entaille",
+      "description": "Permet aux armes listées d'infliger des coups critiques. Double les dégâts critiques."
+    },
+    "17": {
+      "name": "XVII - Peinture perdue",
+      "description": "La durée des effets change toutes les 10 secondes et oscille entre -50 % et +50 %. Le personnage gagne +1 % de durée des effets à chaque niveau."
+    },
+    "19": {
+      "name": "XIX - Cœur enflammé",
+      "description": "Les projectiles des armes listées, les sources de lumière et votre personnage explosent à l'impact."
+    },
+    "7": {
+      "name": "VII - Volonté de fer",
+      "description": "Les projectiles des armes listées obtiennent jusqu'à 3 rebonds et peuvent traverser les ennemis et les murs."
+    },
+    "11": {
+      "name": "XI - Valse des perles",
+      "description": "Les projectiles des armes listées obtiennent jusqu'à 3 rebonds."
+    },
+    "15": {
+      "name": "XV - Disco d'or",
+      "description": "Déclenche une Pluie d'or lorsque vous ramassez des sacs d'or. Vous gagnez 1 PV à chaque pièce d'or obtenue."
+    },
+    "18": {
+      "name": "XVIII - Ronde des illusions",
+      "description": "La portée change toutes les 10 secondes et oscille entre -25 % et +25 %. Le personnage gagne +1 % de portée à chaque niveau."
+    },
+    "12": {
+      "name": "XII - Hors limites",
+      "description": "Les ennemis immobilisés explosent. Vous trouvez plus facilement des Orologions."
+    },
+    "14": {
+      "name": "XIV - Piège de cristal",
+      "description": "Les projectiles des armes listées peuvent immobiliser les ennemis."
+    },
+    "8": {
+      "name": "VIII - Mélodie démente",
+      "description": "Toutes les 2 minutes, attire les objets de niveaux, les boosts et les sources de lumière vers votre personnage."
+    },
+    "10": {
+      "name": "X - Commencement",
+      "description": "+1 de quantité pour les armes listées. +3 de quantité pour l'arme principale de votre personnage et son évolution."
+    },
+    "3": {
+      "name": "III - Princesse tragique",
+      "description": "Réduit la recharge des armes listées lorsque vous vous déplacez."
+    },
+    "20": {
+      "name": "XX - Sanctuaire silencieux",
+      "description": "+3 Retenter, Passer et Bannir. +20 % de Puissance et -8 % de recharge pour chaque emplacement d'arme vide."
+    },
+    "0": {
+      "name": "Antijeu",
+      "description": "Empêche de gagner de l'EXP. Les gemmes d'expérience deviennent des projectiles explosifs. Les coffres au trésor contiennent au moins 3 objets."
+    },
+    "1": {
+      "name": "I - Gémeaux",
+      "description": "Les armes listées sont obtenues avec une arme complémentaire."
+    },
+    "2": {
+      "name": "II - Requiem crépusculaire",
+      "description": "Les projectiles listés génèrent une explosion lorsqu'ils expirent."
+    },
+    "13": {
+      "name": "XIII - Saison des maléfices",
+      "description": "L'expertise, la chance, l'avidité et la malédiction sont doublées à intervalles réguliers. Le personnage gagne +1 % d'expertise, de chance, d'avidité et de malédiction tous les 2 niveaux."
+    },
+    "9": {
+      "name": "IX - Lignée divine",
+      "description": "L'armure affecte les dégâts des armes listées et renvoie les dégâts. Le personnage obtient un bonus de dégâts en fonction de sa santé manquante, et +0,5 % de santé max lorsqu'il élimine un ennemi avec une riposte."
+    },
+    "21": {
+      "name": "XXI - Astronomie sanguinaire",
+      "description": "Les armes listées génèrent des zones de dégâts affectées par les stats quantité et aimant. Les ennemis dans le champ d'action de l'aimant subissent des dégâts en fonction de la quantité."
+    },
+    "23": {
+      "name": "I - Brume de saphir",
+      "description": "Lorsque l'effet est activé, toutes les armes ont une chance de tirer deux fois au lieu d'une seule. L'effet est encore plus important avec les armes actives listées."
+    },
+    "28": {
+      "name": "VI - Boléro du clair de lune",
+      "description": "Un boss au trésor supplémentaire apparaît toutes les minutes. Le trésor qu'il transporte peut occasionnellement contenir des arcanes et des armes passives aléatoires."
+    },
+    "32": {
+      "name": "X - Salut du futur",
+      "description": "Vous recevez l'un des objets listés lorsque vous passez au niveau supérieur."
+    },
+    "34": {
+      "name": "XII - Pleurs cristallins",
+      "description": "Éliminer des ennemis immobilisés vous octroie de la santé max, de la guérison, et de l'expertise bonus. Déclenche un Orologion lorsque la santé atteint un niveau critique."
+    },
+    "43": {
+      "name": "XXI - L'errance du noir de jais",
+      "description": "La perte de santé génère des projectiles explosifs. Les dégâts d'explosion sont augmentés en fonction du total de santé retrouvée et du bonus aimant. La zone d'explosion est augmentée par aimant."
+    },
+    "25": {
+      "name": "III - Anathème caché",
+      "description": "Les boosts de nourriture octroient des bonus cumulables à des statistiques aléatoires en fonction de leur rareté et de la quantité de soins qu'ils fournissent."
+    }
+  },
+  "it": {
+    "4": {
+      "name": "IV - Risveglio",
+      "description": "Conferisce +3 Resurrezioni. Ogni Resurrezione usata dona +10% a Salute massima, +1 ad Armatura e +5% a Potenza, Area, Durata, e Velocità."
+    },
+    "5": {
+      "name": "V - Caos nella notte oscura",
+      "description": "La velocità media dei proiettili cambia continuamente tra -50% e +50% nell'arco di 10 secondi. Il personaggio inizia a guadagnare +1% di Velocità dei proiettili con ogni livello."
+    },
+    "6": {
+      "name": "VI - Sarabanda della guarigione",
+      "description": "Raddoppia i PS ripristinati dalle cure. I PS recuperati danneggiano i nemici adiacenti dello stesso valore."
+    },
+    "16": {
+      "name": "XVI - Fendente",
+      "description": "Abilita i colpi critici per le armi elencate. Raddoppia i danni critici complessivi."
+    },
+    "17": {
+      "name": "XVII - Quadro smarrito e ritrovato",
+      "description": "La Durata media cambia continuamente tra -50% e +50% nell'arco di 10 secondi. Il personaggio inizia a guadagnare +1% di Durata con ogni livello."
+    },
+    "19": {
+      "name": "XIX - Cuore di fuoco",
+      "description": "I proiettili delle armi elencate esplodono all'impatto. Le fonti luminose esplodono. Il personaggio esplode quando subisce danni."
+    },
+    "7": {
+      "name": "VII - Perseveranza blu",
+      "description": "I proiettili delle armi elencate rimbalzano fino a 3 volte e possono trapassare muri e nemici."
+    },
+    "11": {
+      "name": "XI - Valzer delle perle",
+      "description": "I proiettili delle armi elencate rimbalzano fino a 3 volte."
+    },
+    "15": {
+      "name": "XV - Ballo dell'oro",
+      "description": "Raccogliere sacchetti d'oro da terra scatena la Febbre dell'oro. Raccogliere oro ripristina un pari valore di PS."
+    },
+    "18": {
+      "name": "XVIII - Boogaloo delle illusioni",
+      "description": "L'area media cambia continuamente tra -25% e +25% nell'arco di 10 secondi. Il personaggio inizia a guadagnare +1% di Area con ogni livello."
+    },
+    "12": {
+      "name": "XII - Senza limite",
+      "description": "Congelare i nemici provoca esplosioni. È più facile trovare gli Orologion."
+    },
+    "14": {
+      "name": "XIV - Prigione di cristallo",
+      "description": "I proiettili delle armi elencate hanno una probabilità di congelare i nemici."
+    },
+    "8": {
+      "name": "VIII - Ritmo folle",
+      "description": "Ogni 2 minuti attira tutti gli oggetti standard del livello, i collezionabili e le fonti di luce verso il personaggio."
+    },
+    "10": {
+      "name": "X - Principio",
+      "description": "Le armi elencate ottengono +1 di Quantità. L'arma principale del personaggio e la relativa evoluzione guadagnano +3 di Quantità."
+    },
+    "3": {
+      "name": "III - Principessa tragica",
+      "description": "Il Tempo di ricarica delle armi elencate si riduce camminando."
+    },
+    "20": {
+      "name": "XX - Antico santuario silente",
+      "description": "Conferisce +3 Risorteggi, Esenzioni ed Esclusioni. Conferisce +20% a Potenza e -8% a Tempo di ricarica per ogni slot vuoto delle armi attive."
+    },
+    "0": {
+      "name": "Ammazzapartite",
+      "description": "Impedisce il guadagno di PE. Le Gemme dell'esperienza si trasformano in proiettili esplosivi. Tutti i Forzieri del tesoro contengono almeno 3 oggetti."
+    },
+    "1": {
+      "name": "I - Gemelli",
+      "description": "Le armi elencate presentano una controparte."
+    },
+    "2": {
+      "name": "II - Requiem crepuscolare",
+      "description": "I proiettili delle armi elencate generano esplosioni quando si consumano."
+    },
+    "13": {
+      "name": "XIII - Stagione stregata",
+      "description": "Crescita, Fortuna, Avidità e Maledizione medie raddoppiano a intervalli stabiliti. Il personaggio inizia a guadagnare +1% di Crescita, Fortuna, Avidità e Maledizione ogni 2 livelli."
+    },
+    "9": {
+      "name": "IX - Stirpe divina",
+      "description": "L'Armatura influenza anche i danni delle armi elencate e riflette i danni dei nemici. Il personaggio guadagna danni bonus in base alla salute che ha perso. Sconfiggere nemici con danni da contrattacco conferisce +0,5 di Salute massima."
+    },
+    "21": {
+      "name": "XXI - Astronomia di sangue",
+      "description": "Le armi elencate emettono anche aree di danno speciali influenzate da Quantità e Calamita. I nemici all'interno del raggio della Calamita subiscono danni in base alla Quantità."
+    },
+    "23": {
+      "name": "I - Velo di zaffiro",
+      "description": "Tutte le armi hanno una probabilità di sparare due volte anziché una all'attivazione. L'effetto è ulteriormente aumentato per le armi elencate attive."
+    },
+    "28": {
+      "name": "VI - Bolero del chiaro di luna",
+      "description": "Ogni minuto viene generato un boss del tesoro aggiuntivo. Il suo tesoro può contenere arcani e armi passive casuali."
+    },
+    "32": {
+      "name": "X - Grandine futura",
+      "description": "Ricevi uno degli oggetti elencati al passaggio a nuovo livello."
+    },
+    "34": {
+      "name": "XII - Urla cristalline",
+      "description": "Sconfiggendo i nemici congelati ottieni bonus a Salute massima, Recupero e Crescita. Genera un Orologion quando la salute raggiunge livelli critici."
+    },
+    "43": {
+      "name": "XXI - Giaietto nero errante",
+      "description": "Perdere salute genera proiettili esplosivi. I danni da esplosione sono aumentati dal totale della salute recuperata e dal bonus Calamita. L'area d'esplosione è aumentata dalla Calamita."
+    },
+    "25": {
+      "name": "III - Anatema nascosto",
+      "description": "Il cibo raccolto dona bonus cumulativi a statistiche casuali in base alla loro rarità o il valore curativo."
+    }
+  },
+  "de": {
+    "4": {
+      "name": "IV - Erwacht",
+      "description": "Gewährt +3 Wiederbeleben. Verbrauchen von Wiederbeleben gewährt +10% max. LP, +1 Rüstung und +5% Macht, Bereich, Dauer und Tempo."
+    },
+    "5": {
+      "name": "V - Chaos in dunkler Nacht",
+      "description": "Gesamt-Geschossschnelligkeit wechselt 10 Sekunden lang zwischen -50% und +50%. Der Charakter gewinnt jedes Level +1% Geschossschnelligkeit hinzu."
+    },
+    "6": {
+      "name": "VI - Sarabande der Heilung",
+      "description": "Heilung ist verdoppelt. Wiederherstellen von LP fügt Gegnern in der Nähe Schaden in selber Höhe zu."
+    },
+    "16": {
+      "name": "XVI - Schnitt",
+      "description": "Ermöglicht kritische Treffer für gelistete Waffen. Verdoppelt insgesamten kritischen Schaden."
+    },
+    "17": {
+      "name": "XVII - Verschollenes und gefundenes Gemälde",
+      "description": "Gesamt-Dauer wechselt 10 Sekunden lang zwischen -50% und +50%. Der Charakter gewinnt jedes Level +1% Dauer hinzu."
+    },
+    "19": {
+      "name": "XIX - Herz aus Feuer",
+      "description": "Geschosse der gelisteten Waffe explodieren beim Einschlag. Lichtquellen explodieren. Charakter explodiert bei Schaden."
+    },
+    "7": {
+      "name": "VII - Eisernblauer Wille",
+      "description": "Geschosse der gelisteten Waffe können bis zu 3-mal springen und eventuell Gegner und Wände durchdringen."
+    },
+    "11": {
+      "name": "XI - Perlenwalzer",
+      "description": "Geschosse der gelisteten Waffe können bis zu 3-mal springen."
+    },
+    "15": {
+      "name": "XV - Disco aus Gold",
+      "description": "Das Aufnehmen von Münzsäcken vom Boden löst Goldrausch aus. Erhaltenes Gold stellt LP in selber Höhe wieder her."
+    },
+    "18": {
+      "name": "XVIII - Trugbild der Illusionen",
+      "description": "Gesamt-Bereich wechselt 10 Sekunden lang zwischen -25% und +25%. Der Charakter gewinnt jedes Level +1% Bereich hinzu."
+    },
+    "12": {
+      "name": "XII - Außerhalb",
+      "description": "Einfrieren von Gegnern löst Explosionen aus. Orologions sind leichter zu finden."
+    },
+    "14": {
+      "name": "XIV - Kristallgefängnis",
+      "description": "Geschosse der gelisteten Waffe haben eine Chance, Gegner einzufrieren."
+    },
+    "8": {
+      "name": "VIII - Krasser Groove",
+      "description": "Alle 2 Minuten zieht der Charakter sämtliche Standarditems der Stage, Pickups und Lichtquellen an."
+    },
+    "10": {
+      "name": "X - Anfang",
+      "description": "Gelistete Waffen erhalten +1 Menge. Die Hauptwaffe des Charakters und ihre Verbesserung erhalten +3 Menge."
+    },
+    "3": {
+      "name": "III - Tragische Prinzessin",
+      "description": "Die Abklingzeit der gelisteten Waffen reduziert sich beim Bewegen."
+    },
+    "20": {
+      "name": "XX - Stille alte Zuflucht",
+      "description": "Gewährt +3 Neuwahl, Überspringen und Verbannen. Gewährt +20% Macht und -8% Abklingzeit für jeden leeren aktiven Waffenslot."
+    },
+    "0": {
+      "name": "Spielverderber",
+      "description": "Stoppt den EP-Gewinn. Erfahrungsedelsteine verwandeln sich in explodierende Geschosse. Schatztruhen enthalten mindestens 3 Items."
+    },
+    "1": {
+      "name": "I - Zwillinge",
+      "description": "Gelistete Waffen haben ein Gegenstück."
+    },
+    "2": {
+      "name": "II - Zwielichtrequiem",
+      "description": "Geschosse gelisteter Waffen erzeugen bei Verfall Explosionen."
+    },
+    "13": {
+      "name": "XIII - Verdammte Jahreszeit",
+      "description": "Gesamt-Entwicklung, Glück, Gier und Fluch werden in festen Intervallen verdoppelt. Der Charakter gewinnt alle 2 Level +1% Entwicklung, Glück, Gier und Fluch hinzu."
+    },
+    "9": {
+      "name": "IX - Von Göttlichem Blute",
+      "description": "Rüstung beeinflusst auch den Schaden durch gelistete Waffen und reflektiert gegnerischen Schaden. Der Charakter erhält Bonusschaden abhängig von fehlenden LP. Das Besiegen von Gegnern durch Vergeltungsschaden gewährt +0,5 Max. LP."
+    },
+    "21": {
+      "name": "XXI - Blutastronomie",
+      "description": "Gelistete Waffen strahlen auch spezielle Schadenszonen aus, die durch Menge und Magnet beeinflusst werden. Gegner in Magnet-Reichweite nehmen Schaden basierend auf Menge."
+    },
+    "23": {
+      "name": "I - Saphirnebel",
+      "description": "Alle aktivierten Waffen haben eine Chance, zweimal anstatt nur einmal zu feuern. Dieser Effekt wird bei gelisteten aktiven Waffen noch verstärkt."
+    },
+    "28": {
+      "name": "VI - Mondschein-Bolero",
+      "description": "Ein zusätzlicher Schatzboss erscheint jede Minute. Der Schatz, den er trägt, kann gelegentlich Arcanas und zufällige passive Waffen enthalten."
+    },
+    "32": {
+      "name": "X - Gruß aus der Zukunft",
+      "description": "Erhalte durch Aufleveln eines der gelisteten Items."
+    },
+    "34": {
+      "name": "XII - Kristallschreie",
+      "description": "Das Besiegen von gefrorenen Gegnern gibt einen Bonus auf max. LP, Erholung und Entwicklung. Löst ein Orologion aus, wenn die Gesundheit einen kritisch niedrigen Wert erreicht."
+    },
+    "43": {
+      "name": "XXI - Pechkohle-Odyssee",
+      "description": "Der Verlust von Gesundheit erschafft explodierende Geschosse. Der Explosionsschaden wird durch die gesamte wiederhergestellte Gesundheit und den Magnetbonus erhöht. Der Explosionsbereich wird durch den Magneten erhöht."
+    },
+    "25": {
+      "name": "III - Verborgenes Anathema",
+      "description": "Nahrungs-Pickups gewähren je nach Seltenheit oder Heilwert kumulative Boni auf zufällige Werte."
+    }
+  },
+  "es": {
+    "4": {
+      "name": "IV - Despertar",
+      "description": "Otorga +3 resurrecciones. Consumir una resurrección otorga +10 % de salud máx., +1 de armadura y +5 % de poder, área de efecto, duración y velocidad."
+    },
+    "5": {
+      "name": "V: Caos en la oscuridad de la noche",
+      "description": "La vel. de proyectil general cambia entre -50 % y +50 % durante 10 segundos. El personaje comienza a obtener +1 % de vel. de proyectil con cada nivel."
+    },
+    "6": {
+      "name": "VI: Zarabanda de curación",
+      "description": "La curación se duplica. Los enemigos cercanos reciben daño igual a la cantidad de PS recuperados."
+    },
+    "16": {
+      "name": "XVI: Cercenar",
+      "description": "Permite que se realicen golpes críticos con las armas de la lista. Duplica el daño crítico general."
+    },
+    "17": {
+      "name": "XVII: Cuadro perdido y encontrado",
+      "description": "La duración general cambia entre -50 % y +50 % durante 10 segundos. El personaje comienza a obtener +1 % de duración cada nivel."
+    },
+    "19": {
+      "name": "XIX: Corazón de fuego",
+      "description": "Los proyectiles de las armas de la lista explotan al impactar. Las fuentes de luz explotan. El personaje explota al recibir daño."
+    },
+    "7": {
+      "name": "VII: Voluntad férrea azul",
+      "description": "Los proyectiles de las armas de la lista rebotan hasta 3 veces y atraviesan enemigos y paredes."
+    },
+    "11": {
+      "name": "XI: Vals de las perlas",
+      "description": "Los proyectiles de las armas de la lista rebotan hasta 3 veces."
+    },
+    "15": {
+      "name": "XV: Disco de oro",
+      "description": "Activa la fiebre del oro al recoger sacos de monedas. Restaura una cantidad de PS igual al oro que obtengas."
+    },
+    "18": {
+      "name": "XVIII: Bugalú de ilusiones",
+      "description": "El área de efecto general cambia entre -25 % y +25 % durante 10 segundos. El personaje comienza a obtener +1 % de área de efecto cada nivel."
+    },
+    "12": {
+      "name": "XII: Sin límites",
+      "description": "Se generan explosiones al congelar enemigos. Encuentra relojes mágicos más a menudo."
+    },
+    "14": {
+      "name": "XIV: Prisión de cristal",
+      "description": "Los proyectiles de las armas de la lista tienen la probabilidad de congelar enemigos."
+    },
+    "8": {
+      "name": "VIII: Melodía demente",
+      "description": "Atrae todos los objetos normales de la fase y de las fuentes de luz hacia el personaje cada 2 minutos."
+    },
+    "10": {
+      "name": "X: Inicio",
+      "description": "Las armas de la lista obtienen 1 proyectil más. El arma principal del personaje y su evolución obtienen 3 proyectiles más en su lugar."
+    },
+    "3": {
+      "name": "III: Princesa trágica",
+      "description": "La recarga de las armas de la lista se reduce cuando el personaje se mueve."
+    },
+    "20": {
+      "name": "XX: Santuario antiguo tranquilo",
+      "description": "Otorga +3 usos de cambiar, saltar y eliminar. Otorga +20 % de poder y -8 % de recarga por cada espacio de arma activa que esté vacío."
+    },
+    "0": {
+      "name": "Liquidapartidas",
+      "description": "Dejas de ganar EXP. Las gemas de experiencia se transforman en proyectiles explosivos. Todos los cofres del tesoro contienen al menos tres objetos."
+    },
+    "1": {
+      "name": "I: Géminis",
+      "description": "Las armas de la lista vienen con una pareja similar."
+    },
+    "2": {
+      "name": "II: Réquiem crepuscular",
+      "description": "Los proyectiles de las armas de la lista generan explosiones cuando desaparecen."
+    },
+    "13": {
+      "name": "XIII: Temporada abundante",
+      "description": "El crecimiento, la suerte, la avaricia y la maldición se duplican en intervalos fijos. El personaje comienza a obtener +1 % de crecimiento, suerte, avaricia y maldición cada 2 niveles."
+    },
+    "9": {
+      "name": "IX: Linaje divino",
+      "description": "La armadura también afecta al daño de las armas de la lista y refleja el daño enemigo. El personaje obtiene daño de bonificación según la salud perdida. Derrotar enemigos con daño reflejado otorga +0,5 de salud máx."
+    },
+    "21": {
+      "name": "XXI: Astronomía sanguina",
+      "description": "Las armas de la lista emiten zonas de daño especiales que se ven afectadas por los atributos cantidad e imán. Los enemigos dentro del alcance de imán reciben daño según la cantidad."
+    },
+    "23": {
+      "name": "I: Neblina de zafiro",
+      "description": "Todas las armas tienen la probabilidad de disparar dos veces en lugar de una al activarse. El efecto es aún mayor para las armas activas de la lista."
+    },
+    "28": {
+      "name": "VI: Bolero nocturno",
+      "description": "Cada minuto aparece un jefe adicional que suelta un tesoro. Este tesoro a veces puede contener arcanos y armas pasivas al azar."
+    },
+    "32": {
+      "name": "X: Salve del futuro",
+      "description": "Recibe uno de los objetos de la lista al subir de nivel."
+    },
+    "34": {
+      "name": "XII: Llantos de cristal",
+      "description": "Otorga salud máxima, recuperación y crecimiento adicionales al derrotar a enemigos congelados. Activa un reloj mágico cuando la salud llega a un punto crítico."
+    },
+    "43": {
+      "name": "XXI: Azabache errante",
+      "description": "Al perder salud se generan proyectiles explosivos. El daño de explosión aumenta según la salud total recuperada y la bonificación de imán. El área de efecto de la explosión aumenta según el imán."
+    },
+    "25": {
+      "name": "III: Anatema oculto",
+      "description": "Los objetos comestibles otorgan bonificaciones acumulables para atributos aleatorios según su rareza o su valor curativo."
+    }
+  },
+  "pt-BR": {
+    "4": {
+      "name": "IV - Despertar",
+      "description": "Concede +3 Ressurreições. Consumir uma Ressurreição concede +10% de Vida Máx., +1 de Armadura e +5% de Poder, Área, Duração e Velocidade."
+    },
+    "5": {
+      "name": "V - Caos na Noite Escura",
+      "description": "A Velocidade de Projéteis geral alterna entre -50% e +50% durante 10 segundos sem parar. O personagem começa ganhando +1% de Velocidade de Projéteis a cada nível."
+    },
+    "6": {
+      "name": "VI - Sarabanda da Cura",
+      "description": "A cura é dobrada. Ao recuperar PV, inimigos próximos sofrem dano do mesmo valor recuperado."
+    },
+    "16": {
+      "name": "XVI - Corte",
+      "description": "Ativa acertos críticos para as armas listadas. Dobra o dano crítico geral."
+    },
+    "17": {
+      "name": "XVII - Pintura de Achados e Perdidos",
+      "description": "A Duração geral alterna entre -50% e +50% durante 10 segundos sem parar. O personagem começa ganhando +1% de Duração a cada nível."
+    },
+    "19": {
+      "name": "XIX - Coração de Fogo",
+      "description": "Os projéteis das armas listadas explodem ao atingir o alvo. Fontes de luz explodem. Personagem explode ao sofrer dano."
+    },
+    "7": {
+      "name": "VII - Perseverança Azul",
+      "description": "Os projéteis das armas listadas podem ricochetear até 3 vezes e têm a chance de atravessar inimigos e paredes."
+    },
+    "11": {
+      "name": "XI - Valsa das Pérolas",
+      "description": "Os projéteis das armas listadas podem ricochetear até 3 vezes."
+    },
+    "15": {
+      "name": "XV - Disco de Ouro",
+      "description": "Pegar Bolsas de Moedas ativa a Febre de Ouro. Obter ouro recupera a mesma quantidade de PV."
+    },
+    "18": {
+      "name": "XVIII - Dança das Ilusões",
+      "description": "A Área geral alterna entre -25% e +25% durante 10 segundos sem parar. O personagem começa ganhando +1% de Área a cada nível."
+    },
+    "12": {
+      "name": "XII - Fora do Limite",
+      "description": "Congelar inimigos gera explosões. É mais fácil encontrar Orologions."
+    },
+    "14": {
+      "name": "XIV - Prisão de Cristal",
+      "description": "Os projéteis das armas listadas têm chance de congelar inimigos."
+    },
+    "8": {
+      "name": "VIII - Ritmo Insano",
+      "description": "A cada 2 minutos, atrai todos os itens de fase normais, coletáveis e fontes de luz."
+    },
+    "10": {
+      "name": "X - Princípio",
+      "description": "As armas listadas recebem +1 de Quantidade. A arma principal do personagem e sua evolução ganham +3 de Quantidade."
+    },
+    "3": {
+      "name": "III - Princesa Trágica",
+      "description": "A Recarga das armas listadas diminui ao se mover."
+    },
+    "20": {
+      "name": "XX - Antigo Santuário Silencioso",
+      "description": "Concede +3 unidades de Rolar Novamente, Adiar e Banimento. Concede +20% de Poder e -8% de Recarga para cada espaço de arma ativa vazio."
+    },
+    "0": {
+      "name": "Mata-jogo",
+      "description": "Interrompe o ganho de EXP. Joias de Experiência viram projéteis explosivos. Todos os Baús do Tesouro contêm pelo menos 3 itens."
+    },
+    "1": {
+      "name": "I - Gêmeos",
+      "description": "Armas listadas vêm com suas contrapartes."
+    },
+    "2": {
+      "name": "II - Réquiem Crepuscular",
+      "description": "Projéteis de armas listadas geram explosões ao expirar."
+    },
+    "13": {
+      "name": "XIII - Perversa Estação",
+      "description": "Crescimento, Sorte, Ganância e Maldição gerais são dobrados a intervalos fixos. O personagem começa ganhando +1% de Crescimento, Sorte, Ganância e Maldição a cada 2 níveis."
+    },
+    "9": {
+      "name": "IX - Linhagem Divina",
+      "description": "Armadura também afeta o dano das armas listadas e reflete o dano do inimigo. O personagem ganha bônus de dano dependendo da Vida perdida. Derrotar inimigos com dano retaliativo concede +0,5 de Vida Máx."
+    },
+    "21": {
+      "name": "XXI - Astronomia Sangrenta",
+      "description": "Armas listadas também emitem zonas de dano especiais afetadas por Quantidade e Magnetismo. Inimigos ao alcance do Magnetismo sofrem dano com base na Quantidade."
+    },
+    "23": {
+      "name": "I - Névoa Safira",
+      "description": "Todas as armas têm chance de disparar duas vezes ao serem ativadas. O efeito é maior nas armas ativas listadas."
+    },
+    "28": {
+      "name": "VI - Bolero do Luar",
+      "description": "Um chefe de tesouros extra surge a cada minuto. O tesouro trazido pode às vezes conter Arcanas e armas passivas aleatórias."
+    },
+    "32": {
+      "name": "X - Diretamente do Futuro",
+      "description": "Receba um dos itens listados ao subir de nível."
+    },
+    "34": {
+      "name": "XII - Clamor dos Cristais",
+      "description": "Derrotar inimigos paralisados concede bônus de Vida Máx., Recuperação e Crescimento. Ativa um Orologion quando a Vida chega a um nível crítico."
+    },
+    "43": {
+      "name": "XXI - Pela Escuridão",
+      "description": "A perda de Vida gera projéteis explosivos. O dano da explosão é aumentado pelo total de Vida recuperada e bônus de Magnetismo. Área de explosão é aumentada por Magnetismo."
+    },
+    "25": {
+      "name": "III - Anátema Oculto",
+      "description": "Coletar comida concede bônus cumulativos a atributos aleatórios com base em raridade ou valor de cura."
+    }
+  },
+  "pl": {
+    "4": {
+      "name": "IV – Przebudzenie",
+      "description": "+3 Wskrzeszenia. Użycie Wskrzeszenia daje +10% Maksymalnego zdrowia, +1 Pancerza i +5% Mocy, Obszaru, Czasu trwania oraz Prędkości."
+    },
+    "5": {
+      "name": "V – Chaos ciemnej nocy",
+      "description": "Przez 10 sekund ogólna Prędkość pocisków zmienia się ciągle w zakresie od -50% do +50%. Postać otrzymuje dodatkowe +1% Prędkości pocisków na każdym poziomie."
+    },
+    "6": {
+      "name": "VI – Sarabanda leczenia",
+      "description": "Zdwojone leczenie. Odzyskiwanie PZ zadaje pobliskim wrogom obrażenia o tej samej wartości."
+    },
+    "16": {
+      "name": "XVI – Rzeźnia",
+      "description": "Umożliwia trafienia krytyczne przy użyciu wymienionych broni. Podwaja ogólne obrażenia krytyczne."
+    },
+    "17": {
+      "name": "XVII – Zgubione-znalezione",
+      "description": "Przez 10 sekund ogólny Czas trwania zmienia się ciągle w zakresie od -50% do +50%. Postać otrzymuje dodatkowe +1% Czasu trwania na każdym poziomie."
+    },
+    "19": {
+      "name": "XIX – Serce ognia",
+      "description": "Pociski wymienionych broni wybuchają po trafieniu. Źródła światła wybuchają. Zraniona postać wybucha."
+    },
+    "7": {
+      "name": "VII – Stalowy błękit",
+      "description": "Pociski wymienionych broni zyskują do 3 odbić oraz mogą przechodzić przez wrogów i ściany."
+    },
+    "11": {
+      "name": "XI – Perłowy walc",
+      "description": "Pociski wymienionych broni zyskują do 3 odbić."
+    },
+    "15": {
+      "name": "XV – Złote disco",
+      "description": "Zbieranie worków monet aktywuje Gorączkę złota. Zebrane złoto przywraca tyle samo PZ."
+    },
+    "18": {
+      "name": "XVIII – Boogaloo złudzeń",
+      "description": "Przez 10 sekund ogólny Obszar zmienia się ciągle w zakresie od -25% do +25%. Postać otrzymuje dodatkowe +1% Obszaru na każdym poziomie."
+    },
+    "12": {
+      "name": "XII – Poza zasięgiem",
+      "description": "Zamrożenie wrogów wywołuje eksplozje. Łatwiej jest znaleźć Orologiony."
+    },
+    "14": {
+      "name": "XIV – Cela z kryształu",
+      "description": "Pociski wymienionych broni mają szansę zamrozić wrogów."
+    },
+    "8": {
+      "name": "VIII – Szał",
+      "description": "Co 2 minuty przyciąga do postaci wszystkie standardowe przedmioty etapu, łupy i źródła światła."
+    },
+    "10": {
+      "name": "X – Początek",
+      "description": "W przypadku wymienionych broni Ilość zwiększa się o 1. W przypadku broni głównej postaci i jej ulepszonej wersji Ilość zwiększa się o 3."
+    },
+    "3": {
+      "name": "III – Tragiczna księżniczka",
+      "description": "Podczas chodzenia skraca się Odnawianie w przypadku wymienionych broni."
+    },
+    "20": {
+      "name": "XX – Zapomniane sanktuarium",
+      "description": "+3 Zmiany, Pominięcia i Odrzucenia. +20% Mocy i -8% Odnowienia za każdy aktywny pusty slot broni."
+    },
+    "0": {
+      "name": "Zabójca gry",
+      "description": "Zatrzymuje przyrost PD. Klejnoty doświadczenia stają się wybuchowymi pociskami. Wszystkie skrzynie skarbów zawierają co najmniej 3 przedmioty."
+    },
+    "1": {
+      "name": "I – Bliźnięta",
+      "description": "Wymienione bronie otrzymują odpowiedniki."
+    },
+    "2": {
+      "name": "II – Requiem zmierzchu",
+      "description": "Pociski wymienionych broni wywołują eksplozje, gdy znikają."
+    },
+    "13": {
+      "name": "XIII – Podła pora",
+      "description": "Ogólny Rozwój, Szczęście, Chciwość i Klątwa są podwajane w równych odstępach czasu. Postać otrzymuje dodatkowe +1% Rozwoju, Szczęścia, Chciwości i Klątwy co 2 poziomy."
+    },
+    "9": {
+      "name": "IX – Boski rodowód",
+      "description": "Pancerz dodatkowo wpływa na obrażenia wymienionych broni i odbija obrażenia otrzymane od wrogów. Postać otrzymuje dodatkowe obrażenia zależne od brakującego Zdrowia. Pokonywanie wrogów obrażeniami odwetowymi daje +0,5 Maksymalnego zdrowia."
+    },
+    "21": {
+      "name": "XXI – Krwawa astronomia",
+      "description": "Wymienione bronie dodatkowo emitują specjalne strefy obrażeń zależne od Ilości i Magnesu. Wrogowie w zasięgu Magnesu otrzymują obrażenia zależne od Ilości."
+    },
+    "23": {
+      "name": "I – Szafirowa mgła",
+      "description": "Wszystkie bronie mają szansę wystrzelić dwa razy zamiast raz po aktywacji. Efekt jest dodatkowo wzmocniony w przypadku aktywnych broni z listy."
+    },
+    "28": {
+      "name": "VI – Księżycowe bolero",
+      "description": "Co minutę pojawia się dodatkowy boss ze skarbem. Skarb, który niesie, może zawierać arkany i różne pasywne bronie."
+    },
+    "32": {
+      "name": "X – Pozdrowienia z przyszłości",
+      "description": "Otrzymaj jeden z wymienionych przedmiotów, gdy zdobywasz poziom."
+    },
+    "34": {
+      "name": "XII – Kryształowy płacz",
+      "description": "Unicestwienie zamrożonych przeciwników daje premię do Maks. zdrowia, Odzyskiwania i Rozwoju. Uruchamia orologion, gdy zdrowie osiągnie krytycznie niski poziom."
+    },
+    "43": {
+      "name": "XXI – Wędrówka z gagatem",
+      "description": "Utrata zdrowia generuje wybuchające pociski. Obrażenia od eksplozji są zwiększone przez całkowite odzyskane zdrowie oraz premię do Magnesu. Magnes zwiększa obszar eksplozji."
+    },
+    "25": {
+      "name": "III – Ukryta klątwa",
+      "description": "Łupy z jedzeniem gwarantują skumulowane premie do losowych parametrów na podstawie ich rzadkości lub wartości uzdrawiającej."
+    }
+  },
+  "ru": {
+    "4": {
+      "name": "IV — Пробуждение",
+      "description": "Дает +3 оживления. Использование оживления дает +10% к макс. ОЗ, +1 к броне и +5% к силе, области, продолжительности и скорости."
+    },
+    "5": {
+      "name": "V — Хаос во мраке ночи",
+      "description": "Скорость всех снарядов непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает получать +1% к скорости снарядов на каждом уровне."
+    },
+    "6": {
+      "name": "VI — Сарабанда Исцеления",
+      "description": "Исцеление удваивается. Восстановление ОЗ наносит равнозначный урон ближайшим врагам."
+    },
+    "16": {
+      "name": "XVI — Порез",
+      "description": "Позволяет наносить критические удары для перечисленного оружия. Удваивает весь критический урон."
+    },
+    "17": {
+      "name": "XVII — Потерянная и найденная картина",
+      "description": "Общая продолжительность непрерывно меняется от -50% до +50% в течение 10 секунд. Персонаж начинает получать +1% к продолжительности на каждом уровне."
+    },
+    "19": {
+      "name": "XIX — Пламенный мотор",
+      "description": "Снаряды перечисленного оружия взрываются при столкновении. Источники света взрываются. Персонаж взрывается при получении урона."
+    },
+    "7": {
+      "name": "VII — Лазурная воля",
+      "description": "Снаряды перечисленного оружия получают до 3 отскоков и могут проходить сквозь врагов и стены."
+    },
+    "11": {
+      "name": "XI — Вальс жемчужин",
+      "description": "Снаряды перечисленного оружия получают до 3 отскоков."
+    },
+    "15": {
+      "name": "XV — Золотая дискотека",
+      "description": "Собирание мешков с монетами с земли вызывает Золотую Лихорадку. За полученное золото восстанавливается равное количество ОЗ."
+    },
+    "18": {
+      "name": "XVIII — Бугалу иллюзий",
+      "description": "Область всех атак непрерывно меняется от -25% до +25% в течение 10 секунд. Персонаж начинает получать +1% к области на каждом уровне."
+    },
+    "12": {
+      "name": "XII — Вне пределов",
+      "description": "При замораживании врагов происходят взрывы. Часослов проще найти."
+    },
+    "14": {
+      "name": "XIV — Кристальные оковы",
+      "description": "Снаряды перечисленного оружия могут заморозить врагов."
+    },
+    "8": {
+      "name": "VIII — Зажигательный отрыв",
+      "description": "Каждые 2 минуты притягивает все стандартные предметы этапа, находки и источники света к персонажу."
+    },
+    "10": {
+      "name": "X — Начало",
+      "description": "Перечисленное оружие получает +1 к боезапасу. Основное оружие персонажа и его улучшенная версия получают +3 к боезапасу."
+    },
+    "3": {
+      "name": "III — Трагическая принцесса",
+      "description": "Время отката перечисленного оружия уменьшается при перемещении."
+    },
+    "20": {
+      "name": "XX — Тихое старое святилище",
+      "description": "Дает +3 к повтору, пропуску и изгнанию. Дает +20% силы и -8% перезарядки за каждый активный слот оружия, оставшийся пустым."
+    },
+    "0": {
+      "name": "Убийца игры",
+      "description": "Останавливает прирост опыта. Самоцветы опыта превращаются во взрывающиеся снаряды. Во всех сундуках с сокровищами содержится не менее 3 предметов."
+    },
+    "1": {
+      "name": "I — Близнецы",
+      "description": "Перечисленное оружие выдается в двух экземплярах."
+    },
+    "2": {
+      "name": "II — Сумеречный реквием",
+      "description": "Снаряды перечисленного оружия взрываются в момент их исчезновения."
+    },
+    "13": {
+      "name": "XIII — Плохой сезон",
+      "description": "Общее развитие, удача, жадность и проклятие удваиваются через определенное время. Персонаж начинает получать +1% к развитию, удаче, жадности и проклятию каждые 2 уровня."
+    },
+    "9": {
+      "name": "IX — Божественная родословная",
+      "description": "Броня влияет на урон от перечисленного оружия и отражает урон врагов. Персонаж получает доп. урон в зависимости от недостающего здоровья. Враги, пораженные ответным уроном, дают +0,5 к макс. ОЗ."
+    },
+    "21": {
+      "name": "XXI — Астрономия крови",
+      "description": "Перечисленное оружие также создает особые зоны урона, на которые влияет боезапас и магнит. Враги в радиусе действия магнита получают урон в зависимости от боезапаса."
+    },
+    "23": {
+      "name": "I — Сапфировый туман",
+      "description": "При активации у всего оружия есть шанс выстрелить дважды. Эффект усиливается при использовании активного оружия из списка."
+    },
+    "28": {
+      "name": "VI — Лунное болеро",
+      "description": "Каждую минуту появляется дополнительный босс с сокровищем, в котором иногда есть арканы и случайное пассивное оружие."
+    },
+    "32": {
+      "name": "X — Родом из будущего",
+      "description": "При повышении уровня вы получаете один предмет из списка."
+    },
+    "34": {
+      "name": "XII — Хрустальные вопли",
+      "description": "При победе над замороженными врагами даёт бонус к макс. здоровью, регенерации и развитию. Активирует часослов, когда здоровье достигает критически низкого уровня."
+    },
+    "43": {
+      "name": "XXI — Блуждая во тьме",
+      "description": "При потере здоровья выпускаются взрывные снаряды. Урон от взрыва увеличивается в зависимости от бонуса магнита и всех очков здоровья, которые были восстановлены. Область взрыва расширяется до области действия магнита."
+    },
+    "25": {
+      "name": "III — Скрытая анафема",
+      "description": "Собранная еда даёт накопительные бонусы к случайным характеристикам в зависимости от её редкости и лечебных свойств."
+    }
+  },
+  "tr": {
+    "4": {
+      "name": "IV - Uyanık",
+      "description": "+3 Canlanma verir. Bir Canlanmayı kullanmak, +%10 Maks Sağlık, +1 Zırh ve +%5 Kuvvet, Alan, Tesir Süresi ve Hız verir."
+    },
+    "5": {
+      "name": "V - Karanlık Gecede Kaos",
+      "description": "Genel Fırlatılabilir Hızı, 10 saniye boyunca sürekli olarak -%50 ile +%50 arasında değişir. Karakter, her seviyede +1% fırlatılabilir hızı kazanmaya başlar."
+    },
+    "6": {
+      "name": "VI - Şifanın Süzülüşü",
+      "description": "İyileşme ikiye katlanır. HP'yi yenilemek, yakındaki düşmanlara aynı miktarda hasar verir."
+    },
+    "16": {
+      "name": "XVI - Yarık",
+      "description": "Listelenen silahlar için kritik vuruşları etkinleştirir. Genel kritik hasarı ikiye katlar."
+    },
+    "17": {
+      "name": "XVII - Kayıp Eşya Tablosu",
+      "description": "Genel Tesir Süresi, 10 saniye boyunca sürekli olarak -%50 ile +%50 arasında değişir. Karakter, her seviyede +%1 Tesir Süresi kazanmaya başlar."
+    },
+    "19": {
+      "name": "XIX - Ateşin Kalbi",
+      "description": "Listelenen silah fırlatılabilirleri çarpma anında patlar. Işık kaynakları patlar. Karakter hasar gördüğünde patlar."
+    },
+    "7": {
+      "name": "VII - Demir Mavisi İrade",
+      "description": "Listelenen silah fırlatılabilirleri en fazla 3 sekme kazanır, düşmanlardan ve duvarların içinden geçebilir."
+    },
+    "11": {
+      "name": "XI - İncilerin Valsi",
+      "description": "Listelenen silah fırlatılabilirleri en fazla 3 sekme kazanır."
+    },
+    "15": {
+      "name": "XV - Altın Gazinosu",
+      "description": "Yerden akçe çuvalları toplamak Altın Kasırgası'nı tetikler. Altın elde etmek, çok miktarda HP'yi yeniler."
+    },
+    "18": {
+      "name": "XVIII - İllüzyonların Boogaloo'su",
+      "description": "Genel Alan, 10 saniye boyunca sürekli olarak -%25 ile +%25 arasında değişir. Karakter her seviyede +%1 Alan kazanmaya başlar."
+    },
+    "12": {
+      "name": "XII - Yasak Bölge",
+      "description": "Düşmanları dondurmak patlamalara neden olur. Zamantutan'ları bulmak daha kolaydır."
+    },
+    "14": {
+      "name": "XIV - Kristal Hapishanesi",
+      "description": "Listelenen silah fırlatılabilirlerinin düşmanları dondurma şansı vardır."
+    },
+    "8": {
+      "name": "VIII - Deli Oluk",
+      "description": "Her 2 dakikada bir, bölümdeki tüm normal eşyaları, toplanabilirleri ve ışık kaynaklarını karaktere doğru çeker."
+    },
+    "10": {
+      "name": "X - Başlangıç",
+      "description": "Listelenen silahlar +1 Miktar alır. Ancak karakterin ana silahı ve evrimi +3 Miktar kazanır."
+    },
+    "3": {
+      "name": "III- Hüzünlü Prenses",
+      "description": "Listelenen silahların bekleme süreleri hareket halindeyken azalır."
+    },
+    "20": {
+      "name": "XX - Eski Sessiz Sığınak",
+      "description": "+3 Tekrar Atma, Atlama ve Çıkarma verir. Boş bırakılan her aktif silah yuvası için +%20 Kuvvet ve -8% Bekleme süresi verir."
+    },
+    "0": {
+      "name": "Oyun Bitiren",
+      "description": "XP kazanımını durdurur. Deneyim Mücevherleri patlayan fırlatılabilirlere dönüşür. Tüm Hazine Sandıkları en az 3 eşya içerir."
+    },
+    "1": {
+      "name": "I - İkizler",
+      "description": "Listelenen silahlar bir muadiliyle birlikte gelir."
+    },
+    "2": {
+      "name": "II - Alacakaranlık Ağıtı",
+      "description": "Listelenen silah fırlatılabilirleri, süreleri dolduğunda patlamalar meydana getirir."
+    },
+    "13": {
+      "name": "XIII - Habis Sezon",
+      "description": "Genel Büyüme, Şans, Açgözlülük ve Lanet sabit aralıklarla ikiye katlanır. Karakter 2 seviyede bir +1% Büyüme, Şans, Açgözlülük ve Lanet kazanmaya başlar."
+    },
+    "9": {
+      "name": "IX - İlahi Soy",
+      "description": "Zırh ayrıca listelenen silahların hasarını etkiler ve düşman hasarını yansıtır. Karakter, eksik Sağlığa bağlı olarak fazladan hasar kazanır. Düşmanları misilleme hasarıyla öldürmek, +0.5 Maks Sağlık verir."
+    },
+    "21": {
+      "name": "XXI - Kan Astronomisi",
+      "description": "Listelenen silahlar ayrıca Miktar ve Mıknatıs'tan etkilenen, özel hasar veren bölgeler yayar. Mıknatıs menzilindeki düşmanlar Miktar bazında hasar alır."
+    },
+    "23": {
+      "name": "I - Safir Sisi",
+      "description": "Etkinleştirildiğinde tüm silahların bir yerine iki kez ateş etme şansı vardır. Bu etki, listelenen aktif silahlarda daha da artar."
+    },
+    "28": {
+      "name": "VI - Ay Işığı Bolerosu",
+      "description": "Her dakika ekstra bir hazine patronu ortaya çıkar. Taşıdığı hazine, bazen arcanalar ve rastgele pasif silahlar içerebilir."
+    },
+    "32": {
+      "name": "X - Gelecekten Selamlar",
+      "description": "Seviye atlarken listelenen eşyalardan birini alırsın."
+    },
+    "34": {
+      "name": "XII - Kristal Çığlıklar",
+      "description": "Donmuş düşmanları öldürmek bonus Maks Sağlık, İyileşme ve Büyüme verir. Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Zamantutan tetikler."
+    },
+    "43": {
+      "name": "XXI - Dolaşan Kara Kehribar",
+      "description": "Sağlık kaybetmek patlayan fırlatılabilirler oluşturur. Patlama hasarı, geri kazanılan toplam sağlık ve Mıknatıs bonusu ile artar. Patlama Alanı, Mıknatıs ile genişler."
+    },
+    "25": {
+      "name": "III - Gizli Aforoz",
+      "description": "Yiyecek toplanabilirleri, nadirliklerine veya iyileştirme değerlerine bağlı olarak rastgele istatistiklere katlanarak artan bonuslar verir."
+    }
+  },
+  "zh-CN": {
+    "4": {
+      "name": "IV - 苏醒",
+      "description": "提供3次复活机会。 复活时, 生命上限+10%, 防御+1, 力量, 攻击范围, 持续时间和速度各+5%。"
+    },
+    "5": {
+      "name": "V - 夜色下的混乱",
+      "description": "每10秒内, 飞射速度会不断变化, 从-50%到+50%。 每升一级, 角色的飞射速度+1%。"
+    },
+    "6": {
+      "name": "VI - 疗愈的萨拉邦",
+      "description": "治疗加倍。 恢复生命会对附近的敌人造成等量伤害。"
+    },
+    "16": {
+      "name": "XVI - 屠割",
+      "description": "所列的武器可以造成暴击, 并且暴击伤害加倍。"
+    },
+    "17": {
+      "name": "XVII - 失而复得的彩画",
+      "description": "每10秒内, 持续时间会不断变化, 从-50%到+50%。 每升一级, 角色的持续时间+1%。"
+    },
+    "19": {
+      "name": "XIX - 烈火之心",
+      "description": "所列武器的飞射物在碰撞时会引发爆炸, 当角色受到伤害时也会引发爆炸。"
+    },
+    "7": {
+      "name": "VII - 铁蓝意志",
+      "description": "所列武器的飞射物可以最多反弹3次, 并且可能穿透敌人和墙壁。"
+    },
+    "11": {
+      "name": "XI - 珍珠的圆舞曲",
+      "description": "所列武器的飞射物可以最多反弹3次。"
+    },
+    "15": {
+      "name": "XV - 黄金的迪斯科",
+      "description": "拾取地上的钱袋将开启淘金狂潮, 获得金币可以恢复等量的生命值。"
+    },
+    "18": {
+      "name": "XVIII - 幻象的波加洛",
+      "description": "每10秒内, 攻击范围会不断变化, 从-25%到+25%。 每升一级, 角色的攻击范围+1%。"
+    },
+    "12": {
+      "name": "XII - 时空的跨越",
+      "description": "冻结敌人会引发爆炸, 更容易发现时祷怀表。"
+    },
+    "14": {
+      "name": "XIV - 水晶的监牢",
+      "description": "所列武器的飞射物有几率冰冻敌人。"
+    },
+    "8": {
+      "name": "VIII - 疯狂的乐声",
+      "description": "每2分钟, 将关卡道具, 掉落物和光源拉向角色。"
+    },
+    "10": {
+      "name": "X - 新手的好运",
+      "description": "所列武器的发射数量+1。 角色的主武器及其进化形态的发射数量+3。"
+    },
+    "3": {
+      "name": "III - 悲境的公主",
+      "description": "当移动时, 所列武器的冷却时间会减少。"
+    },
+    "20": {
+      "name": "XX - 寂静的圣迹",
+      "description": "提供3次重选, 跳过和排除的机会。 每个空置的武器栏位, 可以让力量+20%, 冷却时间-8%。"
+    },
+    "0": {
+      "name": "游戏杀手",
+      "description": "不再获得经验, 经验宝石会变成能爆炸的飞射物, 所有的宝箱内至少有三个物品。"
+    },
+    "1": {
+      "name": "I - 双子座",
+      "description": "所列的武器将有各自的匹配与之同时出现。"
+    },
+    "2": {
+      "name": "II - 暮色的安魂曲",
+      "description": "所列武器的飞射物在消失时会发生爆炸。"
+    },
+    "13": {
+      "name": "XIII - 邪恶季节",
+      "description": "整体成长, 运气, 贪欲和诅咒按照固定的间隔翻倍。 每两级, 角色的成长, 运气, 贪欲和诅咒+1%。"
+    },
+    "9": {
+      "name": "IX - 神圣血脉",
+      "description": "防御不仅会影响所列武器的伤害, 还会返还敌人的伤害。 根据损失的生命值, 角色获得额外的伤害。 通过返还伤害杀敌可以令生命上限+0.5。"
+    },
+    "21": {
+      "name": "XXI - 血色天灾",
+      "description": "所列武器会发散出特殊的伤害领域, 该效果受发射数量和念力的影响。 根据发射数量, 在念力范围内的敌人会遭受相应的伤害。"
+    },
+    "23": {
+      "name": "I - 宝蓝迷雾",
+      "description": "全部武器均有一定几率发动两次攻击，而非一次。此效果对所列武器的影响更大。"
+    },
+    "28": {
+      "name": "VI - 月光的波列罗",
+      "description": "每一分钟生成一个额外的宝藏首领，其携带的宝藏偶尔会包括秘法牌和随机的被动武器。"
+    },
+    "32": {
+      "name": "X - 未来的礼赞",
+      "description": "升级时获得所列物品中的其中一件。"
+    },
+    "34": {
+      "name": "XII - 水晶哭泣",
+      "description": "击杀被冰冻的敌人将获得额外的生命上限、恢复和成长加成。当濒临死亡时，将触发一次时祷怀表。"
+    },
+    "43": {
+      "name": "XXI - 漫步漆黑",
+      "description": "承受伤害将触发爆炸。总共恢复的生命值和念力加成越多，爆炸伤害越大。念力越强，爆炸范围越广。"
+    },
+    "25": {
+      "name": "III - 隐秘的恶咒",
+      "description": "掉落的食物会为随机属性提供累积加成，视其稀有度或治疗量而定。"
+    }
+  },
+  "ja": {
+    "4": {
+      "name": "IV - 目覚め",
+      "description": "復活回数が+3される。 復活すると, 最大HP+10%, 防御力+1, 攻撃力, 攻撃範囲, 効果時間, 弾速+5%"
+    },
+    "5": {
+      "name": "V - 暗夜の混沌",
+      "description": "10秒間, 弾速が-50%から+50%の間で継続的に変化する。 キャラクターは各レベルで弾速に+1%を獲得し始める。"
+    },
+    "6": {
+      "name": "VI - 癒しのサラバンド",
+      "description": "回復量が2倍になる。 HP回復時に周囲の敵に同量のダメージを与える。"
+    },
+    "16": {
+      "name": "XVI - 両断",
+      "description": "リスト内の武器にクリティカル判定が付与される。 クリティカル時, ダメージ2倍。"
+    },
+    "17": {
+      "name": "XVII - 見つかりし絵画",
+      "description": "10秒間, 効果時間が-50%から+50%の間で継続的に変化する。 キャラクターは各レベルで効果時間に+1%を獲得し始める。"
+    },
+    "19": {
+      "name": "XIX - 紅蓮の炎",
+      "description": "リスト内にある武器の弾が着弾すると爆発を起こす。 明かりが爆発する。 \\nプレイヤーが被ダメージ時, 爆発が起こる。"
+    },
+    "7": {
+      "name": "VII - 鉄紺色の意志",
+      "description": "リスト内にある武器から放たれた弾が最大3回跳ね返る。 敵と壁を貫通する。"
+    },
+    "11": {
+      "name": "XI - 真珠の舞踊曲",
+      "description": "リスト内にある武器から放たれた弾が最大3回跳ね返る。"
+    },
+    "15": {
+      "name": "XV - 黄金色のディスコ",
+      "description": "落ちている金貨袋を拾うとゴールドフィーバーが発生する。 金貨を手に入れると, その分HPも回復。"
+    },
+    "18": {
+      "name": "XVIII - 幻惑のブーガルー",
+      "description": "10秒間, 範囲が-25%から+25%の間で継続的に変化する。 キャラクターは各レベルで範囲に+1%を獲得し始める。"
+    },
+    "12": {
+      "name": "XII - 時の果て",
+      "description": "敵を動けなくさせると爆発が発生する。 懐中時計が出現しやすくなる。"
+    },
+    "14": {
+      "name": "XIV - 石英の牢",
+      "description": "リスト中にある武器から放たれる弾により, 敵を一定確率で動けなくさせる。"
+    },
+    "8": {
+      "name": "VIII - 狂乱の調べ",
+      "description": "2分ごとに, アイテム全般と明かりがプレイヤーキャラに集まってくる。"
+    },
+    "10": {
+      "name": "X - 幸先",
+      "description": "リスト中にある武器の発射弾数が+1。 キャラクターのメイン武器と進化後の武器の発射弾数が+3。"
+    },
+    "3": {
+      "name": "III - 悲劇の王女",
+      "description": "移動時, リスト中にある武器のクールダウン時間が軽減される。"
+    },
+    "20": {
+      "name": "XX - 古の静かなる聖域",
+      "description": "リロール, スキップ, 選択肢消去の回数が+3。 武器スロットの空き数に応じて, 攻撃力が+20%, クールダウンが-8%。"
+    },
+    "0": {
+      "name": "ゲームキラー",
+      "description": "XPの獲得が停止する。 XPジェムが爆発する弾丸に変化する。 すべての宝箱に最低3つのアイテムが入っている。"
+    },
+    "1": {
+      "name": "I - ジェミニ",
+      "description": "対象の武器と同性能の武器を入手。"
+    },
+    "2": {
+      "name": "II - 黄昏の鎮魂歌",
+      "description": "対象の武器の効果時間が切れると爆発を発生させる。"
+    },
+    "13": {
+      "name": "XIII - 悪の季節",
+      "description": "成長, 幸運, 欲望, 呪いが一定の間隔で2倍になる。 キャラクターは2レベルごとに成長, 幸運, 欲望, 呪いが1%上がる。"
+    },
+    "9": {
+      "name": "IX - 聖なる血統",
+      "description": "対象武器の威力にアーマーが影響し, 敵のダメージを反射する。 HPの低下に応じてボーナスダメージを獲得する。 報復ダメージで敵を倒すと最大HPが+0.5。"
+    },
+    "21": {
+      "name": "XXI - 血のアストロノミア",
+      "description": "対象武器は, 数量と磁石の影響を受ける特別なダメージゾーンを放出する。 磁石の範囲内にいる敵は数量に基づくダメージを受ける。"
+    },
+    "23": {
+      "name": "I - サファイア・ミスト",
+      "description": "すべての武器は、起動時に1回だけでなく2回発射するチャンスがある。リスト化された武器では、この効果はさらに高まる。"
+    },
+    "28": {
+      "name": "VI - 月光のボレロ",
+      "description": "1分ごとに追加のトレジャー・ボスが出現する。このボスが所持する宝には、アルカナやランダムなパッシブな武器が入っていることがある。"
+    },
+    "32": {
+      "name": "X - 未来からの歓迎",
+      "description": "レベルアップ時にリスト化されたアイテムのうち、1つを受け取る。"
+    },
+    "34": {
+      "name": "XII - 水晶の叫び",
+      "description": "凍った敵を倒すと最大HP、回復力、成長効率にボーナスがつく。HPが限界まで低下すると、懐中時計が発動する。"
+    },
+    "43": {
+      "name": "XXI - 漆黒を彷徨う",
+      "description": "HPを失うと爆発する弾丸が生成される。HPが回復したり磁石ボーナスによって爆発が増加する。爆発範囲は磁石によって増加する。"
+    },
+    "25": {
+      "name": "III - 隠された破門",
+      "description": "食べ物のピックアップは、レア度や回復値に基づいて、いづれかのステータスに累積ボーナスを付与する。"
+    }
+  },
+  "ko": {
+    "4": {
+      "name": "IV - 각성",
+      "description": "3번의 부활 기회를 제공. 부활 시 최대 체력 +10%, 방어력+1, 피해량, 공격 범위, 지속시간 및 속도가 +5% 증가."
+    },
+    "5": {
+      "name": "V - 혼돈이 가득한 어두운 밤",
+      "description": "10초 동안 계속해서 전반적인 투사체 속도가 -50%에서 +50% 사이 무작위로 변경됩니다. 매 레벨 캐릭터의 투사체 속도가 +1%씩 증가합니다."
+    },
+    "6": {
+      "name": "VI - 치유의 사라반드",
+      "description": "회복량 2배 증가. HP를 회복하면 주변 적에게도 같은 양의 피해를 줌."
+    },
+    "16": {
+      "name": "XVI - 절단",
+      "description": "목록에 있는 무기의 치명타 확률을 상승시키며 2배의 치명타 피해를 줌."
+    },
+    "17": {
+      "name": "XVII - 잃어버린 그림",
+      "description": "10초 동안 계속해서 전반적인 지속시간이 -50%에서+50% 사이 무작위로 변경됩니다. 매 레벨 캐릭터의 지속시간이 +1%씩 증가합니다."
+    },
+    "19": {
+      "name": "XIX - 불의 심장",
+      "description": "목록에 있는 무기의 투사체가 충돌 시 폭발. 빛 물체가 폭발. 캐릭터가 피해를 입으면 폭발."
+    },
+    "7": {
+      "name": "VII - 푸른 강철의 의지",
+      "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 적과 벽을 관통하여 공격."
+    },
+    "11": {
+      "name": "XI - 진주의 왈츠",
+      "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 공격."
+    },
+    "15": {
+      "name": "XV - 황금 디스코",
+      "description": "금화 주머니 습득 시 황금의 피버타임 발동. 획득한 금화만큼 HP 회복."
+    },
+    "18": {
+      "name": "XVIII - 환상의 춤",
+      "description": "10초 동안 계속해서 전반적인 공격 범위가 -25%에서 +25% 사이 무작위로 변경됩니다. 매 레벨 캐릭터의 공격 범위가 +1%씩 증가합니다."
+    },
+    "12": {
+      "name": "XII - 한도 초과",
+      "description": "적을 얼리면 폭발. 회중시계를 더욱 쉽게 발견 가능."
+    },
+    "14": {
+      "name": "XIV - 수정 감옥",
+      "description": "목록에 있는 무기의 발사체는 일정 확률로 적을 얼림."
+    },
+    "8": {
+      "name": "VIII - 광기의 그루브",
+      "description": "2분마다 모든 스테이지의 드롭 아이템, 픽업, 빛 물체를 캐릭터 주변으로 끌어옴."
+    },
+    "10": {
+      "name": "X - 근원",
+      "description": "목록에 있는 무기의 투사체 수 +1 증가. 기본 무기와 그 진화 무기는 투사체 수가 +3 증가."
+    },
+    "3": {
+      "name": "III - 공주의 비련",
+      "description": "목록에 있는 무기의 쿨타임이 이동 시 대폭 감소."
+    },
+    "20": {
+      "name": "XX - 고요한 옛 성역",
+      "description": "새로고침, 건너뛰기, 지우기 +3. 빈 활성화 무기 슬롯마다 피해량+20%, 쿨타임 -8%."
+    },
+    "0": {
+      "name": "게임 킬러",
+      "description": "XP 획득을 중단합니다. 경험치 보석이 폭발하는 투사체로 바뀝니다. 모든 보물상자에 최소 3개의 아이템이 있습니다."
+    },
+    "1": {
+      "name": "I - 쌍둥이자리",
+      "description": "대상 무기가 한 쌍으로 복제됩니다."
+    },
+    "2": {
+      "name": "II - 황혼의 진혼곡",
+      "description": "대상 무기 투사체가 사라질 때 폭발합니다."
+    },
+    "13": {
+      "name": "XIII - 사악한 계절",
+      "description": "전반적인 성장, 행운, 탐욕, 저주가 일정 간격으로 2배가 됩니다. 2레벨마다 캐릭터의 성장, 행운, 탐욕, 저주가 1%씩 증가합니다."
+    },
+    "9": {
+      "name": "IX - 신성한 혈통",
+      "description": "방어력이 대상 무기의 대미지에도 영향을 주며 적에게 반격 대미지를 줍니다. 캐릭터는 잃은 체력에 따라 보너스 대미지를 획득합니다. 반격 대미지로 적을 처치하면 최대 체력이 +0.5 증가합니다."
+    },
+    "21": {
+      "name": "XXI - 블러드 아스트로노미아",
+      "description": "대상 무기가 자석의 수량에 영향을 받는 특수 대미지 구역을 발산합니다. 자석 범위 내에 있는 적은 수량에 따라 대미지를 받습니다."
+    },
+    "23": {
+      "name": "I - 사파이어 미스트,",
+      "description": "모든 무기 활성화 시, 발사 기회는 한 번이 아닌 두 번입니다. 목록에 있는 활성 무기를 이용하면 이 효과를 더욱 강화할 수 있습니다."
+    },
+    "28": {
+      "name": "VI - 달빛 볼레로",
+      "description": "매분마다 보물 보스가 추가로 스폰됩니다. 이 보물에는 가끔 아르카나와 무작위 패시브 무기가 들어 있을 수 있습니다."
+    },
+    "32": {
+      "name": "X - 미래에서 온 우박",
+      "description": "레벨을 올리면 나열된 아이템 중 하나를 받습니다."
+    },
+    "34": {
+      "name": "XII - 크리스탈의 곡소리",
+      "description": "얼어붙은 적을 처치하면 최대 체력, 회복, 성장을 보너스로 받습니다. 체력이 매우 낮은 수준에 도달하면 회중시계를 발동합니다."
+    },
+    "43": {
+      "name": "XXI - 제트 블랙에서의 방랑",
+      "description": "체력을 잃으면 폭발하는 발사체가 생성됩니다. 폭발 피해량은 회복한 총 체력과 자석 보너스만큼 증가합니다. 폭발 범위가 자석만큼 증가합니다."
+    },
+    "25": {
+      "name": "III - 숨겨진 혐오감",
+      "description": "식량을 획득하면 희귀도 또는 치유량에 따라 무작위 능력치에 누적 보너스를 부여합니다."
+    }
+  },
+  "zh-TW": {
+    "4": {
+      "name": "IV－甦醒",
+      "description": "提供你 3 次的復活次數。復活時，最大生命值提高 10%，護甲加 1，力量、效果範圍、效果持續時間及速度各提高/擴大 5%。"
+    },
+    "5": {
+      "name": "V－黑夜混沌",
+      "description": "投射物飛行速度會在 10 秒內不斷變化，最多可能會加快/減慢 50% 的投射物飛行速度。在獲得本秘法牌後，角色每升 1 級，投射物飛行速度便會提高 1%。"
+    },
+    "6": {
+      "name": "VI－療癒的薩拉邦",
+      "description": "治療效果加倍。恢復生命時，對附近的敵人造成等量的傷害。"
+    },
+    "16": {
+      "name": "XVI－屠割",
+      "description": "表列中的武器可造成暴擊，此外，你的整體暴擊傷害加倍。"
+    },
+    "17": {
+      "name": "XVII－失而復得的彩畫",
+      "description": "效果持續時間會在 10 秒內不斷變化，最多可能會延長/縮短 50% 的效果持續時間。在獲得本秘法牌後，角色每升 1 級，效過持續時間便會延長 1%。"
+    },
+    "19": {
+      "name": "XIX－烈火之心",
+      "description": "列表中的投射武器在碰撞時會引發爆炸。光源也會產生爆炸。當角色受到傷害時也會引發爆炸。"
+    },
+    "7": {
+      "name": "VII－鐵藍意志",
+      "description": "列表中的投射武器最多可以反彈 3 次，且有機率可穿透敵人和牆壁。"
+    },
+    "11": {
+      "name": "XI－珍珠的圓舞曲",
+      "description": "列表中的投射武器最多可反彈 3 次。"
+    },
+    "15": {
+      "name": "XV－黃金的迪斯可",
+      "description": "拾取地上的錢袋會發動淘金狂潮的效果。獲得金幣可以恢復等量的生命值。"
+    },
+    "18": {
+      "name": "XVIII－幻象的波加洛",
+      "description": "效果範圍在 10 秒內會不斷變化，最多可能會擴大/縮小 25% 的效果範圍。在獲得本秘法牌後，角色每升 1 級，效果範圍會擴大 1%。"
+    },
+    "12": {
+      "name": "XII－時空的跨越",
+      "description": "凍結敵人時會引發爆炸。時禱懷錶的出現機率會有所提高。"
+    },
+    "14": {
+      "name": "XIV－水晶的監牢",
+      "description": "列表中的投射武器有機率能冰凍敵人。"
+    },
+    "8": {
+      "name": "VIII－瘋狂的樂聲",
+      "description": "每 2 分鐘，你的角色會吸集關卡中的所有道具、掉落物及光源到你角色的身邊。"
+    },
+    "10": {
+      "name": "X－新手運",
+      "description": "列表中的投射武器數量加 1。角色的主武器（包含其解放版本）的投射物數量加 3。"
+    },
+    "3": {
+      "name": "III－悲劇公主",
+      "description": "在移動時，縮短所列武器的冷卻時間。"
+    },
+    "20": {
+      "name": "XX－寂靜的聖跡",
+      "description": "提供 3 次重選、跳過和滅除的機會。每個閒置的武器欄位可提高 20% 的力量並縮短 8% 的冷卻時間。"
+    },
+    "0": {
+      "name": "遊戲殺手",
+      "description": "角色將無法獲得經驗值。經驗寶石變成會爆炸的投射物。所有的寶箱內至少會有 3 個物品。"
+    },
+    "1": {
+      "name": "I－雙子座",
+      "description": "所列武器將附帶其對應的組合武器。"
+    },
+    "2": {
+      "name": "II - 暮色的安魂曲",
+      "description": "列表中的投射武器在消失時會引發爆炸。爆炸的傷害量取決於詛咒值的高低。"
+    },
+    "13": {
+      "name": "XIII－邪惡季節",
+      "description": "每隔一段時間，角色的成長、運氣、貪欲及詛咒值會翻倍。每升 2 級，角色的成長、運氣、貪欲和詛咒值提高 1%。"
+    },
+    "9": {
+      "name": "IX－神聖血脈",
+      "description": "護甲不僅會影響所列武器的傷害，還可反彈敵人造成的傷害。根據損失生命值的多寡，角色還可造成額外的傷害。利用反擊傷害殺敵可提高 0.5 點的最大生命值。"
+    },
+    "21": {
+      "name": "XXI－血色天災",
+      "description": "所列武器會生成特殊的傷害區域，根據投射物數量及磁鐵等級的不同，傷害也會有所不同。根據你角色投射物數量的高低，磁鐵範圍內的敵人會承受對應的傷害。"
+    },
+    "23": {
+      "name": "I－藍寶石迷霧",
+      "description": "發動所有武器時，有一定機率發動兩次。這個效果針對列表中對應的武器還會進一步強化。"
+    },
+    "28": {
+      "name": "VI－月光波萊羅",
+      "description": "每分鐘額外生成一個寶藏魔王。擊敗魔王所掉落的寶藏偶爾會含有秘能或隨機的被動武器。"
+    },
+    "32": {
+      "name": "X－源自未來",
+      "description": "升級時，可獲得列表中的其中一個物品。"
+    },
+    "34": {
+      "name": "XII－水晶哭喊",
+      "description": "在擊敗被冰凍的敵人後，賦予你額外的最大生命值、生命恢復量與數值成長量。。生命值變得相當低時，觸發時禱懷錶的效果。"
+    },
+    "43": {
+      "name": "XXI－漫步黑暗",
+      "description": "在失去生命值時生成會爆炸的投射物；爆炸傷害會根據生命值的總恢復量與磁鐵的加成而有所提高，爆炸範圍則會根據磁鐵的效果而有所提高。"
+    },
+    "25": {
+      "name": "III－無形的惡意",
+      "description": "在拾取食物時，根據其稀有度或治療數值的高低來為隨機屬性帶來累積加成。"
+    }
+  },
+  "uk": {
+    "4": {
+      "name": "IV — Пробудження",
+      "description": "Дає +3 оживлення. Використання оживлення дає +10% до макс. ОЗ, +1 до броні й +5% до сили, області, тривалості та швидкості."
+    },
+    "5": {
+      "name": "V — Хаос у мороці ночі",
+      "description": "Швидкість всіх снарядів безперервно змінюється від -50% до +50% протягом 10 секунд. Персонаж починає отримувати +1% до швидкості снарядів кожен рівень."
+    },
+    "6": {
+      "name": "VI — Сарабанда зцілення",
+      "description": "Зцілення подвоюється. Відновлення ОЗ завдає стільки ж шкоди найближчим ворогам."
+    },
+    "16": {
+      "name": "XVI — Розріз",
+      "description": "Дозволяє завдавати критичних ударів визначеною зброєю. Подвоює критичну шкоду."
+    },
+    "17": {
+      "name": "XVII — Картина загублена й знайдена",
+      "description": "Загальна тривалість постійно змінюється від -50% до +50% протягом 10 секунд. Персонаж починає отримувати +1% до тривалості на кожному рівні."
+    },
+    "19": {
+      "name": "XIX — Полум'яне серце",
+      "description": "Снаряди зброї з переліку вибухають при зіткненні. Джерела світла вибухають. Персонаж вибухає при отриманні шкоди."
+    },
+    "7": {
+      "name": "VII — Залізна воля блакиті",
+      "description": "Снаряди зброї з переліку отримують від 3 відскоків і можуть проходити крізь ворогів і стіни."
+    },
+    "11": {
+      "name": "XI — Вальс перлин",
+      "description": "Снаряди зброї з переліку отримують від 3 відскоків."
+    },
+    "15": {
+      "name": "XV — Золоте диско",
+      "description": "Збір мішків із монетами з землі викликає Золоту лихоманку. За отримане золото відновлюється така ж кількість ОЗ."
+    },
+    "18": {
+      "name": "XVIII — Бунгало ілюзій",
+      "description": "Область атак постійно змінюється від -25% до +25% протягом 10 секунд. Персонаж починає отримувати +1% до області на кожному рівні."
+    },
+    "12": {
+      "name": "XII — За горизонтом",
+      "description": "При заморожуванні ворогів відбуваються вибухи. Часолов простіше знайти."
+    },
+    "14": {
+      "name": "XIV — Кришталеві пута",
+      "description": "Снаряди зброї з переліку можуть заморожувати ворогів."
+    },
+    "8": {
+      "name": "VIII — Дикий грув",
+      "description": "Кожні 2 хвилини притягує всі стандартні предмети етапу, знахідки й джерела світла до персонажа."
+    },
+    "10": {
+      "name": "X — Початок",
+      "description": "Зброя з переліку отримує +1 до Кількості. Основна зброя персонажа і його еволюція отримують +3 до Кількості."
+    },
+    "3": {
+      "name": "III — Трагічна принцеса",
+      "description": "Час відновлення зброї з переліку зменшується рід час руху."
+    },
+    "20": {
+      "name": "XX — Тихе старе святилище",
+      "description": "Дає +3 до повтору, пропуску й вигнання. Дає +20% сили і -8% відновлення за кожен порожній слот активної зброї."
+    },
+    "0": {
+      "name": "Вбивця Гри",
+      "description": "Зупиняє приріст досвіду. Самоцвіти досвіду перетворюються на вибухові снаряди. Усі скрині скарбів містять не менше як 3 предмети."
+    },
+    "1": {
+      "name": "I — Близнюки",
+      "description": "Зброя з переліку йде зі своїм візаві."
+    },
+    "2": {
+      "name": "II — Реквієм сутінок",
+      "description": "Снаряди зброї з переліку вибухають в момент зникнення. Прокляття впливає на пошкодження від вибухів."
+    },
+    "13": {
+      "name": "XIII — Кепський сезон",
+      "description": "Загальні розвиток, удача, жадоба й прокляття подвоюються через визначені інтервали. Персонаж починає отримувати +1% до розвитку, удачі, жадобі й прокляття кожні 2 рівні."
+    },
+    "9": {
+      "name": "IX — Божественна кров",
+      "description": "Броня впливає на пошкодження від зброї з переліку й відбиває шкоду від ворогів. Персонаж завдає додаткової шкоди залежно від залишку здоров'я. Вороги, що загинули від шкоди у відповідь, дають +0,5 до макс. ОЗ."
+    },
+    "21": {
+      "name": "XXI — Криваві зорі",
+      "description": "Зброя з переліку також створює особливі зони пошкодження, на які впливають кількість і магніт. Вороги в радіусі дії магніту отримують шкоду залежно від показника кількості."
+    },
+    "23": {
+      "name": "І ― Сапфірова імла",
+      "description": "При активації всі види зброї можуть зробити подвійний постріл. Ефект посилюється для активної зброї з переліку."
+    },
+    "28": {
+      "name": "VI ― Місячне болеро",
+      "description": "Щохвилини з'являється додатковий бос скарбів. Скарб, який він несе, іноді може містити аркани або випадкову пасивну зброю."
+    },
+    "32": {
+      "name": "X ― Привіт із майбутнього",
+      "description": "Отримайте один із перелічених предметів при підвищенні рівня."
+    },
+    "34": {
+      "name": "XII ― Плач кришталю",
+      "description": "Знищення заморожених ворогів дає бонус до макс. здоров'я, регенерації й розвитку. Запускає Часолов при критично низькому рівні здоров'я."
+    },
+    "43": {
+      "name": "XXI ― Блукання в пітьмі",
+      "description": "Втрата здоров'я створює вибухові снаряди. Шкода від вибуху збільшується на сумарну кількість відновленого здоров'я й бонусу магніту. Магніт збільшує область вибухів."
+    },
+    "25": {
+      "name": "III — Прихована анафема",
+      "description": "Знахідки їжі додають накопичувальні бонуси до випадкових характеристик на основі їхньої рідкості або лікувальних властивостей."
+    }
+  }
+}

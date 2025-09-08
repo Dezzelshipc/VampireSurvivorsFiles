@@ -62,8 +62,8 @@ class Lang(Enum):
 
 class LangFile:
     __lang_type: LangType | COMPOUND_DATA_TYPE
-    __data: dict[str, Any] | None = None
-    __lang_data: dict[Lang, dict[str, Any]] | None = None
+    __data: OrderedDict[str, Any] | None = None
+    __lang_data: OrderedDict[Lang, dict[str, Any]] | None = None
     __raw_text: str | None = None
     __json_text: str | None = None
 
@@ -197,7 +197,7 @@ def gen_changed_list_to_dict(lang_type: LangType) -> dict[str, Any]:
     return out_data
 
 
-def gen_inverse_dict(lang_type: LangType, selected_langs: set[int] = None) -> dict[Lang, Any]:
+def gen_inverse_dict(lang_type: LangType, selected_langs: set[int] = None) -> OrderedDict[Lang, Any]:
     timeit = Timeit()
     print(f"Generating inverse lang for {lang_type}")
 

@@ -1,0 +1,1598 @@
+{
+  "en": {
+    "POWER": {
+      "name": "Might",
+      "description": "Raises inflicted Damage by 5% per rank (max +25%)."
+    },
+    "REGEN": {
+      "name": "Recovery",
+      "description": "Recovers 0.1 HP per rank (max 0.5) per second."
+    },
+    "MAXHEALTH": {
+      "name": "Max Health",
+      "description": "Augments Max Health by 10% per rank (max +30%)."
+    },
+    "ARMOR": {
+      "name": "Armor",
+      "description": "Reduces incoming Damage by 1 per rank (max -3)."
+    },
+    "AREA": {
+      "name": "Area",
+      "description": "Augments area of attacks by 5% per rank (max +10%)."
+    },
+    "SPEED": {
+      "name": "Speed",
+      "description": "Projectiles move 10% faster per rank (max 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Cooldown",
+      "description": "Uses weapons 2.5% faster per rank (max 5%)."
+    },
+    "DURATION": {
+      "name": "Duration",
+      "description": "Effects from weapons last 15% longer per rank (max +30%)."
+    },
+    "AMOUNT": {
+      "name": "Amount",
+      "description": "Fires 1 more projectile (all weapons)."
+    },
+    "MOVESPEED": {
+      "name": "Move Speed",
+      "description": "Character moves 5% faster per rank (max 10%)."
+    },
+    "MAGNET": {
+      "name": "Magnet",
+      "description": "Items Pickup range +25% per rank (max +50%)."
+    },
+    "LUCK": {
+      "name": "Luck",
+      "description": "Chance to get lucky goes up by 10% per rank (max +30%)."
+    },
+    "GROWTH": {
+      "name": "Growth",
+      "description": "Gains 3% more experience per rank (max 15%)."
+    },
+    "GREED": {
+      "name": "Greed",
+      "description": "Gains 10% more Gold per rank (max +50%)."
+    },
+    "SHIELD": {
+      "name": "Shield",
+      "description": "Prevents damage for one attack. Stacks with Laurel."
+    },
+    "REVIVAL": {
+      "name": "Revival",
+      "description": "Revives once with 50% health."
+    },
+    "REROLL": {
+      "name": "Reroll",
+      "description": "Twice per rank, allows you to get different choices when leveling up."
+    },
+    "SKIP": {
+      "name": "Skip",
+      "description": "Twice per rank, allows you to skip level up choices and get Experience instead."
+    },
+    "CURSE": {
+      "name": "Curse",
+      "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+    },
+    "BANISH": {
+      "name": "Banish",
+      "description": "Twice per rank, allows you to remove an item from level up choices, for the rest of the run."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Increases Might, Projectile Speed, Duration, and Area by 2% per rank (max +10%)."
+    },
+    "SEAL": {
+      "name": "Seal I",
+      "description": "Allows to Banish an item from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+    },
+    "CHARM": {
+      "name": "Charm",
+      "description": "Increases enemies spawn quantity by 20 per rank (max +100)."
+    },
+    "SEAL2": {
+      "name": "Seal II",
+      "description": "Allows to Banish two items from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+    },
+    "FEVER": {
+      "name": "Fever",
+      "description": "Increases duration of Gold Fever and Gold Finger by 10% per rank (max +50%)."
+    },
+    "DEFANG": {
+      "name": "Defang",
+      "description": "3% of enemies spawn unable to deal damage per rank (max 15%)."
+    },
+    "SEAL3": {
+      "name": "Seal III",
+      "description": "Allows you to Banish three items from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+    },
+    "SEAL4": {
+      "name": "Seal All",
+      "description": "Allows you to Banish four items from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+    }
+  },
+  "fr": {
+    "POWER": {
+      "name": "Puissance",
+      "description": "Augmente les dégâts infligés de 5 % par rang (+25 % max)."
+    },
+    "REGEN": {
+      "name": "Guérison",
+      "description": "Récupérez 0,1 PV par rang et par seconde (0,5 max)."
+    },
+    "MAXHEALTH": {
+      "name": "Santé max",
+      "description": "Augmente la santé max de 10 % par rang (+30 % max)."
+    },
+    "ARMOR": {
+      "name": "Armure",
+      "description": "Réduit les dégâts subis de 1 par rang (-3 max)."
+    },
+    "AREA": {
+      "name": "Portée",
+      "description": "Augmente la portée des attaques de 5 % par rang (+10 % max)."
+    },
+    "SPEED": {
+      "name": "Vitesse",
+      "description": "Les projectiles se déplacent 10 % plus vite par rang (+20 % max)."
+    },
+    "COOLDOWN": {
+      "name": "Recharge",
+      "description": "Les armes sont utilisées 2,5 % plus vite par rang (+5 % max)."
+    },
+    "DURATION": {
+      "name": "Durée",
+      "description": "Les effets des armes durent 15 % plus longtemps par rang (+30 % max)."
+    },
+    "AMOUNT": {
+      "name": "Quantité",
+      "description": "Lance 1 projectile de plus (pour toutes les armes)."
+    },
+    "MOVESPEED": {
+      "name": "Déplacement",
+      "description": "Votre personnage se déplace 5 % plus vite par rang (+10 % max)."
+    },
+    "MAGNET": {
+      "name": "Aimant",
+      "description": "Augmente le magnétisme de 25 % par rang (+50 % max)."
+    },
+    "LUCK": {
+      "name": "Chance",
+      "description": "Augmente la chance de 10 % par rang (+30 % max)."
+    },
+    "GROWTH": {
+      "name": "Expertise",
+      "description": "Rapporte 3 % d'expérience en plus par rang (+15 % max)."
+    },
+    "GREED": {
+      "name": "Avidité",
+      "description": "Rapporte 10 % de pièces d'or en plus par rang (+50 % max)."
+    },
+    "SHIELD": {
+      "name": "Bouclier",
+      "description": "Annule les dégâts d'une attaque. Se combine au Laurier."
+    },
+    "REVIVAL": {
+      "name": "Résurrection",
+      "description": "Permet de ressusciter une fois avec 50 % de santé."
+    },
+    "REROLL": {
+      "name": "Caprice",
+      "description": "Deux fois par rang, permet d'obtenir des choix différents lors du passage au niveau supérieur."
+    },
+    "SKIP": {
+      "name": "Snobisme",
+      "description": "Deux fois par rang, permet d'obtenir de l'EXP au lieu des choix lors du passage au niveau supérieur."
+    },
+    "CURSE": {
+      "name": "Malédiction",
+      "description": "Augmente la vitesse, la santé, la quantité et la fréquence des ennemis de 10 % par rang (+50 % max)."
+    },
+    "BANISH": {
+      "name": "Répulsion",
+      "description": "Deux fois par rang, permet de retirer un objet des choix du passage au niveau supérieur pour toute la partie."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Augmente la puissance, la vitesse des projectiles, la durée et la portée de 2 % par rang (+10 % max)."
+    },
+    "SEAL": {
+      "name": "Exclusion I",
+      "description": "Permet de bannir un objet des choix du passage de niveau ou un boost issu des sources de lumière depuis le menu COLLECTION."
+    },
+    "CHARM": {
+      "name": "Charme",
+      "description": "Augmente la quantité d'ennemis de 20 par rang (+100 max)."
+    },
+    "SEAL2": {
+      "name": "Exclusion II",
+      "description": "Permet de bannir deux objets des choix du passage de niveau ou un boost issu des sources de lumière depuis le menu COLLECTION."
+    },
+    "FEVER": {
+      "name": "Il est l'or",
+      "description": "Augmente la durée de Pluie d'or et de Doigt d'or de 10 % par rang (+50 % max)."
+    },
+    "DEFANG": {
+      "name": "Affaiblissement",
+      "description": "Les ennemis ont 3 % de chances par rang de ne pas infliger de dégâts (15 % max)."
+    },
+    "SEAL3": {
+      "name": "Exclusion III",
+      "description": "Permet de bannir trois objets des choix du passage de niveau ou un boost issu des sources de lumière depuis le menu COLLECTION."
+    },
+    "SEAL4": {
+      "name": "Tout exclure",
+      "description": "Vous permet de bannir quatre objets lors des choix du passage de niveau, ou un boost issu des sources de lumière depuis le menu COLLECTION."
+    }
+  },
+  "it": {
+    "POWER": {
+      "name": "Potenza",
+      "description": "Aumenta i danni inflitti del 5% per grado (max +25%)."
+    },
+    "REGEN": {
+      "name": "Recupero",
+      "description": "Ripristina 0,1 PS per grado (max 0,5) al secondo."
+    },
+    "MAXHEALTH": {
+      "name": "Salute massima",
+      "description": "Aumenta la salute massima del 10% per grado (max +30%)."
+    },
+    "ARMOR": {
+      "name": "Armatura",
+      "description": "Riduce i danni subiti di 1 per grado (max -3)."
+    },
+    "AREA": {
+      "name": "Area",
+      "description": "Aumenta l'area di attacco del 5% per grado (max +10%)."
+    },
+    "SPEED": {
+      "name": "Velocità",
+      "description": "Aumenta la velocità dei proiettili del 10% per grado (max 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Ricarica",
+      "description": "Riduce il tempo di ricarica dell'arma del 2,5% per grado (max 5%)."
+    },
+    "DURATION": {
+      "name": "Durata",
+      "description": "Aumenta la durata degli effetti delle armi del 15% in più per grado (max +30%)."
+    },
+    "AMOUNT": {
+      "name": "Quantità",
+      "description": "Permette di sparare 1 proiettile in più (tutte le armi)."
+    },
+    "MOVESPEED": {
+      "name": "Movimento",
+      "description": "Aumenta la velocità di movimento del personaggio del 5% per grado (max 10%)."
+    },
+    "MAGNET": {
+      "name": "Calamita",
+      "description": "Aumenta il raggio di raccolta dei collezionabili del +25% per grado (max +50%)."
+    },
+    "LUCK": {
+      "name": "Fortuna",
+      "description": "Aumenta la probabilità di avere un colpo di fortuna del 10% per grado (max +30%)."
+    },
+    "GROWTH": {
+      "name": "Crescita",
+      "description": "Aumenta l'esperienza ottenuta del 3% per grado (max 15%)."
+    },
+    "GREED": {
+      "name": "Avidità",
+      "description": "Aumenta l'oro ottenuto del 10% per grado (max +50%)."
+    },
+    "SHIELD": {
+      "name": "Scudo",
+      "description": "Protegge dai danni per un attacco. L'effetto si somma a quello dell'Alloro."
+    },
+    "REVIVAL": {
+      "name": "Resurrezione",
+      "description": "Permette di risorgere una volta con il 50% di salute."
+    },
+    "REROLL": {
+      "name": "Risorteggio",
+      "description": "Due volte per grado, ti consente di ottenere scelte differenti quando sali di livello."
+    },
+    "SKIP": {
+      "name": "Esenzione",
+      "description": "Due volte per grado, ti consente ignorare le scelte del passaggio al nuovo livello e di ottenere esperienza al loro posto."
+    },
+    "CURSE": {
+      "name": "Maledizione",
+      "description": "Aumenta velocità, salute, quantità e frequenza dei nemici del 10% per grado (max +50%)."
+    },
+    "BANISH": {
+      "name": "Esclusione",
+      "description": "Due volte per grado, ti consente di rimuovere un oggetto dalle scelte del passaggio al nuovo livello, per il resto del turno."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Aumenta Potenza, Velocità dei proiettili, Durata e Area del 2% per grado (max +10%)."
+    },
+    "SEAL": {
+      "name": "Sigillo I",
+      "description": "Permette di Escludere un oggetto dalle scelte del passaggio al nuovo livello o un collezionabile dalle fonti di luce. Puoi usarlo nel menu COLLEZIONE."
+    },
+    "CHARM": {
+      "name": "Fascino",
+      "description": "Aumenta i nemici generati di 20 per grado (+100 al massimo)."
+    },
+    "SEAL2": {
+      "name": "Sigillo II",
+      "description": "Ti permette di Escludere due oggetti dalle scelte del passaggio al nuovo livello o un collezionabile dalle fonti di luce. Puoi usarlo nel menu COLLEZIONE."
+    },
+    "FEVER": {
+      "name": "Febbre",
+      "description": "Aumenta la durata di Febbre dell'oro e di Dito d'oro del 10% per grado (max +50%)."
+    },
+    "DEFANG": {
+      "name": "Senza denti",
+      "description": "I nemici generati non infliggono danni il 3% delle volte per grado (max 15%)."
+    },
+    "SEAL3": {
+      "name": "Sigillo III",
+      "description": "Permette di Escludere tre oggetti dalle scelte del passaggio al nuovo livello o un collezionabile dalle fonti di luce. Puoi usarlo nel menu COLLEZIONE."
+    },
+    "SEAL4": {
+      "name": "Omnisigillo",
+      "description": "Ti permette di escludere quattro oggetti dalle scelte di passaggio al nuovo livello o un collezionabile dalle fonti di luce. Usalo nel menu COLLEZIONE."
+    }
+  },
+  "de": {
+    "POWER": {
+      "name": "Macht",
+      "description": "Erhöht den zugefügten Schaden um 5% pro Rang (max. +25%)."
+    },
+    "REGEN": {
+      "name": "Erholung",
+      "description": "Stellt 0,1 LP pro Rang (max. 0,5) pro Sekunde wieder her."
+    },
+    "MAXHEALTH": {
+      "name": "Max. LP",
+      "description": "Erhöht max. LP um 10% pro Rang (max. +30%)."
+    },
+    "ARMOR": {
+      "name": "Rüstung",
+      "description": "Reduziert eingehenden Schaden um 1 pro Rang (max. -3)."
+    },
+    "AREA": {
+      "name": "Bereich",
+      "description": "Erhöht die Angriffsfläche um 5% pro Rang (max. +10%)."
+    },
+    "SPEED": {
+      "name": "Schnelligkeit",
+      "description": "Geschosse bewegen sich pro Rang 10% schneller (max. 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Abklingzeit",
+      "description": "Benutzt Waffen 2,5% schneller pro Rang (max. 5%)."
+    },
+    "DURATION": {
+      "name": "Dauer",
+      "description": "Die Effekte der Waffen halten pro Rang 15% länger an (max. +30%)."
+    },
+    "AMOUNT": {
+      "name": "Menge",
+      "description": "Feuert 1 Geschoss mehr ab (alle Waffen)."
+    },
+    "MOVESPEED": {
+      "name": "Bewegungstempo",
+      "description": "Der Charakter bewegt sich pro Rang 5% schneller (max. 10%)."
+    },
+    "MAGNET": {
+      "name": "Magnet",
+      "description": "Aufnahmeradius +25% pro Rang (max. +50%)."
+    },
+    "LUCK": {
+      "name": "Glück",
+      "description": "Die Chance, Glück zu haben, steigt um 10% pro Rang (max. +30%)."
+    },
+    "GROWTH": {
+      "name": "Entwicklung",
+      "description": "Erhält 3% mehr Erfahrung pro Rang (max. 15%)."
+    },
+    "GREED": {
+      "name": "Gier",
+      "description": "Erhält 10% mehr Münzen pro Rang (max. +50%)."
+    },
+    "SHIELD": {
+      "name": "Schild",
+      "description": "Verhindert bei 1 Angriff Schaden. Mit Lorbeer stapelbar."
+    },
+    "REVIVAL": {
+      "name": "Wiederbeleben",
+      "description": "Belebt einmal mit 50% LP wieder."
+    },
+    "REROLL": {
+      "name": "Neuwahl",
+      "description": "Gewährt zweimal pro Rang andere Wahlmöglichkeiten beim Levelaufstieg."
+    },
+    "SKIP": {
+      "name": "Überspringen",
+      "description": "Zweimal pro Rang ist es möglich, die Wahlmöglichkeiten beim Levelaufstieg zu überspringen und stattdessen Erfahrung zu erhalten."
+    },
+    "CURSE": {
+      "name": "Fluch",
+      "description": "Erhöht Tempo, LP, Anzahl und Häufigkeit der Gegner um 10% pro Rang (max. +50%)."
+    },
+    "BANISH": {
+      "name": "Verbannen",
+      "description": "Zweimal pro Rang ist es möglich, bis zum Ende des Laufs beim Levelaufstieg ein Item aus den Wahlmöglichkeiten zu entfernen."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Erhöht Macht, Geschossschnelligkeit, Dauer und Bereich um 2% pro Rang (max. +10%)."
+    },
+    "SEAL": {
+      "name": "Siegel I",
+      "description": "Ermöglicht das Verbannen eines Items aus der Levelaufstieg-Auswahl oder eines Pickup aus Lichtquellen. Im Menü SAMMLUNG verwenden."
+    },
+    "CHARM": {
+      "name": "Charme",
+      "description": "Es erscheinen 20 weitere Gegner pro Rang (max. +100)."
+    },
+    "SEAL2": {
+      "name": "Siegel II",
+      "description": "Ermöglicht das Verbannen von zwei Items aus der Levelaufstieg-Auswahl oder eines Pickups aus Lichtquellen. Im Menü SAMMLUNG verwenden."
+    },
+    "FEVER": {
+      "name": "Rausch",
+      "description": "Erhöht die Dauer von Goldrausch und Goldfinger um 10% pro Rang (max. 50%)."
+    },
+    "DEFANG": {
+      "name": "Zahnlos",
+      "description": "Feinde erscheinen in 3% der Fälle pro Rang (max. 15%), ohne dass sie Schaden verursachen können."
+    },
+    "SEAL3": {
+      "name": "Siegel III",
+      "description": "Ermöglicht das Verbannen von drei Items aus der Levelaufstieg-Auswahl oder eines Pickups aus Lichtquellen. Im Menü SAMMLUNG verwenden."
+    },
+    "SEAL4": {
+      "name": "Siegel: Alles",
+      "description": "Ermöglicht das Verbannen von vier Items aus der Levelaufstieg-Auswahl oder eines Pickups aus Lichtquellen. Im Menü SAMMLUNG verwenden."
+    }
+  },
+  "es": {
+    "POWER": {
+      "name": "Poder",
+      "description": "Aumenta el daño causado un 5 % por grado (máx.: +25 %)."
+    },
+    "REGEN": {
+      "name": "Recuperación",
+      "description": "Recupera 0,1 PS por grado (máx.: 0,5) por segundo."
+    },
+    "MAXHEALTH": {
+      "name": "Salud máx.",
+      "description": "Aumenta la salud máx. un 10 % por grado (máx.: +30 %)."
+    },
+    "ARMOR": {
+      "name": "Armadura",
+      "description": "Reduce el daño recibido en 1 por grado (máx.: -3)."
+    },
+    "AREA": {
+      "name": "Área de efecto",
+      "description": "Aumenta el área de efecto de los ataques un 5 % por grado (máx.: +10 %)."
+    },
+    "SPEED": {
+      "name": "Velocidad",
+      "description": "Los proyectiles se disparan un 10 % más rápido por grado (máx.: 20 %)."
+    },
+    "COOLDOWN": {
+      "name": "Recarga",
+      "description": "Usa las armas un 2,5 % más rápido por grado (máx.: 5 %)."
+    },
+    "DURATION": {
+      "name": "Duración",
+      "description": "Los efectos de las armas duran un 15 % más por grado (máx.: +30 %)."
+    },
+    "AMOUNT": {
+      "name": "Cantidad",
+      "description": "Dispara 1 proyectil más (todas las armas)."
+    },
+    "MOVESPEED": {
+      "name": "Vel. de movimiento",
+      "description": "El personaje se mueve un 5 % más rápido por grado (máx.: 10 %)."
+    },
+    "MAGNET": {
+      "name": "Imán",
+      "description": "El alcance de recogida de objetos aumenta un 25 % por grado (máx.: +50 %)."
+    },
+    "LUCK": {
+      "name": "Suerte",
+      "description": "La probabilidad de tener suerte aumenta un 10 % por grado (máx.: +30 %)."
+    },
+    "GROWTH": {
+      "name": "Crecimiento",
+      "description": "Consigue un 3 % más de experiencia por grado (máx.: 15 %)."
+    },
+    "GREED": {
+      "name": "Avaricia",
+      "description": "Consigue un 10 % más de oro por grado (máx.: +50 %)."
+    },
+    "SHIELD": {
+      "name": "Escudo",
+      "description": "Evita el daño de un ataque. Se acumula con laurel."
+    },
+    "REVIVAL": {
+      "name": "Resurrección",
+      "description": "Resucita una vez con un 50 % de salud."
+    },
+    "REROLL": {
+      "name": "Cambiar",
+      "description": "Te permite obtener opciones diferentes al subir de nivel dos veces por grado."
+    },
+    "SKIP": {
+      "name": "Saltar",
+      "description": "Te permite saltar la selección de objetos al subir de nivel para ganar experiencia en su lugar 2 veces por grado."
+    },
+    "CURSE": {
+      "name": "Maldición",
+      "description": "Aumenta la vel. de movimiento, la salud, la cantidad y la frecuencia de aparición de los enemigos un 10 % por grado (máx.: +50 %)."
+    },
+    "BANISH": {
+      "name": "Eliminar",
+      "description": "Te permite escoger un objeto de la selección al subir de nivel y eliminarlo durante el resto de la partida dos veces por grado."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Aumenta el poder, la vel. de proyectil, la duración y el área de efecto un 2 % por grado (máx.: +10 %)."
+    },
+    "SEAL": {
+      "name": "Sellar I",
+      "description": "Te permite eliminar un objeto de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
+    },
+    "CHARM": {
+      "name": "Encanto",
+      "description": "Aumenta en 20 la cantidad de enemigos que aparecen por grado (máx.: +100)."
+    },
+    "SEAL2": {
+      "name": "Sellar II",
+      "description": "Te permite eliminar dos objetos de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
+    },
+    "FEVER": {
+      "name": "Fiebre",
+      "description": "Aumenta la duración de fiebre del oro y dedo dorado un 10 % por grado (máx.: +50 %)."
+    },
+    "DEFANG": {
+      "name": "Descolmillar",
+      "description": "Cada enemigo que aparece tiene un 3 % de probabilidad por grado de no poder causar daño (máx.: 15 %)."
+    },
+    "SEAL3": {
+      "name": "Sellar III",
+      "description": "Te permite eliminar tres objetos de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
+    },
+    "SEAL4": {
+      "name": "Sellar todo",
+      "description": "Te permite eliminar cuatro objetos de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
+    }
+  },
+  "pt-BR": {
+    "POWER": {
+      "name": "Poder",
+      "description": "Aumenta o dano causado em 5% por classe (máx. de +25%)."
+    },
+    "REGEN": {
+      "name": "Recuperação",
+      "description": "Recupera 0,1 de PV por classe (máx. de 0,5) por segundo."
+    },
+    "MAXHEALTH": {
+      "name": "Vida Máx.",
+      "description": "Aumenta a Vida Máx. em 10% por classe (máx. de +30%)."
+    },
+    "ARMOR": {
+      "name": "Armadura",
+      "description": "Reduz dano sofrido em 1 por classe (máx. de -3)."
+    },
+    "AREA": {
+      "name": "Área",
+      "description": "Aumenta a área dos ataques em 5% por classe (máx. de +10%)."
+    },
+    "SPEED": {
+      "name": "Velocidade",
+      "description": "Projéteis se movem 10% mais rápido por classe (máx. de 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Recarga",
+      "description": "Usa armas 2,5% mais rápido por classe (máx. de 5%)."
+    },
+    "DURATION": {
+      "name": "Duração",
+      "description": "Efeitos das armas duram 15% a mais de tempo por classe (máx. de +30%)."
+    },
+    "AMOUNT": {
+      "name": "Quantidade",
+      "description": "Dispara um projétil a mais (todas as armas)."
+    },
+    "MOVESPEED": {
+      "name": "Movimento",
+      "description": "Personagem se move 5% mais rápido por classe (máx. de 10%)."
+    },
+    "MAGNET": {
+      "name": "Magnetismo",
+      "description": "Aumenta o alcance de coleta em +25% por classe (máx. de +50%)."
+    },
+    "LUCK": {
+      "name": "Sorte",
+      "description": "A chance de tirar a sorte grande aumenta em 10% por classe (máx. de +30%)."
+    },
+    "GROWTH": {
+      "name": "Crescimento",
+      "description": "Concede 3% a mais de experiência por classe (máx. de 15%)."
+    },
+    "GREED": {
+      "name": "Ganância",
+      "description": "Concede 10% a mais de ouro por classe (máx. de +50%)."
+    },
+    "SHIELD": {
+      "name": "Escudo",
+      "description": "Previne dano de um ataque. Acumulativo com Loureiro."
+    },
+    "REVIVAL": {
+      "name": "Ressurreição",
+      "description": "Ressuscita uma vez com 50% de Vida."
+    },
+    "REROLL": {
+      "name": "Rolar novamente",
+      "description": "Duas vezes por classe, permite que você obtenha escolhas diferentes ao subir de nível."
+    },
+    "SKIP": {
+      "name": "Adiar",
+      "description": "Duas vezes por classe, permite que você ganhe experiência em vez de fazer uma escolha ao subir de nível."
+    },
+    "CURSE": {
+      "name": "Maldição",
+      "description": "Aumenta a velocidade, vida, quantidade e frequência dos inimigos em 10% por classe (máx. de +50%)."
+    },
+    "BANISH": {
+      "name": "Banir",
+      "description": "Duas vezes por classe, permite que você remova, pelo resto da partida, um item das escolhas ao subir de nível."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Aumenta Poder, Velocidade de Projéteis, Duração e Área em 2% por classe (máx. de +10%)."
+    },
+    "SEAL": {
+      "name": "Selar I",
+      "description": "Permite Banir um item das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
+    },
+    "CHARM": {
+      "name": "Charme",
+      "description": "Aumenta a quantidade de inimigos que surgem em 20 por classe (máx. de +100)."
+    },
+    "SEAL2": {
+      "name": "Selar II",
+      "description": "Permite Banir dois itens das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
+    },
+    "FEVER": {
+      "name": "Febre",
+      "description": "Aumenta a duração de Febre de Ouro e Dedo de Ouro em 10% por classe (máx. de +50%)."
+    },
+    "DEFANG": {
+      "name": "Debilidade",
+      "description": "Inimigos que surgem são incapazes de causar dano em 3% das vezes por classe (máx. de 15%)."
+    },
+    "SEAL3": {
+      "name": "Selar III",
+      "description": "Permite Banir três itens das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
+    },
+    "SEAL4": {
+      "name": "Selar Tudo",
+      "description": "Permite Banir quatro itens das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
+    }
+  },
+  "pl": {
+    "POWER": {
+      "name": "Moc",
+      "description": "Zwiększa zadawane Obrażenia o 5% na rangę (maks. +25%)."
+    },
+    "REGEN": {
+      "name": "Odzyskiwanie",
+      "description": "Odzyskuje 0,1 PZ na rangę (maks. 0,5) na sekundę."
+    },
+    "MAXHEALTH": {
+      "name": "Maksymalne zdrowie",
+      "description": "Zwiększa Maksymalne zdrowie o 10% na rangę (maks. +30%)."
+    },
+    "ARMOR": {
+      "name": "Pancerz",
+      "description": "Zmniejsza otrzymywane Obrażenia o 1 na rangę (maks. -3)."
+    },
+    "AREA": {
+      "name": "Obszar",
+      "description": "Powiększa obszar ataków o 5% na rangę (maks. +10%)."
+    },
+    "SPEED": {
+      "name": "Prędkość",
+      "description": "Pociski poruszają się o 10% szybciej na rangę (maks. 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Odnawianie",
+      "description": "Korzysta z broni o 2,5% szybciej na rangę (maks. 5%)."
+    },
+    "DURATION": {
+      "name": "Czas trwania",
+      "description": "Efekty broni trwają o 15% dłużej na rangę (maks. +30%)."
+    },
+    "AMOUNT": {
+      "name": "Ilość",
+      "description": "Wystrzeliwuje 1 pocisk więcej (wszystkie bronie)."
+    },
+    "MOVESPEED": {
+      "name": "Prędkość ruchu",
+      "description": "Postać porusza się o 5% szybciej na rangę (maks. 10%)."
+    },
+    "MAGNET": {
+      "name": "Magnes",
+      "description": "Odległość zbierania wzrasta o 25% na rangę (maks. +50%)."
+    },
+    "LUCK": {
+      "name": "Szczęście",
+      "description": "Zwiększa szansę na szczęśliwy traf o 10% na rangę (maks. +30%)."
+    },
+    "GROWTH": {
+      "name": "Rozwój",
+      "description": "Zapewnia +3% doświadczenia na rangę (maks. 15%)."
+    },
+    "GREED": {
+      "name": "Chciwość",
+      "description": "Zapewnia +10% Złota na rangę (maks. +50%)."
+    },
+    "SHIELD": {
+      "name": "Tarcza",
+      "description": "Zapobiega obrażeniom w ramach jednego ataku. Można łączyć z Laurem."
+    },
+    "REVIVAL": {
+      "name": "Wskrzeszenie",
+      "description": "Wskrzesza jednokrotnie ze zdrowiem na poziomie 50%."
+    },
+    "REROLL": {
+      "name": "Zmiana",
+      "description": "Dwa razy na rangę umożliwia zmianę opcji do wyboru przy awansie na wyższy poziom."
+    },
+    "SKIP": {
+      "name": "Pominięcie",
+      "description": "Dwa razy na rangę umożliwia pominięcie wyboru przy awansie na wyższy poziom w zamian za Doświadczenie."
+    },
+    "CURSE": {
+      "name": "Klątwa",
+      "description": "Zwiększa prędkość, zdrowie, ilość i częstotliwość wrogów o 10% na rangę (maks. +50%)."
+    },
+    "BANISH": {
+      "name": "Odrzucenie",
+      "description": "Dwa razy na rangę umożliwia usunięcie z puli jednego z przedmiotów dostępnych do wyboru przy awansie na wyższy poziom. Obowiązuje do końca tej rozgrywki."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Zwiększa Moc, Prędkość pocisków, Czas trwania i Obszar o 2% na rangę (maks +10%)."
+    },
+    "SEAL": {
+      "name": "Zapieczętowanie I",
+      "description": "Pozwala na odrzucenie przedmiotu z puli przyznawanej przy awansie na wyższy poziom lub łupu ze źródeł światła. Użyj w menu KOLEKCJA."
+    },
+    "CHARM": {
+      "name": "Urok",
+      "description": "Zwiększa liczbę pojawiających się wrogów o 20 na rangę (maks. +100)."
+    },
+    "SEAL2": {
+      "name": "Zapieczętowanie II",
+      "description": "Pozwala na odrzucenie dwóch przedmiotów z puli przyznawanej przy awansie na wyższy poziom lub z łupu ze źródeł światła. Użyj w menu KOLEKCJA."
+    },
+    "FEVER": {
+      "name": "Gorączka",
+      "description": "Zwiększa czas trwania Gorączki Złota i Złotego Palca o 10% na rangę (maks. +50%)."
+    },
+    "DEFANG": {
+      "name": "Pozbawienie Kłów",
+      "description": "Pojawiający się wrogowie nie są w stanie zadawać obrażeń w 3% przypadków na rangę (maks. 15%)."
+    },
+    "SEAL3": {
+      "name": "Zapieczętowanie III",
+      "description": "Pozwala odrzucić trzy przedmioty z wyboru awansu na wyższy poziom lub z podnoszenia przedmiotów ze źródeł światła. Użyj w menu KOLEKCJI."
+    },
+    "SEAL4": {
+      "name": "Zapieczętuj wszystko",
+      "description": "Pozwala na odrzucenie czterech przedmiotów z puli przyznawanej przy awansie na wyższy poziom lub z łupu ze źródeł światła. Użyj w menu KOLEKCJA."
+    }
+  },
+  "ru": {
+    "POWER": {
+      "name": "Сила",
+      "description": "Увеличивает наносимый урон на 5% с каждым рангом (макс. +25%)."
+    },
+    "REGEN": {
+      "name": "Регенерация",
+      "description": "Восстанавливает 0,1 ОЗ/сек. за каждый ранг (макс. 0,5)."
+    },
+    "MAXHEALTH": {
+      "name": "Макс. ОЗ",
+      "description": "Увеличивает макс. ОЗ на 10% за ранг (макс. +30%)."
+    },
+    "ARMOR": {
+      "name": "Броня",
+      "description": "Снижает получаемый урон на 1 за ранг (макс. -3)."
+    },
+    "AREA": {
+      "name": "Область",
+      "description": "Увеличивает область атаки на 5% с каждым рангом (макс. +10%)."
+    },
+    "SPEED": {
+      "name": "Скорость",
+      "description": "Снаряды движутся на 10% быстрее с каждым рангом (макс. 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Перезарядка",
+      "description": "Оружие используется на 2,5% чаще с каждым рангом (макс. 5%)."
+    },
+    "DURATION": {
+      "name": "Продолжительность",
+      "description": "Эффекты от оружия длятся на 15% дольше с каждым рангом (макс. +30%)."
+    },
+    "AMOUNT": {
+      "name": "Боезапас",
+      "description": "Выпускает на 1 снаряд больше (все оружие)."
+    },
+    "MOVESPEED": {
+      "name": "Скорость движения",
+      "description": "Персонаж перемещается на 5% быстрее с каждым рангом (макс. 10%)."
+    },
+    "MAGNET": {
+      "name": "Магнит",
+      "description": "Радиус сбора предметов на 25% больше с каждым рангом (макс. +50%)."
+    },
+    "LUCK": {
+      "name": "Удача",
+      "description": "Шанс везения возрастает на 10% с каждым рангом (макс. +30%)."
+    },
+    "GROWTH": {
+      "name": "Развитие",
+      "description": "Вы получаете на 3% больше опыта за каждый ранг (макс. 15%)."
+    },
+    "GREED": {
+      "name": "Жадность",
+      "description": "Дает на 10% больше золота за ранг (макс. +50%)."
+    },
+    "SHIELD": {
+      "name": "Щит",
+      "description": "Предотвращает урон от одной атаки. Объединяется с лавром."
+    },
+    "REVIVAL": {
+      "name": "Оживление",
+      "description": "Оживляет один раз с 50% ОЗ."
+    },
+    "REROLL": {
+      "name": "Повтор",
+      "description": "Два раза за ранг дает выбрать из других вариантов при повышении уровня."
+    },
+    "SKIP": {
+      "name": "Пропуск",
+      "description": "Один раз за ранг позволяет пропустить выбор при повышении уровня и взамен получить опыт."
+    },
+    "CURSE": {
+      "name": "Проклятие",
+      "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10% за ранг (макс. +50%)."
+    },
+    "BANISH": {
+      "name": "Изгнание",
+      "description": "Два раза за ранг позволяет удалить предмет из предложенных при повышении уровня до конца забега."
+    },
+    "PANDORA": {
+      "name": "Омни",
+      "description": "Увеличивает силу, скорость, продолжительность и область на 2% за ранг (макс. +10%)."
+    },
+    "SEAL": {
+      "name": "Исключение",
+      "description": "Позволяет убрать предмет из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+    },
+    "CHARM": {
+      "name": "Очарование",
+      "description": "Увеличивает количество появляющихся врагов на 20 за каждый ранг (макс. +100)."
+    },
+    "SEAL2": {
+      "name": "Исключение II",
+      "description": "Позволяет убрать два предмета из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+    },
+    "FEVER": {
+      "name": "Лихорадка",
+      "description": "Увеличивает продолжительность Золотой лихорадки и Золотого перста на 10% с каждым рангом (макс. +50%)."
+    },
+    "DEFANG": {
+      "name": "Обезвреживание",
+      "description": "Враги появляются неспособными нанести урон в 3% случаев за каждый ранг (макс. 15%)."
+    },
+    "SEAL3": {
+      "name": "Исключение III",
+      "description": "Позволяет убрать три предмета из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+    },
+    "SEAL4": {
+      "name": "Исключить все",
+      "description": "Позволяет убрать четыре предмета из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+    }
+  },
+  "tr": {
+    "POWER": {
+      "name": "Kuvvet",
+      "description": "Verilen Hasarı rütbe başına %5 artırır (maks. +%25)."
+    },
+    "REGEN": {
+      "name": "İyileşme",
+      "description": "Saniyede rütbe başına 0,1 HP (en fazla 0.5) yeniler."
+    },
+    "MAXHEALTH": {
+      "name": "Maks Sağlık",
+      "description": "Maks Sağlığı rütbe başına %10 artırır (maks. +%30)."
+    },
+    "ARMOR": {
+      "name": "Zırh",
+      "description": "Alınan Hasarı rütbe başına 1 azaltır (en fazla -3)."
+    },
+    "AREA": {
+      "name": "Alan",
+      "description": "Saldırı alanını rütbe başına %5 artırır (maks. +%10)."
+    },
+    "SPEED": {
+      "name": "Hız",
+      "description": "Fırlatılabilirler rütbe başına %10 daha hızlı hareket eder (en fazla %20)."
+    },
+    "COOLDOWN": {
+      "name": "Bekleme Süresi",
+      "description": "Rütbe başına %2.5 daha hızlı silah kullanır (en fazla %5)."
+    },
+    "DURATION": {
+      "name": "Tesir süresi",
+      "description": "Silahlardan gelen etkiler, rütbe başına %15 daha uzun sürer (maks. +%30)."
+    },
+    "AMOUNT": {
+      "name": "Miktar",
+      "description": "1 fırlatılabilir fazla atar (tüm silahlar)."
+    },
+    "MOVESPEED": {
+      "name": "Hareket Hızı",
+      "description": "Karakter, rütbe başına %5 daha hızlı hareket eder (en fazla %10)."
+    },
+    "MAGNET": {
+      "name": "Mıknatıs",
+      "description": "Eşya toplama aralığı rütbe başına +%25 (maks. +%50)."
+    },
+    "LUCK": {
+      "name": "Şans",
+      "description": "Şanslı olma ihtimali rütbe başına %10 artar (en fazla +%30)."
+    },
+    "GROWTH": {
+      "name": "Büyüme",
+      "description": "Rütbe başına %3 daha fazla deneyim kazanır (en fazla %15)."
+    },
+    "GREED": {
+      "name": "Açgözlülük",
+      "description": "Rütbe başına %10 daha fazla Altın kazanır (maks. +%50)."
+    },
+    "SHIELD": {
+      "name": "Kalkan",
+      "description": "Bir saldırı için hasarı önler. Defne'yle beraber istiflenir."
+    },
+    "REVIVAL": {
+      "name": "Canlanma",
+      "description": "%50 canla bir kez canlandırır."
+    },
+    "REROLL": {
+      "name": "Tekrar Atma",
+      "description": "Rütbe başına iki kez, seviye atlarken farklı seçenekler elde etmenizi sağlar."
+    },
+    "SKIP": {
+      "name": "Atla",
+      "description": "Rütbe başına iki kez, level atlama seçeneklerini atlayıp, yerine Deneyim almanıza olanak tanır."
+    },
+    "CURSE": {
+      "name": "Lanet",
+      "description": "Rütbe başına düşman hızını, sağlığını, miktarını ve sıklığını %10 artırır (en fazla +%50)."
+    },
+    "BANISH": {
+      "name": "Çıkar",
+      "description": "Rütbe başına iki kez, oyunun geri kalanı için seviye atlama seçeneklerinden bir eşyayı kaldırmanıza olanak tanır."
+    },
+    "PANDORA": {
+      "name": "Omni",
+      "description": "Kuvvet, Fırlatılabilir Hızı, Tesir Süresi ve Alanı rütbe başına %2 artırır (en fazla +%10)."
+    },
+    "SEAL": {
+      "name": "Mühür I",
+      "description": "Seviye atlama seçeneklerinden bir eşyayı veya ışık kaynaklarından bir toplanabilir'i ÇIKARMAYA izin verir. KOLEKSİYON menüsünde kullanın."
+    },
+    "CHARM": {
+      "name": "Letafet",
+      "description": "Düşmanların doğma sayısını rütbe başına 20 artırır (maks +100)."
+    },
+    "SEAL2": {
+      "name": "Mühür II",
+      "description": "Seviye atlama seçeneklerinden iki eşyayı veya ışık kaynaklarından bir toplanabilir'i ÇIKARMAYA izin verir. KOLEKSİYON menüsünde kullanılır."
+    },
+    "FEVER": {
+      "name": "Kasırga",
+      "description": "Altın Kasırgası ve Altın Parmak'ın süresini rütbe başına %10 artırır (en fazla +%50)."
+    },
+    "DEFANG": {
+      "name": "Zararsızlaştırma",
+      "description": "Düşmanlar rütbe başına %3 daha az hasar verecek şekilde doğar (maksimum %15)."
+    },
+    "SEAL3": {
+      "name": "Mühür III",
+      "description": "Seviye atlama seçeneklerinden üç eşyayı veya ışık kaynaklarından bir toplanabiliri ÇIKARMAYI sağlar. KOLEKSİYON menüsünde kullan."
+    },
+    "SEAL4": {
+      "name": "Hepsini Mühürle",
+      "description": "Seviye atlama seçeneklerinden dört eşyayı veya ışık kaynaklarından bir toplanabiliri Çıkarmaya olanak tanır. KOLEKSİYON menüsünde kullanılır."
+    }
+  },
+  "zh-CN": {
+    "POWER": {
+      "name": "力量",
+      "description": "每强化一层, 造成的伤害+5%, 最多+25%。"
+    },
+    "REGEN": {
+      "name": "恢复",
+      "description": "每强化一层, 每秒生命恢复+0.1, 最多+0.5。"
+    },
+    "MAXHEALTH": {
+      "name": "生命上限",
+      "description": "每强化一层, 生命上限+10%, 最多+30%。"
+    },
+    "ARMOR": {
+      "name": "防御",
+      "description": "每强化一层, 受到的伤害-1, 最多-3。"
+    },
+    "AREA": {
+      "name": "攻击范围",
+      "description": "每强化一层, 攻击范围+5%, 最多+10%。"
+    },
+    "SPEED": {
+      "name": "飞射速度",
+      "description": "每强化一层, 飞射速度+10%, 最多+20%。"
+    },
+    "COOLDOWN": {
+      "name": "冷却时间",
+      "description": "每强化一层, 武器的使用频率+2.5%, 最多+5%。"
+    },
+    "DURATION": {
+      "name": "持续时间",
+      "description": "每强化一层, 武器效果的持续时间+15%, 最多+30%。"
+    },
+    "AMOUNT": {
+      "name": "发射数量",
+      "description": "飞射物数量+1, 对所有武器有效。"
+    },
+    "MOVESPEED": {
+      "name": "移动速度",
+      "description": "每强化一层, 角色的移动速度+5%, 最多+10%。"
+    },
+    "MAGNET": {
+      "name": "念力",
+      "description": "每强化一层, 道具拾取范围+25%, 最多+50%。"
+    },
+    "LUCK": {
+      "name": "运气",
+      "description": "每强化一层, 运气+10%, 最多+30%。"
+    },
+    "GROWTH": {
+      "name": "成长",
+      "description": "每强化一层, 获得的经验值+3%, 最多+15%。"
+    },
+    "GREED": {
+      "name": "贪欲",
+      "description": "每强化一层， 获得的金币+10%， 最多+50%。"
+    },
+    "SHIELD": {
+      "name": "护盾",
+      "description": "化解一次攻击, 可与月桂叠加。"
+    },
+    "REVIVAL": {
+      "name": "复活机会",
+      "description": "以50%的生命值复活一次。"
+    },
+    "REROLL": {
+      "name": "重选",
+      "description": "每强化一层， 你在升级时将多两次重选宝物的机会。"
+    },
+    "SKIP": {
+      "name": "跳过",
+      "description": "每强化一层， 你在升级时将多两次跳过选择宝物的机会， 跳过可获得经验值。"
+    },
+    "CURSE": {
+      "name": "诅咒",
+      "description": "每强化一层, 敌人的速度, 生命值, 数量和刷新频率+10%, 最多+50%。"
+    },
+    "BANISH": {
+      "name": "排除",
+      "description": "每强化一层， 你在升级时将多两次排除指定宝物的机会， 被排除的宝物本局不再出现。"
+    },
+    "PANDORA": {
+      "name": "全能",
+      "description": "每强化一层, 力量, 飞射速度, 持续时间和攻击范围+2%, 最多+10%。"
+    },
+    "SEAL": {
+      "name": "封印（1）",
+      "description": "允许你在升级时排除一个物品， 或排除光源中的掉落物； 需在藏品菜单中使用。"
+    },
+    "CHARM": {
+      "name": "魅惑",
+      "description": "每强化一层， 敌人的刷新数量+20， 最多+100。"
+    },
+    "SEAL2": {
+      "name": "封印（2）",
+      "description": "允许你在升级时排除两个物品，或排除光源中的掉落物；需在藏品菜单中使用。"
+    },
+    "FEVER": {
+      "name": "狂热",
+      "description": "每强化一层，淘金狂潮和金手指的持续时间+10%，最多+50%。"
+    },
+    "DEFANG": {
+      "name": "去齿",
+      "description": "每强化一层，无法造成伤害的敌人+3%，最多+15%。"
+    },
+    "SEAL3": {
+      "name": "封印（3）",
+      "description": "允许你在升级时排除三个物品，或排除光源中的掉落物；需在藏品菜单中使用。"
+    },
+    "SEAL4": {
+      "name": "全部封印",
+      "description": "允许你在升级时排除四个物品，或排除光源中的一个掉落物；需在藏品菜单中使用。"
+    }
+  },
+  "ja": {
+    "POWER": {
+      "name": "攻撃力",
+      "description": "各ランクにつき5%ずつ与ダメージ増加 (最大+25%) 。"
+    },
+    "REGEN": {
+      "name": "回復力",
+      "description": "各ランクにつきHPを毎秒0.1ずつ回復 (最大0.5) 。"
+    },
+    "MAXHEALTH": {
+      "name": "最大HP",
+      "description": "各ランクにつき最大HPを10%ずつ増加 (最大+30%) 。"
+    },
+    "ARMOR": {
+      "name": "防御力",
+      "description": "各ランクにつき被ダメージを1ずつ軽減 (最大-3) 。"
+    },
+    "AREA": {
+      "name": "攻撃範囲",
+      "description": "各ランクにつき攻撃範囲を5%拡大 (最大+10%) 。"
+    },
+    "SPEED": {
+      "name": "弾速",
+      "description": "各ランクにつき弾速を10%上がる (最大20%) 。"
+    },
+    "COOLDOWN": {
+      "name": "クールダウン",
+      "description": "各ランクにつき武器の使用速度が2.5%上がる (最大5%) 。"
+    },
+    "DURATION": {
+      "name": "効果時間",
+      "description": "各ランクにつき武器効果が15%長く持続する (最大+30%) 。"
+    },
+    "AMOUNT": {
+      "name": "発射弾数",
+      "description": "弾数が1つ増加(全武器) 。"
+    },
+    "MOVESPEED": {
+      "name": "素早さ",
+      "description": "各ランクにつきキャラクターの素早さが5%上がる (最大10%) 。"
+    },
+    "MAGNET": {
+      "name": "回収範囲",
+      "description": "各ランクにつきアイテム回収範囲が25%拡大 (最大+50%) 。"
+    },
+    "LUCK": {
+      "name": "運",
+      "description": "ランク毎に運気が\\n10％上昇（最大＋30％）。"
+    },
+    "GROWTH": {
+      "name": "成長効率",
+      "description": "各ランクにつきEXP獲得量が3%増加 (最大15%) 。"
+    },
+    "GREED": {
+      "name": "欲深さ",
+      "description": "各ランクにつき金貨獲得量が10%増加 （最大+50%）。"
+    },
+    "SHIELD": {
+      "name": "シールド",
+      "description": "攻撃1回分のダメージを防ぐ。 月桂樹で効果回数が増える。"
+    },
+    "REVIVAL": {
+      "name": "復活",
+      "description": "1回だけ体力50%で復活する。"
+    },
+    "REROLL": {
+      "name": "リロール",
+      "description": "1ランクにつき2回、 レベルアップ時に異なる選択肢を獲得する。"
+    },
+    "SKIP": {
+      "name": "スキップ",
+      "description": "1ランクにつき2回、 レベルアップの選択肢をスキップする代わりに、 経験値が得られる。"
+    },
+    "CURSE": {
+      "name": "呪い",
+      "description": "敵の素早さ, HP, 敵の数, 出現頻度がランク毎に10%ずつ増加する (最大+50%) 。"
+    },
+    "BANISH": {
+      "name": "選択肢消去",
+      "description": "ランクごとに2回、 ランの残り時間、 レベルアップ選択肢からアイテム1個を削除できる。"
+    },
+    "PANDORA": {
+      "name": "万能",
+      "description": "1ランクにつき攻撃力, 弾速, 効果時間, 攻撃範囲を2%ずつ増加させる (最大+10%) 。"
+    },
+    "SEAL": {
+      "name": "封印1",
+      "description": "レベルアップ選択肢からアイテムを削除できる、 または明かりからピックアップが得られる。 コレクションメニューで使う。"
+    },
+    "CHARM": {
+      "name": "チャーム",
+      "description": "敵の出現数が1ランクにつき20増加する （最大+100）。"
+    },
+    "SEAL2": {
+      "name": "封印2",
+      "description": "レベルアップの選択肢または明かりからのピックアップから2つのアイテムを選択肢消去できるようになる。コレクションメニューで使用可能。"
+    },
+    "FEVER": {
+      "name": "フィーバー",
+      "description": "ゴールデンフィーバーと黄金の指の持続時間が1ランクにつき10%増加（上限：+50%）。"
+    },
+    "DEFANG": {
+      "name": "牙抜き",
+      "description": "敵が出現後1ランクにつき3%の確率でダメージ付与できなくなる（上限：15%）。"
+    },
+    "SEAL3": {
+      "name": "封印3",
+      "description": "レベルアップ選択肢からアイテムを3つ削除、 または光源からピックアップが得られる。コレクションメニューで使う。"
+    },
+    "SEAL4": {
+      "name": "すべて封印",
+      "description": "レベルアップ選択肢から4つのアイテムを削除できる、または明かりからピックアップが得られる。コレクションメニューで使う。"
+    }
+  },
+  "ko": {
+    "POWER": {
+      "name": "피해량",
+      "description": "랭크당 피해량이 5% 증가합니다(최대 +25%)."
+    },
+    "REGEN": {
+      "name": "회복",
+      "description": "랭크당 초당 체력 회복량이 0.1 증가합니다(최대 0.5)."
+    },
+    "MAXHEALTH": {
+      "name": "최대 체력",
+      "description": "랭크당 최대 체력이 10% 증가합니다(최대 +30%)."
+    },
+    "ARMOR": {
+      "name": "방어력",
+      "description": "랭크당 피격 피해량이 1 줄어듭니다(최대 -3)."
+    },
+    "AREA": {
+      "name": "공격 범위",
+      "description": "랭크당 공격 범위가 5% 증가합니다(최대 +10%)."
+    },
+    "SPEED": {
+      "name": "투사체 속도",
+      "description": "랭크당 투사체가 10% 빨라집니다(최대 20%)."
+    },
+    "COOLDOWN": {
+      "name": "쿨타임",
+      "description": "랭크당 무기 쿨타임이 2.5% 감소합니다(최대 5%)."
+    },
+    "DURATION": {
+      "name": "지속시간",
+      "description": "랭크당 무기의 효과 지속 시간이 15% 연장됩니다(최대 +30%)."
+    },
+    "AMOUNT": {
+      "name": "투사체 수",
+      "description": "투사체를 1개 더 발사합니다(모든 무기)."
+    },
+    "MOVESPEED": {
+      "name": "이동 속도",
+      "description": "랭크당 이동 속도가 5% 빨라집니다(최대 10%)."
+    },
+    "MAGNET": {
+      "name": "자석",
+      "description": "랭크당 아이템 획득 범위가 25% 증가합니다(최대 +50%)."
+    },
+    "LUCK": {
+      "name": "행운",
+      "description": "랭크당 행운이 10% 증가합니다(최대 +30%)."
+    },
+    "GROWTH": {
+      "name": "성장",
+      "description": "랭크당 3%의 추가 경험치를 획득합니다(최대 15%)."
+    },
+    "GREED": {
+      "name": "탐욕",
+      "description": "랭크당 10%의 추가 골드를 획득합니다(최대 +50%)."
+    },
+    "SHIELD": {
+      "name": "보호막",
+      "description": "공격을 한 번 막아줍니다. 월계수와 합산됩니다."
+    },
+    "REVIVAL": {
+      "name": "부활",
+      "description": "50% 체력으로 1회 부활합니다."
+    },
+    "REROLL": {
+      "name": "새로고침",
+      "description": "랭크당 두 번, 레벨업 시 다른 선택을 할 수 있습니다."
+    },
+    "SKIP": {
+      "name": "건너뛰기",
+      "description": "랭크당 두 번, 레벨업 선택을 건너뛰고 대신 경험치를 받을 수 있습니다."
+    },
+    "CURSE": {
+      "name": "저주",
+      "description": "랭크당 10%씩 적들의 속도, 체력, 개체 수, 스폰율이 증가합니다(최대 +50%)."
+    },
+    "BANISH": {
+      "name": "지우기",
+      "description": "랭크당 두 번, 레벨업 선택지에서 게임의 나머지 부분을 위한 아이템을 제거할 수 있습니다."
+    },
+    "PANDORA": {
+      "name": "전능",
+      "description": "랭크당 피해량, 투사체 속도, 지속시간, 공격 범위가 2% 증가합니다(최대 10%)."
+    },
+    "SEAL": {
+      "name": "봉인 I",
+      "description": "레벨업 선택지에서 아이템 하나를 지우거나, 광원에서 획득합니다. 컬렉션 메뉴에서 사용하세요."
+    },
+    "CHARM": {
+      "name": "매력",
+      "description": "적의 스폰 수량을 랭크당 20씩 증가시킵니다(최대 +100)."
+    },
+    "SEAL2": {
+      "name": "봉인 II",
+      "description": "레벨업 선택지에서 아이템 두 개를 지우거나 광원에서 픽업 하나를 지울 수 있습니다. 컬렉션 메뉴에서 사용하세요."
+    },
+    "FEVER": {
+      "name": "피버",
+      "description": "랭크당 황금의 피버타임과 골드 핑거의 지속 시간이 10%(최대 +50%) 증가합니다."
+    },
+    "DEFANG": {
+      "name": "옥수수 털기",
+      "description": "적의 스폰이 랭크당 시간의 3%(최대 15%) 동안은 피해를 줄 수 없습니다."
+    },
+    "SEAL3": {
+      "name": "봉인 III",
+      "description": "레벨업 선택지에서 아이템 세개를 지우거나, 광원에서 하나 획득합니다. 컬렉션 메뉴에서 사용하세요."
+    },
+    "SEAL4": {
+      "name": "모두 봉인",
+      "description": "레벨업 선택지에서 아이템 네 개를 지우거나, 광원에서 픽업 하나를 지울 수 있습니다. 컬렉션 메뉴에서 사용하세요."
+    }
+  },
+  "zh-TW": {
+    "POWER": {
+      "name": "力量",
+      "description": "每強化一級，造成的傷害提高 5%，最多提高 25%。"
+    },
+    "REGEN": {
+      "name": "生命值恢復",
+      "description": "每強化一級，生命值會每秒恢復 0.1 點，每秒最多恢復 0.5 點的生命值。"
+    },
+    "MAXHEALTH": {
+      "name": "最大生命值",
+      "description": "每強化一級，最大生命值提高 10%，最多提高 30%。"
+    },
+    "ARMOR": {
+      "name": "護甲",
+      "description": "每強化一級，受到的傷害減少 1 點，最多減少 3 點傷害。"
+    },
+    "AREA": {
+      "name": "效果範圍",
+      "description": "每強化一級，效果範圍擴大 5%，最多擴大 10%。"
+    },
+    "SPEED": {
+      "name": "投射物飛行速度",
+      "description": "每強化一級，投射物飛行速度加快 10%，最多加快 20%。"
+    },
+    "COOLDOWN": {
+      "name": "冷卻時間",
+      "description": "每強化一級，武器的攻擊頻率加快 2.5%，最多加快 5%。"
+    },
+    "DURATION": {
+      "name": "效果持續時間",
+      "description": "每強化一級，武器效果的持續時間延長 15%，最多延長 30%。"
+    },
+    "AMOUNT": {
+      "name": "投射物數量",
+      "description": "投射物數量加 1，適用所有武器。"
+    },
+    "MOVESPEED": {
+      "name": "移動速度",
+      "description": "每強化一級，角色的移動速度提高 5%，最多提高 10%。"
+    },
+    "MAGNET": {
+      "name": "磁鐵",
+      "description": "每強化一級，你的道具拾取範圍擴大 25%，最多擴大 50%。"
+    },
+    "LUCK": {
+      "name": "運氣",
+      "description": "每強化一級，運氣值提高 10%，最多提高 30%。"
+    },
+    "GROWTH": {
+      "name": "成長",
+      "description": "每強化一級，獲得的經驗值提高 3%，最多提高 15%。"
+    },
+    "GREED": {
+      "name": "貪欲",
+      "description": "每強化一級，獲得的金幣增加 10%，最多增加 50%。"
+    },
+    "SHIELD": {
+      "name": "護盾",
+      "description": "無視一次攻擊的傷害。可與月桂的效果一同疊加。"
+    },
+    "REVIVAL": {
+      "name": "復活",
+      "description": "以 50% 的生命值復活一次。"
+    },
+    "REROLL": {
+      "name": "重骰",
+      "description": "每強化一級， 你在升級時便能多得到兩次重骰升級強化選項的機會。"
+    },
+    "SKIP": {
+      "name": "跳過",
+      "description": "每強化一級，你在升級時便能多得到兩次跳過選擇升級強化選項的機會；選擇跳過升級獎勵的話，你可獲得經驗值。"
+    },
+    "CURSE": {
+      "name": "詛咒",
+      "description": "每強化一級，敵人的速度、生命值、數量和重生頻率加快/提高 10%，最多加快/提高 50%。"
+    },
+    "BANISH": {
+      "name": "滅除",
+      "description": "每強化一級，你在升級時便能多得到兩次滅除指定升級強化選項的機會；在該次闖關中，你不會再看到被滅除的強化選項。"
+    },
+    "PANDORA": {
+      "name": "全能",
+      "description": "每強化一級，力量、投射物飛行速度、效果持續時間及效果範圍提高/擴大 2%，最多提高/擴大 10%。"
+    },
+    "SEAL": {
+      "name": "封印（1）",
+      "description": "允許你在升級時，滅除一個強化選項或是光源中的掉落物品。需在收藏選單中使用。"
+    },
+    "CHARM": {
+      "name": "魅惑",
+      "description": "每強化一級，敵人的重生數量增加 20，最多增加 100。"
+    },
+    "SEAL2": {
+      "name": "封印（2）",
+      "description": "允許你在升級時，滅除兩個強化選項或是光源中的掉落物品。可在收藏選單中使用。"
+    },
+    "FEVER": {
+      "name": "狂潮",
+      "description": "每級能讓淘金狂潮與金手指的效果持續時間延長 10%，最多延長 50%。"
+    },
+    "DEFANG": {
+      "name": "威脅減輕",
+      "description": "每級可使 3% 的生成敵人無法造成傷害，最高可將機率提高至 15%。"
+    },
+    "SEAL3": {
+      "name": "封印（3）",
+      "description": "允許你在升級時，滅除三個強化選項或是光源中的掉落物品。需在收藏選單中使用。"
+    },
+    "SEAL4": {
+      "name": "全部封印",
+      "description": "允許你在升級時，滅除四個強化選項或是光源中的掉落物品。需在收藏選單中使用。"
+    }
+  },
+  "uk": {
+    "POWER": {
+      "name": "Сила",
+      "description": "Збільшує завдану шкоду на 5% за ранг (макс. +25%)."
+    },
+    "REGEN": {
+      "name": "Регенерація",
+      "description": "Відновлює 0,1 ОЗ/с за кожен ранг (макс. 0,5)."
+    },
+    "MAXHEALTH": {
+      "name": "Макс. ОЗ",
+      "description": "Збільшує макс. ОЗ на 10% за ранг (макс. +30%)."
+    },
+    "ARMOR": {
+      "name": "Броня",
+      "description": "Знижує отриману шкоду на 1 за ранг (макс. -3)."
+    },
+    "AREA": {
+      "name": "Область",
+      "description": "Збільшує область атаки на 5% за ранг (макс. +10%)."
+    },
+    "SPEED": {
+      "name": "Швидкість",
+      "description": "Снаряди рухаються на 10% швидше з кожним рангом (макс. 20%)."
+    },
+    "COOLDOWN": {
+      "name": "Відновлення",
+      "description": "Зброя використовується на 2,5% частіше з кожним рангом (макс. 5%)."
+    },
+    "DURATION": {
+      "name": "Тривалість",
+      "description": "Ефекти від зброї тривають на 15% довше з кожним рангом (макс. +30%)."
+    },
+    "AMOUNT": {
+      "name": "Кількість",
+      "description": "Випускає на 1 снаряд більше (уся зброя)."
+    },
+    "MOVESPEED": {
+      "name": "Швидкість руху",
+      "description": "Персонаж переміщується на 5% швидше з кожним рангом (макс. 10%)."
+    },
+    "MAGNET": {
+      "name": "Магніт",
+      "description": "Радіус збору предметів +25% із кожним рангом (макс. +50%)."
+    },
+    "LUCK": {
+      "name": "Удача",
+      "description": "Шанс везіння зростає на 10% із кожним рангом (макс. +30%)."
+    },
+    "GROWTH": {
+      "name": "Розвиток",
+      "description": "Ви отримуєте на 3% більше досвіду за кожен ранг (макс. 15%)."
+    },
+    "GREED": {
+      "name": "Жадоба",
+      "description": "Дає на 10% більше золота за ранг (макс. +50%)."
+    },
+    "SHIELD": {
+      "name": "Щит",
+      "description": "Запобігає пошкодження від однієї атаки. Сумується з Лавром."
+    },
+    "REVIVAL": {
+      "name": "Оживлення",
+      "description": "Оживлює один раз із 50% ОЗ."
+    },
+    "REROLL": {
+      "name": "Повтор",
+      "description": "Двічі за ранг дає вибрати з інших варіантів при підвищенні рівня."
+    },
+    "SKIP": {
+      "name": "Пропуск",
+      "description": "Двічі за ранг дозволяє пропустити вибір при підвищенні рівня й натомість отримати досвід."
+    },
+    "CURSE": {
+      "name": "Прокляття",
+      "description": "Збільшує швидкість, ОЗ, кількість і частоту появи ворогів на 10% за ранг (макс. +50)."
+    },
+    "BANISH": {
+      "name": "Вигнання",
+      "description": "Двічі за ранг дозволяє видалити предмет із запропонованих при підвищенні рівня до кінця забігу."
+    },
+    "PANDORA": {
+      "name": "Омні",
+      "description": "Збільшує силу, швидкість снарядів, тривалість і область на 2% за ранг (макс. +10%)."
+    },
+    "SEAL": {
+      "name": "Печатка І",
+      "description": "Дозволяє прибрати предмет із варіантів при підвищенні рівня або знахідку з джерел світла. Використовуйте в меню «КОЛЕКЦІЯ»."
+    },
+    "CHARM": {
+      "name": "Чарівність",
+      "description": "Збільшує кількість ворогів, що з'являються, на 20 за кожен ранг (макс. +100)."
+    },
+    "SEAL2": {
+      "name": "Печатка ІІ",
+      "description": "Дозволяє прибрати два предмети з варіантів при підвищенні рівня або знахідку з джерел світла. Використовуйте в меню «КОЛЕКЦІЯ»."
+    },
+    "FEVER": {
+      "name": "Лихоманка",
+      "description": "Збільшує тривалість Золотої лихоманки й Золотого пальця на 10% за ранг (макс. +50%)."
+    },
+    "DEFANG": {
+      "name": "Знешкодження",
+      "description": "Вороги з'являються нездатні завдати шкоди у 3% випадків за кожен ранг (макс. 15%)."
+    },
+    "SEAL3": {
+      "name": "Печатка ІІІ",
+      "description": "Дозволяє прибрати три предмети з варіантів при підвищенні рівня або знахідку з джерел світла. Використовуйте в меню «КОЛЕКЦІЯ»."
+    },
+    "SEAL4": {
+      "name": "Заблокувати всі",
+      "description": "Дозволяє прибрати чотири предмети з варіантів при підвищенні рівня або знахідку з джерел світла. Використовуйте в меню «КОЛЕКЦІЯ»."
+    }
+  }
+}

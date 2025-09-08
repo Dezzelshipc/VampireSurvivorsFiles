@@ -1,0 +1,698 @@
+{
+  "ROSARY": {
+    "displayName": [
+      "Rosary",
+      "Chapelet",
+      "Rosario",
+      "Rosenkranz",
+      "Rosario",
+      "Rosário",
+      "Różaniec",
+      "Чётки",
+      "Tespih",
+      "念珠",
+      "ロザリオ",
+      "묵주",
+      "玫瑰念珠",
+      "Чотки"
+    ]
+  },
+  "PET": {
+    "displayName": [
+      "Pet",
+      "Amour toujours",
+      "Compagno",
+      "Hätschelei",
+      "Mimos",
+      "Carinho",
+      "Pupil",
+      "Любимчик",
+      "Evcil",
+      "宠物",
+      "ペット",
+      "애완동물",
+      "寵物",
+      "Улюбленець"
+    ]
+  },
+  "CHICKEN_BONANZA": {
+    "displayName": [
+      "Chicken Bonanza",
+      "Pactole de poulet",
+      "Polli a volontà",
+      "Brathähnchenbonanza",
+      "Pollos a tutiplén",
+      "Galeteria",
+      "Pieczony Kurczak",
+      "Куриное безумие",
+      "Tavuk Sarmalı",
+      "鸿运烤鸡",
+      "チキンフィーバー",
+      "치킨 보난자",
+      "鴻運烤雞",
+      "Курячий сказ"
+    ]
+  },
+  "GOLD_FEVER": {
+    "displayName": [
+      "Gold Fever",
+      "Pluie d'or",
+      "Febbre dell'oro",
+      "Goldrausch",
+      "Fiebre del oro",
+      "Febre de Ouro",
+      "Gorączka Złota",
+      "Золотая лихорадка",
+      "Altın Kasırgası",
+      "淘金狂潮",
+      "ゴールドフィーバー",
+      "황금의 피버타임",
+      "淘金狂潮",
+      "Золота лихоманка"
+    ]
+  },
+  "FREE_PASSIVE": {
+    "displayName": [
+      "Free Passive",
+      "Passif offert",
+      "Passiva gratis",
+      "Passivgeschenk",
+      "Objeto pasivo",
+      "Item Grátis",
+      "Darmowa Umiejętność Pasywna",
+      "Бесплатная пассивка",
+      "Pasif Kazanç",
+      "随机被动",
+      "無料パッシブ",
+      "무료 패시브",
+      "免費被動",
+      "Безплатна пасивна здатність"
+    ]
+  },
+  "FIREBREATHING": {
+    "displayName": [
+      "Firebreathing",
+      "Souffle enflammé",
+      "Alito di fuoco",
+      "Feuerspeierei",
+      "Escupefuego",
+      "Cospe-fogo",
+      "Oddech Ognia",
+      "Огненное дыхание",
+      "Alevnefesi",
+      "炎息",
+      "ファイヤーブレス",
+      "화염 호흡",
+      "炎息",
+      "Вогняний подих"
+    ]
+  },
+  "LUCK_BOOST": {
+    "displayName": [
+      "Luck Boost",
+      "Coup de chance",
+      "Fortuna extra",
+      "Glücksschub",
+      "Aumento de suerte",
+      "Reforço de Sorte",
+      "Doładowanie Szczęścia",
+      "Бустер удачи",
+      "Şans Artışı",
+      "好运来",
+      "運ブースト",
+      "행운 부스트",
+      "好運來",
+      "Талан"
+    ]
+  },
+  "LIGHT_SOURCES": {
+    "displayName": [
+      "Light Sources",
+      "Sources de lumière",
+      "Fonti di luce",
+      "Lichtquellen",
+      "Fuentes de luz",
+      "Show de Luzes",
+      "Źródła Światła",
+      "Источники света",
+      "Işık Kaynakları",
+      "光源",
+      "光源",
+      "광원",
+      "光源",
+      "Джерела світла"
+    ]
+  },
+  "CANDYBOX": {
+    "displayName": [
+      "Candybox",
+      "Boîte à bonbons",
+      "Scatola di caramelle",
+      "Süßigkeitenschachtel",
+      "Caja de dulces",
+      "Presentinho",
+      "Pudełko Czekoladek",
+      "Коробка конфет",
+      "Şeker Kutusu",
+      "糖果盒",
+      "キャンディーボックス",
+      "사탕상자",
+      "糖果盒",
+      "Коробка цукерок"
+    ]
+  },
+  "BAT_SWARM": {
+    "displayName": [
+      "Bat Swarm",
+      "Attaque vampirique",
+      "Sciame di pipistrelli",
+      "Fledermausschwarm",
+      "Enjambre de murciélagos",
+      "Torrente de Morcegos",
+      "Rój Nietoperzy",
+      "Стая летучих мышей",
+      "Yarasa Sürüsü",
+      "蝙蝠群涌",
+      "コウモリの群れ",
+      "박쥐 무리",
+      "蝙蝠群湧",
+      "Зграя кажанів"
+    ]
+  },
+  "GHOST_SWARM": {
+    "displayName": [
+      "Ghost Swarm",
+      "Attaque fantôme",
+      "Sciame di fantasmi",
+      "Geisterschwarm",
+      "Enjambre de fantasmas",
+      "Torrente de Fantasmas",
+      "Rój Duchów",
+      "Полчище призраков",
+      "Hayalet Sürüsü",
+      "鬼魂群涌",
+      "ゴーストの群れ",
+      "고스트 무리",
+      "鬼魂群湧",
+      "Орда привидів"
+    ]
+  },
+  "MEDUSA_SWARM": {
+    "displayName": [
+      "Merdusa Swarm",
+      "Attaque merdusée",
+      "Sciame di merduse",
+      "Mehrdusenschwarm",
+      "Enjambre de mierdusas",
+      "Torrente de Merdusas",
+      "Rój Merduz",
+      "Полчище горгон",
+      "Merdusa Sürüsü",
+      "美杜莎群涌",
+      "メドゥーサの群れ",
+      "메두사 무리",
+      "梅杜莎群湧",
+      "Орда мердуз"
+    ]
+  },
+  "SKULL_SWARM": {
+    "displayName": [
+      "Skull Swarm",
+      "Attaque crâneuse",
+      "Sciame di teschi",
+      "Schädelschwarm",
+      "Enjambre de cráneos",
+      "Torrente de Caveiras",
+      "Rój Czaszek",
+      "Полчище черепов",
+      "Kafatası Sürüsü",
+      "头骨群涌",
+      "スカルの群れ",
+      "해골 무리",
+      "頭骨群湧",
+      "Орда черепів"
+    ]
+  },
+  "JELLY_SWARM": {
+    "displayName": [
+      "Jelly Swarm",
+      "Attaque médusante",
+      "Sciame di meduse",
+      "Quallenschwarm",
+      "Enjambre de medusas",
+      "Torrente de Águas-vivas",
+      "Rój Meduz",
+      "Рой медуз",
+      "Denizanası Sürüsü",
+      "水母群涌",
+      "クラゲの群れ",
+      "젤리 무리",
+      "水母群湧",
+      "Зграя медуз"
+    ]
+  },
+  "ECTO_SWARM": {
+    "displayName": [
+      "Green Swarm",
+      "Attaque verte",
+      "Sciame verde",
+      "Grüner Schwarm",
+      "Enjambre verde",
+      "Torrente Verde",
+      "Zielony Rój",
+      "Зелёная погибель",
+      "Yeşil Sürüsü",
+      "绿色群涌",
+      "緑の群れ",
+      "그린 무리",
+      "綠怪群湧",
+      "Зелена згуба"
+    ]
+  },
+  "DRAGON_SWARM": {
+    "displayName": [
+      "Shrimps Swarm",
+      "Attaque draconique",
+      "Sciame di gamberi",
+      "Shrimps-Schwarm",
+      "Enjambre de gambas",
+      "Torrente de Camarões",
+      "Rój Krewetek",
+      "Стая креветок",
+      "Karides Sürüsü",
+      "小虾群涌",
+      "エビの群れ",
+      "새우 무리",
+      "小蝦群湧",
+      "Зграя креветок"
+    ]
+  },
+  "IMP_SWARM": {
+    "displayName": [
+      "Imp Swarm",
+      "Attaque diabolique",
+      "Sciame di impediti",
+      "Flatterwichtschwarm",
+      "Enjambre de diablillos",
+      "Torrente Demoníaca",
+      "Rój Palcochlików",
+      "Полчище бесов",
+      "Cüce Sürüsü",
+      "小鬼群涌",
+      "インプの群れ",
+      "임프 무리",
+      "小鬼群湧",
+      "Орда бісів"
+    ]
+  },
+  "SKELETON_SWARM": {
+    "displayName": [
+      "Skeleton Swarm",
+      "Attaque squelettique",
+      "Sciame di scheletri",
+      "Skelettschwarm",
+      "Enjambre de esqueletos",
+      "Torrente de Esqueletos",
+      "Rój Szkieletów",
+      "Полчище скелетов",
+      "İskelet Sürüsü",
+      "骷髅群涌",
+      "スケルトンの群れ",
+      "스켈레톤 무리",
+      "骷髏群湧",
+      "Орда скелетів"
+    ]
+  },
+  "POLTER_ROULETTE": {
+    "displayName": [
+      "Roulette",
+      "Roulette",
+      "Roulette",
+      "Roulette",
+      "Ruleta",
+      "Roleta",
+      "Ruletka",
+      "Рулетка",
+      "Rulet",
+      "轮盘",
+      "ルーレット",
+      "룰렛",
+      "隨機輪盤",
+      "Рулетка"
+    ]
+  },
+  "PANIC_TIME": {
+    "displayName": [
+      "Panic Time",
+      "Panique totale",
+      "Momento fomento",
+      "Panikmache",
+      "Hora del pánico",
+      "Hora do Pânico",
+      "Czas Paniki",
+      "Время паники",
+      "Panik Vakti",
+      "恐慌时间",
+      "パニックタイム",
+      "패닉 타임",
+      "恐慌時間",
+      "Час паніки"
+    ]
+  },
+  "SUMMON_NIGHT": {
+    "displayName": [
+      "Summon Night",
+      "Sombre appel",
+      "Evoca notte",
+      "Nachtbeschwörung",
+      "Murcitransformación",
+      "Noite da Invocação",
+      "Wezwij Noc",
+      "Призыв ночи",
+      "Summon Night",
+      "晦夜引",
+      "夜の召喚",
+      "밤 소환",
+      "晦夜引",
+      "Призов ночі"
+    ]
+  },
+  "SUMMON_MOLISE": {
+    "displayName": [
+      "Summon Il Molise",
+      "Appel du Molise",
+      "Evoca il Molise",
+      "Il Molise-Beschwörung",
+      "Enemigos de Molise",
+      "Invocação de Il Molise",
+      "Wezwij II Molise",
+      "Призыв Молиза",
+      "Summon Il Molise",
+      "莫利塞召唤",
+      "地図にない場所を召喚",
+      "일 몰리제 소환",
+      "召喚莫利塞",
+      "Призов Іл Моліз"
+    ]
+  },
+  "ULTRA_WAVE": {
+    "displayName": [
+      "Ultra Wave",
+      "Vague ultra",
+      "Super onda",
+      "Ultrawelle",
+      "Ultraoleada",
+      "Grande Onda",
+      "Wielka Fala",
+      "Мощная волна",
+      "Ultra Dalga",
+      "超波",
+      "ウルトラウェーブ",
+      "울트라 웨이브",
+      "究極之波",
+      "Потужна хвиля"
+    ]
+  },
+  "CRAB_FEST": {
+    "displayName": [
+      "Crab Fest",
+      "Panier de crabes",
+      "Orda di granchi",
+      "Krabbenfest",
+      "Festival de cangrejos",
+      "Torrente de Caranguejos",
+      "Festyn Krabów",
+      "Крабья вечеринка",
+      "Yengeç Festivali",
+      "螃蟹集会",
+      "カニ祭り",
+      "크랩 축제",
+      "螃蟹盛宴",
+      "Краб-фест"
+    ]
+  },
+  "JELLY_WALL": {
+    "displayName": [
+      "Jelly Wall",
+      "Muraille de méduses",
+      "Muro di meduse",
+      "Quallenmauer",
+      "Barrera de medusas",
+      "Paredão de Águas-vivas",
+      "Ściana Meduz",
+      "Стена медуз",
+      "Denizanası Duvarı",
+      "水母墙",
+      "クラゲウォール",
+      "젤리 벽",
+      "水母牆",
+      "Медузоцвіт"
+    ]
+  },
+  "FLOWER_WALL": {
+    "displayName": [
+      "Flower Wall",
+      "Muraille florale",
+      "Muro di fiori",
+      "Blumenmauer",
+      "Barrera de flores",
+      "Paredão de Flores",
+      "Ściana Kwiatów",
+      "Порчецвет",
+      "Çiçek Duvarı",
+      "花墙",
+      "フラワーウォール",
+      "플라워 벽",
+      "花牆",
+      "Скверноцвіт"
+    ]
+  },
+  "PILE_ASSAULT": {
+    "displayName": [
+      "Pile Assault",
+      "Attaques jumelées",
+      "Assalto in mucchio",
+      "Schädelschlacht",
+      "Asalto siamés",
+      "Ataque Serpentino",
+      "Atakujący Stos",
+      "Двуглавая атака",
+      "Yoğun Saldırı",
+      "群起而攻之",
+      "パイルアサルト",
+      "더미 공격",
+      "群起圍攻",
+      "Щільний натиск"
+    ]
+  },
+  "MINO_RUSH": {
+    "displayName": [
+      "Mino Rush",
+      "Minotaurture",
+      "Mino-assalto",
+      "Mino-Raserei",
+      "Minostampida",
+      "Boiada",
+      "Szarża Minotaurów",
+      "Раш минотавров",
+      "Mino Saldırısı",
+      "牛头怪冲击",
+      "ミノラッシュ",
+      "미노 러시",
+      "牛頭怪狂潮",
+      "Набіг мінотаврів"
+    ]
+  },
+  "TWINS_PILES": {
+    "displayName": [
+      "Scorpion Lair",
+      "Antre aux scorpions",
+      "Tana dello scorpione",
+      "Skorpiongrube",
+      "Guarida de escorpiones",
+      "Entre-caveiras",
+      "Gniazdo Skorpionów",
+      "Логово скорпиона",
+      "Akrep Yuvası",
+      "蝎子窝",
+      "サソリの巣",
+      "전갈 소굴",
+      "蠍子巢穴",
+      "Лігво скорпіона"
+    ]
+  },
+  "SHOOTING_STAR": {
+    "displayName": [
+      "Shooting Stars",
+      "Étoiles filantes",
+      "Stelle cadenti",
+      "Sternschnuppen",
+      "Estrellas fugaces",
+      "Estrelas Cadentes",
+      "Spadające Gwiazdy",
+      "Падающие звёзды",
+      "Kayan Yıldızlar",
+      "流星",
+      "流星",
+      "별똥별",
+      "流星群墜",
+      "Падучі зорі"
+    ]
+  },
+  "STALKER": {
+    "displayName": [
+      "The Stalker",
+      "Fauche-Fixette",
+      "Il Persecutore",
+      "Der Stalker",
+      "La Acechadora",
+      "O Perseguidor",
+      "Prześladowca",
+      "Преследователь",
+      "İz Sürücü",
+      "阴魂",
+      "死神（緑）",
+      "스토커",
+      "陰魂",
+      "Переслідувач"
+    ]
+  },
+  "DROWNER": {
+    "displayName": [
+      "The Drowner",
+      "Fauche-Déluge",
+      "Il Sommersore",
+      "Der Ersäufer",
+      "La Inundadora",
+      "O Afogador",
+      "Topiciel",
+      "Утопец",
+      "Boğucu",
+      "水鬼",
+      "死神（青）",
+      "익사자",
+      "水鬼",
+      "Потопельник"
+    ]
+  },
+  "SABOTAGE_PICKLE_RUSH": {
+    "displayName": [
+      "Pickle Rush",
+      "Ruée vers les cornichons",
+      "Assalto di sottaceti",
+      "Gurkenrausch",
+      "Fiebre del pepinillo",
+      "Vinagrete",
+      "Gorączka Ogóra",
+      "Огуречный ажиотаж",
+      "Turşuya Hücum",
+      "泡菜热潮",
+      "ピクルス・ラッシュ",
+      "피클 러쉬",
+      "醃黃瓜狂潮",
+      "Огірковий бум"
+    ],
+    "newsfeed": [
+      "Sensors detect a faint smell of vinegar from space. Please press the button to end the smell.",
+      "Les capteurs détectent une légère odeur de vinaigre en provenance de l'espace. Veuillez appuyer sur le bouton pour neutraliser l'odeur en question.",
+      "I sensori rilevano un vago odore di aceto proveniente dallo spazio. Premi il pulsante per liberartene.",
+      "Die Sensoren haben einen leichten Essiggeruch aus dem Weltraum erkannt. Bitte drücke den Knopf, damit der Geruch verschwindet.",
+      "Los sensores detectan un olorcillo avinagrado en el espacio. Pulsa el botón para acabar con él.",
+      "Os sensores detectam um leve cheiro de vinagre vindo do espaço. Pressione o botão para acabar com o cheiro.",
+      "Czujniki wykrywają delikatny zapach octu z kosmosu. Wciśnij przycisk, by zakończyć rozpylanie zapachu.",
+      "Сенсоры улавливают слабый запах уксуса из космоса. Нажмите кнопку, чтобы убрать запах.",
+      "Sensörler uzaydan gelen hafif bir sirke kokusu tespit etti. Kokuyu sonlandırmak için lütfen düğmeye bas.",
+      "感应器探测到来自太空的淡淡酸味。请按下按钮，清除这股味道。",
+      "センサーが宇宙に漂う微かなお酢の匂いを探知。ボタンを押して匂いの探知を停止しよう。",
+      "센서가 우주에서 희미한 식초 냄새를 감지합니다. 냄새를 없애려면 버튼을 눌러주세요.",
+      "感測器偵測到來自外太空的些微醃漬味。請按下按鈕來清除這些氣味。",
+      "Сенсори вловлюють слабкий запах оцту з космосу. Натисніть кнопку, щоби прибрати запах."
+    ]
+  },
+  "SABOTAGION": {
+    "displayName": [
+      "Sabotagion",
+      "Sabotagion",
+      "Sabotaggion",
+      "Sabotation",
+      "Sabotagio",
+      "Sabotageon",
+      "Sabotażon",
+      "Саботажаж",
+      "Sabotajlama",
+      "破坏区",
+      "サボタージョン",
+      "방해공작자",
+      "破壞蔓延",
+      "Саботаж'йон"
+    ],
+    "newsfeed": [
+      "Seismic activity detected. Kindly press the button to shift the planet's tectonic plates.",
+      "Activité sismique détectée. Veuillez appuyer sur le bouton pour déplacer les plaques tectoniques de la planète.",
+      "Attività sismica rilevata. Premi il pulsante per far slittare le placche tettoniche del pianeta.",
+      "Seismische Aktivität entdeckt. Drücke freundlicherweise den Knopf, um die tektonischen Platten des Planeten zu verschieben.",
+      "Se ha detectado actividad sísmica. Pulsa el botón para desplazar las placas tectónicas del planeta.",
+      "Atividade sísmica detectada. Pressione o botão para deslocar as placas tectônicas do planeta.",
+      "Wykryto aktywność sejsmiczną. Naciśnij przycisk, by przesunąć płyty tektoniczne planety.",
+      "Обнаружена сейсмическая активность. Нажмите кнопку, чтобы сдвинуть тектонические плиты планеты.",
+      "Sismik aktivite tespit edildi. Gezegenin tektonik levhalarını hareket ettirmek için lütfen düğmeye bas.",
+      "检测到地震活动。请按下按钮，切换星球的构造板块。",
+      "地震活動を検出。ボタンを押して惑星の構造プレートを移動しよう。",
+      "지반 활동 감지. 버튼을 눌러 행성의 지각판을 옮기세요.",
+      "偵測到地震活動。請按下按鈕以切換星球的構造板塊。",
+      "Зафіксовано сейсмічну активність. Натисніть кнопку, щоб зрушити тектонічні плити планети."
+    ],
+    "newsfeedDouble": [
+      "Eruptions are in progress and swarms of tourists are rushing in to witness the spectacle. Kindly press both buttons to prevent tourism.",
+      "Des éruptions sont en cours et des nuées de touristes jouent des coudes pour assister au spectacle. Veuillez appuyer sur les deux boutons pour neutraliser le tourisme.",
+      "Sono in corso delle eruzioni e sciami di turisti si accalcano per ammirare lo spettacolo. Premi entrambi i pulsanti per impedire il turismo.",
+      "Die Eruptionen sind in vollem Gange, und Touristen strömen in Scharen herbei, um das Spektakel zu bewundern. Bitte drücke beide Knöpfe, um die Touristenströme zu verhindern.",
+      "Se están produciendo erupciones, y una multitud de turistas se apresuran a contemplar el espectáculo. Pulsa ambos botones para evitar el turismo.",
+      "Há erupções ocorrendo, e multidões de turistas estão correndo para testemunhar o espetáculo. Pressione os dois botões para evitar o turismo.",
+      "Trwają erupcje, a tłumy turystów pędzą, by oglądać ten spektakl. Naciśnij oba przyciski, by powstrzymać turystów.",
+      "Извержения продолжаются, и толпы туристов устремляются, чтобы это увидеть. Нажмите обе кнопки, чтобы убрать потоки туристов.",
+      "Patlamalar devam ediyor ve turist grupları olayları seyretmek için akın akın geliyorlar. Turizmi önlemek için lütfen her iki düğmeye de bas.",
+      "火山即将喷发，成群结队的游客正赶来目睹这一奇观。请按下两个按钮，防止游客靠近。",
+      "噴火が起ころうとしている中、大勢の観光客がその壮大な瞬間を目撃しようと押し寄せている。両方のボタンを押して、やってくる観光客を阻止しよう。",
+      "화산 폭발이 진행 중이며 이 광경을 보기 위해 수많은 관광객이 몰려들고 있습니다. 버튼 두 개를 모두 눌러 관광객을 막으세요.",
+      "火山即將噴發，有無數的遊客連忙趕來欣賞眼前的奇觀。請同時按下兩個按鈕以請走這群遊客。",
+      "Виверження тривають, а натовпи туристів збігаються на видовище. Натисніть обидві кнопки, щоби прибрати навалу туристів."
+    ]
+  },
+  "SABOTAGE_GENERIC_RUSH": {
+    "newsfeed": [
+      "Massive saboteur population increase detected. Please push buttons to prevent overcrowding.",
+      "Augmentation importante de la population de saboteurs détectée. Veuillez appuyer sur les boutons pour neutraliser la surpopulation.",
+      "Massiccio aumento della popolazione di sabotatori rilevato. Premi i pulsanti per impedire il sovraffollamento.",
+      "Massiver Anstieg der Saboteurspopulation festgestellt. Bitte drücke die Knöpfe, um eine Überbevölkerung zu verhindern.",
+      "Se ha detectado un gran incremento de población saboteadora. Pulsa los botones para evitar la superpoblación.",
+      "Grande aumento da população de sabotadores detectado. Pressione botões para evitar a superlotação.",
+      "Wykryto masowy wzrost populacji sabotażystów. Naciśnij przyciski, by zapobiec przeludnieniu.",
+      "Обнаружен массовый рост числа саботажников. Нажмите кнопки, чтобы предотвратить переполнение.",
+      "Sabotajcı sayısında büyük bir artış tespit edildi. Lütfen aşırı kalabalığı önlemek için düğmelere bas.",
+      "侦测到破坏者的数量激增。请按下按钮，防止过度拥挤。",
+      "サボタージュの人口爆増を検出。ボタンを押して過密化を防ごう。",
+      "대규모 파괴 공작원 개체 수 증가가 감지되었습니다. 혼잡을 방지하려면 버튼을 눌러주세요.",
+      "偵測到破壞者的數量激增。請按下按鈕以避免人擠人的情況發生。",
+      "Зафіксоване масове зростання кількості саботажників. Натисніть кнопки, щоби запобігти переповненню."
+    ]
+  },
+  "FB_EVENT": {
+    "": [
+      "A huge alien cyborg presence has been detected in the North East of Neo City. Attack it aggressively!",
+      "Une présence cyborg extraterrestre a été détectée au nord-ouest de Neo City. Attaquez-la agressivement !",
+      "È stata rilevata la presenza di un enorme cyborg alieno nel Nord-est di Neo City. Attaccalo aggressivamente!",
+      "Nordöstlich von Neo City wurde ein riesiger Alien-Cyborg gesichtet. Vernichte ihn mit allen Mitteln!",
+      "¡Se ha detectado un nivel muy alto de cíborgs y alienígenas al noreste de la Neociudad! ¡Ataca con agresividad!",
+      "Uma grande presença ciborgue-alienígena foi detectada no Nordeste da Neocidade. Ataque com garra!",
+      "Wykryto obecność wielkiego, kosmicznego cyborga na północnym wschodzie Neo City. Walcz z nim zaciekle!",
+      "На северо-востоке Нео-Сити засекли нашествие инопланетных киборгов. Атакуйте яростно!",
+      "Neo Kent'in Kuzeydoğusunda devasa bir uzaylı cyborg varlığı tespit edildi. Hunharca saldır!",
+      "在新城的东北一带探测到一个巨大的外星改造人。锁定目标，发动猛攻！",
+      "ネオシティの北東で巨大なエイリアン・サイボーグの存在が確認された。徹底的に攻撃せよ！",
+      "네오 시티 북동부에서 거대한 에일리언 사이보그의 존재를 감지했습니다. 격렬하게 공격하세요!",
+      "在霓虹都市的東北邊有巨大外星生化人出沒。對這個敵人發起猛烈的攻勢吧！",
+      "Зафіксована навала роботів-прибульців на північному сході Нео-Сіті. Атакуйте, не соромтеся!"
+    ]
+  }
+}

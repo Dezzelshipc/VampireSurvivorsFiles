@@ -1,0 +1,1570 @@
+{
+  "en": {
+    "LEGACY": {
+      "suffix": "(Legacy)"
+    },
+    "HALLOWS": {
+      "prefix": "Spoopy",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "December",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Unblinded",
+      "suffix": null,
+      "description": "Also starts with a Level 5 Empty Tome."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "Retired",
+      "suffix": null,
+      "description": "Also starts with a Level 5 Pummarola."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Receives SpellStrike at Level 10 and SpellString at Level 20. Receives Academy Badge at Level 30."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Receives SpellString at Level 10 and SpellStream at Level 20. Receives Academy Badge at Level 30."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Reborn",
+      "suffix": null,
+      "description": "Also starts with a Level 5 Wings and a hidden Valkyrie Turner."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Won't summon allies."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Won't summon allies."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Won't summon allies."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Won't summon allies."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Won't summon allies."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Won't summon allies."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "\"Retro Pod\""
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "\"Battle Tank\"",
+      "description": "Charge: fires an array of Super Missiles."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "\"Virginia\"",
+      "description": "Gains bonuses to Might, Projectile speed, Duration, Area, Cooldown, and Recovery based on the total of glimmered techs."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "\"Paradox\"",
+      "description": "Can fly. Can innately use the \"Cosmic Rave\" tech."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "\"Shanks\"",
+      "description": "Charge: triggers the \"Ballistic Missiles\" tech."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "\"Mover\"",
+      "description": "Can fly. High Magnet and Move Speed, but low Max Health."
+    }
+  },
+  "fr": {
+    "LEGACY": {
+      "suffix": "(Héritage)"
+    },
+    "HALLOWS": {
+      "prefix": "spoopy",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "de décembre",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "non aveugle",
+      "suffix": null,
+      "description": "Commence également avec un Tome vierge de niveau 5."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "à la retraite",
+      "suffix": null,
+      "description": "Commence également avec un Pummarola de niveau 5."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Reçoit SpellStrike au niveau 10 et SpellString au niveau 20. Reçoit Insigne de l'Académie au niveau 30."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Reçoit SpellStrike au niveau 10 et SpellStream au niveau 20. Reçoit Insigne de l'Académie au niveau 30."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": null,
+      "suffix": "Reborn",
+      "description": "Commence également avec des Ailes de niveau 5 et un Chalumeau ailé caché."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "N'invoquera pas d'alliés."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "N'invoquera pas d'alliés."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "N'invoquera pas d'alliés."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "N'invoquera pas d'alliés."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "N'invoquera pas d'alliés."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "N'invoquera pas d'alliés."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Pod rétro"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Char de combat",
+      "description": "Charge : tire une pléiade de Supermissiles."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Virginia",
+      "description": "Gagne des bonus de puissance, vitesse de projectile, durée, portée, recharge, et guérison en fonction du total de techniques activées."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Paradoxe",
+      "description": "Peut voler. Peut naturellement utiliser la technique « Rave cosmique »."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Pattes",
+      "description": "Charge : déclenche la technique « Missiles balistiques »."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Voyageur",
+      "description": "Peut voler. Portée d'Aimant et vitesse de déplacement élevés, mais santé max faible."
+    }
+  },
+  "it": {
+    "LEGACY": {
+      "suffix": "(Originale)"
+    },
+    "HALLOWS": {
+      "prefix": "Spoopy",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "Dicembre",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Sbendata",
+      "suffix": null,
+      "description": "Comincia inoltre con un Tomo intonso di livello 5."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "Pensionato",
+      "suffix": null,
+      "description": "Comincia inoltre con un Pummarola di livello 5."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Riceve SpellStrike al livello 10 e SpellString al livello 20. Riceve il Distintivo dell'Accademia al livello 30."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Riceve SpellString al livello 10 e SpellStream al livello 20. Riceve il Distintivo dell'Accademia al livello 30."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Rinata",
+      "suffix": null,
+      "description": "Comincia anche con Ali di livello 5 e un Torno valchirio nascosto."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(in solitaria)",
+      "description": "Non evoca alleati."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(in solitaria)",
+      "description": "Non evoca alleati."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(in solitaria)",
+      "description": "Non evoca alleati."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(in solitaria)",
+      "description": "Non evoca alleati."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(in solitaria)",
+      "description": "Non evoca alleati."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(in solitaria)",
+      "description": "Non evoca alleati."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Retro Pod"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Tank da combattimento",
+      "description": "Carica: spara una raffica di Super missili."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Virginia",
+      "description": "Ottiene bonus a Potenza, Velocità dei proiettili, Durata, Area, Tempo di ricarica e Recupero in base al totale di Tech ottenute in Glimmer."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Paradox",
+      "description": "Può volare. Può usare innatamente la Tech Rave cosmico."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Shanks",
+      "description": "Carica: scatena la tech Missili balistici."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Mover",
+      "description": "Può volare. Calamita e Velocità di movimento elevate, ma scarsa Salute massima."
+    }
+  },
+  "de": {
+    "LEGACY": {
+      "suffix": "(Legacy)"
+    },
+    "HALLOWS": {
+      "prefix": "Gruselig",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "Dezember",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Ungeblendet",
+      "suffix": null,
+      "description": "Beginnt außerdem mit einem Leeren Folianten auf Level 5."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "Pensioniert",
+      "suffix": null,
+      "description": "Beginnt außerdem mit einer Pummarola auf Level 5."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Erhält ab Level 10 Zauberschlag und ab Level 20 Zauberband. Erhält ab Level 30 Akademieabzeichen."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Erhält ab Level 10 Zauberband und ab Level 20 Zauberstrom. Erhält ab Level 30 Akademieabzeichen."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Wiedergeburt",
+      "suffix": null,
+      "description": "Fängt mit Level 5 Flügeln und einer verborgenen Walkürenwalze an."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(Solo)",
+      "description": "Beschwört keine Verbündeten."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(Solo)",
+      "description": "Beschwört keine Verbündeten."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(Solo)",
+      "description": "Beschwört keine Verbündeten."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(Solo)",
+      "description": "Beschwört keine Verbündeten."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(Solo)",
+      "description": "Beschwört keine Verbündeten."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(Solo)",
+      "description": "Beschwört keine Verbündeten."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Retro Pod"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Kampfpanzer",
+      "description": "Aufladen: Feuert eine Salve von Superraketen."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Virginia",
+      "description": "Gewährt Boni für Macht, Geschossgeschwindigkeit, Dauer, Bereich, Abklingzeit und Erholung basierend auf insgesamt aufgeglimmten Angriffen."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Paradox",
+      "description": "Kann fliegen und von Anfang an \"Kosmischer Rave\" benutzen."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Hachsen",
+      "description": "Aufladen: Löst die Technik \"Langstreckenraketen\" aus."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Krabbler",
+      "description": "Kann fliegen. Starker Magnet und hohe Bewegungsgeschwindigkeit, niedrige max. LP."
+    }
+  },
+  "es": {
+    "LEGACY": {
+      "suffix": "(tradicional)"
+    },
+    "HALLOWS": {
+      "prefix": null,
+      "suffix": "escalofriante"
+    },
+    "XMAS": {
+      "prefix": null,
+      "suffix": "de diciembre"
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": null,
+      "suffix": "omnividente",
+      "description": "También comienza con un tomo vacío de nivel 5."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": null,
+      "suffix": "jubilado",
+      "description": "También empieza con una pummarola de nivel 5."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Recibe el sortigolpe en el nivel 10 y el sortitruco en el nivel 20. Recibe la insignia de la academia en el nivel 30."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Recibe el sortitruco en el nivel 10 y el sortitorrente en el nivel 20. Recibe la insignia de la academia en el nivel 30."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": null,
+      "suffix": "renacida",
+      "description": "También empieza con las alas de nivel 5 y un tornallamas de valquiria oculto."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(en solitario)",
+      "description": "No invocará aliados."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(en solitario)",
+      "description": "No invocará aliados."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(en solitario)",
+      "description": "No invocará aliados."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(en solitario)",
+      "description": "No invocará aliados."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(en solitario)",
+      "description": "No invocará aliados."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(en solitario)",
+      "description": "No invocará aliados."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "«Retrocápsula»"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "«Tanque de combate»",
+      "description": "Carga: dispara una salva de supermisiles."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "«Virginia»",
+      "description": "Gana bonificaciones de poder, velocidad de proyectil, duración, área de efecto, recarga y recuperación según el total de técnicas vislumbradas."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "«Paradoja»",
+      "description": "Vuela. Empieza con la técnica «Alabanza cósmica»."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "«Cuadrúpeda»",
+      "description": "Carga: activa la técnica «Misiles balísticos»."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "«Vuelo»",
+      "description": "Vuela. Valores altos de imán y velocidad de movimiento, pero valor bajo de salud máxima."
+    }
+  },
+  "pt-BR": {
+    "LEGACY": {
+      "suffix": "(Tradicional)"
+    },
+    "HALLOWS": {
+      "prefix": "Sustinho",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "Dezembro",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Desvendada",
+      "suffix": null,
+      "description": "Também começa com Tomo Vazio nível 5."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "Apoesentado",
+      "suffix": null,
+      "description": "Também começa com Pummarola nível 5."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Recebe Sortigolpe no nível 10 e Sortilivro no nível 20. Recebe Brasão Acadêmico no nível 30."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Recebe Sortilivro no nível 10 e Sortifeixe no nível 20. Recebe Brasão Acadêmico no nível 30."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Renascimento",
+      "suffix": null,
+      "description": "Também começa com Asas nível 5 e um Torneador de Valquírias oculto."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Não invoca aliados."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Não invoca aliados."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Não invoca aliados."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Não invoca aliados."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Não invoca aliados."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Não invoca aliados."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Cápsula Retrô"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Tanque de Batalha",
+      "description": "Carga: dispara um saraivada de Supermísseis."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Virgínia",
+      "description": "Ganha bônus de Poder, Velocidade de Projéteis, Duração, Área, Recarga e Recuperação com base no total de técnicas realçadas."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Paradoxo",
+      "description": "Pode voar. Domina a técnica \"Delírio Cósmico\" instintivamente."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Shanks",
+      "description": "Carga: ativa a técnica \"Mísseis Balísticos\"."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Transportador",
+      "description": "Pode voar. Alto Magnetismo e Velocidade de Movimento, mas Vida Máxima baixa."
+    }
+  },
+  "pl": {
+    "LEGACY": {
+      "suffix": "(Dziedzictwo)"
+    },
+    "HALLOWS": {
+      "prefix": "Upiór",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "Grudzień",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Widząca",
+      "suffix": null,
+      "description": "Zaczyna też z Pustą księgą na poziomie 5."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "Emerytowany",
+      "suffix": null,
+      "description": "Zaczyna z Pummarolą na poziomie 5."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Otrzymuje Nawałnicę zaklęć na poziomie 10 oraz Księgę zaklęć na poziomie 20. Otrzymuje Odznakę akademii na poziomie 30."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Otrzymuje Księgę zaklęć na poziomie 10 oraz Strumień zaklęć na poziomie 20. Otrzymuje Odznakę Akademii na poziomie 30."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Odrodzona",
+      "suffix": null,
+      "description": "Zaczyna też ze Skrzydłami na poziomie 5 i ukrytą Walkirią."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Nie może wezwać sojuszników."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Nie może wezwać sojuszników."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Nie może wezwać sojuszników."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Nie może wezwać sojuszników."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Nie może wezwać sojuszników."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Nie może wezwać sojuszników."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Retro robot"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Czołg",
+      "description": "Ładowana umiejętność: Wystrzeliwuje salwę Superpocisków."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Virginia",
+      "description": "Otrzymuje premie do Mocy, Prędkości pocisków, Czasu trwania, Obszaru, Odnawiania i Odzyskiwania na podstawie łącznej liczby opanowanych technik."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Paradoks",
+      "description": "Potrafi latać. Zaczyna z techniką „Kosmiczna impreza”."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Kopyto",
+      "description": "Ładowana umiejętność: Aktywuje technikę „Pociski balistyczne”."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Szycha",
+      "description": "Potrafi latać. Wysoki Magnes i Prędkość ruchu, ale niskie Maks. zdrowie."
+    }
+  },
+  "ru": {
+    "LEGACY": {
+      "suffix": "(классика)"
+    },
+    "HALLOWS": {
+      "prefix": "(Жутябрь)",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "(Декабрь)",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Прозревшая",
+      "suffix": null,
+      "description": "Также начинает с 5-го ур. Пустого фолианта."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "Пенсионер",
+      "suffix": null,
+      "description": "Также начинает с 5-го ур. Бычьего сердца."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Получает УдарЗаклинаний на 10-м уровне и ЦепьЗаклинаний на 20-м. На 30-м уровне получает Значок Академии."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Получает ЦепьЗаклинаний на 10-м уровне и ПотокЗаклинаний на 20-м. На 30-м уровне получает Значок Академии."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Перерождённая",
+      "suffix": null,
+      "description": "Также начинает с «Крыльями» 5-го уровня и скрытым «Валиком валькирии»."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Комати",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Бо",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Сукунэ",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Мусаси",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(одиночка)",
+      "description": "Не призывает союзников."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(одиночка)",
+      "description": "Не призывает союзников."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(одиночка)",
+      "description": "Не призывает союзников."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(одиночка)",
+      "description": "Не призывает союзников."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(одиночка)",
+      "description": "Не призывает союзников."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(одиночка)",
+      "description": "Не призывает союзников."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Ретро-бот"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Боевой танк",
+      "description": "Заряд: стреляет залпом сверхракет."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Вирджиния",
+      "description": "Получает бонус к силе, скорости снарядов, продолжительности, области, перезарядке и регенерации в зависимости от общего числа техник-импровизаций."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Парадокс",
+      "description": "Может летать. Начинает с техникой «Рёв космоса»."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Шагоход",
+      "description": "Заряд: активирует технику «Баллистические ракеты»."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Инициатор",
+      "description": "Может летать. Большой магнит и высокая скорость движения, но низкое максимальное здоровье."
+    }
+  },
+  "tr": {
+    "LEGACY": {
+      "suffix": "(Eski)"
+    },
+    "HALLOWS": {
+      "prefix": "Üykütücü",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "Aralık",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Gözüaçık",
+      "suffix": null,
+      "description": "Ayrıca 5. Seviye bir Boş Büyü Kitabı ile başlar."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "Emekli",
+      "suffix": null,
+      "description": "Ayrıca 5. Seviye bir Pummarola ile başlar."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "10. Seviye'de BüyülüSaldırı ve 20. Seviye'de BüyülüCeride alır. 30. Seviye'de Akademi Rozeti alır."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "10. Seviye'de BüyülüCeride ve 20. Seviye'de BüyülüAkım alır. 30. Seviye'de Akademi Rozeti alır."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Yeniden doğmuş",
+      "suffix": null,
+      "description": "Ayrıca 5. Seviye bir Kanat ve gizli bir Tornacı Valkyrie ile başlar."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Komachi",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Boh",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Sukune",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Musashi",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Müttefikleri çağırmaz."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Müttefikleri çağırmaz."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Müttefikleri çağırmaz."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Müttefikleri çağırmaz."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Müttefikleri çağırmaz."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(solo)",
+      "description": "Müttefikleri çağırmaz."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Retro Kapsül"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Savaş Tankı",
+      "description": "Saldırı: bir dizi Süper Füzeler ateşler."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Virginia",
+      "description": "Ortaya çıkan tekniklerin toplamına bağlı olarak Kuvvet, Fırlatılabilir hızı, Süre, Alan, Bekleme Süresi ve İyileşme bonusları kazanır."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Paradoks",
+      "description": "Uçabilir. Doğuştan \"Kozmik Dalga\" tekniğini kullanabilir."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Çıkmabacak",
+      "description": "Saldırı: \"Balistik Füzeler\" tekniğini tetikler."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Uçarkaçar",
+      "description": "Uçabilir. Yüksek Mıknatıs ve HareketHızı, ancak düşük MaksSağlık."
+    }
+  },
+  "zh-CN": {
+    "LEGACY": {
+      "suffix": "（传统）"
+    },
+    "HALLOWS": {
+      "prefix": "搞怪",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "十二月",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "开开眼界",
+      "suffix": null,
+      "description": "开局还会自带5级的空白之书。"
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "退隐长者",
+      "suffix": null,
+      "description": "开局还会自带5级的愈伤番茄。"
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "在第10级获得咒能打击，在第20级获得咒能魔线；在第30级获得学院徽章。"
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "在第10级获得咒能魔线，在第20级获得咒能洪流；在第30级获得学院徽章。"
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "重生",
+      "suffix": null,
+      "description": "开局还会自带5级翅膀和隐藏的瓦尔基里喷枪。"
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": "：小町",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": "：坊",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": "：宿祢",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": "：武藏",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "（单人）",
+      "description": "不会召唤盟友。"
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "（单人）",
+      "description": "不会召唤盟友。"
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "（单人）",
+      "description": "不会召唤盟友。"
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "（单人）",
+      "description": "不会召唤盟友。"
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "（单人）",
+      "description": "不会召唤盟友。"
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "（单人）",
+      "description": "不会召唤盟友。"
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "音随我动"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "战车",
+      "description": "充能：发射一排超级导弹。"
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "弗吉尼亚",
+      "description": "基于点亮的特技总数，获得力量、飞射速度、持续时间、攻击范围、冷却时间和恢复方面的加成。"
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "矛盾",
+      "description": "可飞行。开局即可使用“宇宙狂欢”特技。"
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "长腿",
+      "description": "充能：触发特技“弹道导弹”。"
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "飞速",
+      "description": "可飞行。念力和移动速度提高，但生命值上限降低。"
+    }
+  },
+  "ja": {
+    "LEGACY": {
+      "suffix": "（レガシー）"
+    },
+    "HALLOWS": {
+      "prefix": "スプーピー",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "12月",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "開眼した",
+      "suffix": null,
+      "description": "また、レベル5の白紙の学術書からスタートする。"
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "引退",
+      "suffix": null,
+      "description": "また、レベル5の命のトマトからスタートする。"
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "レベル10でスペルストライクを、レベル20でスペルストリングを獲得。レベル30でアカデミーバッジを獲得。"
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "レベル10でスペルストリングを、レベル20でスペルストリームを獲得。レベル30でアカデミーバッジを獲得。"
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "再生",
+      "suffix": null,
+      "description": "また、レベル5のウィングと隠された戦乙女のバーナーでスタートする。"
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": "：コマチ",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": "：ボウ",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": "：スクネ",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": "：ムサシ",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "（ソロ）",
+      "description": "味方の召喚なし。"
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "（ソロ）",
+      "description": "味方の召喚なし。"
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "（ソロ）",
+      "description": "味方の召喚なし。"
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "（ソロ）",
+      "description": "味方の召喚なし。"
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "（ソロ）",
+      "description": "味方の召喚なし。"
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "（ソロ）",
+      "description": "味方の召喚なし。"
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "レトロポッド"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "バトルタンク",
+      "description": "チャージ：ストーカーを一斉発射する"
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "ヴァージニア",
+      "description": "技をひらめいた回数に応じて攻撃力、弾速、効果時間、攻撃範囲、クールダウン時間、回復力のボーナスを獲得。"
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "パラドックス",
+      "description": "飛行する。ひらめき技「コスミックレイヴ」を最初から使える。"
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "シャンクス",
+      "description": "チャージ：弾道ミサイル技を発動させる。"
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "ムーバー",
+      "description": "飛行する。回収範囲と素早さが高いが、最大HPが低い。"
+    }
+  },
+  "ko": {
+    "LEGACY": {
+      "suffix": "(레거시)"
+    },
+    "HALLOWS": {
+      "prefix": "잔혹 유머",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "12월",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "블라인드 해제",
+      "suffix": null,
+      "description": "또한, 레벨 5 빈 고서로 시작합니다."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "은퇴함",
+      "suffix": null,
+      "description": "또한, 레벨 5 붉은 심장으로 시작합니다."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "레벨 10에서는 마법주문 전능본을 받고 레벨 20에서는 마법주문 두루마리를 받습니다. 레벨 30에서 아카데미 배지를 받습니다."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "레벨 10에서는 마법주문 두루마리를 받고 레벨 20에서는 마법주문 유창본을 받습니다. 레벨 30에서 아카데미 배지를 받습니다."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "재탄생",
+      "suffix": null,
+      "description": "레벨 5 날개와 숨겨진 발키리 터너도 함께 시작됩니다."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": 코마치",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": 보",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": 수쿠네",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": 무사시",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(솔로)",
+      "description": "아군을 소환하지 않습니다."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(솔로)",
+      "description": "아군을 소환하지 않습니다."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(솔로)",
+      "description": "아군을 소환하지 않습니다."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(솔로)",
+      "description": "아군을 소환하지 않습니다."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(솔로)",
+      "description": "아군을 소환하지 않습니다."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(솔로)",
+      "description": "아군을 소환하지 않습니다."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "레트로 포드"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "배틀 탱크",
+      "description": "충전: 슈퍼 미사일을 발사합니다."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "버지니아",
+      "description": "섬광 효과를 적용한 기술의 총합에 따라 피해량, 투사체 속도, 지속 시간, 공격 범위, 재사용 대기시간, 회복력에 보너스를 얻습니다."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "패러독스",
+      "description": "날 수 있습니다. 선천적으로 \"코스믹 레이브\" 기술을 사용할 수 있습니다."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "생크스",
+      "description": "충전: \"탄도 미사일\" 기술을 발동합니다."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "무버",
+      "description": "날 수 있습니다. 자석과 이동 속도는 높지만 최대 체력이 낮습니다."
+    }
+  },
+  "zh-TW": {
+    "LEGACY": {
+      "suffix": "（經典）"
+    },
+    "HALLOWS": {
+      "prefix": "嚇嚇",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "十二月",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "啟明",
+      "suffix": null,
+      "description": "開場時還能獲得 5 級的空白之書。"
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "退役",
+      "suffix": null,
+      "description": "開場時還能獲得 5 級的癒傷番茄。"
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "在升到 10 級時，獲得咒能打擊/在升到 20 級時，獲得咒能魔線/在升到 30 級時，獲得學院徽章。"
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "在升到 10 級時，獲得咒能魔線/在升到 20 級時，獲得咒能洪流/在升到 30 級時，獲得學院徽章。"
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "重生",
+      "suffix": null,
+      "description": "開場時還能獲得 5 級的翅膀和隱藏的女武神噴槍。"
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": "：小町",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": "：波",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": "：須久禰",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": "：武藏",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "（單人）",
+      "description": "不會召喚盟友。"
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "（單人）",
+      "description": "不會召喚盟友。"
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "（單人）",
+      "description": "不會召喚盟友。"
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "（單人）",
+      "description": "不會召喚盟友。"
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "（單人）",
+      "description": "不會召喚盟友。"
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "（單人）",
+      "description": "不會召喚盟友。"
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "復古艙"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "戰鬥坦克",
+      "description": "蓄力：發射一連串的超級飛彈。"
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "維吉尼亞",
+      "description": "根據已閃爍技能的總數獲得力量、投射物飛行速度、持續時間、範圍、冷卻時間和恢復的加成。"
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "悖論",
+      "description": "能夠飛行。天生就懂得使用「宇宙狂歡」技能。"
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "香克斯",
+      "description": "蓄力：觸發「彈道飛彈」技能。"
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "動者",
+      "description": "能夠飛行。具備高磁吸和高移動速度，但最大生命值較低。"
+    }
+  },
+  "uk": {
+    "LEGACY": {
+      "suffix": "(Класика)"
+    },
+    "HALLOWS": {
+      "prefix": "Жахіття",
+      "suffix": null
+    },
+    "XMAS": {
+      "prefix": "Грудень",
+      "suffix": null
+    },
+    "SKIN_IMELDA_UNBLINDED": {
+      "prefix": "Незасліплена",
+      "suffix": null,
+      "description": "Також починає з Пустим томом 5 рівня."
+    },
+    "SKIN_POE_RETIRED": {
+      "prefix": "На пенсії",
+      "suffix": null,
+      "description": "Також починає з Памаролою 5 рівня."
+    },
+    "SKIN_ELEANOR_AREA": {
+      "description": "Отримує Удар магії на 10 рівні і Ланцюг магії на 20 рівні. Отримує Значок академії на 30 рівні."
+    },
+    "SKIN_ELEANOR_MIGHT": {
+      "description": "Отримує Ланцюг магії на 10 рівні і Потік магії на 20 рівні. Отримує Значок академії на 30 рівні."
+    },
+    "SKIN_SHEMOON_REBORN": {
+      "prefix": "Відроджена",
+      "suffix": null,
+      "description": "Також починає з Крилами 5 рівня й прихованими Тернами валькірії."
+    },
+    "SKIN_EME_KOM": {
+      "prefix": null,
+      "suffix": ": Комачі",
+      "description": null
+    },
+    "SKIN_EME_BOH": {
+      "prefix": null,
+      "suffix": ": Бох",
+      "description": null
+    },
+    "SKIN_EME_SUK": {
+      "prefix": null,
+      "suffix": ": Сукуме",
+      "description": null
+    },
+    "SKIN_EME_MUS": {
+      "prefix": null,
+      "suffix": ": Мусаші",
+      "description": null
+    },
+    "SKIN_EME_SOLO_FLEURET": {
+      "prefix": null,
+      "suffix": "(соло)",
+      "description": "Не викличе союзників."
+    },
+    "SKIN_EME_SOLO_DUAL": {
+      "prefix": null,
+      "suffix": "(соло)",
+      "description": "Не викличе союзників."
+    },
+    "SKIN_EME_SOLO_PUNCH": {
+      "prefix": null,
+      "suffix": "(соло)",
+      "description": "Не викличе союзників."
+    },
+    "SKIN_EME_SOLO_KICK": {
+      "prefix": null,
+      "suffix": "(соло)",
+      "description": "Не викличе союзників."
+    },
+    "SKIN_EME_SOLO_CANNON": {
+      "prefix": null,
+      "suffix": "(соло)",
+      "description": "Не викличе союзників."
+    },
+    "SKIN_EME_SOLO_PISTOL": {
+      "prefix": null,
+      "suffix": "(соло)",
+      "description": "Не викличе союзників."
+    },
+    "SKIN_EME_D_RETRO": {
+      "suffix": "Ретропод"
+    },
+    "SKIN_EME_D_TANK": {
+      "prefix": null,
+      "suffix": "Бойовий танк",
+      "description": "Заряд: стріляє низкою Суперснарядів."
+    },
+    "SKIN_EME_D_KATANA": {
+      "prefix": null,
+      "suffix": "Вірджинія",
+      "description": "Отримує бонуси до сили, швидкості снарядів, тривалості, області, відновлення й регенерації залежно від сукупності викликаних прийомів."
+    },
+    "SKIN_EME_D_PARA": {
+      "prefix": null,
+      "suffix": "Парадокс",
+      "description": "Може літати. Може початково викликати прийом «Космічний рейв»."
+    },
+    "SKIN_EME_D_SHAN": {
+      "prefix": null,
+      "suffix": "Всюдихід",
+      "description": "Заряд: активує прийом «Балістичні ракети»."
+    },
+    "SKIN_EME_D_MOVE": {
+      "prefix": null,
+      "suffix": "Рушій",
+      "description": "Може літати. Високий рівень Магніту й швидкості руху, але низький рівень макс. ОЗ."
+    }
+  }
+}

@@ -517,7 +517,7 @@ class Unpacker(tk.Tk):
             if not cbs.return_data:
                 return
 
-            selected_langs = {langs_list[i] for i, tf in enumerate(cbs.return_data) if tf}
+            selected_langs = [langs_list[i] for i, tf in enumerate(cbs.return_data) if tf]
             print(f"Selected languages: {selected_langs}")
 
         split_funcs = [
@@ -527,16 +527,16 @@ class Unpacker(tk.Tk):
                 {lang.value: LangHandler.get_lang_file(l_t).get_lang(lang) for lang in selected_langs},
                 ensure_ascii=False, indent=2),
         ]
+        split_folder_names = ["LangList", "LangDictionary", "InverseLangDictionary"]
 
         _time = Timeit()
         print(f"Splitting I2Languages to separate categories. ({split_types[split_index]})")
         lang_types = LangType.get_all_types()
         i = 0
 
+        save_path = TRANSLATIONS_FOLDER / GENERATED / SPLIT / split_folder_names[split_index]
+        save_path.mkdir(parents=True, exist_ok=True)
         for lang_type in lang_types:
-            save_path = TRANSLATIONS_FOLDER / GENERATED / SPLIT
-            save_path.mkdir(parents=True, exist_ok=True)
-
             lang_file = split_funcs[split_index](lang_type)
             if lang_file:
                 with open((save_path / lang_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
