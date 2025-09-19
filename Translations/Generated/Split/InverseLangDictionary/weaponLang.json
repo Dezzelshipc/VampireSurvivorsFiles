@@ -560,8 +560,8 @@
       "tips": "Requires: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Acchee Pee Kia",
-      "description": null,
+      "name": "Carrozza!",
+      "description": "Evolved Carréllo. Duration, Speed, and Area affect damage instead. Bounces affect Amount instead.",
       "tips": "Requires: Tetraforce."
     },
     "FLOWER2": {
@@ -1885,7 +1885,7 @@
     "EME_LONGSWORD2": {
       "name": "Lordstar",
       "tips": "Requires: \"Swallow Slice\" tech.",
-      "description": "Evolved Town Sword. Can glimmer the \"Airwave \" tech: damage x5."
+      "description": "Evolved Town Sword. Can glimmer the \"Airwave\" tech: damage x5."
     },
     "EME_LONGSWORD3": {
       "name": "Dayblade",
@@ -1941,7 +1941,7 @@
     "EME_AXE2": {
       "name": "Falconwind",
       "description": "Evolved Bullova. Can glimmer the \"Reverse Delta\" tech.",
-      "tips": "Requires Max: Skull O'Maniac, \"Hell's Fury\" tech."
+      "tips": "Requires: Skull O'Maniac, \"Hell's Fury\" tech."
     },
     "EME_AXE_TECH_01": {
       "name": "Hell's Fury ★"
@@ -2040,6 +2040,34 @@
       "name": "Intuition",
       "tips": null,
       "description": "Allows you to choose from a selection of weapons from Emerald Diorama."
+    },
+    "EX_AMMO1": {
+      "name": "Ammo Appalate",
+      "tips": "Ignores: Duration.",
+      "description": "Aims at an enemy in the faced direction. Stockpiles projectiles when enemies are out of range."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Horse Cartridge",
+      "tips": "Ignores: Duration.",
+      "description": "Aims at an enemy opposite of the faced direction. Stockpiles projectiles when enemies are out of range."
+    },
+    "EX_AMMO2": {
+      "name": "Gunastrophe",
+      "tips": "Requires: Max Bracer",
+      "description": "Evolved Ammo Appalate. Fire unorthodox projectiles at enemies in sight."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Magi-Stone",
+      "tips": "Ignores: Might, Duration.",
+      "description": "Deals fixed damage based on Weapon Level."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Kyra-Stones",
+      "tips": "Requires: Karoma's Mana",
+      "description": "Evolved Magi-Stone. Damage increases when Player Level is above 80. Amount increases with visible enemies."
+    },
+    "D13_MADMOON": {
+      "name": "Call of a Mad Moon"
     }
   },
   "fr": {
@@ -2603,7 +2631,7 @@
       "tips": "Requiert : Tétraforce."
     },
     "CART2EVO": {
-      "name": "Acchee Pee Kia",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Requiert : Tétraforce."
     },
@@ -2696,7 +2724,7 @@
     },
     "C1_REPORT2": {
       "name": "Réunion d'urgence",
-      "description": "Évolution de Au rapport ! Détruit parfois tous les ennemis d'un même type.",
+      "description": "Évolution du rapport ! Détruit parfois tous les ennemis d'un même type.",
       "tips": "Requiert : Mini-coéquipier au max"
     },
     "C1_SWIPECARD1": {
@@ -3769,7 +3797,7 @@
     },
     "EME_DUAL2": {
       "name": "Lames chercheuses",
-      "description": "Évolution des Éclabousseurs. Permet d'apprendre la technique « Double torrent ».",
+      "description": "Permet d'apprendre l'attaque « Double torrent ».",
       "tips": "Requiert : Reliure magique, technique « Double tourbillon »."
     },
     "EME_RAPIER_TECH_01": {
@@ -3789,18 +3817,18 @@
     },
     "EME_MECH1": {
       "name": "Supermissile",
-      "description": "Lance des projectiles explosifs. Permet d'apprendre la technique « Missiles balistiques ».",
+      "description": "Lance des projectiles explosifs dans un arc de cercle. Vous permet d'apprendre l'attaque « Missiles balistiques ».",
       "tips": "Ignore : durée."
     },
     "EME_MECH2": {
       "name": "Hydracanon",
-      "description": "Évolution du Supermissile. Permet d'apprendre la technique « Grêle artificielle ».",
+      "description": "Vous permet d'apprendre l'attaque « Grêle artificielle ».",
       "tips": "Requiert d'avoir appris « Missile balistique »."
     },
     "EME_MECH3": {
       "name": "Bazooka Hyperion",
-      "tips": "Requiert : la technique « Grêle artificielle ».",
-      "description": "Évolution de l'Hydracanon. Permet d'apprendre la technique « Rave cosmique »."
+      "tips": "Vous permet d'apprendre l'attaque « Vague cosmique ».",
+      "description": "Requiert d'avoir appris « Grêle artificielle »."
     },
     "EME_MECH_TECH_01": {
       "name": "Missiles balistiques ★"
@@ -3809,7 +3837,7 @@
       "name": "Grêle artificielle ★★"
     },
     "EME_MECH_TECH_03": {
-      "name": "Rave cosmique ★★★"
+      "name": "Vague cosmique ★★★"
     },
     "EME_KATANA1": {
       "name": "Double dragon",
@@ -3819,7 +3847,7 @@
     "EME_KATANA2": {
       "name": "Gekkabijin",
       "tips": "Requiert : Mana de Karoma, technique « Fossoyeur ».",
-      "description": "Évolution du Double dragon. Permet d'apprendre la technique « Dispersion de pétales »."
+      "description": "A une chance de tuer instantanément lorsque vous touchez. Vous permet d'apprendre l'attaque « Dispersion de pétales »."
     },
     "EME_KATANA_TECH_01": {
       "name": "Fossoyeur ★"
@@ -3830,17 +3858,17 @@
     "EME_PUNCH1": {
       "name": "Coup de poing",
       "tips": null,
-      "description": "Génère des attaques latérales. Permet d'apprendre la technique « Raksha »."
+      "description": "Combo de coups de poing à courte portée dans la direction à laquelle vous faites face. Vous permet d'apprendre l'attaque « Raksha »."
     },
     "EME_PUNCH2": {
       "name": "Point de pression",
       "tips": "Requiert : technique « Raksha ».",
-      "description": "Évolution du Coup de poing. Permet d'apprendre la technique « Poing ardent de Shenlong »."
+      "description": "Vous permet d'apprendre l'attaque « Poing ardent de Shenlong »."
     },
     "EME_PUNCH3": {
       "name": "Main dorée",
       "tips": "Requiert : technique « Poing ardent de Shenlong ».",
-      "description": "Évolution du Point de pression. Permet d'apprendre la technique « Guanyin »."
+      "description": "Vous permet d'apprendre l'attaque « Guayim »."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Raksha ★"
@@ -3854,7 +3882,7 @@
     "EME_KICK1": {
       "name": "Coup de pied",
       "tips": "Ignore : vitesse, durée.",
-      "description": "Inflige plus de dégâts lorsque votre santé est complète. Permet d'apprendre la technique « Coup de pied du tonnerre »."
+      "description": "Recul élevé. Vous permet d'apprendre l'attaque « Coup de pied du tonnerre »."
     },
     "EME_KICK2": {
       "name": "Coup de pied triangulaire",
@@ -3880,19 +3908,19 @@
     "EME_CANNON1": {
       "name": "Mitrailleuse Saber",
       "tips": "Efficace avec : vitesse, durée.",
-      "description": "Lance des projectiles dans la direction à laquelle vous faites face. Permet d'apprendre la technique « Onde de choc ».",
+      "description": "Lance des projectiles dans la direction à laquelle vous faites face. Vous permet d'apprendre l'attaque « Onde de choc ».",
       "customDescValue": "La durée des projectiles augmente de %0 ms"
     },
     "EME_CANNON2": {
       "name": "Mitrailleuse Hecaton",
       "tips": "Requiert d'avoir appris « Onde de choc ».",
-      "description": "Évolution de la Mitrailleuse Saber. Permet d'apprendre la technique « Bombardement ardent ».",
+      "description": "Vous permet d'apprendre l'attaque « Éclats d'étoile ».",
       "customDescValue": "La durée des projectiles augmente de %0 ms"
     },
     "EME_CANNON3": {
       "name": "Divergence",
-      "tips": "Requiert : technique « Bombardement ardent ».",
-      "description": "Évolution de la Mitrailleuse Hecaton. Permet d'apprendre la technique « Averse solaire ».",
+      "tips": "Requiert d'avoir appris « Éclats d'étoile ».",
+      "description": "Vous permet d'apprendre l'attaque « Averse solaire ».",
       "customDescValue": "La durée des projectiles augmente de %0 ms"
     },
     "EME_CANNON_TECH_01": {
@@ -3907,12 +3935,12 @@
     "EME_PISTOL1": {
       "name": "Pistolet Eagle",
       "tips": "Ignore : durée.",
-      "description": "Tire des projectiles sur les ennemis à proximité. Permet d'apprendre la technique « Feu du faucon »."
+      "description": "Tire un projectile perçant sur un ennemi aléatoire à portée. Vous permet d'apprendre l'attaque « Feu du faucon »."
     },
     "EME_PISTOL2": {
       "name": "Pendragon",
       "tips": "Requiert : Épinard, technique « Feu du faucon ».",
-      "description": "Évolution du Pistolet Eagle. Permet d'apprendre la technique « Tir liant »."
+      "description": "Les projectiles se séparent lorsqu'ils touchent une cible. Vous permet d'apprendre l'attaque « Tir liant »."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Feu du faucon ★"
@@ -3923,23 +3951,23 @@
     "EME_LONGSWORD1": {
       "name": "Épée du village",
       "tips": "Ignore : vitesse, durée.",
-      "description": "Tire dans la direction à laquelle vous faites face. Permet d'apprendre la technique « Taillade engloutissante »."
+      "description": "Crée des taillades persistantes dans la direction à laquelle vous faites face. Vous permet d'aprendre l'attaque « Taillade venteuse »."
     },
     "EME_LONGSWORD2": {
       "name": "Lordstar",
-      "tips": "Requiert : technique « Taillade engloutissante ».",
-      "description": "Évolution de l'Épée du village. Permet d'apprendre la technique « Onde aérienne » : dégâts x5."
+      "tips": "Requiert d'avoir appris « Taillade venteuse ».",
+      "description": "Évolution de l'Épée du village. Vous permet d'appredre la technique « Onde aérienne » qui multiplie les dégâts par 5."
     },
     "EME_LONGSWORD3": {
       "name": "Lame de jour",
-      "tips": "Requiert : technique « Onde aérienne ».",
-      "description": "Évolution du Lordstar. Permet d'apprendre la technique « Arrosage vital »."
+      "tips": "Requiert d'avoir appris « Taillade engloutissante ».",
+      "description": "Peut infliger des dégâts critiques et voler des cœurs. Vous permet d'apprendre l'attaque « Arrosage vital »."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Taillaide engloutissante ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "Onde aérienne ★★"
+      "name": "Taillade venteuse ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "Arrosage vital ★★★"
@@ -3947,12 +3975,12 @@
     "EME_BLOOD1": {
       "name": "Étoile sanguine",
       "tips": "Ignore : vitesse, durée.",
-      "description": "Frappe les ennemis les plus proches. Permet d'apprendre la technique « Rage sanglante » : dégâts x2, portée x2."
+      "description": "Frappe les ennemis les plus proches. Vous permet d'apprendre l'attaque « Rage sanglante »."
     },
     "EME_BLOOD2": {
       "name": "Calice de sang",
       "tips": "Requiert : Masque de pierre, technique « Range sanglante »",
-      "description": "Évolution de l'Étoile sanguine. Permet d'apprendre la technique « Présage écarlate » : l'avidité affecte les dégâts, peut voler des cœurs."
+      "description": "Évolution de l'Étoile sanguine. Vous permet d'apprendre l'attaque « Présage écarlate » dont les dégâts sont affectés par l'avidité, et qui peut voler des cœurs. L'avidité affecte les dégâts."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Rage sanglante ★"
@@ -3962,12 +3990,12 @@
     },
     "EME_KNIFE1": {
       "name": "Khukuri",
-      "description": "Des clones des ténèbres attaquent les ennemis à proximité. Permet d'apprendre la technique « Taillade de chute lunaire ».",
+      "description": "Les coups critiques vous rendre temporairement invulnérable. Vous permet d'apprendre l'attaque « Taillade de chute lunaire ».",
       "tips": "Efficace avec : vitesse, durée."
     },
     "EME_KNIFE2": {
       "name": "Courant-jet",
-      "description": "Évolution du Khukuri. Les coups critiques peuvent vous rendre temporairement invulnérable. Permet d'apprendre la technique « Kaléidoscope ».",
+      "description": "Évolution du Khukuri. Vous permet d'apprendre l'attaque «Kaléidoscope ».",
       "tips": "Requiert : Égide Parm, technique « Taillade de chute lunaire »."
     },
     "EME_KNIFE_TECH_01": {
@@ -3978,13 +4006,13 @@
     },
     "EME_AXE1": {
       "name": "Bullova",
-      "description": "Traverse les ennemis. Permet d'apprendre la technique « Furie infernale ».",
+      "description": "Vous permet d'apprendre l'attaque « Taillade infernale ».",
       "tips": "Ignore : vitesse."
     },
     "EME_AXE2": {
-      "name": "Vent du faucon",
+      "name": "Bilqis",
       "description": "Évolution du Bullova. Permet d'apprendre la technique « Delta inversé ».",
-      "tips": "Requiert : Skull O'Maniac au max, technique « Furie infernale »."
+      "tips": "Requiert : Skull O'Maniac au max."
     },
     "EME_AXE_TECH_01": {
       "name": "Fureur des enfers ★"
@@ -4012,7 +4040,7 @@
     },
     "EME_SPEAR1": {
       "name": "Glaive",
-      "description": "Poignarde dans la direction à laquelle vous faites face. Permet d'apprendre la technique « Lanceur divin ».",
+      "description": "Vous permet d'apprendre l'attaque « Lanceur divin ».",
       "tips": "Ignore : durée."
     },
     "EME_SPEAR2": {
@@ -4022,7 +4050,7 @@
     },
     "EME_SPEAR3": {
       "name": "Lohengrin",
-      "description": "Évolution de la Lance de plumes. Permet d'apprendre la technique « Triumvirat » : dégâts x3.",
+      "description": "Évolution de la Lance de plumes. Vous permet d'apprendre l'attaque « Triumvirat ».",
       "tips": "Requiert : technique « Poussière d'étoiles »."
     },
     "EME_SPEAR_TECH_01": {
@@ -4083,6 +4111,34 @@
       "name": "Intuition",
       "tips": null,
       "description": "Vous permet de choisir parmi une sélection d'armes de Diorama émeraude."
+    },
+    "EX_AMMO1": {
+      "name": "Munizioni à gogo",
+      "tips": "Ignore : durée.",
+      "description": "Tire des projectiles sur un ennemi aléatoire. La vitesse des projectiles augmente la pénétration."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Cartoucheval",
+      "tips": "Ignore : durée.",
+      "description": "Tire des projectiles sur un ennemi aléatoire. La vitesse des projectiles augmente la pénétration."
+    },
+    "EX_AMMO2": {
+      "name": "Flinguastrophe",
+      "tips": "Requiert : Brassard au max.",
+      "description": "Évolution du Munizioni à gogo. Inflige des dégâts à tous les ennemis visibles."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Magipierre",
+      "tips": "Ignore : puissance, durée.",
+      "description": "Inflige des dégâts fixes basés sur le niveau de l'arme."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Kyrapierres",
+      "tips": "Requiert : Mana de Karoma.",
+      "description": "Évolution de la Magipierre. Les dégâts augmentent en même temps que le niveau du joueur. La quantité augmente en fonction des ennemis visibles."
+    },
+    "D13_MADMOON": {
+      "name": "L'appel de la folle lune"
     }
   },
   "it": {
@@ -4465,7 +4521,7 @@
     },
     "MISSPELL": {
       "name": "Fiamme di Disincantesimo",
-      "description": "Emette coni di fiamma.",
+      "description": "Emette coni di fiamme.",
       "tips": null
     },
     "MISSPELL2": {
@@ -4646,7 +4702,7 @@
       "tips": "Requisito: Tetraforza."
     },
     "CART2EVO": {
-      "name": "Acchee Pee Kia",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Requisito: Tetraforza."
     },
@@ -5812,7 +5868,7 @@
     },
     "EME_DUAL2": {
       "name": "Lame implacabili",
-      "description": "Evoluzione di Sguazzatori. Può ottenere in Glimmer la Tech Torrente doppio.",
+      "description": "Permette di ottenere in Glimmer l'attacco Torrente doppio.",
       "tips": "Necessita di: Tech Estendincanto, Turbine doppio."
     },
     "EME_RAPIER_TECH_01": {
@@ -5832,18 +5888,18 @@
     },
     "EME_MECH1": {
       "name": "Super missile",
-      "description": "Spara proiettili esplosivi. Può ottenere in Glimmer la Tech Missili balistici.",
+      "description": "Spara proiettili esplosivi in una rosata ad arco. Permette di ottenere in Glimmer l'attacco Missili balistici.",
       "tips": "Ignora: Durata."
     },
     "EME_MECH2": {
       "name": "Cannone idra",
-      "description": "Evoluzione di Super missile. Può ottenere in Glimmer la Tech Grandinata artificiale.",
+      "description": "Permette di ottenere in Glimmer l'attacco Grandinata artificiale.",
       "tips": "Necessita di Missili balistici per l'apprendimento."
     },
     "EME_MECH3": {
       "name": "Bazooka Hyperion",
-      "tips": "Requisito: Tech Grandinata artificiale.",
-      "description": "Evoluzione di Cannone idra. Può ottenere in Glimmer la Tech Rave cosmico."
+      "tips": "Permette di ottenere in Glimmer l'attacco Rave cosmico.",
+      "description": "Necessita di Grandinata artificiale per l'apprendimento."
     },
     "EME_MECH_TECH_01": {
       "name": "Missili balistici ★"
@@ -5862,7 +5918,7 @@
     "EME_KATANA2": {
       "name": "Gekkabijin",
       "tips": "Requisito: Tech Mana di Karoma, Scavafosse.",
-      "description": "Evoluzione di Drago gemello Può ottenere in Glimmer la Tech Profluvio di petali."
+      "description": "Presenta una probabilità di uccidere istantaneamente sul colpo. Permette di ottenere in Glimmer l'attacco Profluvio di petali."
     },
     "EME_KATANA_TECH_01": {
       "name": "Scavafosse ★"
@@ -5873,17 +5929,17 @@
     "EME_PUNCH1": {
       "name": "Pugno",
       "tips": null,
-      "description": "Attacca lateralmente. Può ottenere in Glimmer la Tech Raksha."
+      "description": "Combo di pugni a corto raggio sferrati frontalmente. Permette di ottenere in Glimmer l'attacco Raksha."
     },
     "EME_PUNCH2": {
       "name": "Punto di pressione",
       "tips": "Requisito: Tech Raksha.",
-      "description": "Evoluzione di Pugno. Può ottenere in Glimmer la Tech Pugno di fuoco di Shenlong."
+      "description": "Permette di ottenere in Glimmer l'attacco Pugno di fuoco di Shenlong."
     },
     "EME_PUNCH3": {
       "name": "Mano dorata",
       "tips": "Requisito: tecnologia Pugno di fuoco di Shenlong.",
-      "description": "Evoluzione di Punto di pressione. Può ottenere in Glimmer la Tech Guanyin."
+      "description": "Permette di ottenere in Glimmer l'attacco Guayim."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Raksha ★"
@@ -5897,7 +5953,7 @@
     "EME_KICK1": {
       "name": "Calcio",
       "tips": "Ignora: Velocità, Durata.",
-      "description": "Infligge più danni quando la salute è al massimo. Può ottenere in Glimmer la Tech Calcio di tuono."
+      "description": "Respingimento elevato. Permette di ottenere in Glimmer l'attacco Calcio di tuono."
     },
     "EME_KICK2": {
       "name": "Calcio triangolare",
@@ -5923,19 +5979,19 @@
     "EME_CANNON1": {
       "name": "Mitragliatrice Saber",
       "tips": "Ideale con: Velocità, Durata.",
-      "description": "Spara frontalmente. Può ottenere in Glimmer la Tech Onda d'urto.",
+      "description": "Spara frontalmente. Esplode al contatto. Permette di ottenere in Glimmer l'attacco Onda d'urto.",
       "customDescValue": "I proiettili durano %0 ms più a lungo."
     },
     "EME_CANNON2": {
       "name": "Mitragliatrice Hecaton",
       "tips": "Requisito: Onda d'urto appresa.",
-      "description": "Evoluzione di Mitragliatrice Saber. Può ottenere in Glimmer la Tech Fuoco di bombardamento.",
+      "description": "Permette di ottenere in Glimmer l'attacco Scudo stellare.",
       "customDescValue": "I proiettili durano %0 ms più a lungo."
     },
     "EME_CANNON3": {
       "name": "Divergenza",
-      "tips": "Requisito: Tech Fuoco di bombardamento.",
-      "description": "Evoluzione di Mitragliatrice Hecaton. Può ottenere in Glimmer la Tech Doccia solare.",
+      "tips": "Requisito: Scudo stellare appreso.",
+      "description": "Permette di ottenere in Glimmer l'attacco Doccia solare.",
       "customDescValue": "I proiettili durano %0 ms più a lungo."
     },
     "EME_CANNON_TECH_01": {
@@ -5950,12 +6006,12 @@
     "EME_PISTOL1": {
       "name": "Pistola dell'aquila",
       "tips": "Ignora: Durata.",
-      "description": "Spara ai nemici circostanti. Può ottenere in Glimmer la Tech Fuoco di falco."
+      "description": "Spara un colpo perforante contro un nemico casuale nel raggio d'azione. Permette di ottenere in Glimmer l'attacco Fuoco di falco."
     },
     "EME_PISTOL2": {
       "name": "Pendragon",
       "tips": "Requisito: Tech Spinaci, Fuoco di falco.",
-      "description": "Evoluzione di Pistola dell'aquila. Può ottenere in Glimmer la Tech Colpo rimbalzante."
+      "description": "I proiettili si separano al contatto. Permette di ottenere in Glimmer l'attacco Colpo rimbalzante."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Fuoco di falco ★"
@@ -5966,23 +6022,23 @@
     "EME_LONGSWORD1": {
       "name": "Spadino",
       "tips": "Ignora: Velocità, Durata.",
-      "description": "Spara frontalmente. Può ottenere in Glimmer la Tech Fendente rondine."
+      "description": "Sferra fendenti persistenti frontalmente. Permette di ottenere in Glimmer l'attacco Fendente burrascoso."
     },
     "EME_LONGSWORD2": {
       "name": "Stella del signore",
-      "tips": "Requisito: Tech Fendente rondine.",
-      "description": "Evoluzione di Spadino. Può ottenere in Glimmer la Tech Onda d'aria: danni x5."
+      "tips": "Requisito: Fendente burrascoso appreso.",
+      "description": "I fendenti si spostano verso l'esterno. Permette di ottenere in Glimmer l'attacco Fendente rondine."
     },
     "EME_LONGSWORD3": {
       "name": "Lama diurna",
-      "tips": "Requisito: Tech Onda d'aria.",
-      "description": "Evoluzione di Stella del signore. Può ottenere in Glimmer la Tech Scintillio di vita."
+      "tips": "Requisito: Fendente rondine appreso.",
+      "description": "Può infliggere critici e rubare cuori. Permette di ottenere in Glimmer l'attacco Scintillio di vita."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Fendente rondine ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "Onda d'aria ★★"
+      "name": "Fendente burrascoso ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "Scintillio di vita ★★★"
@@ -5990,12 +6046,12 @@
     "EME_BLOOD1": {
       "name": "Stella sanguigna",
       "tips": "Ignora: Velocità, Durata.",
-      "description": "Colpisce i nemici più vicini. Può ottenere in Glimmer la Tech Furia sanguigna: danni x2, area x2."
+      "description": "Colpisce i nemici più vicini. Permette di ottenere in Glimmer l'attacco Furia sanguigna."
     },
     "EME_BLOOD2": {
       "name": "Calice di sangue",
       "tips": "Requisito: Tech Maschera di pietra, Furia sanguigna.",
-      "description": "Evoluzione di Stella sanguigna. Può ottenere in Glimmer la Tech Araldo scarlatto: danni influenzati da Avidità, può rubare cuori."
+      "description": "Evoluzione di Stella sanguigna. Permette di ottenere in Glimmer l'attacco Araldo scarlatto con danni influenzati da Avidità e in grado di rubare cuori."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Furia sanguigna ★"
@@ -6005,12 +6061,12 @@
     },
     "EME_KNIFE1": {
       "name": "Kukri",
-      "description": "I cloni ombra colpiscono i nemici circostanti. Può ottenere in Glimmer la Tech Fendente di discesa lunare.",
+      "description": "I colpi critici possono conferire invulnerabilità temporanea. Permette di ottenere in Glimmer l'attacco Fendente di discesa lunare.",
       "tips": "Ideale con: Velocità, Durata."
     },
     "EME_KNIFE2": {
       "name": "Corrente a getto",
-      "description": "Evoluzione di Kukri. I critici possono conferire invulnerabilità momentanea. Può ottenere in Glimmer la Tech Caleidoscopio.",
+      "description": "Evoluzione di Kukri. Permette di ottenere in Glimmer l'attacco Caleidoscopio.",
       "tips": "Requisito: Tech Parm Aegis, Fendente di discesa lunare."
     },
     "EME_KNIFE_TECH_01": {
@@ -6021,13 +6077,13 @@
     },
     "EME_AXE1": {
       "name": "Bullova",
-      "description": "Trapassa i nemici. Può ottenere in Glimmer la Tech Furia infernale.",
+      "description": "Permette di ottenere in Glimmer l'attacco Furia infernale.",
       "tips": "Ignora: Velocità."
     },
     "EME_AXE2": {
-      "name": "Vento di falco",
+      "name": "Bilqis",
       "description": "Evoluzione di Bullova. Permette di ottenere in Glimmer la Tech Delta invertito.",
-      "tips": "Necessita del massimo di: Teschiomaniac, Tech Furia infernale."
+      "tips": "Necessita del massimo di: Teschiomaniac."
     },
     "EME_AXE_TECH_01": {
       "name": "Furia infernale ★"
@@ -6055,7 +6111,7 @@
     },
     "EME_SPEAR1": {
       "name": "Falcione",
-      "description": "Pugnala frontalmente. Può ottenere in Glimmer la Tech Lanciere divino.",
+      "description": "Permette di ottenere in Glimmer l'attacco Lanciere divino.",
       "tips": "Ignora: Durata."
     },
     "EME_SPEAR2": {
@@ -6065,7 +6121,7 @@
     },
     "EME_SPEAR3": {
       "name": "Lohengrin",
-      "description": "Evoluzione di Asta piumata. Può ottenere in Glimmer la Tech Triumvirato: danni x3.",
+      "description": "Evoluzione di Asta piumata. Permette di ottenere in Glimmer l'attacco Triumvirato.",
       "tips": "Requisito: Tech Polvere di stelle."
     },
     "EME_SPEAR_TECH_01": {
@@ -6126,6 +6182,34 @@
       "name": "Intuizione",
       "tips": null,
       "description": "Ti permette di scegliere tra una selezione di armi da Diorama smeraldo."
+    },
+    "EX_AMMO1": {
+      "name": "Munizioni Appalate",
+      "tips": "Ignorano: Durata.",
+      "description": "Sparano a un nemico casuale. La Velocità dei proiettili aumenta la Penetrazione."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Cartuccia equina",
+      "tips": "Ignora: Durata.",
+      "description": "Spara a un nemico casuale. La Velocità dei proiettili aumenta la Penetrazione."
+    },
+    "EX_AMMO2": {
+      "name": "Armocalisse",
+      "tips": "Necessita del massimo di: Parabraccio.",
+      "description": "Evoluzione di Munizioni Appalate. Infligge danni a tutti i nemici visibili."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Magi-pietra",
+      "tips": "Ignora: Potenza, Durata.",
+      "description": "Infligge danni fissi in base al livello dell'arma."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Kyra-pietre",
+      "tips": "Requisito: Mana di Karoma.",
+      "description": "Evoluzione di Magi-pietra. Il danno aumenta con il livello del giocatore. La Quantità aumenta con i nemici visibili."
+    },
+    "D13_MADMOON": {
+      "name": "Richiamo di una luna pazza"
     }
   },
   "de": {
@@ -6689,7 +6773,7 @@
       "tips": "Benötigt: Tetrakraft."
     },
     "CART2EVO": {
-      "name": "Acchee Pee Kia",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Benötigt: Tetrakraft."
     },
@@ -7855,7 +7939,7 @@
     },
     "EME_DUAL2": {
       "name": "Verfolgende Klingen",
-      "description": "Verbesserte Platscher. Ermöglicht die Technik \"Doppel-Sturzbach\" aufzuglimmen.",
+      "description": "Ermöglicht den Angriff \"Doppel-Sturzbach\" aufzuglimmen.",
       "tips": "Benötigt: Zauberbinder, Erlernen von \"Doppel-Wirbelwind\"."
     },
     "EME_RAPIER_TECH_01": {
@@ -7875,18 +7959,18 @@
     },
     "EME_MECH1": {
       "name": "Superrakete",
-      "description": "Feuert explodierende Geschosse. Ermöglicht die Technik \"Langstreckenraketen\" aufzuglimmen.",
+      "description": "Feuert explodierende Geschosse in einem hohen Bogen. Ermöglicht den Angriff \"Langstreckenraketen\" aufzuglimmen.",
       "tips": "Ignoriert: Dauer."
     },
     "EME_MECH2": {
       "name": "Hydrokanone",
-      "description": "Verbesserte Superrakete. Ermöglicht die Technik \"Künstlicher Hagel\" aufzuglimmen.",
+      "description": "Ermöglicht den Angriff \"Künstlicher Hagel\" aufzuglimmen.",
       "tips": "Benötigt: Erlernen von \"Langstreckenraketen\"."
     },
     "EME_MECH3": {
       "name": "Hyperion Bazooka",
-      "tips": "Benötigt: Erlernen von \"Künstlicher Hagel\".",
-      "description": "Verbesserte Hydrokanone: Ermöglicht die Technik \"Kosmischer Rave\" aufzuglimmen."
+      "tips": "Ermöglicht den Angriff \"Kosmischer Rave\" aufzuglimmen.",
+      "description": "Benötigt: Erlernen von \"Künstlicher Hagel\"."
     },
     "EME_MECH_TECH_01": {
       "name": "Langstreckenraketen ★"
@@ -7905,7 +7989,7 @@
     "EME_KATANA2": {
       "name": "Gekkabijin",
       "tips": "Benötigt: Karomas Mana, Erlernen von \"Totengräber\".",
-      "description": "Verbesserter Zwillingsdrachen. Ermöglicht die Technik \"Zerstreute Blüten\" aufzuglimmen."
+      "description": "Hat die Chance, bei Treffer direkt zu töten. Ermöglicht den Angriff \"Zerstreute Blüten\" aufzuglimmen."
     },
     "EME_KATANA_TECH_01": {
       "name": "Totengräber ★"
@@ -7916,17 +8000,17 @@
     "EME_PUNCH1": {
       "name": "Punch",
       "tips": null,
-      "description": "Greift seitwärts an. Ermöglicht die Technik \"Raksha\" aufzuglimmen."
+      "description": "Faustschlagcombo mit kurzer Reichweite in Blickrichtung. Ermöglicht den Angriff \"Raksha\" aufzuglimmen."
     },
     "EME_PUNCH2": {
       "name": "Druckpunkt",
       "tips": "Benötigt: Erlernen von \"Raksha\".",
-      "description": "Verbesserter Punch. Ermöglicht die Technik \"Shenlong Feuerfaust\" aufzuglimmen."
+      "description": "Ermöglicht den Angriff \"Shenlong Feuerfaust\" aufzuglimmen."
     },
     "EME_PUNCH3": {
       "name": "Vergoldete Hand",
       "tips": "Benötigt: Erlenen von \"Shenlong Feuerfaust\".",
-      "description": "Verbesserter Druckpunkt. Ermöglicht die Technik \"Guayim\" aufzuglimmen."
+      "description": "Ermöglicht den Angriff \"Guayim\" aufzuglimmen."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Raksha ★"
@@ -7940,7 +8024,7 @@
     "EME_KICK1": {
       "name": "Kick",
       "tips": "Ignoriert: Tempo, Dauer.",
-      "description": "Verursacht mehr Schaden bei vollen LP. Ermöglicht die Technik \"Donnerkick\" aufzuglimmen."
+      "description": "Hoher Rückstoß. Ermöglicht den Angriff \"Donnerkick\" aufzuglimmen."
     },
     "EME_KICK2": {
       "name": "Dreieckskick",
@@ -7966,19 +8050,19 @@
     "EME_CANNON1": {
       "name": "Saber-Maschinengewehr",
       "tips": "Am besten mit: Tempo, Dauer.",
-      "description": "Feuert in Blickrichtung. Ermöglicht die Technik \"Schockwelle\" aufzuglimmen.",
+      "description": "Feuert in Blickrichtung. Explodiert bei Treffer. Ermöglicht den Angriff \"Schockwelle\" aufzuglimmen.",
       "customDescValue": "Projektile bleiben %0ms länger bestehen."
     },
     "EME_CANNON2": {
       "name": "Hecaton-Maschinengewehr",
       "tips": "Benötigt: Erlernen von \"Schockwelle\".",
-      "description": "Verbessertes Saber-Maschinengewehr. Ermöglicht die Technik \"Sternenregen\" aufzuglimmen.",
+      "description": "Ermöglicht den Angriff \"Sternenregen\" aufzuglimmen.",
       "customDescValue": "Projektile bleiben %0ms länger bestehen."
     },
     "EME_CANNON3": {
       "name": "Divergenz",
       "tips": "Benötigt: Erlernen von \"Sternenregen\".",
-      "description": "Verbessertes Hecaton-Maschinengewehr. Ermöglicht die Technik \"Sonnenregen\" aufzuglimmen.",
+      "description": "Ermöglicht den Angriff \"Sonnenregen\" aufzuglimmen.",
       "customDescValue": "Projektile bleiben %0ms länger bestehen."
     },
     "EME_CANNON_TECH_01": {
@@ -7993,12 +8077,12 @@
     "EME_PISTOL1": {
       "name": "Adlerpistole",
       "tips": "Ignoriert: Dauer.",
-      "description": "Feuert auf Gegner in der Nähe. Ermöglicht die Technik \"Falkenfeuer\" aufzuglimmen."
+      "description": "Feuert einen durchdringenden Schuss auf einen zufälligen Gegner in Reichweite. Ermöglicht den Angriff \"Falkenfeuer\" aufzuglimmen."
     },
     "EME_PISTOL2": {
       "name": "Pendragon",
       "tips": "Benötigt: Spinat, Erlernen von \"Falkenfeuer\".",
-      "description": "Verbesserte Adlerpistole. Ermöglicht die Technik \"Abprallschuss\" aufzuglimmen."
+      "description": "Die Geschosse spalten sich bei Treffer. Ermöglicht den Angriff \"Abprallschuss\" aufzuglimmen."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Falkenfeuer ★"
@@ -8009,23 +8093,23 @@
     "EME_LONGSWORD1": {
       "name": "Einfaches Schwert",
       "tips": "Ignoriert: Tempo, Dauer.",
-      "description": "Feuert in Blickrichtung. Ermöglicht die Technik \"Schwalbenhieb\" aufzuglimmen."
+      "description": "Führt verbleibende Hiebe in Blickrichtung aus. Ermöglicht den Angriff \"Schwalbenhieb\" aufzuglimmen."
     },
     "EME_LONGSWORD2": {
       "name": "Herrenstern",
-      "tips": "Benötigt: Erlernen von \"Schwalbenhieb\".",
-      "description": "Verbessertes Einfaches Schwert. Ermöglicht die Technik \"Windwelle\" aufzuglimmen. Tech: Schaden x5."
+      "tips": "Benötigt: Erlernen von \"Windhieb\".",
+      "description": "Verbessertes Einfaches Schwert. Ermöglicht den Angriff \"Windwelle\" aufzuglimmen. Tech: Schaden x5"
     },
     "EME_LONGSWORD3": {
       "name": "Sonnenklinge",
       "tips": "Benötigt: Erlernen von \"Windwelle\".",
-      "description": "Verbesserter Herrenstern. Ermöglicht die Technik \"Lebenssprinkler\" aufzuglimmen."
+      "description": "Kann krit. Schaden verursachen und Herzen stehlen. Ermöglicht den Angriff \"Lebenssprinkler\" aufzuglimmen."
     },
     "EME_LONGSWORD_TECH_01": {
-      "name": "Schwalbenhieb ★"
+      "name": "Windwelle ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "Windwelle ★★"
+      "name": "Windhieb ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "Lebenssprinkler ★★★"
@@ -8033,12 +8117,12 @@
     "EME_BLOOD1": {
       "name": "Blutiger Stern",
       "tips": "Ignoriert: Tempo, Dauer.",
-      "description": "Greift Gegner in der Nähe an. Ermöglicht die Technik \"Blut-Kampfrausch\" aufzuglimmen. Tech: Schaden x2, Bereich x2."
+      "description": "Greift Gegner in der Nähe an. Ermöglicht den Angriff \"Blut-Kampfrausch\" aufzuglimmen."
     },
     "EME_BLOOD2": {
       "name": "Blutkelch",
       "tips": "Benötigt: Steinmaske, Erlernen von \"Blut-Kampfrausch\".",
-      "description": "Verbesserter Blutiger Stern. Ermöglicht die Technik \"Scharlachroter Vorbote\" aufzuglimmen. Der Schaden wird von Gier beeinflusst und kann Herzen stehlen."
+      "description": "Verbesserter Blutiger Stern. Ermöglicht den Angriff \"Scharlachroter Vorbote\" aufzuglimmen. Der Schaden wird von Gier beeinflusst und kann Herzen stehlen."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Blut-Kampfrausch ★"
@@ -8048,12 +8132,12 @@
     },
     "EME_KNIFE1": {
       "name": "Khukuri",
-      "description": "Schattenklone greifen Gegner in der Nähe an. Ermöglicht die Technik \"Mondfallhieb\" aufzuglimmen.",
+      "description": "Kritische Treffer können vorübergehende Immunität auslösen. Ermöglicht den Angriff \"Mondfallhieb\" aufzuglimmen.",
       "tips": "Am besten mit: Tempo, Dauer."
     },
     "EME_KNIFE2": {
       "name": "Jetstream",
-      "description": "Verbessertes Khukuri. Kritische Treffer können vorrübergehend Unverwundbarkeit gewähren. Ermöglicht die Technik \"Kaleidoskop\" aufzuglimmen.",
+      "description": "Verbessertes Khukuri. Ermöglicht den Angriff \"Kaleidoskop\" aufzuglimmen.",
       "tips": "Benötigt: Parm Aegism, Erlernen von \"Mondfallhieb\"."
     },
     "EME_KNIFE_TECH_01": {
@@ -8064,13 +8148,13 @@
     },
     "EME_AXE1": {
       "name": "Bullova",
-      "description": "Durchdringt Gegner. Ermöglicht die Technik \"Höllenwut\" aufzuglimmen.",
+      "description": "Ermöglicht den Angriff \"Höllenwut\" aufzuglimmen.",
       "tips": "Ignoriert: Tempo."
     },
     "EME_AXE2": {
-      "name": "Falkenwind",
+      "name": "Bilqis",
       "description": "Verbesserte Bullova. Ermöglicht den Angriff \"Umgekehrtes Delta\" aufzuglimmen.",
-      "tips": "Max. benötigt: Schädel O'Maniac, Technik \"Höllenwut\""
+      "tips": "Max. Benötigt: Schädel O'Maniac"
     },
     "EME_AXE_TECH_01": {
       "name": "Höllenwut ★"
@@ -8098,7 +8182,7 @@
     },
     "EME_SPEAR1": {
       "name": "Gleve",
-      "description": "Sticht in Blickrichtung. Ermöglicht die Technik \"Göttlicher Lanzenritt\" aufzuglimmen.",
+      "description": "Ermöglicht den Angriff \"Göttlicher Lanzenritt\" aufzuglimmen.",
       "tips": "Ignoriert: Dauer."
     },
     "EME_SPEAR2": {
@@ -8108,7 +8192,7 @@
     },
     "EME_SPEAR3": {
       "name": "Lohengrin",
-      "description": "Verbesserter Federspeer. Ermöglicht die Technik \"Dreigestirn\" aufzuglimmen. Tech: Schaden x3.",
+      "description": "Verbesserter Federspeer. Ermöglicht den Angriff \"Dreigestirn\" aufzuglimmen.",
       "tips": "Benötigt: Erlernen von \"Sternenstaub\"."
     },
     "EME_SPEAR_TECH_01": {
@@ -8169,6 +8253,34 @@
       "name": "Intuition",
       "tips": null,
       "description": "Ermöglicht aus einer Reihe von Waffen aus Smaragd-Diorama zu wählen."
+    },
+    "EX_AMMO1": {
+      "name": "Kugelhagel",
+      "tips": "Ignoriert: Dauer.",
+      "description": "Feuert auf einen zufälligen Gegner. Geschossschnelligkeit erhöht Durchdringung."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Pferdewumme",
+      "tips": "Ignoriert: Dauer.",
+      "description": "Feuert auf einen zufälligen Gegner. Geschossschnelligkeit erhöht Durchdringung."
+    },
+    "EX_AMMO2": {
+      "name": "Katastrowaffe",
+      "tips": "Benötigt (max.): Armschiene.",
+      "description": "Verbesserter Kugelhagel. Fügt allen sichtbaren Gegnern Schaden zu."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Stein der Weisen",
+      "tips": "Ignoriert: Macht, Dauer.",
+      "description": "Verursacht abhängig vom Waffenlevel einen bestimmten Schadenswert."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Kyra-Steine",
+      "tips": "Benötigt: Karomas Mana.",
+      "description": "Verbesserter Stein der Weisen. Schaden erhöht sich mit Spielerlevel. Menge erhöht sich mit der Anzahl sichtbarer Gegner."
+    },
+    "D13_MADMOON": {
+      "name": "Echo eines Tollmonds"
     }
   },
   "es": {
@@ -8732,7 +8844,7 @@
       "tips": "Requiere: tetrafuerza."
     },
     "CART2EVO": {
-      "name": "Carr'Amba",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Requiere: tetrafuerza."
     },
@@ -9898,7 +10010,7 @@
     },
     "EME_DUAL2": {
       "name": "Filos seguidores",
-      "description": "Evolución de las salpicadoras. Te permite vislumbrar la técnica «Torrente doble».",
+      "description": "Permite vislumbrar el ataque «Torrente doble».",
       "tips": "Requiere: potenciahechizos, aprender «Remolino doble»."
     },
     "EME_RAPIER_TECH_01": {
@@ -9918,18 +10030,18 @@
     },
     "EME_MECH1": {
       "name": "Supermisil",
-      "description": "Dispara proyectiles explosivos. Te permite vislumbrar la técnica «Misiles balísticos».",
+      "description": "Dispara proyectiles explosivos en una trayectoria en arco. Te permite vislumbrar el ataque «Misiles balísticos».",
       "tips": "Ignora: duración."
     },
     "EME_MECH2": {
       "name": "Cañón hidra",
-      "description": "Evolución del supermisil. Te permite vislumbrar la técnica «Granizada artificial».",
+      "description": "Te permite vislumbrar el ataque «Granizada artificial».",
       "tips": "Requiere: aprender «Misiles balísticos»."
     },
     "EME_MECH3": {
       "name": "Bazuca Hiperión",
-      "tips": "Requiere: aprender «Granizada artificial».",
-      "description": "Evolución del cañón hidra. Te permite vislumbrar la técnica «Alabanza cósmica»."
+      "tips": "Te permite vislumbrar el ataque «Alabanza cósmica».",
+      "description": "Requiere: aprender «Granizada artificial»."
     },
     "EME_MECH_TECH_01": {
       "name": "Misiles balísticos ★"
@@ -9948,7 +10060,7 @@
     "EME_KATANA2": {
       "name": "Gekkabijin",
       "tips": "Requiere: maná de Karoma, aprender «Sepultura».",
-      "description": "Evolución del dragón siamés. Te permite vislumbrar la técnica «Brisa de pétalos»."
+      "description": "Probabilidad de matar instantáneamente al acertar. Te permite vislumbrar el ataque «Brisa de pétalos»."
     },
     "EME_KATANA_TECH_01": {
       "name": "Sepultura ★"
@@ -9959,17 +10071,17 @@
     "EME_PUNCH1": {
       "name": "Puñetazo",
       "tips": null,
-      "description": "Ataca a los lados. Te permite vislumbrar la técnica «Raksha»."
+      "description": "Combo de puñetazos de poco alcance en la dirección a la que mires. Te permite vislumbrar el ataque «Raksha»."
     },
     "EME_PUNCH2": {
       "name": "Punto de presión",
       "tips": "Requiere: aprender «Raksha».",
-      "description": "Evolución del puñetazo. Te permite vislumbrar la técnica «Puño de fuego Shenlong»."
+      "description": "Te permite vislumbrar el ataque «Puño de fuego Shenlong»."
     },
     "EME_PUNCH3": {
       "name": "Mano dorada",
       "tips": "Requiere: aprender «Puño de fuego Shenlong».",
-      "description": "Evolución del punto de presión. Te permite vislumbrar la técnica «Guanyin»."
+      "description": "Te permite vislumbrar el ataque «Guayim»."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Raksha ★"
@@ -9983,7 +10095,7 @@
     "EME_KICK1": {
       "name": "Patada",
       "tips": "Ignora: velocidad, duración.",
-      "description": "Causa más daño cuando tienes toda la salud. Te permite vislumbrar la técnica «Patada relámpago»."
+      "description": "Patada alta. Te permite vislumbrar el ataque «Patada relámpago»."
     },
     "EME_KICK2": {
       "name": "Patada triangular",
@@ -10009,19 +10121,19 @@
     "EME_CANNON1": {
       "name": "Ametralladora sable",
       "tips": "Mejor con: velocidad, duración.",
-      "description": "Dispara en la dirección a la que mires. Te permite vislumbrar la técnica «Onda sísmica».",
+      "description": "Dispara en la dirección a la que mires. Explota al acertar. Te permite vislumbrar el ataque «Onda sísmica».",
       "customDescValue": "Los proyectiles duran %0 ms más."
     },
     "EME_CANNON2": {
       "name": "Ametralladora Hecatón",
       "tips": "Requiere: aprender «Onda sísmica».",
-      "description": "Evolución de la ametralladora sable. Te permite vislumbrar la técnica «Fuego de bombardeo».",
+      "description": "Te permite vislumbrar el ataque «Fuego de bombardeo».",
       "customDescValue": "Los proyectiles duran %0 ms más."
     },
     "EME_CANNON3": {
       "name": "Divergencia",
       "tips": "Requiere: aprender «Fuego de bombardeo».",
-      "description": "Evolución de la ametralladora Hecatón. Te permite vislumbrar la técnica «Lluvia solar».",
+      "description": "Te permite vislumbrar el ataque «Lluvia solar».",
       "customDescValue": "Los proyectiles duran %0 ms más."
     },
     "EME_CANNON_TECH_01": {
@@ -10036,12 +10148,12 @@
     "EME_PISTOL1": {
       "name": "Pistola águila",
       "tips": "Ignora: duración.",
-      "description": "Dispara a los enemigos cercanos. Te permite vislumbrar la técnica «Fuegohalcón»."
+      "description": "Dispara un proyectil perforante a un enemigo al azar que esté a tiro. Te permite vislumbrar el ataque «Fuegohalcón»."
     },
     "EME_PISTOL2": {
       "name": "Pendragón",
       "tips": "Requiere: espinaca, aprender «Fuegohalcón».",
-      "description": "Evolución de la pistola águila. Te permite vislumbrar la técnica «Disparo rebote»."
+      "description": "Los proyectiles se dividen al acertar. Te permite vislumbrar el ataque «Disparo rebote»."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Fuegohalcón ★"
@@ -10052,17 +10164,17 @@
     "EME_LONGSWORD1": {
       "name": "Espada de aldea",
       "tips": "Ignora: velocidad, duración.",
-      "description": "Golpea en la dirección a la que mires. Te permite vislumbrar la técnica «Sección absorbente»."
+      "description": "Crea cortes prolongados en la dirección a la que mires. Te permite vislumbrar el ataque «Sección absorbente»."
     },
     "EME_LONGSWORD2": {
       "name": "Estrella señorial",
       "tips": "Requiere: aprender «Sección absorbente».",
-      "description": "Evolución de la espada de aldea. Te permite vislumbrar la técnica «Onda aérea»: daño x5."
+      "description": "Evolución de la espada de aldea. Puede vislumbrar la técnica «Onda aérea»: daño x5."
     },
     "EME_LONGSWORD3": {
       "name": "Filodía",
       "tips": "Requiere: aprender «Onda aérea».",
-      "description": "Evolución de la estrella señorial. Te permite vislumbrar la técnica «Rociador de vida»."
+      "description": "Puede causar golpes críticos y absorber corazones. Te permite vislumbrar el ataque «Rociador de vida»."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Sección absorbente ★"
@@ -10076,12 +10188,12 @@
     "EME_BLOOD1": {
       "name": "Estrella sanguina",
       "tips": "Ignora: velocidad, duración.",
-      "description": "Golpea a los enemigos más cercanos. Te permite vislumbrar la técnica «Ira sanguinaria»: daño x2, área de efecto x2."
+      "description": "Golpea a los enemigos más cercanos. Te permite vislumbrar el ataque «Ira sanguinaria»."
     },
     "EME_BLOOD2": {
       "name": "Cáliz sangriento",
       "tips": "Requiere: máscara de piedra, aprender «Ira sanguinaria».",
-      "description": "Evolución de la estrella sanguina. Te permite vislumbrar la técnica «Heraldo escarlata»: el daño se ve afectado por la avaricia, puede absorber corazones."
+      "description": "Evolución de la estrella sanguina. Te permite vislumbrar el ataque «Heraldo escarlata», que puede absorber corazones y cuyo daño depende de la avaricia."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Ira sanguinaria ★"
@@ -10091,12 +10203,12 @@
     },
     "EME_KNIFE1": {
       "name": "Kukri",
-      "description": "Los clones sombríos golpean a los enemigos cercanos. Te permite vislumbrar la técnica «Tajo lunar».",
+      "description": "Los golpes críticos pueden otorgar invulnerabilidad temporalmente. Te permite vislumbrar el ataque «Tajo lunar».",
       "tips": "Mejor con: velocidad, duración."
     },
     "EME_KNIFE2": {
       "name": "Corriente en chorro",
-      "description": "Evolución del kukri. Los golpes críticos pueden otorgar invulnerabilidad temporalmente. Te permite vislumbrar la técnica «Caleidoscopio».",
+      "description": "Evolución del kukri. Te permite vislumbrar el ataque «Caleidoscopio».",
       "tips": "Requiere: Parm Aegis, aprender «Tajo lunar»."
     },
     "EME_KNIFE_TECH_01": {
@@ -10107,13 +10219,13 @@
     },
     "EME_AXE1": {
       "name": "Bullova",
-      "description": "Atraviesa a los enemigos. Te permite vislumbrar la técnica «Furia infernal».",
+      "description": "Te permite vislumbrar el ataque «Furia infernal».",
       "tips": "Ignora: velocidad."
     },
     "EME_AXE2": {
-      "name": "Vientohalcón",
+      "name": "Bilqis",
       "description": "Evolución de la bullova. Te permite vislumbrar la técnica «Delta invertida».",
-      "tips": "Requiere: skull o'maniac y «Furia infernal» al máximo."
+      "tips": "Requiere: skull o'maniac al máximo."
     },
     "EME_AXE_TECH_01": {
       "name": "Furia infernal ★"
@@ -10141,7 +10253,7 @@
     },
     "EME_SPEAR1": {
       "name": "Guja",
-      "description": "Apuñala en la dirección a la que mires. Te permite vislumbrar la técnica «Lancero divino».",
+      "description": "Te permite vislumbrar el ataque «Lancero divino».",
       "tips": "Ignora: duración."
     },
     "EME_SPEAR2": {
@@ -10151,7 +10263,7 @@
     },
     "EME_SPEAR3": {
       "name": "Lohengrin",
-      "description": "Evolución de la lanza emplumada. Te permite vislumbrar la técnica «Triunvirato»: daño x3.",
+      "description": "Evolución de la lanza emplumada. Te permite vislumbrar el ataque «Triunvirato».",
       "tips": "Requiere: aprender «Polvo estelar»."
     },
     "EME_SPEAR_TECH_01": {
@@ -10212,6 +10324,34 @@
       "name": "Intuición",
       "tips": null,
       "description": "Te permite elegir entre una selección de armas de Emerald Diorama."
+    },
+    "EX_AMMO1": {
+      "name": "Munición appalate",
+      "tips": "Ignora: duración.",
+      "description": "Dispara a un enemigo aleatorio. La velocidad de proyectil aumenta la penetración."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Cartucho de caballos",
+      "tips": "Ignora: duración.",
+      "description": "Dispara a un enemigo aleatorio. La velocidad de proyectil aumenta la penetración."
+    },
+    "EX_AMMO2": {
+      "name": "Pistolástrofe",
+      "tips": "Requiere: brazal al máximo.",
+      "description": "Evolución de la munición appalate. Daña a todos los enemigos visibles en pantalla."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Gemágica",
+      "tips": "Ignora: poder, duración.",
+      "description": "Causa daño fijo según el nivel de arma."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Gemas de Kyra",
+      "tips": "Requiere: maná de Karoma.",
+      "description": "Evolución de la gemágica. El daño aumenta con el nivel de jugador. La cantidad aumenta con los enemigos visibles en pantalla."
+    },
+    "D13_MADMOON": {
+      "name": "Llamada de una luna de locura"
     }
   },
   "pt-BR": {
@@ -10775,7 +10915,7 @@
       "tips": "Requer: Tetraforça."
     },
     "CART2EVO": {
-      "name": "Acchee Pee Kia",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Requer: Tetraforça."
     },
@@ -11941,7 +12081,7 @@
     },
     "EME_DUAL2": {
       "name": "Lâminas Persuasivas",
-      "description": "Evolução de Respingos. Permite realçar a técnica \"Torrente Dupla\".",
+      "description": "Permite vislumbrar o ataque \"Torrente Dupla\".",
       "tips": "Requer: técnica \"Redemoinho Duplo\", Magicatalisador."
     },
     "EME_RAPIER_TECH_01": {
@@ -11961,18 +12101,18 @@
     },
     "EME_MECH1": {
       "name": "Supermíssil",
-      "description": "Dispara projéteis explosivos. Permite realçar a técnica \"Mísseis Balísticos\".",
+      "description": "Dispara projéteis explosivos em um padrão de arco. Permite vislumbrar o ataque \"Mísseis Balísticos\".",
       "tips": "Ignora: Duração."
     },
     "EME_MECH2": {
       "name": "Canhão Hidra",
-      "description": "Evolução de Supermíssil. Permite realçar a técnica \"Granizo Artificial\".",
+      "description": "Permite vislumbrar o ataque \"Granizo Artificial\".",
       "tips": "Requer \"Mísseis Balísticos\"."
     },
     "EME_MECH3": {
       "name": "Bazuca de Hyperion",
-      "tips": "Requer: técnica \"Granizo Artificial\".",
-      "description": "Evolução de Canhão Hidra. Permite realçar a técnica \"Delírio Cósmico\"."
+      "tips": "Permite vislumbrar o ataque \"Delírio Cósmico\".",
+      "description": "Requer \"Granizo Artificial\"."
     },
     "EME_MECH_TECH_01": {
       "name": "Mísseis Balísticos ★"
@@ -11991,7 +12131,7 @@
     "EME_KATANA2": {
       "name": "Gekkabijin",
       "tips": "Requer: Mana de Karoma, técnica \"Coveiro\".",
-      "description": "Evolução de Dragão Gêmeo. Permite realçar a técnica \"Pétalas Espalhadas\"."
+      "description": "Chance de eliminar instantaneamente ao atingir. Permite vislumbrar o ataque \"Pétalas Espalhadas\"."
     },
     "EME_KATANA_TECH_01": {
       "name": "Coveiro ★"
@@ -12002,17 +12142,17 @@
     "EME_PUNCH1": {
       "name": "Soco",
       "tips": null,
-      "description": "Ataca para os lados. Permite realçar a técnica \"Raksha\"."
+      "description": "Combo de socos de curto alcance para frente. Permite vislumbrar o ataque \"Raksha\"."
     },
     "EME_PUNCH2": {
       "name": "Ponto de Pressão",
       "tips": "Requer: técnica \"Raksha\".",
-      "description": "Evolução de Soco. Permite realçar a técnica \"Soco de Fogo de Shenlong\"."
+      "description": "Permite vislumbrar o ataque \"Soco de Fogo de Shenlong\"."
     },
     "EME_PUNCH3": {
       "name": "Mão Dourada",
       "tips": "Requer: técnica \"Soco de Fogo de Shenlong\".",
-      "description": "Evolução de Ponto de Pressão. Permite realçar a técnica \"Guanyin\"."
+      "description": "Permite vislumbrar o ataque \"Guayim\"."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Raksha ★"
@@ -12026,7 +12166,7 @@
     "EME_KICK1": {
       "name": "Chute",
       "tips": "Ignora: Velocidade, Duração.",
-      "description": "Causa mais dano com Vida cheia. Permite realçar a técnica \"Chute de Trovão\"."
+      "description": "Empurrão forte. Permite vislumbrar o ataque \"Chute de Trovão\"."
     },
     "EME_KICK2": {
       "name": "Chute de Triângulo",
@@ -12052,19 +12192,19 @@
     "EME_CANNON1": {
       "name": "Metralhadora de Sabre",
       "tips": "Melhor com: Velocidade, Duração.",
-      "description": "Dispara para frente. Permite realçar a técnica \"Onda de Choque\".",
+      "description": "Dispara para frente. Explode com o impacto. Permite vislumbrar o ataque \"Onda de Choque\".",
       "customDescValue": "Projéteis têm mais %0 ms de duração."
     },
     "EME_CANNON2": {
       "name": "Metralhadora de Hecaton",
       "tips": "Requer: \"Onda de Choque\".",
-      "description": "Evolução de Metralhadora de Sabre. Permite realçar a técnica \"Bombardeio de Fogo\".",
+      "description": "Permite vislumbrar o ataque \"Concha Estelar\".",
       "customDescValue": "Projéteis têm mais %0 ms de duração."
     },
     "EME_CANNON3": {
       "name": "Divergência",
-      "tips": "Requer: técnica \"Bombardeio de Fogo\".",
-      "description": "Evolução de Metralhadora de Hecaton. Permite realçar a técnica \"Chuva de Sol\".",
+      "tips": "Requer: \"Concha Estelar\".",
+      "description": "Permite vislumbrar o ataque \"Chuva de Sol\".",
       "customDescValue": "Projéteis têm mais %0 ms de duração."
     },
     "EME_CANNON_TECH_01": {
@@ -12079,12 +12219,12 @@
     "EME_PISTOL1": {
       "name": "Pistola Águia",
       "tips": "Ignora: Duração.",
-      "description": "Dispara em inimigos próximos. Permite realçar a técnica \"Falcofogo\"."
+      "description": "Dispara uma bala perfurante em um inimigo aleatório ao alcance. Permite vislumbrar o ataque \"Falcofogo\"."
     },
     "EME_PISTOL2": {
       "name": "Pendragão",
       "tips": "Requer: Espinafre, técnica \"Falcofogo\".",
-      "description": "Evolução da Pistola Águia. Permite realçar a técnica \"Disparo Ricocheteante\"."
+      "description": "Projéteis se dividem com o impacto. Permite vislumbrar o ataque \"Disparo Ricocheteante\"."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Falcofogo ★"
@@ -12095,17 +12235,17 @@
     "EME_LONGSWORD1": {
       "name": "Espada Urbana",
       "tips": "Ignora: Velocidade, Duração.",
-      "description": "Desfere golpes para frente. Permite realçar a técnica \"Corte de Andorinha\"."
+      "description": "Executa cortes duradouros para frente. Permite vislumbrar o ataque \"Rajada Cortante\"."
     },
     "EME_LONGSWORD2": {
       "name": "Estrela Nobre",
-      "tips": "Requer: técnica \"Corte de Andorinha\".",
-      "description": "Evolução da Espada Urbana. Permite realçar a técnica \"Rajada Cortante\": dano x5."
+      "tips": "Requer: \"Rajada Cortante\".",
+      "description": "Os cortes se movem para fora. Permite vislumbrar o ataque \"Corte de Andorinha\"."
     },
     "EME_LONGSWORD3": {
       "name": "Lâmina Solar",
-      "tips": "Requer: técnica \"Rajada Cortante\".",
-      "description": "Evolução da Estrela Nobre. Permite realçar a técnica \"Borrifador de Vida\"."
+      "tips": "Requer: \"Corte de Andorinha\".",
+      "description": "Pode causar dano crítico e roubar corações. Permite vislumbrar o ataque \"Borrifador de Vida\"."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Corte de Andorinha ★"
@@ -12119,12 +12259,12 @@
     "EME_BLOOD1": {
       "name": "Estrela de Sangue",
       "tips": "Ignora: Velocidade, Duração.",
-      "description": "Ataca os inimigos mais próximos. Permite realçar a técnica \"Fúria de Sangue\": dano x2, área x2."
+      "description": "Ataca os inimigos mais próximos. Permite vislumbrar o ataque \"Fúria de Sangue\"."
     },
     "EME_BLOOD2": {
       "name": "Cálice de Sangue",
       "tips": "Requer: Máscara de Pedra, técnica \"Fúria de Sangue\".",
-      "description": "Evolução de Estrela de Sangue. Permite realçar a técnica \"Arauto Escarlate\": dano afetado por Ganância, podendo roubar corações."
+      "description": "Evolução de Estrela de Sangue. Permite vislumbrar o ataque \"Arauto Escarlate\" com dano afetado por Ganância, podendo roubar corações."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Fúria de Sangue ★"
@@ -12134,12 +12274,12 @@
     },
     "EME_KNIFE1": {
       "name": "Khukuri",
-      "description": "Clones de sombra acertam inimigos próximos. Permite realçar a técnica \"Corte do Luar\".",
+      "description": "Acertos críticos podem conceder invencibilidade temporária. Permite vislumbrar o ataque \"Corte do Luar\".",
       "tips": "Melhor com: Velocidade, Duração."
     },
     "EME_KNIFE2": {
       "name": "Corrente a Jato",
-      "description": "Evolução de Khukuri. Acertos críticos podem conceder invencibilidade temporária. Permite realçar a técnica \"Caleidoscópio\".",
+      "description": "Evolução de Khukuri. Permite vislumbrar o ataque \"Caleidoscópio\".",
       "tips": "Requer: Parmégide, técnica \"Corte do Luar\"."
     },
     "EME_KNIFE_TECH_01": {
@@ -12150,13 +12290,13 @@
     },
     "EME_AXE1": {
       "name": "Bulova",
-      "description": "Atravessa inimigos. Permite realçar a técnica \"Fúria Infernal\".",
+      "description": "Permite vislumbrar o ataque \"Fúria Infernal\".",
       "tips": "Ignora: Velocidade."
     },
     "EME_AXE2": {
-      "name": "Falcovento",
+      "name": "Bilqis",
       "description": "Evolução de Bulova. Permite realçar a técnica \"Delta Reverso\".",
-      "tips": "Requer máx. de: Caveira Maníaca, técnica \"Fúria Infernal\"."
+      "tips": "Requer máx. de: Caveira Maníaca."
     },
     "EME_AXE_TECH_01": {
       "name": "Fúria Infernal ★"
@@ -12184,7 +12324,7 @@
     },
     "EME_SPEAR1": {
       "name": "Gládio",
-      "description": "Desfere um golpe para frente. Permite realçar a técnica \"Lanceiro Divino\".",
+      "description": "Permite vislumbrar o ataque \"Lanceiro Divino\".",
       "tips": "Ignora: Duração."
     },
     "EME_SPEAR2": {
@@ -12194,7 +12334,7 @@
     },
     "EME_SPEAR3": {
       "name": "Lohengrin",
-      "description": "Evolução da Lança Alada. Permite realçar a técnica \"Triunvirato\": dano x3.",
+      "description": "Evolução da Lança Alada. Permite vislumbrar o ataque \"Triunvirato\".",
       "tips": "Requer: técnica \"Poeira Estelar\"."
     },
     "EME_SPEAR_TECH_01": {
@@ -12255,6 +12395,34 @@
       "name": "Intuição",
       "tips": null,
       "description": "Permite escolher entre diferentes armas de Diorama Esmeralda."
+    },
+    "EX_AMMO1": {
+      "name": "Ilimitarma",
+      "tips": "Ignora: Duração.",
+      "description": "Dispara em um inimigo aleatório. Velocidade de Projéteis aumenta Penetração."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Carruagem",
+      "tips": "Ignora: Duração.",
+      "description": "Dispara em um inimigo aleatório. Velocidade de Projéteis aumenta Penetração."
+    },
+    "EX_AMMO2": {
+      "name": "Canhástrofe",
+      "tips": "Requer máx. de: Braçadeira.",
+      "description": "Evolução da Ilimitarma. Causa dano a todos os inimigos visíveis."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Magirrocha",
+      "tips": "Ignora: Poder, Duração.",
+      "description": "Causa dano fixo com base no nível da arma."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Kyrarrochas",
+      "tips": "Requer: Mana de Karoma.",
+      "description": "Evolução da Magirrocha. Dano aumenta a cada nível. Quantidade aumenta conforme os inimigos visíveis."
+    },
+    "D13_MADMOON": {
+      "name": "Chamado da Lua Louca"
     }
   },
   "pl": {
@@ -12818,7 +12986,7 @@
       "tips": "Wymagania: Czwórmoc"
     },
     "CART2EVO": {
-      "name": "Acchee Pee Kia",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Wymagania: Czwórmoc."
     },
@@ -13945,7 +14113,7 @@
     "TP_DEATHHAND": {
       "name": "Ręka Śmierci",
       "tips": null,
-      "description": "Śmiertelne cyfry"
+      "description": "Zabójcze cyfry"
     },
     "TP_DRACULAHAND": {
       "name": "Ręka Vlada",
@@ -13984,7 +14152,7 @@
     },
     "EME_DUAL2": {
       "name": "Ścigające ostrza",
-      "description": "Ulepszone Rozbryzgiwacze. Pozwalają na nauczenie się techniki „Podwójny strumień”.",
+      "description": "Pozwala na nauczenie się ataku „Podwójny strumień”.",
       "tips": "Wymagania: Zaklinacz, technika „Podwójny wir”."
     },
     "EME_RAPIER_TECH_01": {
@@ -14004,18 +14172,18 @@
     },
     "EME_MECH1": {
       "name": "Superpocisk",
-      "description": "Wystrzeliwuje eksplodujące pociski. Pozwala na nauczenie się techniki „Pociski balistyczne”.",
+      "description": "Wystrzeliwuje eksplodujące pociski po łuku. Pozwala na nauczenie się ataku „Pociski balistyczne”.",
       "tips": "Ignoruje: Czas trwania."
     },
     "EME_MECH2": {
       "name": "Działo Hydra",
-      "description": "Ulepszony Superpocisk. Pozwala na nauczenie się techniki „Sztuczny grad”.",
+      "description": "Pozwala na nauczenie się ataku „Sztuczny grad”.",
       "tips": "Wymagania: Nauczono się ataku „Pociski balistyczne”."
     },
     "EME_MECH3": {
       "name": "Wyrzutnia Hyperion",
-      "tips": "Wymagania: Technika „Sztuczny grad”.",
-      "description": "Ulepszone Działo Hydra. Pozwala na nauczenie się techniki „Kosmiczna impreza”."
+      "tips": "Pozwala na nauczenie się ataku „Kosmiczna impreza”.",
+      "description": "Wymagania: Nauczono się „Sztucznego gradu”."
     },
     "EME_MECH_TECH_01": {
       "name": "Pociski balistyczne ★"
@@ -14034,7 +14202,7 @@
     "EME_KATANA2": {
       "name": "Gekkabijin",
       "tips": "Wymagania: Mana Karomy, technika „Grabarz”.",
-      "description": "Ulepszony Smok bliźniak. Pozwala na nauczenie się techniki „Rozrzucone płatki”."
+      "description": "Szansa na natychmiastowe zabicie podczas uderzenia. Pozwala na nauczenie się ataku „Rozrzucone płatki”."
     },
     "EME_KATANA_TECH_01": {
       "name": "Grabarz ★"
@@ -14045,17 +14213,17 @@
     "EME_PUNCH1": {
       "name": "Piącha",
       "tips": null,
-      "description": "Atakuje na boki. Pozwala na nauczenie się techniki „Raksha”."
+      "description": "Kombinacja krótkich ciosów w stronę, w którą skierowana jest postać. Pozwala na nauczenie się ataku „Raksha”."
     },
     "EME_PUNCH2": {
       "name": "Punkt nacisku",
       "tips": "Wymagania: Technika „Raksha”.",
-      "description": "Ulepszona Piącha. Pozwala na nauczenie się techniki „Piącha Shenlonga”."
+      "description": "Pozwala na nauczenie się ataku „Piącha Shenlonga”."
     },
     "EME_PUNCH3": {
       "name": "Pozłacana dłoń",
       "tips": "Wymagania: Technika „Piącha Shenlonga”.",
-      "description": "Ulepszony Punkt nacisku. Pozwala na nauczenie się techniki  „Guanyin”."
+      "description": "Pozwala na nauczenie się ataku „Guayim”."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Raksha ★"
@@ -14069,7 +14237,7 @@
     "EME_KICK1": {
       "name": "Kopniak",
       "tips": "Ignoruje: Prędkość i Czas trwania.",
-      "description": "Zadaje większe obrażenia przy pełnym zdrowiu. Pozwala na nauczenie się techniki „Piorunujący kopniak”."
+      "description": "Silny odrzut. Pozwala na nauczenie się ataku „Piorunujący kopniak”."
     },
     "EME_KICK2": {
       "name": "Potrójny kopniak",
@@ -14095,19 +14263,19 @@
     "EME_CANNON1": {
       "name": "Karabin maszynowy Szabla",
       "tips": "Działa najlepiej z: Prędkość, Czas trwania.",
-      "description": "Strzela w stronę, w którą skierowana jest postać. Pozwala na nauczenie się techniki „Fala uderzeniowa”.",
+      "description": "Strzela w stronę, w którą skierowana jest postać. Wybucha podczas trafienia. Pozwala na nauczenie się ataku „Fala uderzeniowa”.",
       "customDescValue": "Pociski trwają %0 ms dłużej"
     },
     "EME_CANNON2": {
       "name": "Karabin maszynowy Hekaton",
       "tips": "Wymagania: Nauczono się „Fali uderzeniowej”.",
-      "description": "Ulepszony Karabin maszynowy Szabla. Pozwala na nauczenie się techniki „Deszcz meteorów”.",
+      "description": "Pozwala na nauczenie się ataku „Deszcz meteorów”.",
       "customDescValue": "Pociski trwają %0 ms dłużej"
     },
     "EME_CANNON3": {
       "name": "Rozbieżność",
-      "tips": "Wymagania: Technika „Deszcz meteorów”.",
-      "description": "Ulepszony Karabin maszynowy Hekaton. Pozwala na nauczenie się techniki „Słoneczny prysznic”.",
+      "tips": "Wymagania: Nauczono się „Deszczu meteorów”.",
+      "description": "Pozwala na nauczenie się ataku „Słoneczny prysznic”.",
       "customDescValue": "Pociski trwają %0 ms dłużej"
     },
     "EME_CANNON_TECH_01": {
@@ -14122,12 +14290,12 @@
     "EME_PISTOL1": {
       "name": "Pistolet „Orzeł”",
       "tips": "Ignoruje: Czas trwania.",
-      "description": "Strzela w pobliskich wrogów. Pozwala na nauczenie się techniki „Sokoli strzał”."
+      "description": "Wystrzeliwuje przeszywający pocisk w losowego wroga znajdującego się w zasięgu. Pozwala na nauczenie się ataku „Sokoli strzał”."
     },
     "EME_PISTOL2": {
       "name": "Pendragon",
       "tips": "Wymagania: Szpinak, technika „Sokoli strzał”.",
-      "description": "Ulepszony Pistolet „Orzeł”. Pozwala na nauczenie się techniki „Odbitka”."
+      "description": "Pociski rozdzielają się, gdy trafią cel. Pozwala na nauczenie się ataku „Odbitka”."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Sokoli strzał ★"
@@ -14138,23 +14306,23 @@
     "EME_LONGSWORD1": {
       "name": "Miecz miejski",
       "tips": "Ignoruje: Prędkość i Czas trwania.",
-      "description": "Uderza w stronę, w którą skierowana jest postać. Pozwala na nauczenie się techniki „Jaskółcze cięcie”."
+      "description": "Tworzy długotrwałe cięcia w stronę, w którą skierowana jest postać. Pozwala na nauczenie się ataku „Uderzenie wichury”."
     },
     "EME_LONGSWORD2": {
       "name": "Gwiazda zaranna",
-      "tips": "Wymagania: Technika „Jaskółcze cięcie”.",
-      "description": "Ulepszony Miecz miejski. Pozwala na nauczenie się techniki „Powietrzna fala”: obrażenia x5."
+      "tips": "Wymagania: Nauczono się „Uderzenia wichury”.",
+      "description": "Cięcia wychodzą na zewnątrz. Pozwala na nauczenie się ataku „Jaskółcze cięcie”."
     },
     "EME_LONGSWORD3": {
       "name": "Jutrzenka",
-      "tips": "Wymagania: Technika „Powietrzna fala”.",
-      "description": "Ulepszona Gwiazda zaranna. Pozwala na nauczenie się techniki „Zraszacz życia”."
+      "tips": "Wymagania: Nauczono się „Jaskółczego cięcia”.",
+      "description": "Szansa na obrażenia krytyczne oraz kradzież serc. Pozwala na nauczenie się ataku „Zraszacz życia”."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Jaskółcze cięcie ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "Powietrzna fala ★★"
+      "name": "Uderzenie wichury ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "Zraszacz życia ★★★"
@@ -14162,12 +14330,12 @@
     "EME_BLOOD1": {
       "name": "Krwista gwiazda",
       "tips": "Ignoruje: Prędkość i Czas trwania.",
-      "description": "Uderza we wrogów znajdujących się najbliżej. Pozwala na nauczenie się techniki „Żądza krwi”: obrażenia x2, Obszar x2."
+      "description": "Uderza we wrogów znajdujących się najbliżej. Pozwala na nauczenie się ataku „Żądza krwi”."
     },
     "EME_BLOOD2": {
       "name": "Kielich krwi",
       "tips": "Wymagania: Kamienna maska, technika „Żądza krwi”.",
-      "description": "Ulepszona Krwista gwiazda. Pozwala na nauczenie się techniki „Szkarłatny zwiastun”: obrażenia zależne od Chciwości, może ukraść serca."
+      "description": "Ulepszona Krwista gwiazda. Pozwala na nauczenie się ataku „Szkarłatny zwiastun”, który zadaje obrażenia zależne od Chciwości. Może też ukraść serca."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Żądza krwi ★"
@@ -14177,12 +14345,12 @@
     },
     "EME_KNIFE1": {
       "name": "Khukuri",
-      "description": "Cienie uderzają w pobliskich wrogów. Pozwala na nauczenie się techniki „Uderzenie księżyca”.",
+      "description": "Trafienia krytyczne mogą zapewnić chwilową niezniszczalność. Pozwala na nauczenie się ataku „Uderzenie księżyca”.",
       "tips": "Działa najlepiej z: Prędkość, Czas trwania."
     },
     "EME_KNIFE2": {
       "name": "Ostrze strumieniowe",
-      "description": "Ulepszone Khukuri. Trafienia krytyczne mogą zapewnić chwilową niezniszczalność. Pozwala na nauczenie się techniki „Kalejdoskop”.",
+      "description": "Ulepszone Khukuri. Pozwala na nauczenie się ataku „Kalejdoskop”.",
       "tips": "Wymagania: Parmezjan, technika „Uderzenie księżyca”."
     },
     "EME_KNIFE_TECH_01": {
@@ -14193,13 +14361,13 @@
     },
     "EME_AXE1": {
       "name": "Bullova",
-      "description": "Przechodzi przez wrogów. Pozwala na nauczenie się techniki „Piekielna furia”.",
+      "description": "Pozwala na nauczenie się ataku „Piekielna furia”.",
       "tips": "Ignoruje: Prędkość."
     },
     "EME_AXE2": {
-      "name": "Sokoli wiatr",
+      "name": "Bilqis",
       "description": "Ulepszona Bullova. Pozwala na nauczenie się techniki „Odwrócona delta”.",
-      "tips": "Wymagany maks. poziom: Czaszkomaniak, technika „Piekielna furia”."
+      "tips": "Wymagany maks. poziom: Czaszkomaniak."
     },
     "EME_AXE_TECH_01": {
       "name": "Piekielna furia ★"
@@ -14227,7 +14395,7 @@
     },
     "EME_SPEAR1": {
       "name": "Glewia",
-      "description": "Dźga w stronę, w którą skierowana jest postać. Pozwala na nauczenie się techniki „Boski lansjer”.",
+      "description": "Pozwala na nauczenie się ataku „Boski lansjer”.",
       "tips": "Ignoruje: Czas trwania."
     },
     "EME_SPEAR2": {
@@ -14237,7 +14405,7 @@
     },
     "EME_SPEAR3": {
       "name": "Lohengrin",
-      "description": "Ulepszona Pierzasta włócznia. Pozwala na nauczenie się techniki „Triumwirat”: obrażenia x3.",
+      "description": "Włócznia Alucarda",
       "tips": "Wymagania: Technika „Gwiezdny pył”."
     },
     "EME_SPEAR_TECH_01": {
@@ -14298,6 +14466,34 @@
       "name": "Intuicja",
       "tips": null,
       "description": "Umożliwia wybór broni ze Szmaragdowej dioramy."
+    },
+    "EX_AMMO1": {
+      "name": "Miotacz amunicji",
+      "tips": "Ignoruje: Czas trwania.",
+      "description": "Wystrzeliwuje w losowego wroga. Prędkość pocisków zwiększa Przebijanie."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Colt",
+      "tips": "Ignoruje: Czas trwania.",
+      "description": "Wystrzeliwuje w losowego wroga. Prędkość pocisków zwiększa Przebijanie."
+    },
+    "EX_AMMO2": {
+      "name": "Gnatastrofa",
+      "tips": "Wymagany maks. poziom: Karwasz.",
+      "description": "Ulepszony Miotacz amunicji. Zadaje obrażenia wszystkim wrogom w zasięgu wzroku."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Magikamień",
+      "tips": "Ignoruje: Moc, Czas trwania.",
+      "description": "Zadaje stałe obrażenia zależne od poziomu broni."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Kyrakamienie",
+      "tips": "Wymagania: Mana Karomy.",
+      "description": "Ulepszony Magikamień. Obrażenia wzrastają wraz z poziomem gracza. Ilość wzrasta wraz z liczbą widocznych wrogów."
+    },
+    "D13_MADMOON": {
+      "name": "Zew szalonego księżyca"
     }
   },
   "ru": {
@@ -14680,7 +14876,7 @@
     },
     "MISSPELL": {
       "name": "Пламя оговорки",
-      "description": "Выпускает конусы пламени.",
+      "description": "Выбрасывает конусы пламени.",
       "tips": null
     },
     "MISSPELL2": {
@@ -14861,7 +15057,7 @@
       "tips": "Требуется: Cила четырех."
     },
     "CART2EVO": {
-      "name": "Акчипикия",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Требуется: сила четырех."
     },
@@ -16027,7 +16223,7 @@
     },
     "EME_DUAL2": {
       "name": "Клинки гонителя",
-      "description": "Улучшенные «Вихревики». Позволяет проводить атаку-импровизацию «Двойной порыв».",
+      "description": "Позволяет проводить атаку-импровизацию «Двойной порыв».",
       "tips": "Требуется: «Заклинатель», техника «Двойной смерч»."
     },
     "EME_RAPIER_TECH_01": {
@@ -16047,18 +16243,18 @@
     },
     "EME_MECH1": {
       "name": "Сверхракетница",
-      "description": "Стреляет взрывающимися снарядами. Позволяет проводить атаку-импровизацию «Баллистические ракеты».",
+      "description": "Стреляет взрывающимися снарядами по дуге. Позволяет проводить атаку-импровизацию «Баллистические ракеты».",
       "tips": "Игнорирует: срок."
     },
     "EME_MECH2": {
       "name": "Гидравлическое орудие",
-      "description": "Улучшенная «Сверхракетница». Позволяет проводить атаку-импровизацию «Искусственная буря».",
+      "description": "Позволяет проводить атаку-импровизацию «Искусственная буря».",
       "tips": "Требуется: изученные «Баллистические ракеты»."
     },
     "EME_MECH3": {
       "name": "Базука Гипериона",
-      "tips": "Требуется: техника «Искусственная буря».",
-      "description": "Улучшенное «Гидравлическое орудие». Позволяет проводить атаку-импровизацию «Рёв космоса»."
+      "tips": "Позволяет проводить атаку-импровизацию «Рёв космоса».",
+      "description": "Требуется: изученная «Искусственная буря»."
     },
     "EME_MECH_TECH_01": {
       "name": "Баллистические ракеты ★"
@@ -16077,7 +16273,7 @@
     "EME_KATANA2": {
       "name": "Гэккабидзин",
       "tips": "Требуется: «Мана Каромы», техника «Гробокопатель».",
-      "description": "Улучшенный «Двуглавый дракон». Позволяет проводить атаку-импровизацию «Осыпавшиеся лепестки»."
+      "description": "Может мгновенно победить врага при попадании. Позволяет проводить атаку-импровизацию «Осыпавшиеся лепестки»."
     },
     "EME_KATANA_TECH_01": {
       "name": "Гробокопатель ★"
@@ -16088,17 +16284,17 @@
     "EME_PUNCH1": {
       "name": "Удар кулаком",
       "tips": null,
-      "description": "Атакует сбоку. Позволяет проводить атаку-импровизацию «Ракша»."
+      "description": "Проводит серию ударов по врагу на ближней дистанции по направлению движения. Позволяет проводить атаку-импровизацию «Ракша»."
     },
     "EME_PUNCH2": {
       "name": "Болевая точка",
       "tips": "Требуется: техника «Ракша».",
-      "description": "Улучшенный «Удар кулаком». Позволяет проводить атаку-импровизацию «Огненный кулак Шэньлуна»."
+      "description": "Позволяет проводить атаку-импровизацию «Огненный кулак Шэньлуна»."
     },
     "EME_PUNCH3": {
       "name": "Позолоченная рука",
       "tips": "Требуется: техника «Огненный кулак Шэньлуна».",
-      "description": "Улучшенная «Болевая точка». Позволяет проводить атаку-импровизацию «Гуаньинь»."
+      "description": "Позволяет проводить атаку-импровизацию «Гуайим»."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Ракша ★"
@@ -16112,7 +16308,7 @@
     "EME_KICK1": {
       "name": "Пинок",
       "tips": "Игнорирует: скорость, продолжительность.",
-      "description": "Наносит больше урона при полном здоровье. Позволяет проводить атаку-импровизацию «Громовой пинок»."
+      "description": "Сильно отталкивает врагов. Позволяет проводить атаку-импровизацию «Громовой пинок»."
     },
     "EME_KICK2": {
       "name": "Тройной пинок",
@@ -16138,19 +16334,19 @@
     "EME_CANNON1": {
       "name": "Саблезубый пулемёт",
       "tips": "Для лучшего эффекта требуются: скорость, продолжительность.",
-      "description": "Ведёт огонь по направлению движения. Позволяет проводить атаку-импровизацию «Ударная волна».",
+      "description": "Ведёт огонь по направлению движения. Пули взрываются при попадании. Позволяет проводить атаку-импровизацию «Ударная волна».",
       "customDescValue": "Активное время снарядов увеличивается на %0 мс."
     },
     "EME_CANNON2": {
       "name": "Пулемёт Гекатона",
       "tips": "Требуется: изученная «Ударная волна».",
-      "description": "Улучшенный «Саблезубый пулемёт». Позволяет проводить атаку-импровизацию «Напалм».",
+      "description": "Позволяет проводить атаку-импровизацию «Осветительный снаряд».",
       "customDescValue": "Активное время снарядов увеличивается на %0 мс."
     },
     "EME_CANNON3": {
       "name": "Дивергенция",
-      "tips": "Требуется: техника «Напалм».",
-      "description": "Улучшенный «Пулемёт Гекатона». Позволяет проводить атаку-импровизацию «Поток солнечного света».",
+      "tips": "Требуется: изученный «Осветительный снаряд».",
+      "description": "Позволяет проводить атаку-импровизацию «Поток солнечного света».",
       "customDescValue": "Активное время снарядов увеличивается на %0 мс."
     },
     "EME_CANNON_TECH_01": {
@@ -16165,12 +16361,12 @@
     "EME_PISTOL1": {
       "name": "Орлиный пистолет",
       "tips": "Игнорирует: срок.",
-      "description": "Стреляет в ближайших врагов. Позволяет проводить атаку-импровизацию «Огненный сокол»."
+      "description": "Стреляет пробивающим снарядом в случайного врага в зоне поражения. Позволяет проводить атаку-импровизацию «Огненный сокол»."
     },
     "EME_PISTOL2": {
       "name": "Пендрагон",
       "tips": "Требуется: «Шпинат», техника «Огненный сокол».",
-      "description": "Улучшенный «Орлиный пистолет». Позволяет проводить атаку-импровизацию «Отскакивающий выстрел»."
+      "description": "Снаряды разделяются при попадании. Позволяет проводить атаку-импровизацию «Отскакивающий выстрел»."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Огненный сокол ★"
@@ -16181,23 +16377,23 @@
     "EME_LONGSWORD1": {
       "name": "Городской меч",
       "tips": "Игнорирует: скорость, продолжительность.",
-      "description": "Бьёт по направлению движения. Позволяет проводить атаку-импровизацию «Поглощающий разрез»."
+      "description": "Выпускает рубящие волны энергии продолжительного действия по направлению движения. Позволяет проводить атаку-импровизацию «Удар ветра»."
     },
     "EME_LONGSWORD2": {
       "name": "Звезда владыки",
-      "tips": "Требуется: техника «Поглощающий разрез».",
-      "description": "Улучшенный «Городской меч». Позволяет проводить атаку-импровизацию «Воздушная волна» (5-кратный урон)."
+      "tips": "Требуется: изученный «Удар ветра».",
+      "description": "Выпускает рубящие волны энергии. Позволяет проводить атаку-импровизацию «Поглощающий разрез»."
     },
     "EME_LONGSWORD3": {
       "name": "Рассветный клинок",
-      "tips": "Требуется: техника «Воздушная волна».",
-      "description": "Улучшенная «Звезда владыки». Позволяет проводить атаку-импровизацию «Поток жизни»."
+      "tips": "Требуется: изученный «Поглощающий разрез».",
+      "description": "Может наносить критический урон и красть сердца. Позволяет проводить атаку-импровизацию «Поток жизни»."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Поглощающий разрез ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "Воздушная волна ★★"
+      "name": "Удар ветра ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "Поток жизни ★★★"
@@ -16205,12 +16401,12 @@
     "EME_BLOOD1": {
       "name": "Багровая звезда",
       "tips": "Игнорирует: скорость, продолжительность.",
-      "description": "Бьёт по ближайшим врагам. Позволяет проводить атаку-импровизацию «Кровавое неистовство» (2-кратный урон, 2-кратная область)."
+      "description": "Бьёт по ближайшим врагам. Позволяет проводить атаку-импровизацию «Кровавое неистовство»."
     },
     "EME_BLOOD2": {
       "name": "Кровавый кубок",
       "tips": "Требуется: «Каменная маска», техника «Кровавое неистовство».",
-      "description": "Улучшенная «Багровая звезда». Позволяет проводить атаку-импровизацию «Багровое знамение» (может красть сердца, на урон влияет жадность)."
+      "description": "Улучшенная «Багровая звезда». Позволяет проводить атаку-импровизацию «Багровое знамение», которая может красть сердца. На урон этой атаки влияет жадность."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Кровавое неистовство ★"
@@ -16220,12 +16416,12 @@
     },
     "EME_KNIFE1": {
       "name": "Кукри",
-      "description": "Теневые клоны бьют по ближайшим врагам. Позволяет проводить атаку-импровизацию «Лунный удар».",
+      "description": "Критические удары могут дать временную неуязвимость. Позволяет проводить атаку-импровизацию «Лунный удар».",
       "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
     },
     "EME_KNIFE2": {
       "name": "Реактивный поток",
-      "description": "Улучшенный «Кукри». Критические удары могут дать временную неуязвимость. Позволяет проводить атаку-импровизацию «Калейдоскоп».",
+      "description": "Улучшенный «Кукри». Позволяет проводить атаку-импровизацию «Калейдоскоп».",
       "tips": "Требуется: «Парм Эзан», техника «Лунный удар»."
     },
     "EME_KNIFE_TECH_01": {
@@ -16236,13 +16432,13 @@
     },
     "EME_AXE1": {
       "name": "Топор-булава",
-      "description": "Проходит сквозь врагов. Позволяет проводить атаку-импровизацию «Адская ярость».",
+      "description": "Позволяет проводить атаку-импровизацию «Адская ярость».",
       "tips": "Игнорирует: скорость."
     },
     "EME_AXE2": {
-      "name": "Соколиный ветер",
+      "name": "Билкис",
       "description": "Улучшенный «Топор-булава». Позволяет проводить атаку-импровизацию «Обратная дельта».",
-      "tips": "Требуется макс.: «Череп О'Маньяка», техника «Адская ярость»."
+      "tips": "Требуется макс.: «Череп О'Маньяка»."
     },
     "EME_AXE_TECH_01": {
       "name": "Адская ярость ★"
@@ -16270,7 +16466,7 @@
     },
     "EME_SPEAR1": {
       "name": "Глефа",
-      "description": "Бьёт по направлению движения. Позволяет проводить атаку-импровизацию «Божественное копьё».",
+      "description": "Позволяет проводить атаку-импровизацию «Божественное копьё».",
       "tips": "Игнорирует: срок."
     },
     "EME_SPEAR2": {
@@ -16280,7 +16476,7 @@
     },
     "EME_SPEAR3": {
       "name": "Лоэнгрин",
-      "description": "Улучшенное «Оперённое копьё». Позволяет проводить атаку-импровизацию «Триумвират» (3-кратный урон).",
+      "description": "Улучшенное «Оперённое копьё». Позволяет проводить атаку-импровизацию «Триумвират».",
       "tips": "Требуется: техника «Звёздная пыль»."
     },
     "EME_SPEAR_TECH_01": {
@@ -16341,6 +16537,34 @@
       "name": "Интуиция",
       "tips": null,
       "description": "Позволяет выбрать оружие Изумрудной диорамы."
+    },
+    "EX_AMMO1": {
+      "name": "Экстрастрелянца",
+      "tips": "Игнорирует: продолжительность.",
+      "description": "Стреляет по случайному врагу. Скорость снаряда увеличивает пробитие."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Кольт де Кавалло",
+      "tips": "Игнорирует: продолжительность.",
+      "description": "Стреляет по случайному врагу. Скорость снаряда увеличивает пробитие."
+    },
+    "EX_AMMO2": {
+      "name": "Крантыстрофа",
+      "tips": "Требуется макс.: «Наруч».",
+      "description": "Улучшенная «Экстрастрелянца». Наносит урон всем видимым врагам."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Магикамень",
+      "tips": "Игнорирует: силу, продолжительность.",
+      "description": "Наносит фиксированный урон в зависимости от уровня оружия."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Киракамни",
+      "tips": "Требуется: «Мана Каромы».",
+      "description": "Улучшенный «Магикамень». Урон увеличивается с уровнем игрока. Боезапас увеличивается с числом видимых врагов."
+    },
+    "D13_MADMOON": {
+      "name": "Зов Беснолуния"
     }
   },
   "tr": {
@@ -16904,7 +17128,7 @@
       "tips": "Gerektirir: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Acchee Pee Kia",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Gerektirir: Tetraforce."
     },
@@ -18070,7 +18294,7 @@
     },
     "EME_DUAL2": {
       "name": "Mutabık Bıçaklar",
-      "description": "Evrimleşmiş Sıçratıcılar. \"Çifte Sel\" tekniğini ortaya çıkarabilir.",
+      "description": "Çifte Sel saldırısının ortaya çıkmasını sağlar.",
       "tips": "Gerektirir: Büyübağlayan, \"Çifte Hortum\" tekniği."
     },
     "EME_RAPIER_TECH_01": {
@@ -18090,18 +18314,18 @@
     },
     "EME_MECH1": {
       "name": "Süper Füze",
-      "description": "Patlayan fırlatılabilirler ateşler. \"Balistik Füzeler\" tekniğini ortaya çıkarabilir.",
+      "description": "Kavisli şekilde patlayan fırlatılabilirler ateşler. \"Balistik Füzeler\" saldırısının ortaya çıkmasını sağlar.",
       "tips": "Yok Sayar: Tesir Süresi."
     },
     "EME_MECH2": {
       "name": "Hidra Topu",
-      "description": "Evrimleşmiş Süper Füze. \"Yapay Dolu Fırtınası\" tekniğini ortaya çıkarabilir.",
+      "description": "Yapay Dolu Fırtınası saldırısının ortaya çıkmasını sağlar.",
       "tips": "Gerektirir: \"Balistik Füzeler\" öğrenildi."
     },
     "EME_MECH3": {
       "name": "Hyperion Bazukası",
-      "tips": "Gerektirir: \"Yapay Dolu Fırtınası\" tekniği.",
-      "description": "Evrimleşmiş Hidra Topu. \"Kozmik Çılgınlık\" tekniğini ortaya çıkarabilir."
+      "tips": "Kozmik Dalga saldırısının ortaya çıkmasını sağlar.",
+      "description": "Gerektirir: \"Yapay Dolu Fırtınası\" öğrenildi."
     },
     "EME_MECH_TECH_01": {
       "name": "Balistik Füzeler ★"
@@ -18110,7 +18334,7 @@
       "name": "Yapay Dolu Fırtınası ★★"
     },
     "EME_MECH_TECH_03": {
-      "name": "Kozmik Çılgınlık ★★★"
+      "name": "Kozmik Dalga ★★★"
     },
     "EME_KATANA1": {
       "name": "İkiz Ejderha",
@@ -18120,7 +18344,7 @@
     "EME_KATANA2": {
       "name": "Gekkabijin",
       "tips": "Gerektirir: Karoma'nın Manası, \"Mezarkazan\" tekniği.",
-      "description": "Evrimleşmiş İkiz Ejderha. \"Dağılmış Taç Yapraklar\" tekniğini ortaya çıkarabilir."
+      "description": "Saldırı durumunda anında öldürme şansı vardır. \"Dağılmış Taç Yapraklar\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_KATANA_TECH_01": {
       "name": "Mezarkazan ★"
@@ -18131,17 +18355,17 @@
     "EME_PUNCH1": {
       "name": "Yumruk",
       "tips": null,
-      "description": "Yanlamasına saldırı yapar. \"Raksha\" tekniğini ortaya çıkarabilir."
+      "description": "Gidilen yönde kısa menzilli yumruklardan oluşan kombo. \"Raksha\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_PUNCH2": {
       "name": "Baskı Noktası",
       "tips": "Gerektirir: \"Raksha\" tekniği.",
-      "description": "Evrimleşmiş Yumruk. \"Shenlong Ateş Yumruğu\" tekniğini ortaya çıkarabilir."
+      "description": "Shenlong Ateş Yumruğu saldırısının ortaya çıkmasını sağlar"
     },
     "EME_PUNCH3": {
       "name": "Yaldızlı El",
       "tips": "Gerektirir: \"Shenlong Ateş Yumruğu\" tekniği.",
-      "description": "Evrimleşmiş Baskı Noktası. \"Guanyin\" tekniğini ortaya çıkarabilir."
+      "description": "Guayim saldırısının ortaya çıkmasını sağlar."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Raksha ★"
@@ -18155,7 +18379,7 @@
     "EME_KICK1": {
       "name": "Tekme",
       "tips": "Yok Sayar: Hız, Tesir Süresi.",
-      "description": "Sağlık tamamen doluyken daha çok hasar verir. \"Yıldırım Tekmesi\" tekniğini ortaya çıkarabilir."
+      "description": "Büyük oranda geri çekilmeye neden olur. \"Yıldırım Tekmesi\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_KICK2": {
       "name": "Üçgen Tekme",
@@ -18181,19 +18405,19 @@
     "EME_CANNON1": {
       "name": "Saber Makineli Tüfek",
       "tips": "İyi gider: Hız, Tesir Süresi.",
-      "description": "Gidilen yönde ateş eder. \"Şok Dalgası\" tekniğini ortaya çıkarabilir.",
+      "description": "Gidilen yönde ateş eder. İsabet ettiğinde patlar. \"Şok Dalgası\" saldırısının ortaya çıkmasını sağlar.",
       "customDescValue": "Fırlatılabilirler %0ms daha uzun sürer."
     },
     "EME_CANNON2": {
       "name": "Hecaton Makineli Tüfek",
       "tips": "Gerektirir: \"Şok Dalgası\" öğrenildi.",
-      "description": "Evrimleşmiş Saber Makineli Tüfek. \"Bombardıman Ateşi\" tekniğini ortaya çıkarabilir.",
+      "description": "Bombardıman Ateşi saldırısının ortaya çıkmasını sağlar.",
       "customDescValue": "Fırlatılabilirler %0ms daha uzun sürer."
     },
     "EME_CANNON3": {
       "name": "Farklılık",
-      "tips": "Gerektirir: \"Bombardıman Ateşi\" tekniği.",
-      "description": "Evrimleşmiş Hecaton Makineli Tüfek. \"Güneş Yağmuru\" tekniğini ortaya çıkarabilir.",
+      "tips": "Gerektirir: \"Bombardıman Ateşi\" öğrenildi.",
+      "description": "Güneş Yağmuru saldırısının ortaya çıkmasını sağlar.",
       "customDescValue": "Fırlatılabilirler %0ms daha uzun sürer."
     },
     "EME_CANNON_TECH_01": {
@@ -18208,12 +18432,12 @@
     "EME_PISTOL1": {
       "name": "Kartal Tabancası",
       "tips": "Yok Sayar: Tesir Süresi.",
-      "description": "Yakındaki düşmanlara ateş eder. \"Şahinateşi\" tekniğini ortaya çıkarabilir."
+      "description": "Menzildeki rastgele bir düşmana delici bir atış yapar. \"Şahinateşi\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_PISTOL2": {
       "name": "Penderha",
       "tips": "Gerektirir: Ispanak, \"Şahinateşi\" tekniği.",
-      "description": "Evrimleşmiş Kartal Tabancası. \"Seken Atış\" tekniğini ortaya çıkarabilir."
+      "description": "Fırlatılabilirler isabet ettiklerinde bölünür. \"Seken Atış\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Şahinateşi ★"
@@ -18224,17 +18448,17 @@
     "EME_LONGSWORD1": {
       "name": "Kasaba Kılıcı",
       "tips": "Yok Sayar: Hız, Tesir Süresi.",
-      "description": "Gidilen yönde saldırı yapar. \"Kırlangıç Kesişi\" tekniğini ortaya çıkarabilir."
+      "description": "Gidilen yönde yavaş yavaş kesikler oluşturur. \"Kırlangıç Kesişi\" saldırısının ortaya çıkmasını sağlar"
     },
     "EME_LONGSWORD2": {
       "name": "Lortyıldızı",
-      "tips": "Gerektirir: \"Kırlangıç Kesişi\" tekniği.",
-      "description": "Evrimleşmiş Kasaba Kılıcı. \"Hava Dalgası\" tekniğini ortaya çıkarabilir: hasar x5"
+      "tips": "Gerektirir: Kırlangıç Kesişi\" öğrenildi.",
+      "description": "Evrimleşmiş Kasaba Kılıcı. \"Hava Dalgası\" tekniğinin ortaya çıkmasını sağlar: hasar x5"
     },
     "EME_LONGSWORD3": {
       "name": "Günbıçağı",
-      "tips": "Gerektirir: \"Hava Dalgası\" tekniği.",
-      "description": "Evrimleşmiş Lortyıldızı. \"Yaşam Serpintisi\" tekniğini ortaya çıkarabilir."
+      "tips": "Gerektirir: \"Hava Dalgası\" öğrenildi.",
+      "description": "Kritik vuruş yapabilir ve kalpleri çalabilir. \"Yaşam Serpintisi\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Kırlangıç Kesişi ★"
@@ -18248,12 +18472,12 @@
     "EME_BLOOD1": {
       "name": "Sanguine Yıldızı",
       "tips": "Yok Sayar: Hız, Tesir Süresi.",
-      "description": "En yakındaki düşmanlara saldırır. \"Kanlı Öfke\" tekniğini ortaya çıkarabilir: hasar x2, alan x2."
+      "description": "En yakındaki düşmana saldırır. \"Kanlı Öfke\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_BLOOD2": {
       "name": "Kanlı Kadeh",
       "tips": "Gerektirir: Taş Maske, \"Kanlı Öfke\" tekniği.",
-      "description": "Evrimleşmiş Kanlı Yıldız. \"Kızıl Haberci\" tekniğini ortaya çıkarabilir: hasar Açgözlülükten etkilenir, kalpleri çalabilir."
+      "description": "Evrimleşmiş Kanlı Yıldız. Açgözlülükten etkilenen ve kalp çalabilen hasarla \"Kızıl Haberci\" saldırısının ortaya çıkmasını sağlar."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Kanlı Öfke ★"
@@ -18263,12 +18487,12 @@
     },
     "EME_KNIFE1": {
       "name": "Kukri",
-      "description": "Gölge klonları en yakındaki düşmanlara saldırır. \"Düşenay Kesiği\" tekniğini ortaya çıkarabilir.",
+      "description": "Kritik vuruşlar geçici süreliğine dokunulmazlık verebilir. \"Düşenay Kesiği\" saldırısının ortaya çıkmasını sağlar.",
       "tips": "İyi gider: Hız, Tesir Süresi."
     },
     "EME_KNIFE2": {
       "name": "Jetakımı",
-      "description": "Evrimleşmiş Kukri. Kritik vuruşlar geçici dokunulmazlık verebilir. \"Kaleydoskop\" tekniğini ortaya çıkarabilir.",
+      "description": "Evrimleşmiş Kukri. \"Kaleydoskop\" saldırısının ortaya çıkmasını sağlar.",
       "tips": "Gerektirir: Parm Aegis, \"Düşenay Kesiği\" tekniği."
     },
     "EME_KNIFE_TECH_01": {
@@ -18279,13 +18503,13 @@
     },
     "EME_AXE1": {
       "name": "Bullova",
-      "description": "Düşmanların içinden geçer. \"Cehennem'in Hiddeti\" tekniğini ortaya çıkarabilir.",
+      "description": "Cehennem Kesiği saldırısının ortaya çıkmasını sağlar.",
       "tips": "Yok sayar: Hız."
     },
     "EME_AXE2": {
-      "name": "Şahinrüzgârı",
+      "name": "Belkıs",
       "description": "Evrimleşmiş Bullova. \"Tersine Delta\" tekniğini ortaya çıkarabilir.",
-      "tips": "Maks Gerektirir: Skull O'Maniac, \"Cehennem'in Hiddeti\" tekniği."
+      "tips": "Maks Gerektirir: Skull O'Maniac."
     },
     "EME_AXE_TECH_01": {
       "name": "Cehennemin Hiddeti ★"
@@ -18313,7 +18537,7 @@
     },
     "EME_SPEAR1": {
       "name": "Kargı",
-      "description": "Gidilen yönde saldırı yapar. \"Kutsal Süvari\" tekniğini ortaya çıkarabilir.",
+      "description": "Kutsal Süvari saldırısının ortaya çıkmasını sağlar.",
       "tips": "Yok Sayar: Tesir Süresi."
     },
     "EME_SPEAR2": {
@@ -18323,7 +18547,7 @@
     },
     "EME_SPEAR3": {
       "name": "Lohengrin",
-      "description": "Evrimleşmiş Tüy Mızrak. \"Üçlüler\" tekniğini ortaya çıkarabilir: hasar x3.",
+      "description": "Evrimleşmiş Tüy Mızrak. \"Üçlüler\" saldırısının ortaya çıkmasını sağlar.",
       "tips": "Gerektirir: \"Yıldıztozu\" tekniği."
     },
     "EME_SPEAR_TECH_01": {
@@ -18384,6 +18608,34 @@
       "name": "Sezgisel",
       "tips": null,
       "description": "Zümrüt Dioraması'ndaki bir dizi silah arasından seçim yapmana olanak sağlar."
+    },
+    "EX_AMMO1": {
+      "name": "Mermisi Bitmez",
+      "tips": "Yok Sayar: Tesir Süresi.",
+      "description": "Rastgele bir düşmana ateş eder. Fırlatılabilir Hızı, Penetrasyonu artırır."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "At Fişeği",
+      "tips": "Yok Sayar: Tesir Süresi.",
+      "description": "Rastgele bir düşmana ateş eder. Fırlatılabilir Hızı, Penetrasyonu artırır."
+    },
+    "EX_AMMO2": {
+      "name": "Silafet",
+      "tips": "Gerektirir: Maks Kol Zırhı.",
+      "description": "Evrimleşmiş Mermisi Bitmez. Görünen tüm düşmanlara hasar verir."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Magi-Taşı",
+      "tips": "Yok sayar: Kuvvet, Tesir Süresi.",
+      "description": "Silah Seviyesine bağlı olarak sabit hasar verir."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Kyra-Taşları",
+      "tips": "Gerektirir: Karoma'nın Manası",
+      "description": "Evrimleşmiş Magi-Taşı. Hasar Oyuncu Seviyesi ile artar. Miktar, görünen düşmanlara göre artar."
+    },
+    "D13_MADMOON": {
+      "name": "Deli Ayın Çağrısı"
     }
   },
   "zh-CN": {
@@ -18947,7 +19199,7 @@
       "tips": "需要：泰特拉部队。"
     },
     "CART2EVO": {
-      "name": "阿奇皮起亚",
+      "name": "Carrozza!",
       "description": null,
       "tips": "需要：泰特拉部队。"
     },
@@ -20113,7 +20365,7 @@
     },
     "EME_DUAL2": {
       "name": "追击剑",
-      "description": "进化后的腥风血雨。可点亮特技“二刀荒时雨”。",
+      "description": "每隔一段时间点亮攻击“二刀荒时雨”。",
       "tips": "需要：咒缚盒，特技“二刀烈风剑”。"
     },
     "EME_RAPIER_TECH_01": {
@@ -20133,18 +20385,18 @@
     },
     "EME_MECH1": {
       "name": "超级导弹",
-      "description": "发射爆炸投射物。可点亮特技“弹道导弹”。",
+      "description": "发射弧线型的爆炸投射物。每隔一段时间点亮攻击“弹道导弹”。",
       "tips": "无关：持续时间。"
     },
     "EME_MECH2": {
       "name": "九头蛇炮",
-      "description": "进化后的超级导弹。可点亮特技“人工降雹”。",
+      "description": "每隔一段时间点亮攻击“人工降雹”。",
       "tips": "需要：已习得“弹道导弹”。"
     },
     "EME_MECH3": {
       "name": "亥伯龙火箭筒",
-      "tips": "需要：特技“人工降雹”。",
-      "description": "进化后的九头蛇炮。可点亮特技“宇宙狂欢”。"
+      "tips": "每隔一段时间点亮攻击“宇宙狂欢”。",
+      "description": "需要：已习得“人工降雹”。"
     },
     "EME_MECH_TECH_01": {
       "name": "弹道导弹 ★"
@@ -20163,7 +20415,7 @@
     "EME_KATANA2": {
       "name": "月下美人",
       "tips": "需要：卡洛玛的法力，特技“掘坟三尺”。",
-      "description": "进化后的双龙刀。可点亮特技“乱雪月花”。"
+      "description": "有一定概率在攻击时秒杀敌人。每隔一段时间点亮攻击“乱雪月花”。"
     },
     "EME_KATANA_TECH_01": {
       "name": "掘坟三尺 ★"
@@ -20174,17 +20426,17 @@
     "EME_PUNCH1": {
       "name": "冲拳",
       "tips": null,
-      "description": "向侧边攻击。可点亮特技“罗刹掌”。"
+      "description": "向所朝方向发动一组短距离拳击。每隔一段时间点亮攻击“罗刹掌”。"
     },
     "EME_PUNCH2": {
       "name": "短劲",
       "tips": "需要：特技“罗刹掌”。",
-      "description": "进化后的冲拳。可点亮特技“龙神烈火拳”。"
+      "description": "每隔一段时间点亮攻击“龙神烈火拳”。"
     },
     "EME_PUNCH3": {
       "name": "镀金之手",
       "tips": "需要：特技“龙神烈火拳”。",
-      "description": "进化后的短劲。可点亮特技“千手观音”。"
+      "description": "每隔一段时间点亮攻击“千手观音”。"
     },
     "EME_PUNCH_TECH_01": {
       "name": "罗刹掌 ★"
@@ -20198,7 +20450,7 @@
     "EME_KICK1": {
       "name": "踢击",
       "tips": "无关：速度、持续时间。",
-      "description": "生命满值时造成更高伤害。可点亮特技“闪电脚”。"
+      "description": "有效击退敌人。每隔一段时间点亮攻击“闪电脚”。"
     },
     "EME_KICK2": {
       "name": "三角飞踢",
@@ -20224,19 +20476,19 @@
     "EME_CANNON1": {
       "name": "利剑机枪",
       "tips": "最佳搭配：速度、持续时间。",
-      "description": "向所朝方向开火。可点亮特技“冲击波”。",
+      "description": "向所朝方向开火。击中时爆炸。每隔一段时间点亮攻击“冲击波”。",
       "customDescValue": "飞射物持续时间+%0毫秒。"
     },
     "EME_CANNON2": {
       "name": "赫卡顿机枪",
       "tips": "需要：已习得“冲击波”。",
-      "description": "进化后的利剑机枪。可点亮特技“弹幕炮火”。",
+      "description": "每隔一段时间点亮攻击“群星轰炸”。",
       "customDescValue": "飞射物持续时间+%0毫秒。"
     },
     "EME_CANNON3": {
       "name": "日夜分界",
-      "tips": "需要：特技“弹幕炮火”。",
-      "description": "进化后的赫卡顿机枪。可点亮特技“日光倾洒”。",
+      "tips": "需要：已习得“群星轰炸”。",
+      "description": "每隔一段时间点亮攻击“日光倾洒”。",
       "customDescValue": "飞射物持续时间+%0毫秒。"
     },
     "EME_CANNON_TECH_01": {
@@ -20251,12 +20503,12 @@
     "EME_PISTOL1": {
       "name": "鹰隼神枪",
       "tips": "无关：持续时间。",
-      "description": "向附近敌人开火。可点亮特技“隼击”。"
+      "description": "穿透射击，向射程内的一名随机敌人开火。每隔一段时间点亮攻击“隼击”。"
     },
     "EME_PISTOL2": {
       "name": "潘德拉贡",
       "tips": "需要：菠菜，特技“隼击”。",
-      "description": "进化后的鹰隼神枪。可点亮特技“跳弹”。"
+      "description": "击中时投射物分裂。每隔一段时间点亮攻击“跳弹”。"
     },
     "EME_PISTOL_TECH_01": {
       "name": "隼击 ★"
@@ -20267,23 +20519,23 @@
     "EME_LONGSWORD1": {
       "name": "市剑",
       "tips": "无关：速度、持续时间。",
-      "description": "向所朝方向攻击。可点亮特技“飞燕切”。"
+      "description": "向所朝方向发动持续的斩击。每隔一段时间点亮攻击“疾风剑”。"
     },
     "EME_LONGSWORD2": {
       "name": "霸主之星",
-      "tips": "需要：特技“飞燕切”。",
-      "description": "进化后的市剑。可点亮特技“空压波”：伤害x5。"
+      "tips": "需要：已习得“疾风剑”。",
+      "description": "斩击往外扩散。每隔一段时间点亮攻击“飞燕切”。"
     },
     "EME_LONGSWORD3": {
       "name": "日之刃",
-      "tips": "需要：特技“空压波”。",
-      "description": "进化后的霸主之星。可点亮特技“无月散水”。"
+      "tips": "需要：已习得“飞燕切”。",
+      "description": "能造成暴击并偷取红心。每隔一段时间点亮攻击“无月散水”。"
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "飞燕切 ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "空压波 ★★"
+      "name": "疾风剑 ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "无月散水 ★★★"
@@ -20291,12 +20543,12 @@
     "EME_BLOOD1": {
       "name": "血星",
       "tips": "无关：速度、持续时间。",
-      "description": "攻击距离最近的若干敌人。可点亮特技“鲜血狂怒”：伤害x2，攻击范围x2。"
+      "description": "攻击距离最近的若干敌人。每隔一段时间点亮攻击“鲜血狂怒”。"
     },
     "EME_BLOOD2": {
       "name": "鲜血圣杯",
       "tips": "需要：石面具，特技“鲜血狂怒”。",
-      "description": "进化后的血星。可点亮特技“猩红先兆”：伤害受贪欲影响，且有一定概率偷取红心。"
+      "description": "进化后的血星。每隔一段时间点亮攻击“猩红先兆”，伤害受贪欲影响，且有一定概率偷取红心。"
     },
     "EME_BLOOD_TECH_01": {
       "name": "鲜血狂怒 ★"
@@ -20306,12 +20558,12 @@
     },
     "EME_KNIFE1": {
       "name": "库库里匕首",
-      "description": "影子克隆体攻击附近的敌人，可连点特技“落月破斩”。",
+      "description": "暴击时，有一定概率获得短暂的无敌状态。每隔一段时间点亮攻击“落月破斩”。",
       "tips": "最佳搭配：速度、持续时间。"
     },
     "EME_KNIFE2": {
       "name": "风之去向",
-      "description": "进化后的库库里匕首。暴击时，有一定概率获得短暂的无敌状态。可点亮特技“变幻自在”。",
+      "description": "进化后的库库里匕首。每隔一段时间点亮攻击“变幻自在”。",
       "tips": "需要：帕尔姆神盾，特技“落月破斩”。"
     },
     "EME_KNIFE_TECH_01": {
@@ -20322,13 +20574,13 @@
     },
     "EME_AXE1": {
       "name": "布洛瓦战斧",
-      "description": "可穿透敌人。可点亮特技“地狱断面”。",
+      "description": "每隔一段时间点亮攻击“地狱断面”。",
       "tips": "无关：速度。"
     },
     "EME_AXE2": {
-      "name": "隼风",
+      "name": "比勒琪丝",
       "description": "进化后的布洛瓦战斧。可点亮特技“高速倒三角”。",
-      "tips": "需要：疯狂骷髅（最高级）、特技“地狱断面”。"
+      "tips": "需要：疯狂骷髅（最高级）。"
     },
     "EME_AXE_TECH_01": {
       "name": "地狱断面 ★"
@@ -20356,7 +20608,7 @@
     },
     "EME_SPEAR1": {
       "name": "长柄刀",
-      "description": "刺向所朝方向。可点亮特技“活杀兽神冲”。",
+      "description": "每隔一段时间点亮攻击“活杀兽神冲”。",
       "tips": "无关：持续时间。"
     },
     "EME_SPEAR2": {
@@ -20366,7 +20618,7 @@
     },
     "EME_SPEAR3": {
       "name": "罗恩格林",
-      "description": "进化后的翼之枪。可点亮特技“无双三段”：伤害x3。",
+      "description": "进化后的翼之枪。每隔一段时间点亮攻击“无双三段”。",
       "tips": "需要：特技“流星冲”。"
     },
     "EME_SPEAR_TECH_01": {
@@ -20427,6 +20679,34 @@
       "name": "直觉",
       "tips": null,
       "description": "可让你选择翡翠模型中的指定武器。"
+    },
+    "EX_AMMO1": {
+      "name": "永弹枪",
+      "tips": "无关：持续时间。",
+      "description": "向一名随机敌人发射，飞射速度会提高穿透效果。"
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "马铳",
+      "tips": "无关：持续时间。",
+      "description": "向一名随机敌人发射，飞射速度会提高穿透效果。"
+    },
+    "EX_AMMO2": {
+      "name": "祸枪",
+      "tips": "需要：护腕（最高等级）。",
+      "description": "进化永弹枪。对所有可见的敌人造成伤害。"
+    },
+    "EX_MAGISTONE1": {
+      "name": "魔法石",
+      "tips": "无关：力量、持续时间。",
+      "description": "基于武器等级造成固定伤害。"
+    },
+    "EX_MAGISTONE2": {
+      "name": "凯拉石",
+      "tips": "需要：卡洛玛的法力。",
+      "description": "进化后的魔法石。伤害随着玩家等级而增加。发射数量随着可见敌人数而增加。"
+    },
+    "D13_MADMOON": {
+      "name": "疯月的呼唤"
     }
   },
   "ja": {
@@ -20990,7 +21270,7 @@
       "tips": "テトラフォースが必要。"
     },
     "CART2EVO": {
-      "name": "アッチー・ピー・キア",
+      "name": "Carrozza!",
       "description": null,
       "tips": "必要アイテム：テトラフォース"
     },
@@ -22470,6 +22750,34 @@
       "name": "直感",
       "tips": null,
       "description": "エメラルドジオラマで使える武器を選択できる。"
+    },
+    "EX_AMMO1": {
+      "name": "弾薬アパラチア",
+      "tips": "持続時間を無視する。",
+      "description": "ランダムな敵を狙う。弾速と貫通力が上昇する。"
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "ホースカートリッジ",
+      "tips": "持続時間を無視する。",
+      "description": "ランダムな敵を狙う。弾速と貫通力が上昇する。"
+    },
+    "EX_AMMO2": {
+      "name": "銃惨事",
+      "tips": "必要アイテム：マックス腕甲",
+      "description": "弾薬アパラチアの進化形。目に見える敵すべてにダメージを与える。"
+    },
+    "EX_MAGISTONE1": {
+      "name": "マギストーン",
+      "tips": "攻撃力、効果時間はこの武器に効果をもたらさない。",
+      "description": "武器レベルに基づいた固定ダメージを与える。"
+    },
+    "EX_MAGISTONE2": {
+      "name": "キアラ・ストーン",
+      "tips": "必要アイテム：カロマのマナ",
+      "description": "マギストーンの進化系。プレイヤーのレベルに応じてダメージが増加する。敵の表示数に応じて効果が増加。"
+    },
+    "D13_MADMOON": {
+      "name": "狂い月の呼び声"
     }
   },
   "ko": {
@@ -23033,7 +23341,7 @@
       "tips": "요구 사항: 테트라포스"
     },
     "CART2EVO": {
-      "name": "악치 피 기아",
+      "name": "Carrozza!",
       "description": null,
       "tips": "요구 사항: 테트라포스"
     },
@@ -24199,7 +24507,7 @@
     },
     "EME_DUAL2": {
       "name": "추격형 블레이드",
-      "description": "진화한 스플래셔입니다. \"듀얼 토렌트\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "이중 토렌트 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "요구사항: 주문 속박기,\"듀얼 회오리” 기술."
     },
     "EME_RAPIER_TECH_01": {
@@ -24219,18 +24527,18 @@
     },
     "EME_MECH1": {
       "name": "슈퍼 미사일",
-      "description": "폭발하는 발사체를 발사합니다. \"탄도 미사일\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "아크 패턴으로 폭발하는 발사체를 발사합니다. \"탄도 미사일\" 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "강화 무시: 지속시간."
     },
     "EME_MECH2": {
       "name": "히드라 캐논",
-      "description": "진화한 슈퍼 미사일입니다. \"인공 우박\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "인공 우박 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "탄도 미사일을 학습해야 합니다."
     },
     "EME_MECH3": {
       "name": "하이페리온 바주카포",
-      "tips": "요구사항: \"인공 우박\" 기술.",
-      "description": "진화한 히드라 대포입니다. \"코스믹 레이브\" 기술에 섬광 효과를 줄 수 있습니다."
+      "tips": "코스믹 레이브 공격에 섬광 효과를 줄 수 있습니다.",
+      "description": "인공 우박을 학습해야 합니다."
     },
     "EME_MECH_TECH_01": {
       "name": "탄도 미사일 ★"
@@ -24239,7 +24547,7 @@
       "name": "인공 우박 ★★"
     },
     "EME_MECH_TECH_03": {
-      "name": "코스믹 레이브 ★★★"
+      "name": "코스믹 웨이브 ★★★"
     },
     "EME_KATANA1": {
       "name": "트윈 드래곤",
@@ -24249,7 +24557,7 @@
     "EME_KATANA2": {
       "name": "게카비진",
       "tips": "요구사항: 카로마의 마나, \"무덤도굴꾼\" 기술.",
-      "description": "진화한 트윈 드래곤입니다. \"난설월화\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "적을 즉석에서 죽일 가능성이 있습니다. \"난설월화\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_KATANA_TECH_01": {
       "name": "그레이브디거 ★"
@@ -24260,17 +24568,17 @@
     "EME_PUNCH1": {
       "name": "펀치",
       "tips": null,
-      "description": "옆으로 공격합니다. \"나찰장\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "정면 방향으로 단거리 펀치 콤보를 날립니다. \"나찰장\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_PUNCH2": {
       "name": "압력 포인트",
       "tips": "요구사항: \"나찰장\" 기술.",
-      "description": "진화한 펀치입니다. \"용신열화권\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "용신열화권 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_PUNCH3": {
       "name": "금빛 손",
       "tips": "요구사항: \"용신열화권\" 기술.",
-      "description": "진화한 압점입니다. \"관음\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "과임 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_PUNCH_TECH_01": {
       "name": "락샤 ★"
@@ -24284,7 +24592,7 @@
     "EME_KICK1": {
       "name": "킥",
       "tips": "강화 무시: 투사체 속도, 지속시간",
-      "description": "체력이 최대일 때 더 많은 피해를 입힙니다. \"썬더 킥\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "높은 넉백. \"번개 킥\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_KICK2": {
       "name": "트라이앵글 킥",
@@ -24310,19 +24618,19 @@
     "EME_CANNON1": {
       "name": "세이버 기관총",
       "tips": "추천 조합: 투사체 속도, 지속시간",
-      "description": "정면을 향해 발사체를 발사합니다. “충격파” 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "마주보는 방향으로 발사합니다. 적중 시 폭발합니다. \"충격파\" 공격에 섬광 효과를 줄 수 있습니다.",
       "customDescValue": "발사체 지속 시간이 %0ms 더 길어집니다."
     },
     "EME_CANNON2": {
       "name": "헤카톤 기관총",
       "tips": "충격파를 학습해야 합니다.",
-      "description": "진화한 세이버 기관총입니다. \"집중 포화\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "스타셸 공격에 섬광 효과를 줄 수 있습니다.",
       "customDescValue": "발사체 지속 시간이 %0ms 더 길어집니다."
     },
     "EME_CANNON3": {
       "name": "다이버전스",
-      "tips": "포격 사격 기술이 필요합니다.",
-      "description": "진화한 헤카톤 기관총입니다. \"선라이트 샤워\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "tips": "스타쉘을 학습해야 합니다.",
+      "description": "선라이트 샤워 공격에 섬광 효과를 줄 수 있습니다.",
       "customDescValue": "발사체 지속 시간이 %0ms 더 길어집니다."
     },
     "EME_CANNON_TECH_01": {
@@ -24337,12 +24645,12 @@
     "EME_PISTOL1": {
       "name": "이글 건",
       "tips": "강화 무시: 지속시간.",
-      "description": "가까이 있는 적을 가격합니다. \"팔콘파이어\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "무작위로 선택된 적을 향해 관통샷을 발사합니다. \"팔콘파이어\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_PISTOL2": {
       "name": "펜드래곤",
       "tips": "요구사항: 시금치, \"팔콘파이어” 기술.",
-      "description": "진화한 이글 건입니다. \"바운딩 샷\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "발사체가 충돌하면 분할됩니다. \"바운딩 샷\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_PISTOL_TECH_01": {
       "name": "팔콘파이어 ★"
@@ -24353,23 +24661,23 @@
     "EME_LONGSWORD1": {
       "name": "타운 소드",
       "tips": "강화 무시: 투사체 속도, 지속시간",
-      "description": "마주보는 방향으로 가격합니다. \"제비 베기\" 기술에 섬광 효과를 줄 수 있습니다."
+      "description": "마주보는 방향으로 길게 벱니다. \"질풍검\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_LONGSWORD2": {
       "name": "로드스타",
-      "tips": "요구사항: \"제비 베기\" 기술.",
-      "description": "진화한 타운 소드입니다. \"공중파\" 기술에 섬광 효과를 줄 수 있고, 이때 피해량이 5배가 됩니다."
+      "tips": "질풍검을 학습해야 합니다.",
+      "description": "슬래시가 바깥쪽으로 이동합니다. \"제비 베기\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_LONGSWORD3": {
       "name": "데이블레이드",
-      "tips": "요구사항: \"공중파\" 기술.",
-      "description": "진화한 로드스타입니다. \"무월살수\" 기술에 섬광 효과를 줄 수 있습니다."
+      "tips": "삼키기 슬라이스를 학습해야 합니다.",
+      "description": "하트를 치명타하고 훔칠 수 있습니다. \"무월살수\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_LONGSWORD_TECH_01": {
-      "name": "제비 베기 ★"
+      "name": "삼키기 그네 ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "공중파 ★★"
+      "name": "질풍검 ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "무월살수 ★★★"
@@ -24377,12 +24685,12 @@
     "EME_BLOOD1": {
       "name": "블러드 스타",
       "tips": "강화 무시: 투사체 속도, 지속시간",
-      "description": "가장 가까이 있는 적을 가격합니다. \"블러드 스파르탄\" 기술에 섬광 효과를 줄 수 있고 이때 피해량이 2배, 공격 범위가 2배가 됩니다."
+      "description": "가장 가까이 있는 적을 가격합니다. \"블러드 스파르탄\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_BLOOD2": {
       "name": "피의 성배",
       "tips": "요구사항: 돌 가면, \"블러드 스파르탄\" 기술.",
-      "description": "진화한 블러드 스타입니다. \"레드 하빈저\" 기술에 섬광 효과를 줄 수 있으며 피해량은 탐욕의 영향을 받고, 하트를 훔칠 수 있습니다."
+      "description": "진화한 상쾌한 별. 탐욕의 영향을 받아 하트를 훔칠 수 있는 \"레드 하빈저\" 공격에 섬광 효과를 줄 수 있습니다."
     },
     "EME_BLOOD_TECH_01": {
       "name": "피의 분노 ★"
@@ -24392,12 +24700,12 @@
     },
     "EME_KNIFE1": {
       "name": "쿠쿠리",
-      "description": "그림자 클론이 근처의 적을 공격합니다. \"낙월파침\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "치명타에 맞으면 일시적으로 무적 상태가 될 수 있습니다. \"낙월파참\" 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "추천 조합: 투사체 속도, 지속시간"
     },
     "EME_KNIFE2": {
       "name": "제트스트림",
-      "description": "진화한 쿠쿠리입니다. 치명타 공격에 성공하면 일시적으로 무적 상태가 될 수 있습니다. \"변환자재\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "진화한 쿠쿠리. \"변환자재\" 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "요구사항: 파마산 보호구, \"낙월파침\" 기술."
     },
     "EME_KNIFE_TECH_01": {
@@ -24408,13 +24716,13 @@
     },
     "EME_AXE1": {
       "name": "불로바",
-      "description": "적을 통과합니다. \"지옥의 분노\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "지옥 베기 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "강화 무시: 투사체 속도"
     },
     "EME_AXE2": {
-      "name": "호크윈드",
+      "name": "빌키스",
       "description": "진화한 불로바. \"고속 네뷸러\" 기술에 섬광 효과를 줄 수 있습니다.",
-      "tips": "최대치 필요: 스컬 오매니악, \"지옥의 분노\" 기술."
+      "tips": "최대치 필요: 미치광이의 두개골"
     },
     "EME_AXE_TECH_01": {
       "name": "지옥의 분노 ★"
@@ -24442,7 +24750,7 @@
     },
     "EME_SPEAR1": {
       "name": "글레이브",
-      "description": "마주보는 방향으로 찌릅니다. \"활살수신임팩트\" 기술에 섬광 효과를 줄 수 있습니다.",
+      "description": "활살수신임팩트 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "강화 무시: 지속시간."
     },
     "EME_SPEAR2": {
@@ -24452,7 +24760,7 @@
     },
     "EME_SPEAR3": {
       "name": "로헨그린",
-      "description": "진화한 깃털 창입니다. \"무쌍삼단\" 기술에 섬광 효과를 줄 수 있고, 이때 피해량이 3배가 됩니다.",
+      "description": "진화한 알루카드 창입니다. \"무쌍삼단\" 공격에 섬광 효과를 줄 수 있습니다.",
       "tips": "요구사항: \"무쌍삼단\" 기술."
     },
     "EME_SPEAR_TECH_01": {
@@ -24513,6 +24821,34 @@
       "name": "직관",
       "tips": null,
       "description": "다양한 주문 중에서 선택할 수 있습니다."
+    },
+    "EX_AMMO1": {
+      "name": "탄약 아팔레트",
+      "tips": "강화 무시: 지속시간",
+      "description": "무작위 적에게 발사합니다. 투사체 속도에 따라 더 많이 관통합니다."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "말 카트리지",
+      "tips": "강화 무시: 지속시간",
+      "description": "무작위 적에게 발사합니다. 투사체 속도에 따라 더 많이 관통합니다."
+    },
+    "EX_AMMO2": {
+      "name": "총격전",
+      "tips": "요구사항: 맥스 브레이서",
+      "description": "진화한 탄약 아팔레트. 눈에 보이는 모든 적에게 피해를 줍니다."
+    },
+    "EX_MAGISTONE1": {
+      "name": "마기 스톤",
+      "tips": "강화 무시: 피해량, 지속 시간.",
+      "description": "무기 레벨에 따라 고정 피해를 줍니다."
+    },
+    "EX_MAGISTONE2": {
+      "name": "키라-스톤",
+      "tips": "요구사항: 카로마의 마나",
+      "description": "진화한 마기 스톤입니다. 플레이어 레벨에 따라 피해량이 증가합니다. 눈에 보이는 적에 따라 수량이 증가합니다."
+    },
+    "D13_MADMOON": {
+      "name": "미친 달의 부름"
     }
   },
   "zh-TW": {
@@ -25076,7 +25412,7 @@
       "tips": "需要：泰特拉部隊。"
     },
     "CART2EVO": {
-      "name": "阿奇皮起亞",
+      "name": "Carrozza!",
       "description": null,
       "tips": "需要：泰特拉部隊。"
     },
@@ -26242,7 +26578,7 @@
     },
     "EME_DUAL2": {
       "name": "追擊利刃",
-      "description": "解放版的噴濺者。讓你能夠使用閃悟技能「雙重洪流」。",
+      "description": "賦予「雙重洪流」的攻擊閃爍效果。",
       "tips": "需要：咒縛盒，「雙重旋風」技能。"
     },
     "EME_RAPIER_TECH_01": {
@@ -26262,18 +26598,18 @@
     },
     "EME_MECH1": {
       "name": "超級飛彈",
-      "description": "發射會爆炸的投射物。讓你能夠使用閃悟技能「彈道飛彈」技能。",
+      "description": "沿著弧形軌跡發射爆炸投射物。讓你能夠使用「彈道飛彈」閃爍攻擊。",
       "tips": "無加成效果：效果持續時間。"
     },
     "EME_MECH2": {
       "name": "九頭蛇砲",
-      "description": "解放版的超級飛彈。讓你能夠使用閃悟技能「人工冰雹」。",
+      "description": "讓你能夠使用「人工冰雹」閃爍攻擊。",
       "tips": "需要已學習「彈道飛彈」。"
     },
     "EME_MECH3": {
       "name": "超音速火箭筒",
-      "tips": "需要：「人工冰雹」技能。",
-      "description": "解放版的九頭蛇砲。讓你能夠使用閃悟技能「宇宙狂歡」。"
+      "tips": "讓你能夠使用「宇宙狂歡」閃爍攻擊。",
+      "description": "需要已學習「人工冰雹」。"
     },
     "EME_MECH_TECH_01": {
       "name": "彈道飛彈 ★"
@@ -26282,7 +26618,7 @@
       "name": "人工冰雹 ★★"
     },
     "EME_MECH_TECH_03": {
-      "name": "宇宙狂歡 ★★★"
+      "name": "宇宙波 ★★★"
     },
     "EME_KATANA1": {
       "name": "雙龍",
@@ -26292,7 +26628,7 @@
     "EME_KATANA2": {
       "name": "月下美人",
       "tips": "需要：卡羅馬的法力，「掘墓者」技能。",
-      "description": "解放版的雙龍。讓你能夠使用閃悟技能「散落花瓣」。"
+      "description": "有機率一擊必殺。讓你能夠使用「散落花瓣」閃爍攻擊。"
     },
     "EME_KATANA_TECH_01": {
       "name": "掘墓者 ★"
@@ -26303,17 +26639,17 @@
     "EME_PUNCH1": {
       "name": "拳擊",
       "tips": null,
-      "description": "發動左右攻擊。讓你能夠使用閃悟技能「羅刹」。"
+      "description": "朝面對方向進行短程拳打連擊。讓你能夠使用「羅刹」閃爍攻擊。"
     },
     "EME_PUNCH2": {
       "name": "壓力點",
       "tips": "需要：「羅刹」技能。",
-      "description": "解放版的拳擊。讓你能夠使用閃悟技能「神龍火拳」。"
+      "description": "讓你能夠使用「神龍火拳」閃爍攻擊。"
     },
     "EME_PUNCH3": {
       "name": "鍍金之手",
       "tips": "需要：「神龍火拳」技能。",
-      "description": "解放版的壓力點。讓你能夠使用閃悟技能「觀音」。"
+      "description": "讓你能夠使用「瓜伊姆」閃爍攻擊。"
     },
     "EME_PUNCH_TECH_01": {
       "name": "羅刹 ★"
@@ -26327,7 +26663,7 @@
     "EME_KICK1": {
       "name": "踢擊",
       "tips": "無加成效果：速度、效果持續時間。",
-      "description": "滿血時可造成更多傷害。讓你能夠使用閃悟技能「雷霆踢」。"
+      "description": "高擊退力。讓你能夠使用「雷霆踢」閃爍攻擊。"
     },
     "EME_KICK2": {
       "name": "三角踢",
@@ -26353,19 +26689,19 @@
     "EME_CANNON1": {
       "name": "軍刀機槍",
       "tips": "最佳搭配：速度、效果持續時間。",
-      "description": "對面朝方向發射投射物。讓你能夠使用閃悟技能「衝擊波」。",
+      "description": "對面朝方向發射。命中時爆炸。讓你能夠使用「衝擊波」閃爍攻擊。",
       "customDescValue": "投射物持續時間延長 %0 毫秒。"
     },
     "EME_CANNON2": {
       "name": "百頭機槍",
       "tips": "需要已學習「衝擊波」。",
-      "description": "解放版的軍刀機槍。讓你能夠使用閃悟技能「轟炸之火」。",
+      "description": "讓你能夠使用「星彈」閃爍攻擊。",
       "customDescValue": "投射物持續時間延長 %0 毫秒。"
     },
     "EME_CANNON3": {
       "name": "分歧",
-      "tips": "需要：「轟炸之火」技能。",
-      "description": "解放版的百頭機槍。讓你能夠使用閃悟技能「陽光淋浴」。",
+      "tips": "需要已學習「星彈」。",
+      "description": "讓你能夠使用「陽光淋浴」閃爍攻擊。",
       "customDescValue": "投射物持續時間延長 %0 毫秒。"
     },
     "EME_CANNON_TECH_01": {
@@ -26380,12 +26716,12 @@
     "EME_PISTOL1": {
       "name": "鷹式槍",
       "tips": "無加成效果：效果持續時間。",
-      "description": "對附近的敵人發射。讓你能夠使用閃悟技能「獵鷹之火」。"
+      "description": "向範圍內隨機敵人發射穿透射擊。讓你能夠使用「獵鷹之火」閃爍攻擊。"
     },
     "EME_PISTOL2": {
       "name": "潘德拉剛",
       "tips": "需要：菠菜，「獵鷹之火」技能。",
-      "description": "解放版的鷹式槍。讓你能夠使用閃悟技能「跳躍射擊」。"
+      "description": "投射物命中時分裂。讓你能夠使用「跳躍射擊」閃爍攻擊。"
     },
     "EME_PISTOL_TECH_01": {
       "name": "獵鷹之火 ★"
@@ -26396,23 +26732,23 @@
     "EME_LONGSWORD1": {
       "name": "城鎮之劍",
       "tips": "無加成效果：速度、效果持續時間。",
-      "description": "對面朝方向發動攻擊。讓你能夠使用閃悟技能「燕子斬」。"
+      "description": "對面朝方向發動持續性斬擊。讓你能夠使用「烈風斬」閃爍攻擊。"
     },
     "EME_LONGSWORD2": {
       "name": "領主星",
-      "tips": "需要：「燕子斬」技能。",
-      "description": "解放版的城鎮之劍。讓你能夠使用閃悟技能「空浪」技能：傷害 x5"
+      "tips": "需要已學習「烈風斬」。",
+      "description": "斬擊會向外移動。讓你能夠使用「燕子斬」閃爍攻擊。"
     },
     "EME_LONGSWORD3": {
       "name": "日刃",
-      "tips": "需要：「空浪」技能。",
-      "description": "解放版的領主星。讓你能夠使用閃悟技能「生命噴灑者」。"
+      "tips": "需要已學習「燕子斬」。",
+      "description": "可暴擊並吸取紅心。讓你能夠使用「生命噴灑者」閃爍攻擊。"
     },
     "EME_LONGSWORD_TECH_01": {
-      "name": "燕子斬 ★"
+      "name": "燕子盪 ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "空浪 ★★"
+      "name": "烈風斬 ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "生命噴灑者 ★★★"
@@ -26420,12 +26756,12 @@
     "EME_BLOOD1": {
       "name": "血色星辰",
       "tips": "無加成效果：速度、效果持續時間。",
-      "description": "攻擊最近的敵人。讓你能夠使用閃悟技能「血怒」技能：傷害 x2、效果範圍 x2。"
+      "description": "攻擊最近的敵人。讓你能夠使用「血之狂怒」閃爍攻擊。"
     },
     "EME_BLOOD2": {
       "name": "血之聖杯",
       "tips": "需要：石面具，「血怒」技能。",
-      "description": "解放版的血色星辰。讓你能夠使用閃悟技能「腥紅先驅」技能：傷害取決於貪欲，有機率吸取紅心。"
+      "description": "解放版的血色星辰。讓你能夠使用受貪欲影響且有機率吸取紅心的「猩紅先驅」閃爍攻擊。"
     },
     "EME_BLOOD_TECH_01": {
       "name": "血之狂怒 ★"
@@ -26435,12 +26771,12 @@
     },
     "EME_KNIFE1": {
       "name": "廓爾喀彎刀",
-      "description": "影分身會攻擊附近敵人。讓你能夠使用閃悟技能「月落斬」。",
+      "description": "暴擊有機率賦予短時間的無敵效果。讓你能夠使用「月落斬」閃爍攻擊。",
       "tips": "最佳搭配：速度、效果持續時間。"
     },
     "EME_KNIFE2": {
       "name": "噴射氣流",
-      "description": "解放版的廓爾喀彎刀。暴擊有機率賦予短時間的無敵效果。讓你能夠使用閃悟技能「萬花筒」。",
+      "description": "解放版的廓爾喀彎刀。讓你能夠使用「萬花筒」閃爍攻擊。",
       "tips": "需要：帕爾馬神盾，「月落斬」技能。"
     },
     "EME_KNIFE_TECH_01": {
@@ -26451,13 +26787,13 @@
     },
     "EME_AXE1": {
       "name": "公牛錶",
-      "description": "可穿透敵人。讓你能夠使用閃悟技能「地獄狂怒」。",
+      "description": "讓你能夠使用「地獄斬」閃爍攻擊。",
       "tips": "無加成效果：速度。"
     },
     "EME_AXE2": {
-      "name": "鷹風",
+      "name": "畢爾奇斯",
       "description": "解放版的公牛錶。可閃爍出「逆三角」技能。",
-      "tips": "需要（最高級）：瘋狂骷髏、「地獄狂怒」技能。"
+      "tips": "需要（最高級）：瘋狂骷髏。"
     },
     "EME_AXE_TECH_01": {
       "name": "地獄之怒 ★"
@@ -26485,7 +26821,7 @@
     },
     "EME_SPEAR1": {
       "name": "雙刃長矛",
-      "description": "對面朝方向發動刺擊。讓你能夠使用閃悟技能「神聖槍兵」。",
+      "description": "讓你能夠使用「神聖槍兵」閃爍攻擊。",
       "tips": "無加成效果：效果持續時間。"
     },
     "EME_SPEAR2": {
@@ -26495,7 +26831,7 @@
     },
     "EME_SPEAR3": {
       "name": "羅恩格林",
-      "description": "解放版的羽毛長矛。讓你能夠使用閃悟技能「三頭政治」技能：傷害 x3。",
+      "description": "解放版的羽毛長矛。讓你能夠使用「三頭政治」閃爍攻擊。",
       "tips": "需要：「星塵」技能。"
     },
     "EME_SPEAR_TECH_01": {
@@ -26556,6 +26892,34 @@
       "name": "直覺",
       "tips": null,
       "description": "允許你從翡翠立體模型中選擇武器。"
+    },
+    "EX_AMMO1": {
+      "name": "王牌射手",
+      "tips": "無加成效果：效果持續時間",
+      "description": "向隨機敵人進行射擊。投射物飛行速度可以提高穿透力。"
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "古墓奇兵手槍",
+      "tips": "無加成效果：效果持續時間",
+      "description": "向隨機敵人進行射擊。投射物飛行速度可以提高穿透力。"
+    },
+    "EX_AMMO2": {
+      "name": "災厄之槍",
+      "tips": "需要：最高級的護腕",
+      "description": "解放版的王牌射手。能對畫面中所有的敵人造成傷害。"
+    },
+    "EX_MAGISTONE1": {
+      "name": "魔法石",
+      "tips": "無加成效果：力量、持續時間。",
+      "description": "根據武器等級造成固定傷害。"
+    },
+    "EX_MAGISTONE2": {
+      "name": "凱拉石",
+      "tips": "需要：卡羅馬的法力",
+      "description": "解放版的魔法石。傷害會隨著玩家等級提高而增加。投射物數量會隨著可見敵人的數量變多而增加。"
+    },
+    "D13_MADMOON": {
+      "name": "瘋狂之月的呼喚"
     }
   },
   "uk": {
@@ -27119,7 +27483,7 @@
       "tips": "Потребує: Тетрафорс."
     },
     "CART2EVO": {
-      "name": "Акчіпікія",
+      "name": "Carrozza!",
       "description": null,
       "tips": "Потребує: Тетрафорс."
     },
@@ -28285,7 +28649,7 @@
     },
     "EME_DUAL2": {
       "name": "Клинки переслідування",
-      "description": "Еволюція Розпилювача. Може викликати прийом «Подвійний потік».",
+      "description": "Може викликати атаку «Подвійний потік».",
       "tips": "Потребує: Заклинач, прийом «Подвійний ураган»."
     },
     "EME_RAPIER_TECH_01": {
@@ -28305,18 +28669,18 @@
     },
     "EME_MECH1": {
       "name": "Суперснаряд",
-      "description": "Випускає розривні снаряди. Може викликати прийом «Балістичні ракети».",
+      "description": "Випускає розривні снаряди по арочній траєкторії. Дозволяє викликати атаку «Балістичні ракети».",
       "tips": "Ігнорує: тривалість."
     },
     "EME_MECH2": {
       "name": "Гармата «Гідра»",
-      "description": "Еволюція Суперснаряду. Може викликати прийом «Штучний град».",
+      "description": "Дозволяє викликати атаку «Штучний град».",
       "tips": "Потребує: вивчені «Балістичні ракети»."
     },
     "EME_MECH3": {
       "name": "Базука «Гіперіон»",
-      "tips": "Потребує: прийом «Штучний град».",
-      "description": "Еволюція гармати «Гідра». Може викликати прийом «Космічний рейв»."
+      "tips": "Дозволяє викликати атаку «Космічний рейв».",
+      "description": "Потребує: вивчений «Штучний град»."
     },
     "EME_MECH_TECH_01": {
       "name": "Балістичні ракети ★"
@@ -28325,7 +28689,7 @@
       "name": "Штучний град ★★"
     },
     "EME_MECH_TECH_03": {
-      "name": "Космічний рейв ★★★"
+      "name": "Космічна хвиля ★★★"
     },
     "EME_KATANA1": {
       "name": "Двоголовий Дракон",
@@ -28335,7 +28699,7 @@
     "EME_KATANA2": {
       "name": "Ґеккапікін",
       "tips": "Потребує: Мана Кароми, прийом «Гробар».",
-      "description": "Еволюція меча «Двоголовий Дракон». Може викликати прийом «Розсипані пелюстки»."
+      "description": "Має шанс миттєво вбити при ударі. Дозволяє викликати атаку «Розсипані пелюстки»."
     },
     "EME_KATANA_TECH_01": {
       "name": "Гробар ★"
@@ -28346,17 +28710,17 @@
     "EME_PUNCH1": {
       "name": "Сила кулака",
       "tips": null,
-      "description": "Атакує з боків. Може викликати прийом «Ракша»."
+      "description": "Комбінація коротких ударів різної сили попереду. Дозволяє викликати атаку «Ракша»."
     },
     "EME_PUNCH2": {
       "name": "Точка тиску",
       "tips": "Потребує: прийом «Ракша».",
-      "description": "Еволюція Сили кулака. Може викликати прийом «Вогнекулак Шенлонґа»."
+      "description": "Дозволяє викликати атаку «Вогнекулак Шенлонґа»."
     },
     "EME_PUNCH3": {
       "name": "Позолочена долонь",
       "tips": "Потребує: прийом «Вогнекулак Шенлонґа».",
-      "description": "Еволюція Точки тиску. Може викликати прийом «Ґуаньїнь»."
+      "description": "Дозволяє викликати атаку «Ґуаїм»."
     },
     "EME_PUNCH_TECH_01": {
       "name": "Ракша ★"
@@ -28370,7 +28734,7 @@
     "EME_KICK1": {
       "name": "Удар",
       "tips": "Ігнорує: швидкість, тривалість.",
-      "description": "Завдає більше шкоди при повному здоров'ї. Може викликати прийом «Удар грому»."
+      "description": "Висока віддача. Дозволяє викликати атаку «Удар грому»."
     },
     "EME_KICK2": {
       "name": "Потрійний удар",
@@ -28396,19 +28760,19 @@
     "EME_CANNON1": {
       "name": "Кулемет «Сейбер»",
       "tips": "Найкраще з: швидкість, тривалість.",
-      "description": "Випускає снаряди попереду. Може викликати прийом «Шокова хвиля».",
+      "description": "Атакує попереду. Снаряди вибухають при влучанні. Дозволяє викликати атаку «Шокова хвиля».",
       "customDescValue": "Снаряди працюють на %0 мс довше."
     },
     "EME_CANNON2": {
       "name": "Кулемет «Гекатон»",
       "tips": "Потребує: вивчена «Шокова хвиля».",
-      "description": "Еволюція кулемету «Сейбер». Може викликати прийом «Канонада».",
+      "description": "Дозволяє викликати атаку «Зорестріл».",
       "customDescValue": "Снаряди працюють на %0 мс довше."
     },
     "EME_CANNON3": {
       "name": "Дивергент",
-      "tips": "Потребує: прийом «Канонада».",
-      "description": "Еволюція кулемету «Гекатон». Може викликати прийом «Сонячний дощ».",
+      "tips": "Потребує: вивчений «Зорестріл».",
+      "description": "Дозволяє викликати атаку «Сонячний дощ».",
       "customDescValue": "Снаряди працюють на %0 мс довше."
     },
     "EME_CANNON_TECH_01": {
@@ -28423,12 +28787,12 @@
     "EME_PISTOL1": {
       "name": "Пістолет «Іґл»",
       "tips": "Ігнорує: тривалість.",
-      "description": "Стріляє у найближчих ворогів. Може викликати прийом «Вогнесокіл»."
+      "description": "Випускає прошивний постріл у випадкового ворога поблизу. Дозволяє запустити атаку «Вогнесокол»."
     },
     "EME_PISTOL2": {
       "name": "Пендрагон",
       "tips": "Потребує: Шпинат, прийом «Вогнесокол».",
-      "description": "Еволюція пістолету «Іґл». Може викликати прийом «Зв'язувальний постріл»."
+      "description": "Снаряди розлітаються при влучанні. Дозволяє викликати атаку «Зв'язувальний постріл»."
     },
     "EME_PISTOL_TECH_01": {
       "name": "Вогнесокол ★"
@@ -28439,23 +28803,23 @@
     "EME_LONGSWORD1": {
       "name": "Міський меч",
       "tips": "Ігнорує: швидкість, тривалість.",
-      "description": "Створює удари попереду. Може викликати прийом «Ковтна різь»."
+      "description": "Створює затяжні удари попереду. Дозволяє викликати атаку «Шторморізь»."
     },
     "EME_LONGSWORD2": {
       "name": "Зірка володаря",
-      "tips": "Потребує: прийом «Ковтна різь».",
-      "description": "Еволюція Міського меча. Може викликати прийом «Хвиля повітря»: шкода х5."
+      "tips": "Потребує: вивчений «Шторморізь».",
+      "description": "Б'є скоса назовні. Дозволяє викликати атаку «Ковтна різь»."
     },
     "EME_LONGSWORD3": {
       "name": "Меч Дня",
-      "tips": "Потребує: прийом «Хвиля повітря».",
-      "description": "Еволюція Зірки володаря. Може викликати прийом «Розприскувач життя»."
+      "tips": "Потребує: вивчена «Ковтна різь».",
+      "description": "Краде серця, дозволяє викликати атаку «Розприскувач життя»."
     },
     "EME_LONGSWORD_TECH_01": {
       "name": "Ковтна різь ★"
     },
     "EME_LONGSWORD_TECH_02": {
-      "name": "Хвиля повітря ★★"
+      "name": "Шторморізь ★★"
     },
     "EME_LONGSWORD_TECH_03": {
       "name": "Розприскувач життя ★★★"
@@ -28463,12 +28827,12 @@
     "EME_BLOOD1": {
       "name": "Зірка Кровожера",
       "tips": "Ігнорує: швидкість, тривалість.",
-      "description": "Уражає найближчих ворогів. Дозволяє викликати прийом «Кривава лють»: шкода х2, область х2."
+      "description": "Вражає найближчих ворогів. Дозволяє викликати атаку «Кривава лють»."
     },
     "EME_BLOOD2": {
       "name": "Кривава чаша",
       "tips": "Потребує: Кам'яна маска, прийом «Кривава лють».",
-      "description": "Еволюція Зірки Кровожера. Дозволяє викликати прийом «Багряний провісник»: жадоба впливає на шкоду, може красти серця."
+      "description": "Еволюція Зірки Кровожера. Дозволяє викликати атаку «Багряний провісник» через вплив жадоби на шкоду, може красти серця."
     },
     "EME_BLOOD_TECH_01": {
       "name": "Кривава лють ★"
@@ -28478,12 +28842,12 @@
     },
     "EME_KNIFE1": {
       "name": "Кукрі",
-      "description": "Тіньові клони вражають найближчих ворогів. Може запускати прийом «Місячна різь».",
+      "description": "Критичні удари можуть надавати тимчасову невразливість. Дозволяє запускати атаку «Місячна різь».",
       "tips": "Найкраще з: швидкість, тривалість."
     },
     "EME_KNIFE2": {
       "name": "Струмінь",
-      "description": "Еволюція Кукрі. Критичні удари можуть надавати тимчасову невразливість. Дозволяє викликати прийом «Калейдоскоп».",
+      "description": "Еволюція Кукрі. Дозволяє викликати атаку «Калейдоскоп».",
       "tips": "Потребує: Парм-Езан, прийом «Місячна різь»."
     },
     "EME_KNIFE_TECH_01": {
@@ -28494,13 +28858,13 @@
     },
     "EME_AXE1": {
       "name": "Бердиш",
-      "description": "Проходить крізь ворогів. Може викликати прийом «Пекельна лють».",
+      "description": "Дозволяє викликати атаку «Пекельна лють».",
       "tips": "Ігнорує: швидкість."
     },
     "EME_AXE2": {
-      "name": "Вітросокіл",
+      "name": "Сікоріз",
       "description": "Еволюція Бердиша. Дозволяє викликати прийом «Зворотна Дельта».",
-      "tips": "Потребує макс.: Череп О'Маніяк, прийом «Пекельна лють»."
+      "tips": "Потребує макс.: Череп О'Маніяк."
     },
     "EME_AXE_TECH_01": {
       "name": "Пекельна лють ★"
@@ -28528,7 +28892,7 @@
     },
     "EME_SPEAR1": {
       "name": "Алебарда",
-      "description": "Створює удари попереду. Може викликати прийом «Божественний спис».",
+      "description": "Дозволяє викликати атаку «Божественний спис».",
       "tips": "Ігнорує: тривалість."
     },
     "EME_SPEAR2": {
@@ -28538,7 +28902,7 @@
     },
     "EME_SPEAR3": {
       "name": "Лоенґрін",
-      "description": "Еволюція Пернатого списа. Може викликати прийом «Тріумвірат»: шкода х3.",
+      "description": "Еволюція Пернатого списа. Дозволяє викликати атаку «Тріумвірат».",
       "tips": "Потребує: прийом «Зорепил»."
     },
     "EME_SPEAR_TECH_01": {
@@ -28599,6 +28963,34 @@
       "name": "Інтуїція",
       "tips": null,
       "description": "Дозволяє вибрати зброю з набору в Смарагдовій Діорамі."
+    },
+    "EX_AMMO1": {
+      "name": "Вічний боєприпас",
+      "tips": "Ігнорує: тривалість.",
+      "description": "Стріляє у випадкових ворогів. Швидкість снарядів збільшує проникнення."
+    },
+    "EX_AMMO1_COUNTER": {
+      "name": "Кінський заряд",
+      "tips": "Ігнорує: тривалість.",
+      "description": "Стріляє у випадкових ворогів. Швидкість снарядів збільшує проникнення."
+    },
+    "EX_AMMO2": {
+      "name": "Пушкатастрофа",
+      "tips": "Потребує макс.: Наруч.",
+      "description": "Еволюція Вічного боєприпасу. Завдає ушкоджень усім ворогам в полі зору."
+    },
+    "EX_MAGISTONE1": {
+      "name": "Чар-камінь",
+      "tips": "Ігнорує: сила, тривалість.",
+      "description": "Завдає фіксованої шкоди залежно від рівня зброї."
+    },
+    "EX_MAGISTONE2": {
+      "name": "Сонцекамені",
+      "tips": "Потребує: Мана Кароми.",
+      "description": "Еволюція Чар-каменю. Шкода зростає з рівнем гравця. Кількість зростає із чисельністю ворогів у полі зору."
+    },
+    "D13_MADMOON": {
+      "name": "Клич Скаженого місяця"
     }
   }
 }

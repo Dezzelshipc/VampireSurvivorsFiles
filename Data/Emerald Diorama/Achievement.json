@@ -1,343 +1,742 @@
 {
-  "EME_FindEmeraldDisk": {
-    "forcedTexture": "items",
-    "forcedFrameName": "relic_emerald_disk",
-    "description": "Find and buy the Emerald Disk.",
-    "stageToUnlock": "EMERALD"
-  },
-  "EME_FindCoffin1": {
-    "description": "Find and open the first coffin on Emerald Diorama.",
-    "characterToUnlock": "EME_RAPIERDUAL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_GetRapierToLV6": {
-    "description": "Get the Rapier to level 6.",
-    "weaponToUnlock": "EME_RAPIER1",
-    "requiresChar": "EME_RAPIERDUAL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksRapier": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_dual",
-    "forcedUnlockTips": "-",
-    "description": "Fully evolve the Rapier.",
-    "requiresChar": "EME_RAPIERDUAL",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_RAPIERDUAL",
-        "skin": "SKIN_DUALSWORDSMAN"
-      },
-      {
-        "character": "EME_RAPIERDUAL",
-        "skin": "SKIN_EME_SOLO_FLEURET"
-      },
-      {
-        "character": "EME_RAPIERDUAL",
-        "skin": "SKIN_EME_SOLO_DUAL"
-      }
-    ]
-  },
-  "EME_GetDualSwordsToLV6": {
-    "description": "Get Splashers to level 6.",
-    "weaponToUnlock": "EME_DUAL1",
-    "requiresChar": "EME_RAPIERDUAL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksDualSwords": {
-    "description": "Fully evolve the Splashers.",
-    "characterToUnlock": "EME_PUNCHKICK",
-    "requiresChar": "EME_RAPIERDUAL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_GetPunchToLV6": {
-    "description": "Get Punch to level 6.",
-    "weaponToUnlock": "EME_PUNCH1",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksPunch": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_kick",
-    "forcedUnlockTips": "-",
-    "description": "Fully evolve the Punch.",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_PUNCHKICK",
-        "skin": "SKIN_EME_B_KICK"
-      },
-      {
-        "character": "EME_PUNCHKICK",
-        "skin": "SKIN_EME_SOLO_PUNCH"
-      },
-      {
-        "character": "EME_PUNCHKICK",
-        "skin": "SKIN_EME_SOLO_KICK"
-      }
-    ]
-  },
-  "EME_GetKickToLV6": {
-    "description": "Get Kick to level 6.",
-    "weaponToUnlock": "EME_KICK1",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksKick": {
-    "description": "Fully evolve the Kick.",
-    "characterToUnlock": "EME_CANNONGUN",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_GetCannonToLV6": {
-    "description": "Get EME_CANNON1 to level 6.",
-    "weaponToUnlock": "EME_CANNON1",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksCannon": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_pistol",
-    "forcedUnlockTips": "-",
-    "description": "Fully evolve the EME_CANNON1.",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_CANNONGUN",
-        "skin": "SKIN_EME_F_PISTOL"
-      },
-      {
-        "character": "EME_CANNONGUN",
-        "skin": "SKIN_EME_SOLO_CANNON"
-      },
-      {
-        "character": "EME_CANNONGUN",
-        "skin": "SKIN_EME_SOLO_PISTOL"
-      }
-    ]
-  },
-  "EME_GetPistolToLV6": {
-    "description": "Get EME_PISTOL1 to level 6.",
-    "weaponToUnlock": "EME_PISTOL1",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksPistol": {
-    "description": "Fully evolve the EME_PISTOL1.",
-    "characterToUnlock": "EME_MECHKATANA",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_GetMechToLV6": {
-    "description": "Get EME_MECH1 to level 6.",
-    "weaponToUnlock": "EME_MECH1",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksMech": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_katana",
-    "forcedUnlockTips": "-",
-    "description": "Fully evolve the EME_CANNON1.",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_MECHKATANA",
-        "skin": "SKIN_EME_D_KATANA"
-      }
-    ]
-  },
-  "EME_GetKatanaToLV6": {
-    "description": "Get Twin Dragon to level 6.",
-    "weaponToUnlock": "EME_KATANA1",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksKatana": {
-    "description": "Fully evolve the Twin Dragon.",
-    "characterToUnlock": "EME_MAGICALL",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_GetSpiritRingToLV6": {
-    "description": "Get Spirit Rings to level 6.",
-    "weaponToUnlock": "EME_MAGIC1",
-    "requiresChar": "EME_MAGICALL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_EvolveMagic": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_selector",
-    "forcedUnlockTips": "-",
-    "description": "Evolve the Spirit Rings.",
-    "requiresChar": "EME_MAGICALL",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_MAGICALL",
-        "skin": "SKIN_EME_SELECT"
-      }
-    ]
-  },
-  "EME_AllAttacksSpear": {
-    "description": "Fully evolve the Glaive.",
-    "weaponToUnlock": "EME_SPEAR1",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksGreatSword": {
-    "description": "Fully evolve the Flamberge.",
-    "weaponToUnlock": "EME_GREATSWORD1",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksKnife": {
-    "description": "Fully evolve the Khukuri.",
-    "weaponToUnlock": "EME_KNIFE1",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksAxe": {
-    "description": "Fully evolve the Bullova.",
-    "weaponToUnlock": "EME_AXE1",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_FindCoffin2": {
-    "description": "Find and open the second coffin on Emerald Diorama.",
-    "characterToUnlock": "EME_SWORDBITE",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_GetLongSwordToLV6": {
-    "description": "Get EME_LONGSWORD1 to level 6.",
-    "weaponToUnlock": "EME_LONGSWORD1",
-    "requiresChar": "EME_SWORDBITE",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksLongSword": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_blood",
-    "forcedUnlockTips": "-",
-    "description": "Fully evolve the EME_LONGSWORD1.",
-    "requiresChar": "EME_SWORDBITE",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_SWORDBITE",
-        "skin": "SKIN_EME_S_BLOOD"
-      }
-    ]
-  },
-  "EME_GetBloodToLV6": {
-    "description": "Get Sanguine Star to level 6.",
-    "weaponToUnlock": "EME_BLOOD1",
-    "requiresChar": "EME_SWORDBITE",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_AllAttacksBlood": {
-    "description": "Fully evolve the Sanguine Star and all other glimmer weapons.",
-    "weaponToUnlock": "EME_SELECTOR",
-    "requiresChar": "EME_SWORDBITE",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_DefeatBoss1Inverse": {
-    "description": "Defeat the Spirit Beast in Inverse Emerald Diorama, Miyako City.",
-    "characterToUnlock": "EME_PUPALL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_DefeatBoss2Inverse": {
-    "description": "With Tsunanori, defeat the Earth Dragon in Inverse Emerald Diorama, Pulchra.",
-    "characterToUnlock": "EME_EXSPEAR",
-    "requiresChar": "EME_RAPIERDUAL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_DefeatBoss3Inverse": {
-    "description": "With Bonnie or Formina, defeat the Final Emperor's demon form in Inverse Emerald Diorama, Grelon.",
-    "characterToUnlock": "EME_EXGREATSWORD",
-    "requiresChar": "EME_PUNCHKICK",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_DefeatBoss4Inverse": {
-    "description": "With Ameya, defeat the Spectre in Inverse Emerald Diorama, Avalon.",
-    "characterToUnlock": "EME_EXKNIFE",
-    "requiresChar": "EME_MAGICALL",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_DefeatBoss5Inverse": {
-    "description": "With Siugnas, defeat the Iron Maiden in Inverse Emerald Diorama, Yomi.",
-    "characterToUnlock": "EME_EXAXE",
-    "requiresChar": "EME_SWORDBITE",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_DefeatBoss6Inverse": {
-    "description": "With Diva No.5, defeat Living Anguish in Inverse Emerald Diorama.",
-    "characterToUnlock": "EME_MRS",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_MechSkinM": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_move",
-    "forcedUnlockTips": "-",
-    "description": "With Diva No.5 \"Retro Pod\", glimmer at least 7 techs.",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_MECHKATANA",
-        "skin": "SKIN_EME_D_MOVE"
-      }
-    ]
-  },
-  "EME_MechSkinT": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_tank",
-    "forcedUnlockTips": "-",
-    "description": "With Diva No.5 \"Virginia\", glimmer at least 11 techs.",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_MECHKATANA",
-        "skin": "SKIN_EME_D_TANK"
-      }
-    ]
-  },
-  "EME_MechDefeatAllBosses": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_shan",
-    "forcedUnlockTips": "-",
-    "description": "With Diva No.5, defeat all bosses in Emerald Diorama in a single run.",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_MECHKATANA",
-        "skin": "SKIN_EME_D_SHAN"
-      }
-    ]
-  },
-  "EME_MechDefeatAllBossesInverse": {
-    "forcedTexture": "UI",
-    "forcedFrameName": "p_char_para",
-    "forcedUnlockTips": "-",
-    "description": "With Diva No.5, defeat all bosses in Inverse Emerald Diorama in a single run.",
-    "requiresChar": "EME_MECHKATANA",
-    "requiresItem": "RELIC_EME_DISK",
-    "skinsToUnlock": [
-      {
-        "character": "EME_MECHKATANA",
-        "skin": "SKIN_EME_D_PARA"
-      }
-    ]
-  },
-  "EME_EvolveSecretWeapon": {
-    "description": "Find and fully evolve the Emerald Rapture.",
-    "weaponToUnlock": "EME_WAVE",
-    "requiresItem": "RELIC_EME_DISK"
-  },
-  "EME_DefeatBoss25m": {
-    "description": "Defeat the Ogre in Emerald Diorama.",
-    "hyperToUnlock": "EMERALD",
-    "requiresItem": "RELIC_EME_DISK"
-  }
+   "EME_FindEmeraldDisk":{
+      "description":"___",
+      "stageToUnlock":"EMERALD",
+      "forcedTexture":"items",
+      "forcedFrameName":"relic_emerald_disk",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindItems",
+            "RequiredItems":[
+               "RELIC_EME_DISK"
+            ]
+         }
+      ]
+   },
+   "EME_FindCoffin1":{
+      "description":"___",
+      "characterToUnlock":"EME_RAPIERDUAL",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveOpenedCoffinForXCharacter",
+            "RequiredCharacterType":"EME_RAPIERDUAL",
+            "RequiredItems":[
+               "RELIC_EME_DISK"
+            ]
+         }
+      ]
+   },
+   "EME_GetRapierToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_RAPIER1",
+      "requiresChar":"EME_RAPIERDUAL",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_RAPIER1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksRapier":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_dual",
+      "forcedUnlockTips":"-",
+      "description":"Fully evolve the Rapier.",
+      "requiresChar":"EME_RAPIERDUAL",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_RAPIER3"
+            ]
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_RAPIERDUAL",
+            "skin":"SKIN_DUALSWORDSMAN"
+         },
+         {
+            "character":"EME_RAPIERDUAL",
+            "skin":"SKIN_EME_SOLO_FLEURET"
+         },
+         {
+            "character":"EME_RAPIERDUAL",
+            "skin":"SKIN_EME_SOLO_DUAL"
+         }
+      ]
+   },
+   "EME_GetDualSwordsToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_DUAL1",
+      "requiresChar":"EME_RAPIERDUAL",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_DUAL1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksDualSwords":{
+      "description":"Fully evolve the Splashers.",
+      "characterToUnlock":"EME_PUNCHKICK",
+      "requiresChar":"EME_RAPIERDUAL",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_DUAL2"
+            ]
+         }
+      ]
+   },
+   "EME_GetPunchToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_PUNCH1",
+      "requiresChar":"EME_PUNCHKICK",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_PUNCH1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksPunch":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_kick",
+      "forcedUnlockTips":"-",
+      "description":"Fully evolve the Punch.",
+      "requiresChar":"EME_PUNCHKICK",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_PUNCH3"
+            ]
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_PUNCHKICK",
+            "skin":"SKIN_EME_B_KICK"
+         },
+         {
+            "character":"EME_PUNCHKICK",
+            "skin":"SKIN_EME_SOLO_PUNCH"
+         },
+         {
+            "character":"EME_PUNCHKICK",
+            "skin":"SKIN_EME_SOLO_KICK"
+         }
+      ]
+   },
+   "EME_GetKickToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_KICK1",
+      "requiresChar":"EME_PUNCHKICK",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_KICK1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksKick":{
+      "description":"Fully evolve the Kick.",
+      "characterToUnlock":"EME_CANNONGUN",
+      "requiresChar":"EME_PUNCHKICK",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_KICK2"
+            ]
+         }
+      ]
+   },
+   "EME_GetCannonToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_CANNON1",
+      "requiresChar":"EME_CANNONGUN",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_CANNON1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksCannon":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_pistol",
+      "forcedUnlockTips":"-",
+      "description":"Fully evolve the EME_CANNON1.",
+      "requiresChar":"EME_PUNCHKICK",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_CANNON3"
+            ]
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_CANNONGUN",
+            "skin":"SKIN_EME_F_PISTOL"
+         },
+         {
+            "character":"EME_CANNONGUN",
+            "skin":"SKIN_EME_SOLO_CANNON"
+         },
+         {
+            "character":"EME_CANNONGUN",
+            "skin":"SKIN_EME_SOLO_PISTOL"
+         }
+      ]
+   },
+   "EME_GetPistolToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_PISTOL1",
+      "requiresChar":"EME_CANNONGUN",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_PISTOL1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksPistol":{
+      "description":"Fully evolve the EME_PISTOL1.",
+      "characterToUnlock":"EME_MECHKATANA",
+      "requiresChar":"EME_PUNCHKICK",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_PISTOL2"
+            ]
+         }
+      ]
+   },
+   "EME_GetMechToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_MECH1",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_MECH1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksMech":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_katana",
+      "forcedUnlockTips":"-",
+      "description":"Fully evolve the EME_CANNON1.",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_CANNON3"
+            ]
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_MECHKATANA",
+            "skin":"SKIN_EME_D_KATANA"
+         }
+      ]
+   },
+   "EME_GetKatanaToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_KATANA1",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_KATANA1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksKatana":{
+      "description":"Fully evolve the Twin Dragon.",
+      "characterToUnlock":"EME_MAGICALL",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_KATANA2"
+            ]
+         }
+      ]
+   },
+   "EME_GetSpiritRingToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_MAGIC1",
+      "requiresChar":"EME_MAGICALL",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_MAGIC1"
+            ]
+         }
+      ]
+   },
+   "EME_EvolveMagic":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_selector",
+      "forcedUnlockTips":"-",
+      "description":"Evolve the Spirit Rings.",
+      "requiresChar":"EME_MAGICALL",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_MAGIC2"
+            ]
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_MAGICALL",
+            "skin":"SKIN_EME_SELECT"
+         }
+      ]
+   },
+   "EME_AllAttacksSpear":{
+      "description":"Fully evolve the Glaive.",
+      "weaponToUnlock":"EME_SPEAR1",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_SPEAR3"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksGreatSword":{
+      "description":"Fully evolve the Flamberge.",
+      "weaponToUnlock":"EME_GREATSWORD1",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_GREATSWORD3"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksKnife":{
+      "description":"Fully evolve the Khukuri.",
+      "weaponToUnlock":"EME_KNIFE1",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_KNIFE2"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksAxe":{
+      "description":"Fully evolve the Bullova.",
+      "weaponToUnlock":"EME_AXE1",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_AXE2"
+            ]
+         }
+      ]
+   },
+   "EME_FindCoffin2":{
+      "description":"___",
+      "characterToUnlock":"EME_SWORDBITE",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveOpenedCoffinForXCharacter",
+            "RequiredCharacterType":"EME_SWORDBITE",
+            "RequiredItems":[
+               "RELIC_EME_DISK"
+            ]
+         }
+      ]
+   },
+   "EME_GetLongSwordToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_LONGSWORD1",
+      "requiresChar":"EME_SWORDBITE",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_LONGSWORD1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksLongSword":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_blood",
+      "forcedUnlockTips":"-",
+      "description":"Fully evolve the EME_LONGSWORD1.",
+      "requiresChar":"EME_SWORDBITE",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_LONGSWORD3"
+            ]
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_SWORDBITE",
+            "skin":"SKIN_EME_S_BLOOD"
+         }
+      ]
+   },
+   "EME_GetBloodToLV6":{
+      "description":"___",
+      "weaponToUnlock":"EME_BLOOD1",
+      "requiresChar":"EME_SWORDBITE",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "EME_BLOOD1"
+            ]
+         }
+      ]
+   },
+   "EME_AllAttacksBlood":{
+      "description":"Fully evolve the Sanguine Star and all other glimmer weapons.",
+      "weaponToUnlock":"EME_SELECTOR",
+      "requiresChar":"EME_SWORDBITE",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_BLOOD2"
+            ]
+         }
+      ]
+   },
+   "EME_DefeatBoss1Inverse":{
+      "description":"___",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_SPIRITBEAST"
+            ]
+         },
+         {
+            "AchievementUnlockType":"HaveModifiers",
+            "RequiredMofiers":[
+               "Inverse"
+            ]
+         }
+      ],
+      "characterToUnlock":"EME_PUPALL",
+      "requiresItem":"RELIC_EME_DISK"
+   },
+   "EME_DefeatBoss2Inverse":{
+      "description":"___",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_DRAGON"
+            ]
+         },
+         {
+            "AchievementUnlockType":"HaveModifiers",
+            "RequiredMofiers":[
+               "Inverse"
+            ]
+         },
+         {
+            "AchievementUnlockType":"PlayXCharacter",
+            "RequiredCharacterType":"EME_RAPIERDUAL"
+         }
+      ],
+      "characterToUnlock":"EME_EXSPEAR",
+      "requiresItem":"RELIC_EME_DISK"
+   },
+   "EME_DefeatBoss3Inverse":{
+      "description":"___",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_FINALEMPEROR"
+            ]
+         },
+         {
+            "AchievementUnlockType":"HaveModifiers",
+            "RequiredMofiers":[
+               "Inverse"
+            ]
+         },
+         {
+            "AchievementUnlockType":"PlayXCharacter",
+            "RequiredCharacterType":"EME_PUNCHKICK"
+         }
+      ],
+      "characterToUnlock":"EME_EXGREATSWORD",
+      "requiresItem":"RELIC_EME_DISK"
+   },
+   "EME_DefeatBoss4Inverse":{
+      "description":"___",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_IRONMAIDEN"
+            ]
+         },
+         {
+            "AchievementUnlockType":"HaveModifiers",
+            "RequiredMofiers":[
+               "Inverse"
+            ]
+         },
+         {
+            "AchievementUnlockType":"PlayXCharacter",
+            "RequiredCharacterType":"EME_MAGICALL"
+         }
+      ],
+      "characterToUnlock":"EME_EXKNIFE",
+      "requiresItem":"RELIC_EME_DISK"
+   },
+   "EME_DefeatBoss5Inverse":{
+      "description":"___",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_SPECTER"
+            ]
+         },
+         {
+            "AchievementUnlockType":"HaveModifiers",
+            "RequiredMofiers":[
+               "Inverse"
+            ]
+         },
+         {
+            "AchievementUnlockType":"PlayXCharacter",
+            "RequiredCharacterType":"EME_SWORDBITE"
+         }
+      ],
+      "characterToUnlock":"EME_EXAXE",
+      "requiresItem":"RELIC_EME_DISK"
+   },
+   "EME_DefeatBoss6Inverse":{
+      "description":"___",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_LIVINGANGUISH"
+            ]
+         },
+         {
+            "AchievementUnlockType":"HaveModifiers",
+            "RequiredMofiers":[
+               "Inverse"
+            ]
+         },
+         {
+            "AchievementUnlockType":"PlayXCharacter",
+            "RequiredCharacterType":"EME_MECHKATANA"
+         }
+      ],
+      "characterToUnlock":"EME_MRS",
+      "requiresItem":"RELIC_EME_DISK"
+   },
+   "EME_MechSkinM":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_move",
+      "forcedUnlockTips":"-",
+      "description":"With Diva No.5 \"Retro Pod\", glimmer at least 7 techs.",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "skinsToUnlock":[
+         {
+            "character":"EME_MECHKATANA",
+            "skin":"SKIN_EME_D_MOVE"
+         }
+      ]
+   },
+   "EME_MechSkinT":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_tank",
+      "forcedUnlockTips":"-",
+      "description":"With Diva No.5 \"Virginia\", glimmer at least 11 techs.",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "skinsToUnlock":[
+         {
+            "character":"EME_MECHKATANA",
+            "skin":"SKIN_EME_D_TANK"
+         }
+      ]
+   },
+   "EME_MechDefeatAllBosses":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_shan",
+      "forcedUnlockTips":"-",
+      "description":"___",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_SPIRITBEAST",
+               "EME_GATEBOSS_DRAGON",
+               "EME_GATEBOSS_FINALEMPEROR",
+               "EME_GATEBOSS_SPECTER",
+               "EME_GATEBOSS_IRONMAIDEN",
+               "EME_GATEBOSS_LIVINGANGUISH"
+            ]
+         },
+         {
+            "AchievementUnlockType":"PlayXCharacter",
+            "RequiredCharacterType":"EME_MECHKATANA"
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_MECHKATANA",
+            "skin":"SKIN_EME_D_SHAN"
+         }
+      ]
+   },
+   "EME_MechDefeatAllBossesInverse":{
+      "forcedTexture":"UI",
+      "forcedFrameName":"p_char_para",
+      "forcedUnlockTips":"-",
+      "description":"___",
+      "requiresChar":"EME_MECHKATANA",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillBossTypesInRun",
+            "RequiredEnemyTypes":[
+               "EME_GATEBOSS_SPIRITBEAST",
+               "EME_GATEBOSS_DRAGON",
+               "EME_GATEBOSS_FINALEMPEROR",
+               "EME_GATEBOSS_SPECTER",
+               "EME_GATEBOSS_IRONMAIDEN",
+               "EME_GATEBOSS_LIVINGANGUISH"
+            ]
+         },
+         {
+            "AchievementUnlockType":"HaveModifiers",
+            "RequiredMofiers":[
+               "Inverse"
+            ]
+         },
+         {
+            "AchievementUnlockType":"PlayXCharacter",
+            "RequiredCharacterType":"EME_MECHKATANA"
+         }
+      ],
+      "skinsToUnlock":[
+         {
+            "character":"EME_MECHKATANA",
+            "skin":"SKIN_EME_D_PARA"
+         }
+      ]
+   },
+   "EME_EvolveSecretWeapon":{
+      "description":"Find and fully evolve the Emerald Rapture.",
+      "weaponToUnlock":"EME_WAVE",
+      "requiresItem":"RELIC_EME_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindWeapons",
+            "RequiredWeapons":[
+               "EME_WAVE2"
+            ]
+         }
+      ]
+   },
+   "EME_DefeatBoss25m":{
+      "description":"___",
+      "hyperToUnlock":"EMERALD",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"KillXNumberOfEnemiesOfTypes",
+            "RequiredNumEnemiesKilled":1,
+            "RequiredEnemyTypes":[
+               "EME_BOSS_OGRE"
+            ]
+         }
+      ],
+      "requiresItem":"RELIC_EME_DISK"
+   }
 }

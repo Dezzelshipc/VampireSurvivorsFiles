@@ -8352,7 +8352,7 @@
     "uk": "Цільова частота кадрів"
   },
   "stageConfirm_sharePassives": {
-    "en": "Share passives",
+    "en": "Share Passives",
     "fr": "Partager les passifs",
     "it": "Condividi passivi",
     "de": "Passive Items teilen",
@@ -10992,20 +10992,20 @@
     "uk": "Створіть акаунт Poncle чи увійдіть до нього, щоб користуватися кросплатформними збереженнями (хмарою)."
   },
   "account_type_name_nintendo": {
-    "en": "Account",
-    "fr": "Compte",
-    "it": "Account",
-    "de": "Konto",
-    "es": "Cuenta",
-    "pt-BR": "Conta",
-    "pl": "Konto",
-    "ru": "Аккаунт",
-    "tr": "Hesap",
-    "zh-CN": "账户",
-    "ja": "アカウント",
-    "ko": "계정",
-    "zh-TW": "帳號相關",
-    "uk": "Акаунт"
+    "en": "Nintendo Account",
+    "fr": "Compte Nintendo",
+    "it": "Account Nintendo",
+    "de": "Nintendo-Account",
+    "es": "Cuenta Nintendo",
+    "pt-BR": "Conta Nintendo",
+    "pl": "Nintendo Account",
+    "ru": "Учетная запись Nintendo",
+    "tr": "Nintendo hesabı",
+    "zh-CN": "Nintendo账号",
+    "ja": "ニンテンドーアカウント",
+    "ko": "닌텐도 어카운트",
+    "zh-TW": "Nintendo帳號",
+    "uk": "Nintendo Account"
   },
   "account_cross_save_not_linked": {
     "en": "You can't use cross-platform saves until you link a platform account. You can do this in the Manage Account page.",
@@ -11804,7 +11804,7 @@
     "zh-CN": "枪炮行动",
     "ja": "オペレーション・ガンズ",
     "ko": "작전 총기",
-    "zh-TW": "行動槍械",
+    "zh-TW": "Operation Guns",
     "uk": "Operation Guns"
   },
   "emergency_meeting": {
@@ -11812,7 +11812,7 @@
     "fr": "Réunion d'urgence",
     "it": "Riunione d'emergenza",
     "de": "Notfall-Meeting",
-    "es": "Reunión urgente",
+    "es": "Emergency Meeting",
     "pt-BR": "Reunião de Emergência",
     "pl": "Pilne zebranie",
     "ru": "Срочное собрание",
@@ -11820,8 +11820,8 @@
     "zh-CN": "紧急会议",
     "ja": "緊急会議",
     "ko": "긴급회의",
-    "zh-TW": "緊急會議",
-    "uk": "Загальний збір"
+    "zh-TW": "Emergency Meeting",
+    "uk": "Emergency Meeting"
   },
   "free_reroll": {
     "en": "FREE",
@@ -11870,22 +11870,6 @@
     "ko": "새로운 시작 무기를 잠금 해제했습니다!",
     "zh-TW": "已解鎖全新的起始武器！",
     "uk": "Нову початкову зброю відкрито!"
-  },
-  "new_skin_unlocked": {
-    "en": "New Skin Unlocked!",
-    "fr": "Nouvelle skin débloquée !",
-    "it": "Nuova skin sbloccata!",
-    "de": "Neuer Skin freigeschaltet!",
-    "es": "¡Aspecto nuevo desbloqueado!",
-    "pt-BR": "Novo visual desbloqueado!",
-    "pl": "Odblokowano nową skórkę!",
-    "ru": "Открыт новый облик!",
-    "tr": "Yeni Kaplama Kilidi Açıldı!",
-    "zh-CN": "新皮肤已解锁！",
-    "ja": "新スキンがアンロック！",
-    "ko": "신규 스킨 잠금 해제!",
-    "zh-TW": "已成功解鎖全新造型！",
-    "uk": "Відкрито новий образ!"
   },
   "new_skins_unlocked": {
     "en": "New Skins Unlocked!",
@@ -12464,20 +12448,20 @@
     "uk": "Збільшує час невразливості після отримання шкоди на %0 мс."
   },
   "new_skins_for": {
-    "en": "New skins for %0",
-    "fr": "Nouvelles skins pour %0",
-    "it": "Nuove skin per %0",
-    "de": "Neue Skins für %0",
-    "es": "Aspectos nuevos para %0",
-    "pt-BR": "Novos visuais por %0",
-    "pl": "Nowe skórki dla: %0",
-    "ru": "Новые облики на %0",
-    "tr": "%0 için yeni kaplamalar",
-    "zh-CN": "%0的新皮肤",
-    "ja": "%0で新スキン獲得",
-    "ko": "%0의 신규 스킨",
-    "zh-TW": "%0新造型",
-    "uk": "Нові образи для %0"
+    "en": "New starting weapon for %0",
+    "fr": "Nouvelle arme de départ pour %0",
+    "it": "Nuova arma iniziale per %0",
+    "de": "Neue Startwaffe für %0",
+    "es": "Nueva arma inicial para %0",
+    "pt-BR": "Nova arma inicial por %0",
+    "pl": "Nowa broń początkowa dla %0",
+    "ru": "Новое стартовое оружие: %0",
+    "tr": "%0 için yeni başlangıç silahı",
+    "zh-CN": "%0的新起始武器",
+    "ja": "%0の新しい開始時武器",
+    "ko": "% 0의 새로운 시작 무기입니다",
+    "zh-TW": "%0的全新起始武器",
+    "uk": "Нова початкова зброя для: %0"
   },
   "new_starting_weapon_for": {
     "en": "New starting weapon for %0",
@@ -13135,6 +13119,22 @@
     "zh-TW": "太陽已西沉，而月亮也逐漸升上德古拉城堡的夜空中；小心了，陰森的泥人、可怕的鬼魂和恐怖的跳蚤人也將隨著夜晚的降臨而出現，善與惡之間的大戰即將再次爆發。拿出一系列新的吸血鬼獵殺武器來對付這些魔物吧，徹底消滅你前進路上的一切阻礙，面對你內心的恐懼，努力消滅這些難以言喻的夢魘吧。各位倖存者們，不要對籠罩在你們身上的黑影視而不見，因為啊，你們的探索之旅這才剛剛揭開序幕而已呢！這可是非常嚴肅的事情，所以讓我們調高音量出發消滅吸血鬼吧！《惡魔城》終於登陸《Vampire Survivors》啦，喔耶！",
     "uk": "Сонце знову сіло за замком Дракули, з'явився місяць, і пекельна орда похмурих багнюків, моторошних привидів та страхітливих блохострибів виходить на сцену, щоб розпочати битву добра проти зла. Випробуйте новий арсенал проти вампірів — косіть цих потвор і залишайте по собі шлейф смерті, перш ніж спробувати звільнити світ від того Жаху, чиє ім'я не вимовляють. Але не забувайте про тінь, що нависає над вами, о вцілілі, адже ваша пригода тільки починаються! Все це дуже серйозно, тож збільшмо гучність на повну й вирушаймо у подорож Кастлванією у Vampire Survivors!"
   },
+  "emeralds": {
+    "en": "Emerald Diorama",
+    "fr": "Diorama émeraude",
+    "it": "Diorama smeraldo",
+    "de": "Smaragd-Diorama",
+    "es": "Emerald Diorama",
+    "pt-BR": "Diorama Esmeralda",
+    "pl": "Szmaragdowa diorama",
+    "ru": "Emerald Diorama",
+    "tr": "Emerald Diorama",
+    "zh-CN": "翡翠模型",
+    "ja": "エメラルドジオラマ",
+    "ko": "에메랄드 디오라마",
+    "zh-TW": "翡翠立體模型",
+    "uk": "Смарагдова Діорама"
+  },
   "dlc_desc_Emeralds": {
     "en": "As the Junction opens, the Vampire Survivors are thrust into a strange system of interconnected worlds, from a wondrous enchanted witchdom to a sinister realm of bloody nightmares. Equipped with the power of Glimmers and befriended by those that understand this strange universe better than anyone, onward they step in to the unknown; united in cause, wanting to survive, and bereft of fear. Well maybe a little bit of fear.",
     "fr": null,
@@ -13150,22 +13150,6 @@
     "ko": null,
     "zh-TW": null,
     "uk": null
-  },
-  "emeralds": {
-    "en": "Emerald Diorama",
-    "fr": "Diorama émeraude",
-    "it": "Diorama smeraldo",
-    "de": "Smaragd-Diorama",
-    "es": "Emerald Diorama",
-    "pt-BR": "Diorama Esmeralda",
-    "pl": "Szmaragdowa diorama",
-    "ru": "Изумрудная диорама",
-    "tr": "Emerald Diorama",
-    "zh-CN": "翡翠模型",
-    "ja": "エメラルドジオラマ",
-    "ko": "에메랄드 디오라마",
-    "zh-TW": "翡翠立體模型",
-    "uk": "Смарагдова Діорама"
   },
   "weaponLevelUp_critMul": {
     "en": "Critical damage increases by an additional %0%.\\n",
@@ -13278,5 +13262,53 @@
     "ko": "DLC를 적게 로드할 수록 성능은 개선되고 충돌은 방지할 수 있습니다.",
     "zh-TW": "載入較少數量的資料片，有時能改善遊戲運作效能並避免遊戲閃退。",
     "uk": "Завантаження меншої кількості доповнень може покращити роботу і запобігти збоям."
+  },
+  "chulareh_lucky": {
+    "en": "Lucky!",
+    "fr": "Quelle chance !",
+    "it": "Che fortuna!",
+    "de": "Glück gehabt!",
+    "es": "¡Has tenido suerte!",
+    "pt-BR": "Sorte!",
+    "pl": "Szczęście!",
+    "ru": "Повезло!",
+    "tr": "Şanslı!",
+    "zh-CN": "幸运！",
+    "ja": "ラッキー！",
+    "ko": "운이 좋네요!",
+    "zh-TW": "超幸運！",
+    "uk": "Удача!"
+  },
+  "chulareh_unlucky": {
+    "en": "Unlucky!",
+    "fr": "Quelle malchance !",
+    "it": "Che sfortuna!",
+    "de": "Pech gehabt!",
+    "es": "¡Mala suerte!",
+    "pt-BR": "Azar!",
+    "pl": "Pech!",
+    "ru": "Не повезло!",
+    "tr": "Şanssız!",
+    "zh-CN": "倒霉！",
+    "ja": "ざんねん！",
+    "ko": "운이 없네요!",
+    "zh-TW": "好衰小！",
+    "uk": "Невдача!"
+  },
+  "multiplayer_enter_party_mode": {
+    "en": "Enter Party Mode",
+    "fr": "Enter Party Mode",
+    "it": "Enter Party Mode",
+    "de": "Enter Party Mode",
+    "es": "Enter Party Mode",
+    "pt-BR": "Enter Party Mode",
+    "pl": "Enter Party Mode",
+    "ru": "Enter Party Mode",
+    "tr": "Enter Party Mode",
+    "zh-CN": "Enter Party Mode",
+    "ja": "Enter Party Mode",
+    "ko": "Enter Party Mode",
+    "zh-TW": "Enter Party Mode",
+    "uk": "Enter Party Mode"
   }
 }

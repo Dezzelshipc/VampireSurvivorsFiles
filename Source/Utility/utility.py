@@ -99,14 +99,14 @@ def normalize_str(s) -> str:
 
 
 def clean_json(string):
-    # extra commas
-    string = re.sub(r",[ \t\r\n]+}", "}", string)
-    string = re.sub(r",[ \t\r\n]+]", "]", string)
-
     # comments: //
     string = re.sub(r"\s*//.*\n", "\n", string)
     # comments: /* */
     string = re.sub(r"(?s)/\*.*?\*/", "", string)
+
+    # extra commas
+    string = re.sub(r",[ \t\r\n]+}", "}", string)
+    string = re.sub(r",[ \t\r\n]+]", "]", string)
 
     return string
 

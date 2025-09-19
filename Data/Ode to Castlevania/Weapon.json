@@ -2449,7 +2449,7 @@
       "requires": [
         "MAXHEALTH"
       ],
-	  "requiresMax": [
+      "requiresMax": [
         "MAXHEALTH"
       ],
       "rarity": 1,
@@ -2550,7 +2550,7 @@
       "requires": [
         "REGEN"
       ],
-	  "requiresMax": [
+      "requiresMax": [
         "REGEN"
       ],
       "rarity": 1,
@@ -2696,7 +2696,7 @@
     },
     {
       "power": 1,
-	  "interval": -500
+      "interval": -500
     },
     {
       "amount": 1
@@ -2706,10 +2706,10 @@
     },
     {
       "power": 1,
-	  "interval": -500
+      "interval": -500
     },
     {
-	  "power": 1,
+      "power": 1,
       "amount": 1,
       "addEvolvedWeapon": "TP_CHAUVE2"
     }
@@ -3189,7 +3189,6 @@
       "frameName": "TP_CONFODERE1.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-	  "evoInto": "TP_CONFODERE2",
       "price": 50,
       "description": "-",
       "tips": "-",
@@ -3249,7 +3248,6 @@
         "TP_CONFODERE2",
         "TP_CONFODERE3"
       ],
-	  "evoInto": "TP_CONFODERE3",
       "rarity": 50,
       "interval": 2000,
       "repeatInterval": 75,
@@ -6508,7 +6506,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,

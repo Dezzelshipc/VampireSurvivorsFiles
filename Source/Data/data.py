@@ -1,4 +1,5 @@
 import json
+import sys
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
@@ -20,10 +21,12 @@ class DataType(Enum):
     ACHIEVEMENT = "Achievement"
     ADVENTURE = "Adventure"
     ADVENTURE_MERCHANTS = "AdventureMerchants"
+    ADVENTURE_STAGE = "AdventureStage"
     ADVENTURE_STAGE_SET = "AdventureStageSet"
     ALBUM = "Album"
     ARCANA = "Arcana"
     CHARACTER = "Character"
+    CPU = "Cpu"
     CUSTOM_MERCHANTS = "CustomMerchants"
     ENEMY = "Enemy"
     HIT_VFX = "HitVfx"
@@ -75,10 +78,14 @@ class DataType(Enum):
                 return DataType.ALBUM
             case "_CustomMerchantsDataJsonAsset":
                 return DataType.CUSTOM_MERCHANTS
+            case "_AllCPUAsset":
+                return DataType.CPU
             case "_AdventureDataJsonAsset":
                 return DataType.ADVENTURE
             case "_AdventuresStageSetDataJsonAsset":
                 return DataType.ADVENTURE_STAGE_SET
+            case "_AdventuresStagesJsonAsset":
+                return DataType.ADVENTURE_STAGE
             case "_AdventuresMerchantsDataJsonAsset":
                 return DataType.ADVENTURE_MERCHANTS
         return DataType.NONE
@@ -141,49 +148,51 @@ def _concatenate(data_to_concat: dict[DLCType, DataFile]):
 
         data = data_file.data()
 
-        # add contentGroup aka dlc
-        cg = dlc_type.value.code_name
+        if data_file.data_type() not in [DataType.ADVENTURE_STAGE_SET]:
 
-        ## Monster condition ;-)
-        has_cg = False or data_file.data_type() == DataType.ADVENTURE_STAGE_SET
-        for k, v in data.items():
-            vv = v
-            while isinstance(vv, list) and vv:
-                vv = vv[0]
-            if isinstance(vv, dict) and vv.get("contentGroup"):
-                has_cg = True
-                break
+            # add contentGroup aka dlc
+            cg = dlc_type.value.code_name
 
-        if not has_cg:
+            ## Monster condition ;-)
+            has_cg = False
             for k, v in data.items():
                 vv = v
                 while isinstance(vv, list) and vv:
                     vv = vv[0]
-                if isinstance(vv, dict) and not vv.get("contentGroup"):
-                    vv["contentGroup"] = cg
+                if isinstance(vv, dict) and vv.get("contentGroup"):
+                    has_cg = True
+                    break
 
-        same_id = []
+            if not has_cg:
+                for k, v in data.items():
+                    vv = v
+                    while isinstance(vv, list) and vv:
+                        vv = vv[0]
+                    if isinstance(vv, dict) and not vv.get("contentGroup"):
+                        vv["contentGroup"] = cg
 
-        for j, (k, v) in enumerate(data.items()):
-            if len(v) <= 0:
-                continue
+            same_id = []
 
-            vv = v
-            while isinstance(vv, list):
-                vv = vv[0]
+            for j, (k, v) in enumerate(data.items()):
+                if len(v) <= 0:
+                    continue
 
-            if not all([isinstance(v, (dict, list)) for k, v in vv.items()]):
-                index_cur = j + index_start
-                vv["_index"] = index_cur
+                vv = v
+                while isinstance(vv, list):
+                    vv = vv[0]
 
-            if out_data.get(k):
-                same_id.append(k)
-                vv["_note"] = f"Found object with same id: {k}. Saved this object with different id"
+                if not all([isinstance(v, (dict, list)) for k, v in vv.items()]):
+                    index_cur = j + index_start
+                    vv["_index"] = index_cur
 
-        for _id in same_id:
-            new_id = f"{_id}_DOUBLE"
-            data[new_id] = data[_id]
-            del data[_id]
+                if out_data.get(k):
+                    same_id.append(k)
+                    vv["_note"] = f"Found object with same id: {k}. Saved this object with different id"
+
+            for _id in same_id:
+                new_id = f"{_id}_DOUBLE"
+                data[new_id] = data[_id]
+                del data[_id]
 
         out_data.update(data)
 
@@ -224,6 +233,12 @@ class DataHandler(Objectless):
             for key, file in data.items():
                 if len(file) > 1:
                     data_type = DataType.from_data_file(key)
+
+                    if data_type == DataType.NONE:
+                        print(f"Skipping {data_type=} ({key}). "
+                              "This message most likely means that new DataType was added", file=sys.stderr)
+                        continue
+
                     current_dlc[data_type] = DataFile(data_type, file["guid"])
 
             cls._loaded_data[dlc_type] = current_dlc

@@ -608,10 +608,10 @@
       "it": "Ponticello",
       "de": "Winzige Brücke",
       "es": "Pequeño puente",
-      "pt-BR": "Pontezinha",
+      "pt-BR": "Pequena ponte",
       "pl": "Malutki mostek",
       "ru": "Крошечный мост",
-      "tr": "Ufak Köprü",
+      "tr": "Küçük köprü",
       "zh-CN": "小桥流水",
       "ja": "小さな橋",
       "ko": "작은 다리",
@@ -2668,13 +2668,13 @@
       "it": "Ode a Castlevania",
       "de": "Ode an Castlevania",
       "es": "Oda a Castlevania",
-      "pt-BR": "Ode a Castlevania",
+      "pt-BR": "Ode to Castlevania",
       "pl": "Oda do Castlevanii",
       "ru": "Ода Кастлвании",
       "tr": "Castlevania'ya Övgü",
       "zh-CN": "恶魔城颂歌",
       "ja": "悪魔城ドラキュラへの頌歌",
-      "ko": "캐슬바니아에 바치는 송가",
+      "ko": "Ode to Castlevania",
       "zh-TW": "惡魔城頌歌",
       "uk": "Ода до Кастлванії"
     },
@@ -3535,6 +3535,74 @@
       "ko": "정션",
       "zh-TW": "樞紐",
       "uk": "Роздоріжжя"
+    }
+  },
+  "EX_WESTWOODS": {
+    "stageName": {
+      "en": "Westwoods",
+      "fr": "Westwoods",
+      "it": "Boscovest",
+      "de": "Westwald",
+      "es": "Bosque del oeste",
+      "pt-BR": "Bosque Poente",
+      "pl": "Zachodni bór",
+      "ru": "Западнолесье",
+      "tr": "Batı Ormanları",
+      "zh-CN": "西部森林",
+      "ja": "西の森",
+      "ko": "웨스트우드",
+      "zh-TW": "西部森林",
+      "uk": "Західнолісся"
+    },
+    "description": {
+      "en": "The tendrils of a phantasmal casino have taken root on the edges of these haunted woods, twisting peaceful nature into a jackpot of vile, opportunistic contraptions.",
+      "fr": "Un mystérieux casino a pris racine à l'orée de ce bois hanté, transformant la nature paisible du lieu en parterre d'infâmes engins opportunistes.",
+      "it": "I viticci di un casinò fantasma hanno messo radici ai confini di questo bosco spettrale, trasformando la natura pacifica in un montepremi di marchingegni vili e opportunistici.",
+      "de": "Am Rande des verwunschenen Waldes hat sich ein geisterhaftes Kasino eingenistet und die einst so friedliche Natur in ein Spielparadies voller abscheulicher Vorrichtungen verwandelt, die Glückssucher in ihren Bann ziehen.",
+      "es": "Los zarcillos de un casino fantasmal se han arraigado en la frontera de este bosque encantado y han corrompido la sosegada naturaleza para convertirla en una timba repleta de artilugios viles y oportunistas.",
+      "pt-BR": "Os tentáculos de um cassino fantasma fincaram raízes nas bordas destes bosques assombrados, distorcendo a natureza serena em um show de engenhocas vis e oportunistas.",
+      "pl": "Pnącza widmowego kasyna zakorzeniły się na skrajach nawiedzonego lasu, zamieniając jego spokojną naturę w nikczemne, oportunistyczne ustrojstwa.",
+      "ru": "На опушках этих жутких лесов пустило корни призрачное казино, превратившее окружающую его природу в опасный джекпот из самых гадких мерзостей.",
+      "tr": "Hayaletli bir kumarhanenin filizleri bu perili ormanın dört bir yanına kök salmış, huzurlu doğayı iğrenç, fırsatçı düzeneklerle dolu bir şans oyununa dönüştürmüştür.",
+      "zh-CN": "幻影赌场的卷须在这片灵异森林的边缘扎根，将安宁和谐的大自然扭曲成充满邪恶投机主义的奖池。",
+      "ja": "その幻影じみたカジノの触手は呪われた森の境界に根を下ろし、静寂なる自然を、貪欲な仕掛けが蠢く忌まわしき楽園へと塗り替えている。",
+      "ko": "허깨비 같은 카지노가 덩굴처럼 뻗어나가 이 유령의 숲 가장자리에 뿌리를 내리고, 평화롭던 자연은 이제 사악하고 기회주의적인 기계 장치들이 마구 터져나오는 대박의 땅으로 변해버렸습니다.",
+      "zh-TW": "幻影賭場已將其觸手伸進了這片鬧鬼森林的邊緣，將寧靜的自然扭曲成一個崇尚機會主義的邪惡獎池。",
+      "uk": "На околицях лісу, повного привидів, пагони примарного казино пустили свої коріння й перетворили невинну природу на пристанище жахливих машин, що розвивають ігрову залежність."
+    }
+  },
+  "EX_MAZERELLA": {
+    "stageName": {
+      "en": "Mazerella",
+      "fr": "Mazerella",
+      "it": "Mazerella",
+      "de": "Mazerella",
+      "es": "Pecorinto",
+      "pt-BR": "Mazerella",
+      "pl": "Camembirynt",
+      "ru": "Мацерелла",
+      "tr": "Mazerella",
+      "zh-CN": "奶酪迷宫",
+      "ja": "マゼレラ",
+      "ko": "마제렐라",
+      "zh-TW": "馬澤瑞拉",
+      "uk": "Сирбіринт"
+    },
+    "description": {
+      "en": "An archaic labyrinth forms the foul foundations of the Dairy Plant. Trickle-down milkonomics have magically matured the minotaurs' home into a madenning maze, hiding colossal creatures and curious cheeses.",
+      "fr": "Les grossières fondations de l'Usine de lait sont un dédale archaïque. La lait-orie du ruissellement a transformé le foyer des Minotaures en un labyrinthe enrageant cachant des créatures colossales et du fromage mystérieux.",
+      "it": "Un labirinto arcaico che funge anche da orribili fondamenta del Caseificio. Grazie a una serie di investimenti tanto avventati quanto redditizi, la casa dei minotauri è magicamente stagionata in un dedalo esasperante che nasconde creature colossali e formaggi curiosi. La direzione declina ogni responsabilità in caso di reazioni avverse dovute a un'intolleranza al lattosio.",
+      "de": "Dieses uralte Labyrinth formt das verrottete Fundament der Molkerei. Wann auch immer eine Milchmädchenrechnung nicht aufging, ließ man überschüssige Milch im Boden versickern. Diese hat das Heim des Minotauren auf magische Weise in ein wahnwitziges Labyrinth verwandelt, in dem sich kolossale Kreaturen und kuriose Käsesorten verstecken.",
+      "es": "La Central lechera se erige sobre un fétido laberinto antiguo. La lactofiltración ha madurado por arte de magia el hogar de los minotauros y lo ha convertido en un dédalo exasperante que oculta criaturas colosales y quesos curiosos.",
+      "pt-BR": "Um labirinto arcaico compõe os fundamentos fétidos da Fábrica de Laticínios. A economia do leite transformou magicamente o lar dos minotauros em um labirinto enlouquecedor, escondendo criaturas colossais e queijos curiosos.",
+      "pl": "Starożytny labirynt stanowi nikczemne fundamenty Mleczarni. Mlekonomia skapywania magicznie zamieniła dom minotaurów w obłąkańczą łamigłówkę skrywającą kolosalne kreatury i rzadkie sery.",
+      "ru": "У мерзкого основания Молочного завода проложен древний лабиринт. Странная система экономики, целиком основанная на потреблении молока, превратила обитель минотавров в немыслимый лабиринт, скрывающий огромных существ и диковинные сорта сыра.",
+      "tr": "Arkaik bir labirent, Süt Ürünleri Fabrikası'nın iğrenç temellerini oluşturmuş. Damlaya damlaya gölleşen süt ekonomisi, minotorların evini büyülü bir şekilde büyüterek devasa yaratıklar ve acayip peynirlerin gizlendiği çıldırtıcı bir labirente dönüştürmüştür.",
+      "zh-CN": "蜿蜒曲折的古道构成了乳品厂腐臭的地基。下渗的牛奶酝酿出奇迹，将弥诺陶洛斯的家改造成了令人发狂的迷宫，巨大的生物和奇异的奶酪潜藏其中。",
+      "ja": "酪農場の不気味な土台を形作るのは、古びた迷宮。\n滴り落ちるミルクノミクスの異様な魔力により、ミノタウロスたちの住処は、巨大な怪物と謎めいたチーズがうごめく錯綜した狂気の迷路へと熟成してしまったようだ。",
+      "ko": "폐물이 된 미로는 유제품 공장 악취의 원천입니다. 낙수효과가 발생한 밀크노믹스로 미노타우로스의 집이 성숙해져서 거대한 생물과 기이한 치즈가 숨겨진, 사람을 돌아버리게 하는 미로로 변신해 버렸어요.",
+      "zh-TW": "乳製品工廠的骯髒基底是一座古老的迷宮。滴漏式奶製品的經濟學宛如魔法一般，將牛頭人的家園變成了一座瘋狂的迷宮，隱藏著巨大的生物和奇特的起司。",
+      "uk": "Древній лабіринт, що являє собою нечисті підвалини Молокозаводу. Збиткова молочна економіка за допомогою магії перетворила оселю мінотаврів на божевільну плутанину ходів, де ховаються велетенські істоти й химерні сорти сиру."
     }
   }
 }

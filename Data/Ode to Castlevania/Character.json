@@ -37,7 +37,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
               "x": 0,
@@ -134,7 +134,7 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_SONICWHIP1",
       "bgm": "BGM_TP_VS_BloodyTears",
-      "description" : "Gains a temporary Cooldown reduction when overhealing by 8+. Can find special pickups.",
+      "description": "Gains a temporary Cooldown reduction when overhealing by 8+. Can find special pickups.",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -159,7 +159,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
               "x": 0,
@@ -250,7 +250,7 @@
       "textureName": "character_tp_trevor",
       "spriteName": "TP_Trevor_i01.png",
       "walkingFrames": 4,
-      "bgm" : "BGM_TP_VS_Aquarius",
+      "bgm": "BGM_TP_VS_Aquarius",
       "startingWeapon": "TP_DRAGONWATER1",
       "skins": [
         {
@@ -276,7 +276,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
               "x": 0,
@@ -347,16 +347,16 @@
     },
     {
       "level": 10,
-      "amount" : 1
+      "amount": 1
     },
     {
       "level": 20,
-      "amount" : 1,
+      "amount": 1,
       "growth": 1
     },
     {
       "level": 30,
-      "amount" : 1
+      "amount": 1
     },
     {
       "level": 21,
@@ -384,7 +384,7 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_LEMURIA1",
       "bgm": "BGM_TP_VS_TheBeginning",
-      "description" : "Greed can occasionally affect Might, Area, and Armor. Can find special pickups.",
+      "description": "Greed can occasionally affect Might, Area, and Armor. Can find special pickups.",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -409,7 +409,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
               "x": 0,
@@ -499,7 +499,7 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_WINDWHIP1",
       "bgm": "BGM_TP_VS_SimonTheme",
-      "description" : "Growth can occasionally affect Might, Area, and Armor. Can find special pickups.",
+      "description": "Growth can occasionally affect Might, Area, and Armor. Can find special pickups.",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -524,7 +524,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
               "x": 0,
@@ -661,7 +661,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
               "x": 0,
@@ -677,7 +677,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "headOffsets": [
             {
               "x": 0,
@@ -686,13 +686,12 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1.2,
-      "area":   1,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1.2,
+      "area": 1,
       "speed": 1,
       "duration": 1.2,
       "amount": 0,
@@ -811,7 +810,7 @@
           }
         },
         {
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "skinType": "SKIN_TP_RICHTER_MORNINGSTAR",
           "name": "SKIN_TP_RICHTER_MORNINGSTAR",
           "textureName": "character_tp_richter",
@@ -952,7 +951,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
               "x": 0,
@@ -964,27 +963,24 @@
       "maxHp": 180,
       "armor": 0,
       "regen": 0,
-      
-      "moveSpeed":  1,
-      "power":      1.4,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   1,
-      
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     10,
-      "cooldown":   1,
-      "charm":      0,
-      "price":      500,
-      
+      "moveSpeed": 1,
+      "power": 1.4,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 10,
+      "cooldown": 1,
+      "charm": 0,
+      "price": 500,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -1041,7 +1037,7 @@
           "unlocked": true
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_GRANT_2CA",
           "name": "SKIN_TP_GRANT_2CA",
           "textureName": "character_tp_grant",
@@ -1050,7 +1046,7 @@
           "unlocked": false
         }
       ],
-      "bgm" : "BGM_TP_VS_MadForest",
+      "bgm": "BGM_TP_VS_MadForest",
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -1075,18 +1071,18 @@
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
-        "TP_ICE1",
-        "TP_ICE1",
-        "TP_ICE1",
-        "TP_ICE1",
-        "TP_ICE1",
-        "TP_ICE1",
-        "TP_ICE1",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
         "COOLDOWN",
         "COOLDOWN",
         "COOLDOWN",
@@ -1126,7 +1122,7 @@
   ],
   "TP_QUINCY": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -1138,8 +1134,7 @@
       "spriteName": "TP_Quincy_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_SHURIKEN1",
-      "bgm" : "BGM_TP_hod_IntoTheDarkNight",
-
+      "bgm": "BGM_TP_hod_IntoTheDarkNight",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -1156,7 +1151,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_QUINCY_2CA",
           "name": "SKIN_TP_QUINCY_2CA",
           "textureName": "character_tp_quincy",
@@ -1171,32 +1166,26 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   4,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":    2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 4,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -1265,8 +1254,7 @@
       "startingWeapon": "TP_IRONBALL1",
       "bgm": "BGM_TP_VS_IronBlueIntention",
       "charSelTexture": "character_tp_john",
-      "charSelFrame": "TP_John_i01.png",
-      
+      "charSelFrame": "TP_John_i02.png",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -1283,7 +1271,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_JOHN_2CA",
           "name": "SKIN_TP_JOHN_2CA",
           "textureName": "character_tp_john",
@@ -1298,7 +1286,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "skinType": "SKIN_TP_JOHN_3MS",
           "name": "SKIN_TP_JOHN_3MS",
           "textureName": "character_tp_john",
@@ -1313,7 +1301,6 @@
           ]
         }
       ],
-      
       "maxHp": 130,
       "armor": 0,
       "regen": 0,
@@ -1337,7 +1324,12 @@
       "price": 500,
       "enemiesKilled": 0,
       "isBought": false,
-      "showcase": [],
+      "showcase": [
+        "TP_IRONBALL1", "TP_IRONBALL1", "TP_IRONBALL1", "TP_IRONBALL1", "TP_IRONBALL1", "TP_IRONBALL1", "TP_IRONBALL1",
+        "AMOUNT","AMOUNT",
+        "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN",
+        "ARMOR","ARMOR","ARMOR","ARMOR","ARMOR"
+      ],
       "exWeapons": []
     },
     {
@@ -1410,8 +1402,7 @@
         "POWER",
         "POWER"
       ],
-      "exWeapons": [
-      ],
+      "exWeapons": [],
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -1476,7 +1467,7 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_Jonathan_i01.png",
           "headOffsets": [
@@ -1532,7 +1523,7 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_Jonathan_i01.png",
           "headOffsets": [
@@ -1588,7 +1579,7 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_Jonathan_i01.png",
           "headOffsets": [
@@ -1657,7 +1648,7 @@
   ],
   "TP_MAXIM": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -1669,8 +1660,7 @@
       "spriteName": "TP_Maxim_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_DISCUS1",
-      "bgm" : "BGM_TP_por_InSearchOfTheHiddenSpell",
-
+      "bgm": "BGM_TP_por_InSearchOfTheHiddenSpell",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -1687,7 +1677,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_MAXIM_2CA",
           "name": "SKIN_TP_MAXIM_2CA",
           "textureName": "character_tp_maxim",
@@ -1702,7 +1692,6 @@
           ]
         }
       ],
-      
       "maxHp": 140,
       "armor": 0,
       "regen": 0,
@@ -1784,7 +1773,7 @@
   ],
   "TP_HENRY": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -1796,8 +1785,7 @@
       "spriteName": "TP_Henry_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_GUN1",
-      "bgm" : "BGM_TP_hod_TheHiddenCurse",
-      
+      "bgm": "BGM_TP_hod_TheHiddenCurse",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -1814,7 +1802,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_HENRY_2CA",
           "name": "SKIN_TP_HENRY_2CA",
           "textureName": "character_tp_henry",
@@ -1829,32 +1817,26 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      2,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":    2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 2,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -1923,7 +1905,7 @@
       "portraitName": "tp_soma.png",
       "textureName": "character_tp_soma",
       "spriteName": "TP_Soma_i01.png",
-      "description" : "Gains +1% Might every level. Immune to health drain. Once per life, triggers Soul Steal after receiving fatal damage.",
+      "description": "Gains +1% Might every level. Immune to health drain. Once per life, triggers Soul Steal after receiving fatal damage.",
       "walkingFrames": 1,
       "startingWeapon": "TP_RPG1",
       "charSelTexture": "character_tp_soma",
@@ -2037,44 +2019,53 @@
               ]
             }
           },
-          "startingWeapon" : "CANDYBOX"
+          "startingWeapon": "CANDYBOX"
         }
       ],
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1.5,
-      "curse":      1,
-
-      "rerolls":    5,
-      "skips":      5,
-      "banish":     5,
-
-      "price":      1000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1.5,
+      "curse": 1,
+      "rerolls": 5,
+      "skips": 5,
+      "banish": 5,
+      "price": 1000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
-        "TP_RPG1","TP_RPG1","TP_RPG1","TP_RPG1","TP_RPG1","TP_RPG1","TP_RPG1",
-        "AREA","AREA","AREA","AREA","AREA",
-        "AMOUNT","AMOUNT",
-        "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN"
+        "TP_RPG1",
+        "TP_RPG1",
+        "TP_RPG1",
+        "TP_RPG1",
+        "TP_RPG1",
+        "TP_RPG1",
+        "TP_RPG1",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN"
       ],
-      "exWeapons": [
-      ],
+      "exWeapons": [],
       "onEveryLevelUp": {
         "power": 0.01
       }
@@ -2098,7 +2089,7 @@
   ],
   "TP_DRACULA": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "Vlad Tepes",
@@ -2111,7 +2102,6 @@
       "bgm": "BGM_TP_VS_WoodCarvingPartita",
       "walkingFrames": 6,
       "startingWeapon": "TP_WINEGLASS1",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -2143,7 +2133,7 @@
           }
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_DRACULA_2DB",
           "name": "SKIN_TP_DRACULA_2DB",
           "textureName": "character_tp_dracula",
@@ -2173,28 +2163,27 @@
           }
         }
       ],
-      
-      "maxHp":      666,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1,
-      "power":      2,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   1,
-      "shields":    0,
-      "price":      0,
+      "maxHp": 666,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 0,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -2361,34 +2350,28 @@
               ]
             }
           },
-          "startingWeapon" : "TP_SPELLBOOK"
+          "startingWeapon": "TP_SPELLBOOK"
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1.2,
-      "duration":   1.2,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1.2,
+      "duration": 1.2,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
       "price": 500,
       "enemiesKilled": 0,
       "isBought": false,
@@ -2474,7 +2457,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_SYPHA_2",
           "name": "SKIN_TP_SYPHA_2",
           "textureName": "character_tp_sypha",
@@ -2490,31 +2473,25 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.4,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1.4,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1.4,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
@@ -2577,7 +2554,7 @@
   ],
   "TP_JULIA": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -2606,7 +2583,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_JULIA_2",
           "name": "SKIN_TP_JULIA_2",
           "textureName": "character_tp_julia",
@@ -2621,31 +2598,26 @@
           ]
         }
       ],
-      "maxHp":      108,
-      "regen":      3,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1.5,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      
-      "price":      7,
+      "maxHp": 108,
+      "regen": 3,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1.5,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "price": 7,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -2698,7 +2670,7 @@
   ],
   "TP_CARRIE": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -2727,7 +2699,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_CARRIE_2",
           "name": "SKIN_TP_CARRIE_2",
           "textureName": "character_tp_carrie",
@@ -2742,32 +2714,26 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.4,
-      
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     1,
-      "revivals":   0,
-      "magnet":     0.5,
-      
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      
-      "price":      1665,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 1,
+      "revivals": 0,
+      "magnet": 0.5,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -2840,7 +2806,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_ELEC1",
       "bgm": "BGM_TP_VS_DraculasTears",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -2857,7 +2822,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_YOKO_2",
           "name": "SKIN_TP_YOKO_2",
           "textureName": "character_tp_yoko",
@@ -2872,31 +2837,25 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.4,
-
-      "power":      1,
-      "speed":      1.4,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0.5,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1.4,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0.5,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
@@ -2952,7 +2911,7 @@
   ],
   "TP_RINALDO": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -2965,7 +2924,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_ACID1",
       "bgm": "BGM_TP_VS_BaljhetMountaint",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -2982,7 +2940,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_RINALDO_2",
           "name": "SKIN_TP_RINALDO_2",
           "textureName": "character_tp_rinaldo",
@@ -2997,31 +2955,25 @@
           ]
         }
       ],
-      
-      "maxHp":      120,
-      "regen":      0,
-      "armor":      1,
-      "moveSpeed":  1,
-
-      "power":      1.5,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      
+      "maxHp": 120,
+      "regen": 0,
+      "armor": 1,
+      "moveSpeed": 1,
+      "power": 1.5,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
@@ -3082,7 +3034,7 @@
   ],
   "TP_MINA": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -3095,7 +3047,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_HOLY1",
       "bgm": "BGM_TP_VS_AmberScenery",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -3112,7 +3063,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_MINA_2",
           "name": "SKIN_TP_MINA_2",
           "textureName": "character_tp_mina",
@@ -3127,31 +3078,25 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0.5,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   0.95,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       2,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-
+      "maxHp": 100,
+      "regen": 0.5,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 0.95,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 2,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
@@ -3209,12 +3154,12 @@
   ],
   "TP_ELIZABETH": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
       "charName": "Elizabeth",
-      "surname": "Bartley",		      
+      "surname": "Bartley",
       "description": "Increases enemies spawn quantity by 50. Immune to health drain. Reveals a demonic form after defeating a large amount of enemies.",
       "portraitName": "tp_elizabeth.png",
       "textureName": "character_tp_elizabeth",
@@ -3222,7 +3167,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_EVIL1",
       "bgm": "BGM_TP_VS_ReincarnatedSoul",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -3239,7 +3183,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_ELIZABETH_2SB",
           "name": "SKIN_TP_ELIZABETH_2SB",
           "textureName": "character_tp_elizabeth",
@@ -3254,7 +3198,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_ELIZABETH_3DB",
           "name": "SKIN_TP_ELIZABETH_3DB",
           "textureName": "character_tp_elizabeth",
@@ -3269,29 +3213,28 @@
           ]
         }
       ],
-      
       "maxHp": 200,
       "armor": 2,
       "regen": 0,
-      "moveSpeed":  1.5,
-      "power":      1.5,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   1,
-      "shields":    0,
-      "charm":      50,
-      "price":      6665,
+      "moveSpeed": 1.5,
+      "power": 1.5,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 50,
+      "price": 6665,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -3365,8 +3308,7 @@
       "charSelTexture": "character_tp_alucard",
       "charSelFrame": "TP_Alucard_i01.png",
       "startingWeapon": "TP_ALUCARDSWORD1",
-      "description" : "Charge: Soul Steal.\nLevelUp: Dark Inferno.\nOverheal 8+: Summon Spirit.\nHP-Critical: Sword Brothers.\nImmune to health drain.",
-      
+      "description": "Charge: Soul Steal.\nLevelUp: Dark Inferno.\nOverheal 8+: Summon Spirit.\nHP-Critical: Sword Brothers.\nImmune to health drain.",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -3434,7 +3376,7 @@
           }
         },
         {
-          "startingWeapon" : "CANDYBOX",
+          "startingWeapon": "CANDYBOX",
           "skinType": "SKIN_TP_ALUCARD_2",
           "name": "SKIN_TP_ALUCARD_2",
           "textureName": "character_tp_alucard",
@@ -3500,7 +3442,6 @@
           }
         }
       ],
-      
       "maxHp": 200,
       "armor": 2,
       "regen": 0,
@@ -3579,7 +3520,7 @@
   ],
   "TP_REINHARDT": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -3591,8 +3532,7 @@
       "spriteName": "TP_Reinhardt_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_SLASH1",
-      "bgm" : "BGM_TP_hod_GazeUpAtTheDarkness",
-      
+      "bgm": "BGM_TP_hod_GazeUpAtTheDarkness",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -3609,7 +3549,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "skinType": "SKIN_TP_REINHARDT_2SW",
           "name": "SKIN_TP_REINHARDT_2SW",
           "textureName": "character_tp_reinhardt",
@@ -3624,7 +3564,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_REINHARDT_3CA",
           "name": "SKIN_TP_REINHARDT_3CA",
           "textureName": "character_tp_reinhardt",
@@ -3639,7 +3579,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "skinType": "SKIN_TP_REINHARDT_4MS",
           "name": "SKIN_TP_REINHARDT_4MS",
           "textureName": "character_tp_reinhardt",
@@ -3654,32 +3594,26 @@
           ]
         }
       ],
-
-      "maxHp":      140,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1,
-
-      "power":      1.2,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":      2000,
+      "maxHp": 140,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1,
+      "power": 1.2,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 2000,
       "isBought": false,
       "showcase": [
         "TP_SLASH1",
@@ -3751,7 +3685,6 @@
       "startingWeapon": "TP_ALUCARDSPEAR1",
       "bgm": "BGM_TP_VS_TheSinkingOldSanctuary",
       "description": "Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -3768,7 +3701,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "skinType": "SKIN_TP_ERIC_2SW",
           "name": "SKIN_TP_ERIC_2SW",
           "textureName": "character_tp_eric",
@@ -3783,7 +3716,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_ERIC_3CA",
           "name": "SKIN_TP_ERIC_3CA",
           "textureName": "character_tp_eric",
@@ -3798,32 +3731,26 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1.2,
-      "speed":      1.2,
-      "area":       1.2,
-      "duration":   1,
-
-      "cooldown":   0.95,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "price" :     500,
-      
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1.2,
+      "speed": 1.2,
+      "area": 1.2,
+      "duration": 1,
+      "cooldown": 0.95,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 500,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -3855,7 +3782,7 @@
   ],
   "TP_ISAAC": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -3866,9 +3793,8 @@
       "spriteName": "TP_Isaac_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_CHAUVE1",
-      "description" : "Gains a random Familiar as a follower every 10 levels (max 4).",
-      "bgm" : "BGM_TP_cod_FollowersOfDarkness",
-
+      "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
+      "bgm": "BGM_TP_cod_FollowersOfDarkness",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -3885,7 +3811,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "skinType": "SKIN_TP_ISAAC_2SW",
           "name": "SKIN_TP_ISAAC_2SW",
           "textureName": "character_tp_isaac",
@@ -3900,7 +3826,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_ISAAC_3DB",
           "name": "SKIN_TP_ISAAC_3DB",
           "textureName": "character_tp_isaac",
@@ -3915,32 +3841,26 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1,
-
-      "power":      1,
-      "speed":      1.2,
-      "area":       1.2,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0.25,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    20,
-      "skips":      20,
-      "banish":     20,
-      
-      "price":   2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1.2,
+      "area": 1.2,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0.25,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 20,
+      "skips": 20,
+      "banish": 20,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -3999,8 +3919,7 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_MACE1",
       "bgm": "BGM_TP_VS_AbandonedCastle",
-      "description" : "Gains a random Familiar as a follower every 10 levels (max 4).",
-
+      "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4017,7 +3936,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "skinType": "SKIN_TP_HECTOR_2SW",
           "name": "SKIN_TP_HECTOR_2SW",
           "textureName": "character_tp_hector",
@@ -4032,7 +3951,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_HECTOR_3CA",
           "name": "SKIN_TP_HECTOR_3CA",
           "textureName": "character_tp_hector",
@@ -4047,7 +3966,6 @@
           ]
         }
       ],
-      
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -4058,24 +3976,33 @@
       "duration": 1,
       "amount": 0,
       "luck": 1,
-      
       "growth": 1.2,
       "greed": 1,
       "curse": 1,
       "magnet": 0.25,
       "revivals": 0,
-      
-      "rerolls":    20,
-      "skips":      20,
-      "banish":     20,
-      
+      "rerolls": 20,
+      "skips": 20,
+      "banish": 20,
       "cooldown": 1,
       "shields": 0,
       "price": 500,
-      
       "enemiesKilled": 0,
       "isBought": false,
-      "showcase": ["TP_MACE1","TP_MACE1","TP_MACE1","TP_MACE1","TP_MACE1","TP_MACE1","TP_MACE1","MAXHEALTH","MAXHEALTH","MAXHEALTH","MAXHEALTH","MAXHEALTH"],
+      "showcase": [
+        "TP_MACE1",
+        "TP_MACE1",
+        "TP_MACE1",
+        "TP_MACE1",
+        "TP_MACE1",
+        "TP_MACE1",
+        "TP_MACE1",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "MAXHEALTH",
+        "MAXHEALTH"
+      ],
       "exWeapons": []
     },
     {
@@ -4097,7 +4024,7 @@
   ],
   "TP_SARA": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -4110,7 +4037,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_STARFLAIL1",
       "bgm": "BGM_TP_VS_DanceOfPearls",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4127,7 +4053,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_SARA_2SB",
           "name": "SKIN_TP_SARA_2SB",
           "textureName": "character_tp_sara",
@@ -4142,32 +4068,26 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1.4,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":     2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1.4,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -4231,7 +4151,7 @@
   ],
   "TP_VINCENT": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -4243,8 +4163,7 @@
       "spriteName": "TP_Vincent_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_SHIELD1",
-      "bgm" : "BGM_TP_VS_AfterConfession",
-      
+      "bgm": "BGM_TP_VS_AfterConfession",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4261,7 +4180,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "skinType": "SKIN_TP_VINCENT_2CA",
           "name": "SKIN_TP_VINCENT_2CA",
           "textureName": "character_tp_vincent",
@@ -4276,31 +4195,25 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      1,
-      "moveSpeed":  1,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1.2,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     10,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 1,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1.2,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 10,
       "price": 9000,
       "enemiesKilled": 0,
       "isBought": false,
@@ -4368,7 +4281,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_SACREDBEASTS1",
       "bgm": "BGM_TP_VS_MoonlightNocturne",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4385,7 +4297,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "skinType": "SKIN_TP_MARIA_2SW",
           "name": "SKIN_TP_MARIA_2SW",
           "textureName": "character_tp_maria",
@@ -4400,7 +4312,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_MARIA_3SB",
           "name": "SKIN_TP_MARIA_3SB",
           "textureName": "character_tp_maria",
@@ -4415,7 +4327,6 @@
           ]
         }
       ],
-      
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -4510,7 +4421,7 @@
       "charSelFrame": "TP_Shanoa_i01.png",
       "bgm": "BGM_TP_VS_AnEmptyTome",
       "startingWeapon": "TP_CONFODERE1",
-      "description" : "Gains +1% Might every level. Charge ability: triggers all equipped weapons from the Ebony Diabologue. Can find special pickups.",
+      "description": "Gains +1% Might every level. Charge ability: triggers all equipped weapons from the Ebony Diabologue. Can find special pickups.",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4578,7 +4489,7 @@
           }
         },
         {
-          "startingWeapon" : "CANDYBOX",
+          "startingWeapon": "CANDYBOX",
           "charSelTexture": "character_tp_shanoa",
           "charSelFrame": "TP_Shanoa_i01.png",
           "skinType": "SKIN_TP_SHANOA_2",
@@ -4661,11 +4572,9 @@
       "curse": 1,
       "magnet": 0,
       "revivals": 0,
-      
-      "rerolls":  10,
-      "skips":    10,
-      "banish":   10,
-      
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
       "cooldown": 1,
       "shields": 0,
       "price": 1000,
@@ -4725,7 +4634,7 @@
   ],
   "TP_ALBUS": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -4738,7 +4647,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_SPITE1",
       "bgm": "BGM_TP_VS_EbonyWings",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4755,7 +4663,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_ALBUS_2DB",
           "name": "SKIN_TP_ALBUS_2DB",
           "textureName": "character_tp_albus",
@@ -4770,32 +4678,26 @@
           ]
         }
       ],
-
-      "maxHp":      120,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.4,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":    2000,
+      "maxHp": 120,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -4855,7 +4757,7 @@
   ],
   "TP_LISA": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -4868,7 +4770,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_LIGHT1",
       "bgm": "BGM_TP_VS_WanderingTheCrystalBlue",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4885,7 +4786,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_LISA_2SB",
           "name": "SKIN_TP_LISA_2SB",
           "textureName": "character_tp_lisa",
@@ -4900,32 +4801,26 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    5,
-      "skips":      5,
-      "banish":     5,
-
-      "price":     2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 5,
+      "skips": 5,
+      "banish": 5,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -4984,7 +4879,7 @@
   ],
   "TP_SHAFT": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -4996,8 +4891,7 @@
       "spriteName": "TP_Shaft_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_DARK1",
-      "bgm" : "BGM_TP_sotn_FestivalOfServants",
-
+      "bgm": "BGM_TP_sotn_FestivalOfServants",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5014,7 +4908,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_SHAFT_2DB",
           "name": "SKIN_TP_SHAFT_2DB",
           "textureName": "character_tp_shaft",
@@ -5029,32 +4923,26 @@
           ]
         }
       ],
-      
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.3,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1.5,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   1,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     10,
-
-      "price":     2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.3,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1.5,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 1,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 10,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -5110,7 +4998,7 @@
   ],
   "TP_STGERMAIN": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -5123,7 +5011,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_ENERGY1",
       "bgm": "BGM_TP_VS_EneomaosMachineTower",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5140,7 +5027,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "skinType": "SKIN_TP_STGERMAIN_2SW",
           "name": "SKIN_TP_STGERMAIN_2SW",
           "textureName": "character_tp_saintgermain",
@@ -5155,7 +5042,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_STGERMAIN_2DB",
           "name": "SKIN_TP_STGERMAIN_2DB",
           "textureName": "character_tp_saintgermain",
@@ -5170,32 +5057,26 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-
-      "price":     2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -5254,7 +5135,7 @@
   ],
   "TP_NATHAN": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -5266,8 +5147,7 @@
       "spriteName": "TP_Nathan_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_RAPIDUS1",
-      "bgm" : "BGM_TP_VS_Awake",
-      
+      "bgm": "BGM_TP_VS_Awake",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5284,7 +5164,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "skinType": "SKIN_TP_NATHAN_2MS",
           "name": "SKIN_TP_NATHAN_2MS",
           "textureName": "character_tp_nathan",
@@ -5299,7 +5179,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_NATHAN_2SB",
           "name": "SKIN_TP_NATHAN_2SB",
           "textureName": "character_tp_nathan",
@@ -5314,33 +5194,26 @@
           ]
         }
       ],
-
-      "maxHp":      120,
-      "regen":      0,
-      "armor":      1,
-      "moveSpeed":  1,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   0.95,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":      2000,
-      
+      "maxHp": 120,
+      "regen": 0,
+      "armor": 1,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 0.95,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -5393,7 +5266,7 @@
   ],
   "TP_CORNELL": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -5405,8 +5278,7 @@
       "spriteName": "TP_CornellA_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_CUSTOS1",
-      "bgm" : "BGM_TP_VS_TragicPrince",
-
+      "bgm": "BGM_TP_VS_TragicPrince",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5423,7 +5295,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_CUSTOS2",
+          "startingWeapon": "TP_CUSTOS2",
           "skinType": "SKIN_TP_CORNELL_2",
           "name": "SKIN_TP_CORNELL_2",
           "textureName": "character_tp_cornell",
@@ -5438,7 +5310,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_CORNELL_2DB",
           "name": "SKIN_TP_CORNELL_2DB",
           "textureName": "character_tp_cornell",
@@ -5453,31 +5325,26 @@
           ]
         }
       ],
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     1,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      0,
-      "banish":     0,
-
-      "price":      2000,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 1,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 0,
+      "banish": 0,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -5541,7 +5408,7 @@
   ],
   "TP_BARLOWE": [
     {
-      "requiresRelic" : "TP_RELIC_BLACK_DISK",
+      "requiresRelic": "TP_RELIC_BLACK_DISK",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -5554,7 +5421,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_DOMINUS1",
       "bgm": "BGM_TP_VS_ChapelHiddenInSmoke",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5571,7 +5437,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DOMINUS2",
+          "startingWeapon": "TP_DOMINUS2",
           "skinType": "SKIN_TP_BARLOWE_2",
           "name": "SKIN_TP_BARLOWE_2",
           "textureName": "character_tp_barlowe",
@@ -5586,7 +5452,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_BARLOWE_3DB",
           "name": "SKIN_TP_BARLOWE_3DB",
           "textureName": "character_tp_barlowe",
@@ -5601,7 +5467,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SPELLBOOK",
+          "startingWeapon": "TP_SPELLBOOK",
           "skinType": "SKIN_TP_BARLOWE_4SB",
           "name": "SKIN_TP_BARLOWE_4SB",
           "textureName": "character_tp_barlowe",
@@ -5616,32 +5482,26 @@
           ]
         }
       ],
-      
-      "maxHp":      300,
-      "regen":      0,
-      "armor":      1,
-      "moveSpeed":  1,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1.2,
-      "duration":   1.2,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     10,
-
-      "price":      2000,
+      "maxHp": 300,
+      "regen": 0,
+      "armor": 1,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1,
+      "area": 1.2,
+      "duration": 1.2,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 10,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -5698,10 +5558,9 @@
       "growth": -1
     }
   ],
-
   "TP_MARIAB": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "noHurt": true,
       "level": 1,
@@ -5715,10 +5574,9 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_FAMILIARFORGE",
       "bgm": "BGM_TP_sotn_GuardianMariaFight",
-
       "skins": [
         {
-          "skinType": "Default",
+          "skinType": "DEFAULT",
           "name": "Default",
           "textureName": "character_tp_maria",
           "spriteName": "TP_MariaB_i01.png",
@@ -5732,30 +5590,27 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      
-      "moveSpeed":  1.8,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1.8,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "price":      9000,
-      
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1.8,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 9000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -5815,7 +5670,7 @@
   ],
   "TP_FAMILIARS": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -5827,7 +5682,6 @@
       "spriteName": "TP_Faerie_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_HOLY1",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5909,32 +5763,26 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":      100,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 100,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -5993,7 +5841,7 @@
   ],
   "TP_INNOCENT_DEVILS": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -6005,7 +5853,6 @@
       "spriteName": "TP_Follower_Ukoback_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "TP_SAVROG_WEAPON",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -6023,7 +5870,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_CHAUVE1",
+          "startingWeapon": "TP_CHAUVE1",
           "skinType": "SKIN_TP_ID_2",
           "name": "SKIN_TP_ID_2",
           "textureName": "ThosePeople",
@@ -6039,7 +5886,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_SUMMON_SPIRIT",
+          "startingWeapon": "TP_SUMMON_SPIRIT",
           "skinType": "SKIN_TP_ID_3",
           "name": "SKIN_TP_ID_3",
           "textureName": "ThosePeople",
@@ -6055,7 +5902,7 @@
           ]
         },
         {
-          "startingWeapon" : "GARLIC",
+          "startingWeapon": "GARLIC",
           "skinType": "SKIN_TP_ID_4",
           "name": "SKIN_TP_ID_4",
           "textureName": "ThosePeople",
@@ -6071,7 +5918,7 @@
           ]
         },
         {
-          "startingWeapon" : "FIREBALL",
+          "startingWeapon": "FIREBALL",
           "skinType": "SKIN_TP_ID_5",
           "name": "SKIN_TP_ID_5",
           "textureName": "ThosePeople",
@@ -6091,7 +5938,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_BWAKA1",
+          "startingWeapon": "TP_BWAKA1",
           "skinType": "SKIN_TP_ID_6",
           "name": "SKIN_TP_ID_6",
           "textureName": "ThosePeople",
@@ -6110,32 +5957,26 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
-      "price":      100,
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 100,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -6194,7 +6035,7 @@
   ],
   "TP_CORNELL_BCM": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "Blue Crescent Moon",
@@ -6207,7 +6048,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_CUSTOS4",
       "bgm": "BGM_TP_hod_PitifulScion",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -6224,7 +6064,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_CORNELL_B",
           "name": "SKIN_TP_CORNELL_B",
           "textureName": "character_tp_cornell",
@@ -6239,31 +6079,26 @@
           ]
         }
       ],
-      "maxHp":      200,
-      "regen":      0,
-      "armor":      2,
-      "moveSpeed":  1.4,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     3,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    10,
-      "skips":      0,
-      "banish":     0,
-
-      "price":      9000,
+      "maxHp": 200,
+      "regen": 0,
+      "armor": 2,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 3,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 0,
+      "banish": 0,
+      "price": 9000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -6328,10 +6163,9 @@
       "growth": -1
     }
   ],
-
   "TP_FERRYMAN": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -6344,31 +6178,32 @@
       "walkingFrames": 5,
       "startingWeapon": "VOID",
       "bgm": "BGM_TP_sotn_LostPainting",
-
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "cooldown":   1,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "price":      1665,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "cooldown": 1,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [],
-      "hiddenWeapons": ["FLOOD"]
+      "hiddenWeapons": [
+        "FLOOD"
+      ]
     },
     {
       "level": 20,
@@ -6389,7 +6224,7 @@
   ],
   "TP_LIBRARIAN": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -6419,31 +6254,25 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  0,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   1,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      11,
-      "curse":      1,
-
-      "rerolls":    100,
-      "skips":      100,
-      "banish":     100,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 0,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 1,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 11,
+      "curse": 1,
+      "rerolls": 100,
+      "skips": 100,
+      "banish": 100,
       "price": 65536,
       "enemiesKilled": 0,
       "isBought": false,
@@ -6480,7 +6309,7 @@
         "POWER"
       ],
       "exWeapons": [],
-      "hiddenWeapons" : [
+      "hiddenWeapons": [
         "TP_POWEROFLIRE"
       ]
     },
@@ -6503,7 +6332,7 @@
   ],
   "TP_HAMMER": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -6516,7 +6345,6 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_RPG2",
       "bgm": "BGM_TP_dos_PitchBlackIntrusion",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -6533,31 +6361,25 @@
           ]
         }
       ],
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     1,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 1,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 9000,
       "enemiesKilled": 0,
       "isBought": false,
@@ -6612,7 +6434,7 @@
   ],
   "TP_WIND": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -6625,27 +6447,27 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_AURABLAST_WEAPON",
       "bgm": "BGM_TP_por_IronBlueIntention",
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      1,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "price":      2000,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 1,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -6691,10 +6513,9 @@
       "growth": -1
     }
   ],
-  
   "TP_JONATHAN_AND_CHARLOTTE": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -6709,7 +6530,6 @@
       "startingWeapon": "TP_JAVELIN1",
       "bgm": "BGM_TP_VS_VictorianFear",
       "description": "Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte!",
-
       "maxHp": 130,
       "armor": 0,
       "regen": 0,
@@ -6734,8 +6554,7 @@
       "enemiesKilled": 0,
       "isBought": true,
       "showcase": [],
-      "exWeapons": [
-      ],
+      "exWeapons": [],
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -6800,7 +6619,7 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "startingWeapon" : "TP_MORNINGSTAR",
+          "startingWeapon": "TP_MORNINGSTAR",
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_JandC_Select.png",
           "headOffsets": [
@@ -6856,7 +6675,7 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "startingWeapon" : "TP_COATOFARMS",
+          "startingWeapon": "TP_COATOFARMS",
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_JandC_Select.png",
           "headOffsets": [
@@ -6912,7 +6731,7 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "startingWeapon" : "TP_SPECTRALSWORD",
+          "startingWeapon": "TP_SPECTRALSWORD",
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_JandC_Select.png",
           "headOffsets": [
@@ -6981,7 +6800,7 @@
   ],
   "TP_CHARLOTTE_AND_JONATHAN": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7106,7 +6925,7 @@
               ]
             }
           },
-          "startingWeapon" : "TP_SPELLBOOK"
+          "startingWeapon": "TP_SPELLBOOK"
         }
       ],
       "maxHp": 100,
@@ -7185,7 +7004,7 @@
   ],
   "TP_STELLA_AND_LORETTA": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7199,25 +7018,25 @@
       "startingWeapon": "TP_WIND2",
       "charSelTexture": "character_tp_stellaandloretta",
       "charSelFrame": "TP_SandL_Select.png",
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
@@ -7266,7 +7085,7 @@
   ],
   "TP_LORETTA_AND_STELLA": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7280,25 +7099,25 @@
       "startingWeapon": "TP_ICE2",
       "charSelTexture": "character_tp_stellaandloretta",
       "charSelFrame": "TP_LandS_Select.png",
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
@@ -7345,10 +7164,9 @@
       "growth": -1
     }
   ],
-  
   "TP_STELLA": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7361,25 +7179,25 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_WIND2",
       "bgm": "BGM_TP_por_TheHiddenCurse",
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
@@ -7428,7 +7246,7 @@
   ],
   "TP_LORETTA": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7441,25 +7259,25 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_ICE2",
       "bgm": "BGM_TP_por_InSearchOfTheHiddenSpell",
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
@@ -7508,7 +7326,7 @@
   ],
   "TP_BRAUNER": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "unlocked": false,
       "level": 1,
@@ -7522,29 +7340,28 @@
       "walkingFrames": 5,
       "startingWeapon": "TP_DIABOLOGUE",
       "bgm": "BGM_TP_por_VictorianFear",
-
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     1,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 1,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -7584,10 +7401,8 @@
         "AMOUNT",
         "AMOUNT"
       ],
-      "exWeapons": [
-      ],
-      "hiddenWeapons": [
-      ]
+      "exWeapons": [],
+      "hiddenWeapons": []
     },
     {
       "level": 20,
@@ -7608,7 +7423,7 @@
   ],
   "TP_SOLEIL": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7620,7 +7435,7 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_LEMURIA1",
       "bgm": "BGM_TP_Bloodlines_Beginning",
-      "description" : "Recently got into whips.",
+      "description": "Recently got into whips.",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -7638,27 +7453,27 @@
           ]
         }
       ],
-      "maxHp":      120,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   1,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "price":      1665,
+      "maxHp": 120,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -7714,10 +7529,9 @@
       "growth": -1
     }
   ],
-  
   "TP_DARIO": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7730,27 +7544,26 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_FIRE2",
       "bgm": "BGM_TP_dos_AfterConfession",
-
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "cooldown":   1,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "price":      1665,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "cooldown": 1,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [],
@@ -7775,7 +7588,7 @@
   ],
   "TP_DMITRI": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7788,26 +7601,25 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_DIABOLOGUE",
       "bgm": "BGM_TP_dos_DraculasTears",
-
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "cooldown":   1,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "cooldown": 1,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
@@ -7833,7 +7645,7 @@
   ],
   "TP_CELIA": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7846,31 +7658,32 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_LIGHT1",
       "bgm": "BGM_TP_dos_AmberScenery",
-
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "cooldown":   1,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "price":      1665,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "cooldown": 1,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [],
-      "exWeapons": ["TP_DARK1"]
+      "exWeapons": [
+        "TP_DARK1"
+      ]
     },
     {
       "level": 20,
@@ -7891,7 +7704,7 @@
   ],
   "TP_GRAHAM": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7904,26 +7717,26 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_DARK2",
       "bgm": "BGM_TP_dos_IntoTheDarkNight",
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     1,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "price":      16650,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 1,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -7969,10 +7782,9 @@
       "growth": -1
     }
   ],
-  
   "TP_JOACHIM": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -7985,25 +7797,25 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_SLASH2",
       "bgm": "BGM_TP_cod_BaljhetMountains",
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
@@ -8052,7 +7864,7 @@
   ],
   "TP_WALTER": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -8065,26 +7877,26 @@
       "walkingFrames": 4,
       "startingWeapon": "TP_ENERGY2",
       "bgm": "BGM_TP_cod_EneomausMachineTower",
-      "maxHp":      150,
-      "armor":      2,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "price":      16650,
+      "maxHp": 150,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -8132,7 +7944,7 @@
   ],
   "TP_CARMILLA": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "unlocked": false,
       "level": 1,
@@ -8145,29 +7957,28 @@
       "spriteName": "TP_Carmilla_i01.png",
       "walkingFrames": 5,
       "startingWeapon": "VOID",
-
-      "maxHp":      200,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.8,
-      "power":      1.2,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   1,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 200,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -8199,8 +8010,7 @@
         "AMOUNT",
         "AMOUNT"
       ],
-      "exWeapons": [
-      ],
+      "exWeapons": [],
       "hiddenWeapons": [
         "TP_DOMINUS2"
       ]
@@ -8224,7 +8034,7 @@
   ],
   "TP_OLROX": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "unlocked": false,
       "level": 1,
@@ -8242,29 +8052,28 @@
         "y": 32
       },
       "bgm": "BGM_TP_sotn_DanceOfPales",
-
-      "maxHp":      150,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1.2,
-      "area":       1,
-      "speed":      1,
-      "duration":   1.2,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   1,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 150,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "duration": 1.2,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -8304,10 +8113,8 @@
         "AMOUNT",
         "AMOUNT"
       ],
-      "exWeapons": [
-      ],
-      "hiddenWeapons": [
-      ]
+      "exWeapons": [],
+      "hiddenWeapons": []
     },
     {
       "level": 20,
@@ -8326,10 +8133,9 @@
       "growth": -1
     }
   ],
-  
   "TP_CAVETROLL": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "startingWeapon": "TP_NEUTRON_WEAPON",
@@ -8441,7 +8247,7 @@
   ],
   "TP_FLEAMAN": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "startingWeapon": "VOID",
@@ -8515,7 +8321,7 @@
   ],
   "TP_AXEARMOR": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -8527,7 +8333,6 @@
       "spriteName": "TP_AxeArmor_i01.png",
       "walkingFrames": 4,
       "startingWeapon": "AXE",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -8558,7 +8363,6 @@
           }
         }
       ],
-
       "maxHp": 110,
       "armor": 0,
       "regen": 0,
@@ -8662,7 +8466,7 @@
   ],
   "TP_FROZENSHADE": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "secret": false,
       "isBought": false,
@@ -8695,25 +8499,25 @@
       "price": 500,
       "completedStages": [],
       "survivedMinutes": 0,
-      "maxHp":      100,
-      "armor":      2,
-      "regen":      0,
-      "moveSpeed":  1.2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "showcase": [
         "MOVESPEED",
         "MOVESPEED",
@@ -8751,10 +8555,9 @@
       "growth": -1
     }
   ],
-
   "TP_SUCCUBUS": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "secret": false,
       "isBought": false,
@@ -8768,28 +8571,28 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "tp_psuccubus.png",
-      "price":      16650,
+      "price": 16650,
       "completedStages": [],
       "survivedMinutes": 0,
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1.8,
-      "power":      1,
-      "cooldown":   0.9,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "cooldown": 0.9,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "showcase": [
         "MOVESPEED",
         "MOVESPEED",
@@ -8829,7 +8632,7 @@
   ],
   "TP_KEREMET": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -8843,28 +8646,26 @@
       "startingWeapon": "TP_ACID2",
       "charSelTexture": "character_tp_keremet",
       "charSelFrame": "TP_Keremet_Select.png",
-      
-      "maxHp":      100,
-      "armor":      20,
-      "regen":      2,
-      "moveSpeed":  0,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "price":      16650,
-      
+      "maxHp": 100,
+      "armor": 20,
+      "regen": 2,
+      "moveSpeed": 0,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -8941,7 +8742,7 @@
   ],
   "TP_SNIPER": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "unlocked": false,
       "noHurt": true,
@@ -8961,29 +8762,28 @@
         "x": 36,
         "y": 76
       },
-
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1.8,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       2,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 2,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9018,10 +8818,8 @@
       "onEveryLevelUp": {
         "luck": 0.01
       },
-      "exWeapons": [
-      ],
-      "hiddenWeapons": [
-      ]
+      "exWeapons": [],
+      "hiddenWeapons": []
     },
     {
       "level": 20,
@@ -9042,7 +8840,7 @@
   ],
   "TP_BLACKMORE": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "unlocked": false,
       "level": 1,
@@ -9055,29 +8853,28 @@
       "spriteName": "TP_Blackmore_Conductor_i01.png",
       "walkingFrames": 5,
       "startingWeapon": "TP_SUMMON_SPIRIT",
-
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1.4,
-      "power":      1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1.4,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1.4,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9117,10 +8914,8 @@
         "AMOUNT",
         "AMOUNT"
       ],
-      "exWeapons": [
-      ],
-      "hiddenWeapons": [
-      ]
+      "exWeapons": [],
+      "hiddenWeapons": []
     },
     {
       "level": 20,
@@ -9139,10 +8934,9 @@
       "growth": -1
     }
   ],
-  
   "TP_MALPHAS": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "unlocked": false,
       "level": 1,
@@ -9162,29 +8956,28 @@
         "y": 112
       },
       "bgm": "BGM_TP_sotn_FestivalOfServants",
-
-      "maxHp":      100,
-      "armor":      1,
-      "regen":      0,
-      "moveSpeed":  1.8,
-      "power":      1.2,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 100,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9216,8 +9009,7 @@
         "AMOUNT",
         "AMOUNT"
       ],
-      "exWeapons": [
-      ],
+      "exWeapons": [],
       "hiddenWeapons": [
         "THOUSAND",
         "TP_ELEC2"
@@ -9242,7 +9034,7 @@
   ],
   "TP_DEATH": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -9255,7 +9047,6 @@
       "walkingFrames": 5,
       "startingWeapon": "SCYTHE",
       "bgm": "BGM_TP_hod_DanceOfIllusions",
-
       "bodyOffset": {
         "x": 17,
         "y": 29
@@ -9279,7 +9070,7 @@
       "rerolls": 0,
       "skips": 0,
       "banish": 0,
-      "price":      16650,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9332,7 +9123,7 @@
   ],
   "TP_GALAMOTH": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -9347,27 +9138,27 @@
       "charSelFrame": "TP_Galamoth_Select.png",
       "bgm": "BGM_TP_sotn_FestivalOfServants",
       "scale": 2,
-      "maxHp":      256,
-      "armor":      2,
-      "regen":      0,
-      "moveSpeed":  1,
-      "power":      2,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   1,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "cooldown":   1,
-      "shields":    0,
-      "price":      16650,
+      "maxHp": 256,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9414,7 +9205,7 @@
   ],
   "TP_ELIZABETH_MEGA": [
     {
-      "requiresRelic" : "TP_RELIC_STONES",
+      "requiresRelic": "TP_RELIC_STONES",
       "hidden": true,
       "level": 1,
       "prefix": "Megalo",
@@ -9433,7 +9224,6 @@
         "x": 54,
         "y": 76
       },
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -9452,7 +9242,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_ELIZABETH_MED_DB",
           "name": "SKIN_TP_ELIZABETH_MED_DB",
           "textureName": "character_tp_elizabeth",
@@ -9469,29 +9259,28 @@
           ]
         }
       ],
-
       "maxHp": 400,
       "armor": 2,
       "regen": 0,
-      "moveSpeed":  1.5,
-      "power":      3.5,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   0.8,
-      "shields":    0,
-      "charm":      50,
-      "price":      16650,
+      "moveSpeed": 1.5,
+      "power": 3.5,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 0.8,
+      "shields": 0,
+      "charm": 50,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9549,27 +9338,23 @@
       "growth": -1
     }
   ],
-
   "TP_OLROX_MEGA": [
     {
-      "requiresRelic" : "TP_RELIC_STONES",
+      "requiresRelic": "TP_RELIC_STONES",
       "hidden": true,
       "level": 1,
       "prefix": "Megalo",
       "charName": "Olrox",
       "surname": "",
       "description": ".",
-
       "portraitName": "tp_olrox.png",
       "textureName": "character_tp_olrox",
       "spriteName": "TP_Olrox_i01.png",
       "walkingFrames": 4,
-      
       "charSelTexture": "character_tp_olrox",
       "charSelFrame": "TP_Olrox_Select.png",
       "startingWeapon": "TP_DARKRIFT",
       "bgm": "BGM_TP_sotn_FestivalOfServants",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -9588,7 +9373,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_OLROX_MED_DB",
           "name": "SKIN_TP_OLROX_MED_DB",
           "textureName": "character_tp_olrox",
@@ -9605,33 +9390,32 @@
           ]
         }
       ],
-      
       "bodyOffset": {
         "x": 17,
         "y": 29
       },
-      "maxHp":      400,
-      "armor":      2,
-      "regen":      0,
-      "moveSpeed":  1.5,
-      "power":      3.5,
-      "area":       1,
-      "speed":      1,
-      "duration":   1.2,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   0.8,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 400,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 1.5,
+      "power": 3.5,
+      "area": 1,
+      "speed": 1,
+      "duration": 1.2,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 0.8,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9664,7 +9448,7 @@
         "AMOUNT"
       ],
       "exWeapons": [],
-      "hiddenWeapons" :[      ]
+      "hiddenWeapons": []
     },
     {
       "level": 20,
@@ -9685,7 +9469,7 @@
   ],
   "TP_DEATH_MEGA": [
     {
-      "requiresRelic" : "TP_RELIC_STONES",
+      "requiresRelic": "TP_RELIC_STONES",
       "hidden": true,
       "level": 1,
       "prefix": "Megalo",
@@ -9700,7 +9484,6 @@
       "charSelTexture": "character_tp_death",
       "charSelFrame": "TP_Death_Select.png",
       "bgm": "BGM_TP_hod_DanceOfIllusions",
-      
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -9719,7 +9502,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_DEATH_MED_DB",
           "name": "SKIN_TP_DEATH_MED_DB",
           "textureName": "character_tp_death",
@@ -9740,28 +9523,28 @@
         "x": 17,
         "y": 29
       },
-      "maxHp":      400,
-      "armor":      2,
-      "regen":      0,
-      "moveSpeed":  2,
-      "power":      3.5,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   0.8,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 400,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 2,
+      "power": 3.5,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 0.8,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9794,7 +9577,7 @@
         "AMOUNT"
       ],
       "exWeapons": [],
-      "hiddenWeapons" :[      ]
+      "hiddenWeapons": []
     },
     {
       "level": 20,
@@ -9815,7 +9598,7 @@
   ],
   "TP_DRACULA_MEGA": [
     {
-      "requiresRelic" : "TP_RELIC_STONES",
+      "requiresRelic": "TP_RELIC_STONES",
       "hidden": true,
       "level": 1,
       "prefix": "Megalo",
@@ -9827,11 +9610,9 @@
       "spriteName": "TP_Dracula_i01.png",
       "walkingFrames": 6,
       "bgm": "BGM_TP_sotn_DanceOfIllusions",
-      
       "startingWeapon": "TP_WINEGLASS1",
       "charSelTexture": "character_tp_dracula",
       "charSelFrame": "TP_MDracula_Select.png",
-
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -9850,7 +9631,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DOMINUS3",
+          "startingWeapon": "TP_DOMINUS3",
           "skinType": "SKIN_TP_DRACULA_MED_DOM",
           "name": "SKIN_TP_DRACULA_MED_DOM",
           "textureName": "character_tp_dracula",
@@ -9871,7 +9652,7 @@
           ]
         },
         {
-          "startingWeapon" : "TP_DIABOLOGUE",
+          "startingWeapon": "TP_DIABOLOGUE",
           "skinType": "SKIN_TP_DRACULA_MED_DB",
           "name": "SKIN_TP_DRACULA_MED_DB",
           "textureName": "character_tp_dracula",
@@ -9888,33 +9669,32 @@
           ]
         }
       ],
-
       "bodyOffset": {
         "x": 17,
         "y": 29
       },
-      "maxHp":      666,
-      "armor":      2,
-      "regen":      0,
-      "moveSpeed":  1.5,
-      "power":      3.5,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      2,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    10,
-      "skips":      10,
-      "banish":     10,
-      "cooldown":   0.8,
-      "shields":    0,
-      "charm":      0,
-      "price":      16650,
+      "maxHp": 666,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 1.5,
+      "power": 3.5,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 0.8,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
       "showcase": [
@@ -9947,11 +9727,7 @@
         "AMOUNT"
       ],
       "exWeapons": [],
-      "hiddenWeapons" :[      ],
-      "onEveryLevelUp": {
-        "power": 0.01,
-        "revivals": 0.01
-      }
+      "hiddenWeapons": []
     },
     {
       "level": 20,
@@ -9972,7 +9748,7 @@
   ],
   "TP_CHAOS": [
     {
-      "requiresRelic" : "TP_RELIC_PILEOFSECRETS",
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
       "hidden": true,
       "level": 1,
       "prefix": "",
@@ -10047,7 +9823,6 @@
       "growth": -1
     }
   ],
-  
   "TP_FOLLOWER_UKOBAK": [
     {
       "alwaysHidden": true,
@@ -10061,37 +9836,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_Follower_Ukoback_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      0.65,
-      "speed":      1,
-      "area":       0.75,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 0.65,
+      "speed": 1,
+      "area": 0.75,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_SAVROG_WEAPON",
@@ -10159,37 +9927,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_Follower_Bitterfly_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       0.5,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 0.5,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "GARLIC",
@@ -10267,37 +10028,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_Follower_Ghost_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      0.5,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   4,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 0.5,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 4,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_SUMMON_SPIRIT",
@@ -10365,37 +10119,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_Follower_Imp_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      0.5,
-      "speed":      1,
-      "area":       0.5,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 0.5,
+      "speed": 1,
+      "area": 0.5,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_CHAUVE1",
@@ -10463,37 +10210,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_WoodRod_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 2,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      0.5,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 0.5,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "MOVESPEED",
@@ -10554,37 +10294,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_Faerie_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 2,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      1,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      0.5,
-      "speed":      1,
-      "area":       0.65,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 1,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 0.5,
+      "speed": 1,
+      "area": 0.65,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_HOLY1",
@@ -10654,37 +10387,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_Pumpkin_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 2,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      0.5,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 0.5,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_BWAKA1",
@@ -10741,7 +10467,6 @@
       "growth": -1
     }
   ],
-
   "TP_FOLLOWER_CARDINAL": [
     {
       "alwaysHidden": true,
@@ -10755,37 +10480,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_CardinalSacredBeast_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_FIRE1",
@@ -10845,37 +10563,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_DragonSacredBeast_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_ELEC1",
@@ -10935,37 +10646,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_SacredtigerBeast_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_ICE1",
@@ -11025,37 +10729,30 @@
       "textureName": "ThosePeople",
       "spriteName": "TP_Turtle_Sacred_Beast_i01.png",
       "portraitName": "p_bats.png",
-
       "walkingFrames": 4,
       "description": "-",
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
-
-      "maxHp":      100,
-      "regen":      0,
-      "armor":      0,
-      "moveSpeed":  1.2,
-
-      "power":      1,
-      "speed":      1,
-      "area":       1,
-      "duration":   1,
-
-      "cooldown":   1,
-      "amount":     0,
-      "revivals":   0,
-      "magnet":     0,
-
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "price": 1665,
       "showcase": [
         "TP_EARTH1",

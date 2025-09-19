@@ -35,5 +35,18 @@
     "merchantInventoryItems": [
       "RELIC_EME_DISK"
     ]
+  },
+  "EX_GIOCARE": {
+    "merchantCharacter": "EX_GIOCARE",
+    "portraitSprite": "mercChula",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "secretino_i01.png",
+    "staticSpriteTexture": "character_chulareh",
+    "textLocKey": "adv_merc_GIOCARE",
+    "hideBackgroundParticles": true,
+    "hideBackgroundWindows": true,
+    "hideBackgroundMask": true,
+    "customCooldown": 7000,
+    "merchantInventoryItems": []
   }
 }

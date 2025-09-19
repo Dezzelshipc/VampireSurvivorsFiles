@@ -62,7 +62,7 @@
       "deathKB": 2,
       "xp": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "idleFrameCount": 4,
       "end": 27,
@@ -88,7 +88,7 @@
       "tint": 16764040,
       "alpha": 0.65,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "idleFrameCount": 4,
       "end": 27,
@@ -105,7 +105,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -135,7 +135,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -321,7 +321,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.1,
       "maxKnockback": 2,
@@ -410,7 +410,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 4,
       "killedAmount": 0,
@@ -433,7 +433,7 @@
       "maxKnockback": 0,
       "deathKB": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 10,
       "killedAmount": 0,
@@ -452,7 +452,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -474,7 +474,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -498,7 +498,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -521,7 +521,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -544,7 +544,7 @@
       "speed": 200,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -623,7 +623,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 0,
@@ -654,7 +654,7 @@
       "speed": 200,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -678,7 +678,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -703,7 +703,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -728,7 +728,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -755,7 +755,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -782,7 +782,7 @@
       "speed": 40,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.01,
       "maxKnockback": 1,
@@ -827,8 +827,8 @@
       "xp": 0,
       "tint": 16711680,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "idleFrameCount": 4,
@@ -847,7 +847,7 @@
       "speed": 190,
       "power": 25,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -880,7 +880,7 @@
       "speed": 190,
       "power": 25,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -921,7 +921,7 @@
       "speed": 0,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -950,7 +950,7 @@
       "speed": 0,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -1003,7 +1003,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.1,
       "maxKnockback": 2,
@@ -1026,7 +1026,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.1,
       "maxKnockback": 2,

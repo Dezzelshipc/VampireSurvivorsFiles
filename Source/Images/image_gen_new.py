@@ -129,14 +129,18 @@ class ImageGeneratorManager:
                 return None
             case DataType.ADVENTURE_MERCHANTS:
                 return AdvMerchantsGenerator
+            case DataType.ADVENTURE_STAGE:
+                return AdventureStageImageGenerator
             case DataType.ADVENTURE_STAGE_SET:
-                return AdventureStageSetImageGenerator
+                return None
             case DataType.ALBUM:
                 return AlbumCoversGenerator
             case DataType.ARCANA:
                 return ArcanaImageGenerator
             case DataType.CHARACTER:
                 return CharacterImageGenerator
+            case DataType.CPU:
+                return CpuGenerator
             case DataType.CUSTOM_MERCHANTS:
                 return None
             case DataType.ENEMY:
@@ -404,6 +408,10 @@ class ArcanaImageGenerator(BaseImageGenerator):
             self.key_main_texture_name: "items",
             self.key_secondary_texture_name: entry.get(self.key_main_texture_name),
         })
+        if entry.get("arcanaType") > 100:
+            entry.update({
+                ADD_TO_PATH_ENTRY: "Characters"
+            })
         return entry
 
     def get_textures_set(self) -> set[str]:
@@ -541,6 +549,21 @@ class MusicIconsGenerator(BaseImageGenerator):
             ADD_TO_PATH_ENTRY: add_to_path
         })
         return entry
+
+
+class CpuGenerator(BaseImageGenerator):
+    _available_gens: list[GenType] = [GenType.IMAGE]
+
+    data_type: DataType = DataType.CPU
+    lang_type: LangType = LangType.PARTY
+
+    default_scale_factor = 1
+
+    save_image_prefix = "Cpu"
+
+    key_main_texture_name = "AIIconTexture"
+    key_sprite_name = "AIIconSprite"
+    key_entry_name = "name"
 
 
 class ListBaseImageGenerator(BaseImageGenerator):
@@ -775,20 +798,28 @@ class StageImageGenerator(ListBaseImageGenerator):
         )
 
 
-class AdventureStageSetImageGenerator(StageImageGenerator):
-    data_type: DataType = DataType.ADVENTURE_STAGE_SET
+class AdventureStageImageGenerator(StageImageGenerator):
+    data_type: DataType = DataType.ADVENTURE_STAGE
 
-    def _set_entries(self):
-        self.entries = [
-            self.get_unit_adv(key_id.strip(), entry.copy(), adv_id.strip())
-            for adv_id, adv_entry in self.data_file.data().items()
-            for key_id, entry in adv_entry.items()
-        ]
+    stage_set: DataFile = None
+    stage_to_stage_set: dict[str, str] | None = None
 
-    def get_unit_adv(self, key_id: str, entry: list[dict[str, Any]], adv_id: str) -> dict[str, Any]:
+    def __init__(self, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
+                 requested_gen_types: dict[GenType, int | bool]):
+        self.stage_set: DataFile | None = DataHandler.get_data(dlc_type, DataType.ADVENTURE_STAGE_SET)
+        self.stage_to_stage_set = {
+            stage: stage_set
+            for stage_set, stages in self.stage_set.data().items()
+            for stage in stages
+        }
+
+        super().__init__(dlc_type, data_type, requested_gen_types)
+
+
+    def get_unit(self, key_id: str, entry: list[dict[str, Any]]) -> dict[str, Any]:
         entry = super().get_unit(key_id, entry)
         entry.update({
-            ADD_TO_PATH_ENTRY: adv_id
+            ADD_TO_PATH_ENTRY: self.stage_to_stage_set[key_id],
         })
         return entry
 

@@ -1395,6 +1395,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Living Anguish",
       "bDesc": "Constantine, is this fate? Or just destiny? What lies Beyond, unknowable, but forced to threaten the Conjoined Worlds. Remember the forbidden lyrics, find your voice, give us one last song and dance."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "The Blinder",
+      "bDesc": "A Reaper that considers itself a true visionary. It’s able to cast a veil of darkness around any hero it lays an obsidian finger upon, but every time it turns up for a fight the battlefield is already so full of particles, colors, and special effects that nobody can see a damn thing anyway. It contents itself by watching those heroes desperately hunt for floor chickens amidst the colorful chaos."
     }
   },
   "fr": {
@@ -1996,7 +2000,7 @@
     },
     "FS_WORM": {
       "bName": "Ver de Lambton",
-      "bDesc": "Ces vers venimeux sortent de leur rivière pour se faufiler sur les bateaux des blasphémateurs et leur infliger un châtiment divin. Une fois à bord, ils déchaînent un torrent de prosélytisme virulent et jouent de la gratte acoustique."
+      "bDesc": "Ces vers venimeux sortent de leur rivière pour se faufiler sur les bateaux des blasphémateurs et leur infliger un châtiment divin. Une fois à bord, ils déchaînent un torrent de prosélytisme virulent et jouent de la gratte acoustique au nom de leur divinité. Ils n'ont pas converti grand monde au culte de la Mère entortillée, car ils tuent et mangent tous les adeptes potentiels."
     },
     "FS_SNAK1": {
       "bName": "Ssserpent",
@@ -2012,7 +2016,7 @@
     },
     "FS_MEATY": {
       "bName": "Followa",
-      "bDesc": "Un mage venu d'un royaume lointain trouvait que le visage froid de la Followa ressemblait à une grande érudite qui avait quitté sa tour. Il eut l'audace de converser avec la créature des heures durant. Personne n'osa intervenir, alors même que l'air nocturne se mettait à geler, tout comme le mage. Il aurait prononcé ceci avant que les larmes dans ses yeux ne se changent en glace : \"Elle est vivante, à l'intérieur\"."
+      "bDesc": "Un mage venu d'un royaume lointain trouvait que le visage froid de la Followa ressemblait à une grande érudite qui avait disparu. Il eut l'audace de converser avec la créature des heures durant. Personne n'osa intervenir, alors même que l'air nocturne se mettait à geler, tout comme le mage. Il aurait prononcé ceci avant que les larmes dans ses yeux ne se changent en glace : \"Elle est vivante, à l'intérieur\"."
     },
     "FS_EDNA": {
       "bName": "Edna",
@@ -2032,7 +2036,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Crocifriggitone",
-      "bDesc": "Cet ogre claironne à tout bout de champ qu'il est très séduisant. Ce n'est pas un mensonge, vu qu'il est dans le top des monstres les plus sexy du coin. Il a gagné trois fois d'affilée le concours de maillot de bain de l'Abîme Foscari, et c'est le mannequin le plus populaire sur OnlyFaune, une publication mensuelle créée par et pour les bêtes en rut. Les spécialistes des créatures atypiques ont étudié ce béhémoth désirable afin de comprendre pourquoi il est si convoité, mais les résultats de leurs recherches les ont conduits à la folie. Leurs textes fiévreux ne sont qu'une ode à la divinité lovecraftienne sinistre qu'on appelle Bi'Hainan-Cher."
+      "bDesc": "Cet ogre claironne à tout bout de champ qu'il est très séduisant. Ce n'est pas un mensonge, vu qu'il est dans le top des monstres les plus sexy du coin. Les spécialistes des créatures atypiques ont étudié ce béhémoth désirable afin de comprendre pourquoi il est si convoité, mais les résultats de leurs recherches les ont conduits à la folie. Leurs textes fiévreux ne sont qu'une ode à la divinité lovecraftienne sinistre qu'on appelle Bi'Hainan-Cher."
     },
     "FS_HORDUERG": {
       "bName": "Nainconnu au bataillon",
@@ -2631,7 +2635,7 @@
       "bDesc": "Jetez un œil à travers les côtes de ce squelette porteur de lance et vous verrez qu'il est totalement sans cœur, à moins que vous ne vous appeliez Gaibon. À l'origine, Slogra utilisait sa lance pour attaquer la nourriture à distance, avant que la Mort ne s'aperçoive de son potentiel en tant que chevalier combattant."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Peinture de Brauner",
+      "bName": "Peinture ensanglantée",
       "bDesc": "Les critiques ont qualifié la série d'autoportraits de Brauner de « dérive », « complaisante » et « qui empeste le sang »... Maintenant, ils veulent se venger en utilisant le peu de sorcellerie qui leur reste pour se jeter sur n'importe quel observateur et le matraquer jusqu'à leur mort."
     },
     "TP_BOSS_GAIBON": {
@@ -2793,6 +2797,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Tourment vivant",
       "bDesc": "Constantine, est-ce le destin ? Une force méconnue se trouve dans l'au-delà, mais elle est forcée de menacer les mondes conjoints. Souviens-toi des paroles interdites, trouve ta voix, fais-nous don d'une dernière chanson et d'une dernière danse."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "Fauche-Vue",
+      "bDesc": "Cette Faucheuse, capable de jeter un voile obscur sur les héros qu'elle touche, se considère comme une vraie visionnaire. Le problème, c'est que lorsqu'elle fait irruption sur le champ de bataille, les innombrables particules, couleurs et effets spéciaux empêchent déjà de voir quoi que ce soit."
     }
   },
   "it": {
@@ -3394,7 +3402,7 @@
     },
     "FS_WORM": {
       "bName": "Saltamessa",
-      "bDesc": "Dei vermi velenosi che strisciano dalle loro dimore fluviali fino alle imbarcazioni dei blasfemi, come punizione divina. Una volta a bordo, riversano sui malcapitati fiumi di spietato proselitismo e riff di chitarra elettrica."
+      "bDesc": "Dei vermi velenosi che strisciano dalle loro tane fluviali fino alle imbarcazioni dei blasfemi, come punizione divina. Una volta a bordo, riversano una cascata di spietato proselitismo e riff di chitarra elettrica nel nome della loro dea. Per ora questo approccio non si è rivelato particolarmente efficace dato che finiscono per uccidere e divorare ogni potenziale nuovo devoto della loro Madre Contorta."
     },
     "FS_SNAK1": {
       "bName": "Biscio",
@@ -3410,7 +3418,7 @@
     },
     "FS_MEATY": {
       "bName": "Followa",
-      "bDesc": "Un mago da un regno distante giurava che il suo volto somigliasse a quello dell'insuperabile luminare che un giorno abbandonò la sua torre. Audacemente, questi osò parlare con questa creatura, e così fece per ore. Nessuno osò intervenire, neanche quando l'aria notturna si fece gelida, congelando a sua volta l'ormai pietrificato mago. Si dice ch'egli abbia mormorato un'ultima frase, mentre le lacrime agli angoli dei suoi occhi si tramutavano in ghiaccio: \"È viva, lì\"."
+      "bDesc": "Un mago da un regno lontano giurava che il suo volto somigliasse a quello dell'insuperabile luminare che un giorno abbandonò la sua torre e scomparve senza lasciare traccia. Audacemente, questi osò parlare con questa creatura, e così fece per ore. Nessuno osò intervenire, neanche quando l'aria notturna si fece gelida, congelando a sua volta l'ormai paralizzato mago. I testimoni giurano ch'egli abbia mormorato un'ultima frase, mentre le lacrime agli angoli dei suoi occhi si tramutavano in ghiaccio: \"È viva, lì\"."
     },
     "FS_EDNA": {
       "bName": "Edna",
@@ -3430,7 +3438,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Crocifriggitone",
-      "bDesc": "Un orco che ripete allo sfinimento quanto sia un bel manzo ganzo. Non si può dire che abbia torto, a giudicare dalla sua reputazione di bestia tra le più sexy del circondario. Ha vinto la gara annuale in costume da bagno dell'Abisso Foscari per tre anni di fila, ed è di gran lunga il modello più apprezzato su OrcheSporche, un periodico mensile creato da e per mostri insaziabili. Gli studiosi più esperti nello studio dell'etologia delle creature aberranti hanno passato anni domandandosi cosa renda così ambito questo agognato colosso, ma tale inaccessibile conoscenza non ha fatto altro che portarli sull'orlo della pazzia. I loro febbrili testi sono poco più che insensibili mantra pieni di riferimenti a una misteriosa divinità chiamata Kuartho Dibhue."
+      "bDesc": "Un orco che ripete allo sfinimento quanto sia un bel manzo ganzo. Non si può dire che abbia torto, a giudicare dalla sua reputazione di bestia tra le più sexy del circondario. Gli studiosi più esperti nello studio dell'etologia delle creature aberranti hanno passato anni domandandosi cosa renda così desiderato questo agognato colosso, ma tale inaccessibile conoscenza non ha fatto altro che portarli sull'orlo della pazzia. I loro febbrili testi sono poco più che insensibili mantra pieni di riferimenti a una misteriosa divinità chiamata Kuartho Dibhue."
     },
     "FS_HORDUERG": {
       "bName": "Ancora Unbelniente",
@@ -4029,7 +4037,7 @@
       "bDesc": "Sbircia tra le costole di questo scheletrico lanciere e noterai la sua totale assenza di cuore, a meno che il tuo nome non sia Gaibon. In origine, Slogra utilizzava la sua lancia per infilzare il cibo da distanza, prima che la Morte scorgesse il suo potenziale come cavaliere combattente."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Ritratto di Brauner",
+      "bName": "Ritratto insanguinato",
       "bDesc": "I critici hanno descritto la serie di autoritratti di Brauner come \"derivativa\", \"indulgente con se stessa\" e \"fetida di sangue\". Ora Brauner reclama la sua vendetta, sfruttando quel briciolo di stregoneria che gli resta per scagliarsi contro chicchessia e massacrarlo."
     },
     "TP_BOSS_GAIBON": {
@@ -4191,6 +4199,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Tormento vivente",
       "bDesc": "Constantine, è forse il fato? O il mero destino? Ciò che giace nell'Oltre, ignoto, ma costretto a minacciare i Mondi Congiunti. Ricorda il testo proibito, trova la tua voce, lasciaci un'ultima canzone e danza."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "L'Accecatore",
+      "bDesc": "Un Mietitore che si considera un vero visionario. È in grado di far piombare un velo di oscurità su qualunque eroe, al semplice tocco del suo dito d'ossidiana. Tuttavia, ogni volta che incappa in un combattimento, il campo di battaglia è talmente pieno di particelle, colori ed effetti speciali che nessuno riesce comunque a vedere un accidente."
     }
   },
   "de": {
@@ -4792,7 +4804,7 @@
     },
     "FS_WORM": {
       "bName": "Kirchenverweigerer",
-      "bDesc": "Giftwürmer, die sich aus ihren Behausungen in Flüssen auf Boote von Gotteslästernden winden, als göttliche Strafe. Einmal an Bord gelangt, entfesseln sie unbarmherzige Angriffe, eine Kombination aus Missionierung und Akustische-Gitarre-„Musik“."
+      "bDesc": "Giftwürmer, die sich aus ihren Behausungen in Flüssen auf Boote von Gotteslästernden winden, als göttliche Strafe. Einmal an Bord gelangt, entfesseln sie unbarmherzige Angriffe, eine Kombination aus Missionierung und Akustische-Gitarre-„Musik“. Allerdings haben sie so Mutter Gewürm noch nicht viele neue Anhänger eingebracht, da sie aussichtsreiche neue Gläubige unweigerlich töten und fressen."
     },
     "FS_SNAK1": {
       "bName": "Slange",
@@ -4808,7 +4820,7 @@
     },
     "FS_MEATY": {
       "bName": "Eisiger Fleischklops",
-      "bDesc": "Ein Magier aus einem weit, weit entfernten Reich schwor, „sein“ kaltes Antlitz gliche dem eines berühmten Gelehrten, der eines Tages seinen Turm verlassen hatte. Er fasste sich ein Herz und sprach die Kreatur an. Sie redeten stundenlang. Keiner wollte eingreifen, auch dann nicht, als es des Nachts bitterkalt wurde. So kalt, dass auch der Magier selbst einfror. Er soll einen letzten Satz gesagt haben, bevor seine Tränen zu Eis wurden: „Sie lebt.“"
+      "bDesc": "Ein Magier aus einem weit, weit entfernten Reich schwor, „ihr“ kaltes Antlitz gliche dem einer berühmten Gelehrten, die eines Tages ihren Turm verlassen hatte. Er fasste sich ein Herz und sprach die Kreatur an. Sie redeten stundenlang. Keiner wollte eingreifen, auch dann nicht, als es des Nachts bitterkalt wurde. So kalt, dass auch der Magier selbst einfror. Augenzeugen zufolge waren seine letzten Worte, bevor seine Tränen zu Eis wurden: „Sie lebt.“"
     },
     "FS_EDNA": {
       "bName": "Edna",
@@ -4828,7 +4840,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Crocifriggitone",
-      "bDesc": "Ein Oger, der ständig auf seiner Attraktivität herumreitet. Gar nicht mal zu unrecht, er zählt schon zu den sexiesten Biestern da draußen. Er hat den Foscari-Abgrund-Badeanzugwettbewerb dreimal hintereinander abgeräumt und ist bei weitem die gefragteste Person bei OnlyFangs, ein von und für notgeile Monster gemachtes Monatsmagazin. Gelehrte, die mit der Biologie abnormaler Kreaturen befasst sind, haben Jahre damit verbracht, dieses begehrenswerte Ungetüm zu studieren, um die Frage zu klären, warum es so verflixt heiß ist. Doch dieses verbotene Wissen hat sie eindeutig von den Klippen der Vernunft gestoßen. Ihre Kritzeleien sind kaum mehr als sinnfreie Mantras, viele nehmen Bezug auf eine schauerliche Gottheit namens DummiDoof."
+      "bDesc": "Ein Oger, der ständig auf seiner Attraktivität herumreitet. Gar nicht mal zu Unrecht, er zählt schon zu den sexysten Biestern da draußen. Gelehrte, die mit der Biologie abnormaler Kreaturen befasst sind, haben Jahre damit verbracht, dieses begehrenswerte Ungetüm zu studieren, um die Frage zu klären, warum es so verflixt heiß ist. Doch dieses verbotene Wissen hat sie eindeutig von den Klippen der Vernunft gestoßen. Ihre Kritzeleien sind kaum mehr als sinnfreie Mantras, viele nehmen Bezug auf eine schauerliche Gottheit namens DummiDoof."
     },
     "FS_HORDUERG": {
       "bName": "Noch immer Nichtadam",
@@ -5427,7 +5439,7 @@
       "bDesc": "Ein Blick durch die Rippen eines Skelett-Speerträgers genügt, und man erkennt, dass sie völlig herzlos sind, es sei denn, er heißt Gaibon. Slogra benutzten ihren Speer ursprünglich, um Nahrung zu erbeuten, ehe der Tod ihr Potenzial als Kampfritter erkannte."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Brauners Gemälde",
+      "bName": "Blutiges Gemälde",
       "bDesc": "Kritiker haben Brauners Serie von Selbstporträts als „abgekupfert“, „selbstverliebt“ und „nach Blut stinkend“ verschrien. Jetzt sinnen sie auf Rache und nutzen die wenigen magischen Kräfte, die ihnen noch geblieben sind, um sich auf jeden Betrachter zu stürzen und ihn zu Tode zu prügeln."
     },
     "TP_BOSS_GAIBON": {
@@ -5589,6 +5601,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Lebende Qual",
       "bDesc": "Constantine, ist das Schicksal? Oder nur Bestimmung? Was Jenseits liegt ist unerkennbar, aber gezwungen, die verbundenen Welten zu bedrohen. Erinnere dich an die verbotenen Texte, finde deine Stimme, gib uns ein letztes Lied und einen letzten Tanz."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "Der Blender",
+      "bDesc": "Ein Schnitter, der sich für einen wahren Visionär hält. Er kann Helden per Obsidian-Fingerzeig mit einem Dunkelschleier belegen. Allerdings ist das Schlachtfeld eigentlich immer so knallvoll mit Partikeln, Farben und Spezialeffekten, dass man eh schon nichts mehr sieht, wenn er dort aufkreuzt."
     }
   },
   "es": {
@@ -6190,7 +6206,7 @@
     },
     "FS_WORM": {
       "bName": "Saltarse la misa",
-      "bDesc": "Son gusanos venenosos que reptan desde sus moradas fluviales hasta los barcos de los blasfemos como castigo divino. Una vez a bordo, desatan un torrente de proselitismo y música religiosa con acompañamiento de guitarra."
+      "bDesc": "Son gusanos venenosos que se deslizan desde sus moradas fluviales hasta los barcos de los blasfemos para cumplir con su intervención divina. Ya en la cubierta, desatan un torrente de proselitismo y música religiosa con acompañamiento de guitarra en nombre de su diosa. No han tenido mucha suerte ganando conversos para la Gran Reptadora de esta forma, ya que siempre acaban cargándose y comiéndose a todos los posibles devotos a bordo."
     },
     "FS_SNAK1": {
       "bName": "Serpente",
@@ -6206,7 +6222,7 @@
     },
     "FS_MEATY": {
       "bName": "Followa",
-      "bDesc": "Un mago de un reino lejano estaba convencido de que su cara le recordaba a alquien que había estado en su torre hacía tiempo. Tuvo el coraje suficiente para hablar con la criatura y lo hizo durante horas. Nadie se atrevió a interrumpirlos, ni siquiera cuando el aire de la noche se heló y el mago, absorto, se congeló con él. Dicen que murmuró algo justo antes de que sus lágrimas se convirtieran en hielo: «Sigue con vida»."
+      "bDesc": "Un mago de un reino lejano estaba convencido de que su cara le recordaba a alguien que dejó su torre y desapareció sin dejar rastro. Tuvo el coraje suficiente para hablar con la criatura y lo hizo durante horas. Nadie se atrevió a interrumpirlos, ni siquiera cuando el aire de la noche se heló y el mago, absorto, se congeló con él. Quienes fueron testigos dicen que murmuró algo justo antes de que sus lágrimas se convirtieran en hielo: «Sigue con vida»."
     },
     "FS_EDNA": {
       "bName": "Edna",
@@ -6226,7 +6242,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Crocifriggitone",
-      "bDesc": "Un ogro que no para de dar la nota presumiendo de lo bueno que está. La verdad es que no miente, es un sex symbol entre los monstruos del lugar. Ha ganado el título de Míster Abismo Foscari en bañador tres años seguidos y es el modelo más popular de OnlyFangs, una revista creada por y para las criaturas más sexis. Los eruditos más especializados en biología de seres aberrantes llevan años estudiando a este mastodonte para intentar comprender qué causa tanta lascivia, pero no hay duda de que este conocimiento prohibido les ha hecho perder la cordura. Sus escritos delirantes no son más que un sinsentido de mantras repleto de referencias a un dios terrorífico llamado Xhul'Azo."
+      "bDesc": "Un ogro que no para de dar la nota presumiendo de lo bueno que está. La verdad es que no miente, es un sex symbol entre los monstruos del lugar. Los eruditos más especializados en biología de seres aberrantes llevan años estudiando a este mastodonte para intentar comprender qué causa tanta lascivia, pero no hay duda de que este conocimiento prohibido les ha hecho perder la cordura. Sus escritos delirantes no son más que un sinsentido de mantras repleto de referencias a un dios terrorífico llamado Xhul'Azo."
     },
     "FS_HORDUERG": {
       "bName": "Melasiguesu Dando",
@@ -6825,7 +6841,7 @@
       "bDesc": "Si miras a través de las costillas de este lancero esquelético, verás que no tiene corazón. Bueno, eso si no te llamas Gaibon. Slogra solía usar su lanza para llegar a la comida que tenía lejos, pero Muerte vio su potencial como caballero de combate."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Cuadro de Brauner",
+      "bName": "Cuadro sangriento",
       "bDesc": "Los críticos afirman que la serie de retratos de Brauner «es poco original, autocomplaciente y apesta a sangre». Ahora estos retratos quieren venganza y aprovechan la poca magia de la que aún están imbuidos para lanzarse sobre cualquiera que los esté mirando y matarlo a golpes."
     },
     "TP_BOSS_GAIBON": {
@@ -6987,6 +7003,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Angustia viviente",
       "bDesc": "Constantine, ¿es suerte o solo destino? Lo que yace más allá, desconocido, pero forzado a amenazar los Mundos Unidos. Recuerda las letras prohibidas, busca tu voz, danos una última canción y baila."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "La Cegadora",
+      "bDesc": "Una Muerte que se considera una visionaria. Puede lanzar un velo de oscuridad alrededor de cualquier héroe a quien señale con su dedo de obsidiana, aunque, cada vez que aparece para luchar, el campo de batalla está tan lleno de colorines y cosas brillantes que tampoco es que pueda empeorar la visibilidad mucho más."
     }
   },
   "pt-BR": {
@@ -7588,7 +7608,7 @@
     },
     "FS_WORM": {
       "bName": "Missa Perdida",
-      "bDesc": "Vermes venenosos que se arrastam de suas tocas ribeirinhas em direção a barcos de blasfemadores como forma de punição divina. Já a bordo, lançam uma torrente impiedosa de proselitismo e fazem um luau com direito a violão."
+      "bDesc": "Vermes venenosos que se arrastam de seus covis ribeirinhos em direção a barcos de blasfemadores para conduzir a intervenção divina. Já a bordo, lançam uma torrente impiedosa de proselitismo e fazem um luau com direito a violão em nome de seu deus. Ainda não conseguiram angariar muitos convertidos para a Virgem Contorcida com esse método, já que sempre acabam matando e comendo os possíveis fiéis novos."
     },
     "FS_SNAK1": {
       "bName": "Codra",
@@ -7604,7 +7624,7 @@
     },
     "FS_MEATY": {
       "bName": "Seguidore",
-      "bDesc": "Um mago de um reino distante jurava que o rosto gelado de Seguidore lembrava o de uma grande sábia que, um dia, abandonou a torre do mago. Destemidamente, ele ousou conversar com a criatura e assim o fez por horas. Ninguém se atreveu a interferir, mesmo quando o ar noturno congelou e o mago, atônito, congelou junto. Dizem que ele balbuciou suas últimas palavras enquanto suas lágrimas viravam gelo: \"Ela está viva aí\"."
+      "bDesc": "Um mago de um reino distante jurava que o rosto gelado de Seguidore lembrava o de uma grande sábia que abandonou a própria torre e desapareceu sem deixar rastros. Destemidamente, ele ousou conversar com a criatura e assim o fez por horas. Ninguém se atreveu a interferir, mesmo quando o ar noturno congelou e o mago, atônito, congelou junto. Testemunhas dizem que ele balbuciou suas últimas palavras enquanto suas lágrimas viravam gelo: \"Ela está viva aí\"."
     },
     "FS_EDNA": {
       "bName": "Edna",
@@ -7624,7 +7644,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Crocifiggitone",
-      "bDesc": "Um ogro que está sempre falando sobre como ele é gostoso. Mas ninguém pode acusá-lo de ser mentiroso, dado o seu prestígio como uma das feras mais sensuais do pedaço. Ele venceu a Competição Anual de Traje de Banho do Abismo Foscari três anos seguidos e é, de longe, o modelo mais popular do OnlyCãs, uma publicação mensal criada por e para monstros safados. Os grandes estudiosos da biologia de criaturas anômalas passaram anos analisando esse desejado colosso a fim de compreender por que ele é tão cobiçado, mas esse conhecimento proibido os fez abrir mão da própria sanidade: produziram escritos alucinados que muito se assemelham a mantras inconscientes cheios de referências a um deus sobrenatural chamado Kipôp Pozão."
+      "bDesc": "Um ogro que está sempre falando sobre como ele é gostoso. Mas ninguém pode acusá-lo de ser mentiroso, dado o seu prestígio como uma das feras mais sensuais do pedaço. Os grandes estudiosos da biologia de criaturas anômalas passaram anos analisando esse desejado colosso a fim de compreender por que ele é tão cobiçado, mas esse conhecimento proibido os fez abrir mão da própria sanidade: eles produziram escritos alucinados que muito se assemelham a mantras inconscientes cheios de referências a um deus sobrenatural chamado Kipôp Pozão."
     },
     "FS_HORDUERG": {
       "bName": "Bulhufas",
@@ -8223,7 +8243,7 @@
       "bDesc": "Dê uma olhada nas costelas desse esqueleto lanceiro e você verá que ele é completamente desprovido de coração, a menos que seu nome seja Gaibon. Originalmente, antes de a Morte ver seu potencial como cavaleiro de combate, Slogra usava sua lança para apunhalar alimentos de longe."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Pintura de Brauner",
+      "bName": "Pintura Sangrenta",
       "bDesc": "Os críticos desmereceram a série de autorretratos de Brauner como \"derivativa\", \"autoindulgente\" e \"com um fedor de sangue\". Agora, elas buscam vingança, usando o pouco poder mágico que possuem para se atirar em qualquer observador e espancá-lo até a morte."
     },
     "TP_BOSS_GAIBON": {
@@ -8385,6 +8405,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Angústia Viva",
       "bDesc": "Constantine, isso é destino? Ou apenas acaso? O que jaz Além — incompreensível, porém forçado a ameaçar a União dos Mundos. Lembre-se da letra proibida. Encontre sua voz. Dê-nos uma última canção... e dance."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "O Cegante",
+      "bDesc": "Um ceifador que se considera um verdadeiro visionário. É capaz de conjurar um véu de escuridão ao redor de qualquer herói tocado por seu dedo negro. Mas, toda vez que ele aparece para lutar, a campo de batalha já está tão cheio de partículas, cores e efeitos especiais que ninguém consegue ver nada mesmo."
     }
   },
   "pl": {
@@ -8986,7 +9010,7 @@
     },
     "FS_WORM": {
       "bName": "Zaginiony kościół",
-      "bDesc": "Jadowite robaki, które wypełzają ze swych rzecznych kryjówek i odnajdują łodzie bluźnierców jako kara boska. Na pokładzie zaczynają bezlitośnie nawracać w akompaniamencie akustycznej muzyki gitarowej."
+      "bDesc": "Jadowite robaki, które wypełzają ze swych rzecznych kryjówek i odnajdują łodzie bluźnierców, by przeprowadzić boską interwencję. Na pokładzie rozpoczynają bezlitosne nawracanie w akompaniamencie akustycznej muzyki gitarowej w imię ich boga. Nie udało im się w ten sposób przysporzyć wielu nowych wyznawców Wijącej się Matce, ponieważ nieuchronnie zabijają i zjadają wszystkich potencjalnych nowych wyznawców."
     },
     "FS_SNAK1": {
       "bName": "Wonsz",
@@ -9002,7 +9026,7 @@
     },
     "FS_MEATY": {
       "bName": "Folloua",
-      "bDesc": "Mag z odległej krainy przysięgał, że jego zimna twarz przypominała wielkiego uczonego, który pewnego dnia porzucił swoją wieżę. Odważył się pomówić z istotą, a ich rozmowa trwała godzinami. Nikt nie odważył się im przerwać, nawet gdy nocne powietrze zamarzło, a mag, urzeczony, zamarzł wraz z nim. Podobno, gdy łzy w jego oczach zamieniały się w lód, jego ostatnie słowa brzmiały: „Jest tam żywa”."
+      "bDesc": "Mag z odległej krainy przysięgał, że jej zimna twarz przypominała wielką uczoną, która porzuciła swoją wieżę i zniknęła bez śladu. Odważył się pomówić z istotą, a ich rozmowa trwała godzinami. Nikt nie śmiał im przerywać, nawet gdy nocne powietrze zamarzło, a mag, urzeczony, zamarzł wraz z nim. Świadkowie mówią, że gdy łzy w jego oczach zamieniały się w lód, jego ostatnie słowa brzmiały: „Jest tam żywa”."
     },
     "FS_EDNA": {
       "bName": "Edna",
@@ -9022,7 +9046,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Crocifriggitone",
-      "bDesc": "Ogr, który zawsze przynudza o tym, jaki jest seksowny. Choć trzeba przyznać, że nie kłamie – cieszy się opinią jednej z najponętniejszych bestii w okolicy. Wygrał Coroczny Konkurs Kostiumów Kąpielowych Otchłani Foscari trzy lata z rzędu i jest zdecydowanie najpopularniejszym modelem OnlyFangs, miesięcznika stworzonego dla miłośników rogaczy. Uczeni specjalizujący się w biologii dziwacznych stworzeń spędzili lata, badając tego pożądanego potwora, by zrozumieć, czemu właściwie jest tak pociągający, jednak ta zakazana wiedza najwyraźniej wpędziła ich w obłęd. Ich rozgorączkowane notatki to niewiele więcej niż pozbawione sensu mantry pełne odniesień do przedwiecznego boga o imieniu Dad Bod."
+      "bDesc": "Ogr, który zawsze przynudza o tym, jaki jest seksowny. Choć trzeba przyznać, że nie kłamie – cieszy się opinią jednej z najponętniejszych bestii w okolicy. Uczeni specjalizujący się w biologii dziwacznych stworzeń spędzili lata, badając tego pożądanego potwora, by zrozumieć, czemu właściwie jest tak pociągający, jednak ta zakazana wiedza najwyraźniej wpędziła ich w obłęd. Ich rozgorączkowane notatki to niewiele więcej niż pozbawione sensu mantry pełne odniesień do przedwiecznego boga o imieniu Dummy Thicc."
     },
     "FS_HORDUERG": {
       "bName": "Wciąż nicanic",
@@ -9621,7 +9645,7 @@
       "bDesc": "Gdy zerkniesz przez żebra tego dzierżącego włócznię szkieletu, zobaczysz, że jest zupełnie pozbawiony serca, chyba że nazywasz się Gaibon. Slogry pierwotnie używały włóczni do pozyskiwania jedzenia, zanim Śmierć dostrzegła ich potencjał jako rycerzy bojowych."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Obraz Braunera",
+      "bName": "Krwawy obraz",
       "bDesc": "Krytycy potępili serię autoportretów Braunera jako „wtórne”, „pobłażliwe” i „cuchnące krwią”. Teraz pragną zemsty, wykorzystując niewielką czarodziejską moc, która wciąż w nich drzemie, by rzucić się na każdego obserwatora i zatłuc go na śmierć."
     },
     "TP_BOSS_GAIBON": {
@@ -9783,6 +9807,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Żyjąca udręka",
       "bDesc": "Constantine, czy to zrządzenie losu? A może przeznaczenie? Coś kryje się w Zaświecie, nieznane, ale zagrażające Połączonym światom. Zapamiętaj zakazane wersy, odnajdź swój głos, zaśpiewaj nam po raz ostatni i tańcz."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "Oślepiacz",
+      "bDesc": "Żniwiarz, który uważa się za prawdziwego wizjonera. Potrafi rzucić zasłonę ciemności na każdego bohatera, na którym położy swój obsydianowy palec. Jednak za każdym razem, gdy pojawia się na polu bitwy, jest ono tak pełne cząsteczek, kolorów i efektów specjalnych, że i tak nikt tego nie widzi."
     }
   },
   "ru": {
@@ -10384,7 +10412,7 @@
     },
     "FS_WORM": {
       "bName": "Пропавшая церковь",
-      "bDesc": "Ядовитые черви, выползающие из речных нор, чтобы обрушить на лодки и головы богохульников божественное правосудие в форме немилосердных проповедей и бардовских песен под гитару."
+      "bDesc": "Ядовитые черви, выползающие из речных нор, чтобы обрушить на лодки и головы богохульников божественное правосудие в форме немилосердных проповедей и бардовских песен под гитару. Пока что им не слишком удается насадить таким образом веру в Червивую Мать, поскольку в итоге они вечно не сдерживаются и поедают всех потенциальных новых адептов."
     },
     "FS_SNAK1": {
       "bName": "Змий",
@@ -10400,7 +10428,7 @@
     },
     "FS_MEATY": {
       "bName": "Мороженая фрикаделька",
-      "bDesc": "Маг из далеких земель клялся и божился, что холодное лицо этого монстра напоминало великую ученую, которая когда-то покинула свою башню. Маг дерзко завел с существом разговор и говорил не один час. Никто не решился его прервать, даже когда замерз ночной воздух, а с ним и сам маг. По слухам последнее, что он произнес, когда застывали стоящие в его глазах слезы: «Она там, и она еще жива»."
+      "bDesc": "Маг из далеких земель клялся и божился, что холодное лицо этого монстра напоминало великую ученую, которая когда-то покинула свою башню и исчезла без следа. Маг дерзко завел с существом разговор и говорил не один час. Никто не решился его прервать, даже когда замерз ночной воздух, а с ним и сам маг. По словам очевидцев, последнее, что он произнес, когда застывали стоящие в его глазах слезы: «Она там, и она еще жива»."
     },
     "FS_EDNA": {
       "bName": "Эдна",
@@ -10420,7 +10448,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Круцифриггитоне",
-      "bDesc": "Огр, которого хлебом не корми, только дай похвастаться как он горяч. И, в принципе, это даже не преувеличение: он правда один из сексуальнейших демонов, троекратный победитель конкурса красоты Бездны Фоскари и, безусловно, самая популярная модель из ОнлиБес — ежемесячного журнала от озабоченных монстров для озабоченных монстров. Специалисты по биологии девиантных существ годами изучали это чудовищное воплощение страсти, чтобы понять, почему по нему все так сохнут, но запретное знание явно свело их с ума. Оставшиеся горячечные письмена в основном представляют собой бессвязные мантры с кучей отсылок к хтоническому божеству по имени Вотэто Опа."
+      "bDesc": "Огр, которого хлебом не корми, только дай похвастаться как он горяч. И, в принципе, это даже не преувеличение: он правда один из сексуальнейших демонов. Специалисты по биологии девиантных существ годами изучали это чудовищное воплощение страсти, чтобы понять, почему по нему все так сохнут, но запретное знание явно свело их с ума. Оставшиеся горячечные письмена в основном представляют собой бессвязные мантры с кучей отсылок к хтоническому божеству по имени Вотэто Опа."
     },
     "FS_HORDUERG": {
       "bName": "Неподвижный Нотадам",
@@ -11019,7 +11047,7 @@
       "bDesc": "Если заглянуть под рёбра этому скелету-копьеносцу, можно увидеть, что там совершенно нет сердца (вот только Гайбон считает иначе). Изначально копьё служило шампуром для шашлыка, но Смерти удалось разглядеть в этом скелете потенциал."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Картина Бронера",
+      "bName": "Кровавая картина",
       "bDesc": "Серию автопортретов Бронера как только не ругали, называя то «неоригинальной», то «самодовольной», разок даже обругав за «нестерпимую вонь». Теперь он жаждет мести, используя те немногие силы, что ещё в нём остались, чтобы проучить каждого критикана."
     },
     "TP_BOSS_GAIBON": {
@@ -11181,6 +11209,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Боль",
       "bDesc": "Это судьба, Константин? Или всего лишь предназначение? Там, во Внемирье, неведомая угроза Объединённым мирам. Вспомни заветные слова, найди свой голос, подари нам последнюю песню и танец."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "Ослепитель",
+      "bDesc": "Жнец, считающий себя визионером. Способен окружить вуалью тьмы любых героев, которых коснется своим обсидиановым перстом. Но всякий раз, когда он хочет вступить в битву, поле боя настолько забито частицами, цветами и спецэффектами, что никто уже ничего не видит."
     }
   },
   "tr": {
@@ -11782,7 +11814,7 @@
     },
     "FS_WORM": {
       "bName": "Kiliseden Firar",
-      "bDesc": "İlahi ceza olarak nehirdeki barınaklarından kafirlerin teknelerine sızan zehirli solucanlar. Tekneye çıktıklarında, acımasızca kendi dinini yayar ve akustik gitar müziği selini üzerlerine salar."
+      "bDesc": "İlahi yargıyı dağıtmak için nehirdeki meskenlerinden kafirlerin teknelerine sızan zehirli solucanlar. Tekneye çıktıklarında, acımasızca kendi dinini yayar ve akustik gitar müziği selini tanrıları adına üzerlerine salarlar. Kıvranan Anne'nin ümmetine pek fazla kişi katamadılar, çünkü müstakbel yeni inananları istisnasız öldürüp yiyorlardı."
     },
     "FS_SNAK1": {
       "bName": "Yılan",
@@ -11798,7 +11830,7 @@
     },
     "FS_MEATY": {
       "bName": "Donmuş Köfte",
-      "bDesc": "Uzak bir diyardan bir büyücü, soğuk suratının günün birinde kulesini terk eden büyük bir bilgini andırdığına yemin etti. Cesurca yaratıkla konuşmaya cüret etti ve saatlerce konuştu. Gece hava ayaz olduğunda ve donakalmış büyücü de onunla birlikte buz kestiğinde bile kimse müdahale etmeye cesaret edemedi. Gözlerindeki yaşlar buza dönerken son bir söz söylediği söylenir: “Kendisi hayatta.”"
+      "bDesc": "Uzak bir diyardan bir büyücü, soğuk suratının kulesini terk edip iz bırakmadan kaybolan büyük bir bilgini andırdığına yemin etti. Cesurca yaratıkla konuşmaya cüret etti ve saatlerce konuştu. Gece hava ayaz olduğunda ve donakalmış büyücü de onunla birlikte buz kestiğinde bile kimse müdahale etmeye cesaret edemedi. Gözlerindeki yaşlar buza dönerken şahitlere göre son bir söz söylemiştir: “Kendisi hayatta.”"
     },
     "FS_EDNA": {
       "bName": "Edna",
@@ -11818,7 +11850,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "Crocifriggitone",
-      "bDesc": "Her zaman ne kadar ateşli olduğundan bahseden bir dev. Etraftaki en seksi canavarlardan biri olarak statüsü göz önüne alındığında, yalan söylediğini söyleyemem. Abyss Foscari Geleneksel Mayo Yarışmasını üç yıl üst üste kazandı. Azgın canavarlar için yine azgınlar tarafından oluşturulan aylık bir yayın olan OnlyFangs'ın açık ara en popüler modeli. Sapkın yaratıkların biyolojisi alanında uzman bilim adamları, tam olarak neden bu kadar şehvetle arzulandığını anlamak için bu çekici devi incelemeye yıllarını harcadılar, ancak bu tür yasaklanmış bilgiler onları şüphesiz deliliğe sürükledi. Onların ateşli yazıları, Dummy Thicc adlı tuhaf bir tanrıya göndermelerle dolu duyarsız hicivlerin bir tık üstüdür."
+      "bDesc": "Her zaman ne kadar ateşli olduğundan bahseden bir dev. Etraftaki en seksi canavarlardan biri olarak statüsü göz önüne alındığında, yalan söylediğini söyleyemem. Sapkın yaratıkların biyolojisi alanında uzman bilim adamları, tam olarak neden bu kadar şehvetle arzulandığını anlamak için bu çekici devi incelemeye yıllarını harcadılar, ancak bu tür yasaklanmış bilgiler onları şüphesiz deliliğe sürükledi. Onların ateşli yazıları, Dummy Thicc adlı tuhaf bir tanrıya göndermelerle dolu duyarsız hicivlerin bir tık üstüdür."
     },
     "FS_HORDUERG": {
       "bName": "Hâlâ Adamdeğil",
@@ -12417,7 +12449,7 @@
       "bDesc": "Bu iskelet mızrak kullanıcısının kaburgalarına baktığınızda tamamen kalpsiz olduklarını göreceksiniz, tabii adınız Gaibon değilse. Slogra, Ölüm onun bir savaş şövalyesi olma potansiyelini keşfetmeden önce mızrağını daha uzaktaki yiyeceklere saplamak için kullanıyordu."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Brauner'ın Tablosu",
+      "bName": "Kanlı Tablo",
       "bDesc": "Eleştirmenler Brauner'ın otoportre serisini \"taklit\", \"şımarık\" ve \"kan kokuyor\" diye yerden yere vurdular. Şimdi ise intikam peşindeler, içlerindeki az da olsa büyülü gücü kullanarak kendilerini gözlemcilerin üzerine fırlatıyor ve onları öldüresiye dövüyorlar."
     },
     "TP_BOSS_GAIBON": {
@@ -12579,6 +12611,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Yaşayan Izdırap",
       "bDesc": "Constantine, bu kader mi? Yoksa sadece alın yazısı mı? Ötesinde ne var, bilemezsin, ama Birleşik Dünyaları tehdit etmeye zorlanıyor. Yasak sözleri hatırla, dile gel, bizim için son bir kez şarkı söyleyip dans et."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "Köreden",
+      "bDesc": "Kendisini gerçek bir vizyoner olarak gören Ölüm Meleği. Obsidiyen parmağını değdirdiği tüm kahramanların etrafına bir karanlık perdesi atabilir, ancak ne zaman bir dövüş için sahaya çıksa, savaş alanı halihazırda o kadar çok parçacık, renk ve özel efektlerle doludur ki, zaten kimse en ufak bir şey göremez."
     }
   },
   "zh-CN": {
@@ -13180,7 +13216,7 @@
     },
     "FS_WORM": {
       "bName": "错过教堂虫",
-      "bDesc": "这种带毒的虫子会作为天罚， 从它们的河边住处潜入渎神者的船上。 一旦上船， 它们就会毫不留情地释放出一阵接一阵的传教声和吉他原声音乐。"
+      "bDesc": "这种带毒的虫子会从它们河边的巢穴潜入渎神者的船上来执行天罚。一旦上船，它们就会毫不留情地以神之名释放出一阵接一阵的传教声和吉他原声音乐。它们没能设法为蠕行之母赢得很多皈依者，因为它们无法阻止自己残杀并吃掉任何潜在的新信徒。"
     },
     "FS_SNAK1": {
       "bName": "虵",
@@ -13196,7 +13232,7 @@
     },
     "FS_MEATY": {
       "bName": "佛拉韦",
-      "bDesc": "一个来自遥远国度的法师发誓， 它冷若冰霜的脸就像之前一位曾抛弃了自己高塔的伟大学者。 他大胆地和这个生物交谈， 并这样做了几个小时。 没有人敢打扰他们， 甚至在夜里空气凝固的时候， 法师也跟着凝固了。 人们说， 当他眼中的泪水变成冰时， 他说出了最后一句话：“她在那里活了下去。 ”"
+      "bDesc": "一个来自遥远国度的法师发誓，它冷若冰霜的脸就像之前一位曾抛弃了自己的高塔并消失得无影无踪的伟大学者。他大胆地和这个生物交谈，并这样做了几个小时。没有人敢打扰他们，甚至在夜里空气凝固的时候，法师也跟着凝固了。目击者们说，当他眼中的泪水变成冰时，他说出了最后一句话：“她还活着。”"
     },
     "FS_EDNA": {
       "bName": "艾德纳",
@@ -13216,7 +13252,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "竖琴食人魔",
-      "bDesc": "一个食人魔， 总是喋喋不休地谈论它有多热辣。 想来也是， 因为它是这里最性感的珍兽之一。 它连续三年赢得了佛斯卡里深渊年度泳装比赛， 并且是迄今为止OnlyFangs网站上最受欢迎的模特， 这是一份为好色的怪物们创作的月刊读物。 深谙灵异生物学的学者们花了好些年时间研究这个令人垂涎的大块头， 想了解它为何如此受人追捧， 但此等禁忌的学识显然已经把他们逼到了理智的边缘。 他们狂热的写写画画只不过是在无意地模仿一位名为大美女的异神的祷文。"
+      "bDesc": "一个食人魔，总是喋喋不休地谈论它有多热辣。想来也是，因为它是这里最性感的珍兽之一。深谙灵异生物学的学者们花了好些年时间研究这个令人垂涎的大块头，想了解它为何如此受人追捧，但此等禁忌的学识显然已经把它们逼到了理智的边缘。他们狂热的写写画画只不过是在无意地模仿一位名为大美女的异神的祷文。"
     },
     "FS_HORDUERG": {
       "bName": "平静德鲁加",
@@ -13815,7 +13851,7 @@
       "bDesc": "这些骷髅手持长矛，透过他们的肋骨，你会看到他们完全没有心，除非你是飞骑士。枪骑士最初使用长矛捅刺远处的食物，直到被死神发掘出战斗的潜力。"
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "布劳尔的画",
+      "bName": "血腥绘画",
       "bDesc": "评论家们批评布劳尔的一系列自画像“缺乏特色”、“太过任性”且“散发着血腥味”。现在，这些自画像开始复仇，利用仅存的一点魔法力量扑向看画的人，将他们置于死地。"
     },
     "TP_BOSS_GAIBON": {
@@ -13977,6 +14013,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "活体苦恼",
       "bDesc": "康斯坦丁，命运是否早已写就？结局是否已成定数？在彼方的那个存在，不可知，却又威胁到连接世界。记住禁忌的歌词，找到你的声音，给我们唱最后一曲，跳最后一舞。"
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "禁视魇",
+      "bDesc": "一个自认为真正有远见的死神。 只要是被它漆黑的手指所触碰的英雄， 周身都将被一层黑暗的面纱所包围， 但当每次它出现在战斗中时， 战场上已经充满了各种粒子、 颜色和特效， 反正什么东西都已经看不清了。"
     }
   },
   "ja": {
@@ -14578,7 +14618,7 @@
     },
     "FS_WORM": {
       "bName": "ミッシン・チャーチ",
-      "bDesc": "猛毒を持つミミズで、 住処である川から神を冒涜する者の船に這い上がってくる。 乗り上げてきたら最後、 冒涜者は無慈悲な強制改宗とアコースティックギター音楽のダブルパンチを受けることになる。"
+      "bDesc": "猛毒を持つミミズで、住処である川から神を冒涜する者の船に這い上がってくる。乗り上げてきたら最後、冒涜者は無慈悲な強制改宗とアコースティックギター音楽のダブルパンチを受けることになる。しかし、彼らはどうしても新しい崇拝者を殺して食べてしまうので、この方法ではマザーワームのために改宗者を多く獲得することができなかったようだ。"
     },
     "FS_SNAK1": {
       "bName": "スネック",
@@ -14594,7 +14634,7 @@
     },
     "FS_MEATY": {
       "bName": "フォロワ",
-      "bDesc": "その冷たい顔は、 ある日塔を捨てた偉大な学者に似ていると、 遠い国の魔道士は語った。 彼は果敢にもその生物と会話をし、 何時間も言葉をかけ続けた。 やがて夜空が広がり、 極寒の中魔道士が凍りついても、 誰も手を出そうとしなかった。 一筋の涙が氷へと変わる瞬間に彼が最後に発した一言は、 「彼女はそこで生きている」だったそうだ。"
+      "bDesc": "その冷たい顔は、ある日塔を捨て行方不明となった偉大な学者に似ていると、遠い国の魔道士は語った。彼は果敢にもその生物と会話をし、何時間も言葉をかけ続けた。やがて夜空が広がり、極寒の中魔道士が凍りついても、誰も手を出そうとしなかった。目撃者たちによると、一筋の涙が氷へと変わる瞬間に彼が最後に発した一言は、「彼女はそこで生きている」だったそうだ。"
     },
     "FS_EDNA": {
       "bName": "エドナ",
@@ -14614,7 +14654,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "クロチフリッギトーレ",
-      "bDesc": "己のアツさをひたすらハープで表現するモンスター。 あれほどの情熱的な振る舞いを見れば、 最もセクシーな野獣の1体だと認められているのも頷ける。 実は、 「毎年恒例アビス・フォスカリ水着コンテスト」の3年連続優勝者なうえ、 モンスターのためのホットな月刊誌「OnlyFangs」の超人気モデルでもあるのだ。 異常生物の生態に詳しい学者たちは、 この巨体の危険な魅力について何年も研究してきたが、 その禁断の知識は明らかに彼らを正気の淵に追いやってしまった。 彼らの熱狂的な文章は、 ダミー・ムッチンという名の超自然神への言及に満ちた、 無分別なマントラに過ぎない。"
+      "bDesc": "己のアツさをひたすらハープで表現するモンスター。あれほどの情熱的な振る舞いを見れば、最もセクシーな野獣の1体だと認められているのも頷ける。異常生物の生態に詳しい学者たちは、この巨体の危険な魅力について何年も研究してきたが、その禁断の知識は明らかに彼らを正気の淵に追いやってしまった。彼らの熱狂的な文章は、ダミー・ムッチンという名の超自然神への言及に満ちた、無分別なマントラに過ぎない。"
     },
     "FS_HORDUERG": {
       "bName": "スティル・ノータダム",
@@ -15213,7 +15253,7 @@
       "bDesc": "この骸骨のやり使いの肋骨を覗くと、ギャイボンという名前でない限り彼らは完全に情け容赦がないことがわかるだろう。このベリガンはもともと、戦闘騎士としての潜在能力を死神に見出される前は、このやりを使って遠くから食べ物を突き刺していた。"
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "ブローネルの絵画",
+      "bName": "血まみれの絵画",
       "bDesc": "批評家たちはブローネルの一連の自画像を「ありきたり」、「自己陶酔的」、「血生臭い」と酷評した。今、彼らはリベンジを果たそうと、わずかに残る魔術の力を使って自分に向かってくる観客を殴り殺そうとしている。"
     },
     "TP_BOSS_GAIBON": {
@@ -15375,6 +15415,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "生まれし苦悩",
       "bDesc": "コンスタンティンよ、これは運命なのか？それとも宿命なのだろうか？彼方に在るもの…その正体を知ることすらできないが、“それ”は否応なしにこの連接世界に脅威をもたらしす存在となっている。禁じられし詞を思い出し、己の声を見つけ、私たちに最後の歌と踊りを捧げるのだ。"
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "ブラインダー",
+      "bDesc": "先見の明を持っていると自負する死神。 黒曜石のような指でヒーローに触れると闇のベールをかけることができるが、 いざ出現しても、 戦場にはすでにさまざまな破片や特殊効果が飛び交っていて何も見えないのでちょっと不憫である。"
     }
   },
   "ko": {
@@ -15976,7 +16020,7 @@
     },
     "FS_WORM": {
       "bName": "흐린 기억 속의 신앙충",
-      "bDesc": "신성한 형벌을 받아 강가의 주거지에서 신성 모독자의 배에 스멀스멀 기어오르는 독충입니다. 일단 배에 오르면 사람들을 무자비하게 개종시키며 어쿠스틱한 기타 연주를 쏟아낼 거예요."
+      "bDesc": "강가의 은신처에서 신성 모독자의 배에 스멀스멀 기어오르는 독충입니다. 신의 중재를 대신하려고 그러는 거래요. 일단 갑판에 오르면 사람들을 무자비하게 개종시키며 자기 신의 이름으로 어쿠스틱 기타 연주를 쏟아낼 거예요. 이렇게 해도 꿈틀거리는 성충을 많이 개종시키지 못했는데, 그 이유는 새로 개종시킬 추종자를 별 수 없이 잡아 먹어버리기 때문이랍니다."
     },
     "FS_SNAK1": {
       "bName": "스넉",
@@ -15992,7 +16036,7 @@
     },
     "FS_MEATY": {
       "bName": "팔로와",
-      "bDesc": "머나먼 왕국에서 온 마법사는 그 차가운 얼굴이 어느 날 자기 탑을 포기해 버린 위대한 학자를 닮은 것이 확실하다고 주장했습니다. 마법사는 대담하게 그 생물과 몇 시간 동안 이야기를 나누었습니다. 아무도 감히 끼어들지 못했는데, 밤 공기가 살을 에이듯 차가워서 마법사도 얼어붙어 버렸죠. 마법사의 눈에서 눈물이 얼음이 되어 얼어붙자 마지막으로 한 마디를 전했다고 합니다. \"그녀가 거기 살아있어.\""
+      "bDesc": "머나먼 왕국에서 온 마법사는 그 차가운 얼굴이 어느 날 자기 탑을 포기하고 흔적도 없이 사라져 버린 위대한 학자를 닮은 것이 확실하다고 주장했습니다. 마법사는 대담하게 그 생물과 이야기를 나누었고 몇 시간이 흘렀죠. 아무도 감히 끼어들지 못했는데, 밤공기가 살을 에듯 차가워서 마법사도 얼어붙어 버렸습니다. 목격자들은 마법사의 눈에서 눈물이 얼음으로 얼어붙자 마지막으로 한 마디를 전해 들었다고 합니다. \"그녀가 거기 살아있어.\""
     },
     "FS_EDNA": {
       "bName": "에드나",
@@ -16012,7 +16056,7 @@
     },
     "FS_HORAILLEN": {
       "bName": "크로시프리지톤",
-      "bDesc": "항상 얼마나 인기가 많은지 떠벌이는 오우거랍니다. 가장 섹시한 짐승 중 하나라는 지위를 고려하면 거짓말이라고 할 수는 없어요. Foscari 심연 연례 수영복 대회에서 3년 연속 우승했으며 음란한 괴물을 대상으로 발간된 월간지인 “아슬아슬한 송곳니”에서 가장 인기 있는 모델입니다. 비정상적인 생명체의 생물학에 정통한 학자들은 이 바람직한 거대동물이 왜 그토록 욕망을 느끼는지 정확히 이해하기 위해 수년 동안 연구해 왔지만, 그러한 금지된 지식 때문에 온전치 못한 상태가 되고 말았답니다. 그들은 열광적인 저술은 무감각한 만트라에 지나지 않으며 이름이 초대박 섹시라는 섬뜩한 신을 곳곳에서 언급하고 있습니다."
+      "bDesc": "항상 얼마나 인기가 많은지 떠벌이는 오우거랍니다. 가장 섹시한 짐승 중 하나라는 지위를 고려하면 거짓말이라고 할 수는 없어요. 비정상적인 생명체의 생물학에 정통한 학자들은 이 바람직한 거대동물이 왜 그토록 욕망을 느끼는지 정확히 이해하기 위해 수년 동안 연구해 왔지만, 그 금지된 지식 때문에 온전치 못한 상태가 되고 말았답니다. 열광적인 저술은 무감각한 만트라에 지나지 않으며 이름이 초대박 섹시라는 섬뜩한 신을 곳곳에서 언급하고 있습니다."
     },
     "FS_HORDUERG": {
       "bName": "그래봤자 노아담",
@@ -16611,7 +16655,7 @@
       "bDesc": "이 해골 창을 휘두르는 자의 갈비뼈를 들여다보면 완전히 무자비하다는 것을 알 수 있습니다. 당신의 이름이 가이본이 아니라면요. 슬로그라는 원래 멀리 있는 음식을 꿰어 가져오는데 창을 사용했습니다. 데스가 전투 기사로서의 잠재력을 발견하기 전까지는요."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "브라우너의 그림",
+      "bName": "피 묻은 그림",
       "bDesc": "비평가들은 브라우너의 자화상 시리즈를 \"파생적이다\", \"자기 방종적이다\", \"피 냄새가 진동 한다\"며 비난했습니다. 이제 그들은 복수를 위해 나섰습니다. 아직 남아 있는 마법의 힘을 약간 써서 관람객에게 달려들고 몽둥이로 때려죽이죠."
     },
     "TP_BOSS_GAIBON": {
@@ -16773,6 +16817,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "살아있는 고뇌",
       "bDesc": "콘스탄틴, 이게 숙명인가요? 아니면 그냥 운명일까요? 저 너머에는 알 수 없지만 결합된 세계를 위협할 수밖에 없는 존재가 있습니다. 금지된 가사를 기억하고, 자신의 목소리를 찾아서 최후의 노래와 춤을 보여주세요."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "눈가림 괴물",
+      "bDesc": "자신이 진정한 몽상가라고 생각하는 사신입니다. 흑요석 손가락을 대면 어떤 영웅의 주위에도 어둠의 장막을 던질 수 있지만, 전투를 위해 나타날 때마다 전장은 이미 입자와 색상, 특수 효과로 가득 차서 어쨌든 아무도, 개미 한 마리 볼 수가 없어요."
     }
   },
   "zh-TW": {
@@ -18009,7 +18057,7 @@
       "bDesc": "從這個骨架矛手的肋骨看進去，你會發現它沒心沒肺，除非你的名字是蓋本那就另當別論。斯洛格拉最初都會用長矛來從遠處戳食物，直到死神發現了它們身為戰鬥騎士的潛力才將它們招攬到麾下。"
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "布勞納的畫作",
+      "bName": "血腥畫作",
       "bDesc": "評論家譴責布勞納的一系列自畫像都是「衍生抄襲」、「頹廢靡爛」且「散發血腥意味」的贗品。這次換它們要來報仇了，它們會用殘留的微弱魔法力量朝任何看向自己的人飛去，將對方一棒打死。"
     },
     "TP_BOSS_GAIBON": {
@@ -18171,6 +18219,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "活體痛苦",
       "bDesc": "康斯坦丁，這是命運嗎？還是宿命？彼界的未知，但被迫威脅聯合世界。記住禁忌的歌詞，找到自己的聲音，為我們表演最後一首歌和最後一支舞。"
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "禁視魘",
+      "bDesc": "這是一位自認為真正有遠見的死神。只要是被祂漆黑的手指觸碰到的英雄，周圍都將被一層黑暗的面紗包圍，但等到祂出現在戰鬥中時，戰場上大多早已充斥著各種粒子、顏色與特效，眼前一切亂七八糟的。看著英雄在五彩斑斕的混亂中拼命獵殺走地雞，對祂來說是種自娛自樂的活動。"
     }
   },
   "uk": {
@@ -19407,7 +19459,7 @@
       "bDesc": "Зазирніть крізь ребра цих скелетів-списоносців, і ви побачите, що вони цілком безсердечні, якщо тільки вас не звати Ґайбон. Спочатку Слоґри використовували свої списи для заколювання їжі, допоки Смерть не розгледіла в них потенційних бойових лицарів."
     },
     "TP_BRAUNERSPAINTING": {
-      "bName": "Портрет Браунера",
+      "bName": "Кривава картина",
       "bDesc": "Критики відкрито осудили серію автопортретів Браунера й назвали його роботу «похідною», «поблажливою до себе» та «смердючою від крові». Відтоді ці картини прагнуть помсти, використовуючи ту невелику магічну силу, яка ще залишилася в них, щоб накидатися на будь-якого глядача й критика та забивати їх до смерті."
     },
     "TP_BOSS_GAIBON": {
@@ -19569,6 +19621,10 @@
     "EME_GATEBOSS_LIVINGANGUISH": {
       "bName": "Жива Мука",
       "bDesc": "Костянтине, це фатум? Або лишень доля? Те, що лежить у Потойбіччі, незбагненне, але змушене нести загрозу для Возз'єднаних Світів. Згадай заборонені вірші, віднайди свій голос, заспівай та станцюй для нас востаннє."
+    },
+    "BOSS_BLINDER_NORMAL": {
+      "bName": "Засліплювач",
+      "bDesc": "Жнець, який вважає себе за візіонера. Здатний напустити завісу пітьми навколо героїв, яких торкнеться своїм обсидіановим пальцем. Проте, щоразу коли він хоче доєднатися до бою, поле битви стає повністю забите частинками, кольорами й спецефектами, через що ніхто нічого не бачить. А жнець тим часом спостерігає, як герої метушаться серед цього кольорового хаосу в марних пошуках смажених курчат."
     }
   }
 }

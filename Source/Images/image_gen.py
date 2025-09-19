@@ -66,7 +66,7 @@ class IGFactory:
         elif "item" in data_file:
             return ItemImageGenerator()
         elif "stageset" in data_file:
-            return StageSetImageGenerator()
+            return StageImageGenerator()
         elif "stage" in data_file:
             return StageImageGenerator()
         elif "enemy" in data_file:
@@ -1043,6 +1043,7 @@ class StageImageGenerator(TableGenerator):
 
 
 class StageSetImageGenerator(StageImageGenerator):
+    # Deprecated VS - v1.14
     def __init__(self):
         super().__init__()
         self.assets_type = OldDataType.STAGE_SET

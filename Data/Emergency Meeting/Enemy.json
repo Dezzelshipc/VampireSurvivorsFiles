@@ -157,7 +157,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -183,7 +183,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -321,8 +321,8 @@
       "maxKnockback": 3,
       "deathKB": 1,
       "skills": [
-        0,
-        2
+        "HP_x_Level",
+        "Self_Destruct"
       ],
       "passThroughWalls": true,
       "moreX": 50,
@@ -460,7 +460,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -487,7 +487,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -522,7 +522,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -557,7 +557,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -610,7 +610,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -640,7 +640,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "scale": 1.5,
@@ -666,7 +666,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "scale": 1.5,
@@ -692,7 +692,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -717,7 +717,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -742,7 +742,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -776,7 +776,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -801,7 +801,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -826,7 +826,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -930,7 +930,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -955,7 +955,7 @@
       "maxKnockback": 1,
       "deathKB": 5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "scale": 1.5,
@@ -981,7 +981,7 @@
       "maxKnockback": 0,
       "deathKB": 5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -1036,7 +1036,7 @@
       "maxKnockback": 1,
       "deathKB": 7,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "scale": 1.5,
@@ -1111,7 +1111,7 @@
       "maxKnockback": 1,
       "deathKB": 5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "scale": 1.5,
@@ -1169,7 +1169,7 @@
       "maxKnockback": 1,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -1197,7 +1197,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "idleFrameCount": 4,
@@ -1227,7 +1227,7 @@
       "maxKnockback": 1,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 1.1,
@@ -1268,7 +1268,7 @@
       "maxKnockback": 0,
       "deathKB": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 1.1,
@@ -1304,7 +1304,7 @@
       "maxKnockback": 0,
       "deathKB": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 1.1,

@@ -397,6 +397,24 @@
       "detune": -1000
     }
   },
+  "BGM_Westwoods": {
+    "title": "Killer Squiller",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": "EX_WESTWOODS",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": true,
+    "icon": "stage_westwoods_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.5,
+      "detune": -1000
+    }
+  },
   "BGM_BatCountry": {
     "title": "Mighty Illusion",
     "author": "Filippo Vicarelli",
@@ -424,6 +442,24 @@
     "unlockedByItem": null,
     "isUnlocked": false,
     "icon": "stage_astral_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_Mazerella": {
+    "title": "Dancing Widow",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": "EX_MAZERELLA",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "stage_mazzerella_icon.png",
     "hyperMod": {
       "rate": 1.0625,
       "detune": 0

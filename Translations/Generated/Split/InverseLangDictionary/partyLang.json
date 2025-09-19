@@ -1,0 +1,842 @@
+{
+  "en": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "fr": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "it": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "de": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "es": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "pt-BR": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "pl": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "ru": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "tr": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "zh-CN": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "ja": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "ko": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "zh-TW": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  },
+  "uk": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Agressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands stil...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "connect a controller or select a CPU"
+  }
+}

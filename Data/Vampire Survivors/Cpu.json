@@ -1,0 +1,42 @@
+{
+  "Aggressive": {
+    "AINameLocalTerm": "partyLang/{Aggressive}description",
+    "AIIconSprite": "mask_sun_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "Defensive": {
+    "AINameLocalTerm": "partyLang/{Defensive}description",
+    "AIIconSprite": "mask_moon_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "ChaoticAF": {
+    "AINameLocalTerm": "partyLang/{ChaoticAF}description",
+    "AIIconSprite": "mask_volcano_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "MirrorInput": {
+    "AINameLocalTerm": "partyLang/{MirrorInput}description",
+    "AIIconSprite": "mask_seawind_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "DelayedInputCopy": {
+    "AINameLocalTerm": "partyLang/{DelayedInputCopy}description",
+    "AIIconSprite": "mask_city_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "GreedyForPickups": {
+    "AINameLocalTerm": "partyLang/{GreedyForPickups}description",
+    "AIIconSprite": "mask_stone_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "StandsStill": {
+    "AINameLocalTerm": "partyLang/{StandsStill}description",
+    "AIIconSprite": "nomask_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "Masochistic": {
+    "AINameLocalTerm": "partyLang/{Masochistic}description",
+    "AIIconSprite": "mask_skull_0",
+    "AIIconTexture": "enemiesM"
+  }
+}

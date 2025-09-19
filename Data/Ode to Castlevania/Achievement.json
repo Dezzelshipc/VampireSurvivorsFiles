@@ -1,76 +1,243 @@
 {
   "TP_Leon_FindCoffin1": {
     "description": "Find and open the first coffin on Dracula's Castle.",
-    "characterToUnlock": "TP_LEON"
+    "characterToUnlock": "TP_LEON",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "TP_LEON"
+      }
+    ]
   },
   "TP_Sonia_HeartRefresh": {
     "description": "Find 14 Heart Refresh.",
-    "characterToUnlock": "TP_SONIA"
+    "characterToUnlock": "TP_SONIA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 7,
+        "RequiredItems":[
+          "TP_KARMA_COIN"
+        ]
+      }
+    ]
   },
   "TP_Trevor_Boss1": {
     "description": "Defeat the Giant Medusa Head at the Entrance of Dracula's Castle.",
-    "characterToUnlock": "TP_TREVOR"
+    "characterToUnlock": "TP_TREVOR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillBossTypesInRun",
+        "RequiredEnemyTypes":[
+          "TP_BOSS_GIANTMEDUSAHEAD"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_LEON"
+      }
+    ]
   },
   "TP_Sypha_EvoDragonwater": {
     "description": "Evolve the Water Dragon Whip.",
-    "characterToUnlock": "TP_SYPHA"
+    "characterToUnlock": "TP_SYPHA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillBossTypesInRun",
+        "RequiredEnemyTypes":[
+          "TP_BOSS_GAIBON",
+          "TP_BOSS_SLOGRA"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_GRANT"
+      }
+    ]
   },
   "TP_Grant_Boss2": {
     "description": "Defeat the Puppet Master at the Marble Gallery of Dracula's Castle.",
-    "characterToUnlock": "TP_GRANT"
+    "characterToUnlock": "TP_GRANT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_DRAGONWATER2"
+        ]
+      }
+    ]
   },
   "TP_Alucard_Boss3": {
     "description": "Defeat the Doppelganger at the Marble Gallery of Dracula's Castle.",
-    "characterToUnlock": "TP_ALUCARD"
+    "characterToUnlock": "TP_ALUCARD",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillBossTypesInRun",
+        "RequiredEnemyTypes":[
+          "TP_BOSS_DOPPLEGANGER"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_TREVOR"
+      }
+    ]
   },
   "TP_Hector_KarmaCoins": {
     "description": "After defeating <BOSS>, find 21 Karma Coins.",
-    "characterToUnlock": "TP_HECTOR"
+    "characterToUnlock": "TP_HECTOR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 7,
+        "RequiredItems":[
+          "TP_KARMA_COIN"
+        ]
+      }
+    ]
   },
   "TP_Christopher_EvoSworb": {
     "description": "Evolve the Alucart Sworb.",
-    "characterToUnlock": "TP_CHRISTOPHER"
+    "characterToUnlock": "TP_CHRISTOPHER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_ALUCARDSWORD2"
+        ]
+      }
+    ]
   },
   "TP_Simon_EvoLemuria": {
     "description": "Evolve the Jet Black Whip.",
-    "characterToUnlock": "TP_SIMON"
+    "characterToUnlock": "TP_SIMON",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_LEMURIA2"
+        ]
+      }
+    ]
   },
   "TP_Juste_EvoCurse": {
     "description": "Evolve the Wind Whip.",
-    "characterToUnlock": "TP_JUSTE"
+    "characterToUnlock": "TP_JUSTE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_WINDWHIP2"
+        ]
+      }
+    ]
   },
-  
   "TP_Julius_FindCoffin2": {
     "description": "Find and open the second coffin on Dracula's Castle.",
-    "characterToUnlock": "TP_JULIUS"
+    "characterToUnlock": "TP_JULIUS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "TP_JULIUS"
+      }
+    ]
   },
   "TP_Yoko_Boss4": {
     "description": "Defeat Paranoia at the --- of Dracula's Castle.",
-    "characterToUnlock": "TP_YOKO"
+    "characterToUnlock": "TP_YOKO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillBossTypesInRun",
+        "RequiredEnemyTypes":[
+          "TP_BOSS_ABBADON"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_SOMA"
+      }
+    ]
   },
   "TP_Soma_Boss5": {
     "description": "Defeat Blackmore at the --- of Dracula's Castle.",
-    "characterToUnlock": "TP_SOMA"
+    "characterToUnlock": "TP_SOMA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillBossTypesInRun",
+        "RequiredEnemyTypes":[
+          "TP_BOSS_GERGOTH"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_JULIUS"
+      }
+    ]
   },
   "TP_Jonhathan_EvoRPG": {
     "description": "Evolve the Hand Grenade.",
-    "characterToUnlock": "TP_JONATHAN"
+    "characterToUnlock": "TP_JONATHAN",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_RPG2"
+        ]
+      }
+    ]
   },
   "TP_Charlotte_Mirrors": {
     "description": "After defeating <BOSS>, find 28 Mirrors of Truth.",
-    "characterToUnlock": "TP_CHARLOTTE"
+    "characterToUnlock": "TP_CHARLOTTE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 7,
+        "RequiredItems":[
+          "TP_MIRROR_OF_TRUTH"
+        ]
+      }
+    ]
   },
   "TP_John_EvoSpells": {
     "description": "Evolve Raging Fire, Ice Fangs, Gale Force, and Rock Riot.",
-    "characterToUnlock": "TP_JOHN"
+    "characterToUnlock": "TP_JOHN",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "CollectedWeapons",
+        "RequiredWeapons":[
+          "TP_FIRE2",
+          "TP_ICE2",
+          "TP_WIND2",
+          "TP_EARTH2"
+        ]
+      }
+    ]
   },
   "TP_Eric_EvoJavelin": {
     "description": "Evolve the Javelin.",
-    "characterToUnlock": "TP_ERIC"
+    "characterToUnlock": "TP_ERIC",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_JAVELIN2"
+        ]
+      }
+    ]
   },
   "TP_Shanoa_EvoTwo": {
     "description": "Evolve the Iron Ball and the Alucard Spear.",
-    "characterToUnlock": "TP_SHANOA"
+    "characterToUnlock": "TP_SHANOA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "CollectedWeapons",
+        "RequiredWeapons":[
+          "TP_ALUCARDSPEAR2",
+          "TP_IRONBALL2"
+        ]
+      }
+    ]
   },
   
   "TP_Maria_unlock": {
@@ -79,267 +246,865 @@
   },
   "TP_Richter_EvoBeasts": {
     "description": "Evolve the Sacred Beasts.",
-    "characterToUnlock": "TP_RICHTER"
+    "characterToUnlock": "TP_RICHTER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_SACREDBEASTS2"
+        ]
+      }
+    ]
   },
   
   "TP_Teleport1": {
     "description": "Defeat <BOSS>.",
-    "relicToUnlock": "TP_RELIC_TELEPORT1"
+    "relicToUnlock": "TP_RELIC_TELEPORT1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_TELEPORT1"
+        ]
+      }
+    ]
   },
   "TP_Teleport2": {
     "description": "Defeat <BOSS>.",
-    "relicToUnlock": "TP_RELIC_TELEPORT2"
+    "relicToUnlock": "TP_RELIC_TELEPORT2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_TELEPORT2"
+        ]
+      }
+    ]
   },
   "TP_Teleport3": {
     "description": "Defeat <BOSS>.",
-    "relicToUnlock": "TP_RELIC_TELEPORT3"
+    "relicToUnlock": "TP_RELIC_TELEPORT3",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_TELEPORT3"
+        ]
+      }
+    ]
   },
   "TP_Teleport4": {
     "description": "Defeat <BOSS>.",
-    "relicToUnlock": "TP_RELIC_TELEPORT4"
+    "relicToUnlock": "TP_RELIC_TELEPORT4",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_TELEPORT4"
+        ]
+      }
+    ]
   },
   "TP_Teleport5": {
     "description": "Defeat <BOSS>.",
     "relicToUnlock": "TP_RELIC_TELEPORT5",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_TELEPORT5"
+        ]
+      }
+    ]
   },
   "TP_Teleport6": {
     "description": "Defeat <BOSS>.",
     "relicToUnlock": "TP_RELIC_TELEPORT6",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_TELEPORT6"
+        ]
+      }
+    ]
   },
   "TP_Relic_BlackDisk": {
     "description": "___",
     "relicToUnlock": "TP_RELIC_BLACK_DISK",
-    "mistery": true
+    "mistery": true,
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      }
+    ]
   },
   "TP_Relic_CastleMap": {
     "description": "___",
-    "relicToUnlock": "TP_RELIC_CASTLEMAP"
+    "relicToUnlock": "TP_RELIC_CASTLEMAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_CASTLEMAP"
+        ]
+      }
+    ]
   },
   "TP_Relic_LibrarianCard": {
     "description": "___",
     "relicToUnlock": "TP_RELIC_LIBRARIAN",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_LIBRARIAN"
+        ]
+      }
+    ]
   },
   "TP_Relic_PileOfSecrets": {
     "description": "___",
     "relicToUnlock": "TP_RELIC_PILEOFSECRETS",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_PILEOFSECRETS"
+        ]
+      }
+    ]
   },
   "TP_Relic_EbonyCrimsonStone": {
     "description": "___",
     "relicToUnlock": "TP_RELIC_STONES",
-    "requiresItem": "TP_RELIC_PILEOFSECRETS"
+    "requiresItem": "TP_RELIC_PILEOFSECRETS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_STONES"
+        ]
+      }
+    ]
   },
   "TP_Hyper_Castle": {
     "description": "Defeat Malphas in Ode to Castlevania.",
-    "hyperToUnlock": "TP_CASTLE"
+    "hyperToUnlock": "TP_CASTLE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":1,
+        "RequiredEnemyTypes":[
+          "TP_BOSS_MALPHAS"
+        ]
+      }
+    ]
   },
   "TP_Dracula_FindCoffin3": {
     "description": "Find and open the third coffin on Dracula's Castle.",
     "characterToUnlock": "TP_DRACULA",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "TP_DRACULA"
+      }
+    ]
   },
   
   "TP_Lisa_WineGlass": {
     "description": "___",
     "characterToUnlock": "TP_LISA",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_WINEGLASS2"
+        ]
+      }
+    ]
   },
   "TP_Shaft_Light": {
     "description": "___",
     "characterToUnlock": "TP_SHAFT",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_LIGHT2"
+        ]
+      }
+    ]
   },
   "TP_Elizabeth_Dark": {
     "description": "___",
     "characterToUnlock": "TP_ELIZABETH",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_DARK2"
+        ]
+      }
+    ]
   },
   "TP_Vincent_Spells": {
     "description": "___",
     "characterToUnlock": "TP_VINCENT",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "CollectedWeapons",
+        "RequiredWeapons":[
+          "TP_ACID2",
+          "TP_ELEC2"
+        ]
+      }
+    ]
   },
   "TP_Mina_Shield": {
     "description": "___",
     "characterToUnlock": "TP_MINA",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_SHIELD2"
+        ]
+      }
+    ]
   },
   "TP_Albus_Confodere": {
     "description": "___",
     "characterToUnlock": "TP_ALBUS",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_CONFODERE3"
+        ]
+      }
+    ]
   },
   "TP_Barlowe_Spite": {
     "description": "___",
     "characterToUnlock": "TP_BARLOWE",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_SPITE2"
+        ]
+      }
+    ]
   },
   "TP_Isaac_Mace": {
     "description": "___",
     "characterToUnlock": "TP_ISAAC",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_MACE2"
+        ]
+      }
+    ]
   },
   "TP_SaintGermain_Chauve": {
     "description": "___",
     "characterToUnlock": "TP_STGERMAIN",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_CHAUVE2"
+        ]
+      }
+    ]
   },
   "TP_Julia_Energy": {
     "description": "___",
     "characterToUnlock": "TP_JULIA",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_ENERGY2"
+        ]
+      }
+    ]
   },
   "TP_Sara_AlchemyWhip": {
     "description": "___",
     "characterToUnlock": "TP_SARA",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_ALCHEMYWHIP2"
+        ]
+      }
+    ]
   },
   "TP_Rinaldo_Flail": {
     "description": "___",
     "characterToUnlock": "TP_RINALDO",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_STARFLAIL2"
+        ]
+      }
+    ]
   },
   "TP_Quincy_PlatinumWhip": {
     "description": "___",
     "characterToUnlock": "TP_QUINCY",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_PLATINUMWHIP2"
+        ]
+      }
+    ]
   },
   "TP_Maxim_HolyWhip": {
     "description": "___",
     "characterToUnlock": "TP_MAXIM",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_HOLYWHIP2"
+        ]
+      }
+    ]
   },
   "TP_Nathan_SonicWhip": {
     "description": "___",
     "characterToUnlock": "TP_NATHAN",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_SONICWHIP2"
+        ]
+      }
+    ]
   },
   "TP_Reinhardt_FindCoffin4": {
     "description": "Find and open the fourth coffin on Dracula's Castle.",
     "characterToUnlock": "TP_REINHARDT",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "TP_REINHARDT"
+      }
+    ]
   },
   "TP_Henry_Slash": {
     "description": "___",
     "characterToUnlock": "TP_HENRY",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_SLASH2"
+        ]
+      }
+    ]
   },
   "TP_Cornell_Gun": {
     "description": "___",
     "characterToUnlock": "TP_CORNELL",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_GUN2"
+        ]
+      }
+    ]
   },
   "TP_Carrie_Custos": {
     "description": "___",
     "characterToUnlock": "TP_CARRIE",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "TP_RELIC_BLACK_DISK"
+        ]
+      },
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_CUSTOS4"
+        ]
+      }
+    ]
   },
   
   "TP_Weapon_WHIP_1": {
     "description": "___",
-    "weaponToUnlock": "TP_ALCHEMYWHIP1"
+    "weaponToUnlock": "TP_ALCHEMYWHIP1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_LEON"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 360
+      }
+    ]
   },
   "TP_Weapon_WHIP_2": {
     "description": "___",
-    "weaponToUnlock": "TP_SONICWHIP1"
+    "weaponToUnlock": "TP_SONICWHIP1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_SONIA"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 480
+      }
+    ]
   },
   "TP_Weapon_WHIP_3": {
     "description": "___",
-    "weaponToUnlock": "TP_DRAGONWATER1"
+    "weaponToUnlock": "TP_DRAGONWATER1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_TREVOR"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 600
+      }
+    ]
   },
   "TP_Weapon_WHIP_4": {
     "description": "___",
-    "weaponToUnlock": "TP_WINDWHIP1"
+    "weaponToUnlock": "TP_WINDWHIP1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_SIMON"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 720
+      }
+    ]
   },
   "TP_Weapon_WHIP_5": {
     "description": "___",
-    "weaponToUnlock": "TP_LEMURIA1"
+    "weaponToUnlock": "TP_LEMURIA1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_CHRISTOPHER"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 840
+      }
+    ]
   },
   "TP_Weapon_WHIP_6": {
     "description": "___",
-    "weaponToUnlock": "TP_HOLYWHIP1"
+    "weaponToUnlock": "TP_HOLYWHIP1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_JUSTE"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 960
+      }
+    ]
   },
   "TP_Weapon_WHIP_7": {
     "description": "___",
-    "weaponToUnlock": "TP_PLATINUMWHIP1"
+    "weaponToUnlock": "TP_PLATINUMWHIP1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_RICHTER"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1080
+      }
+    ]
   },
   "TP_Weapon_WHIP_8": {
     "description": "___",
-    "weaponToUnlock": "TP_MARTIALWHIP1"
+    "weaponToUnlock": "TP_MARTIALWHIP1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_JULIUS"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ]
   },
 
   "TP_Weapon_PROJECTILE_1": {
     "description": "___",
-    "weaponToUnlock": "TP_BWAKA1"
+    "weaponToUnlock": "TP_BWAKA1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 1,
+        "RequiredWeapons":[
+          "TP_BWAKA1"
+        ]
+      }
+    ]
   },
   "TP_Weapon_PROJECTILE_2": {
     "description": "___",
-    "weaponToUnlock": "TP_SHURIKEN1"
+    "weaponToUnlock": "TP_SHURIKEN1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 2,
+        "RequiredWeapons":[
+          "TP_SHURIKEN1"
+        ]
+      }
+    ]
   },
   "TP_Weapon_PROJECTILE_3": {
     "description": "___",
-    "weaponToUnlock": "TP_JAVELIN1"
+    "weaponToUnlock": "TP_JAVELIN1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 3,
+        "RequiredWeapons":[
+          "TP_JAVELIN1"
+        ]
+      }
+    ]
   },
   "TP_Weapon_PROJECTILE_4": {
     "description": "___",
-    "weaponToUnlock": "TP_IRONBALL1"
+    "weaponToUnlock": "TP_IRONBALL1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 4,
+        "RequiredWeapons":[
+          "TP_IRONBALL1"
+        ]
+      }
+    ]
   },
   "TP_Weapon_PROJECTILE_5": {
     "description": "___",
-    "weaponToUnlock": "TP_DISCUS1"
+    "weaponToUnlock": "TP_DISCUS1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 5,
+        "RequiredWeapons":[
+          "TP_DISCUS1"
+        ]
+      }
+    ]
   },
   "TP_Weapon_PROJECTILE_6": {
     "description": "___",
     "weaponToUnlock": "TP_GUN1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "TP_GUN1"
+        ]
+      }
+    ]
   },
   "TP_Weapon_PROJECTILE_7": {
     "description": "___",
-    "weaponToUnlock": "TP_RPG1"
+    "weaponToUnlock": "TP_RPG1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 7,
+        "RequiredWeapons":[
+          "TP_RPG1"
+        ]
+      }
+    ]
   },
   "TP_Weapon_PROJECTILE_8": {
     "description": "___",
     "weaponToUnlock": "TP_WINEGLASS1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 8,
+        "RequiredWeapons":[
+          "TP_WINEGLASS1"
+        ]
+      }
+    ]
   },
 
   "TP_Weapon_SPELL_1": {
     "description": "___",
-    "weaponToUnlock": "TP_FIRE1"
+    "weaponToUnlock": "TP_FIRE1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_FIRE2"
+        ]
+      }
+    ]
   },
   "TP_Weapon_SPELL_2": {
     "description": "___",
-    "weaponToUnlock": "TP_ICE1"
+    "weaponToUnlock": "TP_ICE1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_ICE2"
+        ]
+      }
+    ]
   },
   "TP_Weapon_SPELL_3": {
     "description": "___",
-    "weaponToUnlock": "TP_WIND1"
+    "weaponToUnlock": "TP_WIND1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_WIND2"
+        ]
+      }
+    ]
   },
   "TP_Weapon_SPELL_4": {
     "description": "___",
-    "weaponToUnlock": "TP_EARTH1"
+    "weaponToUnlock": "TP_EARTH1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_EARTH2"
+        ]
+      }
+    ]
   },
   "TP_Weapon_SPELL_5": {
     "description": "___",
-    "weaponToUnlock": "TP_ELEC1"
+    "weaponToUnlock": "TP_ELEC1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_ELEC2"
+        ]
+      }
+    ]
   },
   "TP_Weapon_SPELL_6": {
     "description": "___",
     "weaponToUnlock": "TP_ACID1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_ACID2"
+        ]
+      }
+    ]
   },
   "TP_Weapon_SPELL_7": {
     "description": "___",
     "weaponToUnlock": "TP_HOLY1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_HOLY2"
+        ]
+      }
+    ]
   },
   "TP_Weapon_SPELL_8": {
     "description": "___",
     "weaponToUnlock": "TP_EVIL1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "TP_EVIL2"
+        ]
+      }
+    ]
   },
 
   "TP_Weapon_WEAPON_1": {
@@ -381,58 +1146,186 @@
 
   "TP_Weapon_GLYPH_1": {
     "description": "___",
-    "weaponToUnlock": "TP_CONFODERE1"
+    "weaponToUnlock": "TP_CONFODERE1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_SHANOA"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":1000
+      }
+    ]
   },
   "TP_Weapon_GLYPH_2": {
     "description": "___",
     "weaponToUnlock": "TP_SPITE1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_ALBUS"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":2000
+      }
+    ]
   },
   "TP_Weapon_GLYPH_3": {
     "description": "___",
     "weaponToUnlock": "TP_LIGHT1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_LISA"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":3000
+      }
+    ]
   },
   "TP_Weapon_GLYPH_4": {
     "description": "___",
     "weaponToUnlock": "TP_DARK1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_SHAFT"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":4000
+      }
+    ]
   },
   "TP_Weapon_GLYPH_5": {
     "description": "___",
     "weaponToUnlock": "TP_ENERGY1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_STGERMAIN"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":5000
+      }
+    ]
   },
   "TP_Weapon_GLYPH_6": {
     "description": "___",
     "weaponToUnlock": "TP_RAPIDUS1",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_NATHAN"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":6000
+      }
+    ]
   },
   "TP_Weapon_GLYPH_7": {
     "description": "___",
-    "weaponToUnlock": "TP_CUSTOS1"
+    "weaponToUnlock": "TP_CUSTOS1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredWeapons":[
+          "TP_CUSTOS1"
+        ],
+        "RequiredEvolvedWeapons":[
+          "TP_CUSTOS4"
+        ],
+        "RequiredLevel": 6
+      }
+    ]
   },
   "TP_Weapon_GLYPH_8": {
     "description": "___",
-    "weaponToUnlock": "TP_CUSTOS2"
+    "weaponToUnlock": "TP_CUSTOS2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredWeapons":[
+        "TP_CUSTOS2"
+      ],
+        "RequiredEvolvedWeapons":[
+          "TP_CUSTOS4"
+        ],
+        "RequiredLevel": 6
+      }
+    ]
   },
   "TP_Weapon_GLYPH_9": {
     "description": "___",
     "weaponToUnlock": "TP_CUSTOS3",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_CORNELL"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":7000
+      }
+    ]
   },
   "TP_Weapon_GLYPH_10": {
     "description": "___",
-    "weaponToUnlock": "TP_DOMINUS1"
+    "weaponToUnlock": "TP_DOMINUS1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredWeapons":[
+          "TP_DOMINUS1"
+        ],
+        "RequiredEvolvedWeapons":[
+          "TP_DOMINUS4"
+        ],
+        "RequiredLevel": 6
+      }
+    ]
   },
   "TP_Weapon_GLYPH_11": {
     "description": "___",
-    "weaponToUnlock": "TP_DOMINUS2"
+    "weaponToUnlock": "TP_DOMINUS2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredWeapons":[
+          "TP_DOMINUS2"
+        ],
+        "RequiredEvolvedWeapons":[
+          "TP_DOMINUS4"
+        ],
+        "RequiredLevel": 6
+      }
+    ]
   },
   "TP_Weapon_GLYPH_12": {
     "description": "___",
     "weaponToUnlock": "TP_DOMINUS3",
-    "requiresItem": "TP_RELIC_BLACK_DISK"
+    "requiresItem": "TP_RELIC_BLACK_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "TP_BARLOWE"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":8000
+      }
+    ]
   },
 
   "TP_Selector_FamiliarForge": {

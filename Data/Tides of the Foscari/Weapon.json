@@ -276,7 +276,7 @@
       "requiresMax": [
         "ARMOR"
       ],
-      "hitVFX": 1,
+      "hitVFX": "Default",
       "isUnlocked": true,
       "poolLimit": 200,
       "rarity": 1,
@@ -377,7 +377,7 @@
       "requiresMax": [
         "SPEED"
       ],
-      "hitVFX": 1,
+      "hitVFX": "Default",
       "isUnlocked": true,
       "poolLimit": 200,
       "rarity": 1,
@@ -409,7 +409,7 @@
         "GROWTH"
       ],
       "evoInto": "PRISMATICMISS2",
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "isUnlocked": false,
       "poolLimit": 100,
       "rarity": 50,
@@ -474,7 +474,7 @@
       "requiresMax": [
         "GROWTH"
       ],
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "isUnlocked": true,
       "poolLimit": 200,
       "rarity": 1,
@@ -564,7 +564,7 @@
       "requiresMax": [
         "CURSE"
       ],
-      "hitVFX": 11,
+      "hitVFX": "Evil",
       "isUnlocked": true,
       "poolLimit": 150,
       "rarity": 1,
@@ -761,33 +761,6 @@
     },
     {
       "duration": 1000
-    }
-  ],
-  "INSATIABLE": [
-    {
-      "level": 1,
-      "contentGroup": "FOSCARI",
-      "bulletType": "INSATIABLE",
-      "name": "Insatiable",
-      "description": "-",
-      "tips": "-",
-      "texture": "items",
-      "frameName": "2insatiable.png",
-      "hidden": true,
-      "alwaysHidden": true,
-      "isUnlocked": false,
-      "isSpecialOnly": true,
-      "hitVFX": 11,
-      "poolLimit": 150,
-      "rarity": 1,
-      "interval": 2000,
-      "repeatInterval": 0,
-      "power": 1,
-      "area": 1,
-      "speed": 1,
-      "amount": 1,
-      "knockback": 0,
-      "hitsWalls": false
     }
   ]
 }

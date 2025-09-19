@@ -81,7 +81,7 @@
     "inTreasures": false,
     "value": 0,
     "contentGroup": "BASE",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "ROSARY": {
     "name": "Rosary",
@@ -183,7 +183,7 @@
     "value": 30,
     "isRare": true,
     "sealable": true,
-    "contentGroup":"BASE"
+    "contentGroup": "BASE"
   },
   "LITTLEHEART": {
     "name": "Little Heart",
@@ -197,7 +197,7 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "contentGroup":"BASE"
+    "contentGroup": "BASE"
   },
   "GILDED": {
     "name": "Gilded Clover",
@@ -211,7 +211,37 @@
     "inTreasures": false,
     "value": 1000,
     "sealable": true,
-    "contentGroup":"BASE"
+    "contentGroup": "BASE"
+  },
+  "CLOVER": {
+    "name": "Little Clover",
+    "description": "Pick up to get 10% luckier.",
+    "tips": "",
+    "texture": "items",
+    "frameName": "Clover2.png",
+    "pickedupAmount": 0,
+    "rarity": 0.5,
+    "unlocksAt": 0,
+    "inTreasures": false,
+    "value": 0.1,
+    "sealable": true,
+    "contentGroup": "BASE"
+  },
+  "PICKUP_REROLL_DICE": {
+    "name": "Rerollo",
+    "description": "Pick up to get +1 Reroll.",
+    "tips": "",
+    "texture": "items",
+    "frameName": "Dice.png",
+    "pickedupAmount": 0,
+    "rarity": 1,
+    "unlocksAt": 0,
+    "hidden": false,
+    "inTreasures": false,
+    "value": 1,
+    "sealable": true,
+    "isRare": false,
+    "contentGroup": "EXTRA"
   },
   "GOLDFINGER": {
     "name": "Gold Finger",
@@ -228,26 +258,26 @@
     "requiresItem": "RELIC_TRISECTION",
     "contentGroup": "EXTRA"
   },
-  "CLOVER": {
-    "name": "Little Clover",
-    "description": "Pick up to get 10% luckier.",
-    "tips": "",
-    "texture": "items",
-    "frameName": "Clover2.png",
-    "pickedupAmount": 0,
-    "rarity": 0.5,
-    "unlocksAt": 0,
-    "inTreasures": false,
-    "value": 0.1,
-    "sealable": true,
-    "contentGroup":"BASE"
-  },
   "BONUS_FROZENSOUL": {
     "name": "Crystallized Soul",
     "description": "Pick up to get a minor bonus to MaxHealth, Recovery, and Growth.",
-    "tips": "",
+    "tips": ".",
     "texture": "items",
     "frameName": "FrozenSoul.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 1,
+    "contentGroup": "EXTRA"
+  },
+  "BONUS_CURSEDSOUL": {
+    "name": "Cursed Soul",
+    "description": ".",
+    "tips": "",
+    "texture": "items",
+    "frameName": "CursedSoul.png",
     "pickedupAmount": 0,
     "rarity": 0,
     "unlocksAt": 1000000,
@@ -294,7 +324,7 @@
     "inTreasures": false,
     "hidden": true,
     "value": 1000,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "STATS_TREASURE_1": {
     "name": "",
@@ -308,35 +338,35 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "STATS_TREASURE_2": {
     "name": "",
     "description": "2",
     "tips": "",
     "texture": "items",
-    "frameName": "BoxOpen2.png",
+    "frameName": "BoxOpenItems3.png",
     "pickedupAmount": 0,
     "rarity": 0,
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "STATS_TREASURE_3": {
     "name": "",
     "description": "3",
     "tips": "",
     "texture": "items",
-    "frameName": "BoxOpen3.png",
+    "frameName": "BoxOpenItems5.png",
     "pickedupAmount": 0,
     "rarity": 0,
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "STATS_TREASURE_4": {
     "name": "",
@@ -350,7 +380,7 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "STATS_TREASURE_5": {
     "name": "",
@@ -364,7 +394,35 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
+  },
+  "STATS_TREASURE_EVOS": {
+    "name": "",
+    "description": "6",
+    "tips": "",
+    "texture": "items",
+    "frameName": "BoxOpen2.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "showAboveAll": true
+  },
+  "STATS_TREASURE_WEAPONS": {
+    "name": "",
+    "description": "7",
+    "tips": "",
+    "texture": "items",
+    "frameName": "BoxOpen3.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "showAboveAll": true
   },
   "ALWAYS_COINBAG2": {
     "name": "[Always] Big Coin Bag",
@@ -404,7 +462,7 @@
     "value": 30,
     "isSpecialOption": true,
     "seen": true,
-    "contentGroup":"BASE"
+    "contentGroup": "BASE"
   },
   "DUMMY_LIGHTSOURCE": {
     "name": "",
@@ -510,7 +568,7 @@
     "hidden": true,
     "value": 0,
     "isRelic": true,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_GRIMOIRE": {
     "name": "Grim Grimoire",
@@ -526,8 +584,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_GOUDA": {
     "name": "Ars Gouda",
@@ -543,8 +601,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_MAP": {
     "name": "Milky Way Map",
@@ -560,8 +618,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_BANGER": {
     "name": "Magic Banger",
@@ -577,8 +635,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_TEAR": {
     "name": "Sorceress' Tears",
@@ -594,8 +652,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_GLASSMASK": {
     "name": "Glass Vizard",
@@ -611,8 +669,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_GOLDENEGG": {
     "name": "Golden Egg",
@@ -627,8 +685,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_NOSEGLASSES": {
     "name": "Mindbender",
@@ -644,8 +702,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_YELLOW": {
     "name": "Yellow Sign",
@@ -661,8 +719,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_SECRETS": {
     "name": "Forbidden Scrolls of Morbane",
@@ -678,8 +736,8 @@
     "hidden": false,
     "value": 10000,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_GGOSPEL": {
     "name": "Great Gospel",
@@ -695,8 +753,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_MIRROR": {
     "name": "Gracia's Mirror",
@@ -712,8 +770,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_TRUMPET": {
     "name": "Seventh Trumpet",
@@ -729,8 +787,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_ATLAS": {
     "name": "Atlas Gate",
@@ -749,7 +807,7 @@
     "isRelic": true,
     "sealable": false,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_MALACHITE": {
     "name": "Chaos Malachite",
@@ -768,7 +826,7 @@
     "isRelic": true,
     "sealable": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_ROSALIA": {
     "name": "Chaos Rosalia",
@@ -787,7 +845,26 @@
     "isRelic": true,
     "sealable": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
+  },
+  "RELIC_LAZULIA": {
+    "name": "Chaos Lazulia",
+    "description": "Allows Bianca Ramba to morph when reaching Level 80.",
+    "tips": "",
+    "achievementTips": ".",
+    "texture": "items",
+    "frameName": "cLazulia.png",
+    "collectionFrame": "frameB_bold.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 0,
+    "isRelic": true,
+    "sealable": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": true
   },
   "RELIC_ALTEMANNA": {
     "name": "Chaos Altemanna",
@@ -806,7 +883,7 @@
     "isRelic": true,
     "sealable": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_TRISECTION": {
     "name": "Trisection",
@@ -824,7 +901,7 @@
     "value": 0,
     "isRelic": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_BRAVESTORY": {
     "name": "Brave Story",
@@ -842,15 +919,15 @@
     "value": 0,
     "isRelic": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
-  "RELIC_SPEEDUP": {
-    "name": "Roast chicken with a clock in the middle",
-    "description": "Allows to speed gameplay up.",
+  "RELIC_PARTY": {
+    "name": "Masquerade",
+    "description": "Allows to play Party Mode.",
     "tips": "",
-    "achievementTips": "Game Speed Modifier.",
+    "achievementTips": "Party Mode.",
     "texture": "items",
-    "frameName": "speedup.png",
+    "frameName": "icon_masquerade.png",
     "collectionFrame": "frameB_bold.png",
     "pickedupAmount": 0,
     "rarity": 0,
@@ -859,7 +936,7 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "sealable": true,
+    "sealable": false,
     "contentGroup": "EXTRA",
     "showAboveAll" : true
   },
@@ -879,7 +956,7 @@
     "value": 0,
     "isRelic": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_ANTIDOTE": {
     "name": "Antidote",
@@ -897,7 +974,44 @@
     "value": 0,
     "isRelic": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
+  },
+  "RELIC_RECYCLE": {
+    "name": "Wax Fetish",
+    "description": "Allows to buy the Recycle PowerUp.",
+    "tips": "",
+    "achievementTips": "Recycle PowerUp.",
+    "collectionFrame": "frameB_bold.png",
+    "texture": "items",
+    "frameName": "waxFetish.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 0,
+    "isRelic": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": true
+  },
+  "RELIC_SPEEDUP": {
+    "name": "Roast chicken with a clock in the middle",
+    "description": "Allows to speed gameplay up.",
+    "tips": "",
+    "achievementTips": "Game Speed Modifier.",
+    "texture": "items",
+    "frameName": "speedup.png",
+    "collectionFrame": "frameB_bold.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 0,
+    "isRelic": true,
+    "sealable": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": true
   },
   "RELIC_MAP_AS": {
     "name": "Astral Stair Map",
@@ -915,7 +1029,7 @@
     "value": 0,
     "isRelic": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_MAP_MS": {
     "name": "Mt.Moonspell Map",
@@ -932,9 +1046,9 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "MOONSPELL",
+    "requiresDLC": "Moonspell",
     "contentGroup": "MOONSPELL",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_MAP_FS": {
     "name": "Lake Foscari Map",
@@ -951,9 +1065,9 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "FOSCARI",
+    "requiresDLC": "Foscari",
     "contentGroup": "FOSCARI",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_MAP_CHAL": {
     "name": "Polus Replica Map",
@@ -970,9 +1084,9 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "requiresDLC": "CHALCEDONY",
+    "requiresDLC": "Chalcedony",
     "contentGroup": "CHALCEDONY",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_MAP_FB": {
     "name": "Galuga Jungle Map",
@@ -991,7 +1105,7 @@
     "isRelic": true,
     "requiresDLC": "FirstBlood",
     "contentGroup": "FIRST_BLOOD",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "RELIC_RANDOMAZZO": {
     "name": "Randomazzo",
@@ -1007,8 +1121,8 @@
     "hidden": false,
     "value": 0,
     "isRelic": true,
-    "contentGroup":"BASE",
-    "showAboveAll" : true
+    "contentGroup": "BASE",
+    "showAboveAll": true
   },
   "RELIC_DARKASSO": {
     "hidden": true,
@@ -1026,7 +1140,21 @@
     "value": 0,
     "isRelic": true,
     "contentGroup": "EXTRA",
-    "showAboveAll" : true
+    "showAboveAll": true
+  },
+  "EX_ZI_APPUNTA_PICKUP": {
+    "name": "",
+    "description": "",
+    "tips": "",
+    "texture": "items",
+    "frameName": "ziappunta_destructible_1.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "contentGroup": "EXTRA"
   },
   "COFFIN": {
     "name": "",
@@ -1041,7 +1169,7 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "MERCHANT": {
     "name": "",
@@ -1056,7 +1184,7 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "EGGMAN": {
     "name": "",
@@ -1071,7 +1199,7 @@
     "inTreasures": false,
     "hidden": true,
     "value": 0,
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "HEALER": {
     "name": "",
@@ -1168,7 +1296,6 @@
     "hidden": true,
     "value": 0
   },
-
   "TP_RELIC_MASK_SUN": {
     "name": "Aspect of Sun",
     "description": "Fragment of The Directer. Allows to have a health bar.",
@@ -1184,7 +1311,7 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "TP_RELIC_MASK_MOON": {
     "name": "Aspect of Moon",
@@ -1201,7 +1328,7 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "TP_RELIC_MASK_CITY": {
     "name": "Aspect of City",
@@ -1218,7 +1345,7 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "TP_RELIC_MASK_VOLCANO": {
     "name": "Aspect of Volcano",
@@ -1235,7 +1362,7 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "TP_RELIC_MASK_SEAWINDS": {
     "name": "Aspect of Seawinds",
@@ -1252,7 +1379,7 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "TP_RELIC_MASK_STONE": {
     "name": "Aspect of Stone",
@@ -1269,7 +1396,7 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "showAboveAll" : true
+    "showAboveAll": true
   },
   "TP_RELIC_MASK_BLACK": {
     "name": "Aspect of Black",
@@ -1286,6 +1413,156 @@
     "value": 0,
     "isRelic": true,
     "collectionFrame": "frameB_sotn.png",
-    "showAboveAll" : true
+    "showAboveAll": true
+  },
+  "RELIC_MASK_FATE": {
+    "name": "Aspect of Fate",
+    "description": "Fragment of The Directer.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_BLACK.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll": true
+  },
+  "RELIC_MASK_WRATH": {
+    "name": "Aspect of Wrath",
+    "description": "Fragment of The Directer.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_BLACK.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll": true
+  },
+  "RELIC_MASK_SOVEREIGN": {
+    "name": "Aspect of Sovereign",
+    "description": "Fragment of The Directer.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_BLACK.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll": true
+  },
+  "RELIC_MASK_IMPLACABILITY": {
+    "name": "Aspect of Implacability",
+    "description": "Fragment of The Directer.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_BLACK.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll": true
+  },
+  "RELIC_MASK_MIRTH": {
+    "name": "Aspect of Mirth",
+    "description": "Fragment of The Directer.",
+    "tips": "",
+    "achievementTips": "",
+    "texture": "items",
+    "frameName": "TP_RELIC_MASK_BLACK.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 0,
+    "isRelic": true,
+    "collectionFrame": "frameB_sotn.png",
+    "showAboveAll": true
+  },
+
+  "CARD_B001_ANTONIO"   : {
+    "name": "001: Antonio Belpaese",
+    "description": "",
+    "tips": "",
+    "texture": "items",
+    "frameName": "goldenegg.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 10000,
+    "isRelic": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": false
+  },
+  "CARD_B002_IMELDA"    : {
+    "name": "002: Imelda Belpaese",
+    "description": "",
+    "tips": "",
+    "texture": "items",
+    "frameName": "goldenegg.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 10000,
+    "isRelic": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": false
+  },
+  "CARD_B003_PASQUALINA": {
+    "name": "003: Pasqualina Belpaese",
+    "description": "",
+    "tips": "",
+    "texture": "items",
+    "frameName": "goldenegg.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 10000,
+    "isRelic": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": false
+  },
+  "CARD_B004_GENNARO": {
+    "name": "004: Gennaro Belpaese",
+    "description": "",
+    "tips": "",
+    "texture": "items",
+    "frameName": "goldenegg.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": true,
+    "value": 10000,
+    "isRelic": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": false
   }
 }

@@ -2,6 +2,12 @@
   "ReachLV5": {
     "description": "Reach Level 5.",
     "weaponToUnlock": "MOVESPEED",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 5
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -25,6 +31,12 @@
   "ReachLV10": {
     "description": "Reach Level 10.",
     "weaponToUnlock": "GROWTH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 10
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -48,6 +60,16 @@
   "ReachLV20InMadForest": {
     "description": "Reach Level 20 in the Mad Forest.",
     "stageToUnlock": "LIBRARY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 20
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "FOREST"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -71,6 +93,16 @@
   "ReachLV40InLibrary": {
     "description": "Reach Level 40 in the Inlaid Library.",
     "stageToUnlock": "WAREHOUSE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 40
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "LIBRARY"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -94,6 +126,16 @@
   "ReachLV60InDairyPlant": {
     "description": "Reach Level 60 in the Dairy Plant.",
     "stageToUnlock": "TOWER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 60
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "WAREHOUSE"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -117,6 +159,16 @@
   "FindYellowSignS5": {
     "description": "Reach Level 80 in the Gallo Tower.",
     "stageToUnlock": "CHAPEL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 80
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "TOWER"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -142,6 +194,22 @@
     "hyperToUnlock": "BATCOUNTRY",
     "stageToUnlock": "BATCOUNTRY",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 80
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "FOREST"
+      },
+      {
+        "AchievementUnlockType": "HaveModifiers",
+        "RequiredMofiers": [
+          "Inverse"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -167,6 +235,22 @@
     "hyperToUnlock": "ASTRALSTAIR",
     "stageToUnlock": "ASTRALSTAIR",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 80
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "LIBRARY"
+      },
+      {
+        "AchievementUnlockType": "HaveModifiers",
+        "RequiredMofiers": [
+          "Inverse"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -187,11 +271,49 @@
       }
     ]
   },
+  "ReachLV80InverseWarehouse": {
+    "description": "Reach Level 80 in Inverse Dairy Plant.",
+    "hyperToUnlock": "EX_MAZERELLA",
+    "stageToUnlock": "EX_MAZERELLA",
+    "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 80
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "WAREHOUSE"
+      },
+      {
+        "AchievementUnlockType": "HaveModifiers",
+        "RequiredMofiers": [
+          "Inverse"
+        ]
+      }
+    ]
+  },
   "ReachLV80InverseTower": {
     "description": "Reach Level 80 in Inverse Gallo Tower.",
     "hyperToUnlock": "TOWERBRIDGE",
     "stageToUnlock": "TOWERBRIDGE",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 80
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "TOWER"
+      },
+      {
+        "AchievementUnlockType": "HaveModifiers",
+        "RequiredMofiers": [
+          "Inverse"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -215,6 +337,12 @@
   "Survive1Minute": {
     "description": "Survive 1 minute with any character.",
     "weaponToUnlock": "MAXHEALTH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 60
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -238,6 +366,16 @@
   "Survive5MinutesWithDiamond": {
     "description": "Survive 5 minutes with Pasqualina.",
     "weaponToUnlock": "DIAMOND",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 300
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "PASQUALINA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -261,6 +399,16 @@
   "Survive5MinutesWithKnife": {
     "description": "Survive 5 minutes with Gennaro.",
     "weaponToUnlock": "REGEN",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 300
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "GENNARO"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -284,6 +432,12 @@
   "Survive10Minutes": {
     "description": "Survive 10 minutes with any character.",
     "weaponToUnlock": "SILF",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 600
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -308,6 +462,16 @@
     "description": "Survive 10 minutes with Pugnala.",
     "weaponToUnlock": "GUNS",
     "requiresChar": "PUGNALA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 600
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "PUGNALA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -332,6 +496,16 @@
     "description": "Survive 15 minutes with Pugnala.",
     "weaponToUnlock": "GUNS2",
     "requiresChar": "PUGNALA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "PUGNALA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -356,6 +530,16 @@
     "description": "Survive 15 minutes with Giovanna.",
     "weaponToUnlock": "GATTI",
     "requiresChar": "GIOVANNA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "GIOVANNA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -380,6 +564,16 @@
     "description": "Survive 15 minutes with Poppea.",
     "weaponToUnlock": "SONG",
     "requiresChar": "POPPEA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "POPPEA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -404,6 +598,16 @@
     "description": "Survive 15 minutes with Concetta.",
     "weaponToUnlock": "TRAPANO",
     "requiresChar": "CONCETTA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "CONCETTA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -428,6 +632,16 @@
     "description": "Survive 15 minutes with Zi'Assunta.",
     "weaponToUnlock": "VENTO",
     "requiresChar": "ASSUNTA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "ASSUNTA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -451,6 +665,12 @@
   "Survive20Minutes": {
     "description": "Survive 20 minutes with any character.",
     "weaponToUnlock": "PENTAGRAM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -475,6 +695,16 @@
     "description": "Survive 20 minutes with Krochi.",
     "weaponToUnlock": "REVIVAL",
     "requiresChar": "CROCI",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "CROCI"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -522,6 +752,16 @@
     "description": "Survive 20 minutes in Whiteout.",
     "characterToUnlock": "SHEMOONITA",
     "requiresStage": "WHITEOUT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "WHITEOUT"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -546,6 +786,16 @@
     "description": "Survive 20 minutes in Laborratory.",
     "characterToUnlock": "SANTA",
     "requiresStage": "LABORRATORY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "LABORRATORY"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -566,10 +816,67 @@
       }
     ]
   },
+  "EvolveOfGaea": {
+    "description": "Survive 20 minutes in The Coop.",
+    "characterToUnlock": "YOLO",
+    "requiresStage": "COOP",
+    "requiresWeapon": "EX_GAEA1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "COOP"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "EvolveOfGaea"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "225"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0225"
+      }
+    ]
+  },
+  "Survive20MinutesInWestwoods": {
+    "description": "Survive 20 minutes in Westwoods.",
+    "characterToUnlock": "EX_CHULAREH",
+    "requiresStage": "EX_WESTWOODS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "EX_WESTWOODS"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ],
+    "PlatformsData": [
+    ]
+  },
   "Survive20MinutesInSpace54": {
     "description": "Survive 20 minutes in Space 54.",
     "characterToUnlock": "SPACEDUDE",
     "requiresStage": "SPAZIE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "SPAZIE"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -594,6 +901,16 @@
     "description": "Survive 30 minutes with Lama.",
     "weaponToUnlock": "CURSE",
     "requiresChar": "LAMA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "LAMA"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1800
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -617,6 +934,18 @@
   "GetHolyBookToLevel4": {
     "description": "Get King Bible to Level 4.",
     "weaponToUnlock": "SPEED",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 4,
+        "RequiredWeapons": [
+          "HOLYBOOK"
+        ],
+        "RequiredEvolvedWeapons": [
+          "VESPERS"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -640,6 +969,18 @@
   "GetHolyWaterToLevel4": {
     "description": "Get Santa Water to Level 4.",
     "weaponToUnlock": "AREA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 4,
+        "RequiredWeapons": [
+          "HOLYWATER"
+        ],
+        "RequiredEvolvedWeapons": [
+          "BORA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -663,6 +1004,18 @@
   "GetFireWandToLevel4": {
     "description": "Get Fire Wand to Level 4.",
     "characterToUnlock": "CIRO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 4,
+        "RequiredWeapons": [
+          "FIREBALL"
+        ],
+        "RequiredEvolvedWeapons": [
+          "HELLFIRE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -686,6 +1039,18 @@
   "GetLightningRingToLevel4": {
     "description": "Get Lightning Ring to Level 4.",
     "characterToUnlock": "PORTA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 4,
+        "RequiredWeapons": [
+          "LIGHTNING"
+        ],
+        "RequiredEvolvedWeapons": [
+          "LOOP"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -709,6 +1074,18 @@
   "GetMagicMissileToLevel7": {
     "description": "Get Magic Wand to Level 7.",
     "weaponToUnlock": "AMOUNT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "MAGIC_MISSILE"
+        ],
+        "RequiredEvolvedWeapons": [
+          "HOLY_MISSILE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -732,6 +1109,18 @@
   "GetPeachoneToLevel7": {
     "description": "Get Peachone to Level 7.",
     "weaponToUnlock": "SILF2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "SILF"
+        ],
+        "RequiredEvolvedWeapons": [
+          "SILF3"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -755,6 +1144,18 @@
   "GetRunetracerToLevel7": {
     "description": "Get Runetracer to Level 7.",
     "weaponToUnlock": "DURATION",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "DIAMOND"
+        ],
+        "RequiredEvolvedWeapons": [
+          "ROCHER"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -778,6 +1179,18 @@
   "GetGarlicToLevel7": {
     "description": "Get Garlic to Level 7.",
     "characterToUnlock": "CAMILLO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "GARLIC"
+        ],
+        "RequiredEvolvedWeapons": [
+          "VORTEX"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -801,6 +1214,18 @@
   "GetPentagramToLevel7": {
     "description": "Get Pentagram to Level 7.",
     "characterToUnlock": "CRISTINA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "PENTAGRAM"
+        ],
+        "RequiredEvolvedWeapons": [
+          "SIRE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -825,6 +1250,18 @@
     "description": "Get Glass Fandango to Level 7.",
     "weaponToUnlock": "ICELANCE",
     "requiresStage": "WHITEOUT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "ICELANCE"
+        ],
+        "RequiredEvolvedWeapons": [
+          "ICELANCE2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -849,6 +1286,18 @@
     "description": "Get Santa Javelin to Level 7.",
     "weaponToUnlock": "SANTAJAVELIN",
     "requiresStage": "LABORRATORY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "SANTAJAVELIN"
+        ],
+        "RequiredEvolvedWeapons": [
+          "SANTAJAVELIN2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -869,10 +1318,41 @@
       }
     ]
   },
+  "GetMagiStonetoLevel7": {
+    "description": "Get Magi-Stone to level 7.",
+    "weaponToUnlock": "EX_MAGISTONE1",
+    "requiresStage": "EX_WESTWOODS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "EX_MAGISTONE1"
+        ],
+        "RequiredEvolvedWeapons": [
+          "EX_MAGISTONE2"
+        ]
+      }
+    ],
+    "PlatformsData": [
+    ]
+  },
   "GetPhas3rToLevel7": {
     "description": "Get Phas3r to Level 7.",
     "weaponToUnlock": "PHASER",
     "requiresStage": "SPAZIE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "PHASER"
+        ],
+        "RequiredEvolvedWeapons": [
+          "PHASER2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -896,6 +1376,15 @@
   "GetTorroneToLevel9": {
     "description": "Get Torrona's Box to Level 9.",
     "powerUpToUnlock": "PANDORA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevel",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "PANDORA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1058,6 +1547,15 @@
   "Eat5PotRoast": {
     "description": "Find 5 Floor Chickens.",
     "weaponToUnlock": "GARLIC",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 5,
+        "RequiredItems": [
+          "ROAST"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1081,6 +1579,14 @@
   "FindAClover": {
     "description": "Find a Little Clover.",
     "weaponToUnlock": "LUCK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "CLOVER"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1104,6 +1610,14 @@
   "FindAVacuum": {
     "description": "Find a Vacuum.",
     "weaponToUnlock": "MAGNET",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "VACUUM"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1127,6 +1641,14 @@
   "FindAnOrologion": {
     "description": "Find an Orologion.",
     "weaponToUnlock": "LANCET",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "OROLOGION"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1150,6 +1672,14 @@
   "FindARosary": {
     "description": "Find a Rosary.",
     "weaponToUnlock": "CROSS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "ROSARY"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1173,6 +1703,14 @@
   "FindAStoneMask": {
     "description": "Find a Stone Mask.",
     "weaponToUnlock": "GREED",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "GREED"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1197,6 +1735,14 @@
     "description": "Find an Arma Dio in Laborratory.",
     "weaponToUnlock": "ARMADIO",
     "requiresStage": "LABORRATORY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "ARMADIO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1221,6 +1767,16 @@
     "description": "Find a Parm Aegis in The Coop.",
     "weaponToUnlock": "PARMA",
     "requiresStage": "COOP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": ["PARMA"]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "COOP"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -1236,11 +1792,35 @@
       }
     ]
   },
+  "FindKaromasMana": {
+    "description": ".",
+    "weaponToUnlock": "DOMINION",
+    "requiresStage": "EX_WESTWOODS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": ["DOMINION"]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "EX_WESTWOODS"
+      }
+    ]
+  },
   "FindManyOrologions": {
     "description": "Find 20 Orologions.",
     "hyperToUnlock": "WHITEOUT",
     "stageToUnlock": "WHITEOUT",
     "requiresItem": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 20,
+        "RequiredItems": [
+          "OROLOGION"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1266,6 +1846,15 @@
     "hyperToUnlock": "LABORRATORY",
     "stageToUnlock": "LABORRATORY",
     "requiresItem": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 33,
+        "RequiredItems": [
+          "ROSARY"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1291,6 +1880,15 @@
     "hyperToUnlock": "COOP",
     "stageToUnlock": "COOP",
     "requiresItem": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 500,
+        "RequiredItems": [
+          "ROAST"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -1304,6 +1902,31 @@
         "Platfrom": "PS5",
         "Data": "0221"
       }
+    ],
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 500,
+        "RequiredItems": [
+          "ROAST"
+        ]
+      }
+    ]
+  },
+  "FindManyClovers": {
+    "description": "Find 20 Little Clovers.",
+    "hyperToUnlock": "EX_WESTWOODS",
+    "stageToUnlock": "EX_WESTWOODS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 23,
+        "RequiredItems": [
+          "CLOVER"
+        ]
+      }
+    ],
+    "PlatformsData": [
     ]
   },
   "FindManyGoldenFinger": {
@@ -1311,6 +1934,15 @@
     "hyperToUnlock": "SPAZIE",
     "stageToUnlock": "SPAZIE",
     "requiresItem": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 5,
+        "RequiredItems": [
+          "GOLDFINGER"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1359,6 +1991,14 @@
   "FindGrimoire": {
     "description": "Find the Grim Grimoire.",
     "relicToUnlock": "RELIC_GRIMOIRE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_GRIMOIRE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1382,6 +2022,14 @@
   "FindMagicBanger": {
     "description": "Find the Magic Banger.",
     "relicToUnlock": "RELIC_BANGER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_BANGER"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1405,6 +2053,14 @@
   "FindMilkyWayMap": {
     "description": "Find the Milky Way Map.",
     "relicToUnlock": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_MAP"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1428,6 +2084,14 @@
   "FindGouda": {
     "description": "Find the Ars Gouda.",
     "relicToUnlock": "RELIC_GOUDA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_GOUDA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1451,6 +2115,14 @@
   "FindSorceressTears": {
     "description": "Find the Sorceress' Tears.",
     "relicToUnlock": "RELIC_TEAR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_TEAR"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1474,6 +2146,14 @@
   "FindRandomazzo": {
     "description": "Find the Randomazzo.",
     "relicToUnlock": "RELIC_RANDOMAZZO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1497,6 +2177,14 @@
   "BuyGlassMask": {
     "description": "Find and buy the Glass Vizard.",
     "relicToUnlock": "RELIC_GLASSMASK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_GLASSMASK"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1520,6 +2208,14 @@
   "FindYellowSign": {
     "description": "Find the Yellow Sign.",
     "relicToUnlock": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_YELLOW"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1544,6 +2240,14 @@
     "description": "Find the Forbidden Scrolls of Morbane.",
     "relicToUnlock": "RELIC_SECRETS",
     "requiresItem": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_SECRETS"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1568,6 +2272,14 @@
     "description": "Find the Great Gospel.",
     "relicToUnlock": "RELIC_GGOSPEL",
     "requiresItem": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_GGOSPEL"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1664,6 +2376,14 @@
     "description": "Obtain the Atlas Gate in Boss Rash.",
     "relicToUnlock": "RELIC_ATLAS",
     "requiresItem": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_ATLAS"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1688,6 +2408,14 @@
     "description": "Find the Apoplexy at minute 09:00 in Bat Country.",
     "relicToUnlock": "RELIC_CHARM",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_CHARM"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1712,6 +2440,14 @@
     "description": "Find the Antidote in Whiteout.",
     "relicToUnlock": "RELIC_ANTIDOTE",
     "requiresItem": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_ANTIDOTE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1736,6 +2472,14 @@
     "description": "Find the Trisection in Astral Stair.",
     "relicToUnlock": "RELIC_TRISECTION",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_TRISECTION"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1760,6 +2504,14 @@
     "description": "Find the Brave Story at minute 21:00 in Space 54.",
     "relicToUnlock": "RELIC_BRAVESTORY",
     "requiresItem": "GOLDFINGER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_BRAVESTORY"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1783,7 +2535,12 @@
   "FindChickenClock": {
     "description": "Find the Roast chicken with a clock in the middle at the end of The Coop.",
     "relicToUnlock": "RELIC_SPEEDUP",
-    "requiresStage": "COOP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_SPEEDUP"
+        ]}],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -1799,10 +2556,47 @@
       }
     ]
   },
+  "FindMasquerade": {
+    "description": "Find the Masquerade in Westwoods.",
+    "relicToUnlock": "RELIC_PARTY",
+    "requiresStage": "EX_WESTWOODS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_PARTY"
+        ]
+      }
+    ],
+    "PlatformsData": [
+    ]
+  },
+  "FindRecycle": {
+    "description": "Find the Wax Fetish in Mazerella.",
+    "relicToUnlock": "RELIC_RECYCLE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RECYCLE"
+        ]
+      }
+    ],
+    "PlatformsData": [
+    ]
+  },
   "FindChaosMalachite": {
     "description": "Find the Chaos Malachite at minute 18:00 in Bat Country.",
     "relicToUnlock": "RELIC_MALACHITE",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_MALACHITE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1827,6 +2621,14 @@
     "description": "Find the Chaos Rosalia in Astral Stair.",
     "relicToUnlock": "RELIC_ROSALIA",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_ROSALIA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1847,10 +2649,31 @@
       }
     ]
   },
+  "FindChaosLazulia": {
+    "description": "Find the Chaos Lazulia in Mazerella.",
+    "relicToUnlock": "RELIC_LAZULIA",
+    "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_LAZULIA"
+        ]
+      }
+    ]
+  },
   "FindChaosAltemanna": {
     "description": "Find the Chaos Altemanna in Tiny Bridge.",
     "relicToUnlock": "RELIC_ALTEMANNA",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_ALTEMANNA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1875,6 +2698,14 @@
     "description": "Find the Astral Stair Map.",
     "relicToUnlock": "RELIC_MAP_AS",
     "requiresItem": "RELIC_MIRROR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_MAP_AS"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1899,6 +2730,12 @@
     "description": "Find and open the coffin in the Mad Forest.",
     "mistery": true,
     "characterToUnlock": "PUGNALA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "PUGNALA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1923,6 +2760,12 @@
     "description": "Find and open the coffin in the Inlaid Library.",
     "mistery": true,
     "characterToUnlock": "GIOVANNA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "GIOVANNA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1947,6 +2790,12 @@
     "description": "Find and open the coffin in the Dairy Plant.",
     "mistery": true,
     "characterToUnlock": "POPPEA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "POPPEA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1971,6 +2820,12 @@
     "description": "Find and open the coffin in the Gallo Tower.",
     "mistery": true,
     "characterToUnlock": "CONCETTA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "CONCETTA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -1995,6 +2850,12 @@
     "description": "Find and open the coffin in the Cappella Magna.",
     "mistery": true,
     "characterToUnlock": "ASSUNTA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "ASSUNTA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2019,6 +2880,20 @@
     "description": "Defeat 0 enemies in The Coop.",
     "weaponToUnlock": "EX_GAEA1",
     "requiresStage": "COOP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 60
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":0
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "COOP"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -2038,6 +2913,15 @@
     "description": "Defeat a total of 3000 Skeletons.",
     "weaponToUnlock": "BONE",
     "characterToUnlock": "MORTACCIO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 3000,
+        "RequiredEnemyTypes": [
+          "SKELETON"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2062,6 +2946,15 @@
     "description": "Defeat a total of 3000 Lion Heads.",
     "weaponToUnlock": "CHERRY",
     "characterToUnlock": "CAVALLO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 3000,
+        "RequiredEnemyTypes": [
+          "BUER"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2086,6 +2979,15 @@
     "description": "Defeat a total of 3000 Milk Elementals.",
     "weaponToUnlock": "CART2",
     "characterToUnlock": "MARIA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 3000,
+        "RequiredEnemyTypes": [
+          "MILK"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2110,6 +3012,18 @@
     "description": "Defeat a total of 3000 Dragon Shrimps.",
     "weaponToUnlock": "FLOWER",
     "characterToUnlock": "TATANKA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 3000,
+        "RequiredEnemyTypes": [
+          "XLDRAGON1",
+          "XLDRAGON2",
+          "XLDRAGON1_FLAG",
+          "XLDRAGON2_FLAG"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2134,6 +3048,16 @@
     "description": "Defeat a total of 6000 Stage Killers.",
     "weaponToUnlock": "ROBBA",
     "characterToUnlock": "AMBROGIO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 6000,
+        "RequiredEnemyTypes": [
+          "STAGEKILLER",
+          "STAGEKILLER2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2157,6 +3081,12 @@
   "Defeat5000Enemies": {
     "description": "Defeat a total of 5000 enemies.",
     "weaponToUnlock": "LIGHTNING",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemies",
+        "RequiredNumEnemiesKilled": 5000
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2180,6 +3110,12 @@
   "Defeat100KEnemies": {
     "description": "Defeat a total of 100000 enemies.",
     "characterToUnlock": "CROCI",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemies",
+        "RequiredNumEnemiesKilled": 100000
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2223,10 +3159,26 @@
       }
     ]
   },
+  "DefeatShootingEnemies": {
+    "description": "Defeat 1996 Shooting Enemies.",
+    "weaponToUnlock": "EX_AMMO1",
+    "PlatformsData": [
+    ]
+  },
   "Defeat100kWithSigma": {
     "description": "Defeat 100000 enemies in a single run with Queen Sigma.",
     "weaponToUnlock": "VICTORY",
     "requiresChar": "SIGMA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "SIGMA"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled": 100000
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2250,6 +3202,19 @@
   "DefeatBossMadForest": {
     "description": "Defeat the giant Blue Venus in the Mad Forest.",
     "hyperToUnlock": "FOREST",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 1,
+        "RequiredEnemyTypes": [
+          "XLFLOWER"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "FOREST"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2273,6 +3238,19 @@
   "DefeatBossLibrary": {
     "description": "Defeat the Hag in the Inlaid Library.",
     "hyperToUnlock": "LIBRARY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 1,
+        "RequiredEnemyTypes": [
+          "BOSS_COUNT1"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "LIBRARY"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2296,6 +3274,19 @@
   "DefeatBossPlant": {
     "description": "Defeat the Sword Guardian in the Dairy Plant.",
     "hyperToUnlock": "WAREHOUSE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 1,
+        "RequiredEnemyTypes": [
+          "BOSS_XLARMOR"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "WAREHOUSE"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2319,6 +3310,19 @@
   "DefeatBossTower": {
     "description": "Defeat the Giant Enemy Crab in Gallo Tower.",
     "hyperToUnlock": "TOWER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 1,
+        "RequiredEnemyTypes": [
+          "BOSS_XLCRAB"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "TOWER"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2342,6 +3346,19 @@
   "DefeatBossChapel": {
     "description": "Defeat the Trinacria in the Cappella Magna.",
     "hyperToUnlock": "CHAPEL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 1,
+        "RequiredEnemyTypes": [
+          "BOSS_TRINACRIA"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "CHAPEL"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2485,6 +3502,19 @@
   "DefeatBossChapel2": {
     "description": "Defeat the final enemy in the Cappella Magna.",
     "arcanaToUnlock": "0",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled": 1,
+        "RequiredEnemyTypes": [
+          "BOSS_ENDER"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "CHAPEL"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2508,6 +3538,19 @@
   "ReachLV99WithPugnala": {
     "description": "Reach Level 50 with Pugnala.",
     "arcanaToUnlock": "1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "PUGNALA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2531,6 +3574,19 @@
   "ReachLV99WithDommario": {
     "description": "Reach Level 50 with Dommario.",
     "arcanaToUnlock": "2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "DOMMARIO",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2554,6 +3610,19 @@
   "ReachLV99WithPorta": {
     "description": "Reach Level 50 with Porta.",
     "arcanaToUnlock": "3",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "PORTA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2577,6 +3646,19 @@
   "ReachLV99WithKroci": {
     "description": "Reach Level 50 with Krochi.",
     "arcanaToUnlock": "4",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "CROCI",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2600,6 +3682,19 @@
   "ReachLV99WithGiovanna": {
     "description": "Reach Level 50 with Giovanna.",
     "arcanaToUnlock": "5",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "GIOVANNA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2623,6 +3718,14 @@
   "FindRandomazzoT06": {
     "description": "Find the Randomazzo.",
     "arcanaToUnlock": "6",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2646,6 +3749,19 @@
   "ReachLV99WithGennaro": {
     "description": "Reach Level 50 with Gennaro.",
     "arcanaToUnlock": "7",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "GENNARO",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2669,6 +3785,22 @@
   "Survive31MinutesInForest": {
     "description": "Reach minute 31 in the Mad Forest.",
     "arcanaToUnlock": "8",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1860
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "FOREST"
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2692,6 +3824,19 @@
   "ReachLV99WithClerici": {
     "description": "Reach Level 50 with Suor Clerici.",
     "arcanaToUnlock": "9",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "GERMANA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2715,6 +3860,19 @@
   "ReachLV99WithAntonio": {
     "description": "Reach Level 50 with Antonio.",
     "arcanaToUnlock": "10",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "ANTONIO",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2738,6 +3896,19 @@
   "ReachLV99WithImelda": {
     "description": "Reach Level 50 with Imelda.",
     "arcanaToUnlock": "11",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "IMELDA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2761,6 +3932,22 @@
   "Survive31MinutesInTower": {
     "description": "Reach minute 31 in the Gallo Tower.",
     "arcanaToUnlock": "12",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1860
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "TOWER"
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2784,6 +3971,19 @@
   "ReachLV99WithChristine": {
     "description": "Reach Level 50 with Christine.",
     "arcanaToUnlock": "13",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "CRISTINA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2807,6 +4007,19 @@
   "ReachLV99WithPasqualina": {
     "description": "Reach Level 50 with Pasqualina.",
     "arcanaToUnlock": "14",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "PASQUALINA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2830,6 +4043,22 @@
   "Survive31MinutesInLibrary": {
     "description": "Reach minute 31 in the Inlaid Library.",
     "arcanaToUnlock": "15",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1860
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "LIBRARY"
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2853,6 +4082,19 @@
   "ReachLV99WithLama": {
     "description": "Reach Level 50 with Lama.",
     "arcanaToUnlock": "16",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "LAMA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2876,6 +4118,19 @@
   "ReachLV99WithPoppea": {
     "description": "Reach Level 50 with Poppea.",
     "arcanaToUnlock": "17",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "POPPEA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2899,6 +4154,19 @@
   "ReachLV99WithConcetta": {
     "description": "Reach Level 50 with Concetta.",
     "arcanaToUnlock": "18",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "CONCETTA",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2922,6 +4190,19 @@
   "ReachLV99WithArca": {
     "description": "Reach Level 50 with Arca.",
     "arcanaToUnlock": "19",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "CIRO",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2945,6 +4226,22 @@
   "Survive31MinutesInDairyPlant": {
     "description": "Reach minute 31 in the Dairy Plant.",
     "arcanaToUnlock": "20",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1860
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "WAREHOUSE"
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2968,6 +4265,19 @@
   "ReachLV99WithPoe": {
     "description": "Reach Level 50 with Poe.",
     "arcanaToUnlock": "21",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "CAMILLO",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_RANDOMAZZO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2992,6 +4302,13 @@
     "description": "Reach Level 80 with Mortaccio.",
     "powerUpToUnlock": "REROLL",
     "requiresChar": "MORTACCIO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "MORTACCIO",
+        "RequiredLevel": 80
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3016,6 +4333,13 @@
     "description": "Reach Level 80 with Yatta Cavallo.",
     "powerUpToUnlock": "REROLL",
     "requiresChar": "CAVALLO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "CAVALLO",
+        "RequiredLevel": 80
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3040,6 +4364,13 @@
     "description": "Reach Level 80 with Bianca Ramba.",
     "powerUpToUnlock": "REROLL",
     "requiresChar": "MARIA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "MARIA",
+        "RequiredLevel": 80
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3064,6 +4395,13 @@
     "description": "Reach Level 80 with O'Sole Meeo.",
     "powerUpToUnlock": "REROLL",
     "requiresChar": "TATANKA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "TATANKA",
+        "RequiredLevel": 80
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3088,6 +4426,13 @@
     "description": "Reach Level 80 with Sir Ambrojoe.",
     "powerUpToUnlock": "REROLL",
     "requiresChar": "AMBROGIO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "AMBROGIO",
+        "RequiredLevel": 80
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3111,6 +4456,16 @@
   "Survive15MinutesInMolise": {
     "description": "Survive 15 minutes in Molise.",
     "powerUpToUnlock": "SKIP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "MOLISE"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3134,6 +4489,16 @@
   "Survive15MinutesInMoongolow": {
     "description": "Survive 15 minutes in Moongolow.",
     "powerUpToUnlock": "SKIP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "SINKING"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3157,6 +4522,16 @@
   "Survive30MinutesInGreenAcres": {
     "description": "Survive 30 minutes in Green Acres.",
     "powerUpToUnlock": "SKIP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "GREENACRES"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1800
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3180,6 +4555,16 @@
   "Survive30MinutesInBoneZone": {
     "description": "Survive 30 minutes in The Bone Zone.",
     "powerUpToUnlock": "SKIP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "BONEZONE"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1800
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3203,6 +4588,16 @@
   "Survive15MinutesInBossRash": {
     "description": "Survive 15 minutes in Boss Rash.",
     "powerUpToUnlock": "SKIP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "RASH"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3226,6 +4621,12 @@
   "See50Items": {
     "description": "Fill 50 entries in the Collection.",
     "relicToUnlock": "RELIC_NOSEGLASSES",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfAnyItems",
+        "RequiredNumberOfItems": 50
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3249,6 +4650,12 @@
   "See60Items": {
     "description": "Fill 60 entries in the Collection.",
     "powerUpToUnlock": "BANISH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfAnyItems",
+        "RequiredNumberOfItems": 60
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3272,6 +4679,12 @@
   "See70Items": {
     "description": "Fill 70 entries in the Collection.",
     "powerUpToUnlock": "BANISH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfAnyItems",
+        "RequiredNumberOfItems": 70
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3295,6 +4708,12 @@
   "See80Items": {
     "description": "Fill 80 entries in the Collection.",
     "powerUpToUnlock": "BANISH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfAnyItems",
+        "RequiredNumberOfItems": 80
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3318,6 +4737,12 @@
   "See90Items": {
     "description": "Fill 90 entries in the Collection.",
     "powerUpToUnlock": "BANISH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfAnyItems",
+        "RequiredNumberOfItems": 90
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3341,6 +4766,12 @@
   "See100Items": {
     "description": "Fill 100 entries in the Collection.",
     "powerUpToUnlock": "BANISH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfAnyItems",
+        "RequiredNumberOfItems": 100
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3499,6 +4930,14 @@
     "description": "Obtain the Infinite Corridor.",
     "characterToUnlock": "PINO",
     "requiresItem": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "CORRIDOR"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3523,6 +4962,14 @@
     "description": "Obtain the Crimson Shroud.",
     "characterToUnlock": "FEBBRA",
     "requiresItem": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "SHROUD"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3547,6 +4994,14 @@
     "description": "Evolve the Pako Battiliar.",
     "characterToUnlock": "TUPU",
     "requiresWeapon": "BATTILIA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "BATTILIA2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3567,29 +5022,32 @@
       }
     ]
   },
-  "EvolveOfGaea": {
-    "description": "Evolve the Gaze of Gaea.",
-    "characterToUnlock": "YOLO",
-    "requiresWeapon": "EX_GAEA1",
-    "PlatformsData": [
+  "EvolveAmmoAppalate": {
+    "description": "Evolve Ammo Appalate.",
+    "characterToUnlock": "EX_ZIAPPUNTA",
+    "UnlockConditions": [
       {
-        "Platfrom": "Steam",
-        "Data": "EvolveOfGaea"
-      },
-      {
-        "Platfrom": "GameCore",
-        "Data": "225"
-      },
-      {
-        "Platfrom": "PS5",
-        "Data": "0225"
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "EX_AMMO2"
+        ]
       }
+    ],
+    "PlatformsData": [
     ]
   },
   "EvolveWhip": {
     "description": "Evolve the Whip.",
     "goldPrize": 500,
     "weaponIcon": "VAMPIRICA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "VAMPIRICA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3614,6 +5072,14 @@
     "description": "Evolve the Magic Wand.",
     "goldPrize": 500,
     "weaponIcon": "HOLY_MISSILE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "HOLY_MISSILE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3638,6 +5104,14 @@
     "description": "Evolve the Knife.",
     "goldPrize": 500,
     "weaponIcon": "THOUSAND",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "THOUSAND"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3662,6 +5136,14 @@
     "description": "Evolve the Axe.",
     "goldPrize": 500,
     "weaponIcon": "SCYTHE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "SCYTHE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3686,6 +5168,14 @@
     "description": "Evolve the Santa Water.",
     "goldPrize": 500,
     "weaponIcon": "BORA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "BORA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3710,6 +5200,14 @@
     "description": "Evolve the Lightning Ring.",
     "goldPrize": 500,
     "weaponIcon": "LOOP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "LOOP"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3734,6 +5232,14 @@
     "description": "Evolve the King Bible.",
     "goldPrize": 500,
     "weaponIcon": "VESPERS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "VESPERS"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3758,6 +5264,14 @@
     "description": "Evolve the Cross.",
     "goldPrize": 500,
     "weaponIcon": "HEAVENSWORD",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "HEAVENSWORD"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3782,6 +5296,14 @@
     "description": "Evolve the Fire Wand.",
     "goldPrize": 500,
     "weaponIcon": "HELLFIRE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "HELLFIRE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3806,6 +5328,14 @@
     "description": "Evolve the Garlic.",
     "goldPrize": 500,
     "weaponIcon": "VORTEX",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "VORTEX"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3830,6 +5360,14 @@
     "description": "Evolve the Runetracer.",
     "goldPrize": 500,
     "weaponIcon": "ROCHER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "ROCHER"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3854,6 +5392,14 @@
     "description": "Evolve the Pentagram.",
     "goldPrize": 500,
     "weaponIcon": "SIRE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "SIRE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3878,6 +5424,14 @@
     "description": "Unite Ebony Wings and Peachone.",
     "goldPrize": 500,
     "weaponIcon": "SILF3",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "SILF3"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3902,6 +5456,14 @@
     "description": "Evolve and unite Phiera Der Tuphello and Eight The Sparrow.",
     "goldPrize": 500,
     "weaponIcon": "GUNS3",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "GUNS3"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3926,6 +5488,14 @@
     "description": "Evolve the Gatti Amari.",
     "goldPrize": 500,
     "weaponIcon": "STIGRANGATTI",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "STIGRANGATTI"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3950,6 +5520,14 @@
     "description": "Evolve the Song Of Mana.",
     "goldPrize": 500,
     "weaponIcon": "MANNAGGIA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "MANNAGGIA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3974,6 +5552,14 @@
     "description": "Evolve the Shadow Pinion.",
     "goldPrize": 500,
     "weaponIcon": "TRAPANO2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TRAPANO2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -3998,6 +5584,14 @@
     "description": "Unite Vento Sacro and Bloody Tear.",
     "goldPrize": 500,
     "weaponIcon": "VENTO2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "VENTO2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4022,6 +5616,14 @@
     "description": "Evolve the Bracelet and then the Bi-Bracelet.",
     "goldPrize": 500,
     "weaponIcon": "TRIASSO3",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TRIASSO3"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4047,6 +5649,14 @@
     "goldPrize": 500,
     "weaponIcon": "ICELANCE2",
     "requiresStage": "WHITEOUT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "ICELANCE2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4072,6 +5682,14 @@
     "goldPrize": 500,
     "weaponIcon": "SANTAJAVELIN2",
     "requiresStage": "LABORRATORY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "SANTAJAVELIN2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4092,11 +5710,49 @@
       }
     ]
   },
+  "EvolveOfGaea_Fix": {
+    "description": "Evolve the Gaze of Gaea.",
+    "goldPrize": 500,
+    "weaponIcon": "EX_GAEA2",
+    "requiresStage": "COOP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "EX_GAEA2"
+        ]
+      }
+    ]
+  },
+  "EvolveMagiStone": {
+    "description": "Evolve the Magi-Stone.",
+    "goldPrize": 500,
+    "weaponIcon": "EX_MAGISTONE2",
+    "requiresStage": "EX_WESTWOODS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "EX_MAGISTONE2"
+        ]
+      }
+    ],
+    "PlatformsData": [
+    ]
+  },
   "EvolvePhas3r": {
     "description": "Evolve the Phas3r.",
     "goldPrize": 500,
     "weaponIcon": "PHASER2",
     "requiresStage": "SPAZIE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "PHASER2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4146,6 +5802,12 @@
     "stageToUnlock": "DEVILROOM",
     "mistery": true,
     "requiresItem": "RELIC_SECRETS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "DEVILROOM"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4171,6 +5833,14 @@
     "mistery": true,
     "relicToUnlock": "RELIC_DARKASSO",
     "requiresStage": "DEVILROOM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_DARKASSO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4236,10 +5906,26 @@
       }
     ]
   },
+  "Dark_05Appunta": {
+    "description": ".",
+    "arcanaToUnlock": "27",
+    "requiresChar": "EX_ZIAPPUNTA",
+    "requiresItem": "RELIC_DARKASSO",
+    "PlatformsData": [
+    ]
+  },
   "Dark_06Darkasso": {
     "description": "Get possessed by the Darkasso.",
     "arcanaToUnlock": "28",
     "requiresItem": "RELIC_DARKASSO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_DARKASSO"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -4308,6 +5994,21 @@
         "Platfrom": "PS5",
         "Data": "0219"
       }
+    ]
+  },
+  "Dark_13Chula": {
+    "description": ".",
+    "arcanaToUnlock": "35",
+    "requiresChar": "EX_CHULAREH",
+    "requiresItem": "RELIC_DARKASSO",
+    "PlatformsData": [
+    ]
+  },
+  "Dark_18Challenge": {
+    "description": ".",
+    "arcanaToUnlock": "40",
+    "requiresItem": "RELIC_DARKASSO",
+    "PlatformsData": [
     ]
   },
   "Dark_21Robert": {

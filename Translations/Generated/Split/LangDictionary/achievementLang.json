@@ -2234,17 +2234,17 @@
   "CompleteCollection": {
     "description": {
       "en": "Complete the Collection 1.0.",
-      "fr": "Complétez votre collection.",
-      "it": "Completa la Collezione.",
-      "de": "Vervollständige die Sammlung.",
-      "es": "Completa la colección.",
-      "pt-BR": "Complete a Coleção.",
-      "pl": "Skompletuj Kolekcję.",
-      "ru": "Соберите полную коллекцию.",
-      "tr": "Koleksiyonu Tamamla.",
-      "zh-CN": "补全藏品。",
-      "ja": "コレクションを完成させる。",
-      "ko": "컬렉션을 완성합니다.",
+      "fr": "Complétez votre collection 1.0.",
+      "it": "Completa la Collezione 1.0.",
+      "de": "Vervollständige die Sammlung 1.0.",
+      "es": "Completa la colección 1.0.",
+      "pt-BR": "Complete a Coleção 1.0.",
+      "pl": "Skompletuj Kolekcję 1.0.",
+      "ru": "Соберите коллекцию 1.0.",
+      "tr": "1.0 Koleksiyonunu Tamamla.",
+      "zh-CN": "补全藏品 1.0.",
+      "ja": "コレクション1.0を完成させる。",
+      "ko": "컬렉션 1.0을 완성합니다.",
       "zh-TW": "集齊收藏品 1.0。",
       "uk": "Зберіть Колекцію 1.0."
     }
@@ -2405,7 +2405,7 @@
       "ru": "Получите седьмой рупор.",
       "tr": "Yedinci Borazan'ı edin.",
       "zh-CN": "获得第七号角。",
-      "ja": "第七のラッパ吹きを入手する。",
+      "ja": "第七のラッパを入手する。",
       "ko": "일곱 번째 나팔을 획득합니다.",
       "zh-TW": "獲得第七號角。",
       "uk": "Отримайте Сьомий рупор."
@@ -4772,7 +4772,7 @@
   "Dark_10Santa": {
     "description": {
       "en": "Trigger a Weird Souls Purifier with Santa Ladonna.",
-      "fr": "Déclenchez un Purificateur d'âmes étranges avec Santa Ladonna.",
+      "fr": "Déclenchez un purificateur d'âmes étranges avec Santa Ladonna.",
       "it": "Attiva uno Strani purificatori d'anime con Santa Ladonna.",
       "de": "Löse mit Santa Ladonna einen Seltsamen Seelenreiniger aus.",
       "es": "Activa un purificador de almas con Santa Ladonna.",
@@ -4790,7 +4790,7 @@
   "Dark_12Shemoon": {
     "description": {
       "en": "Trigger a Starry Heavens with She-Moon Eeta.",
-      "fr": "Déclenchez un Cieux étoilés avec She-Moon Eeta.",
+      "fr": "Déclenchez un cieux étoilés avec She-Moon Eeta.",
       "it": "Attiva un Cieli stellati con She-Moon Eeta.",
       "de": "Löse einen Sternenhimmel mit She-Moon Eeta aus.",
       "es": "Activa un cielo estrellado con She-Moon Eeta.",
@@ -7251,7 +7251,7 @@
   },
   "EvolveOfGaea": {
     "description": {
-      "en": "Evolve the Gaze of Gaea.",
+      "en": "Survive 20 minutes in The Coop.",
       "fr": "Faites évoluer le Regard de Gaïa.",
       "it": "Migliora lo Sguardo di Gaia.",
       "de": "Verbessere den Blick von Gaea.",
@@ -8217,6 +8217,312 @@
       "ko": "에메랄드 황홀감을 발견해서 진화시키세요.",
       "zh-TW": "找到並解放翡翠狂喜。",
       "uk": "Знайдіть та еволюціонуйте Смарагдове Вознесіння."
+    }
+  },
+  "FindManyClovers": {
+    "description": {
+      "en": "Find 23 Little Clovers.",
+      "fr": "Ramassez 23 Petits trèfles.",
+      "it": "Raccogli 23 Trifoglietti.",
+      "de": "Sammle 23 Kleeblättchen.",
+      "es": "Recoge 23 tréboles pequeños.",
+      "pt-BR": "Colete 23 Trevinhos.",
+      "pl": "Zbierz 23 Małych koniczyn.",
+      "ru": "Подберите 23 маленьких клеверов.",
+      "tr": "23 Küçük Yonca topla.",
+      "zh-CN": "拾取23株三叶草。",
+      "ja": "23個の小さなクローバーを入手する。",
+      "ko": "리틀 클로버 23개를 주우세요.",
+      "zh-TW": "收集 23 株三葉草。",
+      "uk": "Підберіть 23 малих конюшин."
+    }
+  },
+  "DefeatBossWestwoods": {
+    "description": {
+      "en": "Defeat the Knight of Spades in Westwoods.",
+      "fr": "Éliminez le Chevalier de pique à Westwoods.",
+      "it": "Sconfiggi il Cavaliere di picche nel Boscovest.",
+      "de": "Besiege den Pik-Ritter im Westwald.",
+      "es": "Derrota al caballero de picas en el Bosque del oeste.",
+      "pt-BR": "Derrote o Cavaleiro de Espadas no Bosque Poente.",
+      "pl": "Pokonaj Rycerza pik w Zachodnim borze.",
+      "ru": "Победите Пикового Валета в Западнолесье.",
+      "tr": "Batı Ormanları'ndaki Maça Şövalyesi'ni öldür.",
+      "zh-CN": "在西部森林中打败黑桃骑士。",
+      "ja": "西の森でスペードの騎士を倒す。",
+      "ko": "웨스트우즈에서 스페이드의 기사를 처치하세요.",
+      "zh-TW": "在西部森林擊敗黑桃騎士。",
+      "uk": "Здолайте Пікадора в Західноліссі."
+    }
+  },
+  "EvolveMagiStone": {
+    "description": {
+      "en": "Evolve the Magi-Stone.",
+      "fr": "Faites évoluer la Magipierre.",
+      "it": "Migliora la Magi-pietra.",
+      "de": "Verbessere den Stein der Weisen.",
+      "es": "Haz evolucionar la gemágica.",
+      "pt-BR": "Evolua a Magirrocha.",
+      "pl": "Ulepsz Magikamień.",
+      "ru": "Улучшите «Магикамень».",
+      "tr": "Magi-Taşı'nı evrilt.",
+      "zh-CN": "进化魔法石。",
+      "ja": "マギストーンを進化させる。",
+      "ko": "마기 스톤을 진화시키세요.",
+      "zh-TW": "解放魔法石。",
+      "uk": "Еволюціонуйте Чар-камінь."
+    }
+  },
+  "FindMasquerade": {
+    "description": {
+      "en": "Find the Masquerade Relic in Westwoods.",
+      "fr": "Trouvez la Relique de mascarade à Westwoods.",
+      "it": "Trova la reliquia Mascherata nel Boscovest.",
+      "de": "Finde das Relikt der Maskerade im Westwald.",
+      "es": "Encuentra la reliquia mascarada en el Bosque del oeste.",
+      "pt-BR": "Encontre a Relíquia Mascarada no Bosque Poente.",
+      "pl": "Znajdź relikwia Maskarada w Zachodnim borze.",
+      "ru": "Найдите «Маскарадную реликвию» в Западнолесье.",
+      "tr": "Batı Ormanları'ndaki Maskeli Balo Yadigarı'nı bul.",
+      "zh-CN": "在西部森林中找到假面派对神器。",
+      "ja": "西の森でマスカレードの遺物を見つける。",
+      "ko": "웨스트우즈에서 가면무도회 유물을 찾으세요.",
+      "zh-TW": "在西部森林尋找化裝舞會神器。",
+      "uk": "Знайдіть реліквію «Маскарад» у Західноліссі."
+    }
+  },
+  "DefeatShootingEnemies": {
+    "description": {
+      "en": "Defeat a total of 251096 Shooting Enemies.",
+      "fr": "Éliminez 1 996 ennemis qui lancent des projectiles.",
+      "it": "Sconfiggi 1996 Nemici sparanti.",
+      "de": "Besiege 1996 Gegner, die auf dich schießen.",
+      "es": "Derrota a 1996 enemigos que disparan.",
+      "pt-BR": "Derrote 1996 Inimigos Atiradores.",
+      "pl": "Pokonaj 1996 strzelających wrogów.",
+      "ru": "Победите 1996 стреляющих врагов.",
+      "tr": "Ateş eden 1996 düşman öldür.",
+      "zh-CN": "打败1996个射击敌人。",
+      "ja": "弾を発射する1996の敵を倒す。",
+      "ko": "1996명의 사격하는 적을 처치하세요.",
+      "zh-TW": "擊敗 1,996 個會進行遠程攻擊的敵人。",
+      "uk": "Здолайте 1996 ворожих стрільців."
+    }
+  },
+  "EvolveAmmoAppalate": {
+    "description": {
+      "en": "Evolve the Ammo Appalate.",
+      "fr": "Faites évoluer le Munizioni à gogo.",
+      "it": "Migliora le Munizioni Appalate.",
+      "de": "Verbessere den Kugelhagel.",
+      "es": "Haz evolucionar la munición appalate.",
+      "pt-BR": "Evolua a Ilimitarma.",
+      "pl": "Ulepsz Miotacz amunicji.",
+      "ru": "Улучшите «Экстрастрелянцу».",
+      "tr": "Mermisi Bitmez'i evrilt.",
+      "zh-CN": "进化永弹枪。",
+      "ja": "爆薬アパラチアの進化形。",
+      "ko": "탄약 아팔레트를 진화시키세요.",
+      "zh-TW": "解放王牌射手。",
+      "uk": "Еволюціонуйте Вічний боєприпас."
+    }
+  },
+  "GetMagiStoneToLevel7": {
+    "description": {
+      "en": "Get Magi-Stone To Level 7.",
+      "fr": "Améliorez la Magipierre jusqu'au niveau 7.",
+      "it": "Porta la Magi-pietra al livello 7.",
+      "de": "Bringe den Stein der Weisen auf Level 7.",
+      "es": "Mejora la gemágica al nivel 7.",
+      "pt-BR": "Eleve a Magirrocha para o nível 7.",
+      "pl": "Doprowadź Magikamień do 7. poziomu.",
+      "ru": "Получите «Магикамень» уровня 7.",
+      "tr": "Magi-Taşını Seviye 7'ye çıkar.",
+      "zh-CN": "将魔法石升到7级。",
+      "ja": "マギストーンをレベル7に上げる。",
+      "ko": "마기 스톤을 레벨 7에 맞추세요.",
+      "zh-TW": "將魔法石升到 7 級。",
+      "uk": "Отримайте Чар-камінь 7 рівня."
+    }
+  },
+  "GetAmmoAppalatetoLevel7": {
+    "description": {
+      "en": "Get Ammo Appalate To Level 7.",
+      "fr": "Améliorez le Munizioni à gogo jusqu'au niveau 7.",
+      "it": "Porta le Munizioni Appalate al livello 7.",
+      "de": "Bringe den Kugelhagel auf Level 7.",
+      "es": "Mejora la munición appalate al nivel 7.",
+      "pt-BR": "Eleve a Ilimitarma para o nível 7.",
+      "pl": "Doprowadź Miotacz amunicji do 7. poziomu.",
+      "ru": "Получите «Экстрастрелянцу» уровня 7.",
+      "tr": "Mermisi Bitmez'i Seviye 7'ye çıkar.",
+      "zh-CN": "将永弹枪升到7级。",
+      "ja": "爆薬アパラチアをレベル7に上げる。",
+      "ko": "탄약 아팔레트를 레벨 7에 맞추세요.",
+      "zh-TW": "將王牌射手升到 7 級。",
+      "uk": "Отримайте Вічний боєприпас 7 рівня."
+    }
+  },
+  "Survive20minutesInWestwoods": {
+    "description": {
+      "en": "Survive 20 minutes in Westwoods.",
+      "fr": "Survivez 20 minutes dans Westwoods.",
+      "it": "Sopravvivi per 20 minuti nel Boscovest.",
+      "de": "Überlebe 20 Minuten im Westwald.",
+      "es": "Sobrevive 20 minutos en el Bosque del oeste.",
+      "pt-BR": "Sobreviva por 20 minutos no Bosque Poente.",
+      "pl": "Przeżyj 20 minut w Zachodnim borze.",
+      "ru": "Продержитесь 20 минут в Западнолесье.",
+      "tr": "Batı Ormanları'nda 20 dakika hayatta kal.",
+      "zh-CN": "在西部森林存活20分钟。",
+      "ja": "西の森で20分間生き延びる。",
+      "ko": "웨스트우즈에서 20분 동안 생존하세요.",
+      "zh-TW": "在西部森林中存活 20 分鐘。",
+      "uk": "Протримайтеся 20 хвилин у Західноліссі."
+    }
+  },
+  "ReachLV80InverseWarehouse": {
+    "description": {
+      "en": "Reach Level 80 in Inverse Dairy Plant.",
+      "fr": "Atteignez le niveau 80 dans l'Usine laitière inversée.",
+      "it": "Raggiungi il livello 80 nel Caseificio invertito.",
+      "de": "Erreiche Level 80 in der Umgekehrten Molkerei.",
+      "es": "Alcanza el nivel 80 en el reflejo de la Central lechera.",
+      "pt-BR": "Alcance o nível 80 na Fábrica de Laticínios invertida.",
+      "pl": "Osiągnij 80. poziom w odwróconej Mleczarni.",
+      "ru": "Достигните уровня 80 в инверсии Молочного завода.",
+      "tr": "Ters Süt Ürünleri Fabrikası'nda Seviye 80'e ulaş.",
+      "zh-CN": "在乳品厂的翻转模式中达到80级。",
+      "ja": "インバース酪農場でレベル80に達する。",
+      "ko": "인버스 유제품 공장에서 레벨 80에 도달하세요.",
+      "zh-TW": "在顛倒模式的乳製品工廠中達到 80 級。",
+      "uk": "Досягніть 80 рівня на інвертованому Молокозаводі."
+    }
+  },
+  "FindChaosLazulia": {
+    "description": {
+      "en": "Find the Chaos Lazulia in Mazerella.",
+      "fr": "Trouvez le Chaos Lazulia dans Mazerella.",
+      "it": "Trova la Lazulia del caos in Mazerella.",
+      "de": "Finde den Chaos-Lazulia in Mazerella",
+      "es": "Encuentra la lazulita del caos en Pecorinto.",
+      "pt-BR": "Encontre a Lazulia do Caos em Mazerella.",
+      "pl": "Znajdź Lazulię chaosu w Camembiryncie.",
+      "ru": "Найдите «Лазулию хаоса» в Мацерелле.",
+      "tr": "Mazerella'daki Kaos Lazulia'yı bul.",
+      "zh-CN": "在奶酪迷宫中找到混沌天青石。",
+      "ja": "マゼレラでカオス・ラズリアを見つける。",
+      "ko": "마제렐라에서 카오스 라줄리아를 찾으세요.",
+      "zh-TW": "在馬澤瑞拉找到混沌天青石。",
+      "uk": "Знайдіть Лазулію Хаосу в Сирбіринті."
+    }
+  },
+  "FindRecycle": {
+    "description": {
+      "en": "Find the Wax Fetish in Mazerella.",
+      "fr": "Find the Wax Fetish in Mazerella.",
+      "it": "Find the Wax Fetish in Mazerella.",
+      "de": "Find the Wax Fetish in Mazerella.",
+      "es": "Find the Wax Fetish in Mazerella.",
+      "pt-BR": "Find the Wax Fetish in Mazerella.",
+      "pl": "Find the Wax Fetish in Mazerella.",
+      "ru": "Find the Wax Fetish in Mazerella.",
+      "tr": "Find the Wax Fetish in Mazerella.",
+      "zh-CN": "Find the Wax Fetish in Mazerella.",
+      "ja": "Find the Wax Fetish in Mazerella.",
+      "ko": "Find the Wax Fetish in Mazerella.",
+      "zh-TW": "Find the Wax Fetish in Mazerella.",
+      "uk": "Find the Wax Fetish in Mazerella."
+    }
+  },
+  "Dark_13Chula": {
+    "description": {
+      "en": "Reach +999% Luck with Chula-Reh",
+      "fr": "Reach +999% Luck with Chula-Reh",
+      "it": "Reach +999% Luck with Chula-Reh",
+      "de": "Reach +999% Luck with Chula-Reh",
+      "es": "Reach +999% Luck with Chula-Reh",
+      "pt-BR": "Reach +999% Luck with Chula-Reh",
+      "pl": "Reach +999% Luck with Chula-Reh",
+      "ru": "Reach +999% Luck with Chula-Reh",
+      "tr": "Reach +999% Luck with Chula-Reh",
+      "zh-CN": "Reach +999% Luck with Chula-Reh",
+      "ja": "Reach +999% Luck with Chula-Reh",
+      "ko": "Reach +999% Luck with Chula-Reh",
+      "zh-TW": "Reach +999% Luck with Chula-Reh",
+      "uk": "Reach +999% Luck with Chula-Reh"
+    }
+  },
+  "EvolveOfGaea_Fix": {
+    "description": {
+      "en": "Evolve the Gaze of Gaea.",
+      "fr": "Evolve the Gaze of Gaea.",
+      "it": "Evolve the Gaze of Gaea.",
+      "de": "Evolve the Gaze of Gaea.",
+      "es": "Evolve the Gaze of Gaea.",
+      "pt-BR": "Evolve the Gaze of Gaea.",
+      "pl": "Evolve the Gaze of Gaea.",
+      "ru": "Evolve the Gaze of Gaea.",
+      "tr": "Evolve the Gaze of Gaea.",
+      "zh-CN": "Evolve the Gaze of Gaea.",
+      "ja": "Evolve the Gaze of Gaea.",
+      "ko": "Evolve the Gaze of Gaea.",
+      "zh-TW": "Evolve the Gaze of Gaea.",
+      "uk": "Evolve the Gaze of Gaea."
+    }
+  },
+  "FindKaromasMana": {
+    "description": {
+      "en": "Find a Karoma's Mana in Westwoods.",
+      "fr": "Find a Karoma's Mana in Westwoods.",
+      "it": "Find a Karoma's Mana in Westwoods.",
+      "de": "Find a Karoma's Mana in Westwoods.",
+      "es": "Find a Karoma's Mana in Westwoods.",
+      "pt-BR": "Find a Karoma's Mana in Westwoods.",
+      "pl": "Find a Karoma's Mana in Westwoods.",
+      "ru": "Find a Karoma's Mana in Westwoods.",
+      "tr": "Find a Karoma's Mana in Westwoods.",
+      "zh-CN": "Find a Karoma's Mana in Westwoods.",
+      "ja": "Find a Karoma's Mana in Westwoods.",
+      "ko": "Find a Karoma's Mana in Westwoods.",
+      "zh-TW": "Find a Karoma's Mana in Westwoods.",
+      "uk": "Find a Karoma's Mana in Westwoods."
+    }
+  },
+  "Dark_18Challenge": {
+    "description": {
+      "en": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "fr": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "it": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "de": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "es": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "pt-BR": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "pl": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "ru": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "tr": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "zh-CN": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "ja": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "ko": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "zh-TW": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "uk": "Survive 30 minutes with no weapons in Inverse Green Acres."
+    }
+  },
+  "Dark_05Appunta": {
+    "description": {
+      "en": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta.",
+      "fr": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "it": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "de": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "es": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "pt-BR": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "pl": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "ru": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "tr": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "zh-CN": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "ja": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "ko": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "zh-TW": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta",
+      "uk": "Discover 10 Golden Treasure Chests in a single run with Zi'Appunta"
     }
   }
 }

@@ -17,8 +17,8 @@
         "EME_calamityblack_0.png"
       ],
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "maxSpeed": 340,
@@ -34,8 +34,7 @@
         "EME_CALAMITY_U",
         "EME_CALAMITY_R",
         "EME_CALAMITY_W",
-        "EME_CALAMITY_Y",
-        "EME_CALAMITY_SWARM"
+        "EME_CALAMITY_Y"
       ]
     }
   ],
@@ -58,8 +57,8 @@
       ],
       "maxSpeed": 340,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true
     }
@@ -83,8 +82,8 @@
       ],
       "passThroughWalls": true,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "maxSpeed": 340
     }
@@ -108,8 +107,8 @@
       ],
       "passThroughWalls": true,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "maxSpeed": 340
     }
@@ -133,8 +132,8 @@
       ],
       "passThroughWalls": true,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "maxSpeed": 340
     }
@@ -151,7 +150,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 0,
@@ -211,7 +210,7 @@
   "EME_GATEBOSS_DRAGON": [
     {
       "level": 1,
-      "maxHp": 18,
+      "maxHp": 15,
       "speed": 140,
       "power": 5,
       "knockback": 0,
@@ -224,7 +223,7 @@
       "res_Debuffs": 1,
       "res_Defang": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -625,7 +624,7 @@
       "textureName": "emeralds",
       "end": 12,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "frameNames": [
         "EME_rascal_0.png"
@@ -825,7 +824,7 @@
   "EME_GATEBOSS_SPECTER": [
     {
       "level": 1,
-      "maxHp": 70,
+      "maxHp": 100,
       "scale": 1.5,
       "skills": [
         0
@@ -863,7 +862,7 @@
   "EME_GATEBOSS_IRONMAIDEN": [
     {
       "level": 1,
-      "maxHp": 70,
+      "maxHp": 100,
       "scale": 1.5,
       "skills": [
         0
@@ -927,7 +926,7 @@
   "EME_GATEBOSS_LIVINGANGUISH": [
     {
       "level": 1,
-      "maxHp": 128,
+      "maxHp": 255,
       "scale": 1.5,
       "skills": [
         0
@@ -983,7 +982,7 @@
       ],
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1007,7 +1006,7 @@
       ],
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1033,7 +1032,7 @@
         "EME_boar2_0.png"
       ],
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5
     }
@@ -1059,7 +1058,7 @@
       ],
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": true
     }
@@ -1087,7 +1086,7 @@
       ],
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1113,7 +1112,7 @@
         "EME_Werewolf_0.png"
       ],
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5
     }
@@ -1144,7 +1143,7 @@
       },
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1176,7 +1175,7 @@
       },
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1207,7 +1206,7 @@
         "offsetX": -4
       },
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5
     }
@@ -1235,7 +1234,7 @@
       ],
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1267,7 +1266,7 @@
       ],
       "scale": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1294,7 +1293,7 @@
         "EME_Ant2_0.png"
       ],
       "skills": [
-        0
+        "HP_x_Level"
       ]
     }
   ],
@@ -1322,8 +1321,8 @@
       },
       "scale": 0.8,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "moreX": 50,
@@ -1342,7 +1341,7 @@
       "xp": 1,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "idleFrameCount": 4,
@@ -1381,9 +1380,9 @@
         "EME_calamityyellow_0.png"
       ],
       "skills": [
-        3,
-        1,
-        0
+        "Medusa",
+        "Fixed_Direction",
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "maxSpeed": 340
@@ -1414,8 +1413,8 @@
       },
       "scale": 1.3,
       "skills": [
-        2,
-        0
+        "Fixed_Direction",
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "moreX": 50,
@@ -1447,8 +1446,8 @@
       },
       "scale": 1.4,
       "skills": [
-        2,
-        0
+        "Fixed_Direction",
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "moreX": 50,
@@ -1502,7 +1501,7 @@
         ]
       }
     ],
-  "EME_SUSPICIOUS_OGRE": [
+    "EME_SUSPICIOUS_OGRE": [
       {
         "level": 1,
         "res_Freeze": 1.1,
@@ -1530,11 +1529,11 @@
         ],
         "scale": 1.5,
         "skills": [
-          0
+          "HP_x_Level"
         ]
       }
     ],
-  "EME_BOSS_CURSEDMONARCH": [
+    "EME_BOSS_CURSEDMONARCH": [
       {
         "level": 1,
         "maxHp": 40,
@@ -1545,7 +1544,7 @@
         "res_Debuffs": 1,
         "res_Defang": 1,
         "skills": [
-          0
+          "HP_x_Level"
         ],
         "knockback": 0,
         "maxKnockback": 0,

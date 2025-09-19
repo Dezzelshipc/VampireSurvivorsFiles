@@ -185,9 +185,13 @@ class Unpacker(tk.Tk):
             length=280
         )
         self.progress_bar.grid(row=3, column=0)
-        self.l_progress_bar_string = tk.StringVar()
+        self.l_progress_bar_string = tk.StringVar(name="pg_s_u")
         self.l_progress_bar = ttk.Label(self, textvariable=self.l_progress_bar_string)
         self.l_progress_bar.grid(row=2, column=0)
+
+        self.l_progress_bar_string_lower = tk.StringVar(name="pg_s_l")
+        self.l_progress_bar_lower = ttk.Label(self, textvariable=self.l_progress_bar_string_lower)
+        self.l_progress_bar_lower.grid(row=4, column=0)
 
         self.last_loaded_folder: Path | None = None
 
@@ -295,17 +299,25 @@ class Unpacker(tk.Tk):
                  f"Read README.md for more info."
                  )
 
-    def progress_bar_set_percent(self, current, total):
+    def progress_bar_set_percent(self, current, total, add_text=""):
         self.progress_bar['value'] = current * 100 / total if total else 100
         self.progress_bar.update()
+
         self.l_progress_bar_string.set(f"{current} / {total}")
         self.l_progress_bar.update()
 
-    def progress_bar_set_sec(self, seconds: float):
+        self.l_progress_bar_string_lower.set(add_text)
+        self.l_progress_bar_lower.update()
+
+    def progress_bar_set_sec(self, seconds: float, add_text=""):
         self.progress_bar['value'] = (seconds * 10) % 100
         self.progress_bar.update()
+
         self.l_progress_bar_string.set(f"{seconds:.2f}")
         self.l_progress_bar.update()
+
+        self.l_progress_bar_string_lower.set(add_text)
+        self.l_progress_bar_lower.update()
 
     def open_last_loaded(self):
         if self.last_loaded_folder and self.last_loaded_folder.exists():
@@ -578,6 +590,8 @@ class Unpacker(tk.Tk):
         i = 0
 
         for data_type in data_types:
+            self.progress_bar_set_percent(i := i + 1, len(data_types), data_type.name)
+
             save_path = DATA_FOLDER / GENERATED
             save_path.mkdir(parents=True, exist_ok=True)
 
@@ -585,7 +599,6 @@ class Unpacker(tk.Tk):
             with open((save_path / data_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
                 f.write(data_file.raw_text())
 
-            self.progress_bar_set_percent(i := i + 1, len(data_types))
 
         print(f"Finished concatenating data files. {_time!r}")
 

@@ -1,69 +1,213 @@
 {
   "CHAL01_FindCoffin": {
     "description": "Find and open the coffin in Polus.",
-    "characterToUnlock": "C1_CREWMATE"
+    "characterToUnlock": "C1_CREWMATE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "C1_CREWMATE"
+      }
+    ]
   },
   "CHAL02_Survive15Red": {
     "description": "Survive 15 minutes with Crewmate Dino.",
-    "weaponToUnlock": "C1_REPORT1"
+    "weaponToUnlock": "C1_REPORT1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_CREWMATE"
+      }
+    ]
   },
   "CHAL03_EvolveReport": {
     "description": "Evolve the Reporting Device.",
-    "characterToUnlock": "C1_IMPOSTOR"
+    "characterToUnlock": "C1_IMPOSTOR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "C1_REPORT2"
+        ]
+      }
+    ]
   },
   "CHAL04_Survive15Purple": {
     "description": "Survive 15 minutes with Impostor Rina.",
-    "weaponToUnlock": "C1_TONGUE1"
+    "weaponToUnlock": "C1_TONGUE1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_IMPOSTOR"
+      }
+    ]
   },
   "CHAL05_EvolveTongue": {
     "description": "Evolve the Killer Tongue.",
-    "characterToUnlock": "C1_ENGINEER"
+    "characterToUnlock": "C1_ENGINEER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "C1_TONGUE2"
+        ]
+      }
+    ]
   },
   "CHAL06_Survive15Orange": {
     "description": "Survive 15 minutes with Engineer Gino.",
-    "weaponToUnlock": "C1_SWIPECARD1"
+    "weaponToUnlock": "C1_SWIPECARD1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_ENGINEER"
+      }
+    ]
   },
   "CHAL07_EvolveSwipe": {
     "description": "Evolve the Swipe Card.",
-    "characterToUnlock": "C1_SCIENTIST"
+    "characterToUnlock": "C1_SCIENTIST",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "C1_SWIPECARD2"
+        ]
+      }
+    ]
   },
   "CHAL08_ReachLv50Pink": {
     "description": "Survive 15 minutes with Scientist Mina.",
-    "weaponToUnlock": "C1_SAMPLES1"
+    "weaponToUnlock": "C1_SAMPLES1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_SCIENTIST"
+      }
+    ]
   },
   "CHAL09_EvolveSamples": {
     "description": "Evolve the Propellant Sampling.",
-    "characterToUnlock": "C1_SHAPESHIFTER"
+    "characterToUnlock": "C1_SHAPESHIFTER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "C1_SAMPLES2"
+        ]
+      }
+    ]
   },
   "CHAL10_Survive15Green": {
     "description": "Survive 15 minutes with Shapeshifter Nino.",
-    "weaponToUnlock": "C1_VENT1"
+    "weaponToUnlock": "C1_VENT1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_SHAPESHIFTER"
+      }
+    ]
   },
   "CHAL11_EvolveVent": {
     "description": "Evolve the Just Vent.",
     "goldPrize": 50000,
-    "weaponIcon": "C1_VENT2"
+    "weaponIcon": "C1_VENT2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "C1_VENT2"
+        ]
+      }
+    ]
   },
   "CHAL12_GetMedicalToLevel7": {
     "description": "Find and get a Medical Scan to level 7.",
-    "weaponToUnlock": "C1_MEDICAL1"
+    "weaponToUnlock": "C1_MEDICAL1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons":[
+          "C1_MEDICAL1"
+        ],
+        "RequiredEvolvedWeapons":[
+          "C1_MEDICAL2"
+        ]
+      }
+    ]
   },
   "CHAL13_EvolveMedical": {
     "description": "Evolve the Medical Scan.",
-    "characterToUnlock": "C1_GHOST"
+    "characterToUnlock": "C1_GHOST",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "C1_MEDICAL2"
+        ]
+      }
+    ]
   },
   "CHAL14_KillOneWithYellow": {
     "description": "Defeat 1 enemy with Ghost Lino.",
-    "characterToUnlock": "C1_GUARDIAN"
+    "characterToUnlock": "C1_GUARDIAN",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_GHOST"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":1
+      }
+    ]
   },
   "CHAL15_ReachLv50Blue": {
     "description": "Survive 15 minutes with Guardian Pina.",
-    "weaponToUnlock": "C1_GARBA1"
+    "weaponToUnlock": "C1_GARBA1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevel",
+        "RequiredLevel": 50
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_GUARDIAN"
+      }
+    ]
   },
   "CHAL16_EvolveGarbage": {
     "description": "Evolve the Clear Debris.",
     "goldPrize": 50000,
-    "weaponIcon": "C1_GARBA2"
+    "weaponIcon": "C1_GARBA2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "C1_GARBA2"
+        ]
+      }
+    ]
   },
   "CHAL17_Defeat6000Cute": {
     "description": "Defeat 6000 Moon Rabbits.",
@@ -72,14 +216,45 @@
   },
   "CHAL18_Defeat100kPurple": {
     "description": "Defeat 100000 enemies in a single run with Impostor Rina.",
-    "characterToUnlock": "C1_MEGAIMPOSTOR"
+    "characterToUnlock": "C1_MEGAIMPOSTOR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "C1_IMPOSTOR"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":100000
+      }
+    ]
   },
   "CHAL19_DefeatBoss25": {
     "description": "Defeat the Impostor Eyes in Polus Replica.",
-    "hyperToUnlock": "POLUS"
+    "hyperToUnlock": "POLUS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "POLUS"
+      },
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":1,
+        "RequiredEnemyTypes":[
+          "CHAL_ANIMEXXL"
+        ]
+      }
+    ]
   },
   "CHAL20_FindMap": {
     "description": "Find the Polus Replica Map.",
-    "relicToUnlock": "RELIC_MAP_CHAL"
+    "relicToUnlock": "RELIC_MAP_CHAL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "RELIC_MAP_CHAL"
+        ]
+      }
+    ]
   }
 }

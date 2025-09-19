@@ -44,51 +44,53 @@
       "MAGNET",
       "CANDYBOX"
     ],
-    "PROGRESS_DATA": {
-      "POES_ACH001": {
-        "progressKey": "POES_ACH001",
+    "PROGRESS_DATA": [
+      {
+        
         "description": "Survive 10 minutes in An Old Mad Forest.",
         "stageToUnlock": "ADV_POE_2_Forest",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "POES_ACH001",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter2",
           "requiredMinute": 10,
           "requiredStage": "ADV_POE_1_Acres"
         }
       },
-      "POES_ACH002": {
-        "progressKey": "POES_ACH002",
+      {
+        
         "description": "Survive 15 minutes in A Rough Awakening.",
         "stageToUnlock": "ADV_POE_3_Woods",
         "characterToUnlock": "TATANKA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "POES_ACH002",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter3",
           "requiredMinute": 15,
           "requiredStage": "ADV_POE_2_Forest"
         }
       },
-      "POES_ACH003": {
-        "progressKey": "POES_ACH003",
+      {
         "description": "Open the coffin in Risky Woods.",
         "stageToUnlock": "ADV_POE_4_Orchard",
         "characterToUnlock": "DOMMARIO",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "POES_ACH003",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter4",
           "requiredStage": "ADV_POE_3_Woods",
           "foundCoffin": "DOMMARIO"
         }
       },
-      "POES_ACH004": {
-        "progressKey": "POES_ACH004",
+      {
         "description": "Defeat a Jiva Tree in Rotten Orchard.",
         "stageToUnlock": "ADV_POE_5_Garden",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "POES_ACH004",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter5",
           "requiredStage": "ADV_POE_4_Orchard",
@@ -96,23 +98,23 @@
           "requiredEnemyKillCount": 1
         }
       },
-      "POES_ACH005": {
-        "progressKey": "POES_ACH005",
+      {
         "description": "Reach Level 50 in Garlic Paradise.",
         "stageToUnlock": "ADV_POE_6_Molise",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "POES_ACH005",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter6",
           "requiredStage": "ADV_POE_5_Garden",
           "requiredLevel": 50
         }
       },
-      "POES_ACH006": {
-        "progressKey": "POES_ACH006",
+      {
         "description": "Defeat 3000 Molisani in Il Molise.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "POES_ACH006",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapterFinal",
           "requiredStage": "ADV_POE_6_Molise",
@@ -120,94 +122,94 @@
           "requiredEnemyKillCount": 3000
         }
       },
-      "POES_ACH007": {
-        "progressKey": "POES_ACH007",
+      {
         "description": "Find the Whip.",
         "characterToUnlock": "ANTONIO",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "POES_ACH007",
           "iconTextureName": "UI",
           "iconSpriteName": "p_antonio",
           "foundWeaponType": "WHIP"
         }
       },
-      "POES_ACH008": {
-        "progressKey": "POES_ACH008",
+      {
         "description": "Find the Magic Wand.",
         "characterToUnlock": "IMELDA",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "POES_ACH008",
           "iconTextureName": "UI",
           "iconSpriteName": "p_imelda",
           "foundWeaponType": "MAGIC_MISSILE"
         }
       },
-      "POES_ACH009": {
-        "progressKey": "POES_ACH009",
+      {
         "description": "Find the Runetracer.",
         "characterToUnlock": "PASQUALINA",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "POES_ACH009",
           "iconTextureName": "UI",
           "iconSpriteName": "p_pasqualina",
           "foundWeaponType": "DIAMOND"
         }
       },
-      "POES_ACH010": {
-        "progressKey": "POES_ACH010",
+      {
         "description": "Find the Knife.",
         "characterToUnlock": "GENNARO",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "POES_ACH010",
           "iconTextureName": "UI",
           "iconSpriteName": "p_gennaro",
           "foundWeaponType": "KNIFE"
         }
       },
-      "POES_ACH014": {
-        "progressKey": "POES_ACH014",
+      {
         "description": "Find the coffin in A Rough Awakening.",
         "characterToUnlock": "PUGNALA",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "POES_ACH014",
           "iconTextureName": "UI",
           "iconSpriteName": "p_pugnala",
           "foundCoffin": "PUGNALA"
         }
       },
-      "POES_ACH011": {
-        "progressKey": "POES_ACH011",
+      {
         "description": "Evolve the Vento Sacro or find the Fuwalafuwaloo.",
         "characterToUnlock": "ASSUNTA",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "POES_ACH011",
           "iconTextureName": "UI",
           "iconSpriteName": "p_assunta",
           "foundWeaponType": "VENTO2"
         }
       },
-      "POES_ACH012": {
-        "progressKey": "POES_ACH012",
+      {
         "description": "Evolve the Garlic.",
         "characterToUnlock": "PEPPINO",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "POES_ACH012",
           "iconTextureName": "UI",
           "iconSpriteName": "p_peppino",
           "foundWeaponType": "VORTEX"
         }
       },
-      "POES_ACH013": {
-        "progressKey": "POES_ACH013",
+      {
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
+          "Type": "POES_ACH013",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
         }
       }
-    }
+    ]
   },
   "ADV_IMEL_001": {
     "progressKey": "WorldOfLightAndDark",
@@ -258,75 +260,75 @@
       "SPEED",
       "DURATION"
     ],
-    "PROGRESS_DATA": {
-      "IMEL_ACH001": {
-        "progressKey": "IMEL_ACH001",
+    "PROGRESS_DATA": [
+      {
         "description": "Survive for 10 minutes in Chapel Catastrophe.",
         "stageToUnlock": "ADV_IME_2_Library",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH001",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter2",
           "requiredMinute": 10,
           "requiredStage": "ADV_IME_1_Chapel"
         }
       },
-      "IMEL_ACH002": {
-        "progressKey": "IMEL_ACH002",
+      {
         "description": "Find the Empty Tome and evolve the Magic Wand.",
         "stageToUnlock": "ADV_IME_3_Forest",
         "weaponToUnlock": "COOLDOWN",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH002",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter3",
           "requiredStage": "ADV_IME_2_Library",
           "foundWeaponType": "HOLY_MISSILE"
         }
       },
-      "IMEL_ACH003": {
-        "progressKey": "IMEL_ACH003",
+      {
         "description": "Open Pugnala Provola's coffin in Quickdraw Rebel.",
         "stageToUnlock": "ADV_IME_4_Tower",
         "characterToUnlock": "PUGNALA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH003",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter4",
           "requiredStage": "ADV_IME_3_Forest",
           "foundCoffin": "PUGNALA"
         }
       },
-      "IMEL_ACH004": {
-        "progressKey": "IMEL_ACH004",
+      {
         "description": "Open Krochi Freeto's coffin in Chromatic Carnage.",
         "stageToUnlock": "ADV_IME_5_Stair",
         "characterToUnlock": "CROCI",
         "weaponToUnlock": "CROSS",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH004",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter5",
           "requiredStage": "ADV_IME_4_Tower",
           "foundCoffin": "CROCI"
         }
       },
-      "IMEL_ACH005": {
-        "progressKey": "IMEL_ACH005",
+      {
         "description": "Evolve and unite Phiera Der Tuphello and Eight The Sparrow.",
         "stageToUnlock": "ADV_IME_6_Magna",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH005",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter6",
           "foundWeaponType": "GUNS3"
         }
       },
-      "IMEL_ACH006": {
-        "progressKey": "IMEL_ACH006",
+      {
         "description": "Defeat The Ender in Cappella Magna.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH006",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapterFinal",
           "requiredStage": "ADV_IME_6_Magna",
@@ -334,44 +336,44 @@
           "requiredEnemyKillCount": 1
         }
       },
-      "IMEL_ACH007": {
-        "progressKey": "IMEL_ACH007",
+      {
         "description": "Open Suor Clerici's coffin in Chapel Catastrophe.",
         "characterToUnlock": "GERMANA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH007",
           "iconTextureName": "UI",
           "foundCoffin": "GERMANA"
         }
       },
-      "IMEL_ACH008": {
-        "progressKey": "IMEL_ACH008",
+      {
         "description": "Find the King Bible in Chapel Catastrophe.",
         "weaponToUnlock": "HOLYBOOK",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH008",
           "iconTextureName": "items",
           "iconSpriteName": "HolyBook",
           "foundWeaponType": "HOLYBOOK"
         }
       },
-      "IMEL_ACH016": {
-        "progressKey": "IMEL_ACH016",
+      {
         "description": "Open Giovanna Grana's coffin in the Inlaid Library.",
         "characterToUnlock": "GIOVANNA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH016",
           "iconTextureName": "UI",
           "iconSpriteName": "p_giovanna",
           "foundCoffin": "GIOVANNA"
         }
       },
-      "IMEL_ACH009": {
-        "progressKey": "IMEL_ACH009",
+      {
         "description": "Defeat 12 Sig.ra Rossi",
         "weaponToUnlock": "MISSPELL",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH009",
           "iconTextureName": "items",
           "iconSpriteName": "flame1",
           "requiredEnemyKillType": "SHADERED",
@@ -379,85 +381,85 @@
           "foundWeaponType": "MISSPELL"
         }
       },
-      "IMEL_ACH010": {
-        "progressKey": "IMEL_ACH010",
+      {
         "description": "Find the Song of Mana in Gallo Tower.",
         "characterToUnlock": "POPPEA",
         "weaponToUnlock": "SONG",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH010",
           "iconTextureName": "items",
           "iconSpriteName": "Song",
           "foundWeaponType": "SONG"
         }
       },
-      "IMEL_ACH011": {
-        "progressKey": "IMEL_ACH011",
+      {
         "description": "Enter the magic mirror on the left and open Concetta Caciotta's Coffin in Gallo Tower.",
         "characterToUnlock": "CONCETTA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH011",
           "iconTextureName": "UI",
           "iconSpriteName": "p_concetta",
           "foundCoffin": "CONCETTA"
         }
       },
-      "IMEL_ACH012": {
-        "progressKey": "IMEL_ACH012",
+      {
         "description": "Find Phiera Der Tuphello in Astral Stair.",
         "weaponToUnlock": "GUNS",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH012",
           "iconTextureName": "items",
           "iconSpriteName": "Guns",
           "foundWeaponType": "GUNS"
         }
       },
-      "IMEL_ACH013": {
-        "progressKey": "IMEL_ACH013",
+      {
         "description": "Find Eight The Sparrow in Astral Stair.",
         "weaponToUnlock": "GUNS2",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH013",
           "iconTextureName": "items",
           "iconSpriteName": "Guns2",
           "foundWeaponType": "GUNS2"
         }
       },
-      "IMEL_ACH014": {
-        "progressKey": "IMEL_ACH014",
+      {
         "description": "Open Yatta Cavallo's coffin in Astral Stair.",
         "characterToUnlock": "CAVALLO",
         "weaponToUnlock": "CHERRY",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH014",
           "iconTextureName": "UI",
           "iconSpriteName": "p_cavallo",
           "foundCoffin": "CAVALLO"
         }
       },
-      "IMEL_ACH017": {
-        "progressKey": "IMEL_ACH017",
+      {
         "description": "Open Zi'Assunta's coffin in Capella Magna.",
         "characterToUnlock": "ASSUNTA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "IMEL_ACH017",
           "iconTextureName": "UI",
           "iconSpriteName": "p_assunta",
           "foundCoffin": "ASSUNTA"
         }
       },
-      "IMEL_ACH015": {
-        "progressKey": "IMEL_ACH015",
+      {
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
+          "Type": "IMEL_ACH015",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
         }
       }
-    },
+    ],
     "EXTRA_BESTIARY_TYPES": [
       "SHADERED"
     ]
@@ -513,64 +515,64 @@
       "GROWTH",
       "MOVESPEED"
     ],
-    "PROGRESS_DATA": {
-      "SHEMOON_ACH001": {
-        "progressKey": "SHEMOON_ACH001",
+    "PROGRESS_DATA": [
+      {
         "description": "Open the coffin in Ice Age.",
         "stageToUnlock": "ADV_SHEMOON_002",
         "characterToUnlock": "MORTACCIO",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH001",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter2",
           "requiredStage": "ADV_SHEMOON_001",
           "foundCoffin": "MORTACCIO"
         }
       },
-      "SHEMOON_ACH002": {
-        "progressKey": "SHEMOON_ACH002",
+      {
         "description": "Open the coffin in Ice Cream.",
         "stageToUnlock": "ADV_SHEMOON_003",
         "characterToUnlock": "MARIA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH002",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter3",
           "requiredStage": "ADV_SHEMOON_002",
           "foundCoffin": "MARIA"
         }
       },
-      "SHEMOON_ACH003": {
-        "progressKey": "SHEMOON_ACH003",
+      {
         "description": "Open the coffin in A Fiery Apparition.",
         "stageToUnlock": "ADV_SHEMOON_004",
         "characterToUnlock": "PAVONE",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH003",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter4",
           "requiredStage": "ADV_SHEMOON_003",
           "foundCoffin": "PAVONE"
         }
       },
-      "SHEMOON_ACH004": {
-        "progressKey": "SHEMOON_ACH004",
+      {
         "description": "Open the coffin in A Pure Heart.",
         "stageToUnlock": "ADV_SHEMOON_005",
         "characterToUnlock": "CRISTINA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH004",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter5",
           "requiredStage": "ADV_SHEMOON_004",
           "foundCoffin": "CRISTINA"
         }
       },
-      "SHEMOON_ACH005": {
-        "progressKey": "SHEMOON_ACH005",
+      {
         "description": "Make 30000 Roast Chickens.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH005",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapterFinal",
           "requiredStage": "ADV_SHEMOON_005",
@@ -578,120 +580,120 @@
           "requiredEnemyKillType": "COOP_CHICKEN_COUNTER"
         }
       },
-      "SHEMOON_ACH006": {
-        "progressKey": "SHEMOON_ACH006",
+      {
         "description": "Survive 10 minutes with Cosmo Pavone.",
         "characterToUnlock": "EXDASH",
         "goldPrize": 777,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH006",
           "iconTextureName": "UI",
           "iconSpriteName": "p_g1",
           "requiredMinute": 10,
           "requiredCharacter": "PAVONE"
         }
       },
-      "SHEMOON_ACH007": {
-        "progressKey": "SHEMOON_ACH007",
+      {
         "description": "Survive 20 minutes with Cosmo Pavone.",
         "characterToUnlock": "PANINI",
         "goldPrize": 777,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH007",
           "iconTextureName": "UI",
           "iconSpriteName": "p_g2",
           "requiredMinute": 20,
           "requiredCharacter": "PAVONE"
         }
       },
-      "SHEMOON_ACH008": {
-        "progressKey": "SHEMOON_ACH008",
+      {
         "description": "Survive 30 minutes with Cosmo Pavone.",
         "characterToUnlock": "SMITH",
         "goldPrize": 777,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH008",
           "iconTextureName": "UI",
           "iconSpriteName": "p_g3",
           "requiredMinute": 30,
           "requiredCharacter": "PAVONE"
         }
       },
-      "SHEMOON_ACH009": {
-        "progressKey": "SHEMOON_ACH009",
+      {
         "description": "Reach Level 40 with She-Moon Eeta.",
         "characterToUnlock": "YOLO",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH009",
           "iconTextureName": "UI",
           "iconSpriteName": "p_gazebo",
           "requiredCharacter": "SHEMOONITA",
           "requiredLevel": 40
         }
       },
-      "SHEMOON_ACH010": {
-        "progressKey": "SHEMOON_ACH010",
+      {
         "description": "Find the Fire Wand.",
         "weaponToUnlock": "FIREBALL",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH010",
           "iconTextureName": "items",
           "iconSpriteName": "WandFire",
           "foundWeaponType": "FIREBALL"
         }
       },
-      "SHEMOON_ACH011": {
-        "progressKey": "SHEMOON_ACH011",
+      {
         "description": "Find the Bracelet.",
         "weaponToUnlock": "TRIASSO1",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH011",
           "iconTextureName": "items",
           "iconSpriteName": "bracelet1",
           "foundWeaponType": "TRIASSO1"
         }
       },
-      "SHEMOON_ACH012": {
-        "progressKey": "SHEMOON_ACH012",
+      {
         "description": "Find the Santa Water.",
         "weaponToUnlock": "HOLYWATER",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH012",
           "iconTextureName": "items",
           "iconSpriteName": "HolyWater",
           "foundWeaponType": "HOLYWATER"
         }
       },
-      "SHEMOON_ACH013": {
-        "progressKey": "SHEMOON_ACH013",
+      {
         "description": "Find the Shadow Pinion.",
         "weaponToUnlock": "TRAPANO",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH013",
           "iconTextureName": "items",
           "iconSpriteName": "trapano",
           "foundWeaponType": "TRAPANO"
         }
       },
-      "SHEMOON_ACH014": {
-        "progressKey": "SHEMOON_ACH014",
+      {
         "description": "Find the Parm Aegis.",
         "weaponToUnlock": "PARMA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH014",
           "iconTextureName": "items",
           "iconSpriteName": "parma",
           "foundWeaponType": "PARMA"
         }
       },
-      "SHEMOON_ACH015": {
-        "progressKey": "SHEMOON_ACH015",
+      {
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
+          "Type": "SHEMOON_ACH015",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
         }
       }
-    }
+    ]
   },
   "ADV_LMS_001": {
     "progressKey": "LegacyOfTheMoonspell",
@@ -747,48 +749,48 @@
       "CURSE",
       "MOVESPEED"
     ],
-    "PROGRESS_DATA": {
-      "MS001_ACH001": {
-        "progressKey": "MS001_ACH001",
+    "PROGRESS_DATA": [
+      {
         "description": "Survive 1 Minute in Castle Grounds.",
         "stageToUnlock": "ADV_M002SHRINESVALLEY",
         "adventureUnlockData": {
+          "Type": "MS001_ACH001",
           "iconTextureName": "UI",
           "iconSpriteName": "p_mia",
           "requiredMinute": 1,
           "requiredStage": "ADV_M001CASTLEGROUNDS"
         }
       },
-      "MS001_ACH002": {
-        "progressKey": "MS001_ACH002",
+      {
         "description": "Open the coffin in Shrine Valley.",
         "stageToUnlock": "ADV_M003FORBIDDENPEAK",
         "characterToUnlock": "MENYA",
         "adventureUnlockData": {
+          "Type": "MS001_ACH002",
           "iconTextureName": "UI",
           "iconSpriteName": "p_van",
           "requiredStage": "ADV_M002SHRINESVALLEY",
           "foundCoffin": "MENYA"
         }
       },
-      "MS001_ACH003": {
-        "progressKey": "MS001_ACH003",
+      {
         "description": "Open the coffin in Forbidden Peaks.",
         "stageToUnlock": "ADV_M004HIDDENCAVE",
         "characterToUnlock": "SYUUTO",
         "adventureUnlockData": {
+          "Type": "MS001_ACH003",
           "iconTextureName": "UI",
           "iconSpriteName": "p_vad",
           "requiredStage": "ADV_M003FORBIDDENPEAK",
           "foundCoffin": "SYUUTO"
         }
       },
-      "MS001_ACH004": {
-        "progressKey": "MS001_ACH004",
+      {
         "description": "Defeat Megalo Syuuto in the Hidden Cave.",
         "stageToUnlock": "ADV_M005FROZENLAKE",
         "characterToUnlock": "MEGASYUUTO",
         "adventureUnlockData": {
+          "Type": "MS001_ACH004",
           "iconTextureName": "UI",
           "iconSpriteName": "p_vadBeast",
           "requiredStage": "ADV_M004HIDDENCAVE",
@@ -796,35 +798,35 @@
           "requiredEnemyKillCount": 1
         }
       },
-      "MS001_ACH005": {
-        "progressKey": "MS001_ACH005",
+      {
         "description": "Defeat a total of 3000 Madd-Onnas in Frozen Lake.",
         "stageToUnlock": "ADV_M006TANUKIFOREST",
         "characterToUnlock": "ONNA",
         "adventureUnlockData": {
+          "Type": "MS001_ACH005",
           "iconTextureName": "UI",
           "iconSpriteName": "p_onna",
           "requiredEnemyKillType": "EX_ILLUSION",
           "requiredEnemyKillCount": 3000
         }
       },
-      "MS001_ACH006": {
-        "progressKey": "MS001_ACH006",
+      {
         "description": "Survive 10 Minutes in Tanuki Forest.",
         "stageToUnlock": "ADV_M007MOONSPELL",
         "characterToUnlock": "MCCOY",
         "adventureUnlockData": {
+          "Type": "MS001_ACH006",
           "iconTextureName": "UI",
           "iconSpriteName": "p_mccoy",
           "requiredMinute": 10,
           "requiredStage": "ADV_M006TANUKIFOREST"
         }
       },
-      "MS001_ACH007": {
-        "progressKey": "MS001_ACH007",
+      {
         "description": "Defeat Orochimario.",
         "goldPrize": 20000,
         "adventureUnlockData": {
+          "Type": "MS001_ACH007",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapterFinal",
           "requiredStage": "ADV_M007MOONSPELL",
@@ -832,78 +834,78 @@
           "requiredEnemyKillCount": 1
         }
       },
-      "MS001_ACH008": {
-        "progressKey": "MS001_ACH008",
+      {
         "description": "Find the Mille Bolle Blu.",
         "characterToUnlock": "TONY",
         "adventureUnlockData": {
+          "Type": "MS001_ACH008",
           "iconTextureName": "UI",
           "iconSpriteName": "p_gavet",
           "foundWeaponType": "BUBBLES"
         }
       },
-      "MS001_ACH009": {
-        "progressKey": "MS001_ACH009",
+      {
         "description": "Evolve the Silver Wind.",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "MS001_ACH009",
           "iconTextureName": "items",
           "iconSpriteName": "silverWind2",
           "foundWeaponType": "SILVERWIND2"
         }
       },
-      "MS001_ACH010": {
-        "progressKey": "MS001_ACH010",
+      {
         "description": "Evolve the Four Seasons.",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "MS001_ACH010",
           "iconTextureName": "items",
           "iconSpriteName": "fourSeasons2",
           "foundWeaponType": "FOURSEASONS2"
         }
       },
-      "MS001_ACH011": {
-        "progressKey": "MS001_ACH011",
+      {
         "description": "Evolve the Summon Night.",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "MS001_ACH011",
           "iconTextureName": "items",
           "iconSpriteName": "icon_echonight",
           "foundWeaponType": "SUMMONNIGHT2"
         }
       },
-      "MS001_ACH012": {
-        "progressKey": "MS001_ACH012",
+      {
         "description": "Evolve the Mirage Robe.",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "MS001_ACH012",
           "iconTextureName": "items",
           "iconSpriteName": "mirageRobe2",
           "foundWeaponType": "MIRAGEROBE2"
         }
       },
-      "MS001_ACH013": {
-        "progressKey": "MS001_ACH013",
+      {
         "description": "Survive 30 minutes with Menya Moonspell.",
         "characterToUnlock": "MEGAMENYA",
         "adventureUnlockData": {
+          "Type": "MS001_ACH013",
           "iconTextureName": "UI",
           "iconSpriteName": "p_vanCharged",
           "requiredMinute": 30,
           "requiredCharacter": "MENYA"
         }
       },
-      "MS001_ACH014": {
-        "progressKey": "MS001_ACH014",
+      {
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
+          "Type": "MS001_ACH014",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
         }
       }
-    },
+    ],
     "EXTRA_BESTIARY_TYPES": [
       "MS_GOSHADOKURO"
     ]
@@ -966,15 +968,15 @@
       "GREED",
       "CURSE",
       "PARMA"
-    ], 
-    "PROGRESS_DATA": {
-      "FS001_ACH001": {
-        "progressKey": "FS001_ACH001",
+    ],
+    "PROGRESS_DATA": [
+      {
         "description": "With Rottin'Ghoul, help Genevieve evolve the Shadow Servant in \"The World Eater\" .",
         "stageToUnlock": "ADV_FOSCARI_002",
         "characterToUnlock": "LUMINAIRE",
         "goldPrize": 5000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH001",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter2",
           "requiredStage": "ADV_FOSCARI_001",
@@ -982,13 +984,13 @@
           "foundWeaponType": "SHADOWSERVANT2"
         }
       },
-      "FS001_ACH002": {
-        "progressKey": "FS001_ACH002",
+      {
         "description": "With Luminaire, evolve the Prismatic Missile in \"The Guardian of the Lake\" before the time limit.",
         "stageToUnlock": "ADV_FOSCARI_003",
         "characterToUnlock": "KEIRA",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH002",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter3",
           "requiredStage": "ADV_FOSCARI_002",
@@ -996,13 +998,13 @@
           "foundWeaponType": "PRISMATICMISS2"
         }
       },
-      "FS001_ACH003": {
-        "progressKey": "FS001_ACH003",
+      {
         "description": "With Keira, reach Level 30 in \"The Sly Swashbuckler\".",
         "stageToUnlock": "ADV_FOSCARI_004",
         "characterToUnlock": "VICTOR",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH003",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter4",
           "requiredStage": "ADV_FOSCARI_003",
@@ -1010,13 +1012,13 @@
           "requiredLevel": 30
         }
       },
-      "FS001_ACH004": {
-        "progressKey": "FS001_ACH004",
+      {
         "description": "With Viktor, reach Level 30 in \"The Undefeated Champion\".",
         "stageToUnlock": "ADV_FOSCARI_005",
         "characterToUnlock": "ELEANOR",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH004",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter5",
           "requiredStage": "ADV_FOSCARI_004",
@@ -1024,12 +1026,12 @@
           "requiredLevel": 30
         }
       },
-      "FS001_ACH005": {
-        "progressKey": "FS001_ACH005",
+      {
         "description": "With Eleanor, reach Level 30 in \"The Star Pupil\".",
         "stageToUnlock": "ADV_FOSCARI_006",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH005",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter6",
           "requiredStage": "ADV_FOSCARI_005",
@@ -1037,12 +1039,12 @@
           "requiredLevel": 30
         }
       },
-      "FS001_ACH006": {
-        "progressKey": "FS001_ACH006",
+      {
         "description": "With a party of Eleanor, Viktor, and Keitha, survive 30 minutes in \"Tides of the Foscari\".",
         "stageToUnlock": "ADV_FOSCARI_007",
         "goldPrize": 1000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH006",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapterFinal",
           "requiredMinute": 30,
@@ -1050,62 +1052,52 @@
           "requiredCharacter": "ELEANOR"
         }
       },
-      "FS001_ACH007": {
-        "progressKey": "FS001_ACH007",
+      {
         "description": "Unite Spellstring, Spellstream, and Spellstrike.",
         "goldPrize": 3000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH007",
           "iconTextureName": "items",
           "iconSpriteName": "2SpellStrom",
           "foundWeaponType": "SPELL_STROM"
         }
       },
-      "FS001_ACH008": {
-        "progressKey": "FS001_ACH008",
+      {
         "description": "Evolve the Eskizzibur.",
         "goldPrize": 3000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH008",
           "iconTextureName": "items",
           "iconSpriteName": "2Legionnaire",
           "foundWeaponType": "SWORD2"
         }
       },
-      "FS001_ACH009": {
-        "progressKey": "FS001_ACH009",
+      {
         "description": "Evolve the Flash Arrow",
         "goldPrize": 3000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH009",
           "iconTextureName": "items",
           "iconSpriteName": "2Millionaire",
           "foundWeaponType": "FLASHARROW2"
         }
       },
-      "FS001_ACH010": {
-        "progressKey": "FS001_ACH010",
+      {
         "description": "Survive the judgement of the Avatar of Gaea.",
         "goldPrize": 3000,
         "adventureUnlockData": {
+          "Type": "FS001_ACH010",
           "iconTextureName": "items",
           "iconSpriteName": "icon_gazeofgaea",
           "requiredEnemyKillType": "FS_BOSS_AGAEA",
           "requiredEnemyKillCount": 1
         }
       },
-      "FS001_ACH011": {
-        "progressKey": "FS001_ACH011",
-        "description": "Find the forbidden coffin in \"Tides of the Foscari\".",
-        "characterToUnlock": "CTRPCAKE",
-        "adventureUnlockData": {
-          "iconTextureName": "UI",
-          "iconSpriteName": "p_2sammy",
-          "foundCoffin": "CTRPCAKE"
-        }
-      },
-      "FS001_ACH012": {
-        "progressKey": "FS001_ACH012",
+      {
         "description": "With the true horror, devour everything in \"The True Horror\".",
         "characterToUnlock": "GENEVIEVE",
         "adventureUnlockData": {
+          "Type": "FS001_ACH011",
           "iconTextureName": "UI",
           "iconSpriteName": "p_2genevieve",
           "requiredStage": "ADV_FOSCARI_007",
@@ -1114,28 +1106,28 @@
           "requiredEnemyKillCount": 100000
         }
       },
-      "FS001_ACH013": {
-        "progressKey": "FS001_ACH013",
+      {
         "description": "Survive 30 minutes with Genevieve.",
         "characterToUnlock": "MEGAGENEVIEVE",
         "adventureUnlockData": {
+          "Type": "FS001_ACH012",
           "iconTextureName": "UI",
           "iconSpriteName": "p_2megag",
           "requiredCharacter": "GENEVIEVE",
           "requiredMinute": 30
         }
       },
-      "FS001_ACH014": {
-        "progressKey": "FS001_ACH014",
+      {
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
+          "Type": "FS001_ACH013",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
         }
       }
-    }
+    ]
   },
   "ADV_EMER_001": {
     "progressKey": "EmergencyMeeting",
@@ -1201,38 +1193,38 @@
       "LUCK"
     ],
 
-    "PROGRESS_DATA": {
-      "CHAL_ACH001": {
-        "progressKey": "CHAL_ACH001",
+    "PROGRESS_DATA": [
+      {
         "description": "Evolve the Report!",
         "stageToUnlock": "ADV_CHAL_002_Security",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH001",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter2",
           "requiredStage": "ADV_CHAL_001_Meeting",
           "foundWeaponType": "C1_REPORT2"
         }
       },
-      "CHAL_ACH002": {
-        "progressKey": "CHAL_ACH002",
+      {
         "description": "Find the Engineer in Suspect Security. ",
         "stageToUnlock": "ADV_CHAL_003_Ejected",
         "characterToUnlock": "C1_ENGINEER",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH002",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter3",
           "requiredStage": "ADV_CHAL_002_Security",
           "foundCoffin": "C1_ENGINEER"
         }
       },
-      "CHAL_ACH003": {
-        "progressKey": "CHAL_ACH003",
+      {
         "description": "Defeat 3000 Moon Ducks in Ejected. ",
         "stageToUnlock": "ADV_CHAL_004_Ghosted",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH003",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter4",
           "requiredStage": "ADV_CHAL_003_Ejected",
@@ -1240,176 +1232,176 @@
           "requiredEnemyKillCount": 3000
         }
       },
-      "CHAL_ACH004": {
-        "progressKey": "CHAL_ACH004",
+      {
         "description": "Find the Ghost in Don't Get Ghosted. ",
         "stageToUnlock": "ADV_CHAL_005_Science",
         "characterToUnlock": "C1_GHOST",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH004",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter5",
           "requiredStage": "ADV_CHAL_004_Ghosted",
           "foundCoffin": "C1_GHOST"
         }
       },
-      "CHAL_ACH005": {
-        "progressKey": "CHAL_ACH005",
+      {
         "description": "Find the Scientist in Space Rocks. ",
         "stageToUnlock": "ADV_CHAL_006_Trouble",
         "characterToUnlock": "C1_SCIENTIST",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH005",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter6",
           "requiredStage": "ADV_CHAL_005_Science",
           "foundCoffin": "C1_SCIENTIST"
         }
       },
-      "CHAL_ACH006": {
-        "progressKey": "CHAL_ACH006",
+      {
         "description": "Defeat the Suspicious Eyes in Test Tube Trouble.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH006",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapterFinal",
           "requiredEnemyKillType": "CHAL_ANIMEXXL",
           "requiredEnemyKillCount": 1
         }
       },
-      "CHAL_ACH007": {
-        "progressKey": "CHAL_ACH007",
+      {
         "description": "Evolve Sharp Tongue, or aquire its evolution. ",
         "characterToUnlock": "C1_IMPOSTOR",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH007",
           "foundWeaponType": "C1_TONGUE2"
         }
       },
-      "CHAL_ACH008": {
-        "progressKey": "CHAL_ACH008",
+      {
         "description": "Evolve Clear Debris, or aquire its evolution. ",
         "characterToUnlock": "C1_GUARDIAN",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH008",
           "foundWeaponType": "C1_GARBA2"
         }
       },
-      "CHAL_ACH009": {
-        "progressKey": "CHAL_ACH009",
+      {
         "description": "Survive for 20 minutes in Meeting Called.",
         "characterToUnlock": "C1_SHAPESHIFTER",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH009",
           "requiredMinute": 20,
           "requiredStage": "ADV_CHAL_001_Meeting"
         }
       },
-      "CHAL_ACH010": {
-        "progressKey": "CHAL_ACH010",
+      {
         "description": "Reach level 80 in Test Tube Trouble. ",
         "characterToUnlock": "C1_MEGAIMPOSTOR",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH010",
           "requiredStage": "ADV_CHAL_006_Trouble",
           "requiredLevel": 80
         }
       },
-      "CHAL_ACH019": {
-        "progressKey": "CHAL_ACH019",
+      {
         "description": "Defeat 6000 suspicious looking enemies.",
         "characterToUnlock": "C1_HORSE",
         "adventureUnlockData": {
+          "Type": "CHAL_ACH019",
           "iconTextureName": "UI",
           "requiredEnemyKillType": "CHAL_SUS_COUNTER",
           "requiredEnemyKillCount": 6000
         }
       },
-      "CHAL_ACH011": {
-        "progressKey": "CHAL_ACH011",
+      {
         "description": "Evolve the Lucky Swipe.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH011",
           "iconTextureName": "items",
           "iconSpriteName": "SwipeCard2",
           "requiredLevel": 80,
           "foundWeaponType": "C1_SWIPECARD2"
         }
       },
-      "CHAL_ACH012": {
-        "progressKey": "CHAL_ACH012",
+      {
         "description": "Evolve the Science Rocks.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH012",
           "iconTextureName": "items",
           "iconSpriteName": "Samples2",
           "foundWeaponType": "C1_SAMPLES2"
         }
       },
-      "CHAL_ACH013": {
-        "progressKey": "CHAL_ACH013",
+      {
         "description": "Evolve the Just Vent.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH013",
           "iconTextureName": "items",
           "iconSpriteName": "Vent2",
           "foundWeaponType": "C1_VENT2"
         }
       },
-      "CHAL_ACH014": {
-        "progressKey": "CHAL_ACH014",
+      {
         "description": "Evolve the Lifesign Scan.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH014",
           "iconTextureName": "items",
           "iconSpriteName": "Medical2",
           "foundWeaponType": "C1_MEDICAL2"
         }
       },
-      "CHAL_ACH015": {
-        "progressKey": "CHAL_ACH015",
+      {
         "description": "Evolve the Knife.",
         "characterToUnlock": "GENNARO",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH015",
           "iconTextureName": "UI",
           "iconSpriteName": "p_gennaro",
           "foundWeaponType": "THOUSAND"
         }
       },
-      "CHAL_ACH016": {
-        "progressKey": "CHAL_ACH016",
+      {
         "description": "Find a pair of guns.",
         "characterToUnlock": "PUGNALA",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH016",
           "iconTextureName": "UI",
           "iconSpriteName": "p_pugnala",
           "foundWeaponType": "GUNS"
         }
       },
-      "CHAL_ACH017": {
-        "progressKey": "CHAL_ACH017",
+      {
         "description": "Rescue Ambrojoe.",
         "characterToUnlock": "AMBROGIO",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "CHAL_ACH017",
           "iconTextureName": "UI",
           "iconSpriteName": "p_ambrojoe",
           "foundCoffin": "AMBROGIO"
         }
       },
-      "CHAL_ACH018": {
-        "progressKey": "CHAL_ACH018",
+      {
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
+          "Type": "CHAL_ACH018",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
         }
       }
-    }
+    ]
   },
   "ADV_FBLOOD_001": {
     "progressKey": "OperationGuns",
@@ -1488,13 +1480,13 @@
       "FB_WEAPONPU"
     ],
 
-    "PROGRESS_DATA": {
-      "FB_ACH001": {
-        "progressKey": "FB_ACH001",
+    "PROGRESS_DATA": [
+      {
         "description": "Find and destroy the Metal Alien in Attack Aggressively.",
         "stageToUnlock": "ADV_FB_002_Bullet",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH001",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter2",
           "requiredStage": "ADV_FB_001_Attack",
@@ -1502,24 +1494,24 @@
           "requiredEnemyKillCount": 1
         }
       },
-      "FB_ACH002": {
-        "progressKey": "FB_ACH002",
+      {
         "description": "Survive for 15 minutes in Bullet Biters.",
         "stageToUnlock": "ADV_FB_003_NeoCity",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH002",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter3",
           "requiredMinute": 15,
           "requiredStage": "ADV_FB_002_Bullet"
         }
       },
-      "FB_ACH003": {
-        "progressKey": "FB_ACH003",
+      {
         "description": "Defeat the M78 after 10 minutes in Neo City Chaos.",
         "stageToUnlock": "ADV_FB_004_OperationGun",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH003",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter4",
           "requiredStage": "ADV_FB_003_NeoCity",
@@ -1527,12 +1519,12 @@
           "requiredEnemyKillCount": 1
         }
       },
-      "FB_ACH004": {
-        "progressKey": "FB_ACH004",
+      {
         "description": "Defeat Big Bot Gordea after 10 minutes in Operation: Gun City.",
         "stageToUnlock": "ADV_FB_005_RunAndGun",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH004",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter5",
           "requiredStage": "ADV_FB_004_OperationGun",
@@ -1540,270 +1532,270 @@
           "requiredEnemyKillCount": 1
         }
       },
-      "FB_ACH005": {
-        "progressKey": "FB_ACH005",
+      {
         "description": "Find a new ally in Run & Gun.",
         "stageToUnlock": "ADV_FB_006_Alien",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH005",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapter6",
           "requiredStage": "ADV_FB_005_RunAndGun",
           "foundCoffin": "FB_PROBO"
         }
       },
-      "FB_ACH006": {
-        "progressKey": "FB_ACH006",
+      {
         "description": "Defeat Taka after 15 minutes in Alien Revengeance.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH006",
           "iconTextureName": "UI",
           "iconSpriteName": "icon_chapterFinal",
           "requiredEnemyKillType": "BOSS_FB_TAKA",
           "requiredEnemyKillCount": 1
         }
       },
-      "FB_ACH007": {
-        "progressKey": "FB_ACH007",
+      {
         "description": "Find a Weapon Power-Up.",
         "characterToUnlock": "FB_LANCE",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH007",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbLance",
           "foundWeaponType": "FB_WEAPONPU"
         }
       },
-      "FB_ACH008": {
-        "progressKey": "FB_ACH008",
+      {
         "description": "Evolve the Long Gun.",
         "characterToUnlock": "FB_LUCIA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH008",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbLucia",
           "foundWeaponType": "FB_PROTOTYPE_A"
         }
       },
-      "FB_ACH009": {
-        "progressKey": "FB_ACH009",
+      {
         "description": "Find Ariana in Attack Agressively.",
         "characterToUnlock": "FB_ARIANA",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH009",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbAriana",
           "foundCoffin": "FB_ARIANA"
         }
       },
-      "FB_ACH010": {
-        "progressKey": "FB_ACH010",
+      {
         "description": "Survive for 20 minutes in Attack Agressively.",
         "characterToUnlock": "FB_BRADFANG",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH010",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbBrad",
           "requiredStage": "ADV_FB_001_Attack",
           "requiredMinute": 20
         }
       },
-      "FB_ACH011": {
-        "progressKey": "FB_ACH011",
+      {
         "description": "Evolve the Homing Miss.",
         "characterToUnlock": "FB_STANLEY",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH011",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbStanley",
           "foundWeaponType": "FB_MULTISTAGE"
         }
       },
-      "FB_ACH012": {
-        "progressKey": "FB_ACH012",
+      {
         "description": "Evolve the Blade Crossbow.",
         "characterToUnlock": "FB_SHEENA",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH012",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbSheena",
           "foundWeaponType": "FB_CROSSBOWCRASH"
         }
       },
-      "FB_ACH013": {
-        "progressKey": "FB_ACH013",
+      {
         "description": "Evolve the Sonic Bloom.",
         "characterToUnlock": "FB_BROWNY",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH013",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbBrowny",
           "foundWeaponType": "FB_WAVE"
         }
       },
-      "FB_ACH014": {
-        "progressKey": "FB_ACH014",
+      {
         "description": "Defeat Kimkoh.",
         "characterToUnlock": "FB_NEWT",
         "goldPrize": 500,
         "adventureUnlockData": {
+          "Type": "FB_ACH014",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbNewt",
           "requiredEnemyKillType": "FB_KIMKOH",
           "requiredEnemyKillCount": 1
         }
       },
-      "FB_ACH015": {
-        "progressKey": "FB_ACH015",
+      {
         "description": "Defeat Big Fuzz in the Northeast of Neo City.",
         "characterToUnlock": "FB_COLONEL",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH015",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbColonel",
           "requiredEnemyKillType": "BOSS_FB_BIGFUZZ",
           "requiredEnemyKillCount": 1
         }
       },
-      "FB_ACH027": {
-        "progressKey": "FB_ACH027",
+      {
         "description": "Find Probotector in Run and Gun.",
         "goldPrize": 500,
         "characterToUnlock": "FB_PROBO",
         "adventureUnlockData": {
+          "Type": "FB_ACH027",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbProbo",
           "foundCoffin": "FB_PROBO"
         }
       },
-      "FB_ACH016": {
-        "progressKey": "FB_ACH016",
+      {
         "description": "Rescue Zi'Assunta in Bullet Biters.",
         "characterToUnlock": "ASSUNTA",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH016",
           "iconTextureName": "UI",
           "iconSpriteName": "p_assunta",
           "foundCoffin": "ASSUNTA"
         }
       },
-      "FB_ACH017": {
-        "progressKey": "FB_ACH017",
+      {
         "description": "Rescue Lama in Neo City Chaos.",
         "characterToUnlock": "LAMA",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH017",
           "iconTextureName": "UI",
           "iconSpriteName": "p_lama",
           "foundCoffin": "LAMA"
         }
       },
-      "FB_ACH018": {
-        "progressKey": "FB_ACH018",
+      {
         "description": "Rescue Dommario in Operation: Gun City.",
         "characterToUnlock": "DOMMARIO",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH018",
           "iconTextureName": "UI",
           "iconSpriteName": "p_dommario",
           "foundCoffin": "DOMMARIO"
         }
       },
-      "FB_ACH019": {
-        "progressKey": "FB_ACH019",
+      {
         "description": "Rescue Krochi in Alien Revengeance. ",
         "characterToUnlock": "CROCI",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH019",
           "iconTextureName": "UI",
           "iconSpriteName": "p_croci",
           "foundCoffin": "CROCI"
         }
       },
-      "FB_ACH020": {
-        "progressKey": "FB_ACH020",
+      {
         "description": "Defeat Simondo.",
         "characterToUnlock": "FB_SIMONDO",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH020",
           "iconTextureName": "UI",
           "iconSpriteName": "p_fbSimondo",
           "requiredEnemyKillType": "FB_SIMONDO",
           "requiredEnemyKillCount": 1
         }
       },
-      "FB_ACH021": {
-        "progressKey": "FB_ACH021",
+      {
         "description": "Evolve the Short Gun.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH021",
           "iconTextureName": "items",
           "iconSpriteName": "fb_A2_prototype",
           "foundWeaponType": "FB_PROTOTYPE_B"
         }
       },
-      "FB_ACH022": {
-        "progressKey": "FB_ACH022",
+      {
         "description": "Evolve the Spread Shot.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH022",
           "iconTextureName": "items",
           "iconSpriteName": "fb_spread2",
           "foundWeaponType": "FB_PROTOTYPE_C"
         }
       },
-      "FB_ACH023": {
-        "progressKey": "FB_ACH023",
+      {
         "description": "Evolve the C-U-Laser.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH023",
           "iconTextureName": "items",
           "iconSpriteName": "fb_laser2",
           "foundWeaponType": "FB_PROTONBEAM"
         }
       },
-      "FB_ACH024": {
-        "progressKey": "FB_ACH024",
+      {
         "description": "Evolve the Firearm.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH024",
           "iconTextureName": "items",
           "iconSpriteName": "fb_fire2",
           "foundWeaponType": "FB_FIREWALL"
         }
       },
-      "FB_ACH025": {
-        "progressKey": "FB_ACH025",
+      {
         "description": "Evolve the Diver Mines.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH025",
           "iconTextureName": "items",
           "iconSpriteName": "fb_B1_crush",
           "foundWeaponType": "FB_CRUSH"
         }
       },
-      "FB_ACH026": {
-        "progressKey": "FB_ACH026",
+      {
         "description": "Evolve the Metal Claw.",
         "goldPrize": 10000,
         "adventureUnlockData": {
+          "Type": "FB_ACH026",
           "iconTextureName": "items",
           "iconSpriteName": "fb_claw2",
           "foundWeaponType": "FB_BIGFUZZYFIST"
         }
       },
-      "FB_ACH028": {
-        "progressKey": "FB_ACH028",
+      {
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
+          "Type": "FB_ACH028",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80,
           "requiredStage": "ADV_FB_006_Alien"
         }
       }
-    },
+    ],
     "EXTRA_BESTIARY_TYPES": [
       "FB_SIMONDO",
       "BOSS_FB_BIGFUZZ",

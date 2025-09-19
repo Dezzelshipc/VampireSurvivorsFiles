@@ -111,6 +111,114 @@
     "25": {
       "name": "III - Hidden Anathema",
       "description": "Food pickups grant cumulative bonuses to random stats based on their rarity or healing value."
+    },
+    "35": {
+      "name": "XIII - Call of a Mad Moon",
+      "description": "Effect depends on random results and player stats. Luck: improves Treasure Chests and Light Sources. Growth: improves XP crystals. Greed: improves gold pickups. Curse: enemies gain MoveSpeed and Health."
+    },
+    "40": {
+      "name": "XVIII - Victorian Horror",
+      "description": "Enemies within Magnet range receive Greed based damage. Once per life, triggers Cursed World Eater after receiving fatal damage."
+    },
+    "27": {
+      "name": "V - Pale Diamond Incursion",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "fr": {
@@ -225,6 +333,114 @@
     "25": {
       "name": "III - Anathème caché",
       "description": "Les boosts de nourriture octroient des bonus cumulables à des statistiques aléatoires en fonction de leur rareté et de la quantité de soins qu'ils fournissent."
+    },
+    "35": {
+      "name": "XIII - L'appel de la folle lune",
+      "description": "Génère des zones aux effets différents. Chance : augmente la présence de coffres au trésor et de sources de lumière. Expertise : augmente la présence de gemmes d'EXP. Avidité : augmente la présence de pièces d'or. Malédiction : les ennemis perdent 25 % de santé. Joker : déclenche toutes les zones précédentes."
+    },
+    "40": {
+      "name": "XVIII - Horreur victorienne",
+      "description": "Les ennemis à portée de l'Aimant subissent des dégâts basés sur l'avidité. Une fois par vie, déclenche un Dévore-monde après avoir reçu des dégâts mortels."
+    },
+    "27": {
+      "name": "V - Incursion du diamant pâle",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "it": {
@@ -339,6 +555,114 @@
     "25": {
       "name": "III - Anatema nascosto",
       "description": "Il cibo raccolto dona bonus cumulativi a statistiche casuali in base alla loro rarità o il valore curativo."
+    },
+    "35": {
+      "name": "XIII - Richiamo di una luna pazza",
+      "description": "Genera zone con effetti diversi. Fortuna: migliora i Forzieri del tesoro e le fonti di luce. Crescita: migliora la gemme PE. Avidità: migliora le monete d'oro. Maledizione: i nemici perdono il 25% della loro salute. Selva: attiva tutte le zone precedenti."
+    },
+    "40": {
+      "name": "XVIII - Orrore vittoriano",
+      "description": "I nemici a portata della Calamita ricevono Avidità in base al danno. Una volta per vita, scatena il Divoratore di mondi dopo aver subito una quantità fatale di danni."
+    },
+    "27": {
+      "name": "V - Incursione del diamante pallido",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "de": {
@@ -453,6 +777,114 @@
     "25": {
       "name": "III - Verborgenes Anathema",
       "description": "Nahrungs-Pickups gewähren je nach Seltenheit oder Heilwert kumulative Boni auf zufällige Werte."
+    },
+    "35": {
+      "name": "XIII - Echo eines Tollmonds",
+      "description": "Erzeugt Zonen mit verschiedenen Effekten. Glück: verbessert Schatztruhen und Lichtquellen. Entwicklung: verbessert Erfahrungsedelsteine. Gier: verbessert Goldmünzen. Fluch: Gegner verlieren 25% ihrer LP. Wild: löst alle vorherigen Zonen aus."
+    },
+    "40": {
+      "name": "XVIII - Viktorianische Schrecken",
+      "description": "Gegner in Reichweite des Magneten erleiden Schaden (abhängig von Gier). Einmal pro Leben: Tödlicher Schaden löst Weltenfresser aus."
+    },
+    "27": {
+      "name": "V - Fahler Diamant",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "es": {
@@ -567,6 +999,114 @@
     "25": {
       "name": "III: Anatema oculto",
       "description": "Los objetos comestibles otorgan bonificaciones acumulables para atributos aleatorios según su rareza o su valor curativo."
+    },
+    "35": {
+      "name": "XIII: Llamada de una luna de locura",
+      "description": "Genera zonas con efectos diferentes. Suerte: mejora los cofres del tesoro y las fuentes de luz. Crecimiento: mejora las gemas de EXP. Avaricia: mejora las monedas de oro. Maldición: los enemigos pierden un 25 % de salud. Comodín: activa todas las zonas anteriores."
+    },
+    "40": {
+      "name": "XVIII: Terror victoriano",
+      "description": "Los enemigos dentro del alcance de imán reciben daño según la avaricia. Activa el Engullemundos tras recibir daño letal una vez por vida."
+    },
+    "27": {
+      "name": "V: Asalto del diamante blanquecino",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "pt-BR": {
@@ -681,6 +1221,114 @@
     "25": {
       "name": "III - Anátema Oculto",
       "description": "Coletar comida concede bônus cumulativos a atributos aleatórios com base em raridade ou valor de cura."
+    },
+    "35": {
+      "name": "XIII - Chamado da Lua Louca",
+      "description": "Gera zonas com efeitos diferentes. Sorte: afeta os Baús do Tesouro e Fontes de Luz. Crescimento: afeta as joias de EXP. Ganância: afeta as moedas de ouro. Maldição: inimigos perdem 25% de Vida. Coringa: ativa todas as zonas anteriores."
+    },
+    "40": {
+      "name": "XVIII - Terror Vitoriano",
+      "description": "Inimigos ao alcance do Magnetismo sofrem dano com base na Ganância. Uma vez a cada vida, ativa o Devorador de Mundos ao sofrer dano fatal."
+    },
+    "27": {
+      "name": "V - Incursão do Diamante Pálido",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "pl": {
@@ -795,6 +1443,114 @@
     "25": {
       "name": "III – Ukryta klątwa",
       "description": "Łupy z jedzeniem gwarantują skumulowane premie do losowych parametrów na podstawie ich rzadkości lub wartości uzdrawiającej."
+    },
+    "35": {
+      "name": "XIII – Zew szalonego księżyca",
+      "description": "Generuje strefy o różnych efektach. Szczęście: ulepsza skrzynie skarbów i źródła światła. Rozwój: ulepsza kryształy doświadczenia. Chciwość: ulepsza złote monety. Klątwa: wrogowie tracą 25% zdrowia. Szansa: aktywuje wszystki poprzednie strefy."
+    },
+    "40": {
+      "name": "XVIII – Wiktoriański horror",
+      "description": "Wrogowie w zasięgu Magnesu otrzymują Chciwość zależną od obrażeń. Raz na życie po otrzymaniu śmiertelnych obrażeń wywołuje Światożercę."
+    },
+    "27": {
+      "name": "V – Diamentowa inwazja",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "ru": {
@@ -909,6 +1665,114 @@
     "25": {
       "name": "III — Скрытая анафема",
       "description": "Собранная еда даёт накопительные бонусы к случайным характеристикам в зависимости от её редкости и лечебных свойств."
+    },
+    "35": {
+      "name": "XIII — Зов Беснолуния",
+      "description": "Создаёт зоны с разными эффектами. Удача: улучшает сундуки с сокровищами и источники света. Развитие: улучшает самоцветы опыта. Жадность: улучшает золотые монеты. Проклятие: враги теряют 25% здоровья. Джокер: активирует все предыдущие зоны."
+    },
+    "40": {
+      "name": "XVIII — Викторианский ужас",
+      "description": "Враги в радиусе действия магнита получают урон в зависимости от жадности. Один раз за жизнь вызывает Пожирателя мира после получения смертельного урона."
+    },
+    "27": {
+      "name": "V — Включение бледного алмаза",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "tr": {
@@ -1023,6 +1887,114 @@
     "25": {
       "name": "III - Gizli Aforoz",
       "description": "Yiyecek toplanabilirleri, nadirliklerine veya iyileştirme değerlerine bağlı olarak rastgele istatistiklere katlanarak artan bonuslar verir."
+    },
+    "35": {
+      "name": "XIII - Deli Ayın Çağrısı",
+      "description": "Farklı etkilere sahip bölgeler oluşturur. Şans: Hazine Sandıklarını ve Işık Kaynaklarını geliştirir. Büyüme: TP mücevherlerini geliştirir. Açgözlülük: Altın akçeleri geliştirir. Lanet: Düşmanlar %25 sağlık kaybeder. Vahşet: önceki tüm bölgeleri tetikler."
+    },
+    "40": {
+      "name": "XVIII - Viktoryen Korku",
+      "description": "Mıknatıs menzilindeki düşmanlar Açgözlülük'e dayalı hasar alır. Can başına bir kez, ölümcül hasar aldıktan sonra Dünya Yiyen'i tetikler."
+    },
+    "27": {
+      "name": "V - Solgun Elmas Akını",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "zh-CN": {
@@ -1137,6 +2109,114 @@
     "25": {
       "name": "III - 隐秘的恶咒",
       "description": "掉落的食物会为随机属性提供累积加成，视其稀有度或治疗量而定。"
+    },
+    "35": {
+      "name": "XIII - 疯月的呼唤",
+      "description": "生成具有不同效果的区域。运气：提升宝箱和光源。成长：提升经验宝石。贪欲：提升金币。诅咒：敌人损失25%的生命值。万能：触发前述所有区域。"
+    },
+    "40": {
+      "name": "XVIII - 维多利亚式恐怖",
+      "description": "念力范围内的敌人受到基于贪欲的伤害。受到必死一击后触发灭世者，每条命仅限一次。"
+    },
+    "27": {
+      "name": "V - 苍白钻石侵入",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "ja": {
@@ -1251,6 +2331,114 @@
     "25": {
       "name": "III - 隠された破門",
       "description": "食べ物のピックアップは、レア度や回復値に基づいて、いづれかのステータスに累積ボーナスを付与する。"
+    },
+    "35": {
+      "name": "XIII - 狂い月の呼び声",
+      "description": "異なる効果を持つゾーンを生成する。 幸運：宝箱と光源の効果を強化する。 成長効率：XPジェムの獲得量を増加させる。 欲深さ：金貨の獲得量を増加させる。 呪い：敵のHPを25%減少させる。 野生：前の全てのゾーンの効果を発動させる。"
+    },
+    "40": {
+      "name": "XVIII -ビクトリア朝ホラー",
+      "description": "回収範囲内の敵は、欲深さに応じたダメージを受ける。HPが0になる前に致命傷を受けると、1回限り世界を喰らう者が発動する。"
+    },
+    "27": {
+      "name": "V - ペール・ダイヤモンドの侵攻",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "ko": {
@@ -1365,6 +2553,114 @@
     "25": {
       "name": "III - 숨겨진 혐오감",
       "description": "식량을 획득하면 희귀도 또는 치유량에 따라 무작위 능력치에 누적 보너스를 부여합니다."
+    },
+    "35": {
+      "name": "XIII - 미친 달의 부름",
+      "description": "다양한 효과가 있는 구역을 생성합니다. 행운: 보물상자와 광원 성능이 향상됩니다. 성장: XP 보석 획득량이 증가합니다. 탐욕: 금화 획득량이 증가합니다. 저주: 적의 체력이 25% 감소합니다. 야생: 이전의 구역을 모두 발동합니다."
+    },
+    "40": {
+      "name": "XVIII - 빅토리아 풍 호러",
+      "description": "자석 범위 안에 있는 적이 탐욕에 기반하여 피해를 받습니다. 치명적인 피해를 받으면 수명당 한 번씩 세계를 먹어치우는 자를 발동합니다."
+    },
+    "27": {
+      "name": "V - 창백한 다이아몬드의 급습",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "zh-TW": {
@@ -1479,6 +2775,114 @@
     "25": {
       "name": "III－無形的惡意",
       "description": "在拾取食物時，根據其稀有度或治療數值的高低來為隨機屬性帶來累積加成。"
+    },
+    "35": {
+      "name": "XIII－瘋狂之月的呼喚",
+      "description": "生成具有不同加成效果的效果區域。運氣：提升寶箱和光源效果。成長：提升經驗值寶石的效果。貪欲：提升金幣的效果。詛咒：敵人損失 25% 的生命值。狂野：觸發所有前述的加成區域效果。"
+    },
+    "40": {
+      "name": "XVIII－維多利亞恐怖",
+      "description": "位在磁鐵效果範圍內的敵人會受到取決於貪欲值高低的傷害。在受到致命傷害的時候，觸發「滅世者」的效果，每條命限發動一次。"
+    },
+    "27": {
+      "name": "V－蒼白鑽石入侵",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   },
   "uk": {
@@ -1593,6 +2997,114 @@
     "25": {
       "name": "III — Прихована анафема",
       "description": "Знахідки їжі додають накопичувальні бонуси до випадкових характеристик на основі їхньої рідкості або лікувальних властивостей."
+    },
+    "35": {
+      "name": "XIII — Клич Скаженого місяця",
+      "description": "Генерує зони з різними ефектами. Удача: покращує скрині скарбів і джерела світла. Розвиток: покращує самоцвіти досвіду. Жадоба: покращує золоті монети. Прокляття: вороги втрачають 25% здоров'я. Сказ: запускає всі попередні зони."
+    },
+    "40": {
+      "name": "XVIII — Вікторіанський кошмар",
+      "description": "Жадоба впливає на шкоду ворогів у полі дії магніту. Один раз за життя викликає Пожирача світів при отриманні смертельної шкоди."
+    },
+    "27": {
+      "name": "V — Вторгнення тьмяного діаманту",
+      "description": "Listed weapons and their evolutions aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": "%0% Might every %1 levels (max %2 times)."
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": "Gains +10% Growth every 5 levels (max +30%)."
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": "Gains -5% Cooldown every 10 levels (max -15%)."
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Temporary Cooldown bonus for 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Temporary Area bonus for 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": null
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": "Gains 1 Revive after 33 levels."
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": null
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains +1% Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains +1% Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains +1% Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "118": {
+      "name": "018 - Yatta Cavallio",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": "Gains +1 Amount every 20 levels (max +3)."
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Gains +1 Amount every 20 levels (max +4). Temporary Amount bonus for 5 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": "Gains +10% Growth every 5 levels (max +50%)."
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": "Gains +1 Armor every 5 levels (max +5)."
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains +0.5% Might, Projectile Speed, Duration, and Area every level."
     }
   }
 }
