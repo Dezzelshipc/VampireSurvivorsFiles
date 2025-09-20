@@ -25,7 +25,7 @@ from Source.Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFA
     GAME_OBJECT
 from Source.Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint, resize_list_images
 from Source.Utility.logger import Logger
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.timer import Timeit
 from Source.Utility.utility import CheckBoxes, ButtonsBox
 from Source.Utility.constants import to_source_path

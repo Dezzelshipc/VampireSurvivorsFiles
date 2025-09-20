@@ -7,7 +7,7 @@ from typing import Any
 
 from Source.Config.config import DLCType
 from Source.Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA, COMPOUND_DATA, COMPOUND_DATA_TYPE
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.special_classes import Objectless
 from Source.Utility.unityparser2 import UnityDoc
 from Source.Utility.utility import clean_json, to_pascalcase

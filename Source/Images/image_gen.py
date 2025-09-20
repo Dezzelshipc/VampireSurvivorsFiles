@@ -11,7 +11,7 @@ import Source.Images.transparent_save as tr_save
 from Source.Translations.language import LangType
 from Source.Utility.constants import DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, to_source_path
 from Source.Utility.image_functions import get_anim_sprites_ready, resize_list_images
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.sprite_data import SpriteData
 from Source.Utility.utility import normalize_str
 from Source.Utility.image_functions import make_image_black

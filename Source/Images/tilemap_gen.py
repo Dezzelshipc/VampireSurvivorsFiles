@@ -1,14 +1,13 @@
 import itertools
 from pathlib import Path
 from tkinter.messagebox import showerror, askyesno
-from typing import Callable
 
 from PIL.Image import Image, new as image_new
 
 from Source.Config.config import Config
 from Source.Utility.constants import IMAGES_FOLDER, GENERATED, TILEMAPS, PROGRESS_BAR_FUNC_TYPE
 from Source.Utility.image_functions import affine_transform, crop_image_rect_left_bot
-from Source.Utility.meta_data import MetaData, MetaDataHandler
+from Source.Data.meta_data import MetaData, MetaDataHandler
 from Source.Utility.multirun import run_multiprocess, run_concurrent_sync
 from Source.Utility.special_classes import Objectless
 from Source.Utility.sprite_data import SpriteData, SpriteRect
@@ -223,7 +222,7 @@ if __name__ == "__main__":
         name = "Collab1_Tileset1_V6"
         tile_id = 21303880
 
-        from Utility.meta_data import MetaDataHandler
+        from Source.Data.meta_data import MetaDataHandler
         meta = MetaDataHandler.get_meta_by_name(name, is_multiprocess=False)
         meta.init_sprites()
 

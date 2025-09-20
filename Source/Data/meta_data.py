@@ -220,7 +220,7 @@ class MetaDataHandler(Objectless):
         files_by_stem = {}
         for f in cls._found_files:
             name_norm = normalize_str(f)
-            if not files_by_stem.get(name_norm):
+            if name_norm not in files_by_stem:
                 files_by_stem[name_norm] = []
             files_by_stem[name_norm].append(f)
 
@@ -364,9 +364,37 @@ class MetaDataHandler(Objectless):
         meta_data = cls.get_meta_by_guid_set({guid}, is_multiprocess)
         return meta_data.pop() if meta_data else None
 
+    @classmethod
+    def get_meta_dict_by_name_set_fullest(cls, name_set: set, is_multiprocess=True) -> dict[str, MetaData]:
+        fullest_set = set()
+
+        for name in name_set:
+            filtered = cls.filter_paths(lambda name_path: name_path[0].startswith(normalize_str(name)))
+            fullest = list(sorted(filtered, key=lambda name_path: name_path[-1].stat().st_size, reverse=True))[0]
+            fullest_set.add(fullest[0])
+
+        datas = cls.get_meta_by_name_set(fullest_set, is_multiprocess)
+
+        meta_dict = {
+            data.real_name.replace(".png", "").replace(".meta", ""): data for data in datas
+        }
+        meta_dict.update({
+            list(filter(lambda x: normalize_str(x) in data.name, name_set))[0]: data for data in datas
+        })
+        meta_dict.update({
+            normalize_str( list(filter(lambda x: normalize_str(x) in data.name, name_set))[0] ): data for data in datas
+        })
+        return meta_dict
+
+    @classmethod
+    def get_meta_by_name_fullest(cls, name: str, is_multiprocess=True) -> MetaData:
+        meta_data = cls.get_meta_dict_by_name_set_fullest({name}, is_multiprocess)
+        return list(meta_data.values())[0] if meta_data else None
+
 
 if __name__ == "__main__":
-    a = MetaDataHandler.get_meta_by_name("character_mortaccio")
+    # a = MetaDataHandler.get_meta_by_name_fullest("character_chulareh")
+    a = MetaDataHandler.get_meta_by_name_fullest("ThosePeople")
     # a = MetaDataHandler.get_meta_by_name("enemies")
     # a = MetaDataHandler.get_meta_by_guid('f2e351beec1ed57408f2e8aab0db8951')
 

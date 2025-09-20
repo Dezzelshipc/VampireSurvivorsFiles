@@ -6,7 +6,7 @@ from typing import Final, Any
 
 from Source.Utility.constants import COMPOUND_DATA
 from Source.Utility.constants import COMPOUND_DATA_TYPE
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.special_classes import Objectless
 from Source.Utility.unityparser2 import UnityDoc
 from Source.Utility.timer import Timeit

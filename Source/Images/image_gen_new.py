@@ -18,7 +18,7 @@ from Source.Utility.constants import to_source_path, IMAGES_FOLDER, COMPOUND_DAT
     PROGRESS_BAR_FUNC_TYPE, COMPOUND_DATA
 from Source.Utility.image_functions import make_image_black
 from Source.Utility.image_functions import resize_image, get_adjusted_sprites_to_rect, get_rects_by_sprite_list
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.sprite_data import SpriteData
 from Source.Utility.utility import normalize_str
 
@@ -224,7 +224,7 @@ class BaseImageGenerator:
 
         self.requested_gens = requested_gen_types
         self._set_entries()
-        self.meta_data = MetaDataHandler.get_meta_dict_by_name_set(self.get_textures_set())
+        self.meta_data = MetaDataHandler.get_meta_dict_by_name_set_fullest(self.get_textures_set())
 
         for texture_name, meta_data in self.meta_data.items():
             meta_data.init_sprites()
