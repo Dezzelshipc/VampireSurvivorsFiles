@@ -679,7 +679,7 @@ class CharacterImageGenerator(ListBaseImageGenerator):
 
         text = entry.get(CHAR_NAME)
         font = ImageFont.truetype(FONT_FILE_PATH, 30)
-        width = font.getbbox(text)[2] + 1
+        width = font.getbbox(text)[2] + 4
         height = font.getbbox(text + "|")[3]
 
         if width > frame_image.size[0] - 4:
@@ -687,7 +687,7 @@ class CharacterImageGenerator(ListBaseImageGenerator):
                 text = text[::-1].replace(" ", "\n", 1)[::-1]
 
             font = ImageFont.truetype(FONT_FILE_PATH, 28)
-            width = font.getbbox(text)[2] + 1
+            width = font.getbbox(text)[2] + 4
             height = (font.getbbox("|" + text + "|")[3] + 1) * 2
 
         canvas = image_new('RGBA', (int(width), int(height)))
