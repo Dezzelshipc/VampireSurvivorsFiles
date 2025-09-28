@@ -65,7 +65,7 @@ class IGFactory:
             return CharacterImageGenerator()
         elif "item" in data_file:
             return ItemImageGenerator()
-        elif "stageset" in data_file:
+        elif "adventurestages" in data_file:
             return StageImageGenerator()
         elif "stage" in data_file:
             return StageImageGenerator()

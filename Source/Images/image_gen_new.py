@@ -593,7 +593,7 @@ class PowerUpImageGenerator(ListBaseImageGenerator):
     default_scale_factor = 1
 
     save_image_prefix = "Sprite"
-    save_icon_prefix = "Icon"
+    save_icon_prefix = "PowerUp"
 
     key_main_texture_name = "texture"
     key_sprite_name = "frameName"
