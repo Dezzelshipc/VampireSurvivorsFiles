@@ -361,7 +361,7 @@ class SimpleGenerator(ImageGenerator):
         save_folder = f"{normalize_str(add_data.get("p_file"))}/{self.folderToSave or texture_name}"
 
         def func_meta(x):
-            d = MetaDataHandler.get_meta_by_name(x)
+            d = MetaDataHandler.get_meta_by_name_fullest(x)
             if d:
                 return d.data_name, d.image
             else:
@@ -379,7 +379,7 @@ class SimpleGenerator(ImageGenerator):
 
         save_folder += "/" + (obj.get("contentGroup") if obj.get("contentGroup") else "BASE_GAME")
 
-        meta_data = MetaDataHandler.get_meta_by_name(texture_name)
+        meta_data = MetaDataHandler.get_meta_by_name_fullest(texture_name)
         meta_data.init_sprites()
         if self.is_anim(settings):
             meta_data.init_animations()

@@ -268,6 +268,12 @@ class BaseImageGenerator:
     def get_save_name(self, name: str) -> str:
         return re.sub(r'[<>:/|\\?*]', '', name.strip())
 
+    def get_save_image_prefix(self, entry):
+        return self.save_image_prefix
+
+    def get_save_icon_prefix(self, entry):
+        return self.save_icon_prefix
+
     def get_unit(self, key_id: str, entry: dict[str, Any]) -> dict[str, Any]:
         to_update: dict[str, Any] = {
             KEY_ID: key_id,
@@ -298,20 +304,22 @@ class BaseImageGenerator:
 
         texture_meta_data = self.meta_data.get(main_texture)
         if not texture_meta_data:
-            print(f"!!! Skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
+            print(f"!!! Image skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
             return None
 
         sprite_data = texture_meta_data.data_name.get(sprite_texture)
         if not sprite_data:
-            print(f"!!! Skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
+            print(f"!!! Image skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
             return None
 
         eng_name = entry.get(self.key_entry_name) or entry.get(KEY_ID)
 
+        save_image_prefix = self.get_save_image_prefix(entry)
+
         return SpriteEntryToSave(
             sprite_data,
             eng_name,
-            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png"
+            lambda x: f"{save_image_prefix}-{self.get_save_name(x)}.png"
         )
 
     def gen_image_with_frame(self, entry: dict[str, Any]) -> EntryToSave | None:
@@ -325,12 +333,12 @@ class BaseImageGenerator:
 
         texture_meta_data = self.meta_data.get(UI)
         if not texture_meta_data:
-            print(f"!!! Skipped '{frame_name}': texture '{UI}' not found", file=sys.stderr)
+            print(f"!!! Image frame skipped '{frame_name}': texture '{UI}' not found", file=sys.stderr)
             return None
 
         frame_data = texture_meta_data.data_name.get(frame_name)
         if not frame_data:
-            print(f"!!! Skipped '{frame_name}': not found for texture '{UI}'", file=sys.stderr)
+            print(f"!!! Image frame skipped '{frame_name}': not found for texture '{UI}'", file=sys.stderr)
             return None
 
         rects = get_rects_by_sprite_list([image_data, frame_data])
@@ -338,10 +346,12 @@ class BaseImageGenerator:
 
         frame.alpha_composite(image)
 
+        save_icon_prefix = self.get_save_icon_prefix(entry)
+
         return EntryToSave(
             frame,
             eng_name,
-            lambda x: f"{self.save_icon_prefix}-{self.get_save_name(x)}.png"
+            lambda x: f"{save_icon_prefix}-{self.get_save_name(x)}.png"
         )
 
     # def gen_anim(self, entry: dict[str, Any]):
@@ -377,6 +387,8 @@ class ItemImageGenerator(BaseImageGenerator):
 
 
 class ArcanaImageGenerator(BaseImageGenerator):
+    _SURVAROT = "Survarot"
+
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME, GenType.ARCANA_PICTURE]
 
     data_type: DataType = DataType.ARCANA
@@ -398,9 +410,12 @@ class ArcanaImageGenerator(BaseImageGenerator):
     def get_frame_name(self, entry: dict[str, Any]) -> str:
         return "frameH" if entry.get("arcanaType") >= 22 else super().get_frame_name(entry)
 
-    def get_save_name(self, name: str) -> str:
-        name = super().get_save_name(name)
-        return name[name.find("-") + 1:].strip()
+    # def get_save_name(self, name: str) -> str:
+    #     name = super().get_save_name(name)
+    #     return name[name.find("-") + 1:].strip()
+
+    def get_save_image_prefix(self, entry):
+        return self._SURVAROT if entry.get("arcanaType") > 100 else self.save_image_prefix
 
     def get_unit(self, key_id: str, entry: dict[str, Any]) -> dict[str, Any]:
         entry = super().get_unit(key_id, entry)
@@ -410,7 +425,7 @@ class ArcanaImageGenerator(BaseImageGenerator):
         })
         if entry.get("arcanaType") > 100:
             entry.update({
-                ADD_TO_PATH_ENTRY: "Characters"
+                ADD_TO_PATH_ENTRY: self._SURVAROT
             })
         return entry
 
@@ -442,20 +457,22 @@ class ArcanaImageGenerator(BaseImageGenerator):
 
         texture_meta_data = self.meta_data.get(main_texture)
         if not texture_meta_data:
-            print(f"!!! Skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
+            print(f"!!! Arcana picture skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
             return None
 
         sprite_data = texture_meta_data.data_name.get(sprite_texture)
         if not sprite_data:
-            print(f"!!! Skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
+            print(f"!!! Arcana picture skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
             return None
 
         eng_name = entry.get(self.key_entry_name) or entry.get(KEY_ID)
 
+        save_image_prefix = self.get_save_image_prefix(entry)
+
         return EntryToSave(
             sprite_data.sprite,
             eng_name,
-            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png"
+            lambda x: f"{save_image_prefix}-{self.get_save_name(x)}.png"
         )
 
 
@@ -664,6 +681,9 @@ class CharacterImageGenerator(ListBaseImageGenerator):
         if (weapon_id := entry.get("startingWeapon")) and weapon_id not in ["VOID", "0", 0, None]:
             weapon_data = self.weapon_image_gen.data_file.data().get(weapon_id)
             weapon_entry = self.weapon_image_gen.gen_image(self.weapon_image_gen.get_unit(weapon_id, weapon_data))
+
+            if weapon_entry is None:
+                return None
 
             weapon_image = resize_image(weapon_entry.image, 4)
             weapon_image_shadow = make_image_black(weapon_image)

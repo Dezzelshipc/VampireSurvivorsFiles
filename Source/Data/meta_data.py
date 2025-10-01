@@ -102,6 +102,9 @@ class MetaData:
         # SHOULD NOT BE USED NORMALLY
         return self.__getattribute__(item)
 
+    def __repr__(self):
+        return f"<{self.__class__.__name__}: {self.name} ({self.real_name}) at {hex(id(self)).upper()}>"
+
 
 def _get_meta(meta_path: Path) -> MetaData:
     timeit = Timeit()
