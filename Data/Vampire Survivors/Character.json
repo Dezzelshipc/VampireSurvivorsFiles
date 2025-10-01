@@ -67,7 +67,6 @@
       "skips": 0,
       "banish": 0,
       "showcase": [
-        "LEM_ACC_SABOTEUR",
         "WHIP",
         "WHIP",
         "WHIP",
@@ -4746,6 +4745,12 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "p_ziappunta.png",
+	  "headOffsets": [
+        {
+          "x": -1,
+          "y": 1
+        }
+      ],
       "price":      5000,
       "completedStages": [],
       "survivedMinutes":  0,
@@ -4827,8 +4832,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": 2,
+              "y": 4
             }
           ]
         },
@@ -4842,6 +4847,12 @@
           "unlocked": false,
           "hidden": false,
           "description": "Starts with a Level 5 Wing and a hidden Valkyrie Turner.",
+		  "headOffsets": [
+            {
+              "x": 3,
+              "y": 4
+            }
+          ],
           "revivals": 7,
           "luck": 1,
           "exAccessories": [
@@ -5091,8 +5102,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": 14,
+              "y": 14
             }
           ]
         }
@@ -5182,6 +5193,12 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "p_chulareh.png",
+	  "headOffsets": [
+        {
+          "x": -1,
+          "y": 1
+        }
+      ],
       "price":      777,
       "completedStages": [],
       "survivedMinutes": 0,
@@ -5272,8 +5289,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": -2,
+              "y": -8
             }
           ]
         }
@@ -5382,6 +5399,12 @@
         "x": 16,
         "y": 32
       },
+	  "headOffsets": [
+		{
+		  "x": 2,
+		  "y": -5
+		}
+	  ],
       "maxHp": 180,
       "armor": 0,
       "regen": 0,
@@ -5765,6 +5788,12 @@
       "walkingFrames": 4,
       "description": "Increases enemies spawn quantity by 100. Slightly recovers Might and Growth when levelling up.",
       "isBought": false,
+	  "headOffsets": [
+        {
+          "x": 1,
+          "y": 3
+        }
+      ],
       "price": 5000,
       "completedStages": [],
       "survivedMinutes": 0,
@@ -5887,6 +5916,12 @@
       "walkingFrames": 4,
       "description": "Evolves into JoyaTauro at lv16, and into AccumulaTori at lv36. Retaliates.",
       "isBought": false,
+	  "headOffsets": [
+        {
+          "x": 3,
+          "y": -10
+        }
+      ],
       "completedStages": [],
       "survivedMinutes": 0,
       "price":      5000,
@@ -5966,7 +6001,7 @@
       "headOffsets": [
         {
           "x": 5,
-          "y": 10
+          "y": 6
         }
       ],
       "walkingFrames": 4,
@@ -6067,16 +6102,16 @@
       "description": "Starting weapon grows stronger when levelling up. Gains +1% Curse every level. Ignores walls.",
       "headOffsets": [
         {
-          "x": -5,
-          "y": -10
+          "x": 8,
+          "y": 12
         },
         {
-          "x": -5,
-          "y": 15
+          "x": 0,
+          "y": 4
         },
         {
-          "x": 19,
-          "y": 0
+          "x": 20,
+          "y": 2
         }
       ],
       "portraitName": "p_gyoruntin.png",
@@ -6174,12 +6209,18 @@
       "charName": "Secretino",
       "surname": "",
       "spriteName": "secretino_i01.png",
-      "textureName": "character_chulareh",
+      "textureName": "character_secretino",
       "walkingFrames": 4,
       "currentSkin": "DEFAULT",
-      "description": "Receives a Survarocchi draft at level 1, 2, and 3. Gets a Survarocchi Multiplier equal to Log10 Golden Eggs (max x10).",
-      "portraitName": "p_chulareh.png",
-      "price":            5000,
+      "description": "Can find Survarots. Receives a Survarot draft at level 3, and 7. Gets a Survarot Multiplier equal to Log10 Golden Eggs (max x10).",
+      "portraitName": "p_secretino2.png",
+	  "headOffsets": [
+        {
+          "x": -3,
+          "y": 1
+        }
+      ],
+      "price":            50000,
       "completedStages":  [],
       "survivedMinutes":  0,
       "maxHp":            100,
@@ -6262,8 +6303,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": -3,
+              "y": -7
             }
           ]
         }
@@ -6585,67 +6626,6 @@
       ],
       "hiddenWeapons": [
       ],
-      "enemiesKilled": 0,
-      "stageData": []
-    },
-    {
-      "growth": 1,
-      "level": 20
-    },
-    {
-      "growth": 1,
-      "level": 40
-    },
-    {
-      "level": 21,
-      "growth": -1
-    },
-    {
-      "level": 41,
-      "growth": -1
-    }
-  ],
-  "LEM_FOLLOWER_SABOTEUR": [
-    {
-      "alwaysHidden": true,
-      "hidden":     true,
-      "secret":     false,
-      "isBought":   false,
-      "level": 1,
-      "startingWeapon": "EX_COINTOSS1",
-      "charName": "Chula-Reh",
-      "surname": "",
-      "textureName": "character_antonio",
-      "spriteName": "newAntonio_01.png",
-      "walkingFrames": 4,
-      "currentSkin": "DEFAULT",
-      "description": ".",
-      "portraitName": "p_chulareh.png",
-      "price":      777,
-      "completedStages": [],
-      "survivedMinutes": 0,
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  2,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     1,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
-      "showcase": [
-      ],
-      "hiddenWeapons": [],
       "enemiesKilled": 0,
       "stageData": []
     },

@@ -47,7 +47,7 @@
       "tips": "Quality affected by Luck."
     },
     "VACUUM": {
-      "description": "Gathers all Experience gems left on the ground.",
+      "description": "Gathers all Experience  Crystals left on the ground.",
       "name": "Vacuum",
       "tips": "Drop rate affected by Luck."
     },
@@ -698,7 +698,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulia du chaos",
       "description": "Bianca Ramba se transforme au niveau 80.",
-      "achievementTips": null
+      "achievementTips": "Carozza !"
     },
     "RELIC_CHAOSEGG": {
       "name": "Œuf du chaos",
@@ -868,7 +868,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Aspect de Pierre",
-      "description": "Fragment de la direction. Permet d'accumuler de l'or et des éliminations. À manipuler avec précaution.",
+      "description": "Fragment de la direction. Permet d'accumuler de l'or et des éliminations. À utiliser de manière responsable.",
       "tips": null,
       "achievementTips": null
     },
@@ -904,25 +904,25 @@
     "RELIC_PARTY": {
       "name": "Mascarade",
       "description": "Débloque le mode Fête.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Mode équipe"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Jeu de cire",
+      "description": "Vous permet d'acheter le bonus Préservation.",
+      "achievementTips": "Bonus Préservation"
     },
     "PICKUP_REROLL_DICE": {
       "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "description": "Obtenez +1 relance.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Chapeau de Secretino",
+      "description": "C'est une blague ?",
+      "tips": "Débloque Secretino."
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
+      "description": "Permet de débloquer et d'activer Survarots.",
       "name": "Survarocchi",
       "achievementTips": "Survarots"
     }
@@ -1162,7 +1162,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulia del caos",
       "description": "Consente a Bianca Ramba di trasformarsi quando raggiunge il livello 80.",
-      "achievementTips": null
+      "achievementTips": "Carozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Uovo del caos",
@@ -1314,13 +1314,13 @@
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Aspetto della città",
-      "description": "Frammento del Disrettore. Consente l'accumulo di PE e aumenti di livello.",
+      "description": "Frammento del Disrettore. Consente l'accumulo di PE e il passaggio a nuovo livello.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "Aspetto del vulcano",
-      "description": "Frammento del Disrettore. Consente l'ottenimento di slot armi attive e passive.",
+      "description": "Frammento del Disrettore. Permette slot per armi attive e passive.",
       "tips": null,
       "achievementTips": null
     },
@@ -1368,27 +1368,27 @@
     "RELIC_PARTY": {
       "name": "Mascherata",
       "description": "Sblocca la modalità Party.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Modalità Party"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Feticcio di cera",
+      "description": "Ti permette di acquistare il potenziamento Preservazione.",
+      "achievementTips": "Potenziamento Preservazione"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Risorteggioo",
+      "description": "Raccoglilo per ottenere un risorteggio aggiuntivo.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Cappello di Secretino",
+      "description": "È uno scherzo?",
+      "tips": "Sblocca Secretino"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "Permette di sbloccare e attivare i Survarocchi.",
+      "name": "Survarokki",
+      "achievementTips": "Survarocchi"
     }
   },
   "de": {
@@ -1626,7 +1626,7 @@
     "RELIC_LAZULIA": {
       "name": "Chaos-Lazulia",
       "description": "Ermöglicht Bianca Ramba die Verwandlung ab Level 80.",
-      "achievementTips": null
+      "achievementTips": "Carozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Chaos-Ei",
@@ -1772,19 +1772,19 @@
     },
     "TP_RELIC_MASK_MOON": {
       "name": "Aspekt des Mondes",
-      "description": "Fragment des Reichters. Ermöglicht die Materialisierung von Erfahrungsedelsteinen und Gegenständen.",
+      "description": "Fragment des Reichters. Schaltet Erfahrungsedelsteine und Gegenstände frei.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Aspekt der Stadt",
-      "description": "Fragment des Reichters. Ermöglicht das Sammeln von EP und Levelaufstiege.",
+      "description": "Fragment des Reichters. Schaltet das Sammeln von EP und Levelaufstiege frei.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "Aspekt des Vulkans",
-      "description": "Fragment des Reichters. Ermöglicht aktive und passive Waffenslots.",
+      "description": "Fragment des Reichters. Schaltet aktive und passive Waffenslots frei.",
       "tips": null,
       "achievementTips": null
     },
@@ -1796,7 +1796,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Aspekt des Steins",
-      "description": "Fragment des Reichters. Ermöglicht die Anhäufung von Gold und Tötungen. Mit Vorsicht zu genießen.",
+      "description": "Fragment des Reichters. Schaltet das Anhäufen von Gold und Tötungen frei. Mit Bedacht verwenden.",
       "tips": null,
       "achievementTips": null
     },
@@ -1832,25 +1832,25 @@
     "RELIC_PARTY": {
       "name": "Maskerade",
       "description": "Schaltet den Party-Modus frei.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Party-Modus"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Wachsfetisch",
+      "description": "Ermöglicht dir den Kauf des Konservieren-Power-ups.",
+      "achievementTips": "Konservieren-Power-up"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Neuwahlia",
+      "description": "Nimm es auf, um +1 Neuwahl zu erhalten.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Secretinos Hut",
+      "description": "Soll das ein Witz sein?",
+      "tips": "Schaltet Secretino frei."
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
+      "description": "Ermöglicht das Freischalten und Aktivieren von Survarots.",
       "name": "Survarocchi",
       "achievementTips": "Survarots"
     }
@@ -2085,12 +2085,12 @@
     "RELIC_ATLAS": {
       "name": "Portal Atlas",
       "description": "Activa las aventuras en el juego principal.",
-      "achievementTips": "aventuras en el juego principal."
+      "achievementTips": "Aventuras en el juego principal."
     },
     "RELIC_LAZULIA": {
       "name": "Lazulita del caos",
       "description": "Permite que Bianca Ramba se transforme al alcanzar el nivel 80.",
-      "achievementTips": null
+      "achievementTips": "Carozza"
     },
     "RELIC_CHAOSEGG": {
       "name": "Huevo del caos",
@@ -2236,19 +2236,19 @@
     },
     "TP_RELIC_MASK_MOON": {
       "name": "Aspecto de la luna",
-      "description": "Fragmento del Director. Permite materializar las gemas de EXP y los objetos.",
+      "description": "Fragmento del Director. Permite que las gemas de EXP y los objetos se materialicen.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Aspecto de la ciudad",
-      "description": "Fragmento del Director. Permite acumular la EXP y subir de nivel.",
+      "description": "Fragmento del Director. Permite que la EXP se acumule y active las subidas de nivel.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "Aspecto del volcán",
-      "description": "Fragmento del Director. Permite tener espacios para armas activas y pasivas.",
+      "description": "Fragmento del Director. Permite espacios para armas activas y pasivas.",
       "tips": null,
       "achievementTips": null
     },
@@ -2260,7 +2260,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Aspecto de la piedra",
-      "description": "Fragmento del Director. Permite acumular el oro y las víctimas. Usar con cuidado.",
+      "description": "Fragmento del Director. Te permite acumular el oro y las víctimas. Usar con cuidado.",
       "tips": null,
       "achievementTips": null
     },
@@ -2296,27 +2296,27 @@
     "RELIC_PARTY": {
       "name": "Mascarada",
       "description": "Desbloquea el modo Fiesta.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Modo Grupo"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Fetiche de cera",
+      "description": "Te permite comprar la mejora preservación.",
+      "achievementTips": "Mejora preservación."
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Cambiollo",
+      "description": "Otorga un uso de cambiar.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Sombrero de Secretino",
+      "description": "¿Es una broma?",
+      "tips": "Desbloquea a Secretino"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "Permite desbloquear y activar los supervicanos.",
+      "name": "Supervitarot",
+      "achievementTips": "Supervicanos"
     }
   },
   "pt-BR": {
@@ -2554,7 +2554,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulia do Caos",
       "description": "Permite que Bianca Ramba se transforme ao alcançar o nível 80.",
-      "achievementTips": null
+      "achievementTips": "Carroça"
     },
     "RELIC_CHAOSEGG": {
       "name": "Ovo do Caos",
@@ -2700,13 +2700,13 @@
     },
     "TP_RELIC_MASK_MOON": {
       "name": "Aspecto da Lua",
-      "description": "Fragmento d'U Diretor. Permite o surgimento de joias de EXP e itens.",
+      "description": "Fragmento d'U Diretor. Permite que joias de EXP e itens se materializem.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Aspecto da Cidade",
-      "description": "Fragmento d'U Diretor. Permite acumular EXP e subir de vida.",
+      "description": "Fragmento d'U Diretor. Permite acumular EXP e subir de nível.",
       "tips": null,
       "achievementTips": null
     },
@@ -2724,7 +2724,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Aspecto da Rocha",
-      "description": "Fragmento d'U Diretor. Permite acumular ouro e abates. Tome cuidado.",
+      "description": "Fragmento d'U Diretor. Permite acumular ouro e abates. Use com sabedoria.",
       "tips": null,
       "achievementTips": null
     },
@@ -2760,27 +2760,27 @@
     "RELIC_PARTY": {
       "name": "Mascarada",
       "description": "Desbloqueia o Modo Festa.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Modo Coop."
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Ídolo de Cera",
+      "description": "Permite comprar o aprimoramento Preservação.",
+      "achievementTips": "Aprimoramento Preservação."
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Rerrolo",
+      "description": "Colete para obter +1 Rolar Novamente.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Chapéu do Secretino",
+      "description": "É uma piada?",
+      "tips": "Desbloqueia Secretino"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "Permite desbloquear e ativar Surtarôs.",
+      "name": "Surtarocchi",
+      "achievementTips": "Surtarôs"
     }
   },
   "pl": {
@@ -3018,7 +3018,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulia Chaosu",
       "description": "Umożliwia Biance Rambie przekształcenie się po osiągnięciu 80. poziomu.",
-      "achievementTips": null
+      "achievementTips": "Carozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Jajo chaosu",
@@ -3164,13 +3164,13 @@
     },
     "TP_RELIC_MASK_MOON": {
       "name": "Aspekt księżyca",
-      "description": "Fragment Dyrektera. Umożliwia materializowanie się kryształów PD i przedmiotów.",
+      "description": "Fragment Dyrektera. Umożliwia materializowanie się kryształów doświadczenia i przedmiotów.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Aspekt miasta",
-      "description": "Fragment Dyrektera. Umożliwia zbieranie PD i zdobywanie poziomów.",
+      "description": "Fragment Dyrektera. Umożliwia zbieranie PD i zdobywania poziomów.",
       "tips": null,
       "achievementTips": null
     },
@@ -3188,7 +3188,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Aspekt kamienia",
-      "description": "Fragment Dyrektera. Umożliwia zbieranie złota i pokonanych wrogów. Zalecana ostrożność.",
+      "description": "Fragment Dyrektera. Umożliwia zbieranie złota i pokonanych wrogów. Używać z rozwagą.",
       "tips": null,
       "achievementTips": null
     },
@@ -3224,27 +3224,27 @@
     "RELIC_PARTY": {
       "name": "Maskarada",
       "description": "Odblokowuje tryb imprezy.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Tryb imprezy"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Woskowy fetysz",
+      "description": "Umożliwia zakup Zachowania wzmocnienia.",
+      "achievementTips": "Zachowanie wzmocnienia"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Zmienna",
+      "description": "Zbierz, aby dostać +1 Zmianę.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Kapelusz Sekretyna",
+      "description": "To jakiś żart?",
+      "tips": "Odblokowuje Sekretyna"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
+      "description": "Pozwala na odblokowanie i aktywację kart Survarota.",
       "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "achievementTips": "Karty Survarota"
     }
   },
   "ru": {
@@ -3477,12 +3477,12 @@
     "RELIC_ATLAS": {
       "name": "Врата Атласа",
       "description": "Разблокируют приключения основной игры.",
-      "achievementTips": "приключения основной игры."
+      "achievementTips": "Приключения основной игры."
     },
     "RELIC_LAZULIA": {
       "name": "Лазулия хаоса",
       "description": "Позволяет Бьянке Рамба менять форму по достижении 80-го уровня.",
-      "achievementTips": null
+      "achievementTips": "Кароцца!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Яйцо хаоса",
@@ -3634,7 +3634,7 @@
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Конфигурация Города",
-      "description": "Фрагмент Контролера. Позволяет накапливать опыт и повышение уровня.",
+      "description": "Фрагмент Контролера. Позволяет накапливать опыт и повышать уровень.",
       "tips": null,
       "achievementTips": null
     },
@@ -3652,7 +3652,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Конфигурация Камня",
-      "description": "Фрагмент Контролера. Позволяет накапливать золото и победы над врагами. Обращаться осторожно.",
+      "description": "Фрагмент Контролера. Позволяет накапливать золото и победы над врагами. Обращаться с осторожностью.",
       "tips": null,
       "achievementTips": null
     },
@@ -3688,27 +3688,27 @@
     "RELIC_PARTY": {
       "name": "Маскарад",
       "description": "Открывает режим вечеринки.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Режим отряда"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Восковой фетиш",
+      "description": "Позволяет приобрести усиление «Сохранение».",
+      "achievementTips": "Усиление «Сохранение»"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Повторро",
+      "description": "Подберите, чтобы получить +1 повтор.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Шляпа Секретино",
+      "description": "Это что, шутка?",
+      "tips": "Открывает Секретино"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "Позволяет разблокировать и активировать сурваротов.",
+      "name": "Сурвароччи",
+      "achievementTips": "Сурвароты"
     }
   },
   "tr": {
@@ -3946,7 +3946,7 @@
     "RELIC_LAZULIA": {
       "name": "Kaos Lazulia",
       "description": "Seviye 80'e ulaşırken Bianca Ramba'nın dönüşmesine olanak sağlar.",
-      "achievementTips": null
+      "achievementTips": "Carozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Kaos Yumurtası",
@@ -4092,19 +4092,19 @@
     },
     "TP_RELIC_MASK_MOON": {
       "name": "Ay'ın Sureti",
-      "description": "Yönetmenin bir parçası. Tecrübe mücevherlerini ve eşyaları somutlaştırmaya olanak sağlar.",
+      "description": "Yönetmen'in bir parçası. TP mücevherlerinin ve eşyaların ortaya çıkmasını sağlar.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Şehir'in Sureti",
-      "description": "Yönetmenin bir parçası. Deneyim toplamaya ve seviye atlamaya olanak sağlar.",
+      "description": "Yönetmen'in bir parçası. TP toplamayı ve seviye atlamayı sağlar.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "Yanardağ'ın Sureti",
-      "description": "Yönetmenin bir parçası. Aktif ve pasif silah yuvalarına sahip olmaya olanak sağlar.",
+      "description": "Yönetmen'in bir parçası. Aktif ve pasif silah yuvaları verir.",
       "tips": null,
       "achievementTips": null
     },
@@ -4116,7 +4116,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Kaya'nın Sureti",
-      "description": "Yönetmenin bir parçası. Altın toplamayı ve öldürmeye olanak sağlar. Dikkatli kullan.",
+      "description": "Yönetmen'in bir parçası. Toplanan altın ve öldürülen düşmanları artırır. Dikkatli kullan.",
       "tips": null,
       "achievementTips": null
     },
@@ -4152,27 +4152,27 @@
     "RELIC_PARTY": {
       "name": "Maskeli Balo",
       "description": "Parti Modu'nun Kilidini açar.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Ekip Modu"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Mum Fetişi",
+      "description": "Muhafaza Güçlendirmesi satın almanı sağlar.",
+      "achievementTips": "Muhafaza Güçlendirmesi"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Tekraritto",
+      "description": "Aldığında +1 Tekrar Atma hakkı verir.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Secretino'nun Şapkası",
+      "description": "Bu şaka falan mı?",
+      "tips": "Secretino'nun kilidini açar"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
+      "description": "Survarotların kilidinin açılmasını ve etkinleştirilmesini sağlar.",
       "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "achievementTips": "Survarotlar"
     }
   },
   "zh-CN": {
@@ -4410,7 +4410,7 @@
     "RELIC_LAZULIA": {
       "name": "混沌天青石",
       "description": "白安卡·兰巴在达到80级时可以变身。",
-      "achievementTips": null
+      "achievementTips": "火车！"
     },
     "RELIC_CHAOSEGG": {
       "name": "混沌蛋",
@@ -4562,13 +4562,13 @@
     },
     "TP_RELIC_MASK_CITY": {
       "name": "城镇假面",
-      "description": "统领的碎片。可让你积累经验值并升级。",
+      "description": "统领的碎片。可用于积累经验值和触发升级。",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "火山假面",
-      "description": "统领的碎片。可让你拥有主动和被动武器栏。",
+      "description": "统领的碎片。可解锁主动和被动武器栏。",
       "tips": null,
       "achievementTips": null
     },
@@ -4615,28 +4615,28 @@
     },
     "RELIC_PARTY": {
       "name": "假面派对",
-      "description": "解锁派对模式。",
-      "achievementTips": "Party Mode"
+      "description": "解锁组队模式。",
+      "achievementTips": "组队模式"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "蜡神像",
+      "description": "可以购买强化：保留。",
+      "achievementTips": "强化：保留"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "重选骰子",
+      "description": "拾取后+1重选机会。",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "秘角的帽子",
+      "description": "这是在开玩笑吗？",
+      "tips": "解锁秘角"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "可以解锁并启用幸存塔罗牌。",
+      "name": "幸存塔罗牌",
+      "achievementTips": "幸存塔罗牌"
     }
   },
   "ja": {
@@ -4704,17 +4704,17 @@
     "RELIC_TEAR": {
       "name": "魔女の涙",
       "description": "ステージ選択時, お急ぎモードが選べる。",
-      "achievementTips": "お急ぎモード。"
+      "achievementTips": "お急ぎモード"
     },
     "RELIC_RANDOMAZZO": {
       "description": "ステージ選択時, アルカナモードが選べる。",
       "name": "数奇のカード",
-      "achievementTips": "アルカナ。"
+      "achievementTips": "アルカナ"
     },
     "RELIC_BANGER": {
       "description": "ステージ選択時, ステージ音楽が選べる。",
       "name": "魔法の楽器",
-      "achievementTips": "音楽選択。"
+      "achievementTips": "音楽選択"
     },
     "GILDED": {
       "description": "落ちている金貨がすべて回収されたのちに, ゴールドフィーバーが発生する。",
@@ -4723,7 +4723,7 @@
     "RELIC_GLASSMASK": {
       "name": "ガラスのお面",
       "description": "全ステージで商人を呼び出せるようになる。",
-      "achievementTips": "商人。"
+      "achievementTips": "商人"
     },
     "RELIC_GOLDENEGG": {
       "plural": "黄金の卵",
@@ -4733,17 +4733,17 @@
     "RELIC_YELLOW": {
       "name": "黄の印",
       "description": "全ステージで隠しアイテムが分かるようになる。",
-      "achievementTips": "ステージの隠しアイテム。"
+      "achievementTips": "ステージの隠しアイテム"
     },
     "RELIC_GRIMOIRE": {
       "name": "魔導書",
       "description": "ポーズメニューから, 見つけた武器の進化と融合の条件を確認できる。",
-      "achievementTips": "進化手順のガイド。"
+      "achievementTips": "進化手順のガイド"
     },
     "RELIC_NOSEGLASSES": {
       "name": "鼻付き眼鏡",
       "description": "キャラクターの外見 (カスタマイズ可能なキャラに限り) と, 武器の最大所持数を変更できる。",
-      "achievementTips": "キャラカスタマイズ。"
+      "achievementTips": "キャラカスタマイズ"
     },
     "RELIC_GOUDA": {
       "name": "アルス・ゴーダ",
@@ -4874,7 +4874,7 @@
     "RELIC_LAZULIA": {
       "name": "カオス・ラズリア",
       "description": "80レベルに到達すると、ビアンカ・ランバが進化可能になる。",
-      "achievementTips": null
+      "achievementTips": "カロッツァ！"
     },
     "RELIC_CHAOSEGG": {
       "name": "カオス・エッグ",
@@ -4899,7 +4899,7 @@
     "RELIC_DARKASSO": {
       "description": "ダルカナスをロック解除および有効化する。",
       "name": "ダルカッソ",
-      "achievementTips": "ダルカナス。"
+      "achievementTips": "ダルカナス"
     },
     "FB_RAPIDFIRE": {
       "name": "高速射撃",
@@ -5026,13 +5026,13 @@
     },
     "TP_RELIC_MASK_CITY": {
       "name": "都市の相貌",
-      "description": "指揮官の断片。XPとレベルアップが蓄積可能になる。",
+      "description": "指揮官の断片。XP蓄積し、レベルアップを発動可能にする。",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "火山の相貌",
-      "description": "指揮官の断片。有効かつパッシブな武器スロットを得る。",
+      "description": "指揮官の断片。有効かつパッシブな武器スロットが獲得可能になる。",
       "tips": null,
       "achievementTips": null
     },
@@ -5080,27 +5080,27 @@
     "RELIC_PARTY": {
       "name": "仮面舞踏会",
       "description": "パーティーモードをアンロックする。",
-      "achievementTips": "Party Mode"
+      "achievementTips": "パーティーモード"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "ロウ製の崇拝物",
+      "description": "パワーアップ持続が購入できるようになる。",
+      "achievementTips": "パワーアップ持続"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "リロールアップ",
+      "description": "拾うとリロール+1。",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "セクレティーノの帽子",
+      "description": "これって何かの冗談？",
+      "tips": "セクレティーノをアンロックする"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "サバイバーカードをアンロックおよび発動可能にする。",
+      "name": "サバイバーカード",
+      "achievementTips": "サバイバータロット"
     }
   },
   "ko": {
@@ -5338,7 +5338,7 @@
     "RELIC_LAZULIA": {
       "name": "카오스 라줄리아",
       "description": "레벨 80 도달 시 비앙카 람바가 변신할 수 있습니다.",
-      "achievementTips": null
+      "achievementTips": "카로차!"
     },
     "RELIC_CHAOSEGG": {
       "name": "카오스 알",
@@ -5544,27 +5544,27 @@
     "RELIC_PARTY": {
       "name": "가장무도회",
       "description": "파티 모드를 잠금 해제합니다.",
-      "achievementTips": "Party Mode"
+      "achievementTips": "파티 모드"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "왁스 페티쉬",
+      "description": "유지 강화를 구매할 수 있습니다.",
+      "achievementTips": "유지 강화"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "다시 뽑기",
+      "description": "#ERROR!",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "시크리티노의 모자",
+      "description": "농담인가요?",
+      "tips": "시크리티노 잠금 해제"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "서바로트를 잠금 해제 및 활성화할 수 있습니다.",
+      "name": "서바로키",
+      "achievementTips": "서바로트"
     }
   },
   "zh-TW": {
@@ -5802,7 +5802,7 @@
     "RELIC_LAZULIA": {
       "name": "混沌天青石",
       "description": "白安卡．蘭巴在達到 80 級後可以變身。",
-      "achievementTips": null
+      "achievementTips": "卡羅札火車！"
     },
     "RELIC_CHAOSEGG": {
       "name": "混沌蛋卵",
@@ -5948,19 +5948,19 @@
     },
     "TP_RELIC_MASK_MOON": {
       "name": "月亮化身",
-      "description": "統領碎片。讓你能夠具現化經驗值寶石與物品。",
+      "description": "統領的碎片。能夠具現化經驗寶石和道具。",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_CITY": {
       "name": "城市化身",
-      "description": "統領碎片。讓你能夠累積經驗值和升級。",
+      "description": "統領的碎片。能夠累積經驗值並觸發升級效果。",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "火山化身",
-      "description": "統領碎片。讓你能夠擁有主動與被動武器欄位。",
+      "description": "統領的碎片。能夠讓你有主動和被動武器欄位。",
       "tips": null,
       "achievementTips": null
     },
@@ -5972,7 +5972,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "石頭化身",
-      "description": "統領碎片。讓你能夠累積金幣和擊殺數。請小心輕放。",
+      "description": "統領的碎片。能夠讓你累積金幣和擊殺數。各位在使用這個道具的時候請自重。",
       "tips": null,
       "achievementTips": null
     },
@@ -6008,27 +6008,27 @@
     "RELIC_PARTY": {
       "name": "化裝舞會",
       "description": "解鎖派對模式。",
-      "achievementTips": "Party Mode"
+      "achievementTips": "組隊模式"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "蠟之信仰",
+      "description": "讓你能夠購買「保留」強化選項。",
+      "achievementTips": "保留強化選項"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "重骰器",
+      "description": "拾取後獲得 +1 次重骰。",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "秘密提諾的帽子",
+      "description": "這是什麼玩笑嗎？",
+      "tips": "解鎖「秘密提諾」"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "可以解鎖並啟動「倖存牌」。",
+      "name": "倖存牌組",
+      "achievementTips": "倖存牌"
     }
   },
   "uk": {
@@ -6261,12 +6261,12 @@
     "RELIC_ATLAS": {
       "name": "Брама Атласа",
       "description": "Відкриває пригоди основної гри.",
-      "achievementTips": "пригоди основної гри."
+      "achievementTips": "Пригоди основної гри."
     },
     "RELIC_LAZULIA": {
       "name": "Лазулія Хаосу",
       "description": "Дозволяє Б'янці Рамба змінювати форму на 80 рівні.",
-      "achievementTips": null
+      "achievementTips": "Кароцца!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Яйце Хаосу",
@@ -6412,19 +6412,19 @@
     },
     "TP_RELIC_MASK_MOON": {
       "name": "Аспект Місяця",
-      "description": "Фрагмент Контролера. Дозволяє матеріалізувати самоцвіти досвіду та предмети.",
+      "description": "Фрагмент Контролера. Дозволяє матеріалізувати самоцвіти досвіду й предмети.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_CITY": {
       "name": "Аспект Міста",
-      "description": "Фрагмент Контролера. Дозволяє накопичувати досвід і підвищення рівнів.",
+      "description": "Фрагмент Контролера. Дозволяє накопичувати досвід і підвищувати рівень.",
       "tips": null,
       "achievementTips": null
     },
     "TP_RELIC_MASK_VOLCANO": {
       "name": "Аспект Вулкана",
-      "description": "Фрагмент Контролера. Дозволяє отримати слоти для активної та пасивної зброї.",
+      "description": "Фрагмент Контролера. Відкриває слоти для активної та пасивної зброї.",
       "tips": null,
       "achievementTips": null
     },
@@ -6436,7 +6436,7 @@
     },
     "TP_RELIC_MASK_STONE": {
       "name": "Аспект Каменю",
-      "description": "Фрагмент Контролера. Дозволяє накопичувати золото і вбиває. Поводитися вкрай обережно.",
+      "description": "Фрагмент Контролера. Дозволяє накопичувати золото й убиває. Використовувати відповідально.",
       "tips": null,
       "achievementTips": null
     },
@@ -6472,27 +6472,27 @@
     "RELIC_PARTY": {
       "name": "Маскарад",
       "description": "Відкриває режим «Вечірка».",
-      "achievementTips": "Party Mode"
+      "achievementTips": "Режим «Вечірка»"
     },
     "RELIC_RECYCLE": {
-      "name": "Wax Fetish",
-      "description": "Allows you to buy the Preserve PowerUp.",
-      "achievementTips": "Preserve PowerUp"
+      "name": "Восковий фетиш",
+      "description": "Дозволяє придбати посилення «Зберігання».",
+      "achievementTips": "Посилення «Зберігання»"
     },
     "PICKUP_REROLL_DICE": {
-      "name": "Rerollo",
-      "description": "Pick up to get +1 Reroll.",
+      "name": "Повторро",
+      "description": "Підберіть, щоб отримати +1 повтор.",
       "tips": null
     },
     "RELIC_SECRETINO": {
-      "name": "Secretino's Hat",
-      "description": "Is this a joke?",
-      "tips": "Unlocks Secretino"
+      "name": "Капелюх Секретіно",
+      "description": "Це якийсь жарт?",
+      "tips": "Відкриває Секретіно"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
-      "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "description": "Дозволяє відкрити й активувати Таро вцілілих.",
+      "name": "Тароччі",
+      "achievementTips": "Таро вцілілих"
     }
   }
 }

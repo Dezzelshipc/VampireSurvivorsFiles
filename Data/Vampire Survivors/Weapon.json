@@ -792,7 +792,7 @@
       ],
       "evoInto": "ROCHER",
       "isUnlocked": false,
-      "poolLimit": 25,
+      "poolLimit": 50,
       "rarity": 80,
       "interval": 3000,
       "repeatInterval": 200,
@@ -852,7 +852,7 @@
       "hitVFX": "Light",
       "hidden": false,
       "isUnlocked": false,
-      "poolLimit": 40,
+      "poolLimit": 50,
       "rarity": 1,
       "interval": 1000,
       "repeatInterval": 0,
@@ -2686,6 +2686,7 @@
       "frameName": "EX_AMMO2.png",
       "isEvolution": true,
       "isUnlocked": true,
+	  "hidden": true,
       "evolvesFrom": [
         "EX_AMMO1"
       ],
@@ -2705,7 +2706,9 @@
       "area":           1,
       "speed":          1,
       "amount":         1,
-      "penetrating":    0
+      "penetrating":    0,
+	  "critChance":     0.05,
+      "critMul":        2
     }
   ],
   "VICTORY": [
@@ -4873,7 +4876,7 @@
       "contentGroup": "EXTRA",
       "sealable": false,
       "isSpecialOnly": true,
-      "bulletType": "EX_AMMO1",
+      "bulletType": "EX_AMMO1_COUNTER",
       "price": 10,
       "name": "Ammo Appalate",
       "description": "Fires at the nearest enemy.",
@@ -4881,7 +4884,8 @@
       "texture": "items",
       "collectionFrame": "frameB_bold.png",
       "frameName": "EX_AMMO_COUNTER.png",
-      "isUnlocked": true,
+      "isUnlocked": false,
+	  "hidden": true,
       "poolLimit":  200,
       "rarity":     60,
       "interval":       2000,
@@ -5283,111 +5287,4 @@
       "hitsWalls": false
     }
   ],
-  "EX_COINTOSS1": [
-    {
-      "level": 1,
-      "sealable": true,
-      "bulletType": "EX_COINTOSS1",
-      "price": 2,
-      "name": "Sossoldi",
-      "description": ".",
-      "tips": "Ignores: Duration.",
-      "texture": "items",
-      "frameName": "CoinGold.png",
-      "isUnlocked": false,
-      "hidden": true,
-      "alwaysHidden": true,
-      "isSpecialOnly": true,
-      "isPowerUp": true,
-      "poolLimit": 100,
-      "rarity": 1,
-      "interval": 2000,
-      "repeatInterval": 180,
-      "power": 0.65,
-      "area": 1,
-      "speed": 1,
-      "amount": 1,
-      "penetrating": 1,
-      "knockback": 0.5,
-      "critChance": 0.0,
-      "critMul": 1
-    },
-    {
-      "amount": 1,
-      "repeatInterval": -20
-    },
-    {
-      "amount": 1,
-      "repeatInterval": -20
-    },
-    {
-      "amount": 1,
-      "repeatInterval": -20
-    },
-    {
-      "penetrating": 2,
-      "repeatInterval": -20
-    },
-    {
-      "amount": 1,
-      "repeatInterval": -20
-    },
-    {
-      "amount": 1,
-      "repeatInterval": -20
-    },
-    {
-      "penetrating": 2,
-      "repeatInterval": -20
-    }
-  ],
-  "LEM_ACC_SABOTEUR": [
-    {
-      "level": 1,
-      "sealable": true,
-      "bulletType": "LEM_ACC_SABOTEUR",
-      "weaponType": "LEM_ACC_SABOTEUR",
-      "frameName":  "CoinGold.png",
-      "texture": "items",
-      "price": 2,
-      "name": "Outer Saboteur",
-      "description": ".",
-      "tips": "-",
-      "isUnlocked": false,
-      "hidden": true,
-      "alwaysHidden": true,
-      "isSpecialOnly": true,
-      "isPowerUp": true,
-      "rarity": 5,
-      "allowDuplicates": false,
-      "followerType": "LEM_FOLLOWER_SABOTEUR",
-      "followerAI": "Defensive",
-      "customDescValue": "Gives you %0% gold coins, then makes an improper use of your savings.",
-      "customDesc": 100
-    },
-    {
-      "customDesc": 200
-    },
-    {
-      "customDesc": 300
-    },
-    {
-      "customDesc": 400
-    },
-    {
-      "customDesc": 500
-    },
-    {
-      "customDesc": 600
-    },
-    {
-      "customDesc": 700
-    },
-    {
-      "customDesc": 800
-    },
-    {
-      "customDesc": 900
-    }
-  ]
 }

@@ -560,8 +560,8 @@
       "tips": "Requires: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": "Evolved Carréllo. Duration, Speed, and Area affect damage instead. Bounces affect Amount instead.",
+      "name": "Carozza!",
+      "description": "Evolved Carréllo. Duration, Speed, and Area affect damage instead.",
       "tips": "Requires: Tetraforce."
     },
     "FLOWER2": {
@@ -1195,7 +1195,7 @@
     },
     "TP_WINDWHIP2": {
       "name": "Spirit Tornado Tip",
-      "description": "Evolved Wind Whip. Every 7th activation summons a spirit that violently collects XP gems for you.",
+      "description": "Evolved Wind Whip. Every 7th activation summons a spirit that violently collects XP crystals for you.",
       "tips": "Requires: Crown."
     },
     "TP_FIRE2": {
@@ -1566,12 +1566,12 @@
     },
     "TP_SPIRITTORNADO": {
       "name": "Summon Spirit Tornado",
-      "description": "Summons spirits that will occasionally pick up XP gems for you.",
+      "description": "Summons spirits that will occasionally pick up XP crystals for you.",
       "tips": null
     },
     "TP_SPIRITTORNADO_WINDWHIP": {
       "name": "Spirit Tornado",
-      "description": "Summons spirits that will occasionally pick up XP gems for you.",
+      "description": "Summons spirits that will occasionally pick up XP crystals for you.",
       "tips": null
     },
     "TP_ELEVATOR_WEAPON": {
@@ -1941,7 +1941,7 @@
     "EME_AXE2": {
       "name": "Falconwind",
       "description": "Evolved Bullova. Can glimmer the \"Reverse Delta\" tech.",
-      "tips": "Requires: Skull O'Maniac, \"Hell's Fury\" tech."
+      "tips": "Requires Max: Skull O'Maniac, \"Hell's Fury\" tech."
     },
     "EME_AXE_TECH_01": {
       "name": "Hell's Fury ★"
@@ -2028,13 +2028,13 @@
     "EME_WAVE": {
       "name": "Emerald Rapture",
       "tips": "Chance of striking affected by all stats.",
-      "description": "Picks random enemies to teleport away, but they might not drop XP gems.",
+      "description": "Picks random enemies to teleport away, but they might not drop XP crystals.",
       "customDescValue": "Strikes more often. %0% better chance to leave XP intact."
     },
     "EME_WAVE2": {
       "name": "Emerald Wave",
       "tips": "Requires: Crown.",
-      "description": "Evolved Emerald Rapture. Teleports any enemy on its path and they always drop their best XP gems."
+      "description": "Evolved Emerald Rapture. Teleports any enemy on its path and they always drop their best XP crystals."
     },
     "EME_SELECTOR": {
       "name": "Intuition",
@@ -2631,8 +2631,8 @@
       "tips": "Requiert : Tétraforce."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Carozza !",
+      "description": "Évolution du Carréllo. La durée, la vitesse et la portée affectent les dégâts. Les rebonds affectent la quantité.",
       "tips": "Requiert : Tétraforce."
     },
     "FLOWER2": {
@@ -3767,7 +3767,7 @@
     },
     "EX_GAEA1": {
       "name": "Regard de Gaïa",
-      "tips": null,
+      "tips": "Ignore : vitesse.",
       "description": "Peut affaiblir les ennemis. Riposte."
     },
     "EX_GAEA2": {
@@ -4115,17 +4115,17 @@
     "EX_AMMO1": {
       "name": "Munizioni à gogo",
       "tips": "Ignore : durée.",
-      "description": "Tire des projectiles sur un ennemi aléatoire. La vitesse des projectiles augmente la pénétration."
+      "description": "Vise un ennemi dans la direction à laquelle vous faites face. Stocke les projectiles lorsque les ennemis sont hors de portée."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Cartoucheval",
       "tips": "Ignore : durée.",
-      "description": "Tire des projectiles sur un ennemi aléatoire. La vitesse des projectiles augmente la pénétration."
+      "description": "Vise un ennemi dans la direction opposée à laquelle vous faites face. Stocke les projectiles lorsque les ennemis sont hors de portée."
     },
     "EX_AMMO2": {
       "name": "Flinguastrophe",
       "tips": "Requiert : Brassard au max.",
-      "description": "Évolution du Munizioni à gogo. Inflige des dégâts à tous les ennemis visibles."
+      "description": "Évolution du Munizioni à gogo. Lance des projectiles peu orthodoxes sur les ennemis à portée."
     },
     "EX_MAGISTONE1": {
       "name": "Magipierre",
@@ -4135,7 +4135,7 @@
     "EX_MAGISTONE2": {
       "name": "Kyrapierres",
       "tips": "Requiert : Mana de Karoma.",
-      "description": "Évolution de la Magipierre. Les dégâts augmentent en même temps que le niveau du joueur. La quantité augmente en fonction des ennemis visibles."
+      "description": "Évolution de la Magipierre. Les dégâts augmentent lorsque le joueur a dépassé le niveau 80. La quantité augmente en fonction des ennemis visibles."
     },
     "D13_MADMOON": {
       "name": "L'appel de la folle lune"
@@ -4702,8 +4702,8 @@
       "tips": "Requisito: Tetraforza."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Carozza!",
+      "description": "Evoluzione di Carrello. Durata, Velocità e Area influenzano i danni. I rimbalzi influenzano la Quantità.",
       "tips": "Requisito: Tetraforza."
     },
     "FLOWER2": {
@@ -5838,7 +5838,7 @@
     },
     "EX_GAEA1": {
       "name": "Sguardo di Gaia",
-      "tips": null,
+      "tips": "Ignora: Velocità.",
       "description": "Potrebbe sdentare i nemici. Contrattacca."
     },
     "EX_GAEA2": {
@@ -6186,17 +6186,17 @@
     "EX_AMMO1": {
       "name": "Munizioni Appalate",
       "tips": "Ignorano: Durata.",
-      "description": "Sparano a un nemico casuale. La Velocità dei proiettili aumenta la Penetrazione."
+      "description": "Spara a un nemico casuale nella direzione verso cui si è rivolti. Quando i nemici sono fuori dal raggio d'attacco, accumula proiettili."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Cartuccia equina",
       "tips": "Ignora: Durata.",
-      "description": "Spara a un nemico casuale. La Velocità dei proiettili aumenta la Penetrazione."
+      "description": "Spara a un nemico in direzione opposta a quella in cui si è rivolti. Quando i nemici sono fuori dal raggio d'attacco, accumula proiettili."
     },
     "EX_AMMO2": {
       "name": "Armocalisse",
       "tips": "Necessita del massimo di: Parabraccio.",
-      "description": "Evoluzione di Munizioni Appalate. Infligge danni a tutti i nemici visibili."
+      "description": "Evoluzione di Munizioni Appalate. Spara insoliti proiettili ai nemici nel campo visivo."
     },
     "EX_MAGISTONE1": {
       "name": "Magi-pietra",
@@ -6206,7 +6206,7 @@
     "EX_MAGISTONE2": {
       "name": "Kyra-pietre",
       "tips": "Requisito: Mana di Karoma.",
-      "description": "Evoluzione di Magi-pietra. Il danno aumenta con il livello del giocatore. La Quantità aumenta con i nemici visibili."
+      "description": "Evoluzione di Magi-pietra. Il danno aumenta quando il giocatore supera l'80° livello. La Quantità aumenta con i nemici visibili."
     },
     "D13_MADMOON": {
       "name": "Richiamo di una luna pazza"
@@ -6773,8 +6773,8 @@
       "tips": "Benötigt: Tetrakraft."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Carozza!",
+      "description": "Verbesserter Carréllo. Schaden ist nun abhängig von Dauer, Schnelligkeit und Bereich. Menge ist nun abhängig von Abprallern.",
       "tips": "Benötigt: Tetrakraft."
     },
     "FLOWER2": {
@@ -7909,7 +7909,7 @@
     },
     "EX_GAEA1": {
       "name": "Blick der Gaea",
-      "tips": null,
+      "tips": "Ignoriert: Tempo.",
       "description": "Kann Gegner zahnlos machen. Übt Vergeltung aus."
     },
     "EX_GAEA2": {
@@ -8257,17 +8257,17 @@
     "EX_AMMO1": {
       "name": "Kugelhagel",
       "tips": "Ignoriert: Dauer.",
-      "description": "Feuert auf einen zufälligen Gegner. Geschossschnelligkeit erhöht Durchdringung."
+      "description": "Feuert auf einen Gegner in Blickrichtung. Wenn kein Gegner in Reichweite ist, werden die Geschosse gesammelt."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Pferdewumme",
       "tips": "Ignoriert: Dauer.",
-      "description": "Feuert auf einen zufälligen Gegner. Geschossschnelligkeit erhöht Durchdringung."
+      "description": "Feuert auf einen Gegner in Blickrichtung. Wenn kein Gegner in Reichweite ist, werden die Geschosse gesammelt."
     },
     "EX_AMMO2": {
       "name": "Katastrowaffe",
       "tips": "Benötigt (max.): Armschiene.",
-      "description": "Verbesserter Kugelhagel. Fügt allen sichtbaren Gegnern Schaden zu."
+      "description": "Verbesserter Kugelhagel. Feuert unorthodoxe Geschosse auf Gegner in Sichtweite ab."
     },
     "EX_MAGISTONE1": {
       "name": "Stein der Weisen",
@@ -8277,7 +8277,7 @@
     "EX_MAGISTONE2": {
       "name": "Kyra-Steine",
       "tips": "Benötigt: Karomas Mana.",
-      "description": "Verbesserter Stein der Weisen. Schaden erhöht sich mit Spielerlevel. Menge erhöht sich mit der Anzahl sichtbarer Gegner."
+      "description": "Verbesserter Stein der Weisen. Schaden erhöht sich ab einem Spielerlevel von über 80. Menge erhöht sich mit der Anzahl sichtbarer Gegner."
     },
     "D13_MADMOON": {
       "name": "Echo eines Tollmonds"
@@ -8844,8 +8844,8 @@
       "tips": "Requiere: tetrafuerza."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Carozza",
+      "description": "Evolución del carréllo. La duración, la velocidad y el área de efecto afectan al daño. Los rebotes afectan a la cantidad.",
       "tips": "Requiere: tetrafuerza."
     },
     "FLOWER2": {
@@ -9980,7 +9980,7 @@
     },
     "EX_GAEA1": {
       "name": "Mirada de Gaia",
-      "tips": null,
+      "tips": "Ignora: velocidad.",
       "description": "Puede descolmillar a los enemigos. Refleja el daño."
     },
     "EX_GAEA2": {
@@ -10328,17 +10328,17 @@
     "EX_AMMO1": {
       "name": "Munición appalate",
       "tips": "Ignora: duración.",
-      "description": "Dispara a un enemigo aleatorio. La velocidad de proyectil aumenta la penetración."
+      "description": "Apunta a un enemigo en la dirección a la que mires. Acumula proyectiles cuando los enemigos estén fuera del alcance."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Cartucho de caballos",
       "tips": "Ignora: duración.",
-      "description": "Dispara a un enemigo aleatorio. La velocidad de proyectil aumenta la penetración."
+      "description": "Dispara a un enemigo en la dirección opuesta a la que mires. Acumula proyectiles cuando los enemigos estén fuera del alcance."
     },
     "EX_AMMO2": {
       "name": "Pistolástrofe",
       "tips": "Requiere: brazal al máximo.",
-      "description": "Evolución de la munición appalate. Daña a todos los enemigos visibles en pantalla."
+      "description": "Evolución de la munición appalate. Dispara proyectiles poco ortodoxos a los enemigos que aparecen en pantalla."
     },
     "EX_MAGISTONE1": {
       "name": "Gemágica",
@@ -10348,7 +10348,7 @@
     "EX_MAGISTONE2": {
       "name": "Gemas de Kyra",
       "tips": "Requiere: maná de Karoma.",
-      "description": "Evolución de la gemágica. El daño aumenta con el nivel de jugador. La cantidad aumenta con los enemigos visibles en pantalla."
+      "description": "Evolución de la gemágica. El daño aumenta cuando el nivel de jugador es superior a 80. La cantidad aumenta con los enemigos visibles en pantalla."
     },
     "D13_MADMOON": {
       "name": "Llamada de una luna de locura"
@@ -10915,8 +10915,8 @@
       "tips": "Requer: Tetraforça."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Carroça",
+      "description": "Evolução do Carréllo. Duração, Velocidade e Área afetam o dano. Ricochete afeta Quantidade.",
       "tips": "Requer: Tetraforça."
     },
     "FLOWER2": {
@@ -12051,7 +12051,7 @@
     },
     "EX_GAEA1": {
       "name": "Olhar de Gaea",
-      "tips": null,
+      "tips": "Ignora: Velocidade.",
       "description": "Pode aplicar Debilidade nos inimigos. Retalia."
     },
     "EX_GAEA2": {
@@ -12399,17 +12399,17 @@
     "EX_AMMO1": {
       "name": "Ilimitarma",
       "tips": "Ignora: Duração.",
-      "description": "Dispara em um inimigo aleatório. Velocidade de Projéteis aumenta Penetração."
+      "description": "Dispara em um inimigo à frente. Acumula projéteis quando os inimigos estão fora de alcance."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Carruagem",
       "tips": "Ignora: Duração.",
-      "description": "Dispara em um inimigo aleatório. Velocidade de Projéteis aumenta Penetração."
+      "description": "Dispara em um inimigo na direção contrária. Acumula projéteis quando os inimigos estão fora de alcance."
     },
     "EX_AMMO2": {
       "name": "Canhástrofe",
       "tips": "Requer máx. de: Braçadeira.",
-      "description": "Evolução da Ilimitarma. Causa dano a todos os inimigos visíveis."
+      "description": "Evolução da Ilimitarma. Dispara projéteis incomuns contra os inimigos à vista."
     },
     "EX_MAGISTONE1": {
       "name": "Magirrocha",
@@ -12419,7 +12419,7 @@
     "EX_MAGISTONE2": {
       "name": "Kyrarrochas",
       "tips": "Requer: Mana de Karoma.",
-      "description": "Evolução da Magirrocha. Dano aumenta a cada nível. Quantidade aumenta conforme os inimigos visíveis."
+      "description": "Evolução da Magirrocha. Dano aumenta quando o nível do jogador está acima de 80. Quantidade aumenta conforme os inimigos visíveis."
     },
     "D13_MADMOON": {
       "name": "Chamado da Lua Louca"
@@ -12986,8 +12986,8 @@
       "tips": "Wymagania: Czwórmoc"
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Carozza!",
+      "description": "Ulepszone Carréllo. Czas trwania, Prędkość i Obszar wpływają na obrażenia. Odbicia wpływają na Ilość.",
       "tips": "Wymagania: Czwórmoc."
     },
     "FLOWER2": {
@@ -14113,7 +14113,7 @@
     "TP_DEATHHAND": {
       "name": "Ręka Śmierci",
       "tips": null,
-      "description": "Zabójcze cyfry"
+      "description": "Śmiertelne cyfry"
     },
     "TP_DRACULAHAND": {
       "name": "Ręka Vlada",
@@ -14122,7 +14122,7 @@
     },
     "EX_GAEA1": {
       "name": "Spojrzenie Gai",
-      "tips": null,
+      "tips": "Ignoruje: Prędkość.",
       "description": "Może pozbawić wrogów kłów. Zadaje obrażenia odwetowe."
     },
     "EX_GAEA2": {
@@ -14470,17 +14470,17 @@
     "EX_AMMO1": {
       "name": "Miotacz amunicji",
       "tips": "Ignoruje: Czas trwania.",
-      "description": "Wystrzeliwuje w losowego wroga. Prędkość pocisków zwiększa Przebijanie."
+      "description": "Celuje we wroga w stronę, w którą skierowana jest postać. Gromadzi pociski, gdy wrogowie są poza zasięgiem."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Colt",
       "tips": "Ignoruje: Czas trwania.",
-      "description": "Wystrzeliwuje w losowego wroga. Prędkość pocisków zwiększa Przebijanie."
+      "description": "Celuje we wroga w stronę przeciwną niż ta, w którą skierowana jest postać. Gromadzi pociski, gdy wrogowie są poza zasięgiem."
     },
     "EX_AMMO2": {
       "name": "Gnatastrofa",
       "tips": "Wymagany maks. poziom: Karwasz.",
-      "description": "Ulepszony Miotacz amunicji. Zadaje obrażenia wszystkim wrogom w zasięgu wzroku."
+      "description": "Ulepszony Miotacz amunicji. Wystrzeliwuje niekonwencjonalne pociski we wrogów w zasięgu wzroku."
     },
     "EX_MAGISTONE1": {
       "name": "Magikamień",
@@ -14490,7 +14490,7 @@
     "EX_MAGISTONE2": {
       "name": "Kyrakamienie",
       "tips": "Wymagania: Mana Karomy.",
-      "description": "Ulepszony Magikamień. Obrażenia wzrastają wraz z poziomem gracza. Ilość wzrasta wraz z liczbą widocznych wrogów."
+      "description": "Ulepszony Magikamień. Obrażenia wzrastają, gdy poziom gracza przekroczy 80. Ilość wzrasta wraz z liczbą widocznych wrogów."
     },
     "D13_MADMOON": {
       "name": "Zew szalonego księżyca"
@@ -15057,8 +15057,8 @@
       "tips": "Требуется: Cила четырех."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Кароцца!",
+      "description": "Улучшенный «Каррелло». Продолжительность, скорость и область влияют на урон. Отскоки влияют на боезапас.",
       "tips": "Требуется: сила четырех."
     },
     "FLOWER2": {
@@ -16193,7 +16193,7 @@
     },
     "EX_GAEA1": {
       "name": "Взор Геи",
-      "tips": null,
+      "tips": "Игнорирует: скорость.",
       "description": "Может обезвреживать врагов. Наносит ответный удар."
     },
     "EX_GAEA2": {
@@ -16541,17 +16541,17 @@
     "EX_AMMO1": {
       "name": "Экстрастрелянца",
       "tips": "Игнорирует: продолжительность.",
-      "description": "Стреляет по случайному врагу. Скорость снаряда увеличивает пробитие."
+      "description": "Нацеливается на случайного врага по направлению движения. Накапливает снаряды, если враги вне досягаемости."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Кольт де Кавалло",
       "tips": "Игнорирует: продолжительность.",
-      "description": "Стреляет по случайному врагу. Скорость снаряда увеличивает пробитие."
+      "description": "Нацеливается на случайного врага позади направления движения. Накапливает снаряды, если враги вне досягаемости."
     },
     "EX_AMMO2": {
       "name": "Крантыстрофа",
       "tips": "Требуется макс.: «Наруч».",
-      "description": "Улучшенная «Экстрастрелянца». Наносит урон всем видимым врагам."
+      "description": "Улучшенная «Экстрастрелянца». Стреляет необычными снарядами по врагам в поле зрения."
     },
     "EX_MAGISTONE1": {
       "name": "Магикамень",
@@ -16561,7 +16561,7 @@
     "EX_MAGISTONE2": {
       "name": "Киракамни",
       "tips": "Требуется: «Мана Каромы».",
-      "description": "Улучшенный «Магикамень». Урон увеличивается с уровнем игрока. Боезапас увеличивается с числом видимых врагов."
+      "description": "Улучшенный «Магикамень». Урон увеличится, когда уровень игрока станет выше 80. Боезапас увеличивается с числом видимых врагов."
     },
     "D13_MADMOON": {
       "name": "Зов Беснолуния"
@@ -17128,8 +17128,8 @@
       "tips": "Gerektirir: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Carozza!",
+      "description": "Evrimleşmiş Carréllo. Tesir Süresi, Hız ve Alan hasarı etkiler. Sekme Sayısı Miktar'ı etkiler.",
       "tips": "Gerektirir: Tetraforce."
     },
     "FLOWER2": {
@@ -18264,7 +18264,7 @@
     },
     "EX_GAEA1": {
       "name": "Gaea'nın Nazarı",
-      "tips": null,
+      "tips": "Yok sayar: Hız.",
       "description": "Düşmanları zararsızlaştırabilir. Misilleme yapar."
     },
     "EX_GAEA2": {
@@ -18612,17 +18612,17 @@
     "EX_AMMO1": {
       "name": "Mermisi Bitmez",
       "tips": "Yok Sayar: Tesir Süresi.",
-      "description": "Rastgele bir düşmana ateş eder. Fırlatılabilir Hızı, Penetrasyonu artırır."
+      "description": "Gidilen yöndeki bir düşmana nişan alır. Menzilde düşman yoksa fırlatılabilirleri biriktirir."
     },
     "EX_AMMO1_COUNTER": {
       "name": "At Fişeği",
       "tips": "Yok Sayar: Tesir Süresi.",
-      "description": "Rastgele bir düşmana ateş eder. Fırlatılabilir Hızı, Penetrasyonu artırır."
+      "description": "Gidilen yönün tersindeki bir düşmana nişan alır. Menzilde düşman yoksa fırlatılabilirleri biriktirir."
     },
     "EX_AMMO2": {
       "name": "Silafet",
       "tips": "Gerektirir: Maks Kol Zırhı.",
-      "description": "Evrimleşmiş Mermisi Bitmez. Görünen tüm düşmanlara hasar verir."
+      "description": "Evrimleşmiş Mermisi Bitmez. Görünürdeki tüm düşmanlara çok değişik fırlatılabilirler atar."
     },
     "EX_MAGISTONE1": {
       "name": "Magi-Taşı",
@@ -18632,7 +18632,7 @@
     "EX_MAGISTONE2": {
       "name": "Kyra-Taşları",
       "tips": "Gerektirir: Karoma'nın Manası",
-      "description": "Evrimleşmiş Magi-Taşı. Hasar Oyuncu Seviyesi ile artar. Miktar, görünen düşmanlara göre artar."
+      "description": "Evrimleşmiş Magi-Taşı. Hasar, Oyuncu Seviyesi 80'in üzerine çıktığında artar. Miktar, görünen düşmanlara göre artar."
     },
     "D13_MADMOON": {
       "name": "Deli Ayın Çağrısı"
@@ -19199,8 +19199,8 @@
       "tips": "需要：泰特拉部队。"
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "火车！",
+      "description": "进化后的推车。持续时间、飞射速度和攻击范围改为影响伤害，弹跳次数改为影响发射数量。",
       "tips": "需要：泰特拉部队。"
     },
     "FLOWER2": {
@@ -20326,7 +20326,7 @@
     "TP_DEATHHAND": {
       "name": "死亡之手",
       "tips": null,
-      "description": "致命的数字"
+      "description": "致命数字"
     },
     "TP_DRACULAHAND": {
       "name": "弗拉德之手",
@@ -20335,7 +20335,7 @@
     },
     "EX_GAEA1": {
       "name": "盖伊之视",
-      "tips": null,
+      "tips": "无关：速度。",
       "description": "有一定概率让敌人去齿。反伤。"
     },
     "EX_GAEA2": {
@@ -20683,17 +20683,17 @@
     "EX_AMMO1": {
       "name": "永弹枪",
       "tips": "无关：持续时间。",
-      "description": "向一名随机敌人发射，飞射速度会提高穿透效果。"
+      "description": "瞄准一名正对面的敌人。当敌人不在范围内时，囤积飞射物。"
     },
     "EX_AMMO1_COUNTER": {
       "name": "马铳",
       "tips": "无关：持续时间。",
-      "description": "向一名随机敌人发射，飞射速度会提高穿透效果。"
+      "description": "瞄准一名正相反的敌人。当敌人不在范围内时，囤积飞射物。"
     },
     "EX_AMMO2": {
       "name": "祸枪",
       "tips": "需要：护腕（最高等级）。",
-      "description": "进化永弹枪。对所有可见的敌人造成伤害。"
+      "description": "进化后的永弹枪。对视野内的敌人发射非传统飞射物。"
     },
     "EX_MAGISTONE1": {
       "name": "魔法石",
@@ -20703,7 +20703,7 @@
     "EX_MAGISTONE2": {
       "name": "凯拉石",
       "tips": "需要：卡洛玛的法力。",
-      "description": "进化后的魔法石。伤害随着玩家等级而增加。发射数量随着可见敌人数而增加。"
+      "description": "进化后的魔法石。伤害在玩家等级高于80级后增加。发射数量随着可见敌人数而增加。"
     },
     "D13_MADMOON": {
       "name": "疯月的呼唤"
@@ -21270,8 +21270,8 @@
       "tips": "テトラフォースが必要。"
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "カロッツァ！",
+      "description": "トロッコの進化形。効果時間、弾速、攻撃範囲は代わりにダメージに作用する。代わりに、発射弾数は跳ね返りの影響を受ける。",
       "tips": "必要アイテム：テトラフォース"
     },
     "FLOWER2": {
@@ -22406,7 +22406,7 @@
     },
     "EX_GAEA1": {
       "name": "ガイアのまなざし",
-      "tips": null,
+      "tips": "弾速はこの武器に効果をもたらさない。",
       "description": "敵を弱体化させる可能性がある。反撃する。"
     },
     "EX_GAEA2": {
@@ -22754,17 +22754,17 @@
     "EX_AMMO1": {
       "name": "弾薬アパラチア",
       "tips": "持続時間を無視する。",
-      "description": "ランダムな敵を狙う。弾速と貫通力が上昇する。"
+      "description": "向いている方向の敵を狙う。敵が範囲外にいる場合、発射物を蓄積する。"
     },
     "EX_AMMO1_COUNTER": {
       "name": "ホースカートリッジ",
       "tips": "持続時間を無視する。",
-      "description": "ランダムな敵を狙う。弾速と貫通力が上昇する。"
+      "description": "向いている方向の真逆にいる敵を狙う。敵が範囲外にいる場合、発射物を蓄積する。"
     },
     "EX_AMMO2": {
       "name": "銃惨事",
       "tips": "必要アイテム：マックス腕甲",
-      "description": "弾薬アパラチアの進化形。目に見える敵すべてにダメージを与える。"
+      "description": "弾薬アパラチアの進化形。視界内にいる敵めがけて異常すぎる量の発射物を放つ。"
     },
     "EX_MAGISTONE1": {
       "name": "マギストーン",
@@ -22774,7 +22774,7 @@
     "EX_MAGISTONE2": {
       "name": "キアラ・ストーン",
       "tips": "必要アイテム：カロマのマナ",
-      "description": "マギストーンの進化系。プレイヤーのレベルに応じてダメージが増加する。敵の表示数に応じて効果が増加。"
+      "description": "マギストーンの進化形。プレイヤーレベルが80以上になるとダメージが増加。目に見える敵に対して発射弾数も増量する。"
     },
     "D13_MADMOON": {
       "name": "狂い月の呼び声"
@@ -23341,8 +23341,8 @@
       "tips": "요구 사항: 테트라포스"
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "카로차!",
+      "description": "진화된 광산수레. 지속 시간, 속도, 공격 범위가 대신 피해에 영향을 미칩니다. 수량 대신 튕기는 데 영향을 끼칩니다.",
       "tips": "요구 사항: 테트라포스"
     },
     "FLOWER2": {
@@ -24477,7 +24477,7 @@
     },
     "EX_GAEA1": {
       "name": "가에야의 시선",
-      "tips": null,
+      "tips": "강화 무시: 투사체 속도",
       "description": "전능한 옥수수 털기 적입니다. 반격합니다."
     },
     "EX_GAEA2": {
@@ -24825,17 +24825,17 @@
     "EX_AMMO1": {
       "name": "탄약 아팔레트",
       "tips": "강화 무시: 지속시간",
-      "description": "무작위 적에게 발사합니다. 투사체 속도에 따라 더 많이 관통합니다."
+      "description": "적을 향해 정면으로 조준합니다. 적이 사정거리를 벗어나면 발사체를 비축합니다."
     },
     "EX_AMMO1_COUNTER": {
       "name": "말 카트리지",
       "tips": "강화 무시: 지속시간",
-      "description": "무작위 적에게 발사합니다. 투사체 속도에 따라 더 많이 관통합니다."
+      "description": "상대 방향의 반대편 적을 조준합니다. 적이 사정거리를 벗어나면 발사체를 비축합니다."
     },
     "EX_AMMO2": {
       "name": "총격전",
       "tips": "요구사항: 맥스 브레이서",
-      "description": "진화한 탄약 아팔레트. 눈에 보이는 모든 적에게 피해를 줍니다."
+      "description": "진화된 탄약 아팔레트. 보이는 적에게 특이한 발사체를 발사합니다."
     },
     "EX_MAGISTONE1": {
       "name": "마기 스톤",
@@ -24845,7 +24845,7 @@
     "EX_MAGISTONE2": {
       "name": "키라-스톤",
       "tips": "요구사항: 카로마의 마나",
-      "description": "진화한 마기 스톤입니다. 플레이어 레벨에 따라 피해량이 증가합니다. 눈에 보이는 적에 따라 수량이 증가합니다."
+      "description": "진화한 마기 스톤. 플레이어 레벨이 80 이상일 때 피해량이 증가합니다. 적이 눈에 보이면 피해량이 증가합니다."
     },
     "D13_MADMOON": {
       "name": "미친 달의 부름"
@@ -25412,8 +25412,8 @@
       "tips": "需要：泰特拉部隊。"
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "卡羅札火車！",
+      "description": "解放版的推車。傷害會改為取決於效果持續時間、速度以及效果範圍的高低/大小。投射物數量會改為取決於反彈次數高低。",
       "tips": "需要：泰特拉部隊。"
     },
     "FLOWER2": {
@@ -26539,7 +26539,7 @@
     "TP_DEATHHAND": {
       "name": "死亡之手",
       "tips": null,
-      "description": "致命的數字"
+      "description": "致命數字"
     },
     "TP_DRACULAHAND": {
       "name": "弗拉德之手",
@@ -26548,7 +26548,7 @@
     },
     "EX_GAEA1": {
       "name": "蓋亞之眼",
-      "tips": null,
+      "tips": "無加成效果：速度。",
       "description": "可能會減輕敵人的威脅。可造成反擊傷害。"
     },
     "EX_GAEA2": {
@@ -26896,17 +26896,17 @@
     "EX_AMMO1": {
       "name": "王牌射手",
       "tips": "無加成效果：效果持續時間",
-      "description": "向隨機敵人進行射擊。投射物飛行速度可以提高穿透力。"
+      "description": "瞄準一個前方的敵人。敵人如果超出攻擊範圍的話，便會先將投射物保存起來。"
     },
     "EX_AMMO1_COUNTER": {
       "name": "古墓奇兵手槍",
       "tips": "無加成效果：效果持續時間",
-      "description": "向隨機敵人進行射擊。投射物飛行速度可以提高穿透力。"
+      "description": "瞄準一個後方的敵人。敵人如果超出攻擊範圍的話，便會先將投射物保存起來。"
     },
     "EX_AMMO2": {
       "name": "災厄之槍",
       "tips": "需要：最高級的護腕",
-      "description": "解放版的王牌射手。能對畫面中所有的敵人造成傷害。"
+      "description": "解放版的彈藥彈匣。朝視野範圍內的敵人發射「非正規」的投射物。"
     },
     "EX_MAGISTONE1": {
       "name": "魔法石",
@@ -26916,7 +26916,7 @@
     "EX_MAGISTONE2": {
       "name": "凱拉石",
       "tips": "需要：卡羅馬的法力",
-      "description": "解放版的魔法石。傷害會隨著玩家等級提高而增加。投射物數量會隨著可見敵人的數量變多而增加。"
+      "description": "解放版的魔法石。玩家等級如果超過 80 級的話，傷害便會提高。視野範圍內的可見敵人越多，投射物的數量也會隨之提高。"
     },
     "D13_MADMOON": {
       "name": "瘋狂之月的呼喚"
@@ -27483,8 +27483,8 @@
       "tips": "Потребує: Тетрафорс."
     },
     "CART2EVO": {
-      "name": "Carrozza!",
-      "description": null,
+      "name": "Кароцца!",
+      "description": "Еволюція Карело. Тривалість, швидкість й область впливають на шкоду. Рикошети впливають на кількість.",
       "tips": "Потребує: Тетрафорс."
     },
     "FLOWER2": {
@@ -28619,7 +28619,7 @@
     },
     "EX_GAEA1": {
       "name": "Погляд Геї",
-      "tips": null,
+      "tips": "Ігнорує: швидкість.",
       "description": "Може знешкоджувати ворогів. Б'є у відповідь."
     },
     "EX_GAEA2": {
@@ -28967,17 +28967,17 @@
     "EX_AMMO1": {
       "name": "Вічний боєприпас",
       "tips": "Ігнорує: тривалість.",
-      "description": "Стріляє у випадкових ворогів. Швидкість снарядів збільшує проникнення."
+      "description": "Стріляє у ворогів попереду. Снаряди накопичуються, коли вороги поза радіусом."
     },
     "EX_AMMO1_COUNTER": {
       "name": "Кінський заряд",
       "tips": "Ігнорує: тривалість.",
-      "description": "Стріляє у випадкових ворогів. Швидкість снарядів збільшує проникнення."
+      "description": "Стріляє у ворогів позаду. Снаряди накопичуються, коли вороги поза радіусом."
     },
     "EX_AMMO2": {
       "name": "Пушкатастрофа",
       "tips": "Потребує макс.: Наруч.",
-      "description": "Еволюція Вічного боєприпасу. Завдає ушкоджень усім ворогам в полі зору."
+      "description": "Еволюція Вічного боєприпасу. Стріляє несвятими снарядами по ворогах у полі зору."
     },
     "EX_MAGISTONE1": {
       "name": "Чар-камінь",
@@ -28987,7 +28987,7 @@
     "EX_MAGISTONE2": {
       "name": "Сонцекамені",
       "tips": "Потребує: Мана Кароми.",
-      "description": "Еволюція Чар-каменю. Шкода зростає з рівнем гравця. Кількість зростає із чисельністю ворогів у полі зору."
+      "description": "Еволюція Чар-каменю. Шкода зростає, коли рівень гравця перевищує 80. Кількість зростає з чисельністю ворогів у полі зору."
     },
     "D13_MADMOON": {
       "name": "Клич Скаженого місяця"

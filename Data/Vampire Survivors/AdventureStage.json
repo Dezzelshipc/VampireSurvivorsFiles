@@ -803,8 +803,8 @@
     },
     {
       "minute": 29,
-      "minimum": 300,
-      "frequency": 100,
+      "minimum": 200,
+      "frequency": 500,
       "bosses": [
         "BAT4"
       ],
@@ -870,7 +870,7 @@
       "validForCharcaterData": true,
       "cff": "PUGNALA",
       "zoom": 0.34,
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_forest.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
@@ -3943,7 +3943,7 @@
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 0.34,
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_molise.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
@@ -5121,7 +5121,7 @@
       "yellowRelics": [],
       "validForCharcaterData": true,
       "cff": "GIOVANNA",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_library.png",
       "texture": "UI",
       "frameName": "stage_library_icon.png",
@@ -6060,7 +6060,7 @@
       "yellowRelics": [],
       "validForCharcaterData": true,
       "cff": "PUGNALA",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_forest.png",
       "texture": "UI",
       "frameName": "stage_forest_icon.png",
@@ -6917,7 +6917,7 @@
       "yellowRelics": [],
       "validForCharcaterData": true,
       "cff": "CONCETTA",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_tower.png",
       "texture": "UI",
       "frameName": "stage_tower_icon.png",
@@ -7919,7 +7919,7 @@
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 1,
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_astralstair.png",
       "texture": "UI",
       "frameName": "stage_astral_icon.png",
@@ -8601,7 +8601,7 @@
       "yellowRelics": [],
       "validForCharcaterData": true,
       "cff": "ASSUNTA",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_chapel.png",
       "texture": "UI",
       "frameName": "stage_chapel_icon.png",
@@ -12146,7 +12146,11 @@
         "isTiling": true,
         "hasWallsCheckDestructibleLogic": false,
         "SizeX": 1024,
-        "SizeY": 512
+        "SizeY": 512,
+        "minTreasureX": 12,
+        "maxTreasureX": 16384,
+        "minTreasureY": 130,
+        "maxTreasureY": 477
       },
       "minimum": 100,
       "frequency": 100,
@@ -15661,7 +15665,7 @@
       "validForCharcaterData": true,
       "cff": "MIANG",
       "zoom": 1,
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_moonspell.png",
       "texture": "UI",
       "frameName": "stage_moonspell_hyper_icon",
@@ -16656,8 +16660,8 @@
     {
       "defaultFollowers": [
         {
-          "followerCharacter": "GENEVIEVE",
-          "followerAI": "StandsStill",
+          "followerCharacter":"GENEVIEVE",
+          "followerAI":"StandsStill",
           "isFollowerInvinceable": false,
           "countsAsMainCharacterForRevivals": true,
           "manualLevelUps": true,
@@ -16666,8 +16670,8 @@
           "ShouldSharePassives": true
         },
         {
-          "followerCharacter": "GHOUL",
-          "followerAI": "Defensive",
+          "followerCharacter":"GHOUL",
+          "followerAI":"Defensive",
           "isFollowerInvinceable": false,
           "countsAsMainCharacterForRevivals": true,
           "manualLevelUps": true,
@@ -16681,6 +16685,7 @@
           "background_Foscari"
         ]
       },
+
       "stageKey": "ADV_FOSCARI_001",
       "tilesetStageType": "ADV_FOSCARI_001",
       "hidden": false,
@@ -16691,17 +16696,19 @@
       "stageNumber": "Chapter 1",
       "BGM": "BGM_Foscari2",
       "sideBBGM": "BGM_Foscari2",
+
       "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 1,
       "uiTexture": "AdventuresUI",
-      "uiFrame": "ADV_POE_1_Acres.png",
+      "uiFrame": "ADV_FOSCARI_001.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "bestiaryBG": "background_forest.png",
+
       "mods": {
-        "TimeLimit": 1800,
+        "TimeLimit": 900,
         "ClockSpeed": 1,
         "PlayerPxSpeed": 1.4,
         "EnemySpeed": 1.4,
@@ -16713,7 +16720,7 @@
       },
       "hyper": {
         "unlocked": true,
-        "TimeLimit": 1800,
+        "TimeLimit": 900,
         "ClockSpeed": 1,
         "PlayerPxSpeed": 0.6,
         "EnemySpeed": 0.6,
@@ -16745,10 +16752,10 @@
         "tint": 8947848,
         "SizeX": 10240,
         "SizeY": 10240,
-        "minTreasureX": 64,
-        "maxTreasureX": 10176,
-        "minTreasureY": 64,
-        "maxTreasureY": 10176
+        "minTreasureX": 1179,
+        "maxTreasureX": 2600,
+        "minTreasureY": 1046,
+        "maxTreasureY": 1905
       },
       "background": {
         "texture": "background_Foscari",
@@ -16756,11 +16763,13 @@
       },
       "BGTextureName": "bg_null",
       "dayNight": false,
+
       "destructibleType": "LANTERN_INVERSE",
       "destructibleFreq": 1000,
       "destructibleChance": 7.5,
       "destructibleChanceMax": 50,
       "maxDestructibles": 18,
+
       "poolsMapping": [
         {
           "key": 0,
@@ -16872,12 +16881,14 @@
       "spawnType": "MAPPED",
       "startingSpawns": 10,
       "minute": 0,
+
       "minimum": 100,
       "frequency": 1000,
       "enemies": [
         "FS_CAULD"
       ],
-      "events": []
+      "events": [
+      ]
     },
     {
       "minute": 1,
@@ -17345,6 +17356,7 @@
           "background_Foscari"
         ]
       },
+
       "stageKey": "ADV_FOSCARI_002",
       "tilesetStageType": "ADV_FOSCARI_002",
       "hidden": false,
@@ -17356,18 +17368,20 @@
       "BGM": "BGM_Luminaire",
       "sideBBGM": "BGM_Luminaire",
       "isRacingStage": true,
-      "allowVisualInversion": false,
+      "allowVisualInversion" : false,
+
       "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 1,
       "uiTexture": "AdventuresUI",
-      "uiFrame": "ADV_POE_1_Acres.png",
+      "uiFrame": "ADV_FOSCARI_002.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "bestiaryBG": "background_forest.png",
+
       "mods": {
-        "TimeLimit": 1800,
+        "TimeLimit": 900,
         "ClockSpeed": 1,
         "PlayerPxSpeed": 1.4,
         "EnemySpeed": 1.4,
@@ -17379,7 +17393,7 @@
       },
       "hyper": {
         "unlocked": true,
-        "TimeLimit": 1800,
+        "TimeLimit": 900,
         "ClockSpeed": 1,
         "PlayerPxSpeed": 0.6,
         "EnemySpeed": 0.4,
@@ -17419,11 +17433,13 @@
       },
       "BGTextureName": "bg_null",
       "dayNight": false,
+
       "destructibleType": "LANTERN_INVERSE",
       "destructibleFreq": 1000,
       "destructibleChance": 7.5,
       "destructibleChanceMax": 50,
       "maxDestructibles": 18,
+
       "pizzaEvents": [
         {
           "eventType": "JELLY_WALL",
@@ -17465,6 +17481,7 @@
       "spawnType": "HORIZONTAL",
       "startingSpawns": 10,
       "minute": 0,
+
       "minimum": 20,
       "frequency": 100,
       "enemies": [
@@ -17792,11 +17809,37 @@
   ],
   "ADV_FOSCARI_003": [
     {
+
+      "defaultFollowers": [
+        {
+          "followerCharacter":"FS_FOLLOWER_HILLTROW",
+          "followerAI":"DelayedPositionCopy",
+          "isFollowerInvinceable": true,
+          "countsAsMainCharacterForRevivals": false,
+          "manualLevelUps": false,
+          "trackedByCamera": false,
+          "shouldFollowMainPlayer": true,
+          "ShouldSharePassives": true,
+          "everyXLevels" : 3
+        },
+        {
+          "followerCharacter":"FS_FOLLOWER_BROWNIE",
+          "followerAI":"DelayedPositionCopy",
+          "isFollowerInvinceable": true,
+          "countsAsMainCharacterForRevivals": false,
+          "manualLevelUps": false,
+          "trackedByCamera": false,
+          "shouldFollowMainPlayer": true,
+          "ShouldSharePassives": true,
+          "everyXLevels" : 3
+        }
+      ],
       "preload": {
         "textures": [
           "background_Foscari"
         ]
       },
+
       "adventureMerchants": [
         {
           "merchantCharacter": "CTRPCAKE",
@@ -17827,6 +17870,7 @@
           ]
         }
       ],
+
       "stageKey": "ADV_FOSCARI_003",
       "tilesetStageType": "ADV_FOSCARI_003",
       "hidden": false,
@@ -17837,15 +17881,17 @@
       "stageNumber": "Chapter 3",
       "BGM": "BGM_Deception",
       "sideBBGM": "BGM_Deception",
+
       "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 1,
       "uiTexture": "AdventuresUI",
-      "uiFrame": "ADV_POE_1_Acres.png",
+      "uiFrame": "ADV_FOSCARI_003.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "bestiaryBG": "background_forest.png",
+
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -17868,7 +17914,7 @@
         "EnemyHealthMultiplier": 0,
         "LuckBonus": 0.1,
         "XPBonus": 0,
-        "StartingSpawns": 20
+        "StartingSpawns": 10
       },
       "inverse": {
         "tint": 8947950,
@@ -18024,8 +18070,8 @@
           "moreZ": 0.5
         }
       ],
-      "spawnType": "MAPPED",
-      "startingSpawns": 50,
+      "spawnType": "STANDARD",
+      "startingSpawns": 10,
       "minute": 0,
       "destructibleType": "LANTERN",
       "destructibleFreq": 1000,
@@ -18033,10 +18079,20 @@
       "destructibleChanceMax": 50,
       "maxDestructibles": 12,
       "BGTextureName": "bg_null",
-      "minimum": 50,
+      "minimum": 20,
       "frequency": 3000,
       "enemies": [
         "FS_GOBLIN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 7000,
+          "moreX": 30,
+          "moreY": "FS_GOBLIN",
+          "duration": 60000,
+          "repeat" : 5
+        }
       ]
     },
     {
@@ -18862,6 +18918,30 @@
   ],
   "ADV_FOSCARI_004": [
     {
+      "defaultFollowers": [
+        {
+          "followerCharacter":"FS_FOLLOWER_LEGIONNAIRE",
+          "followerAI":"DelayedPositionCopy",
+          "isFollowerInvinceable": true,
+          "countsAsMainCharacterForRevivals": false,
+          "manualLevelUps": false,
+          "trackedByCamera": false,
+          "shouldFollowMainPlayer": true,
+          "ShouldSharePassives": false,
+          "allowDuplicates": true
+        },
+        {
+          "followerCharacter":"FS_FOLLOWER_LEGIONNAIRE",
+          "followerAI":"DelayedPositionCopy",
+          "isFollowerInvinceable": true,
+          "countsAsMainCharacterForRevivals": false,
+          "manualLevelUps": false,
+          "trackedByCamera": false,
+          "shouldFollowMainPlayer": true,
+          "ShouldSharePassives": false,
+          "allowDuplicates": true
+        }
+      ],
       "stageKey": "ADV_FOSCARI_004",
       "tilesetStageType": "ADV_FOSCARI_004",
       "hidden": false,
@@ -18872,22 +18952,25 @@
       "stageNumber": "Chapter 4",
       "BGM": "BGM_War",
       "sideBBGM": "BGM_War",
+
       "preload": {
         "textures": [
           "background_Foscari"
         ]
       },
+
       "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 1,
       "uiTexture": "AdventuresUI",
-      "uiFrame": "ADV_POE_1_Acres.png",
+      "uiFrame": "ADV_FOSCARI_004.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "bestiaryBG": "background_forest.png",
+
       "mods": {
-        "TimeLimit": 1800,
+        "TimeLimit": 1200,
         "ClockSpeed": 1,
         "PlayerPxSpeed": 1.4,
         "EnemySpeed": 1.4,
@@ -18899,7 +18982,7 @@
       },
       "hyper": {
         "unlocked": true,
-        "TimeLimit": 1800,
+        "TimeLimit": 1200,
         "ClockSpeed": 1,
         "PlayerPxSpeed": 0.6,
         "EnemySpeed": 0.6,
@@ -19073,7 +19156,7 @@
       "destructibleChanceMax": 50,
       "maxDestructibles": 12,
       "BGTextureName": "bg_null",
-      "minimum": 50,
+      "minimum": 25,
       "frequency": 3000,
       "enemies": [
         "FS_GOBLIN"
@@ -19081,59 +19164,22 @@
     },
     {
       "minute": 1,
-      "minimum": 80,
+      "minimum": 25,
       "frequency": 3000,
-      "enemies": [
-        "FS_GOBLIN"
-      ]
-    },
-    {
-      "minute": 2,
-      "minimum": 100,
-      "frequency": 4000,
       "enemies": [
         "FS_GOBLIN",
         "FS_BROWN"
       ],
       "bosses": [
         "FS_COCKATRICE_BOSS1"
-      ],
-      "treasure": {
-        "chances": [
-          0.1,
-          2,
-          50
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      },
-      "events": [
-        {
-          "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA"
-        },
-        {
-          "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA",
-          "delay": 5000,
-          "chance": 70,
-          "repeat": 4
-        }
       ]
     },
     {
-      "minute": 3,
-      "minimum": 60,
+      "minute": 2,
+      "minimum": 20,
       "frequency": 4000,
       "enemies": [
+        "FS_GOBLIN",
         "FS_GEF"
       ],
       "bosses": [
@@ -19142,43 +19188,6 @@
       "treasure": {
         "chances": [
           0.1,
-          1,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 4,
-      "minimum": 110,
-      "frequency": 4000,
-      "enemies": [
-        "FS_GOBLIN",
-        "FS_GEF"
-      ]
-    },
-    {
-      "minute": 5,
-      "minimum": 100,
-      "frequency": 4000,
-      "enemies": [
-        "FS_BROWN",
-        "FS_HTROW",
-        "FS_STROW"
-      ],
-      "bosses": [
-        "FS_COCKATRICE_BOSS2"
-      ],
-      "treasure": {
-        "chances": [
-          1,
           5,
           100
         ],
@@ -19194,69 +19203,93 @@
       "events": [
         {
           "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA"
+          "delay": 100,
+          "moreX": 1,
+          "moreY": "FS_CAKE",
+          "duration": 60000
         },
         {
-          "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA",
-          "delay": 5000,
-          "chance": 70,
-          "repeat": 4
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 30000,
+          "moreY": "FS_COCKATRICE_BOSS1"
         }
       ]
     },
     {
-      "minute": 6,
-      "minimum": 30,
-      "frequency": 2000,
+      "minute": 3,
+      "minimum": 35,
+      "frequency": 4000,
       "enemies": [
-        "FS_SALMON",
-        "FS_HTROW",
-        "FS_STROW"
-      ],
-      "events": [
-        {
-          "eventType": "MEDUSA_SWARM",
-          "chance": 50,
-          "repeat": 4,
-          "moreX": 1,
-          "moreY": "FS_CAKE",
-          "duration": 30000
-        }
-      ]
-    },
-    {
-      "minute": 7,
-      "minimum": 80,
-      "frequency": 2000,
-      "enemies": [
-        "FS_SALMON",
-        "FS_HTROW",
-        "FS_STROW"
-      ],
-      "events": [
-        {
-          "eventType": "MEDUSA_SWARM",
-          "chance": 50,
-          "repeat": 4,
-          "moreX": 1,
-          "moreY": "FS_CAKE",
-          "duration": 30000
-        }
-      ]
-    },
-    {
-      "minute": 8,
-      "minimum": 80,
-      "frequency": 1000,
-      "enemies": [
-        "FS_SALMON2",
-        "FS_SALMON"
+        "FS_GOBLIN",
+        "FS_BROWN",
+        "FS_GEF"
       ],
       "bosses": [
-        "FS_BOSS_SELKIE"
+        "FS_COCKATRICE_BOSS1"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_COCKATRICE_BOSS1"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_COCKATRICE_BOSS2"
+        }
+      ]
+    },
+    {
+      "minute": 4,
+      "minimum": 30,
+      "frequency": 4000,
+      "enemies": [
+        "FS_BROWN",
+        "FS_HTROW",
+        "FS_STROW"
+      ],
+      "bosses": [
+        "FS_COCKATRICE_BOSS1"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_BOSS_SELKIE"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_COCKATRICE_BOSS2"
+        }
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 30,
+      "frequency": 500,
+      "enemies": [
+        "FS_GEF"
+      ],
+      "bosses": [
+        "FS_COCKATRICE_BOSS1",
+        "FS_COCKATRICE_BOSS2"
       ],
       "treasure": {
         "chances": [
@@ -19272,39 +19305,94 @@
           "EXISTING_ANY",
           "EXISTING_ANY"
         ]
-      }
+      },
+      "arcanaHolder": "FS_COCKATRICE_BOSS3",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 30000,
+          "moreY": "FS_BOSS_SELKIE"
+        }
+      ]
     },
     {
-      "minute": 9,
-      "minimum": 200,
+      "minute": 6,
+      "minimum": 25,
+      "frequency": 1000,
+      "enemies": [
+        "FS_GEF",
+        "FS_HTROW"
+      ],
+      "bosses": [
+        "FS_COCKATRICE_BOSS1"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          50
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 12,
+          "moreY": "FS_SALMON_DUSA"
+        },
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 12,
+          "moreY": "FS_SALMON_DUSA",
+          "delay": 5000,
+          "chance": 70,
+          "repeat": 4
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_COCKATRICE_BOSS2"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_BOSS_SELKIE"
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 30,
       "frequency": 500,
       "enemies": [
         "FS_GEF",
         "FS_SALMON",
         "FS_SALMON_PINK"
       ],
-      "events": [
-        {
-          "eventType": "GENERIC_SWARM",
-          "delay": 20000,
-          "chance": 50,
-          "repeat": 2,
-          "moreX": 8,
-          "moreY": "FS_CLOWN_SWARM",
-          "duration": 30000
-        }
-      ]
-    },
-    {
-      "minute": 10,
-      "minimum": 100,
-      "frequency": 500,
-      "enemies": [
-        "FS_SELKIE",
-        "FS_SALMON",
-        "FS_SALMON_PINK"
-      ],
       "bosses": [
+        "FS_BOSS_SELKIE",
         "FS_BOSS_NJUGGLES"
       ],
       "treasure": {
@@ -19316,10 +19404,85 @@
         "level": 1,
         "prizeTypes": [
           "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
+          "EVOLUTION",
+          "EVOLUTION",
           "EXISTING_WEAPON",
           "EXISTING_WEAPON"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_BOSS_NJUGGLES"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_BOSS_SELKIE"
+        }
+      ]
+    },
+    {
+      "minute": 8,
+      "minimum": 20,
+      "frequency": 2000,
+      "enemies": [
+        "FS_LAMB",
+        "FS_SALMON"
+      ],
+      "bosses": [
+        "FS_COCKATRICE_BOSS1",
+        "FS_BOSS_SELKIE",
+        "FS_BOSS_NJUGGLES"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 30000,
+          "moreY": "FS_COCKATRICE_BOSS2"
+        }
+      ]
+    },
+    {
+      "minute": 9,
+      "minimum": 25,
+      "frequency": 1000,
+      "enemies": [
+        "FS_WULVER",
+        "FS_SELKIE"
+      ],
+      "bosses": [
+        "FS_BOSS_CLOWN"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
         ]
       },
       "events": [
@@ -19341,29 +19504,30 @@
       ]
     },
     {
-      "minute": 11,
-      "minimum": 120,
-      "frequency": 2000,
+      "minute": 10,
+      "minimum": 40,
+      "frequency": 500,
       "enemies": [
         "FS_WULVER",
-        "FS_SELKIE"
+        "FS_LAMB"
       ],
       "bosses": [
-        "FS_BOSS_CLOWN"
+        "FS_COCKATRICE_BOSS2",
+        "FS_COCKATRICE_BOSS2"
       ],
       "treasure": {
         "chances": [
-          0,
-          0,
-          100
+          1,
+          5,
+          50
         ],
         "level": 1,
         "prizeTypes": [
           "EVOLUTION",
           "EXISTING_ANY",
           "EXISTING_ANY",
-          "EXISTING_WEAPON",
-          "EXISTING_WEAPON"
+          "EXISTING_ANY",
+          "EXISTING_ANY"
         ]
       },
       "arcanaHolder": "FS_COCKATRICE_BOSS3",
@@ -19381,18 +19545,27 @@
           "EXISTING_ANY",
           "EXISTING_ANY"
         ]
-      }
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 30000,
+          "moreY": "FS_COCKATRICE_BOSS2"
+        }
+      ]
     },
     {
-      "minute": 12,
-      "minimum": 80,
-      "frequency": 1000,
+      "minute": 11,
+      "minimum": 100,
+      "frequency": 100,
       "enemies": [
         "FS_WULVER",
-        "FS_LAMB"
+        "FS_SELKIE"
       ],
       "bosses": [
-        "FS_COCKATRICE_BOSS2"
+        "FS_BOSS_CLOWN",
+        "FS_BOSS_NJUGGLES",
+        "FS_BOSS_SELKIE"
       ],
       "treasure": {
         "chances": [
@@ -19411,85 +19584,34 @@
       },
       "events": [
         {
-          "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA"
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 10000,
+          "moreY": "FS_COCKATRICE_BOSS1"
         },
         {
-          "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA",
-          "delay": 5000,
-          "chance": 70,
-          "repeat": 4
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 30000,
+          "moreY": "FS_BOSS_CLOWN"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 50000,
+          "moreY": "FS_COCKATRICE_BOSS1"
         }
       ]
     },
     {
-      "minute": 13,
-      "minimum": 120,
-      "frequency": 500,
-      "enemies": [
-        "FS_WULVER",
-        "FS_NJUGG"
-      ],
-      "bosses": [
-        "FS_COCKATRICE_BOSS2"
-      ],
-      "treasure": {
-        "chances": [
-          1,
-          5,
-          50
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 14,
-      "minimum": 300,
-      "frequency": 100,
-      "enemies": [
-        "FS_WULVER",
-        "FS_NJUGG",
-        "FS_LAMB"
-      ],
-      "bosses": [
-        "FS_BOSS_NJUGGLES"
-      ],
-      "treasure": {
-        "chances": [
-          1,
-          5,
-          50
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 15,
-      "minimum": 100,
+      "minute": 12,
+      "minimum": 30,
       "frequency": 100,
       "enemies": [
         "FS_CLOWN",
         "FS_NJUGG"
       ],
       "bosses": [
-        "FS_BOSS_WULVER"
+        "FS_BOSS_CLOWN",
+        "FS_BOSS_WULVER",
+        "FS_BOSS_SELKIE"
       ],
       "treasure": {
         "chances": [
@@ -19508,29 +19630,28 @@
       },
       "events": [
         {
-          "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA"
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_BOSS_WULVER"
         },
         {
-          "eventType": "MEDUSA_SWARM",
-          "moreX": 12,
-          "moreY": "FS_SALMON_DUSA",
-          "delay": 2000,
-          "chance": 90,
-          "repeat": 25
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_BOSS_CLOWN"
         }
       ]
     },
     {
-      "minute": 16,
-      "minimum": 100,
+      "minute": 13,
+      "minimum": 30,
       "frequency": 1000,
       "enemies": [
         "FS_CLOWN",
         "FS_LAMB"
       ],
       "bosses": [
+        "FS_BOSS_WULVER",
+        "FS_BOSS_SELKIE",
         "FS_BOSS_CLOWN"
       ],
       "treasure": {
@@ -19547,31 +19668,23 @@
           "EXISTING_ANY",
           "EXISTING_ANY"
         ]
-      }
-    },
-    {
-      "minute": 17,
-      "minimum": 200,
-      "frequency": 1000,
-      "enemies": [
-        "FS_CLOWN",
-        "FS_DUERG"
-      ],
+      },
       "events": [
         {
-          "eventType": "GENERIC_SWARM",
-          "delay": 5000,
-          "chance": 50,
-          "repeat": 4,
-          "moreX": 16,
-          "moreY": "FS_CLOWN_SWARM",
-          "duration": 30000
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_BOSS_WULVER"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_BOSS_CLOWN"
         }
       ]
     },
     {
-      "minute": 18,
-      "minimum": 60,
+      "minute": 14,
+      "minimum": 40,
       "frequency": 500,
       "enemies": [
         "FS_AILLEN",
@@ -19579,7 +19692,8 @@
         "FS_BROWN"
       ],
       "bosses": [
-        "FS_BOSS_LAMB"
+        "FS_BOSS_LAMB",
+        "FS_BOSS_CLOWN"
       ],
       "treasure": {
         "chances": [
@@ -19595,21 +19709,29 @@
           "EXISTING_ANY",
           "EXISTING_ANY"
         ]
-      }
-    },
-    {
-      "minute": 19,
-      "minimum": 120,
-      "frequency": 500,
-      "enemies": [
-        "FS_AILLEN",
-        "FS_DUERG"
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 10000,
+          "moreY": "FS_COCKATRICE_BOSS1"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 30000,
+          "moreY": "FS_BOSS_CLOWN"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 50000,
+          "moreY": "FS_COCKATRICE_BOSS1"
+        }
       ]
     },
     {
-      "minute": 20,
-      "minimum": 100,
-      "frequency": 100,
+      "minute": 15,
+      "minimum": 35,
+      "frequency": 500,
       "enemies": [
         "FS_WORM2",
         "FS_WORM"
@@ -19627,204 +19749,126 @@
         "level": 1,
         "prizeTypes": [
           "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
           "EVOLUTION",
+          "EVOLUTION"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 3000,
+          "moreX": 1,
+          "moreY": "FS_SNAK_SWARM"
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 6000,
+          "moreX": 2,
+          "moreY": "FS_SNAK_SWARM"
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 9000,
+          "moreX": 4,
+          "moreY": "FS_SNAK_SWARM"
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 12000,
+          "moreX": 8,
+          "moreY": "FS_SNAK_SWARM"
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 15000,
+          "moreX": 16,
+          "moreY": "FS_SNAK_SWARM"
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 18000,
+          "moreX": 32,
+          "moreY": "FS_SNAK_SWARM"
+        }
+      ]
+    },
+    {
+      "minute": 16,
+      "minimum": 30,
+      "frequency": 500,
+      "enemies": [
+        "FS_GOBLIN_RED"
+      ],
+      "bosses": [
+        "FS_BOSS_GREEN_GREEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
           "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 30000,
+          "moreY": "FS_BOSS_GREEN_GREEN"
+        }
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 30,
+      "frequency": 100,
+      "enemies": [
+        "FS_GREEN_RED",
+        "FS_GREEN"
+      ],
+      "bosses": [
+        "FS_BOSS_GREEN_GREEN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
           "EXISTING_ANY",
           "EXISTING_ANY"
         ]
       },
       "events": [
         {
-          "eventType": "SKULL_SWARM",
-          "moreX": 1,
-          "moreY": "FS_SNAK_SWARM"
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_BOSS_WULVER"
         },
         {
-          "eventType": "SKULL_SWARM",
-          "delay": 3000,
-          "moreX": 2,
-          "moreY": "FS_SNAK_SWARM"
-        },
-        {
-          "eventType": "SKULL_SWARM",
-          "delay": 6000,
-          "moreX": 4,
-          "moreY": "FS_SNAK_SWARM"
-        },
-        {
-          "eventType": "SKULL_SWARM",
-          "delay": 9000,
-          "moreX": 8,
-          "moreY": "FS_SNAK_SWARM"
-        },
-        {
-          "eventType": "SKULL_SWARM",
-          "delay": 12000,
-          "moreX": 16,
-          "moreY": "FS_SNAK_SWARM"
-        },
-        {
-          "eventType": "SKULL_SWARM",
-          "delay": 15000,
-          "moreX": 32,
-          "moreY": "FS_SNAK_SWARM"
-        },
-        {
-          "eventType": "SKULL_SWARM",
-          "delay": 18000,
-          "moreX": 64,
-          "moreY": "FS_SNAK_SWARM"
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_BOSS_CLOWN"
         }
       ]
     },
     {
-      "minute": 21,
-      "minimum": 100,
-      "frequency": 100,
-      "enemies": [
-        "FS_GOBLIN_RED"
-      ],
-      "arcanaHolder": "FS_COCKATRICE_BOSS3",
-      "arcanaTreasure": {
-        "chances": [
-          0,
-          0,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVO_ARCANA",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 22,
-      "minimum": 80,
-      "frequency": 1000,
-      "enemies": [
-        "FS_GREEN_RED",
-        "FS_GOBLIN_RED"
-      ],
-      "bosses": [
-        "FS_BOSS_GREEN_GREEN"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 23,
-      "minimum": 120,
-      "frequency": 100,
-      "enemies": [
-        "FS_GREEN_RED",
-        "FS_GREEN"
-      ],
-      "bosses": [
-        "FS_BOSS_GREEN_GREEN"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 24,
-      "minimum": 200,
-      "frequency": 100,
-      "enemies": [
-        "FS_GREEN",
-        "FS_GOBLIN"
-      ]
-    },
-    {
-      "minute": 25,
-      "minimum": 1,
-      "frequency": 100,
-      "enemies": [
-        "FS_GGHOST",
-        "FS_GGGHOST"
-      ],
-      "bosses": [
-        "FS_BOSS_AGAEA"
-      ],
-      "events": [
-        {
-          "eventType": "ERASE_ENEMIES"
-        }
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          100
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 26,
-      "minimum": 100,
-      "frequency": 100,
-      "enemies": [
-        "FS_GREEN"
-      ],
-      "bosses": [
-        "FS_BOSS_GREEN_28"
-      ],
-      "treasure": {
-        "chances": [
-          3,
-          10,
-          50
-        ],
-        "level": 1,
-        "prizeTypes": [
-          "EVOLUTION",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY",
-          "EXISTING_ANY"
-        ]
-      }
-    },
-    {
-      "minute": 27,
-      "minimum": 100,
+      "minute": 18,
+      "minimum": 30,
       "frequency": 100,
       "enemies": [
         "FS_GREEN",
@@ -19847,24 +19891,37 @@
           "EXISTING_ANY",
           "EXISTING_ANY"
         ]
-      }
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 20000,
+          "moreY": "FS_BOSS_LAMB"
+        },
+        {
+          "eventType": "GENERIC_BOSS_SPAWN",
+          "delay": 40000,
+          "moreY": "FS_BOSS_GREEN_28"
+        }
+      ]
     },
     {
-      "minute": 28,
-      "minimum": 100,
-      "frequency": 100,
+      "minute": 19,
+      "minimum": 30,
+      "frequency": 1000,
       "enemies": [
         "FS_BOSS_GREEN_RED_28",
         "FS_BOSS_GREEN_28"
       ],
       "bosses": [
-        "FS_BOSS_GREEN_GREEN"
+        "FS_BOSS_GREEN_GREEN",
+        "FS_BOSS_GREEN_28"
       ],
       "treasure": {
         "chances": [
           3,
           10,
-          100
+          50
         ],
         "level": 1,
         "prizeTypes": [
@@ -19877,16 +19934,7 @@
       }
     },
     {
-      "minute": 29,
-      "minimum": 200,
-      "frequency": 100,
-      "enemies": [
-        "FS_MARI",
-        "FS_GLORY"
-      ]
-    },
-    {
-      "minute": 30,
+      "minute": 20,
       "minimum": 1,
       "frequency": 10000,
       "enemies": [],
@@ -19912,20 +19960,23 @@
       "stageNumber": "Chapter 5",
       "BGM": "BGM_Magic",
       "sideBBGM": "BGM_Magic",
+
       "preload": {
         "textures": [
           "background_Foscari"
         ]
       },
+
       "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 1,
       "uiTexture": "AdventuresUI",
-      "uiFrame": "ADV_POE_1_Acres.png",
+      "uiFrame": "ADV_FOSCARI_005.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "bestiaryBG": "background_forest.png",
+
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -19935,7 +19986,12 @@
         "GoldMultiplier": 1.5,
         "EnemyHealthMultiplier": 1,
         "LuckBonus": 0,
-        "XPBonus": 1
+        "XPBonus": 1,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.1,
+          "speedPerMinute": 0.0125
+        }
       },
       "hyper": {
         "unlocked": true,
@@ -20113,8 +20169,8 @@
       "destructibleChanceMax": 50,
       "maxDestructibles": 12,
       "BGTextureName": "bg_null",
-      "minimum": 50,
-      "frequency": 3000,
+      "minimum": 25,
+      "frequency": 250,
       "enemies": [
         "FS_GOBLIN"
       ]
@@ -20944,8 +21000,8 @@
     {
       "defaultFollowers": [
         {
-          "followerCharacter": "ELEANOR",
-          "followerAI": "Defensive",
+          "followerCharacter":"ELEANOR",
+          "followerAI":"Defensive",
           "isFollowerInvinceable": false,
           "countsAsMainCharacterForRevivals": true,
           "manualLevelUps": true,
@@ -20954,8 +21010,8 @@
           "ShouldSharePassives": true
         },
         {
-          "followerCharacter": "VICTOR",
-          "followerAI": "Defensive",
+          "followerCharacter":"VICTOR",
+          "followerAI":"Defensive",
           "isFollowerInvinceable": false,
           "countsAsMainCharacterForRevivals": true,
           "manualLevelUps": true,
@@ -20964,8 +21020,8 @@
           "ShouldSharePassives": true
         },
         {
-          "followerCharacter": "KEIRA",
-          "followerAI": "Defensive",
+          "followerCharacter":"KEIRA",
+          "followerAI":"Defensive",
           "isFollowerInvinceable": false,
           "countsAsMainCharacterForRevivals": true,
           "manualLevelUps": true,
@@ -20974,6 +21030,7 @@
           "ShouldSharePassives": true
         }
       ],
+
       "stageKey": "ADV_FOSCARI_006",
       "tilesetStageType": "ADV_FOSCARI_006",
       "hidden": false,
@@ -20986,19 +21043,23 @@
       "sideBBGM": "BGM_Foscari",
       "zoom": 1,
       "uiTexture": "AdventuresUI",
-      "uiFrame": "ADV_POE_5_Garden.png",
+      "uiFrame": "ADV_FOSCARI_006.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "frameNameUnlock": "icon_chapter5",
       "randomMinutes": false,
       "dayNight": false,
+
       "bestiaryBG": "background_foscari.png",
+
       "relics": [
         "RELIC_MAP_FS"
       ],
       "yellowRelics": [],
+
       "validForCharcaterData": true,
-      "cff": "CTRPCAKE",
+      "cff":"CTRPCAKE",
+
       "preload": {
         "textures": [
           "background_Foscari",
@@ -22056,6 +22117,7 @@
           "background_Foscari"
         ]
       },
+
       "stageKey": "ADV_FOSCARI_007",
       "tilesetStageType": "ADV_FOSCARI_007",
       "hidden": true,
@@ -22066,15 +22128,17 @@
       "stageNumber": "???",
       "BGM": "BGM_Genevieve",
       "sideBBGM": "BGM_Genevieve",
+
       "relics": [],
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 1,
       "uiTexture": "AdventuresUI",
-      "uiFrame": "ADV_POE_1_Acres.png",
+      "uiFrame": "ADV_FOSCARI_007.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
       "bestiaryBG": "background_forest.png",
+
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -22131,11 +22195,13 @@
       },
       "BGTextureName": "bg_null",
       "dayNight": false,
+
       "destructibleType": "LANTERN_INVERSE",
       "destructibleFreq": 1000,
       "destructibleChance": 7.5,
       "destructibleChanceMax": 50,
       "maxDestructibles": 18,
+
       "poolsMapping": [
         {
           "key": 0,
@@ -22247,6 +22313,7 @@
       "spawnType": "MAPPED",
       "startingSpawns": 40,
       "minute": 0,
+
       "minimum": 100,
       "frequency": 1000,
       "enemies": [
@@ -23166,7 +23233,7 @@
       "tilesetStageType": "LIBRARY",
       "stageName": "Inlaid Library",
       "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight… or damnation. A mask of stone whispers endlessly within.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_library.png",
       "frameName": "stage_library_icon.png",
       "bestiaryBG": "background_library.png",
@@ -27841,7 +27908,7 @@
       "validForCharcaterData": true,
       "cff": "C1_GUARDIAN",
       "zoom": 1,
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_chalcedony.png",
       "texture": "UI",
       "frameName": "icon_hyper_polus.png",

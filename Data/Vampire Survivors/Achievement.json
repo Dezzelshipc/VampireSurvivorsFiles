@@ -2880,20 +2880,6 @@
     "description": "Defeat 0 enemies in The Coop.",
     "weaponToUnlock": "EX_GAEA1",
     "requiresStage": "COOP",
-    "UnlockConditions": [
-      {
-        "AchievementUnlockType": "SurviveXSeconds",
-        "RequiredSurvivedSeconds": 60
-      },
-      {
-        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
-        "RequiredNumEnemiesKilled":0
-      },
-      {
-        "AchievementUnlockType": "PlayInStage",
-        "RequiredStageType": "COOP"
-      }
-    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -6093,6 +6079,17 @@
       {
         "Platfrom": "PS5",
         "Data": "0183"
+      }
+    ]
+  },
+  "CompleteAdv_OdeToCastlevania": {
+    "description": "Test",
+    "requiresChar": "TP_SOMA",
+    "requiresItem": "RELIC_ATLAS",
+    "skinsToUnlock": [
+      {
+        "character": "TP_SOMA",
+        "skin": "SKIN_TP_SOMA_DARKLORD"
       }
     ]
   },

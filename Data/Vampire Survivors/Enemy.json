@@ -10076,7 +10076,7 @@
       "xp": 0,
       "end": 29,
       "idleFrameCount": 8,
-	  "passThroughWalls": true,
+	  "passThroughWalls": false,
       "textureName": "enemies",
       "frameNames": [
         "XLReaper_0.png"
@@ -13281,10 +13281,70 @@
       ]
     }
   ],
+  "EX_SPADEKNIGHT1": [
+    {
+      "level": 23,
+      "passThroughWalls": false,
+      "maxHp": 55,
+      "speed": 160,
+      "power": 20,
+      "scale": 1,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "boss_greenknight_casinoblack_0.png"
+      ],
+      "bName": "Knight of Spades",
+      "bDesc": "",
+      "bInclude": true,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.36,
+        "offsetY": -5,
+        "offsetX": 6
+      }
+    }
+  ],
+  "EX_SPADEKNIGHT2": [
+    {
+      "level": 23,
+      "passThroughWalls": false,
+      "maxHp": 70,
+      "speed": 120,
+      "power": 30,
+      "scale": 1,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "boss_greenknight_casinowhite_0.png"
+      ],
+      "bName": "Knight of Spades",
+      "bDesc": "",
+      "bInclude": true,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.36,
+        "offsetY": -5,
+        "offsetX": 6
+      }
+    }
+  ],
   "EX_BOSS_SPADEKNIGHT": [
     {
       "level": 23,
-      "passThroughWalls": true,
+      "passThroughWalls": false,
       "maxHp": 25,
       "speed": 180,
       "power": 20,
@@ -13308,13 +13368,18 @@
       "bName": "Knight of Spades",
       "bDesc": "",
       "bInclude": false,
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.32,
+        "offsetY": 0,
+        "offsetX": 9
+      }
     }
   ],
   "EX_BOSS_SPADEKNIGHT2": [
     {
       "level": 23,
-      "passThroughWalls": true,
+      "passThroughWalls": false,
       "maxHp": 40,
       "speed": 140,
       "power": 30,
@@ -13338,7 +13403,12 @@
       "bName": "Knight of Spades",
       "bDesc": "",
       "bInclude": false,
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.32,
+        "offsetY": 0,
+        "offsetX": 9
+      }
     }
   ],
   "EX_BARM": [
@@ -13376,7 +13446,8 @@
       "textureName": "enemies2025",
       "end": 19,
       "frameNames": [
-        "CasinUgul_D_0.png"
+        "CasinUgul_D_0.png",
+        "CasinUgul_H_0.png"
       ]
     }
   ],
@@ -13489,6 +13560,26 @@
       "end": 29,
       "frameNames": [
         "GamblinY_0.png"
+      ]
+    }
+  ],
+  "EX_GAMBLIN2": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 150,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 29,
+      "frameNames": [
+        "GamblinR_0.png",
+        "GamblinP_0.png"
       ]
     }
   ],
@@ -13775,7 +13866,7 @@
       "knockback": 0.5,
       "maxKnockback": 1,
       "deathKB": 2,
-      "xp": 15,
+      "xp": 8,
       "frameNames": [
         "CarsharpCLUB_0.png",
         "CarsharpDIAMOND_0.png",
@@ -13926,7 +14017,7 @@
   "EX_17COLOSSUS": [
     {
       "level": 1,
-      "maxHp": 100,
+      "maxHp": 200,
       "minimumHpScalingLevel": 10,
       "speed": 117,
       "power": 40,
@@ -14149,6 +14240,38 @@
       "bHighlight": false,
       "bVariants": [],
       "passThroughWalls": true
+    }
+  ],
+  "EX_VSBAT1": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 19,
+      "frameNames": [
+        "smallbat1_0.png",
+        "smallbat1_grey_0.png",
+        "smallbat1_red_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "FOREST",
+        "TOWER"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+      ]
     }
   ]
 }
