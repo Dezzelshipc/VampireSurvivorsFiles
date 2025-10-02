@@ -226,6 +226,8 @@ class BaseImageGenerator:
         self._set_entries()
         self.meta_data = MetaDataHandler.get_meta_dict_by_name_set_fullest(self.get_textures_set())
 
+        print(self.meta_data)
+
         for texture_name, meta_data in self.meta_data.items():
             meta_data.init_sprites()
 

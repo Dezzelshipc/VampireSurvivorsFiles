@@ -369,23 +369,29 @@ class MetaDataHandler(Objectless):
 
     @classmethod
     def get_meta_dict_by_name_set_fullest(cls, name_set: set, is_multiprocess=True) -> dict[str, MetaData]:
-        fullest_set = set()
+        fullest_set = {}
 
         for name in name_set:
-            filtered = cls.filter_paths(lambda name_path: name_path[0].startswith(normalize_str(name)))
+            norm_name = normalize_str(name)
+            filtered = cls.filter_paths(
+                lambda name_path: name_path[0].startswith(norm_name+"_") or name_path[0] == norm_name
+            )
             fullest = list(sorted(filtered, key=lambda name_path: name_path[-1].stat().st_size, reverse=True))[0]
-            fullest_set.add(fullest[0])
+            fullest_set[fullest[0]] = name
 
-        datas = cls.get_meta_by_name_set(fullest_set, is_multiprocess)
+        datas = cls.get_meta_by_name_set(set(fullest_set.keys()), is_multiprocess)
 
         meta_dict = {
-            data.real_name.replace(".png", "").replace(".meta", ""): data for data in datas
+            data.real_name.replace(".png", "").replace(".meta", ""): data
+            for data in datas
         }
         meta_dict.update({
-            list(filter(lambda x: normalize_str(x) in data.name, name_set))[0]: data for data in datas
+            fullest_set[data.name]: data
+            for data in datas
         })
         meta_dict.update({
-            normalize_str( list(filter(lambda x: normalize_str(x) in data.name, name_set))[0] ): data for data in datas
+            normalize_str(fullest_set[data.name]): data
+            for data in datas
         })
         return meta_dict
 
