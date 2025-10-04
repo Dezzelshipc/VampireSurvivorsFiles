@@ -1,12 +1,12 @@
 {
-  "Aggressive": {
-    "AINameLocalTerm": "partyLang/{Aggressive}description",
-    "AIIconSprite": "mask_sun_0",
-    "AIIconTexture": "enemiesM"
-  },
   "Defensive": {
     "AINameLocalTerm": "partyLang/{Defensive}description",
     "AIIconSprite": "mask_moon_0",
+    "AIIconTexture": "enemiesM"
+  },
+  "Aggressive": {
+    "AINameLocalTerm": "partyLang/{Aggressive}description",
+    "AIIconSprite": "mask_sun_0",
     "AIIconTexture": "enemiesM"
   },
   "ChaoticAF": {
