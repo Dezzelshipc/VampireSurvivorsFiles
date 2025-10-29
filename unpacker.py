@@ -27,7 +27,7 @@ from Source.Utility.image_functions import resize_image, get_anim_sprites_ready,
 from Source.Utility.logger import Logger
 from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.timer import Timeit
-from Source.Utility.utility import CheckBoxes, ButtonsBox
+from Source.Utility.utility import CheckBoxes, ButtonsBox, clean_json
 from Source.Utility.constants import to_source_path
 
 
@@ -599,7 +599,6 @@ class Unpacker(tk.Tk):
             with open((save_path / data_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
                 f.write(data_file.raw_text())
 
-
         print(f"Finished concatenating data files. {_time!r}")
 
     def data_to_image(self):
@@ -608,7 +607,7 @@ class Unpacker(tk.Tk):
                 return
 
             with open(path_data, 'r', encoding="UTF-8") as f:
-                data = json.loads(f.read())
+                data = json.loads(clean_json(f.read()))
 
             self.outer_progress_bar.change_label(f"Getting language file")
 
