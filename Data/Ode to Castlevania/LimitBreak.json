@@ -2162,6 +2162,11 @@
       "rarity": 10,
       "power": 0.025
     },
+	{
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
     {
       "rarity": 1,
       "amount": 1,
@@ -2181,6 +2186,435 @@
       "rarity": 1,
       "duration": 100,
       "max": 5000
+    }
+  ],
+  "TP_POCKET1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_POCKET2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_LAPISTE1" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_LAPISTE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_FROG" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_FROG2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_NEUTRON_WEAPON2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_SAVROG_WEAPON2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 3000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "TP_HYDROSTORM2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+	{
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_GRANDCROSS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_DARKRIFT2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_ICEBRAND2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_GOTH_MISSILE2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_VALMANWAY2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+	{
+      "rarity": 5,
+      "critChance": 0.025,
+      "max": 1
+    }
+  ],
+  "TP_SWORD_BROTHERS2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "TP_SUMMON_SPIRIT2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+	{
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "TP_AURABLAST_WEAPON2" :  [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "TP_SPIRITTORNADO2" :  [
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
     }
   ]
 }

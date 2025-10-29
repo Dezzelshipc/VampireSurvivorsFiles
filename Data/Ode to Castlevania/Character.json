@@ -25,7 +25,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ]
         },
@@ -41,7 +41,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ]
         }
@@ -147,7 +147,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ]
         },
@@ -163,7 +163,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ]
         }
@@ -250,6 +250,10 @@
       "textureName": "character_tp_trevor",
       "spriteName": "TP_Trevor_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "bgm": "BGM_TP_VS_Aquarius",
       "startingWeapon": "TP_DRAGONWATER1",
       "skins": [
@@ -260,13 +264,7 @@
           "spriteName": "TP_Trevor_i01.png",
           "walkingFrames": 4,
           "walkFrameRate": 8,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         },
         {
           "skinType": "SKIN_TP_TREVOR_MORNINGSTAR",
@@ -276,13 +274,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon": "TP_MORNINGSTAR",
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "startingWeapon": "TP_MORNINGSTAR"
         }
       ],
       "maxHp": 100,
@@ -382,6 +374,10 @@
       "textureName": "character_tp_christopher",
       "spriteName": "TP_Christopher_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_LEMURIA1",
       "bgm": "BGM_TP_VS_TheBeginning",
       "description": "Greed can occasionally affect Might, Area, and Armor. Can find special pickups.",
@@ -393,13 +389,7 @@
           "spriteName": "TP_Christopher_i01.png",
           "walkingFrames": 4,
           "walkFrameRate": 8,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         },
         {
           "skinType": "SKIN_TP_CHRISTOPHER_MORNINGSTAR",
@@ -409,13 +399,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon": "TP_MORNINGSTAR",
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "startingWeapon": "TP_MORNINGSTAR"
         }
       ],
       "maxHp": 120,
@@ -497,6 +481,10 @@
       "textureName": "character_tp_simon",
       "spriteName": "TP_Simon_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_WINDWHIP1",
       "bgm": "BGM_TP_VS_SimonTheme",
       "description": "Growth can occasionally affect Might, Area, and Armor. Can find special pickups.",
@@ -512,7 +500,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         },
@@ -528,7 +516,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         }
@@ -635,6 +623,10 @@
       "textureName": "character_tp_juste",
       "spriteName": "TP_Juste_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_HOLYWHIP1",
       "bgm": "BGM_TP_VS_SuccessorOfFate",
       "skins": [
@@ -648,8 +640,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -664,8 +656,8 @@
           "startingWeapon": "TP_MORNINGSTAR",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -680,8 +672,8 @@
           "startingWeapon": "TP_SPELLBOOK",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         }
@@ -778,6 +770,10 @@
       "bgm": "BGM_TP_VS_BloodlinesBequeathed",
       "walkingFrames": 8,
       "walkFrameRate": 16,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_PLATINUMWHIP1",
       "skins": [
         {
@@ -790,8 +786,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -799,13 +795,7 @@
               "textureName": "character_tp_richter",
               "spriteName": "TP_Richter_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -820,8 +810,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -829,13 +819,7 @@
               "textureName": "character_tp_richter",
               "spriteName": "TP_Richter_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         }
@@ -925,6 +909,10 @@
       "textureName": "character_tp_julius",
       "spriteName": "TP_Julius_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_MARTIALWHIP1",
       "bgm": "BGM_TP_VS_HeartOfFire",
       "skins": [
@@ -935,13 +923,7 @@
           "spriteName": "TP_Julius_i01.png",
           "walkingFrames": 4,
           "walkFrameRate": 8,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         },
         {
           "skinType": "SKIN_TP_JULIUS_MORNINGSTAR",
@@ -951,13 +933,7 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": false,
-          "startingWeapon": "TP_MORNINGSTAR",
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "startingWeapon": "TP_MORNINGSTAR"
         }
       ],
       "maxHp": 180,
@@ -1026,6 +1002,10 @@
       "textureName": "character_tp_grant",
       "spriteName": "TP_Grant_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 6,
+        "y": 12
+      },
       "startingWeapon": "TP_BWAKA1",
       "skins": [
         {
@@ -1034,7 +1014,13 @@
           "textureName": "character_tp_grant",
           "spriteName": "TP_Grant_i01.png",
           "walkingFrames": 4,
-          "unlocked": true
+          "unlocked": true,
+		  "headOffsets": [
+			{
+			  "x": 5,
+			  "y": -4
+			}
+		  ]
         },
         {
           "startingWeapon": "TP_COATOFARMS",
@@ -1043,7 +1029,13 @@
           "textureName": "character_tp_grant",
           "spriteName": "TP_Grant_i01.png",
           "walkingFrames": 4,
-          "unlocked": false
+          "unlocked": false,
+		  "headOffsets": [
+			{
+			  "x": 5,
+			  "y": -4
+			}
+		  ]
         }
       ],
       "bgm": "BGM_TP_VS_MadForest",
@@ -1133,6 +1125,10 @@
       "textureName": "character_tp_quincy",
       "spriteName": "TP_Quincy_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_SHURIKEN1",
       "bgm": "BGM_TP_hod_IntoTheDarkNight",
       "skins": [
@@ -1145,8 +1141,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ]
         },
@@ -1160,8 +1156,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ]
         }
@@ -1251,6 +1247,10 @@
       "textureName": "character_tp_john",
       "spriteName": "TP_John_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_IRONBALL1",
       "bgm": "BGM_TP_VS_IronBlueIntention",
       "charSelTexture": "character_tp_john",
@@ -1266,7 +1266,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         },
@@ -1281,7 +1281,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         },
@@ -1296,7 +1296,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         }
@@ -1362,6 +1362,10 @@
       "charSelTexture": "character_tp_jonathanandcharlotte",
       "charSelFrame": "TP_Jonathan_i01.png",
       "walkingFrames": 8,
+	  "bodyOffset": {
+        "x": 10,
+        "y": 16
+      },
       "startingWeapon": "TP_JAVELIN1",
       "bgm": "BGM_TP_VS_VictorianFear",
       "description": "Charge ability affected by Speed: triggers all equipped weapons from the Coat of Arms. Can find special pickups.",
@@ -1416,8 +1420,8 @@
           "charSelFrame": "TP_Jonathan_i01.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -1425,37 +1429,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -1472,8 +1458,8 @@
           "charSelFrame": "TP_Jonathan_i01.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -1481,37 +1467,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -1528,8 +1496,8 @@
           "charSelFrame": "TP_Jonathan_i01.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -1537,37 +1505,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -1584,8 +1534,8 @@
           "charSelFrame": "TP_Jonathan_i01.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -1593,37 +1543,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         }
@@ -1659,6 +1591,10 @@
       "textureName": "character_tp_maxim",
       "spriteName": "TP_Maxim_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 10,
+        "y": 16
+      },
       "startingWeapon": "TP_DISCUS1",
       "bgm": "BGM_TP_por_InSearchOfTheHiddenSpell",
       "skins": [
@@ -1671,8 +1607,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 0
             }
           ]
         },
@@ -1686,8 +1622,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 0
             }
           ]
         }
@@ -1784,6 +1720,10 @@
       "textureName": "character_tp_henry",
       "spriteName": "TP_Henry_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 22
+      },
       "startingWeapon": "TP_GUN1",
       "bgm": "BGM_TP_hod_TheHiddenCurse",
       "skins": [
@@ -1797,7 +1737,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         },
@@ -1812,7 +1752,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         }
@@ -1920,48 +1860,24 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_soma",
               "spriteName": "TP_Soma_melee01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "specialAnimation": {
               "textureName": "character_tp_soma",
               "spriteName": "TP_Soma_special01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "idleAnimation": {
               "textureName": "character_tp_soma",
               "spriteName": "TP_Soma_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -1975,51 +1891,58 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_soma",
               "spriteName": "TP_Soma_melee01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "specialAnimation": {
               "textureName": "character_tp_soma",
               "spriteName": "TP_Soma_special01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "idleAnimation": {
               "textureName": "character_tp_soma",
               "spriteName": "TP_Soma_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           },
           "startingWeapon": "CANDYBOX"
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_TP_SOMA_DARKLORD",
+          "name": "Dark Lord",
+          "textureName": "character_tp_soma",
+          "spriteName": "TP_Soma_skin_darklordsoma_i01.png",
+          "walkingFrames": 6,
+          "unlocked": false,
+          "hidden": false,
+          "description": "The Dark Lord reborn.",
+          "startingWeapon": "TP_DIABOLOGUE",
+		  "bodyOffset": {
+			"x": 3,
+			"y": 20
+		  },
+		  "headOffsets": [
+            {
+              "x": 0,
+              "y": 5
+            }
+          ],
+          "maxHP": 566,
+          "greed": 0.5,
+          "rerolls": 5,
+          "skips": 5,
+          "banish": 5,
+          "onEveryLevelUp": {
+            "power": 0.01,
+            "revivals": 0.01
+          }
         }
       ],
       "maxHp": 100,
@@ -2101,6 +2024,10 @@
       "spriteName": "TP_Dracula_i01.png",
       "bgm": "BGM_TP_VS_WoodCarvingPartita",
       "walkingFrames": 6,
+	  "bodyOffset": {
+        "x": 9,
+        "y": 20
+      },
       "startingWeapon": "TP_WINEGLASS1",
       "skins": [
         {
@@ -2114,7 +2041,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 8
             }
           ],
           "spriteAnims": {
@@ -2122,13 +2049,7 @@
               "textureName": "character_tp_dracula",
               "spriteName": "TP_Dracula_i01.png",
               "framesNumber": 6,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -2144,7 +2065,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 8
             }
           ],
           "spriteAnims": {
@@ -2152,13 +2073,7 @@
               "textureName": "character_tp_dracula",
               "spriteName": "TP_Dracula_i01.png",
               "framesNumber": 6,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         }
@@ -2251,48 +2166,24 @@
           "unlocked": true,
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_Charlotte_i01.png",
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "specialAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_special01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -2306,48 +2197,24 @@
           "unlocked": false,
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_Charlotte_i01.png",
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "specialAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_special01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           },
           "startingWeapon": "TP_SPELLBOOK"
@@ -2451,8 +2318,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": -2
             }
           ]
         },
@@ -2467,8 +2334,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": -2
             }
           ]
         }
@@ -2577,8 +2444,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -2,
+              "y": 0
             }
           ]
         },
@@ -2592,8 +2459,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -2,
+              "y": 0
             }
           ]
         }
@@ -2681,6 +2548,10 @@
       "textureName": "character_tp_carrie",
       "spriteName": "TP_Carrie_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 6,
+        "y": 12
+      },
       "startingWeapon": "TP_EARTH1",
       "bgm": "BGM_TP_VS_JawsOfAScorchedEarth",
       "skins": [
@@ -2693,8 +2564,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": -4
             }
           ]
         },
@@ -2708,8 +2579,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": -4
             }
           ]
         }
@@ -2804,6 +2675,10 @@
       "textureName": "character_tp_yoko",
       "spriteName": "TP_Yoko_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 5,
+        "y": 16
+      },
       "startingWeapon": "TP_ELEC1",
       "bgm": "BGM_TP_VS_DraculasTears",
       "skins": [
@@ -2816,8 +2691,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -2831,8 +2706,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         }
@@ -2922,6 +2797,10 @@
       "textureName": "character_tp_rinaldo",
       "spriteName": "TP_Rinaldo_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 4,
+        "y": 16
+      },
       "startingWeapon": "TP_ACID1",
       "bgm": "BGM_TP_VS_BaljhetMountaint",
       "skins": [
@@ -2935,7 +2814,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         },
@@ -2950,7 +2829,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         }
@@ -3045,6 +2924,10 @@
       "textureName": "character_tp_mina",
       "spriteName": "TP_Mina_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 4,
+        "y": 14
+      },
       "startingWeapon": "TP_HOLY1",
       "bgm": "BGM_TP_VS_AmberScenery",
       "skins": [
@@ -3058,7 +2941,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ]
         },
@@ -3073,7 +2956,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ]
         }
@@ -3174,13 +3057,7 @@
           "textureName": "character_tp_elizabeth",
           "spriteName": "TP_Elizabeth_i01.png",
           "walkingFrames": 4,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         },
         {
           "startingWeapon": "TP_SPELLBOOK",
@@ -3189,13 +3066,7 @@
           "textureName": "character_tp_elizabeth",
           "spriteName": "TP_Elizabeth_i01.png",
           "walkingFrames": 4,
-          "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": false
         },
         {
           "startingWeapon": "TP_DIABOLOGUE",
@@ -3204,13 +3075,7 @@
           "textureName": "character_tp_elizabeth",
           "spriteName": "TP_Elizabeth_i01.png",
           "walkingFrames": 4,
-          "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": false
         }
       ],
       "maxHp": 200,
@@ -3304,6 +3169,10 @@
       "spriteName": "TP_Alucard_w01.png",
       "walkingFrames": 8,
       "walkFrameRate": 16,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "bgm": "BGM_TP_VS_DraculasCastle",
       "charSelTexture": "character_tp_alucard",
       "charSelFrame": "TP_Alucard_i01.png",
@@ -3318,60 +3187,30 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_ranged01.png",
               "framesNumber": 3,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "magicAttack": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_spell01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "idleAnimation": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_i01.png",
               "framesNumber": 5,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -3384,60 +3223,30 @@
           "walkingFrames": 8,
           "walkFrameRate": 16,
           "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_ranged01.png",
               "framesNumber": 3,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "magicAttack": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_spell01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "idleAnimation": {
               "textureName": "character_tp_alucard",
               "spriteName": "TP_Alucard_i01.png",
               "framesNumber": 5,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         }
@@ -3531,6 +3340,10 @@
       "textureName": "character_tp_reinhardt",
       "spriteName": "TP_Reinhardt_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 9,
+        "y": 16
+      },
       "startingWeapon": "TP_SLASH1",
       "bgm": "BGM_TP_hod_GazeUpAtTheDarkness",
       "skins": [
@@ -3543,8 +3356,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -3558,8 +3371,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -3573,8 +3386,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -3588,8 +3401,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         }
@@ -3682,6 +3495,10 @@
       "textureName": "character_tp_eric",
       "spriteName": "TP_Eric_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 10,
+        "y": 20
+      },
       "startingWeapon": "TP_ALUCARDSPEAR1",
       "bgm": "BGM_TP_VS_TheSinkingOldSanctuary",
       "description": "Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
@@ -3695,8 +3512,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -3710,8 +3527,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -3725,8 +3542,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 1
             }
           ]
         }
@@ -3792,9 +3609,13 @@
       "textureName": "character_tp_isaac",
       "spriteName": "TP_Isaac_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 11,
+        "y": 18
+      },
       "startingWeapon": "TP_CHAUVE1",
       "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
-      "bgm": "BGM_TP_cod_FollowersOfDarkness",
+      "bgm": "BGM_TP_VS_YoungNoblemanOfMadness",
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -3805,8 +3626,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 4,
+              "y": 1
             }
           ]
         },
@@ -3820,8 +3641,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 4,
+              "y": 1
             }
           ]
         },
@@ -3835,8 +3656,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 4,
+              "y": 1
             }
           ]
         }
@@ -3917,6 +3738,10 @@
       "textureName": "character_tp_hector",
       "spriteName": "TP_Hector_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 9,
+        "y": 16
+      },
       "startingWeapon": "TP_MACE1",
       "bgm": "BGM_TP_VS_AbandonedCastle",
       "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
@@ -3930,8 +3755,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 1
             }
           ]
         },
@@ -3945,8 +3770,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 1
             }
           ]
         },
@@ -3960,8 +3785,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 1
             }
           ]
         }
@@ -4035,6 +3860,10 @@
       "textureName": "character_tp_sara",
       "spriteName": "TP_Sara_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 5,
+        "y": 16
+      },
       "startingWeapon": "TP_STARFLAIL1",
       "bgm": "BGM_TP_VS_DanceOfPearls",
       "skins": [
@@ -4044,13 +3873,7 @@
           "textureName": "character_tp_sara",
           "spriteName": "TP_Sara_i01.png",
           "walkingFrames": 4,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         },
         {
           "startingWeapon": "TP_SPELLBOOK",
@@ -4059,13 +3882,7 @@
           "textureName": "character_tp_sara",
           "spriteName": "TP_Sara_i01.png",
           "walkingFrames": 4,
-          "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": false
         }
       ],
       "maxHp": 100,
@@ -4162,6 +3979,10 @@
       "textureName": "character_tp_vincent",
       "spriteName": "TP_Vincent_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 16
+      },
       "startingWeapon": "TP_SHIELD1",
       "bgm": "BGM_TP_VS_AfterConfession",
       "skins": [
@@ -4174,8 +3995,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": -2
             }
           ]
         },
@@ -4189,8 +4010,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": -2
             }
           ]
         }
@@ -4279,6 +4100,10 @@
       "textureName": "character_tp_maria",
       "spriteName": "TP_MariaA_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_SACREDBEASTS1",
       "bgm": "BGM_TP_VS_MoonlightNocturne",
       "skins": [
@@ -4291,8 +4116,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": -2
             }
           ]
         },
@@ -4306,8 +4131,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": -2
             }
           ]
         },
@@ -4321,8 +4146,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": -2
             }
           ]
         }
@@ -4417,6 +4242,10 @@
       "spriteName": "TP_Shanoa_w01.png",
       "walkingFrames": 8,
       "walkFrameRate": 16,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "charSelTexture": "character_tp_shanoa",
       "charSelFrame": "TP_Shanoa_i01.png",
       "bgm": "BGM_TP_VS_AnEmptyTome",
@@ -4434,7 +4263,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ],
           "spriteAnims": {
@@ -4442,49 +4271,25 @@
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_a01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "meleeAttack2": {
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_aa01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "idleAnimation": {
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "specialAnimation": {
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_special01.png",
               "framesNumber": 4,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             }
           }
         },
@@ -4502,7 +4307,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -1
             }
           ],
           "spriteAnims": {
@@ -4510,49 +4315,25 @@
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_a01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "meleeAttack2": {
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_aa01.png",
               "framesNumber": 6,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             },
             "idleAnimation": {
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "specialAnimation": {
               "textureName": "character_tp_shanoa",
               "spriteName": "TP_Shanoa_special01.png",
               "framesNumber": 4,
-              "frameRate": 16,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 16
             }
           }
         }
@@ -4645,6 +4426,10 @@
       "textureName": "character_tp_albus",
       "spriteName": "TP_Albus_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 6,
+        "y": 24
+      },
       "startingWeapon": "TP_SPITE1",
       "bgm": "BGM_TP_VS_EbonyWings",
       "skins": [
@@ -4657,8 +4442,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 1
             }
           ]
         },
@@ -4672,8 +4457,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 1
             }
           ]
         }
@@ -4768,6 +4553,10 @@
       "textureName": "character_tp_lisa",
       "spriteName": "TP_Lisa_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 2,
+        "y": 16
+      },
       "startingWeapon": "TP_LIGHT1",
       "bgm": "BGM_TP_VS_WanderingTheCrystalBlue",
       "skins": [
@@ -4781,7 +4570,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         },
@@ -4796,7 +4585,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 1
             }
           ]
         }
@@ -4890,6 +4679,10 @@
       "textureName": "character_tp_shaft",
       "spriteName": "TP_Shaft_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 18
+      },
       "startingWeapon": "TP_DARK1",
       "bgm": "BGM_TP_sotn_FestivalOfServants",
       "skins": [
@@ -4899,13 +4692,7 @@
           "textureName": "character_tp_shaft",
           "spriteName": "TP_Shaft_i01.png",
           "walkingFrames": 4,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         },
         {
           "startingWeapon": "TP_DIABOLOGUE",
@@ -4914,13 +4701,7 @@
           "textureName": "character_tp_shaft",
           "spriteName": "TP_Shaft_i01.png",
           "walkingFrames": 4,
-          "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": false
         }
       ],
       "maxHp": 100,
@@ -5009,6 +4790,10 @@
       "textureName": "character_tp_saintgermain",
       "spriteName": "TP_StGermain_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 10,
+        "y": 18
+      },
       "startingWeapon": "TP_ENERGY1",
       "bgm": "BGM_TP_VS_EneomaosMachineTower",
       "skins": [
@@ -5021,8 +4806,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 2
             }
           ]
         },
@@ -5036,8 +4821,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 2
             }
           ]
         },
@@ -5051,8 +4836,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": 2
             }
           ]
         }
@@ -5155,13 +4940,7 @@
           "textureName": "character_tp_nathan",
           "spriteName": "TP_Nathan_i01.png",
           "walkingFrames": 4,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         },
         {
           "startingWeapon": "TP_MORNINGSTAR",
@@ -5170,13 +4949,7 @@
           "textureName": "character_tp_nathan",
           "spriteName": "TP_Nathan_i01.png",
           "walkingFrames": 4,
-          "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": false
         },
         {
           "startingWeapon": "TP_SPELLBOOK",
@@ -5185,13 +4958,7 @@
           "textureName": "character_tp_nathan",
           "spriteName": "TP_Nathan_i01.png",
           "walkingFrames": 4,
-          "unlocked": false,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": false
         }
       ],
       "maxHp": 120,
@@ -5277,6 +5044,10 @@
       "textureName": "character_tp_cornell",
       "spriteName": "TP_CornellA_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "startingWeapon": "TP_CUSTOS1",
       "bgm": "BGM_TP_VS_TragicPrince",
       "skins": [
@@ -5289,8 +5060,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 0
             }
           ]
         },
@@ -5304,8 +5075,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 0
             }
           ]
         },
@@ -5319,8 +5090,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 0
             }
           ]
         }
@@ -5419,6 +5190,10 @@
       "textureName": "character_tp_barlowe",
       "spriteName": "TP_Barlowe_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 9,
+        "y": 18
+      },
       "startingWeapon": "TP_DOMINUS1",
       "bgm": "BGM_TP_VS_ChapelHiddenInSmoke",
       "skins": [
@@ -5431,8 +5206,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 0
             }
           ]
         },
@@ -5446,8 +5221,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 0
             }
           ]
         },
@@ -5461,8 +5236,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 0
             }
           ]
         },
@@ -5476,8 +5251,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 0
             }
           ]
         }
@@ -5572,6 +5347,10 @@
       "textureName": "character_tp_maria",
       "spriteName": "TP_MariaB_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 8
+      },
       "startingWeapon": "TP_FAMILIARFORGE",
       "bgm": "BGM_TP_sotn_GuardianMariaFight",
       "skins": [
@@ -5584,8 +5363,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": -10
             }
           ]
         }
@@ -5691,10 +5470,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 2.5,
+			"y": 6
+		  },
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -9
             }
           ]
         },
@@ -5707,10 +5490,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 4,
+			"y": 8
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 8,
+              "y": -9
             }
           ]
         },
@@ -5723,10 +5510,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 3,
+			"y": 6
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 6,
+              "y": -12
             }
           ]
         },
@@ -5739,10 +5530,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 3,
+			"y": 6
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 6,
+              "y": -13
             }
           ]
         },
@@ -5755,10 +5550,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 4,
+			"y": 7
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 7,
+              "y": -10
             }
           ]
         }
@@ -5862,10 +5661,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 4.5,
+			"y": 7
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 3,
+              "y": -12
             }
           ]
         },
@@ -5878,10 +5681,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 6,
+			"y": 2
+		  },
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": -12
             }
           ]
         },
@@ -5894,10 +5701,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 4.5,
+			"y": 9
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 5,
+              "y": -11
             }
           ]
         },
@@ -5910,10 +5721,14 @@
           "walkingFrames": 4,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 3.5,
+			"y": 7
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": -16
             }
           ]
         },
@@ -5926,10 +5741,14 @@
           "walkingFrames": 2,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 2.5,
+			"y": 6
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 2,
+              "y": -14
             }
           ],
           "exWeapons": [
@@ -5946,10 +5765,14 @@
           "walkingFrames": 2,
           "walkFrameRate": 8,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 3,
+			"y": 6
+		  },
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 3,
+              "y": -10
             }
           ],
           "exWeapons": [
@@ -6046,6 +5869,10 @@
       "textureName": "character_tp_cornell",
       "spriteName": "TP_CornellB_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 18
+      },
       "startingWeapon": "TP_CUSTOS4",
       "bgm": "BGM_TP_hod_PitifulScion",
       "skins": [
@@ -6058,8 +5885,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 2
             }
           ]
         },
@@ -6073,8 +5900,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 2
             }
           ]
         }
@@ -6203,7 +6030,17 @@
       "showcase": [],
       "hiddenWeapons": [
         "FLOOD"
-      ]
+      ],
+	  "bodyOffset": {
+        "x": 10,
+        "y": 16
+      },
+	  "headOffsets": [
+		{
+		  "x": 3,
+		  "y": -2
+		}
+	  ]
     },
     {
       "level": 20,
@@ -6235,6 +6072,10 @@
       "textureName": "character_tp_librarian",
       "spriteName": "TP_Librarian_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 7,
+        "y": 14
+      },
       "startingWeapon": "TP_RAPIDUS2",
       "bgm": "BGM_TP_sotn_WoodCarvingPartita",
       "skins": [
@@ -6248,8 +6089,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -2,
+              "y": -3
             }
           ]
         }
@@ -6343,6 +6184,10 @@
       "textureName": "character_tp_hammer",
       "spriteName": "TP_Hammer_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 12,
+        "y": 18
+      },
       "startingWeapon": "TP_RPG2",
       "bgm": "BGM_TP_dos_PitchBlackIntrusion",
       "skins": [
@@ -6355,8 +6200,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": -1,
+              "y": 2
             }
           ]
         }
@@ -6445,6 +6290,10 @@
       "textureName": "character_tp_wind",
       "spriteName": "TP_Wind_i01.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 18
+      },
       "startingWeapon": "TP_AURABLAST_WEAPON",
       "bgm": "BGM_TP_por_IronBlueIntention",
       "maxHp": 100,
@@ -6513,6 +6362,371 @@
       "growth": -1
     }
   ],
+  "TP_HUGH": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Hugh Baldwin",
+      "surname": "",
+      "portraitName": "tp_hugh.png",
+      "textureName": "character_tp_hugh",
+      "spriteName": "TP_Hugh_i01.png",
+      "walkingFrames": 4,
+      "description": "Adept with Valmanway, Tyrfing, and Rune Sword. Might receive Coat of Arms as 4th level up option until Level 15",
+      "startingWeapon": "TP_VALMANWAY",
+      "bgm": "BGM_TP_VS_NewMessiah",
+      "maxHp":      120,
+      "armor":      1,
+      "regen":      0,
+      "moveSpeed":  1.4,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 9,
+        "y": 16
+      },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": 2
+		}
+	  ],
+      "onEveryLevelUp": {
+      },
+      "showcase": [
+      ],
+      "exWeapons": []
+    },
+
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_MORRIS": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Adept with all weapons from the Coat of Arms. Retaliates by triggering Knuckle Duster, Lapiste Tepisto, and any Bracelet.",
+      "portraitName": "tp_morris.png",
+      "textureName": "character_tp_morris",
+      "spriteName": "TP_morris_i01.png",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_tp_morris",
+          "spriteName": "TP_morris_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+		  "headOffsets": [
+            {
+              "x": 0,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_TP_MORRIS_COATOFARMS",
+          "name": "Coat Of Arms Morris",
+          "textureName": "character_tp_morris",
+          "spriteName": "TP_morris_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 1
+            }
+          ],
+          "startingWeapon": "TP_COATOFARMS"
+        }
+      ],
+      "walkingFrames": 4,
+      "startingWeapon": "TP_LAPISTE1",
+      "bgm": "BGM_TP_VS_AntiSoulMysteriesLab",
+      "maxHp":      200,
+      "armor":      2,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1.2,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "onEveryLevelUp": {
+      },
+      "showcase": [],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_ANNETTE": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Annette",
+      "surname": "",
+      "portraitName": "tp_annette.png",
+      "textureName": "character_tp_carmilla",
+      "spriteName": "TP_Annette_i01.png",
+      "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 14
+      },
+      "description": "Summons a selection of clockwork weapons.",
+      "startingWeapon": "TP_GEARS_WEAPON",
+      "bgm": "BGM_TP_VS_ClockWork",
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      1,
+      "moveSpeed":  1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   0.9,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+      ],
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_tp_annette",
+          "spriteName": "TP_Annette_i01.png",
+          "walkingFrames": 4,
+          "walkFrameRate": 8,
+          "unlocked": true,
+          "startingWeapon": "TP_GEARS_WEAPON",
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -1
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_TP_ANNETTE_PENDULUM",
+          "name": "SKIN_TP_ANNETTE_PENDULUM",
+          "textureName": "character_tp_annette",
+          "spriteName": "TP_Annette_i01.png",
+          "walkingFrames": 4,
+          "walkFrameRate": 8,
+          "unlocked": true,
+          "startingWeapon": "TP_PENDULUM_WEAPON",
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -1
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_TP_ANNETTE_ELEVATOR",
+          "name": "SKIN_TP_ANNETTE_ELEVATOR",
+          "textureName": "character_tp_annette",
+          "spriteName": "TP_Annette_i01.png",
+          "walkingFrames": 4,
+          "walkFrameRate": 8,
+          "unlocked": true,
+          "startingWeapon": "TP_ELEVATOR_WEAPON",
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -1
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_TP_ANNETTE_HEADS",
+          "name": "SKIN_TP_ANNETTE_HEADS",
+          "textureName": "character_tp_annette",
+          "spriteName": "TP_Annette_i01.png",
+          "walkingFrames": 4,
+          "walkFrameRate": 8,
+          "unlocked": true,
+          "startingWeapon": "TP_HEADS_WEAPON",
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_TERA": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Tera",
+      "surname": "",
+      "description": "Starts with temporarily reduced Cooldown. Overhealing slightly decreases Cooldown. Rosaries are easier to find.",
+      "portraitName": "tp_tera.png",
+      "textureName": "character_tp_tera",
+      "spriteName": "TP_Tera_i01.png",
+      "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 16
+      },
+      "startingWeapon": "TP_GRANDCROSS",
+      "bgm": "",
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1.2,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 0.2,
+      "shields": 0,
+      "price": 5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [],
+      "exWeapons": []
+    },
+    {
+      "level": 2,
+      "cooldown": 0.2
+    },
+    {
+      "level": 3,
+      "cooldown": 0.3
+    },
+    {
+      "level": 4,
+      "cooldown": 0.3
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "TP_JONATHAN_AND_CHARLOTTE": [
     {
       "requiresRelic": "TP_RELIC_PILEOFSECRETS",
@@ -6527,6 +6741,10 @@
       "charSelTexture": "character_tp_jonathanandcharlotte",
       "charSelFrame": "TP_JandC_Select.png",
       "walkingFrames": 8,
+	  "bodyOffset": {
+        "x": 10,
+        "y": 16
+      },
       "startingWeapon": "TP_JAVELIN1",
       "bgm": "BGM_TP_VS_VictorianFear",
       "description": "Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte!",
@@ -6568,8 +6786,8 @@
           "charSelFrame": "TP_JandC_Select.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -6577,37 +6795,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -6624,8 +6824,8 @@
           "charSelFrame": "TP_JandC_Select.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -6633,37 +6833,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -6680,8 +6862,8 @@
           "charSelFrame": "TP_JandC_Select.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -6689,37 +6871,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -6736,8 +6900,8 @@
           "charSelFrame": "TP_JandC_Select.png",
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 1,
+              "y": 0
             }
           ],
           "spriteAnims": {
@@ -6745,37 +6909,19 @@
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "rangedAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_ranged01.png",
               "framesNumber": 7,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Jonathan_i01.png",
               "framesNumber": 1,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         }
@@ -6810,6 +6956,10 @@
       "textureName": "character_tp_jonathanandcharlotte",
       "spriteName": "TP_Charlotte_i01.png",
       "walkingFrames": 1,
+	  "bodyOffset": {
+        "x": 6,
+        "y": 20
+      },
       "startingWeapon": "TP_FIRE1",
       "description": "-",
       "bgm": "BGM_TP_VS_InvitationOfACrazedMoon",
@@ -6826,48 +6976,24 @@
           "unlocked": true,
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_CandJ_Select.png",
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "specialAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_special01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           }
         },
@@ -6881,48 +7007,24 @@
           "unlocked": false,
           "charSelTexture": "character_tp_jonathanandcharlotte",
           "charSelFrame": "TP_CandJ_Select.png",
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ],
           "spriteAnims": {
             "meleeAttack": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_melee01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             },
             "specialAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_special01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             },
             "idleAnimation": {
               "textureName": "character_tp_jonathanandcharlotte",
               "spriteName": "TP_Charlotte_i01.png",
               "framesNumber": 4,
-              "frameRate": 8,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 8
             }
           },
           "startingWeapon": "TP_SPELLBOOK"
@@ -7121,6 +7223,12 @@
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 1
+		}
+	  ],
       "showcase": [
         "AREA",
         "AREA",
@@ -7281,6 +7389,12 @@
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 1
+		}
+	  ],
       "showcase": [
         "AREA",
         "AREA",
@@ -7364,6 +7478,16 @@
       "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 6,
+        "y": 19
+      },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": 3
+		}
+	  ],
       "showcase": [
         "TP_SUMMON_SPIRIT",
         "TP_SUMMON_SPIRIT",
@@ -7444,13 +7568,7 @@
           "spriteName": "TP_Soleil_i01.png",
           "walkingFrames": 4,
           "walkFrameRate": 8,
-          "unlocked": true,
-          "headOffsets": [
-            {
-              "x": 0,
-              "y": -5
-            }
-          ]
+          "unlocked": true
         }
       ],
       "maxHp": 120,
@@ -7529,6 +7647,7 @@
       "growth": -1
     }
   ],
+  
   "TP_DARIO": [
     {
       "requiresRelic": "TP_RELIC_PILEOFSECRETS",
@@ -7566,6 +7685,12 @@
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
+	  "headOffsets": [
+		{
+		  "x": 1,
+		  "y": -1
+		}
+	  ],
       "showcase": [],
       "exWeapons": []
     },
@@ -7623,6 +7748,16 @@
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 5,
+        "y": 16
+      },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": 1
+		}
+	  ],
       "showcase": [],
       "exWeapons": []
     },
@@ -7680,6 +7815,16 @@
       "price": 1665,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 4,
+        "y": 18
+      },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 1
+		}
+	  ],
       "showcase": [],
       "exWeapons": [
         "TP_DARK1"
@@ -7739,6 +7884,16 @@
       "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 17
+      },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": 3
+		}
+	  ],
       "showcase": [
         "AREA",
         "AREA",
@@ -7762,6 +7917,98 @@
         "POWER",
         "POWER",
         "POWER"
+      ],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+
+  "TP_GENYA": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Alucard",
+      "surname": "",
+      "portraitName": "tp_genya.png",
+      "textureName": "character_tp_genya",
+      "spriteName": "TP_Genya_i01.png",
+      "walkingFrames": 4,
+      "bgm": "BGM_TP_VS_RuinedCastleCorridor",
+      "startingWeapon": "TP_POCKET1",
+      "description": ".",
+      "maxHp": 200,
+      "armor": 2,
+      "regen": 0,
+      "moveSpeed": 1.5,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 50000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 4,
+        "y": 16
+      },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 1
+		}
+	  ],
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "REVIVAL",
+        "REVIVAL",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA"
       ],
       "exWeapons": []
     },
@@ -7819,6 +8066,16 @@
       "price": 2000,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 4,
+        "y": 17
+      },
+	  "headOffsets": [
+		{
+		  "x": 2,
+		  "y": 2
+		}
+	  ],
       "showcase": [
         "AREA",
         "AREA",
@@ -7899,6 +8156,16 @@
       "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 18
+      },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 3
+		}
+	  ],
       "showcase": [
         "AREA",
         "AREA",
@@ -7981,6 +8248,16 @@
       "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 7,
+        "y": 28
+      },
+	  "headOffsets": [
+		{
+		  "x": -2,
+		  "y": 2
+		}
+	  ],
       "showcase": [
         "AREA",
         "AREA",
@@ -8032,107 +8309,7 @@
       "growth": -1
     }
   ],
-  "TP_OLROX": [
-    {
-      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
-      "hidden": true,
-      "unlocked": false,
-      "level": 1,
-      "prefix": "Count",
-      "charName": "Olrox",
-      "surname": "",
-      "description": ".",
-      "portraitName": "tp_olrox.png",
-      "textureName": "character_tp_olrox",
-      "spriteName": "TP_Olrox_i01.png",
-      "walkingFrames": 4,
-      "startingWeapon": "TP_DARKRIFT",
-      "bodyOffset": {
-        "x": 4,
-        "y": 32
-      },
-      "bgm": "BGM_TP_sotn_DanceOfPales",
-      "maxHp": 150,
-      "armor": 1,
-      "regen": 0,
-      "moveSpeed": 1.2,
-      "power": 1.2,
-      "area": 1,
-      "speed": 1,
-      "duration": 1.2,
-      "amount": 0,
-      "luck": 1,
-      "growth": 1,
-      "greed": 2,
-      "curse": 1,
-      "magnet": 0,
-      "revivals": 0,
-      "rerolls": 10,
-      "skips": 10,
-      "banish": 10,
-      "cooldown": 1,
-      "shields": 0,
-      "charm": 0,
-      "price": 16650,
-      "enemiesKilled": 0,
-      "isBought": false,
-      "showcase": [
-        "TP_DARKRIFT",
-        "TP_DARKRIFT",
-        "TP_DARKRIFT",
-        "TP_DARKRIFT",
-        "TP_DARKRIFT",
-        "TP_DARKRIFT",
-        "TP_DARKRIFT",
-        "TP_DARKRIFT",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA",
-        "GREED",
-        "GREED",
-        "GREED",
-        "GREED",
-        "GREED",
-        "COOLDOWN",
-        "COOLDOWN",
-        "COOLDOWN",
-        "COOLDOWN",
-        "COOLDOWN",
-        "DURATION",
-        "DURATION",
-        "DURATION",
-        "DURATION",
-        "DURATION",
-        "SPEED",
-        "SPEED",
-        "SPEED",
-        "SPEED",
-        "SPEED",
-        "AMOUNT",
-        "AMOUNT"
-      ],
-      "exWeapons": [],
-      "hiddenWeapons": []
-    },
-    {
-      "level": 20,
-      "growth": 1
-    },
-    {
-      "level": 21,
-      "growth": -1
-    },
-    {
-      "level": 40,
-      "growth": 1
-    },
-    {
-      "level": 41,
-      "growth": -1
-    }
-  ],
+    
   "TP_CAVETROLL": [
     {
       "requiresRelic": "TP_RELIC_PILEOFSECRETS",
@@ -8145,6 +8322,10 @@
       "textureName": "character_tp_cavetroll",
       "portraitName": "tp_cavetroll.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
       "description": "Gets more projectiles every 20 levels (max +4).",
       "isBought": false,
       "price": 500,
@@ -8160,8 +8341,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 7,
-              "y": 0
+              "x": 9,
+              "y": -4
             }
           ]
         }
@@ -8251,7 +8432,7 @@
       "hidden": true,
       "level": 1,
       "startingWeapon": "VOID",
-      "charName": "Fleman",
+      "charName": "Fleaman",
       "surname": "",
       "spriteName": "TP_FleaMan_i01.png",
       "textureName": "character_tp_fleaman",
@@ -8314,9 +8495,15 @@
       "enemiesKilled": 0,
       "stageData": [],
       "bodyOffset": {
-        "x": 2,
+        "x": 3,
         "y": 5
-      }
+      },
+	  "headOffsets": [
+		{
+		  "x": 7,
+		  "y": -12
+		}
+	  ]
     }
   ],
   "TP_AXEARMOR": [
@@ -8343,8 +8530,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 5,
+              "y": 10
             }
           ],
           "spriteAnims": {
@@ -8352,13 +8539,7 @@
               "textureName": "character_tp_axearmor",
               "spriteName": "TP_AxeArmor_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         }
@@ -8426,7 +8607,7 @@
       },
       "bodyOffset": {
         "x": 8,
-        "y": 40
+        "y": 42
       }
     },
     {
@@ -8487,8 +8668,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": 8,
+              "y": 12
             }
           ]
         }
@@ -8535,7 +8716,7 @@
       "stageData": [],
       "bodyOffset": {
         "x": 2,
-        "y": 20
+        "y": 26
       }
     },
     {
@@ -8555,191 +8736,7 @@
       "growth": -1
     }
   ],
-  "TP_SUCCUBUS": [
-    {
-      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
-      "hidden": true,
-      "secret": false,
-      "isBought": false,
-      "level": 1,
-      "startingWeapon": "TP_EVIL2",
-      "charName": "Succubus",
-      "surname": "",
-      "spriteName": "TP_Succubus_i01.png",
-      "textureName": "character_tp_succubus",
-      "walkingFrames": 4,
-      "currentSkin": "DEFAULT",
-      "description": ".",
-      "portraitName": "tp_psuccubus.png",
-      "price": 16650,
-      "completedStages": [],
-      "survivedMinutes": 0,
-      "maxHp": 100,
-      "armor": 0,
-      "regen": 0,
-      "moveSpeed": 1.8,
-      "power": 1,
-      "cooldown": 0.9,
-      "area": 1,
-      "speed": 1,
-      "duration": 1,
-      "amount": 0,
-      "luck": 1,
-      "growth": 1,
-      "greed": 2,
-      "curse": 1,
-      "magnet": 0,
-      "revivals": 0,
-      "rerolls": 0,
-      "skips": 0,
-      "banish": 0,
-      "showcase": [
-        "MOVESPEED",
-        "MOVESPEED",
-        "MOVESPEED",
-        "MOVESPEED",
-        "MOVESPEED",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA"
-      ],
-      "hiddenWeapons": [],
-      "enemiesKilled": 0,
-      "stageData": [],
-      "bodyOffset": {
-        "x": 8,
-        "y": 48
-      }
-    },
-    {
-      "growth": 1,
-      "level": 20
-    },
-    {
-      "growth": 1,
-      "level": 40
-    },
-    {
-      "level": 21,
-      "growth": -1
-    },
-    {
-      "level": 41,
-      "growth": -1
-    }
-  ],
-  "TP_KEREMET": [
-    {
-      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
-      "hidden": true,
-      "level": 1,
-      "prefix": "",
-      "charName": "Keremet",
-      "surname": "",
-      "description": ".",
-      "portraitName": "tp_pkeremet.png",
-      "textureName": "character_tp_keremet",
-      "spriteName": "TP_Keremet_i01.png",
-      "walkingFrames": 5,
-      "startingWeapon": "TP_ACID2",
-      "charSelTexture": "character_tp_keremet",
-      "charSelFrame": "TP_Keremet_Select.png",
-      "maxHp": 100,
-      "armor": 20,
-      "regen": 2,
-      "moveSpeed": 0,
-      "power": 1,
-      "cooldown": 1,
-      "area": 1,
-      "speed": 1,
-      "duration": 1,
-      "amount": 0,
-      "luck": 1,
-      "growth": 1,
-      "greed": 1,
-      "curse": 1,
-      "magnet": 0,
-      "revivals": 0,
-      "rerolls": 0,
-      "skips": 0,
-      "banish": 0,
-      "price": 16650,
-      "enemiesKilled": 0,
-      "isBought": false,
-      "showcase": [
-        "MOVESPEED",
-        "MOVESPEED",
-        "MOVESPEED",
-        "MOVESPEED",
-        "MOVESPEED",
-        "COOLDOWN",
-        "COOLDOWN",
-        "COOLDOWN",
-        "COOLDOWN",
-        "COOLDOWN",
-        "POWER",
-        "POWER",
-        "POWER",
-        "POWER",
-        "POWER",
-        "POWER",
-        "SPEED",
-        "SPEED",
-        "SPEED",
-        "SPEED",
-        "SPEED",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA",
-        "AREA"
-      ],
-      "exWeapons": [],
-      "onEveryLevelUp": {
-        "armor": 0.05
-      },
-      "bodyOffset": {
-        "x": 16,
-        "y": 40
-      }
-    },
-    {
-      "level": 21,
-      "growth": -1
-    },
-    {
-      "level": 41,
-      "growth": -1
-    },
-    {
-      "level": 10,
-      "power": 0.05,
-      "curse": 0.05,
-      "moveSpeed": 0.05
-    },
-    {
-      "level": 20,
-      "power": 0.05,
-      "curse": 0.05,
-      "moveSpeed": 0.05,
-      "growth": 1
-    },
-    {
-      "level": 30,
-      "power": 0.05,
-      "curse": 0.05,
-      "moveSpeed": 0.05
-    },
-    {
-      "level": 40,
-      "power": 0.05,
-      "curse": 0.05,
-      "moveSpeed": 0.05,
-      "growth": 1
-    }
-  ],
+  
   "TP_SNIPER": [
     {
       "requiresRelic": "TP_RELIC_PILEOFSECRETS",
@@ -8759,9 +8756,15 @@
       "walkingFrames": 5,
       "startingWeapon": "TP_GOTH_MISSILE",
       "bodyOffset": {
-        "x": 36,
+        "x": 37,
         "y": 76
       },
+	  "headOffsets": [
+		{
+		  "x": 11,
+		  "y": 3
+		}
+	  ],
       "maxHp": 100,
       "armor": 0,
       "regen": 0,
@@ -8838,6 +8841,1182 @@
       "growth": -1
     }
   ],
+  "TP_STONESKULL": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "unlocked": false,
+      "level": 1,
+      "prefix": "",
+      "charName": "Stone Skull",
+      "surname": "",
+      "description": "Gains +1 Armor every 5 levels. Horizontally impaired. Retaliates.",
+      "portraitName": "tp_stoneskull.png",
+      "textureName": "character_tp_stoneskull",
+      "spriteName": "TP_StoneSkull_i01.png",
+      "walkingFrames": 16,
+      "bgm": "BGM_TP_VS_WanderingGhosts",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_tp_stoneskull",
+          "spriteName": "TP_StoneSkull_i01.png",
+          "walkingFrames": 16,
+          "unlocked": true,
+		  "bodyOffset": {
+			"x": 4,
+			"y": 20
+		  },
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 5
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_TP_STONESKULL_BULL",
+          "name": "Bull Skull",
+          "textureName": "character_tp_stoneskull",
+          "spriteName": "BulLSkull_i01.png",
+          "walkingFrames": 16,
+          "unlocked": true,
+		  "bodyOffset": {
+			"x": 5,
+			"y": 24
+		  },
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": -4
+            }
+          ]
+        }
+      ],
+
+      "startingWeapon": "VOID",
+      "maxHp":      333,
+      "armor":      3,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1.5,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "charm":      0,
+      "price":      16650,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "AMOUNT",
+        "AMOUNT"
+      ],
+      "onEveryLevelUp": {
+        "armor": 0.2
+      },
+      "exWeapons": [],
+      "hiddenWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_SWORDRULER": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Sword Ruler",
+      "surname": "",
+      "portraitName": "tp_rulersword.png",
+      "textureName": "character_tp_swordruler",
+      "spriteName": "TP_SwordRuler_i01.png",
+      "walkingFrames": 4,
+      "description": ".",
+      "startingWeapon": "TP_SWORD_BROTHERS",
+      "bgm": "BGM_TP_VS_DanceOfGold",
+      "maxHp":      200,
+      "armor":      1,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": -14
+		}
+	  ],
+      "showcase": [
+      ],
+      "exWeapons": [],
+      "hiddenWeapons": [
+        "TP_RULERSWORD_BODY"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_PERSEPHONE": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Persephone",
+      "surname": "",
+      "portraitName": "tp_persephone.png",
+      "textureName": "character_tp_persephone",
+      "spriteName": "TP_Persephone_i01.png",
+      "walkingFrames": 4,
+      "description": "Vacuums everything.",
+      "startingWeapon": "TP_SPIRITTORNADO",
+      "bgm": "BGM_TP_VS_TreasuryRoom",
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     1,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 16
+      },
+	  "headOffsets": [
+		{
+		  "x": 3,
+		  "y": -2
+		}
+	  ],
+      "onEveryLevelUp": {
+      },
+      "showcase": [
+      ],
+      "hiddenWeapons": [
+        "EX_RUMBA1"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "TP_KEREMET": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Keremet",
+      "surname": "",
+      "description": ".",
+      "portraitName": "tp_pkeremet.png",
+      "textureName": "character_tp_keremet",
+      "spriteName": "TP_Keremet_i01.png",
+      "walkingFrames": 5,
+      "startingWeapon": "TP_ACID2",
+      "charSelTexture": "character_tp_keremet",
+      "charSelFrame": "TP_Keremet_Select.png",
+      "maxHp": 100,
+      "armor": 20,
+      "regen": 2,
+      "moveSpeed": 0,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "price": 16650,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "exWeapons": [],
+      "onEveryLevelUp": {
+        "armor": 0.05
+      },
+      "bodyOffset": {
+        "x": 16,
+        "y": 40
+      },
+	  "headOffsets": [
+		{
+		  "x": 2,
+		  "y": 24
+		}
+	  ]
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    },
+    {
+      "level": 10,
+      "power": 0.05,
+      "curse": 0.05,
+      "moveSpeed": 0.05
+    },
+    {
+      "level": 20,
+      "power": 0.05,
+      "curse": 0.05,
+      "moveSpeed": 0.05,
+      "growth": 1
+    },
+    {
+      "level": 30,
+      "power": 0.05,
+      "curse": 0.05,
+      "moveSpeed": 0.05
+    },
+    {
+      "level": 40,
+      "power": 0.05,
+      "curse": 0.05,
+      "moveSpeed": 0.05,
+      "growth": 1
+    }
+  ],
+  "TP_ASTARTE": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Astarte",
+      "surname": "",
+      "portraitName": "tp_astarte.png",
+      "textureName": "character_tp_astarte",
+      "spriteName": "TP_Astarte_i01.png",
+      "walkingFrames": 4,
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers.",
+      "startingWeapon": "VOID",
+      "bgm": "",
+      "maxHp":      120,
+      "armor":      0,
+      "regen":      1,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 6,
+        "y": 22
+      },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": 3
+		}
+	  ],
+      "showcase": [
+      ],
+      "exWeapons": [],
+      "hiddenWeapons": [
+        "TP_STARFLAIL1"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_DROLTA": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Drolta",
+      "surname": "",
+      "portraitName": "tp_drolta.png",
+      "textureName": "character_tp_drolta",
+      "spriteName": "TP_Drolta_i01.png",
+      "walkingFrames": 4,
+      "description": ".",
+      "startingWeapon": "TP_FROG",
+      "bgm": "BGM_TP_VS_CallingFromHeaven",
+      "maxHp":        100,
+      "armor":        0,
+      "regen":        0,
+      "moveSpeed":    1,
+      "power":        1,
+      "area":         1,
+      "speed":        1,
+      "duration":     1.7,
+      "amount":       0,
+      "luck":         1,
+      "growth":       1,
+      "greed":        1,
+      "curse":        1,
+      "magnet":       0,
+      "revivals":     0,
+      "rerolls":      5,
+      "skips":        5,
+      "banish":       5,
+      "cooldown":     1,
+      "shields":      0,
+      "price":        5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 8,
+        "y": 14
+      },
+	  "headOffsets": [
+		{
+		  "x": 4,
+		  "y": -4
+		}
+	  ],
+      "showcase": [
+      ],
+      "exWeapons": [],
+      "hiddenWeapons": [
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_ACTRISE": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Actrise",
+      "surname": "",
+      "portraitName": "tp_actrise.png",
+      "textureName": "character_tp_actrise",
+      "spriteName": "TP_Actrise_i01.png",
+      "walkingFrames": 4,
+      "description": ".",
+      "startingWeapon": "TP_EARTH2",
+      "bgm": "BGM_TP_VS_C64Medley",
+      "maxHp":      120,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1.2,
+      "amount":     1,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 10,
+        "y": 24
+      },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": 4
+		}
+	  ],
+      "showcase": [
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "AREA","AREA","AREA","AREA","AREA",
+        "ARMOR","ARMOR","ARMOR","ARMOR","ARMOR",
+        "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "AMOUNT", "AMOUNT"
+      ],
+      "exWeapons": [
+      ],
+      "hiddenWeapons": [
+        "DIAMOND"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+
+  "TP_WATERMAGICIAN": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "Atlantis Shrine",
+      "charName": "Wizard",
+      "surname": "",
+      "portraitName": "tp_watermagician.png",
+      "textureName": "character_tp_watermagician",
+      "spriteName": "TP_WaterMagician_i01.png",
+      "walkingFrames": 4,
+      "description": ".",
+      "startingWeapon": "TP_HYDROSTORM",
+      "bgm": "BGM_TP_VS_DiscoloredWall",
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.4,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1.4,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    5,
+      "skips":      5,
+      "banish":     5,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 7,
+        "y": 18
+      },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 2
+		}
+	  ],
+      "showcase": [
+      ],
+      "exWeapons": [],
+      "hiddenWeapons": [
+        "FLOOD"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_SUCCUBUS": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "secret": false,
+      "isBought": false,
+      "level": 1,
+      "startingWeapon": "TP_EVIL2",
+      "charName": "Succubus",
+      "surname": "",
+      "spriteName": "TP_Succubus_i01.png",
+      "textureName": "character_tp_succubus",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": ".",
+      "portraitName": "tp_psuccubus.png",
+      "price": 16650,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.8,
+      "power": 1,
+      "cooldown": 0.9,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": [],
+      "bodyOffset": {
+        "x": 9,
+        "y": 30
+      },
+	  "headOffsets": [
+		{
+		  "x": 1,
+		  "y": 2
+		}
+	  ]
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_FAKE_TRIO": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Fake Trio",
+      "surname": "",
+      "portraitName": "tp_faketrio.png",
+      "textureName": "character_tp_faketrio",
+      "spriteName": "FakeTrevor_i01.png",
+      "walkingFrames": 4,
+      "walkFrameRate": 4,
+      "startingWeapon": "BONE",
+      "description": "A trio of zombies.",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_tp_faketrio",
+          "spriteName": "FakeTrevor_i01.png",
+          "walkingFrames": 4,
+          "walkFrameRate": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "charName": "FakeSypha",
+          "skinType": "SKIN_TP_FAKE_TRIO_SYPHA",
+          "textureName": "character_tp_faketrio",
+          "spriteName": "FakeSypha_i01.png",
+          "startingWeapon": "TRIASSO1",
+          "walkingFrames": 4,
+          "walkFrameRate": 4,
+          "unlocked": true,
+          "duration": 0.4,
+          "moveSpeed": 0.2,
+          "rerolls": 10,
+          "skips": 10,
+          "banish": 10
+        },
+        {
+          "charName": "FakeGrant",
+          "skinType": "SKIN_TP_FAKE_TRIO_GRANT",
+          "textureName": "character_tp_faketrio",
+          "spriteName": "FakeGrant_i01.png",
+          "startingWeapon": "TP_POCKET1",
+          "walkingFrames": 4,
+          "walkFrameRate": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 0
+            }
+          ],
+          "moveSpeed": 0.4,
+          "luck": 0.4
+        }
+      ],
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 5000,
+      "enemiesKilled": 0,
+      "isBought": true,
+      "showcase": [],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_SLOGRA_AND_GAIBON": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Slogra and Gaibon",
+      "surname": "",
+      "portraitName": "tp_Gaibon_and_Slogra.png",
+      "textureName": "character_tp_gaibonandslogra",
+      "spriteName": "TP_Slogra_i01.png",
+      "charSelTexture": "character_tp_gaibonandslogra",
+      "charSelFrame": "TP_Slogra_Select.png",
+      "walkingFrames": 4,
+      "description": "",
+      "startingWeapon": "TP_CHAUVE1",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_tp_gaibonandslogra",
+          "spriteName": "TP_Slogra_i01.png",
+          "charSelTexture": "character_tp_gaibonandslogra",
+          "charSelFrame": "TP_Slogra_Select.png",
+          "walkingFrames": 4,
+          "walkFrameRate": 8,
+          "unlocked": true,
+          "startingWeapon": "TP_CHAUVE1",
+		  "bodyOffset": {
+			"x": 32,
+			"y": 30
+		  },
+          "headOffsets": [
+            {
+              "x": 13,
+              "y": 10
+            }
+          ]
+        },
+        {
+          "charName": "Gaibon",
+          "skinType": "SKIN_TP_GAIBON_AND_SLOGRA",
+          "textureName": "character_tp_gaibonandslogra",
+          "spriteName": "TP_Gaibon_i01.png",
+          "startingWeapon": "FIREBALL",
+          "charSelTexture": "character_tp_gaibonandslogra",
+          "charSelFrame": "TP_Gaibon_Select.png",
+          "walkingFrames": 4,
+          "walkFrameRate": 8,
+          "unlocked": true,
+		  "bodyOffset": {
+			"x": 28,
+			"y": 52
+		  },
+          "headOffsets": [
+            {
+              "x": 16,
+              "y": 11
+            }
+          ]
+        }
+      ],
+      "bgm": "",
+      "maxHp":      200,
+      "armor":      1,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1.3,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "TP_ZEPHYR": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Zephyr",
+      "surname": "",
+      "description": "Adept with knives. Gains a Cooldown and MoveSpeed bonus when picking up Orologions. Orologions are easier to find.",
+      "portraitName": "tp_zephyr.png",
+      "textureName": "character_tp_zephyr",
+      "spriteName": "TP_Zephyr_i01.png",
+      "bgm": "BGM_TP_VS_OutOfTime",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_tp_zephyr",
+          "spriteName": "TP_Zephyr_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+		  "headOffsets": [
+            {
+              "x": 0,
+              "y": 5
+            }
+          ]
+        },
+        {
+          "skinType": "SKIN_TP_ZEPHYR_BWAKA",
+          "name": "Bwaka Zephyr",
+          "textureName": "character_tp_zephyr",
+          "spriteName": "TP_Zephyr_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 0,
+              "y": 5
+            }
+          ],
+          "startingWeapon": "TP_BWAKA1"
+        }
+      ],
+      "walkingFrames": 4,
+      "startingWeapon": "KNIFE",
+      "maxHp":        100,
+      "armor":        0,
+      "regen":        0,
+      "moveSpeed":    1.5,
+      "power":        1,
+      "cooldown":     1,
+      "area":         1,
+      "speed":        1.2,
+      "duration":     1,
+      "amount":       2,
+      "luck":         1,
+      "growth":       1,
+      "greed":        1,
+      "curse":        1,
+      "magnet":       0,
+      "revivals":     0,
+      "rerolls":      0,
+      "skips":        0,
+      "banish":       0,
+      "price":        5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "exWeapons": [],
+      "onEveryLevelUp": {
+      },
+      "bodyOffset": {
+        "x": 8,
+        "y": 22
+      }
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    }
+  ],
+  "TP_JIANGSHI": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Jiangshi",
+      "surname": "",
+      "portraitName": "tp_jiangshi.png",
+      "textureName": "character_tp_jiangshi",
+      "spriteName": "TP_JiangShi_i01.png",
+      "walkingFrames": 5,
+      "description": "Triggers a random equipped weapon every 13th hop. Immune to health drain.",
+      "startingWeapon": "TP_SOULSTEAL_WEAPON",
+      "bgm": "BGM_TP_cod_FollowersOfDarkness",
+      "maxHp":      47,
+      "armor":      0,
+      "regen":      1,
+      "moveSpeed":  1.1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      2,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      10000,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 5,
+        "y": 18
+      },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 2
+		}
+	  ],
+      "showcase": [
+      ],
+      "exWeapons": [],
+      "hiddenWeapons": [
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],  
   "TP_BLACKMORE": [
     {
       "requiresRelic": "TP_RELIC_PILEOFSECRETS",
@@ -8877,6 +10056,16 @@
       "price": 16650,
       "enemiesKilled": 0,
       "isBought": false,
+	  "bodyOffset": {
+        "x": 7,
+        "y": 22
+      },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": 1
+		}
+	  ],
       "showcase": [
         "TP_SUMMON_SPIRIT",
         "TP_SUMMON_SPIRIT",
@@ -8934,6 +10123,114 @@
       "growth": -1
     }
   ],
+  "TP_OLROX": [
+    {
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "unlocked": false,
+      "level": 1,
+      "prefix": "Count",
+      "charName": "Olrox",
+      "surname": "",
+      "description": ".",
+      "portraitName": "tp_olrox.png",
+      "textureName": "character_tp_olrox",
+      "spriteName": "TP_Olrox_i01.png",
+      "walkingFrames": 4,
+      "startingWeapon": "TP_DARKRIFT",
+      "bodyOffset": {
+        "x": 5,
+        "y": 30
+      },
+	  "headOffsets": [
+		{
+		  "x": 2,
+		  "y": 16
+		}
+	  ],
+      "bgm": "BGM_TP_sotn_DanceOfPales",
+      "maxHp": 150,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "duration": 1.2,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 2,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "cooldown": 1,
+      "shields": 0,
+      "charm": 0,
+      "price": 16650,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+        "TP_DARKRIFT",
+        "TP_DARKRIFT",
+        "TP_DARKRIFT",
+        "TP_DARKRIFT",
+        "TP_DARKRIFT",
+        "TP_DARKRIFT",
+        "TP_DARKRIFT",
+        "TP_DARKRIFT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GREED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "AMOUNT",
+        "AMOUNT"
+      ],
+      "exWeapons": [],
+      "hiddenWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
   "TP_MALPHAS": [
     {
       "requiresRelic": "TP_RELIC_PILEOFSECRETS",
@@ -8953,8 +10250,14 @@
       "startingWeapon": "VOID",
       "bodyOffset": {
         "x": 55,
-        "y": 112
+        "y": 120
       },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 14
+		}
+	  ],
       "bgm": "BGM_TP_sotn_FestivalOfServants",
       "maxHp": 100,
       "armor": 1,
@@ -9051,6 +10354,12 @@
         "x": 17,
         "y": 29
       },
+	  "headOffsets": [
+		{
+		  "x": 3,
+		  "y": 14
+		}
+	  ],
       "maxHp": 255,
       "armor": 0,
       "regen": 0,
@@ -9184,7 +10493,13 @@
       "bodyOffset": {
         "x": 8,
         "y": 20
-      }
+      },
+	  "headOffsets": [
+		{
+		  "x": -25,
+		  "y": 95
+		}
+	  ]
     },
     {
       "level": 20,
@@ -9221,7 +10536,7 @@
       "startingWeapon": "TP_SPELLBOOK",
       "bgm": "BGM_TP_VS_ReincarnatedSoul",
       "bodyOffset": {
-        "x": 54,
+        "x": 53,
         "y": 76
       },
       "skins": [
@@ -9236,8 +10551,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 10,
+              "y": 20
             }
           ]
         },
@@ -9253,8 +10568,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 10,
+              "y": 20
             }
           ]
         }
@@ -9338,6 +10653,7 @@
       "growth": -1
     }
   ],
+  
   "TP_OLROX_MEGA": [
     {
       "requiresRelic": "TP_RELIC_STONES",
@@ -9367,8 +10683,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 30,
+              "y": 68
             }
           ]
         },
@@ -9384,14 +10700,14 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 0,
-              "y": -5
+              "x": 30,
+              "y": 68
             }
           ]
         }
       ],
       "bodyOffset": {
-        "x": 17,
+        "x": 5,
         "y": 29
       },
       "maxHp": 400,
@@ -9497,7 +10813,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 40
             }
           ]
         },
@@ -9514,7 +10830,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 40
             }
           ]
         }
@@ -9626,7 +10942,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 10
             }
           ]
         },
@@ -9643,7 +10959,7 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 10
             }
           ],
           "exWeapons": [
@@ -9664,14 +10980,14 @@
           "headOffsets": [
             {
               "x": 0,
-              "y": -5
+              "y": 10
             }
           ]
         }
       ],
       "bodyOffset": {
-        "x": 17,
-        "y": 29
+        "x": 9,
+        "y": 22
       },
       "maxHp": 666,
       "armor": 2,
@@ -9786,6 +11102,12 @@
       "shields": 0,
       "enemiesKilled": 0,
       "isBought": false,
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": -30
+		}
+	  ],
       "showcase": [
         "COOLDOWN",
         "COOLDOWN",
@@ -9823,6 +11145,7 @@
       "growth": -1
     }
   ],
+  
   "TP_FOLLOWER_UKOBAK": [
     {
       "alwaysHidden": true,
@@ -9837,6 +11160,10 @@
       "spriteName": "TP_Follower_Ukoback_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 4.5,
+        "y": 7
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -9928,6 +11255,10 @@
       "spriteName": "TP_Follower_Bitterfly_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 3.5,
+        "y": 7
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10029,6 +11360,10 @@
       "spriteName": "TP_Follower_Ghost_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 4.5,
+        "y": 9
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10120,6 +11455,10 @@
       "spriteName": "TP_Follower_Imp_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+		"x": 6,
+		"y": 2
+	  },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10211,6 +11550,10 @@
       "spriteName": "TP_WoodRod_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 2,
+	  "bodyOffset": {
+        "x": 2.5,
+        "y": 6
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10295,6 +11638,10 @@
       "spriteName": "TP_Faerie_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 2,
+	  "bodyOffset": {
+        "x": 2.5,
+        "y": 6
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10388,6 +11735,10 @@
       "spriteName": "TP_Pumpkin_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 2,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 6
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10481,6 +11832,10 @@
       "spriteName": "TP_CardinalSacredBeast_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 4,
+        "y": 8
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10564,6 +11919,10 @@
       "spriteName": "TP_DragonSacredBeast_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 6
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10647,6 +12006,10 @@
       "spriteName": "TP_SacredtigerBeast_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 3,
+        "y": 6
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10730,6 +12093,10 @@
       "spriteName": "TP_Turtle_Sacred_Beast_i01.png",
       "portraitName": "p_bats.png",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 4,
+        "y": 7
+      },
       "description": "-",
       "isBought": false,
       "completedStages": [],
@@ -10793,6 +12160,821 @@
     {
       "level": 21,
       "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_GAIBON": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Gaibon and Slogra",
+      "surname": "",
+      "portraitName": "tp_Gaibon_and_Slogra.png",
+      "textureName": "character_tp_gaibonandslogra",
+      "spriteName": "TP_Gaibon_i01.png",
+      "walkingFrames": 4,
+      "description": "",
+      "startingWeapon": "FIREBALL",
+      "bgm": "",
+      "maxHp":      200,
+      "armor":      1,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1.3,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      10,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+		"x": 28,
+		"y": 52
+	  },
+	  "headOffsets": [
+		{
+		  "x": 16,
+		  "y": 11
+		}
+	  ],
+      "showcase": [
+      ]
+    },
+    
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_SLOGRA": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Slogra",
+      "surname": "",
+      "portraitName": "tp_Slogra.png",
+      "textureName": "character_tp_gaibonandslogra",
+      "spriteName": "TP_Slogra_i01.png",
+      "walkingFrames": 4,
+      "description": "",
+      "startingWeapon": "TP_CHAUVE1",
+      "bgm": "",
+      "maxHp":    200,
+      "armor":      1,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1.3,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      10,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "bodyOffset": {
+		"x": 32,
+		"y": 30
+	  },
+	  "headOffsets": [
+		{
+		  "x": 13,
+		  "y": 10
+		}
+	  ],
+      "showcase": [
+      ]
+    },
+    
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "TP_KIDDRACULA": [
+    {
+      "alwaysHidden": true,
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Kid Dracula",
+      "surname": "",
+      "portraitName": "tp_kiddracula.png",
+      "textureName": "character_tp_kiddracula",
+      "spriteName": "TP_KidDracula_i01.png",
+      "walkingFrames": 4,
+      "description": "Adept with Fire Wand. Starts with a hidden Pako Battiliar. Immune to health drain.",
+      "startingWeapon": "FIREBALL",
+      "bgm": "",
+      "maxHp":        100,
+      "armor":        0,
+      "regen":        0,
+      "moveSpeed":    1.2,
+      "power":        1,
+      "area":         1,
+      "speed":        1,
+      "duration":     1,
+      "amount":       0,
+      "luck":         1,
+      "growth":       1,
+      "greed":        1.1,
+      "curse":        1,
+      "magnet":       0,
+      "revivals":     3,
+      "rerolls":      0,
+      "skips":        0,
+      "banish":       0,
+      "cooldown":     1,
+      "shields":      0,
+      "price":        5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "onEveryLevelUp": {
+      },
+      "showcase": [
+      ],
+      "hiddenWeapons": [
+        "BATTILIA"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_AEON": [
+    {
+      "alwaysHidden": true,
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Aeon",
+      "surname": "",
+      "portraitName": "tp_aeon.png",
+      "textureName": "character_tp_aeon",
+      "spriteName": "TP_Aeon_i01.png",
+      "walkingFrames": 4,
+      "description": "Gains a Cooldown and MoveSpeed bonus when picking up Orologions. Orologions are easier to find. Starts with a hidden Clock Lancet.",
+      "startingWeapon": "TP_SWORD_BROTHERS",
+      "bgm": "",
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   2,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+      ],
+      "exWeapons": [],
+      "hiddenWeapons": [
+        "LANCET"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_DESMOND": [
+    {
+      "alwaysHidden": true,
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Desmond Belmont",
+      "surname": "",
+      "portraitName": "tp_desmond.png",
+      "textureName": "character_tp_desmond",
+      "spriteName": "TP_Desmond_i01.png",
+      "walkingFrames": 4,
+      "description": "Adept with all weapons from the Morning Star. Overhealing by +32 triggers any equipped weapon from the Morning Star.",
+      "startingWeapon": "TP_MORNINGSTAR",
+      "bgm": "",
+      "maxHp":      140,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    5,
+      "skips":      5,
+      "banish":     5,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+      ],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_DOLORES": [
+    {
+      "alwaysHidden": true,
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Dolores Belmont",
+      "surname": "",
+      "portraitName": "tp_dolores.png",
+      "textureName": "character_tp_dolores",
+      "spriteName": "TP_Dolores_i01.png",
+      "walkingFrames": 4,
+      "description": "Overhealing by +32 triggers any equipped weapon from the Belnades Spellbook.",
+      "startingWeapon": "TP_FROG",
+      "bgm": "",
+      "maxHp":      100,
+      "armor":        0,
+      "regen":        0,
+      "moveSpeed":    1.4,
+      "power":        1,
+      "area":         1,
+      "speed":        1,
+      "duration":     1.4,
+      "amount":       0,
+      "luck":         1,
+      "growth":       1,
+      "greed":        1,
+      "curse":        1,
+      "magnet":       0,
+      "revivals":     0,
+      "rerolls":      5,
+      "skips":        5,
+      "banish":       5,
+      "cooldown":     1,
+      "shields":      0,
+      "price":        5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+      ],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_ZOE": [
+    {
+      "alwaysHidden": true,
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "prefix": "",
+      "charName": "Zoe Belmont",
+      "surname": "",
+      "portraitName": "tp_zoe.png",
+      "textureName": "character_tp_zoe",
+      "spriteName": "TP_Zoe_i01.png",
+      "walkingFrames": 4,
+      "description": "Overhealing by +32 triggers any equipped weapon from the Coat of Arms.",
+      "startingWeapon": "TP_HYDROSTORM",
+      "bgm": "",
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.4,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1.4,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    5,
+      "skips":      5,
+      "banish":     5,
+      "cooldown":   1,
+      "shields":    0,
+      "price":      5000,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+      ],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+
+  "TP_FISHMAN": [
+    {
+      "alwaysHidden": true,
+      "requiresRelic": "TP_RELIC_PILEOFSECRETS",
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "FIREBALL",
+      "charName": "Fishman",
+      "surname": "",
+      "spriteName": "TP_Fishman_i01.png",
+      "textureName": "character_tp_fishman",
+      "portraitName": "tp_cavetroll.png",
+      "walkingFrames": 5,
+      "description": "Obviously adept with Fire Wand.",
+      "isBought": false,
+      "price": 500,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "currentSkin": "DEFAULT",
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT"
+      ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_FW_FAKE_TREVOR": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "level": 1,
+      "prefix": "Fake",
+      "charName": "Trevor",
+      "surname": "",
+      "description": ".",
+      "portraitName": "tp_trevor.png",
+      "textureName": "character_tp_faketrio",
+      "spriteName": "FakeTrevor_i01.png",
+      "walkingFrames": 4,
+      "walkFrameRate": 4,
+      "startingWeapon": "BONE",
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 500,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "headOffsets": [
+		{
+		  "x": 3,
+		  "y": 0
+		}
+	  ],
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "MAGNET"
+      ],
+      "exWeapons": []
+    },
+    {
+      "level": 10,
+      "amount": 1
+    },
+    {
+      "level": 20,
+      "amount": 1,
+      "growth": 1
+    },
+    {
+      "level": 30,
+      "amount": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_FW_FAKE_SYPHA": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "level": 1,
+      "prefix": "Fake",
+      "charName": "Sypha",
+      "surname": "",
+      "description": ".",
+      "portraitName": "tp_sypha.png",
+      "textureName": "character_tp_faketrio",
+      "spriteName": "FakeSypha_i01.png",
+      "walkingFrames": 4,
+      "walkFrameRate": 4,
+      "startingWeapon": "TRIASSO1",
+      "maxHp": 100,
+      "regen": 0,
+      "armor": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "speed": 1,
+      "area": 1,
+      "duration": 1.4,
+      "cooldown": 1,
+      "amount": 0,
+      "revivals": 0,
+      "magnet": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "rerolls": 10,
+      "skips": 10,
+      "banish": 10,
+      "price": 1665,
+      "enemiesKilled": 0,
+      "isBought": false,
+      "showcase": [
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "TP_FW_FAKE_GRANT": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "level": 1,
+      "prefix": "Fake",
+      "charName": "Grant",
+      "surname": "",
+      "description": ".",
+      "portraitName": "tp_grant.png",
+      "textureName": "character_tp_faketrio",
+      "spriteName": "FakeGrant_i01.png",
+      "walkingFrames": 4,
+      "walkFrameRate": 4,
+      "startingWeapon": "TP_POCKET1",
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.6,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1.4,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "cooldown": 1,
+      "shields": 0,
+      "price": 200,
+      "enemiesKilled": 0,
+      "isBought": false,
+	  "headOffsets": [
+		{
+		  "x": 6,
+		  "y": 0
+		}
+	  ],
+      "showcase": [
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "TP_BWAKA1",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ],
+      "exWeapons": []
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 40,
+      "growth": 1
     },
     {
       "level": 41,

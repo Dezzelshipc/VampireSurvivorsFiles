@@ -1,0 +1,449 @@
+{
+  "LEM_INFERNO1": [
+    {
+      "level": 1,
+	  "name": "Infernolatro",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_INFERNO1",
+      "frameName": "LEM_INFERNO1.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isUnlocked": false,
+	  "sealable": true,
+	  "unexcludeSelf": true,
+      "poolLimit": 1,
+      "rarity": 80,
+      "interval": 4000,
+	  "duration": 2500,
+	  "hitBoxDelay": 1500,
+      "repeatInterval": 0,
+      "power": 1.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "duration": 500,
+	  "interval": 1000
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 500,
+	  "interval": 1000
+    },
+    {
+      "power": 0.5
+    },
+	{
+      "area": 0.2
+    },
+    {
+	  "duration": 500,
+	  "interval": 1000
+    },
+	{
+	  "power": 0.5
+    },
+    {
+	  "duration": 500,
+	  "interval": 1000,
+      "addEvolvedWeapon": "LEM_INFERNO2"
+    }
+  ],
+  "LEM_INFERNO2": [
+    {
+      "level": 1,
+	  "name": "NaneInferno",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_INFERNO2",
+      "evolvesFrom": [
+        "LEM_INFERNO1"
+      ],
+	  "requires": [
+		"LEM_ACC_SABOTEUR"
+      ],
+	  "requiresMax": [
+		"LEM_ACC_SABOTEUR"
+      ],
+      "hasUniqueRequirements": true,
+      "frameName": "LEM_INFERNO2.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isEvolution": true,
+      "isUnlocked": true,
+	  "sealable": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 10000,
+	  "duration": 6666,
+	  "hitBoxDelay": 1500,
+      "repeatInterval": 0,
+      "power": 3,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+  "LEM_BANANA1": [
+    {
+      "level": 1,
+	  "name": "Gros Michel",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_BANANA1",
+      "frameName": "LEM_BANANA1.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isUnlocked": false,
+	  "sealable": true,
+	  "unexcludeSelf": true,
+      "poolLimit": 100,
+      "rarity": 80,
+      "interval": 1200,
+	  "duration": 1000,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "knockback": 5,
+	  "penetrating": 1,
+	  "critChance": 0.166,
+      "critMul": 2,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+	  "speed" : 0.2
+    },
+    {
+      "power": 0.5
+    },
+	{
+      "amount": 1,
+	  "interval": -100
+    },
+    {
+      "speed" : 0.2
+    },
+    {
+      "power": 0.5
+    },
+	{
+      "speed" : 0.2
+    },
+    {
+      "amount": 1,
+	  "interval": -100,
+      "addEvolvedWeapon": "LEM_BANANA2"
+    }
+  ],
+  "LEM_BANANA2": [
+    {
+      "level": 1,
+	  "name": "Cavendish",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_BANANA2",
+      "evolvesFrom": [
+        "LEM_BANANA1"
+      ],
+	  "requires": [
+		"LEM_ACC_SABOTEUR"
+      ],
+	  "requiresMax": [
+		"LEM_ACC_SABOTEUR"
+      ],
+      "hasUniqueRequirements": true,
+      "frameName": "LEM_BANANA2.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isEvolution": true,
+      "isUnlocked": true,
+	  "sealable": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1000,
+	  "duration": 1000,
+      "repeatInterval": 50,
+      "power": 2.5,
+      "area": 1,
+      "speed": 1.6,
+      "amount": 7,
+      "knockback": 5,
+	  "penetrating": 1,
+	  "critChance": 1,
+      "critMul": 2,
+      "hitsWalls": false
+    }
+  ],
+  "LEM_BANANA2_HIDDEN": [
+    {
+      "level": 1,
+	  "name": "Bananastrophe",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_BANANA2_HIDDEN",
+      "frameName": "LEM_BANANA2.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isEvolution": false,
+      "isUnlocked": false,
+	  "sealable": false,
+	  "isSpecialOnly": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 1000,
+	  "duration": 5000,
+      "repeatInterval": 200,
+      "power": 10,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 5,
+      "hitsWalls": false
+    }
+  ],
+  "LEM_FIBONACCI1": [
+    {
+      "level": 1,
+	  "name": "Fibonacci Spritz",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_FIBONACCI1",
+      "frameName": "LEM_FIBONACCI1.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isUnlocked": false,
+	  "sealable": true,
+	  "unexcludeSelf": true,
+      "poolLimit": 100,
+      "rarity": 80,
+      "interval": 3600,
+	  "hitBoxDelay": 1000,
+      "repeatInterval": 250,
+      "power": 1.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 5,
+      "hitsWalls": false,
+	  "customDescValue": "%0% chance to fire another weapon."
+    },
+    {
+	  "amount": 1,
+      "customDesc": 1
+    },
+    {
+	  "interval": -300,
+      "customDesc": 2
+    },
+    {
+	  "power": 0.5,
+	  "customDesc": 3
+    },
+    {
+	  "area": 0.2,
+      "customDesc": 5
+    },
+    {
+	  "amount": 1,
+      "customDesc": 8
+    },
+    {
+	  "power": 0.5,
+      "customDesc": 13
+    },
+	{
+	  "interval": -300,
+      "customDesc": 21
+    },
+    {
+	  "power": 0.5,
+	  "customDesc": 34,
+      "addEvolvedWeapon": "LEM_FIBONACCI2"
+    }
+  ],
+  "LEM_FIBONACCI2": [
+    {
+      "level": 1,
+	  "name": "Royal Flush",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_FIBONACCI2",
+      "evolvesFrom": [
+        "LEM_FIBONACCI1"
+      ],
+	  "requires": [
+		"LEM_ACC_SABOTEUR"
+      ],
+	  "requiresMax": [
+		"LEM_ACC_SABOTEUR"
+      ],
+      "hasUniqueRequirements": true,
+      "frameName": "LEM_FIBONACCI2.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isEvolution": true,
+      "isUnlocked": true,
+	  "sealable": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 4,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 3,
+      "knockback": 5,
+      "hitsWalls": false
+    }
+  ],
+  "LEM_PLANETS1": [
+    {
+      "level": 1,
+	  "name": "Celestial Booster",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_PLANETS1",
+      "frameName": "LEM_PLANETS1.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isUnlocked": false,
+	  "sealable": true,
+	  "unexcludeSelf": true,
+      "poolLimit": 100,
+      "rarity": 80,
+      "interval": 0,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 2,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1,
+      "power": 0.2
+    },
+    {
+	  "amount": 1,
+	  "speed": 0.1
+    },
+    {
+	  "amount": 1,
+	  "area": 0.1
+    },
+    {
+	  "amount": 1,
+	  "power": 0.2
+    },
+    {
+	  "amount": 1,
+	  "area": 0.1
+    },
+	{
+      "amount": 1,
+	  "speed": 0.1
+    },
+    {
+	  "amount": 1,
+	  "power": 0.3,
+      "addEvolvedWeapon": "LEM_PLANETS2"
+    }
+  ],
+  "LEM_PLANETS2": [
+    {
+      "level": 1,
+	  "name": "Negative Space",
+	  "contentGroup": "LEMON",
+      "bulletType": "LEM_PLANETS2",
+      "evolvesFrom": [
+        "LEM_PLANETS1"
+      ],
+	  "requires": [
+		"LEM_ACC_SABOTEUR"
+      ],
+	  "requiresMax": [
+		"LEM_ACC_SABOTEUR"
+      ],
+      "hasUniqueRequirements": true,
+      "frameName": "LEM_PLANETS2.png",
+      "texture": "LEM_items",
+	  "collectionFrame": "frameB_lemon.png",
+      "isEvolution": true,
+      "isUnlocked": true,
+	  "sealable": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 0,
+      "repeatInterval": 0,
+      "power": 2,
+      "area": 1.4,
+      "speed": 1.2,
+      "amount": 1,
+      "knockback": 2,
+      "hitsWalls": false,
+      "unexcludeSelf": true
+    }
+  ],
+  "LEM_ACC_SABOTEUR": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "LEM_ACC_SABOTEUR",
+      "weaponType": "LEM_ACC_SABOTEUR",
+      "frameName":  "LEM_ACC_SABOTEUR.png",
+      "texture": "LEM_items",
+      "contentGroup": "LEMON",
+      "collectionFrame": "frameB_lemon.png",
+      "price": 2,
+      "name": "Outer Saboteur",
+      "description": ".",
+      "tips": "-",
+      "isUnlocked": false,
+      "hidden": false,
+      "alwaysHidden": false,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "rarity": 35,
+      "allowDuplicates": false,
+      "followerType": "LEM_FOLLOWER_SABOTEUR",
+      "followerAI": "Defensive",
+      "customDescValue": "Gain %0 gold coins.",
+      "customDesc": 100
+    },
+    {
+      "customDesc": 200
+    },
+    {
+      "customDesc": 300
+    },
+    {
+      "customDesc": 400
+    },
+    {
+      "customDesc": 500
+    },
+    {
+      "customDesc": 600
+    },
+    {
+      "customDesc": 700
+    },
+    {
+      "customDesc": 800
+    },
+    {
+      "customDesc": 900
+    }
+  ]
+}

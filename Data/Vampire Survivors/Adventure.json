@@ -1801,5 +1801,1017 @@
       "BOSS_FB_BIGFUZZ",
       "FB_HELLRIDER"
     ]
+  },
+  "ADV_OTC_001": {
+    "progressKey": "OdeToCastlevania",
+    "index": 10050,
+    "coreAdventureData": {
+      "name": "Ode to Castlevania",
+      "startingCoins": 1,
+      "completionCoinReward": 100000,
+      "startingCharacter": "TP_TREVOR",
+      "startingStage": "ADV_OTC_001_001_Woods",
+      "requiresDLC": "ThosePeople",
+      "subtitleImage": "ADV_Title_OdeToCastlevania"
+    },
+    "CHARACTER_DATA": [
+      "TP_TREVOR",
+      "TP_SYPHA",
+      "TP_GRANT",
+      "TP_ALUCARD",
+      "TP_JOHN",
+      "TP_ERIC",
+      "TP_JONATHAN",
+      "TP_CHARLOTTE",
+      "TP_SOMA",
+      "TP_YOKO",
+      "TP_JULIUS",
+      "TP_SONIA",
+      "TP_SIMON",
+      "TP_CHRISTOPHER",
+      "TP_MARIAA",
+      "TP_RICHTER",
+      "TP_JUSTE",
+      "TP_HECTOR",
+      "TP_LEON",
+      "TP_SHANOA",
+      "ANTONIO",
+      "IMELDA",
+      "PORTA",
+      "TP_DRACULA"
+    ],
+    "STAGE_DATA": "STAGESET_OTC_001",
+    "WEAPON_DATA": [
+      "TP_DRAGONWATER1",
+      "KNIFE",
+      "AXE",
+      "CROSS",
+      "HOLYBOOK",
+      "HOLYWATER",
+      "LAUREL",
+      "POWER",
+      "ARMOR",
+      "MAGNET",
+      "LUCK",
+      "TP_SPIRITTORNADO"
+    ],
+    "PROGRESS_DATA": [
+      {
+        "description": "Reach Level 5.",
+        "weaponToUnlock": "MOVESPEED",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH001",
+          "iconTextureName": "items",
+          "iconSpriteName": "wing",
+          "requiredLevel": 5
+        }
+      },
+      {
+        "description": "Reach Level 10.",
+        "weaponToUnlock": "GROWTH",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH002",
+          "iconTextureName": "items",
+          "iconSpriteName": "crown",
+          "requiredLevel": 10
+        }
+      },
+      {
+        "description": "Reach Level 15.",
+        "weaponToUnlock": "DURATION",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH003",
+          "iconTextureName": "items",
+          "iconSpriteName": "EmblemEye",
+          "requiredLevel": 15
+        }
+      },
+      {
+        "description": "Reach Level 20 in the Devious Woods.",
+        "stageToUnlock": "ADV_OTC_001_002_Entrance",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH004",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter2",
+          "requiredStage": "ADV_OTC_001_001_Woods",
+          "requiredLevel": 20
+        }
+      },
+      {
+        "description": "Reach Level 40 in the Entrance Corridor.",
+        "stageToUnlock": "ADV_OTC_001_003_Library",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH005",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter3",
+          "requiredStage": "ADV_OTC_001_002_Entrance",
+          "requiredLevel": 40
+        }
+      },
+      {
+        "description": "Reach Level 60 in the Long Library.",
+        "stageToUnlock": "ADV_OTC_001_004_Clock",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH006",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter4",
+          "requiredStage": "ADV_OTC_001_003_Library",
+          "requiredLevel": 60
+        }
+      },
+      {
+        "description": "Reach Level 80 in the Clock Tower.",
+        "stageToUnlock": "ADV_OTC_001_005_Throne",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH007",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter5",
+          "requiredStage": "ADV_OTC_001_004_Clock",
+          "requiredLevel": 80
+        }
+      },
+      {
+        "description": "Evolve the Alchemy Whip.",
+        "weaponToUnlock": "TP_ALCHEMYWHIP1",
+        "stageToUnlock": "ADV_OTC_001_006_Sunken",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH008",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter6",
+          "foundWeaponType": "TP_ALCHEMYWHIP2"
+        }
+      },
+      {
+        "description": "Defeat the Brachyura in the Sunken City.",
+        "stageToUnlock": "ADV_OTC_001_007_Ecclesia",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH009",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter7",
+          "requiredStage": "ADV_OTC_001_006_Sunken",
+          "requiredEnemyKillType": "TP_ADV_BOSS_BRACHYURA",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {        
+        "description": "Evolve the Clock Lancet with Maria in the Sunken City.",
+        "stageToUnlock": "ADV_OTC_001_008_Infinite",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH010",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter8",
+          "requiredStage": "ADV_OTC_001_006_Sunken",
+          "foundWeaponType": "CORRIDOR",
+          "requiredCharacter": "TP_MARIAA"
+        }
+      },
+      {
+        "description": "Defeat 500 enemies in Devious Woods.",
+        "characterToUnlock": "TP_GRANT",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH011",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_grant",
+          "requiredEnemyKillCount": 500,
+          "requiredEnemyKillType": "TP_COUNTER",
+          "requiredStage": "ADV_OTC_001_001_Woods"
+        }
+      },
+      {
+        "description": "Survive for 1 minute in Devious Woods.",
+        "weaponToUnlock": "MAXHEALTH",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH012",
+          "iconTextureName": "items",
+          "iconSpriteName": "HeartBlack",
+          "requiredMinute": 1,
+          "requiredStage": "ADV_OTC_001_001_Woods"
+        }
+      },
+      {
+        "description": "Survive for 2 minutes with Trevor.",
+        "characterToUnlock": "TP_SYPHA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH013",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_sypha",
+          "requiredCharacter": "TP_TREVOR",
+          "requiredMinute": 2
+        }
+      },
+      {
+        "description": "Survive for 5 minutes with Sypha.",
+        "weaponToUnlock": "DIAMOND",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH014",
+          "iconTextureName": "items",
+          "iconSpriteName": "Diamond2",
+          "requiredCharacter": "TP_SYPHA",
+          "requiredMinute": 5
+        }
+      },
+      {
+        "description": "Survive for 5 minutes with Grant.",
+        "weaponToUnlock": "REGEN",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH015",
+          "iconTextureName": "items",
+          "iconSpriteName": "HeartRuby",
+          "requiredCharacter": "TP_GRANT",
+          "requiredMinute": 5
+        }
+      },
+      {
+        "description": "Survive for 5 minutes with Alucard.",
+        "weaponToUnlock": "SPEED",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH016",
+          "iconTextureName": "items",
+          "iconSpriteName": "gauntlet",
+          "requiredCharacter": "TP_ALUCARD",
+          "requiredMinute": 5
+        }
+      },
+      {
+        "description": "Survive for 10 minutes with Maria.",
+        "weaponToUnlock": "SILF",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH017",
+          "iconTextureName": "items",
+          "iconSpriteName": "silf1",
+          "requiredCharacter": "TP_MARIAA",
+          "requiredMinute": 10
+        }
+      },
+      {
+        "description": "Survive for 10 minutes with Leon.",
+        "weaponToUnlock": "TP_ALCHEMYWHIP1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH018",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_ALCHEMYWHIP1",
+          "requiredCharacter": "TP_LEON",
+          "requiredMinute": 10
+        }
+      },
+      {
+        "description": "Survive for 15 minutes with John.",
+        "weaponToUnlock": "AREA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH019",
+          "iconTextureName": "items",
+          "iconSpriteName": "Candelabra",
+          "requiredCharacter": "TP_JOHN",
+          "requiredMinute": 15
+        }
+      },
+      {
+        "description": "Survive for 15 minutes with Charlotte.",
+        "weaponToUnlock": "AMOUNT",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH020",
+          "iconTextureName": "items",
+          "iconSpriteName": "Ring",
+          "requiredCharacter": "TP_CHARLOTTE",
+          "requiredMinute": 15
+        }
+      },
+      {
+        "description": "Survive for 20 minutes with Simon.",
+        "weaponToUnlock": "TP_WIND1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH021",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_WIND1",
+          "requiredCharacter": "TP_SIMON",
+          "requiredMinute": 20
+        }
+      },
+      {
+        "description": "Survive for 20 minutes with Christopher.",
+        "weaponToUnlock": "PARMA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH022",
+          "iconTextureName": "items",
+          "iconSpriteName": "parma",
+          "requiredCharacter": "TP_CHRISTOPHER",
+          "requiredMinute": 20
+        }
+      },
+      {
+        "description": "Survive for 25 minutes with Juste.",
+        "weaponToUnlock": "TP_SHURIKEN1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH023",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_SHURIKEN1",
+          "requiredCharacter": "TP_JUSTE",
+          "requiredMinute": 25
+        }
+      },
+      {
+        "description": "Survive for 25 minutes with Sonia.",
+        "weaponToUnlock": "TP_DISCUS1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH024",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_DISCUS1",
+          "requiredCharacter": "TP_SONIA",
+          "requiredMinute": 25
+        }
+      },
+      {
+        "description": "Defeat Behemoth at 25 minutes in Devious Woods.",
+        "weaponToUnlock": "TP_EARTH1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH025",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_EARTH1",
+          "requiredEnemyKillType": "TP_ADV_BOSS_BEHEMOTH",
+          "requiredEnemyKillCount": 1,
+          "requiredStage": "ADV_OTC_001_001_Woods"
+        }
+      },
+      {
+        "description": "Defeat Carmilla at 25 minutes in the Entrance Corridor.",
+        "weaponToUnlock": "CURSE",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH026",
+          "iconTextureName": "items",
+          "iconSpriteName": "curse",
+          "requiredEnemyKillType": "TP_ADV_CARMILLA",
+          "requiredEnemyKillCount": 1,
+          "requiredStage": "ADV_OTC_001_002_Entrance"
+        }
+      },
+      {
+        "description": "Defeat the Creature at 25 minutes in the Long Library.",
+        "weaponToUnlock": "TP_ELEC1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH027",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_ELEC1",
+          "requiredEnemyKillCount": 1,
+          "requiredEnemyKillType": "TP_ADV_BOSS_CREATURE",
+          "requiredStage": "ADV_OTC_001_003_Library"
+        }
+      },
+      {
+        "description": "Defeat Malphas at 25 minutes in the Clock Tower.",
+        "weaponToUnlock": "SILF2",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH028",
+          "iconTextureName": "items",
+          "iconSpriteName": "silf2",
+          "requiredEnemyKillType": "TP_ADV_BOSS_MALPHAS",
+          "requiredEnemyKillCount": 1,
+          "requiredStage": "ADV_OTC_001_004_Clock"
+        }
+      },
+      {
+        "description": "Defeat Succubus at 25 minutes in the Throne Rooms.",
+        "weaponToUnlock": "DOMINION",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH029",
+          "iconTextureName": "items",
+          "iconSpriteName": "dominion",
+          "requiredEnemyKillCount": 1,
+          "requiredEnemyKillType": "TP_ADV_BOSS_SUCCUBUS",
+          "requiredStage": "ADV_OTC_001_005_Throne"
+        }
+      },
+      {
+        "description": "Defeat Jiang Shi at 15 minutes in Ecclesia.",
+        "weaponToUnlock": "PANDORA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH030",
+          "iconTextureName": "items",
+          "iconSpriteName": "torrone",
+          "requiredEnemyKillCount": 1,
+          "requiredEnemyKillType": "TP_ADV_BOSS_JIANGSHI",
+          "requiredStage": "ADV_OTC_001_007_Ecclesia"
+        }
+      },
+      {        
+        "description": "Wield the Alchemy Whip with Richter at 25 minutes in the Throne Rooms to defeat the final foe.",
+        "characterToUnlock": "TP_DRACULA",
+        "goldPrize": 10000,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH031",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_castle",
+          "requiredEnemyKillType": "TP_BOSS_DEATH",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {
+        "description": "Find a Stone Mask in the Entrance Corridor.",
+        "weaponToUnlock": "GREED",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH032",
+          "iconTextureName": "items",
+          "iconSpriteName": "mask",
+          "requiredStage": "ADV_OTC_001_002_Entrance",
+          "foundWeaponType": "GREED"
+        }
+      },
+      {
+        "description": "Find an Empty Tome in the Long Library.",
+        "weaponToUnlock": "COOLDOWN",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH033",
+          "iconTextureName": "items",
+          "iconSpriteName": "book2",
+          "requiredStage": "ADV_OTC_001_003_Library",
+          "foundWeaponType": "COOLDOWN"
+        }
+      },
+      {
+        "description": "Find a Clock Lancet in the Clock Tower.",
+        "weaponToUnlock": "LANCET",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH034",
+          "iconTextureName": "items",
+          "iconSpriteName": "lancet",
+          "requiredStage": "ADV_OTC_001_004_Clock",
+          "foundWeaponType": "LANCET"
+        }
+      },
+      {
+        "description": "Find a Tirajisu in the Throne Room.",
+        "weaponToUnlock": "REVIVAL",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH035",
+          "iconTextureName": "items",
+          "iconSpriteName": "Tiramisu",
+          "requiredStage": "ADV_OTC_001_005_Throne",
+          "foundWeaponType": "REVIVAL"
+        }
+      },
+      {
+        "description": "Find an Arma Dio.",
+        "weaponToUnlock": "ARMADIO",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH036",
+          "iconTextureName": "items",
+          "iconSpriteName": "armadio",
+          "foundWeaponType": "ARMADIO"
+        }
+      },
+      {
+        "description": "Evolve the Iron Ball.",
+        "characterToUnlock": "TP_JONATHAN",
+        "weaponToUnlock": "TP_IRONBALL1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH037",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_jonathan",
+          "foundWeaponType": "TP_IRONBALL2"
+        }
+      },
+      {
+        "description": "Evolve the Javelin.",
+        "characterToUnlock": "TP_ERIC",
+        "weaponToUnlock": "TP_JAVELIN1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH038",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_eric",
+          "foundWeaponType": "TP_JAVELIN2"
+        }
+      },
+      {
+        "description": "Evolve the Hand Grenade.",
+        "characterToUnlock": "TP_JULIUS",
+        "weaponToUnlock": "TP_RPG1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH039",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_julius",
+          "foundWeaponType": "TP_RPG2"
+        }
+      },
+      {
+        "description": "Evolve the Vanitas Whip.",
+        "characterToUnlock": "TP_YOKO",
+        "weaponToUnlock": "TP_MARTIALWHIP1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH040",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_yoko",
+          "foundWeaponType": "TP_MARTIALWHIP2"
+        }
+      },
+      {
+        "description": "Find and open the coffin in the Devious Woods.",
+        "characterToUnlock": "TP_ALUCARD",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH041",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_alucard",
+          "requiredStage": "ADV_OTC_001_001_Woods",
+          "foundCoffin": "TP_ALUCARD"
+        }
+      },
+      {
+        "description": "Find and open the coffin in the Entrance Corridor.",
+        "characterToUnlock": "TP_JOHN",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH042",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_john",
+          "requiredStage": "ADV_OTC_001_002_Entrance",
+          "foundCoffin": "TP_JOHN"
+        }
+      },
+      {
+        "description": "Find and open the coffin in the Long Library.",
+        "characterToUnlock": "TP_CHARLOTTE",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH043",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_charlotte",
+          "requiredStage": "ADV_OTC_001_003_Library",
+          "foundCoffin": "TP_CHARLOTTE"
+        }
+      },
+      {
+        "description": "Find and open the coffin in the Clock Tower.",
+        "characterToUnlock": "TP_MARIAA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH044",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_mariaa",
+          "requiredStage": "ADV_OTC_001_004_Clock",
+          "foundCoffin": "TP_MARIAA"
+        }
+      },
+      {
+        "description": "Find and open the coffin in the Throne Room.",
+        "characterToUnlock": "TP_SOMA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH045",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_soma",
+          "requiredStage": "ADV_OTC_001_005_Throne",
+          "foundCoffin": "TP_SOMA"
+        }
+      },
+      {
+        "description": "Find and open the coffin in the Sunken City.",
+        "characterToUnlock": "TP_SONIA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH046",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_sonia",
+          "requiredStage": "ADV_OTC_001_006_Sunken",
+          "foundCoffin": "TP_SONIA"
+        }
+      },
+      {
+        "description": "Find and open the coffin in Ecclesia.",
+        "characterToUnlock": "TP_SHANOA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH047",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_shanoa",
+          "requiredStage": "ADV_OTC_001_007_Ecclesia",
+          "foundCoffin": "TP_SHANOA"
+        }
+      },
+      {
+        "description": "Find and open the coffin in the True Infinite Corridor.",
+        "characterToUnlock": "TP_RICHTER",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH048",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_richter",
+          "requiredStage": "ADV_OTC_001_008_Infinite",
+          "foundCoffin": "TP_RICHTER"
+        }
+      },
+      {
+        "description": "Defeat the Treant in the Devious Woods.",
+        "characterToUnlock": "TP_SIMON",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH049",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_simon",
+          "requiredStage": "ADV_OTC_001_001_Woods",
+          "requiredEnemyKillType": "TP_ADV_BOSS_TREANT",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {
+        "description": "Defeat the Phantom Bat in the Entrance Corridor.",
+        "characterToUnlock": "TP_CHRISTOPHER",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH050",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_christopher",
+          "requiredStage": "ADV_OTC_001_002_Entrance",
+          "requiredEnemyKillType": "TP_ADV_BOSS_PHANTOMBAT",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {
+        "description": "Defeat the Giant Medusa Head in the Long Library.",
+        "characterToUnlock": "TP_JUSTE",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH051",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_juste",
+          "requiredStage": "ADV_OTC_001_003_Library",
+          "requiredEnemyKillType": "TP_ADV_BOSS_GIANTMEDUSAHEAD",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {
+        "description": "Defeat the Gergoth in the Clock Tower.",
+        "characterToUnlock": "TP_LEON",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH052",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_leon",
+          "requiredStage": "ADV_OTC_001_004_Clock",
+          "requiredEnemyKillType": "TP_ADV_BOSS_GERGOTH",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {
+        "description": "Defeat the Paranoia in the Throne Room.",
+        "characterToUnlock": "ANTONIO",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH053",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_antonio",
+          "requiredStage": "ADV_OTC_001_005_Throne",
+          "requiredEnemyKillType": "TP_ADV_BOSS_PARANOIA",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {
+        "description": "Defeat Eligor in Ecclesia.",
+        "characterToUnlock": "PORTA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH054",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_porta",
+          "requiredStage": "ADV_OTC_001_007_Ecclesia",
+          "requiredEnemyKillType": "TP_ADV_BOSS_ELIGOR",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {        
+        "description": "Defeat in Zephyr the True Infinite Corridor.",
+        "characterToUnlock": "TP_HECTOR",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH055",
+          "iconTextureName": "UI",
+          "iconSpriteName": "tp_hector",
+          "requiredStage": "ADV_OTC_001_008_Infinite",
+          "requiredEnemyKillType": "TP_ADV_BOSS_ZEPHYR",
+          "requiredEnemyKillCount": 1
+        }
+      },
+      {        
+        "description": "Evolve the Dragon Water Whip.",
+        "weaponToUnlock": "TP_DRAGONWATER1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH056",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_DRAGONWATER1",
+          "foundWeaponType": "TP_DRAGONWATER2"
+        }
+      },
+      {        
+        "description": "Evolve the Ice Fang.",
+        "weaponToUnlock": "TP_ICE1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH057",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_ICE1",
+          "foundWeaponType": "TP_ICE2"
+        }
+      },
+      {
+        "description": "Evolve the Curved Knife.",
+        "weaponToUnlock": "TP_BWAKA1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH058",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_BWAKA1",
+          "foundWeaponType": "TP_BWAKA2"
+        }
+      },
+      {        
+        "description": "Evolve the Alucart Sworb.",
+        "weaponToUnlock": "TP_ALUCARDSWORD1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH059",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_ALUCARDSWORD1",
+          "foundWeaponType": "TP_ALUCARDSWORD2"
+        }
+      },
+      {
+        "description": "Evolve the Alucard Spear.",
+        "weaponToUnlock": "TP_ALUCARDSPEAR1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH060",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_ALUCARDSPEAR1",
+          "foundWeaponType": "TP_ALUCARDSPEAR2"
+        }
+      },
+      {
+        "description": "Evolve Raging Fire.",
+        "weaponToUnlock": "TP_FIRE1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH061",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_FIRE1",
+          "foundWeaponType": "TP_FIRE2"
+        }
+      },
+      {
+        "description": "Evolve Fulgur.",
+        "weaponToUnlock": "TP_ELEC1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH062",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_ELEC1",
+          "foundWeaponType": "TP_ELEC2"
+        }
+      },
+      {        
+        "description": "Evolve the Sonic Whip.",
+        "weaponToUnlock": "TP_SONICWHIP1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH063",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_ORIGINS1",
+          "foundWeaponType": "TP_SONICWHIP2"
+        }
+      },
+      {        
+        "description": "Evolve the Wind Whip.",
+        "weaponToUnlock": "TP_WINDWHIP1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH064",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_WINDWHIP1",
+          "foundWeaponType": "TP_WINDWHIP2"
+        }
+      },
+      {        
+        "description": "Evolve the Jet Black Whip.",
+        "weaponToUnlock": "TP_LEMURIA1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH065",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_LEMURIA1",
+          "foundWeaponType": "TP_LEMURIA2"
+        }
+      },
+      {
+        "description": "Evolve the Guardian's Targe.",
+        "weaponToUnlock": "TP_SACREDBEASTS1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH066",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_SACREDBEASTS1",
+          "foundWeaponType": "TP_SACREDBEASTS2"
+        }
+      },
+      {
+        "description": "Evolve the Platinum Whip.",
+        "weaponToUnlock": "TP_PLATINUMWHIP1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH067",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_PLATINUMWHIP1",
+          "foundWeaponType": "TP_PLATINUMWHIP2"
+        }
+      },
+      {
+        "description": "Evolve the Vibhuti Whip.",
+        "weaponToUnlock": "TP_HOLYWHIP1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH068",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_HOLYWHIP1",
+          "foundWeaponType": "TP_HOLYWHIP2"
+        }
+      },
+      {
+        "description": "Evolve the Mace.",
+        "weaponToUnlock": "TP_MACE1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH069",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_MACE1",
+          "foundWeaponType": "TP_MACE2"
+        }
+      },
+      {
+        "description": "Evolve the Shuriken.",
+        "weaponToUnlock": "TP_SHURIKEN1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH070",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_SHURIKEN1",
+          "foundWeaponType": "TP_SHURIKEN2"
+        }
+      },
+      {
+        "description": "Evolve the Discus.",
+        "weaponToUnlock": "TP_DISCUS1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH071",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_DISCUS1",
+          "foundWeaponType": "TP_DISCUS2"
+        }
+      },
+      {
+        "description": "Evolve the Rock Riot.",
+        "weaponToUnlock": "TP_EARTH1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH072",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_EARTH1",
+          "foundWeaponType": "TP_EARTH2"
+        }
+      },
+      {
+        "description": "Fully evolve the Confodere.",
+        "weaponToUnlock": "TP_CONFODERE1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH073",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_CONFODERE1",
+          "foundWeaponType": "TP_CONFODERE3"
+        }
+      },
+      {
+        "description": "Evolve the Wine Glass.",
+        "weaponToUnlock": "TP_WINEGLASS1",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH074",
+          "iconTextureName": "TP_items",
+          "iconSpriteName": "TP_WINEGLASS1",
+          "foundWeaponType": "TP_WINEGLASS2"
+        }
+      },
+      {
+        "description": "Evolve the Whip.",
+        "weaponToUnlock": "WHIP",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH075",
+          "iconTextureName": "items",
+          "iconSpriteName": "Whip",
+          "foundWeaponType": "VAMPIRICA"
+        }
+      },
+      {
+        "description": "Evolve the Magic Wand.",
+        "weaponToUnlock": "MAGIC_MISSILE",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH076",
+          "iconTextureName": "items",
+          "iconSpriteName": "wandHoly",
+          "foundWeaponType": "HOLY_MISSILE"
+        }
+      },
+      {
+        "description": "Evolve the Lightning Ring.",
+        "weaponToUnlock": "LIGHTNING",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH077",
+          "iconTextureName": "items",
+          "iconSpriteName": "LighningRing",
+          "foundWeaponType": "LOOP"
+        }
+      },
+      {
+        "description": "Obtain the Vandalier.",
+        "goldPrize": 5000,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH078",
+          "iconTextureName": "items",
+          "iconSpriteName": "Silf3",
+          "foundWeaponType": "SILF3"
+        }
+      },
+      {
+        "description": "Obtain the Infinite Corridor.",
+        "characterToUnlock": "IMELDA",
+        "goldPrize": 500,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH079",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_imelda",
+          "foundWeaponType": "CORRIDOR"
+        }
+      },
+      {
+        "description": "Obtain the Crimson Shroud.",
+        "goldPrize": 1000,
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH080",
+          "iconTextureName": "items",
+          "iconSpriteName": "cape",
+          "foundWeaponType": "SHROUD"
+        }
+      },
+      {        
+        "description": "Reach Level 100.",
+        "goldPrize": 500,
+        "stageToUnlock": "OTC_ADV_BAZAAR",
+        "adventureUnlockData": {
+          "Type": "OTC_001_ACH081",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_castle",
+          "requiredLevel": 100
+        }
+      }
+    ]
   }
 }

@@ -1661,5 +1661,129 @@
         "weaponOnly": true
       }
     ]
-  }
+  },
+    "CompleteAdv_OdeToCastlevania": {
+    "description": "Complete once the adventure Ode to Castlevania.",
+    "requiresChar": "TP_SOMA",
+    "requiresItem": "RELIC_ATLAS",
+    "skinsToUnlock": [
+      {
+        "character": "TP_SOMA",
+        "skin": "SKIN_TP_SOMA_DARKLORD"
+      }
+    ]
+  } /*,
+  "TP_ExtraEvo_AlucardSpear": {
+    "description": "Evolve the Alucard Spear.",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_ALUCARDSPEAR2.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_ALUCARDSPEAR2"
+          ]
+      }
+    ]
+  },
+ 
+"TP_ExtraEvo_IronBall": {
+    "description": "Evolve the Iron Ball.",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_IRONBALL2.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_IRONBALL2"
+        ]
+      }
+    ]
+},
+"TP_ExtraEvo_CurvedKnife": {
+    "description": "Evolve the Curved Knife.",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_BWAKA2.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_BWAKA2"
+        ]
+      }
+    ]
+},
+"TP_ExtraEvo_Shuriken": {
+    "description": "Evolve the Shuriken.",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_SHURIKEN2.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_SHURIKEN2"
+        ]
+      }
+    ]
+},
+"TP_ExtraEvo_Discus": {
+    "description": "Evolve the Discus.",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_DISCUS2.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_DISCUS2"
+        ]
+      }
+    ]
+},
+"TP_ExtraEvo_MartialWhip": {
+    "description": "Evolve the Martial Whip.",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_MARTIALWHIP2.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_MARTIALWHIP2"
+        ]
+      }
+    ]
+},
+"TP_ExtraEvo_SonicDash": {
+    "description": "Evolve the Sonic Dash",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_RAPIDUS2.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_RAPIDUS2"
+        ]
+      }
+    ]
+},
+"TP_ExtraEvo_Dominus": {
+    "description": "Unite the Dominus Weapons",
+    "goldPrize": 500,
+    "forcedTexture":"TP_items",
+    "forcedFrameName":"TP_DOMINUS4.png",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "TP_DOMINUS4"
+        ]
+      }
+    ]
+  }*/
 }

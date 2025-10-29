@@ -1,0 +1,415 @@
+{
+  "LEM_JIMBO": [
+    {
+      "requiresRelic": "RELIC_LEM_DISK",
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "LEM_INFERNO1",
+      "charName": "Jimbo",
+      "surname": "",
+          "textureName": "lem_character_jimbo",
+          "spriteName": "LEM_Jimbo_i01.png",
+      "portraitName": "p_char_Jimbo.png",
+	  "bodyOffset": {
+        "x": 9,
+        "y": 20,
+      },
+      "headOffsets": [
+        {
+          "x": 0,
+          "y": 2
+        }
+      ],
+      "bgm": "BGM_LEM_CHAMBER",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      120,
+      "armor":      0,
+      "cooldown":   1,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1.2,
+      "amount":     0,
+      "luck":       1.2,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    7,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "LUCK",
+        "LUCK",        
+        "LUCK",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "DURATION",
+        "DURATION",
+        "DURATION"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "LEM_CANIO": [
+    {
+      "requiresRelic": "RELIC_LEM_DISK",
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "LEM_FIBONACCI1",
+      "charName": "Canio",
+      "surname": "",
+          "textureName": "lem_character_canio",
+          "spriteName": "LEM_Canio_i01.png",
+      "portraitName": "p_char_Canio.png",
+	  "bodyOffset": {
+        "x": 6,
+        "y": 19,
+      },
+      "headOffsets": [
+        {
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "bgm": "BGM_LEM_CHAMBER",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "cooldown":   0.9,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1.2,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    7,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "LUCK",
+        "LUCK",        
+        "LUCK",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "LEM_CHICOT": [
+    {
+      "requiresRelic": "RELIC_LEM_DISK",
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "LEM_BANANA1",
+
+      "charName": "Chicot",
+      "surname": "",
+      "textureName": "lem_character_chicot",
+      "spriteName": "LEM_Chicot_i01.png",
+      "portraitName": "p_char_Chicot.png",
+	  "bodyOffset": {
+        "x": 3,
+        "y": 20,
+      },
+      "headOffsets": [
+        {
+          "x": -2,
+          "y": 3
+        }
+      ],
+      "bgm": "BGM_LEM_CHAMBER",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      0,      
+      "cooldown":   1,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1.2,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    7,
+      "banish":     0,
+      "skips":      0,
+      "showcase": [
+        "LUCK",
+        "LUCK",        
+        "LUCK",
+        "CURSE",
+        "CURSE",
+        "CURSE",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "AMOUNT",
+        "AMOUNT",
+        "AMOUNT"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "LEM_PERKEO": [
+    {
+      "requiresRelic": "RELIC_LEM_DISK",
+      "hidden":   true,
+      "secret":   false,
+      "isBought": false,
+      "unlocked": false,
+      "level": 1,
+      "startingWeapon": "LEM_PLANETS1",
+      "charName": "Perkeo",
+      "surname": "",
+      "textureName": "lem_character_perkeo",
+      "spriteName": "LEM_Perkeo_i01.png",
+      "portraitName": "p_char_Perkeo.png",
+	  "bodyOffset": {
+        "x": 6,
+        "y": 17,
+      },
+      "headOffsets": [
+        {
+          "x": -1,
+          "y": -1
+        }
+      ],
+      "bgm": "BGM_LEM_CHAMBER",
+      "walkingFrames": 4,
+      "description": "-",
+      "price": 5000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      120,
+      "armor":      0,
+      "regen":      0,
+      "cooldown":   1,
+      "moveSpeed":  1,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1.2,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    7,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [ "LEM_PLANETS1","LEM_PLANETS1","LEM_PLANETS1","LEM_PLANETS1","LEM_PLANETS1","LEM_PLANETS1","LEM_PLANETS1",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GREED",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "GROWTH",
+        "AMOUNT",
+        "AMOUNT"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "LEM_FOLLOWER_SABOTEUR": [
+    {
+      "alwaysHidden": true,
+      "hidden":     true,
+      "secret":     false,
+      "isBought":   false,
+      "level": 1,
+      "startingWeapon": "EX_COINTOSS1",
+      "charName": "Outer Saboteur",
+      "surname": "",
+      "textureName": "lem_character_head",
+      "spriteName": "LEM_jimboHead_i01.png",
+      "portraitName": "p_char_Jimbo.png",
+      "headOffsets": [
+        {
+          "x": 3,
+          "y": 0
+        }
+      ],
+      "walkingFrames": 4,
+      "description": ".",
+      "price":      777,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  2,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     1,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "RELIC_LEM_DISK": 
+    {
+        "contentGroup": "LEMON",
+        "name": "Joker Disk",
+        "description": "Allows to enter the Ante Chamber.",
+        "tips": "-",
+        "achievementTips": "Ante Chamber Expansion.",
+        "collectionFrame": "frameB_lemon.png",
+        "texture": "items",
+        "frameName": "LEM_DISK.png",
+        "pickedupAmount": 0,
+        "rarity": 0,
+        "unlocksAt": 1000000,
+        "inTreasures": false,
+        "hidden": false,
+        "value": 50000,
+        "isRelic": true,
+        "sealable": false
+    }
+}

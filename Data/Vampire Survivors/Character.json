@@ -4630,6 +4630,10 @@
       "spriteName": "Robert_i01.png",
       "textureName": "character_robbert",
       "walkingFrames": 5,
+	  "bodyOffset": {
+		"x": 8.5,
+		"y": 17
+	  },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4745,6 +4749,10 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "p_ziappunta.png",
+	  "bodyOffset": {
+        "x": 8,
+        "y": 15
+      },
 	  "headOffsets": [
         {
           "x": -1,
@@ -4830,6 +4838,10 @@
           "spriteName": "Sheemonita_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 6,
+			"y": 18
+		  },
           "headOffsets": [
             {
               "x": 2,
@@ -4847,6 +4859,10 @@
           "unlocked": false,
           "hidden": false,
           "description": "Starts with a Level 5 Wing and a hidden Valkyrie Turner.",
+		  "bodyOffset": {
+			"x": 6,
+			"y": 24
+		  },
 		  "headOffsets": [
             {
               "x": 3,
@@ -5193,6 +5209,10 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "p_chulareh.png",
+	  "bodyOffset": {
+        "x": 5,
+        "y": 17
+      },
 	  "headOffsets": [
         {
           "x": -1,
@@ -5279,6 +5299,10 @@
       "spriteName": "xSpaceDude_01.png",
       "textureName": "character_spacedude",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 5.5,
+        "y": 11
+      },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5396,8 +5420,8 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
-        "y": 32
+        "x": 20,
+        "y": 22
       },
 	  "headOffsets": [
 		{
@@ -5489,8 +5513,8 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
-        "y": 32
+        "x": 20,
+        "y": 22
       },
       "maxHp": 180,
       "armor": 0,
@@ -5617,8 +5641,8 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 0,
-        "y": 10
+        "x": 4,
+        "y": 10,
       },
       "maxHp": 100,
       "armor": 0,
@@ -5705,8 +5729,8 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 0,
-        "y": 5
+        "x": 3,
+        "y": 7,
       },
       "maxHp": 100,
       "armor": 0,
@@ -5916,6 +5940,10 @@
       "walkingFrames": 4,
       "description": "Evolves into JoyaTauro at lv16, and into AccumulaTori at lv36. Retaliates.",
       "isBought": false,
+	  "bodyOffset": {
+        "x": 6.5,
+        "y": 8
+      },
 	  "headOffsets": [
         {
           "x": 3,
@@ -6120,7 +6148,7 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
+        "x": 21,
         "y": 32
       },
       "charSelTexture": "character_gyoruntin",
@@ -6214,6 +6242,10 @@
       "currentSkin": "DEFAULT",
       "description": "Can find Survarots. Receives a Survarot draft at level 3, and 7. Gets a Survarot Multiplier equal to Log10 Golden Eggs (max x10).",
       "portraitName": "p_secretino2.png",
+	  "bodyOffset": {
+        "x": 9,
+        "y": 19
+      },
 	  "headOffsets": [
         {
           "x": -3,
@@ -6293,6 +6325,10 @@
       "spriteName": "SDette_i01.png",
       "textureName": "character_spacedette",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 5.5,
+        "y": 12
+      },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -6470,6 +6506,10 @@
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
+	  "bodyOffset": {
+        "x": 2,
+        "y": 6,
+      },
 
       "maxHp":      100,
       "regen":      0,
@@ -6558,6 +6598,10 @@
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
+	  "bodyOffset": {
+        "x": 4.5,
+        "y": 17,
+      },
 
       "maxHp":      100,
       "regen":      0,

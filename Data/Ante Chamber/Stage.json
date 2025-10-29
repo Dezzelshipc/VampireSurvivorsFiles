@@ -1,0 +1,1060 @@
+{
+  "LEM_CHAMBER": [
+    {
+      "order": 100801,
+      "stageName": "Ante Chamber",
+      "description": "",
+      "uiTexture": "UI_StageIcons",
+      "uiFrame": "stage_BufoonSchool.png",
+      "texture": "UI",
+      "frameName": "icon_hyper_antechamber.png",
+      "bestiaryBG": "background_ante.png",
+      "stageNumber": "Special",
+      "unlocked": false,
+      "BGM": "BGM_LEM_CHAMBER",
+      "sideBBGM": "",
+      "tips": "",
+      "hyperTips": "50% Gold bonus",
+      "cff": "LEM_JIMBO",
+      "validForCharcaterData": true,
+      "mods": {
+        "TimeLimit": 1800,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.1,
+        "EnemySpeed": 1.1,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": false,
+        "TimeLimit": 1800,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0.9,
+        "EnemySpeed": 0.9,
+        "ProjectileSpeed": 0.25,
+        "GoldMultiplier": 0.5,
+        "EnemyHealthMultiplier": 0,
+        "LuckBonus": 0,
+        "XPBonus": 0,
+        "StartingSpawns": 15
+      },
+      "inverse": {
+        "tint": 8947950,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
+        }
+      },
+      "tileset": {
+        "setKey": "ForestTexturePacked",
+        "setPath": "assets/tilesets/ForestTexturePacked.png",
+        "mapKey": "Forest",
+        "mapPath": "assets/tilesets/Forest.json",
+        "isTiling": true
+      },
+      "background": {
+        "texture": ""
+      },
+      "startingSpawns": 10,
+      "minute": 0,
+      "destructibleType": "BRAZIER",
+      "destructibleFreq": 1000,
+      "destructibleChance": 10,
+      "destructibleChanceMax": 50,
+      "maxDestructibles": 10,
+      "BGTextureName": "bg_null",
+      "dayNight": true,
+      "tilemapTiledJSON": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapTiledIMG": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapPos": {
+        "x": 0,
+        "y": 0
+      },
+      "minimum": 25,
+      "frequency": 1000,
+      "enemies": [
+        "BAT3",
+        "EX_VSBAT1"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 1, 
+          "delay": 5000,
+          "repeat": 10
+        }
+      ],
+      "bosses": [
+        ]
+    },
+    {
+      "minute": 1,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "LEM_ZOMBALATRO",
+        "EX_VSBAT1"
+      ],
+      "bosses": [
+        "LEM_JIMBAT4"
+      ],
+      "treasure": {
+        "chances": [
+          0,
+          0,
+          30
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ],
+        "fixedPrizes": [
+          "LUCK"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 4, 
+          "moreZ": 1, 
+          "delay": 500,
+          "repeat": 4
+        },
+        {
+          "eventType": "JELLY_WALL",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 10, 
+          "moreZ": 1, 
+          "delay": 20000,
+          "repeat": 1,
+          "chance": 30
+        },
+        {
+          "eventType": "MONSTER_RAIN",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 8, 
+          "moreZ": 1, 
+          "delay": 40000,
+          "repeat": 1,
+          "chance": 30
+        }
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "EX_VSBAT1",
+        "LEM_JIMBAT2",
+        "LEM_JIMBAT3"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 4, 
+          "delay": 5000,
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 70,
+      "frequency": 250,
+      "enemies": [
+        "LEM_MRBONES"
+      ],
+      "bosses": [
+        "LEM_BOSS_SMALLBLIND"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 8, 
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 90,
+      "frequency": 500,
+      "enemies": [
+        "LEM_MRBONES",
+        "LEM_SPECTRAL",
+        "EX_VSBAT1"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 12,         
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 80
+        },
+        {
+          "eventType": "JELLY_WALL",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 12, 
+          "moreZ": 1, 
+          "delay": 20000,
+          "repeat": 1,
+          "chance": 50
+        },
+        {
+          "eventType": "MONSTER_RAIN",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 12, 
+          "moreZ": 1, 
+          "delay": 40000,
+          "repeat": 1,
+          "chance": 50
+        }
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 65,
+      "frequency": 800,
+      "enemies": [
+        "EX_CASINOGHOUL",
+        "LEM_JIMBAT2"
+      ],
+      "bosses": [
+        "LEM_MANTIS"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "moreY": "LEM_SUNFLOWERS",
+          "duration": 30000,
+          "moreX": 50,
+          "moreZ": 0.7
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 16,
+          "delay": 15000,
+          "repeat": 1,
+          "chance": 50
+        }
+      ]
+    },
+    {
+      "minute": 6,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "LEM_ZOMBALATRO",
+        "EX_GAMBLIN2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 16,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 50
+        },
+        {
+          "eventType": "JELLY_WALL",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 18, 
+          "moreZ": 1, 
+          "delay": 20000,
+          "repeat": 1,
+          "chance": 50
+        },
+        {
+          "eventType": "MONSTER_RAIN",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 16, 
+          "moreZ": 1, 
+          "delay": 40000,
+          "repeat": 1,
+          "chance": 50
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "LEM_JIMBAT2",
+        "LEM_JIMBAT3",
+        "EX_GAMBLIN2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 16,
+          "delay": 5000,
+          "chance": 80,
+          "repeat": 5
+        }
+      ],
+      "bosses": [
+        "LEM_BOSS_BIGBLIND"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 70,
+      "frequency": 700,
+      "enemies": [
+        "LEM_ZOMBALATRO",
+        "LEM_MRBONES"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 16,
+          "delay": 15000,
+          "chance": 80,
+          "repeat": 2
+        },
+        {
+          "eventType": "JELLY_WALL",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 18, 
+          "moreZ": 1, 
+          "delay": 20000,
+          "repeat": 1,
+          "chance": 40
+        },
+        {
+          "eventType": "MONSTER_RAIN",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 18, 
+          "moreZ": 1, 
+          "delay": 40000,
+          "repeat": 1,
+          "chance": 40
+        }
+      ],
+      "bosses": [
+        "LEM_XLJIMBAT"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          80
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 9,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "LEM_XLJIMBAT",
+        "LEM_ZOMBALATRO"
+      ],
+      "bosses": [
+        "LEM_BOSS_OX"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 12,
+          "delay": 15000,
+          "chance": 70,
+          "repeat": 2
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 10,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "EX_CASINOGHOUL",
+        "EX_GAMBLIN2"
+      ],
+      "bosses": [
+        "LEM_MANTIS"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "moreY": "LEM_SUNFLOWERS",
+          "duration": 30000,
+          "moreX": 50,
+          "moreZ": 0.6
+        },
+        {
+          "eventType": "JELLY_WALL",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 15, 
+          "moreZ": 1, 
+          "delay": 20000,
+          "repeat": 1,
+          "chance": 10
+        },
+        {
+          "eventType": "MONSTER_RAIN",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 15, 
+          "moreZ": 1, 
+          "delay": 40000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 160,
+      "frequency": 100,
+      "enemies": [
+        "LEM_MRBONES",
+        "LEM_ZOMBALATRO",
+        "EX_CARDSHARP"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 12,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "arcanaHolder": "LEM_JIMBAT4",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 50,
+      "frequency": 250,
+      "enemies": [
+        "LEM_WEREWOLF",
+        "LEM_SPECTRAL",
+        "LEM_MRBONES"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_JIMBO_SWARM",
+          "moreX": 20,
+          "delay": 5000,
+          "repeat": 1,
+          "chance": 10
+        }
+      ],
+      "bosses": [
+        "LEM_BOSS_SMALLBLIND"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 13,
+      "minimum": 150,
+      "frequency": 500,
+      "enemies": [
+        "LEM_WEREWOLF",
+        "LEM_SPECTRAL",
+        "LEM_SPECTRAL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM",
+          "moreX": 12,
+          "delay": 1200,
+          "chance": 70,
+          "repeat": 20
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM",
+          "moreX": 20,
+          "delay": 2300,
+          "chance": 70,
+          "repeat": 20
+        }
+      ]
+    },
+    {
+      "minute": 14,
+      "minimum": 45,
+      "frequency": 100,
+      "enemies": [
+        "LEM_XLJIMBAT",
+        "LEM_WEREWOLF"
+      ],
+      "bosses": [
+        "LEM_BOSS_BIGBLIND"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 15,
+      "minimum": 25,
+      "frequency": 400,
+      "enemies": [
+        "LEM_WEREWOLF",
+        "EX_CARDSHARP"
+      ],
+      "bosses": [
+        "LEM_BOSS_MANACLE"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "moreY": "LEM_SUNFLOWERS",
+          "delay": 10000,
+          "duration": 30000,
+          "chance": 80,
+          "moreX": 50,
+          "moreZ": 0.7
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 16,
+      "minimum": 25,
+      "frequency": 500,
+      "enemies": [
+        "EX_SPADEKNIGHT1"
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 80,
+      "frequency": 800,
+      "enemies": [
+        "LEM_MANTIS",
+        "EX_CARDSHARP"
+      ],
+      "bosses": [
+        "LEM_BOSS_SMALLBLIND"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          95
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 18,
+      "minimum": 70,
+      "frequency": 400,
+      "enemies": [
+        "EX_SPADEKNIGHT2",
+        "LEM_WEREWOLF"
+      ],
+      "bosses": [
+        "LEM_BOSS_BIGBLIND"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 19,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "LEM_MANTIS",
+        "LEM_MRBONES"
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 45,
+      "frequency": 500,
+      "enemies": [
+        "EX_SPADEKNIGHT1",
+        "EX_GAMBLIN2",
+        "LEM_XLJIMBAT"
+      ],
+      "bosses": [
+        "LEM_BOSS_WALL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM",
+          "delay": 1200,
+          "chance": 70,
+          "repeat": 20
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM",
+          "delay": 2300,
+          "chance": 70,
+          "repeat": 20
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 21,
+      "minimum": 60,
+      "frequency": 600,
+      "enemies": [
+        "LEM_VENUS"
+      ],
+      "bosses": [
+        "LEM_BOSS_VENUS"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "arcanaHolder": "LEM_JIMBAT4",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 22,
+      "minimum": 200,
+      "frequency": 500,
+      "enemies": [
+        "LEM_VENUS",
+        "EX_SPADEKNIGHT2"
+      ],
+      "bosses": [
+        "LEM_BOSS_SMALLBLIND"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 23,
+      "minimum": 240,
+      "frequency": 800,
+      "enemies": [
+        "LEM_VENUS",
+        "EX_SPADEKNIGHT1"
+      ],
+      "bosses": [
+        "LEM_BOSS_BIGBLIND"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 24,
+      "minimum": 60,
+      "frequency": 100,
+      "enemies": [
+        "LEM_VENUS",
+        "EX_SPADEKNIGHT2"
+      ]
+    },
+    {
+      "minute": 25,
+      "minimum": 30,
+      "frequency": 600,
+      "enemies": [
+        "EX_SPADEKNIGHT2",
+        "EX_SPADEKNIGHT1",
+        "LEM_XLJIMBAT"
+      ],
+      "bosses": [
+        "LEM_BOSS_CRIMSONHEART"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "moreY": "LEM_SUNFLOWERS",
+          "delay": 10000,
+          "repeat": 5,
+          "duration": 10000,
+          "moreX": 50,
+          "moreZ": 0.7
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 26,
+      "minimum": 25,
+      "frequency": 700,
+      "enemies": [
+        "LEM_BOSS_VENUS",
+        "LEM_VENUS",
+        "LEM_MANTIS"
+      ]
+    },
+    {
+      "minute": 27,
+      "minimum": 55,
+      "frequency": 2500,
+      "bosses": [
+        "LEM_BOSS_SMALLBLIND"
+      ],
+      "enemies": [
+        "LEM_SPECTRAL",
+        "EX_BOSS_SPADEKNIGHT",
+        "EX_SPADEKNIGHT1"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM",
+          "delay": 3000,
+          "repeat": 19
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 28,
+      "minimum": 300,
+      "frequency": 100,
+      "enemies": [
+        "LEM_XLJIMBAT",
+        "LEM_JIMBAT4"
+      ]
+    },
+    {
+      "minute": 29,
+      "minimum": 180,
+      "frequency": 100,
+      "bosses": [
+        "LEM_BOSS_BIGBLIND"
+      ],
+      "enemies": [
+        "LEM_JIMBAT4",
+        "EX_BOSS_SPADEKNIGHT2",
+        "EX_BOSS_SPADEKNIGHT"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreY": "LEM_SPECTRAL_SWARM",
+          "delay": 3000,
+          "repeat": 19
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 30,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ]
+}

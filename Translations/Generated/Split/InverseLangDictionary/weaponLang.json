@@ -2068,6 +2068,168 @@
     },
     "D13_MADMOON": {
       "name": "Call of a Mad Moon"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Creates a zone of flames in the faced direction. Empowered by enemy kills."
+    },
+    "LEM_INFERNO2": {
+      "name": "NaneInferno",
+      "tips": "Requires Max: Outer Saboteur",
+      "description": "Evolved Infernolatro. Adds a second zone. Zone effects multiply when combined."
+    },
+    "LEM_BANANA1": {
+      "name": "Gros Michel",
+      "tips": null,
+      "description": "Flings curving bananas. 1 in 6 chance to critically hit and explode."
+    },
+    "LEM_BANANA2": {
+      "name": "Cavendish",
+      "tips": "Requires Max: Outer Saboteur",
+      "description": "Evolved Gros Michel. Always crits. Always explodes. Other weapons crit more often."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Fibonacci Spritz",
+      "tips": null,
+      "description": "Creates a spiral spray of fizzy water. Has a chance to fire another equipped weapon.",
+      "customDescValue": "%0% chance to fire another weapon."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Royal Flush",
+      "tips": "Requires Max: Outer Saboteur",
+      "description": "Evolved Fibonacci Spritz. Has a 55% chance to fire 1, 2, 3 or 5 other weapons."
+    },
+    "LEM_PLANETS1": {
+      "name": "Celestial Booster",
+      "tips": null,
+      "description": "Planets orbit around you. Damage increases by amount of coins collected this run."
+    },
+    "LEM_PLANETS2": {
+      "name": "Negative Space",
+      "tips": "Requires Max: Outer Saboteur",
+      "description": "Evolved Celestial Booster. Reveals secret planets. Planets occasionally turn negative."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Outer Saboteur",
+      "tips": "Projectiles improve based on amount of coins collected in the current run.",
+      "description": "Gives you gold coins, then makes an improper use of your savings.",
+      "customDescValue": "Gain %0 gold coins."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "May misuse coins.",
+      "description": "Projectiles improve based on amount of coins collected in the current run."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Summons frogs that damage enemies as they jump."
+    },
+    "TP_FROG2": {
+      "name": "Dark Frogamorphosis",
+      "tips": null,
+      "description": "Union of Anura and Soul Eater. May actually eat enemies."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Speculo Anura",
+      "tips": null,
+      "description": "Summons frogs that damage enemies as they jump."
+    },
+    "TP_POCKET1": {
+      "name": "Pocket Knife",
+      "tips": null,
+      "description": "Throws a short-lived knife in the faced direction."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Evolved Pocket Knife. Globally increases Might, Armor and Crit Damage for each enemy in sight."
+    },
+    "TP_LAPISTE1": {
+      "name": "Kaiser Knuckle",
+      "tips": null,
+      "description": "Throws a flurry of close-range punches."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapiste Tepisto",
+      "tips": null,
+      "description": "Union of Kaiser Knuckle and Tri-Bracelet. Launches a barrage of stony fists."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Carnage Heart",
+      "tips": null,
+      "description": "Union of Troll Bomb and NO FUTURE. This one does in fact bounce."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Darkness Illusion",
+      "tips": null,
+      "description": "Union of Svarog Statue and Valkyrie Turner. Crimson clones dance with you in the flames."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Hydro Pump Climax",
+      "tips": null,
+      "description": "Union of Hydro Storm and La Borra. It never rains but it pours."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Arch Angle",
+      "tips": null,
+      "description": "Union of Grand Cross and Heaven Sword. Central beam pulses when crosses pass through it."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Legacy of Death: Soul River",
+      "tips": null,
+      "description": "Union of Dark Rift and Death Spiral. Death becomes you."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Ninth Circle",
+      "tips": null,
+      "description": "Union of Icebrand and Unholy Vespers. Hell truly has frozen over."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies Irae",
+      "tips": null,
+      "description": "Union of Arrow of Goth and Mannajja. Alamaric Snipers rain down arrows, even more so on critical hit."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Million Cut",
+      "tips": null,
+      "description": "Union of Valmanway and Thousand Edge. Slashes endlessly. Grows bigger with continuous movement."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Vjaya Sisters",
+      "tips": null,
+      "description": "Union of Sword Brothers and Thunder Loop. Lightning triggers sword explosions with brief Invulnerability."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Spirit of Light",
+      "tips": null,
+      "description": "Union of Summon Spirit and Holy Wand. Fires homing spirits from a portal of light."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Kardía Phlegeton",
+      "tips": null,
+      "description": "Union of Aura Blast and Hellfire. Calls forth a massive volcanic eruption."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Venus Crescent",
+      "tips": null,
+      "description": "Union of Summon Spirit Tornado and Gorgeous Moon. Love, Beauty and Light."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Power of Lire",
+      "tips": null,
+      "description": "Union of Soul Steal and Vicious Hunger. Devours enemies with insatiable greed."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Chaos Rune",
+      "tips": null,
+      "description": "Speed and Duration affect the number of hit boxes instead."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Wicked Ruler",
+      "tips": "Requires Max: Spellbinder.",
+      "description": "Evolved Chaos Rune. Exerts control over wild magical forces."
     }
   },
   "fr": {
@@ -2632,7 +2794,7 @@
     },
     "CART2EVO": {
       "name": "Carozza !",
-      "description": "Évolution du Carréllo. La durée, la vitesse et la portée affectent les dégâts. Les rebonds affectent la quantité.",
+      "description": "Évolution du Carréllo. La durée, la vitesse et la portée affectent les dégâts.",
       "tips": "Requiert : Tétraforce."
     },
     "FLOWER2": {
@@ -4139,6 +4301,168 @@
     },
     "D13_MADMOON": {
       "name": "L'appel de la folle lune"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Crée une zone de flammes dans la direction à laquelle vous faites face. Renforcée par les ennemis que vous éliminez."
+    },
+    "LEM_INFERNO2": {
+      "name": "NaneInferno",
+      "tips": "Requiert : Saboteur extraterrestre au max.",
+      "description": "Évolution de l'Infernolatro. Ajoute une seconde zone. Les effets de zone se multiplient lorsqu'elles sont combinées."
+    },
+    "LEM_BANANA1": {
+      "name": "Gros Michel",
+      "tips": null,
+      "description": "Lance des bananes en courbe. Elles ont 1 chance sur 6 d'infliger un coup critique et d'exploser."
+    },
+    "LEM_BANANA2": {
+      "name": "Cavendish",
+      "tips": "Requiert : Saboteur extraterrestre au max.",
+      "description": "Évolution du Gros Michel. Inflige toujours des dégâts critiques. Les autres arment infligent des dégâts critiques plus souvent."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Fibonacci Spritz",
+      "tips": null,
+      "description": "Crée un jet en spirale d'eau gazeuse. Chance d'activer une autre arme équipée.",
+      "customDescValue": "%0 % de chance d'activer une autre arme équipée."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Quinte flush royale",
+      "tips": "Requiert : Saboteur extraterrestre au max.",
+      "description": "Évolution du Fibonacci Spritz. Chance de 55 % d'activer 1, 2, 3 ou 5 autres armes."
+    },
+    "LEM_PLANETS1": {
+      "name": "Booster céleste",
+      "tips": null,
+      "description": "Les planètes tournent autour de vous. Les dégâts augmentent en fonction de la quantité de pièces récupérées pendant cette partie."
+    },
+    "LEM_PLANETS2": {
+      "name": "Espace négatif",
+      "tips": "Requiert : Saboteur extraterrestre au max.",
+      "description": "Évolution du Booster céleste. Révèle des planètes secrètes. Occasionnellement, celles-ci passent en négatif."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Saboteur extraterrestre",
+      "tips": "Les projectiles s'améliorent en fonction de la quantité de pièces récupérées durant la partie en cours.",
+      "description": "Vous octroie des pièces d'or, puis se sert dans votre épargne de manière abusive.",
+      "customDescValue": "Vous gagnez %0 pièces d'or."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "Peut utiliser vos pièces à mauvais escient.",
+      "description": "Les projectiles s'améliorent en fonction de la quantité de pièces récupérées durant la partie en cours."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Invoque des grenouilles qui infligent des dégâts aux ennemis lorsqu'elles sautent."
+    },
+    "TP_FROG2": {
+      "name": "Grenouillamorphose sombre",
+      "tips": null,
+      "description": "L'union d'Anura et de la Mangeuse d'âmes. Peut manger des ennemis."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Speculo Anura",
+      "tips": null,
+      "description": "Invoque des grenouilles qui infligent des dégâts aux ennemis lorsqu'elles sautent."
+    },
+    "TP_POCKET1": {
+      "name": "Couteau de poche",
+      "tips": null,
+      "description": "Lance un couteau éphémère dans la direction à laquelle vous faites face."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Évolution du Couteau de poche. Augmente la puissance, l'armure et les dégâts critiques pour chaque ennemi visible."
+    },
+    "TP_LAPISTE1": {
+      "name": "Poing Kaiser",
+      "tips": null,
+      "description": "Lance une rafale de coups de poing à bout portant."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapiste Tepisto",
+      "tips": null,
+      "description": "L'union du Poing Kaiser et du Tri-Bracelet. Lance un barrage de poings rocheux."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Cœur carnage",
+      "tips": null,
+      "description": "L'union de la Bombe de troll et de NO FUTURE. Ces projectiles, eux, rebondissent."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Illusion des ténèbres",
+      "tips": null,
+      "description": "L'union de la Statue Svarog et du Chalumeau ailé. Des clones pourpres dansent avec vous dans les flammes."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Apothéose de la pompe hydraulique",
+      "tips": null,
+      "description": "L'union de l'Hydro-tempête et de La Borra. Quand il pleut, il pleut à fond."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Archangle",
+      "tips": null,
+      "description": "L'union du Crucifix géant et de l'Épée céleste. Le rayon central émet des pulsions lorsque des crucifix le traversent."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Héritage de la Mort : Rivière des âmes",
+      "tips": null,
+      "description": "L'union de la Faille sombre et de la Faux fatale. La Mort vous va bien."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Neuvième cercle",
+      "tips": null,
+      "description": "L'union de la Marque glacée et des Vêpres impies. L'Enfer s'est véritablement figé."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies Irae",
+      "tips": null,
+      "description": "L'union de la Flèche de Goth et de Mannajja. Des tireurs d'élite alamariques font pleuvoir les flèches, et encore plus lors des coups critiques."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Coupillion",
+      "tips": null,
+      "description": "L'union de Valmanway et de Mille et une lames. Découpe sans fin. Devient de plus en plus grande en se déplaçant continuellement."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Sœurs Vjaya",
+      "tips": null,
+      "description": "L'union des Frères d'épées et de la Boucle du tonnerre. La foudre déclenche des explosions d'épée créant une courte durée d'invulnérabilité."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Esprit de lumière",
+      "tips": null,
+      "description": "L'union de l'Esprit d'invocation et de la Baguette divine. Tire des esprits chercheurs depuis un portail de lumière."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Kardía Phlegeton",
+      "tips": null,
+      "description": "L'union d'Explosion d'aura et de Feu de l'enfer. Invoque une éruption volcanique massive."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Croissant de Vénus",
+      "tips": null,
+      "description": "L'union de la Tornade-esprit et du Prisme lunaire. Amour, beauté et lumière."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Pouvoir de la lire",
+      "tips": null,
+      "description": "L'union du Vol d'âmes et de l'Appétit vorace. Dévore les ennemis sans jamais être rassasié."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Rune du chaos",
+      "tips": null,
+      "description": "La vitesse et la durée affectent la quantité de masques de collision."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Souverain maléfique",
+      "tips": "Requiert : Reliure magique au max.",
+      "description": "Évolution de la Rune du chaos. Exerce un contrôle sur les forces magiques sauvages."
     }
   },
   "it": {
@@ -4703,7 +5027,7 @@
     },
     "CART2EVO": {
       "name": "Carozza!",
-      "description": "Evoluzione di Carrello. Durata, Velocità e Area influenzano i danni. I rimbalzi influenzano la Quantità.",
+      "description": "Evoluzione di Carrello. Durata, Velocità e Area influenzano i danni.",
       "tips": "Requisito: Tetraforza."
     },
     "FLOWER2": {
@@ -6210,6 +6534,168 @@
     },
     "D13_MADMOON": {
       "name": "Richiamo di una luna pazza"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Crea zone fiammanti nella direzione verso cui si è rivolti. La sua potenza aumenta con l'aumentare dei nemici uccisi."
+    },
+    "LEM_INFERNO2": {
+      "name": "NaneInferno",
+      "tips": "Necessita del massimo di: Sabotatore esterno",
+      "description": "Evoluzione di Infernolatro. Aggiunge una seconda zona. Combinando le zone, se ne possono moltiplicare gli effetti."
+    },
+    "LEM_BANANA1": {
+      "name": "Gros Michel",
+      "tips": null,
+      "description": "Scaglia banane a traiettoria curva. 1 probabilità su 6 di infliggere un colpo critico esplosivo."
+    },
+    "LEM_BANANA2": {
+      "name": "Cavendish",
+      "tips": "Necessita del massimo di: Sabotatore esterno",
+      "description": "Evoluzione di Gros Michel. Infligge sempre colpi critici. Esplode sempre. Le altre armi infliggono più spesso colpi critici."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Seltz di Fibonacci",
+      "tips": null,
+      "description": "Crea una vaporizzazione a spirale di acqua frizzante. Probabilità di attivare un'altra arma equipaggiata.",
+      "customDescValue": "%0% di probabilità di attivare un'altra arma."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Sgorgo reale",
+      "tips": "Necessita del massimo di: Sabotatore esterno",
+      "description": "Evoluzione del Seltz di Fibonacci. Ha il 55% di probabilità di attivare 1, 2, 3 o 5 altre armi."
+    },
+    "LEM_PLANETS1": {
+      "name": "Potenziamento celeste",
+      "tips": null,
+      "description": "I pianeti orbitano attorno a te. Danni aumentati dal quantitativo di monete raccolte in questa partita."
+    },
+    "LEM_PLANETS2": {
+      "name": "Spazio negativo",
+      "tips": "Necessita del massimo di: Sabotatore esterno",
+      "description": "Evoluzione di Potenziamento celeste. Rivela pianeti segreti. Occasionalmente, i pianeti invertono i propri colori."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Sabotatore esterno",
+      "tips": "I proiettili migliorano in base al quantitativo di monete raccolte nella partita attuale.",
+      "description": "Concede monete d'oro, poi sfrutta i tuoi risparmi in maniera impropria.",
+      "customDescValue": "Guadagni %0 monete d'oro."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "Può abusare delle monete.",
+      "description": "I proiettili migliorano in base al quantitativo di monete raccolte nella partita attuale."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Evoca rane che saltando danneggiano i nemici."
+    },
+    "TP_FROG2": {
+      "name": "Ranamorfosi oscura",
+      "tips": null,
+      "description": "Unione di Anura e Divora-anime. Può effettivamente mangiare i nemici."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Speculo Anura",
+      "tips": null,
+      "description": "Evoca rane che saltando danneggiano i nemici."
+    },
+    "TP_POCKET1": {
+      "name": "Coltellino tascabile",
+      "tips": null,
+      "description": "Scaglia un effimero coltello nella direzione verso cui si è rivolti."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Evoluzione di Coltellino tascabile. Il numero dei nemici visibili aumenta globalmente Potenza, Armatura e Danni critici."
+    },
+    "TP_LAPISTE1": {
+      "name": "Tirapugni del Kaiser",
+      "tips": null,
+      "description": "Sferra una raffica di pugni a distanza ravvicinata."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapiste Tepisto",
+      "tips": null,
+      "description": "Unione di Tirapugni del Kaiser e Tri-bracciale. Sferra una scarica di marmorei pugni."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Cuore del massacro",
+      "tips": null,
+      "description": "Unione di Bomba troll e di NESSUN FUTURO. Questo rimbalza davvero."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Illusione oscura",
+      "tips": null,
+      "description": "Unione di Statua Svarog e Tornio valchirio. I cloni cremisi danzano al tuo fianco avvolti nelle fiamme."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Estasi torrenziale",
+      "tips": null,
+      "description": "Unione di Diluvio torrenziale e La borra. Quando piove sul bagnato, ma non è pioggia."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Arcangolo",
+      "tips": null,
+      "description": "Unione di Gran croce e Spada celestiale. Il raggio centrale pulsa quando è attraversato dalla croce."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Retaggio della morte: Fiume delle anime",
+      "tips": null,
+      "description": "Unione di Faglia oscura e Spirale fatale. La morte indossa i tuoi panni."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Nono cerchio",
+      "tips": null,
+      "description": "Unione di Spada di gelo e Vespri iniqui. L'inferno si è davvero congelato."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies Irae",
+      "tips": null,
+      "description": "Unione di Freccia di Goth e Mannajja. I tiratori Alamaric scagliano raffiche di frecce, ancora più letali se subiscono un colpo critico."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Milletagli",
+      "tips": null,
+      "description": "Unione di Valmanway e Mille e una lama. Dilania in eterno. Aumenta le sue dimensioni con il movimento continuo."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Sorelle Vjaya",
+      "tips": null,
+      "description": "Unione di Fratelli di spada e Ciclo del tuono. I fulmini causano l'esplosione delle spade e attivano invulnerabilità per alcuni istanti."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Spirito della luce",
+      "tips": null,
+      "description": "Unione di Spirito dell'evocazione e Bacchetta sacra. Spara missili a ricerca da un portale di luce."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Kardía Phlegeton",
+      "tips": null,
+      "description": "Unione di Schiantaura e Fuoco infernale. Evoca una colossale eruzione vulcanica."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Luna crescente venerea",
+      "tips": null,
+      "description": "Unione di Evoca Tornado spirituale e Luna magnificente. Amore, bellezza e luce."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Potere della lira",
+      "tips": null,
+      "description": "Unione di Furto d'anima e Fame boia. Divora i nemici con insaziabile voracità."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Runa del caos",
+      "tips": null,
+      "description": "Velocità e Durata influenzano il numero di aree di collisione invece."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Perfido sovrano",
+      "tips": "Necessita del massimo di: Estendincanto.",
+      "description": "Evoluzione di Runa del caos. Esercita il controllo sulle forze magiche selvagge."
     }
   },
   "de": {
@@ -6774,7 +7260,7 @@
     },
     "CART2EVO": {
       "name": "Carozza!",
-      "description": "Verbesserter Carréllo. Schaden ist nun abhängig von Dauer, Schnelligkeit und Bereich. Menge ist nun abhängig von Abprallern.",
+      "description": "Verbesserter Carréllo. Schaden ist nun abhängig von Dauer, Schnelligkeit und Bereich.",
       "tips": "Benötigt: Tetrakraft."
     },
     "FLOWER2": {
@@ -8281,6 +8767,168 @@
     },
     "D13_MADMOON": {
       "name": "Echo eines Tollmonds"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Erschafft in Blickrichtung einen Flammenteppich. Wird stärker, wenn Gegner sterben."
+    },
+    "LEM_INFERNO2": {
+      "name": "Naneinferno",
+      "tips": "Benötigt (max.): Äußerer Saboteur",
+      "description": "Verbessertes Infernolatro. Fügt eine zweite Zone hinzu. Die Effekte der Zonen multiplizieren sich, wenn sie überlappen."
+    },
+    "LEM_BANANA1": {
+      "name": "Gros Michel",
+      "tips": null,
+      "description": "Wirft krumme Bananen. Chance von 16,6% auf einen kritischen Treffer mit Explosion."
+    },
+    "LEM_BANANA2": {
+      "name": "Cavendish",
+      "tips": "Benötigt (max.): Äußerer Saboteur",
+      "description": "Verbesserte Gros Michel. Verursacht immer kritische Treffer. Explodiert immer. Andere Waffen verursachen mehr kritische Treffer."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Fibonacci Spritz",
+      "tips": null,
+      "description": "Erzeugt eine spiralförmige Fontäne aus Sprudelwasser. Es besteht eine Chance, dass zugleich eine weitere angelegte Waffe abgefeuert wird.",
+      "customDescValue": "Chance von %0%, eine weitere Waffe abzufeuern."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Royal Flush",
+      "tips": "Benötigt (max.): Äußerer Saboteur",
+      "description": "Verbesserter Fibonacci Spritz. Es besteht eine Chance von 55%, dass 1, 2, 3 oder 5 weitere Waffen abgefeuert werden."
+    },
+    "LEM_PLANETS1": {
+      "name": "Himmlische Verstärkung",
+      "tips": null,
+      "description": "Lässt Planeten um dich herum kreisen. Ihr Schaden erhöht sich mit jeder Münze, die du in diesem Durchlauf einsammelst."
+    },
+    "LEM_PLANETS2": {
+      "name": "Negativraum",
+      "tips": "Benötigt (max.): Äußerer Saboteur",
+      "description": "Verbesserte Himmlische Verstärkung. Enthüllt verborgene Planeten. Planeten werden manchmal negativ."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Äußerer Saboteur",
+      "tips": "Geschosse verbessern sich auf Grundlage der Anzahl an Münzen, die du in diesem Durchlauf sammelst.",
+      "description": "Gibt dir Goldmünzen und verwendet dann dein Erspartes für unangemessene Zwecke.",
+      "customDescValue": "Du erhältst %0 Goldmünzen."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "Kann Münzen zweckentfremden.",
+      "description": "Geschosse verbessern sich auf Grundlage der Anzahl an Münzen, die du in diesem Durchlauf sammelst."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Beschwört Frösche, die umherspringen und Gegnern dabei Schaden zufügen."
+    },
+    "TP_FROG2": {
+      "name": "Dunkle Froschamorphose",
+      "tips": null,
+      "description": "Vereinigung von Anura und Seelenfresser. Kann tatsächlich Gegner fressen."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Speculo: Anura",
+      "tips": null,
+      "description": "Beschwört Frösche, die umherspringen und Gegnern dabei Schaden zufügen."
+    },
+    "TP_POCKET1": {
+      "name": "Taschenmesser",
+      "tips": null,
+      "description": "Wirft ein Messer in Blickrichtung, das schnell verschwindet."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Verbessertes Taschenmesser. Erhöht Macht, Rüstung und kritischen Schaden jeglicher Art mit der Anzahl sichtbarer Gegner."
+    },
+    "TP_LAPISTE1": {
+      "name": "Kaiserknöchel",
+      "tips": null,
+      "description": "Ein Nahkampf-Schlaghagel."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapiste Tepisto",
+      "tips": null,
+      "description": "Vereinigung von Kaiserknöchel und Tri-Armband. Verursacht einen Hagel aus Steinfäusten."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Herz der Verwüstung",
+      "tips": null,
+      "description": "Vereinigung aus Trollbombe und NO FUTURE. Dieses Herz kann auch abprallen."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Illusion der Finsternis",
+      "tips": null,
+      "description": "Vereinigung aus Svarog-Statue und Walkürenwalze. Blutrote Klone tanzen mit dir in den Flammen."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Heiliger Hydro-Hurrikan",
+      "tips": null,
+      "description": "Vereinigung von Hydro-Sturm und La Borra. Es regnet nie, es schüttet nur noch."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Erzkreuz",
+      "tips": null,
+      "description": "Vereinigung von Großes Kreuz und Himmelsschwert. Ein zentraler Strahl pulsiert, wenn Kreuze ihn durchqueren."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Des Todes Erbe: Seelenstrom",
+      "tips": null,
+      "description": "Vereinigung aus Dunkler Riss und Todesspirale. Der Tod steht dir gut."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Neunter Kreis",
+      "tips": null,
+      "description": "Vereinigung von Eisbrand und Unheilige Vesper. Die Hölle ist tatsächlich zugefroren."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies Irae",
+      "tips": null,
+      "description": "Vereinigung von Pfeil des Grauens und Mannajja. Alamarich-Scharfschützen lassen Pfeile herabregnen, bei kritischen Treffern sogar noch mehr."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Tausend Schnitte",
+      "tips": null,
+      "description": "Vereinigung von Valmanway und Tausendschneide. Schlägt endlos zu. Wird mit durchgehender Bewegung größer."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Vjaya-Schwestern",
+      "tips": null,
+      "description": "Vereinigung von Schwertbrüder und Donnerschlinge. Blitze verursachen Schwertexplosionen und kurze Unverwundbarkeit."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Geist des Lichts",
+      "tips": null,
+      "description": "Vereinigung von Geisterruf und Heiliger Zauberstab. Verschießt zielsuchende Geister aus einem Lichtportal."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Kardía Phlegeton",
+      "tips": null,
+      "description": "Vereinigung von Aura-Explosion und Höllenfeuer. Beschwört einen riesigen Vulkanausbruch herauf."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Venus-Mondsichel",
+      "tips": null,
+      "description": "Vereinigung von Geistertornado beschwören und Prachtmond. Steht für Liebe, Schönheit und Licht."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Macht der Lire",
+      "tips": null,
+      "description": "Vereinigung aus Seelendieb und Heißhunger. Du verschlingst Gegner aus unersättlicher Gier."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Chaosrune",
+      "tips": null,
+      "description": "Schnelligkeit und Dauer haben stattdessen einen Effekt auf die Anzahl der Hitboxen."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Grausamer Herrscher",
+      "tips": "Max. erforderlich: Zauberbinder.",
+      "description": "Verbesserte Chaosrune. Übt Kontrolle über ungezähmte magische Kräfte aus."
     }
   },
   "es": {
@@ -8845,7 +9493,7 @@
     },
     "CART2EVO": {
       "name": "Carozza",
-      "description": "Evolución del carréllo. La duración, la velocidad y el área de efecto afectan al daño. Los rebotes afectan a la cantidad.",
+      "description": "Evolución del carréllo. La duración, la velocidad y el área de efecto afectan al daño.",
       "tips": "Requiere: tetrafuerza."
     },
     "FLOWER2": {
@@ -10352,6 +11000,168 @@
     },
     "D13_MADMOON": {
       "name": "Llamada de una luna de locura"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Crea una zona de llamas en la dirección a la que mires. Aumenta su potencia con las víctimas enemigas."
+    },
+    "LEM_INFERNO2": {
+      "name": "Naneinfierno",
+      "tips": "Requiere: saboteador externo al máximo.",
+      "description": "Evolución del infernolatro. Añade una segunda zona. Los efectos de las zonas se pueden multiplicar al combinarse."
+    },
+    "LEM_BANANA1": {
+      "name": "Banano",
+      "tips": null,
+      "description": "Lanza plátanos en trayectoria curva. Cada uno tiene 1 de 6 probabilidades de propinar un golpe crítico y explotar."
+    },
+    "LEM_BANANA2": {
+      "name": "Cavendish",
+      "tips": "Requiere: saboteador externo al máximo.",
+      "description": "Evolución del banano. Siempre causa daño crítico. Siempre explota. Otras armas causan daño crítico más a menudo."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Fibonacci spritz",
+      "tips": null,
+      "description": "Crea una espiral de agua con gas. Tiene la probabilidad de disparar otra arma equipada.",
+      "customDescValue": "%0 % de probabilidad de disparar otra arma."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Escalera real",
+      "tips": "Requiere: saboteador externo al máximo.",
+      "description": "Evolución del Fibonacci spritz. Tiene un 55 % de probabilidad de disparar 1, 2, 3 o 5 armas más."
+    },
+    "LEM_PLANETS1": {
+      "name": "Potenciador celestial",
+      "tips": null,
+      "description": "Una serie de planetas orbitan alrededor de ti. El daño aumenta según la cantidad de monedas recogidas en la partida actual."
+    },
+    "LEM_PLANETS2": {
+      "name": "Espacio negativo",
+      "tips": "Requiere: saboteador externo al máximo.",
+      "description": "Evolución del potenciador celestial. Revela planetas secretos. Los planetas se vuelven negativos en ocasiones."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Saboteador externo",
+      "tips": "Los proyectiles mejoran según la cantidad de monedas recogidas en la partida actual.",
+      "description": "Te otorga monedas de oro, luego usa tus ahorros de forma indecente.",
+      "customDescValue": "Gana %0 monedas de oro."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "Puede que haga un mal uso de las monedas.",
+      "description": "Los proyectiles mejoran según la cantidad de monedas recogidas en la partida actual."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Invoca ranas que dañan a los enemigos mientras saltan."
+    },
+    "TP_FROG2": {
+      "name": "Ranamorfosis oscura",
+      "tips": null,
+      "description": "Fusión de Anura y Engullealmas. Puede que, de hecho, se coma a los enemigos."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Anura espejo",
+      "tips": null,
+      "description": "Invoca ranas que dañan a los enemigos mientras saltan."
+    },
+    "TP_POCKET1": {
+      "name": "Navaja",
+      "tips": null,
+      "description": "Lanza un cuchillo efímero en la dirección a la que mires."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Evolución de la navaja. Aumenta globalmente el poder, la armadura y el daño crítico por cada enemigo a la vista."
+    },
+    "TP_LAPISTE1": {
+      "name": "Nudillos káiser",
+      "tips": null,
+      "description": "Lanza una avalancha de puñetazos a corta distancia."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapiste tepisto",
+      "tips": null,
+      "description": "Fusión de los nudillos káiser y el brazalete triple. Lanza una salva de puños de piedra."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Corazón de matanza",
+      "tips": null,
+      "description": "Fusión de la bomba trol y SIN FUTURO. Esta sí rebota."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Ilusión de oscuridad",
+      "tips": null,
+      "description": "Fusión de la estatua de Svarog y el tornallamas de valquiria. Los clones carmesí danzan contigo entre las llamas."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Clímax de hidroimpulso",
+      "tips": null,
+      "description": "Fusión de la hidrotormenta y el brebaje santo. Nunca llueve, pero sí chispea."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Arcángulo",
+      "tips": null,
+      "description": "Fusión de la cruz magna y la espada celestial. El rayo central palpita cuando las cruces pasan a través de él."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Legado de la muerte: río de almas",
+      "tips": null,
+      "description": "Fusión de la grieta oscura y la espiral letal. Te conviertes en la muerte."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Noveno círculo",
+      "tips": null,
+      "description": "Fusión de la Marca de hielo y los ritos impíos. Está claro que el infierno se ha congelado."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies irae",
+      "tips": null,
+      "description": "Fusión de la flecha gótica y la partitura de maná. Los francotiradores de Alamarico lanzan ráfagas de flechas, cuya cantidad es mayor al infligir daño crítico."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Millón de cortes",
+      "tips": null,
+      "description": "Fusión de la Valmanway y los mil filos. Corta sin cesar. Se hace más grande con el movimiento constante."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Hermanas Vjaya",
+      "tips": null,
+      "description": "Fusión de los hermanos espada y la tormenta eléctrica. Los rayos activan explosiones de espadas con invulnerabilidad breve."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Espíritu de luz",
+      "tips": null,
+      "description": "Fusión del invoca-espíritu y la varita sagrada. Dispara espíritus dirigidos desde un portal de luz."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Kardía Phlegeton",
+      "tips": null,
+      "description": "Fusión del aura explosiva y el fuego infernal. Genera una erupción volcánica gigantesca."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Cuarto creciente de Venus",
+      "tips": null,
+      "description": "Fusión de la invocación del tornado de espíritus y la luna preciosa. Amor, belleza y luz."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Poder de la lira",
+      "tips": null,
+      "description": "Fusión del roba-almas y el hambre voraz. Devora a los enemigos con una ferocidad insaciable."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Runa del caos",
+      "tips": null,
+      "description": "La velocidad y la duración afectan a la cantidad de daño."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Gobernante malvado",
+      "tips": "Requiere: potenciahechizos al máximo.",
+      "description": "Evolución de la runa del caos. Ejerce control sobre las fuerzas mágicas salvajes."
     }
   },
   "pt-BR": {
@@ -10916,7 +11726,7 @@
     },
     "CART2EVO": {
       "name": "Carroça",
-      "description": "Evolução do Carréllo. Duração, Velocidade e Área afetam o dano. Ricochete afeta Quantidade.",
+      "description": "Evolução do Carréllo. Duração, Velocidade e Área afetam o dano.",
       "tips": "Requer: Tetraforça."
     },
     "FLOWER2": {
@@ -12423,6 +13233,168 @@
     },
     "D13_MADMOON": {
       "name": "Chamado da Lua Louca"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Cria uma zona de combustão à frente. Abater inimigos a fortalece."
+    },
+    "LEM_INFERNO2": {
+      "name": "NaneInferno",
+      "tips": "Requer máx. de: Sabotagem Sideral.",
+      "description": "Evolução de Infernolatro. Adiciona uma segunda zona. Os efeitos das zonas se multiplicam ao serem combinados."
+    },
+    "LEM_BANANA1": {
+      "name": "Gros Michel",
+      "tips": null,
+      "description": "Lança bananas em curva. 1 chance em 6 de executar acerto crítico e explodir."
+    },
+    "LEM_BANANA2": {
+      "name": "Nanica",
+      "tips": "Requer máx. de: Sabotagem Sideral.",
+      "description": "Evolução de Gros Michel. Sempre causa dano crítico. Sempre explode. Outras armas causam dano crítico com mais frequência."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Coquetel Fibonacci",
+      "tips": null,
+      "description": "Cria um spray em espiral de água gasosa. Tem chance de disparar outra arma equipada.",
+      "customDescValue": "%0% de chance de disparar outra arma."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Royal Flush",
+      "tips": "Requer máx. de: Sabotagem Sideral.",
+      "description": "Evolução do Coquetel Fibonacci. Tem 55% de chance de disparar 1, 2, 3 ou 5 outras armas."
+    },
+    "LEM_PLANETS1": {
+      "name": "Órbita Celestial",
+      "tips": null,
+      "description": "Planetas orbitam ao seu redor. Aumenta dano conforme a quantidade de moedas coletadas na partida."
+    },
+    "LEM_PLANETS2": {
+      "name": "Espaço Negativo",
+      "tips": "Requer máx. de: Sabotagem Sideral.",
+      "description": "Evolução de Órbita Celestial. Revela planetas secretos. Planetas ficam negativos esporadicamente."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Sabotagem Sideral",
+      "tips": "Os projéteis melhoram conforme a quantidade de moedas coletadas na partida.",
+      "description": "Concede moedas de ouro e, depois, faz uso impróprio das suas economias.",
+      "customDescValue": "Ganhe %0 de moedas de ouro."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "Pode fazer mau uso das moedas.",
+      "description": "Os projéteis melhoram conforme a quantidade de moedas coletadas na partida."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Invoca sapos que causam dano a inimigos ao pular."
+    },
+    "TP_FROG2": {
+      "name": "Sapomorfose Sombria",
+      "tips": null,
+      "description": "União de Anura e Devorador de Almas. Pode, literalmente, comer inimigos."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Espelho Anura",
+      "tips": null,
+      "description": "Invoca sapos que causam dano a inimigos ao pular."
+    },
+    "TP_POCKET1": {
+      "name": "Canivete",
+      "tips": null,
+      "description": "Dispara facas de curto alcance à frente."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Evolução do Canivete. Aumenta Poder, Armadura e Dano Crítico para cada inimigo à vista."
+    },
+    "TP_LAPISTE1": {
+      "name": "Punho do Poder",
+      "tips": null,
+      "description": "Desfere uma saraivada de socos à queima-roupa."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapiste Tepisto",
+      "tips": null,
+      "description": "União de Punho do Poder e Tripulseira. Lança uma barreira de socos maciços."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Coração Chacina",
+      "tips": null,
+      "description": "União da Bomba Troll e do SEM FUTURO. Essa ricocheteia de verdade."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Ilusão das Trevas",
+      "tips": null,
+      "description": "União de Estátua de Svarog e do Torneador de Valquírias. Clones carmesins dançam com você nas chamas."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Bomba Hidráulica",
+      "tips": null,
+      "description": "União de Hidrotempestade e La Borra. É só pé d'água."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Arcângulo",
+      "tips": null,
+      "description": "União de Grande Cruz e Espada Celeste. O feixe central pulsa quando é atravessado pelas cruzes."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Legado da Morte: Rio Alma",
+      "tips": null,
+      "description": "União de Fenda Negra e Espiral da Morte. A morte se torna você."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Nono Círculo",
+      "tips": null,
+      "description": "União de Marca Gélida e Versículos Profanos. O inferno congelou mesmo."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies Irae",
+      "tips": null,
+      "description": "União de Flecha Gótica e Mannajja. Atiradores de Alamarico fazem chover flechas, e piora com acerto crítico."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Corte de Milhão",
+      "tips": null,
+      "description": "União de Valmanway e Milhares de Fios. Corta sem parar. Para sempre. Cresce ainda mais com o movimento contínuo."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Irmãs Vjaya",
+      "tips": null,
+      "description": "União de Irmãos da Espada e Ciclo de Raios. Raios ativam explosões de espada com Invulnerabilidade por um curto período."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Espírito de Luz",
+      "tips": null,
+      "description": "União de Espírito da Invocação e Varinha Sagrada. Dispara espíritos guiados de um portal de luz."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Kardía Phlegeton",
+      "tips": null,
+      "description": "União de Explosão de Aura e Chamas Infernais. Provoca uma erupção vulcânica gigantesca."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Crescente de Vênus",
+      "tips": null,
+      "description": "União de Tornado Invoca-Espírito e Prisma Lunar. Amor, Beleza e Luz."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Poder da Lira",
+      "tips": null,
+      "description": "União de Ceifador de Almas e Fome Voraz. Devora inimigos com uma ganância insaciável."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Runa do Caos",
+      "tips": null,
+      "description": "Velocidade e Duração afetam o número de acertos."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Regente Perverso",
+      "tips": "Requer máx. de: Magicatalisador.",
+      "description": "Evolução da Runa do Caos. Exerce controle sobre as forças mágicas selvagens."
     }
   },
   "pl": {
@@ -12987,7 +13959,7 @@
     },
     "CART2EVO": {
       "name": "Carozza!",
-      "description": "Ulepszone Carréllo. Czas trwania, Prędkość i Obszar wpływają na obrażenia. Odbicia wpływają na Ilość.",
+      "description": "Ulepszone Carréllo. Czas trwania, Prędkość i Obszar wpływają na obrażenia.",
       "tips": "Wymagania: Czwórmoc."
     },
     "FLOWER2": {
@@ -14113,7 +15085,7 @@
     "TP_DEATHHAND": {
       "name": "Ręka Śmierci",
       "tips": null,
-      "description": "Śmiertelne cyfry"
+      "description": "Zabójcze cyfry"
     },
     "TP_DRACULAHAND": {
       "name": "Ręka Vlada",
@@ -14494,6 +15466,168 @@
     },
     "D13_MADMOON": {
       "name": "Zew szalonego księżyca"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Wytwarza strefę płomieni w stronę, w którą skierowana jest postać. Siła rośnie wraz z zabitymi wrogami."
+    },
+    "LEM_INFERNO2": {
+      "name": "NaneInferno",
+      "tips": "Wymagany maks. poziom: Obcy sabotażysta",
+      "description": "Ulepszone Infernolatro. Dodaje drugą strefę. Gdy strefy się na siebie nakładają, działanie efektu się mnoży."
+    },
+    "LEM_BANANA1": {
+      "name": "Gros Michel",
+      "tips": null,
+      "description": "Wystrzeliwuje zakrzywione banany. 1/6 szansy na trafienie krytyczne i eksplozję."
+    },
+    "LEM_BANANA2": {
+      "name": "Cavendish",
+      "tips": "Wymagany maks. poziom: Obcy sabotażysta",
+      "description": "Ulepszony Gros Michel. Tylko trafienia krytyczne. Zawsze eksploduje. Zwiększa liczbę trafień krytycznych innych broni."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Spritz Fibonacciego",
+      "tips": null,
+      "description": "Tworzy spiralną mgiełkę gazowanej wody. Sprawia, że inna wyposażona broń ma szansę wystrzelić.",
+      "customDescValue": "%0% szansy na to, że inna broń wystrzeli."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Poker królewski",
+      "tips": "Wymagany maks. poziom: Obcy sabotażysta",
+      "description": "Ulepszony Spritz Fibonacciego. Sprawia, że 1, 2, 3 lub 5 innych wyposażonych broni ma 55% szans, aby wystrzelić."
+    },
+    "LEM_PLANETS1": {
+      "name": "Niebiańska świta",
+      "tips": null,
+      "description": "Planety orbitują wokół ciebie. Obrażenia wzrastają o liczbę monet zebranych w bieżącej rozgrywce."
+    },
+    "LEM_PLANETS2": {
+      "name": "Układ gwiezdny",
+      "tips": "Wymagany maks. poziom: Obcy sabotażysta",
+      "description": "Ulepszona Niebiańska świta. Ujawnia ukryte planety. Planety czasem zmieniają kolory."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Obcy sabotażysta",
+      "tips": "Pociski zostają ulepszone w zależności od liczby monet zebranych w bieżącej rozgrywce.",
+      "description": "Daje ci złote monety, a następnie przepuszcza twoje oszczędności.",
+      "customDescValue": "Przyznaje złote monety: %0."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "Może źle wykorzystać monety.",
+      "description": "Pociski zostają ulepszone w zależności od liczby monet zebranych w danej rozgrywce."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Wzywa żaby, których skoki zadają obrażenia wrogom."
+    },
+    "TP_FROG2": {
+      "name": "Mroczna żabomorfoza",
+      "tips": null,
+      "description": "Połączenie Anury i Pożeracza dusz. Może zjeść wrogów (dosłownie)."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Speculo anura",
+      "tips": null,
+      "description": "Wzywa żaby, których skoki zadają obrażenia wrogom."
+    },
+    "TP_POCKET1": {
+      "name": "Nóż kieszonkowy",
+      "tips": null,
+      "description": "Rzuca zanikającym nożem w stronę, w którą skierowana jest postać."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Ulepszony Nóż kieszonkowy. Zwiększa Moc, Pancerz i obrażenia krytyczne za każdego wroga w zasięgu wzroku."
+    },
+    "TP_LAPISTE1": {
+      "name": "Kastet cesarza",
+      "tips": null,
+      "description": "Zasypuje wrogów lawiną ciosów o krótkim zasięgu."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapiste Tepisto",
+      "tips": null,
+      "description": "Połączenie Kastetu cesarza i Trój-bransolety. Uderza we wrogów falą kamiennych piąch."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Serce rzezi",
+      "tips": null,
+      "description": "Połączenie Bomby trolla i BEZ PRZYSZŁOŚCI. I tym razem się odbija."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Iluzja mroku",
+      "tips": null,
+      "description": "Połączenie Posągu Swaróga i Walkiri. Karmazynowe klony tańczą z tobą w płomieniach."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Cyklon",
+      "tips": null,
+      "description": "Połączenie Tajfunu i La Borra. Zamiast deszczu – ulewa."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Promień opatrzności",
+      "tips": null,
+      "description": "Połączenie Wielkiego krzyża i Miecza niebios. Promień w środku pulsuje, gdy przechodzi przez niego krzyż."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Dziedzictwo śmierci: rzeka dusz",
+      "tips": null,
+      "description": "Połączenie Szczeliny mroku i Spirali śmierci. Śmierć staje się tobą."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Dziewiąty krąg",
+      "tips": null,
+      "description": "Połączenie Lodomiecza i Niecnych nieszporów. Z nim nawet piekło zamarznie."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies Irae",
+      "tips": null,
+      "description": "Połączenie Gotyckiej strzały i Mannadży. Snajperzy zasypują wrogów deszczem strzał, jeszcze mocniejszym przy trafieniach krytycznych."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Milion cięć",
+      "tips": null,
+      "description": "Połączenie Valmanwaya i Tysiąca kling. Przebija wrogów bez końca. Staje się większe podczas ciągłego ruchu."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Siostry Vjaya",
+      "tips": null,
+      "description": "Połączenie Braci miecza i Gromowej pętli. Błyskawica wyzwala eksplozje miecza i krótki okres niezniszczalności."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Duch światłości",
+      "tips": null,
+      "description": "Połączenie Złego ducha i Różdżki. Wystrzeliwuje samonaprowadzające duchy ze świetlnego portalu."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Serce Flegetonu",
+      "tips": null,
+      "description": "Połączenie Aury podmuchu i Ognia piekielnego. Wywołuje ogromną erupcję wulkaniczną."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Półksiężyc Wenus",
+      "tips": null,
+      "description": "Połączenie Tornada złych dusz i Cudownego księżyca. Miłość, piękno i światło."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Moc lira",
+      "tips": null,
+      "description": "Połączenie Złodzieja dusz i Dotkliwego głodu. Pożera wrogów z nienasyconym głodem."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Runa chaosu",
+      "tips": null,
+      "description": "Prędkość i Czas trwania wpływają na liczbę obszarów trafień."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Nikczemny władca",
+      "tips": "Wymagany maks. poziom: Zaklinacz.",
+      "description": "Ulepszona Runa chaosu. Kontroluje dzikie siły magiczne."
     }
   },
   "ru": {
@@ -15058,7 +16192,7 @@
     },
     "CART2EVO": {
       "name": "Кароцца!",
-      "description": "Улучшенный «Каррелло». Продолжительность, скорость и область влияют на урон. Отскоки влияют на боезапас.",
+      "description": "Улучшенный «Каррелло». Продолжительность, скорость и область влияют на урон.",
       "tips": "Требуется: сила четырех."
     },
     "FLOWER2": {
@@ -16565,6 +17699,168 @@
     },
     "D13_MADMOON": {
       "name": "Зов Беснолуния"
+    },
+    "LEM_INFERNO1": {
+      "name": "Инфернолатро",
+      "tips": null,
+      "description": "Создаёт зону с огнём по направлению движения. Усиливается с победой над врагами."
+    },
+    "LEM_INFERNO2": {
+      "name": "Нане-Инферно",
+      "tips": "Требуется макс.: «Карманный саботажник»",
+      "description": "Улучшенный «Инфернолатро». Добавляет вторую зону. Эффекты зон умножаются при объединении."
+    },
+    "LEM_BANANA1": {
+      "name": "Гро-Мишель",
+      "tips": null,
+      "description": "Бросает бананы дугой. С шансом 1 к 6 наносит критический удар со взрывом."
+    },
+    "LEM_BANANA2": {
+      "name": "Кавендиш",
+      "tips": "Требуется макс.: «Карманный саботажник»",
+      "description": "Улучшенный «Гро-Мишель». Всегда наносит критический урон. Всегда взрывается. Остальное оружие наносит критический урон чаще."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Пшибоначчи",
+      "tips": null,
+      "description": "Распыляет газировку по спирали. Может выстрелить другим экипированным оружием.",
+      "customDescValue": "С вероятностью %0% может выстрелить другим оружием."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Смыв-рояль",
+      "tips": "Требуется макс.: «Карманный саботажник»",
+      "description": "Улучшенный «Пшибоначчи». С вероятностью 55% выстрелит 1, 2, 3 или 5 другими видами оружия."
+    },
+    "LEM_PLANETS1": {
+      "name": "Звёздный усилитель",
+      "tips": null,
+      "description": "Вокруг вас вращаются планеты. Урон зависит от количества монет, собранных в этом забеге."
+    },
+    "LEM_PLANETS2": {
+      "name": "Негативное пространство",
+      "tips": "Требуется макс.: «Карманный саботажник»",
+      "description": "Улучшенный «Звёздный усилитель». Открывает секретные планеты. Иногда у планет происходит инверсия цветов."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Карманный саботажник",
+      "tips": "Снаряды усиливаются в зависимости от количества монет, собранных в этом забеге.",
+      "description": "Даёт вам золотые монеты, а потом швыряет их направо и налево.",
+      "customDescValue": "Даёт золотые монеты: %0."
+    },
+    "EX_COINTOSS1": {
+      "name": "Сосольди",
+      "tips": "Может растерять монеты.",
+      "description": "Снаряды усиливаются в зависимости от количества монет, собранных в этом забеге."
+    },
+    "TP_FROG": {
+      "name": "Анура",
+      "tips": null,
+      "description": "Призывает лягушек, которые прыгают на врагов и наносят им урон."
+    },
+    "TP_FROG2": {
+      "name": "Тёмный лягушкоморфоз",
+      "tips": null,
+      "description": "Гибрид «Ануры» и «Пожирателя душ». Умеет поедать своих врагов."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Анура (спекуло)",
+      "tips": null,
+      "description": "Призывает лягушек, которые прыгают на врагов и наносят им урон."
+    },
+    "TP_POCKET1": {
+      "name": "Складной нож",
+      "tips": null,
+      "description": "Бросает хрупкий нож по направлению движения."
+    },
+    "TP_POCKET2": {
+      "name": "Клив-Солаш",
+      "tips": null,
+      "description": "Улучшенный «Складной нож». Глобально увеличивает силу, броню и критический урон за каждого врага в поле зрения."
+    },
+    "TP_LAPISTE1": {
+      "name": "Королевский кастет",
+      "tips": null,
+      "description": "Обрушивает шквал ударов с близкого расстояния."
+    },
+    "TP_LAPISTE2": {
+      "name": "Ляписте Теписто",
+      "tips": null,
+      "description": "Гибрид «Королевского кастета» и «Три-браслета». С большой скоростью бьёт по врагам каменными ударами кулаков."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Сердце бойни",
+      "tips": null,
+      "description": "Гибрид «Бомбы-тролля» и «НЕТ БУДУЩЕГО». Снаряды отскакивают, не сомневайтесь."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Иллюзия тьмы",
+      "tips": null,
+      "description": "Гибрид «Статуи Сварога» и «Валика валькирии». Алые клоны танцуют с вами в пламени."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Апогей гидронасоса",
+      "tips": null,
+      "description": "Гибрид «Водного шторма» и «Гущи». Льёт похлеще любого ливня."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Святой источник",
+      "tips": null,
+      "description": "Гибрид «Большого креста» и «Небесного меча». В перекрестии центральный луч начинает пульсировать."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Наследие Смерти: Река Душ",
+      "tips": null,
+      "description": "Гибрид «Тёмного разлома» и «Витка смерти». Вы и смерть — единое целое."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Девятый круг",
+      "tips": null,
+      "description": "Гибрид «Ледяного клейма» и «Нечестивых псалмов». Вот так, ад замёрз."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Судный день",
+      "tips": null,
+      "description": "Гибрид «Готской стрелы» и «Маннаджи». Падшие ангелы обрушивают град стрел, при критическом ударе их становится больше."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Миллион порезов",
+      "tips": null,
+      "description": "Гибрид «Вальманвея» и «Тысячи лезвий». Рубит без остановки. Урон увеличивается во время движения."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Сёстры Виджаи",
+      "tips": null,
+      "description": "Гибрид «Братьев меча» и «Грозовой петли». Молния активирует взрывы меча и даёт неуязвимость на короткое время."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Дух света",
+      "tips": null,
+      "description": "Гибрид «Призыва духов» и «Священного жезла». Выпускает самонаводящихся духов из портала света."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Сердце Флегетона",
+      "tips": null,
+      "description": "Гибрид «Взрыва ауры» и «Адского пламени». Выпускает самонаводящихся духов из портала света. Вызывает мощное извержение вулкана."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Полумесяц Венеры",
+      "tips": null,
+      "description": "Гибрид «Торнадо духов» и «Роскошной Луны». Любовь, красота и свет."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Сила лир",
+      "tips": null,
+      "description": "Гибрид «Кражи душ» и «Жестокого голода». Пожирает врагов ненасытной жадностью."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Руна хаоса",
+      "tips": null,
+      "description": "Вместо этого скорость и продолжительность влияют на количество хитбоксов."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Безумный Владыка",
+      "tips": "Требуется макс.: «Заклинатель».",
+      "description": "Улучшенная «Руна хаоса». Осуществляет контроль над первозданными силами."
     }
   },
   "tr": {
@@ -17129,7 +18425,7 @@
     },
     "CART2EVO": {
       "name": "Carozza!",
-      "description": "Evrimleşmiş Carréllo. Tesir Süresi, Hız ve Alan hasarı etkiler. Sekme Sayısı Miktar'ı etkiler.",
+      "description": "Evrimleşmiş Carréllo. Tesir Süresi, Hız ve Alan hasarı etkiler.",
       "tips": "Gerektirir: Tetraforce."
     },
     "FLOWER2": {
@@ -18636,6 +19932,168 @@
     },
     "D13_MADMOON": {
       "name": "Deli Ayın Çağrısı"
+    },
+    "LEM_INFERNO1": {
+      "name": "Infernolatro",
+      "tips": null,
+      "description": "Gidilen yönde yanan bir alan oluşturur. Her düşman öldüğünde daha da güçlenir."
+    },
+    "LEM_INFERNO2": {
+      "name": "NaneInferno",
+      "tips": "Maks Gerektirir: Köstek Kuvvet",
+      "description": "Evrimleşmiş Infernolatro. İkinci bir alan oluşturur. Alanlar birleştiğinde alan etkileri katlanır."
+    },
+    "LEM_BANANA1": {
+      "name": "Gros Michel",
+      "tips": null,
+      "description": "Dönen muzlar atar. 6 muzdan birinin kritik vuruş yapıp patlama şansı vardır."
+    },
+    "LEM_BANANA2": {
+      "name": "Cavendish",
+      "tips": "Maks Gerektirir: Köstek Kuvvet",
+      "description": "Evrimleşmiş Gros Michel. Her zaman kritik vuruş yapar ve patlar. Diğer silahlar daha sık kritik vuruş yapar."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Fibonacci Spritz",
+      "tips": null,
+      "description": "Spiral gibi döne döne giden bir gazlı içecek spreyi oluşturur. Kuşanılan başka bir silahı ateşleme şansı vardır.",
+      "customDescValue": "%0% başka silahı ateşleme şansı."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Royal Floş",
+      "tips": "Maks Gerektirir: Köstek Kuvvet",
+      "description": "Evrimleşmiş Fibonacci Spritz. %55 şansla 1, 2, 3 veya 5 başka silah ateşler."
+    },
+    "LEM_PLANETS1": {
+      "name": "Göklerdeki Yardımcı",
+      "tips": null,
+      "description": "Gezegenler etrafında döner. Hasar, bu oyun topladığın akçe miktarına göre artar."
+    },
+    "LEM_PLANETS2": {
+      "name": "Negatif Uzay",
+      "tips": "Maks Gerektirir: Köstek Kuvvet",
+      "description": "Evrimleşmiş Göklerdeki Yardımcı. Gizli gezegenleri ortaya çıkarır. Gezegenler ara sıra negatifleşir."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Köstek Kuvvet",
+      "tips": "Mevcut oyunda toplanan akçelerin miktarına bağlı olarak fırlatılabilirleri geliştirilir.",
+      "description": "Sana altın akçe verir, sonra da tüm birikimini çarçur eder.",
+      "customDescValue": "%0 altın akçe kazandırır."
+    },
+    "EX_COINTOSS1": {
+      "name": "Sossoldi",
+      "tips": "Akçeleri gereksiz yere harcayabilir.",
+      "description": "Mevcut oyunda toplanan akçelerin miktarına bağlı olarak fırlatılabilirleri geliştirilir."
+    },
+    "TP_FROG": {
+      "name": "Anura",
+      "tips": null,
+      "description": "Zıpladığında düşmanlara hasar veren kurbağalar çağırır."
+    },
+    "TP_FROG2": {
+      "name": "Kara Kurbağalaşım",
+      "tips": null,
+      "description": "Anura ve Ruh Yiyen'in birleşimi. Gerçekten düşmanları yiyebilir."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Speculo Anura",
+      "tips": null,
+      "description": "Zıpladığında düşmanlara hasar veren kurbağalar çağırır."
+    },
+    "TP_POCKET1": {
+      "name": "Çakı",
+      "tips": null,
+      "description": "Gidilen yönde az dayanıklı bir bıçak atar."
+    },
+    "TP_POCKET2": {
+      "name": "Claimh Solais",
+      "tips": null,
+      "description": "Evrimleşmiş Çakı. Görünürdeki her düşman başına Kuvvet, Zırh ve Kritik Hasar'ı genel olarak artırır."
+    },
+    "TP_LAPISTE1": {
+      "name": "İmparator Yumruğu",
+      "tips": null,
+      "description": "Yakın mesafeden seri yumruklar atar."
+    },
+    "TP_LAPISTE2": {
+      "name": "Lapisto Tepisto",
+      "tips": null,
+      "description": "İmparator Yumruğu ve Üçlü Bilezik'in birleşimi. Kaya sertliğinde arka arkaya bir sürü yumruk atar."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Kıyanyürek",
+      "tips": null,
+      "description": "Trol Bombası ve GELECEĞİ OLMAYAN'ın birleşimi. Bu gerçekten seker."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Karanlık İllüzyon",
+      "tips": null,
+      "description": "Svarog Heykeli ve Tornacı Valkyrie'nin birleşimi. Kızıl klonlar seninle alevlerin ortasında dans eder."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Hidro Pompa Güçlendirici",
+      "tips": null,
+      "description": "Hidro Fırtına ve La Borra'nın birleşimi. Eser gürler ama yağmaz."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Başmelek",
+      "tips": null,
+      "description": "Büyük Haç ve Cennet Kılıcı'nın birleşimi. Haçlar içinden geçtiğinde ortadaki ışın ateşlenir."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Ölüm Mirası: Ruh Pınarı",
+      "tips": null,
+      "description": "Karanlık Yarık ve Ölüm Sarmalı'nın birleşimi. Ölüm sen olursun."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Dokuzuncu Kat",
+      "tips": null,
+      "description": "Buzkılıç ve Kutsal Olmayan Dualar'ın birleşimi. Cehennem gerçekten buz tuttu."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "Dies Irae",
+      "tips": null,
+      "description": "Goth'un Oku ve Mannajja'nın birleşimi. Alamaric Nişancılar ok yağdırır, kritik vuruş yaparlarsa daha da fazla yağdırırlar."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Bıçakların Milyon Darbesi",
+      "tips": null,
+      "description": "Valmanway ve Bin Bıçak Sırtı'nın birleşimi. Sonsuza kadar kesik atar. Sürekli hareket ettiğinde büyür."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Vjaya Kardeşler",
+      "tips": null,
+      "description": "Kılıç Kardeşleri ve Gök Gürültüsü Döngüsü'nün birleşimi. Yıldırım, kısa süreli Dokunulmazlık veren kılıç patlamaları tetikler."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Işığın Ruhu",
+      "tips": null,
+      "description": "Ruh Çağırma ve Kutsal Asa'nın birleşimi. Bir ışık portalından güdümlü ruhlar ateşler."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Kardía Phlegeton",
+      "tips": null,
+      "description": "Aura Patlaması ve Cehennem Ateşi'nin birleşimi. Şiddetli bir volkanik patlamaya yol açar."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Hilal Venüs",
+      "tips": null,
+      "description": "Ruh Kasırgası Çağır'ın ve Muhteşem Ay'ın birleşimi. Aşk, Güzellik ve Işık. Daha ne olsun!"
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Liret'in Gücü",
+      "tips": null,
+      "description": "Ruh Çalma ve Şiddetli Açlık'ın birleşimi. Sonu gelmeyen bir açgözlülükle düşmanları mideye indirir."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Kaos Rünü",
+      "tips": null,
+      "description": "Hız ve Tesir Süresi hit box sayısını etkiler."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Hain Hükümdar",
+      "tips": "Maks Gerektirir: Büyübağlayan",
+      "description": "Evrimleşmiş Kaos Rünü. Olağanüstü sihirli güçlerin kontrolünü ele geçirir."
     }
   },
   "zh-CN": {
@@ -19200,7 +20658,7 @@
     },
     "CART2EVO": {
       "name": "火车！",
-      "description": "进化后的推车。持续时间、飞射速度和攻击范围改为影响伤害，弹跳次数改为影响发射数量。",
+      "description": "进化后的推车。持续时间、飞射速度和攻击范围改为影响伤害。",
       "tips": "需要：泰特拉部队。"
     },
     "FLOWER2": {
@@ -20707,6 +22165,168 @@
     },
     "D13_MADMOON": {
       "name": "疯月的呼唤"
+    },
+    "LEM_INFERNO1": {
+      "name": "炼狱小丑",
+      "tips": null,
+      "description": "在所朝方向生成一个火焰区域，随着杀敌数量而增强。"
+    },
+    "LEM_INFERNO2": {
+      "name": "爆表炼狱",
+      "tips": "需要：地外破坏者（最高级）。",
+      "description": "进化后的炼狱小丑。增加第二个区域。区域组合时效果倍增。"
+    },
+    "LEM_BANANA1": {
+      "name": "大麦克香蕉",
+      "tips": null,
+      "description": "投掷曲线运动的香蕉，有1/6的几率造成暴击并爆炸。"
+    },
+    "LEM_BANANA2": {
+      "name": "卡文迪什",
+      "tips": "需要：地外破坏者（最高级）。",
+      "description": "进化后的大麦克香蕉。必定暴击，必定爆炸，且其他武器暴击率提高。"
+    },
+    "LEM_FIBONACCI1": {
+      "name": "斐波那契苏打水",
+      "tips": null,
+      "description": "螺旋喷射气泡水，有一定几率发射已装备的另一种武器。",
+      "customDescValue": "%0%的几率发射另一种武器。"
+    },
+    "LEM_FIBONACCI2": {
+      "name": "皇家同花顺",
+      "tips": "需要：地外破坏者（最高级）。",
+      "description": "进化后的斐波那契苏打水。有55%的几率发射1、2、3或5种其他武器。"
+    },
+    "LEM_PLANETS1": {
+      "name": "天体助推器",
+      "tips": null,
+      "description": "星球环绕着你运行。伤害随着本轮收集的金币数量而增加。"
+    },
+    "LEM_PLANETS2": {
+      "name": "负空间",
+      "tips": "需要：地外破坏者（最高级）。",
+      "description": "进化后的天体助推器。揭示秘密星球，星球偶尔会反转颜色。"
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "地外破坏者",
+      "tips": "飞射物基于本轮收集的金币数量获得提升。",
+      "description": "为你提供金币，随后不正当使用你的积蓄。",
+      "customDescValue": "获得%0金币。"
+    },
+    "EX_COINTOSS1": {
+      "name": "钱不嫌多",
+      "tips": "可能会滥用金币。",
+      "description": "飞射物基于本轮收集的金币数量获得提升。"
+    },
+    "TP_FROG": {
+      "name": "无尾目",
+      "tips": null,
+      "description": "召唤青蛙，跳跃时可对敌人造成伤害。"
+    },
+    "TP_FROG2": {
+      "name": "黑暗蛙变",
+      "tips": null,
+      "description": "无尾目与噬魂纹章的组合，可真正吞噬敌人。"
+    },
+    "TP_FROG_COUNTER": {
+      "name": "镜像无尾目",
+      "tips": null,
+      "description": "召唤青蛙，跳跃时可对敌人造成伤害。"
+    },
+    "TP_POCKET1": {
+      "name": "小刀",
+      "tips": null,
+      "description": "朝面对的方向投掷转瞬即逝的小刀。"
+    },
+    "TP_POCKET2": {
+      "name": "克劳索拉斯",
+      "tips": null,
+      "description": "进化后的小刀。视野内每有一个敌人，全面增加力量、防御和暴击伤害。"
+    },
+    "TP_LAPISTE1": {
+      "name": "凯撒拳套",
+      "tips": null,
+      "description": "发动一连串近距离拳击。"
+    },
+    "TP_LAPISTE2": {
+      "name": "拳拳到肉",
+      "tips": null,
+      "description": "凯撒拳套与三魔环的组合，连续发射岩石般坚硬的拳头。"
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "杀戮之心",
+      "tips": null,
+      "description": "山精炸弹与爆裂的组合，此炸弹的确是会弹跳的。"
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "黑暗幻象",
+      "tips": null,
+      "description": "斯瓦洛格雕像与瓦尔基里喷枪的组合，猩红的克隆体与你在火焰中共舞。"
+    },
+    "TP_HYDROSTORM2": {
+      "name": "超高压水泵",
+      "tips": null,
+      "description": "圣水风暴与圣徒精华的组合，一泻千里。"
+    },
+    "TP_GRANDCROSS2": {
+      "name": "大天弑",
+      "tips": null,
+      "description": "宏大十字架与天堂之剑的组合，中间的光柱在十字飞镖从中穿过时发生脉动。"
+    },
+    "TP_DARKRIFT2": {
+      "name": "死神传承：灵魂之河",
+      "tips": null,
+      "description": "黑暗裂缝与死亡旋风的组合。你化身死神。"
+    },
+    "TP_ICEBRAND2": {
+      "name": "第九层",
+      "tips": null,
+      "description": "冰剑与渎神祷书的组合，带来真正的冰封地狱。"
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "末日经",
+      "tips": null,
+      "description": "哥特箭与黑乐谱的组合，阿拉马里克狙击手箭如雨下，暴击时箭雨更加密集。"
+    },
+    "TP_VALMANWAY2": {
+      "name": "千刀万剐",
+      "tips": null,
+      "description": "真空刃与千刃的组合，无限挥砍，随着持续移动不断变大。"
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "剑闪雷鸣",
+      "tips": null,
+      "description": "凶鸣百斩剑与雷环的组合，闪电触发剑刃爆炸，同时赋予短暂的无敌状态。"
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "光之灵魂",
+      "tips": null,
+      "description": "灵魂召唤与神授魔杖的组合，从一个光传送门发射自动导向的灵魂。"
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "地狱火河心",
+      "tips": null,
+      "description": "灵气爆破与地狱火的组合，引发一场大规模火山爆发。"
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "爱神新月",
+      "tips": null,
+      "description": "召唤灵魂龙卷风与华月纹章的组合——爱、美、光。"
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "大发横财",
+      "tips": null,
+      "description": "夺魂摄魄与饕恶魔眼的组合，利用无法满足的贪欲吞噬敌人。"
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "混沌符文",
+      "tips": null,
+      "description": "飞射速度和持续时间改为影响命中数量。"
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "邪恶统治者",
+      "tips": "需要咒缚盒（最高级）。",
+      "description": "进化后的混沌符文。对野生魔法力量施加控制。"
     }
   },
   "ja": {
@@ -21271,7 +22891,7 @@
     },
     "CART2EVO": {
       "name": "カロッツァ！",
-      "description": "トロッコの進化形。効果時間、弾速、攻撃範囲は代わりにダメージに作用する。代わりに、発射弾数は跳ね返りの影響を受ける。",
+      "description": "トロッコの進化形。効果時間、弾速、攻撃範囲は代わりにダメージに作用する。",
       "tips": "必要アイテム：テトラフォース"
     },
     "FLOWER2": {
@@ -22778,6 +24398,168 @@
     },
     "D13_MADMOON": {
       "name": "狂い月の呼び声"
+    },
+    "LEM_INFERNO1": {
+      "name": "インフェルノラトロ",
+      "tips": null,
+      "description": "向いた方向に炎の海を発生させる。これは敵を倒すとさらに強化される。"
+    },
+    "LEM_INFERNO2": {
+      "name": "ナネインフェルノ",
+      "tips": "最大限が必要：外部の妨害者",
+      "description": "インフェルノラトロの進化形。2つ目のゾーンを追加する。 合体させるとゾーン効果が倍増する。"
+    },
+    "LEM_BANANA1": {
+      "name": "グロス・ミケーレ",
+      "tips": null,
+      "description": "カーブするバナナを放つ。6本に1本の確率でクリティカルヒットし、爆発を引き起こす。"
+    },
+    "LEM_BANANA2": {
+      "name": "キャベンディッシュ",
+      "tips": "最大限が必要：外部の妨害者",
+      "description": "グロス・ミケーレの進化形。必ずクリティカルを食らわせ、必ず爆発する。他の武器のクリティカル率が上がる。"
+    },
+    "LEM_FIBONACCI1": {
+      "name": "フィボナッチ炭酸",
+      "tips": null,
+      "description": "らせん状に炭酸水をまき散らす。装備した別の武器を発射する可能性あり。",
+      "customDescValue": "%0%の確率で別の武器を発射する。"
+    },
+    "LEM_FIBONACCI2": {
+      "name": "ロイヤルフラッシュ",
+      "tips": "最大限が必要：外部の妨害者",
+      "description": "フィボナッチ炭酸の進化形。55%の確率で別の武器を1，2，3，5発発射する可能性あり。"
+    },
+    "LEM_PLANETS1": {
+      "name": "天体ブースター",
+      "tips": null,
+      "description": "惑星がプレイヤーの周りを周回する。このランで回収した金貨に応じてダメージも増加する。"
+    },
+    "LEM_PLANETS2": {
+      "name": "ネガティブスペース",
+      "tips": "最大限が必要：外部の妨害者",
+      "description": "天体ブースターの進化形。秘密の惑星の存在を明らかにする。惑星が時折ネガポジ反転する。"
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "外部の妨害者",
+      "tips": "このランで回収した金貨に応じて発射物が強化される。",
+      "description": "金貨を付与するが、次の瞬間には蓄えを好き勝手に食いつぶしてしまう。",
+      "customDescValue": "金貨を%0枚獲得。"
+    },
+    "EX_COINTOSS1": {
+      "name": "ソッソルディ",
+      "tips": "金貨を誤用する可能性あり。",
+      "description": "このランで回収した金貨に応じて発射物が強化される。"
+    },
+    "TP_FROG": {
+      "name": "アヌラ",
+      "tips": null,
+      "description": "カエルを召喚し、ジャンプで敵にダメージを与える。"
+    },
+    "TP_FROG2": {
+      "name": "ダーク・ガマ",
+      "tips": null,
+      "description": "アヌラと魂食らいの融合。実際に敵を食べるかもしれない。"
+    },
+    "TP_FROG_COUNTER": {
+      "name": "スペキュロ・アヌラ",
+      "tips": null,
+      "description": "カエルを召喚し、ジャンプで敵にダメージを与える。"
+    },
+    "TP_POCKET1": {
+      "name": "ポケットナイフ",
+      "tips": null,
+      "description": "向いた方向に短時間持続型のナイフを投げる。"
+    },
+    "TP_POCKET2": {
+      "name": "クラウ・ソラス",
+      "tips": null,
+      "description": "ポケットナイフの進化形。目に見える敵それぞれに対し、全体的に攻撃力、防御力とクリティカルダメージが増加する。"
+    },
+    "TP_LAPISTE1": {
+      "name": "カイザーナックル",
+      "tips": null,
+      "description": "近距離型パンチを連続でお見舞いする。"
+    },
+    "TP_LAPISTE2": {
+      "name": "ラピステ・テピスト",
+      "tips": null,
+      "description": "カイザーナックルとトライブレスレットの融合。いわゆるストーンパンチの弾幕を浴びせる。"
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "カーネイジ・ハート",
+      "tips": null,
+      "description": "トロールボムと皆殺しの魔弾の融合。これは跳ね返り効果を持っている。"
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "ダーク・イリュージョン",
+      "tips": null,
+      "description": "スヴァローグの像戦と乙女のバーナーの融合。紅色のクローンたちが共に炎の中で踊り狂う。"
+    },
+    "TP_HYDROSTORM2": {
+      "name": "ハイドロポンプ・クライマックス",
+      "tips": null,
+      "description": "ハイドロストームと生命の水の融合。降るのはただの雨じゃない。"
+    },
+    "TP_GRANDCROSS2": {
+      "name": "アーチ・アングル",
+      "tips": null,
+      "description": "グランドクロスとヘヴンソードの融合。十字架が通るたびに、中央のビームは脈打つように鼓動する。"
+    },
+    "TP_DARKRIFT2": {
+      "name": "死の遺産：ソウルリバー",
+      "tips": null,
+      "description": "ダークリフトと魂狩りの鎌の融合。これで死と一心同体だ。"
+    },
+    "TP_ICEBRAND2": {
+      "name": "9番目の環",
+      "tips": null,
+      "description": "ラハブの氷剣と不浄の典礼の融合。地獄が凍り付く時がやってきた。"
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "怒りの日",
+      "tips": null,
+      "description": "ゴートの矢とマンナイヤの融合。アマラリックスナイパーは、特にクリティカルヒット時に矢の雨を降らせる。"
+    },
+    "TP_VALMANWAY2": {
+      "name": "ミリオンスラッシュ",
+      "tips": null,
+      "description": "ヴァルマンウェと無限の刃の融合。無限の斬撃が襲いかかる。動けば動くほどその大きさを増す。"
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "ヴィジャヤ姉妹",
+      "tips": null,
+      "description": "百なる一の剣と雷鳴の指輪の融合。稲妻は剣の爆発効果を発生させ、短時間の間無敵状態になる。"
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "光の精霊",
+      "tips": null,
+      "description": "サモンスピリットと聖なる杖の融合。光の門から追尾型の精霊を放つ。"
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "カルディア・プレゲトーン",
+      "tips": null,
+      "description": "オーラブラストと業火の杖の融合。大規模な火山噴火を呼び起こす。"
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "ヴィーナス・クレッセント",
+      "tips": null,
+      "description": "サモンスピリット・トルネドと月の魔法陣の融合。愛と美しさ、そして光のハーモニー。"
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "リラの力",
+      "tips": null,
+      "description": "ソウルスチールと悪食の瞳の融合。永遠に満たされぬ強欲さで敵を食い尽くす。"
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "カオス・ルーン",
+      "tips": null,
+      "description": "代わりに、弾速と効果時間により発射弾数が影響を受ける。"
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "邪悪な支配者",
+      "tips": "最大限が必要：封魔の書。",
+      "description": "カオス・ルーンの進化形。野生の魔法の力を制御する。"
     }
   },
   "ko": {
@@ -23342,7 +25124,7 @@
     },
     "CART2EVO": {
       "name": "카로차!",
-      "description": "진화된 광산수레. 지속 시간, 속도, 공격 범위가 대신 피해에 영향을 미칩니다. 수량 대신 튕기는 데 영향을 끼칩니다.",
+      "description": "진화된 광산수레. 지속 시간, 속도, 공격 범위가 대신 피해에 영향을 미칩니다.",
       "tips": "요구 사항: 테트라포스"
     },
     "FLOWER2": {
@@ -24849,6 +26631,168 @@
     },
     "D13_MADMOON": {
       "name": "미친 달의 부름"
+    },
+    "LEM_INFERNO1": {
+      "name": "인페르놀라트로",
+      "tips": null,
+      "description": "마주보는 정면 방향으로 화염 구역을 만듭니다. 적의 처치로 강화됩니다."
+    },
+    "LEM_INFERNO2": {
+      "name": "나인페르노",
+      "tips": "최대치 필요: 외부 방해자",
+      "description": "진화한 인페르놀라트로. 두 번째 영역을 추가합니다. 영역 효과는 결합되면 증폭됩니다."
+    },
+    "LEM_BANANA1": {
+      "name": "그로스 미셸",
+      "tips": null,
+      "description": "휘어진 바나나를 날립니다. 6번 중 1번은 치명타를 맞고 폭발할 확률이 높습니다."
+    },
+    "LEM_BANANA2": {
+      "name": "캐번디시",
+      "tips": "최대치 필요: 외부 방해자",
+      "description": "진화한 그로스 미셸. 항상 치명타 공격을 하고, 항상 폭발합니다. 다른 무기들은 더 자주 치명타 공격을 합니다."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "피보나치 스프리츠",
+      "tips": null,
+      "description": "탄산수의 나선형 스프레이를 만듭니다. 장착한 또다른 무기를 발사할 수 있습니다.",
+      "customDescValue": "다른 무기를 발사할 확률이 %0%입니다."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "로열 플러시",
+      "tips": "최대치 필요: 외부 방해자",
+      "description": "진화한 피보나치 스프리츠. 다른 무기를 1개, 2개, 3개 또는 5개의 발사할 확률이 55%입니다."
+    },
+    "LEM_PLANETS1": {
+      "name": "천체 부스터",
+      "tips": null,
+      "description": "행성들이 주위를 돌고 있습니다. 이 달리기에서 모은 금화의 양만큼 피해량이 증가합니다."
+    },
+    "LEM_PLANETS2": {
+      "name": "어두운 우주",
+      "tips": "최대치 필요: 외부 방해자",
+      "description": "진화한 천체 부스터. 비밀 행성을 밝힙니다. 행성은 때때로 어둡게 변하기도 하죠."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "외부 방해자",
+      "tips": "투사체는 현재 실행 중에 수집된 금화의 양에 따라 개선됩니다.",
+      "description": "골드를 주고, 저축해둔 것을 부적절하게 사용합니다.",
+      "customDescValue": "%0 골드를 얻습니다."
+    },
+    "EX_COINTOSS1": {
+      "name": "소솔디",
+      "tips": "금화를 잘못 사용할 수 있습니다.",
+      "description": "투사체는 현재 실행 중에 수집된 금화의 양에 따라 개선됩니다."
+    },
+    "TP_FROG": {
+      "name": "아누라",
+      "tips": null,
+      "description": "적이 점프할 때 피해를 주는 개구리를 소환합니다."
+    },
+    "TP_FROG2": {
+      "name": "다크 프로가모포시스",
+      "tips": null,
+      "description": "아누라와 영혼 포식자의 연합. 실제로 적을 잡아먹을 수도 있습니다."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "스페큘로 아누라",
+      "tips": null,
+      "description": "적이 점프할 때 피해를 주는 개구리를 소환합니다."
+    },
+    "TP_POCKET1": {
+      "name": "포켓 나이프",
+      "tips": null,
+      "description": "수명이 짧은 칼을 얼굴 방향으로 던집니다."
+    },
+    "TP_POCKET2": {
+      "name": "클레임 솔레",
+      "tips": null,
+      "description": "진화한 포켓 나이프. 시야에 들어오는 적 각각의 피해량, 방어력, 치명타 피해가 전반적으로 증가합니다."
+    },
+    "TP_LAPISTE1": {
+      "name": "카이저 너클",
+      "tips": null,
+      "description": "근접 거리 펀치를 날립니다."
+    },
+    "TP_LAPISTE2": {
+      "name": "라피스트 테피스토",
+      "tips": null,
+      "description": "카이저 너클과 삼중 팔찌의 연합. 돌로 만든 주먹을 발사합니다."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "카니지 하트",
+      "tips": null,
+      "description": "트롤 폭탄과 절멸의 연합. 실제로 튕깁니다."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "어둠 환상",
+      "tips": null,
+      "description": "스바로크 동상과 발키리 터너의 연합. 진홍의 클론들이 불꽃 속에서 당신과 함께 춤을 춥니다."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "하이드로 펌프 클라이맥스",
+      "tips": null,
+      "description": "하이드로 스톰과 정화자의 연합. 비가 아주 쏟아지는 수준입니다."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "아치 앵글",
+      "tips": null,
+      "description": "그랜드 크로스와 천상의 검 연합. 십자가가 통과할 때 중앙 빔이 요동칩니다."
+    },
+    "TP_DARKRIFT2": {
+      "name": "죽음의 유산: 소울 리버",
+      "tips": null,
+      "description": "다크 리프트와 죽음의 나선 연합. 죽음은 곧 당신이 됩니다."
+    },
+    "TP_ICEBRAND2": {
+      "name": "9번째 서클",
+      "tips": null,
+      "description": "빙검과 불경한 기도문의 연합. 지옥은 정말로 얼어붙어버렸습니다."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "다이즈 아이라",
+      "tips": null,
+      "description": "고스의 화살과 마력의 결정체 연합. 알라마르 저격수들이 화살을 쏟아붓습니다. 특히 치명타를 맞으면 더욱 아프죠."
+    },
+    "TP_VALMANWAY2": {
+      "name": "밀리언 컷",
+      "tips": null,
+      "description": "발만웨이와 천 개의 칼날 연합. 끝없이 베어버립니다. 지속적인 움직이면서 더 커집니다."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "비자야 자매",
+      "tips": null,
+      "description": "소드 브라더스와 번개 고리의 연합. 번개가 잠시동안 무적 상태로 검 폭발을 일으킵니다."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "빛의 정령",
+      "tips": null,
+      "description": "정령 소환과 신성한 지팡이의 연합. 빛의 포털에서 귀소 정령을 발사합니다."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "카디아 플레게톤",
+      "tips": null,
+      "description": "오라블라스트와 헬파이어의 연합. 대규모 화산 폭발을 일으킵니다."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "비너스 초승달",
+      "tips": null,
+      "description": "스피릿 토네이도 소환과 매혹의 달 연합. 사랑, 아름다움, 그리고 빛 뿐이죠."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "리어의 힘",
+      "tips": null,
+      "description": "소울 스틸과 흉포한 굶주림의 연합. 불안정한 탐욕으로 적을 삼켜버립니다."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "혼돈의 룬",
+      "tips": null,
+      "description": "대신 속도와 지속 시간이 히트 박스 수에 영향을 미칩니다."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "사악한 통치자",
+      "tips": "최대치 필요: 주문 속박기",
+      "description": "진화한 혼돈의 룬. 야생의 마법적 힘을 통제합니다."
     }
   },
   "zh-TW": {
@@ -25413,7 +27357,7 @@
     },
     "CART2EVO": {
       "name": "卡羅札火車！",
-      "description": "解放版的推車。傷害會改為取決於效果持續時間、速度以及效果範圍的高低/大小。投射物數量會改為取決於反彈次數高低。",
+      "description": "解放版的推車。傷害會改為取決於效果持續時間、速度以及效果範圍的高低/大小。",
       "tips": "需要：泰特拉部隊。"
     },
     "FLOWER2": {
@@ -26920,6 +28864,168 @@
     },
     "D13_MADMOON": {
       "name": "瘋狂之月的呼喚"
+    },
+    "LEM_INFERNO1": {
+      "name": "煉獄使者",
+      "tips": null,
+      "description": "在前方引燃一個火焰區域。可以透過擊殺敵人來進行強化。"
+    },
+    "LEM_INFERNO2": {
+      "name": "煉獄火海",
+      "tips": "需要（最高級）：絕對破壞者",
+      "description": "解放版的煉獄使者。多增加第二個效果區域。區域的效果在相互結合後便會相輔相成。"
+    },
+    "LEM_BANANA1": {
+      "name": "大麥克",
+      "tips": null,
+      "description": "投擲會轉彎的香蕉。有六分之一的機率會觸發暴擊並產生爆炸。"
+    },
+    "LEM_BANANA2": {
+      "name": "卡文迪什",
+      "tips": "需要（最高級）：絕對破壞者",
+      "description": "解放版的大麥克。必定觸發暴擊。必定產生爆炸。其他武器的暴擊率也會有所提高。"
+    },
+    "LEM_FIBONACCI1": {
+      "name": "斐波那契氣泡酒",
+      "tips": null,
+      "description": "形成一個螺旋狀的氣泡水噴霧。有機率觸發另一個已裝備的武器。",
+      "customDescValue": "有 %0% 的機率觸發另一個武器。"
+    },
+    "LEM_FIBONACCI2": {
+      "name": "同花大順",
+      "tips": "需要（最高級）：絕對破壞者",
+      "description": "解放版的斐波那契氣泡酒。有 55% 的機率觸發其他 1、2、3 或是 5 個武器。"
+    },
+    "LEM_PLANETS1": {
+      "name": "天體推進器",
+      "tips": null,
+      "description": "行星圍繞著你旋轉。傷害會根據你在該次冒險中所收集到的金幣數量而有所提高。"
+    },
+    "LEM_PLANETS2": {
+      "name": "負空間",
+      "tips": "需要（最高級）：絕對破壞者",
+      "description": "解放版的天體推進器。揭曉所謂的秘密行星。行星偶爾會觸發負面反轉。"
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "絕對破壞者",
+      "tips": "投射物的水準會根據你在該次冒險中所收集到的金幣數量而有所提高。",
+      "description": "讓你能夠獲得金幣，但你的存款之後可能會被不負責任地濫用。",
+      "customDescValue": "獲得 %0 枚金幣。"
+    },
+    "EX_COINTOSS1": {
+      "name": "錢錢",
+      "tips": "金幣可能會被濫用。",
+      "description": "投射物的水準會根據你在該次冒險中所收集到的金幣數量而有所提高。"
+    },
+    "TP_FROG": {
+      "name": "蛙鳴",
+      "tips": null,
+      "description": "召喚青蛙，青蛙們會在跳躍的時候對敵人造成傷害。"
+    },
+    "TP_FROG2": {
+      "name": "黑暗蛙變",
+      "tips": null,
+      "description": "組合蛙鳴和噬魂紋章。敵人可能真的會被吃下肚。"
+    },
+    "TP_FROG_COUNTER": {
+      "name": "鏡像蛙鳴",
+      "tips": null,
+      "description": "召喚青蛙，青蛙們會在跳躍的時候對敵人造成傷害。"
+    },
+    "TP_POCKET1": {
+      "name": "小折刀",
+      "tips": null,
+      "description": "向前方投擲一把「短命」的飛刀。"
+    },
+    "TP_POCKET2": {
+      "name": "光之劍",
+      "tips": null,
+      "description": "解放版的小折刀。視野範圍內每有一個敵人，全面性地提高力量、護甲值和暴擊傷害。"
+    },
+    "TP_LAPISTE1": {
+      "name": "帝王拳套",
+      "tips": null,
+      "description": "施展出一連串的近距離拳擊攻擊。"
+    },
+    "TP_LAPISTE2": {
+      "name": "蓋亞之擊",
+      "tips": null,
+      "description": "組合帝王拳套和三魔環。施展一連串的堅石拳擊攻擊。"
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "屠戮之心",
+      "tips": null,
+      "description": "組合巨魔炸彈與爆裂。這顆爆彈可是很會彈的喔。"
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "黑暗幻象",
+      "tips": null,
+      "description": "組合斯瓦羅格雕像和女武神噴槍。緋紅的分身會在火焰中與你共舞。"
+    },
+    "TP_HYDROSTORM2": {
+      "name": "水炮之巔",
+      "tips": null,
+      "description": "組合水風暴和聖徒精華。不雨則已，一雨傾盆。"
+    },
+    "TP_GRANDCROSS2": {
+      "name": "聖潔十字",
+      "tips": null,
+      "description": "組合大十字與天堂之劍。中央光束會在十字架穿過的瞬間發出脈動。"
+    },
+    "TP_DARKRIFT2": {
+      "name": "死亡承傳：靈魂之河",
+      "tips": null,
+      "description": "組合黑暗裂縫和死亡旋風。你就是死神的化身。"
+    },
+    "TP_ICEBRAND2": {
+      "name": "第九之圓",
+      "tips": null,
+      "description": "組合寒冰印記和瀆神禱書。地獄已徹底凍結了。"
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "末日怒火",
+      "tips": null,
+      "description": "組合哥特之箭和黑樂譜。阿拉瑪利克的狙擊手們會降下箭雨，而在觸發暴擊的時候，其攻勢也會變得更加猛烈。"
+    },
+    "TP_VALMANWAY2": {
+      "name": "千刀萬剮",
+      "tips": null,
+      "description": "組合瓦爾曼威和千刃。斬擊永無止境。只要持續移動，斬擊的規模也會跟著變大。"
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "維哈亞姊妹",
+      "tips": null,
+      "description": "組合劍之兄弟和雷環。閃電會觸發劍本身的爆炸效果並為你帶來短暫的無敵效果。"
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "光之靈",
+      "tips": null,
+      "description": "組合召喚精靈和神授魔杖。自光之門發射追擊靈體。"
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "卡迪亞．弗萊格頓",
+      "tips": null,
+      "description": "組合靈氣爆發和地獄火。召喚超巨大的火山爆發。"
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "維納斯新月",
+      "tips": null,
+      "description": "組合召喚靈魂龍捲風和華月紋章。愛、美感與光明。"
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "里拉之力",
+      "tips": null,
+      "description": "組合靈魂偷取和饕惡魔眼。以永不滿足的貪欲來吞噬敵人。"
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "混沌符文",
+      "tips": null,
+      "description": "速度和效果持續時間的加成會提高影響命中範圍的數量。"
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "邪惡君主",
+      "tips": "需要（最高級）：咒縛盒。",
+      "description": "解放版的混沌符文。控制狂野的魔法力量。"
     }
   },
   "uk": {
@@ -27484,7 +29590,7 @@
     },
     "CART2EVO": {
       "name": "Кароцца!",
-      "description": "Еволюція Карело. Тривалість, швидкість й область впливають на шкоду. Рикошети впливають на кількість.",
+      "description": "Еволюція Карело. Тривалість, швидкість й область впливають на шкоду.",
       "tips": "Потребує: Тетрафорс."
     },
     "FLOWER2": {
@@ -28610,12 +30716,12 @@
     "TP_DEATHHAND": {
       "name": "Рука смерті",
       "tips": null,
-      "description": "Смертоносні цифри"
+      "description": "Смертельні цифри"
     },
     "TP_DRACULAHAND": {
       "name": "Рука Влада",
       "tips": null,
-      "description": "Закривавлені руки"
+      "description": "Криваві руки"
     },
     "EX_GAEA1": {
       "name": "Погляд Геї",
@@ -28991,6 +31097,168 @@
     },
     "D13_MADMOON": {
       "name": "Клич Скаженого місяця"
+    },
+    "LEM_INFERNO1": {
+      "name": "Пекеллатро",
+      "tips": null,
+      "description": "Створює область полум'я попереду. Шкода зростає із убивствами ворогів."
+    },
+    "LEM_INFERNO2": {
+      "name": "ПеревертоПекло",
+      "tips": "Потребує макс.: Зовнішній саботажник",
+      "description": "Еволюція Пекеллатро. Додає другу зону. Ефекти зон посилюються при поєднанні."
+    },
+    "LEM_BANANA1": {
+      "name": "Гро-Мішель",
+      "tips": null,
+      "description": "Кидає банани, що летять по спіралі, які можуть завдати критичної шкоди й вибухнути із шансом 1 до 6."
+    },
+    "LEM_BANANA2": {
+      "name": "Кавендіш",
+      "tips": "Потребує макс.: Зовнішній саботажник",
+      "description": "Еволюція Гро-Мішель. Завжди завдає критичної шкоди й вибухає. Інша зброя завдає критичні удари частіше."
+    },
+    "LEM_FIBONACCI1": {
+      "name": "Фібоначчі-спрітц",
+      "tips": null,
+      "description": "Створює спіральний струмінь газованої води. Є шанс на постріл іншою спорядженою зброєю.",
+      "customDescValue": "Шанс на постріл іншою зброєю — %0%."
+    },
+    "LEM_FIBONACCI2": {
+      "name": "Флеш-рояль",
+      "tips": "Потребує макс.: Зовнішній саботажник",
+      "description": "Еволюція Фібоначчі-спрітц. Є 55% шанс на постріл 1, 2, 3 або 5 іншими видами зброї."
+    },
+    "LEM_PLANETS1": {
+      "name": "Небесний прискорювач",
+      "tips": null,
+      "description": "Навколо вас починають літати планети. Шкода збільшується з кількістю зібраних монет у цьому забігу."
+    },
+    "LEM_PLANETS2": {
+      "name": "Негативний простір",
+      "tips": "Потребує макс.: Зовнішній саботажник",
+      "description": "Еволюція Небесного прискорювача. Відкриває таємні планети. Іноді планети стають негативними."
+    },
+    "LEM_ACC_SABOTEUR": {
+      "name": "Зовнішній саботажник",
+      "tips": "Снаряди поліпшуються залежно від кількості зібраних монет у цьому забігу.",
+      "description": "Дає золоті монети, а потім розпоряджається вашими заощадженнями не за призначенням.",
+      "customDescValue": "Отримано золотих монет: %0"
+    },
+    "EX_COINTOSS1": {
+      "name": "Соссольді",
+      "tips": "Може неправильно використовувати монети.",
+      "description": "Снаряди поліпшуються залежно від кількості зібраних монет у цьому забігу."
+    },
+    "TP_FROG": {
+      "name": "Анура",
+      "tips": null,
+      "description": "Викликає жаб, які завдають шкоди ворогам, коли стрибають."
+    },
+    "TP_FROG2": {
+      "name": "Темний жабоморфоз",
+      "tips": null,
+      "description": "Гібрид Анури й Пожирача душ. Може поїдати ворогів. Цілком."
+    },
+    "TP_FROG_COUNTER": {
+      "name": "Дзеркальна Анура",
+      "tips": null,
+      "description": "Викликає жаб, які завдають шкоди ворогам, коли стрибають."
+    },
+    "TP_POCKET1": {
+      "name": "Кишеньковий ніж",
+      "tips": null,
+      "description": "Кидає вперед недовговічний ніж."
+    },
+    "TP_POCKET2": {
+      "name": "Клейм Солайс",
+      "tips": null,
+      "description": "Еволюція Кишенькового ножа. Глобально збільш. силу, броню й крит. шкоду для кожного ворога в полі зору."
+    },
+    "TP_LAPISTE1": {
+      "name": "Кастет кайзера",
+      "tips": null,
+      "description": "Виконує серію ударів на близькій відстані."
+    },
+    "TP_LAPISTE2": {
+      "name": "Ляпісте-тепісто",
+      "tips": null,
+      "description": "Гібрид Кастета кайзера й Три-Браслета. Обрушує шквал кам'яних кулаків."
+    },
+    "TP_NEUTRON_WEAPON2": {
+      "name": "Криваве серце",
+      "tips": null,
+      "description": "Гібрид Тролиної бомби й НЕМАЄ МАЙБУТНЬОГО. Воно вже дійсно рикошетить."
+    },
+    "TP_SAVROG_WEAPON2": {
+      "name": "Ілюзія темряви",
+      "tips": null,
+      "description": "Гібрид Статуї Сварога й Тернів валькірії. Багряні клони танцюють із вами в полум'ї."
+    },
+    "TP_HYDROSTORM2": {
+      "name": "Гідропомпа «Апогей»",
+      "tips": null,
+      "description": "Гібрид Гідрошторма й La Borra. Не буває дощу без зливи."
+    },
+    "TP_GRANDCROSS2": {
+      "name": "Архікутник",
+      "tips": null,
+      "description": "Гібрид Великого хреста й Небесного меча. Центральний луч пульсує, коли крізь нього пролітають хрести."
+    },
+    "TP_DARKRIFT2": {
+      "name": "Спадщина Смерті: Ріка душ",
+      "tips": null,
+      "description": "Гібрид Темного розлому й Смертельної спіралі. Смерть прийде за тобою."
+    },
+    "TP_ICEBRAND2": {
+      "name": "Дев'яте Коло",
+      "tips": null,
+      "description": "Гібрид Крижаного клинка й Нечестивих псалмів. Пекло справді замерзле."
+    },
+    "TP_GOTH_MISSILE2": {
+      "name": "День гніву",
+      "tips": null,
+      "description": "Гібрид Готської стріли й Манаджи. Готи-лучники поливають ворогів стрілами, а при критичних ударах з'являється ще більше стріл."
+    },
+    "TP_VALMANWAY2": {
+      "name": "Мільйон порізів",
+      "tips": null,
+      "description": "Гібрид Валманвея й Тисячі лез. Постійно ріже. Збільшується в розмірах при безперервному русі."
+    },
+    "TP_SWORD_BROTHERS2": {
+      "name": "Сестри Вджайя",
+      "tips": null,
+      "description": "Гібрид Братів меча й Грозової петлі. Блискавка змушує меч вибухати, а також надає тимчасову невразливість."
+    },
+    "TP_SUMMON_SPIRIT2": {
+      "name": "Дух світла",
+      "tips": null,
+      "description": "Гібрид Виклику духів і Священного жезла. Запускає з порталу світла духів, які самі шукають ціль."
+    },
+    "TP_AURABLAST_WEAPON2": {
+      "name": "Кардія-на-Флегетоні",
+      "tips": null,
+      "description": "Гібрид Вибуху аури й Пекельного полум'я. Викликає масштабне виверження вулкана."
+    },
+    "TP_SPIRITTORNADO2": {
+      "name": "Півмісяць Венери",
+      "tips": null,
+      "description": "Гібрид Виклику торнадо духів і Бучного Місяця. Любов, краса та світло."
+    },
+    "TP_SOULSTEAL_WEAPON2": {
+      "name": "Сила золота",
+      "tips": null,
+      "description": "Гібрид Викрадача душ і Лютого голоду. Поглинає ворогів з невгамовною жадобою."
+    },
+    "FOLLOWER_KNIFE1": {
+      "name": "Руна Хаосу",
+      "tips": null,
+      "description": "Швидкість і тривалість натомість впливають на к-сть боєзапасу."
+    },
+    "FOLLOWER_KNIFE2": {
+      "name": "Злий правитель",
+      "tips": "Потребує макс.: Заклинач.",
+      "description": "Еволюція Руни Хаосу. Керує дикими магічними силами."
     }
   }
 }

@@ -1541,5 +1541,57 @@
       "amount": 1,
       "max": 20
     }
+  ],
+  "FOLLOWER_KNIFE1": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "FOLLOWER_KNIFE2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
   ]
 }

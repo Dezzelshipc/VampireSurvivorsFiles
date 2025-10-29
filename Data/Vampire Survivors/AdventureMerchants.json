@@ -111,7 +111,8 @@
       "GUNS",
       "GUNS2",
       "AXE",
-      "TRAPANO"
+      "TRAPANO",
+      "EX_AMMO1"
     ]
   },
   "POPPEA": {
@@ -142,7 +143,8 @@
       "PENTAGRAM",
       "FIREBALL",
       "LIGHTNING",
-      "BATTILIA"
+      "BATTILIA",
+      "EX_MAGISTONE1"
     ]
   },
   "AMBROGIO": {
@@ -181,6 +183,10 @@
     "portraitSpriteTexture": "UI",
     "staticSprite": "Xanthia_01",
     "staticSpriteTexture": "character_xanthia",
+	"bodyOffset": {
+      "x": 0,
+      "y": 16
+    },
     "textLocKey": "adv_merc_MARIASOFIA",
     "merchantInventory": [
       "VICTORY",
@@ -194,7 +200,7 @@
     "staticSprite": "McCoy_i01",
     "staticSpriteTexture": "character_mccoy",
     "textLocKey": "adv_merc_TONY",
-    "DLC": "Moonspell",
+    "DLC": ["Moonspell"],
     "merchantInventory": [
       "SILVERWIND",
       "FOURSEASONS",
@@ -212,7 +218,7 @@
     "staticSprite": "Sammy_i01",
     "staticSpriteTexture": "character_sammy",
     "textLocKey": "adv_merc_CTRPCAKE",
-    "DLC": "Foscari",
+    "DLC": ["Foscari"],
     "merchantInventory": [
       "SPELL_STRING",
       "SPELL_STREAM",
@@ -231,7 +237,7 @@
     "staticSprite": "C01Horse_01",
     "staticSpriteTexture": "character_c01horse",
     "textLocKey": "adv_merc_C1_HORSE",
-    "DLC": "Chalcedony",
+    "DLC": ["Chalcedony"],
     "merchantInventory": [
       "C1_REPORT1",
       "C1_SWIPECARD1",
@@ -258,7 +264,7 @@
     "staticSprite": "Simondo_i01",
     "staticSpriteTexture": "character_simondo",
     "textLocKey": "adv_merc_FB_SIMONDO",
-    "DLC": "FirstBlood",
+    "DLC": ["FirstBlood"],
     "merchantInventory": [
       "FB_FULLAUTO",
       "FB_RAPIDFIRE",
@@ -281,7 +287,7 @@
     "staticSprite": "TP_Librarian_i01",
     "staticSpriteTexture": "character_tp_librarian",
     "textLocKey": "adv_merc_TP_LIBRARIAN",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_VALMANWAY",
       "TP_ICEBRAND",
@@ -305,7 +311,7 @@
     "staticSprite": "TP_Sonia_i01",
     "staticSpriteTexture": "character_tp_sonia",
     "textLocKey": "adv_merc_TP_SONIA",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_ALCHEMYWHIP1",
       "TP_SONICWHIP1",
@@ -324,7 +330,7 @@
     "staticSprite": "TP_Hammer_i01",
     "staticSpriteTexture": "character_tp_hammer",
     "textLocKey": "adv_merc_TP_HAMMER",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_BWAKA1",
       "TP_SHURIKEN1",
@@ -343,7 +349,7 @@
     "staticSprite": "TP_Julia_i01",
     "staticSpriteTexture": "character_tp_julia",
     "textLocKey": "adv_merc_TP_JULIA",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_FIRE1",
       "TP_ICE1",
@@ -362,7 +368,7 @@
     "staticSprite": "TP_Vincent_i01",
     "staticSpriteTexture": "character_tp_vincent",
     "textLocKey": "adv_merc_TP_VINCENT",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_ALUCARDSWORD1",
       "TP_SLASH1",
@@ -381,7 +387,7 @@
     "staticSprite": "TP_Albus_i01",
     "staticSpriteTexture": "character_tp_albus",
     "textLocKey": "adv_merc_TP_ALBUS",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_CONFODERE1",
       "TP_SPITE1",
@@ -404,7 +410,7 @@
     "staticSprite": "TP_Hector_i01",
     "staticSpriteTexture": "character_tp_hector",
     "textLocKey": "adv_merc_TP_HECTOR",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_MORNINGSTAR",
       "TP_SPELLBOOK",
@@ -421,7 +427,7 @@
     "staticSprite": "TP_Elizabeth_i01",
     "staticSpriteTexture": "character_tp_elizabeth",
     "textLocKey": "adv_merc_TP_ELIZABETH",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_GEARS_WEAPON",
       "TP_PENDULUM_WEAPON",
@@ -436,7 +442,7 @@
     "staticSprite": "eme_mrs_i01",
     "staticSpriteTexture": "character_eme_mrs",
     "textLocKey": "adv_merc_MRS",
-    "DLC": "Emeralds",
+    "DLC": ["Emeralds"],
     "merchantInventory": [
       "EME_RAPIER1",
       "EME_LONGSWORD1",

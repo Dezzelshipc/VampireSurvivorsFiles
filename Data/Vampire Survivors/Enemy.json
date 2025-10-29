@@ -488,7 +488,9 @@
       "idleFrameCount": 4,
       "frameNames": [
         "Skelegem_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "GHOST": [
@@ -13099,7 +13101,13 @@
       "end": 15,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_JELLYBAG_GREEN",
+        "EX_JELLYBAG_PURPLE"
+      ]
     }
   ],
   "EX_JELLYBAG_GREEN": [
@@ -13171,7 +13179,9 @@
       "end": 29,
       "frameNames": [
         "XLDragonGoldFlag_0.png"
-      ]
+      ],
+      "bInclude": false,
+      "bHighlight": false
     }
   ],
   "EX_XLDRAGON_GOLD_FLAG": [
@@ -13221,7 +13231,9 @@
       "idleFrameCount": 4,
       "frameNames": [
         "XLMantisGold_0.png"
-      ]
+      ],
+      "bInclude": false,
+      "bHighlight": false
     }
   ],
   "EX_SHOOTING_ENEMIES_COUNTER": [
@@ -13302,13 +13314,18 @@
       ],
       "bName": "Knight of Spades",
       "bDesc": "",
-      "bInclude": true,
+      "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
         "radius": 0.36,
         "offsetY": -5,
         "offsetX": 6
-      }
+      },
+      "bVariants": [
+        "EX_SPADEKNIGHT2",
+        "EX_BOSS_SPADEKNIGHT",
+        "EX_BOSS_SPADEKNIGHT2"
+      ]
     }
   ],
   "EX_SPADEKNIGHT2": [
@@ -13332,7 +13349,7 @@
       ],
       "bName": "Knight of Spades",
       "bDesc": "",
-      "bInclude": true,
+      "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
         "radius": 0.36,
@@ -13428,7 +13445,9 @@
       "end": 13,
       "frameNames": [
         "Barm_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_CASINOGHOUL": [
@@ -13448,7 +13467,9 @@
       "frameNames": [
         "CasinUgul_D_0.png",
         "CasinUgul_H_0.png"
-      ]
+      ],
+      "bInclude": false,
+      "bHighlight": false
     }
   ],
   "EX_CLUBBIE": [
@@ -13469,7 +13490,9 @@
       "end": 14,
       "frameNames": [
         "ClubbieP_0.png"
-      ]
+      ],
+      "bInclude": false,
+      "bHighlight": false
     }
   ],
   "EX_DANDYBRINE": [
@@ -13494,7 +13517,9 @@
       "end": 17,
       "frameNames": [
         "Dandybrine_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_DAIMON": [
@@ -13522,7 +13547,9 @@
       "end": 17,
       "frameNames": [
         "DiamonP_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_GAMBERGAR": [
@@ -13541,7 +13568,9 @@
       "end": 17,
       "frameNames": [
         "Gambergar_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_GAMBLIN": [
@@ -13560,6 +13589,11 @@
       "end": 29,
       "frameNames": [
         "GamblinY_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_GAMBLIN2"
       ]
     }
   ],
@@ -13600,7 +13634,9 @@
       "end": 15,
       "frameNames": [
         "JastorP_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_JASTOR_PATROL": [
@@ -13645,7 +13681,9 @@
       "end": 16,
       "frameNames": [
         "RouletteMush1_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_TOLL2": [
@@ -13664,7 +13702,9 @@
       "end": 29,
       "frameNames": [
         "Toll2O_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_VALENTINE": [
@@ -13691,7 +13731,9 @@
       "end": 16,
       "frameNames": [
         "Valentin_0.png"
-      ]
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_SQUILLER_1": [
@@ -13716,6 +13758,12 @@
       "end": 10,
       "frameNames": [
         "Squiller2_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_SQUILLER_2",
+        "EX_SQUILLER_COMBO"
       ]
     }
   ],
@@ -13876,7 +13924,9 @@
       "end": 15,
       "idleFrameCount": 4,
       "textureName": "enemies2025",
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "EX_CHARGER": [
@@ -13924,8 +13974,12 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_CHARGER_RED_S",
+        "EX_CHARGER_YELLOW_S"
+      ]
     }
   ],
   "EX_JOYATAURO": [
@@ -13948,8 +14002,12 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_CHARGER_RED_M",
+        "EX_CHARGER_YELLOW_M"
+      ]
     }
   ],
   "EX_MEANATAUR": [
@@ -13972,8 +14030,12 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_CHARGER_RED_L",
+        "EX_CHARGER_YELLOW_L"
+      ]
     }
   ],
   "EX_17COLOSSUS_BURIED": [
@@ -14044,7 +14106,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "colliderOverride": {
         "radius": 0.425,

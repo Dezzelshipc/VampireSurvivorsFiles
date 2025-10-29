@@ -1553,7 +1553,7 @@
       ],
       "evoInto": "TRAPANO2",
       "hitVFX": "Dark",
-      "poolLimit": 100,
+      "poolLimit": 200,
       "rarity": 50,
       "interval": 6000,
       "repeatInterval": 300,
@@ -1608,7 +1608,7 @@
       ],
       "hitVFX": "Fire",
       "isEvolution": true,
-      "poolLimit": 100,
+      "poolLimit": 200,
       "rarity": 1,
       "interval": 6000,
       "repeatInterval": 300,
@@ -5287,4 +5287,180 @@
       "hitsWalls": false
     }
   ],
+  "EX_COINTOSS1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_COINTOSS1",
+      "price": 2,
+      "name": "Sossoldi",
+      "description": ".",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "CoinGold.png",
+      "isUnlocked": false,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 180,
+      "power": 0.65,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.0,
+      "critMul": 1
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "penetrating": 2,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "penetrating": 2,
+      "repeatInterval": -20
+    }
+  ],
+  "EX_RUMBA1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_RUMBA1",
+      "price": 10,
+      "name": "Rumba",
+      "description": "Pulls pickups and light sources.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "Knife.png",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "poolLimit": 70,
+      "rarity": 0,
+      "interval": 100,
+      "repeatInterval": 100,
+      "power":        0,
+      "area":         1,
+      "speed":        1,
+      "amount":       1,
+      "penetrating":  1,
+      "duration":     200,
+      "knockback": 0,
+      "critChance": 0,
+      "critMul": 1
+    }
+  ],
+  "FOLLOWER_KNIFE1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FOLLOWER_KNIFE1",
+      "price": 800,
+      "name": "Grant Knife",
+      "description": ".",
+      "tips": ".",
+      "texture": "UI",
+      "frameName": "SkillIcon_1.png",
+      "evoSynergy": [
+        "DURATION"
+      ],
+      "evoInto": "FOLLOWER_KNIFE2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 50,
+      "rarity": 40,
+      "interval": 3000,
+      "repeatInterval": 250,
+      "hitBoxDelay" : 30,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "FOLLOWER_KNIFE2"
+    }
+  ],
+  "FOLLOWER_KNIFE2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FOLLOWER_KNIFE2",
+      "name": ".",
+      "description": ".",
+      "tips": ".",
+      "texture": "UI",
+      "frameName": "SkillIcon_2.png",
+      "isEvolution": true,
+      "isUnlocked": false,
+      "hidden": true,
+      "evolvesFrom": [
+        "FOLLOWER_KNIFE1"
+      ],
+      "requires": [
+        "DURATION"
+      ],
+      "requiresMax": [
+        "DURATION"
+      ],
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 250,
+      "hitBoxDelay" : 30,
+      "power": 2.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 300,
+      "hitsWalls": false,
+      "penetrating": 3
+    }
+  ]
 }

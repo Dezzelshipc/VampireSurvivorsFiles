@@ -22,8 +22,12 @@
     "ErrorAlreadyInGameDesc": "Cannot create a new game while already in one",
     "ErrorCreateGameFailedDesc": "Failed to create game",
     "ErrorNoGameWithIDDesc": "There is no game with the given ID",
-    "ErrorGameFullDesc": "The game with the given ID is full",
-    "InGameErrorTitle": "Error"
+    "ErrorGameFullDesc": "There is no game with the given ID or the game is full",
+    "InGameErrorTitle": "Error",
+    "DeathCameraSwitch": "PRESS ANY BUTTON TO SWITCH PLAYER",
+    "DeathCameraSwitch_Nintendo": "PRESS ANY BUTTON TO SWITCH PLAYER",
+    "DeathCameraSwitch_PS5": "PRESS ANY BUTTON TO SWITCH PLAYER",
+    "Invite": "Invite Players"
   },
   "fr": {
     "Online": "En ligne",
@@ -48,8 +52,12 @@
     "ErrorAlreadyInGameDesc": "Impossible de créer une nouvelle partie lorsque vous êtes déjà dans une autre partie.",
     "ErrorCreateGameFailedDesc": "Échec de création de la partie",
     "ErrorNoGameWithIDDesc": "Il n'existe aucune partie avec cet identifiant",
-    "ErrorGameFullDesc": "La partie avec cet identifiant est complète.",
-    "InGameErrorTitle": "Erreur"
+    "ErrorGameFullDesc": "Il n'y a aucune partie avec cet identifiant ou bien la session est complète.",
+    "InGameErrorTitle": "Erreur",
+    "DeathCameraSwitch": "APPUYEZ SUR N'IMPORTE QUELLE TOUCHE POUR CHANGER DE JOUEUR",
+    "DeathCameraSwitch_Nintendo": "APPUYEZ SUR N'IMPORTE QUEL BOUTON POUR CHANGER DE JOUEUR",
+    "DeathCameraSwitch_PS5": "APPUYEZ SUR N'IMPORTE QUELLE TOUCHE POUR CHANGER DE JOUEUR",
+    "Invite": "Invite Players"
   },
   "it": {
     "Online": "Online",
@@ -74,8 +82,12 @@
     "ErrorAlreadyInGameDesc": "Impossibile creare una nuova partita se ne esiste già una in corso.",
     "ErrorCreateGameFailedDesc": "Impossibile creare la partita.",
     "ErrorNoGameWithIDDesc": "Non esiste alcuna partita per l'ID specificato.",
-    "ErrorGameFullDesc": "La partita relativa all'ID specificato è al completo.",
-    "InGameErrorTitle": "Errore"
+    "ErrorGameFullDesc": "La partita relativa all'ID specificato è al completo o inesistente",
+    "InGameErrorTitle": "Errore",
+    "DeathCameraSwitch": "PREMI UN PULSANTE QUALSIASI PER CAMBIARE GIOCATORE",
+    "DeathCameraSwitch_Nintendo": "PREMI UN PULSANTE QUALSIASI PER CAMBIARE GIOCATORE",
+    "DeathCameraSwitch_PS5": "PREMI UN PULSANTE QUALSIASI PER CAMBIARE GIOCATORE",
+    "Invite": "Invite Players"
   },
   "de": {
     "Online": "Online",
@@ -100,8 +112,12 @@
     "ErrorAlreadyInGameDesc": "Du kannst kein Spiel erstellen, wenn du bereits in einem Spiel bist.",
     "ErrorCreateGameFailedDesc": "Das Spiel konnte nicht erstellt werden.",
     "ErrorNoGameWithIDDesc": "Es existiert kein Spiel mit dieser ID.",
-    "ErrorGameFullDesc": "Das Spiel mit dieser ID ist voll.",
-    "InGameErrorTitle": "Fehler"
+    "ErrorGameFullDesc": "Es existiert kein Spiel mit dieser ID oder das Spiel ist voll.",
+    "InGameErrorTitle": "Fehler",
+    "DeathCameraSwitch": "SPIELER WECHSELN: BELIEBIGE TASTE DRÜCKEN",
+    "DeathCameraSwitch_Nintendo": "SPIELER WECHSELN: BELIEBIGEN KNOPF DRÜCKEN",
+    "DeathCameraSwitch_PS5": "SPIELER WECHSELN: BELIEBIGE TASTE DRÜCKEN",
+    "Invite": "Invite Players"
   },
   "es": {
     "Online": "En línea",
@@ -126,8 +142,12 @@
     "ErrorAlreadyInGameDesc": "No se puede crear una partida nueva cuando ya estás en una.",
     "ErrorCreateGameFailedDesc": "Error al crear partida.",
     "ErrorNoGameWithIDDesc": "No existe ninguna partida con el ID introducido.",
-    "ErrorGameFullDesc": "La partida del ID introducido está llena.",
-    "InGameErrorTitle": "Error"
+    "ErrorGameFullDesc": "No hay ninguna partida con el ID introducido o la partida está llena.",
+    "InGameErrorTitle": "Error",
+    "DeathCameraSwitch": "PULSA UN BOTÓN PARA CAMBIAR DE JUGADOR",
+    "DeathCameraSwitch_Nintendo": "PULSA UN BOTÓN PARA CAMBIAR DE JUGADOR",
+    "DeathCameraSwitch_PS5": "PULSA UN BOTÓN PARA CAMBIAR DE JUGADOR",
+    "Invite": "Invite Players"
   },
   "pt-BR": {
     "Online": "On-line",
@@ -152,8 +172,12 @@
     "ErrorAlreadyInGameDesc": "Você já está em um jogo e não pode criar outro.",
     "ErrorCreateGameFailedDesc": "Falha ao criar jogo",
     "ErrorNoGameWithIDDesc": "Não existe um jogo com essa ID",
-    "ErrorGameFullDesc": "O jogo com essa ID está cheio",
-    "InGameErrorTitle": "Erro"
+    "ErrorGameFullDesc": "Não existe um jogo com essa ID ou ele está cheio",
+    "InGameErrorTitle": "Erro",
+    "DeathCameraSwitch": "PRESSIONE QUALQUER BOTÃO PARA TROCAR JOGADOR",
+    "DeathCameraSwitch_Nintendo": "PRESSIONE QUALQUER BOTÃO PARA TROCAR JOGADOR",
+    "DeathCameraSwitch_PS5": "PRESSIONE QUALQUER BOTÃO PARA TROCAR JOGADOR",
+    "Invite": "Invite Players"
   },
   "pl": {
     "Online": "Online",
@@ -178,8 +202,12 @@
     "ErrorAlreadyInGameDesc": "Nie można utworzyć nowej gry, będąc w innej grze",
     "ErrorCreateGameFailedDesc": "Nie udało się utworzyć gry",
     "ErrorNoGameWithIDDesc": "Gra o podanym ID nie istnieje",
-    "ErrorGameFullDesc": "Gra o podanym ID jest pełna",
-    "InGameErrorTitle": "Błąd"
+    "ErrorGameFullDesc": "Gra o podanym ID nie istnieje lub jest pełna",
+    "InGameErrorTitle": "Błąd",
+    "DeathCameraSwitch": "NACIŚNIJ DOWOLNY PRZYCISK, ABY ZMIENIĆ GRACZA",
+    "DeathCameraSwitch_Nintendo": "NACIŚNIJ DOWOLNY PRZYCISK, ABY ZMIENIĆ GRACZA",
+    "DeathCameraSwitch_PS5": "NACIŚNIJ DOWOLNY PRZYCISK, ABY ZMIENIĆ GRACZA",
+    "Invite": "Invite Players"
   },
   "ru": {
     "Online": "Онлайн",
@@ -204,8 +232,12 @@
     "ErrorAlreadyInGameDesc": "Нельзя создать новую игру во время текущего сеанса",
     "ErrorCreateGameFailedDesc": "Не удалось создать игру",
     "ErrorNoGameWithIDDesc": "Игры с указанным ID не существует",
-    "ErrorGameFullDesc": "В игре с указанным ID нет свободного места",
-    "InGameErrorTitle": "Ошибка"
+    "ErrorGameFullDesc": "В игре с указанным ID нет свободного места или игра не существует",
+    "InGameErrorTitle": "Ошибка",
+    "DeathCameraSwitch": "НАЖМИТЕ ЛЮБУЮ КНОПКУ, ЧТОБЫ СМЕНИТЬ ИГРОКА",
+    "DeathCameraSwitch_Nintendo": "НАЖМИТЕ ЛЮБУЮ КНОПКУ, ЧТОБЫ СМЕНИТЬ ИГРОКА",
+    "DeathCameraSwitch_PS5": "НАЖМИТЕ ЛЮБУЮ КНОПКУ, ЧТОБЫ СМЕНИТЬ ИГРОКА",
+    "Invite": "Invite Players"
   },
   "tr": {
     "Online": "Çevrim İçi",
@@ -230,8 +262,12 @@
     "ErrorAlreadyInGameDesc": "Zaten bir oyundayken yeni bir oyun oluşturamazsın",
     "ErrorCreateGameFailedDesc": "Oyun oluşturulamadı",
     "ErrorNoGameWithIDDesc": "Bu Numaraya sahip oyun bulunamadı",
-    "ErrorGameFullDesc": "Bu Numaraya sahip oyunda yer yok",
-    "InGameErrorTitle": "Hata"
+    "ErrorGameFullDesc": "Bu ID'ye sahip bir oyun bulunamadı ya da oyunda yer yok",
+    "InGameErrorTitle": "Hata",
+    "DeathCameraSwitch": "OYUNCU DEĞİŞTİRMEK İÇİN BİR DÜĞMEYE BAS",
+    "DeathCameraSwitch_Nintendo": "OYUNCU DEĞİŞTİRMEK İÇİN BİR TUŞA BAS",
+    "DeathCameraSwitch_PS5": "OYUNCU DEĞİŞTİRMEK İÇİN BİR DÜĞMEYE BAS",
+    "Invite": "Invite Players"
   },
   "zh-CN": {
     "Online": "在线",
@@ -256,8 +292,12 @@
     "ErrorAlreadyInGameDesc": "无法创建新游戏，因为已在游戏中",
     "ErrorCreateGameFailedDesc": "创建游戏失败",
     "ErrorNoGameWithIDDesc": "未发现符合此ID的游戏",
-    "ErrorGameFullDesc": "此ID的游戏已满",
-    "InGameErrorTitle": "错误"
+    "ErrorGameFullDesc": "未发现符合此ID的游戏或游戏已满",
+    "InGameErrorTitle": "错误",
+    "DeathCameraSwitch": "按任意按钮切换玩家",
+    "DeathCameraSwitch_Nintendo": "按任意键切换玩家",
+    "DeathCameraSwitch_PS5": "按任意按钮切换玩家",
+    "Invite": "Invite Players"
   },
   "ja": {
     "Online": "オンライン",
@@ -282,8 +322,12 @@
     "ErrorAlreadyInGameDesc": "ゲーム参加中に、新規でゲームを作成することはできません",
     "ErrorCreateGameFailedDesc": "ゲーム作成に失敗しました",
     "ErrorNoGameWithIDDesc": "入力したIDのゲームはありません",
-    "ErrorGameFullDesc": "入力されたIDのゲームは満員です",
-    "InGameErrorTitle": "エラー"
+    "ErrorGameFullDesc": "入力されたIDのゲームは存在しないか、参加人数が上限に達しています",
+    "InGameErrorTitle": "エラー",
+    "DeathCameraSwitch": "任意のボタンでプレイヤー切り替え",
+    "DeathCameraSwitch_Nintendo": "任意のボタンでプレイヤー切り替え",
+    "DeathCameraSwitch_PS5": "任意のボタンでプレイヤー切り替え",
+    "Invite": "Invite Players"
   },
   "ko": {
     "Online": "온라인",
@@ -308,8 +352,12 @@
     "ErrorAlreadyInGameDesc": "이미 하나의 게임이 있다면 새로운 게임을 생성할 수 없습니다.",
     "ErrorCreateGameFailedDesc": "게임을 생성할 수 없습니다.",
     "ErrorNoGameWithIDDesc": "주어진 ID의 게임이 없습니다",
-    "ErrorGameFullDesc": "주어진 ID의 게임이 가득 찼습니다",
-    "InGameErrorTitle": "오류"
+    "ErrorGameFullDesc": "주어진 ID의 게임이 존재하지 않거나 가득 찼습니다",
+    "InGameErrorTitle": "오류",
+    "DeathCameraSwitch": "아무 버튼이나 눌러 플레이어를 전환하세요",
+    "DeathCameraSwitch_Nintendo": "아무 버튼이나 눌러 플레이어를 전환하세요",
+    "DeathCameraSwitch_PS5": "아무 버튼이나 눌러 플레이어를 전환하세요",
+    "Invite": "Invite Players"
   },
   "zh-TW": {
     "Online": "線上",
@@ -334,8 +382,12 @@
     "ErrorAlreadyInGameDesc": "無法在遊玩的過程中另外建立全新的遊戲階段",
     "ErrorCreateGameFailedDesc": "未能成功建立遊戲階段",
     "ErrorNoGameWithIDDesc": "沒有找到與該組 ID 相符合的遊戲階段",
-    "ErrorGameFullDesc": "與該組 ID 相符合之遊戲階段的玩家人數已滿載",
-    "InGameErrorTitle": "錯誤"
+    "ErrorGameFullDesc": "沒有符合此 ID 的遊戲，或遊戲室已滿。",
+    "InGameErrorTitle": "錯誤",
+    "DeathCameraSwitch": "按下任意按鍵以切換不同玩家的視角",
+    "DeathCameraSwitch_Nintendo": "按下任意按鍵以切換不同玩家的視角",
+    "DeathCameraSwitch_PS5": "按下任意按鍵以切換不同玩家的視角",
+    "Invite": "Invite Players"
   },
   "uk": {
     "Online": "У мережі",
@@ -360,7 +412,11 @@
     "ErrorAlreadyInGameDesc": "Неможливо створити нову гру, якщо вже є інша",
     "ErrorCreateGameFailedDesc": "Не вдалося створити гру",
     "ErrorNoGameWithIDDesc": "Гри з вказаним ID не існує",
-    "ErrorGameFullDesc": "У грі з вказаним ID немає вільного місця",
-    "InGameErrorTitle": "Помилка"
+    "ErrorGameFullDesc": "При заповнені гри з вказаним ID немає вільного місця",
+    "InGameErrorTitle": "Помилка",
+    "DeathCameraSwitch": "НАТИСНІТЬ БУДЬ-ЯКУ КНОПКУ ДЛЯ ПЕРЕМИКАННЯ МІЖ ГРАВЦЯМИ",
+    "DeathCameraSwitch_Nintendo": "НАТИСНІТЬ БУДЬ-ЯКУ КНОПКУ ДЛЯ ПЕРЕМИКАННЯ МІЖ ГРАВЦЯМИ",
+    "DeathCameraSwitch_PS5": "НАТИСНІТЬ БУДЬ-ЯКУ КНОПКУ ДЛЯ ПЕРЕМИКАННЯ МІЖ ГРАВЦЯМИ",
+    "Invite": "Invite Players"
   }
 }

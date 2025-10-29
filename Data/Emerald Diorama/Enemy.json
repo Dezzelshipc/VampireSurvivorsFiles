@@ -34,7 +34,8 @@
         "EME_CALAMITY_U",
         "EME_CALAMITY_R",
         "EME_CALAMITY_W",
-        "EME_CALAMITY_Y"
+        "EME_CALAMITY_Y",
+        "EME_CALAMITY_SWARM"
       ]
     }
   ],
@@ -210,7 +211,7 @@
   "EME_GATEBOSS_DRAGON": [
     {
       "level": 1,
-      "maxHp": 15,
+      "maxHp": 18,
       "speed": 140,
       "power": 5,
       "knockback": 0,
@@ -824,7 +825,7 @@
   "EME_GATEBOSS_SPECTER": [
     {
       "level": 1,
-      "maxHp": 100,
+      "maxHp": 70,
       "scale": 1.5,
       "skills": [
         0
@@ -862,7 +863,7 @@
   "EME_GATEBOSS_IRONMAIDEN": [
     {
       "level": 1,
-      "maxHp": 100,
+      "maxHp": 70,
       "scale": 1.5,
       "skills": [
         0
@@ -926,7 +927,7 @@
   "EME_GATEBOSS_LIVINGANGUISH": [
     {
       "level": 1,
-      "maxHp": 255,
+      "maxHp": 128,
       "scale": 1.5,
       "skills": [
         0
@@ -1501,7 +1502,7 @@
         ]
       }
     ],
-    "EME_SUSPICIOUS_OGRE": [
+  "EME_SUSPICIOUS_OGRE": [
       {
         "level": 1,
         "res_Freeze": 1.1,
@@ -1533,7 +1534,7 @@
         ]
       }
     ],
-    "EME_BOSS_CURSEDMONARCH": [
+  "EME_BOSS_CURSEDMONARCH": [
       {
         "level": 1,
         "maxHp": 40,

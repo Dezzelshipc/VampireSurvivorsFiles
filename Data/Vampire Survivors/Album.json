@@ -150,11 +150,17 @@
       "BGM_TP_VS_SimonTheme",
       "BGM_TP_VS_SuccessorOfFate",
       "BGM_TP_VS_AnEmptyTome",
+      "BGM_TP_VS_OutOfTime",
+      "BGM_TP_VS_TreasuryRoom",
+      "BGM_TP_VS_C64Medley",
       "BGM_TP_VS_BlackDisk",
       
       "BGM_TP_VS_MoonlightNocturne",
       "BGM_TP_VS_LostPainting",
       "BGM_TP_VS_DanceOfPearls",
+      "BGM_TP_VS_DanceOfGold",
+      "BGM_TP_VS_WanderingGhosts",
+      "BGM_TP_VS_RuinedCastleCorridor",
       "BGM_TP_VS_PitchBlackIntrusion",
       "BGM_TP_VS_DraculasTears",
       "BGM_TP_VS_AmberScenery",
@@ -165,18 +171,24 @@
       "BGM_TP_VS_WanderingTheCrystalBlue",
       "BGM_TP_VS_JawsOfAScorchedEarth",
       "BGM_TP_VS_ChapelHiddenInSmoke",
+      "BGM_TP_VS_ClockWork",
+      "BGM_TP_VS_NewMessiah",
       "BGM_TP_VS_AbandonedCastle",
       "BGM_TP_VS_BaljhetMountaint",
       "BGM_TP_VS_EneomaosMachineTower",
+      "BGM_TP_VS_YoungNoblemanOfMadness",
       "BGM_TP_VS_SarabandeOfHealing",
       "BGM_TP_VS_WoodCarvingPartita",
 
       "BGM_TP_VS_LeonsTheme",
+      "BGM_TP_VS_AntiSoulMysteriesLab",
       "BGM_TP_VS_MadForest",
       "BGM_TP_VS_BloodlinesBequeathed",
       "BGM_TP_VS_ReincarnatedSoul",
       "BGM_TP_VS_TheSinkingOldSanctuary",
       "BGM_TP_VS_IronBlueIntention",
+      "BGM_TP_VS_DiscoloredWall",
+      "BGM_TP_VS_CallingFromHeaven",
       "BGM_TP_VS_HeartOfFire",
       "BGM_TP_VS_InvitationOfACrazedMoon",
       "BGM_TP_VS_VictorianFear",
@@ -271,6 +283,15 @@
       "BGM_EME_FIERCE",
       "BGM_EME_ODDS",
       "BGM_EME_WORLD"
+    ]
+  },
+  "Lemon": {
+    "isUnlocked": true,
+    "title": "Ante Chamber",
+    "icon": "VS_InGame_Album_Friends.png",
+    "contentGroupType" : "LEMON",
+    "trackList" : [
+      "BGM_LEM_CHAMBER"
     ]
   }
 }

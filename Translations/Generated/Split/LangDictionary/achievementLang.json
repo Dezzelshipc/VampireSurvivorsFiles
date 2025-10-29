@@ -2765,7 +2765,7 @@
       "ru": "Победите 100 000 врагов за один заход со Сьюто Луночаром.",
       "tr": "Syuuto Aybüyüsü ile tek seferde 100000 düşman öldür.",
       "zh-CN": "在一轮游戏中， 使用月咒脩杜击败100000名敌人。",
-      "ja": "メンヤ・ムーンスペルで100,000体の敵を1回のプレイで倒す。",
+      "ja": "シュウト・ムーンスペルで100,000体の敵を1回のプレイで倒す。",
       "ko": "슈토 문스펠로 한 게임에서 적을 100000명 처치합니다.",
       "zh-TW": "在單次闖關中，使用月咒脩杜擊敗 100,000 名敵人。",
       "uk": "Здолайте 100 000 ворогів за один забіг за Сьюто Місячночар."
@@ -4862,19 +4862,19 @@
   "CompleteAdv_OdeToCastlevania": {
     "description": {
       "en": "Complete once the adventure Ode to Castlevania.",
-      "fr": "Complete once the adventure Ode to Castlevania.",
-      "it": "Complete once the adventure Ode to Castlevania.",
-      "de": "Complete once the adventure Ode to Castlevania.",
-      "es": "Complete once the adventure Ode to Castlevania.",
-      "pt-BR": "Complete once the adventure Ode to Castlevania.",
-      "pl": "Complete once the adventure Ode to Castlevania.",
-      "ru": "Complete once the adventure Ode to Castlevania.",
-      "tr": "Complete once the adventure Ode to Castlevania.",
-      "zh-CN": "Complete once the adventure Ode to Castlevania.",
-      "ja": "Complete once the adventure Ode to Castlevania.",
-      "ko": "Complete once the adventure Ode to Castlevania.",
-      "zh-TW": "Complete once the adventure Ode to Castlevania.",
-      "uk": "Complete once the adventure Ode to Castlevania."
+      "fr": "Terminez l'aventure « Ode à Castlevania » une fois.",
+      "it": "Completa una volta l'avventura Ode a Castlevania.",
+      "de": "Schließe das Abeneuer \"Ode an Castlevania\" einmal ab.",
+      "es": "Completa una vez la aventura «Oda a Castlevania».",
+      "pt-BR": "Conclua uma vez a aventura Ode to Castlevania.",
+      "pl": "Ukończ raz przygodę Oda do Castlevanii.",
+      "ru": "Завершите «Оду Кастлвании» один раз.",
+      "tr": "Castlevania'ya Övgü macerasını bir kez tamamla.",
+      "zh-CN": "首次完成恶魔城颂歌的冒险。",
+      "ja": "Ode to Castlevania（悪魔城ドラキュラへの頌歌）を1回クリアする。",
+      "ko": "Ode to Castlevania 모험을 한 번 완료하세요.",
+      "zh-TW": "完成冒險「惡魔城頌歌」一次",
+      "uk": "Завершіть пригоду Ode to Castlevania один раз."
     }
   },
   "weaponEvosPart1GroupName": {
@@ -8255,24 +8255,6 @@
       "uk": "Підберіть 23 малих конюшин."
     }
   },
-  "DefeatBossWestwoods": {
-    "description": {
-      "en": "Defeat the Knight of Spades in Westwoods.",
-      "fr": "Éliminez le Chevalier de pique à Westwoods.",
-      "it": "Sconfiggi il Cavaliere di picche nel Boscovest.",
-      "de": "Besiege den Pik-Ritter im Westwald.",
-      "es": "Derrota al caballero de picas en el Bosque del oeste.",
-      "pt-BR": "Derrote o Cavaleiro de Espadas no Bosque Poente.",
-      "pl": "Pokonaj Rycerza pik w Zachodnim borze.",
-      "ru": "Победите Пикового Валета в Западнолесье.",
-      "tr": "Batı Ormanları'ndaki Maça Şövalyesi'ni öldür.",
-      "zh-CN": "在西部森林中打败黑桃骑士。",
-      "ja": "西の森でスペードの騎士を倒す。",
-      "ko": "웨스트우즈에서 스페이드의 기사를 처치하세요.",
-      "zh-TW": "在西部森林擊敗黑桃騎士。",
-      "uk": "Здолайте Пікадора в Західноліссі."
-    }
-  },
   "EvolveMagiStone": {
     "description": {
       "en": "Evolve the Magi-Stone.",
@@ -8527,20 +8509,380 @@
   },
   "Dark_05Appunta": {
     "description": {
-      "en": "Find 10 Golden Treasure Chests in a single run with Zi'Appunta.",
-      "fr": "Découvrez 10 coffres au trésor dorés en une seule partie avec Zi'Appunta.",
-      "it": "Scopri 10 Forzieri del tesoro dorati in 1 partita con Zi'Appunta.",
-      "de": "Entdecke 10 goldene Schatztruhen in einem einzigen Durchlauf mit Zi’Appunta.",
-      "es": "Descubre 10 cofres dorados en una partida con Zi'Appunta.",
-      "pt-BR": "Ache 10 Baús do Tesouro dourados na mesma partida com Zi'Appunta.",
+      "en": "Find 10 Treasure Chests from Zi'Appunta's ability in a single run.",
+      "fr": "Trouvez 10 coffres au trésor en une seule partie avec Zi'Appunta.",
+      "it": "Trova 10 Forzieri dorati in 1 partita con l'abilità di Zi'Appunta.",
+      "de": "Finde 10 Schatztruhen in 1 Durchlauf mit Zi’Appuntas Fähigkeit.",
+      "es": "Encuentra 10 cofres con la habilidad de Zi'Appunta en una partida.",
+      "pt-BR": "Ache 10 Baús do Tesouro dourados de Zi'Appunta numa só partida.",
       "pl": "Znajdź 10 złotych skrzyń skarbów w jednej grze jako Zi'Appunta.",
-      "ru": "Найдите 10 зол. сундук. с сокровищами за один забег (Ци'Аппунта).",
-      "tr": "Zi'Appunta ile tek seferde 10 Altın Hazine Sandığı keşfet.",
-      "zh-CN": "在一轮游戏中，使用齐阿彭塔发现10个黄金宝箱。",
-      "ja": "ジ・アプンタを使い、1回で金の宝箱を10個見つける。",
-      "ko": "지아푼타와 함께 한 번에 10개의 황금 보물상자를 발견하세요.",
-      "zh-TW": "在單次闖關中，以齊阿彭塔發現 10 個黃金寶箱。",
-      "uk": "Знайдіть 10 золотих скринь скарбів за один забіг за Зі'Апунта."
+      "ru": "Найдите 10 сундуков с сокровищами за один забег (Ци'Аппунта).",
+      "tr": "Zi'Appunta'nın yeteneğiyle tek seferde 10 Hazine Sandığı bul.",
+      "zh-CN": "在一轮游戏中，通过齐阿彭塔的能力发现10个宝箱。",
+      "ja": "1回のランでジ・アプンタのアビリティを使って宝箱を10個見つける。",
+      "ko": "지아푼타의 능력으로 보물상자 10개를 한 번에 찾으세요.",
+      "zh-TW": "在單次闖關中，以齊阿彭塔的能力找到 10 個寶箱。",
+      "uk": "Знайдіть 10 скринь скарбів здатністю Зі'Апунти за один забіг."
+    }
+  },
+  "LEM_FindJokerDisc": {
+    "description": {
+      "en": "Find and buy the Joker Disk.",
+      "fr": "Trouvez et achetez le Disque de Joker.",
+      "it": "Trova e acquista il Disco del jolly.",
+      "de": "Finde und kaufe die Joker-Disc.",
+      "es": "Encuentra y compra el disco de arlequín.",
+      "pt-BR": "Encontre e compre o Disco Curinga.",
+      "pl": "Znajdź i kup Dysk Jokera.",
+      "ru": "Найдите и купите «Диск джокера».",
+      "tr": "Joker Disk'i bul ve satın al.",
+      "zh-CN": "找到并购买小丑硬盘。",
+      "ja": "ジョーカーディスクを見つけて購入する。",
+      "ko": "조커 디스크를 찾아 구매하세요.",
+      "zh-TW": "找到並購買小丑圓盤。",
+      "uk": "Знайдіть і купіть Диск жартівника."
+    }
+  },
+  "LEM_FindCoffin1": {
+    "description": {
+      "en": "Find and open the coffin in the Ante Chamber.",
+      "fr": "Trouvez et ouvrez le cercueil dans l'Antichambre.",
+      "it": "Trova e apri la bara nella Ante Camera.",
+      "de": "Finde und öffne den Sarg in der Narrenschule.",
+      "es": "Encuentra y abre el ataúd del Apostento.",
+      "pt-BR": "Encontre e abra o caixão na Antecâmera.",
+      "pl": "Znajdź i otwórz trumnę w Szulerni.",
+      "ru": "Найдите и откройте гроб в Школе шутов.",
+      "tr": "Antre'deki tabutu bul ve aç.",
+      "zh-CN": "在下注大厅中找到并打开棺材。",
+      "ja": "アンティの間で棺を見つけて開ける。",
+      "ko": "안테 챔버교에서 관을 찾아서 열어보세요.",
+      "zh-TW": "在底注學廳中，找到並打開棺材。",
+      "uk": "Знайдіть і відкрийте труну в Школі блазнів."
+    }
+  },
+  "LEM_GetInfernolatroToLevel6": {
+    "description": {
+      "en": "Get Infernolatro to Level 6.",
+      "fr": "Améliorez Infernolatro jusqu'au niveau 6.",
+      "it": "Porta Infernolatro al livello 6.",
+      "de": "Bringe Infernolatro auf Level 6.",
+      "es": "Mejora el infernolatro al nivel 6.",
+      "pt-BR": "Eleve o Infernolatro para o nível 6.",
+      "pl": "Doprowadź Infernolatro do 6. poziomu.",
+      "ru": "Получите «Инфернолатро» 6-го уровня.",
+      "tr": "Infernolatro'yu Seviye 6'ya çıkar.",
+      "zh-CN": "将炼狱小丑升到6级。",
+      "ja": "インフェルノラトロをレベル6に上げる。",
+      "ko": "인페르놀라트로를 레벨 6으로 올리세요.",
+      "zh-TW": "將煉獄使者升到 6 級。",
+      "uk": "Отримайте Пекеллатро 6 рівня."
+    }
+  },
+  "LEM_EvolveInfernolatro": {
+    "description": {
+      "en": "Evolve Infernolatro.",
+      "fr": "Faites évoluer Infernolatro.",
+      "it": "Migliora Infernolatro.",
+      "de": "Verbessere Infernolatro.",
+      "es": "Haz evolucionar el infernolatro.",
+      "pt-BR": "Evolua o Infernolatro.",
+      "pl": "Ulepsz Infernolatro.",
+      "ru": "Улучшите «Инфернолатро».",
+      "tr": "Infernolatro'yu evrilt.",
+      "zh-CN": "进化炼狱小丑。",
+      "ja": "インフェルノラトロを進化させる。",
+      "ko": "인페르놀라트로를 진화시키세요.",
+      "zh-TW": "解放煉獄使者。",
+      "uk": "Еволюціонуйте Пекеллатро."
+    }
+  },
+  "LEM_GetFibonacciToLevel6": {
+    "description": {
+      "en": "Get Fibonacci Spritz To Level 6.",
+      "fr": "Améliorez Fibonacci Spritz jusqu'au niveau 6.",
+      "it": "Porta lo Spritz di Fibonacci al livello 6.",
+      "de": "Bringe den Fibonacci Spritz auf Level 6.",
+      "es": "Mejora el Fibonacci spritz al nivel 6.",
+      "pt-BR": "Eleve o Coquetel Fibonacci para o nível 6.",
+      "pl": "Doprowadź Spritz Fibonacciego do 6. poziomu.",
+      "ru": "Получите «Газировку Фибоначчи» 6-го уровня.",
+      "tr": "Fibonacci Spritz'i Seviye 6'ya çıkar.",
+      "zh-CN": "将斐波那契苏打水升到6级。",
+      "ja": "フィボナッチ炭酸をレベル6に上げる。",
+      "ko": "피보나치 스프리츠를 레벨 6으로 올리세요.",
+      "zh-TW": "將斐波那契氣泡酒升到 6 級。",
+      "uk": "Отримайте Фібоначчі-спрітц 6 рівня."
+    }
+  },
+  "LEM_EvolveFibonacci": {
+    "description": {
+      "en": "Evolve Fibonacci Spritz.",
+      "fr": "Faites évoluer Fibonacci Spritz.",
+      "it": "Migliora lo Spritz di Fibonacci.",
+      "de": "Verbessere den Fibonacci Spritz.",
+      "es": "Haz evolucionar el Fibonacci spritz.",
+      "pt-BR": "Evolua o Coquetel Fibonacci.",
+      "pl": "Ulepsz Spritz Fibonacciego.",
+      "ru": "Улучшите «Пшибоначчи».",
+      "tr": "Fibonacci Spritz'i Evrilt.",
+      "zh-CN": "进化斐波那契苏打水。",
+      "ja": "フィボナッチ炭酸を進化させる。",
+      "ko": "피보나치 스프리츠를 진화시키세요.",
+      "zh-TW": "解放斐波那契氣泡酒。",
+      "uk": "Еволюціонуйте Фібоначчі-спрітц."
+    }
+  },
+  "LEM_GetGrosMichelToLevel6": {
+    "description": {
+      "en": "Get Gros Michel To Level 6.",
+      "fr": "Améliorez Gros Michel jusqu'au niveau 6.",
+      "it": "Porta Gros Michel al livello 6.",
+      "de": "Verbessere die Gros Michel auf Level 6.",
+      "es": "Mejora el banano al nivel 6.",
+      "pt-BR": "Eleve o Gros Michel para o nível 6.",
+      "pl": "Doprowadź Gros Michela do 6. poziomu.",
+      "ru": "Получите «Гро-Мишель» 6-го уровня.",
+      "tr": "Gros Michel'i Seviye 6'ya çıkar.",
+      "zh-CN": "将大麦克香蕉升到6级。",
+      "ja": "グロス・ミケーレをレベル6に上げる。",
+      "ko": "그로스 미셸을 레벨 6으로 올리세요.",
+      "zh-TW": "將大麥克升到 6 級。",
+      "uk": "Отримайте Гро-Мішель 6 рівня."
+    }
+  },
+  "LEM_EvolveGrosMichel": {
+    "description": {
+      "en": "Evolve the Gros Michel.",
+      "fr": "Faites évoluer Gros Michel.",
+      "it": "Migliora Gros Michel.",
+      "de": "Verbessere die Gros Michel.",
+      "es": "Haz evolucionar el banano.",
+      "pt-BR": "Evolua o Gros Michel",
+      "pl": "Ulepsz Gros Michela.",
+      "ru": "Улучшите «Гро-Мишель».",
+      "tr": "Gros Michel'i evrilt.",
+      "zh-CN": "进化大麦克香蕉。",
+      "ja": "グロス・ミケーレを進化させる。",
+      "ko": "그로스 미셸을 진화시키세요.",
+      "zh-TW": "解放大麥克。",
+      "uk": "Еволюціонуйте Гро-Мішель."
+    }
+  },
+  "LEM_GetRichRocketToLevel6": {
+    "description": {
+      "en": "Get Celestial Booster To Level 6.",
+      "fr": "Améliorez le Booster céleste jusqu'au niveau 6.",
+      "it": "Porta Potenziamento celeste al livello 6.",
+      "de": "Bringe Rich Rocket auf Level 6.",
+      "es": "Mejora el potenciador celestial al nivel 6.",
+      "pt-BR": "Eleve o Órbita Celestial para o nível 6.",
+      "pl": "Doprowadź Niebiańską świtę do 6. poziomu.",
+      "ru": "Получите «Роскошную ракету» 6-го уровня.",
+      "tr": "Göklerdeki Yardımcı'yı Seviye 6'ya çıkar.",
+      "zh-CN": "将天体助推器升到6级。",
+      "ja": "天体ブースターをレベル6に上げる。",
+      "ko": "리치 로켓을 레벨 6으로 올리세요.",
+      "zh-TW": "將致富火箭升到 6 級。",
+      "uk": "Отримайте Ракету багатія 6 рівня."
+    }
+  },
+  "LEM_EvolveRichRocket": {
+    "description": {
+      "en": "Evolve the Celestial Booster.",
+      "fr": "Faites évoluer le Booster céleste.",
+      "it": "Migliora Potenziamento celeste.",
+      "de": "Verbessere Rich Rocket.",
+      "es": "Haz evolucionar el potenciador celestial.",
+      "pt-BR": "Evolua o Órbita Celestial.",
+      "pl": "Ulepsz Niebiańską świtę.",
+      "ru": "Улучшите «Роскошную ракету».",
+      "tr": "Göklerdeki Yardımcı'yı evrilt.",
+      "zh-CN": "进化天体助推器。",
+      "ja": "天体ブースターを進化させる。",
+      "ko": "리치 로켓을 진화시키세요.",
+      "zh-TW": "解放致富火箭。",
+      "uk": "Еволюціонуйте Ракету багатія."
+    }
+  },
+  "LEM_DefeatBoss": {
+    "description": {
+      "en": "Defeat the Crimson Heart in the Ante Chamber.",
+      "fr": "Éliminez le Cœur cramoisi dans l'Antichambre.",
+      "it": "Sconfiggi il Cuore cremisi nell'Ante Camera.",
+      "de": "Besiege das Purpurrote Herz in der Narrenkammer.",
+      "es": "Derrota el corazón carmesí en el Apostento.",
+      "pt-BR": "Derrote o Coração Carmesim na Antecâmara.",
+      "pl": "Pokonaj Karmazynowe serce w Szulerni.",
+      "ru": "Победите Алое Сердце в Анте-Салоне.",
+      "tr": "Antre'de Alkalp'i öldür.",
+      "zh-CN": "在下注大厅中击败红心盲注。",
+      "ja": "アンティの間でクリムゾンハートを倒す。",
+      "ko": "안테 챔버에서 크림슨 하트를 물리치세요.",
+      "zh-TW": "在「底注學廳」中，擊敗緋紅之心。",
+      "uk": "Знищте Багряне серце в Передпокої."
+    }
+  },
+  "TP_ExtraEvo_AlucardSpear": {
+    "description": {
+      "en": "Evolve the Alucard Spear.",
+      "fr": "Faites évoluer l'Epieu d'Alucard.",
+      "it": "Migliora la Lancia di Alucard.",
+      "de": "Verbessere Alucards Speer.",
+      "es": "Haz evolucionar la lanza Alucard.",
+      "pt-BR": "Evolua a Lança de Alucard.",
+      "pl": "Ulepsz Włócznię Alucarda.",
+      "ru": "Улучшите «Копьё Алукарда».",
+      "tr": "Alucard Mızrağı'nı evrilt.",
+      "zh-CN": "进化阿鲁卡多之枪。",
+      "ja": "アルカードスピアを進化させる。",
+      "ko": "알루카드 창을 진화시키세요.",
+      "zh-TW": "解放阿魯卡多之矛。",
+      "uk": "Еволюціонуйте Спис Алукарда."
+    }
+  },
+  "TP_ExtraEvo_IronBall": {
+    "description": {
+      "en": "Evolve the Iron Ball.",
+      "fr": "Faites évoluer la Boule de fer.",
+      "it": "Migliora la Palla di ferro.",
+      "de": "Verbessere die Eisenkugel.",
+      "es": "Haz evolucionar la bola de hierro.",
+      "pt-BR": "Evolua a Bola de Ferro.",
+      "pl": "Ulepsz Kulę z żelaza.",
+      "ru": "Улучшите «Стальной шар».",
+      "tr": "Demir Top'u evrilt.",
+      "zh-CN": "进化铁球。",
+      "ja": "アイアンボールを進化させる。",
+      "ko": "아이언 볼을 진화시키세요.",
+      "zh-TW": "解放鐵球。",
+      "uk": "Еволюціонуйте Залізну кулю."
+    }
+  },
+  "TP_ExtraEvo_CurvedKnife": {
+    "description": {
+      "en": "Evolve the Curved Knife.",
+      "fr": "Faites évoluer le Couteau courbé.",
+      "it": "Migliora il Pugnale ricurvo.",
+      "de": "Verbessere das Gebogene Messer.",
+      "es": "Haz evolucionar el cuchillo curvado.",
+      "pt-BR": "Evolua a Faca Curva.",
+      "pl": "Ulepsz Zakrzywiony nóż.",
+      "ru": "Улучшите «Кривой нож».",
+      "tr": "Eğri Bıçak'ı evrilt.",
+      "zh-CN": "进化弯刀。",
+      "ja": "カーブナイフを進化させる。",
+      "ko": "곡선 단검을 진화시키세요.",
+      "zh-TW": "解放彎刀。",
+      "uk": "Еволюціонуйте Викривлений ніж."
+    }
+  },
+  "TP_ExtraEvo_Shuriken": {
+    "description": {
+      "en": "Evolve the Shuriken.",
+      "fr": "Faites évoluer le Shuriken.",
+      "it": "Migliora lo Shuriken.",
+      "de": "Verbessere den Shuriken.",
+      "es": "Haz evolucionar el shuriken.",
+      "pt-BR": "Evolua o Shuriken.",
+      "pl": "Ulepsz Shurikena.",
+      "ru": "Улучшите «Сюрикен».",
+      "tr": "Shuriken'i evrilt.",
+      "zh-CN": "进化手里剑。",
+      "ja": "手裏剣を進化させる。",
+      "ko": "수리검을 진화시키세요.",
+      "zh-TW": "解放手裏劍。",
+      "uk": "Еволюціонуйте Сюрикен."
+    }
+  },
+  "TP_ExtraEvo_Discus": {
+    "description": {
+      "en": "Evolve the Discus.",
+      "fr": "Faites évoluer le Disque.",
+      "it": "Migliora il Discus.",
+      "de": "Verbessere den Diskus.",
+      "es": "Haz evolucionar el disco.",
+      "pt-BR": "Evolua o Discus.",
+      "pl": "Ulepsz Discusa.",
+      "ru": "Улучшите «Дискус».",
+      "tr": "Discus'u evrilt.",
+      "zh-CN": "进化圆盘。",
+      "ja": "円盤を進化させる。",
+      "ko": "원반을 진화시키세요.",
+      "zh-TW": "解放鐵餅。",
+      "uk": "Еволюціонуйте Диск."
+    }
+  },
+  "TP_ExtraEvo_MartialWhip": {
+    "description": {
+      "en": "Evolve the Vanitas Whip.",
+      "fr": "Faites évoluer le Fouet Vanitas.",
+      "it": "Migliora la Frusta della vanitas.",
+      "de": "Verbessere die Kriegspeitsche.",
+      "es": "Haz evolucionar el látigo de Vanitas.",
+      "pt-BR": "Evolua o Chicote Vanitas.",
+      "pl": "Ulepsz Bicz vanitas.",
+      "ru": "Улучшите «Боевой кнут».",
+      "tr": "Dövüş Kamçısı'nı evrilt.",
+      "zh-CN": "进化武术神鞭。",
+      "ja": "ヴァニタスの鞭を進化させる。",
+      "ko": "마셜 채찍을 진화시키세요.",
+      "zh-TW": "解放虛無鞭。",
+      "uk": "Еволюціонуйте Бойовий батіг."
+    }
+  },
+  "TP_ExtraEvo_SonicDash": {
+    "description": {
+      "en": "Evolve the Sonic Dash.",
+      "fr": "Faites évoluer l'Accélération sonique.",
+      "it": "Migliora lo Scatto sonico.",
+      "de": "Verbessere den Überschall.",
+      "es": "Haz evolucionar el impulso sónico.",
+      "pt-BR": "Evolua o Traço Sônico.",
+      "pl": "Ulepsz Soniczny sprint.",
+      "ru": "Улучшите «Ударный рывок».",
+      "tr": "Sonik Sıçrama'yı evrilt.",
+      "zh-CN": "进化音速冲刺。",
+      "ja": "ソニック・ダッシュを進化させる。",
+      "ko": "소닉 질주를 진화시키세요.",
+      "zh-TW": "解放音速衝刺。",
+      "uk": "Еволюціонуйте Звуковий удар."
+    }
+  },
+  "TP_ExtraEvo_Dominus": {
+    "description": {
+      "en": "Unite the Dominus weapons.",
+      "fr": "Unissez les armes Dominus.",
+      "it": "Combina le armi Dominus.",
+      "de": "Vereine die Dominus-Waffen.",
+      "es": "Fusiona las armas de Dominus.",
+      "pt-BR": "Faça a união das armas Dominus.",
+      "pl": "Połącz bronie Dominusa.",
+      "ru": "Объедините оружие доминуса.",
+      "tr": "Dominus silahlarını birleştir.",
+      "zh-CN": "组合多米纳斯武器。",
+      "ja": "ドミナスの武器を融合させる。",
+      "ko": "도미누스의 무기를 합치세요.",
+      "zh-TW": "組合主宰武器。",
+      "uk": "Об'єднайте Божії."
+    }
+  },
+  "LEM_GetInfernolatro_Score777": {
+    "description": {
+      "en": "Reach a high score of 777 with Infernolatro.",
+      "fr": "Atteignez un score de 777 avec Infernolatro.",
+      "it": "Raggiungi un punteggio record di 777 con Infernolatro.",
+      "de": "Erreiche eine Punktzahl von 777 mit Infernolatro.",
+      "es": "Alcanza una puntuación de 777 con el infernolatro.",
+      "pt-BR": "Alcance uma pontuação de 777 com Infernolatro.",
+      "pl": "Osiągnij wynik 777, dzierżąc Infernolatro.",
+      "ru": "Наберите 777 очков с помощью «Инфернолатро».",
+      "tr": "Infernolatro ile 777 puana ulaş.",
+      "zh-CN": "使用炼狱小丑获得777的最高分。",
+      "ja": "インフェルノラトロで777のハイスコアに到達する。",
+      "ko": "인페르놀라트로 최고 점수인 777점을 달성하세요.",
+      "zh-TW": "使用煉獄使者達到 777 分的高分。",
+      "uk": "Наберіть 777 очок із Пекеллатро."
     }
   }
 }

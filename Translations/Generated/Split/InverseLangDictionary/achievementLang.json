@@ -1311,9 +1311,6 @@
     "FindManyClovers": {
       "description": "Find 23 Little Clovers."
     },
-    "DefeatBossWestwoods": {
-      "description": "Defeat the Knight of Spades in Westwoods."
-    },
     "EvolveMagiStone": {
       "description": "Evolve the Magi-Stone."
     },
@@ -1357,7 +1354,67 @@
       "description": "Survive 30 minutes with no weapons in Inverse Green Acres."
     },
     "Dark_05Appunta": {
-      "description": "Find 10 Golden Treasure Chests in a single run with Zi'Appunta."
+      "description": "Find 10 Treasure Chests from Zi'Appunta's ability in a single run."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Find and buy the Joker Disk."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Find and open the coffin in the Ante Chamber."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Get Infernolatro to Level 6."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Evolve Infernolatro."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Get Fibonacci Spritz To Level 6."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Evolve Fibonacci Spritz."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Get Gros Michel To Level 6."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Evolve the Gros Michel."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Get Celestial Booster To Level 6."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Evolve the Celestial Booster."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Defeat the Crimson Heart in the Ante Chamber."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Evolve the Alucard Spear."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Evolve the Iron Ball."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Evolve the Curved Knife."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Evolve the Shuriken."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Evolve the Discus."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Evolve the Vanitas Whip."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Evolve the Sonic Dash."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Unite the Dominus weapons."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Reach a high score of 777 with Infernolatro."
     }
   },
   "fr": {
@@ -2172,7 +2229,7 @@
       "description": "Terminez une fois l'aventure l'Oasis de l'ail."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Terminez l'aventure « Ode à Castlevania » une fois."
     },
     "weaponEvosPart1GroupName": "Évolutions d'armes partie 1",
     "weaponEvosPart2GroupName": "Évolutions d'armes partie 2",
@@ -2672,9 +2729,6 @@
     "FindManyClovers": {
       "description": "Ramassez 23 Petits trèfles."
     },
-    "DefeatBossWestwoods": {
-      "description": "Éliminez le Chevalier de pique à Westwoods."
-    },
     "EvolveMagiStone": {
       "description": "Faites évoluer la Magipierre."
     },
@@ -2718,7 +2772,67 @@
       "description": "Survivez 30 minutes sans arme dans Pré verdoyant inversé."
     },
     "Dark_05Appunta": {
-      "description": "Découvrez 10 coffres au trésor dorés en une seule partie avec Zi'Appunta."
+      "description": "Trouvez 10 coffres au trésor en une seule partie avec Zi'Appunta."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Trouvez et achetez le Disque de Joker."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Trouvez et ouvrez le cercueil dans l'Antichambre."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Améliorez Infernolatro jusqu'au niveau 6."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Faites évoluer Infernolatro."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Améliorez Fibonacci Spritz jusqu'au niveau 6."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Faites évoluer Fibonacci Spritz."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Améliorez Gros Michel jusqu'au niveau 6."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Faites évoluer Gros Michel."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Améliorez le Booster céleste jusqu'au niveau 6."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Faites évoluer le Booster céleste."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Éliminez le Cœur cramoisi dans l'Antichambre."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Faites évoluer l'Epieu d'Alucard."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Faites évoluer la Boule de fer."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Faites évoluer le Couteau courbé."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Faites évoluer le Shuriken."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Faites évoluer le Disque."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Faites évoluer le Fouet Vanitas."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Faites évoluer l'Accélération sonique."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Unissez les armes Dominus."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Atteignez un score de 777 avec Infernolatro."
     }
   },
   "it": {
@@ -3533,7 +3647,7 @@
       "description": "Completa una volta l'avventura Paradiso all'aglio."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Completa una volta l'avventura Ode a Castlevania."
     },
     "weaponEvosPart1GroupName": "Evoluzioni armi - Parte 1",
     "weaponEvosPart2GroupName": "Evoluzioni armi - Parte 2",
@@ -4033,9 +4147,6 @@
     "FindManyClovers": {
       "description": "Raccogli 23 Trifoglietti."
     },
-    "DefeatBossWestwoods": {
-      "description": "Sconfiggi il Cavaliere di picche nel Boscovest."
-    },
     "EvolveMagiStone": {
       "description": "Migliora la Magi-pietra."
     },
@@ -4079,7 +4190,67 @@
       "description": "Sopravvivi per 30 minuti senza armi negli Acri verdi invertiti."
     },
     "Dark_05Appunta": {
-      "description": "Scopri 10 Forzieri del tesoro dorati in 1 partita con Zi'Appunta."
+      "description": "Trova 10 Forzieri dorati in 1 partita con l'abilità di Zi'Appunta."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Trova e acquista il Disco del jolly."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Trova e apri la bara nella Ante Camera."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Porta Infernolatro al livello 6."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Migliora Infernolatro."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Porta lo Spritz di Fibonacci al livello 6."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Migliora lo Spritz di Fibonacci."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Porta Gros Michel al livello 6."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Migliora Gros Michel."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Porta Potenziamento celeste al livello 6."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Migliora Potenziamento celeste."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Sconfiggi il Cuore cremisi nell'Ante Camera."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Migliora la Lancia di Alucard."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Migliora la Palla di ferro."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Migliora il Pugnale ricurvo."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Migliora lo Shuriken."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Migliora il Discus."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Migliora la Frusta della vanitas."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Migliora lo Scatto sonico."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Combina le armi Dominus."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Raggiungi un punteggio record di 777 con Infernolatro."
     }
   },
   "de": {
@@ -4894,7 +5065,7 @@
       "description": "Schließe das Abenteuer \"Knoblauchparadies\" einmal ab."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Schließe das Abeneuer \"Ode an Castlevania\" einmal ab."
     },
     "weaponEvosPart1GroupName": "Waffenverbesserungen Teil 1",
     "weaponEvosPart2GroupName": "Waffenverbesserungen Teil 2",
@@ -5394,9 +5565,6 @@
     "FindManyClovers": {
       "description": "Sammle 23 Kleeblättchen."
     },
-    "DefeatBossWestwoods": {
-      "description": "Besiege den Pik-Ritter im Westwald."
-    },
     "EvolveMagiStone": {
       "description": "Verbessere den Stein der Weisen."
     },
@@ -5440,7 +5608,67 @@
       "description": "Überlebe 30 Minuten ohne Waffen im Umgekehrten Grünen Acker."
     },
     "Dark_05Appunta": {
-      "description": "Entdecke 10 goldene Schatztruhen in einem einzigen Durchlauf mit Zi’Appunta."
+      "description": "Finde 10 Schatztruhen in 1 Durchlauf mit Zi’Appuntas Fähigkeit."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Finde und kaufe die Joker-Disc."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Finde und öffne den Sarg in der Narrenschule."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Bringe Infernolatro auf Level 6."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Verbessere Infernolatro."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Bringe den Fibonacci Spritz auf Level 6."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Verbessere den Fibonacci Spritz."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Verbessere die Gros Michel auf Level 6."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Verbessere die Gros Michel."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Bringe Rich Rocket auf Level 6."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Verbessere Rich Rocket."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Besiege das Purpurrote Herz in der Narrenkammer."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Verbessere Alucards Speer."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Verbessere die Eisenkugel."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Verbessere das Gebogene Messer."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Verbessere den Shuriken."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Verbessere den Diskus."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Verbessere die Kriegspeitsche."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Verbessere den Überschall."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Vereine die Dominus-Waffen."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Erreiche eine Punktzahl von 777 mit Infernolatro."
     }
   },
   "es": {
@@ -6255,7 +6483,7 @@
       "description": "Completa una vez la aventura «Un paraíso de ajos»."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Completa una vez la aventura «Oda a Castlevania»."
     },
     "weaponEvosPart1GroupName": "Evoluciones de armas parte 1",
     "weaponEvosPart2GroupName": "Evoluciones de armas parte 2",
@@ -6755,9 +6983,6 @@
     "FindManyClovers": {
       "description": "Recoge 23 tréboles pequeños."
     },
-    "DefeatBossWestwoods": {
-      "description": "Derrota al caballero de picas en el Bosque del oeste."
-    },
     "EvolveMagiStone": {
       "description": "Haz evolucionar la gemágica."
     },
@@ -6801,7 +7026,67 @@
       "description": "Sobrevive 30 min sin armas en el reflejo de las Llanuras verdes."
     },
     "Dark_05Appunta": {
-      "description": "Descubre 10 cofres dorados en una partida con Zi'Appunta."
+      "description": "Encuentra 10 cofres con la habilidad de Zi'Appunta en una partida."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Encuentra y compra el disco de arlequín."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Encuentra y abre el ataúd del Apostento."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Mejora el infernolatro al nivel 6."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Haz evolucionar el infernolatro."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Mejora el Fibonacci spritz al nivel 6."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Haz evolucionar el Fibonacci spritz."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Mejora el banano al nivel 6."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Haz evolucionar el banano."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Mejora el potenciador celestial al nivel 6."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Haz evolucionar el potenciador celestial."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Derrota el corazón carmesí en el Apostento."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Haz evolucionar la lanza Alucard."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Haz evolucionar la bola de hierro."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Haz evolucionar el cuchillo curvado."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Haz evolucionar el shuriken."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Haz evolucionar el disco."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Haz evolucionar el látigo de Vanitas."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Haz evolucionar el impulso sónico."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Fusiona las armas de Dominus."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Alcanza una puntuación de 777 con el infernolatro."
     }
   },
   "pt-BR": {
@@ -7616,7 +7901,7 @@
       "description": "Conclua uma vez a Aventura Um Paraíso Aliáceo."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Conclua uma vez a aventura Ode to Castlevania."
     },
     "weaponEvosPart1GroupName": "Evoluções de armas pt. 1",
     "weaponEvosPart2GroupName": "Evoluções de armas pt. 2",
@@ -8116,9 +8401,6 @@
     "FindManyClovers": {
       "description": "Colete 23 Trevinhos."
     },
-    "DefeatBossWestwoods": {
-      "description": "Derrote o Cavaleiro de Espadas no Bosque Poente."
-    },
     "EvolveMagiStone": {
       "description": "Evolua a Magirrocha."
     },
@@ -8162,7 +8444,67 @@
       "description": "Sobreviva por 30 min. sem armas nas Planícies Verdes invertidas."
     },
     "Dark_05Appunta": {
-      "description": "Ache 10 Baús do Tesouro dourados na mesma partida com Zi'Appunta."
+      "description": "Ache 10 Baús do Tesouro dourados de Zi'Appunta numa só partida."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Encontre e compre o Disco Curinga."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Encontre e abra o caixão na Antecâmera."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Eleve o Infernolatro para o nível 6."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Evolua o Infernolatro."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Eleve o Coquetel Fibonacci para o nível 6."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Evolua o Coquetel Fibonacci."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Eleve o Gros Michel para o nível 6."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Evolua o Gros Michel"
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Eleve o Órbita Celestial para o nível 6."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Evolua o Órbita Celestial."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Derrote o Coração Carmesim na Antecâmara."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Evolua a Lança de Alucard."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Evolua a Bola de Ferro."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Evolua a Faca Curva."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Evolua o Shuriken."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Evolua o Discus."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Evolua o Chicote Vanitas."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Evolua o Traço Sônico."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Faça a união das armas Dominus."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Alcance uma pontuação de 777 com Infernolatro."
     }
   },
   "pl": {
@@ -8977,7 +9319,7 @@
       "description": "Ukończ raz przygodę Czosnkowy raj."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Ukończ raz przygodę Oda do Castlevanii."
     },
     "weaponEvosPart1GroupName": "Ulepszenia broni 1",
     "weaponEvosPart2GroupName": "Ulepszenia broni 2",
@@ -9477,9 +9819,6 @@
     "FindManyClovers": {
       "description": "Zbierz 23 Małych koniczyn."
     },
-    "DefeatBossWestwoods": {
-      "description": "Pokonaj Rycerza pik w Zachodnim borze."
-    },
     "EvolveMagiStone": {
       "description": "Ulepsz Magikamień."
     },
@@ -9524,6 +9863,66 @@
     },
     "Dark_05Appunta": {
       "description": "Znajdź 10 złotych skrzyń skarbów w jednej grze jako Zi'Appunta."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Znajdź i kup Dysk Jokera."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Znajdź i otwórz trumnę w Szulerni."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Doprowadź Infernolatro do 6. poziomu."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Ulepsz Infernolatro."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Doprowadź Spritz Fibonacciego do 6. poziomu."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Ulepsz Spritz Fibonacciego."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Doprowadź Gros Michela do 6. poziomu."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Ulepsz Gros Michela."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Doprowadź Niebiańską świtę do 6. poziomu."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Ulepsz Niebiańską świtę."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Pokonaj Karmazynowe serce w Szulerni."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Ulepsz Włócznię Alucarda."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Ulepsz Kulę z żelaza."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Ulepsz Zakrzywiony nóż."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Ulepsz Shurikena."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Ulepsz Discusa."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Ulepsz Bicz vanitas."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Ulepsz Soniczny sprint."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Połącz bronie Dominusa."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Osiągnij wynik 777, dzierżąc Infernolatro."
     }
   },
   "ru": {
@@ -10338,7 +10737,7 @@
       "description": "Завершите приключение «Чесночный рай» один раз."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Завершите «Оду Кастлвании» один раз."
     },
     "weaponEvosPart1GroupName": "Улучшения оружия (ч. 1)",
     "weaponEvosPart2GroupName": "Улучшения оружия (ч. 2)",
@@ -10838,9 +11237,6 @@
     "FindManyClovers": {
       "description": "Подберите 23 маленьких клеверов."
     },
-    "DefeatBossWestwoods": {
-      "description": "Победите Пикового Валета в Западнолесье."
-    },
     "EvolveMagiStone": {
       "description": "Улучшите «Магикамень»."
     },
@@ -10884,7 +11280,67 @@
       "description": "Продержитесь 30 минут без оружия в инверсии Зелёных пастбищ."
     },
     "Dark_05Appunta": {
-      "description": "Найдите 10 зол. сундук. с сокровищами за один забег (Ци'Аппунта)."
+      "description": "Найдите 10 сундуков с сокровищами за один забег (Ци'Аппунта)."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Найдите и купите «Диск джокера»."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Найдите и откройте гроб в Школе шутов."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Получите «Инфернолатро» 6-го уровня."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Улучшите «Инфернолатро»."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Получите «Газировку Фибоначчи» 6-го уровня."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Улучшите «Пшибоначчи»."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Получите «Гро-Мишель» 6-го уровня."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Улучшите «Гро-Мишель»."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Получите «Роскошную ракету» 6-го уровня."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Улучшите «Роскошную ракету»."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Победите Алое Сердце в Анте-Салоне."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Улучшите «Копьё Алукарда»."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Улучшите «Стальной шар»."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Улучшите «Кривой нож»."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Улучшите «Сюрикен»."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Улучшите «Дискус»."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Улучшите «Боевой кнут»."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Улучшите «Ударный рывок»."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Объедините оружие доминуса."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Наберите 777 очков с помощью «Инфернолатро»."
     }
   },
   "tr": {
@@ -11699,7 +12155,7 @@
       "description": "Sarımsak Cenneti macerasını bir kez tamamla."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Castlevania'ya Övgü macerasını bir kez tamamla."
     },
     "weaponEvosPart1GroupName": "Silah Evrimleri Kısım 1",
     "weaponEvosPart2GroupName": "Silah Evrimleri Kısım 2",
@@ -12199,9 +12655,6 @@
     "FindManyClovers": {
       "description": "23 Küçük Yonca topla."
     },
-    "DefeatBossWestwoods": {
-      "description": "Batı Ormanları'ndaki Maça Şövalyesi'ni öldür."
-    },
     "EvolveMagiStone": {
       "description": "Magi-Taşı'nı evrilt."
     },
@@ -12245,7 +12698,67 @@
       "description": "Tersine Yeşil Araziler'de silahsız 30 dakika hayatta kal."
     },
     "Dark_05Appunta": {
-      "description": "Zi'Appunta ile tek seferde 10 Altın Hazine Sandığı keşfet."
+      "description": "Zi'Appunta'nın yeteneğiyle tek seferde 10 Hazine Sandığı bul."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Joker Disk'i bul ve satın al."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Antre'deki tabutu bul ve aç."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Infernolatro'yu Seviye 6'ya çıkar."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Infernolatro'yu evrilt."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Fibonacci Spritz'i Seviye 6'ya çıkar."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Fibonacci Spritz'i Evrilt."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Gros Michel'i Seviye 6'ya çıkar."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Gros Michel'i evrilt."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Göklerdeki Yardımcı'yı Seviye 6'ya çıkar."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Göklerdeki Yardımcı'yı evrilt."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Antre'de Alkalp'i öldür."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Alucard Mızrağı'nı evrilt."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Demir Top'u evrilt."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Eğri Bıçak'ı evrilt."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Shuriken'i evrilt."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Discus'u evrilt."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Dövüş Kamçısı'nı evrilt."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Sonik Sıçrama'yı evrilt."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Dominus silahlarını birleştir."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Infernolatro ile 777 puana ulaş."
     }
   },
   "zh-CN": {
@@ -13060,7 +13573,7 @@
       "description": "首次完成大蒜天堂的冒险。"
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "首次完成恶魔城颂歌的冒险。"
     },
     "weaponEvosPart1GroupName": "武器进化第一部分",
     "weaponEvosPart2GroupName": "武器进化第二部分",
@@ -13560,9 +14073,6 @@
     "FindManyClovers": {
       "description": "拾取23株三叶草。"
     },
-    "DefeatBossWestwoods": {
-      "description": "在西部森林中打败黑桃骑士。"
-    },
     "EvolveMagiStone": {
       "description": "进化魔法石。"
     },
@@ -13606,7 +14116,67 @@
       "description": "在翻转青翠草甸中没有武器的情况下存活30分钟。"
     },
     "Dark_05Appunta": {
-      "description": "在一轮游戏中，使用齐阿彭塔发现10个黄金宝箱。"
+      "description": "在一轮游戏中，通过齐阿彭塔的能力发现10个宝箱。"
+    },
+    "LEM_FindJokerDisc": {
+      "description": "找到并购买小丑硬盘。"
+    },
+    "LEM_FindCoffin1": {
+      "description": "在下注大厅中找到并打开棺材。"
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "将炼狱小丑升到6级。"
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "进化炼狱小丑。"
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "将斐波那契苏打水升到6级。"
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "进化斐波那契苏打水。"
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "将大麦克香蕉升到6级。"
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "进化大麦克香蕉。"
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "将天体助推器升到6级。"
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "进化天体助推器。"
+    },
+    "LEM_DefeatBoss": {
+      "description": "在下注大厅中击败红心盲注。"
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "进化阿鲁卡多之枪。"
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "进化铁球。"
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "进化弯刀。"
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "进化手里剑。"
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "进化圆盘。"
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "进化武术神鞭。"
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "进化音速冲刺。"
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "组合多米纳斯武器。"
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "使用炼狱小丑获得777的最高分。"
     }
   },
   "ja": {
@@ -14070,7 +14640,7 @@
       "description": "メンヤ・ムーンスペルで100,000体の敵を1回のプレイで倒す。"
     },
     "MOON12_Defeat100kVadjouel": {
-      "description": "メンヤ・ムーンスペルで100,000体の敵を1回のプレイで倒す。"
+      "description": "シュウト・ムーンスペルで100,000体の敵を1回のプレイで倒す。"
     },
     "MOON13_Defeat6kWater": {
       "description": "6,000匹の河童を倒す。"
@@ -14421,7 +14991,7 @@
       "description": "アドベンチャー「ニンニクの楽園」を一回クリアする。"
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Ode to Castlevania（悪魔城ドラキュラへの頌歌）を1回クリアする。"
     },
     "weaponEvosPart1GroupName": "武器の進化 その1",
     "weaponEvosPart2GroupName": "武器の進化 その2",
@@ -14921,9 +15491,6 @@
     "FindManyClovers": {
       "description": "23個の小さなクローバーを入手する。"
     },
-    "DefeatBossWestwoods": {
-      "description": "西の森でスペードの騎士を倒す。"
-    },
     "EvolveMagiStone": {
       "description": "マギストーンを進化させる。"
     },
@@ -14967,7 +15534,67 @@
       "description": "反転した緑の地にて、30分間武器なしで生き残る。"
     },
     "Dark_05Appunta": {
-      "description": "ジ・アプンタを使い、1回で金の宝箱を10個見つける。"
+      "description": "1回のランでジ・アプンタのアビリティを使って宝箱を10個見つける。"
+    },
+    "LEM_FindJokerDisc": {
+      "description": "ジョーカーディスクを見つけて購入する。"
+    },
+    "LEM_FindCoffin1": {
+      "description": "アンティの間で棺を見つけて開ける。"
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "インフェルノラトロをレベル6に上げる。"
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "インフェルノラトロを進化させる。"
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "フィボナッチ炭酸をレベル6に上げる。"
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "フィボナッチ炭酸を進化させる。"
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "グロス・ミケーレをレベル6に上げる。"
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "グロス・ミケーレを進化させる。"
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "天体ブースターをレベル6に上げる。"
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "天体ブースターを進化させる。"
+    },
+    "LEM_DefeatBoss": {
+      "description": "アンティの間でクリムゾンハートを倒す。"
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "アルカードスピアを進化させる。"
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "アイアンボールを進化させる。"
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "カーブナイフを進化させる。"
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "手裏剣を進化させる。"
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "円盤を進化させる。"
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "ヴァニタスの鞭を進化させる。"
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "ソニック・ダッシュを進化させる。"
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "ドミナスの武器を融合させる。"
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "インフェルノラトロで777のハイスコアに到達する。"
     }
   },
   "ko": {
@@ -15782,7 +16409,7 @@
       "description": "마늘 천국을 한 번 완료하세요."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Ode to Castlevania 모험을 한 번 완료하세요."
     },
     "weaponEvosPart1GroupName": "무기 진화 파트 1",
     "weaponEvosPart2GroupName": "무기 진화 파트 2",
@@ -16282,9 +16909,6 @@
     "FindManyClovers": {
       "description": "리틀 클로버 23개를 주우세요."
     },
-    "DefeatBossWestwoods": {
-      "description": "웨스트우즈에서 스페이드의 기사를 처치하세요."
-    },
     "EvolveMagiStone": {
       "description": "마기 스톤을 진화시키세요."
     },
@@ -16328,7 +16952,67 @@
       "description": "거꾸로 된 푸른 초원에서 무기 없이 30분동안 생존하세요."
     },
     "Dark_05Appunta": {
-      "description": "지아푼타와 함께 한 번에 10개의 황금 보물상자를 발견하세요."
+      "description": "지아푼타의 능력으로 보물상자 10개를 한 번에 찾으세요."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "조커 디스크를 찾아 구매하세요."
+    },
+    "LEM_FindCoffin1": {
+      "description": "안테 챔버교에서 관을 찾아서 열어보세요."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "인페르놀라트로를 레벨 6으로 올리세요."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "인페르놀라트로를 진화시키세요."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "피보나치 스프리츠를 레벨 6으로 올리세요."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "피보나치 스프리츠를 진화시키세요."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "그로스 미셸을 레벨 6으로 올리세요."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "그로스 미셸을 진화시키세요."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "리치 로켓을 레벨 6으로 올리세요."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "리치 로켓을 진화시키세요."
+    },
+    "LEM_DefeatBoss": {
+      "description": "안테 챔버에서 크림슨 하트를 물리치세요."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "알루카드 창을 진화시키세요."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "아이언 볼을 진화시키세요."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "곡선 단검을 진화시키세요."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "수리검을 진화시키세요."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "원반을 진화시키세요."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "마셜 채찍을 진화시키세요."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "소닉 질주를 진화시키세요."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "도미누스의 무기를 합치세요."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "인페르놀라트로 최고 점수인 777점을 달성하세요."
     }
   },
   "zh-TW": {
@@ -17143,7 +17827,7 @@
       "description": "完成冒險「大蒜樂土」一次。"
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "完成冒險「惡魔城頌歌」一次"
     },
     "weaponEvosPart1GroupName": "武器解放（第一階段）",
     "weaponEvosPart2GroupName": "武器解放（第二階段）",
@@ -17643,9 +18327,6 @@
     "FindManyClovers": {
       "description": "收集 23 株三葉草。"
     },
-    "DefeatBossWestwoods": {
-      "description": "在西部森林擊敗黑桃騎士。"
-    },
     "EvolveMagiStone": {
       "description": "解放魔法石。"
     },
@@ -17689,7 +18370,67 @@
       "description": "在顛倒模式的青翠草甸中，在沒有取得任何武器的情況下存活 30 分鐘。"
     },
     "Dark_05Appunta": {
-      "description": "在單次闖關中，以齊阿彭塔發現 10 個黃金寶箱。"
+      "description": "在單次闖關中，以齊阿彭塔的能力找到 10 個寶箱。"
+    },
+    "LEM_FindJokerDisc": {
+      "description": "找到並購買小丑圓盤。"
+    },
+    "LEM_FindCoffin1": {
+      "description": "在底注學廳中，找到並打開棺材。"
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "將煉獄使者升到 6 級。"
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "解放煉獄使者。"
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "將斐波那契氣泡酒升到 6 級。"
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "解放斐波那契氣泡酒。"
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "將大麥克升到 6 級。"
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "解放大麥克。"
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "將致富火箭升到 6 級。"
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "解放致富火箭。"
+    },
+    "LEM_DefeatBoss": {
+      "description": "在「底注學廳」中，擊敗緋紅之心。"
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "解放阿魯卡多之矛。"
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "解放鐵球。"
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "解放彎刀。"
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "解放手裏劍。"
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "解放鐵餅。"
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "解放虛無鞭。"
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "解放音速衝刺。"
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "組合主宰武器。"
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "使用煉獄使者達到 777 分的高分。"
     }
   },
   "uk": {
@@ -18504,7 +19245,7 @@
       "description": "Завершіть один раз пригоду «Часниковий Рай»."
     },
     "CompleteAdv_OdeToCastlevania": {
-      "description": "Complete once the adventure Ode to Castlevania."
+      "description": "Завершіть пригоду Ode to Castlevania один раз."
     },
     "weaponEvosPart1GroupName": "Еволюції зброї, частина 1",
     "weaponEvosPart2GroupName": "Еволюції зброї, частина 2",
@@ -19004,9 +19745,6 @@
     "FindManyClovers": {
       "description": "Підберіть 23 малих конюшин."
     },
-    "DefeatBossWestwoods": {
-      "description": "Здолайте Пікадора в Західноліссі."
-    },
     "EvolveMagiStone": {
       "description": "Еволюціонуйте Чар-камінь."
     },
@@ -19050,7 +19788,67 @@
       "description": "Протримайтеся 30 хвилин без зброї в інвертованих Зелених полях."
     },
     "Dark_05Appunta": {
-      "description": "Знайдіть 10 золотих скринь скарбів за один забіг за Зі'Апунта."
+      "description": "Знайдіть 10 скринь скарбів здатністю Зі'Апунти за один забіг."
+    },
+    "LEM_FindJokerDisc": {
+      "description": "Знайдіть і купіть Диск жартівника."
+    },
+    "LEM_FindCoffin1": {
+      "description": "Знайдіть і відкрийте труну в Школі блазнів."
+    },
+    "LEM_GetInfernolatroToLevel6": {
+      "description": "Отримайте Пекеллатро 6 рівня."
+    },
+    "LEM_EvolveInfernolatro": {
+      "description": "Еволюціонуйте Пекеллатро."
+    },
+    "LEM_GetFibonacciToLevel6": {
+      "description": "Отримайте Фібоначчі-спрітц 6 рівня."
+    },
+    "LEM_EvolveFibonacci": {
+      "description": "Еволюціонуйте Фібоначчі-спрітц."
+    },
+    "LEM_GetGrosMichelToLevel6": {
+      "description": "Отримайте Гро-Мішель 6 рівня."
+    },
+    "LEM_EvolveGrosMichel": {
+      "description": "Еволюціонуйте Гро-Мішель."
+    },
+    "LEM_GetRichRocketToLevel6": {
+      "description": "Отримайте Ракету багатія 6 рівня."
+    },
+    "LEM_EvolveRichRocket": {
+      "description": "Еволюціонуйте Ракету багатія."
+    },
+    "LEM_DefeatBoss": {
+      "description": "Знищте Багряне серце в Передпокої."
+    },
+    "TP_ExtraEvo_AlucardSpear": {
+      "description": "Еволюціонуйте Спис Алукарда."
+    },
+    "TP_ExtraEvo_IronBall": {
+      "description": "Еволюціонуйте Залізну кулю."
+    },
+    "TP_ExtraEvo_CurvedKnife": {
+      "description": "Еволюціонуйте Викривлений ніж."
+    },
+    "TP_ExtraEvo_Shuriken": {
+      "description": "Еволюціонуйте Сюрикен."
+    },
+    "TP_ExtraEvo_Discus": {
+      "description": "Еволюціонуйте Диск."
+    },
+    "TP_ExtraEvo_MartialWhip": {
+      "description": "Еволюціонуйте Бойовий батіг."
+    },
+    "TP_ExtraEvo_SonicDash": {
+      "description": "Еволюціонуйте Звуковий удар."
+    },
+    "TP_ExtraEvo_Dominus": {
+      "description": "Об'єднайте Божії."
+    },
+    "LEM_GetInfernolatro_Score777": {
+      "description": "Наберіть 777 очок із Пекеллатро."
     }
   }
 }

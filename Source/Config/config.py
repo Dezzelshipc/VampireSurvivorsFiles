@@ -28,6 +28,7 @@ class CfgKey(Enum):
     OG = "OG_ASSETS"
     OC = "OC_ASSETS"
     ED = "ED_ASSETS"
+    AC = "AC_ASSETS"
 
     # IS = "IS_ASSETS"
 
@@ -64,6 +65,7 @@ class DLCType(Enum):
     OG = DLC(4, CfgKey.OG, "FIRST_BLOOD", "2887680", "Operation Guns")
     OC = DLC(5, CfgKey.OC, "THOSE_PEOPLE", "3210350", "Ode to Castlevania")
     ED = DLC(6, CfgKey.ED, "EMERALDS", "3451100", "Emerald Diorama")
+    AC = DLC(7, CfgKey.AC, "LEMON", "3929770", "Ante Chamber")
 
     # IS = DLC(-1, CfgKey.IS, "-", "-", "IS")
 
@@ -201,7 +203,7 @@ class Config(Objectless):
         def __init__(self, parent):
             super().__init__(parent)
             self.title("Change config")
-            self.geometry("700x520")
+            self.geometry("700x600")
 
             self.variables: dict[CfgKey, tk.StringVar | tk.BooleanVar | None] = dict(zip(
                 Config._get_default_config(),

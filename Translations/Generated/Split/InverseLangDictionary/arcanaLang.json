@@ -233,7 +233,7 @@
       "description": "Gain Profusione D'Amore after 80 levels."
     },
     "1100": {
-      "description": "Gains +5MaxHP every level."
+      "description": "Gains +5 MaxHP every level."
     },
     "1101": {
       "description": "Gains +1% Growth every level."
@@ -314,10 +314,10 @@
       "description": "+1 Armor after defeating a set amount of enemies [1k, 5k, 10k]"
     },
     "5003": {
-      "description": "Grants 100 gold coin after defeating a set amount of enemies [1k, 2k, 3k]"
+      "description": "Grants 1 gold coin after defeating a set amount of enemies [1k, 2k, 3k]"
     },
     "5004": {
-      "description": "Starts a Gold Fever after defeating a set amount of enemies [1k, 3k, 5k]"
+      "description": "Starts a Gold Fever after defeating a set amount of enemies [1k, 5k, 10k]"
     },
     "6000": {
       "description": "HP-Critical: gains 40 MaxHP and recovers 30% Health."
@@ -341,16 +341,16 @@
       "description": "Overheal +16: gains +1 Reroll."
     },
     "8000": {
-      "description": "Spawn light sources after gaining a set amount of gold [0.5k, 1k, 2k]"
+      "description": "Spawn light sources after gaining a set amount of gold [1k, 5k, 10k]"
     },
     "8001": {
-      "description": "Gains +0.5 Thorns after gaining a set amount of gold [1k, 2k, 3k]"
+      "description": "Gains +0.5 Thorns after gaining a set amount of gold [1k, 5k, 10k]"
     },
     "8002": {
       "description": "Gains +1 Revive after gaining a set amount of gold [1k, 5k, 10k]"
     },
     "8003": {
-      "description": "Gains +1 passive weapon slot after gaining a set amount of gold [2.5k, 7.5k, 15k]"
+      "description": "Gains +1 passive weapon slot after gaining a set amount of gold [5k, 10k, 20k]"
     },
     "EDITION_Gala": {
       "description": "Adds a Survarot-specific bonus."
@@ -534,7 +534,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "Le bonus de recharge se perd après 4 niveaux."
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -594,7 +594,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Gagne %0 de quantité tous les 20 niveaux (4 fois max). Bonus de quantité temporaire pendant 5 niveaux."
+      "description": "Le bonus de quantité se perd pendant 9 niveaux."
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -621,31 +621,31 @@
       "description": "Gagne Profusione d'amore après 80 niveaux."
     },
     "1100": {
-      "description": "Commence à gagner +5 PV max à chaque niveau."
+      "description": "Obtient +5 PV max à chaque niveau."
     },
     "1101": {
-      "description": "Commence à gagner +1 % d'expertise à chaque niveau."
+      "description": "Obtient +1 % d'expertise à chaque niveau."
     },
     "1102": {
-      "description": "Commence à gagner +1 % de puissance à chaque niveau."
+      "description": "Obtient +1 % de puissance à chaque niveau."
     },
     "1103": {
-      "description": "Commence à gagner +1 % de vitesse des projectiles à chaque niveau."
+      "description": "Obtient +1 % de vitesse des projectiles à chaque niveau."
     },
     "1104": {
-      "description": "Commence à gagner +1 % de durée à chaque niveau."
+      "description": "Obtient +1 % de durée à chaque niveau."
     },
     "1105": {
-      "description": "Commence à gagner +1 % de portée à chaque niveau."
+      "description": "Obtient +1 % de portée à chaque niveau."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Obtient +1 Passer à chaque niveau."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Obtient +1 Relance à chaque niveau."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Obtient +1 Bannissement à chaque niveau."
     },
     "2000": {
       "description": "Après résurrection : déclenche un Chapelet."
@@ -750,29 +750,29 @@
       "description": "Double la plupart des bonus de départ."
     },
     "EDITION_Holo": {
-      "description": "Ce Survarot gagne 4 niveaux au lieu d'un lorsque le joueur monte de niveau."
+      "description": "Ce Survarot gagne 4 niveaux au lieu d'un lorsque vous gagnez un niveau."
     },
     "EDITION_Inve": {
       "description": "Inverse la plupart des bonus de départ. L'accumulation de cartes INVE réduit le facteur de risque."
     },
     "SURVAROT_RISK": {
       "name": "RISQUE",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "La santé des ennemis est actuellement augmentée de %0 % et leurs dégâts de %1 %."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Obtient une réduction temporaire de 100 % du temps de recharge lorsque vous passez un niveau."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Augmente la santé max et récupère entièrement les PV lorsque vous passez un niveau."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Déclenche un Chapelet lorsque vous passez un niveau."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Déclenche un Orologion lorsque vous passez un niveau."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Obtient %0 tous les %1 niveaux (%2 fois max)."
     }
   },
   "it": {
@@ -922,7 +922,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "Il bonus al Tempo di ricarica si resetta dopo quattro livelli."
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -982,7 +982,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "=+%0 di Quantità ogni 20 livelli (max quattro volte). Bonus temporaneo alla Quantità per cinque livelli."
+      "description": "Il bonus Quantità svanisce dopo 9 livelli."
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -1009,31 +1009,31 @@
       "description": "Guadagni Profusione D'Amore dopo 80 livelli."
     },
     "1100": {
-      "description": "Inizi a guadagnare +5 di Salute massima ogni livello."
+      "description": "Guadagna +5 di Salute massima ogni livello."
     },
     "1101": {
-      "description": "Inizi a guadagnare +1% di Crescita con ogni livello."
+      "description": "Guadagna +1% di Crescita con ogni livello."
     },
     "1102": {
-      "description": "Inizi a guadagnare +1% di Potenza con ogni livello."
+      "description": "Guadagna +1% di Potenza con ogni livello."
     },
     "1103": {
-      "description": "Inizi a guadagnare +1% di Velocità dei proiettili con ogni livello."
+      "description": "Guadagna +1% di Velocità dei proiettili con ogni livello."
     },
     "1104": {
-      "description": "Inizi a guadagnare +1% di Durata con ogni livello."
+      "description": "Guadagna +1% di Durata con ogni livello."
     },
     "1105": {
-      "description": "Inizi a guadagnare +1% di Area con ogni livello."
+      "description": "Guadagna 0% di Area con ogni livello."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Guadagna +1 Esenzione ogni livello."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Guadagna +1 Risorteggio ogni livello."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Guadagna +1 Esclusione ogni livello."
     },
     "2000": {
       "description": "Alla resurrezione: scatena un Rosario."
@@ -1138,29 +1138,29 @@
       "description": "Raddoppia la maggior parte dei bonus iniziali."
     },
     "EDITION_Holo": {
-      "description": "Quando il giocatore sale di livello, questo Survarocco guadagna quattro livelli anziché uno."
+      "description": "Quando sali di livello, questo Survarocco guadagna quattro livelli anziché uno."
     },
     "EDITION_Inve": {
       "description": "Inverte la maggior parte dei bonus iniziali. L'accumulo di carte INVE riduce il fattore Rischio."
     },
     "SURVAROT_RISK": {
       "name": "RISCHIO",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "Al momento, la Salute dei nemici è aumentata di un %0% e i Danni di un %1%."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Ottiene una riduzione temporanea del 100% al Tempo di ricarica all'Esenzione di un nuovo livello."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Aumenta la Salute massima e recupera completamente i PS all'Esenzione di un nuovo livello."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Attiva un Rosario all'Esenzione di un nuovo livello."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Attiva un Orologion all'Esenzione di un nuovo livello."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Comincia a guadagnare %0 ogni %1 livelli (max %2 volte)."
     }
   },
   "de": {
@@ -1310,7 +1310,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "Abklingzeit-Bonus, hält 4 Level an."
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -1370,7 +1370,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Erhält alle 20 Level +%0 Menge (max. 4 Mal). Erhält 5 Level lang einen temporären Menge-Bonus."
+      "description": "Menge-Bonus, hält 9 Level an."
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -1415,13 +1415,13 @@
       "description": "Erhalte pro Level +1% Bereich."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Erhalte pro Level +1 Überspringen."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Erhalte pro Level +1 Neuwahl."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Erhalte pro Level +1 Verbannen."
     },
     "2000": {
       "description": "Beim Wiederbeleben: Löst einen Rosenkranz aus."
@@ -1533,22 +1533,22 @@
     },
     "SURVAROT_RISK": {
       "name": "RISIKO",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "Gegner-LP aktuell um %0% erhöht, Schaden um %1% erhöht."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Vorübergehend 100 % Abklingzeit-Reduzierung, wenn du einen Levelaufstieg überspringst."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Mehr max. LP und vollständige Heilung, wenn du einen Levelaufstieg überspringst."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Löst einen Rosenkranz aus, wenn du einen Levelaufstieg überspringst."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Löst einen Orologion aus, wenn du einen Levelaufstieg überspringst."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Erhalte %0 nach jedem %1. Level (max. %2-mal)."
     }
   },
   "es": {
@@ -1698,7 +1698,7 @@
     },
     "106": {
       "name": "006: Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "La bonificación de recarga se va perdiendo durante 4 niveles."
     },
     "107": {
       "name": "007: Lama Ladonna",
@@ -1758,7 +1758,7 @@
     },
     "121": {
       "name": "021: Ambrojoe",
-      "description": "Gana %0 de cantidad cada 20 niveles (máx.: 4 veces). Bonificación de cantidad temporal durante 5 niveles."
+      "description": "La bonificación de cantidad se va perdiendo durante 9 niveles."
     },
     "122": {
       "name": "022: Iguana Gallo Valletto",
@@ -1785,31 +1785,31 @@
       "description": "Gana la Profusione d'amore tras 80 niveles."
     },
     "1100": {
-      "description": "Empieza a ganar +5 de PS máx. cada nivel."
+      "description": "Gana +5 de PS máx. cada nivel."
     },
     "1101": {
-      "description": "Empieza a ganar +1 % de crecimiento cada nivel."
+      "description": "Gana +1 % de crecimiento cada nivel."
     },
     "1102": {
-      "description": "Empieza a ganar +1 % de poder cada nivel."
+      "description": "Gana +1 % de poder cada nivel."
     },
     "1103": {
-      "description": "Empieza a ganar +1 % de velocidad de movimiento cada nivel."
+      "description": "Gana +1 % de vel. de proyectil cada nivel."
     },
     "1104": {
-      "description": "Empieza a ganar +1 % de duración cada nivel."
+      "description": "Gana +1 % de duración cada nivel."
     },
     "1105": {
-      "description": "Empieza a ganar +1 % de área de efecto cada nivel."
+      "description": "Gana %0 de área de efecto cada nivel."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Gana +1 uso de saltar cada nivel."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Gana +1 uso de cambiar cada nivel."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Gana +1 uso de eliminar cada nivel."
     },
     "2000": {
       "description": "Al resucitar: activa un rosario."
@@ -1914,29 +1914,29 @@
       "description": "Duplica la mayoría de las bonificaciones de inicio."
     },
     "EDITION_Holo": {
-      "description": "Este supervicano gana 4 niveles en lugar de 1 al subir de nivel."
+      "description": "Este supervicano gana 4 niveles en lugar de 1 cuando subes de nivel."
     },
     "EDITION_Inve": {
       "description": "Invierte la mayoría de las bonificaciones de inicio. Acumular cartas negativas reduce el factor de riesgo."
     },
     "SURVAROT_RISK": {
       "name": "RIESGO",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "La salud de los enemigos aumenta un %0 % actualmente y el daño, un %1 %."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Obtiene una reducción de recarga temporal del 100 % al saltar una elección al subir de nivel."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Aumenta los PS máx. y recupera todos los PS al saltar una elección al subir de nivel."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Activa un rosario al saltar una elección al subir de nivel."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Activa un reloj mágico al saltar una elección al subir de nivel."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Empieza a ganar %0 cada %1 niveles (máx.: %2 veces)."
     }
   },
   "pt-BR": {
@@ -2086,7 +2086,7 @@
     },
     "106": {
       "name": "006 – Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "O bônus temporário de Recarga dura 4 níveis."
     },
     "107": {
       "name": "007 – Lama Ladonna",
@@ -2146,7 +2146,7 @@
     },
     "121": {
       "name": "021 – Ambrojão",
-      "description": "Ganha %0 de Quantidade a cada 20 níveis (máx. 4 vezes). Ganha bônus temporário de Quantidade por 5 níveis."
+      "description": "O bônus temporário de Quantidade dura 9 níveis."
     },
     "122": {
       "name": "022 – Iguana Gallo Valletto",
@@ -2173,31 +2173,31 @@
       "description": "Ganha Profusione D'Amore após 80 níveis."
     },
     "1100": {
-      "description": "Passe a ganhar +5 de Vida Máx. a cada nível."
+      "description": "Ganha +5 de Vida Máx. a cada nível."
     },
     "1101": {
-      "description": "Passe a ganhar +1% de Crescimento a cada nível."
+      "description": "Ganha +1% de Crescimento a cada nível."
     },
     "1102": {
-      "description": "Passe a ganhar +1% de Poder a cada nível."
+      "description": "Ganha +1% de Poder a cada nível."
     },
     "1103": {
-      "description": "Passe a ganhar +1% de Velocidade de Projéteis a cada nível."
+      "description": "Ganha +1% de Velocidade de Projéteis a cada nível."
     },
     "1104": {
-      "description": "Passe a ganhar +1% de Duração a cada nível."
+      "description": "Ganha +1% de Duração a cada nível."
     },
     "1105": {
-      "description": "Passe a ganhar +1% de Área a cada nível."
+      "description": "Ganha %0 de Área a cada nível."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Ganha +1 Adiar a cada nível."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Ganha +1 Rolar Novamente a cada nível."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Ganha +1 Banir a cada nível."
     },
     "2000": {
       "description": "Ao Ressuscitar: ativa um Rosário."
@@ -2302,29 +2302,29 @@
       "description": "Duplica a maioria dos bônus iniciais."
     },
     "EDITION_Holo": {
-      "description": "Este Surtarô ganha 4 níveis em vez de 1 quando o jogador sobe de nível."
+      "description": "Este Surtarô ganha 4 níveis em vez de 1 quando você sobe de nível."
     },
     "EDITION_Inve": {
       "description": "Inverte a maioria dos bônus iniciais. Acumular cartas invertidas reduz o fator de risco."
     },
     "SURVAROT_RISK": {
       "name": "RISCO",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "Vida do inimigo aumenta em %0% e dano em %1%."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Ganha 100% de redução temporária de Recarga ao adiar subir de nível."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Aumenta Vida Máx. e recupera PV totalmente ao adiar subir de nível."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Ativa um Rosário ao adiar subir de nível."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Ativa um Orologion ao adiar subir de nível."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Passa a ganhar %0 a cada %1 níveis (máx. %2 vezes)."
     }
   },
   "pl": {
@@ -2474,7 +2474,7 @@
     },
     "106": {
       "name": "006 – Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "Premia do Odnawiania stopniowo znika przez 4 poziomy."
     },
     "107": {
       "name": "007 – Lama Ladonna",
@@ -2534,7 +2534,7 @@
     },
     "121": {
       "name": "021 – Ambrojoe",
-      "description": "Otrzymuje %0 Ilości co 20 poziomów (maks. 4 razy). Tymczasowa premia do Ilości na 5 poziomów."
+      "description": "Premia do Ilości znika przez 9 poziomów."
     },
     "122": {
       "name": "022 – Iguana Gallo Valletto",
@@ -2561,31 +2561,31 @@
       "description": "Otrzymuje Obfitość miłości po 80 poziomach."
     },
     "1100": {
-      "description": "Zaczyna otrzymywać +5 Maks. zdrowia co poziom."
+      "description": "Otrzymuje +5 Maks. zdrowia co poziom."
     },
     "1101": {
-      "description": "Zaczyna otrzymywać +1% Rozwoju co poziom."
+      "description": "Otrzymuje +1% Rozwoju co poziom."
     },
     "1102": {
-      "description": "Zaczyna otrzymywać +1% Mocy co poziom."
+      "description": "Otrzymuje +1% Mocy co poziom."
     },
     "1103": {
-      "description": "Zaczyna otrzymywać +1% Prędkości pocisków co poziom."
+      "description": "Otrzymuje +1% Prędkości pocisków co poziom."
     },
     "1104": {
-      "description": "Zaczyna otrzymywać +1% Czasu trwania co poziom."
+      "description": "Otrzymuje +1% Czasu trwania co poziom."
     },
     "1105": {
-      "description": "Zaczyna otrzymywać +1% Obszaru co poziom."
+      "description": "Otrzymuje %0 Obszaru co poziom."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Otrzymuje +1 Pominięcie co poziom."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Otrzymuje +1 Zmianę co poziom."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Otrzymuje +1 Odrzucenie co poziom."
     },
     "2000": {
       "description": "Przy wskrzeszeniu: wyzwala Różaniec."
@@ -2633,13 +2633,13 @@
       "description": "Anuluje 50% ataków bossów."
     },
     "5000": {
-      "description": "+1 Revive after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "=+1 Wskrzeszenie po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
     },
     "5001": {
-      "description": "+1 Amount after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "=+1 do Ilości po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
     },
     "5002": {
-      "description": "+1 Armor after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "=+1 do Pancerza po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
     },
     "5003": {
       "description": "Przyznaje 1 złotą monetę po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
@@ -2690,29 +2690,29 @@
       "description": "Podwaja większość premii początkowych."
     },
     "EDITION_Holo": {
-      "description": "Ta karta Survarota zyskuje 4 poziomy zamiast 1, gdy gracz zdobywa poziom."
+      "description": "Ta karta Survarota zyskuje 4 poziomy zamiast 1, gdy zdobywasz poziom."
     },
     "EDITION_Inve": {
       "description": "Odwraca większość premii początkowych. Gromadzenie kart negatywnych zmniejsza czynnik Ryzyka."
     },
     "SURVAROT_RISK": {
       "name": "RYZYKO",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "Zdrowie wrogów jest obecnie zwiększone o %0%, a obrażenia o %1%."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Po pominięciu awansu na kolejny poziom tymczasowo obniża Odnawianie o 100%."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Po pominięciu awansu na kolejny poziom zwiększa Maks. zdrowie i odzyskuje wszystkie PZ."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Po pominięciu awansu na kolejny poziom uruchamia Różaniec."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Po pominięciu awansu na kolejny poziom uruchamia Orologion."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Zacznij otrzymywać %0 po każdych %1 poziomach (maks. %2 razy)."
     }
   },
   "ru": {
@@ -2862,7 +2862,7 @@
     },
     "106": {
       "name": "006 — Порта Ладонна",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "Бонус к перезарядке теряется в течение 4 уровней."
     },
     "107": {
       "name": "007 — Лама Ладонна",
@@ -2922,7 +2922,7 @@
     },
     "121": {
       "name": "021 — Амбро Джо",
-      "description": "Получает %0 к боезапасу каждые 20 уровней (макс. 4 раза). Временный бонус к боезапасу в течение 5 уровней."
+      "description": "Бонус к боезапасу теряется в течение 9 уровней."
     },
     "122": {
       "name": "022 — Игуана Галло Валлетто",
@@ -2949,31 +2949,31 @@
       "description": "Получает «Профузьонэ Д'Аморе» после 80 уровней."
     },
     "1100": {
-      "description": "Начинает получать +5 к максимальному здоровью каждый уровень."
+      "description": "Получает +5 к максимальному здоровью каждый уровень."
     },
     "1101": {
-      "description": "Начинает получать +1% к развитию каждый уровень."
+      "description": "Получает +1% к развитию каждый уровень."
     },
     "1102": {
-      "description": "Начинает получать +1% к силе каждый уровень."
+      "description": "Получает +1% к силе каждый уровень."
     },
     "1103": {
-      "description": "Начинает получать +1% к скорости снарядов каждый уровень."
+      "description": "Получает +1% к скорости снарядов каждый уровень."
     },
     "1104": {
-      "description": "Начинает получать +1% к продолжительности каждый уровень."
+      "description": "Получает +1% к продолжительности каждый уровень."
     },
     "1105": {
-      "description": "Начинает получать +1% к области каждый уровень."
+      "description": "Получает %0 к области каждый уровень."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Даёт +1 пропуск каждый уровень."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Даёт +1 повтор каждый уровень."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Даёт +1 изгнание каждый уровень."
     },
     "2000": {
       "description": "При оживлении: активирует чётки."
@@ -3021,13 +3021,13 @@
       "description": "Отменяет 50% атак боссов."
     },
     "5000": {
-      "description": "+1 Revive after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "=+1 к оживлению после победы над определённым числом врагов (1000, 5000, 10 000)"
     },
     "5001": {
-      "description": "+1 Amount after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "=+1 к боезапасу после победы над определённым числом врагов (1000, 5000, 10 000)"
     },
     "5002": {
-      "description": "+1 Armor after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "=+1 к броне после победы над определённым числом врагов (1000, 5000, 10 000)"
     },
     "5003": {
       "description": "Получает 1 золотую монету после победы над определённым числом врагов (1000, 2000, 3000)"
@@ -3078,29 +3078,29 @@
       "description": "Удваивает большую часть стартовых бонусов."
     },
     "EDITION_Holo": {
-      "description": "Этот сурварот получает 4 уровня вместо 1, когда игрок повышает уровень."
+      "description": "Этот сурварот получает 4 уровня вместо 1, когда вы повышаете уровень."
     },
     "EDITION_Inve": {
       "description": "Инвертирует большинство стартовых бонусов. Сбор карт «ИНВЕ» снижает фактор риска."
     },
     "SURVAROT_RISK": {
       "name": "РИСК",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "Здоровье врагов сейчас увеличивается на %0%, а урон — на %1%."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Получает временное сокращение перезарядки на 100% за пропуск при повышении уровня."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Увеличивает максимальное здоровье и полностью восполняет здоровье за пропуск при повышении уровня."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Активирует чётки за пропуск при повышении уровня."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Активирует часослов за пропуск при повышении уровня."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Начинает получать %0 каждые %1 ур. (до %2 раз)."
     }
   },
   "tr": {
@@ -3250,7 +3250,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "Bekleme Süresi bonusu 4 seviye sonra kaybolur."
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -3310,7 +3310,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Her 20 seviyede bir %0 Miktar kazanır (maks 4 kez). 5 seviye boyunca geçici Miktar bonusu kazanır."
+      "description": "Miktar bonusu 9 seviye sonra kaybolur."
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -3337,31 +3337,31 @@
       "description": "80 seviye atladıktan sonra Profusione D'Amore kazanır."
     },
     "1100": {
-      "description": "Her seviye +5 Maks Sağlık kazanmaya başlar."
+      "description": "Her seviye +5 Maks Sağlık kazanır."
     },
     "1101": {
-      "description": "Her seviye +%1 Büyüme kazanmaya başlar."
+      "description": "Her seviye +%1 Büyüme kazanır."
     },
     "1102": {
-      "description": "Her seviye +%1 Kuvvet kazanmaya başlar."
+      "description": "Her seviye +%1 Kuvvet kazanır."
     },
     "1103": {
-      "description": "Her seviye +%1 Fırlatılabilir Hızı kazanmaya başlar."
+      "description": "Her seviye +%1 Fırlatılabilir Hızı kazanır."
     },
     "1104": {
-      "description": "Her seviye +%1 Tesir Süresi kazanmaya başlar."
+      "description": "Her seviye +%1 Tesir Süresi kazanır."
     },
     "1105": {
-      "description": "Her seviye +%1 Alan kazanmaya başlar."
+      "description": "Her seviye %0 Alan kazanır."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Her seviye +1 Atlama kazanır."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Her seviye +1 Tekrar Atma kazanır."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Her seviye +1 Çıkarma kazanır."
     },
     "2000": {
       "description": "Canlandığında bir Tespih tetikler."
@@ -3466,29 +3466,29 @@
       "description": "Çoğu başlama bonusunu iki katına çıkarır."
     },
     "EDITION_Holo": {
-      "description": "Bu Survarot, oyuncu seviye atladığında 1 yerine 4 seviye yükselir."
+      "description": "Bu Survarot, seviye atladığında 1 yerine 4 seviye yükselir."
     },
     "EDITION_Inve": {
       "description": "Çoğu başlama bonusunu ters çevirir. INVE kartları biriktirmek Risk faktörünü azaltır."
     },
     "SURVAROT_RISK": {
       "name": "RİSK",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "Düşman sağlığı %0% ve Hasar %1% arttı."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Bir Seviye Atlama Atlandığında geçici olarak %100 Bekleme Süresi kazanır."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Bir Seviye Atlama Atlandığında Maks Sağlığı artırır ve sağlığı tamamen yeniler."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "Bir Seviye Atlama Atlandığında bir Tespih tetikler."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "Bir Seviye Atlama Atlandığında bir Zamantutan tetikler."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Her %1 seviyede bir %0 kazanmaya başlar (Maks %2 kez."
     }
   },
   "zh-CN": {
@@ -3638,7 +3638,7 @@
     },
     "106": {
       "name": "006 - 珀塔·拉多纳",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "获得冷却时间加成，持续4级。"
     },
     "107": {
       "name": "007 - 拉玛·拉多纳",
@@ -3698,7 +3698,7 @@
     },
     "121": {
       "name": "021 - 安布罗乔",
-      "description": "每20级，发射数量+%0，最多4次。获得发射数量临时加成，持续5级。"
+      "description": "获得发射数量加成，持续9级，逐级减弱。"
     },
     "122": {
       "name": "022 - 伊瓜纳·加洛·瓦勒托",
@@ -3740,16 +3740,16 @@
       "description": "每升一级，持续时间+1%。"
     },
     "1105": {
-      "description": "每升一级，攻击范围+1%。"
+      "description": "每升一级，攻击范围+%0。"
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "每升一级，跳过+1。"
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "每升一级，重选+1。"
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "每升一级，排除+1。"
     },
     "2000": {
       "description": "复活时：触发玫瑰念珠。"
@@ -3854,29 +3854,29 @@
       "description": "大多数开局加成的效果翻倍。"
     },
     "EDITION_Holo": {
-      "description": "此幸存塔罗牌在玩家升级时，等级+4（而非+1）。"
+      "description": "此幸存塔罗牌在你升级时，等级+4（而非+1）。"
     },
     "EDITION_Inve": {
       "description": "反转大多数开局加成。积累反色牌时，降低风险系数。"
     },
     "SURVAROT_RISK": {
       "name": "风险",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "敌人当前血量+%0%，伤害+%1%。"
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "跳过一次升级时，获得100%的冷却时间临时缩减。"
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "跳过一次升级时，提高生命值上限并回满生命值。"
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "跳过一次升级时，触发玫瑰念珠效果。"
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "跳过一次升级时，触发时祷怀表效果。"
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "每%1级，+%0（最多%2次）。"
     }
   },
   "ja": {
@@ -4026,7 +4026,7 @@
     },
     "106": {
       "name": "006 - ポルタ・ラドンナ",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "4レベルにかけてクールダウンボーナスを失う。"
     },
     "107": {
       "name": "007 - ラマ・ラドンナ",
@@ -4086,7 +4086,7 @@
     },
     "121": {
       "name": "021 - アンブロジョー",
-      "description": "レベル20ごとに発射弾数+%0（最大4回）。5レベル持続する一時的な発射弾数ボーナス付与。"
+      "description": "弾数効果は9レベルにわたって失われる。"
     },
     "122": {
       "name": "022 - イグアナ・ガロ・ヴァレット",
@@ -4113,31 +4113,31 @@
       "description": "80レベル後にあふれる愛を獲得する。"
     },
     "1100": {
-      "description": "1レベルごとに最大HPを5獲得し始める。"
+      "description": "1レベルごとに最大HP+5。"
     },
     "1101": {
-      "description": "1レベルごとに成長効率を1%獲得し始める。"
+      "description": "1レベルごとに成長効率+1%。"
     },
     "1102": {
-      "description": "1レベルごとに攻撃力を1%獲得し始める。"
+      "description": "1レベルごとに攻撃力+1%。"
     },
     "1103": {
-      "description": "1レベルごとに発射物弾速を1%獲得し始める。"
+      "description": "1レベルごとに発射物弾速+1%。"
     },
     "1104": {
-      "description": "1レベルごとに効果時間を1%獲得し始める。"
+      "description": "1レベルごとに効果時間+1%。"
     },
     "1105": {
-      "description": "1レベルごとに攻撃範囲を1%獲得し始める。"
+      "description": "1レベルごとに攻撃範囲を%0獲得。"
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "1レベルごとにスキップ+1。"
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "1レベルごとにリロール+1。"
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "1レベルごとに削除+1。"
     },
     "2000": {
       "description": "復活時：ロザリオを発動。"
@@ -4185,10 +4185,10 @@
       "description": "ボスによる攻撃の50%をキャンセルする。"
     },
     "5000": {
-      "description": "= 一定数の敵（1千、5千、1万）を倒した後、復活+1"
+      "description": "一定数の敵（1千、5千、1万）を倒した後、復活+1"
     },
     "5001": {
-      "description": "+1 Amount after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "一定数の敵（1千、5千、1万）を倒した後、発射弾数+1"
     },
     "5002": {
       "description": "= 一定数の敵（1千、5千、1万）を倒した後、防御力+1"
@@ -4242,29 +4242,29 @@
       "description": "開始ボーナスの大半が2倍になる。"
     },
     "EDITION_Holo": {
-      "description": "プレイヤーがレベルアップすると、このサバイバーカードは1レベルではなく4レベルを獲得する。"
+      "description": "自分がレベルアップすると、このサバイバーカードは1レベルではなく4レベル獲得する。"
     },
     "EDITION_Inve": {
       "description": "開始ボーナスの大半を反転させる。 反転カードが蓄積すると、リスク要因が減少する。"
     },
     "SURVAROT_RISK": {
       "name": "リスク",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "敵HPが現在+%0%、そしてダメージ+%1%。"
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "レベルアップをスキップすると、100%のクールダウン減少を一時的に獲得する。"
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "レベルアップをスキップすると、最大HPが増加し、満タンまで回復する。"
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "レベルアップをスキップすると、ロザリオが発動する。"
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "レベルアップをスキップすると、懐中時計が発動する。"
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "%1レベルごとに%0を獲得し始める（最大%2回まで）。"
     }
   },
   "ko": {
@@ -4414,7 +4414,7 @@
     },
     "106": {
       "name": "006 - 포르타 라돈나",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "재사용 대기 시간 보너스를 4레벨에 걸쳐 상실합니다."
     },
     "107": {
       "name": "007 - 라마 라돈나",
@@ -4474,7 +4474,7 @@
     },
     "121": {
       "name": "021 - 암브로조",
-      "description": "20레벨마다 수량이 %0 증가합니다(최대 4회). 5레벨에 대한 일시적 수량 보너스."
+      "description": "9레벨이 넘어가면 금전 보너스를 잃습니다."
     },
     "122": {
       "name": "022 - 이구아나 갈로 발레토",
@@ -4501,31 +4501,31 @@
       "description": "80레벨 이후 넘치는 애정을 얻습니다."
     },
     "1100": {
-      "description": "레벨마다 최대 HP가 5씩 증가하기 시작합니다."
+      "description": "레벨마다 최대 HP가 5씩 증가합니다."
     },
     "1101": {
-      "description": "레벨마다 성장이 1%씩 증가하기 시작합니다."
+      "description": "레벨마다 성장이 1%씩 증가합니다."
     },
     "1102": {
-      "description": "레벨마다 피해량이 1%씩 증가하기 시작합니다."
+      "description": "레벨마다 피해량이 1%씩 증가합니다."
     },
     "1103": {
-      "description": "레벨마다 투사체 속도가 1%씩 증가하기 시작합니다."
+      "description": "레벨마다 투사체 속도가 1%씩 증가합니다."
     },
     "1104": {
-      "description": "레벨마다 지속 시간이 1%씩 증가하기 시작합니다."
+      "description": "레벨마다 지속 시간이 1%씩 증가합니다."
     },
     "1105": {
-      "description": "레벨마다 공격 범위가 1%씩 증가하기 시작합니다."
+      "description": "레벨마다 공격 범위가 1%씩 증가합니다."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "레벨마다 건너뛰기가 1씩 증가합니다."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "레벨마다 새로고침이 1씩 증가합니다."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "레벨마다 지우기가 1씩 증가합니다."
     },
     "2000": {
       "description": "부활 시: 묵주를 발동합니다."
@@ -4573,10 +4573,10 @@
       "description": "보스의 공격을 50% 취소합니다."
     },
     "5000": {
-      "description": "+1 Revive after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 부활+1"
     },
     "5001": {
-      "description": "+1 Amount after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 수량 +1"
     },
     "5002": {
       "description": "= 적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 방어력+1"
@@ -4630,29 +4630,29 @@
       "description": "시작 보너스를 대부분 두 배로 늘립니다."
     },
     "EDITION_Holo": {
-      "description": "플레이어가 레벨업하면 이 서바로트는 1레벨 대신 4레벨을 얻습니다."
+      "description": "레벨업하면 이 서바로트는 1레벨 대신 4레벨을 얻습니다."
     },
     "EDITION_Inve": {
       "description": "시작 보너스를 대부분 반전시킵니다. INVE 카드를 누적하면 위험 요소가 감소합니다."
     },
     "SURVAROT_RISK": {
       "name": "위험",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "현재 적의 체력이 %0%, 피해가 %1% 증가했습니다."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "레벨 업을 건너뛸 때 일시적으로 쿨타임이 100% 감소합니다."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "레벨 업을 건너뛸 때 최대 체력이 증가하고 HP를 완전히 회복합니다."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "레벨 업을 건너뛸 때 묵주를 발동합니다."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "레벨 업을 건너뛸 때 회중시계를 발동합니다."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "%1레벨마다 %0(을)를 획득하기 시작합니다 (최대 %2회)."
     }
   },
   "zh-TW": {
@@ -4802,7 +4802,7 @@
     },
     "106": {
       "name": "006－珀塔．拉多納",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "在升過 4 級以後，冷卻時間加成便會消失。"
     },
     "107": {
       "name": "007－拉瑪．拉多納",
@@ -4862,7 +4862,7 @@
     },
     "121": {
       "name": "021－安布羅喬爵士",
-      "description": "每升 20 級，投射物數量便會增加 %0 個，最多可觸發 4 次。獲得暫時性（5 個等級）的投射物數量加成。"
+      "description": "數量加成會在 9 個等級後消失。"
     },
     "122": {
       "name": "022－伊瓜納．加洛．瓦勒托",
@@ -4889,31 +4889,31 @@
       "description": "在達到 80 級以後，獲得濃情蜜意。"
     },
     "1100": {
-      "description": "從現在開始，每升一級可獲得 +5 點的最大生命值加成。"
+      "description": "每升 1 級，最大生命值 +5。"
     },
     "1101": {
-      "description": "從現在開始，每升一級可獲得 +1% 的成長效益加成。"
+      "description": "每升 1 級，成長效益 +1%。"
     },
     "1102": {
-      "description": "從現在開始，每升一級可獲得 +1% 的力量加成。"
+      "description": "每升 1 級，力量 +1%。"
     },
     "1103": {
-      "description": "從現在開始，每升一級可獲得 +1% 的投射物速度加成。"
+      "description": "每升 1 級，投射物飛行速度 +1%。"
     },
     "1104": {
-      "description": "從現在開始，每升一級可獲得 +1% 的效果持續時間加成。"
+      "description": "每升 1 級，效果持續時間 +1%。"
     },
     "1105": {
-      "description": "從現在開始，每升一級可獲得 +1% 的效果範圍加成。"
+      "description": "每升 1 級，便可獲得 %0 的效果範圍加成。"
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "每升 1 級，便可獲得 +1 次的「跳過」額度。"
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "每升 1 級，便可獲得 +1 次的「重骰」額度。"
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "每升 1 級，便可獲得 +1 次的「滅除」額度。"
     },
     "2000": {
       "description": "復活時：觸發一次「玫瑰念珠」的效果。"
@@ -5018,29 +5018,29 @@
       "description": "讓大多數的起始加成效果加倍。"
     },
     "EDITION_Holo": {
-      "description": "在玩家升級以後，這張生存牌會從原本的升 1 級改為升 4 級。"
+      "description": "在你升級的同時，這張生存牌會從原本的升 1 級改為升 4 級。"
     },
     "EDITION_Inve": {
       "description": "反轉大多數的起始加成效益。收集「反轉」（INVE）卡牌可降低風險係數。"
     },
     "SURVAROT_RISK": {
       "name": "風險",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "敵人的生命值目前有提高了 %0%，傷害則是提高了 %1%。"
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，獲得暫時性的 100% 冷卻時間減免效益。"
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，提高最大生命值並完全恢復生命值。"
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，觸發一次「玫瑰念珠」的效果。"
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，觸發一次「時禱懷錶」的效果。"
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "每升 %1 級，便可獲得以下的加成效益： %0（最多可觸發 %2 次）。"
     }
   },
   "uk": {
@@ -5190,7 +5190,7 @@
     },
     "106": {
       "name": "006 — Порта Ладонна",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": "Втрачає бонус до відновлення на 4 рівні."
     },
     "107": {
       "name": "007 — Лама Ладонна",
@@ -5250,7 +5250,7 @@
     },
     "121": {
       "name": "021 — Амброджо",
-      "description": "Отримує %0 до кількості кожні 20 рівнів (макс. 4 рази). Тимчасовий бонус до кількості на 5 рівнів."
+      "description": "Бонус до кількості втрачається кожні 9 рівнів."
     },
     "122": {
       "name": "022 — Ігуана Ґало Валетто",
@@ -5277,31 +5277,31 @@
       "description": "Отримує Профузьйоне Д'Аморе на кожному 80 рівні."
     },
     "1100": {
-      "description": "Починає отримувати +5 до макс. ОЗ кожен рівень."
+      "description": "Отримує +5 до макс. ОЗ кожен рівень."
     },
     "1101": {
-      "description": "Починає отримувати +1% до розвитку кожен рівень."
+      "description": "Отримує +1% до розвитку кожен рівень."
     },
     "1102": {
-      "description": "Починає отримувати +1% сили кожен рівень."
+      "description": "Отримує +1% сили кожен рівень."
     },
     "1103": {
-      "description": "Починає отримувати +1% до швидкості снарядів кожен рівень."
+      "description": "Отримує +1% до швидкості снарядів кожен рівень."
     },
     "1104": {
-      "description": "Починає отримувати +1% тривалості кожен рівень."
+      "description": "Отримує +1% тривалості кожен рівень."
     },
     "1105": {
-      "description": "Починає отримувати +1% до області кожен рівень."
+      "description": "Отримує %0 до області кожен рівень."
     },
     "1106": {
-      "description": "Gain +1 Skip every level."
+      "description": "Отримуйте +1 пропуск на кожному рівні."
     },
     "1107": {
-      "description": "Gain +1 Reroll every level."
+      "description": "Отримуйте +1 повтор на кожному рівні."
     },
     "1108": {
-      "description": "Gain +1 Banish every level."
+      "description": "Отримуйте +1 вигнання на кожному рівні."
     },
     "2000": {
       "description": "По відродженні: запускає Чотки."
@@ -5406,29 +5406,29 @@
       "description": "Подвоює більшість початкових бонусів."
     },
     "EDITION_Holo": {
-      "description": "Таро вцілілих отримує 4 рівні замість 1, коли гравець підвищує рівень."
+      "description": "Таро вцілілих отримує 4 рівні замість 1, коли ви підвищуєте рівень."
     },
     "EDITION_Inve": {
       "description": "Інвертує більшість початкових бонусів. Накопичування інвертованих карт зменшує фактор ризику."
     },
     "SURVAROT_RISK": {
       "name": "РИЗИК",
-      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+      "description": "Здоров'я ворогів зараз зросло на %0%, а шкода — на %1%."
     },
     "1200": {
-      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+      "description": "Дає тимчасове зменшення часу відновлення на 100% у разі пропуску підвищення рівня."
     },
     "1201": {
-      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+      "description": "Збільшує макс. ОЗ та повністю відновлює здоров'я в разі пропуску підвищення рівня."
     },
     "1202": {
-      "description": "Triggers a Rosary when Skipping a Level Up."
+      "description": "У разі пропуску підвищення рівня викликає Чотки."
     },
     "1203": {
-      "description": "Triggers an Orologion when Skipping a Level Up."
+      "description": "У разі пропуску підвищення рівня викликає Часолов."
     },
     "9999": {
-      "description": "Start gaining %0 every %1 levels (Max %2 times)."
+      "description": "Починає отримувати %0 кожні %1 рівні(в) (макс. %2 р.)"
     }
   }
 }
