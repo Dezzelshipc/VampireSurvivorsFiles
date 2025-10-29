@@ -107,6 +107,60 @@
       "detune": -400
     }
   },
+  "BGM_TP_VS_OutOfTime": {
+    "title": "Out Of Time - Vampire Survivors",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_ZEPHYR",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_daniele.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -400
+    }
+  },
+  "BGM_TP_VS_TreasuryRoom": {
+    "title": "Treasury Room - Vampire Survivors",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_PERSEPHONE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_daniele.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -400
+    }
+  },
+  "BGM_TP_VS_C64Medley": {
+    "title": "C64 Medley of Illusions - Vampire Survivors",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_ACTRISE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_daniele.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -400
+    }
+  },
   "BGM_TP_VS_BlackDisk": {
     "title": "Dracula's Castle (Bonus Track) - Vampire Survivors",
     "author": "Daniele Zandara",
@@ -168,6 +222,60 @@
     "source": "",
     "unlockedByStage": null,
     "unlockedByCharacter": "TP_SARA",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_filippo.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
+  "BGM_TP_VS_DanceOfGold": {
+    "title": "Dance of Gold - Vampire Survivors",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_SWORDRULER",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_filippo.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
+  "BGM_TP_VS_WanderingGhosts": {
+    "title": "Wandering Ghosts - Vampire Survivors",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_STONESKULL",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_filippo.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
+  "BGM_TP_VS_RuinedCastleCorridor": {
+    "title": "Ruined Castle Corridor - Vampire Survivors",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_GENYA",
     "unlockedByItem": null,
     "isUnlocked": false,
     "icon": "icon_filippo.png",
@@ -343,6 +451,42 @@
       "detune": -800
     }
   },
+  "BGM_TP_VS_ClockWork": {
+    "title": "Clockwork - Vampire Survivors",
+    "author": "Keygen Church",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_ANNETTE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_keygen.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
+  "BGM_TP_VS_NewMessiah": {
+    "title": "New Messiah - Vampire Survivors",
+    "author": "Keygen Church",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_HUGH",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_keygen.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
   "BGM_TP_VS_AbandonedCastle": {
     "title": "Abandoned Castle - Vampire Survivors",
     "author": "Keygen Church",
@@ -385,6 +529,24 @@
     "source": "",
     "unlockedByStage": null,
     "unlockedByCharacter": "TP_STGERMAIN",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_keygen.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
+  "BGM_TP_VS_YoungNoblemanOfMadness": {
+    "title": "Young Nobleman Of Madness - Vampire Survivors",
+    "author": "Keygen Church",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_ISAAC",
     "unlockedByItem": null,
     "isUnlocked": false,
     "icon": "icon_keygen.png",
@@ -524,6 +686,24 @@
       "detune": -800
     }
   },
+  "BGM_TP_VS_AntiSoulMysteriesLab": {
+    "title": "Anti-Soul Mysteries Lab - Vampire Survivors",
+    "author": "Evelyn Lark",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_MORRIS",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_evelyn.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
   "BGM_TP_VS_MadForest": {
     "title": "Mad Forest - Vampire Survivors",
     "author": "Evelyn Lark",
@@ -566,6 +746,42 @@
     "source": "",
     "unlockedByStage": null,
     "unlockedByCharacter": "TP_CHARLOTTE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_evelyn.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
+  "BGM_TP_VS_DiscoloredWall": {
+    "title": "Discolored Wall - Vampire Survivors",
+    "author": "Evelyn Lark",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_WATERMAGICIAN",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_evelyn.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -800
+    }
+  },
+  "BGM_TP_VS_CallingFromHeaven": {
+    "title": "Calling From Heaven - Vampire Survivors",
+    "author": "Evelyn Lark",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "TP_DROLTA",
     "unlockedByItem": null,
     "isUnlocked": false,
     "icon": "icon_evelyn.png",
@@ -650,8 +866,7 @@
       "detune": -800
     }
   },
-
-
+  
   "BGM_TP_loi_LeonsTheme": {
     "title": "Lament of Innocence (Leon's Theme)",
     "author": "",
@@ -1182,7 +1397,7 @@
     "author": "",
     "source": "Castlevania Curse of Darkness",
     "unlockedByStage": null,
-    "unlockedByCharacter": "TP_ISAAC",
+    "unlockedByCharacter": "TP_JIANGSHI",
     "unlockedByItem": null,
     "isUnlocked": false,
     "icon": "icon_castle7.png",

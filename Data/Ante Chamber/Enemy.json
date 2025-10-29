@@ -1,0 +1,696 @@
+{
+  "LEM_JIMBAT2": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "passThroughWalls": false,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "LEM_enemies",
+      "end": 13,
+      "frameNames": [
+        "LEM_jimbat2_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 2,
+        "offsetX": -1
+      },
+      "bVariants": [
+        "LEM_JIMBAT3",
+        "LEM_JIMBAT4",
+        "LEM_XLJIMBAT"
+      ]
+    }
+  ],
+  "LEM_JIMBAT3": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 140,
+      "power": 5,
+      "passThroughWalls": false,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 15,
+      "idleFrameCount": 4,
+      "textureName": "LEM_enemies",
+      "frameNames": [
+        "LEM_jimbat3_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 0,
+        "offsetX": 2
+      }
+    }
+  ],
+    "LEM_JIMBAT4": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "passThroughWalls": false,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 17,
+      "idleFrameCount": 4,
+      "textureName": "LEM_enemies",
+      "frameNames": [
+        "LEM_jimbat4_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 1,
+        "offsetX": 4
+      }
+    }
+  ],
+  "LEM_JIMBAT5": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "passThroughWalls": false,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 29,
+      "idleFrameCount": 4,
+      "textureName": "LEM_enemies",
+      "frameNames": [
+        "LEM_jimbat2_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 1,
+        "offsetX": 2
+      }
+    }
+  ],
+  "LEM_XLJIMBAT": [
+    {
+      "level": 10,
+      "maxHp": 27,
+      "speed": 140,
+      "power": 10,
+      "passThroughWalls": false,
+      "knockback": 0.1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 15,
+      "idleFrameCount": 4,
+      "textureName": "LEM_enemies",
+      "frameNames": [
+        "LEM_jimbatXL_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.26,
+        "offsetY": -3,
+        "offsetX": 5
+      },
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "LEM_JIMBO_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 700,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "textureName": "LEM_enemies",
+      "end": 16,
+      "frameNames": [
+        "LEM_jimbat2_0.png",
+        "LEM_jimbat3_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.32,
+        "offsetY": 1.5,
+        "offsetX": 2
+      }
+    }
+  ],
+  "LEM_ZOMBALATRO": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 10,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 4,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 15,
+      "idleFrameCount": 4,
+      "textureName": "LEM_enemies",
+      "frameNames": [
+        "LEM_zombalatro_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": -3,
+        "offsetX": -2
+      }
+    }
+  ],
+  "LEM_MRBONES": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 100,
+      "power": 10,
+      "lives": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 15,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_mrbones_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bInclude": false,
+      "bHighlight": true,
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 2,
+        "offsetX": 1
+      }
+    }
+  ],
+  "LEM_SPECTRAL": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 7,
+      "speed": 190,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "end": 15,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_invisiblejokerB_0.png"
+      ],
+      "alpha": 0.5,
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 2,
+        "offsetX": -1
+      }
+    }
+  ],
+  "LEM_SPECTRAL_SWARM": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 1,
+      "speed": 700,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 1.5,
+      "end": 15,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "frameNames": [
+        "LEM_invisiblejokerA_0.png"
+      ],
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "alpha": 0.5,
+      "colliderOverride": {
+        "radius": 0.32,
+        "offsetY": 5,
+        "offsetX": 1
+      }
+    }
+  ],
+  "LEM_MANTIS": [
+    {
+      "level": 10,
+      "scale": 1.5,
+      "maxHp": 80,
+      "speed": 80,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 15,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_giantmantisjoker_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "colliderOverride": {
+        "radius": 0.34,
+        "offsetY": 5,
+        "offsetX": -2
+      }
+    }
+  ],
+  "LEM_SUNFLOWERS": [
+    {
+      "level": 1,
+      "maxHp": 4,
+      "speed": 15,
+      "power": 1,
+      "passThroughWalls": false,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "xp": 2,
+      "end": 13,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_sunflowers_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 5,
+        "offsetX": -0.8
+      }
+    }
+  ],
+    "LEM_VENUS": [
+    {
+      "level": 10,
+      "maxHp": 65,
+      "speed": 80,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 15,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_venusjoker_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "colliderOverride": {
+        "radius": 0.33,
+        "offsetY": 6,
+        "offsetX": 1
+      }
+    }
+  ],
+  "LEM_BOSS_VENUS": [
+    {
+      "level": 30,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 30,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 50,
+      "end": 15,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_venusjoker_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.33,
+        "offsetY": 6,
+        "offsetX": 1
+      }
+    }
+  ],
+  "LEM_WEREWOLF": [
+    {
+      "level": 1,
+      "maxHp": 24,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 7,
+      "killedAmount": 0,
+      "xp": 2,
+      "end": 17,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_werewolfjoker_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 5,
+        "offsetX": -1
+      }
+    }
+  ],
+  "LEM_BOSS_SMALLBLIND": [
+    {
+      "level": 15,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 20,
+      "passThroughWalls": true,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0.1,
+      "maxKnockback": 0.5,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 50,
+      "end": 12,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_boss_smallblind_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.33,
+        "offsetY": 7,
+        "offsetX": 1
+      },
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+    "LEM_BOSS_BIGBLIND": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 130,
+      "power": 20,
+      "passThroughWalls": true,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0.1,
+      "maxKnockback": 0.2,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 17,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "textureName": "LEM_enemies",
+      "frameNames": [
+        "LEM_boss_bigblind_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.41,
+        "offsetY": 12,
+        "offsetX": -9
+      },
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "LEM_BOSS_OX": [
+    {
+      "level": 15,
+      "maxHp": 25,
+      "speed": 80,
+      "power": 20,
+      "passThroughWalls": true,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 25,
+      "end": 1,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 2,
+      "frameNames": [
+        "LEM_boss_theox_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 6,
+        "offsetX": -0.5
+      },
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "LEM_BOSS_WALL": [
+    {
+      "level": 15,
+      "maxHp": 45,
+      "speed": 80,
+      "power": 20,
+      "passThroughWalls": true,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 25,
+      "end": 1,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 2,
+      "frameNames": [
+        "LEM_boss_thewall_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 6,
+        "offsetX": -0.5
+      },
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "LEM_BOSS_MANACLE": [
+    {
+      "level": 15,
+      "maxHp": 25,
+      "speed": 80,
+      "power": 20,
+      "passThroughWalls": true,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 25,
+      "end": 1,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 2,
+      "frameNames": [
+        "LEM_boss_themanacle_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 6,
+        "offsetX": -0.5
+      },
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "LEM_BOSS_CRIMSONHEART": [
+    {
+      "level": 30,
+      "maxHp": 27,
+      "speed": 160,
+      "power": 30,
+      "passThroughWalls": true,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 50,
+      "end": 1,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 2,
+      "frameNames": [
+        "LEM_boss_crimsonheart_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+    "LEM_PATROL_MINIMANTIS": [
+    {
+      "level": 7,
+      "maxHp": 60,
+      "speed": 180,
+      "power": 15,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "scale": 1,
+      "patrolDuration": 2000,
+      "passThroughWalls": false,
+      "end": 15,
+      "textureName": "LEM_enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "LEM_giantmantisjoker_0.png"
+      ]
+    }
+  ]
+}

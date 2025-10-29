@@ -11,7 +11,7 @@ import Source.Images.transparent_save as tr_save
 from Source.Translations.language import LangType
 from Source.Utility.constants import DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, to_source_path
 from Source.Utility.image_functions import get_anim_sprites_ready, resize_list_images
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.sprite_data import SpriteData
 from Source.Utility.utility import normalize_str
 from Source.Utility.image_functions import make_image_black
@@ -65,8 +65,8 @@ class IGFactory:
             return CharacterImageGenerator()
         elif "item" in data_file:
             return ItemImageGenerator()
-        elif "stageset" in data_file:
-            return StageSetImageGenerator()
+        elif "adventurestages" in data_file:
+            return StageImageGenerator()
         elif "stage" in data_file:
             return StageImageGenerator()
         elif "enemy" in data_file:
@@ -361,7 +361,7 @@ class SimpleGenerator(ImageGenerator):
         save_folder = f"{normalize_str(add_data.get("p_file"))}/{self.folderToSave or texture_name}"
 
         def func_meta(x):
-            d = MetaDataHandler.get_meta_by_name(x)
+            d = MetaDataHandler.get_meta_by_name_fullest(x)
             if d:
                 return d.data_name, d.image
             else:
@@ -379,7 +379,7 @@ class SimpleGenerator(ImageGenerator):
 
         save_folder += "/" + (obj.get("contentGroup") if obj.get("contentGroup") else "BASE_GAME")
 
-        meta_data = MetaDataHandler.get_meta_by_name(texture_name)
+        meta_data = MetaDataHandler.get_meta_by_name_fullest(texture_name)
         meta_data.init_sprites()
         if self.is_anim(settings):
             meta_data.init_animations()
@@ -1043,6 +1043,7 @@ class StageImageGenerator(TableGenerator):
 
 
 class StageSetImageGenerator(StageImageGenerator):
+    # Deprecated VS - v1.14
     def __init__(self):
         super().__init__()
         self.assets_type = OldDataType.STAGE_SET

@@ -351,9 +351,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Evolves into JoyaTauro at lv16, and into AccumulaTori at lv36. Retaliates."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -874,7 +874,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -1214,8 +1214,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Hiss, Meow, and Purr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Hiss, Meow, and Purr",
       "description": "Triggers Showstopper at critical health. Gain a follower whenever Showstopper is triggered."
     },
     "EME_DEMON": {
@@ -1247,6 +1247,162 @@
       "charName": "Poboldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Chances his luck every 30 seconds or when picking up a Rerollo."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "description": "Can find extra explosive props that might drop Treasure Chests. Can destroy light sources by touching them."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Secretino",
+      "surname": "Dagsson",
+      "description": "Can always find Survarots. Gets a Survarot Multiplier equal to Log10 Golden Eggs (max x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Can always find Survarots. Starts with a Survarot draft. Has a Survarot level Multiplier of 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Using Skip when levelling up has a chance to trigger a Survarot draft."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Can always find Survarots. Starts with a Survarots draft. Reduces boss health and blocks some special attacks."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Can always find Survarots. Can equip up to 100 Passive Weapons."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Adept with all weapons from the Coat of Arms. Retaliates by triggering Kaiser Knuckle, Lapiste Tepisto, and any Bracelet."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Adept with Valmanway. Might receive Coat of Arms as 4th level up option until Level 15"
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Persephone",
+      "surname": null,
+      "description": "Her hidden vaccuum draws in items, destructibles, and enemies."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Starts with temporarily reduced Cooldown. Overhealing slightly decreases Cooldown. Rosaries are easier to find."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Summons a selection of clockwork weapons."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Triggers a random equipped weapon every 13th hop. Immune to health drain."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "Totally not Alucard."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Atlantis",
+      "charName": "Shrine Wizard",
+      "surname": null,
+      "description": "Overhealing by +32 triggers any equipped weapon from the Coat of Arms and slowly floods the environment."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Ruler Sword",
+      "surname": null,
+      "description": "Grows additional swords when accumulatively Overhealing by an increasingly larger amount (Max 12 swords)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "Overhealing by +32 triggers any equipped weapon from the Belnades Spellbook."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Witch",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Adept with Gemma Torpor, Runetracer, Magi-Stone, and Kyra-Stones. Has a hidden Runetracer that grows stronger when levelling up."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Fishman",
+      "surname": null,
+      "description": "Obviously adept with Fire Wand."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Zephyr",
+      "surname": null,
+      "description": "Adept with knives. Gains a Cooldown and MoveSpeed bonus when picking up Orologions. Orologions are easier to find."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Fake Trio",
+      "surname": null,
+      "description": "A trio of zombies posing as vampire hunters."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Fake",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Fake",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Fake",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Stone Skull",
+      "surname": null,
+      "description": "Gains +1 Armor every 5 levels. Horizontally impaired. Retaliates."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra and Gaibon",
+      "surname": null,
+      "description": "Adept with Trident. Always followed by Gaibon. Gets enraged if its partner dies."
     }
   },
   "fr": {
@@ -1601,9 +1757,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Évolue en JoyaTauro au niveau 16, et en AccumulaTori au niveau 36. Lance des ripostes."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -2010,7 +2166,7 @@
       "prefix": null,
       "charName": "Succube",
       "surname": null,
-      "description": "Commence avec un Arcane supplémentaire (Arcane XVIII - Ronde des illusions). Peut voler."
+      "description": "Commence avec un Arcane supplémentaire (Arcane XVIII - Ronde des illusions)."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -2124,13 +2280,13 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Maître bibliothécaire",
       "surname": null,
-      "description": "Seul l'argent peut lui donner l'envie de se mouvoir."
+      "description": "Subjugué par l'argent."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -2382,13 +2538,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Gagne de la puissance lors de l'activation de techniques. Fait équipe avec Formina. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Gagne +1 % de puissance par niveau. Fait équipe avec Formina. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Gagne de la durée lors de l'activation de techniques. Fait équipe avec Bonnie. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Gagne +1 % de vitesse de projectile par niveau. Fait équipe avec Bonnie. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -2430,7 +2586,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Gagne 1 résurrection et 5 % d'expertise à chaque activation d'une nouvelle technique.\nDéclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_MRS": {
       "prefix": null,
@@ -2464,8 +2620,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Feulement, Miaou, et Ronron",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Feulement, Miaou, et Ronron",
       "description": "Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique. Gagne un disciple à chaque fois qu'un Coup d'éclat se déclenche."
     },
     "EME_DEMON": {
@@ -2497,6 +2653,162 @@
       "charName": "Poboldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Tente sa chance toutes les 30 secondes ou lorsqu'il ramasse un Rerollo."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "description": "Peut trouver des objets explosifs supplémentaires capables de faire apparaître des coffres au trésor. Peut détruire les sources de lumière en les touchant."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Secretino",
+      "surname": "Dagsson",
+      "description": "Peut toujours trouver des Survarots. Obtient un multiplicateur de Survarots égal aux Œufs dorés multipliés par Log10 (x10 max)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Peut toujours trouver des Survarots. Commence avec un lot de Survarots. Possède un multiplicateur de Survarots de 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Utiliser Passer lors du passage au niveau supérieur a une chance de déclencher un lot de Survarots."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Peut toujours trouver des Survarots. Commence avec un lot de Survarots. Réduit la santé des boss et bloque certaines attaques spéciales."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Peut toujours trouver des Survarots. Peut équiper jusqu'à 100 armes passives."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Maîtrise toutes les armes d'Armoiries. Riposte en déclenchant un Poing Kaiser, un Lapiste Tepisto, et n'importe quel bracelet."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Maîtrise le Valmanway. Peut recevoir Armoiries en tant que 4e option jusqu'au niveau 15."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Perséphone",
+      "surname": null,
+      "description": "Son aspirateur caché attire les objets, les éléments destructibles et les ennemis."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Commence avec une recharge temporairement réduite. Surguérir réduit légèrement la recharge. Les chapelets sont plus facilement trouvables."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Invoque une sélection d'armes d'horlogerie."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Déclenche une arme équipée aléatoire tous les 13e bond. Immunisé contre le drainage de santé."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "Ce n'est pas du tout Alucard."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Atlantis",
+      "charName": "Sorcier du sanctuaire",
+      "surname": null,
+      "description": "Déclenche n'importe quelle arme équipée d'Armoiries et inonde lentement l'environnement en surguérissant de +32."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Ruler Sword",
+      "surname": null,
+      "description": "Obtient des épées supplémentaires de manière croissante en accumulant de la surguérison (12 épées max)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "Déclenche n'importe quelle arme équipée du livre de sort des Belnades en surguérissant de +32."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Sorcière",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Maîtrise Gemma Torpor, la Pierre runique, la Magipierre, et les Kyrapierres. Possède une Pierre runique cachée qui devient de plus en plus puissante en montant de niveau."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Pêcheur",
+      "surname": null,
+      "description": "Maîtrise bien évidemment la baguette de feu."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Zéphyr",
+      "surname": null,
+      "description": "Maîtrise les couteaux. Gagne un bonus de recharge et de vitesse de déplacement en ramassant des Orologions. Les Orologions sont plus facilement trouvables."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Faux trio",
+      "surname": null,
+      "description": "Un trio de zombies qui se font passer pour des chasseurs de vampires."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Faux",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Faux",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Faux",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Crâne de pierre",
+      "surname": null,
+      "description": "Gagne +1 d'armure tous les 5 niveaux. Handicapé horizontalement. Riposte."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra et Gaibon",
+      "surname": null,
+      "description": "Maîtrise le Trident. Toujours suivi par Gaibon. Devient furieux si son partenaire meurt."
     }
   },
   "it": {
@@ -2851,9 +3163,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Al 16° livello migliora in JoyaTauro, al 36° livello migliora in AccumulaTori. Contrattacca."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -3260,7 +3572,7 @@
       "prefix": null,
       "charName": "Succubus",
       "surname": null,
-      "description": "Inizia con l'Arcano extra XVIII - Boogaloo delle illusioni. Può volare."
+      "description": "Inizia con l'Arcano extra XVIII - Boogaloo delle illusioni."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -3374,13 +3686,13 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Mastro bibliotecario",
       "surname": null,
-      "description": "Solo i soldi possono spostarlo."
+      "description": "Profondamente commosso dai soldi."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -3632,13 +3944,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Guadagna Potenza quando utilizza tech in Glimmer. Fa squadra con Formina. Scatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Guadagna +1% di Potenza con ogni livello. Fa squadra con Formina. Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Guadagna Durata quando utilizza tech in Glimmer. Fa squadra con Bonnie. Scatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Guadagna +1% di Velocità dei proiettili con ogni livello. Fa squadra con Bonnie. Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -3680,7 +3992,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Guadagna una Resurrezione e il 5% di Crescita ogni volta che ottiene in Glimmer una nuova tech.\nScatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_MRS": {
       "prefix": null,
@@ -3714,8 +4026,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Soffia, Miao e Fusa",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Soffia, Miao e Fusa",
       "description": "Scatena un Momento clou a salute critica. Guadagna un seguace ogni qualvolta viene scatenato un Momento clou."
     },
     "EME_DEMON": {
@@ -3747,6 +4059,162 @@
       "charName": "Poboldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Tenta la fortuna ogni 30 secondi o quando ottiene un Risorteggioo."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "description": "Può trovare elementi esplosivi aggiuntivi che possono rilasciare Forzieri del tesoro. Può distruggere le sorgenti di luce toccandole."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Secretino",
+      "surname": "Dagsson",
+      "description": "Può trovare sempre i Survarocchi. Ottiene un moltiplicatore Survarocchi pari al Log10 delle Uova d'oro. (max x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Può trovare sempre i Survarocchi. Comincia con una pesca di Survarocchi. Ha un moltiplicatore del livello dei Survarocchi pari a 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Usare l'Esenzione quando si sale di livello permette di pescare Survarocchi."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Può trovare sempre i Survarocchi. Comincia con una pesca di Survarocchi. Riduce la salute dei boss e blocca alcuni attacchi speciali."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Può trovare sempre i Survarocchi. Può equipaggiarsi con fino a 100 armi passive."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Abile con tutte le armi del Blasone. Contrattacca attivando Tirapugni del Kaiser, Lapiste Tepisto e qualsiasi Bracciale."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Abile col Valmanway. Può ottenere un Blasone come quarta opzione di passaggio livello fino al livello 15."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Persefone",
+      "surname": null,
+      "description": "Il suo aspirapolvere nascosto può risucchiare oggetti, oggetti fragili e nemici."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Comincia con il Tempo di ricarica temporaneamente ridotto. Curarsi oltre la salute massima riduce leggermente il Tempo di ricarica. È più facile trovare i rosari."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Evoca una rosa di armi a orologeria."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Attiva una delle armi in uso a caso ogni 13 salti. Immune al prosciugamento di Salute."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "Assolutamente non Alucard."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Mago del santuario",
+      "charName": "Atlantide",
+      "surname": null,
+      "description": "Curarsi di 32 punti oltre la salute massima attiva qualsiasi arma in uso dal Blasone e allaga lentamente l'area."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Ruler Sword",
+      "surname": null,
+      "description": "Cresce spade aggiuntive quando accumula cura oltre la salute massima di una quantità sempre maggiore (12 spade al massimo)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "Curarsi di più di 32 punti oltre al salute massima scatena qualsiasi arma in uso dal Libro magico di Belnades."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Strega",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Abile con Gemma Torpor, Tracciarune, Magi-pietra e Kyra-pietra. Quando sale di livello potenzia il suo Tracciarune nascosto."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Uomo pesce",
+      "surname": null,
+      "description": "Ovviamente abile con la Bacchetta di fuoco."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Zefiro",
+      "surname": null,
+      "description": "Abile coi coltelli. Guadagna un bonus al Tempo di ricarica e alla Velocità di movimento quando raccoglie gli Orologion. È più facile trovare gli Orologion."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Trio finto",
+      "surname": null,
+      "description": "Un trio di zombi che si spacciano per cacciatori di vampiri."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Finto",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Finta",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Finto",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Teschio di pietra",
+      "surname": null,
+      "description": "Guadagna +1 di Armatura ogni cinque livelli. Diversamente abile nei movimenti laterali. Contrattacca."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra e Gaibon",
+      "surname": null,
+      "description": "Abile col Tridente. È sempre con Gaibon. Va su tutte le furie quando muore il suo partner."
     }
   },
   "de": {
@@ -4101,9 +4569,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Verbessert sich bei Level 16 zu Joyatauro und bei Level 36 zu Accumulatori. Übt Vergeltung."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -4510,7 +4978,7 @@
       "prefix": null,
       "charName": "Succubus",
       "surname": null,
-      "description": "Beginnt mit zusätzlichem Arcana XVIII – Trugbild der Illusionen. Kann fliegen."
+      "description": "Beginnt mit zusätzlichem Arcana XVIII – Trugbild der Illusionen."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -4624,13 +5092,13 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Meisterbibliothekar",
       "surname": null,
-      "description": "Er ist nur durch Geld zu bewegen."
+      "description": "Wenn er Geld sieht, ist er tief bewegt."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -4882,13 +5350,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Erhält Macht durch den Einsatz aufgeglimmter Techniken. Bildet ein Team mit Formina. Löst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Erhält +1 % Macht pro Level. Bildet ein Team mit Formina. Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Erhält Dauer durch den Einsatz aufgeglimmter Techniken. Bildet ein Team mit Bonnie. Löst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Erhält +1 % Geschosstempo pro Level. Bildet ein Team mit Bonnie. Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -4930,7 +5398,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Erhält 1 Wiederbeleben und 5% Entwicklung beim Aufglimmern einer neuen Technik.\nLöst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_MRS": {
       "prefix": null,
@@ -4964,8 +5432,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Fauch, Miau, Schnurr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Fauch, Miau, Schnurr",
       "description": "Löst bei kritisch niedrigen LP einen Showstopper aus. Erhält bei Auslösung des Showstoppers einen Anhänger."
     },
     "EME_DEMON": {
@@ -4997,6 +5465,162 @@
       "charName": "Pumoldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Stellt sein Glück alle 30 Sekunden oder bei Aufnahme eines Neuwahlias auf die Probe."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi’Appunta",
+      "surname": "Belpaese",
+      "description": "Kann zusätzliche explosive Gegenstände finden, die Schatztruhen hinterlassen können. Kann Lichtquellen durch Berührung zerstören."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Secretino",
+      "surname": "Dagsson",
+      "description": "Kann immer Survarots finden. Erhält einen Survarot-Multiplikator in Höhe von log10 der Goldenen Eier (max. 10-fach)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Kann immer Survarots finden. Erhält zu Beginn sofort einen Survarot-Draft. Hat einen Survarot-Multiplikator von 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Überspringen bei Levelaufstiegen löst manchmal einen Survarot-Draft aus."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Kann immer Survarots finden. Erhält zu Beginn sofort einen Survarot-Draft. Bosse haben weniger LP. Blockt einige Spezialangriffe."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Kann immer Survarots finden. Kann bis zu 100 passive Waffen anlegen."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Geschickt im Umgang mit allen Waffen des Wappenschilds. Übt Vergeltung mit dem Kaiserknöchel, Lapiste Tepisto und sämtlichen Armbändern."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Geschickt im Umgang mit dem Valmanway. Kann bis Level 15 das Wappenschild als 4. Option bei einem Levelaufstieg erhalten."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Persephone",
+      "surname": null,
+      "description": "Ihr versteckter Staubsauger zieht Items, zerstörbare Objekte und Gegner an."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Hat zu Beginn temporär eine reduzierte Abklingzeit. Überheilung reduziert die Abklingzeit leicht. Rosenkränze sind leichter zu finden."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Beschwört eine Auswahl an Uhrwerkwaffen herauf."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Löst bei jedem 13. Sprung eine zufällige angelegte Waffe aus. Immun gegen LP-Abzug."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "Definitiv nicht Alucard."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Atlantischer",
+      "charName": "Schreinzauberer",
+      "surname": null,
+      "description": "Bei einer Überheilung um +32 werden alle angelegten Waffen des Wappenschilds ausgelöst und die Umgebung wird langsam geflutet."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Herrscherschwert",
+      "surname": null,
+      "description": "Erhält bei Überheilung weitere Schwerter (max. 12 Schwerter). Die erforderliche Überheilung wächst mit jedem Schwert."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "Bei einer Überheilung um +32 werden alle angelegten Waffen aus Belnades’ Zauberbuch ausgelöst."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Die Hexe",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Geschickt im Umgang mit Gemma Torpor, Runensprüher, Stein der Weisen und Kyra-Stein. Hat einen versteckten Runensprüher, der bei Levelaufstiegen stärker wird."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Fischmann",
+      "surname": null,
+      "description": "Offensichtlich geschickt im Umgang mit dem Feuerstab."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Zephir",
+      "surname": null,
+      "description": "Geschickt im Umgang mit Messern. Erhält beim Aufnehmen von Orologien Boni auf Abklingzeit und Bewegungstempo. Orologien sind leichter zu finden."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Falsches Trio",
+      "surname": null,
+      "description": "Drei Zombies, die sich als Vampirjäger ausgeben."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Falscher",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Falsche",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Falscher",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Steinschädel",
+      "surname": null,
+      "description": "Erhält alle 5 Level +1 Rüstung. Horizontal eingeschränkt. Übt Vergeltung."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra und Gaibon",
+      "surname": null,
+      "description": "Geschickt im Umgang mit dem Dreizack. Hat immer Gaibon im Schlepptau. Wird wütend, wenn sein Partner stirbt."
     }
   },
   "es": {
@@ -5351,9 +5975,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Evoluciona en JoyaTauro en el nivel 16 y en AccumulaTori en el nivel 36. Refleja el daño."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -5760,7 +6384,7 @@
       "prefix": null,
       "charName": "Súcubo",
       "surname": null,
-      "description": "Empieza con el arcano XVIII: Bugalú de ilusiones. Vuela."
+      "description": "Empieza con el arcano XVIII: Bugalú de ilusiones."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -5874,13 +6498,13 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Bibliotecario",
       "surname": null,
-      "description": "Su única motivación es el dinero."
+      "description": "El dinero es una de sus grandes motivaciones."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -6132,13 +6756,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Gana poder al usar técnicas vislumbradas. Forma equipo con Formina. Activa un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Gana +1 % de poder cada nivel. Forma equipo con Formina. Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Gana duración al usar técnicas vislumbradas. Forma equipo con Bonnie. Activa un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Gana +1 % de velocidad de proyectil cada nivel. Forma equipo con Bonnie. Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -6180,7 +6804,7 @@
       "prefix": "Marioneta",
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Gana una resurrección y un 5 % de crecimiento cada vez que vislumbra una técnica nueva.\nActiva un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_MRS": {
       "prefix": null,
@@ -6214,8 +6838,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Bufa, Miau y Ronroneo",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Bufa, Miau y Ronroneo",
       "description": "Activa un espectáculo al llegar a un punto crítico de salud. Gana un seguidor cada vez que se activa un espectáculo."
     },
     "EME_DEMON": {
@@ -6247,6 +6871,162 @@
       "charName": "Poboldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Cambia su suerte cada 30 segundos o cuando recoge un cambiollo."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "description": "Puede encontrar elementos explosivos adicionales que pueden soltar cofres del tesoro. Puede destruir fuentes de luz al tocarlas."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Secretino",
+      "surname": "Dagsson",
+      "description": "Siempre encuentra supervicanos. Obtiene un multiplicador de supervicano igual al log10 de los huevos de oro (máx.: x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Siempre encuentra supervicanos. Empieza con un supervicano. Tiene un multiplicador de supervicano de 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Usar la acción de saltar al subir de nivel tiene una probabilidad de activar un robo de supervicano."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Siempre encuentra supervicanos. Empieza con un supervicano. Reduce la salud de los jefes y bloquea algunos de los ataques especiales."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Siempre encuentra supervicanos. Puede equipar hasta 100 armas pasivas."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Experto en todas las armas del escudo de armas. Refleja el daño al activar los nudillos káiser, Lapiste tepisto y cualquier brazalete."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Experto con la Valmanway. Puede que reciba el escudo de armas como cuarta opción al subir de nivel hasta el nivel 15."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Perséfone",
+      "surname": null,
+      "description": "Su aspiradora oculta atrae objetos, objetos destruibles y enemigos."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Empieza con la recarga reducida temporalmente. Curarse de más reduce la recarga un poco. Los rosarios son más fáciles de encontrar."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Invoca una selección de armas del reloj."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Activa un arma equipada al azar cada decimotercer brinco. Inmune al consumo de salud."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "No es Alucard en absoluto."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": null,
+      "charName": "Mago de santuario",
+      "surname": "de Atlantis",
+      "description": "Curarse +32 de más activa cualquier arma equipada del escudo de armas e inunda el entorno lentamente."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Espada de tirano",
+      "surname": null,
+      "description": "Genera espadas adicionales cuando acumula curación de más en una cantidad cada vez mayor (máx.: 12 espadas)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "Curarse +32 de más activa cualquier arma equipada del libro de hechizos de Belnades."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Bruja",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Experta con Gemma Torpor, la runa trazadora, la gemágica y las gemas de Kyra. Tiene una runa trazadora oculta que se hace más fuerte al subir de nivel."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Hombre pez",
+      "surname": null,
+      "description": "Experto con la varita ígnea por razones obvias."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Céfiro",
+      "surname": null,
+      "description": "Experto con los cuchillos. Gana una bonificación de recarga y vel. de movimiento al recoger relojes mágicos. Los relojes mágicos son más fáciles de encontrar."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Trío falso",
+      "surname": null,
+      "description": "Un trío de zombis que fingen ser cazadores de vampiros."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "falso",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "falsa",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "falso",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Cráneo de piedra",
+      "surname": null,
+      "description": "Gana +1 de armadura cada 5 niveles. Tiene problemas para desplazarse en horizontal. Refleja daño."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra y Gaibon",
+      "surname": null,
+      "description": "Experto con el tridente. Siempre lo sigue Gaibon. Enfurece si su compañero muere."
     }
   },
   "pt-BR": {
@@ -6601,9 +7381,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Evolui para JoyaTauro no nível 16, e para AccumulaTori no nível 36. Retalia."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -7010,7 +7790,7 @@
       "prefix": null,
       "charName": "Súcubo",
       "surname": null,
-      "description": "Começa com Arcana XVIII – Dança das Ilusões extra. Pode voar."
+      "description": "Começa com Arcana XVIII – Dança das Ilusões extra."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -7124,13 +7904,13 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Bibliotecário",
       "surname": null,
-      "description": "Só o dinheiro o move."
+      "description": "Movido só pelo dinheiro."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -7382,13 +8162,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Ganha Poder ao usar técnicas realçadas. Une-se a Formina. Ativa Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ganha +1% de Poder a cada nível. Une-se a Formina. Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Ganha Duração ao usar técnicas realçadas. Une-se a Bonnie. Ativa Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ganha +1% de Velocidade de Projéteis a cada nível. Une-se a Bonnie. Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -7430,7 +8210,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Ganha 1 Ressurreição e 5% de Crescimento sempre que realçar uma nova técnica.\nAtiva Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_MRS": {
       "prefix": null,
@@ -7464,8 +8244,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Hiss, Miau e Purr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Hiss, Miau e Purr",
       "description": "Ativa Apoteose com nível crítico de Vida. Ganha um seguidor ao ativar Apoteose."
     },
     "EME_DEMON": {
@@ -7497,6 +8277,162 @@
       "charName": "Poboldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Altera a Sorte a cada 30 segundos ou ao pegar um Rerrolo."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "description": "Pode encontrar itens explosivos extras com chance de conceder Baús do Tesouro. Pode destruir fontes de luz ao tocá-las."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Secretino",
+      "surname": "Dagsson",
+      "description": "Pode sempre encontrar Surtarôs. Ganha um Multiplicador de Surtarô igual a Log10 Ovos Dourados (máx. de x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Pode sempre encontrar Surtarôs. Começa com uma tiragem de Surtarô. Tem um Multiplicador de nível de Surtarô de 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Usar Adiar ao subir de nível gera uma chance de tiragem de Surtarô."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Pode sempre encontrar Surtarôs. Começa com uma tiragem de Surtarô. Reduz Vida de chefes e bloqueia alguns ataques especiais."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Pode sempre encontrar Surtarôs. Pode equipar até 100 armas passivas."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Hábil com todas as armas do Brasão de Armas. Retalia ao ativar Punho do Poder, Lapiste Tepisto e qualquer Pulseira."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Hábil com Valmanway. Pode receber o Brasão de Armas como 4ª opção para subir de nível até o nível 15."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Perséfone",
+      "surname": null,
+      "description": "Seu aspirador oculto absorve itens, elementos destrutíveis e inimigos."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Começa com redução temporária de Recarga. Recuperar vida excessiva diminui um pouco a Recarga. Encontra Rosários mais facilmente."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Invoca diversas armas da Torre de Relógio."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Ativa uma arma equipada aleatória a cada 13 saltos. Imune a drenagem de vida."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "Com certeza não é o Alucard."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Atlantis",
+      "charName": "Feiticeiro do Altar",
+      "surname": null,
+      "description": "Ao recuperar +32 de vida excessiva, ativa qualquer uma das armas equipadas do Brasão de Armas e inunda lentamente o espaço."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Espada Soberana",
+      "surname": null,
+      "description": "Materializa espadas adicionais ao acumular uma quantidade cade vez mais alta de vida excessiva (máx. de 12 espadas)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "Ao recuperar +32 de vida excessiva, ativa uma arma equipada do Livro de Feitiços das Belnades."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Feiticeira",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Hábil com Gemma Torpor, Runa Traçante, Magirrocha e Kyrarrocha. Tem uma Runa Traçante oculta que fica mais forte ao subir de nível."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Pescador",
+      "surname": null,
+      "description": "Obviamente hábil com a Varinha de Fogo."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Zéfiro",
+      "surname": null,
+      "description": "Hábil com facas. Ganha uma Recarga e bônus de Velocidade de Movimento ao obter Orologions. Encontra Orologions mais facilmente."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Trio Zumbi",
+      "surname": null,
+      "description": "Um trio de zumbis disfarçados de caçadores de vampiros."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Zumbi",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Zumbi",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Zumbi",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Caveira de Pedra",
+      "surname": null,
+      "description": "Ganha +1 de Armadura a cada 5 níveis. Limitada horizontalmente. Retalia."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra e Gaibon",
+      "surname": null,
+      "description": "Hábil com Tridente. Sempre seguido por Gaibon. Se enfurece se o parceiro morre."
     }
   },
   "pl": {
@@ -7851,9 +8787,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Zamienia się w JoyaTauro na poziomie 16 i AccumulaTori na poziomie 36. Bierze odwet."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -8260,7 +9196,7 @@
       "prefix": null,
       "charName": "Sukkub",
       "surname": null,
-      "description": "Zaczyna z dodatkowymi Arkanami XVIII – Boogaloo iluzji. Potrafi latać."
+      "description": "Zaczyna z dodatkowymi Arkanami XVIII – Boogaloo iluzji."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -8374,13 +9310,13 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Bibliotekarz",
       "surname": null,
-      "description": "Tylko pieniądze są w stanie go poruszyć."
+      "description": "Pieniądze poruszają go do głębi."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -8632,13 +9568,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Otrzymuje Moc podczas używania opanowanych technik. Tworzy drużynę z Forminą. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Otrzymuje +1% Mocy na każdym poziomie. Tworzy drużynę z Forminą. Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Otrzymuje Czas trwania podczas używania opanowanych technik. Tworzy drużynę z Bonnie. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Otrzymuje +1% Prędkości pocisków na każdym poziomie. Tworzy drużynę z Bonnie. Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -8680,7 +9616,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Otrzymuje 1 Wskrzeszenie i 5% Rozwoju po opanowaniu nowej techniki. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_MRS": {
       "prefix": null,
@@ -8714,8 +9650,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Syczy, Miauczy i Mruczy",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": "Syczy, Miauczy i Mruczy",
       "description": "Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom. Otrzymuje pomocnika za każdym razem, gdy aktywowana zostanie Deska ratunku."
     },
     "EME_DEMON": {
@@ -8747,6 +9683,162 @@
       "charName": "Poboldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Próbuje szczęścia co 30 sekund lub podczas podnoszenia Zmiennej."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "description": "Może znaleźć dodatkowe materiały wybuchowe, które mogą wyrzucić skrzynie skarbów. Może zniszczyć źródła światła, dotykając ich."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Sekretyno",
+      "surname": "Dagsson",
+      "description": "Zawsze potrafi odnajdować karty Survarota. Otrzymuje mnożnik kart Survarota równy log10 Złotych jaj (maks. x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Zawsze potrafi odnajdować karty Survarota. Zaczyna od stawiania Survarota. Ma mnożnik poziomu kart Survarota wynoszący 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Użycie opcji pominięcia podczas awansu na kolejny poziom ma szansę na uruchomienie stawiania Survarota."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Zawsze potrafi odnajdować karty Survarota. Zaczyna od stawiania Survarota. Obniża zdrowie bossów i blokuje pewne ataki specjalne."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Zawsze potrafi odnajdować karty Survarota. Może wyposażyć się w do 100 broni pasywnych."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Wprawnie posługuje się wszystkimi broniami z Herbu. Bierze odwet, uruchamiając Kastet cesarza, Lapiste Tepisto i dowolną Bransoletę."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Wprawnie posługuje się Valmanwayem. Może otrzymać Herb jako 4. opcję za zdobycie poziomu do poziomu 15."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Persefona",
+      "surname": null,
+      "description": "Jej ukryty odkurzacz wciąga przedmioty, obiekty zniszczalne i wrogów."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Zaczyna z tymczasowo obniżonym Odnawianiem. Nadmierne uleczenie nieco zmniejsza Odnawianie. Łatwiej znaleźć Różańce."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Wzywa wybór broni na mechanizm zegarowy."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Losowa wyposażona broń wystrzeliwuje co 13 podskoków. Odporny na wysysanie życia."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "To wcale nie jest Alucard."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": null,
+      "charName": "Strażnik Sanktuarium",
+      "surname": "z Atlantydy",
+      "description": "Nadmierne uleczenie o +32 wyzwala użycie dowolnej wyposażonej broni z Herbu i powoli zalewa otoczenie."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Ruler sword",
+      "surname": null,
+      "description": "Dodatkowe miecze wyrastają w miarę akumulowania nadmiernego uleczenia o coraz większą ilość (maks. 12 mieczy)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "Nadmierne uleczenie o +32 wyzwala użycie dowolnej broni z Księgi zaklęć Belnadesów."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Wiedźma",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Wprawnie posługuje się Gemma Torporem, Runetracerem, Magikamieniem i Kyrakamieniami. Ma ukrytego Runetracera, który staje się potężniejszy wraz ze zdobywaniem poziomów."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Ryboczłek",
+      "surname": null,
+      "description": "Oczywiście, wprawnie posługuje się Ognistą różdżką."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Zefir",
+      "surname": null,
+      "description": "Wprawnie posługuje się nożami. Otrzymuje premię do Odnawiania i Prędkości ruchu podczas podnoszenia Orologionów, Łatwiej znaleźć Orologiony."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Udawane trio",
+      "surname": null,
+      "description": "Trio zombie udające łowców wampirów."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Udawany",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Udawana",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Udawany",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Kamienna czaszka",
+      "surname": null,
+      "description": "Otrzymuje +1 Pancerza co 5 poziomów. Upośledzona horyzontalnie. Bierze odwet."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra i Gaibon",
+      "surname": null,
+      "description": "Wprawnie posługuje się Trójzębem. Zawsze podąża za nią Gaibon. Wpada w szał, gdy jej partner umiera."
     }
   },
   "ru": {
@@ -9101,9 +10193,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Бычаро",
       "surname": null,
-      "description": null
+      "description": "Эволюционирует в Джоя-Тауро на 16-м уровне и в Акуммуля Тори на 36-м уровне. Бьёт в ответ."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -9510,7 +10602,7 @@
       "prefix": null,
       "charName": "Суккуб",
       "surname": null,
-      "description": "Начинает с дополнительной арканой XVIII «Бугалу иллюзий». Может летать."
+      "description": "Начинает с дополнительной арканой XVIII «Бугалу иллюзий»."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -9624,13 +10716,13 @@
       "prefix": null,
       "charName": "Астарта",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Главный библиотекарь",
       "surname": null,
-      "description": "Только деньги сдвинут его с места."
+      "description": "Лишь деньги могут его увлечь."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -9882,13 +10974,13 @@
       "prefix": null,
       "charName": "Бонни",
       "surname": "Блэр",
-      "description": "Получает силу при использовании техник-импровизаций. Сражается в паре с Форминой. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Получает +1% к силе каждый уровень. Сражается в паре с Форминой. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Формина",
       "surname": "Франклин",
-      "description": "Получает продолжительность при использовании техник-импровизаций. Сражается в паре с Бонни. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Получает +1% к скорости снарядов с каждым уровнем. Сражается в паре с Бонни. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -9930,7 +11022,7 @@
       "prefix": null,
       "charName": "Кугуцу",
       "surname": null,
-      "description": "Получает 1 оживление и 5% развития каждый раз, когда использует новую технику-импровизацию.\nПрименяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_MRS": {
       "prefix": null,
@@ -9964,8 +11056,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Лоло, Кис, Мяу и Мур",
-      "surname": null,
+      "charName": "Лоло",
+      "surname": ", Кис, Мяу и Мур",
       "description": "Применяет коронный приём, когда здоровье достигает критически низкого уровня. При его применении получает последователя."
     },
     "EME_DEMON": {
@@ -9997,6 +11089,162 @@
       "charName": "Леобольд",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Чула-Рэ",
+      "surname": null,
+      "description": "Испытывает свою удачу раз в 30 секунд или при сборе Повторро."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Ци'Аппунта",
+      "surname": "Бельпаэзе",
+      "description": "Доступны доп. взрывчатые предметы, из которых могут выпадать сундуки с сокровищами. Может уничтожать источники света при соприкосновении."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Секретино",
+      "surname": "Дагссон",
+      "description": "Может всегда находить сурвароты. Получает множитель cурваротов, который растёт в зависимости от количества собранных золотых яиц (макс. x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Джимбо",
+      "surname": null,
+      "description": "Может всегда находить сурвароты. Начинает с набором сурваротов. Множитель уровня сурваротов: х4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Канио",
+      "surname": null,
+      "description": "Использование пропуска при повышении уровня с некоторой вероятностью активирует набор сурваротов."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Шико",
+      "surname": null,
+      "description": "Может всегда находить сурвароты. Начинает с набором сурваротов. Уменьшает здоровье боссов и блокирует часть специальных атак."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Перкео",
+      "surname": null,
+      "description": "Может всегда находить сурвароты. Может использовать до 100 видов пассивного оружия."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Моррис",
+      "surname": "Болдуин",
+      "description": "Знаток всех оружий из «Фамильного герба». Бьёт в ответ «Королевским кастетом», «Ляписте Теписто» и любым «Браслетом»."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Хью",
+      "surname": "Болдуин",
+      "description": "Знаток «Вальманвея». Может получить «Фамильный герб» как четвёртый вариант при повышении до 15-го уровня."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Персефона",
+      "surname": null,
+      "description": "Её скрытый вакуум притягивает предметы, разрушаемые объекты и врагов."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Тера",
+      "surname": null,
+      "description": "Начинает с временно уменьшенной перезарядкой. Избыточное лечение слегка уменьшает перезарядку. Чётки проще найти."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Аннетт",
+      "surname": null,
+      "description": "Призывает механические орудия."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Цзянши",
+      "surname": null,
+      "description": "Каждый 13-й прыжок активирует случайное используемое оружие. Невосприимчив к истощению здоровья."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Гэнъя",
+      "surname": "Арикадо",
+      "description": "Не путать с Алукардом."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Атлантидный",
+      "charName": "Волшебник Святилища",
+      "surname": null,
+      "description": "Избыточное лечение на +32 активирует любое используемое оружие из «Фамильного герба» и постепенно затапливает окружение."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Владыка-Меч",
+      "surname": null,
+      "description": "При избыточном лечении призывает всё больше и больше мечей (макс. 12)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Дролта",
+      "surname": "Цуэнтес",
+      "description": "Избыточное лечение на +32 активирует любое используемое оружие из «Гримуара Бельнадесов»."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Ведьма",
+      "charName": "Актрайс",
+      "surname": null,
+      "description": "Знаток «Геммы торпор», «Рунтрассера», «Магикамня» и «Киракамней». Обладает скрытым «Рунтрассером», который становится мощнее при повышении уровня."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Рыболюд",
+      "surname": null,
+      "description": "Очевидно, знаток «Огненного жезла»."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Зефир",
+      "surname": null,
+      "description": "Знаток ножей. Получает бонус к перезарядке и скорости передвижения при собирании часословов. Часословов проще найти."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Лживая Триада",
+      "surname": null,
+      "description": "Троица зомби, выдающая себя за охотников на вампиров."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Поддельный",
+      "charName": "Тревор",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Поддельная",
+      "charName": "Сайфа",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Поддельный",
+      "charName": "Грант",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Каменный череп",
+      "surname": null,
+      "description": "Получает +1 к броне за каждые 5 уровней. Есть проблемы с горизонталью. Бьёт в ответ."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Слогра и Гайбон",
+      "surname": null,
+      "description": "Знаток «Трезубца». Никогда не расстаётся с Гайбоном. Впадает в ярость, если напарник погибает."
     }
   },
   "tr": {
@@ -10351,9 +11599,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Torino",
       "surname": null,
-      "description": null
+      "description": "Sv16'da JoyaTauro'ya ve Sv36'da da Akümülatör'e dönüşür. Misilleme yapar."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -10760,7 +12008,7 @@
       "prefix": null,
       "charName": "Dişi Şeytan",
       "surname": null,
-      "description": "Ekstra Arcana XVIII - İllüzyonların Boogaloo'su ile başlar. Uçabilir."
+      "description": "Ekstra Arcana XVIII - İllüzyonların Boogaloo'su ile başlar."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -10874,13 +12122,13 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Baş Kütüphaneci",
       "surname": null,
-      "description": "Sadece para onu yerinden kaldırabilir."
+      "description": "Para deyince yerinde duramaz."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -11132,13 +12380,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Ortaya çıkan teknikleri kullandığında Kuvvet kazanır. Formina ile takım olur. Kritik sağlık seviyesinde Nefeskesen tetikler."
+      "description": "Her seviyede +%1 Kuvvet kazanır. Formina ile takım olur. Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Ortaya çıkan teknikleri kullandığında Tesir Süresi kazanır. Bonnie ile takım olur. Kritik sağlık seviyesinde Nefeskesen tetikler."
+      "description": "Her seviyede +%1 fırlatılabilir Hızı kazanır. Bonnie ile takım olur. Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -11180,7 +12428,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Her bir yeni teknik ortaya çıkardıklarında 1 Canlanma ve %5 Büyüme kazanır. Kritik sağlık seviyesinde Nefeskesen tetikler."
+      "description": "Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
     },
     "EME_MRS": {
       "prefix": null,
@@ -11214,8 +12462,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Tıss, Miyav, Mırr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Tıss, Miyav, Mırr",
       "description": "Kritik sağlık seviyesinde Nefeskesen tetikler. Her Nefeskesen tetiklendiğinde bir takipçi kazanır."
     },
     "EME_DEMON": {
@@ -11247,6 +12495,162 @@
       "charName": "Poboldo",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Chula-Reh",
+      "surname": null,
+      "description": "Her 30 saniyede bir veya Tekraritto aldığında şansı döner."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "description": "Hazine Sandıklarından düşebilecek ekstra patlayıcı malzemeler bulabilir. Işık kaynaklarını dokunarak yok eder."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Secretino",
+      "surname": "Dagsson",
+      "description": "Her zaman Survarot bulabilir. Log10 Altın Yumurta'ya eşit bir Survarot Çarpanı kazanır (maks x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Jimbo",
+      "surname": null,
+      "description": "Her zaman Survarot bulabilir. Bir Survarot kartı ile başlar. x4 değerinde bir Survarot Çarpanı vardır."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Canio",
+      "surname": null,
+      "description": "Seviye atlarken Atlama kullanıldığında bir Survarot kartı tetiklenme şansı vardır."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Chicot",
+      "surname": null,
+      "description": "Her zaman Survarot bulabilir. Bir Survarot kartı ile başlar. Patron sağlığını azaltır ve bazı özel saldırıları engeller."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Perkeo",
+      "surname": null,
+      "description": "Her zaman Survarot bulabilir. 100 taneye kadar Pasif Silah kuşanabilir."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Morris",
+      "surname": "Baldwin",
+      "description": "Hanedan Arması'ndaki tüm silahları kullanmada ustadır. İmparator Yumruğu, Lapiste Tepisto ve Bilezik (hangisi olursa) tetiklediğinde misilleme yapar."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Hugh",
+      "surname": "Baldwin",
+      "description": "Valmanway kullanmada ustadır. Seviye 15'e ladar 4. seviye atlama seçeneği olarak Hanedan Arması alabilir."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Persephone",
+      "surname": null,
+      "description": "Gizli vakum makinesi ile eşyaları, parçalanabilirleri ve düşmanları çeker."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Tera",
+      "surname": null,
+      "description": "Oyuna, geçici olarak daha düşük Bekleme Süresi ile başlar. Aşırı İyileşme, Bekleme Süresi'ni az miktarda azaltır. Tespihleri bulması daha kolaydır."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Annette",
+      "surname": null,
+      "description": "Birtakım mekanizmalı silah çağırır."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Jiangshi",
+      "surname": null,
+      "description": "Her 13. sıçrayışında kuşanılmış rastgele bir silahı tetikler. Sağlık tükenmesine karşı bağışıklığı vardır."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Genya",
+      "surname": "Arikado",
+      "description": "Kesinlikle Alucard değil."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Atlantis",
+      "charName": "Mabet Sihirbazı",
+      "surname": null,
+      "description": "Overhealing by +32 triggers any equipped weapon from the Coat of Arms and slowly floods the environment."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Hükümdarın Kılıcı",
+      "surname": null,
+      "description": "Aşırı İyileşme miktarı çoğaldıkça ilave kılıçlar çıkarır (Maks 12 kılıç)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Drolta",
+      "surname": "Tzuentes",
+      "description": "+32 miktarda aşırı iyileşmek Belnades'in Büyü Kitabı'ndaki kuşanılmış bir silahı tetikler."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Cadı",
+      "charName": "Actrise",
+      "surname": null,
+      "description": "Gemma Miskinliği, Efsunbulan, Magi-Taşı ve Kyra-Taşı kullanmada uzmandır. Seviye atladığında gittikçe güçlenen gizli bir Efsunbulan'ı vardır."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Balıkçı",
+      "surname": null,
+      "description": "Alev Asası'ndaki ustalığı aşikârdır."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Zefir",
+      "surname": null,
+      "description": "Bıçak kullanmada ustadır. Zamantutan aldığında Bekleme Süresi ve Hareket Hızı kazanır. Zamantutanları bulması daha kolaydır."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Sahtekâr Üçlü",
+      "surname": null,
+      "description": "Vampir avcısı kılığına girmiş zombi üçlüsü."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Sahtekâr",
+      "charName": "Trevor",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Sahtekâr",
+      "charName": "Sypha",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Sahtekâr",
+      "charName": "Grant",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Taş Kurukafa",
+      "surname": null,
+      "description": "Her 5 seviyede bir +1 Zırh kazanır. Yatay olarak hareket ettiğinde kağnı hızında gider. Misilleme yapar."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Slogra ve Gaibon",
+      "surname": null,
+      "description": "Üç Uçlu Mızrak kullanmada ustadır. Gaibon her zaman arkasından gelir. Ortağı ölürse çok sinirlenir."
     }
   },
   "zh-CN": {
@@ -11601,9 +13005,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "嘟牛",
       "surname": null,
-      "description": null
+      "description": "在16级时进化成酪嘟牛，在36级时进化成酱嘟牛。可返还伤害。"
     },
     "MAURIZIO": {
       "prefix": null,
@@ -12010,7 +13414,7 @@
       "prefix": null,
       "charName": "魅魔",
       "surname": null,
-      "description": "开局自带额外秘能XVIII - 幻象的波加洛。可以飞行。"
+      "description": "开局自带额外秘能XVIII - 幻象的波加洛。"
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -12124,13 +13528,13 @@
       "prefix": null,
       "charName": "阿斯塔蒂",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "图书馆长",
       "surname": null,
-      "description": "只为金钱所动。"
+      "description": "深为金钱所动。"
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -12382,13 +13786,13 @@
       "prefix": null,
       "charName": "邦妮",
       "surname": "布莱尔",
-      "description": "使用点亮特技时获得力量。与福米娜组队。濒死时触发“独秀专场”。"
+      "description": "每级+1%力量。与福米娜组队。濒死时触发“独秀专场”。"
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "福米娜",
       "surname": "富兰克林",
-      "description": "使用点亮特技时获得持续时间。与邦妮组队。濒死时触发“独秀专场”。"
+      "description": "每级+1%飞射速度。与邦妮组队。濒死时触发“独秀专场”。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -12430,7 +13834,7 @@
       "prefix": null,
       "charName": "傀儡",
       "surname": null,
-      "description": "每当点亮新特技时，获得1次复活机会和5%的成长。\n濒死时触发“独秀专场”。"
+      "description": "濒死时触发“独秀专场”。"
     },
     "EME_MRS": {
       "prefix": null,
@@ -12464,8 +13868,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "洛洛、嘶嘶、喵喵和呼噜",
-      "surname": null,
+      "charName": "洛洛",
+      "surname": "、嘶嘶、喵喵和呼噜",
       "description": "濒死时触发“独秀专场”。每次触发“独秀专场”时获得一名随从。"
     },
     "EME_DEMON": {
@@ -12497,6 +13901,162 @@
       "charName": "波博尔多",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "朱拉雷",
+      "surname": null,
+      "description": "每隔30秒或拾取重选骰子时试一下运气。"
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "齐阿彭塔",
+      "surname": "贝尔帕斯",
+      "description": "可寻获可能掉落宝箱的额外爆炸装备。触碰时可摧毁光源。"
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "秘角",
+      "surname": "达格森",
+      "description": "总能寻获幸存塔罗牌。获得幸存塔罗牌倍数，相当于金蛋数以10为底的对数，最多为x10。"
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "吉姆博",
+      "surname": null,
+      "description": "总能寻获幸存塔罗牌。开局获得一组待选幸存塔罗牌。拥有幸存塔罗牌等级倍数4。"
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "卡尼奥",
+      "surname": null,
+      "description": "在升级时使用跳过，有一定几率触发一组待选幸存塔罗牌。"
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "希科",
+      "surname": null,
+      "description": "总能寻获幸存塔罗牌。开局获得一组待选幸存塔罗牌。减少头目生命值，并格挡部分特殊攻击。"
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "帕奇欧",
+      "surname": null,
+      "description": "总能寻获幸存塔罗牌。最多可装备100件被动武器。"
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "莫里斯",
+      "surname": "鲍德温",
+      "description": "擅长所有来自纹章的武器。通过触发凯撒拳套、拳拳到肉及任意魔环来返还伤害。"
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "休",
+      "surname": "鲍德温",
+      "description": "擅长真空刃。在15级之前，纹章有一定概率成为第4个升级选项。"
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "珀耳塞福涅",
+      "surname": null,
+      "description": "她的隐藏吸尘器会吸引物品、可破坏物及敌人。"
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "泰拉",
+      "surname": null,
+      "description": "开局自带冷却时间临时加成。过度治疗会略微缩短冷却时间。更易寻获玫瑰念珠。"
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "安娜特",
+      "surname": null,
+      "description": "召唤一组发条武器。"
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "僵尸",
+      "surname": null,
+      "description": "每跳第13下，随机触发一件已装备的武器。免疫吸血。"
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "幻也",
+      "surname": "有角",
+      "description": "根本不是阿鲁卡多。"
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "亚特兰蒂斯",
+      "charName": "神社巫师",
+      "surname": null,
+      "description": "当过量治疗+32时，触发任意一件来自纹章的已装备武器，并缓慢淹没环境。"
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "统治剑",
+      "surname": null,
+      "description": "在积累过度治疗时生成额外的剑，且数量不断增多，最多12把剑。"
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "德罗塔",
+      "surname": "楚特斯",
+      "description": "当过量治疗+32时，触发任意一件来自贝尔南堤斯法术书的已装备武器。"
+    },
+    "TP_ACTRISE": {
+      "prefix": "魔女",
+      "charName": "雅克托丽洁",
+      "surname": null,
+      "description": "擅长石落天惊、痕印石、魔法石和凯拉石。拥有一颗升级时会变强的隐藏痕印石。"
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "鱼人",
+      "surname": null,
+      "description": "明显擅长火焰魔杖。"
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "杰法尔",
+      "surname": null,
+      "description": "擅长用刀。拾取时祷怀表时获得冷却时间和移动速度加成。更易寻获时祷怀表。"
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "伪三人组",
+      "surname": null,
+      "description": "冒充吸血鬼猎人的僵尸三人组。"
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "伪",
+      "charName": "特雷沃",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "伪",
+      "charName": "赛法",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "伪",
+      "charName": "古兰特",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "回转头骨",
+      "surname": null,
+      "description": "每5级，防御+1。横向残疾。可返还伤害。"
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "贝利根和贾鹏",
+      "surname": null,
+      "description": "擅长三叉戟，与贾鹏形影不离，在其搭档死亡时会被激怒。"
     }
   },
   "ja": {
@@ -12851,9 +14411,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "トリノ",
       "surname": null,
-      "description": null
+      "description": "レベル16でジョヤタウロスに進化し、レベル36でアキュムタウロスに進化する。報復攻撃あり。"
     },
     "MAURIZIO": {
       "prefix": null,
@@ -13260,7 +14820,7 @@
       "prefix": null,
       "charName": "サキュバス",
       "surname": null,
-      "description": "アルカナXVIII - 幻惑のブーガルーを持った状態でゲームを開始。飛行可能。"
+      "description": "アルカナXVIII - 幻惑のブーガルーを持った状態でゲームを開始。"
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -13374,13 +14934,13 @@
       "prefix": null,
       "charName": "アシュタルテ",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "図書館の主",
       "surname": null,
-      "description": "彼を動かせるのはお金だけ。"
+      "description": "お金さえあれば簡単に動く。"
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -13638,7 +15198,7 @@
       "prefix": null,
       "charName": "フォルミナ",
       "surname": "フランクリン",
-      "description": "ひらめき技を使うと効果時間が上昇。ボニーとチームを組む。ピンチになると独壇場が発生。"
+      "description": "ひらめき技を使うと弾速が上昇。ボーニーとチームを組む。ピンチになると独壇場が発生。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -13714,8 +15274,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "ロロ、ヒス、ミャオ、パー",
-      "surname": null,
+      "charName": "ロロ",
+      "surname": "、ヒス、ミャオ、パー",
       "description": "ピンチになると独壇場が発生。独壇場が発生すると、フォロワーを1体獲得。"
     },
     "EME_DEMON": {
@@ -13747,6 +15307,162 @@
       "charName": "ポボルド",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "チュラ・リハ",
+      "surname": null,
+      "description": "30秒ごと、あるいはリロールアップを拾うとチャンスが訪れる。"
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "ジ・アプンタ",
+      "surname": "ベルペーゼ",
+      "description": "宝箱をドロップする可能性のある爆発アイテムを追加で発見できる。光源に触れるだけで破壊することが可能。"
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "セクレティーノ",
+      "surname": "ダグソン",
+      "description": "サバイバーカードを常に見つけられる。所持する黄金の卵の対数（Log10）に応じてサバイバーカード倍増を獲得（最大×10）。"
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "ジンボ",
+      "surname": null,
+      "description": "サバイバーカードを常に見つけられる。まずサバイバーカードを一組引く。サバイバーカードレベル倍増が4になる。"
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "カニオ",
+      "surname": null,
+      "description": "レベルアップの際にスキップを使うと、サバイバーカードを引く可能性あり。"
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "チコット",
+      "surname": null,
+      "description": "サバイバーカードを常に見つけられる。まずはサバイバーカードを一組引く。ボスのHPを減少させ、一部必殺技を防ぐことができる。"
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "ペルケオ",
+      "surname": null,
+      "description": "サバイバーカードを常に見つけられる。パッシブ武器を最大100まで装備可能。"
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "モリス",
+      "surname": "ボールドウィン",
+      "description": "紋章からの武器すべてと相性良し。カイザーナックル、ラピステ・テピストやいずれかのブレスレットを発動して報復する。"
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "ヒュー",
+      "surname": "ボールドウィン",
+      "description": "ヴァルマンウェとの相性良し。レベル15まで、第4のレベルアップとして紋章の選択肢が出る確率あり。"
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "プロセルピナ",
+      "surname": null,
+      "description": "彼女が隠し持つ吸引能力はアイテム、破壊可能アイテム、敵を引き寄せる。"
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "テラ",
+      "surname": null,
+      "description": "一時的にクールダウンが減少した状態で開始する。 オーバーヒールによってクールダウンがわずかに減少。 ロザリオが出現しやすくなる。"
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "アネッテ",
+      "surname": null,
+      "description": "時計仕掛けの武器を複数召喚する。"
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "キョンシー",
+      "surname": null,
+      "description": "13回目のジャンプごとに、装備した武器をランダムに発動する。HP消費への耐性あり。"
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "幻也",
+      "surname": "有角",
+      "description": "これは断じてアルカードを真似たわけじゃない。"
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "アトランティス",
+      "charName": "神殿の魔法使い",
+      "surname": null,
+      "description": "32以上のオーバーヒールで装備中の紋章の武器が発動し、周囲の環境をゆっくりと水没させる。"
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "支配者の剣",
+      "surname": null,
+      "description": "大幅にオーバーヒールを蓄積するたびに追加の剣を出現させる（最大12本）。"
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "ドロテア",
+      "surname": "ツェンテス",
+      "description": "32以上のオーバーヒールでヴェルナンデスの魔術書から装備しているいずれかの武器が発動する。"
+    },
+    "TP_ACTRISE": {
+      "prefix": "魔女",
+      "charName": "アクトリーセ",
+      "surname": null,
+      "description": "ジェマ・トルペンス、軌跡の魔弾、マギストーン、カイラストーンとの相性良し。レベルアップ時に強化される軌跡の魔弾を隠し持っている。"
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "フィッシュマン",
+      "surname": null,
+      "description": "言うまでもなく炎の杖と相性良し。"
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "ゼファル",
+      "surname": null,
+      "description": "ナイフとの相性良し。懐中時計を拾うとクールダウンおよび素早さを獲得。懐中時計が出現しやすくなる。"
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "偽物トリオ",
+      "surname": null,
+      "description": "吸血鬼ハンターに変装したゾンビトリオ。"
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "偽物",
+      "charName": "ラルフ",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "偽物",
+      "charName": "サイファ",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "偽物",
+      "charName": "グラント",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "ストーンスカル",
+      "surname": null,
+      "description": "5レベルごとに防御力+1。ただし水平方向の動きに制限がある。報復攻撃あり。"
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "ベリガンとギャイボン",
+      "surname": null,
+      "description": "トライデントとの相性良し。ギャイボンが常に同行している。パートナーが死ぬと激怒する。"
     }
   },
   "ko": {
@@ -14101,9 +15817,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "토리노",
       "surname": null,
-      "description": null
+      "description": "레벨 16에서는 조야타우로로, 레벨 36에서는 아큐뮬라 토리로 진화합니다. 반격합니다."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -14510,7 +16226,7 @@
       "prefix": null,
       "charName": "서큐버스",
       "surname": null,
-      "description": "추가 아르카나 XVIII - 환상의 춤으로 시작합니다. 날 수 있습니다."
+      "description": "추가 아르카나 XVIII - 환상의 춤으로 시작합니다."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -14624,13 +16340,13 @@
       "prefix": null,
       "charName": "아스타르트",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "마스터 사서",
       "surname": null,
-      "description": "오직 금전으로만 움직일 수 있습니다."
+      "description": "금전에 심하게 좌우됩니다."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -14882,13 +16598,13 @@
       "prefix": null,
       "charName": "보니",
       "surname": "블레어",
-      "description": "섬광 효과가 발동된 기술을 사용할 때 피해량이 증가합니다. 포미나와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
+      "description": "각 레벨에서 행운을 +1% 획득합니다. 포미나와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "포미나",
       "surname": "프랭클린",
-      "description": "섬광 효과가 발동된 기술을 사용할 때 지속시간이 증가합니다. 보니와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
+      "description": "각 레벨에서 행운을 +1% 획득합니다. 보니와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -14930,7 +16646,7 @@
       "prefix": null,
       "charName": "구구츠",
       "surname": null,
-      "description": "새로운 기술에 섬광 효과가 발동할 때마다 부활 1과 성장 5%를 얻습니다.\n체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
+      "description": "체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
     },
     "EME_MRS": {
       "prefix": null,
@@ -14964,8 +16680,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "롤로, 쉿, 야옹, 갸르릉",
-      "surname": null,
+      "charName": "롤로",
+      "surname": ", 쉿, 야옹, 갸르릉",
       "description": "체력이 치명적일 때 쇼스토퍼를 발동합니다. 쇼스토퍼가 트리거될 때마다 팔로워를 확보할 수 있습니다."
     },
     "EME_DEMON": {
@@ -14997,6 +16713,162 @@
       "charName": "포볼도",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "출라레",
+      "surname": null,
+      "description": "30초마다 운에 맡기거나, 다시 뽑습니다."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "지아푼타",
+      "surname": "벨파에제",
+      "description": "보물 상자를 떨어뜨릴 수 있는 추가 폭발 소품을 찾을 수 있습니다. 광원을 건드려서 파괴할 수 있습니다."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "세크레티노",
+      "surname": "닥슨",
+      "description": "언제나 서바로트를 찾을 수 있습니다. 밑이 10인 황금알 개수의 로그값(최대x10)과 동일한 서바로트 멀티플라이어를 얻습니다."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "짐보",
+      "surname": null,
+      "description": "언제나 서바로트를 찾을 수 있습니다. 서바로트 뽑기로 시작합니다. 서바로트 레벨 멀티플라이어가 4입니다."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "카니오",
+      "surname": null,
+      "description": "레벨업 시 스킵을 사용하면 서바로트 뽑기가 발동될 가능성이 있습니다."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "치코트",
+      "surname": null,
+      "description": "언제나 서바로트를 찾을 수 있습니다. 서바로트 뽑기로 시작합니다. 보스의 체력을 감소시키고 일부 특수 공격을 차단합니다."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "페르케오",
+      "surname": null,
+      "description": "언제나 서바로트를 찾을 수 있습니다. 수동 무기를 최대 100개까지 장착할 수 있습니다."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "모리스",
+      "surname": "볼드윈",
+      "description": "문장의 모든 무기에 능숙합니다. 카이저 너클, 라피스트 테피스토 및 모든 팔찌를 발동하여 반격합니다."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "휴",
+      "surname": "볼드윈",
+      "description": "발만웨이에 능숙합니다. 4레벨 업 옵션으로 레벨 15까지 문장을 받을 수 있습니다"
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "페르세포네",
+      "surname": null,
+      "description": "그녀의 숨겨진 진공 능력은 아이템과 파괴 가능한 것들, 적을 끌어들입니다."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "테라",
+      "surname": null,
+      "description": "일시적으로 쿨타임이 줄어드는 것부터 시작합니다. 과열되면 쿨타임이 약간 줄어듭니다. 묵주는 더 쉽게 찾을 수 있습니다."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "아네트",
+      "surname": null,
+      "description": "다양한 시계 무기 셀렉션을 소화합니다."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "강시",
+      "surname": null,
+      "description": "13번째 점프마다 무작위로 장착된 무기를 발동합니다. 체력 소모에 면역이 있습니다."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "제냐",
+      "surname": "아리카도",
+      "description": "완전한 알루카드는 아닙니다."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "아틀란티스",
+      "charName": "신전 마법사",
+      "surname": null,
+      "description": "과잉 치유 +32이면 문장에서 장착된 무기가 발동되어 천천히 넘처 흐릅니다."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "통치자 검",
+      "surname": null,
+      "description": "과잉 치유가 점점 더 많이 누적되면 추가 검을 성장시킵니다(최대 12개의 검)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "드롤타",
+      "surname": "쯔엔테스",
+      "description": "과잉 치유 +32이면 벨네이드 주문서에 장착된 무기가 발동됩니다."
+    },
+    "TP_ACTRISE": {
+      "prefix": "위치",
+      "charName": "액트라이즈",
+      "surname": null,
+      "description": "젬마 토르포르, 룬 트레이서, 마기 스톤, 그리고 키라-스톤에 능숙합니다. 레벨업 시 더 강해지는 숨겨진 룬 트레이서가 있습니다."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "피시맨",
+      "surname": null,
+      "description": "확실히 불의 지팡이에 능숙합니다."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "제퍼",
+      "surname": null,
+      "description": "나이프에 능숙합니다. 회중시계를 획득하면 쿨타임과 이동 속도 보너스를 얻습니다. 회중시계는 더 쉽게 찾을 수 있죠."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "페이크 트리오",
+      "surname": null,
+      "description": "뱀파이어 사냥꾼으로 가장한 좀비 트리오."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "페이크",
+      "charName": "트레버",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "페이크",
+      "charName": "사이파",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "페이크",
+      "charName": "그랜트",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "스톤 스컬",
+      "surname": null,
+      "description": "레벨 5마다 방어력 +1을 획득합니다. 수평으로 공격하고 반격합니다."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "슬로그라와 가이본",
+      "surname": null,
+      "description": "트라이던트에 능숙합니다. 항상 가이본이 따라다니죠. 파트너가 죽으면 화를 냅니다."
     }
   },
   "zh-TW": {
@@ -15351,9 +17223,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "托里諾",
       "surname": null,
-      "description": null
+      "description": "在達到 16 級的時候會解放為「喜悅金牛」，在達到 36 級的時候會解放為「積累金牛」。可造成反擊傷害。"
     },
     "MAURIZIO": {
       "prefix": null,
@@ -15760,7 +17632,7 @@
       "prefix": null,
       "charName": "魅魔",
       "surname": null,
-      "description": "開場時，具有額外的秘能效益：XVIII－幻象的波加洛。能夠飛行"
+      "description": "開場時，具有額外的秘能效益：XVIII－幻象的波加洛。"
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -15874,13 +17746,13 @@
       "prefix": null,
       "charName": "阿斯塔蒂",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "首席圖書館管理員",
       "surname": null,
-      "description": "只有金錢才能驅使他。"
+      "description": "容易被錢財打動。"
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -16132,13 +18004,13 @@
       "prefix": null,
       "charName": "邦妮",
       "surname": "布萊爾",
-      "description": "在使用閃悟技能時，獲得力量加成。與搭檔福爾米娜一同戰鬥。在生命值變得相當低時，觸發絕技。"
+      "description": "每升 1 級，力量便提高 1%。與福爾米娜組隊。生命值變得相當低時，觸發絕技。"
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "福爾米娜",
       "surname": "法蘭克林",
-      "description": "在使用閃悟技能時，獲得效果持續時間加成。與搭檔邦妮一同戰鬥。在生命值變得相當低時，觸發絕技。"
+      "description": "每升 1 級，投射物速度加快 1%。與邦妮組隊。生命值變得相當低時，觸發絕技。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -16180,7 +18052,7 @@
       "prefix": null,
       "charName": "傀儡",
       "surname": null,
-      "description": "每閃悟一次全新技能時，便可獲得 1 次復活機會和 5% 的成長加成。\n在生命值很低時，觸發絕技。"
+      "description": "生命值變得相當低時，觸發絕技。"
     },
     "EME_MRS": {
       "prefix": null,
@@ -16214,8 +18086,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "洛洛, 嘶嘶、喵喵、呼嚕",
-      "surname": null,
+      "charName": "洛洛",
+      "surname": "嘶嘶、喵喵、呼嚕",
       "description": "在生命值很低時，觸發絕技。每次觸發絕技時，獲得一個隨從。"
     },
     "EME_DEMON": {
@@ -16247,6 +18119,162 @@
       "charName": "波博爾多",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "庫拉・雷",
+      "surname": null,
+      "description": "每 30 秒或拾取「重骰器」時試一次手氣。"
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "齊阿彭塔",
+      "surname": "貝爾帕斯",
+      "description": "可以找到額外的爆炸性道具，可能會掉落寶箱。可以透過觸碰的方式摧毀光源。"
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "秘密提諾",
+      "surname": "達格森",
+      "description": "不費吹灰之力就能夠找到生存牌。獲得一個等同金蛋數量 Log10 計算而來的生存牌加成倍率，最高可獲得 10 倍的加成。"
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "小吉寶",
+      "surname": null,
+      "description": "不費吹灰之力就能夠找到生存牌。遊戲開場時，即可獲得一次的生存牌抽牌機會。生存牌的加成倍率為 4 倍。"
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "卡尼歐",
+      "surname": null,
+      "description": "在升級後使用「跳過」有機率能夠獲得一次生存牌抽牌機會。"
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "奇科特",
+      "surname": null,
+      "description": "不費吹灰之力就能夠找到生存牌。遊戲開場時，即可獲得一次的生存牌抽牌機會。降低魔王敵人的生命值並免除一些特殊攻擊的傷害與效果。"
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "佩爾克歐",
+      "surname": null,
+      "description": "不費吹灰之力就能夠找到生存牌。最多可以裝備高達 100 個被動武器。"
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "莫理斯",
+      "surname": "鮑德溫",
+      "description": "精通所有的紋章武器。可以透過觸發帝王拳套、蓋亞之擊或是任何種類的魔環來展開反擊。"
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "休",
+      "surname": "鮑德溫",
+      "description": "精通瓦爾曼威。在升級到 15 級之前，有機會能夠在升級時獲得第四個升級選項並藉此獲得紋章武器。"
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "珀耳塞福涅",
+      "surname": null,
+      "description": "她那不為人知的真空吸引力會將一切的物品、可摧毀物品和敵人都吸入其中。"
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "泰拉",
+      "surname": null,
+      "description": "開場時，獲得暫時性的冷卻時間縮短加成。超額治療能夠稍微縮短冷卻時間。玫瑰念珠的出現機率會變高。"
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "安奈特",
+      "surname": null,
+      "description": "召喚一系列的發條武器。"
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "殭屍",
+      "surname": null,
+      "description": "每跳 13 次，便會觸發一個隨機裝備的武器。免疫生命值耗損。"
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "幻也",
+      "surname": "有角",
+      "description": "這個角色絕對，肯定，不可能是阿魯卡多嘛。"
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "亞特蘭提斯",
+      "charName": "聖殿巫師",
+      "surname": null,
+      "description": "在超額治療達 32 點時，便會觸發一個已裝備的紋章武器，並逐步以海洋吞沒四周。"
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "王者之劍",
+      "surname": null,
+      "description": "只要一點一滴地累積大量的超額治療，便能召喚出額外的聖劍（最多可召喚出 12 把聖劍）。"
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "德羅塔",
+      "surname": "茲文特斯",
+      "description": "在超額治療達 32 點時，便會觸發一個已裝備的貝爾納德斯法術書武器。"
+    },
+    "TP_ACTRISE": {
+      "prefix": "女巫",
+      "charName": "阿克翠絲",
+      "surname": null,
+      "description": "精通癱瘓寶石、痕印石、魔法石和凱拉石。擁有一個升級後會變得更強大的隱藏痕印石。"
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "魚人",
+      "surname": null,
+      "description": "哎呀，魚人精通的當然是火焰魔杖啦。"
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "澤菲爾",
+      "surname": null,
+      "description": "精通飛刀的技藝。在拾取時禱懷錶時，能夠獲得冷卻時間和移動速度的加成。時禱懷錶的出現機率會變高"
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "假冒三人組",
+      "surname": null,
+      "description": "由三個一組的喪屍所假冒的吸血鬼獵人小隊。"
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "假冒的",
+      "charName": "拉爾夫",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "假冒的",
+      "charName": "賽法",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "假冒的",
+      "charName": "葛蘭特",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "堅石骷髏",
+      "surname": null,
+      "description": "每升 5 級，護甲增加 1 點。水平移動受限。可造成反擊傷害。"
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "斯洛格拉和蓋本",
+      "surname": null,
+      "description": "精通三叉戟。蓋本幾乎可以說是斯洛格拉的影子。如果其中一名夥伴死亡的話，會進入狂暴狀態。"
     }
   },
   "uk": {
@@ -16601,9 +18629,9 @@
     },
     "TORINO": {
       "prefix": null,
-      "charName": null,
+      "charName": "Торіно",
       "surname": null,
-      "description": null
+      "description": "Еволюціонує в Джойя-Тауро на рів. 16; в Акумуля-Торі на рів. 36. Б'є у відповідь."
     },
     "MAURIZIO": {
       "prefix": null,
@@ -17010,7 +19038,7 @@
       "prefix": null,
       "charName": "Суккуб",
       "surname": null,
-      "description": "Починає з додатковою Арканою «XVIII — Бунгало ілюзій». Може літати."
+      "description": "Починає з додатковою Арканою «XVIII — Бунгало ілюзій»."
     },
     "TP_SYPHA": {
       "prefix": null,
@@ -17124,13 +19152,13 @@
       "prefix": null,
       "charName": "Астарта",
       "surname": null,
-      "description": null
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
       "charName": "Головний бібліотекар",
       "surname": null,
-      "description": "За ваші гроші ― все, що завгодно."
+      "description": "Повернений на грошах."
     },
     "TP_HAMMER": {
       "prefix": null,
@@ -17382,13 +19410,13 @@
       "prefix": null,
       "charName": "Бонні",
       "surname": "Блейр",
-      "description": "Отримує силу при застосуванні прийомів відкриття. Об'єднується з Форміною. Запускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Отримує +1% сили на кожному рівні. Об'єднується з Форміною. Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Форміна",
       "surname": "Франклін",
-      "description": "Отримує тривалість при застосуванні прийомів відкриття. Об'єднується з Бонні. Запускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Отримує +1% до швидкості снарядів із кожним рівнем. Об'єднується з Бонні. Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -17430,7 +19458,7 @@
       "prefix": null,
       "charName": "Куґуцу",
       "surname": null,
-      "description": "Отримує 1 до оживлення і 5% розвитку щоразу при застосуванні нової техніки відкриття.\nЗапускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_MRS": {
       "prefix": null,
@@ -17464,8 +19492,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Лоло, Ш-ш-ш, Няв і Мур-р",
-      "surname": null,
+      "charName": "Лоло",
+      "surname": "Ш-ш-ш, Няв і Мур-р",
       "description": "Запускає Густобій при критичному рівні здоров'я. Отримує послідовника, коли Густобій запущено."
     },
     "EME_DEMON": {
@@ -17497,6 +19525,162 @@
       "charName": "Поболдо",
       "surname": null,
       "description": null
+    },
+    "EX_CHULAREH": {
+      "prefix": null,
+      "charName": "Чула-Рег",
+      "surname": null,
+      "description": "Випадає шанс на удачу кожні 30 секунд або при підборі Повторро."
+    },
+    "EX_ZIAPPUNTA": {
+      "prefix": null,
+      "charName": "Зі'Апунта",
+      "surname": "Бельпаезе",
+      "description": "Доступні додаткові вибухові предмети, з яких може випасти скриня скарбів. Може знищувати джерела світла, торкнувшись них."
+    },
+    "EX_GIOCARE": {
+      "prefix": null,
+      "charName": "Секретіно",
+      "surname": "Дагссон",
+      "description": "Завжди може знайти Таро вцілілих. Отримує такий самий множник Таро вцілілих, скільки має Золотих яєць (макс. x10)."
+    },
+    "LEM_JIMBO": {
+      "prefix": null,
+      "charName": "Джимбо",
+      "surname": null,
+      "description": "Завжди може знайти Таро вцілілих. Починає з вибору Таро вцілілих. Множник Таро вцілілих: 4."
+    },
+    "LEM_CANIO": {
+      "prefix": null,
+      "charName": "Каніо",
+      "surname": null,
+      "description": "Використання пропуску при збільшенні рівня дає шанс відкрити вибір із Таро вцілілих."
+    },
+    "LEM_CHICOT": {
+      "prefix": null,
+      "charName": "Чіко",
+      "surname": null,
+      "description": "Завжди може знайти Таро вцілілих. Починає з вибору Таро вцілілих. Зменшує здоров'я боса й блокує деякі особливі атаки."
+    },
+    "LEM_PERKEO": {
+      "prefix": null,
+      "charName": "Перкео",
+      "surname": null,
+      "description": "Завжди може знайти Таро вцілілих. Може спорядити до 100 од. пасивної зброї."
+    },
+    "TP_MORRIS": {
+      "prefix": null,
+      "charName": "Морріс",
+      "surname": "Болдвін",
+      "description": "Майстерно володіє всією зброєю з Герба. Б'є у відповідь при активації Кастета, Ляпісте-тепісто чи будь-якого Браслета."
+    },
+    "TP_HUGH": {
+      "prefix": null,
+      "charName": "Г'ю",
+      "surname": "Болдвін",
+      "description": "Майстерно володіє Валманвеєм. Може отримати Герб на 4 рівні (до 15 рівня)."
+    },
+    "TP_PERSEPHONE": {
+      "prefix": null,
+      "charName": "Персефона",
+      "surname": null,
+      "description": "Її непомітні пилосмоки притягують предмети, об'єкти й ворогів."
+    },
+    "TP_TERA": {
+      "prefix": null,
+      "charName": "Тера",
+      "surname": null,
+      "description": "Починає з тимчасово зменшеним часом відновлення. Надмірне зцілення дещо зменшує відновлення. Легше знаходить Чотки."
+    },
+    "TP_ANNETTE": {
+      "prefix": null,
+      "charName": "Анетт",
+      "surname": null,
+      "description": "Викликає набір годинникової зброї."
+    },
+    "TP_JIANCHI": {
+      "prefix": null,
+      "charName": "Цзян-Ші",
+      "surname": null,
+      "description": "Запускає випадкову екіпіровану зброю кожен 13-й стрибок. Імунітет до відтоку здоров'я."
+    },
+    "TP_GENYA": {
+      "prefix": null,
+      "charName": "Ґен'я",
+      "surname": "Арікадо",
+      "description": "Зовсім не Алукард."
+    },
+    "TP_WATERMAGICIAN": {
+      "prefix": "Атлантида",
+      "charName": "Чаклун святилища",
+      "surname": null,
+      "description": "Активує будь-яку екіпіровану зброю з Герба при надмірному зціленні на +32 й повільно заповнює нею все оточення."
+    },
+    "TP_SWORDRULER": {
+      "prefix": null,
+      "charName": "Меч правителя",
+      "surname": null,
+      "description": "При накопиченні надлишкового зцілення створює додаткові мечі у все більшій кількості (макс. 12 мечів)."
+    },
+    "TP_DROLTA": {
+      "prefix": null,
+      "charName": "Дролта",
+      "surname": "Цуентес",
+      "description": "Активує будь-яку екіпіровану зброю з Книги заклять Белнейдс при надмірному зціленні на 32 од. й більше."
+    },
+    "TP_ACTRISE": {
+      "prefix": "Відьма",
+      "charName": "Актріс",
+      "surname": null,
+      "description": "Майстерно володіє Зливою самоцвітів, Рунним слідом, Чар-каменем і Кайра-каменем. Має прихований Рунний слід, що стає сильнішим із кожним рівнем."
+    },
+    "TP_FISHMAN": {
+      "prefix": null,
+      "charName": "Риболюд",
+      "surname": null,
+      "description": "Очевидно, майстерно володіє Вогняним жезлом."
+    },
+    "TP_ZEPHYR": {
+      "prefix": null,
+      "charName": "Зефір",
+      "surname": null,
+      "description": "Майстерно володіє ножами. При підборі Часоловів отримує бонус до часу відновлення й швидкості руху. Легше знаходить Часолов."
+    },
+    "TP_FAKE_TRIO": {
+      "prefix": null,
+      "charName": "Фальшива трійця",
+      "surname": null,
+      "description": "Трійка зомбі, що прикидається мисливцями на вампірів."
+    },
+    "TP_FW_FAKE_TREVOR": {
+      "prefix": "Фальшивий",
+      "charName": "Тревор",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_SYPHA": {
+      "prefix": "Фальшива",
+      "charName": "Сифа",
+      "surname": null,
+      "description": null
+    },
+    "TP_FW_FAKE_GRANT": {
+      "prefix": "Фальшивий",
+      "charName": "Ґрант",
+      "surname": null,
+      "description": null
+    },
+    "TP_STONESKULL": {
+      "prefix": null,
+      "charName": "Кам'яний череп",
+      "surname": null,
+      "description": "Отримує +1 до броні кожні 5 рівнів. Обмежений радіус по горизонталі. Б'є у відповідь."
+    },
+    "TP_SLOGRA_AND_GAIBON": {
+      "prefix": null,
+      "charName": "Слоґр і Ґайбон",
+      "surname": null,
+      "description": "Майстерно володіє Тризубом. Завжди в парі з Ґайбоном. Впадає в лють після смерті напарника."
     }
   }
 }

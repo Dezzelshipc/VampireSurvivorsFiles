@@ -3,7 +3,7 @@ import shutil
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Literal, Callable, Any
+from typing import Literal, Any
 
 from pydub import AudioSegment
 
@@ -13,7 +13,7 @@ from Source.Config.config import DLCType, Config
 from Source.Data.data import DataType
 from Source.Translations.language import LangType
 from Source.Utility.constants import GENERATED, COMPOUND_DATA, AUDIO_FOLDER, COMPOUND_DATA_TYPE, PROGRESS_BAR_FUNC_TYPE
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.multirun import run_concurrent_sync, run_gather
 from Source.Utility.timer import Timeit
 from Source.Utility.unityparser2 import UnityDoc

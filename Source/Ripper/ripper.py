@@ -2,6 +2,8 @@ import os
 import shutil
 import sys
 import time
+from pathlib import Path
+from tkinter.messagebox import showerror
 
 import requests
 
@@ -32,7 +34,22 @@ def rip_files(dlc_list: set[DLCType]):
         pass
 
     if not ripper:
-        print("AssetRipper not found", file=sys.stderr)
+        _s = "AssetRipper not found"
+        print(_s, file=sys.stderr)
+        showerror("Ripper Error", _s)
+        return
+
+    if Config[CfgKey.STEAM_VS] == Path():
+        _s = f"Steam config path is empty"
+        showerror("Ripper Error", _s)
+        print(_s, file=sys.stderr)
+        return
+
+    if empty_paths := [dlc.value.full_name for dlc in dlc_list if Config[dlc.value.config_key] == Path()]:
+        _s = f"Some config paths are empty:\n{'\n'.join(empty_paths)}"
+        showerror("Ripper Error", _s)
+        print(_s, file=sys.stderr)
+        return
 
     is_working = True
     try:

@@ -9,17 +9,21 @@
     "EnablePrefabOutlining": true,
     "EnableStaticMeshSeparation": false,
     "EnableAssetDeduplication": false,
+    "RemoveNullableAttributes": false,
+    "PublicizeAssemblies": false,
     "BundledAssetsExportMode": 0
   },
   "Export": {
     "AudioExportFormat": 2,
     "ImageExportFormat": 4,
     "LightmapTextureExportFormat": 1,
-    "ScriptExportMode": 1,
+    "ScriptExportMode": 3,
     "ScriptLanguageVersion": -1,
+    "ScriptTypesFullyQualified": false,
     "ShaderExportMode": 0,
     "SpriteExportMode": 2,
     "TextExportMode": 2,
-    "SaveSettingsToDisk": true
+    "SaveSettingsToDisk": true,
+    "LanguageCode": null
   }
 }

@@ -2,7 +2,7 @@
 
 Some data files of Vampire Survivors game.
 
-Ripped from v1.13 + Moonspell + Foscari + Meeting + Guns + Ode + Diorama
+Ripped from v1.14 + Moonspell + Foscari + Meeting + Guns + Ode + Diorama + Ante
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/) by [poncle](https://poncle.games)
 
@@ -10,7 +10,7 @@ Ripped from v1.13 + Moonspell + Foscari + Meeting + Guns + Ode + Diorama
 
 Game data files and DLC data files located in [Data](Data) folder.
 
-## Unpacker (v0.16.4) - Data manager and Image generator
+## Unpacker (v0.16.5) - Data manager and Image generator
 
 Run [unpacker.py](unpacker.py) with [run.bat](run.bat). It can unpack images, get language strings and split them to
 different files and
@@ -19,18 +19,19 @@ of characters and enemies.
 
 ### Getting started
 
-Use [Python 3.12](https://www.python.org/downloads/) with _**tkinter**_ and install dependencies `pip install -r requirements.txt`
+Use [Python 3.12](https://www.python.org/downloads/) with _**tkinter**_ and install dependencies
+`pip install -r requirements.txt`
 
-Enter paths to ripped assets with _**Change config**_, where each path leads to respective DLCs' assets
-folders (`...\ExportedProject\Assets`, can be empty to automatically rip files).
+Enter paths to folders where ripped assets for respective DLCs will be located with _**Change config**_.
+(_OR_ enter paths where folders `...\ExportedProject\Assets` are located after ripping).
 
-* ***NOTE*** that ripping will **remove everything** in selected folders!
+* ! ***NOTE*** that ripping will **<u>REMOVE EVERYTHING</u>** in selected folders!
 
 Using [AssetRipper](https://github.com/AssetRipper/AssetRipper)
 
-* **Automatically** - Enter path to AssetRipper.exe and Steam folder for Vampire Survivors in config. Press *Magic
-  button* and
-  select DLCs to rip. Your previous settings for AssetRipper will be saved.
+* **<u>Automatically</u>** (Recommended) - Enter path to AssetRipper.exe and Steam folder for Vampire Survivors in
+  config. Press _**Magic button**_ and select DLCs to rip. Your previous settings for AssetRipper will be saved.
+
 
 * **Manually** - Export with **Export Unity Project** with settings:
 
@@ -40,61 +41,45 @@ Using [AssetRipper](https://github.com/AssetRipper/AssetRipper)
       versions), but only from Level 1 you can rip I2Languages. If it crashes try level 0),
     * "_Sprite Export Format_" set to _**Texture**_,
     * Tick "_Save Settings to Disk_" checkbox and click "Save" button to save settings.
-
         * Main game and each DLC must be ripped separately (You have to own DLCs).
           In `...\steamapps\common\Vampire Survivors` select `VampireSurvivors_Data` or numbered folders (DLCs) to open
-          in
-          AssetRipper.
+          in AssetRipper.
 
-_**Enable multiprocessing**_ can increase speed in some cases in exchange for "fully" loading CPU (and possibility of
+_**Enable multiprocessing**_ can increase speed in some cases in exchange for "heavily" loading CPU (and possibility of
 overflowing memory for very big files).
 
-* Currently for: _Get stage tilemap_, _Get unified audio_.
+* Currently for: _Get stage tilemap_, _Get unified audio_, _Some necessary data processing
+  (Parsing data, lang, metadata, etc.)_.
 
 ### Functions
 
-* **Magic button to rip data automatically**: provided paths to _VS steam_ folder, _AssetRipper_ folder and _DLC_
-  folders you can select what files to rip.
+| Button / Function                         | Action                                                                                                                                                                                                                             |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Change config                             | Opens config where you can select paths and toggle settings.                                                                                                                                                                       |
+| Magic button to<br>rip data automatically | You can select which DLCs' files to rip.<br>(Requires _VS steam_, _AssetRipper_ and _DLC_ folders)                                                                                                                                 |
+| Open last loaded folder                   | Opens folder that contains data from previous action.                                                                                                                                                                              |
+| Select image to unpack images             | Select png spritesheet (png atlas) from assets to split it into separate sprites.                                                                                                                                                  |
+| Select image to unpack animations         | Select png spritesheet (png atlas) from assets to split it into separate.<br>animations. (Animations are defined by sorting names of sprites)                                                                                      |
+| .. from spritesheets                      | For corresponding action opens _spritesheets_ folder of VS data.                                                                                                                                                                   |
+| Get language strings file                 | Copies and loads file with translations language stings. (I2Languages)<br>(Manually needs ripping with "_Script Content Level_" set to _**Level 2**_)                                                                              |
+| Convert language strings to json          | Converts I2Languages yaml to json.                                                                                                                                                                                                 |
+| Split language strings                    | Splits I2Languages file into different json files by type (general, weapon, character, etc.)<br>with ability to select multiple languages.                                                                                         |
+| Get data from assets                      | Copies and loads data files from each DLC separately.                                                                                                                                                                              |
+| Merge DLC data into same files            | Merges and loads data files from different DLC into files by type.                                                                                                                                                                 |
+| Get unified images                        | By selecting data file (merged or not) produces main image for every object in file.<br>Tries to use english names from lang files.<br>Has some additional options to produce images with frames, animations or other.             |
+| Get unified audio                         | Copies, makes and renames music files with ability to select change of names: <br>"Code names", "Audio titles", "Relative object names".<br>(Requires **[ffmpeg](https://ffmpeg.org)**)                                            |
+| Get stage tilemap                         | Generate stage tile map from prefab file. Big prefabs (> 5 MB) may have slow parse. <br>Big one-block maps (i.e. from DLC) most likely will have file size higher 10 MB. <br>Recommended to use **Enable multiprocessing** option. |
+| Create inv tilemap                        | Selecting generated tilemap you can enter tint value in base 10.<br>(See "tint" value in _Stage_ data files)<br>Creates images with tint and rotation (180 deg) and only with tint.                                                |
 
-**Select image to unpack images**: select png sprite sheet from assets to split it into separate
-sprites. ([Images/Generated/_By meta](Images) folder)
+### Viewing code
 
-* **.. from spritesheets**: opens _spritesheets_ folder to unpack. (works when entered path in config)
-
-* **Select image to unpack animations** and **.. from spritesheets**: select png sprite sheet from assets to split it
-  into separate
-  animations. (Animations are defined by sorting names of sprites)
-
-**Open last loaded folder**: opens folder that contains data from previous action.
-
-**Get language strings file**: copies and converts to yaml file with translations language stings. (needs
-config; [Translations](Translations) folder) (If it is laking strings then try ripping with "_Script Content Level_" set
-to _**Level 1**_. If it crashes when ripping then manually copy data from resources.assets > I2Languages > Yaml)
-
-* **Convert language strings to json**: converts yaml file to json file.
-* **Split language strings**: splits yaml file into different json files by type of string (general, weapon, character,
-  etc.) with ability to select multiple languages.
-
-**Get data from assets**: copies data files from each dlc separately. (needs config; [Data](Data) folder)
-
-* **Merge dlc data into same files**: merges data files from different dlc into files by type (weapon, character, etc.)
-* **Get images with unified names by data**: by selecting data file (merged or not) produces main image for every object
-  in file. ([Images](Images) folder)
-    * Having split lang files with english strings, it uses names from it. (Correct names of objects rather than names
-      from data file)
-    * Some of datas can produce images with frames or animations. (Selecting that datas will have corresponding
-      checkboxes)
-
-* **Get stage tilemap**: Generate stage tile map from prefab file. Big prefabs (> 5 MB) have slow parse. One-block
-  maps (i.e. from DLC) most likely will have file size higher 10 MB.
-
-* **Get unified audio**: Copies audio files from musicData. Ability to select change of names: "Code names", "Audio
-  titles", "Relative object names"
-    * "Relative object names" requires split eng lang data.
-    * Requires **[ffmpeg](https://ffmpeg.org)**.
+* Vampire Survivors uses unity with il2cpp and can't be fully decompiled. However, there are tools to view some .dll
+  files. Here are some of them:
+    * [Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
+    * [dnSpy](https://github.com/dnSpy/dnSpy)
+    * [ILSpy](https://github.com/icsharpcode/ILSpy)
 
 ## Future plans
 
 * Keep support for new content updates and DLC.
-
-* Rewrite Image gen to better pipeline (i.e. cache sprites).
+* Rewrite Image gen to better pipeline.

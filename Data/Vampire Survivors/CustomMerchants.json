@@ -6,7 +6,7 @@
     "staticSprite": "TP_Librarian_i01",
     "staticSpriteTexture": "character_tp_librarian",
     "textLocKey": "adv_merc_TP_LIBRARIAN",
-    "DLC": "ThosePeople",
+    "DLC": ["ThosePeople"],
     "merchantInventory": [
       "TP_VALMANWAY",
       "TP_ICEBRAND",
@@ -20,7 +20,10 @@
       "TP_DARKRIFT",
       "TP_SOULSTEAL_WEAPON",
       "TP_SWORD_BROTHERS",
-      "TP_SPIRITTORNADO"
+      "TP_SPIRITTORNADO",
+      "TP_FROG",
+      "TP_LAPISTE1",
+      "TP_POCKET1"
     ]
   },
   "MARIASOFIA": {
@@ -30,10 +33,29 @@
     "portraitSpriteTexture": "UI",
     "staticSprite": "Xanthia_01",
     "staticSpriteTexture": "character_xanthia",
+	"bodyOffset": {
+      "x": 0,
+      "y": 16
+    },
     "textLocKey": "adv_merc_MARIASOFIA",
-    "DLC": "Emeralds",
+    "DLC": ["Emeralds", "Lemon"],
     "merchantInventoryItems": [
-      "RELIC_EME_DISK"
+      "RELIC_GLASSMASK",
+      "RELIC_EME_DISK",
+      "RELIC_LEM_DISK"
     ]
+  },
+  "EX_GIOCARE": {
+    "merchantCharacter": "EX_GIOCARE",
+    "portraitSprite": "mercChula",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "secretino_i01.png",
+    "staticSpriteTexture": "character_chulareh",
+    "textLocKey": "adv_merc_GIOCARE",
+    "hideBackgroundParticles": true,
+    "hideBackgroundWindows": true,
+    "hideBackgroundMask": true,
+    "customCooldown": 7000,
+    "merchantInventoryItems": []
   }
 }

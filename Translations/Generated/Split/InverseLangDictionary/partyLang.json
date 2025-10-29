@@ -1,0 +1,856 @@
+{
+  "en": {
+    "CPU_Behaviour": "CPU Behaviour",
+    "Aggressive": {
+      "name": "Sun",
+      "description": "Aggressive"
+    },
+    "Defensive": {
+      "name": "Moon",
+      "description": "Defensive"
+    },
+    "ChaoticAF": {
+      "name": "Volcano",
+      "description": "Chaotic"
+    },
+    "MirrorInput": {
+      "name": "Seawinds",
+      "description": "Mirrors your movements. Caution - may hinder progress."
+    },
+    "DelayedInputCopy": {
+      "name": "City",
+      "description": "Follows you."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolis",
+      "description": "Follows you effectively."
+    },
+    "GreedyForPickups": {
+      "name": "Stone",
+      "description": "Greedy for pickups."
+    },
+    "StandsStill": {
+      "name": "Void",
+      "description": "Stands still...?"
+    },
+    "Masochistic": {
+      "name": "Skull",
+      "description": "Actively trying to get damaged."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Connect a controller or select a CPU",
+    "PartySize": "PARTY SIZE"
+  },
+  "fr": {
+    "CPU_Behaviour": "Comportement du CPU",
+    "Aggressive": {
+      "name": "Soleil",
+      "description": "Agressif"
+    },
+    "Defensive": {
+      "name": "Lune",
+      "description": "Défensif"
+    },
+    "ChaoticAF": {
+      "name": "Volcan",
+      "description": "Chaotique"
+    },
+    "MirrorInput": {
+      "name": "Vents marins",
+      "description": "Imite vos mouvements. Attention, cela pourrait entraver votre progression."
+    },
+    "DelayedInputCopy": {
+      "name": "Ville",
+      "description": "Vous suit."
+    },
+    "DelayedPositionCopy": {
+      "name": "Métropole",
+      "description": "Vous suit de manière efficace."
+    },
+    "GreedyForPickups": {
+      "name": "Pierre",
+      "description": "Avide de boosts."
+    },
+    "StandsStill": {
+      "name": "Nul",
+      "description": "Reste immobile… ?"
+    },
+    "Masochistic": {
+      "name": "Crâne",
+      "description": "Essaie activement de subir des dégâts."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Connectez une manette ou sélectionnez un CPU",
+    "PartySize": "Taille de l'équipe"
+  },
+  "it": {
+    "CPU_Behaviour": "Comportamento CPU",
+    "Aggressive": {
+      "name": "Sole",
+      "description": "Aggressiva"
+    },
+    "Defensive": {
+      "name": "Luna",
+      "description": "Difensiva"
+    },
+    "ChaoticAF": {
+      "name": "Vulcano",
+      "description": "Caotica"
+    },
+    "MirrorInput": {
+      "name": "Venti marini",
+      "description": "Riproduce i tuoi movimenti in maniera speculare. Attenzione, può ostacolare i progressi."
+    },
+    "DelayedInputCopy": {
+      "name": "Città",
+      "description": "Ti segue."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropoli",
+      "description": "Ti segue con efficienza."
+    },
+    "GreedyForPickups": {
+      "name": "Pietra",
+      "description": "Avida di collezionabili."
+    },
+    "StandsStill": {
+      "name": "Vuota",
+      "description": "Se ne sta lì...?"
+    },
+    "Masochistic": {
+      "name": "Teschio",
+      "description": "Cerca in tutti i modi di farsi male."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Collega un controller o seleziona una CPU",
+    "PartySize": "Dimensione del party"
+  },
+  "de": {
+    "CPU_Behaviour": "KI-Verhalten",
+    "Aggressive": {
+      "name": "Sonne",
+      "description": "Ist aggressiv."
+    },
+    "Defensive": {
+      "name": "Mond",
+      "description": "Ist defensiv."
+    },
+    "ChaoticAF": {
+      "name": "Vulkan",
+      "description": "Ist chaotisch."
+    },
+    "MirrorInput": {
+      "name": "Meereswind",
+      "description": "Spiegelt deine Bewegungen. Achtung! Kann deinen Fortschritt behindern."
+    },
+    "DelayedInputCopy": {
+      "name": "Stadt",
+      "description": "Folgt dir."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropole",
+      "description": "Folgt dir auf effiziente Weise."
+    },
+    "GreedyForPickups": {
+      "name": "Stein",
+      "description": "Stürzt sich auf Pick-ups."
+    },
+    "StandsStill": {
+      "name": "Leere",
+      "description": "Steht still …?"
+    },
+    "Masochistic": {
+      "name": "Schädel",
+      "description": "Versucht aktiv, Schaden zu erleiden."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Schließe einen Controller an oder wähle einen KI-Spieler aus.",
+    "PartySize": "Gruppengröße"
+  },
+  "es": {
+    "CPU_Behaviour": "Comportamiento de la CPU",
+    "Aggressive": {
+      "name": "Sol",
+      "description": "Agresivo."
+    },
+    "Defensive": {
+      "name": "Luna",
+      "description": "Defensivo."
+    },
+    "ChaoticAF": {
+      "name": "Volcán",
+      "description": "Caótico."
+    },
+    "MirrorInput": {
+      "name": "Brisa marina",
+      "description": "Imita tus movimientos. Cuidado, puede dificultar el progreso."
+    },
+    "DelayedInputCopy": {
+      "name": "Ciudad",
+      "description": "Te sigue."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metrópolis",
+      "description": "Te sigue de forma eficaz."
+    },
+    "GreedyForPickups": {
+      "name": "Piedra",
+      "description": "Tendencia a recoger todos los objetos."
+    },
+    "StandsStill": {
+      "name": "Vacío",
+      "description": "¿No se mueve?"
+    },
+    "Masochistic": {
+      "name": "Cráneo",
+      "description": "Intenta recibir daño deliberadamente."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Conecta un mando o elige una CPU.",
+    "PartySize": "Tamaño del grupo"
+  },
+  "pt-BR": {
+    "CPU_Behaviour": "Comportamento dos bots",
+    "Aggressive": {
+      "name": "Sol",
+      "description": "Agressivo"
+    },
+    "Defensive": {
+      "name": "Lua",
+      "description": "Defensiva"
+    },
+    "ChaoticAF": {
+      "name": "Vulcão",
+      "description": "Caótico"
+    },
+    "MirrorInput": {
+      "name": "Brisa Marinha",
+      "description": "Imita seus movimentos. Cuidado: pode atrasar o progresso."
+    },
+    "DelayedInputCopy": {
+      "name": "Cidade",
+      "description": "Segue você."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metrópole",
+      "description": "Segue você de verdade."
+    },
+    "GreedyForPickups": {
+      "name": "Rocha",
+      "description": "Fome de coletáveis."
+    },
+    "StandsStill": {
+      "name": "Vazio",
+      "description": "Não se mexe...?"
+    },
+    "Masochistic": {
+      "name": "Caveira",
+      "description": "Se esforça para sofrer dano."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Conecte um controle ou selecione um bot",
+    "PartySize": "Tamanho do grupo"
+  },
+  "pl": {
+    "CPU_Behaviour": "Zachowanie CPU",
+    "Aggressive": {
+      "name": "Słońce",
+      "description": "Agresywne"
+    },
+    "Defensive": {
+      "name": "Księżyc",
+      "description": "Defensywny"
+    },
+    "ChaoticAF": {
+      "name": "Wulkan",
+      "description": "Chaotyczny"
+    },
+    "MirrorInput": {
+      "name": "Morska bryza",
+      "description": "Odzwierciedla twoje ruchy. Uwaga: może spowolnić postępy."
+    },
+    "DelayedInputCopy": {
+      "name": "Miasto",
+      "description": "Podąża za tobą."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropolia",
+      "description": "Skutecznie za tobą podąża."
+    },
+    "GreedyForPickups": {
+      "name": "Kamień",
+      "description": "Chciwy łupów."
+    },
+    "StandsStill": {
+      "name": "Pustka",
+      "description": "Nie rusza się...?"
+    },
+    "Masochistic": {
+      "name": "Czaszka",
+      "description": "Aktywnie próbuje się uszkodzić."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Podłącz kontroler lub wybierz CPU",
+    "PartySize": "Rozmiar grupy"
+  },
+  "ru": {
+    "CPU_Behaviour": "Поведение ИИ",
+    "Aggressive": {
+      "name": "Солнце",
+      "description": "Агрессивное"
+    },
+    "Defensive": {
+      "name": "Луна",
+      "description": "Оборонительное"
+    },
+    "ChaoticAF": {
+      "name": "Вулкан",
+      "description": "Хаотичное"
+    },
+    "MirrorInput": {
+      "name": "Морские ветры",
+      "description": "Повторяет ваши движения. Осторожно — может помешать."
+    },
+    "DelayedInputCopy": {
+      "name": "Город",
+      "description": "Следует за вами."
+    },
+    "DelayedPositionCopy": {
+      "name": "Мегаполис",
+      "description": "Эффективно следует за вами."
+    },
+    "GreedyForPickups": {
+      "name": "Камень",
+      "description": "Жаден до находок."
+    },
+    "StandsStill": {
+      "name": "Пустота",
+      "description": "Стоит на месте?"
+    },
+    "Masochistic": {
+      "name": "Череп",
+      "description": "Активно старается получить урон."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Подключите контроллер или выберите ИИ",
+    "PartySize": "Размер отряда"
+  },
+  "tr": {
+    "CPU_Behaviour": "CPU Davranışı",
+    "Aggressive": {
+      "name": "Güneş",
+      "description": "Agresif"
+    },
+    "Defensive": {
+      "name": "Ay",
+      "description": "Savunmada"
+    },
+    "ChaoticAF": {
+      "name": "Volkan",
+      "description": "Kaotik"
+    },
+    "MirrorInput": {
+      "name": "Meltem",
+      "description": "Hareketlerini taklit eder. Dikkatli ol, oyunun tıkanmasına neden olabilir."
+    },
+    "DelayedInputCopy": {
+      "name": "Şehir",
+      "description": "Seni izler."
+    },
+    "DelayedPositionCopy": {
+      "name": "Metropol",
+      "description": "Seni amansız şekilde izler."
+    },
+    "GreedyForPickups": {
+      "name": "Taş",
+      "description": "Toplanabilirler için canını verir."
+    },
+    "StandsStill": {
+      "name": "Boşluk",
+      "description": "Tık yok mu…?"
+    },
+    "Masochistic": {
+      "name": "Kurukafa",
+      "description": "Dayak yemek için can atar."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Bir kontrolcü bağla veya CPU seç.",
+    "PartySize": "Ekip Büyüklüğü"
+  },
+  "zh-CN": {
+    "CPU_Behaviour": "电脑玩家行为",
+    "Aggressive": {
+      "name": "太阳",
+      "description": "进攻"
+    },
+    "Defensive": {
+      "name": "月亮",
+      "description": "防守"
+    },
+    "ChaoticAF": {
+      "name": "火山",
+      "description": "混乱"
+    },
+    "MirrorInput": {
+      "name": "海风",
+      "description": "镜像你的行动。注意，可能会妨碍进度。"
+    },
+    "DelayedInputCopy": {
+      "name": "城市",
+      "description": "跟随你。"
+    },
+    "DelayedPositionCopy": {
+      "name": "大都市",
+      "description": "有效跟随你。"
+    },
+    "GreedyForPickups": {
+      "name": "石头",
+      "description": "不舍得放过任何拾取物。"
+    },
+    "StandsStill": {
+      "name": "虚无",
+      "description": "一动不动……？"
+    },
+    "Masochistic": {
+      "name": "头骨",
+      "description": "主动挨打。"
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "连接控制器，或选择一个电脑玩家",
+    "PartySize": "队伍人数"
+  },
+  "ja": {
+    "CPU_Behaviour": "CPU動作",
+    "Aggressive": {
+      "name": "太陽",
+      "description": "攻撃重視"
+    },
+    "Defensive": {
+      "name": "月",
+      "description": "防御重視"
+    },
+    "ChaoticAF": {
+      "name": "火山",
+      "description": "カオス"
+    },
+    "MirrorInput": {
+      "name": "海風",
+      "description": "動きを鏡のようにコピーする。進行を妨げることがあるので注意。"
+    },
+    "DelayedInputCopy": {
+      "name": "シティ",
+      "description": "あなたと共に行動する。"
+    },
+    "DelayedPositionCopy": {
+      "name": "メトロポリス",
+      "description": "忠実にあなた付き従う。"
+    },
+    "GreedyForPickups": {
+      "name": "ストーン",
+      "description": "ピックアップアイテムに貪欲。"
+    },
+    "StandsStill": {
+      "name": "ボイド",
+      "description": "ただそこに立っているだけ…？"
+    },
+    "Masochistic": {
+      "name": "ドクロ",
+      "description": "積極的にダメージを受けに行く。"
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "コントローラーを接続するか、CPUを選択してください",
+    "PartySize": "パーティー人数"
+  },
+  "ko": {
+    "CPU_Behaviour": "CPU 거동",
+    "Aggressive": {
+      "name": "태양",
+      "description": "공격적"
+    },
+    "Defensive": {
+      "name": "달",
+      "description": "방어적"
+    },
+    "ChaoticAF": {
+      "name": "화산",
+      "description": "혼란"
+    },
+    "MirrorInput": {
+      "name": "바닷바람",
+      "description": "당신의 움직임을 따라합니다. 주의 - 진행을 방해할 수 있습니다."
+    },
+    "DelayedInputCopy": {
+      "name": "도시",
+      "description": "당신을 따릅니다."
+    },
+    "DelayedPositionCopy": {
+      "name": "대도시",
+      "description": "당신을 효과적으로 따릅니다."
+    },
+    "GreedyForPickups": {
+      "name": "돌",
+      "description": "픽업 욕심이 많습니다."
+    },
+    "StandsStill": {
+      "name": "보이드",
+      "description": "아직 서있나요..?"
+    },
+    "Masochistic": {
+      "name": "해골",
+      "description": "적극적으로 피해를 입으려합니다."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "컨트롤러를 연결하거나 CPU를 선택하세요.",
+    "PartySize": "파티 인원 수"
+  },
+  "zh-TW": {
+    "CPU_Behaviour": "CPU 行為",
+    "Aggressive": {
+      "name": "太陽",
+      "description": "主動進攻"
+    },
+    "Defensive": {
+      "name": "月亮",
+      "description": "穩定防禦"
+    },
+    "ChaoticAF": {
+      "name": "火山",
+      "description": "混亂隨意"
+    },
+    "MirrorInput": {
+      "name": "海風",
+      "description": "鏡像反轉你的移動操作方式。請注意：這樣可能會影響到你推展遊戲進度的能力。"
+    },
+    "DelayedInputCopy": {
+      "name": "城市",
+      "description": "追隨你的腳步。"
+    },
+    "DelayedPositionCopy": {
+      "name": "大都會",
+      "description": "乖乖地追隨你的腳步。"
+    },
+    "GreedyForPickups": {
+      "name": "石頭",
+      "description": "掉落物品撿好撿滿。"
+    },
+    "StandsStill": {
+      "name": "虛空",
+      "description": "站著不動看看⋯⋯？"
+    },
+    "Masochistic": {
+      "name": "骷髏",
+      "description": "主動去四處承受傷害。"
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "連接控制器或是選擇一個 CPU 好夥伴",
+    "PartySize": "隊伍人數"
+  },
+  "uk": {
+    "CPU_Behaviour": "Поведінка процесора",
+    "Aggressive": {
+      "name": "Сонце",
+      "description": "Агресивна"
+    },
+    "Defensive": {
+      "name": "Місяць",
+      "description": "Оборонна"
+    },
+    "ChaoticAF": {
+      "name": "Вулкан",
+      "description": "Хаотична"
+    },
+    "MirrorInput": {
+      "name": "Бриз",
+      "description": "Віддзеркалює ваші рухи. Обережно: може заважати прогресу."
+    },
+    "DelayedInputCopy": {
+      "name": "Місто",
+      "description": "Рухається вслід за вами."
+    },
+    "DelayedPositionCopy": {
+      "name": "Метрополія",
+      "description": "Рухається вслід за вами ще краще."
+    },
+    "GreedyForPickups": {
+      "name": "Камінь",
+      "description": "Неможливо не підібрати."
+    },
+    "StandsStill": {
+      "name": "Порожнеча",
+      "description": "Стоїть на місц...?"
+    },
+    "Masochistic": {
+      "name": "Череп",
+      "description": "Так і проситься, щоб по ньому врізали."
+    },
+    "AlwaysRight": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistance": {
+      "name": null,
+      "description": null
+    },
+    "DeathSequence": {
+      "name": null,
+      "description": null
+    },
+    "AngleDistanceMirrorInput": {
+      "name": null,
+      "description": null
+    },
+    "Conga": {
+      "name": null,
+      "description": null
+    },
+    "ConnectOrSelect": "Під'єднайте контролер або виберіть процесор",
+    "PartySize": "Розмір загону"
+  }
+}

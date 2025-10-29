@@ -1,11 +1,12 @@
 import json
+import sys
 from collections import OrderedDict
 from enum import Enum
 from typing import Final, Any
 
 from Source.Utility.constants import COMPOUND_DATA
 from Source.Utility.constants import COMPOUND_DATA_TYPE
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.special_classes import Objectless
 from Source.Utility.unityparser2 import UnityDoc
 from Source.Utility.timer import Timeit
@@ -24,6 +25,8 @@ class LangType(Enum):
     ITEM = "itemLang"
     GENERAL = "lang"
     MUSIC = "musicLang"
+    ONLINE = "onlineLang"
+    PARTY = "partyLang"
     POWER_UP = "powerUpLang"
     PROGRESS = "progressLang"
     SECRET = "secretLang"
@@ -146,6 +149,11 @@ class LangHandler(Objectless):
         for i, lang_entry in enumerate(full_data):
             lang_type_str, *full_key = lang_entry["Term"].replace("{", "").replace("}", "/").split("/")
             lang_type = LangType(lang_type_str) if lang_type_str in LangType else LangType.NONE
+
+            if lang_type == LangType.NONE:
+                print(f"Skipping lang_type={lang_type_str} ({full_key}). "
+                      "This message most likely means that new LangType was added", file=sys.stderr)
+                continue
 
             values = loaded_data[lang_type]
             for key in full_key[:-1]:

@@ -1,0 +1,160 @@
+{
+   "LEM_FindJokerDisc":{
+      "description":"___",
+      "stageToUnlock":"LEM_CHAMBER",
+      "forcedTexture":"items",
+      "forcedFrameName":"LEM_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"FindItems",
+            "RequiredItems":[
+               "RELIC_LEM_DISK"
+            ]
+         }
+      ]
+   },
+   "LEM_FindCoffin1":{
+      "description":"___",
+      "characterToUnlock":"LEM_JIMBO",
+      "requiresItem":"RELIC_LEM_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveOpenedCoffinForXCharacter",
+            "RequiredCharacterType":"LEM_JIMBO",
+            "RequiredItems":[
+               "RELIC_LEM_DISK"
+            ]
+         }
+      ]
+   },
+   "LEM_GetInfernolatroToLevel6":{
+      "description":"Get Infernolatro To Level 6",
+      "weaponToUnlock":"LEM_INFERNO1",
+      "requiresItem":"RELIC_LEM_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "LEM_INFERNO1"
+            ]
+         }
+      ]
+   },
+   "LEM_EvolveInfernolatro": {
+    "description": "Evolve the Infernolatro.",
+    "characterToUnlock": "LEM_CANIO",
+    "requiresItem":"RELIC_LEM_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "LEM_INFERNO2"
+        ]
+      }
+    ]
+  },
+   "LEM_GetFibonacciToLevel6":{
+      "description":"Get Fibonacci Spritz To Level 6",
+      "weaponToUnlock":"LEM_FIBONACCI1",
+      "requiresItem":"RELIC_LEM_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "LEM_FIBONACCI1"
+            ]
+         }
+      ]
+   },
+  "LEM_EvolveFibonacci": {
+    "description": "Evolve the Fibonacci Spritz.",
+    "characterToUnlock": "LEM_CHICOT",
+    "requiresItem":"RELIC_LEM_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "LEM_FIBONACCI2"
+        ]
+      }
+    ]
+  },
+   "LEM_GetGrosMichelToLevel6":{
+      "description":"Get Gros Michel To Level 6",
+      "weaponToUnlock":"LEM_BANANA1",
+      "requiresItem":"RELIC_LEM_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "LEM_BANANA1"
+            ]
+         }
+      ]
+   },
+  "LEM_EvolveGrosMichel": {
+    "description": "Evolve the Gros Michel.",
+    "characterToUnlock": "LEM_PERKEO",
+    "requiresItem":"RELIC_LEM_DISK",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "LEM_BANANA2"
+        ]
+      }
+    ]
+  },
+   "LEM_GetRichRocketToLevel6":{
+      "description":"Get Rich Rocket To Level 6",
+      "weaponToUnlock":"LEM_PLANETS1",
+      "requiresItem":"RELIC_LEM_DISK",
+      "UnlockConditions":[
+         {
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":6,
+            "RequiredWeapons":[
+               "LEM_PLANETS1"
+            ]
+         }
+      ]
+   },
+  "LEM_EvolveRichRocket": {
+    "description": "Evolve the Rich Rocket.",
+    "goldPrize": 77777,
+    "requiresItem":"RELIC_LEM_DISK",
+    "forcedTexture":"LEM_items",
+    "forcedFrameName":"LEM_PLANETS2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "LEM_PLANETS2"
+        ]
+      }
+    ]
+  },
+  "LEM_DefeatBoss":{
+    "description":"___",
+    "hyperToUnlock":"LEM_CHAMBER",
+    "requiresItem":"RELIC_LEM_DISK",
+   "forcedTexture":"UI",
+   "forcedFrameName":"icon_hyper_antechamber",
+    "UnlockConditions":[
+      {
+        "AchievementUnlockType":"KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":1,
+        "RequiredEnemyTypes":[
+          "LEM_BOSS_CRIMSONHEART"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "LEM_CHAMBER"
+      }
+    ]
+  }
+}

@@ -592,14 +592,6 @@
       "skips": 0,
       "banish": 0,
       "showcase": [
-        "TRIASSO1",
-        "TRIASSO1",
-        "TRIASSO1",
-        "TRIASSO1",
-        "TRIASSO1",
-        "TRIASSO1",
-        "TRIASSO1",
-        "TRIASSO1",
         "DURATION",
         "DURATION",
         "DURATION",
@@ -2438,7 +2430,22 @@
         "COOLDOWN",
         "COOLDOWN",
         "AMOUNT",
-        "AMOUNT"
+        "AMOUNT",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR"
       ],
       "enemiesKilled": 0,
       "stageData": []
@@ -3007,6 +3014,13 @@
       "skips": 0,
       "banish": 0,
       "showcase": [
+        "VENTO",
+        "VENTO",
+        "VENTO",
+        "VENTO",
+        "VENTO",
+        "VENTO",
+        "VENTO",
         "AREA",
         "AREA",
         "AREA",
@@ -3029,7 +3043,8 @@
         "COOLDOWN",
         "COOLDOWN",
         "COOLDOWN",
-        "COOLDOWN"
+        "COOLDOWN",
+        "VENTO2"
       ],
       "onEveryLevelUp": {
         "power": 0.005,
@@ -3326,7 +3341,7 @@
       "hidden": true,
       "secret": true,
       "level": 1,
-      "startingWeapon": 0,
+      "startingWeapon": "VOID",
       "prefix": "",
       "charName": "Random",
       "surname": "",
@@ -3770,7 +3785,7 @@
       "hidden": true,
       "secret": true,
       "level": 1,
-      "startingWeapon": 0,
+      "startingWeapon": "VOID",
       "prefix": "",
       "charName": "Cosmo",
       "surname": "Pavone",
@@ -4086,7 +4101,7 @@
       "hidden": true,
       "secret": true,
       "level": 1,
-      "startingWeapon": 0,
+      "startingWeapon": "VOID",
       "charName": "missingN",
       "surname": "",
       "textureName": "character_missing",
@@ -4615,6 +4630,10 @@
       "spriteName": "Robert_i01.png",
       "textureName": "character_robbert",
       "walkingFrames": 5,
+	  "bodyOffset": {
+		"x": 8.5,
+		"y": 17
+	  },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -4714,6 +4733,92 @@
       "growth": -1
     }
   ],
+  "EX_ZIAPPUNTA": [
+    {
+      "hidden":     true,
+      "secret":     false,
+      "isBought":   false,
+      "level": 1,
+      "startingWeapon": "EX_AMMO1",
+      "charName": "Zi'Appunta",
+      "surname": "Belpaese",
+      "spriteName": "player_ziappunta_01.png",
+      "textureName": "character_ziappunta",
+      "bgm": "BGM_Vento",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": ".",
+      "portraitName": "p_ziappunta.png",
+	  "bodyOffset": {
+        "x": 8,
+        "y": 15
+      },
+	  "headOffsets": [
+        {
+          "x": -1,
+          "y": 1
+        }
+      ],
+      "price":      5000,
+      "completedStages": [],
+      "survivedMinutes":  0,
+      "maxHp":            100,
+      "armor":            0,
+      "regen":            0,
+      "moveSpeed":        1.3,
+      "power":            1,
+      "cooldown":         1,
+      "area":             1,
+      "speed":            1.2,
+      "duration":         1.2,
+      "amount":           0,
+      "luck":             1.2,
+      "growth":           1,
+      "greed":            1,
+      "curse":            1,
+      "magnet":           0.3,
+      "revivals":         0,
+      "rerolls":          0,
+      "skips":            0,
+      "banish":           0,
+      "showcase": [
+        "EX_AMMO1","EX_AMMO1","EX_AMMO1","EX_AMMO1","EX_AMMO1","EX_AMMO1","EX_AMMO1",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "LUCK","LUCK","LUCK","LUCK","LUCK",
+        "AMOUNT","AMOUNT",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "POWER","POWER","POWER","POWER","POWER"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "SHEMOONITA": [
     {
       "hidden": true,
@@ -4733,10 +4838,14 @@
           "spriteName": "Sheemonita_i01.png",
           "walkingFrames": 5,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 6,
+			"y": 18
+		  },
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": 2,
+              "y": 4
             }
           ]
         },
@@ -4750,8 +4859,18 @@
           "unlocked": false,
           "hidden": false,
           "description": "Starts with a Level 5 Wing and a hidden Valkyrie Turner.",
-          "revivals":  7,
-          "luck":      1.0,
+		  "bodyOffset": {
+			"x": 6,
+			"y": 24
+		  },
+		  "headOffsets": [
+            {
+              "x": 3,
+              "y": 4
+            }
+          ],
+          "revivals": 7,
+          "luck": 1,
           "exAccessories": [
             "MOVESPEED",
             "MOVESPEED",
@@ -4999,8 +5118,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": 14,
+              "y": 14
             }
           ]
         }
@@ -5016,25 +5135,25 @@
       "price": 5000,
       "completedStages": [],
       "survivedMinutes": 0,
-      "maxHp":        100,
-      "armor":        0,
-      "regen":        0,
-      "moveSpeed":    1.5,
-      "power":        1,
-      "cooldown":     1,
-      "area":         1,
-      "speed":        1,
-      "duration":     1,
-      "amount":       0,
-      "luck":         1,
-      "growth":       1,
-      "greed":        1,
-      "curse":        1,
-      "magnet":       0,
-      "revivals":     0,
-      "rerolls":      0,
-      "skips":        0,
-      "banish":       0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.5,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "showcase": [
         "PARMA",
         "PARMA",
@@ -5075,6 +5194,100 @@
       "growth": -1
     }
   ],
+  "EX_CHULAREH": [
+    {
+      "hidden":     true,
+      "secret":     false,
+      "isBought":   false,
+      "level": 1,
+      "startingWeapon": "EX_MAGISTONE1",
+      "charName": "Chula-Reh",
+      "surname": "",
+      "spriteName": "chulareh_i01.png",
+      "textureName": "character_chulareh",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": ".",
+      "portraitName": "p_chulareh.png",
+	  "bodyOffset": {
+        "x": 5,
+        "y": 17
+      },
+	  "headOffsets": [
+        {
+          "x": -1,
+          "y": 1
+        }
+      ],
+      "price":      777,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.07,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1.07,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0.07,
+      "revivals":   0,
+      "rerolls":    7,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "EX_MAGISTONE1",
+        "EX_MAGISTONE1",
+        "EX_MAGISTONE1",
+        "EX_MAGISTONE1",
+        "EX_MAGISTONE1",
+        "EX_MAGISTONE1",
+        "EX_MAGISTONE1",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DOMINION",
+        "DOMINION",
+        "DOMINION",
+        "DOMINION",
+        "DOMINION"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "SPACEDUDE": [
     {
       "hidden": true,
@@ -5086,6 +5299,10 @@
       "spriteName": "xSpaceDude_01.png",
       "textureName": "character_spacedude",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 5.5,
+        "y": 11
+      },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5096,8 +5313,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": -2,
+              "y": -8
             }
           ]
         }
@@ -5203,9 +5420,15 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
-        "y": 32
+        "x": 20,
+        "y": 22
       },
+	  "headOffsets": [
+		{
+		  "x": 2,
+		  "y": -5
+		}
+	  ],
       "maxHp": 180,
       "armor": 0,
       "regen": 0,
@@ -5290,8 +5513,8 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
-        "y": 32
+        "x": 20,
+        "y": 22
       },
       "maxHp": 180,
       "armor": 0,
@@ -5418,8 +5641,8 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 0,
-        "y": 10
+        "x": 4,
+        "y": 10,
       },
       "maxHp": 100,
       "armor": 0,
@@ -5441,8 +5664,7 @@
       "skips": 0,
       "banish": 0,
       "charm": 0,
-      "showcase": [
-      ],
+      "showcase": [],
       "levelUpPresets": [
         {
           "startingLoadout": [],
@@ -5507,8 +5729,8 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 0,
-        "y": 5
+        "x": 3,
+        "y": 7,
       },
       "maxHp": 100,
       "armor": 0,
@@ -5530,8 +5752,7 @@
       "skips": 0,
       "banish": 0,
       "charm": 0,
-      "showcase": [
-      ],
+      "showcase": [],
       "levelUpPresets": [
         {
           "startingLoadout": [],
@@ -5591,6 +5812,12 @@
       "walkingFrames": 4,
       "description": "Increases enemies spawn quantity by 100. Slightly recovers Might and Growth when levelling up.",
       "isBought": false,
+	  "headOffsets": [
+        {
+          "x": 1,
+          "y": 3
+        }
+      ],
       "price": 5000,
       "completedStages": [],
       "survivedMinutes": 0,
@@ -5698,12 +5925,100 @@
       "growth": 0.15
     }
   ],
+  "TORINO": [
+    {
+      "hidden": true,
+      "secret": true,
+      "level": 1,
+      "startingWeapon": "VOID",
+      "prefix": "",
+      "charName": "Torino",
+      "surname": "",
+      "textureName": "character_torino",
+      "spriteName": "Torino_i01.png",
+      "portraitName": "p_torino.png",
+      "walkingFrames": 4,
+      "description": "Evolves into JoyaTauro at lv16, and into AccumulaTori at lv36. Retaliates.",
+      "isBought": false,
+	  "bodyOffset": {
+        "x": 6.5,
+        "y": 8
+      },
+	  "headOffsets": [
+        {
+          "x": 3,
+          "y": -10
+        }
+      ],
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "price":      5000,
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.5,
+      "power":      0.65,
+      "cooldown":   1,
+      "area":       0.65,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     5,
+      "showcase": [
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "SCOREJ": [
     {
       "hidden": true,
       "secret": true,
       "level": 1,
-      "startingWeapon": 0,
+      "startingWeapon": "VOID",
       "prefix": "",
       "charName": "Scorej-Oni",
       "surname": "",
@@ -5714,7 +6029,7 @@
       "headOffsets": [
         {
           "x": 5,
-          "y": 10
+          "y": 6
         }
       ],
       "walkingFrames": 4,
@@ -5815,16 +6130,16 @@
       "description": "Starting weapon grows stronger when levelling up. Gains +1% Curse every level. Ignores walls.",
       "headOffsets": [
         {
-          "x": -5,
-          "y": -10
+          "x": 8,
+          "y": 12
         },
         {
-          "x": -5,
-          "y": 15
+          "x": 0,
+          "y": 4
         },
         {
-          "x": 19,
-          "y": 0
+          "x": 20,
+          "y": 2
         }
       ],
       "portraitName": "p_gyoruntin.png",
@@ -5833,7 +6148,7 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
+        "x": 21,
         "y": 32
       },
       "charSelTexture": "character_gyoruntin",
@@ -5912,6 +6227,93 @@
       "growth": -1
     }
   ],
+  "EX_GIOCARE": [
+    {
+      "hidden":     true,
+      "secret":     true,
+      "isBought":   false,
+      "level": 1,
+      "startingWeapon": "EX_MAGISTONE2",
+      "charName": "Secretino",
+      "surname": "",
+      "spriteName": "secretino_i01.png",
+      "textureName": "character_secretino",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "description": "Can find Survarots. Receives a Survarot draft at level 3, and 7. Gets a Survarot Multiplier equal to Log10 Golden Eggs (max x10).",
+      "portraitName": "p_secretino2.png",
+	  "bodyOffset": {
+        "x": 9,
+        "y": 19
+      },
+	  "headOffsets": [
+        {
+          "x": -3,
+          "y": 1
+        }
+      ],
+      "price":            50000,
+      "completedStages":  [],
+      "survivedMinutes":  0,
+      "maxHp":            100,
+      "armor":            0,
+      "regen":            0,
+      "moveSpeed":        1,
+      "cooldown":         1,
+      "power":            1,
+      "area":             1,
+      "speed":            1,
+      "duration":         1,
+      "amount":           0,
+      "luck":             1,
+      "growth":           1,
+      "greed":            1,
+      "curse":            1,
+      "magnet":           0,
+      "revivals":         0,
+      "rerolls":          7,
+      "skips":            7,
+      "banish":           7,
+      "showcase": [
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "DOMINION",
+        "DOMINION",
+        "DOMINION",
+        "DOMINION",
+        "DOMINION"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "SPACEDUDETTE": [
     {
       "hidden": true,
@@ -5923,6 +6325,10 @@
       "spriteName": "SDette_i01.png",
       "textureName": "character_spacedette",
       "walkingFrames": 4,
+	  "bodyOffset": {
+        "x": 5.5,
+        "y": 12
+      },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -5933,8 +6339,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 1,
-              "y": 3
+              "x": -3,
+              "y": -7
             }
           ]
         }
@@ -5946,25 +6352,25 @@
       "price": 5000,
       "completedStages": [],
       "survivedMinutes": 0,
-      "maxHp":      100,
-      "armor":      0,
-      "regen":      0,
-      "moveSpeed":  1.4,
-      "power":      1,
-      "cooldown":   1,
-      "area":       1,
-      "speed":      1,
-      "duration":   1,
-      "amount":     0,
-      "luck":       1,
-      "growth":     1,
-      "greed":      1,
-      "curse":      1,
-      "magnet":     0,
-      "revivals":   0,
-      "rerolls":    0,
-      "skips":      0,
-      "banish":     0,
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.4,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
       "showcase": [
         "MOVESPEED",
         "MOVESPEED",
@@ -6055,8 +6461,7 @@
       "levelUpPresets": [
         {
           "startingLoadout": [],
-          "loadout": [
-          ],
+          "loadout": [],
           "autoShuffle": true
         }
       ],
@@ -6101,6 +6506,10 @@
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
+	  "bodyOffset": {
+        "x": 2,
+        "y": 6,
+      },
 
       "maxHp":      100,
       "regen":      0,
@@ -6189,6 +6598,10 @@
       "isBought": false,
       "completedStages": [],
       "survivedMinutes": 0,
+	  "bodyOffset": {
+        "x": 4.5,
+        "y": 17,
+      },
 
       "maxHp":      100,
       "regen":      0,

@@ -2234,17 +2234,17 @@
   "CompleteCollection": {
     "description": [
       "Complete the Collection 1.0.",
-      "Complétez votre collection.",
-      "Completa la Collezione.",
-      "Vervollständige die Sammlung.",
-      "Completa la colección.",
-      "Complete a Coleção.",
-      "Skompletuj Kolekcję.",
-      "Соберите полную коллекцию.",
-      "Koleksiyonu Tamamla.",
-      "补全藏品。",
-      "コレクションを完成させる。",
-      "컬렉션을 완성합니다.",
+      "Complétez votre collection 1.0.",
+      "Completa la Collezione 1.0.",
+      "Vervollständige die Sammlung 1.0.",
+      "Completa la colección 1.0.",
+      "Complete a Coleção 1.0.",
+      "Skompletuj Kolekcję 1.0.",
+      "Соберите коллекцию 1.0.",
+      "1.0 Koleksiyonunu Tamamla.",
+      "补全藏品 1.0.",
+      "コレクション1.0を完成させる。",
+      "컬렉션 1.0을 완성합니다.",
       "集齊收藏品 1.0。",
       "Зберіть Колекцію 1.0."
     ]
@@ -2405,7 +2405,7 @@
       "Получите седьмой рупор.",
       "Yedinci Borazan'ı edin.",
       "获得第七号角。",
-      "第七のラッパ吹きを入手する。",
+      "第七のラッパを入手する。",
       "일곱 번째 나팔을 획득합니다.",
       "獲得第七號角。",
       "Отримайте Сьомий рупор."
@@ -2765,7 +2765,7 @@
       "Победите 100 000 врагов за один заход со Сьюто Луночаром.",
       "Syuuto Aybüyüsü ile tek seferde 100000 düşman öldür.",
       "在一轮游戏中， 使用月咒脩杜击败100000名敌人。",
-      "メンヤ・ムーンスペルで100,000体の敵を1回のプレイで倒す。",
+      "シュウト・ムーンスペルで100,000体の敵を1回のプレイで倒す。",
       "슈토 문스펠로 한 게임에서 적을 100000명 처치합니다.",
       "在單次闖關中，使用月咒脩杜擊敗 100,000 名敵人。",
       "Здолайте 100 000 ворогів за один забіг за Сьюто Місячночар."
@@ -4772,7 +4772,7 @@
   "Dark_10Santa": {
     "description": [
       "Trigger a Weird Souls Purifier with Santa Ladonna.",
-      "Déclenchez un Purificateur d'âmes étranges avec Santa Ladonna.",
+      "Déclenchez un purificateur d'âmes étranges avec Santa Ladonna.",
       "Attiva uno Strani purificatori d'anime con Santa Ladonna.",
       "Löse mit Santa Ladonna einen Seltsamen Seelenreiniger aus.",
       "Activa un purificador de almas con Santa Ladonna.",
@@ -4790,7 +4790,7 @@
   "Dark_12Shemoon": {
     "description": [
       "Trigger a Starry Heavens with She-Moon Eeta.",
-      "Déclenchez un Cieux étoilés avec She-Moon Eeta.",
+      "Déclenchez un cieux étoilés avec She-Moon Eeta.",
       "Attiva un Cieli stellati con She-Moon Eeta.",
       "Löse einen Sternenhimmel mit She-Moon Eeta aus.",
       "Activa un cielo estrellado con She-Moon Eeta.",
@@ -4857,6 +4857,24 @@
       "마늘 천국을 한 번 완료하세요.",
       "完成冒險「大蒜樂土」一次。",
       "Завершіть один раз пригоду «Часниковий Рай»."
+    ]
+  },
+  "CompleteAdv_OdeToCastlevania": {
+    "description": [
+      "Complete once the adventure Ode to Castlevania.",
+      "Terminez l'aventure « Ode à Castlevania » une fois.",
+      "Completa una volta l'avventura Ode a Castlevania.",
+      "Schließe das Abeneuer \"Ode an Castlevania\" einmal ab.",
+      "Completa una vez la aventura «Oda a Castlevania».",
+      "Conclua uma vez a aventura Ode to Castlevania.",
+      "Ukończ raz przygodę Oda do Castlevanii.",
+      "Завершите «Оду Кастлвании» один раз.",
+      "Castlevania'ya Övgü macerasını bir kez tamamla.",
+      "首次完成恶魔城颂歌的冒险。",
+      "Ode to Castlevania（悪魔城ドラキュラへの頌歌）を1回クリアする。",
+      "Ode to Castlevania 모험을 한 번 완료하세요.",
+      "完成冒險「惡魔城頌歌」一次",
+      "Завершіть пригоду Ode to Castlevania один раз."
     ]
   },
   "weaponEvosPart1GroupName": [
@@ -7251,7 +7269,7 @@
   },
   "EvolveOfGaea": {
     "description": [
-      "Evolve the Gaze of Gaea.",
+      "Survive 20 minutes in The Coop.",
       "Faites évoluer le Regard de Gaïa.",
       "Migliora lo Sguardo di Gaia.",
       "Verbessere den Blick von Gaea.",
@@ -8217,6 +8235,654 @@
       "에메랄드 황홀감을 발견해서 진화시키세요.",
       "找到並解放翡翠狂喜。",
       "Знайдіть та еволюціонуйте Смарагдове Вознесіння."
+    ]
+  },
+  "FindManyClovers": {
+    "description": [
+      "Find 23 Little Clovers.",
+      "Ramassez 23 Petits trèfles.",
+      "Raccogli 23 Trifoglietti.",
+      "Sammle 23 Kleeblättchen.",
+      "Recoge 23 tréboles pequeños.",
+      "Colete 23 Trevinhos.",
+      "Zbierz 23 Małych koniczyn.",
+      "Подберите 23 маленьких клеверов.",
+      "23 Küçük Yonca topla.",
+      "拾取23株三叶草。",
+      "23個の小さなクローバーを入手する。",
+      "리틀 클로버 23개를 주우세요.",
+      "收集 23 株三葉草。",
+      "Підберіть 23 малих конюшин."
+    ]
+  },
+  "EvolveMagiStone": {
+    "description": [
+      "Evolve the Magi-Stone.",
+      "Faites évoluer la Magipierre.",
+      "Migliora la Magi-pietra.",
+      "Verbessere den Stein der Weisen.",
+      "Haz evolucionar la gemágica.",
+      "Evolua a Magirrocha.",
+      "Ulepsz Magikamień.",
+      "Улучшите «Магикамень».",
+      "Magi-Taşı'nı evrilt.",
+      "进化魔法石。",
+      "マギストーンを進化させる。",
+      "마기 스톤을 진화시키세요.",
+      "解放魔法石。",
+      "Еволюціонуйте Чар-камінь."
+    ]
+  },
+  "FindMasquerade": {
+    "description": [
+      "Find the Masquerade Relic in Westwoods.",
+      "Trouvez la Relique de mascarade à Westwoods.",
+      "Trova la reliquia Mascherata nel Boscovest.",
+      "Finde das Relikt der Maskerade im Westwald.",
+      "Encuentra la reliquia mascarada en el Bosque del oeste.",
+      "Encontre a Relíquia Mascarada no Bosque Poente.",
+      "Znajdź relikwia Maskarada w Zachodnim borze.",
+      "Найдите «Маскарадную реликвию» в Западнолесье.",
+      "Batı Ormanları'ndaki Maskeli Balo Yadigarı'nı bul.",
+      "在西部森林中找到假面派对神器。",
+      "西の森でマスカレードの遺物を見つける。",
+      "웨스트우즈에서 가면무도회 유물을 찾으세요.",
+      "在西部森林尋找化裝舞會神器。",
+      "Знайдіть реліквію «Маскарад» у Західноліссі."
+    ]
+  },
+  "DefeatShootingEnemies": {
+    "description": [
+      "Defeat a total of 251096 Shooting Enemies.",
+      "Éliminez un total de 251 096 ennemis qui lancent des projectiles.",
+      "Sconfiggi un totale di 251.096 nemici che sparano.",
+      "Besiege 251.096 Gegner, die auf dich schießen.",
+      "Derrota a un total de 251 096 enemigos que disparan.",
+      "Derrote 251.096 Inimigos Atiradores.",
+      "Pokonaj łącznie 251 096 strzelających wrogów.",
+      "Победите в общей сложности 251 096 стреляющих врагов.",
+      "Ateş eden 251096 düşman öldür.",
+      "总共击败251096个射击敌人。",
+      "弾を連射する敵を合計251096体倒す。",
+      "251096명의 사격하는 적을 처치하세요.",
+      "擊敗總計 251,096 名以投射物進行攻擊的敵人。",
+      "Здолайте сумарно 251 096 ворожих стрільців."
+    ]
+  },
+  "EvolveAmmoAppalate": {
+    "description": [
+      "Evolve the Ammo Appalate.",
+      "Faites évoluer le Munizioni à gogo.",
+      "Migliora le Munizioni Appalate.",
+      "Verbessere den Kugelhagel.",
+      "Haz evolucionar la munición appalate.",
+      "Evolua a Ilimitarma.",
+      "Ulepsz Miotacz amunicji.",
+      "Улучшите «Экстрастрелянцу».",
+      "Mermisi Bitmez'i evrilt.",
+      "进化永弹枪。",
+      "弾薬アパラチアを進化させる。",
+      "탄약 아팔레트를 진화시키세요.",
+      "解放王牌射手。",
+      "Еволюціонуйте Вічний боєприпас."
+    ]
+  },
+  "GetMagiStoneToLevel7": {
+    "description": [
+      "Get Magi-Stone To Level 7.",
+      "Améliorez la Magipierre jusqu'au niveau 7.",
+      "Porta la Magi-pietra al livello 7.",
+      "Bringe den Stein der Weisen auf Level 7.",
+      "Mejora la gemágica al nivel 7.",
+      "Eleve a Magirrocha para o nível 7.",
+      "Doprowadź Magikamień do 7. poziomu.",
+      "Получите «Магикамень» уровня 7.",
+      "Magi-Taşını Seviye 7'ye çıkar.",
+      "将魔法石升到7级。",
+      "マギストーンをレベル7に上げる。",
+      "마기 스톤을 레벨 7에 맞추세요.",
+      "將魔法石升到 7 級。",
+      "Отримайте Чар-камінь 7 рівня."
+    ]
+  },
+  "GetAmmoAppalatetoLevel7": {
+    "description": [
+      "Get Ammo Appalate To Level 7.",
+      "Améliorez le Munizioni à gogo jusqu'au niveau 7.",
+      "Porta le Munizioni Appalate al livello 7.",
+      "Bringe den Kugelhagel auf Level 7.",
+      "Mejora la munición appalate al nivel 7.",
+      "Eleve a Ilimitarma para o nível 7.",
+      "Doprowadź Miotacz amunicji do 7. poziomu.",
+      "Получите «Экстрастрелянцу» уровня 7.",
+      "Mermisi Bitmez'i Seviye 7'ye çıkar.",
+      "将永弹枪升到7级。",
+      "爆薬アパラチアをレベル7に上げる。",
+      "탄약 아팔레트를 레벨 7에 맞추세요.",
+      "將王牌射手升到 7 級。",
+      "Отримайте Вічний боєприпас 7 рівня."
+    ]
+  },
+  "Survive20minutesInWestwoods": {
+    "description": [
+      "Survive 20 minutes in Westwoods.",
+      "Survivez 20 minutes dans Westwoods.",
+      "Sopravvivi per 20 minuti nel Boscovest.",
+      "Überlebe 20 Minuten im Westwald.",
+      "Sobrevive 20 minutos en el Bosque del oeste.",
+      "Sobreviva por 20 minutos no Bosque Poente.",
+      "Przeżyj 20 minut w Zachodnim borze.",
+      "Продержитесь 20 минут в Западнолесье.",
+      "Batı Ormanları'nda 20 dakika hayatta kal.",
+      "在西部森林存活20分钟。",
+      "西の森で20分間生き延びる。",
+      "웨스트우즈에서 20분 동안 생존하세요.",
+      "在西部森林中存活 20 分鐘。",
+      "Протримайтеся 20 хвилин у Західноліссі."
+    ]
+  },
+  "ReachLV80InverseWarehouse": {
+    "description": [
+      "Reach Level 80 in Inverse Dairy Plant.",
+      "Atteignez le niveau 80 dans l'Usine laitière inversée.",
+      "Raggiungi il livello 80 nel Caseificio invertito.",
+      "Erreiche Level 80 in der Umgekehrten Molkerei.",
+      "Alcanza el nivel 80 en el reflejo de la Central lechera.",
+      "Alcance o nível 80 na Fábrica de Laticínios invertida.",
+      "Osiągnij 80. poziom w odwróconej Mleczarni.",
+      "Достигните уровня 80 в инверсии Молочного завода.",
+      "Ters Süt Ürünleri Fabrikası'nda Seviye 80'e ulaş.",
+      "在乳品厂的翻转模式中达到80级。",
+      "インバース酪農場でレベル80に達する。",
+      "인버스 유제품 공장에서 레벨 80에 도달하세요.",
+      "在顛倒模式的乳製品工廠中達到 80 級。",
+      "Досягніть 80 рівня на інвертованому Молокозаводі."
+    ]
+  },
+  "FindChaosLazulia": {
+    "description": [
+      "Find the Chaos Lazulia in Mazerella.",
+      "Trouvez le Chaos Lazulia dans Mazerella.",
+      "Trova la Lazulia del caos in Mazerella.",
+      "Finde den Chaos-Lazulia in Mazerella",
+      "Encuentra la lazulita del caos en Pecorinto.",
+      "Encontre a Lazulia do Caos em Mazerella.",
+      "Znajdź Lazulię chaosu w Camembiryncie.",
+      "Найдите «Лазулию хаоса» в Мацерелле.",
+      "Mazerella'daki Kaos Lazulia'yı bul.",
+      "在奶酪迷宫中找到混沌天青石。",
+      "マゼレラでカオス・ラズリアを見つける。",
+      "마제렐라에서 카오스 라줄리아를 찾으세요.",
+      "在馬澤瑞拉找到混沌天青石。",
+      "Знайдіть Лазулію Хаосу в Сирбіринті."
+    ]
+  },
+  "FindRecycle": {
+    "description": [
+      "Find the Wax Fetish in Mazerella.",
+      "Trouvez le Jeu de cire dans Mazerella.",
+      "Trova il Feticcio di cera nel Bufalabirinto.",
+      "Finde den Wachsfetisch in Mazzarella.",
+      "Encuentra el fetiche de cera en Pecorinto.",
+      "Encontre o Ídolo de Cera no Mazerella.",
+      "Znajdź Woskowy fetysz w Camembiryncie.",
+      "Найдите «Восковой фетиш» в Мацерелле.",
+      "Mazerella'da Mum Fetişi'ni bul.",
+      "在奶酪迷宫中找到蜡神像。",
+      "マゼレラでロウ製の崇拝物を見つける。",
+      "마제렐라에서 왁스 페티쉬를 찾으세요.",
+      "在「馬澤瑞拉」中，找到蠟之信仰。",
+      "Знайдіть Восковий фетиш у Сирбіринті."
+    ]
+  },
+  "Dark_13Chula": {
+    "description": [
+      "Reach +999% Luck with Chula-Reh.",
+      "Atteignez +999 % de chance avec Chula-Reh.",
+      "Raggiungi +999% di Fortuna con Chula-Reh.",
+      "Erreiche +999% Glück mit Chula-Reh.",
+      "Alcanza un 999 % de suerte con Chula-Reh.",
+      "Alcance +999% Sorte com Chula-Reh.",
+      "Osiągnij +999% Szczęścia jako Chula-Reh.",
+      "Достигните +999% удачи, играя за Чула-Рэ.",
+      "Chula-Reh ile +%999 Şans'a ulaş.",
+      "使用朱拉雷达到+999%运气。",
+      "チュラ・リハで運+999%到達。",
+      "출라레로 +999%의 행운을 달성하세요.",
+      "以庫拉・雷達到 +999% 運氣值。",
+      "Досягніть +999% удачі з Чула-Рег."
+    ]
+  },
+  "EvolveOfGaea_Fix": {
+    "description": [
+      "Evolve the Gaze of Gaea.",
+      "Faites évoluer le Regard de Gaïa.",
+      "Migliora lo Sguardo di Gaia.",
+      "Verbessere den Blick von Gaea.",
+      "Haz evolucionar la mirada de Gaia.",
+      "Evolua o Olhar de Gaea.",
+      "Ulepsz Spojrzenie Gai.",
+      "Улучшите «Взор Геи».",
+      "Gaea'nın Nazarı'nı evrilt.",
+      "进化盖伊之视。",
+      "ガイアのまなざしを進化させる。",
+      "가이아의 시선을 진화시키세요.",
+      "解放蓋亞之眼。",
+      "Еволюціонуйте Погляд Геї."
+    ]
+  },
+  "FindKaromasMana": {
+    "description": [
+      "Find a Karoma's Mana in Westwoods.",
+      "Trouvez un Mana de Karoma à Westwoods.",
+      "Trova un Mana di Karoma nel Boscovest.",
+      "Finde Karomas Mana im Westwald.",
+      "Encuentra un maná de Karoma en el Bosque del oeste.",
+      "Encontre Mana de Karoma no Bosque Poente.",
+      "Znajdź Manę Karomy w Zachodnim borze.",
+      "Найдите «Ману Каромы» в Западнолесье.",
+      "Batı Ormanları'nda bir Karoma'nın Manası bul.",
+      "在西部森林中找到卡洛玛的法力。",
+      "西の森でカロマのマナを見つける。",
+      "웨스트우드에서 카로마의 마나를 찾으세요.",
+      "在「西部森林」中，找到一個卡羅馬的法力。",
+      "Знайдіть Ману Кароми в Західноліссі."
+    ]
+  },
+  "Dark_18Challenge": {
+    "description": [
+      "Survive 30 minutes with no weapons in Inverse Green Acres.",
+      "Survivez 30 minutes sans arme dans Pré verdoyant inversé.",
+      "Sopravvivi per 30 minuti senza armi negli Acri verdi invertiti.",
+      "Überlebe 30 Minuten ohne Waffen im Umgekehrten Grünen Acker.",
+      "Sobrevive 30 min sin armas en el reflejo de las Llanuras verdes.",
+      "Sobreviva por 30 min. sem armas nas Planícies Verdes invertidas.",
+      "Przeżyj 30 minut bez broni w Odwróconych zielonych rozłogach.",
+      "Продержитесь 30 минут без оружия в инверсии Зелёных пастбищ.",
+      "Tersine Yeşil Araziler'de silahsız 30 dakika hayatta kal.",
+      "在翻转青翠草甸中没有武器的情况下存活30分钟。",
+      "反転した緑の地にて、30分間武器なしで生き残る。",
+      "거꾸로 된 푸른 초원에서 무기 없이 30분동안 생존하세요.",
+      "在顛倒模式的青翠草甸中，在沒有取得任何武器的情況下存活 30 分鐘。",
+      "Протримайтеся 30 хвилин без зброї в інвертованих Зелених полях."
+    ]
+  },
+  "Dark_05Appunta": {
+    "description": [
+      "Find 10 Treasure Chests from Zi'Appunta's ability in a single run.",
+      "Trouvez 10 coffres au trésor en une seule partie avec Zi'Appunta.",
+      "Trova 10 Forzieri dorati in 1 partita con l'abilità di Zi'Appunta.",
+      "Finde 10 Schatztruhen in 1 Durchlauf mit Zi’Appuntas Fähigkeit.",
+      "Encuentra 10 cofres con la habilidad de Zi'Appunta en una partida.",
+      "Ache 10 Baús do Tesouro dourados de Zi'Appunta numa só partida.",
+      "Znajdź 10 złotych skrzyń skarbów w jednej grze jako Zi'Appunta.",
+      "Найдите 10 сундуков с сокровищами за один забег (Ци'Аппунта).",
+      "Zi'Appunta'nın yeteneğiyle tek seferde 10 Hazine Sandığı bul.",
+      "在一轮游戏中，通过齐阿彭塔的能力发现10个宝箱。",
+      "1回のランでジ・アプンタのアビリティを使って宝箱を10個見つける。",
+      "지아푼타의 능력으로 보물상자 10개를 한 번에 찾으세요.",
+      "在單次闖關中，以齊阿彭塔的能力找到 10 個寶箱。",
+      "Знайдіть 10 скринь скарбів здатністю Зі'Апунти за один забіг."
+    ]
+  },
+  "LEM_FindJokerDisc": {
+    "description": [
+      "Find and buy the Joker Disk.",
+      "Trouvez et achetez le Disque de Joker.",
+      "Trova e acquista il Disco del jolly.",
+      "Finde und kaufe die Joker-Disc.",
+      "Encuentra y compra el disco de arlequín.",
+      "Encontre e compre o Disco Curinga.",
+      "Znajdź i kup Dysk Jokera.",
+      "Найдите и купите «Диск джокера».",
+      "Joker Disk'i bul ve satın al.",
+      "找到并购买小丑硬盘。",
+      "ジョーカーディスクを見つけて購入する。",
+      "조커 디스크를 찾아 구매하세요.",
+      "找到並購買小丑圓盤。",
+      "Знайдіть і купіть Диск жартівника."
+    ]
+  },
+  "LEM_FindCoffin1": {
+    "description": [
+      "Find and open the coffin in the Ante Chamber.",
+      "Trouvez et ouvrez le cercueil dans l'Antichambre.",
+      "Trova e apri la bara nella Ante Camera.",
+      "Finde und öffne den Sarg in der Narrenschule.",
+      "Encuentra y abre el ataúd del Apostento.",
+      "Encontre e abra o caixão na Antecâmera.",
+      "Znajdź i otwórz trumnę w Szulerni.",
+      "Найдите и откройте гроб в Школе шутов.",
+      "Antre'deki tabutu bul ve aç.",
+      "在下注大厅中找到并打开棺材。",
+      "アンティの間で棺を見つけて開ける。",
+      "안테 챔버교에서 관을 찾아서 열어보세요.",
+      "在底注學廳中，找到並打開棺材。",
+      "Знайдіть і відкрийте труну в Школі блазнів."
+    ]
+  },
+  "LEM_GetInfernolatroToLevel6": {
+    "description": [
+      "Get Infernolatro to Level 6.",
+      "Améliorez Infernolatro jusqu'au niveau 6.",
+      "Porta Infernolatro al livello 6.",
+      "Bringe Infernolatro auf Level 6.",
+      "Mejora el infernolatro al nivel 6.",
+      "Eleve o Infernolatro para o nível 6.",
+      "Doprowadź Infernolatro do 6. poziomu.",
+      "Получите «Инфернолатро» 6-го уровня.",
+      "Infernolatro'yu Seviye 6'ya çıkar.",
+      "将炼狱小丑升到6级。",
+      "インフェルノラトロをレベル6に上げる。",
+      "인페르놀라트로를 레벨 6으로 올리세요.",
+      "將煉獄使者升到 6 級。",
+      "Отримайте Пекеллатро 6 рівня."
+    ]
+  },
+  "LEM_EvolveInfernolatro": {
+    "description": [
+      "Evolve Infernolatro.",
+      "Faites évoluer Infernolatro.",
+      "Migliora Infernolatro.",
+      "Verbessere Infernolatro.",
+      "Haz evolucionar el infernolatro.",
+      "Evolua o Infernolatro.",
+      "Ulepsz Infernolatro.",
+      "Улучшите «Инфернолатро».",
+      "Infernolatro'yu evrilt.",
+      "进化炼狱小丑。",
+      "インフェルノラトロを進化させる。",
+      "인페르놀라트로를 진화시키세요.",
+      "解放煉獄使者。",
+      "Еволюціонуйте Пекеллатро."
+    ]
+  },
+  "LEM_GetFibonacciToLevel6": {
+    "description": [
+      "Get Fibonacci Spritz To Level 6.",
+      "Améliorez Fibonacci Spritz jusqu'au niveau 6.",
+      "Porta lo Spritz di Fibonacci al livello 6.",
+      "Bringe den Fibonacci Spritz auf Level 6.",
+      "Mejora el Fibonacci spritz al nivel 6.",
+      "Eleve o Coquetel Fibonacci para o nível 6.",
+      "Doprowadź Spritz Fibonacciego do 6. poziomu.",
+      "Получите «Газировку Фибоначчи» 6-го уровня.",
+      "Fibonacci Spritz'i Seviye 6'ya çıkar.",
+      "将斐波那契苏打水升到6级。",
+      "フィボナッチ炭酸をレベル6に上げる。",
+      "피보나치 스프리츠를 레벨 6으로 올리세요.",
+      "將斐波那契氣泡酒升到 6 級。",
+      "Отримайте Фібоначчі-спрітц 6 рівня."
+    ]
+  },
+  "LEM_EvolveFibonacci": {
+    "description": [
+      "Evolve Fibonacci Spritz.",
+      "Faites évoluer Fibonacci Spritz.",
+      "Migliora lo Spritz di Fibonacci.",
+      "Verbessere den Fibonacci Spritz.",
+      "Haz evolucionar el Fibonacci spritz.",
+      "Evolua o Coquetel Fibonacci.",
+      "Ulepsz Spritz Fibonacciego.",
+      "Улучшите «Пшибоначчи».",
+      "Fibonacci Spritz'i Evrilt.",
+      "进化斐波那契苏打水。",
+      "フィボナッチ炭酸を進化させる。",
+      "피보나치 스프리츠를 진화시키세요.",
+      "解放斐波那契氣泡酒。",
+      "Еволюціонуйте Фібоначчі-спрітц."
+    ]
+  },
+  "LEM_GetGrosMichelToLevel6": {
+    "description": [
+      "Get Gros Michel To Level 6.",
+      "Améliorez Gros Michel jusqu'au niveau 6.",
+      "Porta Gros Michel al livello 6.",
+      "Verbessere die Gros Michel auf Level 6.",
+      "Mejora el banano al nivel 6.",
+      "Eleve o Gros Michel para o nível 6.",
+      "Doprowadź Gros Michela do 6. poziomu.",
+      "Получите «Гро-Мишель» 6-го уровня.",
+      "Gros Michel'i Seviye 6'ya çıkar.",
+      "将大麦克香蕉升到6级。",
+      "グロス・ミケーレをレベル6に上げる。",
+      "그로스 미셸을 레벨 6으로 올리세요.",
+      "將大麥克升到 6 級。",
+      "Отримайте Гро-Мішель 6 рівня."
+    ]
+  },
+  "LEM_EvolveGrosMichel": {
+    "description": [
+      "Evolve the Gros Michel.",
+      "Faites évoluer Gros Michel.",
+      "Migliora Gros Michel.",
+      "Verbessere die Gros Michel.",
+      "Haz evolucionar el banano.",
+      "Evolua o Gros Michel",
+      "Ulepsz Gros Michela.",
+      "Улучшите «Гро-Мишель».",
+      "Gros Michel'i evrilt.",
+      "进化大麦克香蕉。",
+      "グロス・ミケーレを進化させる。",
+      "그로스 미셸을 진화시키세요.",
+      "解放大麥克。",
+      "Еволюціонуйте Гро-Мішель."
+    ]
+  },
+  "LEM_GetRichRocketToLevel6": {
+    "description": [
+      "Get Celestial Booster To Level 6.",
+      "Améliorez le Booster céleste jusqu'au niveau 6.",
+      "Porta Potenziamento celeste al livello 6.",
+      "Bringe Rich Rocket auf Level 6.",
+      "Mejora el potenciador celestial al nivel 6.",
+      "Eleve o Órbita Celestial para o nível 6.",
+      "Doprowadź Niebiańską świtę do 6. poziomu.",
+      "Получите «Роскошную ракету» 6-го уровня.",
+      "Göklerdeki Yardımcı'yı Seviye 6'ya çıkar.",
+      "将天体助推器升到6级。",
+      "天体ブースターをレベル6に上げる。",
+      "리치 로켓을 레벨 6으로 올리세요.",
+      "將致富火箭升到 6 級。",
+      "Отримайте Ракету багатія 6 рівня."
+    ]
+  },
+  "LEM_EvolveRichRocket": {
+    "description": [
+      "Evolve the Celestial Booster.",
+      "Faites évoluer le Booster céleste.",
+      "Migliora Potenziamento celeste.",
+      "Verbessere Rich Rocket.",
+      "Haz evolucionar el potenciador celestial.",
+      "Evolua o Órbita Celestial.",
+      "Ulepsz Niebiańską świtę.",
+      "Улучшите «Роскошную ракету».",
+      "Göklerdeki Yardımcı'yı evrilt.",
+      "进化天体助推器。",
+      "天体ブースターを進化させる。",
+      "리치 로켓을 진화시키세요.",
+      "解放致富火箭。",
+      "Еволюціонуйте Ракету багатія."
+    ]
+  },
+  "LEM_DefeatBoss": {
+    "description": [
+      "Defeat the Crimson Heart in the Ante Chamber.",
+      "Éliminez le Cœur cramoisi dans l'Antichambre.",
+      "Sconfiggi il Cuore cremisi nell'Ante Camera.",
+      "Besiege das Purpurrote Herz in der Narrenkammer.",
+      "Derrota el corazón carmesí en el Apostento.",
+      "Derrote o Coração Carmesim na Antecâmara.",
+      "Pokonaj Karmazynowe serce w Szulerni.",
+      "Победите Алое Сердце в Анте-Салоне.",
+      "Antre'de Alkalp'i öldür.",
+      "在下注大厅中击败红心盲注。",
+      "アンティの間でクリムゾンハートを倒す。",
+      "안테 챔버에서 크림슨 하트를 물리치세요.",
+      "在「底注學廳」中，擊敗緋紅之心。",
+      "Знищте Багряне серце в Передпокої."
+    ]
+  },
+  "TP_ExtraEvo_AlucardSpear": {
+    "description": [
+      "Evolve the Alucard Spear.",
+      "Faites évoluer l'Epieu d'Alucard.",
+      "Migliora la Lancia di Alucard.",
+      "Verbessere Alucards Speer.",
+      "Haz evolucionar la lanza Alucard.",
+      "Evolua a Lança de Alucard.",
+      "Ulepsz Włócznię Alucarda.",
+      "Улучшите «Копьё Алукарда».",
+      "Alucard Mızrağı'nı evrilt.",
+      "进化阿鲁卡多之枪。",
+      "アルカードスピアを進化させる。",
+      "알루카드 창을 진화시키세요.",
+      "解放阿魯卡多之矛。",
+      "Еволюціонуйте Спис Алукарда."
+    ]
+  },
+  "TP_ExtraEvo_IronBall": {
+    "description": [
+      "Evolve the Iron Ball.",
+      "Faites évoluer la Boule de fer.",
+      "Migliora la Palla di ferro.",
+      "Verbessere die Eisenkugel.",
+      "Haz evolucionar la bola de hierro.",
+      "Evolua a Bola de Ferro.",
+      "Ulepsz Kulę z żelaza.",
+      "Улучшите «Стальной шар».",
+      "Demir Top'u evrilt.",
+      "进化铁球。",
+      "アイアンボールを進化させる。",
+      "아이언 볼을 진화시키세요.",
+      "解放鐵球。",
+      "Еволюціонуйте Залізну кулю."
+    ]
+  },
+  "TP_ExtraEvo_CurvedKnife": {
+    "description": [
+      "Evolve the Curved Knife.",
+      "Faites évoluer le Couteau courbé.",
+      "Migliora il Pugnale ricurvo.",
+      "Verbessere das Gebogene Messer.",
+      "Haz evolucionar el cuchillo curvado.",
+      "Evolua a Faca Curva.",
+      "Ulepsz Zakrzywiony nóż.",
+      "Улучшите «Кривой нож».",
+      "Eğri Bıçak'ı evrilt.",
+      "进化弯刀。",
+      "カーブナイフを進化させる。",
+      "곡선 단검을 진화시키세요.",
+      "解放彎刀。",
+      "Еволюціонуйте Викривлений ніж."
+    ]
+  },
+  "TP_ExtraEvo_Shuriken": {
+    "description": [
+      "Evolve the Shuriken.",
+      "Faites évoluer le Shuriken.",
+      "Migliora lo Shuriken.",
+      "Verbessere den Shuriken.",
+      "Haz evolucionar el shuriken.",
+      "Evolua o Shuriken.",
+      "Ulepsz Shurikena.",
+      "Улучшите «Сюрикен».",
+      "Shuriken'i evrilt.",
+      "进化手里剑。",
+      "手裏剣を進化させる。",
+      "수리검을 진화시키세요.",
+      "解放手裏劍。",
+      "Еволюціонуйте Сюрикен."
+    ]
+  },
+  "TP_ExtraEvo_Discus": {
+    "description": [
+      "Evolve the Discus.",
+      "Faites évoluer le Disque.",
+      "Migliora il Discus.",
+      "Verbessere den Diskus.",
+      "Haz evolucionar el disco.",
+      "Evolua o Discus.",
+      "Ulepsz Discusa.",
+      "Улучшите «Дискус».",
+      "Discus'u evrilt.",
+      "进化圆盘。",
+      "円盤を進化させる。",
+      "원반을 진화시키세요.",
+      "解放鐵餅。",
+      "Еволюціонуйте Диск."
+    ]
+  },
+  "TP_ExtraEvo_MartialWhip": {
+    "description": [
+      "Evolve the Vanitas Whip.",
+      "Faites évoluer le Fouet Vanitas.",
+      "Migliora la Frusta della vanitas.",
+      "Verbessere die Kriegspeitsche.",
+      "Haz evolucionar el látigo de Vanitas.",
+      "Evolua o Chicote Vanitas.",
+      "Ulepsz Bicz vanitas.",
+      "Улучшите «Боевой кнут».",
+      "Dövüş Kamçısı'nı evrilt.",
+      "进化武术神鞭。",
+      "ヴァニタスの鞭を進化させる。",
+      "마셜 채찍을 진화시키세요.",
+      "解放虛無鞭。",
+      "Еволюціонуйте Бойовий батіг."
+    ]
+  },
+  "TP_ExtraEvo_SonicDash": {
+    "description": [
+      "Evolve the Sonic Dash.",
+      "Faites évoluer l'Accélération sonique.",
+      "Migliora lo Scatto sonico.",
+      "Verbessere den Überschall.",
+      "Haz evolucionar el impulso sónico.",
+      "Evolua o Traço Sônico.",
+      "Ulepsz Soniczny sprint.",
+      "Улучшите «Ударный рывок».",
+      "Sonik Sıçrama'yı evrilt.",
+      "进化音速冲刺。",
+      "ソニック・ダッシュを進化させる。",
+      "소닉 질주를 진화시키세요.",
+      "解放音速衝刺。",
+      "Еволюціонуйте Звуковий удар."
+    ]
+  },
+  "TP_ExtraEvo_Dominus": {
+    "description": [
+      "Unite the Dominus weapons.",
+      "Unissez les armes Dominus.",
+      "Combina le armi Dominus.",
+      "Vereine die Dominus-Waffen.",
+      "Fusiona las armas de Dominus.",
+      "Faça a união das armas Dominus.",
+      "Połącz bronie Dominusa.",
+      "Объедините оружие доминуса.",
+      "Dominus silahlarını birleştir.",
+      "组合多米纳斯武器。",
+      "ドミナスの武器を融合させる。",
+      "도미누스의 무기를 합치세요.",
+      "組合主宰武器。",
+      "Об'єднайте Божії."
+    ]
+  },
+  "LEM_GetInfernolatro_Score777": {
+    "description": [
+      "Reach a high score of 777 with Infernolatro.",
+      "Atteignez un score de 777 avec Infernolatro.",
+      "Raggiungi un punteggio record di 777 con Infernolatro.",
+      "Erreiche eine Punktzahl von 777 mit Infernolatro.",
+      "Alcanza una puntuación de 777 con el infernolatro.",
+      "Alcance uma pontuação de 777 com Infernolatro.",
+      "Osiągnij wynik 777, dzierżąc Infernolatro.",
+      "Наберите 777 очков с помощью «Инфернолатро».",
+      "Infernolatro ile 777 puana ulaş.",
+      "使用炼狱小丑获得777的最高分。",
+      "インフェルノラトロで777のハイスコアに到達する。",
+      "인페르놀라트로 최고 점수인 777점을 달성하세요.",
+      "使用煉獄使者達到 777 分的高分。",
+      "Наберіть 777 очок із Пекеллатро."
     ]
   }
 }

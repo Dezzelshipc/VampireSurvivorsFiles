@@ -1,127 +1,398 @@
 {
   "FB_01_Find__Coffin": {
     "description": "Find and open the coffin on Galuga Jungle.",
-    "characterToUnlock": "FB_BILLRIZER"
+    "characterToUnlock": "FB_BILLRIZER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "FB_BILLRIZER"
+      }
+    ]
   },
   "FB_02_SurvivLong": {
     "description": "Survive 15 minutes with Bill Rizer.",
-    "weaponToUnlock": "FB_FULLAUTO"
+    "weaponToUnlock": "FB_FULLAUTO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_BILLRIZER"
+      }
+    ]
   },
   "FB_03_EvolveLong": {
     "description": "Evolve the Long Gun.",
-    "characterToUnlock": "FB_LANCE"
+    "characterToUnlock": "FB_LANCE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_PROTOTYPE_A"
+        ]
+      }
+    ]
   },
   "FB_04_SurvivShort": {
     "description": "Survive 15 minutes with Lance Bean.",
-    "weaponToUnlock": "FB_RAPIDFIRE"
+    "weaponToUnlock": "FB_RAPIDFIRE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_LANCE"
+      }
+    ]
   },
   "FB_05_EvolveShort": {
     "description": "Evolve the Short Gun.",
-    "characterToUnlock": "FB_ARIANA"
+    "characterToUnlock": "FB_ARIANA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_PROTOTYPE_B"
+        ]
+      }
+    ]
   },
   "FB_06_SurvivSpread": {
     "description": "Survive 15 minutes Ariana.",
-    "weaponToUnlock": "FB_SPREAD"
+    "weaponToUnlock": "FB_SPREAD",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_ARIANA"
+      }
+    ]
   },
   "FB_07_EvolveSpread": {
     "description": "Evolve the Spread Gun.",
-    "characterToUnlock": "FB_LUCIA"
+    "characterToUnlock": "FB_LUCIA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_PROTOTYPE_C"
+        ]
+      }
+    ]
   },
   "FB_08_SurvivLaser": {
     "description": "Survive 15 minutes with Lucia.",
-    "weaponToUnlock": "FB_LASER"
+    "weaponToUnlock": "FB_LASER",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_LUCIA"
+      }
+    ]
   },
   "FB_09_EvolveLaser": {
     "description": "Evolve the C-U-Laser.",
     "hyperToUnlock": "FB_HIGHWAY",
-    "stageToUnlock": "FB_HIGHWAY"
+    "stageToUnlock": "FB_HIGHWAY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_PROTONBEAM"
+        ]
+      }
+    ]
   },
   "FB_10_Find__Coffin": {
     "description": "Find and open the coffin on Hectic Highway.",
-    "characterToUnlock": "FB_BRADFANG"
+    "characterToUnlock": "FB_BRADFANG",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "FB_BRADFANG"
+      }
+    ]
   },
   "FB_11_SurvivFire": {
     "description": "Survive 15 minutes with Brad Fang.",
-    "weaponToUnlock": "FB_FIREARM"
+    "weaponToUnlock": "FB_FIREARM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_BRADFANG"
+      }
+    ]
   },
   "FB_12_EvolveFire": {
     "description": "Evolve the Fire Arm.",
-    "characterToUnlock": "FB_BROWNY"
+    "characterToUnlock": "FB_BROWNY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_FIREWALL"
+        ]
+      }
+    ]
   },
   "FB_13_SurvivSonic": {
     "description": "Survive 15 minutes with Browny.",
-    "weaponToUnlock": "FB_SONIC"
+    "weaponToUnlock": "FB_SONIC",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_BROWNY"
+      }
+    ]
   },
   "FB_14_EvolveSonic": {
     "description": "Evolve the Sonic Bloom.",
-    "characterToUnlock": "FB_SHEENA"
+    "characterToUnlock": "FB_SHEENA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_WAVE"
+        ]
+      }
+    ]
   },
   "FB_15_SurvivCross": {
     "description": "Survive 15 minutes with Sheena.",
-    "weaponToUnlock": "FB_BLADECROSSBOW"
+    "weaponToUnlock": "FB_BLADECROSSBOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_SHEENA"
+      }
+    ]
   },
   "FB_16_EvolveCross": {
     "description": "Evolve the Blade Crossbow.",
     "goldPrize": 50000,
-    "weaponIcon": "FB_CROSSBOWCRASH"
+    "weaponIcon": "FB_CROSSBOWCRASH",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_CROSSBOWCRASH"
+        ]
+      }
+    ]
   },
   "FB_17_Find__Barrier": {
     "description": "Find 7 Barriers.",
-    "characterToUnlock": "FB_PROBO"
+    "characterToUnlock": "FB_PROBO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 14,
+        "RequiredItems":[
+          "FB_BARRIER"
+        ]
+      }
+    ]
   },
   "FB_18_SurvivPrism": {
     "description": "Survive 15 minutes with Probotector.",
-    "weaponToUnlock": "FB_PRISMCUTLASS"
+    "weaponToUnlock": "FB_PRISMCUTLASS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_PROBO"
+      }
+    ]
   },
   "FB_19_EvolvePrism": {
     "description": "Evolve the Prism Lass.",
     "goldPrize": 50000,
-    "weaponIcon": "FB_TIMEWARP"
+    "weaponIcon": "FB_TIMEWARP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_TIMEWARP"
+        ]
+      }
+    ]
   },
   "FB_20_Find__Rapid": {
     "description": "Find 14 RapidFires.",
-    "characterToUnlock": "FB_STANLEY"
+    "characterToUnlock": "FB_STANLEY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 21,
+        "RequiredItems":[
+          "FB_RAPIDFIRE"
+        ]
+      }
+    ]
   },
   "FB_21_SurvivHoming": {
     "description": "Survive 15 minutes with Stanley.",
-    "weaponToUnlock": "FB_HOMING"
+    "weaponToUnlock": "FB_HOMING",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_STANLEY"
+      }
+    ]
   },
   "FB_22_EvolveHoming": {
     "description": "Evolve the Homing Miss.",
     "goldPrize": 50000,
-    "weaponIcon": "FB_MULTISTAGE"
+    "weaponIcon": "FB_MULTISTAGE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_MULTISTAGE"
+        ]
+      }
+    ]
   },
   "FB_23_Find__Grenade": {
     "description": "Find 21 Grenades.",
-    "characterToUnlock": "FB_NEWT"
+    "characterToUnlock": "FB_NEWT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 28,
+        "RequiredItems":[
+          "FB_GRENADE"
+        ]
+      }
+    ]
   },
   "FB_24_SurvivMines": {
     "description": "Survive 15 minutes with Newt.",
-    "weaponToUnlock": "FB_DIVERMINES"
+    "weaponToUnlock": "FB_DIVERMINES",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_NEWT"
+      }
+    ]
   },
   "FB_25_EvolveMines": {
     "description": "Evolve the Diver Mines.",
-    "characterToUnlock": "FB_SIMONDO"
+    "characterToUnlock": "FB_SIMONDO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_CRUSH"
+        ]
+      }
+    ]
   },
   "FB_26_DefeatSpecial": {
     "description": "Defeat Big Fuzz in Galuga Jungle.",
-    "characterToUnlock": "FB_COLONEL"
+    "characterToUnlock": "FB_COLONEL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":1,
+        "RequiredEnemyTypes":[
+          "BOSS_FB_BIGFUZZ"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType":"FB_GALUGA"
+      }
+    ]
   },
   "FB_27_SurvivClaw": {
     "description": "Survive 15 minutes with Colonel Bahamut.",
-    "weaponToUnlock": "FB_METALCLAW"
+    "weaponToUnlock": "FB_METALCLAW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "FB_COLONEL"
+      }
+    ]
   },
   "FB_28_EvolveClaw": {
     "description": "Evolve the Metal Claw.",
     "goldPrize": 50000,
-    "weaponIcon": "FB_BIGFUZZYFIST"
+    "weaponIcon": "FB_BIGFUZZYFIST",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FB_BIGFUZZYFIST"
+        ]
+      }
+    ]
   },
   "FB_29_DefeatBoss": {
     "description": "Defeat Taka in Galuga Jungle.",
-    "hyperToUnlock": "FB_GALUGA"
+    "hyperToUnlock": "FB_GALUGA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":1,
+        "RequiredEnemyTypes":[
+          "BOSS_FB_TAKA"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType":"FB_GALUGA"
+      }
+    ]
   },
   "FB_30_Find__Map": {
     "description": "Find the Galuga Jungle Map.",
-    "relicToUnlock": "RELIC_MAP_FB"
+    "relicToUnlock": "RELIC_MAP_FB",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "RELIC_MAP_FB"
+        ]
+      }
+    ]
   }
 }

@@ -994,6 +994,22 @@
       "max": 20
     }
   ],
+  "CART2EVO": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
   "FLOWER": [
     {
       "rarity": 10,
@@ -1427,6 +1443,155 @@
       "rarity": 1,
       "amount": 1,
       "max": 10
+    }
+  ],
+  "EX_AMMO1": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 20
+    }
+  ],
+  "EX_AMMO2": [
+    {
+      "rarity": 10,
+      "power": 0.025
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    }
+  ],
+  "EX_MAGISTONE1" :  [
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "EX_MAGISTONE2" :  [
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 5
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    }
+  ],
+  "FOLLOWER_GARLIC": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "FOLLOWER_KNIFE1": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "FOLLOWER_KNIFE2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 2
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 5000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
     }
   ]
 }

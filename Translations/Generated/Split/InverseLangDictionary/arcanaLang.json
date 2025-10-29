@@ -66,7 +66,7 @@
     },
     "0": {
       "name": "Game Killer",
-      "description": "Halts XP gain. Experience Gems turn into exploding projectiles. All Treasure Chests contain at least 3 items."
+      "description": "Halts XP gain. Experience Crystals turn into exploding projectiles. All Treasure Chests contain at least 3 items."
     },
     "1": {
       "name": "I - Gemini",
@@ -111,6 +111,280 @@
     "25": {
       "name": "III - Hidden Anathema",
       "description": "Food pickups grant cumulative bonuses to random stats based on their rarity or healing value."
+    },
+    "35": {
+      "name": "XIII - Call of a Mad Moon",
+      "description": "Effect depends on random results and player stats. Luck: improves Treasure Chests and Light Sources. Growth: improves XP crystals. Greed: improves gold pickups. Curse: enemies gain MoveSpeed and Health."
+    },
+    "40": {
+      "name": "XVIII - Victorian Horror",
+      "description": "Enemies within Magnet range receive Greed based damage. Once per life, triggers Cursed World Eater after receiving fatal damage."
+    },
+    "27": {
+      "name": "V - Pale Diamond Incursion",
+      "description": "Listed weapons aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Cooldown bonus is lost over 4 levels."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Area bonus is lost over 5 levels."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gains %0 Might every level."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gains %0 Projectile Speed every level."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gains %0 Duration every level."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gains %0 Area every level."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018 - Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Amount bonus is lost over 9 levels."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Gains %0 Might, Projectile Speed, Duration, and Area every level."
+    },
+    "1000": {
+      "description": "Gain Anima of Mortaccio after 80 levels."
+    },
+    "1001": {
+      "description": "Gain Carrozza! after 80 levels."
+    },
+    "1002": {
+      "description": "Gain Yatta Daikarin after 80 levels."
+    },
+    "1003": {
+      "description": "Gain Profusione D'Amore after 80 levels."
+    },
+    "1100": {
+      "description": "Gains +5 MaxHP every level."
+    },
+    "1101": {
+      "description": "Gains +1% Growth every level."
+    },
+    "1102": {
+      "description": "Gains +1% Might every level."
+    },
+    "1103": {
+      "description": "Gains +1% Projectile Speed every level."
+    },
+    "1104": {
+      "description": "Gains +1% Duration every level."
+    },
+    "1105": {
+      "description": "Gains %0 Area every level."
+    },
+    "1106": {
+      "description": "Gain +1 Skip every level."
+    },
+    "1107": {
+      "description": "Gain +1 Reroll every level."
+    },
+    "1108": {
+      "description": "Gain +1 Banish every level."
+    },
+    "2000": {
+      "description": "OnRevive: triggers a Rosary."
+    },
+    "2001": {
+      "description": "OnRevive: triggers a Vacuum."
+    },
+    "2002": {
+      "description": "OnRevive: triggers Rapidfire."
+    },
+    "2003": {
+      "description": "OnRevive: triggers an Orologion."
+    },
+    "2004": {
+      "description": "OnRevive: reduces current Curse by 20%."
+    },
+    "2005": {
+      "description": "OnRevive: skips 60 seconds."
+    },
+    "3000": {
+      "description": "Gain a stacking 10-second +1 Armor bonus every time you take damage."
+    },
+    "3001": {
+      "description": "Gain a stacking 10-second +0.1 Recovery bonus every time you take damage."
+    },
+    "3002": {
+      "description": "Grants 1 gold coin when taking damage."
+    },
+    "3003": {
+      "description": "Retaliates with a ground slam when taking damage."
+    },
+    "4000": {
+      "description": "Critical Damage +100%"
+    },
+    "4001": {
+      "description": "Increase Armor and Recovery of nearby allies."
+    },
+    "4002": {
+      "description": "Enemies have a 15% chance to spawn defanged."
+    },
+    "4003": {
+      "description": "Increases enemy spawn quantity by 50."
+    },
+    "4004": {
+      "description": "Cancels 50% of attacks from bosses."
+    },
+    "5000": {
+      "description": "+1 Revive after defeating a set amount of enemies [1k, 5k, 10k]"
+    },
+    "5001": {
+      "description": "+1 Amount after defeating a set amount of enemies [1k, 5k, 10k]"
+    },
+    "5002": {
+      "description": "+1 Armor after defeating a set amount of enemies [1k, 5k, 10k]"
+    },
+    "5003": {
+      "description": "Grants 1 gold coin after defeating a set amount of enemies [1k, 2k, 3k]"
+    },
+    "5004": {
+      "description": "Starts a Gold Fever after defeating a set amount of enemies [1k, 5k, 10k]"
+    },
+    "6000": {
+      "description": "HP-Critical: gains 40 MaxHP and recovers 30% Health."
+    },
+    "6001": {
+      "description": "HP-Critical: triggers an Nduja Fritta."
+    },
+    "6002": {
+      "description": "HP-Critical: +50 Armor for 10 seconds."
+    },
+    "7000": {
+      "description": "Overheal +16: triggers a Sorbetto."
+    },
+    "7001": {
+      "description": "Overheal +16: gains +3% Might."
+    },
+    "7002": {
+      "description": "Overheal +16: Gold Finger and Gold Fever last 1% longer."
+    },
+    "7003": {
+      "description": "Overheal +16: gains +1 Reroll."
+    },
+    "8000": {
+      "description": "Spawn light sources after gaining a set amount of gold [1k, 5k, 10k]"
+    },
+    "8001": {
+      "description": "Gains +0.5 Thorns after gaining a set amount of gold [1k, 5k, 10k]"
+    },
+    "8002": {
+      "description": "Gains +1 Revive after gaining a set amount of gold [1k, 5k, 10k]"
+    },
+    "8003": {
+      "description": "Gains +1 passive weapon slot after gaining a set amount of gold [5k, 10k, 20k]"
+    },
+    "EDITION_Gala": {
+      "description": "Adds a Survarot-specific bonus."
+    },
+    "EDITION_Foil": {
+      "description": "Adds a random bonus."
+    },
+    "EDITION_Poly": {
+      "description": "Doubles most starting bonuses."
+    },
+    "EDITION_Holo": {
+      "description": "This Survarot gains 4 levels instead of 1 when you level up."
+    },
+    "EDITION_Inve": {
+      "description": "Inverts most starting bonuses. Accumulating INVE cards reduces the Risk factor."
+    },
+    "SURVAROT_RISK": {
+      "name": "RISK",
+      "description": "Enemy Health is currently increased by %0% and Damage by %1%."
+    },
+    "1200": {
+      "description": "Gets a temporary 100% Cooldown reduction when Skipping a Level Up."
+    },
+    "1201": {
+      "description": "Increases MaxHealth and fully recovers HP when Skipping a Level Up."
+    },
+    "1202": {
+      "description": "Triggers a Rosary when Skipping a Level Up."
+    },
+    "1203": {
+      "description": "Triggers an Orologion when Skipping a Level Up."
+    },
+    "9999": {
+      "description": "Start gaining %0 every %1 levels (Max %2 times)."
     }
   },
   "fr": {
@@ -156,7 +430,7 @@
     },
     "12": {
       "name": "XII - Hors limites",
-      "description": "Les ennemis immobilisés explosent. Vous trouvez plus facilement des Orologions."
+      "description": "Les ennemis immobilisés explosent. Vous trouvez plus facilement des Orologions. Possibilité de trouver des Sorbettos."
     },
     "14": {
       "name": "XIV - Piège de cristal",
@@ -225,6 +499,280 @@
     "25": {
       "name": "III - Anathème caché",
       "description": "Les boosts de nourriture octroient des bonus cumulables à des statistiques aléatoires en fonction de leur rareté et de la quantité de soins qu'ils fournissent."
+    },
+    "35": {
+      "name": "XIII - L'appel de la folle lune",
+      "description": "L'effet dépend des résultats aléatoires et des statistiques du joueur. Chance : augmente le nombre de coffres au trésor et de sources de lumière. Expertise : augmente la présence de gemmes d'EXP. Avidité : augmente la valeur des pièces d'or. Malédiction : les ennemis gagnent de la vitesse de déplacement et de la santé."
+    },
+    "40": {
+      "name": "XVIII - Horreur victorienne",
+      "description": "Les ennemis à portée de l'Aimant subissent des dégâts basés sur l'avidité. Une fois par vie, déclenche un Dévore-monde après avoir reçu des dégâts mortels."
+    },
+    "27": {
+      "name": "V - Incursion du diamant pâle",
+      "description": "Les armes listées visent l'ennemi le plus proche. Elles gagnent un bonus de recharge affecté par la vitesse des projectiles du personnage."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Le bonus de recharge se perd après 4 niveaux."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Le bonus de portée se perd après 5 niveaux."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Gagne %0 de puissance à chaque niveau."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Gagne %0 de vitesse des projectiles à chaque niveau."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Gagne %0 de durée à chaque niveau."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Gagne %0 de portée à chaque niveau."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018 - Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Le bonus de quantité se perd pendant 9 niveaux."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024 - Antonio Belpaese",
+      "description": "Gagne %0 de puissance, vitesse des projectiles, durée et portée à chaque niveau."
+    },
+    "1000": {
+      "description": "Gagne Anima de Mortaccio après 80 niveaux."
+    },
+    "1001": {
+      "description": "Gagne Carrozza! après 80 niveaux."
+    },
+    "1002": {
+      "description": "Gagne Yatta Daikarin après 80 niveaux."
+    },
+    "1003": {
+      "description": "Gagne Profusione d'amore après 80 niveaux."
+    },
+    "1100": {
+      "description": "Obtient +5 PV max à chaque niveau."
+    },
+    "1101": {
+      "description": "Obtient +1 % d'expertise à chaque niveau."
+    },
+    "1102": {
+      "description": "Obtient +1 % de puissance à chaque niveau."
+    },
+    "1103": {
+      "description": "Obtient +1 % de vitesse des projectiles à chaque niveau."
+    },
+    "1104": {
+      "description": "Obtient +1 % de durée à chaque niveau."
+    },
+    "1105": {
+      "description": "Obtient +1 % de portée à chaque niveau."
+    },
+    "1106": {
+      "description": "Obtient +1 Passer à chaque niveau."
+    },
+    "1107": {
+      "description": "Obtient +1 Relance à chaque niveau."
+    },
+    "1108": {
+      "description": "Obtient +1 Bannissement à chaque niveau."
+    },
+    "2000": {
+      "description": "Après résurrection : déclenche un Chapelet."
+    },
+    "2001": {
+      "description": "Après résurrection : déclenche un Vortex."
+    },
+    "2002": {
+      "description": "Après résurrection : déclenche un La Rapide."
+    },
+    "2003": {
+      "description": "Après résurrection : déclenche un Orologion."
+    },
+    "2004": {
+      "description": "Après résurrection : réduit la malédiction actuelle de 20 %."
+    },
+    "2005": {
+      "description": "Après résurrection : fait passer 60 secondes."
+    },
+    "3000": {
+      "description": "Gagne un bonus cumulable de 10 secondes de +1 armure à chaque fois que vous subissez des dégâts."
+    },
+    "3001": {
+      "description": "Gagne un bonus cumulable de 10 secondes de +0,1 guérison à chaque fois que vous subissez des dégâts."
+    },
+    "3002": {
+      "description": "Octroie 1 pièce d'or lorsque vous subissez des dégâts."
+    },
+    "3003": {
+      "description": "Riposte avec une charge au sol lorsque vous subissez des dégâts."
+    },
+    "4000": {
+      "description": "=+100 % de dégâts critiques"
+    },
+    "4001": {
+      "description": "Augmente l'armure et la guérison des alliés à proximité."
+    },
+    "4002": {
+      "description": "Les ennemis ont 15 % de chance d'apparaître affaiblis."
+    },
+    "4003": {
+      "description": "Augmente la quantité d'apparitions des ennemis de 50."
+    },
+    "4004": {
+      "description": "Annule 50 % des attaques des boss."
+    },
+    "5000": {
+      "description": "+1 résurrection après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]"
+    },
+    "5001": {
+      "description": "+1 de quantité après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]"
+    },
+    "5002": {
+      "description": "+1 d'armure après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]"
+    },
+    "5003": {
+      "description": "Octroie 1 pièce d'or après avoir éliminé une certaine quantité d'ennemis [1 000, 2 000, 3 000]"
+    },
+    "5004": {
+      "description": "Déclenche une Pluie d'or après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]"
+    },
+    "6000": {
+      "description": "Gagne +40 PV max et récupère 30 % de santé lorsque la santé atteint un seuil critique."
+    },
+    "6001": {
+      "description": "Déclenche un Nduja Fritta lorsque la santé atteint un seuil critique."
+    },
+    "6002": {
+      "description": "=+50 d'armure pendant 10 secondes lorsque la santé atteint un seuil critique."
+    },
+    "7000": {
+      "description": "Déclenche un Sorbetto lors d'une surguérison de +16."
+    },
+    "7001": {
+      "description": "Gagne +3 % de puissance lors d'une surguérison de +16."
+    },
+    "7002": {
+      "description": "Le Doigt d'or et la Pluie d'or durent 1 % plus longtemps lors d'une surguérison de +16."
+    },
+    "7003": {
+      "description": "Gagne 1 Caprice lors d'une surguérison de +16."
+    },
+    "8000": {
+      "description": "Fait apparaître des sources de lumière après avoir gagné une certaine quantité de pièces d'or [1 000, 5 000, 10 000]"
+    },
+    "8001": {
+      "description": "Gagne +0,5 Épines après avoir gagné une certaine quantité de pièces d'or [1 000, 5 000, 10 000]"
+    },
+    "8002": {
+      "description": "Gagne +1 résurrection après avoir gagné une certaine quantité de pièces d'or [1 000, 5 000, 10 000]"
+    },
+    "8003": {
+      "description": "Gagne +1 emplacement d'arme passive après avoir gagné une certaine quantité de pièces d'or [5 000, 10 000, 20 000]"
+    },
+    "EDITION_Gala": {
+      "description": "Gagne un bonus spécifique à vos Survarots."
+    },
+    "EDITION_Foil": {
+      "description": "Gagne un bonus aléatoire."
+    },
+    "EDITION_Poly": {
+      "description": "Double la plupart des bonus de départ."
+    },
+    "EDITION_Holo": {
+      "description": "Ce Survarot gagne 4 niveaux au lieu d'un lorsque vous gagnez un niveau."
+    },
+    "EDITION_Inve": {
+      "description": "Inverse la plupart des bonus de départ. L'accumulation de cartes INVE réduit le facteur de risque."
+    },
+    "SURVAROT_RISK": {
+      "name": "RISQUE",
+      "description": "La santé des ennemis est actuellement augmentée de %0 % et leurs dégâts de %1 %."
+    },
+    "1200": {
+      "description": "Obtient une réduction temporaire de 100 % du temps de recharge lorsque vous passez un niveau."
+    },
+    "1201": {
+      "description": "Augmente la santé max et récupère entièrement les PV lorsque vous passez un niveau."
+    },
+    "1202": {
+      "description": "Déclenche un Chapelet lorsque vous passez un niveau."
+    },
+    "1203": {
+      "description": "Déclenche un Orologion lorsque vous passez un niveau."
+    },
+    "9999": {
+      "description": "Obtient %0 tous les %1 niveaux (%2 fois max)."
     }
   },
   "it": {
@@ -270,7 +818,7 @@
     },
     "12": {
       "name": "XII - Senza limite",
-      "description": "Congelare i nemici provoca esplosioni. È più facile trovare gli Orologion."
+      "description": "Congelare i nemici provoca esplosioni. È più facile trovare gli Orologion. È inoltre possibile trovare Sorbetti."
     },
     "14": {
       "name": "XIV - Prigione di cristallo",
@@ -339,6 +887,280 @@
     "25": {
       "name": "III - Anatema nascosto",
       "description": "Il cibo raccolto dona bonus cumulativi a statistiche casuali in base alla loro rarità o il valore curativo."
+    },
+    "35": {
+      "name": "XIII - Richiamo di una luna pazza",
+      "description": "Gli effetti dipendono da risultati casuali e dalle statistiche del giocatore. Fortuna: migliora i Forzieri del tesoro e le fonti di luce. Crescita: migliora i cristalli PE. Avidità: aumenta il valore delle monete raccolte. Maledizione: i nemici guadagnano Velocità di movimento e Salute."
+    },
+    "40": {
+      "name": "XVIII - Orrore vittoriano",
+      "description": "I nemici a portata della Calamita subiscono danni basati sull'Avidità. Una volta per vita, scatena il Divoratore di mondi dannato dopo aver subito una quantità fatale di danni."
+    },
+    "27": {
+      "name": "V - Incursione del diamante pallido",
+      "description": "Le armi elencate attaccano il nemico più vicino. Ottengono un bonus Tempo di ricarica influenzato dalla Velocità dei proiettili del giocatore."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Il bonus al Tempo di ricarica si resetta dopo quattro livelli."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Il Bonus all'Area si resetta dopo cinque livelli."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "=+%0 di Potenza con ogni livello."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "=+%0 di Velocità dei proiettili con ogni livello."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "=+0% di Durata con ogni livello."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "=+%0 di Area con ogni livello."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018 - Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Il bonus Quantità svanisce dopo 9 livelli."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024 - Zi' Assunta Belpaese",
+      "description": "=+%0 di Potenza, Velocità dei proiettili, Durata e Area con ogni livello."
+    },
+    "1000": {
+      "description": "Guadagni Anima di Mortaccio dopo 80 livelli."
+    },
+    "1001": {
+      "description": "Guadagni Carozza! dopo 80 livelli."
+    },
+    "1002": {
+      "description": "Guadagni Yatta Daikarin dopo 80 livelli."
+    },
+    "1003": {
+      "description": "Guadagni Profusione D'Amore dopo 80 livelli."
+    },
+    "1100": {
+      "description": "Guadagna +5 di Salute massima ogni livello."
+    },
+    "1101": {
+      "description": "Guadagna +1% di Crescita con ogni livello."
+    },
+    "1102": {
+      "description": "Guadagna +1% di Potenza con ogni livello."
+    },
+    "1103": {
+      "description": "Guadagna +1% di Velocità dei proiettili con ogni livello."
+    },
+    "1104": {
+      "description": "Guadagna +1% di Durata con ogni livello."
+    },
+    "1105": {
+      "description": "Guadagna 0% di Area con ogni livello."
+    },
+    "1106": {
+      "description": "Guadagna +1 Esenzione ogni livello."
+    },
+    "1107": {
+      "description": "Guadagna +1 Risorteggio ogni livello."
+    },
+    "1108": {
+      "description": "Guadagna +1 Esclusione ogni livello."
+    },
+    "2000": {
+      "description": "Alla resurrezione: scatena un Rosario."
+    },
+    "2001": {
+      "description": "Alla resurrezione: scatena un Risucchio."
+    },
+    "2002": {
+      "description": "Alla resurrezione: scatena un Rapid Fire."
+    },
+    "2003": {
+      "description": "Alla resurrezione: scatena un Orologion."
+    },
+    "2004": {
+      "description": "Alla resurrezione: riduce la Maledizione attuale del 20%."
+    },
+    "2005": {
+      "description": "Alla resurrezione: salta 60 secondi."
+    },
+    "3000": {
+      "description": "Guadagni un bonus di +1 all'Armatura per 10 secondi (accumulabile) ogni volta che subisci danni."
+    },
+    "3001": {
+      "description": "Guadagni un bonus di +0,1 al Recupero per 10 secondi (accumulabile) ogni volta che subisci danni."
+    },
+    "3002": {
+      "description": "Ricevi una moneta d'oro quando subisci danni."
+    },
+    "3003": {
+      "description": "Contrattacca con una schiacciata al suolo quando subisce danni."
+    },
+    "4000": {
+      "description": "=+100% ai danni critici."
+    },
+    "4001": {
+      "description": "Aumenta Armatura e Recupero degli alleati circostanti."
+    },
+    "4002": {
+      "description": "15% di probabilità che i nemici generati siano sdentati."
+    },
+    "4003": {
+      "description": "Aumenta la quantità di nemici generati del 50%."
+    },
+    "4004": {
+      "description": "Riduce gli attacchi dei boss del 50%."
+    },
+    "5000": {
+      "description": "+1 Resurrezione dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]"
+    },
+    "5001": {
+      "description": "+1 alla Quantità dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]"
+    },
+    "5002": {
+      "description": "+1 di Armatura dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]"
+    },
+    "5003": {
+      "description": "Ricevi una moneta d'oro dopo aver sconfitto un numero prestabilito di nemici [1.000, 2.000, 3.000]"
+    },
+    "5004": {
+      "description": "Avvia Febbre dell'oro dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]"
+    },
+    "6000": {
+      "description": "PS critici: guadagna 40 di Salute massima e ripristina il 30% della Salute."
+    },
+    "6001": {
+      "description": "PS critici: scatena una Nduja fritta."
+    },
+    "6002": {
+      "description": "PS critici: +50 di Armatura per 10 secondi."
+    },
+    "7000": {
+      "description": "=+16 oltre la salute massima: scatena un Sorbetto."
+    },
+    "7001": {
+      "description": "Cura di 16 oltre la salute massima: +3% di Potenza."
+    },
+    "7002": {
+      "description": "Cura di 16 oltre la salute massima: +1% alla durata di Dito d'oro e Febbre dell'oro."
+    },
+    "7003": {
+      "description": "Cura di 16 oltre la salute massima: +1 Risorteggio."
+    },
+    "8000": {
+      "description": "Genera Fonti di luce dopo aver guadagnato un quantitativo d'oro prestabilito [1.000, 5.000, 10.000]"
+    },
+    "8001": {
+      "description": "Ottiene +0,5 Spine dopo aver guadagnato un quantitativo d'oro prestabilito [1.000, 5.000, 10.000]"
+    },
+    "8002": {
+      "description": "Ottiene +1 Resurrezione dopo aver guadagnato un quantitativo d'oro prestabilito [1.000, 5.000, 10.000]"
+    },
+    "8003": {
+      "description": "Ottiene +1 slot per arma passiva dopo aver guadagnato un quantitativo d'oro prestabilito [5.000, 10.000, 20.000]"
+    },
+    "EDITION_Gala": {
+      "description": "Aggiunge un bonus degli Survarocchi."
+    },
+    "EDITION_Foil": {
+      "description": "Aggiunge un bonus casuale."
+    },
+    "EDITION_Poly": {
+      "description": "Raddoppia la maggior parte dei bonus iniziali."
+    },
+    "EDITION_Holo": {
+      "description": "Quando sali di livello, questo Survarocco guadagna quattro livelli anziché uno."
+    },
+    "EDITION_Inve": {
+      "description": "Inverte la maggior parte dei bonus iniziali. L'accumulo di carte INVE riduce il fattore Rischio."
+    },
+    "SURVAROT_RISK": {
+      "name": "RISCHIO",
+      "description": "Al momento, la Salute dei nemici è aumentata di un %0% e i Danni di un %1%."
+    },
+    "1200": {
+      "description": "Ottiene una riduzione temporanea del 100% al Tempo di ricarica all'Esenzione di un nuovo livello."
+    },
+    "1201": {
+      "description": "Aumenta la Salute massima e recupera completamente i PS all'Esenzione di un nuovo livello."
+    },
+    "1202": {
+      "description": "Attiva un Rosario all'Esenzione di un nuovo livello."
+    },
+    "1203": {
+      "description": "Attiva un Orologion all'Esenzione di un nuovo livello."
+    },
+    "9999": {
+      "description": "Comincia a guadagnare %0 ogni %1 livelli (max %2 volte)."
     }
   },
   "de": {
@@ -384,7 +1206,7 @@
     },
     "12": {
       "name": "XII - Außerhalb",
-      "description": "Einfrieren von Gegnern löst Explosionen aus. Orologions sind leichter zu finden."
+      "description": "Einfrieren von Gegnern löst Explosionen aus. Orologien sind leichter zu finden. Sorbettos können auch gefunden werden."
     },
     "14": {
       "name": "XIV - Kristallgefängnis",
@@ -453,6 +1275,280 @@
     "25": {
       "name": "III - Verborgenes Anathema",
       "description": "Nahrungs-Pickups gewähren je nach Seltenheit oder Heilwert kumulative Boni auf zufällige Werte."
+    },
+    "35": {
+      "name": "XIII - Echo eines Tollmonds",
+      "description": "Der Effekt hängt teilweise vom Zufall und teilweise von Spielerwerten ab. Glück: verbessert Schatztruhen und Lichtquellen. Entwicklung: verbessert Erfahrungsedelsteine. Gier: verbessert Goldmünzen. Fluch: Gegner erhalten Bewegungstempo und LP."
+    },
+    "40": {
+      "name": "XVIII - Viktorianische Schrecken",
+      "description": "Gegner in Reichweite des Magneten erleiden Schaden (abhängig von Gier). Einmal pro Leben: Tödlicher Schaden löst Verfluchten Weltenfresser aus."
+    },
+    "27": {
+      "name": "V - Fahler Diamant",
+      "description": "Gelistete Waffen zielen auf den nächstgelegenen Gegner und erhalten einen Abklingzeit-Bonus, der von der Geschossschnelligkeit abhängt."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Abklingzeit-Bonus, hält 4 Level an."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Bereich-Bonus, hält 5 Level an."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Erhält pro Level +%0 Macht."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Erhält pro Level +%0 Geschossschnelligkeit."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Erhält pro Level +%0 Dauer."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Erhält pro Level +%0 Bereich."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018 - Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020 - O’Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Menge-Bonus, hält 9 Level an."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024 - Zi’Assunta Belpaese",
+      "description": "Erhält pro Level +%0 Macht, Geschossschnelligkeit, Dauer und Bereich."
+    },
+    "1000": {
+      "description": "Erhalte nach 80 Leveln die Anima von Mortaccio."
+    },
+    "1001": {
+      "description": "Erhalte nach 80 Leveln Carozza!"
+    },
+    "1002": {
+      "description": "Erhalte nach 80 Leveln Yatta Daikarin!"
+    },
+    "1003": {
+      "description": "Erhalten nach 80 Leveln Liebesschwall."
+    },
+    "1100": {
+      "description": "Erhalte pro Level +5 max. LP."
+    },
+    "1101": {
+      "description": "Erhalte pro Level +1% Entwicklung."
+    },
+    "1102": {
+      "description": "Erhalte pro Level +1% Macht."
+    },
+    "1103": {
+      "description": "Erhalte pro Level +1% Geschossschnelligkeit."
+    },
+    "1104": {
+      "description": "Erhalte pro Level +1% Dauer."
+    },
+    "1105": {
+      "description": "Erhalte pro Level +1% Bereich."
+    },
+    "1106": {
+      "description": "Erhalte pro Level +1 Überspringen."
+    },
+    "1107": {
+      "description": "Erhalte pro Level +1 Neuwahl."
+    },
+    "1108": {
+      "description": "Erhalte pro Level +1 Verbannen."
+    },
+    "2000": {
+      "description": "Beim Wiederbeleben: Löst einen Rosenkranz aus."
+    },
+    "2001": {
+      "description": "Beim Wiederbeleben: Löst ein Vakuum aus."
+    },
+    "2002": {
+      "description": "Beim Wiederbeleben: Löst ein Schnellfeuer aus."
+    },
+    "2003": {
+      "description": "Beim Wiederbeleben: Löst ein Orologion aus."
+    },
+    "2004": {
+      "description": "Beim Wiederbeleben: Dein aktueller Fluch wird um 20% gesenkt."
+    },
+    "2005": {
+      "description": "Beim Wiederbeleben: 60 Sekunden werden übersprungen."
+    },
+    "3000": {
+      "description": "Wenn du Schaden erleidest, erhältst du 10 s lang +1 Rüstung. (Effekt ist stapelbar.)"
+    },
+    "3001": {
+      "description": "Wenn du Schaden erleidest, erhältst du 10 s lang +0,1 Erholung. (Effekt ist stapelbar.)"
+    },
+    "3002": {
+      "description": "Wenn du Schaden erleidest, erhältst du 1 Goldmünze."
+    },
+    "3003": {
+      "description": "Wenn du Schaden erleidest, übst du mit einem erschütternden Schlag Vergeltung."
+    },
+    "4000": {
+      "description": "=+100% kritischer Schaden"
+    },
+    "4001": {
+      "description": "Erhöht Rüstung und Erholung von Verbündeten in der Nähe."
+    },
+    "4002": {
+      "description": "Chance von 15%, dass Gegner zahnlos erscheinen."
+    },
+    "4003": {
+      "description": "Erhöht die Anzahl der erscheinenden Feinde um 50."
+    },
+    "4004": {
+      "description": "Bossgegner brechen 50% ihrer Angriffe ab."
+    },
+    "5000": {
+      "description": "+1 Wiederbeleben, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000)."
+    },
+    "5001": {
+      "description": "+1 Menge, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000)"
+    },
+    "5002": {
+      "description": "+1 Rüstung, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000)."
+    },
+    "5003": {
+      "description": "Du erhältst eine Goldmünze, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 2.000, 3.000)."
+    },
+    "5004": {
+      "description": "Löst einen Goldrausch aus, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000)."
+    },
+    "6000": {
+      "description": "Kritischer LP-Wert: Du erhältst 40 max. LP und regenerierst 30% deiner LP."
+    },
+    "6001": {
+      "description": "Kritischer LP-Wert: Eine Nduja Fritta wird ausgelöst."
+    },
+    "6002": {
+      "description": "Kritischer LP-Wert: Du erhältst 10 s lang +50 Rüstung."
+    },
+    "7000": {
+      "description": "Überheilung um +16: Ein Sorbetto wird ausgelöst."
+    },
+    "7001": {
+      "description": "Überheilung um +16: Du erhältst +3% Macht."
+    },
+    "7002": {
+      "description": "Überheilung um +16: Goldfinger und Goldrausch halten 1% länger."
+    },
+    "7003": {
+      "description": "Überheilung um +16: Du erhältst +1 Neuwahl."
+    },
+    "8000": {
+      "description": "Lichtquellen erscheinen, nachdem du eine bestimmte Menge Gold gesammelt hast (1.000, 5.000, 10.000)"
+    },
+    "8001": {
+      "description": "Du erhältst +0,5 Dornen, nachdem du eine bestimmte Menge Gold gesammelt hast (1.000, 5.000, 10.000)"
+    },
+    "8002": {
+      "description": "Du erhältst +1 Wiederbeleben, nachdem du eine bestimmte Menge Gold gesammelt hast (1.000, 5.000, 10.000)"
+    },
+    "8003": {
+      "description": "Du erhältst +1 Slot für eine passive Waffe, nachdem du eine bestimmte Menge Gold gesammelt hast (5.000, 10.000, 20.000)"
+    },
+    "EDITION_Gala": {
+      "description": "Fügt einen Survarot-spezifischen Bonus hinzu."
+    },
+    "EDITION_Foil": {
+      "description": "Fügt einen zufälligen Bonus hinzu."
+    },
+    "EDITION_Poly": {
+      "description": "Verdoppelt die meisten Startboni."
+    },
+    "EDITION_Holo": {
+      "description": "Dieser Survarot erhält bei einem Levelaufstieg 4 anstatt 1 Level."
+    },
+    "EDITION_Inve": {
+      "description": "Die meisten Startboni werden umgekehrt. Je mehr Negativkarten du sammelst, desto kleiner das Risiko."
+    },
+    "SURVAROT_RISK": {
+      "name": "RISIKO",
+      "description": "Gegner-LP aktuell um %0% erhöht, Schaden um %1% erhöht."
+    },
+    "1200": {
+      "description": "Vorübergehend 100 % Abklingzeit-Reduzierung, wenn du einen Levelaufstieg überspringst."
+    },
+    "1201": {
+      "description": "Mehr max. LP und vollständige Heilung, wenn du einen Levelaufstieg überspringst."
+    },
+    "1202": {
+      "description": "Löst einen Rosenkranz aus, wenn du einen Levelaufstieg überspringst."
+    },
+    "1203": {
+      "description": "Löst einen Orologion aus, wenn du einen Levelaufstieg überspringst."
+    },
+    "9999": {
+      "description": "Erhalte %0 nach jedem %1. Level (max. %2-mal)."
     }
   },
   "es": {
@@ -498,7 +1594,7 @@
     },
     "12": {
       "name": "XII: Sin límites",
-      "description": "Se generan explosiones al congelar enemigos. Encuentra relojes mágicos más a menudo."
+      "description": "Se generan explosiones al congelar enemigos. Encuentra relojes mágicos más a menudo. También se pueden encontrar sorbettos."
     },
     "14": {
       "name": "XIV: Prisión de cristal",
@@ -567,6 +1663,280 @@
     "25": {
       "name": "III: Anatema oculto",
       "description": "Los objetos comestibles otorgan bonificaciones acumulables para atributos aleatorios según su rareza o su valor curativo."
+    },
+    "35": {
+      "name": "XIII: Llamada de una luna de locura",
+      "description": "El efecto depende de resultados aleatorios y los atributos del jugador. Suerte: mejora los cofres del tesoro y las fuentes de luz. Crecimiento: mejora las gemas de EXP. Avaricia: mejora las monedas de oro. Maldición: los enemigos ganan velocidad de movimiento y salud."
+    },
+    "40": {
+      "name": "XVIII: Terror victoriano",
+      "description": "Los enemigos dentro del alcance de imán reciben daño según la avaricia. Activa el Engullemundos maldito tras recibir daño letal una vez por vida."
+    },
+    "27": {
+      "name": "V: Asalto del diamante blanquecino",
+      "description": "Las armas de la lista apuntan al enemigo más cercano. Ganan una bonificación de recarga que se ve afectada por la velocidad de proyectil del personaje."
+    },
+    "101": {
+      "name": "001: Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002: Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003: Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004: Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005: Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006: Porta Ladonna",
+      "description": "La bonificación de recarga se va perdiendo durante 4 niveles."
+    },
+    "107": {
+      "name": "007: Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008: Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009: Sor Clerici",
+      "description": "La bonificación de área de efecto se pierde durante 5 niveles."
+    },
+    "110": {
+      "name": "010: Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011: Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012: Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013: Pugnala Provola",
+      "description": "Gana %0 de poder cada nivel."
+    },
+    "114": {
+      "name": "014: Giovanna Grana",
+      "description": "Gana %0 de vel. de proyectil cada nivel."
+    },
+    "115": {
+      "name": "015: Poppea Pecorina",
+      "description": "Gana %0 de duración cada nivel."
+    },
+    "116": {
+      "name": "016: Concetta Caciotta",
+      "description": "Gana %0 de área de efecto cada nivel."
+    },
+    "117": {
+      "name": "017: Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018: Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019: Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020: O'Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021: Ambrojoe",
+      "description": "La bonificación de cantidad se va perdiendo durante 9 niveles."
+    },
+    "122": {
+      "name": "022: Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023: Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024: Zi'Assunta Belpaese",
+      "description": "Gana %0 de poder, de vel. de proyectil, de duración y de área de efecto cada nivel."
+    },
+    "1000": {
+      "description": "Gana la ánima de Mortaccio tras 80 niveles."
+    },
+    "1001": {
+      "description": "Gana la carozza tras 80 niveles."
+    },
+    "1002": {
+      "description": "Gana la Yatta Daikarin tras 80 niveles."
+    },
+    "1003": {
+      "description": "Gana la Profusione d'amore tras 80 niveles."
+    },
+    "1100": {
+      "description": "Gana +5 de PS máx. cada nivel."
+    },
+    "1101": {
+      "description": "Gana +1 % de crecimiento cada nivel."
+    },
+    "1102": {
+      "description": "Gana +1 % de poder cada nivel."
+    },
+    "1103": {
+      "description": "Gana +1 % de vel. de proyectil cada nivel."
+    },
+    "1104": {
+      "description": "Gana +1 % de duración cada nivel."
+    },
+    "1105": {
+      "description": "Gana %0 de área de efecto cada nivel."
+    },
+    "1106": {
+      "description": "Gana +1 uso de saltar cada nivel."
+    },
+    "1107": {
+      "description": "Gana +1 uso de cambiar cada nivel."
+    },
+    "1108": {
+      "description": "Gana +1 uso de eliminar cada nivel."
+    },
+    "2000": {
+      "description": "Al resucitar: activa un rosario."
+    },
+    "2001": {
+      "description": "Al resucitar: activa un aspiragemas."
+    },
+    "2002": {
+      "description": "Al resucitar: activa un fuego rápido."
+    },
+    "2003": {
+      "description": "Al resucitar: activa un reloj mágico."
+    },
+    "2004": {
+      "description": "Al resucitar: reduce la maldición actual un 20 %."
+    },
+    "2005": {
+      "description": "Al resucitar: salta 60 segundos."
+    },
+    "3000": {
+      "description": "Gana una bonificación acumulable de +1 de armadura durante 10 segundos cada vez que recibes daño."
+    },
+    "3001": {
+      "description": "Gana una bonificación acumulable de +0,1 de recuperación durante 10 segundos cada vez que recibes daño."
+    },
+    "3002": {
+      "description": "Otorga 1 moneda de oro al recibir daño."
+    },
+    "3003": {
+      "description": "Refleja el daño con un porrazo en el suelo al recibir daño."
+    },
+    "4000": {
+      "description": "=+100 % de daño crítico."
+    },
+    "4001": {
+      "description": "Aumenta la armadura y la recuperación de los aliados cercanos."
+    },
+    "4002": {
+      "description": "Los enemigos tienen un 15 % de probabilidad de aparecer descolmillados."
+    },
+    "4003": {
+      "description": "Aumenta en 50 la cantidad de enemigos que aparecen."
+    },
+    "4004": {
+      "description": "Anula el 50 % de los ataques de los jefes."
+    },
+    "5000": {
+      "description": "+1 resurrección tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000)."
+    },
+    "5001": {
+      "description": "+1 de cantidad tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000)."
+    },
+    "5002": {
+      "description": "+1 de armadura tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000)."
+    },
+    "5003": {
+      "description": "Otorga una moneda de oro tras derrotar a una cantidad fija de enemigos (1000, 2000, 3000)."
+    },
+    "5004": {
+      "description": "Empieza una fiebre del oro tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000)."
+    },
+    "6000": {
+      "description": "PS en punto crítico: gana 40 de PS máx. y recupera un 30 % de salud."
+    },
+    "6001": {
+      "description": "PS en punto crítico: activa la Nduja Fritta."
+    },
+    "6002": {
+      "description": "PS en punto crítico: +50 de armadura durante 10 segundos."
+    },
+    "7000": {
+      "description": "Curación +16 de más: activa un sorbetto."
+    },
+    "7001": {
+      "description": "Curación +16 de más: gana +3 % de poder."
+    },
+    "7002": {
+      "description": "Curación +16 de más: dedo dorado y fiebre del oro duran un 1 % más."
+    },
+    "7003": {
+      "description": "Curación +16 de más: gana +1 uso de cambiar."
+    },
+    "8000": {
+      "description": "Genera fuentes de luz tras ganar una cantidad fija de oro (1000, 5000, 10 000)."
+    },
+    "8001": {
+      "description": "Gana +0,5 de espinas tras ganar una cantidad fija de oro (1000, 5000, 10 000)."
+    },
+    "8002": {
+      "description": "Gana +1 resurrección tras ganar una cantidad fija de oro (1000, 5000, 10 000)."
+    },
+    "8003": {
+      "description": "Gana +1 espacio de arma pasiva tras ganar una cantidad fija de oro (5000, 10 000, 20 000)."
+    },
+    "EDITION_Gala": {
+      "description": "Añade una bonificación de un supervicano concreto."
+    },
+    "EDITION_Foil": {
+      "description": "Añade una bonificación aleatoria."
+    },
+    "EDITION_Poly": {
+      "description": "Duplica la mayoría de las bonificaciones de inicio."
+    },
+    "EDITION_Holo": {
+      "description": "Este supervicano gana 4 niveles en lugar de 1 cuando subes de nivel."
+    },
+    "EDITION_Inve": {
+      "description": "Invierte la mayoría de las bonificaciones de inicio. Acumular cartas negativas reduce el factor de riesgo."
+    },
+    "SURVAROT_RISK": {
+      "name": "RIESGO",
+      "description": "La salud de los enemigos aumenta un %0 % actualmente y el daño, un %1 %."
+    },
+    "1200": {
+      "description": "Obtiene una reducción de recarga temporal del 100 % al saltar una elección al subir de nivel."
+    },
+    "1201": {
+      "description": "Aumenta los PS máx. y recupera todos los PS al saltar una elección al subir de nivel."
+    },
+    "1202": {
+      "description": "Activa un rosario al saltar una elección al subir de nivel."
+    },
+    "1203": {
+      "description": "Activa un reloj mágico al saltar una elección al subir de nivel."
+    },
+    "9999": {
+      "description": "Empieza a ganar %0 cada %1 niveles (máx.: %2 veces)."
     }
   },
   "pt-BR": {
@@ -612,7 +1982,7 @@
     },
     "12": {
       "name": "XII - Fora do Limite",
-      "description": "Congelar inimigos gera explosões. É mais fácil encontrar Orologions."
+      "description": "Paralisar inimigos gera explosões. É mais fácil encontrar Orologions. Também é possível encontrar Sorbettos."
     },
     "14": {
       "name": "XIV - Prisão de Cristal",
@@ -681,6 +2051,280 @@
     "25": {
       "name": "III - Anátema Oculto",
       "description": "Coletar comida concede bônus cumulativos a atributos aleatórios com base em raridade ou valor de cura."
+    },
+    "35": {
+      "name": "XIII - Chamado da Lua Louca",
+      "description": "O efeito depende de atributos do jogador e resultados aleatórios. Sorte: afeta os Baús do Tesouro e Fontes de Luz. Crescimento: afeta as joias de EXP. Ganância: afeta as moedas de ouro. Maldição: inimigos ganham Velocidade de Movimento e Vida."
+    },
+    "40": {
+      "name": "XVIII - Terror Vitoriano",
+      "description": "Inimigos ao alcance do Magnetismo sofrem dano com base na Ganância. Uma vez a cada vida, ativa o Devorador de Mundos Amaldiçoado ao sofrer dano fatal."
+    },
+    "27": {
+      "name": "V - Incursão do Diamante Pálido",
+      "description": "Armas listadas miram no inimigo mais próximo. Elas ganham um bônus de Recarga com base na Velocidade de Projéteis do personagem."
+    },
+    "101": {
+      "name": "001 – Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002 – Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003 – Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 – Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 – Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006 – Porta Ladonna",
+      "description": "O bônus temporário de Recarga dura 4 níveis."
+    },
+    "107": {
+      "name": "007 – Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 – Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 – Irmã Clerici",
+      "description": "O bônus temporário de Área dura 5 níveis."
+    },
+    "110": {
+      "name": "010 – Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011 – Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012 – Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013 – Pugnala Provola",
+      "description": "Ganha %0 de Poder a cada nível."
+    },
+    "114": {
+      "name": "014 – Giovanna Grana",
+      "description": "Ganha %0 de Velocidade de Projéteis a cada nível."
+    },
+    "115": {
+      "name": "015 – Poppea Pecorina",
+      "description": "Ganha %0 de Duração a cada nível."
+    },
+    "116": {
+      "name": "016 – Concetta Caciotta",
+      "description": "Ganha %0 de Área a cada nível."
+    },
+    "117": {
+      "name": "017 – Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018 – Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019 – Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020 – O'Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021 – Ambrojão",
+      "description": "O bônus temporário de Quantidade dura 9 níveis."
+    },
+    "122": {
+      "name": "022 – Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023 – Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024 – Zi'Assunta Belpaese",
+      "description": "Ganha %0 de Poder, Velocidade de Projéteis, Duração e Área a cada nível."
+    },
+    "1000": {
+      "description": "Ganha Anima de Mortaccio após 80 níveis."
+    },
+    "1001": {
+      "description": "Ganha Carroça após 80 níveis."
+    },
+    "1002": {
+      "description": "Ganha Yatta Daikarin após 80 níveis."
+    },
+    "1003": {
+      "description": "Ganha Profusione D'Amore após 80 níveis."
+    },
+    "1100": {
+      "description": "Ganha +5 de Vida Máx. a cada nível."
+    },
+    "1101": {
+      "description": "Ganha +1% de Crescimento a cada nível."
+    },
+    "1102": {
+      "description": "Ganha +1% de Poder a cada nível."
+    },
+    "1103": {
+      "description": "Ganha +1% de Velocidade de Projéteis a cada nível."
+    },
+    "1104": {
+      "description": "Ganha +1% de Duração a cada nível."
+    },
+    "1105": {
+      "description": "Ganha %0 de Área a cada nível."
+    },
+    "1106": {
+      "description": "Ganha +1 Adiar a cada nível."
+    },
+    "1107": {
+      "description": "Ganha +1 Rolar Novamente a cada nível."
+    },
+    "1108": {
+      "description": "Ganha +1 Banir a cada nível."
+    },
+    "2000": {
+      "description": "Ao Ressuscitar: ativa um Rosário."
+    },
+    "2001": {
+      "description": "Ao Ressuscitar: ativa um Aspirador."
+    },
+    "2002": {
+      "description": "Ao Ressuscitar: ativa um Tiro Rápido."
+    },
+    "2003": {
+      "description": "Ao Ressuscitar: ativa um Orologion."
+    },
+    "2004": {
+      "description": "Ao Ressuscitar: reduz a Maldição atual em 20%."
+    },
+    "2005": {
+      "description": "Ao Ressuscitar: adia 60 segundos."
+    },
+    "3000": {
+      "description": "Ganha um bônus acumulador de +1 de Armadura por 10 segundos sempre que você sofre dano."
+    },
+    "3001": {
+      "description": "Ganha um bônus acumulador de +0,1 de Recuperação por 10 segundos sempre que você sofre dano."
+    },
+    "3002": {
+      "description": "Concede 1 Moeda de Ouro ao sofrer dano."
+    },
+    "3003": {
+      "description": "Retalia com uma batida no chão ao sofrer dano."
+    },
+    "4000": {
+      "description": "=+100% de dano crítico"
+    },
+    "4001": {
+      "description": "Aumenta a Armadura e a Recuperação de aliados próximos."
+    },
+    "4002": {
+      "description": "Inimigos têm 15% de chance de surgirem debilitados."
+    },
+    "4003": {
+      "description": "Aumenta a quantidade de surgimento de inimigos em 50."
+    },
+    "4004": {
+      "description": "Cancela 50% dos ataques de chefes."
+    },
+    "5000": {
+      "description": "+1 de Ressuscitar após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil)."
+    },
+    "5001": {
+      "description": "+1 de Quantidade após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil)."
+    },
+    "5002": {
+      "description": "+1 de Armadura após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil)."
+    },
+    "5003": {
+      "description": "Concede 1 Moeda de Ouro após derrotar uma quantidade específica de inimigos (mil, 2 mil, 3 mil)."
+    },
+    "5004": {
+      "description": "Começa uma Febre de Ouro após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil)."
+    },
+    "6000": {
+      "description": "Crítico: ganha 40 de Vida Máx. e recupera 30% de Vida."
+    },
+    "6001": {
+      "description": "Crítico: Ativa uma Nduja Fritta."
+    },
+    "6002": {
+      "description": "Crítico: +50 de Armadura por 10 segundos."
+    },
+    "7000": {
+      "description": "=+16 de vida excessiva: ativa um Sorbetto."
+    },
+    "7001": {
+      "description": "=+16 de vida excessiva: ganha +3% de Poder."
+    },
+    "7002": {
+      "description": "=+16 de vida excessiva: Dedo de Ouro e Febre de Ouro duram 1% a mais."
+    },
+    "7003": {
+      "description": "=+16 de vida excessiva: ganha +1 de Rolar Novamente"
+    },
+    "8000": {
+      "description": "Gera fontes de luzes após ganhar uma quantidade específica de ouro (mil, 5 mil, 10 mil)."
+    },
+    "8001": {
+      "description": "Ganha +0,5 Espinhos após ganhar uma quantidade específica de ouro (mil, 5 mil, 10 mil)."
+    },
+    "8002": {
+      "description": "Ganha +1 Ressuscitar após ganhar uma quantidade específica de ouro (mil, 5 mil, 10 mil)."
+    },
+    "8003": {
+      "description": "Ganha +1 espaço de arma passiva após ganhar uma quantidade específica de ouro (5 mil, 10 mil, 20 mil)."
+    },
+    "EDITION_Gala": {
+      "description": "Adiciona um bônus de Surtarô específico."
+    },
+    "EDITION_Foil": {
+      "description": "Adiciona um bônus aleatório."
+    },
+    "EDITION_Poly": {
+      "description": "Duplica a maioria dos bônus iniciais."
+    },
+    "EDITION_Holo": {
+      "description": "Este Surtarô ganha 4 níveis em vez de 1 quando você sobe de nível."
+    },
+    "EDITION_Inve": {
+      "description": "Inverte a maioria dos bônus iniciais. Acumular cartas invertidas reduz o fator de risco."
+    },
+    "SURVAROT_RISK": {
+      "name": "RISCO",
+      "description": "Vida do inimigo aumenta em %0% e dano em %1%."
+    },
+    "1200": {
+      "description": "Ganha 100% de redução temporária de Recarga ao adiar subir de nível."
+    },
+    "1201": {
+      "description": "Aumenta Vida Máx. e recupera PV totalmente ao adiar subir de nível."
+    },
+    "1202": {
+      "description": "Ativa um Rosário ao adiar subir de nível."
+    },
+    "1203": {
+      "description": "Ativa um Orologion ao adiar subir de nível."
+    },
+    "9999": {
+      "description": "Passa a ganhar %0 a cada %1 níveis (máx. %2 vezes)."
     }
   },
   "pl": {
@@ -726,7 +2370,7 @@
     },
     "12": {
       "name": "XII – Poza zasięgiem",
-      "description": "Zamrożenie wrogów wywołuje eksplozje. Łatwiej jest znaleźć Orologiony."
+      "description": "Zamrożenie wrogów wywołuje eksplozje. Łatwiej jest znaleźć Orologiony. Można też znaleźć Sorbetto."
     },
     "14": {
       "name": "XIV – Cela z kryształu",
@@ -795,6 +2439,280 @@
     "25": {
       "name": "III – Ukryta klątwa",
       "description": "Łupy z jedzeniem gwarantują skumulowane premie do losowych parametrów na podstawie ich rzadkości lub wartości uzdrawiającej."
+    },
+    "35": {
+      "name": "XIII – Zew szalonego księżyca",
+      "description": "Efekt zależy od losowych wyników i parametrów użytkownika. Szczęście: ulepsza skrzynie skarbów i źródła światła. Rozwój: ulepsza kryształy doświadczenia. Chciwość: ulepsza złote monety. Klątwa: wrogowie zyskują Prędkość ruchu i Zdrowie."
+    },
+    "40": {
+      "name": "XVIII – Wiktoriański horror",
+      "description": "Wrogowie w zasięgu Magnesu otrzymują obrażenia zależne od Chciwości. Raz na życie po otrzymaniu śmiertelnych obrażeń wywołuje Przeklętego Światożercę."
+    },
+    "27": {
+      "name": "V – Diamentowa inwazja",
+      "description": "Wymienione bronie celują w najbliższego wroga. Otrzymują premię do Odnawiania zależną od Prędkości pocisków bohatera."
+    },
+    "101": {
+      "name": "001 – Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002 – Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003 – Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 – Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 – Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006 – Porta Ladonna",
+      "description": "Premia do Odnawiania stopniowo znika przez 4 poziomy."
+    },
+    "107": {
+      "name": "007 – Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 – Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 – Suor Clerici",
+      "description": "Premia do Obszaru stopniowo znika przez 5 poziomów."
+    },
+    "110": {
+      "name": "010 – Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011 – Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012 – Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013 – Pugnala Provola",
+      "description": "Otrzymuje %0 Mocy co poziom."
+    },
+    "114": {
+      "name": "014 – Giovanna Grana",
+      "description": "Otrzymuje %0 Prędkości pocisków co poziom."
+    },
+    "115": {
+      "name": "015 – Poppea Pecorina",
+      "description": "Otrzymuje %0 Czasu trwania co poziom."
+    },
+    "116": {
+      "name": "016 – Concetta Caciotta",
+      "description": "Otrzymuje %0 Obszaru co poziom."
+    },
+    "117": {
+      "name": "017 – Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018 - Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019 – Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020 – O'Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021 – Ambrojoe",
+      "description": "Premia do Ilości znika przez 9 poziomów."
+    },
+    "122": {
+      "name": "022 – Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023 – Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024 – Zi'Assunta Belpaese",
+      "description": "Co poziom otrzymuje %0 Mocy, Prędkości pocisków, Czasu trwania i Obszaru."
+    },
+    "1000": {
+      "description": "Otrzymuje Anima Mortaccio po 80 poziomach."
+    },
+    "1001": {
+      "description": "Otrzymuje Carozza! po 80 poziomach."
+    },
+    "1002": {
+      "description": "Otrzymuje Yatta Daikarin po 80 poziomach."
+    },
+    "1003": {
+      "description": "Otrzymuje Obfitość miłości po 80 poziomach."
+    },
+    "1100": {
+      "description": "Otrzymuje +5 Maks. zdrowia co poziom."
+    },
+    "1101": {
+      "description": "Otrzymuje +1% Rozwoju co poziom."
+    },
+    "1102": {
+      "description": "Otrzymuje +1% Mocy co poziom."
+    },
+    "1103": {
+      "description": "Otrzymuje +1% Prędkości pocisków co poziom."
+    },
+    "1104": {
+      "description": "Otrzymuje +1% Czasu trwania co poziom."
+    },
+    "1105": {
+      "description": "Otrzymuje %0 Obszaru co poziom."
+    },
+    "1106": {
+      "description": "Otrzymuje +1 Pominięcie co poziom."
+    },
+    "1107": {
+      "description": "Otrzymuje +1 Zmianę co poziom."
+    },
+    "1108": {
+      "description": "Otrzymuje +1 Odrzucenie co poziom."
+    },
+    "2000": {
+      "description": "Przy wskrzeszeniu: wyzwala Różaniec."
+    },
+    "2001": {
+      "description": "Przy wskrzeszeniu: wyzwala Próżnię."
+    },
+    "2002": {
+      "description": "Przy wskrzeszeniu: wyzwala Szybki ogień."
+    },
+    "2003": {
+      "description": "Przy wskrzeszeniu: wyzwala Orologion."
+    },
+    "2004": {
+      "description": "Przy wskrzeszeniu: zmniejsza bieżącą Klątwę o 20%."
+    },
+    "2005": {
+      "description": "Przy wskrzeszeniu: przeskakuje o 60 sekund."
+    },
+    "3000": {
+      "description": "Przyznaje kumulującą się premię +1 do Pancerza na 10 sekund za każdym razem, gdy otrzymujesz obrażenia."
+    },
+    "3001": {
+      "description": "Przyznaje kumulującą się premię +0,1 do Odzyskiwania na 10 sekund za każdym razem, gdy otrzymujesz obrażenia."
+    },
+    "3002": {
+      "description": "Przyznaje 1 złotą monetę po otrzymaniu obrażeń."
+    },
+    "3003": {
+      "description": "Po otrzymaniu obrażeń bierze odwet za pomocą uderzenia w ziemię."
+    },
+    "4000": {
+      "description": "Obrażenia krytyczne +100%"
+    },
+    "4001": {
+      "description": "Zwiększa Pancerz i Odzyskiwanie pobliskich sprzymierzeńców."
+    },
+    "4002": {
+      "description": "Wrogowie mają 15% szans na odrodzenie się bez kłów."
+    },
+    "4003": {
+      "description": "Zwiększa liczbę odradzających się wrogów o 50."
+    },
+    "4004": {
+      "description": "Anuluje 50% ataków bossów."
+    },
+    "5000": {
+      "description": "=+1 Wskrzeszenie po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
+    },
+    "5001": {
+      "description": "=+1 do Ilości po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
+    },
+    "5002": {
+      "description": "=+1 do Pancerza po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
+    },
+    "5003": {
+      "description": "Przyznaje 1 złotą monetę po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
+    },
+    "5004": {
+      "description": "Zaczyna z Gorączką Złota po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
+    },
+    "6000": {
+      "description": "Krytyczny poziom zdrowia: otrzymuje 40 Maks. zdrowia i odzyskuje 30% Zdrowia."
+    },
+    "6001": {
+      "description": "Krytyczny poziom zdrowia: uruchamia Nduja Frittę."
+    },
+    "6002": {
+      "description": "Krytyczny poziom zdrowia: +50 do Pancerza na 10 sekund."
+    },
+    "7000": {
+      "description": "Nadmierne uleczenie +16: wyzwala Sorbetto."
+    },
+    "7001": {
+      "description": "Nadmierne uleczenie +16: otrzymuje +3% Mocy."
+    },
+    "7002": {
+      "description": "Nadmierne uleczenie +16: Złoty Palec i Gorączka Złota trwają o 1% dłużej."
+    },
+    "7003": {
+      "description": "Nadmierne uleczenie +16: otrzymuje +1 Zmianę."
+    },
+    "8000": {
+      "description": "Powoduje pojawienie się źródeł światła po zdobyciu określonej ilości złota [1 tys., 5 tys., 10 tys.]"
+    },
+    "8001": {
+      "description": "Otrzymuje +0,5 Cierni po zdobyciu określonej ilości złota [1 tys., 5 tys., 10 tys.]"
+    },
+    "8002": {
+      "description": "Otrzymuje +1 Wskrzeszenie po zdobyciu określonej ilości złota [1 tys., 5 tys., 10 tys.]"
+    },
+    "8003": {
+      "description": "Otrzymuje +1 miejsce na broń pasywną po zdobyciu określonej ilości złota [5 tys., 10 tys., 20 tys.]"
+    },
+    "EDITION_Gala": {
+      "description": "Dodaje premię dla danej karty Survarota."
+    },
+    "EDITION_Foil": {
+      "description": "Dodaje losową premię."
+    },
+    "EDITION_Poly": {
+      "description": "Podwaja większość premii początkowych."
+    },
+    "EDITION_Holo": {
+      "description": "Ta karta Survarota zyskuje 4 poziomy zamiast 1, gdy zdobywasz poziom."
+    },
+    "EDITION_Inve": {
+      "description": "Odwraca większość premii początkowych. Gromadzenie kart negatywnych zmniejsza czynnik Ryzyka."
+    },
+    "SURVAROT_RISK": {
+      "name": "RYZYKO",
+      "description": "Zdrowie wrogów jest obecnie zwiększone o %0%, a obrażenia o %1%."
+    },
+    "1200": {
+      "description": "Po pominięciu awansu na kolejny poziom tymczasowo obniża Odnawianie o 100%."
+    },
+    "1201": {
+      "description": "Po pominięciu awansu na kolejny poziom zwiększa Maks. zdrowie i odzyskuje wszystkie PZ."
+    },
+    "1202": {
+      "description": "Po pominięciu awansu na kolejny poziom uruchamia Różaniec."
+    },
+    "1203": {
+      "description": "Po pominięciu awansu na kolejny poziom uruchamia Orologion."
+    },
+    "9999": {
+      "description": "Zacznij otrzymywać %0 po każdych %1 poziomach (maks. %2 razy)."
     }
   },
   "ru": {
@@ -840,7 +2758,7 @@
     },
     "12": {
       "name": "XII — Вне пределов",
-      "description": "При замораживании врагов происходят взрывы. Часослов проще найти."
+      "description": "Враги взрываются при замораживании. Часословов проще найти. Также есть шанс найти Сорбетто."
     },
     "14": {
       "name": "XIV — Кристальные оковы",
@@ -909,6 +2827,280 @@
     "25": {
       "name": "III — Скрытая анафема",
       "description": "Собранная еда даёт накопительные бонусы к случайным характеристикам в зависимости от её редкости и лечебных свойств."
+    },
+    "35": {
+      "name": "XIII — Зов Беснолуния",
+      "description": "Эффект зависит от случайных результатов и характеристик игрока. Удача: улучшает сундуки с сокровищами и источники света. Рост: улучшает кристаллы опыта. Жадность: улучшает золото. Проклятие: враги получают высокую скорость и здоровье."
+    },
+    "40": {
+      "name": "XVIII — Викторианский ужас",
+      "description": "Враги в радиусе действия магнита получают урон в зависимости от жадности. Один раз за жизнь вызывает проклятую Пожирательницу миров после получения смертельного урона."
+    },
+    "27": {
+      "name": "V — Включение бледного алмаза",
+      "description": "Указанное оружие нацеливается на ближайшего врага. Оно получает бонус к перезарядке в зависимости от скорости снарядов персонажа."
+    },
+    "101": {
+      "name": "001 — Антонио Бельпаэзе",
+      "description": null
+    },
+    "102": {
+      "name": "002 — Имельда Бельпаэзе",
+      "description": null
+    },
+    "103": {
+      "name": "003 — Паскуалина Бельпаэзе",
+      "description": null
+    },
+    "104": {
+      "name": "004 — Дженнаро Бельпаэзе",
+      "description": null
+    },
+    "105": {
+      "name": "005 — Арка Ладонна",
+      "description": null
+    },
+    "106": {
+      "name": "006 — Порта Ладонна",
+      "description": "Бонус к перезарядке теряется в течение 4 уровней."
+    },
+    "107": {
+      "name": "007 — Лама Ладонна",
+      "description": null
+    },
+    "108": {
+      "name": "008 — По Ратчо",
+      "description": null
+    },
+    "109": {
+      "name": "009 — Суор Клеричи",
+      "description": "Бонус к области теряется в течение 5 уровней."
+    },
+    "110": {
+      "name": "010 — Доммарио",
+      "description": ""
+    },
+    "111": {
+      "name": "011 — Крочи Фритто",
+      "description": null
+    },
+    "112": {
+      "name": "012 — Кристина Давейн",
+      "description": ""
+    },
+    "113": {
+      "name": "013 — Пугнала Провола",
+      "description": "Получает %0 к силе каждый уровень."
+    },
+    "114": {
+      "name": "014 — Джованна Грана",
+      "description": "Получает %0 к скорости снарядов каждый уровень."
+    },
+    "115": {
+      "name": "015 — Макия Пекорина",
+      "description": "Получает %0 к продолжительности каждый уровень."
+    },
+    "116": {
+      "name": "016 — Кончетта Качотта",
+      "description": "Получает %0 к области каждый уровень."
+    },
+    "117": {
+      "name": "017 — Мортаччо",
+      "description": null
+    },
+    "118": {
+      "name": "018 — Ятта Кавалло",
+      "description": null
+    },
+    "119": {
+      "name": "019 — Бьянка Рамба",
+      "description": null
+    },
+    "120": {
+      "name": "020 — О'Соле Мио",
+      "description": null
+    },
+    "121": {
+      "name": "021 — Амбро Джо",
+      "description": "Бонус к боезапасу теряется в течение 9 уровней."
+    },
+    "122": {
+      "name": "022 — Игуана Галло Валлетто",
+      "description": ""
+    },
+    "123": {
+      "name": "023 — Дивано Тельма",
+      "description": null
+    },
+    "124": {
+      "name": "023 — Зи'Ассунта Бельпаэзе",
+      "description": "Получает %0 к силе, скорости снарядов, продолжительности и области каждый уровень."
+    },
+    "1000": {
+      "description": "Получает «Аниму Мортаччо» после 80 уровней."
+    },
+    "1001": {
+      "description": "Получает «Карроццу» после 80 уровней."
+    },
+    "1002": {
+      "description": "Получает «Ятту Дайкарин» после 80 уровней."
+    },
+    "1003": {
+      "description": "Получает «Профузьонэ Д'Аморе» после 80 уровней."
+    },
+    "1100": {
+      "description": "Получает +5 к максимальному здоровью каждый уровень."
+    },
+    "1101": {
+      "description": "Получает +1% к развитию каждый уровень."
+    },
+    "1102": {
+      "description": "Получает +1% к силе каждый уровень."
+    },
+    "1103": {
+      "description": "Получает +1% к скорости снарядов каждый уровень."
+    },
+    "1104": {
+      "description": "Получает +1% к продолжительности каждый уровень."
+    },
+    "1105": {
+      "description": "Получает %0 к области каждый уровень."
+    },
+    "1106": {
+      "description": "Даёт +1 пропуск каждый уровень."
+    },
+    "1107": {
+      "description": "Даёт +1 повтор каждый уровень."
+    },
+    "1108": {
+      "description": "Даёт +1 изгнание каждый уровень."
+    },
+    "2000": {
+      "description": "При оживлении: активирует чётки."
+    },
+    "2001": {
+      "description": "При оживлении: активирует вакуум."
+    },
+    "2002": {
+      "description": "При оживлении: активирует скорострельную пушку."
+    },
+    "2003": {
+      "description": "При оживлении: активирует часослов."
+    },
+    "2004": {
+      "description": "При оживлении: снижает текущее проклятие на 20%."
+    },
+    "2005": {
+      "description": "При оживлении: пропускает 60 секунд."
+    },
+    "3000": {
+      "description": "Получает накапливающийся бонус +1 к броне на 10 секунд каждый раз, когда вы получаете урон."
+    },
+    "3001": {
+      "description": "Получает накапливающийся бонус +1 к регенерации на 10 секунд каждый раз, когда вы получаете урон."
+    },
+    "3002": {
+      "description": "Получает 1 золотую монету, когда получает урон."
+    },
+    "3003": {
+      "description": "Когда получает урон, наносит мощный удар в ответ."
+    },
+    "4000": {
+      "description": "Критический урон +100%"
+    },
+    "4001": {
+      "description": "Увеличивает броню и регенерацию союзников рядом."
+    },
+    "4002": {
+      "description": "Враги появляются обезвреженными с вероятностью 15%."
+    },
+    "4003": {
+      "description": "Увеличивает количество появляющихся врагов на 50."
+    },
+    "4004": {
+      "description": "Отменяет 50% атак боссов."
+    },
+    "5000": {
+      "description": "=+1 к оживлению после победы над определённым числом врагов (1000, 5000, 10 000)"
+    },
+    "5001": {
+      "description": "=+1 к боезапасу после победы над определённым числом врагов (1000, 5000, 10 000)"
+    },
+    "5002": {
+      "description": "=+1 к броне после победы над определённым числом врагов (1000, 5000, 10 000)"
+    },
+    "5003": {
+      "description": "Получает 1 золотую монету после победы над определённым числом врагов (1000, 2000, 3000)"
+    },
+    "5004": {
+      "description": "Активирует Золотую лихорадку после победы над определённым числом врагов (1000, 5000, 10 000)"
+    },
+    "6000": {
+      "description": "Критический уровень здоровья: получает 40 очков к максимальному здоровью и восполняет 30% здоровья."
+    },
+    "6001": {
+      "description": "Критический уровень здоровья: активирует ндую фритту."
+    },
+    "6002": {
+      "description": "Критический уровень здоровья: +50 к броне на 10 секунд."
+    },
+    "7000": {
+      "description": "Избыточное лечение +16: активирует сорбетто."
+    },
+    "7001": {
+      "description": "Избыточное лечение +16: получает +3% к силе."
+    },
+    "7002": {
+      "description": "Избыточное лечение +16: золотой перст и Золотая лихорадка длятся на 1% дольше."
+    },
+    "7003": {
+      "description": "Избыточное лечение +16: получает +1 к повтору."
+    },
+    "8000": {
+      "description": "Создаёт источники света после получения определённого количества золота (1000, 5000, 10 000)"
+    },
+    "8001": {
+      "description": "Получает +0,5 к шипам после получения определённого количества золота (1000, 5000, 10 000)"
+    },
+    "8002": {
+      "description": "Получает +1 к оживлению после получения определённого количества золота (1000, 5000, 10 000)"
+    },
+    "8003": {
+      "description": "Получает +1 к ячейкам пассивного оружия после получения определённого количества золота (1000, 5000, 10 000)"
+    },
+    "EDITION_Gala": {
+      "description": "Добавляет бонус, характерный для сурваротов."
+    },
+    "EDITION_Foil": {
+      "description": "Добавляет случайный бонус."
+    },
+    "EDITION_Poly": {
+      "description": "Удваивает большую часть стартовых бонусов."
+    },
+    "EDITION_Holo": {
+      "description": "Этот сурварот получает 4 уровня вместо 1, когда вы повышаете уровень."
+    },
+    "EDITION_Inve": {
+      "description": "Инвертирует большинство стартовых бонусов. Сбор карт «ИНВЕ» снижает фактор риска."
+    },
+    "SURVAROT_RISK": {
+      "name": "РИСК",
+      "description": "Здоровье врагов сейчас увеличивается на %0%, а урон — на %1%."
+    },
+    "1200": {
+      "description": "Получает временное сокращение перезарядки на 100% за пропуск при повышении уровня."
+    },
+    "1201": {
+      "description": "Увеличивает максимальное здоровье и полностью восполняет здоровье за пропуск при повышении уровня."
+    },
+    "1202": {
+      "description": "Активирует чётки за пропуск при повышении уровня."
+    },
+    "1203": {
+      "description": "Активирует часослов за пропуск при повышении уровня."
+    },
+    "9999": {
+      "description": "Начинает получать %0 каждые %1 ур. (до %2 раз)."
     }
   },
   "tr": {
@@ -954,7 +3146,7 @@
     },
     "12": {
       "name": "XII - Yasak Bölge",
-      "description": "Düşmanları dondurmak patlamalara neden olur. Zamantutan'ları bulmak daha kolaydır."
+      "description": "Düşmanları dondurmak patlamalara neden olur. Zamantutan'ları bulmak daha kolaydır. Ayrıca Sorbetto bulma şansı da vardır."
     },
     "14": {
       "name": "XIV - Kristal Hapishanesi",
@@ -1023,6 +3215,280 @@
     "25": {
       "name": "III - Gizli Aforoz",
       "description": "Yiyecek toplanabilirleri, nadirliklerine veya iyileştirme değerlerine bağlı olarak rastgele istatistiklere katlanarak artan bonuslar verir."
+    },
+    "35": {
+      "name": "XIII - Deli Ayın Çağrısı",
+      "description": "Etkisi rastgele sonuçlara ve oyuncu istatistiklerine göre değişir. Şans: Hazine Sandıklarını ve Işık Kaynaklarını geliştirir. Büyüme: TP mücevherlerini geliştirir. Açgözlülük: Altın akçeleri geliştirir. Lanet: Düşmanlar Hareket Hızı ve Sağlık kazanır."
+    },
+    "40": {
+      "name": "XVIII - Viktoryen Korku",
+      "description": "Mıknatıs menzilindeki düşmanlar Açgözlülük'e dayalı hasar alır. Can başına bir kez, ölümcül hasar aldıktan sonra Lanetli Dünya Yiyen'i tetikler."
+    },
+    "27": {
+      "name": "V - Solgun Elmas Akını",
+      "description": "Listelenen silahlar en yakın düşmana nişan alır. Karakterin Fırlatılabilir Hızı'ndan etkilenen bir Bekleme Süresi bonusu kazanırlar."
+    },
+    "101": {
+      "name": "001 - Antonio Belpaese",
+      "description": null
+    },
+    "102": {
+      "name": "002 - Imelda Belpaese",
+      "description": null
+    },
+    "103": {
+      "name": "003 - Pasqualina Belpaese",
+      "description": null
+    },
+    "104": {
+      "name": "004 - Gennaro Belpaese",
+      "description": null
+    },
+    "105": {
+      "name": "005 - Arca Ladonna",
+      "description": null
+    },
+    "106": {
+      "name": "006 - Porta Ladonna",
+      "description": "Bekleme Süresi bonusu 4 seviye sonra kaybolur."
+    },
+    "107": {
+      "name": "007 - Lama Ladonna",
+      "description": null
+    },
+    "108": {
+      "name": "008 - Poe Ratcho",
+      "description": null
+    },
+    "109": {
+      "name": "009 - Suor Clerici",
+      "description": "Alan bonusu 5 seviye sonra kaybolur."
+    },
+    "110": {
+      "name": "010 - Dommario",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - Krochi Freetto",
+      "description": null
+    },
+    "112": {
+      "name": "012 - Christine Davain",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - Pugnala Provola",
+      "description": "Her seviye %0 Kuvvet kazanır."
+    },
+    "114": {
+      "name": "014 - Giovanna Grana",
+      "description": "Her seviye %0 Fırlatılabilir Hızı kazanır."
+    },
+    "115": {
+      "name": "015 - Poppea Pecorina",
+      "description": "Her seviye %0 Tesir Süresi kazanır."
+    },
+    "116": {
+      "name": "016 - Concetta Caciotta",
+      "description": "Her seviye %0 Alan kazanır."
+    },
+    "117": {
+      "name": "017 - Mortaccio",
+      "description": null
+    },
+    "118": {
+      "name": "018 - Yatta Cavallo",
+      "description": null
+    },
+    "119": {
+      "name": "019 - Bianca Ramba",
+      "description": null
+    },
+    "120": {
+      "name": "020 - O'Sole Meeo",
+      "description": null
+    },
+    "121": {
+      "name": "021 - Ambrojoe",
+      "description": "Miktar bonusu 9 seviye sonra kaybolur."
+    },
+    "122": {
+      "name": "022 - Iguana Gallo Valletto",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - Divano Thelma",
+      "description": null
+    },
+    "124": {
+      "name": "024 - Zi'Assunta Belpaese",
+      "description": "Her seviye %0 Kuvvet, Fırlatılabilir Hızı, Tesir Süresi ve Alan kazanır."
+    },
+    "1000": {
+      "description": "80 seviye atladıktan sonra Mortaccio'nun Animası'nı kazanır."
+    },
+    "1001": {
+      "description": "80 seviye atladıktan sonra Carozza! kazanır."
+    },
+    "1002": {
+      "description": "80 seviye atladıktan sonra Yatta Daikarin kazanır."
+    },
+    "1003": {
+      "description": "80 seviye atladıktan sonra Profusione D'Amore kazanır."
+    },
+    "1100": {
+      "description": "Her seviye +5 Maks Sağlık kazanır."
+    },
+    "1101": {
+      "description": "Her seviye +%1 Büyüme kazanır."
+    },
+    "1102": {
+      "description": "Her seviye +%1 Kuvvet kazanır."
+    },
+    "1103": {
+      "description": "Her seviye +%1 Fırlatılabilir Hızı kazanır."
+    },
+    "1104": {
+      "description": "Her seviye +%1 Tesir Süresi kazanır."
+    },
+    "1105": {
+      "description": "Her seviye %0 Alan kazanır."
+    },
+    "1106": {
+      "description": "Her seviye +1 Atlama kazanır."
+    },
+    "1107": {
+      "description": "Her seviye +1 Tekrar Atma kazanır."
+    },
+    "1108": {
+      "description": "Her seviye +1 Çıkarma kazanır."
+    },
+    "2000": {
+      "description": "Canlandığında bir Tespih tetikler."
+    },
+    "2001": {
+      "description": "Canlandığında bir Vakum tetikler."
+    },
+    "2002": {
+      "description": "Canlandığında bir SeriAtış tetikler."
+    },
+    "2003": {
+      "description": "Canlandığında bir Zamantutan tetikler."
+    },
+    "2004": {
+      "description": "Canlandığında mevcut Lanet'i %20 azaltır."
+    },
+    "2005": {
+      "description": "Canlandığında zamanı 60 saniye ileri sarar."
+    },
+    "3000": {
+      "description": "Her hasar aldığında 10 saniye süren +1 Zırh kazanır."
+    },
+    "3001": {
+      "description": "Her hasar aldığında 10 saniye süren +0.1 İyileşme bonusu kazanır."
+    },
+    "3002": {
+      "description": "Hasar aldığında 1 altın akçe verir."
+    },
+    "3003": {
+      "description": "Hasar aldığında yere vurarak misilleme yapar."
+    },
+    "4000": {
+      "description": "=+%100 Kritik Hasar"
+    },
+    "4001": {
+      "description": "Yakındaki müttefiklerin Zırh ve İyileşme'sini artırır."
+    },
+    "4002": {
+      "description": "Düşmanlar %15 şansla zararsız doğar."
+    },
+    "4003": {
+      "description": "Doğan düşmanların sayısını 50 artırır."
+    },
+    "4004": {
+      "description": "Patron saldırılarının %50'sini bertaraf eder."
+    },
+    "5000": {
+      "description": "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra +1 Canlanma verir"
+    },
+    "5001": {
+      "description": "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra +1 Miktar verir"
+    },
+    "5002": {
+      "description": "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra +1 Zırh verir"
+    },
+    "5003": {
+      "description": "Belli sayıda düşman [1k, 2k, 3k] öldürdükten sonra 1 altın akçe verir"
+    },
+    "5004": {
+      "description": "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra bir Altın Kasırgası başlatır."
+    },
+    "6000": {
+      "description": "HP kritik seviyedeyken 40 Maks Sağlık kazanır ve %30 Sağlık yeniler."
+    },
+    "6001": {
+      "description": "HP kritik seviyedeyken bir Nduja Fritta tetikler."
+    },
+    "6002": {
+      "description": "HP kritik seviyedeyken 10 saniye boyunca +50 Zırh kazanır."
+    },
+    "7000": {
+      "description": "=+16 miktarda aşırı iyileştiğinde bir Sorbetto tetikler."
+    },
+    "7001": {
+      "description": "=+16 miktarda aşırı iyileştiğinde +%3 Kuvvet kazanır."
+    },
+    "7002": {
+      "description": "=+16 miktarda aşırı iyileştiğinde Altın Parmak ve Altın Kasırgası %1 daha uzun sürer."
+    },
+    "7003": {
+      "description": "=+16 miktarda aşırı iyileştiğinde +1 Tekrar Atma kazanır."
+    },
+    "8000": {
+      "description": "Belli sayıda altın kazandıktan sonra [1k, 5k, 10k] ışık kaynağı oluşturur"
+    },
+    "8001": {
+      "description": "Belli sayıda altın kazandıktan sonra [1k, 5k, 10k] +0.5 Diken kazanır"
+    },
+    "8002": {
+      "description": "Belli sayıda altın kazandıktan sonra [1k, 5k, 10k] +1 Canlanma kazanır"
+    },
+    "8003": {
+      "description": "Belli sayıda altın kazandıktan sonra [5k, 10k, 20k] +1 pasif silah yuvası kazanır"
+    },
+    "EDITION_Gala": {
+      "description": "Survarot odaklı bir bonus  verir."
+    },
+    "EDITION_Foil": {
+      "description": "Rastgele bir bonus verir."
+    },
+    "EDITION_Poly": {
+      "description": "Çoğu başlama bonusunu iki katına çıkarır."
+    },
+    "EDITION_Holo": {
+      "description": "Bu Survarot, seviye atladığında 1 yerine 4 seviye yükselir."
+    },
+    "EDITION_Inve": {
+      "description": "Çoğu başlama bonusunu ters çevirir. INVE kartları biriktirmek Risk faktörünü azaltır."
+    },
+    "SURVAROT_RISK": {
+      "name": "RİSK",
+      "description": "Düşman sağlığı %0% ve Hasar %1% arttı."
+    },
+    "1200": {
+      "description": "Bir Seviye Atlama Atlandığında geçici olarak %100 Bekleme Süresi kazanır."
+    },
+    "1201": {
+      "description": "Bir Seviye Atlama Atlandığında Maks Sağlığı artırır ve sağlığı tamamen yeniler."
+    },
+    "1202": {
+      "description": "Bir Seviye Atlama Atlandığında bir Tespih tetikler."
+    },
+    "1203": {
+      "description": "Bir Seviye Atlama Atlandığında bir Zamantutan tetikler."
+    },
+    "9999": {
+      "description": "Her %1 seviyede bir %0 kazanmaya başlar (Maks %2 kez."
     }
   },
   "zh-CN": {
@@ -1068,7 +3534,7 @@
     },
     "12": {
       "name": "XII - 时空的跨越",
-      "description": "冻结敌人会引发爆炸, 更容易发现时祷怀表。"
+      "description": "冻结敌人会引发爆炸，更易寻获时祷怀表，还有可能找到索贝托。"
     },
     "14": {
       "name": "XIV - 水晶的监牢",
@@ -1137,6 +3603,280 @@
     "25": {
       "name": "III - 隐秘的恶咒",
       "description": "掉落的食物会为随机属性提供累积加成，视其稀有度或治疗量而定。"
+    },
+    "35": {
+      "name": "XIII - 疯月的呼唤",
+      "description": "效果取决于随机结果和玩家属性。运气：提升宝箱和光源。成长：提升经验水晶。贪欲：提升金币拾取。诅咒：敌人获得移动速度和生命值。"
+    },
+    "40": {
+      "name": "XVIII - 维多利亚式恐怖",
+      "description": "念力范围内的敌人受到基于贪欲的伤害。受到必死一击后触发被诅咒的灭世者，每条命仅限一次。"
+    },
+    "27": {
+      "name": "V - 苍白钻石侵入",
+      "description": "所列武器会瞄准距离最近的敌人，并获得受角色飞射速度影响的冷却时间加成。"
+    },
+    "101": {
+      "name": "001 - 安东尼奥·贝尔帕斯",
+      "description": null
+    },
+    "102": {
+      "name": "002 - 伊梅尔达·贝尔帕斯",
+      "description": null
+    },
+    "103": {
+      "name": "003 - 帕斯姱丽娜·贝尔帕斯",
+      "description": null
+    },
+    "104": {
+      "name": "004 - 雅那略·贝尔帕斯",
+      "description": null
+    },
+    "105": {
+      "name": "005 - 阿卡·拉多纳",
+      "description": null
+    },
+    "106": {
+      "name": "006 - 珀塔·拉多纳",
+      "description": "获得冷却时间加成，持续4级。"
+    },
+    "107": {
+      "name": "007 - 拉玛·拉多纳",
+      "description": null
+    },
+    "108": {
+      "name": "008 - 波·拉奇奥",
+      "description": null
+    },
+    "109": {
+      "name": "009 - 克莱里奇修女",
+      "description": "获得攻击范围加成，持续5级。"
+    },
+    "110": {
+      "name": "010 - 多马利奥",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - 柯洛奇·弗里厄多",
+      "description": null
+    },
+    "112": {
+      "name": "012 - 克莉丝汀·达文因",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - 普格纳拉·普罗沃拉",
+      "description": "每一级，力量+%0。"
+    },
+    "114": {
+      "name": "014 - 乔万娜·格拉纳",
+      "description": "每一级，飞射速度+%0。"
+    },
+    "115": {
+      "name": "015 - 波佩阿·佩蔻丽娜",
+      "description": "每一级，持续时间+%0。"
+    },
+    "116": {
+      "name": "016 - 康雀妲·卡西奥塔",
+      "description": "每一级，攻击范围+%0。"
+    },
+    "117": {
+      "name": "017 - 死东西",
+      "description": null
+    },
+    "118": {
+      "name": "018 - 雅塔熊",
+      "description": null
+    },
+    "119": {
+      "name": "019 - 白安卡·兰巴",
+      "description": null
+    },
+    "120": {
+      "name": "020 - “小太阳”米奥",
+      "description": null
+    },
+    "121": {
+      "name": "021 - 安布罗乔",
+      "description": "获得发射数量加成，持续9级，逐级减弱。"
+    },
+    "122": {
+      "name": "022 - 伊瓜纳·加洛·瓦勒托",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - 迪瓦诺·泰尔玛",
+      "description": null
+    },
+    "124": {
+      "name": "024 - 阿孙塔·贝尔帕斯姑妈",
+      "description": "每一级，力量、飞射速度、持续时间和攻击范围+%0。"
+    },
+    "1000": {
+      "description": "80级后，获得“死东西”之魂。"
+    },
+    "1001": {
+      "description": "80级后，获得“火车！”。"
+    },
+    "1002": {
+      "description": "80级后，获得雅塔大华轮。"
+    },
+    "1003": {
+      "description": "80级后，获得爱的盛放。"
+    },
+    "1100": {
+      "description": "每升一级，生命值上限+5。"
+    },
+    "1101": {
+      "description": "每升一级，成长+1%。"
+    },
+    "1102": {
+      "description": "每升一级，力量+1%。"
+    },
+    "1103": {
+      "description": "每升一级，飞射速度+1%。"
+    },
+    "1104": {
+      "description": "每升一级，持续时间+1%。"
+    },
+    "1105": {
+      "description": "每升一级，攻击范围+%0。"
+    },
+    "1106": {
+      "description": "每升一级，跳过+1。"
+    },
+    "1107": {
+      "description": "每升一级，重选+1。"
+    },
+    "1108": {
+      "description": "每升一级，排除+1。"
+    },
+    "2000": {
+      "description": "复活时：触发玫瑰念珠。"
+    },
+    "2001": {
+      "description": "复活时：触发聚星宝珠。"
+    },
+    "2002": {
+      "description": "复活时：触发速射。"
+    },
+    "2003": {
+      "description": "复活时：触发时祷怀表。"
+    },
+    "2004": {
+      "description": "复活时：当前诅咒-20%。"
+    },
+    "2005": {
+      "description": "复活时：跳过60秒。"
+    },
+    "3000": {
+      "description": "每当受到伤害时，防御+1，持续10秒，可叠加。"
+    },
+    "3001": {
+      "description": "每当受到伤害时，恢复+0.1，持续10秒，可叠加。"
+    },
+    "3002": {
+      "description": "受到伤害时，金币+1。"
+    },
+    "3003": {
+      "description": "受到伤害时，使用地面猛击进行反击。"
+    },
+    "4000": {
+      "description": "暴击伤害+100%。"
+    },
+    "4001": {
+      "description": "增加附近盟友的防御与恢复。"
+    },
+    "4002": {
+      "description": "敌人有15%的几率生成为去齿状态。"
+    },
+    "4003": {
+      "description": "敌人生成数量+50。"
+    },
+    "4004": {
+      "description": "抵消头目50%的攻击。"
+    },
+    "5000": {
+      "description": "在击败一定数量的敌人（1000、5000、10000）后，复活+1。"
+    },
+    "5001": {
+      "description": "在击败一定数量的敌人（1000、5000、10000）后，发射数量+1。"
+    },
+    "5002": {
+      "description": "在击败一定数量的敌人（1000、5000、10000）后，防御+1。"
+    },
+    "5003": {
+      "description": "在击败一定数量的敌人（1000、2000、3000）后，金币+1。"
+    },
+    "5004": {
+      "description": "在击败一定数量的敌人（1000、5000、10000）后，开启一轮淘金狂潮。"
+    },
+    "6000": {
+      "description": "濒死时：生命值上限+40，生命值+30%。"
+    },
+    "6001": {
+      "description": "濒死时：触发辣香肠酱。"
+    },
+    "6002": {
+      "description": "濒死时：防御+50，持续10秒。"
+    },
+    "7000": {
+      "description": "过度治疗+16时：触发索贝托。"
+    },
+    "7001": {
+      "description": "过度治疗+16时：力量+3%。"
+    },
+    "7002": {
+      "description": "过度治疗+16时：金手指和淘金狂潮持续时间+1%。"
+    },
+    "7003": {
+      "description": "过度治疗+16时：重选+1。"
+    },
+    "8000": {
+      "description": "在获得一定数量的金币（1000、5000、10000）后，生成光源。"
+    },
+    "8001": {
+      "description": "在获得一定数量的金币（1000、5000、10000）后，荆棘+0.5。"
+    },
+    "8002": {
+      "description": "在获得一定数量的金币（1000、5000、10000）后，复活+1。"
+    },
+    "8003": {
+      "description": "在获得一定数量的金币（5000、10000、20000）后，被动武器栏位+1。"
+    },
+    "EDITION_Gala": {
+      "description": "获得一项幸存塔罗牌加成。"
+    },
+    "EDITION_Foil": {
+      "description": "获得一项随机加成。"
+    },
+    "EDITION_Poly": {
+      "description": "大多数开局加成的效果翻倍。"
+    },
+    "EDITION_Holo": {
+      "description": "此幸存塔罗牌在你升级时，等级+4（而非+1）。"
+    },
+    "EDITION_Inve": {
+      "description": "反转大多数开局加成。积累反色牌时，降低风险系数。"
+    },
+    "SURVAROT_RISK": {
+      "name": "风险",
+      "description": "敌人当前血量+%0%，伤害+%1%。"
+    },
+    "1200": {
+      "description": "跳过一次升级时，获得100%的冷却时间临时缩减。"
+    },
+    "1201": {
+      "description": "跳过一次升级时，提高生命值上限并回满生命值。"
+    },
+    "1202": {
+      "description": "跳过一次升级时，触发玫瑰念珠效果。"
+    },
+    "1203": {
+      "description": "跳过一次升级时，触发时祷怀表效果。"
+    },
+    "9999": {
+      "description": "每%1级，+%0（最多%2次）。"
     }
   },
   "ja": {
@@ -1182,7 +3922,7 @@
     },
     "12": {
       "name": "XII - 時の果て",
-      "description": "敵を動けなくさせると爆発が発生する。 懐中時計が出現しやすくなる。"
+      "description": "敵の動きを止めると爆発が発生する。懐中時計が出現しやすくなる。ソルベット出現のチャンスもあり。"
     },
     "14": {
       "name": "XIV - 石英の牢",
@@ -1251,6 +3991,280 @@
     "25": {
       "name": "III - 隠された破門",
       "description": "食べ物のピックアップは、レア度や回復値に基づいて、いづれかのステータスに累積ボーナスを付与する。"
+    },
+    "35": {
+      "name": "XIII - 狂い月の呼び声",
+      "description": "効果はランダムな結果およびプレイヤーのステータスによって異なる。運：宝箱と光源の効果を強化する。 成長効率：XPクリスタルを強化する。 欲深さ：金貨の獲得量を増加させる。呪い：敵の素早さとHPが増加。"
+    },
+    "40": {
+      "name": "XVIII -ビクトリア朝ホラー",
+      "description": "回収範囲内の敵は、欲深さに応じたダメージを受ける。HPが0になる前に致命傷を受けると、1回限りで呪われた世界を喰らう者が発動する。"
+    },
+    "27": {
+      "name": "V - ペール・ダイヤモンドの侵攻",
+      "description": "リストに表示されている武器は、最も近い敵を標的とする。さらに、キャラクターの弾速に応じたクールダウンボーナスを獲得する。"
+    },
+    "101": {
+      "name": "001 - アントニオ・ベルペーゼ",
+      "description": null
+    },
+    "102": {
+      "name": "002 - イメルダ・ベルペーゼ",
+      "description": null
+    },
+    "103": {
+      "name": "003 - パスカリーナ・ベルペーゼ",
+      "description": null
+    },
+    "104": {
+      "name": "004 - ジェンナーロ・ベルペーゼ",
+      "description": null
+    },
+    "105": {
+      "name": "005 - アルカ・ラドンナ",
+      "description": null
+    },
+    "106": {
+      "name": "006 - ポルタ・ラドンナ",
+      "description": "4レベルにかけてクールダウンボーナスを失う。"
+    },
+    "107": {
+      "name": "007 - ラマ・ラドンナ",
+      "description": null
+    },
+    "108": {
+      "name": "008 - ポー・ラッチョ",
+      "description": null
+    },
+    "109": {
+      "name": "009 - シスター・クレーリチ",
+      "description": "5レベルにかけて攻撃範囲ボーナスを失う。"
+    },
+    "110": {
+      "name": "010 - ドンマリオ",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - クロチ・フリート",
+      "description": null
+    },
+    "112": {
+      "name": "012 - クリスティーネ・ダヴェイン",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - プニャーラ・プローヴォラ",
+      "description": "1レベルごとに攻撃力+%0。"
+    },
+    "114": {
+      "name": "014 - ジオヴァーナ・グラナ",
+      "description": "1レベルごとに発射物の弾速+%0。"
+    },
+    "115": {
+      "name": "015 - ポピア・ペコリーナ",
+      "description": "1レベルごとに効果時間+%0。"
+    },
+    "116": {
+      "name": "016 - コンチェッタ・カショッタ",
+      "description": "1レベルごとに攻撃範囲+%0。"
+    },
+    "117": {
+      "name": "017 - モルタッチオ",
+      "description": null
+    },
+    "118": {
+      "name": "018 - ヤッタ・カヴァロ",
+      "description": null
+    },
+    "119": {
+      "name": "019 - ビアンカ・ランバ",
+      "description": null
+    },
+    "120": {
+      "name": "020 - オ・ソレ・ミーオ",
+      "description": null
+    },
+    "121": {
+      "name": "021 - アンブロジョー",
+      "description": "弾数効果は9レベルにわたって失われる。"
+    },
+    "122": {
+      "name": "022 - イグアナ・ガロ・ヴァレット",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - ディヴァノ・テルマ",
+      "description": null
+    },
+    "124": {
+      "name": "024 - ジ・アスンタ・ベルペーゼ",
+      "description": "1レベルごとに攻撃力、発射物弾速、効果時間、攻撃範囲+%0。"
+    },
+    "1000": {
+      "description": "80レベル後にモルタッチョのアニマを獲得する。"
+    },
+    "1001": {
+      "description": "80レベル後にカロッツァ！を獲得する。"
+    },
+    "1002": {
+      "description": "80レベル後にヤッタ・ダイカリンを獲得する。"
+    },
+    "1003": {
+      "description": "80レベル後にあふれる愛を獲得する。"
+    },
+    "1100": {
+      "description": "1レベルごとに最大HP+5。"
+    },
+    "1101": {
+      "description": "1レベルごとに成長効率+1%。"
+    },
+    "1102": {
+      "description": "1レベルごとに攻撃力+1%。"
+    },
+    "1103": {
+      "description": "1レベルごとに発射物弾速+1%。"
+    },
+    "1104": {
+      "description": "1レベルごとに効果時間+1%。"
+    },
+    "1105": {
+      "description": "1レベルごとに攻撃範囲を%0獲得。"
+    },
+    "1106": {
+      "description": "1レベルごとにスキップ+1。"
+    },
+    "1107": {
+      "description": "1レベルごとにリロール+1。"
+    },
+    "1108": {
+      "description": "1レベルごとに削除+1。"
+    },
+    "2000": {
+      "description": "復活時：ロザリオを発動。"
+    },
+    "2001": {
+      "description": "復活時：吸引のオーブを発動。"
+    },
+    "2002": {
+      "description": "復活時：高速連射を発動。"
+    },
+    "2003": {
+      "description": "復活時：懐中時計を発動。"
+    },
+    "2004": {
+      "description": "復活時：現在の呪い-20%。"
+    },
+    "2005": {
+      "description": "復活時： 60秒間スキップする。"
+    },
+    "3000": {
+      "description": "ダメージを受けるたびに、スタックする防御力ボーナス+1。"
+    },
+    "3001": {
+      "description": "ダメージを受けるたびに、スタックする10秒間の回復力ボーナス+0.1。"
+    },
+    "3002": {
+      "description": "ダメージを受けると、金貨1枚を付与。"
+    },
+    "3003": {
+      "description": "ダメージを受けると、グラウンドスラムで報復する。"
+    },
+    "4000": {
+      "description": "クリティカルダメージ+100%"
+    },
+    "4001": {
+      "description": "周辺の味方の防御力と回復力を強化する。"
+    },
+    "4002": {
+      "description": "敵は15%の確率で牙抜き状態で出現する。"
+    },
+    "4003": {
+      "description": "敵の出現数が50増加。"
+    },
+    "4004": {
+      "description": "ボスによる攻撃の50%をキャンセルする。"
+    },
+    "5000": {
+      "description": "一定数の敵（1千、5千、1万）を倒した後、復活+1"
+    },
+    "5001": {
+      "description": "一定数の敵（1千、5千、1万）を倒した後、発射弾数+1"
+    },
+    "5002": {
+      "description": "= 一定数の敵（1千、5千、1万）を倒した後、防御力+1"
+    },
+    "5003": {
+      "description": "一定数の敵（1千、2千、3千）を倒した後、金貨を1枚付与する。"
+    },
+    "5004": {
+      "description": "一定数の敵（1千、5千、1万）を倒した後、ゴールドフィーバーを発動する。"
+    },
+    "6000": {
+      "description": "HP-クリティカル：最大HP+40、HPを30%回復。"
+    },
+    "6001": {
+      "description": "HP-クリティカル：ンドゥヤ・フリッタを発動。"
+    },
+    "6002": {
+      "description": "HP-クリティカル：10秒間防御力+50。"
+    },
+    "7000": {
+      "description": "オーバーヒール+16：ソルベットを発動。"
+    },
+    "7001": {
+      "description": "オーバーヒール+16：攻撃力+3%。"
+    },
+    "7002": {
+      "description": "オーバーヒール+16 ：黄金の指とゴールドフィーバーの持続時間+1%。"
+    },
+    "7003": {
+      "description": "オーバーヒール+16：リロール+1。"
+    },
+    "8000": {
+      "description": "一定量の金貨（1千、5千、1万）を獲得した後、光源を出現させる。"
+    },
+    "8001": {
+      "description": "一定量の金貨（1千、5千、1万）を獲得した後、イバラ+0.5。"
+    },
+    "8002": {
+      "description": "一定量の金貨（1千、5千、1万）を獲得した後、復活+1。"
+    },
+    "8003": {
+      "description": "一定量の金貨（5千、1万、2万）を獲得した後、パッシブな武器スロット+1。"
+    },
+    "EDITION_Gala": {
+      "description": "サバイバーカード特化ボーナスを追加する。"
+    },
+    "EDITION_Foil": {
+      "description": "ランダムなボーナスを追加する。"
+    },
+    "EDITION_Poly": {
+      "description": "開始ボーナスの大半が2倍になる。"
+    },
+    "EDITION_Holo": {
+      "description": "自分がレベルアップすると、このサバイバーカードは1レベルではなく4レベル獲得する。"
+    },
+    "EDITION_Inve": {
+      "description": "開始ボーナスの大半を反転させる。 反転カードが蓄積すると、リスク要因が減少する。"
+    },
+    "SURVAROT_RISK": {
+      "name": "リスク",
+      "description": "敵HPが現在+%0%、そしてダメージ+%1%。"
+    },
+    "1200": {
+      "description": "レベルアップをスキップすると、100%のクールダウン減少を一時的に獲得する。"
+    },
+    "1201": {
+      "description": "レベルアップをスキップすると、最大HPが増加し、満タンまで回復する。"
+    },
+    "1202": {
+      "description": "レベルアップをスキップすると、ロザリオが発動する。"
+    },
+    "1203": {
+      "description": "レベルアップをスキップすると、懐中時計が発動する。"
+    },
+    "9999": {
+      "description": "%1レベルごとに%0を獲得し始める（最大%2回まで）。"
     }
   },
   "ko": {
@@ -1365,6 +4379,280 @@
     "25": {
       "name": "III - 숨겨진 혐오감",
       "description": "식량을 획득하면 희귀도 또는 치유량에 따라 무작위 능력치에 누적 보너스를 부여합니다."
+    },
+    "35": {
+      "name": "XIII - 미친 달의 부름",
+      "description": "다양한 효과가 있는 구역을 생성합니다. 행운: 보물상자와 광원 성능이 향상됩니다. 성장: XP 보석 획득량이 증가합니다. 탐욕: 금화 획득량이 증가합니다. 저주: 적의 체력이 25% 감소합니다. 야생: 이전의 구역을 모두 발동합니다."
+    },
+    "40": {
+      "name": "XVIII - 빅토리아 풍 호러",
+      "description": "자석 범위 안에 있는 적이 탐욕에 기반하여 피해를 받습니다. 치명적인 피해를 받으면 수명당 한 번씩 세계를 먹어치우는 자를 발동합니다."
+    },
+    "27": {
+      "name": "V - 창백한 다이아몬드의 급습",
+      "description": "나열된 무기가 가장 가까운 적을 조준합니다. 적을 처치하면 한 번 더 활성화됩니다."
+    },
+    "101": {
+      "name": "001 - 안토니오 벨파에제",
+      "description": null
+    },
+    "102": {
+      "name": "002 - 이멜다 벨파에제",
+      "description": null
+    },
+    "103": {
+      "name": "003 - 파스콸리나 벨파에제",
+      "description": null
+    },
+    "104": {
+      "name": "004 - 젠나로 벨파에제",
+      "description": null
+    },
+    "105": {
+      "name": "005 - 아르카 라돈나",
+      "description": null
+    },
+    "106": {
+      "name": "006 - 포르타 라돈나",
+      "description": "재사용 대기 시간 보너스를 4레벨에 걸쳐 상실합니다."
+    },
+    "107": {
+      "name": "007 - 라마 라돈나",
+      "description": null
+    },
+    "108": {
+      "name": "008 - 포 랏초",
+      "description": null
+    },
+    "109": {
+      "name": "009 - 시스터 클레리씨",
+      "description": "공격 범위 보너스를 5레벨에 걸쳐 상실합니다."
+    },
+    "110": {
+      "name": "010 - 돔마리오",
+      "description": ""
+    },
+    "111": {
+      "name": "011 - 크로치 프리토",
+      "description": null
+    },
+    "112": {
+      "name": "012 - 크리스틴 다베인",
+      "description": ""
+    },
+    "113": {
+      "name": "013 - 푸날라 프로볼라",
+      "description": "레벨마다 피해량이 % 0 증가합니다."
+    },
+    "114": {
+      "name": "014 - 지오반나 그라나",
+      "description": "레벨마다 투사체 속도가 % 0 증가합니다."
+    },
+    "115": {
+      "name": "015 - 포페아 페코리나",
+      "description": "레벨마다 지속시간이 % 0 증가합니다."
+    },
+    "116": {
+      "name": "016 - 콘체타 카치오타",
+      "description": "레벨마다 공격 범위가 % 0 증가합니다."
+    },
+    "117": {
+      "name": "017 - 모르타치오",
+      "description": null
+    },
+    "118": {
+      "name": "018 - 야타 카발로",
+      "description": null
+    },
+    "119": {
+      "name": "019 - 비앙카 람바",
+      "description": null
+    },
+    "120": {
+      "name": "020 - 오'솔레 미오",
+      "description": null
+    },
+    "121": {
+      "name": "021 - 암브로조",
+      "description": "9레벨이 넘어가면 금전 보너스를 잃습니다."
+    },
+    "122": {
+      "name": "022 - 이구아나 갈로 발레토",
+      "description": ""
+    },
+    "123": {
+      "name": "023 - 디바노 델마",
+      "description": null
+    },
+    "124": {
+      "name": "024 - 지아순타 벨파에제",
+      "description": "레벨마다 공격력, 투사체 속도, 지속시간, 공격 범위가 %0 증가합니다."
+    },
+    "1000": {
+      "description": "80레벨이 되면 모르타치오의 아니마를 얻습니다."
+    },
+    "1001": {
+      "description": "80레벨이 되면 카로자!를 얻습니다."
+    },
+    "1002": {
+      "description": "80레벨 후에 야타 다이카린을 얻습니다."
+    },
+    "1003": {
+      "description": "80레벨 이후 넘치는 애정을 얻습니다."
+    },
+    "1100": {
+      "description": "레벨마다 최대 HP가 5씩 증가합니다."
+    },
+    "1101": {
+      "description": "레벨마다 성장이 1%씩 증가합니다."
+    },
+    "1102": {
+      "description": "레벨마다 피해량이 1%씩 증가합니다."
+    },
+    "1103": {
+      "description": "레벨마다 투사체 속도가 1%씩 증가합니다."
+    },
+    "1104": {
+      "description": "레벨마다 지속 시간이 1%씩 증가합니다."
+    },
+    "1105": {
+      "description": "레벨마다 공격 범위가 1%씩 증가합니다."
+    },
+    "1106": {
+      "description": "레벨마다 건너뛰기가 1씩 증가합니다."
+    },
+    "1107": {
+      "description": "레벨마다 새로고침이 1씩 증가합니다."
+    },
+    "1108": {
+      "description": "레벨마다 지우기가 1씩 증가합니다."
+    },
+    "2000": {
+      "description": "부활 시: 묵주를 발동합니다."
+    },
+    "2001": {
+      "description": "부활 시: 흡입기를 발동합니다."
+    },
+    "2002": {
+      "description": "부활 시: 래피드파이어를 발동합니다."
+    },
+    "2003": {
+      "description": "부활 시: 회중시계를 발동합니다."
+    },
+    "2004": {
+      "description": "부활 시: 현재 저주를 20% 감소시킵니다."
+    },
+    "2005": {
+      "description": "부활 시: 60초를 건너뜁니다."
+    },
+    "3000": {
+      "description": "피해를 입을 때마다 10초간 방어력 보너스가 +1됩니다."
+    },
+    "3001": {
+      "description": "피해를 입을 때마다 10초간 회복력 보너스가 +0.1됩니다."
+    },
+    "3002": {
+      "description": "피해를 입으면 금화 1개를 얻습니다."
+    },
+    "3003": {
+      "description": "피해를 입으면 땅을 내리쳐 반격합니다."
+    },
+    "4000": {
+      "description": "치명타 피해량 +100%"
+    },
+    "4001": {
+      "description": "주변 캐릭터의 방어력과 회복력이 증가합니다."
+    },
+    "4002": {
+      "description": "적들이 15% 확률로 송곳니가 없는 상태로 생성됩니다."
+    },
+    "4003": {
+      "description": "적의 생성 수량이 50 만큼 증가합니다."
+    },
+    "4004": {
+      "description": "보스의 공격을 50% 취소합니다."
+    },
+    "5000": {
+      "description": "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 부활+1"
+    },
+    "5001": {
+      "description": "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 수량 +1"
+    },
+    "5002": {
+      "description": "= 적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 방어력+1"
+    },
+    "5003": {
+      "description": "적을 일정 수[1k, 2k, 3k] 만큼 물리친 후 금화를 하나 얻습니다."
+    },
+    "5004": {
+      "description": "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 황금의 피버타임이 시작됩니다."
+    },
+    "6000": {
+      "description": "HP 위기: 최대 HP가 40 증가하고 체력이 30% 회복됩니다."
+    },
+    "6001": {
+      "description": "HP 위기: 은두자 프리타를 발동합니다."
+    },
+    "6002": {
+      "description": "HP 위기: 10초 동안 방어력이 +50됩니다."
+    },
+    "7000": {
+      "description": "=+16 과잉 치유: 소르베토를 발동합니다."
+    },
+    "7001": {
+      "description": "=+16 과잉 치유: 피해량이 +3%됩니다."
+    },
+    "7002": {
+      "description": "=+16 과잉 치유: 골드 핑거와 황금의 피버타임의 지속 시간이 1% 증가합니다."
+    },
+    "7003": {
+      "description": "=+16 과잉 치유: 새로고침 가능 횟수가 +1됩니다."
+    },
+    "8000": {
+      "description": "골드를 일정량[1k, 5k, 10k] 획득한 후 광원을 생성합니다"
+    },
+    "8001": {
+      "description": "골드를 일정량[1k, 5k, 10k] 획득한 후 가시가 +0.5됩니다"
+    },
+    "8002": {
+      "description": "골드를 일정량[1k, 5k, 10k] 획득한 후 부활이 +1됩니다"
+    },
+    "8003": {
+      "description": "골드를 일정량[1k, 5k, 10k] 획득한 후 패시브 무기 슬롯이 +1됩니다"
+    },
+    "EDITION_Gala": {
+      "description": "서바로트 전용 보너스를 추가합니다."
+    },
+    "EDITION_Foil": {
+      "description": "무작위 보너스를 추가합니다."
+    },
+    "EDITION_Poly": {
+      "description": "시작 보너스를 대부분 두 배로 늘립니다."
+    },
+    "EDITION_Holo": {
+      "description": "레벨업하면 이 서바로트는 1레벨 대신 4레벨을 얻습니다."
+    },
+    "EDITION_Inve": {
+      "description": "시작 보너스를 대부분 반전시킵니다. INVE 카드를 누적하면 위험 요소가 감소합니다."
+    },
+    "SURVAROT_RISK": {
+      "name": "위험",
+      "description": "현재 적의 체력이 %0%, 피해가 %1% 증가했습니다."
+    },
+    "1200": {
+      "description": "레벨 업을 건너뛸 때 일시적으로 쿨타임이 100% 감소합니다."
+    },
+    "1201": {
+      "description": "레벨 업을 건너뛸 때 최대 체력이 증가하고 HP를 완전히 회복합니다."
+    },
+    "1202": {
+      "description": "레벨 업을 건너뛸 때 묵주를 발동합니다."
+    },
+    "1203": {
+      "description": "레벨 업을 건너뛸 때 회중시계를 발동합니다."
+    },
+    "9999": {
+      "description": "%1레벨마다 %0(을)를 획득하기 시작합니다 (최대 %2회)."
     }
   },
   "zh-TW": {
@@ -1410,7 +4698,7 @@
     },
     "12": {
       "name": "XII－時空的跨越",
-      "description": "凍結敵人時會引發爆炸。時禱懷錶的出現機率會有所提高。"
+      "description": "凍結敵人時會引發爆炸。時禱懷錶的出現機率會有所提高。也有機會能夠找到義式冰淇淋。"
     },
     "14": {
       "name": "XIV－水晶的監牢",
@@ -1479,6 +4767,280 @@
     "25": {
       "name": "III－無形的惡意",
       "description": "在拾取食物時，根據其稀有度或治療數值的高低來為隨機屬性帶來累積加成。"
+    },
+    "35": {
+      "name": "XIII－瘋狂之月的呼喚",
+      "description": "確切效果取決於隨機結果與玩家角色數值。運氣：強化寶箱以及光源效果。成長：提升經驗值水晶效果。貪欲：提升金幣掉落物品效果。詛咒：敵人獲得移動速度和生命值的加成。"
+    },
+    "40": {
+      "name": "XVIII－維多利亞恐怖",
+      "description": "磁鐵範圍內的敵人會受到取決於貪欲高低的傷害。在受到致命傷害後，觸發「受詛咒的滅世者」效果，每條命限發動一次。"
+    },
+    "27": {
+      "name": "V－蒼白鑽石入侵",
+      "description": "表列中的武器會瞄準最靠近的敵人。這些武器能夠獲得一個取決於角色投射物速度高低的冷卻時間加成。"
+    },
+    "101": {
+      "name": "001－安東尼奧・貝爾帕斯",
+      "description": null
+    },
+    "102": {
+      "name": "002－伊梅爾達．貝爾帕斯",
+      "description": null
+    },
+    "103": {
+      "name": "003－帕斯夸麗娜．貝爾帕斯",
+      "description": null
+    },
+    "104": {
+      "name": "004－雅那略．貝爾帕斯",
+      "description": null
+    },
+    "105": {
+      "name": "005－阿卡．拉多納",
+      "description": null
+    },
+    "106": {
+      "name": "006－珀塔．拉多納",
+      "description": "在升過 4 級以後，冷卻時間加成便會消失。"
+    },
+    "107": {
+      "name": "007－拉瑪．拉多納",
+      "description": null
+    },
+    "108": {
+      "name": "008－波伊．拉奇奧",
+      "description": null
+    },
+    "109": {
+      "name": "009－克萊里奇修女",
+      "description": "在升過 5 級以後，效果範圍加成便會消失。"
+    },
+    "110": {
+      "name": "010－多馬利歐",
+      "description": ""
+    },
+    "111": {
+      "name": "011－柯洛奇．佛里厄多",
+      "description": null
+    },
+    "112": {
+      "name": "012－克莉絲汀．達文因",
+      "description": ""
+    },
+    "113": {
+      "name": "013－普格納拉．普羅沃拉",
+      "description": "每升 1 級，力量便會提高 %0。"
+    },
+    "114": {
+      "name": "014－喬萬娜．格拉納",
+      "description": "每升 1 級，投射物速度便會加快 %0。"
+    },
+    "115": {
+      "name": "015－波佩阿．佩蔻麗娜",
+      "description": "每升 1 級，效果持續時間便會增加 %0。"
+    },
+    "116": {
+      "name": "016－康雀妲．凱西奧塔",
+      "description": "每升 1 級，效果範圍便會擴大 %0。"
+    },
+    "117": {
+      "name": "017－死東西",
+      "description": null
+    },
+    "118": {
+      "name": "018－雅塔熊",
+      "description": null
+    },
+    "119": {
+      "name": "019－白安卡．蘭巴",
+      "description": null
+    },
+    "120": {
+      "name": "020－小太陽米奧",
+      "description": null
+    },
+    "121": {
+      "name": "021－安布羅喬爵士",
+      "description": "數量加成會在 9 個等級後消失。"
+    },
+    "122": {
+      "name": "022－伊瓜納．加洛．瓦勒托",
+      "description": ""
+    },
+    "123": {
+      "name": "023－迪瓦諾．泰爾瑪",
+      "description": null
+    },
+    "124": {
+      "name": "024－齊亞桑塔．貝爾帕斯",
+      "description": "每升 1 級，力量、投射物速度、持續時間以及效果範圍便會提高/擴大 %0。"
+    },
+    "1000": {
+      "description": "在達到 80 級以後，獲得死東西之魂。"
+    },
+    "1001": {
+      "description": "在達到 80 級以後，獲得卡羅札火車！"
+    },
+    "1002": {
+      "description": "在達到 80 級以後，獲得雅塔大華輪。"
+    },
+    "1003": {
+      "description": "在達到 80 級以後，獲得濃情蜜意。"
+    },
+    "1100": {
+      "description": "每升 1 級，最大生命值 +5。"
+    },
+    "1101": {
+      "description": "每升 1 級，成長效益 +1%。"
+    },
+    "1102": {
+      "description": "每升 1 級，力量 +1%。"
+    },
+    "1103": {
+      "description": "每升 1 級，投射物飛行速度 +1%。"
+    },
+    "1104": {
+      "description": "每升 1 級，效果持續時間 +1%。"
+    },
+    "1105": {
+      "description": "每升 1 級，便可獲得 %0 的效果範圍加成。"
+    },
+    "1106": {
+      "description": "每升 1 級，便可獲得 +1 次的「跳過」額度。"
+    },
+    "1107": {
+      "description": "每升 1 級，便可獲得 +1 次的「重骰」額度。"
+    },
+    "1108": {
+      "description": "每升 1 級，便可獲得 +1 次的「滅除」額度。"
+    },
+    "2000": {
+      "description": "復活時：觸發一次「玫瑰念珠」的效果。"
+    },
+    "2001": {
+      "description": "復活時：觸發一次「聚星寶珠」的效果。"
+    },
+    "2002": {
+      "description": "復活時：觸發一次「快速射擊」的效果。"
+    },
+    "2003": {
+      "description": "復活時：觸發一次「時禱懷錶」的效果。"
+    },
+    "2004": {
+      "description": "復活時：將當下的詛咒數值降低 20%。"
+    },
+    "2005": {
+      "description": "復活時：時間跳過 60 秒。"
+    },
+    "3000": {
+      "description": "每受到一次傷害，便會獲得一個可疊加的 +1 護甲加成（每層的效果持續時間：10 秒）。"
+    },
+    "3001": {
+      "description": "每受到一次傷害，便會獲得一個可疊加的 +0.1 點生命恢復量加成（每層的效果持續時間：10 秒）。"
+    },
+    "3002": {
+      "description": "受到傷害時，獲得 1 枚金幣。"
+    },
+    "3003": {
+      "description": "受到傷害時，以地面重擊展開反擊。"
+    },
+    "4000": {
+      "description": "暴擊傷害 +100%"
+    },
+    "4001": {
+      "description": "強化附近盟友的護甲值和生命恢復量。"
+    },
+    "4002": {
+      "description": "有 15% 的機率能夠在敵人重生時消除其威脅。"
+    },
+    "4003": {
+      "description": "敵人的生成數量增加 50 個。"
+    },
+    "4004": {
+      "description": "免除 50% 魔王敵人的攻擊。"
+    },
+    "5000": {
+      "description": "在擊敗足夠數量的敵人後，可獲得 +1 次的復活機會 [1,000 個、5,000 個、10,000 個]"
+    },
+    "5001": {
+      "description": "在擊敗足夠數量的敵人後，可獲得 +1 個投射物數量加成 [1,000 個、5,000 個、10,000 個]"
+    },
+    "5002": {
+      "description": "在擊敗足夠數量的敵人後，可獲得 +1 點的護甲加成 [1,000、5,000、10,000]"
+    },
+    "5003": {
+      "description": "在擊敗足夠數量的敵人後，可獲得 1 枚金幣 [1,000 個、2,000 個、3,000 個]"
+    },
+    "5004": {
+      "description": "在擊敗足夠數量的敵人後，可觸發一次「淘金狂潮」的效果 [1,000 個、5,000 個、10,000 個]"
+    },
+    "6000": {
+      "description": "生命值過低時：獲得 40 點的最大生命值並恢復 30% 生命值。"
+    },
+    "6001": {
+      "description": "生命值過低時：觸發一次「義式辣香腸薄餅」的效果。"
+    },
+    "6002": {
+      "description": "生命值過低時：+50 點護甲值，效果持續 10 秒。"
+    },
+    "7000": {
+      "description": "超額治療 +16 點：觸發一次「雪酪」的效果。"
+    },
+    "7001": {
+      "description": "超額治療 +16 點：獲得 +3% 的力量加成。"
+    },
+    "7002": {
+      "description": "超額治療 +16 點：「金手指」和「淘金狂潮」的效果持續時間延長 1%。"
+    },
+    "7003": {
+      "description": "超額治療 +16 點：獲得 +1 次的重骰機會。"
+    },
+    "8000": {
+      "description": "在獲得了一定數量的金幣後，可生成光源 [1,000 個、5,000 個、10,000 個]"
+    },
+    "8001": {
+      "description": "在獲得了一定數量的金幣後，可獲得 +0.5 點的荊棘傷害加成 [1,000 個、5,000 個、10,000 個]"
+    },
+    "8002": {
+      "description": "在獲得了一定數量的金幣後，可獲得 +1 次的復活機會 [1,000 個、5,000 個、10,000 個]"
+    },
+    "8003": {
+      "description": "在獲得了一定數量的金幣後，可增加 +1 個被動武器欄位 [5,000 個、10,000 個、20,000 個]"
+    },
+    "EDITION_Gala": {
+      "description": "獲得一個生存牌專屬的加成效益。"
+    },
+    "EDITION_Foil": {
+      "description": "隨機獲得一個加成效益。"
+    },
+    "EDITION_Poly": {
+      "description": "讓大多數的起始加成效果加倍。"
+    },
+    "EDITION_Holo": {
+      "description": "在你升級的同時，這張生存牌會從原本的升 1 級改為升 4 級。"
+    },
+    "EDITION_Inve": {
+      "description": "反轉大多數的起始加成效益。收集「反轉」（INVE）卡牌可降低風險係數。"
+    },
+    "SURVAROT_RISK": {
+      "name": "風險",
+      "description": "敵人的生命值目前有提高了 %0%，傷害則是提高了 %1%。"
+    },
+    "1200": {
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，獲得暫時性的 100% 冷卻時間減免效益。"
+    },
+    "1201": {
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，提高最大生命值並完全恢復生命值。"
+    },
+    "1202": {
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，觸發一次「玫瑰念珠」的效果。"
+    },
+    "1203": {
+      "description": "在你升級並「跳過」了強化選項的挑選環節以後，觸發一次「時禱懷錶」的效果。"
+    },
+    "9999": {
+      "description": "每升 %1 級，便可獲得以下的加成效益： %0（最多可觸發 %2 次）。"
     }
   },
   "uk": {
@@ -1524,7 +5086,7 @@
     },
     "12": {
       "name": "XII — За горизонтом",
-      "description": "При заморожуванні ворогів відбуваються вибухи. Часолов простіше знайти."
+      "description": "При заморожуванні ворогів відбуваються вибухи. Часолов простіше знайти. Також можна знайти Сорбет."
     },
     "14": {
       "name": "XIV — Кришталеві пута",
@@ -1593,6 +5155,280 @@
     "25": {
       "name": "III — Прихована анафема",
       "description": "Знахідки їжі додають накопичувальні бонуси до випадкових характеристик на основі їхньої рідкості або лікувальних властивостей."
+    },
+    "35": {
+      "name": "XIII — Клич Скаженого місяця",
+      "description": "Ефект залежить від випадковості й характеристик гравця. Удача: поліпшує скрині скарбів і джерела світла. Розвиток: поліпшує самоцвіти досвіду. Жадоба: поліпшує золоті монети. Прокляття: вороги отримують бонус до швидкості руху й здоров'я."
+    },
+    "40": {
+      "name": "XVIII — Вікторіанський кошмар",
+      "description": "Жадоба впливає на шкоду ворогів у полі дії магніту. Один раз за життя викликає Проклятого Пожирача світів при отриманні смертельної шкоди."
+    },
+    "27": {
+      "name": "V — Вторгнення тьмяного діаманту",
+      "description": "Зброя з переліку вражає найближчого ворога. Також ця зброя отримує бонус до відновлення, що залежить від швидкості снаряда."
+    },
+    "101": {
+      "name": "001 — Антоніо Бельпаезе",
+      "description": null
+    },
+    "102": {
+      "name": "002 — Імельда Бельпаезе",
+      "description": null
+    },
+    "103": {
+      "name": "003 — Паскаліна Бельпаезе",
+      "description": null
+    },
+    "104": {
+      "name": "004 — Дженнаро Бельпаезе",
+      "description": null
+    },
+    "105": {
+      "name": "005 — Арка Ладонна",
+      "description": null
+    },
+    "106": {
+      "name": "006 — Порта Ладонна",
+      "description": "Втрачає бонус до відновлення на 4 рівні."
+    },
+    "107": {
+      "name": "007 — Лама Ладонна",
+      "description": null
+    },
+    "108": {
+      "name": "008 — По Рачо",
+      "description": null
+    },
+    "109": {
+      "name": "009 — Суор Клерічі",
+      "description": "Втрачає бонус до області на 5 рівні."
+    },
+    "110": {
+      "name": "010 — Доммаріо",
+      "description": ""
+    },
+    "111": {
+      "name": "011 — Крочі Фретто",
+      "description": null
+    },
+    "112": {
+      "name": "012 — Кристін Давейн",
+      "description": ""
+    },
+    "113": {
+      "name": "013 — Пуґнала Провола",
+      "description": "Отримує %0 сили кожен рівень."
+    },
+    "114": {
+      "name": "014 — Джованні Гран",
+      "description": "Отримує %0 до швидкості снарядів кожен рівень."
+    },
+    "115": {
+      "name": "015 — Макія Пекоріна",
+      "description": "Отримує %0 тривалості кожен рівень."
+    },
+    "116": {
+      "name": "016 — Концета Качотта",
+      "description": "Отримує %0 до області кожен рівень."
+    },
+    "117": {
+      "name": "017 — Мортасіо",
+      "description": null
+    },
+    "118": {
+      "name": "018 — Ятта Кавалло",
+      "description": null
+    },
+    "119": {
+      "name": "019 — Б'янка Рамба",
+      "description": null
+    },
+    "120": {
+      "name": "020 — О'Соле Міо",
+      "description": null
+    },
+    "121": {
+      "name": "021 — Амброджо",
+      "description": "Бонус до кількості втрачається кожні 9 рівнів."
+    },
+    "122": {
+      "name": "022 — Ігуана Ґало Валетто",
+      "description": ""
+    },
+    "123": {
+      "name": "023 — Дівано Тельма",
+      "description": null
+    },
+    "124": {
+      "name": "024 — Зі'Ассунта Бельпаезе",
+      "description": "Отримує %0 до сили, швидкості снарядів, тривалості й області кожен рівень."
+    },
+    "1000": {
+      "description": "Отримує Аніма Мортасіо на кожному 80 рівні."
+    },
+    "1001": {
+      "description": "Отримує Кароццу на кожному 80 рівні."
+    },
+    "1002": {
+      "description": "Отримує Ятту Дайкарін на кожному 80 рівні."
+    },
+    "1003": {
+      "description": "Отримує Профузьйоне Д'Аморе на кожному 80 рівні."
+    },
+    "1100": {
+      "description": "Отримує +5 до макс. ОЗ кожен рівень."
+    },
+    "1101": {
+      "description": "Отримує +1% до розвитку кожен рівень."
+    },
+    "1102": {
+      "description": "Отримує +1% сили кожен рівень."
+    },
+    "1103": {
+      "description": "Отримує +1% до швидкості снарядів кожен рівень."
+    },
+    "1104": {
+      "description": "Отримує +1% тривалості кожен рівень."
+    },
+    "1105": {
+      "description": "Отримує %0 до області кожен рівень."
+    },
+    "1106": {
+      "description": "Отримуйте +1 пропуск на кожному рівні."
+    },
+    "1107": {
+      "description": "Отримуйте +1 повтор на кожному рівні."
+    },
+    "1108": {
+      "description": "Отримуйте +1 вигнання на кожному рівні."
+    },
+    "2000": {
+      "description": "По відродженні: запускає Чотки."
+    },
+    "2001": {
+      "description": "По відродженні: запускає Вакуум."
+    },
+    "2002": {
+      "description": "По відродженні: запускає Скорострілку."
+    },
+    "2003": {
+      "description": "По відродженні: запускає Часолов."
+    },
+    "2004": {
+      "description": "По відродженні: зменшує поточне прокляття на 20%."
+    },
+    "2005": {
+      "description": "По відродженні: пропускає 60 сек."
+    },
+    "3000": {
+      "description": "Отримує накопич. бонус +1 до броні на 10 сек. щоразу при отриманні шкоди."
+    },
+    "3001": {
+      "description": "Отримує накопич. бонус +0,1 до регенерації на 10 сек. щоразу при отриманні шкоди."
+    },
+    "3002": {
+      "description": "Надає 1 монету при отриманні шкоди."
+    },
+    "3003": {
+      "description": "Відповідає ударом об землю, коли отримує шкоду."
+    },
+    "4000": {
+      "description": "Критична шкода +100%"
+    },
+    "4001": {
+      "description": "Підвищує броню й регенерацію союзників поруч."
+    },
+    "4002": {
+      "description": "Вороги мають 15% шанс з'явитися слабкими."
+    },
+    "4003": {
+      "description": "Збільшує кількість ворогів на 50."
+    },
+    "4004": {
+      "description": "Скасовує 50% атак босів."
+    },
+    "5000": {
+      "description": "Воскресіння = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    },
+    "5001": {
+      "description": "Кількість = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    },
+    "5002": {
+      "description": "Броня = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    },
+    "5003": {
+      "description": "Надає 1 монету після знищення встановленої кількості ворогів [1 тис., 2 тис., 3 тис.]"
+    },
+    "5004": {
+      "description": "Розпочинає Золоту лихоманку після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    },
+    "6000": {
+      "description": "Крит. рівень ОЗ: надає 40 до макс. ОЗ і відновлює 30% здоров'я."
+    },
+    "6001": {
+      "description": "Крит. рівень ОЗ: запускається Ндуя Фрітта."
+    },
+    "6002": {
+      "description": "Крит. рівень ОЗ: +50 до броні за 10 сек."
+    },
+    "7000": {
+      "description": "Надмірн. зцілення +16: запускається Сорбет."
+    },
+    "7001": {
+      "description": "Надмірн. зцілення +16: отримує +3% до сили."
+    },
+    "7002": {
+      "description": "Надмірн. зцілення +16: Золотий палець і Золота лихоманка тривають на 1% довше."
+    },
+    "7003": {
+      "description": "Надмірн. зцілення +16: отримує +1 повтор."
+    },
+    "8000": {
+      "description": "Створює джерела світла після отрим. встановл. к-сті монет [1 тис., 5 тис., 10 тис.]"
+    },
+    "8001": {
+      "description": "Отримує +0,5 до Терніїв після отрим. встановл. к-сті монет [1 тис., 5 тис., 10 тис.]"
+    },
+    "8002": {
+      "description": "Отримує +1 до Воскресіння після отрим. встановл. к-сті монет [1 тис., 5 тис., 10 тис.]"
+    },
+    "8003": {
+      "description": "Отримує +1 до комірок пас. зброї після отрим. встановл. к-сті монет [5 тис., 10 тис., 20 тис.]"
+    },
+    "EDITION_Gala": {
+      "description": "Отримує окремий бонус до Таро вцілілих."
+    },
+    "EDITION_Foil": {
+      "description": "Додає випадковий бонус."
+    },
+    "EDITION_Poly": {
+      "description": "Подвоює більшість початкових бонусів."
+    },
+    "EDITION_Holo": {
+      "description": "Таро вцілілих отримує 4 рівні замість 1, коли ви підвищуєте рівень."
+    },
+    "EDITION_Inve": {
+      "description": "Інвертує більшість початкових бонусів. Накопичування інвертованих карт зменшує фактор ризику."
+    },
+    "SURVAROT_RISK": {
+      "name": "РИЗИК",
+      "description": "Здоров'я ворогів зараз зросло на %0%, а шкода — на %1%."
+    },
+    "1200": {
+      "description": "Дає тимчасове зменшення часу відновлення на 100% у разі пропуску підвищення рівня."
+    },
+    "1201": {
+      "description": "Збільшує макс. ОЗ та повністю відновлює здоров'я в разі пропуску підвищення рівня."
+    },
+    "1202": {
+      "description": "У разі пропуску підвищення рівня викликає Чотки."
+    },
+    "1203": {
+      "description": "У разі пропуску підвищення рівня викликає Часолов."
+    },
+    "9999": {
+      "description": "Починає отримувати %0 кожні %1 рівні(в) (макс. %2 р.)"
     }
   }
 }

@@ -18,7 +18,7 @@ from Source.Utility.constants import to_source_path, IMAGES_FOLDER, COMPOUND_DAT
     PROGRESS_BAR_FUNC_TYPE, COMPOUND_DATA
 from Source.Utility.image_functions import make_image_black
 from Source.Utility.image_functions import resize_image, get_adjusted_sprites_to_rect, get_rects_by_sprite_list
-from Source.Utility.meta_data import MetaDataHandler
+from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.sprite_data import SpriteData
 from Source.Utility.utility import normalize_str
 
@@ -129,14 +129,18 @@ class ImageGeneratorManager:
                 return None
             case DataType.ADVENTURE_MERCHANTS:
                 return AdvMerchantsGenerator
+            case DataType.ADVENTURE_STAGE:
+                return AdventureStageImageGenerator
             case DataType.ADVENTURE_STAGE_SET:
-                return AdventureStageSetImageGenerator
+                return None
             case DataType.ALBUM:
                 return AlbumCoversGenerator
             case DataType.ARCANA:
                 return ArcanaImageGenerator
             case DataType.CHARACTER:
                 return CharacterImageGenerator
+            case DataType.CPU:
+                return CpuGenerator
             case DataType.CUSTOM_MERCHANTS:
                 return None
             case DataType.ENEMY:
@@ -220,7 +224,9 @@ class BaseImageGenerator:
 
         self.requested_gens = requested_gen_types
         self._set_entries()
-        self.meta_data = MetaDataHandler.get_meta_dict_by_name_set(self.get_textures_set())
+        self.meta_data = MetaDataHandler.get_meta_dict_by_name_set_fullest(self.get_textures_set())
+
+        print(self.meta_data)
 
         for texture_name, meta_data in self.meta_data.items():
             meta_data.init_sprites()
@@ -264,6 +270,12 @@ class BaseImageGenerator:
     def get_save_name(self, name: str) -> str:
         return re.sub(r'[<>:/|\\?*]', '', name.strip())
 
+    def get_save_image_prefix(self, entry):
+        return self.save_image_prefix
+
+    def get_save_icon_prefix(self, entry):
+        return self.save_icon_prefix
+
     def get_unit(self, key_id: str, entry: dict[str, Any]) -> dict[str, Any]:
         to_update: dict[str, Any] = {
             KEY_ID: key_id,
@@ -294,20 +306,22 @@ class BaseImageGenerator:
 
         texture_meta_data = self.meta_data.get(main_texture)
         if not texture_meta_data:
-            print(f"!!! Skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
+            print(f"!!! Image skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
             return None
 
         sprite_data = texture_meta_data.data_name.get(sprite_texture)
         if not sprite_data:
-            print(f"!!! Skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
+            print(f"!!! Image skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
             return None
 
         eng_name = entry.get(self.key_entry_name) or entry.get(KEY_ID)
 
+        save_image_prefix = self.get_save_image_prefix(entry)
+
         return SpriteEntryToSave(
             sprite_data,
             eng_name,
-            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png"
+            lambda x: f"{save_image_prefix}-{self.get_save_name(x)}.png"
         )
 
     def gen_image_with_frame(self, entry: dict[str, Any]) -> EntryToSave | None:
@@ -321,12 +335,12 @@ class BaseImageGenerator:
 
         texture_meta_data = self.meta_data.get(UI)
         if not texture_meta_data:
-            print(f"!!! Skipped '{frame_name}': texture '{UI}' not found", file=sys.stderr)
+            print(f"!!! Image frame skipped '{frame_name}': texture '{UI}' not found", file=sys.stderr)
             return None
 
         frame_data = texture_meta_data.data_name.get(frame_name)
         if not frame_data:
-            print(f"!!! Skipped '{frame_name}': not found for texture '{UI}'", file=sys.stderr)
+            print(f"!!! Image frame skipped '{frame_name}': not found for texture '{UI}'", file=sys.stderr)
             return None
 
         rects = get_rects_by_sprite_list([image_data, frame_data])
@@ -334,10 +348,12 @@ class BaseImageGenerator:
 
         frame.alpha_composite(image)
 
+        save_icon_prefix = self.get_save_icon_prefix(entry)
+
         return EntryToSave(
             frame,
             eng_name,
-            lambda x: f"{self.save_icon_prefix}-{self.get_save_name(x)}.png"
+            lambda x: f"{save_icon_prefix}-{self.get_save_name(x)}.png"
         )
 
     # def gen_anim(self, entry: dict[str, Any]):
@@ -373,6 +389,8 @@ class ItemImageGenerator(BaseImageGenerator):
 
 
 class ArcanaImageGenerator(BaseImageGenerator):
+    _SURVAROT = "Survarot"
+
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.IMAGE_FRAME, GenType.ARCANA_PICTURE]
 
     data_type: DataType = DataType.ARCANA
@@ -394,9 +412,12 @@ class ArcanaImageGenerator(BaseImageGenerator):
     def get_frame_name(self, entry: dict[str, Any]) -> str:
         return "frameH" if entry.get("arcanaType") >= 22 else super().get_frame_name(entry)
 
-    def get_save_name(self, name: str) -> str:
-        name = super().get_save_name(name)
-        return name[name.find("-") + 1:].strip()
+    # def get_save_name(self, name: str) -> str:
+    #     name = super().get_save_name(name)
+    #     return name[name.find("-") + 1:].strip()
+
+    def get_save_image_prefix(self, entry):
+        return self._SURVAROT if entry.get("arcanaType") > 100 else self.save_image_prefix
 
     def get_unit(self, key_id: str, entry: dict[str, Any]) -> dict[str, Any]:
         entry = super().get_unit(key_id, entry)
@@ -404,6 +425,10 @@ class ArcanaImageGenerator(BaseImageGenerator):
             self.key_main_texture_name: "items",
             self.key_secondary_texture_name: entry.get(self.key_main_texture_name),
         })
+        if entry.get("arcanaType") > 100:
+            entry.update({
+                ADD_TO_PATH_ENTRY: self._SURVAROT
+            })
         return entry
 
     def get_textures_set(self) -> set[str]:
@@ -434,20 +459,22 @@ class ArcanaImageGenerator(BaseImageGenerator):
 
         texture_meta_data = self.meta_data.get(main_texture)
         if not texture_meta_data:
-            print(f"!!! Skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
+            print(f"!!! Arcana picture skipped '{sprite_texture}': texture '{main_texture}' not found", file=sys.stderr)
             return None
 
         sprite_data = texture_meta_data.data_name.get(sprite_texture)
         if not sprite_data:
-            print(f"!!! Skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
+            print(f"!!! Arcana picture skipped '{sprite_texture}': not found for texture '{main_texture}'", file=sys.stderr)
             return None
 
         eng_name = entry.get(self.key_entry_name) or entry.get(KEY_ID)
 
+        save_image_prefix = self.get_save_image_prefix(entry)
+
         return EntryToSave(
             sprite_data.sprite,
             eng_name,
-            lambda x: f"{self.save_image_prefix}-{self.get_save_name(x)}.png"
+            lambda x: f"{save_image_prefix}-{self.get_save_name(x)}.png"
         )
 
 
@@ -543,6 +570,21 @@ class MusicIconsGenerator(BaseImageGenerator):
         return entry
 
 
+class CpuGenerator(BaseImageGenerator):
+    _available_gens: list[GenType] = [GenType.IMAGE]
+
+    data_type: DataType = DataType.CPU
+    lang_type: LangType = LangType.PARTY
+
+    default_scale_factor = 1
+
+    save_image_prefix = "Cpu"
+
+    key_main_texture_name = "AIIconTexture"
+    key_sprite_name = "AIIconSprite"
+    key_entry_name = "name"
+
+
 class ListBaseImageGenerator(BaseImageGenerator):
     def get_unit(self, key_id: str, entry: list[dict[str, Any]]) -> dict[str, Any]:
         return super().get_unit(key_id, entry[0])
@@ -570,7 +612,7 @@ class PowerUpImageGenerator(ListBaseImageGenerator):
     default_scale_factor = 1
 
     save_image_prefix = "Sprite"
-    save_icon_prefix = "Icon"
+    save_icon_prefix = "PowerUp"
 
     key_main_texture_name = "texture"
     key_sprite_name = "frameName"
@@ -642,6 +684,9 @@ class CharacterImageGenerator(ListBaseImageGenerator):
             weapon_data = self.weapon_image_gen.data_file.data().get(weapon_id)
             weapon_entry = self.weapon_image_gen.gen_image(self.weapon_image_gen.get_unit(weapon_id, weapon_data))
 
+            if weapon_entry is None:
+                return None
+
             weapon_image = resize_image(weapon_entry.image, 4)
             weapon_image_shadow = make_image_black(weapon_image)
 
@@ -656,7 +701,7 @@ class CharacterImageGenerator(ListBaseImageGenerator):
 
         text = entry.get(CHAR_NAME)
         font = ImageFont.truetype(FONT_FILE_PATH, 30)
-        width = font.getbbox(text)[2] + 1
+        width = font.getbbox(text)[2] + 4
         height = font.getbbox(text + "|")[3]
 
         if width > frame_image.size[0] - 4:
@@ -664,7 +709,7 @@ class CharacterImageGenerator(ListBaseImageGenerator):
                 text = text[::-1].replace(" ", "\n", 1)[::-1]
 
             font = ImageFont.truetype(FONT_FILE_PATH, 28)
-            width = font.getbbox(text)[2] + 1
+            width = font.getbbox(text)[2] + 4
             height = (font.getbbox("|" + text + "|")[3] + 1) * 2
 
         canvas = image_new('RGBA', (int(width), int(height)))
@@ -775,20 +820,28 @@ class StageImageGenerator(ListBaseImageGenerator):
         )
 
 
-class AdventureStageSetImageGenerator(StageImageGenerator):
-    data_type: DataType = DataType.ADVENTURE_STAGE_SET
+class AdventureStageImageGenerator(StageImageGenerator):
+    data_type: DataType = DataType.ADVENTURE_STAGE
 
-    def _set_entries(self):
-        self.entries = [
-            self.get_unit_adv(key_id.strip(), entry.copy(), adv_id.strip())
-            for adv_id, adv_entry in self.data_file.data().items()
-            for key_id, entry in adv_entry.items()
-        ]
+    stage_set: DataFile = None
+    stage_to_stage_set: dict[str, str] | None = None
 
-    def get_unit_adv(self, key_id: str, entry: list[dict[str, Any]], adv_id: str) -> dict[str, Any]:
+    def __init__(self, dlc_type: DLCType | COMPOUND_DATA_TYPE, data_type: DataType,
+                 requested_gen_types: dict[GenType, int | bool]):
+        self.stage_set: DataFile | None = DataHandler.get_data(dlc_type, DataType.ADVENTURE_STAGE_SET)
+        self.stage_to_stage_set = {
+            stage: stage_set
+            for stage_set, stages in self.stage_set.data().items()
+            for stage in stages
+        }
+
+        super().__init__(dlc_type, data_type, requested_gen_types)
+
+
+    def get_unit(self, key_id: str, entry: list[dict[str, Any]]) -> dict[str, Any]:
         entry = super().get_unit(key_id, entry)
         entry.update({
-            ADD_TO_PATH_ENTRY: adv_id
+            ADD_TO_PATH_ENTRY: self.stage_to_stage_set[key_id],
         })
         return entry
 

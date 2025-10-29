@@ -694,5 +694,185 @@
       "zh-TW": "在霓虹都市的東北邊有巨大外星生化人出沒。對這個敵人發起猛烈的攻勢吧！",
       "uk": "Зафіксована навала роботів-прибульців на північному сході Нео-Сіті. Атакуйте, не соромтеся!"
     }
+  },
+  "WESTWOODS_SQUIRREL_SWARM": {
+    "displayName": {
+      "en": "Squiller Swarm",
+      "fr": "Bande d'écoureuils",
+      "it": "Orda di scuoiattili",
+      "de": "Haischörnchenschwarm",
+      "es": "Enjambre de ardirras",
+      "pt-BR": "Torrente de Escrilos",
+      "pl": "Rój Fiefiórek",
+      "ru": "Беличья стая",
+      "tr": "Zincap Sürüsü",
+      "zh-CN": "松鼠群涌",
+      "ja": "リスの群れ",
+      "ko": "스퀼러 무리",
+      "zh-TW": "松鼠群湧",
+      "uk": "Зграя виверток"
+    }
+  },
+  "WESTWOODS_CHULAS_CURSE": {
+    "displayName": {
+      "en": "Curse of Reh",
+      "fr": "Malédiction de Reh",
+      "it": "Maledizione di Reh",
+      "de": "Fluch des Reh",
+      "es": "Maldición de Reh",
+      "pt-BR": "Maldição de Reh",
+      "pl": "Klątwa Reh",
+      "ru": "Проклятие Рэ",
+      "tr": "Reh'in Laneti",
+      "zh-CN": "雷之诅咒",
+      "ja": "レフの呪い",
+      "ko": "레의 저주",
+      "zh-TW": "法老旺旺的詛咒",
+      "uk": "Прокляття Рега"
+    }
+  },
+  "WESTWOODS_UNLOCK": {
+    "displayName": {
+      "en": "You Win?",
+      "fr": "Vous avez gagné… ?",
+      "it": "Hai vinto?",
+      "de": "Gewonnen?",
+      "es": "¿Has ganado?",
+      "pt-BR": "Você venceu(?)",
+      "pl": "Wygrywasz?",
+      "ru": "Вы победили?",
+      "tr": "Kazandın Mı?",
+      "zh-CN": "胜利？",
+      "ja": "勝った？",
+      "ko": "승리하셨나요?",
+      "zh-TW": "贏了？",
+      "uk": "Ви виграли?"
+    }
+  },
+  "WESTWOODS_ECTO_COIN": {
+    "displayName": {
+      "en": "Ecto Coins",
+      "fr": "Ectopièces",
+      "it": "Ectomoneta",
+      "de": "Ektomünzen",
+      "es": "Ectomonedas",
+      "pt-BR": "Ectomoedas",
+      "pl": "Ektomonety",
+      "ru": "Призрачные монеты",
+      "tr": "Ekto Akçe",
+      "zh-CN": "外质币",
+      "ja": "エクトコイン",
+      "ko": "엑토 금화",
+      "zh-TW": "靈質金幣",
+      "uk": "Екто-монета"
+    }
+  },
+  "WESTWOODS_RED_JELLY": {
+    "displayName": {
+      "en": "Red Coin Bag",
+      "fr": "Sac de pièces rouge",
+      "it": "Sacchetto d'oro rosso",
+      "de": "Roter Münzsack",
+      "es": "Saquito de monedas rojo",
+      "pt-BR": "Bolsa de Moedas Vermelha",
+      "pl": "Czerwony Worek Monet",
+      "ru": "Красный мешок денег",
+      "tr": "Kırmızı Akçe Çuvalı",
+      "zh-CN": "红色钱袋",
+      "ja": "赤の金貨袋",
+      "ko": "레드 금화 가방",
+      "zh-TW": "紅色錢袋",
+      "uk": "Червоний мішок монет"
+    }
+  },
+  "WESTWOODS_COIN_PILE": {
+    "displayName": {
+      "en": "Coin Pile",
+      "fr": "Tas de pièces",
+      "it": "Mucchietto d'oro",
+      "de": "Münzstapel",
+      "es": "Montón de monedas",
+      "pt-BR": "Pilha de Moedas",
+      "pl": "Sterta Monet",
+      "ru": "Куча монет",
+      "tr": "Akçe Yığını",
+      "zh-CN": "币堆",
+      "ja": "金貨の山",
+      "ko": "금화 더미",
+      "zh-TW": "錢堆",
+      "uk": "Купка монет"
+    }
+  },
+  "WESTWOODS_PURPLE_JELLY": {
+    "displayName": {
+      "en": "Purple Coin Bag",
+      "fr": "Sac de pièces violet",
+      "it": "Sacchetto d'oro viola",
+      "de": "Lila Münzsack",
+      "es": "Saquito de monedas morado",
+      "pt-BR": "Bolsa de Moedas Roxa",
+      "pl": "Fioletowy Worek Monet",
+      "ru": "Фиолетовый мешок денег",
+      "tr": "Mor Akçe Çuvalı",
+      "zh-CN": "紫色钱袋",
+      "ja": "紫の金貨袋",
+      "ko": "퍼플 금화 가방",
+      "zh-TW": "紫色錢袋",
+      "uk": "Фіолетовий мішок монет"
+    }
+  },
+  "WESTWOODS_GOLDEN_IDOL": {
+    "displayName": {
+      "en": "Gold Idol",
+      "fr": "Idole en or",
+      "it": "Idolo dorato",
+      "de": "Goldener Götze",
+      "es": "Ídolo de oro",
+      "pt-BR": "Cabeça Dourada",
+      "pl": "Złoty Bożek",
+      "ru": "Золотой идол",
+      "tr": "Altın Heykel",
+      "zh-CN": "黄金神像",
+      "ja": "黄金の偶像",
+      "ko": "골드 아이돌",
+      "zh-TW": "黃金偶像",
+      "uk": "Золотий ідол"
+    }
+  },
+  "WESTWOODS_JOKER_DANCE": {
+    "displayName": {
+      "en": "Joker Dance",
+      "fr": "Danse du joker",
+      "it": "Danza del jolly",
+      "de": "Joker-Tanz",
+      "es": "Baile de payasos",
+      "pt-BR": "Baile Palhaço",
+      "pl": "Taniec Jokera",
+      "ru": "Танец джокеров",
+      "tr": "Soytarı Dansı",
+      "zh-CN": "小丑舞",
+      "ja": "道化の舞",
+      "ko": "조커 댄스",
+      "zh-TW": "小丑之舞",
+      "uk": "Танок жартівника"
+    }
+  },
+  "WESTWOODS_COIN_DRAGON": {
+    "displayName": {
+      "en": "Coin Shrimp",
+      "fr": "Crevette de pièces",
+      "it": "Gambaureo",
+      "de": "Münzgarnele",
+      "es": "Gamba moneda",
+      "pt-BR": "Camarão Moeda",
+      "pl": "Monetowa Krewetka",
+      "ru": "Монетная креветка",
+      "tr": "Parides",
+      "zh-CN": "币虾",
+      "ja": "コインシュリンプ",
+      "ko": "금화 새우",
+      "zh-TW": "金幣「龍」蝦",
+      "uk": "Монетна креветка"
+    }
   }
 }

@@ -39,7 +39,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "tint": 16746632,
       "idleFrameCount": 4,
@@ -91,8 +91,8 @@
       "xp": 1,
       "passThroughWalls": true,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "idleFrameCount": 4,
       "end": 18,
@@ -181,7 +181,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 13,
@@ -211,7 +211,7 @@
       "deathKB": 1,
       "xp": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "idleFrameCount": 4,
@@ -257,7 +257,7 @@
       "speed": 160,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0.5,
@@ -308,7 +308,7 @@
       "speed": 200,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -412,7 +412,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.8,
       "maxKnockback": 3,
@@ -439,7 +439,7 @@
       "deathKB": 1,
       "xp": 3,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -463,8 +463,8 @@
       "deathKB": 1,
       "xp": 1,
       "skills": [
-        1,
-        0
+        "Fixed_Direction",
+        "HP_x_Level"
       ],
       "idleFrameCount": 6,
       "end": 29,
@@ -567,7 +567,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -591,7 +591,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -615,7 +615,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -639,7 +639,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -845,7 +845,7 @@
       "deathKB": 1,
       "xp": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 14,
@@ -862,7 +862,7 @@
       "speed": 160,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -884,7 +884,7 @@
       "speed": 180,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -935,7 +935,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.1,
       "maxKnockback": 2,
@@ -972,7 +972,7 @@
       "deathKB": 0,
       "killedAmount": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 3,
       "end": 29,
@@ -994,7 +994,7 @@
       "deathKB": 0,
       "killedAmount": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 10,
       "end": 29,
@@ -1012,7 +1012,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.8,
       "maxKnockback": 3,
@@ -1033,7 +1033,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.8,
       "maxKnockback": 3,
@@ -1055,7 +1055,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.8,
       "maxKnockback": 3,
@@ -1086,7 +1086,7 @@
       "xp": 1,
       "alpha": 0.5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 15,
@@ -1122,7 +1122,7 @@
       "xp": 1,
       "alpha": 0.5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 15,
@@ -1229,7 +1229,7 @@
       "power": 6,
       "knockback": 0.2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "maxKnockback": 3,
@@ -1259,7 +1259,7 @@
       "speed": 150,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "knockback": 0.2,
@@ -1332,7 +1332,7 @@
       "speed": 150,
       "power": 25,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -1349,16 +1349,6 @@
       "textureName": "enemiesM",
       "frameNames": [
         "Sleeper_0.png"
-      ],
-      "bName": "The Blinder",
-      "bDesc": "It's supposed to cast a veil of darkness around you if it touches you, so that you wouldn't be able to see much, but your screen is probably already full of particles and effects, so we didn't bother.",
-      "bPlaces": [
-        "FOSCARI2"
-      ],
-      "bInclude": true,
-      "bHighlight": false,
-      "bVariants": [
-        "FS_BLINDER_PATROL"
       ]
     }
   ],
@@ -1369,7 +1359,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -1396,7 +1386,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -1420,7 +1410,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Rosary": 1,
       "knockback": 0,
@@ -1445,7 +1435,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Rosary": 1,
       "knockback": 0,
@@ -1469,7 +1459,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Rosary": 1,
       "knockback": 0,
@@ -1493,7 +1483,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Rosary": 1,
       "knockback": 0,
@@ -1517,7 +1507,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -1543,7 +1533,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -1569,7 +1559,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -1595,7 +1585,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -1619,7 +1609,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -1676,7 +1666,7 @@
       "xp": 2.25,
       "passThroughWalls": false,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "idleFrameCount": 4,
       "end": 22,
@@ -1863,7 +1853,7 @@
       "killedAmount": 0,
       "xp": 2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -2226,7 +2216,7 @@
       "power": 20,
       "res_Defang": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0.5,
@@ -2284,7 +2274,7 @@
       "power": 20,
       "res_Defang": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0.5,
@@ -2328,7 +2318,7 @@
       "speed": 170,
       "power": 40,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -2364,8 +2354,8 @@
       "speed": 300,
       "power": 3,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -2418,7 +2408,7 @@
       "deathKB": 1,
       "xp": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 18,
@@ -2440,7 +2430,7 @@
       "deathKB": 0,
       "xp": 1.5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 18,
@@ -2463,7 +2453,7 @@
       "xp": 2,
       "passThroughWalls": true,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 14,
@@ -2485,7 +2475,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 18,
@@ -2507,7 +2497,7 @@
       "deathKB": 2,
       "xp": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "end": 18,
@@ -2530,7 +2520,7 @@
       "deathKB": 0,
       "xp": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "killedAmount": 0,
       "textureName": "enemiesM",

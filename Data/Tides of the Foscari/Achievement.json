@@ -2,6 +2,12 @@
   "FOSC01_FindCoffin": {
     "description": "Find and open the coffin in Lake Foscari.",
     "characterToUnlock": "ELEANOR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "ELEANOR"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -25,6 +31,16 @@
   "FOSC02_Survive15Eleanor": {
     "description": "Survive 15 minutes with Eleanor Uziron.",
     "weaponToUnlock": "SPELL_STRING",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "ELEANOR"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -48,6 +64,18 @@
   "FOSC03_GetStreamToLevel6": {
     "description": "Get SpellStream to Level 6.",
     "weaponToUnlock": "SPELL_STREAM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "SPELL_STREAM"
+        ],
+        "RequiredEvolvedWeapons":[
+          "SPELL_STROM"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -71,6 +99,18 @@
   "FOSC04_GetStrikeToLevel6": {
     "description": "Get SpellStrike to Level 6.",
     "weaponToUnlock": "SPELL_STRIKE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "SPELL_STRIKE"
+        ],
+        "RequiredEvolvedWeapons":[
+          "SPELL_STROM"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -94,6 +134,14 @@
   "FOSC05_UniteSpells": {
     "description": "Unite SpellString, SpellStream, and SpellStrom.",
     "characterToUnlock": "VICTOR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "SPELL_STROM"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -117,6 +165,16 @@
   "FOSC06_Survive15Viktor": {
     "description": "Survive 15 minutes with Maruto Cuts.",
     "weaponToUnlock": "SWORD",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "VICTOR"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -140,6 +198,14 @@
   "FOSC07_EvolveEskizzibur": {
     "description": "Evolve the Eskizzibur.",
     "characterToUnlock": "KEIRA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "SWORD2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -163,6 +229,16 @@
   "FOSC08_Survive15Keira": {
     "description": "Survive 15 minutes with Keitha Muort.",
     "weaponToUnlock": "FLASHARROW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "KEIRA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -187,6 +263,14 @@
     "description": "Evolve the Flash Arrow.",
     "goldPrize": 50000,
     "weaponIcon": "FLASHARROW2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FLASHARROW2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -283,6 +367,16 @@
     "description": "Survive 15 minutes with Luminaire Foscari.",
     "weaponToUnlock": "PRISMATICMISS",
     "requiresStage": "FOSCARI2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "LUMINAIRE"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -308,6 +402,14 @@
     "goldPrize": 50000,
     "weaponIcon": "PRISMATICMISS2",
     "requiresStage": "FOSCARI2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "PRISMATICMISS2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -332,6 +434,16 @@
     "description": "Survive 15 minutes with Genevieve Gruyère.",
     "weaponToUnlock": "SHADOWSERVANT",
     "requiresStage": "FOSCARI2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "GENEVIEVE"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -357,6 +469,14 @@
     "goldPrize": 50000,
     "weaponIcon": "SHADOWSERVANT2",
     "requiresStage": "FOSCARI2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "SHADOWSERVANT2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -382,6 +502,16 @@
     "mistery": true,
     "characterToUnlock": "MEGAGENEVIEVE",
     "requiresStage": "FOSCARI2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":100000
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "GENEVIEVE"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -405,6 +535,15 @@
   "FOSC18_Defeat6kFairy": {
     "description": "Defeat a total of 6000 Sammies.",
     "characterToUnlock": "CTRPCAKE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":6000,
+        "RequiredEnemyTypes":[
+          "FS_CAKE"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -430,6 +569,15 @@
     "weaponToUnlock": "PARTY",
     "characterToUnlock": "GHOUL",
     "requiresStage": "FOSCARI2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":6000,
+        "RequiredEnemyTypes":[
+          "FS_ROTGHOUL"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -453,6 +601,19 @@
   "FOSC20_DefeatBossLake": {
     "description": "Defeat the Avatar of Gaea in Lake Foscari.",
     "hyperToUnlock": "FOSCARI",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":1,
+        "RequiredEnemyTypes":[
+          "FS_BOSS_AGAEA"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType":"FOSCARI"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -477,6 +638,19 @@
     "description": "Defeat Je-Ne-Viv in Abyss Foscari.",
     "hyperToUnlock": "FOSCARI2",
     "requiresStage": "FOSCARI2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":1,
+        "RequiredEnemyTypes":[
+          "FS_BOSS_JENEVIV"
+        ]
+      },
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType":"FOSCARI2"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -500,6 +674,14 @@
   "FOSC22_FindMap_Foscari": {
     "description": "Find the Lake Foscari Map.",
     "relicToUnlock": "RELIC_MAP_FS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "RELIC_MAP_FS"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",

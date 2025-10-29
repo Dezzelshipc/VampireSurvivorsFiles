@@ -2,6 +2,12 @@
   "MOON01_FindCoffin": {
     "description": "Find and open the coffin in Mt.Moonspell.",
     "characterToUnlock": "MIANG",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "MIANG"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -25,6 +31,16 @@
   "MOON02_Survive15Miang": {
     "description": "Survive 15 minutes with Miang Moonspell.",
     "weaponToUnlock": "SILVERWIND",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "MIANG"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -48,6 +64,14 @@
   "MOON03_EvolveSilverWind": {
     "description": "Evolve the Silver Wind.",
     "characterToUnlock": "MENYA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "SILVERWIND2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -71,6 +95,16 @@
   "MOON04_Survive15Menya": {
     "description": "Survive 15 minutes with Menya Moonspell.",
     "weaponToUnlock": "FOURSEASONS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "MENYA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -94,6 +128,14 @@
   "MOON05_EvolveFourSeasons": {
     "description": "Evolve the Four Seasons.",
     "characterToUnlock": "SYUUTO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "FOURSEASONS2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -117,6 +159,16 @@
   "MOON06_Survive15Syuuto": {
     "description": "Survive 15 minutes with Syuuto Moonspell.",
     "weaponToUnlock": "SUMMONNIGHT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "SYUUTO"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -140,6 +192,14 @@
   "MOON07_EvolveSummonNight": {
     "description": "Evolve the Summon Night.",
     "characterToUnlock": "ONNA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "SUMMONNIGHT2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -163,6 +223,16 @@
   "MOON08_Survive15BabiOnna": {
     "description": "Survive 15 minutes with Babi-Onna.",
     "weaponToUnlock": "MIRAGEROBE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "ONNA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -186,6 +256,14 @@
   "MOON09_EvolveMirageRobe": {
     "description": "Evolve the Mirage Robe.",
     "characterToUnlock": "MCCOY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "MIRAGEROBE2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -209,6 +287,16 @@
   "MOON10_Survive15McCoy": {
     "description": "Survive 15 minutes with McCoy-Oni.",
     "weaponToUnlock": "BOCCE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "MCCOY"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -232,6 +320,16 @@
   "MOON11_Defeat100kVanya": {
     "description": "Defeat 100000 enemies in a single run with Menya Moonspell.",
     "characterToUnlock": "MEGAMENYA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":100000
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "MENYA"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -255,6 +353,16 @@
   "MOON12_Defeat100kVadjouel": {
     "description": "Defeat 100000 enemies in a sinle run with Syuuto Moonspell.",
     "characterToUnlock": "MEGASYUUTO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesInRun",
+        "RequiredNumEnemiesKilled":100000
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "SYUUTO"
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -279,6 +387,15 @@
     "description": "Defeat 6000 Kappa.",
     "weaponToUnlock": "BUBBLES",
     "characterToUnlock": "TONY",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":6000,
+        "RequiredEnemyTypes":[
+          "MS_KAPPA"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -302,6 +419,14 @@
   "MOON14_FindNightSword": {
     "description": "Find a Night Sword.",
     "weaponToUnlock": "NIGHTSWORD",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "CollectedWeapons",
+        "RequiredWeapons":[
+          "NIGHTSWORD"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -326,6 +451,14 @@
     "description": "Evolve the Night Sword.",
     "goldPrize": 50000,
     "weaponIcon": "NIGHTSWORD2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "NIGHTSWORD2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -349,6 +482,12 @@
   "MOON16_DefeatBossRuins": {
     "description": "Defeat the Orochimario in Mt.Moonspell.",
     "hyperToUnlock": "MOONSPELL",
+    "UnlockConditions":[
+      {
+        "AchievementUnlockType":"KillBossTypesInRun",
+        "RequiredEnemyTypes":["MS_OROCHIMARIO"]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -373,6 +512,14 @@
     "description": "Evolve the Mille Bolle Blu.",
     "goldPrize": 50000,
     "weaponIcon": "BUBBLES2",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "BUBBLES2"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",
@@ -396,6 +543,14 @@
   "MOON18_FindMap_Moonspell": {
     "description": "Find the Mt.Moonspell Map.",
     "relicToUnlock": "RELIC_MAP_MS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "RELIC_MAP_MS"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "Steam",

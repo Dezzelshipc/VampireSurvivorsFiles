@@ -278,7 +278,7 @@
       "evoSynergy": [
         "DURATION"
       ],
-      "hitVFX": 12,
+      "hitVFX": "Wind",
       "isUnlocked": false,
       "poolLimit": 30,
       "rarity": 50,
@@ -341,7 +341,7 @@
       "requires": [
         "DURATION"
       ],
-      "hitVFX": 15,
+      "hitVFX": "Water",
       "isUnlocked": true,
       "poolLimit": 100,
       "rarity": 1,
@@ -757,7 +757,6 @@
       "amount": 1
     }
   ],
-  
   "EME_CANNON1": [
     {
       "level": 1,
@@ -1181,7 +1180,7 @@
       "evoSynergy": [
         "PARMA"
       ],
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "isUnlocked": false,
       "poolLimit":        100,
       "rarity":           50,
@@ -1245,7 +1244,7 @@
       "requires": [
         "PARMA"
       ],
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "poolLimit":        100,
       "interval":         3500,
       "repeatInterval":   100,
@@ -1624,7 +1623,6 @@
       "amount": 1
     }
   ],
-
   "EME_SPEAR1": [
     {
       "level": 1,

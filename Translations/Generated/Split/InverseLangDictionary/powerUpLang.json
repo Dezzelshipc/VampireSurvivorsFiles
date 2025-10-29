@@ -111,6 +111,10 @@
     "SEAL4": {
       "name": "Seal All",
       "description": "Allows you to Banish four items from level up choices, or a pickup from light sources. Use in COLLECTION menu."
+    },
+    "RECYCLE": {
+      "name": "Preserve",
+      "description": "Reroll, Skip and Banish actions have a 10% chance to be preserved per rank (max 50%)."
     }
   },
   "fr": {
@@ -225,6 +229,10 @@
     "SEAL4": {
       "name": "Tout exclure",
       "description": "Vous permet de bannir quatre objets lors des choix du passage de niveau, ou un boost issu des sources de lumière depuis le menu COLLECTION."
+    },
+    "RECYCLE": {
+      "name": "Préservation",
+      "description": "Les actions Relancer, Passer, et Bannir ont 10 % de chance d'être préservées par rang (50 % max)."
     }
   },
   "it": {
@@ -339,6 +347,10 @@
     "SEAL4": {
       "name": "Omnisigillo",
       "description": "Ti permette di escludere quattro oggetti dalle scelte di passaggio al nuovo livello o un collezionabile dalle fonti di luce. Usalo nel menu COLLEZIONE."
+    },
+    "RECYCLE": {
+      "name": "Preservazione",
+      "description": "Le azioni Risorteggio, Esenzione ed Esclusione hanno il 10% di probabilità per grado di essere conservate (max 50%)."
     }
   },
   "de": {
@@ -453,6 +465,10 @@
     "SEAL4": {
       "name": "Siegel: Alles",
       "description": "Ermöglicht das Verbannen von vier Items aus der Levelaufstieg-Auswahl oder eines Pickups aus Lichtquellen. Im Menü SAMMLUNG verwenden."
+    },
+    "RECYCLE": {
+      "name": "Konservieren",
+      "description": "Chance von 10% pro Rang (max. 50%), dass Überspringen, Neuwahl und Verbannen beim Auslösen erhalten bleiben."
     }
   },
   "es": {
@@ -567,6 +583,10 @@
     "SEAL4": {
       "name": "Sellar todo",
       "description": "Te permite eliminar cuatro objetos de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
+    },
+    "RECYCLE": {
+      "name": "Preservación",
+      "description": "Las acciones de cambiar, saltar y eliminar tienen un 10 % de probabilidad de preservarse por grado (máx.: 50 %)."
     }
   },
   "pt-BR": {
@@ -681,6 +701,10 @@
     "SEAL4": {
       "name": "Selar Tudo",
       "description": "Permite Banir quatro itens das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
+    },
+    "RECYCLE": {
+      "name": "Preservação",
+      "description": "Ações de Rolar Novamente, Adiar e Banir têm 10% de chance de serem preservadas por classe (máx. de 50%)."
     }
   },
   "pl": {
@@ -795,6 +819,10 @@
     "SEAL4": {
       "name": "Zapieczętuj wszystko",
       "description": "Pozwala na odrzucenie czterech przedmiotów z puli przyznawanej przy awansie na wyższy poziom lub z łupu ze źródeł światła. Użyj w menu KOLEKCJA."
+    },
+    "RECYCLE": {
+      "name": "Zachowani",
+      "description": "10% szans na rangę (maks. 50%), że akcje zmiany, pomijania i odrzucenia zostaną zastosowane do końca rozgrywki."
     }
   },
   "ru": {
@@ -909,6 +937,10 @@
     "SEAL4": {
       "name": "Исключить все",
       "description": "Позволяет убрать четыре предмета из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+    },
+    "RECYCLE": {
+      "name": "Сохранение",
+      "description": "Повтор, пропуск и изгнание сохраняются с шансом 10% за ранг (макс. 50%)."
     }
   },
   "tr": {
@@ -1023,6 +1055,10 @@
     "SEAL4": {
       "name": "Hepsini Mühürle",
       "description": "Seviye atlama seçeneklerinden dört eşyayı veya ışık kaynaklarından bir toplanabiliri Çıkarmaya olanak tanır. KOLEKSİYON menüsünde kullanılır."
+    },
+    "RECYCLE": {
+      "name": "Muhafaza",
+      "description": "Tekrar Atma, Atlama ve Çıkarma hamleleri rütbe başına %10 şansla muhafaza edilir (maks %50)."
     }
   },
   "zh-CN": {
@@ -1137,6 +1173,10 @@
     "SEAL4": {
       "name": "全部封印",
       "description": "允许你在升级时排除四个物品，或排除光源中的一个掉落物；需在藏品菜单中使用。"
+    },
+    "RECYCLE": {
+      "name": "保留",
+      "description": "每强化一层，重选、跳过和排除操作有+10%的几率保留，最多+50%。"
     }
   },
   "ja": {
@@ -1251,6 +1291,10 @@
     "SEAL4": {
       "name": "すべて封印",
       "description": "レベルアップ選択肢から4つのアイテムを削除できる、または明かりからピックアップが得られる。コレクションメニューで使う。"
+    },
+    "RECYCLE": {
+      "name": "プ持続",
+      "description": "リロール、スキップ、選択肢消去のアクションが1ランクにつき10%（最大50%）の確率で持続する。"
     }
   },
   "ko": {
@@ -1365,6 +1409,10 @@
     "SEAL4": {
       "name": "모두 봉인",
       "description": "레벨업 선택지에서 아이템 네 개를 지우거나, 광원에서 픽업 하나를 지울 수 있습니다. 컬렉션 메뉴에서 사용하세요."
+    },
+    "RECYCLE": {
+      "name": "유지",
+      "description": "다시 뽑기, 건너뛰기, 배니쉬 액션은 랭크당 10%의 확률로 유지됩니다(최대 50%)."
     }
   },
   "zh-TW": {
@@ -1479,6 +1527,10 @@
     "SEAL4": {
       "name": "全部封印",
       "description": "允許你在升級時，滅除四個強化選項或是光源中的掉落物品。需在收藏選單中使用。"
+    },
+    "RECYCLE": {
+      "name": "保留",
+      "description": "每強化一級，有 10% 的機率能夠保留重骰、跳過或是滅除的額度，最多提高 50% 的機率。"
     }
   },
   "uk": {
@@ -1593,6 +1645,10 @@
     "SEAL4": {
       "name": "Заблокувати всі",
       "description": "Дозволяє прибрати чотири предмети з варіантів при підвищенні рівня або знахідку з джерел світла. Використовуйте в меню «КОЛЕКЦІЯ»."
+    },
+    "RECYCLE": {
+      "name": "Зберігання",
+      "description": "Дії «Повтор», «Пропуск» і «Вигнання» можуть зберегтись із шансом 10% за кожен ранг (макс. 50%)."
     }
   }
 }

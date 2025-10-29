@@ -454,7 +454,7 @@
       "frameName": "Dice.png",
       "isPowerUp": true,
       "isAnUnlockable": true,
-      "price": 1000,
+      "price": 500,
       "rerolls": 2,
       "unlockedRank": 0,
       "specialBG": true,
@@ -533,6 +533,36 @@
       "banish": 2
     }
   ],
+  "RECYCLE": [
+    {
+      "level": 0,
+      "hidden": true,
+      "bulletType": "RECYCLE",
+      "name": "Recycle",
+      "description": "Reroll, Skip and Banish actions have a 10% chance to be preserved per rank (max 50%).",
+      "texture": "items",
+      "frameName": "waxFetish.png",
+      "isPowerUp": true,
+      "isAnUnlockable": true,
+      "price": 500,
+      "recycle": 0.1,
+      "unlockedRank": 0,
+      "specialBG": true,
+      "active": true
+    },
+    {
+      "recycle": 0.1
+    },
+    {
+      "recycle": 0.1
+    },
+    {
+      "recycle": 0.1
+    },
+    {
+      "recycle": 0.1
+    }
+  ],
   "SEAL": [
     {
       "level": 0,
@@ -544,7 +574,7 @@
       "frameName": "seal.png",
       "isPowerUp": true,
       "isAnUnlockable": true,
-      "price": 10000,
+      "price": 2000,
       "seal": 1,
       "unlockedRank": 10,
       "specialBG": true,
@@ -589,7 +619,7 @@
       "frameName": "sealIcon2.png",
       "isPowerUp": true,
       "isAnUnlockable": true,
-      "price": 10000,
+      "price": 4000,
       "seal": 1,
       "unlockedRank": 10,
       "specialBG": true,
@@ -634,7 +664,7 @@
       "frameName": "sealIcon3.png",
       "isPowerUp": true,
       "isAnUnlockable": true,
-      "price": 10000,
+      "price": 6000,
       "seal": 1,
       "unlockedRank": 10,
       "specialBG": true,
@@ -679,7 +709,7 @@
       "frameName": "sealIcon4.png",
       "isPowerUp": true,
       "isAnUnlockable": true,
-      "price": 10000,
+      "price": 8000,
       "seal": 1,
       "unlockedRank": 10,
       "specialBG": true,

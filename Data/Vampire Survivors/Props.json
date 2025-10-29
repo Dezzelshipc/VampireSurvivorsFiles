@@ -145,5 +145,12 @@
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "TP_DOOR"
+  },
+  "EX_TOHILSTATUE": {
+    "textureName": "items",
+    "frameName": "ziappunta_prop",
+    "destroyedAmount": 0,
+    "maxHp": 5,
+    "destructibleType": "EX_TOHILSTATUE"
   }
 }

@@ -16,7 +16,7 @@
         "REGEN"
       ],
       "evoInto": "SILVERWIND2",
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "isUnlocked": false,
       "poolLimit": 100,
       "rarity": 50,
@@ -86,7 +86,7 @@
       "requiresMax": [
         "REGEN"
       ],
-      "hitVFX": 12,
+      "hitVFX": "Wind",
       "isEvolution": true,
       "isUnlocked": true,
       "poolLimit": 100,
@@ -123,7 +123,7 @@
         "AREA"
       ],
       "evoInto": "FOURSEASONS2",
-      "hitVFX": 1,
+      "hitVFX": "Default",
       "isUnlocked": false,
       "poolLimit": 30,
       "rarity": 50,
@@ -186,7 +186,7 @@
       "requiresMax": [
         "AREA"
       ],
-      "hitVFX": 1,
+      "hitVFX": "Default",
       "isEvolution": true,
       "isUnlocked": true,
       "poolLimit": 30,
@@ -219,7 +219,7 @@
         "AMOUNT"
       ],
       "evoInto": "SUMMONNIGHT2",
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "isUnlocked": false,
       "poolLimit": 60,
       "rarity": 50,
@@ -280,7 +280,7 @@
       "requiresMax": [
         "AMOUNT"
       ],
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "isEvolution": true,
       "isUnlocked": true,
       "poolLimit": 60,
@@ -315,7 +315,7 @@
         "MAGNET"
       ],
       "evoInto": "MIRAGEROBE2",
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "isUnlocked": false,
       "poolLimit": 50,
       "rarity": 50,
@@ -380,7 +380,7 @@
       "requiresMax": [
         "MAGNET"
       ],
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "isEvolution": true,
       "isUnlocked": true,
       "poolLimit": 100,
@@ -514,7 +514,7 @@
       ],
       "evoInto": "BUBBLES2",
       "isUnlocked": false,
-      "hitVFX": 15,
+      "hitVFX": "Water",
       "poolLimit": 140,
       "rarity": 1,
       "interval": 2600,
@@ -579,7 +579,7 @@
       ],
       "isEvolution": true,
       "isUnlocked": true,
-      "hitVFX": 15,
+      "hitVFX": "Water",
       "poolLimit": 180,
       "rarity": 1,
       "interval": 2000,

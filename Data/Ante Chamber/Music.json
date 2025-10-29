@@ -1,0 +1,20 @@
+{
+  "BGM_LEM_CHAMBER": {
+    "title": "Ante Chamber - Balatro Main Theme",
+    "author": "Daniele Zandara",
+    "source": "Balatro",
+    "unlockedByStage": "LEM_CHAMBER",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "icon_hyper_antechamber.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
+  }
+}

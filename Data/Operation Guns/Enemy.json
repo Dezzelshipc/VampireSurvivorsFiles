@@ -182,8 +182,8 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "textureName": "firstBloodEnemies",
@@ -700,7 +700,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -730,7 +730,7 @@
       "speed": 120,
       "power": 25,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 25,
       "knockback": 1,
@@ -762,7 +762,7 @@
       "speed": 80,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 10,
       "knockback": 1,
@@ -790,7 +790,7 @@
       "speed": 160,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 10,
       "knockback": 1,
@@ -818,7 +818,7 @@
       "speed": 180,
       "power": 25,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 30,
       "knockback": 1,
@@ -850,7 +850,7 @@
       "speed": 180,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 30,
       "knockback": 1,
@@ -887,7 +887,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 3,
       "knockback": 0,
@@ -923,7 +923,7 @@
       "speed": 200,
       "power": 5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 2,
       "knockback": 1,
@@ -950,7 +950,7 @@
       "level": 3600,
       "maxHp": 36,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 120,
       "power": 20,
@@ -984,7 +984,7 @@
       "speed": 140,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 50,
       "knockback": 0.1,
@@ -1025,7 +1025,7 @@
       "speed": 0,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 50,
       "knockback": 0,
@@ -1144,7 +1144,7 @@
       "idleFrameCount": 4,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "firstBloodEnemies",
@@ -1171,7 +1171,7 @@
       "idleFrameCount": 4,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "firstBloodEnemies",
@@ -1198,7 +1198,7 @@
       "idleFrameCount": 4,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "firstBloodEnemies",
@@ -1225,7 +1225,7 @@
       "idleFrameCount": 4,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "firstBloodEnemies",
@@ -1246,7 +1246,7 @@
       "speed": 1000,
       "power": 20,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "knockback": 1,
@@ -1272,7 +1272,7 @@
       "speed": 200,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "knockback": 0,
@@ -1298,7 +1298,7 @@
       "speed": 200,
       "power": 20,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "knockback": 1,
@@ -1324,7 +1324,7 @@
       "speed": 400,
       "power": 5,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "scale": 0.5,
       "passThroughWalls": true,
@@ -1408,7 +1408,7 @@
       "idleFrameCount": 4,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "firstBloodEnemies",
@@ -1456,7 +1456,7 @@
       "power": 15,
       "xp": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -1532,7 +1532,7 @@
       "idleFrameCount": 4,
       "end": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "textureName": "firstBloodEnemies",
       "frameNames": [
@@ -1561,7 +1561,7 @@
       "deathKB": 1,
       "xp": 4,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "textureName": "firstBloodEnemies",
@@ -1687,7 +1687,7 @@
       "power": 5,
       "xp": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "tint": 16776349,
@@ -1767,7 +1767,7 @@
       "power": 10,
       "xp": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "tint": 16776349,
@@ -1825,7 +1825,7 @@
       "power": 25,
       "xp": 25,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "tint": 16776349,
@@ -1887,7 +1887,7 @@
       "power": 25,
       "xp": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "tint": 16776349,
@@ -1921,7 +1921,7 @@
       "power": 10,
       "xp": 3,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -1952,7 +1952,7 @@
       "power": 30,
       "xp": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.1,
       "maxKnockback": 0.3,
@@ -1986,7 +1986,7 @@
       "speed": 5,
       "power": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,

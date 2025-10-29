@@ -1,6 +1,7 @@
 {
   "EME_RAPIERDUAL": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -22,9 +23,13 @@
           "spriteName": "RapierMan_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 10,
+			"y": 16
+		  },
           "headOffsets": [
             {
-              "x": 3,
+              "x": -5,
               "y": 0
             }
           ],
@@ -33,13 +38,7 @@
               "textureName": "character_eme_rapierman",
               "spriteName": "RapierMan_a01.png",
               "framesNumber": 5,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -51,6 +50,10 @@
           "spriteName": "DualSwordsMan_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 8.5,
+			"y": 21
+		  },
           "headOffsets": [
             {
               "x": 3,
@@ -62,13 +65,7 @@
               "textureName": "character_eme_rapierman",
               "spriteName": "DualSwordsMan_a01.png",
               "framesNumber": 6,
-              "frameRate": 14,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 14
             }
           }
         },
@@ -80,9 +77,13 @@
           "spriteName": "RapierMan_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 10,
+			"y": 16
+		  },
           "headOffsets": [
             {
-              "x": 3,
+              "x": -5,
               "y": 0
             }
           ],
@@ -91,13 +92,7 @@
               "textureName": "character_eme_rapierman",
               "spriteName": "RapierMan_a01.png",
               "framesNumber": 5,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -109,6 +104,10 @@
           "spriteName": "DualSwordsMan_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 8.5,
+			"y": 21
+		  },
           "headOffsets": [
             {
               "x": 3,
@@ -120,13 +119,7 @@
               "textureName": "character_eme_rapierman",
               "spriteName": "DualSwordsMan_a01.png",
               "framesNumber": 6,
-              "frameRate": 14,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 14
             }
           }
         }
@@ -201,6 +194,7 @@
   ],
   "EME_PUNCHKICK": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -224,8 +218,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": -1
             }
           ],
           "spriteAnims": {
@@ -233,13 +227,7 @@
               "textureName": "character_eme_formina",
               "spriteName": "EME_bonnie_punch_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }        
         },
@@ -253,8 +241,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": -1
             }
           ],
           "spriteAnims": {
@@ -262,13 +250,7 @@
               "textureName": "character_eme_formina",
               "spriteName": "EME_bonnie_kick_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           } 
         },
@@ -282,8 +264,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": -1
             }
           ],
           "spriteAnims": {
@@ -291,13 +273,7 @@
               "textureName": "character_eme_formina",
               "spriteName": "EME_bonnie_punch_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -311,8 +287,8 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": -1
             }
           ],
           "spriteAnims": {
@@ -320,13 +296,7 @@
               "textureName": "character_eme_formina",
               "spriteName": "EME_bonnie_kick_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         }
@@ -401,6 +371,7 @@
   ],
   "EME_CANNONGUN": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -422,18 +393,22 @@
           "spriteName": "EME_formina_minigun_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 8,
+			"y": 14
+		  },
+		  "headOffsets": [
+            {
+              "x": -2,
+              "y": -2
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
               "textureName": "character_eme_formina",
               "spriteName": "EME_formina_minigun_r01.png",
               "framesNumber": 4,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -445,18 +420,22 @@
           "spriteName": "EME_formina_pistol_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 7,
+			"y": 14
+		  },
+		  "headOffsets": [
+            {
+              "x": 0,
+              "y": -3
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
               "textureName": "character_eme_formina",
               "spriteName": "EME_formina_pistol2_r01.png",
               "framesNumber": 4,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -468,18 +447,22 @@
           "spriteName": "EME_formina_minigun_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 8,
+			"y": 14
+		  },
+		  "headOffsets": [
+            {
+              "x": -2,
+              "y": -2
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
               "textureName": "character_eme_formina",
               "spriteName": "EME_formina_minigun_r01.png",
               "framesNumber": 4,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -491,18 +474,22 @@
           "spriteName": "EME_formina_pistol_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 7,
+			"y": 14
+		  },
+		  "headOffsets": [
+            {
+              "x": 0,
+              "y": -3
+            }
+          ],
           "spriteAnims": {
             "rangedAttack": {
               "textureName": "character_eme_formina",
               "spriteName": "EME_formina_pistol2_r01.png",
               "framesNumber": 4,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         }
@@ -577,6 +564,7 @@
   ],
   "EME_MECHKATANA": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -584,7 +572,7 @@
       "level": 1,
       "startingWeapon": "EME_MECH1",
       "cooldown": 1,
-      "charName": "",
+      "charName": "Diva No. 5",
       "surname": "",
       "textureName": "character_eme_divano",
       "spriteName": "EME_divano5retropod_i01.png",
@@ -600,10 +588,14 @@
           "spriteName": "EME_divano5retropod_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 9,
+			"y": 16
+		  },
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": -2,
+              "y": 2
             }
           ]
         },
@@ -619,13 +611,13 @@
           "walkingFrames": 4,
           "unlocked": false,
           "bodyOffset": {
-            "x": 16,
+            "x": 15,
             "y": 29
           },
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 0,
+              "y": -4
             }
           ]
         },
@@ -641,13 +633,13 @@
           "walkingFrames": 4,
           "unlocked": false,
           "bodyOffset": {
-            "x": 7,
+            "x": 5.5,
             "y": 8
           },
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": -1,
+              "y": -9
             }
           ]
         },
@@ -664,13 +656,13 @@
           "walkingFrames": 4,
           "unlocked": false,
           "bodyOffset": {
-            "x": 29,
-            "y": 18
+            "x": 29.5,
+            "y": 20
           },
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 6,
+              "y": -10
             }
           ]
         },
@@ -687,13 +679,13 @@
           "walkingFrames": 4,
           "unlocked": false,
           "bodyOffset": {
-            "x": 20,
+            "x": 19.5,
             "y": 27
           },
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 5,
+              "y": 4
             }
           ]
         },
@@ -707,9 +699,13 @@
           "spriteName": "EME_divano5_walk_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 6.5,
+			"y": 18
+		  },
           "headOffsets": [
             {
-              "x": 3,
+              "x": 1,
               "y": 0
             }
           ],
@@ -718,13 +714,7 @@
               "textureName": "character_eme_divano",
               "spriteName": "EME_divano5_armshoot1.png",
               "framesNumber": 4,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 3,
-                  "y": 0
-                }
-              ]
+              "frameRate": 12
             }
           }
         }
@@ -800,6 +790,7 @@
   
   "EME_MAGICALL": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -813,6 +804,10 @@
       "spriteName": "EME_ameya_i01.png",
       "portraitName": "p_char_magic.png",
       "bgm": "BGM_EME_ENCHANTED",
+	  "bodyOffset": {
+		"x": 9,
+		"y": 16
+	  },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -823,7 +818,7 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 3,
+              "x": -5,
               "y": 0
             }
           ]
@@ -838,7 +833,7 @@
           "unlocked": false,
           "headOffsets": [
             {
-              "x": 3,
+              "x": -5,
               "y": 0
             }
           ]
@@ -927,6 +922,7 @@
   ],
   "EME_SWORDBITE": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -947,9 +943,13 @@
           "spriteName": "EME_siugnas_sword_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 9.5,
+			"y": 18
+		  },
           "headOffsets": [
             {
-              "x": 3,
+              "x": 6,
               "y": 0
             }
           ],
@@ -958,13 +958,7 @@
               "textureName": "character_eme_siugnas",
               "spriteName": "EME_siugnas_sword_a01.png",
               "framesNumber": 6,
-              "frameRate": 12,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 12
             }
           }
         },
@@ -976,9 +970,13 @@
           "spriteName": "EME_siugnas_vampire_i01.png",
           "walkingFrames": 4,
           "unlocked": false,
+		  "bodyOffset": {
+			"x": 6,
+			"y": 17
+		  },
           "headOffsets": [
             {
-              "x": 3,
+              "x": -1,
               "y": 0
             }
           ],
@@ -987,13 +985,7 @@
               "textureName": "character_eme_siugnas",
               "spriteName": "EME_siugnas_vampire_a01.png",
               "framesNumber": 6,
-              "frameRate": 18,
-              "headOffsets": [
-                {
-                  "x": 0,
-                  "y": -5
-                }
-              ]
+              "frameRate": 18
             }
           }
         }
@@ -1003,10 +995,6 @@
       "description": "-",
       "price": 5000,
       "completedStages": [],
-      "bodyOffset": {
-        "x": 10,
-        "y": 21
-      },
       "survivedMinutes": 0,
       "enemiesKilled": 0,
       "stageData": [],
@@ -1072,6 +1060,7 @@
   ],
   "EME_EXGREATSWORD": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -1079,7 +1068,7 @@
       "bgm": "BGM_EME_FIERCE",
       "level": 1,
       "startingWeapon": "EME_GREATSWORD1",
-      "charName": "",
+      "charName": "Final Emperor",
       "surname": "",
       "textureName": "character_eme_finalemperor",
       "spriteName": "char_finalemperor_i01.png",
@@ -1087,9 +1076,19 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "p_char_greatsword.png",
-      "price": 12500,
+      "price": 25000,
       "completedStages": [],
       "survivedMinutes": 0,
+	  "bodyOffset": {
+		"x": 5.5,
+		"y": 18
+	  },
+	  "headOffsets": [
+		{
+		  "x": 1,
+		  "y": 3
+		}
+	  ],
       "maxHp":      100,
       "armor":      0,
       "regen":      0,
@@ -1134,6 +1133,7 @@
   ],
   "EME_EXAXE": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -1141,21 +1141,26 @@
       "bgm": "BGM_EME_ODDS",
       "level": 1,
       "startingWeapon": "EME_AXE1",
-      "charName": "",
+      "charName": "Dolores",
       "surname": "",
       "textureName": "character_eme_dolores",
       "spriteName": "EME_dolores_i01.png",
       "walkingFrames": 4,
       "description": ".",
       "portraitName": "p_char_axe.png",
-      "price": 12500,
+      "price": 25000,
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 13,
-        "y": 18
+        "x": 11.5,
+        "y": 16
       },
-      
+      "headOffsets": [
+		{
+		  "x": 4,
+		  "y": -1
+		}
+	  ],
       "maxHp":      100,
       "armor":      0,
       "regen":      0,
@@ -1201,6 +1206,7 @@
   
   "EME_EXKNIFE": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -1208,7 +1214,7 @@
       "bgm": "BGM_EME_WORLD",
       "level": 1,
       "startingWeapon": "EME_KNIFE1",
-      "charName": "",
+      "charName": "Macha",
       "surname": "",
       "textureName": "character_eme_macha",
       "spriteName": "eme_macha_i01.png",
@@ -1216,9 +1222,19 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "p_char_knife.png",
-      "price": 12500,
+      "price": 25000,
       "completedStages": [],
       "survivedMinutes": 0,
+	  "bodyOffset": {
+		"x": 8.5,
+		"y": 16
+	  },
+	  "headOffsets": [
+		{
+		  "x": 1,
+		  "y": 0
+		}
+	  ],
       "maxHp":       100,
       "armor":       0,
       "regen":       0,
@@ -1266,6 +1282,7 @@
   ],
   "EME_EXSPEAR": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -1273,7 +1290,7 @@
       "bgm": "BGM_EME_QUICK",
       "level": 1,
       "startingWeapon": "EME_SPEAR1",
-      "charName": "",
+      "charName": "Lita",
       "surname": "",
       "textureName": "character_eme_lita",
       "spriteName": "eme_lita_i01.png",
@@ -1281,11 +1298,17 @@
       "currentSkin": "DEFAULT",
       "description": ".",
       "portraitName": "p_char_spear.png",
-      "price": 12500,
+      "price": 25000,
       "bodyOffset": {
         "x": 8,
-        "y": 32
+        "y": 30
       },
+	  "headOffsets": [
+		{
+		  "x": -1,
+		  "y": -1
+		}
+	  ],
       "completedStages": [],
       "survivedMinutes": 0,
       "maxHp":      100,
@@ -1334,6 +1357,7 @@
   ],
   "EME_PUPALL": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -1356,10 +1380,14 @@
           "spriteName": "EME_musashi_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 9,
+			"y": 19,
+		  },
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": 1
             }
           ]
         },
@@ -1372,10 +1400,14 @@
           "spriteName": "EME_komachi_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 9,
+			"y": 16,
+		  },
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": -1
             }
           ]
         },
@@ -1388,9 +1420,13 @@
           "spriteName": "EME_boh_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 9,
+			"y": 17
+		  },
           "headOffsets": [
             {
-              "x": 3,
+              "x": 1,
               "y": 0
             }
           ]
@@ -1404,9 +1440,13 @@
           "spriteName": "EME_sukune_i01.png",
           "walkingFrames": 4,
           "unlocked": true,
+		  "bodyOffset": {
+			"x": 9,
+			"y": 18
+		  },
           "headOffsets": [
             {
-              "x": 3,
+              "x": 1,
               "y": 0
             }
           ]
@@ -1415,7 +1455,7 @@
       "currentSkin": "SKIN_EME_MUS",
       "walkingFrames": 4,
       "description": "-",
-      "price": 12500,
+      "price": 25000,
       "completedStages": [],
       "survivedMinutes": 0,
       "enemiesKilled": 0,
@@ -1475,6 +1515,7 @@
   ],
   "EME_MRS": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   false,
       "isBought": false,
@@ -1482,7 +1523,7 @@
       "noHurt": true,
       "level": 1,
       "startingWeapon": "EME_SELECTOR",
-      "charName": "Mr.S",
+      "charName": "Mr. S",
       "surname": "",
       "textureName": "character_eme_mrs",
       "spriteName": "eme_mrs_i01.png",
@@ -1490,7 +1531,17 @@
       "walkingFrames": 4,
       "currentSkin": "DEFAULT",
       "description": "-",
-      "price": 50000,
+      "price": 100000,
+	  "bodyOffset": {
+		"x": -1,
+		"y": 5
+	  },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": -11
+		}
+	  ],
       "completedStages": [],
       "survivedMinutes": 0,
       "enemiesKilled": 0,
@@ -1571,6 +1622,7 @@
   
   "EME_CATS": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   true,
       "isBought": false,
@@ -1578,7 +1630,7 @@
       "level": 1,
       "startingWeapon": "VOID",
       "prefix": "",
-      "charName": "Lolo, Hiss, Meow, and Purr",
+      "charName": "Lolo, Hiss, Meow and Purr",
       "surname": "",
       "textureName": "character_eme_witch",
       "spriteName": "EME_catscombined_i01.png",
@@ -1589,9 +1641,27 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 8,
-        "y": 17
+        "x": 7,
+        "y": 14
       },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": -10
+		},
+		{
+		  "x": 9,
+		  "y": -4
+		},
+		{
+		  "x": 9,
+		  "y": -14
+		},
+		{
+		  "x": 2,
+		  "y": -20
+		}
+	  ],
       "maxHp": 50,
       "armor": 0,
       "regen": 1,
@@ -1638,6 +1708,7 @@
   ],
   "EME_KINA": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   true,
       "isBought": false,
@@ -1651,13 +1722,19 @@
       "portraitName": "p_char_kina.png",
       "description": "",
       "walkingFrames": 4,
-      "price": 5000,
+      "price": 1000,
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
-        "y": 25
+        "x": 15,
+        "y": 27
       },
+	  "headOffsets": [
+		{
+		  "x": 0,
+		  "y": 9
+		}
+	  ],
       "maxHp": 110,
       "armor": 0,
       "regen": 0,
@@ -1717,6 +1794,7 @@
   ],
   "EME_IMAKOO": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   true,
       "isBought": false,
@@ -1730,13 +1808,19 @@
       "portraitName": "p_char_imakoo.png",
       "description": "",
       "walkingFrames": 4,
-      "price": 5000,
+      "price": 1000,
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
-        "y": 25
+        "x": 14,
+        "y": 18
       },
+	  "headOffsets": [
+		{
+		  "x": 7,
+		  "y": -4
+		}
+	  ],
       "maxHp": 120,
       "armor": 0,
       "regen": 0,
@@ -1796,13 +1880,14 @@
   ],
   "EME_DEMON": [
     {
+      "requiresRelic": "RELIC_EME_DISK",
       "hidden":   true,
       "secret":   true,
       "isBought": false,
       "level": 1,
       "startingWeapon": "EME_BLOOD2",
       "prefix": "",
-      "charName": "Demonic Final Emperor",
+      "charName": "Malevolent Door Spirit",
       "surname": "",
       "textureName": "character_eme_demonicfinalemperor",
       "spriteName": "EME_DemonicFinalEmperor_i01.png",
@@ -1813,9 +1898,15 @@
       "completedStages": [],
       "survivedMinutes": 0,
       "bodyOffset": {
-        "x": 16,
-        "y": 25
+        "x": 18.5,
+        "y": 33
       },
+	  "headOffsets": [
+		{
+		  "x": 8,
+		  "y": 7
+		}
+	  ],
       "maxHp": 177,
       "armor": 1,
       "regen": 0,
@@ -1872,6 +1963,10 @@
       "surname": "",
       "textureName": "character_eme_rapierman",
       "spriteName": "EME_musashi_i01.png",
+	  "bodyOffset": {
+        "x": 9,
+        "y": 19,
+      },
       "skins": [
         {
           "startingWeapon": "EME_KATANA1",
@@ -1884,8 +1979,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": 1
             }
           ]
         }
@@ -1894,7 +1989,7 @@
       "walkingFrames": 4,
       "description": "-",
       "isBought": true,
-      "price": 0,
+      "price": 100,
       "completedStages": [],
       "survivedMinutes": 0,
       "enemiesKilled": 0,
@@ -1991,6 +2086,10 @@
       "surname": "the Kugutsu",
       "textureName": "character_eme_rapierman",
       "spriteName": "EME_komachi_i01.png",
+	  "bodyOffset": {
+        "x": 9,
+        "y": 16,
+      },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -2001,8 +2100,8 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 3,
-              "y": 0
+              "x": 1,
+              "y": -1
             }
           ]
         }
@@ -2104,6 +2203,10 @@
       "surname": "the Kugutsu",
       "textureName": "character_eme_rapierman",
       "spriteName": "EME_boh_i01.png",
+	  "bodyOffset": {
+        "x": 9,
+        "y": 17,
+      },
       "skins": [
         {
           "skinType": "DEFAULT",
@@ -2114,7 +2217,7 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 3,
+              "x": 1,
               "y": 0
             }
           ]
@@ -2215,6 +2318,10 @@
       "charName": "Sukune",
       "surname": "the Kugutsu",
       "textureName": "character_eme_rapierman",
+	  "bodyOffset": {
+        "x": 9,
+        "y": 18,
+      },
       "spriteName": "EME_sukune_i01.png",
       "skins": [
         {
@@ -2226,7 +2333,7 @@
           "unlocked": true,
           "headOffsets": [
             {
-              "x": 3,
+              "x": 1,
               "y": 0
             }
           ]
@@ -2332,8 +2439,12 @@
     "portraitName": "",
     "description": "",
     "walkingFrames": 4,
+	"bodyOffset": {
+        "x": 3,
+        "y": 15,
+      },
     "isBought": false,
-    "price": 0,
+    "price": 5000,
     "completedStages": [],
     "survivedMinutes": 0,
     "maxHp": 50,

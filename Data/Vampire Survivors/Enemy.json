@@ -160,7 +160,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -182,7 +182,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -210,7 +210,7 @@
       "idleFrameCount": 4,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies",
@@ -449,7 +449,7 @@
       "deathKB": 2,
       "killedAmount": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 2,
       "end": 29,
@@ -467,6 +467,30 @@
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
+    }
+  ],
+  "EX_SKELEGEM": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 40,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "xp": 3,
+      "end": 15,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Skelegem_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
     }
   ],
   "GHOST": [
@@ -540,7 +564,7 @@
         "Ghost_0.png"
       ],
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "alpha": 0.5
     }
@@ -610,7 +634,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -688,7 +712,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -710,7 +734,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 5,
       "killedAmount": 0,
@@ -742,8 +766,8 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "killedAmount": 0,
@@ -766,7 +790,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 5,
       "killedAmount": 0,
@@ -788,8 +812,8 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "killedAmount": 0,
@@ -812,8 +836,8 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "killedAmount": 0,
@@ -837,7 +861,7 @@
       "xp": 2,
       "idleFrameCount": 5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "moreX": 50,
       "moreY": 60,
@@ -858,8 +882,8 @@
       "speed": 330,
       "power": 3,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -894,8 +918,8 @@
       "speed": 0,
       "power": 3,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 0,
@@ -920,8 +944,8 @@
       "speed": 50,
       "power": 3,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 0,
@@ -959,7 +983,7 @@
       "speed": 210,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -1000,7 +1024,7 @@
       "speed": 160,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -1038,7 +1062,7 @@
       "speed": 140,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 3,
@@ -1087,7 +1111,7 @@
       "alpha": 0.75,
       "res_Defang": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "idleFrameCount": 4,
@@ -1106,7 +1130,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -1164,8 +1188,8 @@
       "passThroughWalls": true,
       "idleFrameCount": 4,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies",
@@ -1200,8 +1224,8 @@
       "passThroughWalls": true,
       "idleFrameCount": 4,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies",
@@ -1240,6 +1264,31 @@
       "bVariants": []
     }
   ],
+  "EX_HARPY2": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 1.25,
+      "speed": 180,
+      "maxSpeed": 240,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 16,
+      "frameNames": [
+        "Harpy2_0.png"
+      ],
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
   "HARPYV": [
     {
       "level": 1,
@@ -1253,7 +1302,7 @@
       "xp": 2,
       "idleFrameCount": 4,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies2",
@@ -1276,8 +1325,8 @@
       "xp": 2,
       "idleFrameCount": 4,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies",
@@ -1321,8 +1370,8 @@
       "passThroughWalls": true,
       "idleFrameCount": 4,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies",
@@ -1537,7 +1586,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.5,
       "maxKnockback": 3,
@@ -1848,7 +1897,7 @@
       "speed": 130,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.1,
       "maxKnockback": 1,
@@ -1891,7 +1940,7 @@
       "speed": 80,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0,
@@ -1920,7 +1969,7 @@
       "speed": 140,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -1969,7 +2018,7 @@
       "speed": 160,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0,
@@ -1993,7 +2042,7 @@
       "speed": 160,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0,
@@ -2017,7 +2066,7 @@
       "speed": 0,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -2044,7 +2093,7 @@
       "speed": 300,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -2119,7 +2168,7 @@
       "speed": 300,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -2145,7 +2194,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2168,7 +2217,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2191,7 +2240,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2214,7 +2263,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2237,7 +2286,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2260,7 +2309,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2283,7 +2332,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2306,7 +2355,7 @@
       "speed": 170,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 1,
@@ -2329,7 +2378,7 @@
       "speed": 160,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0.5,
@@ -2353,7 +2402,7 @@
       "speed": 160,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0.5,
@@ -2377,7 +2426,7 @@
       "speed": 160,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0.5,
@@ -2401,7 +2450,7 @@
       "speed": 200,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "res_Freeze": 1.1,
@@ -2457,7 +2506,7 @@
       "speed": 200,
       "power": 20,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "knockback": 1,
@@ -2614,7 +2663,7 @@
       "speed": 250,
       "power": 25,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "knockback": 1,
@@ -2657,7 +2706,7 @@
       "power": 6,
       "knockback": 0.2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "maxKnockback": 3,
@@ -2708,7 +2757,7 @@
       "speed": 150,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "knockback": 0.2,
       "maxKnockback": 3,
@@ -2793,7 +2842,7 @@
       "maxHp": 7,
       "speed": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0,
@@ -2817,7 +2866,7 @@
       "speed": 300,
       "power": 40,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "knockback": 1,
@@ -2840,7 +2889,7 @@
       "power": 10,
       "passThroughWalls": true,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Rosary": 1,
@@ -2864,7 +2913,7 @@
       "speed": 300,
       "power": 40,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "knockback": 0,
@@ -2962,7 +3011,7 @@
       "speed": 200,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.5,
       "maxKnockback": 3,
@@ -2984,7 +3033,7 @@
       "speed": 180,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -3007,7 +3056,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "knockback": 1,
@@ -3031,7 +3080,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "knockback": 0,
@@ -3085,7 +3134,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "bName": "Mignotaur",
       "bDesc": "While their milk yields are sour, a Mignottaur’s famously tender meat commands a high price at market. Of course, the creatures’ would-be butchers tend to become butchered first.",
@@ -3202,7 +3251,7 @@
       "speed": 250,
       "power": 7,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -3599,7 +3648,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "res_Rosary": 1,
@@ -3625,7 +3674,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "res_Rosary": 1,
@@ -3651,7 +3700,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -3677,7 +3726,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -3701,7 +3750,7 @@
       "speed": 180,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -3725,7 +3774,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -3749,7 +3798,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -3773,7 +3822,7 @@
       "speed": 210,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -3800,7 +3849,7 @@
       "speed": 250,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -3828,7 +3877,7 @@
       "speed": 200,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -3865,7 +3914,7 @@
       "speed": 0,
       "power": 12,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Debuffs": 1,
@@ -3934,7 +3983,7 @@
       "power": 1,
       "knockback": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "maxKnockback": 3,
       "deathKB": 1,
@@ -3958,7 +4007,7 @@
       "power": 1,
       "knockback": 0,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "maxKnockback": 3,
       "deathKB": 1,
@@ -4031,7 +4080,7 @@
       "maxKnockback": 3,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "end": 29,
@@ -4055,7 +4104,7 @@
       "maxKnockback": 3,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "end": 29,
@@ -4303,6 +4352,26 @@
     }
   ],
   "MOLISANO_ANFORA": [
+    {
+      "level": 6,
+      "maxHp": 6,
+      "speed": 0,
+      "power": 1,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "alpha": 0.75,
+      "killedAmount": 0,
+      "textureName": "enemiesM",
+      "end": 29,
+      "frameNames": [
+        "H1_0.png",
+        "H2_0.png"
+      ]
+    }
+  ],
+  "MOLISANO_ANFORA_GOLD": [
     {
       "level": 6,
       "maxHp": 6,
@@ -4627,7 +4696,7 @@
       "speed": 100,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.3,
       "maxKnockback": 3,
@@ -4652,7 +4721,7 @@
       "speed": 100,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.3,
       "maxKnockback": 3,
@@ -4755,7 +4824,7 @@
       "speed": 100,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -4799,7 +4868,7 @@
       "speed": 0,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -4838,7 +4907,7 @@
       "xp": 1,
       "alpha": 0.65,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "flagName": "boss_kitsune_tail.png",
       "passThroughWalls": true,
@@ -5042,7 +5111,7 @@
       "speed": 150,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -5071,7 +5140,7 @@
       "speed": 150,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -5100,7 +5169,7 @@
       "speed": 150,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -5160,7 +5229,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ]
     }
   ],
@@ -5189,7 +5258,7 @@
       ],
       "passThroughWalls": false,
       "skills": [
-        1
+        "Fixed_Direction"
       ]
     }
   ],
@@ -5212,7 +5281,7 @@
         "HoodieY_0.png"
       ],
       "skills": [
-        1
+        "Fixed_Direction"
       ]
     }
   ],
@@ -5237,8 +5306,8 @@
       "idleFrameCount": 5,
       "killedAmount": 0,
       "skills": [
-        1,
-        2
+        "Fixed_Direction",
+        "Self_Destruct"
       ]
     }
   ],
@@ -5262,7 +5331,7 @@
       "textureName": "enemies2",
       "idleFrameCount": 4,
       "skills": [
-        1
+        "Fixed_Direction"
       ]
     }
   ],
@@ -5274,8 +5343,8 @@
       "speed": 300,
       "power": 15,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -5313,7 +5382,7 @@
         "Mud_0.png"
       ],
       "skills": [
-        1
+        "Fixed_Direction"
       ]
     }
   ],
@@ -5337,7 +5406,7 @@
         "Ecto2_0.png"
       ],
       "skills": [
-        1
+        "Fixed_Direction"
       ]
     }
   ],
@@ -5349,7 +5418,7 @@
       "speed": 650,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "knockback": 0.2,
       "maxKnockback": 3,
@@ -5469,7 +5538,7 @@
       "speed": 400,
       "power": 5,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "scale": 0.5,
       "passThroughWalls": true,
@@ -5493,7 +5562,7 @@
       "speed": 500,
       "power": 5,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "scale": 0.5,
       "passThroughWalls": true,
@@ -5749,7 +5818,7 @@
       "maxHp": 7,
       "speed": 140,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0,
@@ -5774,7 +5843,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "knockback": 1,
@@ -5803,8 +5872,8 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -5848,7 +5917,7 @@
       "deathKB": 1,
       "xp": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "idleFrameCount": 5,
       "killedAmount": 0,
@@ -5867,7 +5936,7 @@
       "speed": 200,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.5,
       "maxKnockback": 3,
@@ -5890,7 +5959,7 @@
       "speed": 300,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -5917,7 +5986,7 @@
       "speed": 300,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -5944,7 +6013,7 @@
       "speed": 300,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -5971,7 +6040,7 @@
       "speed": 300,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -5998,7 +6067,7 @@
       "speed": 300,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -6025,7 +6094,7 @@
       "speed": 300,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -6044,13 +6113,14 @@
       ]
     }
   ],
-
   "COOP_CHICKEN_SPECIAL": [
     {
       "level": 1,
       "maxHp": 0.1,
       "speed": 500,
-      "skills": [1],
+      "skills": [
+        "Fixed_Direction"
+      ],
       "power": 5,
       "knockback": 1,
       "maxKnockback": 3,
@@ -6173,7 +6243,7 @@
       "deathKB": 1,
       "xp": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "killedAmount": 0,
@@ -6239,7 +6309,7 @@
       "speed": 800,
       "power": 7,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "knockback": 1,
@@ -6309,7 +6379,7 @@
       "speed": 800,
       "power": 4,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "knockback": 1,
@@ -6379,7 +6449,7 @@
       "speed": 800,
       "power": 3,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "knockback": 1,
@@ -6395,7 +6465,6 @@
       ]
     }
   ],
-  
   "COOP_ROAST_CHICKEN": [
     {
       "level": 1,
@@ -6403,8 +6472,8 @@
       "speed": 130,
       "power": 9,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -6438,8 +6507,8 @@
       "speed": 330,
       "power": 9,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -6464,8 +6533,8 @@
       "speed": 700,
       "power": 9,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -6490,7 +6559,7 @@
       "speed": 100,
       "power": 12,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "patrolDuration": 500,
       "knockback": 0,
@@ -6651,20 +6720,27 @@
       "idleFrameCount": 4,
       "frameNames": [
         "abraxasHalo_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bPlaces": [
+        "FOREST"
+      ],
+      "bVariants": [
+      "COOP_ABRAXASHALO_H",
+      "COOP_BOSS_ABRAXASHALO"
       ]
     }
   ],
-  
   "COOP_BOSS_ABRAXAS": [
     {
       "level": 1,
-      "maxHp": 6,
-      "speed": 220,
-      "power": 18,
+      "maxHp": 5,
+      "speed": 160,
+      "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
-      "res_Freeze": 1.1,
       "res_Rosary": 1,
       "res_Debuffs": 1,
       "scale": 1.5,
@@ -6684,16 +6760,14 @@
   "COOP_BOSS_ABRAXASCROWN": [
     {
       "level": 1,
-      "maxHp": 12,
-      "speed": 220,
-      "power": 30,
+      "maxHp": 8,
+      "speed": 160,
+      "power": 12,
       "skills": [
-        0
+        "HP_x_Level"
       ],
-      "res_Freeze": 1.1,
       "res_Rosary": 1,
       "res_Debuffs": 1,
-      "res_Defang": 1,
       "scale": 1.5,
       "knockback": 0.5,
       "maxKnockback": 1,
@@ -6711,16 +6785,14 @@
   "COOP_BOSS_ABRAXASHALO": [
     {
       "level": 1,
-      "maxHp": 18,
-      "speed": 220,
-      "power": 40,
+      "maxHp": 12,
+      "speed": 160,
+      "power": 14,
       "skills": [
-        0
+        "HP_x_Level"
       ],
-      "res_Freeze": 1.1,
       "res_Rosary": 1,
       "res_Debuffs": 1,
-      "res_Defang": 1,
       "scale": 1.5,
       "knockback": 0.5,
       "maxKnockback": 1,
@@ -6739,14 +6811,11 @@
     {
       "level": 1,
       "maxHp": 5,
-      "speed": 150,
-      "power": 20,
+      "speed": 100,
+      "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
-      "res_Freeze": 1.1,
-      "res_Rosary": 1,
-      "res_Debuffs": 1,
       "scale": 1.5,
       "knockback": 0,
       "maxKnockback": 0,
@@ -6762,7 +6831,6 @@
       ]
     }
   ],
-  
   "EX_BATS_COUNTER": [
     {
       "enemyType": "EX_BATS_COUNTER",
@@ -6946,7 +7014,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -6974,7 +7042,7 @@
       "maxKnockback": 3,
       "deathKB": 2,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -7002,7 +7070,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -7035,7 +7103,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -7060,7 +7128,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": false,
@@ -7093,7 +7161,7 @@
       "maxKnockback": 3,
       "deathKB": 0,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -7351,7 +7419,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": true,
       "scale": 1.5,
@@ -7375,7 +7443,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "scale": 1.5,
@@ -7399,7 +7467,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "scale": 1.5,
@@ -7539,8 +7607,8 @@
       "maxKnockback": 1,
       "deathKB": 0,
       "skills": [
-        1,
-        3
+        "Fixed_Direction",
+        "Medusa"
       ],
       "res_Defang": 1,
       "res_Debuffs": 1,
@@ -7817,7 +7885,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -7837,7 +7905,7 @@
       "level": 29,
       "maxHp": 0.7,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 100,
       "power": 20,
@@ -7875,7 +7943,7 @@
       "speed": 160,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -7910,7 +7978,7 @@
       "end": 18,
       "textureName": "enemies",
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "idleFrameCount": 4,
       "passThroughWalls": true,
@@ -8090,7 +8158,7 @@
       "speed": 200,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -8254,7 +8322,7 @@
       "speed": 80,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 3,
@@ -8277,7 +8345,7 @@
       "speed": 80,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 3,
@@ -8359,8 +8427,8 @@
       "tint": 8965375,
       "alpha": 0.85,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies",
@@ -8385,8 +8453,8 @@
       "tint": 8965375,
       "alpha": 0.85,
       "skills": [
-        3,
-        1
+        "Medusa",
+        "Fixed_Direction"
       ],
       "killedAmount": 0,
       "textureName": "enemies",
@@ -8425,7 +8493,7 @@
       "power": 3,
       "knockback": 0.2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "maxKnockback": 3,
       "deathKB": 2,
@@ -8467,7 +8535,7 @@
       "speed": 150,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -8494,8 +8562,8 @@
       "maxSpeed": 340,
       "power": 5,
       "skills": [
-        1,
-        0
+        "Fixed_Direction",
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -8527,7 +8595,7 @@
       "speed": 120,
       "power": 5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -8571,7 +8639,7 @@
       "level": 99,
       "maxHp": 16,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 200,
       "power": 30,
@@ -8598,7 +8666,7 @@
       "level": 99,
       "maxHp": 16,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 200,
       "power": 30,
@@ -8625,7 +8693,7 @@
       "level": 99,
       "maxHp": 16,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 200,
       "power": 30,
@@ -8652,7 +8720,7 @@
       "level": 99,
       "maxHp": 16,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 200,
       "power": 30,
@@ -8712,7 +8780,7 @@
       "maxKnockback": 3,
       "deathKB": 1,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -8744,7 +8812,7 @@
       "knockback": 1,
       "maxKnockback": 3,
       "skills": [
-        2
+        "Self_Destruct"
       ],
       "deathKB": 1,
       "xp": 2,
@@ -8776,7 +8844,7 @@
       "speed": 300,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 2,
@@ -8812,7 +8880,7 @@
       "speed": 150,
       "power": 5,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "knockback": 0,
@@ -8838,7 +8906,7 @@
       "speed": 150,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.2,
       "maxKnockback": 2,
@@ -8861,7 +8929,7 @@
       "speed": 150,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.1,
       "maxKnockback": 2,
@@ -8895,7 +8963,7 @@
       "speed": 150,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -8921,7 +8989,7 @@
       "speed": 150,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -8948,7 +9016,7 @@
       "speed": 150,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -8974,7 +9042,7 @@
       "speed": 150,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 2,
@@ -9145,7 +9213,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1,
       "knockback": 0,
@@ -9701,7 +9769,7 @@
       "speed": 200,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0.5,
       "maxKnockback": 3,
@@ -9724,7 +9792,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "knockback": 1,
@@ -9755,7 +9823,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "knockback": 1,
@@ -9778,7 +9846,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "knockback": 1,
@@ -9801,7 +9869,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "knockback": 1,
@@ -9824,7 +9892,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "knockback": 1,
@@ -9872,7 +9940,7 @@
       "speed": 140,
       "power": 11,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "scale": 1.5,
@@ -9911,7 +9979,7 @@
       "speed": 210,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 1.1,
@@ -9938,8 +10006,8 @@
       "speed": 0,
       "power": 3,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "knockback": 0,
@@ -9967,8 +10035,8 @@
       "speed": 150,
       "power": 3,
       "skills": [
-        2,
-        0
+        "Self_Destruct",
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "knockback": 0,
@@ -9995,7 +10063,7 @@
       "speed": 1200,
       "power": 65535,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 1,
@@ -10010,6 +10078,7 @@
       "xp": 0,
       "end": 29,
       "idleFrameCount": 8,
+	  "passThroughWalls": false,
       "textureName": "enemies",
       "frameNames": [
         "XLReaper_0.png"
@@ -10041,7 +10110,7 @@
       "speed": 1200,
       "power": 65535,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 1,
@@ -10070,7 +10139,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 2,
@@ -10105,7 +10174,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 2,
@@ -10141,7 +10210,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 2,
@@ -10181,7 +10250,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 2,
@@ -10217,6 +10286,46 @@
       "bHighlight": false
     }
   ],
+  "BOSS_BLINDER_NORMAL": [
+    {
+      "level": 100,
+      "maxHp": 255,
+      "speed": 150,
+      "power": 25,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 66,
+      "end": 13,
+      "idleFrameCount": 4,
+      "textureName": "enemiesM",
+      "frameNames": [
+        "Sleeper_0.png"
+      ],
+      "passThroughWalls": true,
+      "bName": "The Blinder",
+      "bDesc": "It's supposed to cast a veil of darkness around you if it touches you, so that you wouldn't be able to see much, but your screen is probably already full of particles and effects, so we didn't bother.",
+      "bPlaces": [
+        "ASTRALSTAIR"
+      ],
+      "bVariants":[
+        "STARDUST_BLINDER_PATROL",
+        "BOSS_XLBLINDER",
+        "FS_BLINDER_PATROL"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
   "BOSS_ENDER": [
     {
       "level": 100,
@@ -10224,7 +10333,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 2,
@@ -10262,7 +10371,7 @@
       "speed": 400,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -10285,7 +10394,7 @@
       "speed": 150,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -10325,7 +10434,7 @@
       "speed": 150,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -10364,7 +10473,7 @@
       "speed": 150,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -10403,7 +10512,7 @@
       "speed": 190,
       "power": 30,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "res_Rosary": 1,
@@ -10430,7 +10539,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -10587,8 +10696,8 @@
         "Swordian_0.png"
       ],
       "skills": [
-        1,
-        3
+        "Fixed_Direction",
+        "Medusa"
       ],
       "passThroughWalls": true,
       "colliderOverride": {
@@ -10627,7 +10736,7 @@
       "level": 7,
       "maxHp": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 170,
       "power": 20,
@@ -10655,7 +10764,7 @@
       "level": 7,
       "maxHp": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "speed": 170,
       "power": 20,
@@ -10712,7 +10821,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -10740,7 +10849,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -11066,7 +11175,7 @@
       "maxHp": 1,
       "speed": 140,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "power": 5,
@@ -11090,7 +11199,7 @@
       "maxHp": 1,
       "speed": 140,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "power": 5,
@@ -11114,7 +11223,7 @@
       "maxHp": 1,
       "speed": 140,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "power": 5,
@@ -11138,7 +11247,7 @@
       "maxHp": 1,
       "speed": 140,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "power": 5,
@@ -11162,7 +11271,7 @@
       "maxHp": 1,
       "speed": 140,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "power": 5,
@@ -11186,7 +11295,7 @@
       "maxHp": 0.5,
       "speed": 150,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0.2,
@@ -11492,7 +11601,7 @@
       "speed": 400,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -11515,7 +11624,7 @@
       "speed": 400,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "passThroughWalls": true,
@@ -11539,7 +11648,7 @@
       "maxHp": 3,
       "speed": 100,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "power": 10,
@@ -11563,7 +11672,7 @@
       "maxHp": 3,
       "speed": 100,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "power": 10,
@@ -11588,7 +11697,7 @@
       "speed": 150,
       "power": 50,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Defang": 1,
       "res_Freeze": 2,
@@ -11609,6 +11718,7 @@
       ]
     }
   ],
+  
   "STARDUST_ELEMENTAL": [
     {
       "level": 1,
@@ -11745,7 +11855,7 @@
       "speed": 80,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 1.1,
       "knockback": 0,
@@ -11768,7 +11878,7 @@
       "maxHp": 1,
       "speed": 100,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 7,
       "knockback": 0.3,
@@ -11837,7 +11947,7 @@
       "maxHp": 1,
       "speed": 100,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0.2,
@@ -11859,7 +11969,7 @@
       "maxHp": 0.8,
       "speed": 100,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 6,
       "knockback": 0.2,
@@ -11912,7 +12022,7 @@
       "maxHp": 0.2,
       "speed": 120,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0.3,
@@ -11946,7 +12056,7 @@
       "maxHp": 0.2,
       "speed": 120,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0.3,
@@ -11968,7 +12078,7 @@
       "maxHp": 0.2,
       "speed": 120,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0.3,
@@ -11990,7 +12100,7 @@
       "maxHp": 5,
       "speed": 120,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "knockback": 0.3,
@@ -12027,7 +12137,7 @@
       "maxHp": 20,
       "speed": 80,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "power": 10,
       "res_Freeze": 100,
@@ -12113,7 +12223,7 @@
       "power": 6,
       "knockback": 0.2,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "maxKnockback": 3,
@@ -12134,7 +12244,7 @@
       "speed": 150,
       "power": 10,
       "skills": [
-        1
+        "Fixed_Direction"
       ],
       "res_Defang": 1,
       "knockback": 0.2,
@@ -12179,7 +12289,7 @@
       "speed": 140,
       "power": 10,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "res_Freeze": 2,
       "res_Knockback": 1,
@@ -12212,7 +12322,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 1,
@@ -12227,11 +12337,20 @@
       "killedAmount": 0,
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
-      "bVariants": ["DEVIL_HP_3", "DEVIL_HP_4", "DEVIL_HP_5",
-        "DEVIL_HP_8", "DEVIL_HP_9", "DEVIL_HP_10", "DEVIL_HP_12"]
+      "bVariants": [
+        "DEVIL_HP_3",
+        "DEVIL_HP_4",
+        "DEVIL_HP_5",
+        "DEVIL_HP_8",
+        "DEVIL_HP_9",
+        "DEVIL_HP_10",
+        "DEVIL_HP_12"
+      ]
     }
   ],
   "DEVIL_HP_2": [
@@ -12247,7 +12366,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 1,
@@ -12275,7 +12394,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 1,
@@ -12301,7 +12420,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 1,
@@ -12327,7 +12446,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 1,
@@ -12355,7 +12474,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 1,
@@ -12381,7 +12500,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 2,
@@ -12394,10 +12513,14 @@
       "killedAmount": 0,
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
-      "bVariants": ["EX_IMPERIALPULP"]
+      "bVariants": [
+        "EX_IMPERIALPULP"
+      ]
     }
   ],
   "DEVIL_HP_8": [
@@ -12413,7 +12536,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 3,
@@ -12439,7 +12562,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 4,
@@ -12467,7 +12590,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 5,
@@ -12493,7 +12616,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 6,
@@ -12506,10 +12629,14 @@
       "killedAmount": 0,
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
-      "bVariants": ["EX_HELLPUP"]
+      "bVariants": [
+        "EX_HELLPUP"
+      ]
     }
   ],
   "DEVIL_HP_12": [
@@ -12525,7 +12652,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 7,
@@ -12551,7 +12678,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 8,
@@ -12564,7 +12691,9 @@
       "killedAmount": 0,
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -12583,7 +12712,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 9,
@@ -12596,10 +12725,14 @@
       "killedAmount": 0,
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
-      "bVariants": ["EX_BOSS_OGREHEAD"]
+      "bVariants": [
+        "EX_BOSS_OGREHEAD"
+      ]
     }
   ],
   "DEVIL_HP_15": [
@@ -12615,7 +12748,7 @@
       "maxKnockback": 2,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "passThroughWalls": false,
       "lives": 10,
@@ -12628,10 +12761,14 @@
       "killedAmount": 0,
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
-      "bVariants": ["EX_TRUEDEVIL"]
+      "bVariants": [
+        "EX_TRUEDEVIL"
+      ]
     }
   ],
   "EX_TRUEDEVIL": [
@@ -12643,7 +12780,7 @@
       "speed": 120,
       "power": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "xp": 25,
       "knockback": 0,
@@ -12694,7 +12831,7 @@
       "power": 20,
       "xp": 20,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 1,
       "maxKnockback": 3,
@@ -12746,7 +12883,7 @@
       "maxKnockback": 0,
       "deathKB": 1,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "scale": 1.5,
       "passThroughWalls": true,
@@ -12773,8 +12910,8 @@
       "maxKnockback": 1,
       "deathKB": 1,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "idleFrameCount": 4,
@@ -12786,10 +12923,14 @@
       "killedAmount": 0,
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
-      "bVariants": ["EX_BATGOBLIN2"]
+      "bVariants": [
+        "EX_BATGOBLIN2"
+      ]
     }
   ],
   "EX_BATGOBLIN2": [
@@ -12805,8 +12946,8 @@
       "maxKnockback": 1,
       "deathKB": 1,
       "skills": [
-        0,
-        1
+        "HP_x_Level",
+        "Fixed_Direction"
       ],
       "passThroughWalls": true,
       "idleFrameCount": 4,
@@ -12826,7 +12967,7 @@
       "speed": 150,
       "power": 15,
       "skills": [
-        0
+        "HP_x_Level"
       ],
       "knockback": 0,
       "maxKnockback": 1,
@@ -12845,10 +12986,1354 @@
       ],
       "bName": "---",
       "bDesc": "---",
-      "bPlaces": ["DEVILROOM"],
+      "bPlaces": [
+        "DEVILROOM"
+      ],
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
+    }
+  ],
+  "EX_ECTOGOLD": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 0.4,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 2,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 17,
+      "frameNames": [
+        "EctoGold_0.png"
+      ],
+      "bName": "Money Musc",
+      "bPlaces": [
+      ],
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "EX_GOLDPILE": [
+    {
+      "level": 4,
+      "passThroughWalls": true,
+      "maxHp": 0.6,
+      "speed": 0,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 0,
+      "fireDelay": 1800,
+      "bulletType": "EX_BULLET_COIN",
+      "frameNames": [
+        "GoldPile_0.png"
+      ],
+      "end": 17,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Gold Pile",
+      "bPlaces": [
+      ],
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_BULLET_COIN": [
+    {
+      "level": 1,
+      "scale": 0.9,
+      "maxHp": 0.1,
+      "speed": 200,
+      "power": 20,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "passThroughWalls": true,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 0,
+      "frameNames": [
+        "skullCoin_0.png"
+      ],
+      "end": 6,
+      "textureName": "enemies2025",
+      "killedAmount": 0
+    }
+  ],
+  "EX_JELLYBAG_RED": [
+    {
+      "skipCredits": true,
+      "passThroughWalls": true,
+      "level": 0.2,
+      "maxHp": 18,
+      "speed": 650,
+      "power": 10,
+      "skills": [
+        "Fixed_Direction",
+        "HP_x_Level"
+      ],
+      "knockback": 0.2,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 0,
+      "res_Defang": 1,
+      "frameNames": [
+        "JellyGoldBag_0.png"
+      ],
+      "end": 15,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_JELLYBAG_GREEN",
+        "EX_JELLYBAG_PURPLE"
+      ]
+    }
+  ],
+  "EX_JELLYBAG_GREEN": [
+    {
+      "level": 1,
+      "maxHp": 0.6,
+      "speed": 600,
+      "maxSpeed": 700,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "skills": [
+        "Medusa",
+        "Fixed_Direction",
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "JellyGoldBag2_0.png"
+      ]
+    }
+  ],
+  "EX_JELLYBAG_PURPLE": [
+    {
+      "level": 5,
+      "passThroughWalls": true,
+      "maxHp": 1.2,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 0,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "end": 15,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "JellyGoldBag3_0.png"
+      ]
+    }
+  ],
+  "EX_XLDRAGON_GOLD": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 1.6,
+      "speed": 200,
+      "power": 8,
+      "knockback": 0.6,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 29,
+      "frameNames": [
+        "XLDragonGoldFlag_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "EX_XLDRAGON_GOLD_FLAG": [
+    {
+      "level": 1,
+      "scale": 1.5,
+      "maxHp": 2,
+      "speed": 400,
+      "power": 6,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 0,
+      "skills": [
+        "HP_x_Level",
+        "Fixed_Direction"
+      ],
+      "passThroughWalls": true,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 14,
+      "frameNames": [
+        "XLDragonGold_FlagTip_0.png"
+      ],
+      "flagName": "XLDragonGold_Flag.png"
+    }
+  ],
+  "EX_XLMANTIS_GOLD": [
+    {
+      "level": 15,
+      "passThroughWalls": true,
+      "maxHp": 3,
+      "speed": 80,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      "end": 23,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "XLMantisGold_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "EX_SHOOTING_ENEMIES_COUNTER": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 100,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 0,
+      "killedAmount": 0,
+      "textureName": "enemies2023",
+      "end": 28,
+      "idleFrameCount": 4,
+      "frameNames": [
+        "chk_0.png"
+      ],
+      "bVariants": [
+        "XLMAGIO",
+        "PILE1",
+        "PILE2",
+        "PILE3",
+        "EX_CONSTABLEBOT_RANGED",
+        "EX_TDCCC_RANGED",
+        "EX_BOUNTYHUNTER_RANGED",
+        "EX_ER2000_RANGED",
+        "EX_RACING_PILE1",
+        "EX_RACING_PILE2",
+        "EX_RACING_PILE3",
+        "PILE4",
+        "PILE4_SCALED",
+        "ARMOR_SWORD",
+        "EX_GOLDPILE",
+        "ADV_TRIPOD_GUN",
+        "ADV_NDROID_GUN",
+        "FB_LEDDER",
+        "BOSS_FB_BIGFUZZ",
+        "TP_BONEARK",
+        "TP_BONEPILLAR",
+        "FS_SHOOTER1",
+        "FS_SHOOTER2",
+        "BULLET_1",
+        "BULLET_2",
+        "BULLET_3",
+        "BOSS_FB_BIGFUZZ",
+        "FB_BULLET_FIREBALL",
+        "FB_BULLET_EYELASER",
+        "FB_BULLET_BOMB",
+        "FB_GIGAFLY_SWARM",
+        "FB_BULLET",
+        "BULLET_SM1",
+        "BULLET_SM2",
+        "EX_BULLET_COIN",
+        "TP_BONE_BULLET"
+      ]
+    }
+  ],
+  "EX_SPADEKNIGHT1": [
+    {
+      "level": 23,
+      "passThroughWalls": false,
+      "maxHp": 55,
+      "speed": 160,
+      "power": 20,
+      "scale": 1,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "boss_greenknight_casinoblack_0.png"
+      ],
+      "bName": "Knight of Spades",
+      "bDesc": "",
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.36,
+        "offsetY": -5,
+        "offsetX": 6
+      },
+      "bVariants": [
+        "EX_SPADEKNIGHT2",
+        "EX_BOSS_SPADEKNIGHT",
+        "EX_BOSS_SPADEKNIGHT2"
+      ]
+    }
+  ],
+  "EX_SPADEKNIGHT2": [
+    {
+      "level": 23,
+      "passThroughWalls": false,
+      "maxHp": 70,
+      "speed": 120,
+      "power": 30,
+      "scale": 1,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "boss_greenknight_casinowhite_0.png"
+      ],
+      "bName": "Knight of Spades",
+      "bDesc": "",
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.36,
+        "offsetY": -5,
+        "offsetX": 6
+      }
+    }
+  ],
+  "EX_BOSS_SPADEKNIGHT": [
+    {
+      "level": 23,
+      "passThroughWalls": false,
+      "maxHp": 25,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "scale": 1.5,
+      "res_Rosary": 1,
+      "res_Freeze": 1,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "boss_greenknight_casinoblack_0.png"
+      ],
+      "bName": "Knight of Spades",
+      "bDesc": "",
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.32,
+        "offsetY": 0,
+        "offsetX": 9
+      }
+    }
+  ],
+  "EX_BOSS_SPADEKNIGHT2": [
+    {
+      "level": 23,
+      "passThroughWalls": false,
+      "maxHp": 40,
+      "speed": 140,
+      "power": 30,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "scale": 1.5,
+      "res_Rosary": 1,
+      "res_Freeze": 1,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 5,
+      "end": 15,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "boss_greenknight_casinowhite_0.png"
+      ],
+      "bName": "Knight of Spades",
+      "bDesc": "",
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.32,
+        "offsetY": 0,
+        "offsetX": 9
+      }
+    }
+  ],
+  "EX_BARM": [
+    {
+      "level": 1,
+      "maxHp": 0.4,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 13,
+      "frameNames": [
+        "Barm_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_CASINOGHOUL": [
+    {
+      "level": 5,
+      "maxHp": 0.5,
+      "speed": 100,
+      "power": 7,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 4,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 19,
+      "frameNames": [
+        "CasinUgul_D_0.png",
+        "CasinUgul_H_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "EX_CLUBBIE": [
+    {
+      "level": 1,
+      "scale": 1.2,
+      "maxHp": 1,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 14,
+      "frameNames": [
+        "ClubbieP_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false
+    }
+  ],
+  "EX_DANDYBRINE": [
+    {
+      "maxHp": 5,
+      "passThroughWalls": true,
+      "scale": 1.3,
+      "speed": 160,
+      "power": 9,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1,
+      "res_Rosary": 1,
+      "knockback": 0,
+      "maxKnockback": 0.5,
+      "deathKB": 2,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 17,
+      "frameNames": [
+        "Dandybrine_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_DAIMON": [
+    {
+      "level": 25,
+      "passThroughWalls": true,
+      "maxHp": 10,
+      "speed": 160,
+      "power": 20,
+      "res_Defang": 1,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Knockback": 1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "scale": 1.3,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 17,
+      "frameNames": [
+        "DiamonP_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_GAMBERGAR": [
+    {
+      "level": 1,
+      "maxHp": 4,
+      "speed": 140,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 17,
+      "frameNames": [
+        "Gambergar_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_GAMBLIN": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 140,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 29,
+      "frameNames": [
+        "GamblinY_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_GAMBLIN2"
+      ]
+    }
+  ],
+  "EX_GAMBLIN2": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 150,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 29,
+      "frameNames": [
+        "GamblinR_0.png",
+        "GamblinP_0.png"
+      ]
+    }
+  ],
+  "EX_JASTOR": [
+    {
+      "level": 15,
+      "passThroughWalls": true,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "JastorP_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_JASTOR_PATROL": [
+    {
+      "level": 7,
+      "maxHp": 44,
+      "speed": 200,
+      "power": 18,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 15,
+      "patrolDuration": 1500,
+      "passThroughWalls": true,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "JastorP_0.png"
+      ]
+    }
+  ],
+  "EX_ROULETTEMUSH": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 0.1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 5,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 16,
+      "frameNames": [
+        "RouletteMush1_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_TOLL2": [
+    {
+      "level": 1,
+      "maxHp": 13,
+      "speed": 100,
+      "power": 8,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 29,
+      "frameNames": [
+        "Toll2O_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_VALENTINE": [
+    {
+      "level": 25,
+      "passThroughWalls": true,
+      "maxHp": 15,
+      "speed": 120,
+      "power": 20,
+      "res_Defang": 1,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "scale": 1.3,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 16,
+      "frameNames": [
+        "Valentin_0.png"
+      ],
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_SQUILLER_1": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 0.1,
+      "speed": 800,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        "Fixed_Direction",
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 10,
+      "frameNames": [
+        "Squiller2_0.png"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_SQUILLER_2",
+        "EX_SQUILLER_COMBO"
+      ]
+    }
+  ],
+  "EX_SQUILLER_2": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 0.2,
+      "speed": 600,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        "Fixed_Direction",
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 10,
+      "frameNames": [
+        "Squiller_0.png"
+      ]
+    }
+  ],
+  "EX_SQUILLER_COMBO": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 0.2,
+      "speed": 700,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        "Fixed_Direction",
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 10,
+      "frameNames": [
+        "Squiller_0.png",
+        "Squiller2_0.png"
+      ]
+    }
+  ],
+
+  "EX_GEMSTONE_HITS_STATIC": [
+    {
+      "enemyType": "EX_GEMSTONE_HITS_STATIC",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 0,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "tint": 16777164,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 31,
+      "end": 13,
+      "textureName": "enemies2023",
+      "frameNames": [
+        "impun_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+    
+  "EX_DICE": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 0,
+      "power": 30,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "res_Defang": 1,
+      "xp": 5,
+      "end": 19,
+      "idleFrameCount": 2,
+      "passThroughWalls": true,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "diamondDiceNeutral_0.png"
+      ]
+    }
+  ],
+  "EX_DICE_AGGRO": [
+    {
+      "enemyType": "EX_DICE_AGGRO",
+      "level": 1,
+      "maxHp": 5,
+      "speed": 160,
+      "power": 10,
+      "xp": 5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "res_Defang": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": false,
+      "tint": 16764108,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetY": -6,
+        "offsetX": -6
+      },
+      "idleFrameCount": 2,
+      "end": 13,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "diamondDiceNeutral_0.png"
+      ],
+      "killedAmount": 0
+    }
+  ],
+  "EX_CARDSHARP": [
+    {
+      "level": 5,
+      "maxHp": 3,
+      "speed": 130,
+      "power": 11,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "scale": 1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 8,
+      "frameNames": [
+        "CarsharpCLUB_0.png",
+        "CarsharpDIAMOND_0.png",
+        "CarsharpHEART_0.png",
+        "CarsharpSPADE_0.png"
+      ],
+      "end": 15,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "killedAmount": 0,
+      "bInclude": true,
+      "bHighlight": false
+    }
+  ],
+  "EX_CHARGER": [
+    {
+      "level": 5,
+      "maxHp": 25,
+      "speed": 130,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "xp": 2.75,
+      "scale": 1.5,
+      "frameNames": [
+        "Migno4_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Charging Enemy",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_TORINO": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 130,
+      "power": 1,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "Torino_0.png"
+      ],
+      "bPlaces": [
+        "WAREHOUSE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_CHARGER_RED_S",
+        "EX_CHARGER_YELLOW_S"
+      ]
+    }
+  ],
+  "EX_JOYATAURO": [
+    {
+      "level": 1,
+      "maxHp": 4,
+      "speed": 150,
+      "power": 6,
+      "knockback": 0.1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "end": 20,
+      "frameNames": [
+        "JoyaTauro_0.png"
+      ],
+      "bPlaces": [
+        "WAREHOUSE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_CHARGER_RED_M",
+        "EX_CHARGER_YELLOW_M"
+      ]
+    }
+  ],
+  "EX_MEANATAUR": [
+    {
+      "level": 1,
+      "maxHp": 11,
+      "speed": 120,
+      "power": 8,
+      "knockback": 0.1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 3,
+      "end": 22,
+      "textureName": "enemies2025",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "Meanataur_0.png"
+      ],
+      "bPlaces": [
+        "WAREHOUSE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_CHARGER_RED_L",
+        "EX_CHARGER_YELLOW_L"
+      ]
+    }
+  ],
+  "EX_17COLOSSUS_BURIED": [
+    {
+      "level": 21,
+      "maxHp": 50,
+      "speed": 117,
+      "power": 40,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 2,
+      "idleFrameCount": 8,
+      "end": 1,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_17COLOSSUS_0"
+      ],
+      "bPlaces": [
+        "WAREHOUSE"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.425,
+        "offsetY": -15,
+        "offsetX": -20
+      }
+    }
+  ],
+  "EX_17COLOSSUS": [
+    {
+      "level": 1,
+      "maxHp": 200,
+      "minimumHpScalingLevel": 10,
+      "speed": 117,
+      "power": 40,
+      "xp": 50,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Defang": 1,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Corridor": 1,
+      "passThroughWalls": true,
+      "scale": 2,
+      "idleFrameCount": 8,
+      "end": 50,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_17COLOSSUS_0"
+      ],
+      "bPlaces": [
+        "WAREHOUSE"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.425,
+        "offsetY": -15,
+        "offsetX": -20
+      }
+    }
+  ],
+  "EX_CHARGER_RED_S": [
+    {
+      "level": 5,
+      "maxHp": 0.8,
+      "speed": 150,
+      "power": 5,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "xp": 1.5,
+      "scale": 1,
+      "frameNames": [
+        "Torino_R_0.png"
+      ],
+      "end": 15,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Red Torino",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_CHARGER_RED_M": [
+    {
+      "level": 5,
+      "maxHp": 2.5,
+      "speed": 145,
+      "power": 7.5,
+      "knockback": 0.5,
+      "maxKnockback": 2,
+      "deathKB": 3,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "xp": 2,
+      "scale": 1,
+      "frameNames": [
+        "Joyatauro_R_0.png"
+      ],
+      "end": 20,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Red Joya Tauro",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_CHARGER_RED_L": [
+    {
+      "level": 5,
+      "maxHp": 6,
+      "speed": 140,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 3,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "xp": 2.75,
+      "scale": 1,
+      "frameNames": [
+        "Meanataur_R_0.png"
+      ],
+      "end": 22,
+      "textureName": "enemies2025",
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "bName": "Red Meanataur",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_CHARGER_YELLOW_S": [
+    {
+      "level": 5,
+      "maxHp": 25,
+      "speed": 110,
+      "power": 10,
+      "knockback": 0.5,
+      "maxKnockback": 2,
+      "deathKB": 3,
+      "xp": 2.75,
+      "scale": 1.5,
+      "frameNames": [
+        "Torino_Y_0.png"
+      ],
+      "end": 15,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Yellow Torino",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_CHARGER_YELLOW_M": [
+    {
+      "level": 5,
+      "maxHp": 25,
+      "speed": 115,
+      "power": 10,
+      "knockback": 0.25,
+      "maxKnockback": 1.5,
+      "deathKB": 3,
+      "xp": 2.75,
+      "scale": 1.5,
+      "frameNames": [
+        "Joyataro_Y_0.png"
+      ],
+      "end": 20,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "bName": "Yellow Joya Tauro",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_CHARGER_YELLOW_L": [
+    {
+      "level": 5,
+      "maxHp": 25,
+      "speed": 120,
+      "power": 10,
+      "knockback": 0.125,
+      "maxKnockback": 1,
+      "deathKB": 3,
+      "xp": 2.75,
+      "scale": 1.5,
+      "frameNames": [
+        "Meanataur_Y_0.png"
+      ],
+      "end": 22,
+      "textureName": "enemies2025",
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "bName": "Yellow Meanataur",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_MAZERELLA_DANCER": [
+    {
+      "level": 5,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "maxHp": 25,
+      "speed": 0, 
+      "power": 10,
+      "knockback": 0.25,
+      "maxKnockback": 1.5,
+      "deathKB": 3,
+      "xp": 2.75,
+      "scale": 1,
+      "frameNames": [
+        "JOYATAURO_Y_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies2025",
+      "idleFrameCount": 5,
+      "killedAmount": 0,
+      "bName": "Tarantella",
+      "bIndex": 0,
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [],
+      "passThroughWalls": true
+    }
+  ],
+  "EX_VSBAT1": [
+    {
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 19,
+      "frameNames": [
+        "smallbat1_0.png",
+        "smallbat1_grey_0.png",
+        "smallbat1_red_0.png"
+      ],
+      "bName": "",
+      "bDesc": "",
+      "bPlaces": [
+        "FOREST",
+        "TOWER"
+      ],
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": [
+      ]
     }
   ]
 }

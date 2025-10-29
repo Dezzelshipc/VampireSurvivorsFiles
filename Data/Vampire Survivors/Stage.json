@@ -4,7 +4,7 @@
       "order": 10,
       "stageName": "Mad Forest",
       "description": "Once a thriving haven, now a dumping ground for evil. A vampire is said to be the root of this evil, but we can find only mayhem and roast chicken.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_forest.png",
       "texture": "UI",
       "frameName": "stage_forest_icon.png",
@@ -867,7 +867,7 @@
       "order": 10000,
       "stageName": "Eudaimonia M.",
       "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you’re it.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_machine.png",
       "texture": "UI",
       "frameName": "stage_machine_icon.png",
@@ -971,7 +971,7 @@
       "order": 71,
       "stageName": "Holy Forbidden",
       "description": "Wait, you can see this too? This isn't right...",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_x.png",
       "frameName": "QuestionMark.png",
       "frameNameUnlock": "QuestionMark.png",
@@ -983,7 +983,7 @@
       "sideBBGM": "BGM_Chapet",
       "tips": "",
       "validForCharcaterData": false,
-	  "isMerchantBanned": true,
+      "isMerchantBanned": true,
       "isSpeedupBanned": true,
       "preload": {
         "textures": [
@@ -1085,7 +1085,7 @@
       "order": 20,
       "stageName": "Inlaid Library",
       "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight… or damnation. A mask of stone whispers endlessly within.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_library.png",
       "frameName": "stage_library_icon.png",
       "bestiaryBG": "background_library.png",
@@ -2030,7 +2030,7 @@
       "order": 30,
       "stageName": "Dairy Plant",
       "description": "The birthplace of Milk Magic churns with chaos. Here, it’s not just blood that curdles. A secret map awaits the hero brave enough to enter this overthrown factory.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_plant.png",
       "texture": "UI",
       "frameName": "stage_plant_icon.png",
@@ -2963,7 +2963,7 @@
       "order": 40,
       "stageName": "Gallo Tower",
       "description": "An edifice of science and sorcery where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_tower.png",
       "frameName": "stage_tower_icon.png",
       "frameNameUnlock": "stage_tower_unlock.png",
@@ -3958,7 +3958,7 @@
       "order": 50,
       "stageName": "Cappella Magna",
       "description": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity is the perfect place to find a vampire. Probably.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_chapel.png",
       "texture": "UI",
       "frameName": "stage_chapel_icon.png",
@@ -4605,7 +4605,7 @@
       "order": 60,
       "stageName": "Il Molise",
       "description": "The flowers seem to sing here, calling out to weary heroes. Is such an unspoilt place even real? Does it matter? Is there roast chicken?",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_molise.png",
       "frameName": "stage_molise_unlock.png",
       "bestiaryBG": "background_forest.png",
@@ -5047,7 +5047,7 @@
       "order": 70,
       "stageName": "Moongolow",
       "description": "Legend tells of a city swallowed by the sea under a full moon’s callous watch. Home to mysteries unknown, we ought to see what lies within its walls.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_water.png",
       "frameName": "stage_water_unlock.png",
       "frameNameUnlock": "stage_x_unlock.png",
@@ -5058,8 +5058,9 @@
       "tips": "Extra stage items",
       "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
       "relics": [
-        "RELIC_GLASSMASK", 
-        "RELIC_EME_DISK"
+        "RELIC_GLASSMASK",
+        "RELIC_EME_DISK",
+        "RELIC_LEM_DISK"
       ],
       "yellowRelics": [],
       "validForCharcaterData": true,
@@ -5415,7 +5416,7 @@
       "order": 80,
       "stageName": "Green Acres",
       "description": "Fate changes by the minute in a realm where mortals can only trespass. What rewards await those who challenge its rules? Treasure? Glory? Poultry?",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_green.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",
@@ -5627,7 +5628,7 @@
       "order": 90,
       "stageName": "The Bone Zone",
       "description": "Calcified carnage awaits where the dead go to live. If we speak unholy vespers we will open the way, but should we not go home? Have we not dug too deep?",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_bone.png",
       "texture": "UI",
       "frameName": "stage_bone_unlock.png",
@@ -6494,7 +6495,7 @@
       "order": 100,
       "stageName": "Boss Rash",
       "description": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us face these recycled assets and do what we do best… survive!",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_rash.png",
       "texture": "UI",
       "frameName": "stage_rash_icon.png",
@@ -7091,7 +7092,7 @@
       "order": 1100,
       "stageName": "Whiteout",
       "description": "Placed 4th at the 'RUDE: Least Original Video Game Stage Awards 2023', but it's still a good time.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_whiteout.png",
       "texture": "UI",
       "frameName": "stage_whiteout_icon.png",
@@ -7114,7 +7115,7 @@
         "PlayerPxSpeed": 1.35,
         "EnemySpeed": 0.9,
         "ProjectileSpeed": 1,
-        "GoldMultiplier": 1,
+        "GoldMultiplier": 1.2,
         "EnemyHealthMultiplier": 1,
         "LuckBonus": 0,
         "XPBonus": 1
@@ -7582,7 +7583,7 @@
       "unlocked": false,
       "stageName": "The Coop",
       "description": "",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_thecoop.png",
       "texture": "UI",
       "frameName": "stage_coop_icon.png",
@@ -7597,7 +7598,7 @@
       "BGM": "BGM_TheCoop",
       "sideBBGM": "BGM_TheCoop",
       "validForCharcaterData": true,
-      "allowVisualInversion" : false,
+      "allowVisualInversion": false,
       "mods": {
         "TimeLimit": 1200,
         "ClockSpeed": 1,
@@ -7611,7 +7612,7 @@
         "TimeMods": {
           "start": 0,
           "hpPerMinute": 0.25,
-          "speedPerMinute": 0.0
+          "speedPerMinute": 0
         }
       },
       "hyper": {
@@ -7672,7 +7673,9 @@
       "enemies": [
         "COOP_CHICKEN"
       ],
-      "bosses": ["COOP_CHICKEN_SPECIAL"]
+      "bosses": [
+        "COOP_CHICKEN_SPECIAL"
+      ]
     },
     {
       "minute": 1,
@@ -7876,30 +7879,30 @@
         "COOP_CHIK_H"
       ],
       "bosses": [
-       "COOP_BOSS_ABRAXAS"
+        "COOP_BOSS_ABRAXAS"
       ],
       "treasure": {
-      "chances": [
+        "chances": [
           3,
           10,
           50
         ],
-      "level": 1,
-      "prizeTypes": [
-        "EXISTING_WEAPON",
-        "EXISTING_ANY",
-        "EXISTING_ANY",
-        "EXISTING_ANY",
-        "EXISTING_ANY"
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_WEAPON",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
         ]
       },
       "events": [
         {
-        "eventType": "GENERIC_SWARM",
-        "delay": 10000,
-        "moreX": 40,
-        "repeat": 3,
-        "moreY": "COOP_CHICKEN_SWARM"
+          "eventType": "GENERIC_SWARM",
+          "delay": 10000,
+          "moreX": 40,
+          "repeat": 3,
+          "moreY": "COOP_CHICKEN_SWARM"
         }
       ]
     },
@@ -8290,7 +8293,7 @@
       "yellowRelics": [],
       "validForCharcaterData": true,
       "zoom": 0.24,
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_spazie.png",
       "texture": "UI",
       "frameName": "stage_spazie_icon.png",
@@ -8849,7 +8852,7 @@
       "unlocked": false,
       "stageName": "Carlo Cart",
       "description": "",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_carlocart.png",
       "texture": "UI",
       "frameName": "stage_carlocart_icon.png",
@@ -9283,7 +9286,7 @@
       "unlocked": false,
       "stageName": "Laborratory",
       "description": "Taken over by dark forces controlled by a corrupted milk magician, this is the lab where famous alchemist Santa Ladonna developed many weapons. Maybe part of her legacy still lies hidden between the dangerous walls.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_laborratory.png",
       "texture": "UI",
       "frameName": "stage_laborratory_icon.png",
@@ -9981,12 +9984,819 @@
       ]
     }
   ],
+  "EX_WESTWOODS": [
+    {
+      "order": 1210,
+      "stageName": "Westwoods",
+      "description": ".",
+      "uiTexture": "UI_StageIcons",
+      "uiFrame": "stage_westwoods.png",
+      "texture": "UI",
+      "frameName": "stage_westwoods_icon.png",
+      "bestiaryBG": "background_foscari.png",
+      "stageNumber": "Challenge",
+      "unlocked": false,
+      "hidden": true,
+      "relics": [
+        "RELIC_PARTY"
+      ],
+      "yellowRelics": [],
+      "BGM": "BGM_Westwoods",
+      "sideBBGM": "BGM_Westwoods",
+      "validForCharcaterData": true,
+      "zoom": 1,
+      "preload": {
+        "textures": [
+          "background_westwoods_grayscale",
+          "MapFS"
+        ]
+      },
+      "mods": {
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.25,
+        "EnemySpeed": 1.20,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1.2,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": false,
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed":  0.65,
+        "EnemySpeed":     0.65,
+        "ProjectileSpeed": 0.15,
+        "GoldMultiplier": 0.5,
+        "EnemyHealthMultiplier": 0,
+        "LuckBonus": 0.1,
+        "XPBonus": 0,
+        "StartingSpawns": 20
+      },
+      "inverse": {
+        "tint": 8947950,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
+        }
+      },
+      "tileset": {
+        "setKey": "FoscariTexturePacked",
+        "setPath": "assets/tilesets/FoscariTexturePacked.png",
+        "mapKey": "Foscari",
+        "mapPath": "assets/tilesets/Foscari.json",
+        "isTiling": true,
+        "hasWallsCheckDestructibleLogic": true,
+        "SizeX": 10240,
+        "SizeY": 10240,
+        "minTreasureX": 64,
+        "maxTreasureX": 10176,
+        "minTreasureY": 64,
+        "maxTreasureY": 10176,
+        "detailsPath": "assets/img/MapFS.png",
+        "detailsTexture": "MapFS.png",
+        "mapRelic": "RELIC_MAP_FS"
+      },
+      "background": {
+        "texture": "background_Foscari"
+      },
+      "pizzaEvents": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 60000,
+          "moreX": 100,
+          "moreY": "EX_SQUILLER_1",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 60000,
+          "moreX": 80,
+          "moreY": "EX_SQUILLER_2",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 60000,
+          "moreX": 120,
+          "moreY": [
+            "EX_SQUILLER_1",
+            "EX_SQUILLER_2"
+          ],
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "JELLY_WALL",
+          "duration": 60000,
+          "moreX": 100,
+          "moreY": "EX_JELLYBAG_RED",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 5000,
+          "moreX": 100,
+          "moreY": "EX_JELLYBAG_GREEN",
+          "moreZ": 1,
+          "repeat": 7,
+          "delay": 1000
+        },
+        {
+          "eventType": "MONSTER_RAIN",
+          "duration": 60000,
+          "moreX": 100,
+          "moreY": "EX_JELLYBAG_PURPLE",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 50,
+          "moreY": "EX_ECTOGOLD",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "PILE_ASSAULT",
+          "duration": 60000,
+          "moreX": 40,
+          "moreY": "EX_GOLDPILE",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 60000,
+          "moreX": 20,
+          "moreY": "COOP_ROAST_CHICKEN",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "DRAGONSTREAM",
+          "duration": 60000,
+          "moreX": 8,
+          "moreY": "EX_XLDRAGON_GOLD_FLAG",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 4,
+          "moreY": "EX_XLMANTIS_GOLD",
+          "moreZ": 0.9
+        },
+        {
+          "eventType": "MONSTER_DANCE",
+          "duration": 60000,
+          "moreX": 36,
+          "moreY": "EX_JASTOR",
+          "moreZ": 0.9
+        }
+      ],
+      "spawnType": "STANDARD",
+      "startingSpawns": 50,
+      "minute": 0,
+      "destructibleType": "LANTERN",
+      "destructibleFreq": 1000,
+      "destructibleChance": 7.5,
+      "destructibleChanceMax": 50,
+      "maxDestructibles": 12,
+      "BGTextureName": "bg_null",
+      "dayNight": false,
+      "tilemapTiledJSON": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapTiledIMG": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapPos": {
+        "x": 0,
+        "y": 0
+      },
+      "minimum": 30,
+      "frequency": 2500,
+      "enemies": [
+        "EX_BARM",
+        "EX_SQUILLER_1"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 5000,
+          "moreX": 1,
+          "moreY": "EX_SQUILLER_1",
+          "delay": 10000,
+          "repeat": 7
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 30,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.60,
+          "delay": 3000
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 40,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.70,
+          "delay": 2000
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 50,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.80,
+          "delay": 1000
+        }
+      ]
+    },
+    {
+      "minute": 1,
+      "minimum": 25,
+      "frequency": 800,
+      "enemies": [
+        "EX_BARM",
+        "EX_CLUBBIE",
+        "EX_SQUILLER_2"
+      ],
+      "bosses": [
+        "EX_DANDYBRINE"
+      ],
+      "treasure": {
+        "chances": [
+          0.5,
+          1,
+          60
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 5000,
+          "moreX": 1,
+          "moreY": "EX_SQUILLER_1",
+          "delay": 5000,
+          "moreZ": 200,
+          "repeat": 10
+        }
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 20,
+      "frequency": 1100,
+      "enemies": [
+        "EX_CLUBBIE",
+        "HARPY",
+        "EX_SQUILLER_2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 1,
+          "moreY": "EX_SQUILLER_2",
+          "delay": 15000,
+          "repeat": 7
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 50,
+      "frequency": 400,
+      "bosses": [
+        "EX_DANDYBRINE"
+      ],
+      "enemies": [
+        "EX_BARM"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 15000,
+          "moreX": 1,
+          "moreY": "EX_SQUILLER_1",
+          "delay": 9000,
+          "repeat": 5
+        }
+      ]
+    },
+    {
+      "minute": 4,
+      "minimum": 25,
+      "frequency": 250,
+      "enemies": [
+        "HARPY",
+        "EX_CLUBBIE"
+      ],
+      "events": [
+        {
+          "eventType": "PILE_ASSAULT",
+          "duration": 20000,
+          "moreX": 6,
+          "moreY": "EX_GOLDPILE",
+          "moreZ": 0.7,
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "DIAMOND_ROAD",
+          "duration": 60000,
+          "moreX": 1,
+          "moreY": "EX_GEMSTONE_HITS_STATIC"
+        }
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 30,
+      "frequency": 800,
+      "bosses": [
+        "EX_DANDYBRINE"
+      ],
+      "enemies": [
+        "EX_BARM",
+        "EX_GAMBLIN"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "arcanaHolder": "EX_ROULETTEMUSH",
+      "arcanaTreasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 70,
+      "frequency": 1000,
+      "enemies": [
+        "EX_CLUBBIE",
+        "EX_GAMBLIN",
+        "EX_SQUILLER_2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 20,
+          "moreY": "EX_SQUILLER_COMBO",
+          "delay": 10000
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 30,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.60,
+          "delay": 3000
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 40,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.70,
+          "delay": 2000
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 50,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.80,
+          "delay": 1000
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 60,
+      "frequency": 500,
+      "bosses": [
+        "EX_DAIMON"
+      ],
+      "enemies": [
+        "DEVIL1",
+        "EX_CASINOGHOUL"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          20,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 90,
+      "frequency": 900,
+      "enemies": [
+        "EX_GAMBLIN",
+        "HARPY"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 1,
+          "moreY": "EX_SQUILLER_1",
+          "delay": 5000,
+          "repeat": 10
+        }
+      ]
+    },
+    {
+      "minute": 9,
+      "minimum": 40,
+      "frequency": 700,
+      "enemies": [
+        "EX_GAMBERGAR",
+        "EX_GAMBLIN"
+      ],
+      "bosses": [
+        "EX_DAIMON"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          20,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 15000,
+          "moreX": 30,
+          "moreY": "EX_SQUILLER_COMBO",
+          "repeat": 2,
+          "delay": 12000
+        },
+        {
+          "eventType": "DIAMOND_ROAD",
+          "duration": 60000,
+          "moreX": 1,
+          "moreY": "EX_GEMSTONE_HITS_STATIC"
+        }
+      ]
+    },
+    {
+      "minute": 10,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "EX_TOLL2",
+        "EX_BARM",
+        "EX_CARDSHARP"
+      ],
+      "arcanaHolder": "EX_ROULETTEMUSH",
+      "arcanaTreasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 15000,
+          "moreX": 12,
+          "delay": 5000,
+          "repeat": 5,
+          "chance": 50,
+          "moreY": "EX_SQUILLER_1"
+        },
+        {
+          "eventType": "PILE_ASSAULT",
+          "duration": 20000,
+          "moreX": 10,
+          "moreY": "EX_GOLDPILE",
+          "moreZ": 0.7,
+          "delay": 10000,
+          "repeat": 2,
+          "chance": 50
+        }
+      ]
+    },
+    {
+      "minute": 11,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "EX_GAMBLIN",
+        "EX_GAMBERGAR",
+        "HARPY"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 20,
+          "moreY": "EX_SQUILLER_COMBO",
+          "delay": 10000,
+          "repeat": 4
+        }
+      ],
+      "bosses": [
+        "EX_DAIMON"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          20,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 40,
+      "frequency": 800,
+      "enemies": [
+        "EX_CASINOGHOUL",
+        "EX_TOLL2"
+      ],
+      "bosses": [
+        "EX_DAIMON"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          20,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "PILE_ASSAULT",
+          "duration": 20000,
+          "moreX": 10,
+          "moreY": "EX_GOLDPILE",
+          "delay": 10000,
+          "repeat": 3,
+          "chance": 50
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 1,
+          "moreY": "EX_SQUILLER_2",
+          "delay": 5000,
+          "repeat": 10
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 30,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.60,
+          "delay": 3000
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 40,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.70,
+          "delay": 2000
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "duration": 60000,
+          "moreX": 50,
+          "moreY": "EX_GEMSTONE_HITS_STATIC",
+          "moreZ": 0.80,
+          "delay": 1000
+        }
+      ]
+    },
+    {
+      "minute": 13,
+      "minimum": 120,
+      "frequency": 300,
+      "enemies": [
+        "EX_GAMBLIN",
+        "EX_GAMBERGAR",
+        "EX_CARDSHARP"
+      ]
+    },
+    {
+      "minute": 14,
+      "minimum": 150,
+      "frequency": 500,
+      "enemies": [
+        "EX_TOLL2"
+      ]
+    },
+    {
+      "minute": 15,
+      "minimum": 80,
+      "frequency": 300,
+      "enemies": [
+        "EX_GAMBERGAR",
+        "EX_GAMBLIN",
+        "EX_CASINOGHOUL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 20,
+          "moreY": "EX_SQUILLER_COMBO",
+          "delay": 10000
+        }
+      ]
+    },
+    {
+      "minute": 16,
+      "minimum": 80,
+      "frequency": 600,
+      "enemies": [
+        "EX_CASINOGHOUL",
+        "DEVIL1"
+      ],
+      "bosses": [
+        "EX_BOSS_SPADEKNIGHT",
+        "EX_BOSS_SPADEKNIGHT2"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 17,
+      "minimum": 30,
+      "frequency": 200,
+      "enemies": [
+        "EX_DANDYBRINE",
+        "EX_GAMBERGAR",
+        "EX_SQUILLER_COMBO"
+      ]
+    },
+    {
+      "minute": 18,
+      "minimum": 40,
+      "frequency": 800,
+      "enemies": [
+        "EX_DANDYBRINE",
+        "EX_DAIMON",
+        "EX_GAMBERGAR"
+      ],
+      "bosses": [
+        "EX_VALENTINE"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 19,
+      "minimum": 90,
+      "frequency": 500,
+      "enemies": [
+        "EX_VALENTINE",
+        "DEVIL1",
+        "EX_SQUILLER_COMBO"
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
   "BATCOUNTRY": [
     {
       "order": 10100,
       "stageName": "Bat Country",
       "description": "We can't stop here.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_batcountry.png",
       "frameName": "stage_batcountry_A.png",
       "frameNameUnlock": "stage_batcountry_A.png",
@@ -10554,7 +11364,7 @@
       "order": 10200,
       "stageName": "Astral Stair",
       "description": "A highway used to reach other worlds and dimensions. It's dangerous to venture through alone, but you probably won't listen to me anyway, will you?",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_astralstair.png",
       "frameName": "stage_astral_icon.png",
       "frameNameUnlock": "stage_astral_icon.png",
@@ -11268,12 +12078,590 @@
       ]
     }
   ],
+  "EX_MAZERELLA": [
+    {
+      "order": 10300,
+      "zoom": 1.6,
+      "stageName": "Mazerella",
+      "description": "",
+      "uiTexture": "UI_StageIcons",
+      "uiFrame": "stage_mazerella.png",
+      "frameName": "stage_mazzerella_icon.png",
+      "frameNameUnlock": "stage_mazzerella_icon.png",
+      "bestiaryBG": "background_plant.png",
+      "stageNumber": "Challenge",
+      "unlocked": false,
+      "hidden": true,
+      "BGM": "BGM_Mazerella",
+      "sideBBGM": "BGM_Mazerella",
+      "tips": "'Procedurally' 'Generated'.",
+      "relics": [
+        "RELIC_LAZULIA",
+        "RELIC_RECYCLE"
+      ],
+      "yellowRelics": [],
+      "validForCharcaterData": true,
+      "LootTable": [
+        "COIN",
+        "COINBAG1",
+        "COINBAGMAX",
+        "ROAST",
+        "VACUUM",
+        "ROSARY",
+        "CLOVER",
+        "GILDED",
+        "OROLOGION",
+        "GOLDFINGER"
+      ],
+      "mods": {
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.25,
+        "EnemySpeed": 1.25,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1.3,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.1,
+          "speedPerMinute": 0.001
+        }
+      },
+      "hyper": {
+        "unlocked": true,
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0.65,
+        "EnemySpeed": 0.65,
+        "ProjectileSpeed": 0.15,
+        "GoldMultiplier": 0.5,
+        "LuckBonus": 0.1,
+        "XPBonus": 0,
+        "EnemyHealthMultiplier": 0,
+        "StartingSpawns": 0
+      },
+      "inverse": {
+        "tint": 16746751,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
+        }
+      },
+      "background": {
+        "texture": ""
+      },
+      "tileset": {
+        "setKey": "PlantTexturePacked",
+        "setPath": "assets/tilesets/PlantTexturePacked.png",
+        "mapKey": "Plant",
+        "mapPath": "assets/tilesets/Plant.json"
+      },
+      "dayNight": false,
+      "spawnType": "MAPPED",
+      "startingSpawns": 50,
+      "minute": 0,
+      "destructibleType": "CANDELABRA",
+      "destructibleFreq": 500,
+      "destructibleChance": 7,
+      "destructibleChanceMax": 70,
+      "maxDestructibles": 12,
+      "poolsMapping": [
+        {
+          "key": 1,
+          "type": "EX_CHARGER_RED_S",
+          "pool": null
+        },
+        {
+          "key": 2,
+          "type": "EX_CHARGER_RED_M",
+          "pool": null
+        },
+        {
+          "key": 3,
+          "type": "EX_CHARGER_RED_L",
+          "pool": null
+        },
+        {
+          "key": 4,
+          "type": "EX_CHARGER_YELLOW_S",
+          "pool": null
+        },
+        {
+          "key": 5,
+          "type": "EX_CHARGER_YELLOW_M",
+          "pool": null
+        },
+        {
+          "key": 6,
+          "type": "EX_CHARGER_YELLOW_L",
+          "pool": null
+        },
+        {
+          "key": 7,
+          "type": "EX_CHARGER_RED_S",
+          "pool": null
+        }
+      ],
+      "minimum": 25,
+      "frequency": 300,
+      "enemies": [
+        "EX_TORINO"
+      ]
+    },
+    {
+      "minute": 1,
+      "minimum": 30,
+      "frequency": 500,
+      "enemies": [
+        "EX_TORINO"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 30,
+          "moreY": "MILK",
+          "delay": 15000,
+          "repeat": 3
+        }
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 40,
+      "frequency": 400,
+      "enemies": [
+        "MILK"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5_L"
+      ],
+      "events": [
+        {
+          "eventType": "MEDUSA_WALL",
+          "moreX": 5,
+          "moreY": "MEDUSA1"
+        },
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 10,
+          "moreY": "MEDUSA1",
+          "delay": 7500,
+          "chance": 75,
+          "repeat": 3
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 45,
+      "frequency": 500,
+      "enemies": [
+        "EX_HARPY2"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 55,
+      "frequency": 600,
+      "enemies": [
+        "EX_TORINO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "moreX": 20,
+          "moreY": "MILK",
+          "delay": 15000,
+          "repeat": 5
+        }
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 50,
+      "frequency": 300,
+      "enemies": [
+        "MILK2"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5_L"
+      ],
+      "events": [
+        {
+          "eventType": "MEDUSA_WALL",
+          "moreX": 10,
+          "moreY": "MEDUSA1"
+        },
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 20,
+          "moreY": "MEDUSA1",
+          "delay": 16000,
+          "chance": 80,
+          "repeat": 4
+        }
+      ],
+      "arcanaHolder": "BOSS_BUER",
+      "arcanaTreasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 45,
+      "frequency": 500,
+      "enemies": [
+        "EX_JOYATAURO",
+        "HARPY"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 7,
+      "minimum": 40,
+      "frequency": 400,
+      "enemies": [
+        "EX_JOYATAURO",
+        "MEDUSA2"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5_L"
+      ]
+    },
+    {
+      "minute": 8,
+      "minimum": 80,
+      "frequency": 800,
+      "enemies": [
+        "MILK2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "moreX": 15,
+          "moreY": "MIGNO_3_5SWARM",
+          "delay": 15000,
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 9,
+      "minimum": 40,
+      "frequency": 400,
+      "enemies": [
+        "MEDUSA2",
+        "EX_HARPY2"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
+    },
+    {
+      "minute": 10,
+      "minimum": 40,
+      "frequency": 400,
+      "enemies": [
+        "EX_JOYATAURO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "moreX": 15,
+          "moreY": "MIGNO_3_5SWARM",
+          "delay": 15000,
+          "repeat": 4
+        }
+      ],
+      "arcanaHolder": "BOSS_BUER",
+      "arcanaTreasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 60,
+      "frequency": 400,
+      "enemies": [
+        "EX_HARPY2",
+        "MILK2"
+      ]
+    },
+    {
+      "minute": 12,
+      "minimum": 30,
+      "frequency": 300,
+      "enemies": [
+        "EX_JOYATAURO",
+        "MEDUSA2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "moreX": 6,
+          "moreY": "MIGNO_3_5SWARM",
+          "delay": 26000,
+          "repeat": 6
+        }
+      ],
+      "bosses": [
+        "BOSS_XLARMOR2"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
+    },
+    {
+      "minute": 13,
+      "minimum": 60,
+      "frequency": 300,
+      "enemies": [
+        "HARPYV",
+	      "MILK2"
+      ],
+      "bosses": [
+        "BOSS_MIGNO2_5_L"
+      ]
+    },
+    {
+      "minute": 14,
+      "minimum": 40,
+      "frequency": 300,
+      "enemies": [
+        "EX_HARPY2",
+        "EX_JOYATAURO"
+      ],
+      "events": [
+        {
+          "eventType": "MEDUSA_WALL",
+          "moreX": 10,
+          "moreY": "MEDUSA1"
+        },
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 20,
+          "moreY": "MEDUSA1",
+          "delay": 16000,
+          "chance": 80,
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 15,
+      "minimum": 30,
+      "frequency": 600,
+      "enemies": [
+        "EX_MEANATAUR"
+      ],
+      "bosses": [
+        "BOSS_XLCHIMERA"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
+    },
+    {
+      "minute": 16,
+      "minimum": 50,
+      "frequency": 300,
+      "enemies": [
+        "EX_MEANATAUR",
+        "HARPYV",
+        "MEDUSA1"
+      ],
+      "bosses": [
+        "BOSS_XLARMOR2"
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 100,
+      "frequency": 300,
+      "enemies": [
+        "MIGNO1_5",
+        "MILK2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 30000,
+          "moreX": 30,
+          "moreY": "MILK",
+          "delay": 15000,
+          "repeat": 3
+        }
+      ]
+    },
+    {
+      "minute": 18,
+      "minimum": 50,
+      "frequency": 300,
+      "enemies": [
+        "MIGNO1_5",
+        "EX_MEANATAUR"
+      ],
+      "bosses": [
+        "BOSS_XLCHIMERA"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
+    },
+    {
+      "minute": 19,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "XLCHIMERA",
+	      "XLARMOR2"
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
   "TOWERBRIDGE": [
     {
       "order": 10400,
       "stageName": "Tiny Bridge",
       "description": "Two opposing factions abruptly stopped fighting over this little bridge. No doubt the source of this cessation will turn out to be harmless.",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_bridge.png",
       "frameName": "stage_bridge_A.png",
       "frameNameUnlock": "stage_bridge_A.png",
@@ -11816,7 +13204,7 @@
       "order": 11000,
       "stageName": "",
       "description": "",
-      "uiTexture": "UI",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_kagero.png",
       "texture": "UI",
       "frameName": "stage_green_unlock.png",

@@ -71,7 +71,7 @@
         "MAXHEALTH"
       ],
       "evoInto": "VENTO2",
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "isUnlocked": true,
       "poolLimit": 30,
       "rarity": 1,
@@ -406,7 +406,7 @@
       "requires": [
         "LUCK"
       ],
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "poolLimit": 20,
       "rarity": 1,
       "isUnlocked": false,
@@ -495,7 +495,7 @@
       "requires": [
         "DURATION"
       ],
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "poolLimit": 50,
       "rarity": 1,
       "interval": 3000,
@@ -526,7 +526,7 @@
         "POWER"
       ],
       "evoInto": "HELLFIRE",
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "isUnlocked": false,
       "poolLimit": 30,
       "rarity": 80,
@@ -574,7 +574,7 @@
       "tips": "Requires: Spinach.",
       "texture": "items",
       "frameName": "Hellfire.png",
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "poolLimit": 20,
       "rarity": 1,
       "isEvolution": true,
@@ -674,7 +674,7 @@
       ],
       "interval": 1000,
       "duration": 1300,
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "repeatInterval": 0,
       "power": 2,
       "area": 3,
@@ -760,7 +760,7 @@
       "requires": [
         "MAGNET"
       ],
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "isUnlocked": false,
       "poolLimit": 30,
       "rarity": 1,
@@ -792,7 +792,7 @@
       ],
       "evoInto": "ROCHER",
       "isUnlocked": false,
-      "poolLimit": 25,
+      "poolLimit": 50,
       "rarity": 80,
       "interval": 3000,
       "repeatInterval": 200,
@@ -849,10 +849,10 @@
       "requires": [
         "ARMOR"
       ],
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "hidden": false,
       "isUnlocked": false,
-      "poolLimit": 40,
+      "poolLimit": 50,
       "rarity": 1,
       "interval": 1000,
       "repeatInterval": 0,
@@ -1048,7 +1048,7 @@
         "SILF2"
       ],
       "evoInto": "SILF3",
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "isUnlocked": false,
       "poolLimit": 60,
       "rarity": 50,
@@ -1106,7 +1106,7 @@
         "SILF"
       ],
       "evoInto": "SILF3",
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "isUnlocked": false,
       "poolLimit": 60,
       "rarity": 50,
@@ -1168,7 +1168,7 @@
       "requiresMax": [
         "SILF"
       ],
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "hidden": false,
       "isUnlocked": false,
       "poolLimit": 100,
@@ -1222,7 +1222,7 @@
         "GUNS2"
       ],
       "evoInto": "GUNS3",
-      "hitVFX": 8,
+      "hitVFX": "Red",
       "isUnlocked": false,
       "poolLimit": 100,
       "rarity": 50,
@@ -1277,7 +1277,7 @@
         "GUNS"
       ],
       "evoInto": "GUNS3",
-      "hitVFX": 9,
+      "hitVFX": "Blue",
       "isUnlocked": false,
       "poolLimit": 100,
       "rarity": 50,
@@ -1338,7 +1338,7 @@
       "requiresMax": [
         "GUNS"
       ],
-      "hitVFX": 10,
+      "hitVFX": "Beam",
       "isUnlocked": false,
       "hitsWalls": false,
       "poolLimit": 200,
@@ -1371,7 +1371,7 @@
         "GREED"
       ],
       "evoInto": "STIGRANGATTI",
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "isUnlocked": false,
       "poolLimit": 30,
       "rarity": 50,
@@ -1427,7 +1427,7 @@
       "requires": [
         "GREED"
       ],
-      "hitVFX": 11,
+      "hitVFX": "Evil",
       "isEvolution": true,
       "isUnlocked": false,
       "poolLimit": 60,
@@ -1460,7 +1460,7 @@
         "CURSE"
       ],
       "evoInto": "MANNAGGIA",
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "isUnlocked": false,
       "poolLimit": 30,
       "rarity": 50,
@@ -1521,7 +1521,7 @@
         "CURSE"
       ],
       "isEvolution": true,
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "isUnlocked": false,
       "poolLimit": 30,
       "rarity": 1,
@@ -1552,8 +1552,8 @@
         "MOVESPEED"
       ],
       "evoInto": "TRAPANO2",
-      "hitVFX": 4,
-      "poolLimit": 100,
+      "hitVFX": "Dark",
+      "poolLimit": 200,
       "rarity": 50,
       "interval": 6000,
       "repeatInterval": 300,
@@ -1606,9 +1606,9 @@
       "requires": [
         "MOVESPEED"
       ],
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "isEvolution": true,
-      "poolLimit": 100,
+      "poolLimit": 200,
       "rarity": 1,
       "interval": 6000,
       "repeatInterval": 300,
@@ -1632,7 +1632,7 @@
       "tips": "Ignores: Might, Speed, Amount, Area.",
       "texture": "items",
       "frameName": "Lancet.png",
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "isUnlocked": false,
       "poolLimit": 10,
       "rarity": 70,
@@ -1676,7 +1676,7 @@
       "tips": "Requires: Gold Ring, Silver Ring.",
       "texture": "items",
       "frameName": "portal.png",
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "isEvolution": true,
       "evolvesFrom": [
         "LANCET"
@@ -1761,7 +1761,7 @@
       "tips": "Requires: Metaglio Left, Metaglio Right.",
       "texture": "items",
       "frameName": "cape.png",
-      "hitVFX": 11,
+      "hitVFX": "Evil",
       "poolLimit": 50,
       "isEvolution": true,
       "evolvesFrom": [
@@ -2085,6 +2085,32 @@
       "speed": 0.5
     }
   ],
+  "CART2EVO": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "CART2EVO",
+      "name": "Carozza!",
+      "description": "Evolved Carréllo.",
+      "tips": "Requires: Tetraforce.",
+      "texture": "items",
+      "frameName": "animaRamba.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 12800,
+      "repeatInterval": 0,
+      "power": 15,
+      "area": 1,
+      "speed": 10,
+      "amount": 3
+    }
+  ],
   "FLOWER": [
     {
       "level": 1,
@@ -2097,7 +2123,7 @@
       "texture": "items",
       "frameName": "flower.png",
       "isUnlocked": false,
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "poolLimit": 100,
       "rarity": 1,
       "interval": 6000,
@@ -2149,7 +2175,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "poolLimit": 100,
       "rarity": 1,
       "interval": 6000,
@@ -2284,7 +2310,7 @@
       "tips": "",
       "texture": "items",
       "frameName": "bracelet1.png",
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "evoInto": "TRIASSO2",
       "isUnlocked": false,
       "poolLimit": 80,
@@ -2336,8 +2362,12 @@
       "requiresMax": [
         "TRIASSO1"
       ],
-      "evolutionLine":["TRIASSO1","TRIASSO2","TRIASSO3"],
-      "hitVFX": 3,
+      "evolutionLine": [
+        "TRIASSO1",
+        "TRIASSO2",
+        "TRIASSO3"
+      ],
+      "hitVFX": "Fire",
       "evoInto": "TRIASSO3",
       "isEvolution": true,
       "isUnlocked": true,
@@ -2392,7 +2422,7 @@
       "requiresMax": [
         "TRIASSO2"
       ],
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "isEvolution": true,
       "isUnlocked": true,
       "poolLimit": 80,
@@ -2565,7 +2595,7 @@
       "requiresMax": [
         "MAXHEALTH"
       ],
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "hidden": true,
       "isUnlocked": true,
       "poolLimit": 100,
@@ -2582,7 +2612,105 @@
       "penetrating": 20
     }
   ],
-
+  "EX_AMMO1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "hidden": true,
+      "bulletType": "EX_AMMO1",
+      "price": 10,
+      "name": "Ammo Appalate",
+      "description": "Fires towards a random enemy in the faced direction.",
+      "tips": "Projectile Speed increases Penetration.",
+      "texture": "items",
+      "collectionFrame": "frameB_bold.png",
+      "frameName": "EX_AMMO1.png",
+      "evoSynergy": [
+        "SPEED"
+      ],
+      "evoInto": "EX_AMMO2",
+      "isUnlocked": false,
+      "poolLimit":  200,
+      "rarity":     60,
+      "interval":       2000,
+      "repeatInterval": 100,
+      "power":          0.5,
+      "area":           1,
+      "speed":          1,
+      "amount":         3,
+      "penetrating":    0,
+      "critChance":     0.05,
+      "canCrit":        false,
+      "critMul":        2
+    },
+    {
+      "penetrating":  3,
+      "area": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.1
+    },
+    {
+      "penetrating": 3,
+      "area": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.1
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "amount": 2,
+      "addEvolvedWeapon": "EX_AMMO2"
+    }
+  ],
+  "EX_AMMO2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_AMMO2",
+      "name": "Gunastrophe",
+      "description": "Evolved Ammo Appalate. Fires all the guns across the screen.",
+      "tips": "Requires: Bracers.",
+      "texture": "items",
+      "collectionFrame": "frameB_bold.png",
+      "frameName": "EX_AMMO2.png",
+      "isEvolution": true,
+      "isUnlocked": true,
+	  "hidden": true,
+      "evolvesFrom": [
+        "EX_AMMO1"
+      ],
+      "requires": [
+        "SPEED"
+      ],
+      "requiresMax": [
+        "SPEED"
+      ],
+      "volume": 0.1,
+      "poolLimit": 60,
+      "rarity": 1,
+      "interval":       6000,
+      "duration":       3000,
+      "repeatInterval": 200,
+      "power":          0.65,
+      "area":           1,
+      "speed":          1,
+      "amount":         1,
+      "penetrating":    0,
+	  "critChance":     0.05,
+      "critMul":        2
+    }
+  ],
   "VICTORY": [
     {
       "level": 1,
@@ -2705,7 +2833,7 @@
       "evoInto": "MISSPELL2",
       "isUnlocked": false,
       "hidden": true,
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "poolLimit": 100,
       "rarity": 30,
       "interval": 4000,
@@ -2764,7 +2892,7 @@
       "requiresMax": [
         "PANDORA"
       ],
-      "hitVFX": 11,
+      "hitVFX": "Evil",
       "isEvolution": true,
       "isUnlocked": true,
       "hidden": true,
@@ -2876,98 +3004,6 @@
       "freezeChance": 0.05
     }
   ],
-  "EX_GAEA1": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "EX_GAEA1",
-      "price": 800,
-      "name": "Gaze of Gaea",
-      "description": "Might defang enemies.",
-      "tips": "Ignores: speed, duration.",
-      "texture": "items",
-      "frameName": "icon_gazeofgaea.png",
-      "collectionFrame": "frameB_bold.png",
-      "evoSynergy": [
-        "PARMA"
-      ],
-      "evoInto": "EX_GAEA2",
-      "isUnlocked": false,
-      "hidden": true,
-      "poolLimit": 100,
-      "rarity": 50,
-      "interval": 2000,
-      "repeatInterval": 200,
-      "duration" : 200,
-      "hitBoxDelay": 300,
-      "power": 0.5,
-      "area": 0.50,
-      "speed": 1,
-      "amount": 1,
-      "hitsWalls": false,
-      "chance" : 0.03
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 0.5
-    },
-    {
-      "duration": 200
-    },
-    {
-      "chance" : 0.01,
-      "area": 0.15
-    },
-    {
-      "amount": 1
-    },
-    {
-      "duration": 200
-    },
-    {
-      "chance" : 0.01,
-      "area": 0.15,
-      "addEvolvedWeapon": "EX_GAEA2"
-    }
-  ],
-  "EX_GAEA2": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "EX_GAEA2",
-      "name": "Embrace of Gaea",
-      "description": "Evolved Gaze of Gaea. Retaliates. Damage is increased while invulnerable.",
-      "tips": "Requires: Parm Aegis.",
-      "texture": "items",
-      "frameName": "icon_shawlofgaea.png",
-      "collectionFrame": "frameB_bold.png",
-      "isEvolution": true,
-      "evolvesFrom": [
-        "EX_GAEA1"
-      ],
-      "requires": [
-        "PARMA"
-      ],
-      "hidden": true,
-      "isUnlocked": true,
-      "poolLimit": 100,
-      "rarity": 1,
-      "interval": 3000,
-      "repeatInterval": 100,
-      "duration" : 800,
-      "hitBoxDelay": 300,
-      "power": 4,
-      "area": 1,
-      "speed": 1,
-      "amount": 1,
-      "hitsWalls": false,
-      "chance" : 0.05
-    }
-  ],
   "SANTAJAVELIN": [
     {
       "contentGroup": "EXTRA",
@@ -2989,7 +3025,7 @@
         "LUCK"
       ],
       "evoInto": "SANTAJAVELIN2",
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "poolLimit": 200,
       "rarity": 60,
       "interval": 6500,
@@ -3058,7 +3094,7 @@
       "requiresMax": [
         "LUCK"
       ],
-      "hitVFX": 14,
+      "hitVFX": "Yellow",
       "poolLimit": 200,
       "rarity": 1,
       "interval": 5000,
@@ -3072,6 +3108,188 @@
       "critChance": 0.05,
       "canCrit": true,
       "critMul": 2
+    }
+  ],
+  "EX_GAEA1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_GAEA1",
+      "price": 800,
+      "name": "Gaze of Gaea",
+      "description": "Might defang enemies.",
+      "tips": "Ignores: speed, duration.",
+      "texture": "items",
+      "frameName": "icon_gazeofgaea.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "PARMA"
+      ],
+      "evoInto": "EX_GAEA2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 2000,
+      "repeatInterval": 200,
+      "duration": 200,
+      "hitBoxDelay": 300,
+      "power": 0.5,
+      "area": 0.5,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "chance": 0.03
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 200
+    },
+    {
+      "chance": 0.01,
+      "area": 0.15
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 200
+    },
+    {
+      "chance": 0.01,
+      "area": 0.15,
+      "addEvolvedWeapon": "EX_GAEA2"
+    }
+  ],
+  "EX_GAEA2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_GAEA2",
+      "name": "Embrace of Gaea",
+      "description": "Evolved Gaze of Gaea. Retaliates. Damage is increased while invulnerable.",
+      "tips": "Requires: Parm Aegis.",
+      "texture": "items",
+      "frameName": "icon_shawlofgaea.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EX_GAEA1"
+      ],
+      "requires": [
+        "PARMA"
+      ],
+      "hidden": true,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "duration": 800,
+      "hitBoxDelay": 300,
+      "power": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "chance": 0.05
+    }
+  ],
+  "EX_MAGISTONE1": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_MAGISTONE1",
+      "price": 400,
+      "name": "Magi-Stones",
+      "description": "Deals damage based on its Weapon Level.",
+      "tips": "Ignores: Might.",
+      "texture": "items",
+      "frameName": "magistone.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "DOMINION"
+      ],
+      "evoInto": "EX_MAGISTONE2",
+      "poolLimit": 50,
+      "rarity": 60,
+      "interval": 3500,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1.2,
+      "amount": 1,
+      "hitsWalls": false,
+      "knockback": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.2,
+      "interval": -200,
+      "repeatInterval": -40
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.2,
+      "interval": -200,
+      "repeatInterval": -40
+    },
+    {
+      "area": 0.2,
+      "addEvolvedWeapon": "EX_MAGISTONE2"
+    }
+  ],
+  "EX_MAGISTONE2": [
+    {
+      "contentGroup": "EXTRA",
+      "isUnlocked": false,
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_MAGISTONE2",
+      "price": 400,
+      "name": "Kyra-Stones",
+      "description": "Evolved Magistone. Damage based on Player Level. Amount increases with enemies.",
+      "tips": "Requires Max: Karoma's Mana.",
+      "texture": "items",
+      "frameName": "kyrastone.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EX_MAGISTONE1"
+      ],
+      "requires": [
+        "DOMINION"
+      ],
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1.5,
+      "speed": 1.8,
+      "amount": 4,
+      "hitsWalls": false,
+      "knockback": 1
     }
   ],
   "PHASER": [
@@ -3157,7 +3375,7 @@
       "isEvolution": true,
       "isUnlocked": true,
       "hidden": true,
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "poolLimit": 200,
       "rarity": 1,
       "interval": 5000,
@@ -3211,7 +3429,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,
@@ -3236,7 +3454,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,
@@ -3261,7 +3479,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,
@@ -3286,7 +3504,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,
@@ -3311,7 +3529,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 5000,
@@ -3385,7 +3603,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,
@@ -3411,7 +3629,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 5000,
@@ -3437,7 +3655,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 7,
+      "hitVFX": "Prism",
       "poolLimit": 300,
       "rarity": 0,
       "interval": 5000,
@@ -3463,7 +3681,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,
@@ -3489,7 +3707,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "poolLimit": 300,
       "rarity": 0,
       "interval": 500,
@@ -3515,7 +3733,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
       "poolLimit": 50,
       "rarity": 0,
       "interval": 500,
@@ -3541,7 +3759,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
       "poolLimit": 150,
       "rarity": 1,
       "interval": 2000,
@@ -3562,12 +3780,39 @@
       "description": "",
       "tips": "",
       "texture": "items",
-      "frameName": "dummyBlood.png",
+      "frameName": "dummyWJB.png",
       "hidden": true,
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
+      "poolLimit": 150,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 80,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 10000,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+  "D13_MADMOON": [
+    {
+      "level": 1,
+      "bulletType": "D13_MADMOON",
+      "name": "Wandering the Jet Black",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "dummyMMoon.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "None",
       "poolLimit": 150,
       "rarity": 1,
       "interval": 2000,
@@ -3594,7 +3839,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
       "poolLimit": 100,
       "rarity": 0,
       "interval": 500,
@@ -3620,7 +3865,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
       "poolLimit": 100,
       "rarity": 0,
       "interval": 500,
@@ -3646,7 +3891,7 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
-      "hitVFX": 0,
+      "hitVFX": "None",
       "poolLimit": 100,
       "rarity": 0,
       "interval": 500,
@@ -3658,6 +3903,32 @@
       "duration": 300,
       "hitsWalls": false,
       "knockback": 3
+    }
+  ],
+  "EX_GROUNDHIT": [
+    {
+      "level": 1,
+      "bulletType": "EX_GROUNDHIT",
+      "name": "Ground Hit",
+      "description": ".",
+      "tips": "",
+      "texture": "items",
+      "frameName": "dummyFire.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "None",
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval": 500,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 300,
+      "hitsWalls": false
     }
   ],
   "POWER": [
@@ -4290,11 +4561,11 @@
       "isUnlocked": false,
       "hidden": true,
       "alwaysHidden": false,
-      "isSpecialOnly": true,
+      "isSpecialOnly": false,
       "bulletType": "DOMINION",
       "name": "Karoma's Mana",
       "description": "Increases enemies spawn quantity by 10. Increases duration of Gold Fever and Gold Finger by 10%.",
-      "tips": "Obtainable only via Arma Dio.",
+      "tips": ".",
       "texture": "items",
       "frameName": "dominion.png",
       "collectionFrame": "frameB_bold.png",
@@ -4330,6 +4601,7 @@
       "hidden": true,
       "alwaysHidden": true,
       "isSpecialOnly": true,
+      
       "bulletType": "TETRAFORCE",
       "name": "Tetraforce",
       "description": "The character starts gaining the chosen stat boost every level.",
@@ -4357,7 +4629,7 @@
       "tips": "Best with: Cooldown, Duration.",
       "texture": "items",
       "frameName": "Silf1_counter.png",
-      "hitVFX": 2,
+      "hitVFX": "TimeFreeze",
       "isUnlocked": false,
       "isSpecialOnly": true,
       "poolLimit": 60,
@@ -4410,7 +4682,7 @@
       "tips": "Best with: Cooldown, Duration.",
       "texture": "items",
       "frameName": "Silf2_counter.png",
-      "hitVFX": 3,
+      "hitVFX": "Fire",
       "isUnlocked": false,
       "isSpecialOnly": true,
       "poolLimit": 60,
@@ -4463,7 +4735,7 @@
       "tips": "Ignores: Duration.",
       "texture": "items",
       "frameName": "Guns_counter.png",
-      "hitVFX": 8,
+      "hitVFX": "Red",
       "isUnlocked": false,
       "isSpecialOnly": true,
       "poolLimit": 100,
@@ -4511,7 +4783,7 @@
       "tips": "Ignores: Duration.",
       "texture": "items",
       "frameName": "Guns2_counter.png",
-      "hitVFX": 9,
+      "hitVFX": "Blue",
       "isUnlocked": false,
       "isSpecialOnly": true,
       "poolLimit": 100,
@@ -4559,7 +4831,7 @@
       "tips": "Best with: Luck, Floor Chicken.",
       "texture": "items",
       "frameName": "Cat_counter.png",
-      "hitVFX": 4,
+      "hitVFX": "Dark",
       "isUnlocked": false,
       "isSpecialOnly": true,
       "poolLimit": 30,
@@ -4598,6 +4870,62 @@
       "amount": 1
     }
   ],
+  "EX_AMMO1_COUNTER": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": false,
+      "isSpecialOnly": true,
+      "bulletType": "EX_AMMO1_COUNTER",
+      "price": 10,
+      "name": "Ammo Appalate",
+      "description": "Fires at the nearest enemy.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "collectionFrame": "frameB_bold.png",
+      "frameName": "EX_AMMO_COUNTER.png",
+      "isUnlocked": false,
+	  "hidden": true,
+      "poolLimit":  200,
+      "rarity":     60,
+      "interval":       2000,
+      "repeatInterval": 100,
+      "power":          0.5,
+      "area":           1,
+      "speed":          1,
+      "amount":         3,
+      "penetrating":    0,
+      "critChance":     0.05,
+      "canCrit":        false,
+      "critMul":        2
+    },
+    {
+      "penetrating":  3,
+      "area": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.1
+    },
+    {
+      "penetrating": 3,
+      "area": 0.1
+    },
+    {
+      "amount": 1,
+      "power": 0.1
+    },
+    {
+      "power": 0.3
+    },
+    {
+      "amount": 2
+    }
+  ],
   "SANTAJAVELINCOUNTER": [
     {
       "contentGroup": "EXTRA",
@@ -4615,7 +4943,7 @@
       "texture": "items",
       "frameName": "sjavelinCounter.png",
       "collectionFrame": "frameB_bold.png",
-      "hitVFX": 5,
+      "hitVFX": "Light",
       "poolLimit": 200,
       "rarity": 60,
       "interval": 6500,
@@ -4854,7 +5182,6 @@
       "curse": 0.05
     }
   ],
-
   "FOLLOWER_GARLIC": [
     {
       "level": 1,
@@ -4905,6 +5232,235 @@
     },
     {
       "power": 0.2
+    }
+  ],
+  "EX_TOHILSTATUE": [
+    {
+      "level": 1,
+      "bulletType": "FIREEXPLOSION",
+      "name": "Tohil Idol",
+      "description": "",
+      "tips": "",
+      "texture": "items",
+      "frameName": "ziappunta_prop1.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "Fire",
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval": 5000,
+      "repeatInterval": 5000,
+      "power": 4,
+      "area": 3,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1000,
+      "hitsWalls": false
+    }
+  ],
+  "INSATIABLE": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "bulletType": "INSATIABLE",
+      "name": "Insatiable",
+      "description": "-",
+      "tips": "-",
+      "texture": "items",
+      "frameName": "2insatiable.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "Evil",
+      "poolLimit": 150,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+  "EX_COINTOSS1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_COINTOSS1",
+      "price": 2,
+      "name": "Sossoldi",
+      "description": ".",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "CoinGold.png",
+      "isUnlocked": false,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 2000,
+      "repeatInterval": 180,
+      "power": 0.65,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1,
+      "knockback": 0.5,
+      "critChance": 0.0,
+      "critMul": 1
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "penetrating": 2,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -20
+    },
+    {
+      "penetrating": 2,
+      "repeatInterval": -20
+    }
+  ],
+  "EX_RUMBA1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_RUMBA1",
+      "price": 10,
+      "name": "Rumba",
+      "description": "Pulls pickups and light sources.",
+      "tips": "Ignores: Duration.",
+      "texture": "items",
+      "frameName": "Knife.png",
+      "isUnlocked": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isSpecialOnly": true,
+      "isPowerUp": true,
+      "poolLimit": 70,
+      "rarity": 0,
+      "interval": 100,
+      "repeatInterval": 100,
+      "power":        0,
+      "area":         1,
+      "speed":        1,
+      "amount":       1,
+      "penetrating":  1,
+      "duration":     200,
+      "knockback": 0,
+      "critChance": 0,
+      "critMul": 1
+    }
+  ],
+  "FOLLOWER_KNIFE1": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FOLLOWER_KNIFE1",
+      "price": 800,
+      "name": "Grant Knife",
+      "description": ".",
+      "tips": ".",
+      "texture": "UI",
+      "frameName": "SkillIcon_1.png",
+      "evoSynergy": [
+        "DURATION"
+      ],
+      "evoInto": "FOLLOWER_KNIFE2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 50,
+      "rarity": 40,
+      "interval": 3000,
+      "repeatInterval": 250,
+      "hitBoxDelay" : 30,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "FOLLOWER_KNIFE2"
+    }
+  ],
+  "FOLLOWER_KNIFE2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "FOLLOWER_KNIFE2",
+      "name": ".",
+      "description": ".",
+      "tips": ".",
+      "texture": "UI",
+      "frameName": "SkillIcon_2.png",
+      "isEvolution": true,
+      "isUnlocked": false,
+      "hidden": true,
+      "evolvesFrom": [
+        "FOLLOWER_KNIFE1"
+      ],
+      "requires": [
+        "DURATION"
+      ],
+      "requiresMax": [
+        "DURATION"
+      ],
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 250,
+      "hitBoxDelay" : 30,
+      "power": 2.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 300,
+      "hitsWalls": false,
+      "penetrating": 3
     }
   ]
 }

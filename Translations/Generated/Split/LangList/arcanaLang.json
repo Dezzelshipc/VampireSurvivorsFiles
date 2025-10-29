@@ -358,19 +358,19 @@
     ],
     "description": [
       "Freezing enemies generates explosions. Orologions are easier to find. Sorbettos could also be found.",
-      "Les ennemis immobilisés explosent. Vous trouvez plus facilement des Orologions.",
-      "Congelare i nemici provoca esplosioni. È più facile trovare gli Orologion.",
-      "Einfrieren von Gegnern löst Explosionen aus. Orologions sind leichter zu finden.",
-      "Se generan explosiones al congelar enemigos. Encuentra relojes mágicos más a menudo.",
-      "Congelar inimigos gera explosões. É mais fácil encontrar Orologions.",
-      "Zamrożenie wrogów wywołuje eksplozje. Łatwiej jest znaleźć Orologiony.",
-      "При замораживании врагов происходят взрывы. Часослов проще найти.",
-      "Düşmanları dondurmak patlamalara neden olur. Zamantutan'ları bulmak daha kolaydır.",
-      "冻结敌人会引发爆炸, 更容易发现时祷怀表。",
-      "敵を動けなくさせると爆発が発生する。 懐中時計が出現しやすくなる。",
+      "Les ennemis immobilisés explosent. Vous trouvez plus facilement des Orologions. Possibilité de trouver des Sorbettos.",
+      "Congelare i nemici provoca esplosioni. È più facile trovare gli Orologion. È inoltre possibile trovare Sorbetti.",
+      "Einfrieren von Gegnern löst Explosionen aus. Orologien sind leichter zu finden. Sorbettos können auch gefunden werden.",
+      "Se generan explosiones al congelar enemigos. Encuentra relojes mágicos más a menudo. También se pueden encontrar sorbettos.",
+      "Paralisar inimigos gera explosões. É mais fácil encontrar Orologions. Também é possível encontrar Sorbettos.",
+      "Zamrożenie wrogów wywołuje eksplozje. Łatwiej jest znaleźć Orologiony. Można też znaleźć Sorbetto.",
+      "Враги взрываются при замораживании. Часословов проще найти. Также есть шанс найти Сорбетто.",
+      "Düşmanları dondurmak patlamalara neden olur. Zamantutan'ları bulmak daha kolaydır. Ayrıca Sorbetto bulma şansı da vardır.",
+      "冻结敌人会引发爆炸，更易寻获时祷怀表，还有可能找到索贝托。",
+      "敵の動きを止めると爆発が発生する。懐中時計が出現しやすくなる。ソルベット出現のチャンスもあり。",
       "적을 얼리면 폭발. 회중시계를 더욱 쉽게 발견 가능.",
-      "凍結敵人時會引發爆炸。時禱懷錶的出現機率會有所提高。",
-      "При заморожуванні ворогів відбуваються вибухи. Часолов простіше знайти."
+      "凍結敵人時會引發爆炸。時禱懷錶的出現機率會有所提高。也有機會能夠找到義式冰淇淋。",
+      "При заморожуванні ворогів відбуваються вибухи. Часолов простіше знайти. Також можна знайти Сорбет."
     ]
   },
   "14": {
@@ -561,7 +561,7 @@
       "Вбивця Гри"
     ],
     "description": [
-      "Halts XP gain. Experience Gems turn into exploding projectiles. All Treasure Chests contain at least 3 items.",
+      "Halts XP gain. Experience Crystals turn into exploding projectiles. All Treasure Chests contain at least 3 items.",
       "Empêche de gagner de l'EXP. Les gemmes d'expérience deviennent des projectiles explosifs. Les coffres au trésor contiennent au moins 3 objets.",
       "Impedisce il guadagno di PE. Le Gemme dell'esperienza si trasformano in proiettili esplosivi. Tutti i Forzieri del tesoro contengono almeno 3 oggetti.",
       "Stoppt den EP-Gewinn. Erfahrungsedelsteine verwandeln sich in explodierende Geschosse. Schatztruhen enthalten mindestens 3 Items.",
@@ -949,6 +949,1930 @@
       "식량을 획득하면 희귀도 또는 치유량에 따라 무작위 능력치에 누적 보너스를 부여합니다.",
       "在拾取食物時，根據其稀有度或治療數值的高低來為隨機屬性帶來累積加成。",
       "Знахідки їжі додають накопичувальні бонуси до випадкових характеристик на основі їхньої рідкості або лікувальних властивостей."
+    ]
+  },
+  "35": {
+    "name": [
+      "XIII - Call of a Mad Moon",
+      "XIII - L'appel de la folle lune",
+      "XIII - Richiamo di una luna pazza",
+      "XIII - Echo eines Tollmonds",
+      "XIII: Llamada de una luna de locura",
+      "XIII - Chamado da Lua Louca",
+      "XIII – Zew szalonego księżyca",
+      "XIII — Зов Беснолуния",
+      "XIII - Deli Ayın Çağrısı",
+      "XIII - 疯月的呼唤",
+      "XIII - 狂い月の呼び声",
+      "XIII - 미친 달의 부름",
+      "XIII－瘋狂之月的呼喚",
+      "XIII — Клич Скаженого місяця"
+    ],
+    "description": [
+      "Effect depends on random results and player stats. Luck: improves Treasure Chests and Light Sources. Growth: improves XP crystals. Greed: improves gold pickups. Curse: enemies gain MoveSpeed and Health.",
+      "L'effet dépend des résultats aléatoires et des statistiques du joueur. Chance : augmente le nombre de coffres au trésor et de sources de lumière. Expertise : augmente la présence de gemmes d'EXP. Avidité : augmente la valeur des pièces d'or. Malédiction : les ennemis gagnent de la vitesse de déplacement et de la santé.",
+      "Gli effetti dipendono da risultati casuali e dalle statistiche del giocatore. Fortuna: migliora i Forzieri del tesoro e le fonti di luce. Crescita: migliora i cristalli PE. Avidità: aumenta il valore delle monete raccolte. Maledizione: i nemici guadagnano Velocità di movimento e Salute.",
+      "Der Effekt hängt teilweise vom Zufall und teilweise von Spielerwerten ab. Glück: verbessert Schatztruhen und Lichtquellen. Entwicklung: verbessert Erfahrungsedelsteine. Gier: verbessert Goldmünzen. Fluch: Gegner erhalten Bewegungstempo und LP.",
+      "El efecto depende de resultados aleatorios y los atributos del jugador. Suerte: mejora los cofres del tesoro y las fuentes de luz. Crecimiento: mejora las gemas de EXP. Avaricia: mejora las monedas de oro. Maldición: los enemigos ganan velocidad de movimiento y salud.",
+      "O efeito depende de atributos do jogador e resultados aleatórios. Sorte: afeta os Baús do Tesouro e Fontes de Luz. Crescimento: afeta as joias de EXP. Ganância: afeta as moedas de ouro. Maldição: inimigos ganham Velocidade de Movimento e Vida.",
+      "Efekt zależy od losowych wyników i parametrów użytkownika. Szczęście: ulepsza skrzynie skarbów i źródła światła. Rozwój: ulepsza kryształy doświadczenia. Chciwość: ulepsza złote monety. Klątwa: wrogowie zyskują Prędkość ruchu i Zdrowie.",
+      "Эффект зависит от случайных результатов и характеристик игрока. Удача: улучшает сундуки с сокровищами и источники света. Рост: улучшает кристаллы опыта. Жадность: улучшает золото. Проклятие: враги получают высокую скорость и здоровье.",
+      "Etkisi rastgele sonuçlara ve oyuncu istatistiklerine göre değişir. Şans: Hazine Sandıklarını ve Işık Kaynaklarını geliştirir. Büyüme: TP mücevherlerini geliştirir. Açgözlülük: Altın akçeleri geliştirir. Lanet: Düşmanlar Hareket Hızı ve Sağlık kazanır.",
+      "效果取决于随机结果和玩家属性。运气：提升宝箱和光源。成长：提升经验水晶。贪欲：提升金币拾取。诅咒：敌人获得移动速度和生命值。",
+      "効果はランダムな結果およびプレイヤーのステータスによって異なる。運：宝箱と光源の効果を強化する。 成長効率：XPクリスタルを強化する。 欲深さ：金貨の獲得量を増加させる。呪い：敵の素早さとHPが増加。",
+      "다양한 효과가 있는 구역을 생성합니다. 행운: 보물상자와 광원 성능이 향상됩니다. 성장: XP 보석 획득량이 증가합니다. 탐욕: 금화 획득량이 증가합니다. 저주: 적의 체력이 25% 감소합니다. 야생: 이전의 구역을 모두 발동합니다.",
+      "確切效果取決於隨機結果與玩家角色數值。運氣：強化寶箱以及光源效果。成長：提升經驗值水晶效果。貪欲：提升金幣掉落物品效果。詛咒：敵人獲得移動速度和生命值的加成。",
+      "Ефект залежить від випадковості й характеристик гравця. Удача: поліпшує скрині скарбів і джерела світла. Розвиток: поліпшує самоцвіти досвіду. Жадоба: поліпшує золоті монети. Прокляття: вороги отримують бонус до швидкості руху й здоров'я."
+    ]
+  },
+  "40": {
+    "name": [
+      "XVIII - Victorian Horror",
+      "XVIII - Horreur victorienne",
+      "XVIII - Orrore vittoriano",
+      "XVIII - Viktorianische Schrecken",
+      "XVIII: Terror victoriano",
+      "XVIII - Terror Vitoriano",
+      "XVIII – Wiktoriański horror",
+      "XVIII — Викторианский ужас",
+      "XVIII - Viktoryen Korku",
+      "XVIII - 维多利亚式恐怖",
+      "XVIII -ビクトリア朝ホラー",
+      "XVIII - 빅토리아 풍 호러",
+      "XVIII－維多利亞恐怖",
+      "XVIII — Вікторіанський кошмар"
+    ],
+    "description": [
+      "Enemies within Magnet range receive Greed based damage. Once per life, triggers Cursed World Eater after receiving fatal damage.",
+      "Les ennemis à portée de l'Aimant subissent des dégâts basés sur l'avidité. Une fois par vie, déclenche un Dévore-monde après avoir reçu des dégâts mortels.",
+      "I nemici a portata della Calamita subiscono danni basati sull'Avidità. Una volta per vita, scatena il Divoratore di mondi dannato dopo aver subito una quantità fatale di danni.",
+      "Gegner in Reichweite des Magneten erleiden Schaden (abhängig von Gier). Einmal pro Leben: Tödlicher Schaden löst Verfluchten Weltenfresser aus.",
+      "Los enemigos dentro del alcance de imán reciben daño según la avaricia. Activa el Engullemundos maldito tras recibir daño letal una vez por vida.",
+      "Inimigos ao alcance do Magnetismo sofrem dano com base na Ganância. Uma vez a cada vida, ativa o Devorador de Mundos Amaldiçoado ao sofrer dano fatal.",
+      "Wrogowie w zasięgu Magnesu otrzymują obrażenia zależne od Chciwości. Raz na życie po otrzymaniu śmiertelnych obrażeń wywołuje Przeklętego Światożercę.",
+      "Враги в радиусе действия магнита получают урон в зависимости от жадности. Один раз за жизнь вызывает проклятую Пожирательницу миров после получения смертельного урона.",
+      "Mıknatıs menzilindeki düşmanlar Açgözlülük'e dayalı hasar alır. Can başına bir kez, ölümcül hasar aldıktan sonra Lanetli Dünya Yiyen'i tetikler.",
+      "念力范围内的敌人受到基于贪欲的伤害。受到必死一击后触发被诅咒的灭世者，每条命仅限一次。",
+      "回収範囲内の敵は、欲深さに応じたダメージを受ける。HPが0になる前に致命傷を受けると、1回限りで呪われた世界を喰らう者が発動する。",
+      "자석 범위 안에 있는 적이 탐욕에 기반하여 피해를 받습니다. 치명적인 피해를 받으면 수명당 한 번씩 세계를 먹어치우는 자를 발동합니다.",
+      "磁鐵範圍內的敵人會受到取決於貪欲高低的傷害。在受到致命傷害後，觸發「受詛咒的滅世者」效果，每條命限發動一次。",
+      "Жадоба впливає на шкоду ворогів у полі дії магніту. Один раз за життя викликає Проклятого Пожирача світів при отриманні смертельної шкоди."
+    ]
+  },
+  "27": {
+    "name": [
+      "V - Pale Diamond Incursion",
+      "V - Incursion du diamant pâle",
+      "V - Incursione del diamante pallido",
+      "V - Fahler Diamant",
+      "V: Asalto del diamante blanquecino",
+      "V - Incursão do Diamante Pálido",
+      "V – Diamentowa inwazja",
+      "V — Включение бледного алмаза",
+      "V - Solgun Elmas Akını",
+      "V - 苍白钻石侵入",
+      "V - ペール・ダイヤモンドの侵攻",
+      "V - 창백한 다이아몬드의 급습",
+      "V－蒼白鑽石入侵",
+      "V — Вторгнення тьмяного діаманту"
+    ],
+    "description": [
+      "Listed weapons aim at the nearest enemy. They gain a Cooldown bonus affected by the character's projectile Speed.",
+      "Les armes listées visent l'ennemi le plus proche. Elles gagnent un bonus de recharge affecté par la vitesse des projectiles du personnage.",
+      "Le armi elencate attaccano il nemico più vicino. Ottengono un bonus Tempo di ricarica influenzato dalla Velocità dei proiettili del giocatore.",
+      "Gelistete Waffen zielen auf den nächstgelegenen Gegner und erhalten einen Abklingzeit-Bonus, der von der Geschossschnelligkeit abhängt.",
+      "Las armas de la lista apuntan al enemigo más cercano. Ganan una bonificación de recarga que se ve afectada por la velocidad de proyectil del personaje.",
+      "Armas listadas miram no inimigo mais próximo. Elas ganham um bônus de Recarga com base na Velocidade de Projéteis do personagem.",
+      "Wymienione bronie celują w najbliższego wroga. Otrzymują premię do Odnawiania zależną od Prędkości pocisków bohatera.",
+      "Указанное оружие нацеливается на ближайшего врага. Оно получает бонус к перезарядке в зависимости от скорости снарядов персонажа.",
+      "Listelenen silahlar en yakın düşmana nişan alır. Karakterin Fırlatılabilir Hızı'ndan etkilenen bir Bekleme Süresi bonusu kazanırlar.",
+      "所列武器会瞄准距离最近的敌人，并获得受角色飞射速度影响的冷却时间加成。",
+      "リストに表示されている武器は、最も近い敵を標的とする。さらに、キャラクターの弾速に応じたクールダウンボーナスを獲得する。",
+      "나열된 무기가 가장 가까운 적을 조준합니다. 적을 처치하면 한 번 더 활성화됩니다.",
+      "表列中的武器會瞄準最靠近的敵人。這些武器能夠獲得一個取決於角色投射物速度高低的冷卻時間加成。",
+      "Зброя з переліку вражає найближчого ворога. Також ця зброя отримує бонус до відновлення, що залежить від швидкості снаряда."
+    ]
+  },
+  "101": {
+    "name": [
+      "001 - Antonio Belpaese",
+      "001 - Antonio Belpaese",
+      "001 - Antonio Belpaese",
+      "001 - Antonio Belpaese",
+      "001: Antonio Belpaese",
+      "001 – Antonio Belpaese",
+      "001 – Antonio Belpaese",
+      "001 — Антонио Бельпаэзе",
+      "001 - Antonio Belpaese",
+      "001 - 安东尼奥·贝尔帕斯",
+      "001 - アントニオ・ベルペーゼ",
+      "001 - 안토니오 벨파에제",
+      "001－安東尼奧・貝爾帕斯",
+      "001 — Антоніо Бельпаезе"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "102": {
+    "name": [
+      "002 - Imelda Belpaese",
+      "002 - Imelda Belpaese",
+      "002 - Imelda Belpaese",
+      "002 - Imelda Belpaese",
+      "002: Imelda Belpaese",
+      "002 – Imelda Belpaese",
+      "002 – Imelda Belpaese",
+      "002 — Имельда Бельпаэзе",
+      "002 - Imelda Belpaese",
+      "002 - 伊梅尔达·贝尔帕斯",
+      "002 - イメルダ・ベルペーゼ",
+      "002 - 이멜다 벨파에제",
+      "002－伊梅爾達．貝爾帕斯",
+      "002 — Імельда Бельпаезе"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "103": {
+    "name": [
+      "003 - Pasqualina Belpaese",
+      "003 - Pasqualina Belpaese",
+      "003 - Pasqualina Belpaese",
+      "003 - Pasqualina Belpaese",
+      "003: Pasqualina Belpaese",
+      "003 – Pasqualina Belpaese",
+      "003 – Pasqualina Belpaese",
+      "003 — Паскуалина Бельпаэзе",
+      "003 - Pasqualina Belpaese",
+      "003 - 帕斯姱丽娜·贝尔帕斯",
+      "003 - パスカリーナ・ベルペーゼ",
+      "003 - 파스콸리나 벨파에제",
+      "003－帕斯夸麗娜．貝爾帕斯",
+      "003 — Паскаліна Бельпаезе"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "104": {
+    "name": [
+      "004 - Gennaro Belpaese",
+      "004 - Gennaro Belpaese",
+      "004 - Gennaro Belpaese",
+      "004 - Gennaro Belpaese",
+      "004: Gennaro Belpaese",
+      "004 – Gennaro Belpaese",
+      "004 – Gennaro Belpaese",
+      "004 — Дженнаро Бельпаэзе",
+      "004 - Gennaro Belpaese",
+      "004 - 雅那略·贝尔帕斯",
+      "004 - ジェンナーロ・ベルペーゼ",
+      "004 - 젠나로 벨파에제",
+      "004－雅那略．貝爾帕斯",
+      "004 — Дженнаро Бельпаезе"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "105": {
+    "name": [
+      "005 - Arca Ladonna",
+      "005 - Arca Ladonna",
+      "005 - Arca Ladonna",
+      "005 - Arca Ladonna",
+      "005: Arca Ladonna",
+      "005 – Arca Ladonna",
+      "005 – Arca Ladonna",
+      "005 — Арка Ладонна",
+      "005 - Arca Ladonna",
+      "005 - 阿卡·拉多纳",
+      "005 - アルカ・ラドンナ",
+      "005 - 아르카 라돈나",
+      "005－阿卡．拉多納",
+      "005 — Арка Ладонна"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "106": {
+    "name": [
+      "006 - Porta Ladonna",
+      "006 - Porta Ladonna",
+      "006 - Porta Ladonna",
+      "006 - Porta Ladonna",
+      "006: Porta Ladonna",
+      "006 – Porta Ladonna",
+      "006 – Porta Ladonna",
+      "006 — Порта Ладонна",
+      "006 - Porta Ladonna",
+      "006 - 珀塔·拉多纳",
+      "006 - ポルタ・ラドンナ",
+      "006 - 포르타 라돈나",
+      "006－珀塔．拉多納",
+      "006 — Порта Ладонна"
+    ],
+    "description": [
+      "Cooldown bonus is lost over 4 levels.",
+      "Le bonus de recharge se perd après 4 niveaux.",
+      "Il bonus al Tempo di ricarica si resetta dopo quattro livelli.",
+      "Abklingzeit-Bonus, hält 4 Level an.",
+      "La bonificación de recarga se va perdiendo durante 4 niveles.",
+      "O bônus temporário de Recarga dura 4 níveis.",
+      "Premia do Odnawiania stopniowo znika przez 4 poziomy.",
+      "Бонус к перезарядке теряется в течение 4 уровней.",
+      "Bekleme Süresi bonusu 4 seviye sonra kaybolur.",
+      "获得冷却时间加成，持续4级。",
+      "4レベルにかけてクールダウンボーナスを失う。",
+      "재사용 대기 시간 보너스를 4레벨에 걸쳐 상실합니다.",
+      "在升過 4 級以後，冷卻時間加成便會消失。",
+      "Втрачає бонус до відновлення на 4 рівні."
+    ]
+  },
+  "107": {
+    "name": [
+      "007 - Lama Ladonna",
+      "007 - Lama Ladonna",
+      "007 - Lama Ladonna",
+      "007 - Lama Ladonna",
+      "007: Lama Ladonna",
+      "007 – Lama Ladonna",
+      "007 – Lama Ladonna",
+      "007 — Лама Ладонна",
+      "007 - Lama Ladonna",
+      "007 - 拉玛·拉多纳",
+      "007 - ラマ・ラドンナ",
+      "007 - 라마 라돈나",
+      "007－拉瑪．拉多納",
+      "007 — Лама Ладонна"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "108": {
+    "name": [
+      "008 - Poe Ratcho",
+      "008 - Poe Ratcho",
+      "008 - Poe Ratcho",
+      "008 - Poe Ratcho",
+      "008: Poe Ratcho",
+      "008 – Poe Ratcho",
+      "008 – Poe Ratcho",
+      "008 — По Ратчо",
+      "008 - Poe Ratcho",
+      "008 - 波·拉奇奥",
+      "008 - ポー・ラッチョ",
+      "008 - 포 랏초",
+      "008－波伊．拉奇奧",
+      "008 — По Рачо"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "109": {
+    "name": [
+      "009 - Suor Clerici",
+      "009 - Suor Clerici",
+      "009 - Suor Clerici",
+      "009 - Suor Clerici",
+      "009: Sor Clerici",
+      "009 – Irmã Clerici",
+      "009 – Suor Clerici",
+      "009 — Суор Клеричи",
+      "009 - Suor Clerici",
+      "009 - 克莱里奇修女",
+      "009 - シスター・クレーリチ",
+      "009 - 시스터 클레리씨",
+      "009－克萊里奇修女",
+      "009 — Суор Клерічі"
+    ],
+    "description": [
+      "Area bonus is lost over 5 levels.",
+      "Le bonus de portée se perd après 5 niveaux.",
+      "Il Bonus all'Area si resetta dopo cinque livelli.",
+      "Bereich-Bonus, hält 5 Level an.",
+      "La bonificación de área de efecto se pierde durante 5 niveles.",
+      "O bônus temporário de Área dura 5 níveis.",
+      "Premia do Obszaru stopniowo znika przez 5 poziomów.",
+      "Бонус к области теряется в течение 5 уровней.",
+      "Alan bonusu 5 seviye sonra kaybolur.",
+      "获得攻击范围加成，持续5级。",
+      "5レベルにかけて攻撃範囲ボーナスを失う。",
+      "공격 범위 보너스를 5레벨에 걸쳐 상실합니다.",
+      "在升過 5 級以後，效果範圍加成便會消失。",
+      "Втрачає бонус до області на 5 рівні."
+    ]
+  },
+  "110": {
+    "name": [
+      "010 - Dommario",
+      "010 - Dommario",
+      "010 - Dommario",
+      "010 - Dommario",
+      "010: Dommario",
+      "010 – Dommario",
+      "010 – Dommario",
+      "010 — Доммарио",
+      "010 - Dommario",
+      "010 - 多马利奥",
+      "010 - ドンマリオ",
+      "010 - 돔마리오",
+      "010－多馬利歐",
+      "010 — Доммаріо"
+    ],
+    "description": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "111": {
+    "name": [
+      "011 - Krochi Freetto",
+      "011 - Krochi Freetto",
+      "011 - Krochi Freetto",
+      "011 - Krochi Freetto",
+      "011: Krochi Freetto",
+      "011 – Krochi Freetto",
+      "011 – Krochi Freetto",
+      "011 — Крочи Фритто",
+      "011 - Krochi Freetto",
+      "011 - 柯洛奇·弗里厄多",
+      "011 - クロチ・フリート",
+      "011 - 크로치 프리토",
+      "011－柯洛奇．佛里厄多",
+      "011 — Крочі Фретто"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "112": {
+    "name": [
+      "012 - Christine Davain",
+      "012 - Christine Davain",
+      "012 - Christine Davain",
+      "012 - Christine Davain",
+      "012: Christine Davain",
+      "012 – Christine Davain",
+      "012 – Christine Davain",
+      "012 — Кристина Давейн",
+      "012 - Christine Davain",
+      "012 - 克莉丝汀·达文因",
+      "012 - クリスティーネ・ダヴェイン",
+      "012 - 크리스틴 다베인",
+      "012－克莉絲汀．達文因",
+      "012 — Кристін Давейн"
+    ],
+    "description": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "113": {
+    "name": [
+      "013 - Pugnala Provola",
+      "013 - Pugnala Provola",
+      "013 - Pugnala Provola",
+      "013 - Pugnala Provola",
+      "013: Pugnala Provola",
+      "013 – Pugnala Provola",
+      "013 – Pugnala Provola",
+      "013 — Пугнала Провола",
+      "013 - Pugnala Provola",
+      "013 - 普格纳拉·普罗沃拉",
+      "013 - プニャーラ・プローヴォラ",
+      "013 - 푸날라 프로볼라",
+      "013－普格納拉．普羅沃拉",
+      "013 — Пуґнала Провола"
+    ],
+    "description": [
+      "Gains %0 Might every level.",
+      "Gagne %0 de puissance à chaque niveau.",
+      "=+%0 di Potenza con ogni livello.",
+      "Erhält pro Level +%0 Macht.",
+      "Gana %0 de poder cada nivel.",
+      "Ganha %0 de Poder a cada nível.",
+      "Otrzymuje %0 Mocy co poziom.",
+      "Получает %0 к силе каждый уровень.",
+      "Her seviye %0 Kuvvet kazanır.",
+      "每一级，力量+%0。",
+      "1レベルごとに攻撃力+%0。",
+      "레벨마다 피해량이 % 0 증가합니다.",
+      "每升 1 級，力量便會提高 %0。",
+      "Отримує %0 сили кожен рівень."
+    ]
+  },
+  "114": {
+    "name": [
+      "014 - Giovanna Grana",
+      "014 - Giovanna Grana",
+      "014 - Giovanna Grana",
+      "014 - Giovanna Grana",
+      "014: Giovanna Grana",
+      "014 – Giovanna Grana",
+      "014 – Giovanna Grana",
+      "014 — Джованна Грана",
+      "014 - Giovanna Grana",
+      "014 - 乔万娜·格拉纳",
+      "014 - ジオヴァーナ・グラナ",
+      "014 - 지오반나 그라나",
+      "014－喬萬娜．格拉納",
+      "014 — Джованні Гран"
+    ],
+    "description": [
+      "Gains %0 Projectile Speed every level.",
+      "Gagne %0 de vitesse des projectiles à chaque niveau.",
+      "=+%0 di Velocità dei proiettili con ogni livello.",
+      "Erhält pro Level +%0 Geschossschnelligkeit.",
+      "Gana %0 de vel. de proyectil cada nivel.",
+      "Ganha %0 de Velocidade de Projéteis a cada nível.",
+      "Otrzymuje %0 Prędkości pocisków co poziom.",
+      "Получает %0 к скорости снарядов каждый уровень.",
+      "Her seviye %0 Fırlatılabilir Hızı kazanır.",
+      "每一级，飞射速度+%0。",
+      "1レベルごとに発射物の弾速+%0。",
+      "레벨마다 투사체 속도가 % 0 증가합니다.",
+      "每升 1 級，投射物速度便會加快 %0。",
+      "Отримує %0 до швидкості снарядів кожен рівень."
+    ]
+  },
+  "115": {
+    "name": [
+      "015 - Poppea Pecorina",
+      "015 - Poppea Pecorina",
+      "015 - Poppea Pecorina",
+      "015 - Poppea Pecorina",
+      "015: Poppea Pecorina",
+      "015 – Poppea Pecorina",
+      "015 – Poppea Pecorina",
+      "015 — Макия Пекорина",
+      "015 - Poppea Pecorina",
+      "015 - 波佩阿·佩蔻丽娜",
+      "015 - ポピア・ペコリーナ",
+      "015 - 포페아 페코리나",
+      "015－波佩阿．佩蔻麗娜",
+      "015 — Макія Пекоріна"
+    ],
+    "description": [
+      "Gains %0 Duration every level.",
+      "Gagne %0 de durée à chaque niveau.",
+      "=+0% di Durata con ogni livello.",
+      "Erhält pro Level +%0 Dauer.",
+      "Gana %0 de duración cada nivel.",
+      "Ganha %0 de Duração a cada nível.",
+      "Otrzymuje %0 Czasu trwania co poziom.",
+      "Получает %0 к продолжительности каждый уровень.",
+      "Her seviye %0 Tesir Süresi kazanır.",
+      "每一级，持续时间+%0。",
+      "1レベルごとに効果時間+%0。",
+      "레벨마다 지속시간이 % 0 증가합니다.",
+      "每升 1 級，效果持續時間便會增加 %0。",
+      "Отримує %0 тривалості кожен рівень."
+    ]
+  },
+  "116": {
+    "name": [
+      "016 - Concetta Caciotta",
+      "016 - Concetta Caciotta",
+      "016 - Concetta Caciotta",
+      "016 - Concetta Caciotta",
+      "016: Concetta Caciotta",
+      "016 – Concetta Caciotta",
+      "016 – Concetta Caciotta",
+      "016 — Кончетта Качотта",
+      "016 - Concetta Caciotta",
+      "016 - 康雀妲·卡西奥塔",
+      "016 - コンチェッタ・カショッタ",
+      "016 - 콘체타 카치오타",
+      "016－康雀妲．凱西奧塔",
+      "016 — Концета Качотта"
+    ],
+    "description": [
+      "Gains %0 Area every level.",
+      "Gagne %0 de portée à chaque niveau.",
+      "=+%0 di Area con ogni livello.",
+      "Erhält pro Level +%0 Bereich.",
+      "Gana %0 de área de efecto cada nivel.",
+      "Ganha %0 de Área a cada nível.",
+      "Otrzymuje %0 Obszaru co poziom.",
+      "Получает %0 к области каждый уровень.",
+      "Her seviye %0 Alan kazanır.",
+      "每一级，攻击范围+%0。",
+      "1レベルごとに攻撃範囲+%0。",
+      "레벨마다 공격 범위가 % 0 증가합니다.",
+      "每升 1 級，效果範圍便會擴大 %0。",
+      "Отримує %0 до області кожен рівень."
+    ]
+  },
+  "117": {
+    "name": [
+      "017 - Mortaccio",
+      "017 - Mortaccio",
+      "017 - Mortaccio",
+      "017 - Mortaccio",
+      "017: Mortaccio",
+      "017 – Mortaccio",
+      "017 – Mortaccio",
+      "017 — Мортаччо",
+      "017 - Mortaccio",
+      "017 - 死东西",
+      "017 - モルタッチオ",
+      "017 - 모르타치오",
+      "017－死東西",
+      "017 — Мортасіо"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "118": {
+    "name": [
+      "018 - Yatta Cavallo",
+      "018 - Yatta Cavallo",
+      "018 - Yatta Cavallo",
+      "018 - Yatta Cavallo",
+      "018: Yatta Cavallo",
+      "018 – Yatta Cavallo",
+      "018 - Yatta Cavallo",
+      "018 — Ятта Кавалло",
+      "018 - Yatta Cavallo",
+      "018 - 雅塔熊",
+      "018 - ヤッタ・カヴァロ",
+      "018 - 야타 카발로",
+      "018－雅塔熊",
+      "018 — Ятта Кавалло"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "119": {
+    "name": [
+      "019 - Bianca Ramba",
+      "019 - Bianca Ramba",
+      "019 - Bianca Ramba",
+      "019 - Bianca Ramba",
+      "019: Bianca Ramba",
+      "019 – Bianca Ramba",
+      "019 – Bianca Ramba",
+      "019 — Бьянка Рамба",
+      "019 - Bianca Ramba",
+      "019 - 白安卡·兰巴",
+      "019 - ビアンカ・ランバ",
+      "019 - 비앙카 람바",
+      "019－白安卡．蘭巴",
+      "019 — Б'янка Рамба"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "120": {
+    "name": [
+      "020 - O'Sole Meeo",
+      "020 - O'Sole Meeo",
+      "020 - O'Sole Meeo",
+      "020 - O’Sole Meeo",
+      "020: O'Sole Meeo",
+      "020 – O'Sole Meeo",
+      "020 – O'Sole Meeo",
+      "020 — О'Соле Мио",
+      "020 - O'Sole Meeo",
+      "020 - “小太阳”米奥",
+      "020 - オ・ソレ・ミーオ",
+      "020 - 오'솔레 미오",
+      "020－小太陽米奧",
+      "020 — О'Соле Міо"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "121": {
+    "name": [
+      "021 - Ambrojoe",
+      "021 - Ambrojoe",
+      "021 - Ambrojoe",
+      "021 - Ambrojoe",
+      "021: Ambrojoe",
+      "021 – Ambrojão",
+      "021 – Ambrojoe",
+      "021 — Амбро Джо",
+      "021 - Ambrojoe",
+      "021 - 安布罗乔",
+      "021 - アンブロジョー",
+      "021 - 암브로조",
+      "021－安布羅喬爵士",
+      "021 — Амброджо"
+    ],
+    "description": [
+      "Amount bonus is lost over 9 levels.",
+      "Le bonus de quantité se perd pendant 9 niveaux.",
+      "Il bonus Quantità svanisce dopo 9 livelli.",
+      "Menge-Bonus, hält 9 Level an.",
+      "La bonificación de cantidad se va perdiendo durante 9 niveles.",
+      "O bônus temporário de Quantidade dura 9 níveis.",
+      "Premia do Ilości znika przez 9 poziomów.",
+      "Бонус к боезапасу теряется в течение 9 уровней.",
+      "Miktar bonusu 9 seviye sonra kaybolur.",
+      "获得发射数量加成，持续9级，逐级减弱。",
+      "弾数効果は9レベルにわたって失われる。",
+      "9레벨이 넘어가면 금전 보너스를 잃습니다.",
+      "數量加成會在 9 個等級後消失。",
+      "Бонус до кількості втрачається кожні 9 рівнів."
+    ]
+  },
+  "122": {
+    "name": [
+      "022 - Iguana Gallo Valletto",
+      "022 - Iguana Gallo Valletto",
+      "022 - Iguana Gallo Valletto",
+      "022 - Iguana Gallo Valletto",
+      "022: Iguana Gallo Valletto",
+      "022 – Iguana Gallo Valletto",
+      "022 – Iguana Gallo Valletto",
+      "022 — Игуана Галло Валлетто",
+      "022 - Iguana Gallo Valletto",
+      "022 - 伊瓜纳·加洛·瓦勒托",
+      "022 - イグアナ・ガロ・ヴァレット",
+      "022 - 이구아나 갈로 발레토",
+      "022－伊瓜納．加洛．瓦勒托",
+      "022 — Ігуана Ґало Валетто"
+    ],
+    "description": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "123": {
+    "name": [
+      "023 - Divano Thelma",
+      "023 - Divano Thelma",
+      "023 - Divano Thelma",
+      "023 - Divano Thelma",
+      "023: Divano Thelma",
+      "023 – Divano Thelma",
+      "023 – Divano Thelma",
+      "023 — Дивано Тельма",
+      "023 - Divano Thelma",
+      "023 - 迪瓦诺·泰尔玛",
+      "023 - ディヴァノ・テルマ",
+      "023 - 디바노 델마",
+      "023－迪瓦諾．泰爾瑪",
+      "023 — Дівано Тельма"
+    ],
+    "description": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "124": {
+    "name": [
+      "024 - Zi'Assunta Belpaese",
+      "024 - Antonio Belpaese",
+      "024 - Zi' Assunta Belpaese",
+      "024 - Zi’Assunta Belpaese",
+      "024: Zi'Assunta Belpaese",
+      "024 – Zi'Assunta Belpaese",
+      "024 – Zi'Assunta Belpaese",
+      "023 — Зи'Ассунта Бельпаэзе",
+      "024 - Zi'Assunta Belpaese",
+      "024 - 阿孙塔·贝尔帕斯姑妈",
+      "024 - ジ・アスンタ・ベルペーゼ",
+      "024 - 지아순타 벨파에제",
+      "024－齊亞桑塔．貝爾帕斯",
+      "024 — Зі'Ассунта Бельпаезе"
+    ],
+    "description": [
+      "Gains %0 Might, Projectile Speed, Duration, and Area every level.",
+      "Gagne %0 de puissance, vitesse des projectiles, durée et portée à chaque niveau.",
+      "=+%0 di Potenza, Velocità dei proiettili, Durata e Area con ogni livello.",
+      "Erhält pro Level +%0 Macht, Geschossschnelligkeit, Dauer und Bereich.",
+      "Gana %0 de poder, de vel. de proyectil, de duración y de área de efecto cada nivel.",
+      "Ganha %0 de Poder, Velocidade de Projéteis, Duração e Área a cada nível.",
+      "Co poziom otrzymuje %0 Mocy, Prędkości pocisków, Czasu trwania i Obszaru.",
+      "Получает %0 к силе, скорости снарядов, продолжительности и области каждый уровень.",
+      "Her seviye %0 Kuvvet, Fırlatılabilir Hızı, Tesir Süresi ve Alan kazanır.",
+      "每一级，力量、飞射速度、持续时间和攻击范围+%0。",
+      "1レベルごとに攻撃力、発射物弾速、効果時間、攻撃範囲+%0。",
+      "레벨마다 공격력, 투사체 속도, 지속시간, 공격 범위가 %0 증가합니다.",
+      "每升 1 級，力量、投射物速度、持續時間以及效果範圍便會提高/擴大 %0。",
+      "Отримує %0 до сили, швидкості снарядів, тривалості й області кожен рівень."
+    ]
+  },
+  "1000": {
+    "description": [
+      "Gain Anima of Mortaccio after 80 levels.",
+      "Gagne Anima de Mortaccio après 80 niveaux.",
+      "Guadagni Anima di Mortaccio dopo 80 livelli.",
+      "Erhalte nach 80 Leveln die Anima von Mortaccio.",
+      "Gana la ánima de Mortaccio tras 80 niveles.",
+      "Ganha Anima de Mortaccio após 80 níveis.",
+      "Otrzymuje Anima Mortaccio po 80 poziomach.",
+      "Получает «Аниму Мортаччо» после 80 уровней.",
+      "80 seviye atladıktan sonra Mortaccio'nun Animası'nı kazanır.",
+      "80级后，获得“死东西”之魂。",
+      "80レベル後にモルタッチョのアニマを獲得する。",
+      "80레벨이 되면 모르타치오의 아니마를 얻습니다.",
+      "在達到 80 級以後，獲得死東西之魂。",
+      "Отримує Аніма Мортасіо на кожному 80 рівні."
+    ]
+  },
+  "1001": {
+    "description": [
+      "Gain Carrozza! after 80 levels.",
+      "Gagne Carrozza! après 80 niveaux.",
+      "Guadagni Carozza! dopo 80 livelli.",
+      "Erhalte nach 80 Leveln Carozza!",
+      "Gana la carozza tras 80 niveles.",
+      "Ganha Carroça após 80 níveis.",
+      "Otrzymuje Carozza! po 80 poziomach.",
+      "Получает «Карроццу» после 80 уровней.",
+      "80 seviye atladıktan sonra Carozza! kazanır.",
+      "80级后，获得“火车！”。",
+      "80レベル後にカロッツァ！を獲得する。",
+      "80레벨이 되면 카로자!를 얻습니다.",
+      "在達到 80 級以後，獲得卡羅札火車！",
+      "Отримує Кароццу на кожному 80 рівні."
+    ]
+  },
+  "1002": {
+    "description": [
+      "Gain Yatta Daikarin after 80 levels.",
+      "Gagne Yatta Daikarin après 80 niveaux.",
+      "Guadagni Yatta Daikarin dopo 80 livelli.",
+      "Erhalte nach 80 Leveln Yatta Daikarin!",
+      "Gana la Yatta Daikarin tras 80 niveles.",
+      "Ganha Yatta Daikarin após 80 níveis.",
+      "Otrzymuje Yatta Daikarin po 80 poziomach.",
+      "Получает «Ятту Дайкарин» после 80 уровней.",
+      "80 seviye atladıktan sonra Yatta Daikarin kazanır.",
+      "80级后，获得雅塔大华轮。",
+      "80レベル後にヤッタ・ダイカリンを獲得する。",
+      "80레벨 후에 야타 다이카린을 얻습니다.",
+      "在達到 80 級以後，獲得雅塔大華輪。",
+      "Отримує Ятту Дайкарін на кожному 80 рівні."
+    ]
+  },
+  "1003": {
+    "description": [
+      "Gain Profusione D'Amore after 80 levels.",
+      "Gagne Profusione d'amore après 80 niveaux.",
+      "Guadagni Profusione D'Amore dopo 80 livelli.",
+      "Erhalten nach 80 Leveln Liebesschwall.",
+      "Gana la Profusione d'amore tras 80 niveles.",
+      "Ganha Profusione D'Amore após 80 níveis.",
+      "Otrzymuje Obfitość miłości po 80 poziomach.",
+      "Получает «Профузьонэ Д'Аморе» после 80 уровней.",
+      "80 seviye atladıktan sonra Profusione D'Amore kazanır.",
+      "80级后，获得爱的盛放。",
+      "80レベル後にあふれる愛を獲得する。",
+      "80레벨 이후 넘치는 애정을 얻습니다.",
+      "在達到 80 級以後，獲得濃情蜜意。",
+      "Отримує Профузьйоне Д'Аморе на кожному 80 рівні."
+    ]
+  },
+  "1100": {
+    "description": [
+      "Gains +5 MaxHP every level.",
+      "Obtient +5 PV max à chaque niveau.",
+      "Guadagna +5 di Salute massima ogni livello.",
+      "Erhalte pro Level +5 max. LP.",
+      "Gana +5 de PS máx. cada nivel.",
+      "Ganha +5 de Vida Máx. a cada nível.",
+      "Otrzymuje +5 Maks. zdrowia co poziom.",
+      "Получает +5 к максимальному здоровью каждый уровень.",
+      "Her seviye +5 Maks Sağlık kazanır.",
+      "每升一级，生命值上限+5。",
+      "1レベルごとに最大HP+5。",
+      "레벨마다 최대 HP가 5씩 증가합니다.",
+      "每升 1 級，最大生命值 +5。",
+      "Отримує +5 до макс. ОЗ кожен рівень."
+    ]
+  },
+  "1101": {
+    "description": [
+      "Gains +1% Growth every level.",
+      "Obtient +1 % d'expertise à chaque niveau.",
+      "Guadagna +1% di Crescita con ogni livello.",
+      "Erhalte pro Level +1% Entwicklung.",
+      "Gana +1 % de crecimiento cada nivel.",
+      "Ganha +1% de Crescimento a cada nível.",
+      "Otrzymuje +1% Rozwoju co poziom.",
+      "Получает +1% к развитию каждый уровень.",
+      "Her seviye +%1 Büyüme kazanır.",
+      "每升一级，成长+1%。",
+      "1レベルごとに成長効率+1%。",
+      "레벨마다 성장이 1%씩 증가합니다.",
+      "每升 1 級，成長效益 +1%。",
+      "Отримує +1% до розвитку кожен рівень."
+    ]
+  },
+  "1102": {
+    "description": [
+      "Gains +1% Might every level.",
+      "Obtient +1 % de puissance à chaque niveau.",
+      "Guadagna +1% di Potenza con ogni livello.",
+      "Erhalte pro Level +1% Macht.",
+      "Gana +1 % de poder cada nivel.",
+      "Ganha +1% de Poder a cada nível.",
+      "Otrzymuje +1% Mocy co poziom.",
+      "Получает +1% к силе каждый уровень.",
+      "Her seviye +%1 Kuvvet kazanır.",
+      "每升一级，力量+1%。",
+      "1レベルごとに攻撃力+1%。",
+      "레벨마다 피해량이 1%씩 증가합니다.",
+      "每升 1 級，力量 +1%。",
+      "Отримує +1% сили кожен рівень."
+    ]
+  },
+  "1103": {
+    "description": [
+      "Gains +1% Projectile Speed every level.",
+      "Obtient +1 % de vitesse des projectiles à chaque niveau.",
+      "Guadagna +1% di Velocità dei proiettili con ogni livello.",
+      "Erhalte pro Level +1% Geschossschnelligkeit.",
+      "Gana +1 % de vel. de proyectil cada nivel.",
+      "Ganha +1% de Velocidade de Projéteis a cada nível.",
+      "Otrzymuje +1% Prędkości pocisków co poziom.",
+      "Получает +1% к скорости снарядов каждый уровень.",
+      "Her seviye +%1 Fırlatılabilir Hızı kazanır.",
+      "每升一级，飞射速度+1%。",
+      "1レベルごとに発射物弾速+1%。",
+      "레벨마다 투사체 속도가 1%씩 증가합니다.",
+      "每升 1 級，投射物飛行速度 +1%。",
+      "Отримує +1% до швидкості снарядів кожен рівень."
+    ]
+  },
+  "1104": {
+    "description": [
+      "Gains +1% Duration every level.",
+      "Obtient +1 % de durée à chaque niveau.",
+      "Guadagna +1% di Durata con ogni livello.",
+      "Erhalte pro Level +1% Dauer.",
+      "Gana +1 % de duración cada nivel.",
+      "Ganha +1% de Duração a cada nível.",
+      "Otrzymuje +1% Czasu trwania co poziom.",
+      "Получает +1% к продолжительности каждый уровень.",
+      "Her seviye +%1 Tesir Süresi kazanır.",
+      "每升一级，持续时间+1%。",
+      "1レベルごとに効果時間+1%。",
+      "레벨마다 지속 시간이 1%씩 증가합니다.",
+      "每升 1 級，效果持續時間 +1%。",
+      "Отримує +1% тривалості кожен рівень."
+    ]
+  },
+  "1105": {
+    "description": [
+      "Gains %0 Area every level.",
+      "Obtient +1 % de portée à chaque niveau.",
+      "Guadagna 0% di Area con ogni livello.",
+      "Erhalte pro Level +1% Bereich.",
+      "Gana %0 de área de efecto cada nivel.",
+      "Ganha %0 de Área a cada nível.",
+      "Otrzymuje %0 Obszaru co poziom.",
+      "Получает %0 к области каждый уровень.",
+      "Her seviye %0 Alan kazanır.",
+      "每升一级，攻击范围+%0。",
+      "1レベルごとに攻撃範囲を%0獲得。",
+      "레벨마다 공격 범위가 1%씩 증가합니다.",
+      "每升 1 級，便可獲得 %0 的效果範圍加成。",
+      "Отримує %0 до області кожен рівень."
+    ]
+  },
+  "1106": {
+    "description": [
+      "Gain +1 Skip every level.",
+      "Obtient +1 Passer à chaque niveau.",
+      "Guadagna +1 Esenzione ogni livello.",
+      "Erhalte pro Level +1 Überspringen.",
+      "Gana +1 uso de saltar cada nivel.",
+      "Ganha +1 Adiar a cada nível.",
+      "Otrzymuje +1 Pominięcie co poziom.",
+      "Даёт +1 пропуск каждый уровень.",
+      "Her seviye +1 Atlama kazanır.",
+      "每升一级，跳过+1。",
+      "1レベルごとにスキップ+1。",
+      "레벨마다 건너뛰기가 1씩 증가합니다.",
+      "每升 1 級，便可獲得 +1 次的「跳過」額度。",
+      "Отримуйте +1 пропуск на кожному рівні."
+    ]
+  },
+  "1107": {
+    "description": [
+      "Gain +1 Reroll every level.",
+      "Obtient +1 Relance à chaque niveau.",
+      "Guadagna +1 Risorteggio ogni livello.",
+      "Erhalte pro Level +1 Neuwahl.",
+      "Gana +1 uso de cambiar cada nivel.",
+      "Ganha +1 Rolar Novamente a cada nível.",
+      "Otrzymuje +1 Zmianę co poziom.",
+      "Даёт +1 повтор каждый уровень.",
+      "Her seviye +1 Tekrar Atma kazanır.",
+      "每升一级，重选+1。",
+      "1レベルごとにリロール+1。",
+      "레벨마다 새로고침이 1씩 증가합니다.",
+      "每升 1 級，便可獲得 +1 次的「重骰」額度。",
+      "Отримуйте +1 повтор на кожному рівні."
+    ]
+  },
+  "1108": {
+    "description": [
+      "Gain +1 Banish every level.",
+      "Obtient +1 Bannissement à chaque niveau.",
+      "Guadagna +1 Esclusione ogni livello.",
+      "Erhalte pro Level +1 Verbannen.",
+      "Gana +1 uso de eliminar cada nivel.",
+      "Ganha +1 Banir a cada nível.",
+      "Otrzymuje +1 Odrzucenie co poziom.",
+      "Даёт +1 изгнание каждый уровень.",
+      "Her seviye +1 Çıkarma kazanır.",
+      "每升一级，排除+1。",
+      "1レベルごとに削除+1。",
+      "레벨마다 지우기가 1씩 증가합니다.",
+      "每升 1 級，便可獲得 +1 次的「滅除」額度。",
+      "Отримуйте +1 вигнання на кожному рівні."
+    ]
+  },
+  "2000": {
+    "description": [
+      "OnRevive: triggers a Rosary.",
+      "Après résurrection : déclenche un Chapelet.",
+      "Alla resurrezione: scatena un Rosario.",
+      "Beim Wiederbeleben: Löst einen Rosenkranz aus.",
+      "Al resucitar: activa un rosario.",
+      "Ao Ressuscitar: ativa um Rosário.",
+      "Przy wskrzeszeniu: wyzwala Różaniec.",
+      "При оживлении: активирует чётки.",
+      "Canlandığında bir Tespih tetikler.",
+      "复活时：触发玫瑰念珠。",
+      "復活時：ロザリオを発動。",
+      "부활 시: 묵주를 발동합니다.",
+      "復活時：觸發一次「玫瑰念珠」的效果。",
+      "По відродженні: запускає Чотки."
+    ]
+  },
+  "2001": {
+    "description": [
+      "OnRevive: triggers a Vacuum.",
+      "Après résurrection : déclenche un Vortex.",
+      "Alla resurrezione: scatena un Risucchio.",
+      "Beim Wiederbeleben: Löst ein Vakuum aus.",
+      "Al resucitar: activa un aspiragemas.",
+      "Ao Ressuscitar: ativa um Aspirador.",
+      "Przy wskrzeszeniu: wyzwala Próżnię.",
+      "При оживлении: активирует вакуум.",
+      "Canlandığında bir Vakum tetikler.",
+      "复活时：触发聚星宝珠。",
+      "復活時：吸引のオーブを発動。",
+      "부활 시: 흡입기를 발동합니다.",
+      "復活時：觸發一次「聚星寶珠」的效果。",
+      "По відродженні: запускає Вакуум."
+    ]
+  },
+  "2002": {
+    "description": [
+      "OnRevive: triggers Rapidfire.",
+      "Après résurrection : déclenche un La Rapide.",
+      "Alla resurrezione: scatena un Rapid Fire.",
+      "Beim Wiederbeleben: Löst ein Schnellfeuer aus.",
+      "Al resucitar: activa un fuego rápido.",
+      "Ao Ressuscitar: ativa um Tiro Rápido.",
+      "Przy wskrzeszeniu: wyzwala Szybki ogień.",
+      "При оживлении: активирует скорострельную пушку.",
+      "Canlandığında bir SeriAtış tetikler.",
+      "复活时：触发速射。",
+      "復活時：高速連射を発動。",
+      "부활 시: 래피드파이어를 발동합니다.",
+      "復活時：觸發一次「快速射擊」的效果。",
+      "По відродженні: запускає Скорострілку."
+    ]
+  },
+  "2003": {
+    "description": [
+      "OnRevive: triggers an Orologion.",
+      "Après résurrection : déclenche un Orologion.",
+      "Alla resurrezione: scatena un Orologion.",
+      "Beim Wiederbeleben: Löst ein Orologion aus.",
+      "Al resucitar: activa un reloj mágico.",
+      "Ao Ressuscitar: ativa um Orologion.",
+      "Przy wskrzeszeniu: wyzwala Orologion.",
+      "При оживлении: активирует часослов.",
+      "Canlandığında bir Zamantutan tetikler.",
+      "复活时：触发时祷怀表。",
+      "復活時：懐中時計を発動。",
+      "부활 시: 회중시계를 발동합니다.",
+      "復活時：觸發一次「時禱懷錶」的效果。",
+      "По відродженні: запускає Часолов."
+    ]
+  },
+  "2004": {
+    "description": [
+      "OnRevive: reduces current Curse by 20%.",
+      "Après résurrection : réduit la malédiction actuelle de 20 %.",
+      "Alla resurrezione: riduce la Maledizione attuale del 20%.",
+      "Beim Wiederbeleben: Dein aktueller Fluch wird um 20% gesenkt.",
+      "Al resucitar: reduce la maldición actual un 20 %.",
+      "Ao Ressuscitar: reduz a Maldição atual em 20%.",
+      "Przy wskrzeszeniu: zmniejsza bieżącą Klątwę o 20%.",
+      "При оживлении: снижает текущее проклятие на 20%.",
+      "Canlandığında mevcut Lanet'i %20 azaltır.",
+      "复活时：当前诅咒-20%。",
+      "復活時：現在の呪い-20%。",
+      "부활 시: 현재 저주를 20% 감소시킵니다.",
+      "復活時：將當下的詛咒數值降低 20%。",
+      "По відродженні: зменшує поточне прокляття на 20%."
+    ]
+  },
+  "2005": {
+    "description": [
+      "OnRevive: skips 60 seconds.",
+      "Après résurrection : fait passer 60 secondes.",
+      "Alla resurrezione: salta 60 secondi.",
+      "Beim Wiederbeleben: 60 Sekunden werden übersprungen.",
+      "Al resucitar: salta 60 segundos.",
+      "Ao Ressuscitar: adia 60 segundos.",
+      "Przy wskrzeszeniu: przeskakuje o 60 sekund.",
+      "При оживлении: пропускает 60 секунд.",
+      "Canlandığında zamanı 60 saniye ileri sarar.",
+      "复活时：跳过60秒。",
+      "復活時： 60秒間スキップする。",
+      "부활 시: 60초를 건너뜁니다.",
+      "復活時：時間跳過 60 秒。",
+      "По відродженні: пропускає 60 сек."
+    ]
+  },
+  "3000": {
+    "description": [
+      "Gain a stacking 10-second +1 Armor bonus every time you take damage.",
+      "Gagne un bonus cumulable de 10 secondes de +1 armure à chaque fois que vous subissez des dégâts.",
+      "Guadagni un bonus di +1 all'Armatura per 10 secondi (accumulabile) ogni volta che subisci danni.",
+      "Wenn du Schaden erleidest, erhältst du 10 s lang +1 Rüstung. (Effekt ist stapelbar.)",
+      "Gana una bonificación acumulable de +1 de armadura durante 10 segundos cada vez que recibes daño.",
+      "Ganha um bônus acumulador de +1 de Armadura por 10 segundos sempre que você sofre dano.",
+      "Przyznaje kumulującą się premię +1 do Pancerza na 10 sekund za każdym razem, gdy otrzymujesz obrażenia.",
+      "Получает накапливающийся бонус +1 к броне на 10 секунд каждый раз, когда вы получаете урон.",
+      "Her hasar aldığında 10 saniye süren +1 Zırh kazanır.",
+      "每当受到伤害时，防御+1，持续10秒，可叠加。",
+      "ダメージを受けるたびに、スタックする防御力ボーナス+1。",
+      "피해를 입을 때마다 10초간 방어력 보너스가 +1됩니다.",
+      "每受到一次傷害，便會獲得一個可疊加的 +1 護甲加成（每層的效果持續時間：10 秒）。",
+      "Отримує накопич. бонус +1 до броні на 10 сек. щоразу при отриманні шкоди."
+    ]
+  },
+  "3001": {
+    "description": [
+      "Gain a stacking 10-second +0.1 Recovery bonus every time you take damage.",
+      "Gagne un bonus cumulable de 10 secondes de +0,1 guérison à chaque fois que vous subissez des dégâts.",
+      "Guadagni un bonus di +0,1 al Recupero per 10 secondi (accumulabile) ogni volta che subisci danni.",
+      "Wenn du Schaden erleidest, erhältst du 10 s lang +0,1 Erholung. (Effekt ist stapelbar.)",
+      "Gana una bonificación acumulable de +0,1 de recuperación durante 10 segundos cada vez que recibes daño.",
+      "Ganha um bônus acumulador de +0,1 de Recuperação por 10 segundos sempre que você sofre dano.",
+      "Przyznaje kumulującą się premię +0,1 do Odzyskiwania na 10 sekund za każdym razem, gdy otrzymujesz obrażenia.",
+      "Получает накапливающийся бонус +1 к регенерации на 10 секунд каждый раз, когда вы получаете урон.",
+      "Her hasar aldığında 10 saniye süren +0.1 İyileşme bonusu kazanır.",
+      "每当受到伤害时，恢复+0.1，持续10秒，可叠加。",
+      "ダメージを受けるたびに、スタックする10秒間の回復力ボーナス+0.1。",
+      "피해를 입을 때마다 10초간 회복력 보너스가 +0.1됩니다.",
+      "每受到一次傷害，便會獲得一個可疊加的 +0.1 點生命恢復量加成（每層的效果持續時間：10 秒）。",
+      "Отримує накопич. бонус +0,1 до регенерації на 10 сек. щоразу при отриманні шкоди."
+    ]
+  },
+  "3002": {
+    "description": [
+      "Grants 1 gold coin when taking damage.",
+      "Octroie 1 pièce d'or lorsque vous subissez des dégâts.",
+      "Ricevi una moneta d'oro quando subisci danni.",
+      "Wenn du Schaden erleidest, erhältst du 1 Goldmünze.",
+      "Otorga 1 moneda de oro al recibir daño.",
+      "Concede 1 Moeda de Ouro ao sofrer dano.",
+      "Przyznaje 1 złotą monetę po otrzymaniu obrażeń.",
+      "Получает 1 золотую монету, когда получает урон.",
+      "Hasar aldığında 1 altın akçe verir.",
+      "受到伤害时，金币+1。",
+      "ダメージを受けると、金貨1枚を付与。",
+      "피해를 입으면 금화 1개를 얻습니다.",
+      "受到傷害時，獲得 1 枚金幣。",
+      "Надає 1 монету при отриманні шкоди."
+    ]
+  },
+  "3003": {
+    "description": [
+      "Retaliates with a ground slam when taking damage.",
+      "Riposte avec une charge au sol lorsque vous subissez des dégâts.",
+      "Contrattacca con una schiacciata al suolo quando subisce danni.",
+      "Wenn du Schaden erleidest, übst du mit einem erschütternden Schlag Vergeltung.",
+      "Refleja el daño con un porrazo en el suelo al recibir daño.",
+      "Retalia com uma batida no chão ao sofrer dano.",
+      "Po otrzymaniu obrażeń bierze odwet za pomocą uderzenia w ziemię.",
+      "Когда получает урон, наносит мощный удар в ответ.",
+      "Hasar aldığında yere vurarak misilleme yapar.",
+      "受到伤害时，使用地面猛击进行反击。",
+      "ダメージを受けると、グラウンドスラムで報復する。",
+      "피해를 입으면 땅을 내리쳐 반격합니다.",
+      "受到傷害時，以地面重擊展開反擊。",
+      "Відповідає ударом об землю, коли отримує шкоду."
+    ]
+  },
+  "4000": {
+    "description": [
+      "Critical Damage +100%",
+      "=+100 % de dégâts critiques",
+      "=+100% ai danni critici.",
+      "=+100% kritischer Schaden",
+      "=+100 % de daño crítico.",
+      "=+100% de dano crítico",
+      "Obrażenia krytyczne +100%",
+      "Критический урон +100%",
+      "=+%100 Kritik Hasar",
+      "暴击伤害+100%。",
+      "クリティカルダメージ+100%",
+      "치명타 피해량 +100%",
+      "暴擊傷害 +100%",
+      "Критична шкода +100%"
+    ]
+  },
+  "4001": {
+    "description": [
+      "Increase Armor and Recovery of nearby allies.",
+      "Augmente l'armure et la guérison des alliés à proximité.",
+      "Aumenta Armatura e Recupero degli alleati circostanti.",
+      "Erhöht Rüstung und Erholung von Verbündeten in der Nähe.",
+      "Aumenta la armadura y la recuperación de los aliados cercanos.",
+      "Aumenta a Armadura e a Recuperação de aliados próximos.",
+      "Zwiększa Pancerz i Odzyskiwanie pobliskich sprzymierzeńców.",
+      "Увеличивает броню и регенерацию союзников рядом.",
+      "Yakındaki müttefiklerin Zırh ve İyileşme'sini artırır.",
+      "增加附近盟友的防御与恢复。",
+      "周辺の味方の防御力と回復力を強化する。",
+      "주변 캐릭터의 방어력과 회복력이 증가합니다.",
+      "強化附近盟友的護甲值和生命恢復量。",
+      "Підвищує броню й регенерацію союзників поруч."
+    ]
+  },
+  "4002": {
+    "description": [
+      "Enemies have a 15% chance to spawn defanged.",
+      "Les ennemis ont 15 % de chance d'apparaître affaiblis.",
+      "15% di probabilità che i nemici generati siano sdentati.",
+      "Chance von 15%, dass Gegner zahnlos erscheinen.",
+      "Los enemigos tienen un 15 % de probabilidad de aparecer descolmillados.",
+      "Inimigos têm 15% de chance de surgirem debilitados.",
+      "Wrogowie mają 15% szans na odrodzenie się bez kłów.",
+      "Враги появляются обезвреженными с вероятностью 15%.",
+      "Düşmanlar %15 şansla zararsız doğar.",
+      "敌人有15%的几率生成为去齿状态。",
+      "敵は15%の確率で牙抜き状態で出現する。",
+      "적들이 15% 확률로 송곳니가 없는 상태로 생성됩니다.",
+      "有 15% 的機率能夠在敵人重生時消除其威脅。",
+      "Вороги мають 15% шанс з'явитися слабкими."
+    ]
+  },
+  "4003": {
+    "description": [
+      "Increases enemy spawn quantity by 50.",
+      "Augmente la quantité d'apparitions des ennemis de 50.",
+      "Aumenta la quantità di nemici generati del 50%.",
+      "Erhöht die Anzahl der erscheinenden Feinde um 50.",
+      "Aumenta en 50 la cantidad de enemigos que aparecen.",
+      "Aumenta a quantidade de surgimento de inimigos em 50.",
+      "Zwiększa liczbę odradzających się wrogów o 50.",
+      "Увеличивает количество появляющихся врагов на 50.",
+      "Doğan düşmanların sayısını 50 artırır.",
+      "敌人生成数量+50。",
+      "敵の出現数が50増加。",
+      "적의 생성 수량이 50 만큼 증가합니다.",
+      "敵人的生成數量增加 50 個。",
+      "Збільшує кількість ворогів на 50."
+    ]
+  },
+  "4004": {
+    "description": [
+      "Cancels 50% of attacks from bosses.",
+      "Annule 50 % des attaques des boss.",
+      "Riduce gli attacchi dei boss del 50%.",
+      "Bossgegner brechen 50% ihrer Angriffe ab.",
+      "Anula el 50 % de los ataques de los jefes.",
+      "Cancela 50% dos ataques de chefes.",
+      "Anuluje 50% ataków bossów.",
+      "Отменяет 50% атак боссов.",
+      "Patron saldırılarının %50'sini bertaraf eder.",
+      "抵消头目50%的攻击。",
+      "ボスによる攻撃の50%をキャンセルする。",
+      "보스의 공격을 50% 취소합니다.",
+      "免除 50% 魔王敵人的攻擊。",
+      "Скасовує 50% атак босів."
+    ]
+  },
+  "5000": {
+    "description": [
+      "+1 Revive after defeating a set amount of enemies [1k, 5k, 10k]",
+      "+1 résurrection après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]",
+      "+1 Resurrezione dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]",
+      "+1 Wiederbeleben, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000).",
+      "+1 resurrección tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000).",
+      "+1 de Ressuscitar após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil).",
+      "=+1 Wskrzeszenie po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]",
+      "=+1 к оживлению после победы над определённым числом врагов (1000, 5000, 10 000)",
+      "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra +1 Canlanma verir",
+      "在击败一定数量的敌人（1000、5000、10000）后，复活+1。",
+      "一定数の敵（1千、5千、1万）を倒した後、復活+1",
+      "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 부활+1",
+      "在擊敗足夠數量的敵人後，可獲得 +1 次的復活機會 [1,000 個、5,000 個、10,000 個]",
+      "Воскресіння = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    ]
+  },
+  "5001": {
+    "description": [
+      "+1 Amount after defeating a set amount of enemies [1k, 5k, 10k]",
+      "+1 de quantité après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]",
+      "+1 alla Quantità dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]",
+      "+1 Menge, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000)",
+      "+1 de cantidad tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000).",
+      "+1 de Quantidade após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil).",
+      "=+1 do Ilości po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]",
+      "=+1 к боезапасу после победы над определённым числом врагов (1000, 5000, 10 000)",
+      "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra +1 Miktar verir",
+      "在击败一定数量的敌人（1000、5000、10000）后，发射数量+1。",
+      "一定数の敵（1千、5千、1万）を倒した後、発射弾数+1",
+      "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 수량 +1",
+      "在擊敗足夠數量的敵人後，可獲得 +1 個投射物數量加成 [1,000 個、5,000 個、10,000 個]",
+      "Кількість = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    ]
+  },
+  "5002": {
+    "description": [
+      "+1 Armor after defeating a set amount of enemies [1k, 5k, 10k]",
+      "+1 d'armure après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]",
+      "+1 di Armatura dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]",
+      "+1 Rüstung, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000).",
+      "+1 de armadura tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000).",
+      "+1 de Armadura após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil).",
+      "=+1 do Pancerza po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)",
+      "=+1 к броне после победы над определённым числом врагов (1000, 5000, 10 000)",
+      "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra +1 Zırh verir",
+      "在击败一定数量的敌人（1000、5000、10000）后，防御+1。",
+      "= 一定数の敵（1千、5千、1万）を倒した後、防御力+1",
+      "= 적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 방어력+1",
+      "在擊敗足夠數量的敵人後，可獲得 +1 點的護甲加成 [1,000、5,000、10,000]",
+      "Броня = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    ]
+  },
+  "5003": {
+    "description": [
+      "Grants 1 gold coin after defeating a set amount of enemies [1k, 2k, 3k]",
+      "Octroie 1 pièce d'or après avoir éliminé une certaine quantité d'ennemis [1 000, 2 000, 3 000]",
+      "Ricevi una moneta d'oro dopo aver sconfitto un numero prestabilito di nemici [1.000, 2.000, 3.000]",
+      "Du erhältst eine Goldmünze, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 2.000, 3.000).",
+      "Otorga una moneda de oro tras derrotar a una cantidad fija de enemigos (1000, 2000, 3000).",
+      "Concede 1 Moeda de Ouro após derrotar uma quantidade específica de inimigos (mil, 2 mil, 3 mil).",
+      "Przyznaje 1 złotą monetę po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)",
+      "Получает 1 золотую монету после победы над определённым числом врагов (1000, 2000, 3000)",
+      "Belli sayıda düşman [1k, 2k, 3k] öldürdükten sonra 1 altın akçe verir",
+      "在击败一定数量的敌人（1000、2000、3000）后，金币+1。",
+      "一定数の敵（1千、2千、3千）を倒した後、金貨を1枚付与する。",
+      "적을 일정 수[1k, 2k, 3k] 만큼 물리친 후 금화를 하나 얻습니다.",
+      "在擊敗足夠數量的敵人後，可獲得 1 枚金幣 [1,000 個、2,000 個、3,000 個]",
+      "Надає 1 монету після знищення встановленої кількості ворогів [1 тис., 2 тис., 3 тис.]"
+    ]
+  },
+  "5004": {
+    "description": [
+      "Starts a Gold Fever after defeating a set amount of enemies [1k, 5k, 10k]",
+      "Déclenche une Pluie d'or après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]",
+      "Avvia Febbre dell'oro dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]",
+      "Löst einen Goldrausch aus, nachdem du eine bestimmte Anzahl Gegner besiegt hast (1.000, 5.000, 10.000).",
+      "Empieza una fiebre del oro tras derrotar a una cantidad fija de enemigos (1000, 5000, 10 000).",
+      "Começa uma Febre de Ouro após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil).",
+      "Zaczyna z Gorączką Złota po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]",
+      "Активирует Золотую лихорадку после победы над определённым числом врагов (1000, 5000, 10 000)",
+      "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra bir Altın Kasırgası başlatır.",
+      "在击败一定数量的敌人（1000、5000、10000）后，开启一轮淘金狂潮。",
+      "一定数の敵（1千、5千、1万）を倒した後、ゴールドフィーバーを発動する。",
+      "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 황금의 피버타임이 시작됩니다.",
+      "在擊敗足夠數量的敵人後，可觸發一次「淘金狂潮」的效果 [1,000 個、5,000 個、10,000 個]",
+      "Розпочинає Золоту лихоманку після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+    ]
+  },
+  "6000": {
+    "description": [
+      "HP-Critical: gains 40 MaxHP and recovers 30% Health.",
+      "Gagne +40 PV max et récupère 30 % de santé lorsque la santé atteint un seuil critique.",
+      "PS critici: guadagna 40 di Salute massima e ripristina il 30% della Salute.",
+      "Kritischer LP-Wert: Du erhältst 40 max. LP und regenerierst 30% deiner LP.",
+      "PS en punto crítico: gana 40 de PS máx. y recupera un 30 % de salud.",
+      "Crítico: ganha 40 de Vida Máx. e recupera 30% de Vida.",
+      "Krytyczny poziom zdrowia: otrzymuje 40 Maks. zdrowia i odzyskuje 30% Zdrowia.",
+      "Критический уровень здоровья: получает 40 очков к максимальному здоровью и восполняет 30% здоровья.",
+      "HP kritik seviyedeyken 40 Maks Sağlık kazanır ve %30 Sağlık yeniler.",
+      "濒死时：生命值上限+40，生命值+30%。",
+      "HP-クリティカル：最大HP+40、HPを30%回復。",
+      "HP 위기: 최대 HP가 40 증가하고 체력이 30% 회복됩니다.",
+      "生命值過低時：獲得 40 點的最大生命值並恢復 30% 生命值。",
+      "Крит. рівень ОЗ: надає 40 до макс. ОЗ і відновлює 30% здоров'я."
+    ]
+  },
+  "6001": {
+    "description": [
+      "HP-Critical: triggers an Nduja Fritta.",
+      "Déclenche un Nduja Fritta lorsque la santé atteint un seuil critique.",
+      "PS critici: scatena una Nduja fritta.",
+      "Kritischer LP-Wert: Eine Nduja Fritta wird ausgelöst.",
+      "PS en punto crítico: activa la Nduja Fritta.",
+      "Crítico: Ativa uma Nduja Fritta.",
+      "Krytyczny poziom zdrowia: uruchamia Nduja Frittę.",
+      "Критический уровень здоровья: активирует ндую фритту.",
+      "HP kritik seviyedeyken bir Nduja Fritta tetikler.",
+      "濒死时：触发辣香肠酱。",
+      "HP-クリティカル：ンドゥヤ・フリッタを発動。",
+      "HP 위기: 은두자 프리타를 발동합니다.",
+      "生命值過低時：觸發一次「義式辣香腸薄餅」的效果。",
+      "Крит. рівень ОЗ: запускається Ндуя Фрітта."
+    ]
+  },
+  "6002": {
+    "description": [
+      "HP-Critical: +50 Armor for 10 seconds.",
+      "=+50 d'armure pendant 10 secondes lorsque la santé atteint un seuil critique.",
+      "PS critici: +50 di Armatura per 10 secondi.",
+      "Kritischer LP-Wert: Du erhältst 10 s lang +50 Rüstung.",
+      "PS en punto crítico: +50 de armadura durante 10 segundos.",
+      "Crítico: +50 de Armadura por 10 segundos.",
+      "Krytyczny poziom zdrowia: +50 do Pancerza na 10 sekund.",
+      "Критический уровень здоровья: +50 к броне на 10 секунд.",
+      "HP kritik seviyedeyken 10 saniye boyunca +50 Zırh kazanır.",
+      "濒死时：防御+50，持续10秒。",
+      "HP-クリティカル：10秒間防御力+50。",
+      "HP 위기: 10초 동안 방어력이 +50됩니다.",
+      "生命值過低時：+50 點護甲值，效果持續 10 秒。",
+      "Крит. рівень ОЗ: +50 до броні за 10 сек."
+    ]
+  },
+  "7000": {
+    "description": [
+      "Overheal +16: triggers a Sorbetto.",
+      "Déclenche un Sorbetto lors d'une surguérison de +16.",
+      "=+16 oltre la salute massima: scatena un Sorbetto.",
+      "Überheilung um +16: Ein Sorbetto wird ausgelöst.",
+      "Curación +16 de más: activa un sorbetto.",
+      "=+16 de vida excessiva: ativa um Sorbetto.",
+      "Nadmierne uleczenie +16: wyzwala Sorbetto.",
+      "Избыточное лечение +16: активирует сорбетто.",
+      "=+16 miktarda aşırı iyileştiğinde bir Sorbetto tetikler.",
+      "过度治疗+16时：触发索贝托。",
+      "オーバーヒール+16：ソルベットを発動。",
+      "=+16 과잉 치유: 소르베토를 발동합니다.",
+      "超額治療 +16 點：觸發一次「雪酪」的效果。",
+      "Надмірн. зцілення +16: запускається Сорбет."
+    ]
+  },
+  "7001": {
+    "description": [
+      "Overheal +16: gains +3% Might.",
+      "Gagne +3 % de puissance lors d'une surguérison de +16.",
+      "Cura di 16 oltre la salute massima: +3% di Potenza.",
+      "Überheilung um +16: Du erhältst +3% Macht.",
+      "Curación +16 de más: gana +3 % de poder.",
+      "=+16 de vida excessiva: ganha +3% de Poder.",
+      "Nadmierne uleczenie +16: otrzymuje +3% Mocy.",
+      "Избыточное лечение +16: получает +3% к силе.",
+      "=+16 miktarda aşırı iyileştiğinde +%3 Kuvvet kazanır.",
+      "过度治疗+16时：力量+3%。",
+      "オーバーヒール+16：攻撃力+3%。",
+      "=+16 과잉 치유: 피해량이 +3%됩니다.",
+      "超額治療 +16 點：獲得 +3% 的力量加成。",
+      "Надмірн. зцілення +16: отримує +3% до сили."
+    ]
+  },
+  "7002": {
+    "description": [
+      "Overheal +16: Gold Finger and Gold Fever last 1% longer.",
+      "Le Doigt d'or et la Pluie d'or durent 1 % plus longtemps lors d'une surguérison de +16.",
+      "Cura di 16 oltre la salute massima: +1% alla durata di Dito d'oro e Febbre dell'oro.",
+      "Überheilung um +16: Goldfinger und Goldrausch halten 1% länger.",
+      "Curación +16 de más: dedo dorado y fiebre del oro duran un 1 % más.",
+      "=+16 de vida excessiva: Dedo de Ouro e Febre de Ouro duram 1% a mais.",
+      "Nadmierne uleczenie +16: Złoty Palec i Gorączka Złota trwają o 1% dłużej.",
+      "Избыточное лечение +16: золотой перст и Золотая лихорадка длятся на 1% дольше.",
+      "=+16 miktarda aşırı iyileştiğinde Altın Parmak ve Altın Kasırgası %1 daha uzun sürer.",
+      "过度治疗+16时：金手指和淘金狂潮持续时间+1%。",
+      "オーバーヒール+16 ：黄金の指とゴールドフィーバーの持続時間+1%。",
+      "=+16 과잉 치유: 골드 핑거와 황금의 피버타임의 지속 시간이 1% 증가합니다.",
+      "超額治療 +16 點：「金手指」和「淘金狂潮」的效果持續時間延長 1%。",
+      "Надмірн. зцілення +16: Золотий палець і Золота лихоманка тривають на 1% довше."
+    ]
+  },
+  "7003": {
+    "description": [
+      "Overheal +16: gains +1 Reroll.",
+      "Gagne 1 Caprice lors d'une surguérison de +16.",
+      "Cura di 16 oltre la salute massima: +1 Risorteggio.",
+      "Überheilung um +16: Du erhältst +1 Neuwahl.",
+      "Curación +16 de más: gana +1 uso de cambiar.",
+      "=+16 de vida excessiva: ganha +1 de Rolar Novamente",
+      "Nadmierne uleczenie +16: otrzymuje +1 Zmianę.",
+      "Избыточное лечение +16: получает +1 к повтору.",
+      "=+16 miktarda aşırı iyileştiğinde +1 Tekrar Atma kazanır.",
+      "过度治疗+16时：重选+1。",
+      "オーバーヒール+16：リロール+1。",
+      "=+16 과잉 치유: 새로고침 가능 횟수가 +1됩니다.",
+      "超額治療 +16 點：獲得 +1 次的重骰機會。",
+      "Надмірн. зцілення +16: отримує +1 повтор."
+    ]
+  },
+  "8000": {
+    "description": [
+      "Spawn light sources after gaining a set amount of gold [1k, 5k, 10k]",
+      "Fait apparaître des sources de lumière après avoir gagné une certaine quantité de pièces d'or [1 000, 5 000, 10 000]",
+      "Genera Fonti di luce dopo aver guadagnato un quantitativo d'oro prestabilito [1.000, 5.000, 10.000]",
+      "Lichtquellen erscheinen, nachdem du eine bestimmte Menge Gold gesammelt hast (1.000, 5.000, 10.000)",
+      "Genera fuentes de luz tras ganar una cantidad fija de oro (1000, 5000, 10 000).",
+      "Gera fontes de luzes após ganhar uma quantidade específica de ouro (mil, 5 mil, 10 mil).",
+      "Powoduje pojawienie się źródeł światła po zdobyciu określonej ilości złota [1 tys., 5 tys., 10 tys.]",
+      "Создаёт источники света после получения определённого количества золота (1000, 5000, 10 000)",
+      "Belli sayıda altın kazandıktan sonra [1k, 5k, 10k] ışık kaynağı oluşturur",
+      "在获得一定数量的金币（1000、5000、10000）后，生成光源。",
+      "一定量の金貨（1千、5千、1万）を獲得した後、光源を出現させる。",
+      "골드를 일정량[1k, 5k, 10k] 획득한 후 광원을 생성합니다",
+      "在獲得了一定數量的金幣後，可生成光源 [1,000 個、5,000 個、10,000 個]",
+      "Створює джерела світла після отрим. встановл. к-сті монет [1 тис., 5 тис., 10 тис.]"
+    ]
+  },
+  "8001": {
+    "description": [
+      "Gains +0.5 Thorns after gaining a set amount of gold [1k, 5k, 10k]",
+      "Gagne +0,5 Épines après avoir gagné une certaine quantité de pièces d'or [1 000, 5 000, 10 000]",
+      "Ottiene +0,5 Spine dopo aver guadagnato un quantitativo d'oro prestabilito [1.000, 5.000, 10.000]",
+      "Du erhältst +0,5 Dornen, nachdem du eine bestimmte Menge Gold gesammelt hast (1.000, 5.000, 10.000)",
+      "Gana +0,5 de espinas tras ganar una cantidad fija de oro (1000, 5000, 10 000).",
+      "Ganha +0,5 Espinhos após ganhar uma quantidade específica de ouro (mil, 5 mil, 10 mil).",
+      "Otrzymuje +0,5 Cierni po zdobyciu określonej ilości złota [1 tys., 5 tys., 10 tys.]",
+      "Получает +0,5 к шипам после получения определённого количества золота (1000, 5000, 10 000)",
+      "Belli sayıda altın kazandıktan sonra [1k, 5k, 10k] +0.5 Diken kazanır",
+      "在获得一定数量的金币（1000、5000、10000）后，荆棘+0.5。",
+      "一定量の金貨（1千、5千、1万）を獲得した後、イバラ+0.5。",
+      "골드를 일정량[1k, 5k, 10k] 획득한 후 가시가 +0.5됩니다",
+      "在獲得了一定數量的金幣後，可獲得 +0.5 點的荊棘傷害加成 [1,000 個、5,000 個、10,000 個]",
+      "Отримує +0,5 до Терніїв після отрим. встановл. к-сті монет [1 тис., 5 тис., 10 тис.]"
+    ]
+  },
+  "8002": {
+    "description": [
+      "Gains +1 Revive after gaining a set amount of gold [1k, 5k, 10k]",
+      "Gagne +1 résurrection après avoir gagné une certaine quantité de pièces d'or [1 000, 5 000, 10 000]",
+      "Ottiene +1 Resurrezione dopo aver guadagnato un quantitativo d'oro prestabilito [1.000, 5.000, 10.000]",
+      "Du erhältst +1 Wiederbeleben, nachdem du eine bestimmte Menge Gold gesammelt hast (1.000, 5.000, 10.000)",
+      "Gana +1 resurrección tras ganar una cantidad fija de oro (1000, 5000, 10 000).",
+      "Ganha +1 Ressuscitar após ganhar uma quantidade específica de ouro (mil, 5 mil, 10 mil).",
+      "Otrzymuje +1 Wskrzeszenie po zdobyciu określonej ilości złota [1 tys., 5 tys., 10 tys.]",
+      "Получает +1 к оживлению после получения определённого количества золота (1000, 5000, 10 000)",
+      "Belli sayıda altın kazandıktan sonra [1k, 5k, 10k] +1 Canlanma kazanır",
+      "在获得一定数量的金币（1000、5000、10000）后，复活+1。",
+      "一定量の金貨（1千、5千、1万）を獲得した後、復活+1。",
+      "골드를 일정량[1k, 5k, 10k] 획득한 후 부활이 +1됩니다",
+      "在獲得了一定數量的金幣後，可獲得 +1 次的復活機會 [1,000 個、5,000 個、10,000 個]",
+      "Отримує +1 до Воскресіння після отрим. встановл. к-сті монет [1 тис., 5 тис., 10 тис.]"
+    ]
+  },
+  "8003": {
+    "description": [
+      "Gains +1 passive weapon slot after gaining a set amount of gold [5k, 10k, 20k]",
+      "Gagne +1 emplacement d'arme passive après avoir gagné une certaine quantité de pièces d'or [5 000, 10 000, 20 000]",
+      "Ottiene +1 slot per arma passiva dopo aver guadagnato un quantitativo d'oro prestabilito [5.000, 10.000, 20.000]",
+      "Du erhältst +1 Slot für eine passive Waffe, nachdem du eine bestimmte Menge Gold gesammelt hast (5.000, 10.000, 20.000)",
+      "Gana +1 espacio de arma pasiva tras ganar una cantidad fija de oro (5000, 10 000, 20 000).",
+      "Ganha +1 espaço de arma passiva após ganhar uma quantidade específica de ouro (5 mil, 10 mil, 20 mil).",
+      "Otrzymuje +1 miejsce na broń pasywną po zdobyciu określonej ilości złota [5 tys., 10 tys., 20 tys.]",
+      "Получает +1 к ячейкам пассивного оружия после получения определённого количества золота (1000, 5000, 10 000)",
+      "Belli sayıda altın kazandıktan sonra [5k, 10k, 20k] +1 pasif silah yuvası kazanır",
+      "在获得一定数量的金币（5000、10000、20000）后，被动武器栏位+1。",
+      "一定量の金貨（5千、1万、2万）を獲得した後、パッシブな武器スロット+1。",
+      "골드를 일정량[1k, 5k, 10k] 획득한 후 패시브 무기 슬롯이 +1됩니다",
+      "在獲得了一定數量的金幣後，可增加 +1 個被動武器欄位 [5,000 個、10,000 個、20,000 個]",
+      "Отримує +1 до комірок пас. зброї після отрим. встановл. к-сті монет [5 тис., 10 тис., 20 тис.]"
+    ]
+  },
+  "EDITION_Gala": {
+    "description": [
+      "Adds a Survarot-specific bonus.",
+      "Gagne un bonus spécifique à vos Survarots.",
+      "Aggiunge un bonus degli Survarocchi.",
+      "Fügt einen Survarot-spezifischen Bonus hinzu.",
+      "Añade una bonificación de un supervicano concreto.",
+      "Adiciona um bônus de Surtarô específico.",
+      "Dodaje premię dla danej karty Survarota.",
+      "Добавляет бонус, характерный для сурваротов.",
+      "Survarot odaklı bir bonus  verir.",
+      "获得一项幸存塔罗牌加成。",
+      "サバイバーカード特化ボーナスを追加する。",
+      "서바로트 전용 보너스를 추가합니다.",
+      "獲得一個生存牌專屬的加成效益。",
+      "Отримує окремий бонус до Таро вцілілих."
+    ]
+  },
+  "EDITION_Foil": {
+    "description": [
+      "Adds a random bonus.",
+      "Gagne un bonus aléatoire.",
+      "Aggiunge un bonus casuale.",
+      "Fügt einen zufälligen Bonus hinzu.",
+      "Añade una bonificación aleatoria.",
+      "Adiciona um bônus aleatório.",
+      "Dodaje losową premię.",
+      "Добавляет случайный бонус.",
+      "Rastgele bir bonus verir.",
+      "获得一项随机加成。",
+      "ランダムなボーナスを追加する。",
+      "무작위 보너스를 추가합니다.",
+      "隨機獲得一個加成效益。",
+      "Додає випадковий бонус."
+    ]
+  },
+  "EDITION_Poly": {
+    "description": [
+      "Doubles most starting bonuses.",
+      "Double la plupart des bonus de départ.",
+      "Raddoppia la maggior parte dei bonus iniziali.",
+      "Verdoppelt die meisten Startboni.",
+      "Duplica la mayoría de las bonificaciones de inicio.",
+      "Duplica a maioria dos bônus iniciais.",
+      "Podwaja większość premii początkowych.",
+      "Удваивает большую часть стартовых бонусов.",
+      "Çoğu başlama bonusunu iki katına çıkarır.",
+      "大多数开局加成的效果翻倍。",
+      "開始ボーナスの大半が2倍になる。",
+      "시작 보너스를 대부분 두 배로 늘립니다.",
+      "讓大多數的起始加成效果加倍。",
+      "Подвоює більшість початкових бонусів."
+    ]
+  },
+  "EDITION_Holo": {
+    "description": [
+      "This Survarot gains 4 levels instead of 1 when you level up.",
+      "Ce Survarot gagne 4 niveaux au lieu d'un lorsque vous gagnez un niveau.",
+      "Quando sali di livello, questo Survarocco guadagna quattro livelli anziché uno.",
+      "Dieser Survarot erhält bei einem Levelaufstieg 4 anstatt 1 Level.",
+      "Este supervicano gana 4 niveles en lugar de 1 cuando subes de nivel.",
+      "Este Surtarô ganha 4 níveis em vez de 1 quando você sobe de nível.",
+      "Ta karta Survarota zyskuje 4 poziomy zamiast 1, gdy zdobywasz poziom.",
+      "Этот сурварот получает 4 уровня вместо 1, когда вы повышаете уровень.",
+      "Bu Survarot, seviye atladığında 1 yerine 4 seviye yükselir.",
+      "此幸存塔罗牌在你升级时，等级+4（而非+1）。",
+      "自分がレベルアップすると、このサバイバーカードは1レベルではなく4レベル獲得する。",
+      "레벨업하면 이 서바로트는 1레벨 대신 4레벨을 얻습니다.",
+      "在你升級的同時，這張生存牌會從原本的升 1 級改為升 4 級。",
+      "Таро вцілілих отримує 4 рівні замість 1, коли ви підвищуєте рівень."
+    ]
+  },
+  "EDITION_Inve": {
+    "description": [
+      "Inverts most starting bonuses. Accumulating INVE cards reduces the Risk factor.",
+      "Inverse la plupart des bonus de départ. L'accumulation de cartes INVE réduit le facteur de risque.",
+      "Inverte la maggior parte dei bonus iniziali. L'accumulo di carte INVE riduce il fattore Rischio.",
+      "Die meisten Startboni werden umgekehrt. Je mehr Negativkarten du sammelst, desto kleiner das Risiko.",
+      "Invierte la mayoría de las bonificaciones de inicio. Acumular cartas negativas reduce el factor de riesgo.",
+      "Inverte a maioria dos bônus iniciais. Acumular cartas invertidas reduz o fator de risco.",
+      "Odwraca większość premii początkowych. Gromadzenie kart negatywnych zmniejsza czynnik Ryzyka.",
+      "Инвертирует большинство стартовых бонусов. Сбор карт «ИНВЕ» снижает фактор риска.",
+      "Çoğu başlama bonusunu ters çevirir. INVE kartları biriktirmek Risk faktörünü azaltır.",
+      "反转大多数开局加成。积累反色牌时，降低风险系数。",
+      "開始ボーナスの大半を反転させる。 反転カードが蓄積すると、リスク要因が減少する。",
+      "시작 보너스를 대부분 반전시킵니다. INVE 카드를 누적하면 위험 요소가 감소합니다.",
+      "反轉大多數的起始加成效益。收集「反轉」（INVE）卡牌可降低風險係數。",
+      "Інвертує більшість початкових бонусів. Накопичування інвертованих карт зменшує фактор ризику."
+    ]
+  },
+  "SURVAROT_RISK": {
+    "name": [
+      "RISK",
+      "RISQUE",
+      "RISCHIO",
+      "RISIKO",
+      "RIESGO",
+      "RISCO",
+      "RYZYKO",
+      "РИСК",
+      "RİSK",
+      "风险",
+      "リスク",
+      "위험",
+      "風險",
+      "РИЗИК"
+    ],
+    "description": [
+      "Enemy Health is currently increased by %0% and Damage by %1%.",
+      "La santé des ennemis est actuellement augmentée de %0 % et leurs dégâts de %1 %.",
+      "Al momento, la Salute dei nemici è aumentata di un %0% e i Danni di un %1%.",
+      "Gegner-LP aktuell um %0% erhöht, Schaden um %1% erhöht.",
+      "La salud de los enemigos aumenta un %0 % actualmente y el daño, un %1 %.",
+      "Vida do inimigo aumenta em %0% e dano em %1%.",
+      "Zdrowie wrogów jest obecnie zwiększone o %0%, a obrażenia o %1%.",
+      "Здоровье врагов сейчас увеличивается на %0%, а урон — на %1%.",
+      "Düşman sağlığı %0% ve Hasar %1% arttı.",
+      "敌人当前血量+%0%，伤害+%1%。",
+      "敵HPが現在+%0%、そしてダメージ+%1%。",
+      "현재 적의 체력이 %0%, 피해가 %1% 증가했습니다.",
+      "敵人的生命值目前有提高了 %0%，傷害則是提高了 %1%。",
+      "Здоров'я ворогів зараз зросло на %0%, а шкода — на %1%."
+    ]
+  },
+  "1200": {
+    "description": [
+      "Gets a temporary 100% Cooldown reduction when Skipping a Level Up.",
+      "Obtient une réduction temporaire de 100 % du temps de recharge lorsque vous passez un niveau.",
+      "Ottiene una riduzione temporanea del 100% al Tempo di ricarica all'Esenzione di un nuovo livello.",
+      "Vorübergehend 100 % Abklingzeit-Reduzierung, wenn du einen Levelaufstieg überspringst.",
+      "Obtiene una reducción de recarga temporal del 100 % al saltar una elección al subir de nivel.",
+      "Ganha 100% de redução temporária de Recarga ao adiar subir de nível.",
+      "Po pominięciu awansu na kolejny poziom tymczasowo obniża Odnawianie o 100%.",
+      "Получает временное сокращение перезарядки на 100% за пропуск при повышении уровня.",
+      "Bir Seviye Atlama Atlandığında geçici olarak %100 Bekleme Süresi kazanır.",
+      "跳过一次升级时，获得100%的冷却时间临时缩减。",
+      "レベルアップをスキップすると、100%のクールダウン減少を一時的に獲得する。",
+      "레벨 업을 건너뛸 때 일시적으로 쿨타임이 100% 감소합니다.",
+      "在你升級並「跳過」了強化選項的挑選環節以後，獲得暫時性的 100% 冷卻時間減免效益。",
+      "Дає тимчасове зменшення часу відновлення на 100% у разі пропуску підвищення рівня."
+    ]
+  },
+  "1201": {
+    "description": [
+      "Increases MaxHealth and fully recovers HP when Skipping a Level Up.",
+      "Augmente la santé max et récupère entièrement les PV lorsque vous passez un niveau.",
+      "Aumenta la Salute massima e recupera completamente i PS all'Esenzione di un nuovo livello.",
+      "Mehr max. LP und vollständige Heilung, wenn du einen Levelaufstieg überspringst.",
+      "Aumenta los PS máx. y recupera todos los PS al saltar una elección al subir de nivel.",
+      "Aumenta Vida Máx. e recupera PV totalmente ao adiar subir de nível.",
+      "Po pominięciu awansu na kolejny poziom zwiększa Maks. zdrowie i odzyskuje wszystkie PZ.",
+      "Увеличивает максимальное здоровье и полностью восполняет здоровье за пропуск при повышении уровня.",
+      "Bir Seviye Atlama Atlandığında Maks Sağlığı artırır ve sağlığı tamamen yeniler.",
+      "跳过一次升级时，提高生命值上限并回满生命值。",
+      "レベルアップをスキップすると、最大HPが増加し、満タンまで回復する。",
+      "레벨 업을 건너뛸 때 최대 체력이 증가하고 HP를 완전히 회복합니다.",
+      "在你升級並「跳過」了強化選項的挑選環節以後，提高最大生命值並完全恢復生命值。",
+      "Збільшує макс. ОЗ та повністю відновлює здоров'я в разі пропуску підвищення рівня."
+    ]
+  },
+  "1202": {
+    "description": [
+      "Triggers a Rosary when Skipping a Level Up.",
+      "Déclenche un Chapelet lorsque vous passez un niveau.",
+      "Attiva un Rosario all'Esenzione di un nuovo livello.",
+      "Löst einen Rosenkranz aus, wenn du einen Levelaufstieg überspringst.",
+      "Activa un rosario al saltar una elección al subir de nivel.",
+      "Ativa um Rosário ao adiar subir de nível.",
+      "Po pominięciu awansu na kolejny poziom uruchamia Różaniec.",
+      "Активирует чётки за пропуск при повышении уровня.",
+      "Bir Seviye Atlama Atlandığında bir Tespih tetikler.",
+      "跳过一次升级时，触发玫瑰念珠效果。",
+      "レベルアップをスキップすると、ロザリオが発動する。",
+      "레벨 업을 건너뛸 때 묵주를 발동합니다.",
+      "在你升級並「跳過」了強化選項的挑選環節以後，觸發一次「玫瑰念珠」的效果。",
+      "У разі пропуску підвищення рівня викликає Чотки."
+    ]
+  },
+  "1203": {
+    "description": [
+      "Triggers an Orologion when Skipping a Level Up.",
+      "Déclenche un Orologion lorsque vous passez un niveau.",
+      "Attiva un Orologion all'Esenzione di un nuovo livello.",
+      "Löst einen Orologion aus, wenn du einen Levelaufstieg überspringst.",
+      "Activa un reloj mágico al saltar una elección al subir de nivel.",
+      "Ativa um Orologion ao adiar subir de nível.",
+      "Po pominięciu awansu na kolejny poziom uruchamia Orologion.",
+      "Активирует часослов за пропуск при повышении уровня.",
+      "Bir Seviye Atlama Atlandığında bir Zamantutan tetikler.",
+      "跳过一次升级时，触发时祷怀表效果。",
+      "レベルアップをスキップすると、懐中時計が発動する。",
+      "레벨 업을 건너뛸 때 회중시계를 발동합니다.",
+      "在你升級並「跳過」了強化選項的挑選環節以後，觸發一次「時禱懷錶」的效果。",
+      "У разі пропуску підвищення рівня викликає Часолов."
+    ]
+  },
+  "9999": {
+    "description": [
+      "Start gaining %0 every %1 levels (Max %2 times).",
+      "Obtient %0 tous les %1 niveaux (%2 fois max).",
+      "Comincia a guadagnare %0 ogni %1 livelli (max %2 volte).",
+      "Erhalte %0 nach jedem %1. Level (max. %2-mal).",
+      "Empieza a ganar %0 cada %1 niveles (máx.: %2 veces).",
+      "Passa a ganhar %0 a cada %1 níveis (máx. %2 vezes).",
+      "Zacznij otrzymywać %0 po każdych %1 poziomach (maks. %2 razy).",
+      "Начинает получать %0 каждые %1 ур. (до %2 раз).",
+      "Her %1 seviyede bir %0 kazanmaya başlar (Maks %2 kez.",
+      "每%1级，+%0（最多%2次）。",
+      "%1レベルごとに%0を獲得し始める（最大%2回まで）。",
+      "%1레벨마다 %0(을)를 획득하기 시작합니다 (최대 %2회).",
+      "每升 %1 級，便可獲得以下的加成效益： %0（最多可觸發 %2 次）。",
+      "Починає отримувати %0 кожні %1 рівні(в) (макс. %2 р.)"
     ]
   }
 }
