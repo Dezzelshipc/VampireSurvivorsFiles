@@ -843,10 +843,11 @@ class CharacterImageGenerator(TableGenerator):
             rect = meta_data["rect"]
 
             sx, sy = im.size
-            w_sprite: Image = im.crop((rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
+            w_sprite: Image = im.crop(
+                (rect['x'], sy - rect['y'] - rect['height'], rect['x'] + rect['width'], sy - rect['y']))
             w_sprite = w_sprite.resize((w_sprite.size[0] * 4, w_sprite.size[1] * 4), Resampling.NEAREST)
 
-            w_sprite_black = make_image_black( w_sprite.copy() )
+            w_sprite_black = make_image_black(w_sprite.copy())
 
             weapon_offset = {
                 "x": frame_im.width - w_sprite.width - 10, "y": frame_im.height - w_sprite.height - 12,
@@ -936,21 +937,28 @@ class EnemyImageGenerator(TableGenerator):
         return self.skins_generator(data)
 
     def skins_generator(self, data: dict):
-        variants_to_skip: set[str] = set()
-        for k, vv in data.items():
-            v = self.get_table_unit(vv, 0)
-            if (b_vars := v.get("bVariants")) and (v.get("bInclude")):
-                fn = vv[0][FRAME_NAMES]
-                for b_var in b_vars:
-                    variants_to_skip.add(b_var)
-                    if b_var in data:
-                        to_add = data[b_var][0].get(FRAME_NAMES)
-                        fn.extend(to_add)
-                vv[0][FRAME_NAMES] = list(dict.fromkeys(fn))
+        def _make_frame_names(obj: dict) -> list[tuple[str, str]]:
+            _frames = obj.get(FRAME_NAMES)
+            _texture_name = obj.get("textureName")
+            _to_add = list()
+            for fr in _frames:
+                if isinstance(fr, tuple):
+                    _to_add.append(fr)
+                else:
+                    _to_add.append((fr, _texture_name))
+
+            return _to_add
 
         for k, vv in data.items():
-            if k in variants_to_skip:
-                continue
+            v = self.get_table_unit(vv, 0)
+            if b_vars := v.get("bVariants"):
+                fn = _make_frame_names(vv[0])
+                for b_var in b_vars:
+                    if b_var in data:
+                        fn.extend(_make_frame_names(data[b_var][0]))
+                vv[0][FRAME_NAMES] = list(dict.fromkeys(fn)) # keep order
+
+        for k, vv in data.items():
 
             v = vv[0]
 
@@ -960,10 +968,17 @@ class EnemyImageGenerator(TableGenerator):
                 if alias := v.get("alias"):
                     v1 = v.copy()
                     v1.update(alias)
-                    for _, frame in enumerate(v1.get(FRAME_NAMES)):
+                    for frame in v1.get(FRAME_NAMES):
+                        texture_name = None
+                        if not isinstance(frame, str) and len(frame) > 1:
+                            frame, texture_name = frame
+
                         enemy = v1.copy()
                         enemy[FRAME_NAMES] = frame
                         enemy[ENUMERATE] = add_i
+
+                        if texture_name:
+                            enemy["textureName"] = texture_name
 
                         add_i += 1
 
@@ -971,10 +986,17 @@ class EnemyImageGenerator(TableGenerator):
 
                     add_i = len(v1.get(FRAME_NAMES))
 
-                for _, frame in enumerate(v.get(FRAME_NAMES)):
+                for frame in v.get(FRAME_NAMES):
+                    texture_name = None
+                    if not isinstance(frame, str) and len(frame) > 1:
+                        frame, texture_name = frame
+
                     enemy = v.copy()
                     enemy[FRAME_NAMES] = frame
                     enemy[ENUMERATE] = add_i
+
+                    if texture_name:
+                        enemy["textureName"] = texture_name
 
                     add_i += 1
 
