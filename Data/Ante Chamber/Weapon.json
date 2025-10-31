@@ -391,8 +391,7 @@
       "speed": 1.2,
       "amount": 1,
       "knockback": 2,
-      "hitsWalls": false,
-      "unexcludeSelf": true
+      "hitsWalls": false
     }
   ],
   "LEM_ACC_SABOTEUR": [
@@ -415,6 +414,7 @@
       "isSpecialOnly": true,
       "isPowerUp": true,
       "rarity": 35,
+	  "unexcludeSelf": true,
       "allowDuplicates": false,
       "followerType": "LEM_FOLLOWER_SABOTEUR",
       "followerAI": "Defensive",

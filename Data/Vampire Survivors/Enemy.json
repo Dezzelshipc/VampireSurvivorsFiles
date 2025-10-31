@@ -13018,8 +13018,9 @@
       ],
       "bName": "Money Musc",
       "bPlaces": [
+        "EX_WESTWOODS"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false
     }
   ],
@@ -13048,9 +13049,10 @@
       "killedAmount": 0,
       "bName": "Gold Pile",
       "bPlaces": [
+        "EX_WESTWOODS"
       ],
       "bIndex": 0,
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": []
     }
@@ -13102,11 +13104,14 @@
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "killedAmount": 0,
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": [
         "EX_JELLYBAG_GREEN",
         "EX_JELLYBAG_PURPLE"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13133,6 +13138,9 @@
       "end": 15,
       "frameNames": [
         "JellyGoldBag2_0.png"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13156,6 +13164,9 @@
       "idleFrameCount": 4,
       "frameNames": [
         "JellyGoldBag3_0.png"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13181,7 +13192,10 @@
         "XLDragonGoldFlag_0.png"
       ],
       "bInclude": false,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_XLDRAGON_GOLD_FLAG": [
@@ -13232,8 +13246,11 @@
       "frameNames": [
         "XLMantisGold_0.png"
       ],
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_SHOOTING_ENEMIES_COUNTER": [
@@ -13314,7 +13331,7 @@
       ],
       "bName": "Knight of Spades",
       "bDesc": "",
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "colliderOverride": {
         "radius": 0.36,
@@ -13325,6 +13342,9 @@
         "EX_SPADEKNIGHT2",
         "EX_BOSS_SPADEKNIGHT",
         "EX_BOSS_SPADEKNIGHT2"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13355,7 +13375,10 @@
         "radius": 0.36,
         "offsetY": -5,
         "offsetX": 6
-      }
+      },
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_BOSS_SPADEKNIGHT": [
@@ -13390,7 +13413,10 @@
         "radius": 0.32,
         "offsetY": 0,
         "offsetX": 9
-      }
+      },
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_BOSS_SPADEKNIGHT2": [
@@ -13425,7 +13451,10 @@
         "radius": 0.32,
         "offsetY": 0,
         "offsetX": 9
-      }
+      },
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_BARM": [
@@ -13447,7 +13476,10 @@
         "Barm_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_CASINOGHOUL": [
@@ -13468,8 +13500,11 @@
         "CasinUgul_D_0.png",
         "CasinUgul_H_0.png"
       ],
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_CLUBBIE": [
@@ -13491,8 +13526,11 @@
       "frameNames": [
         "ClubbieP_0.png"
       ],
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_DANDYBRINE": [
@@ -13519,7 +13557,10 @@
         "Dandybrine_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_DAIMON": [
@@ -13549,7 +13590,10 @@
         "DiamonP_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_GAMBERGAR": [
@@ -13570,7 +13614,10 @@
         "Gambergar_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_GAMBLIN": [
@@ -13594,6 +13641,9 @@
       "bHighlight": false,
       "bVariants": [
         "EX_GAMBLIN2"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13614,6 +13664,9 @@
       "frameNames": [
         "GamblinR_0.png",
         "GamblinP_0.png"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13636,7 +13689,10 @@
         "JastorP_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_JASTOR_PATROL": [
@@ -13657,6 +13713,9 @@
       "idleFrameCount": 4,
       "frameNames": [
         "JastorP_0.png"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13683,7 +13742,10 @@
         "RouletteMush1_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_TOLL2": [
@@ -13704,7 +13766,10 @@
         "Toll2O_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_VALENTINE": [
@@ -13733,7 +13798,10 @@
         "Valentin_0.png"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_SQUILLER_1": [
@@ -13759,11 +13827,14 @@
       "frameNames": [
         "Squiller2_0.png"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": [
         "EX_SQUILLER_2",
         "EX_SQUILLER_COMBO"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13789,6 +13860,9 @@
       "end": 10,
       "frameNames": [
         "Squiller_0.png"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13815,6 +13889,9 @@
       "frameNames": [
         "Squiller_0.png",
         "Squiller2_0.png"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13846,7 +13923,10 @@
       "frameNames": [
         "impun_0.png"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
     
@@ -13868,6 +13948,9 @@
       "textureName": "enemies2025",
       "frameNames": [
         "diamondDiceNeutral_0.png"
+      ],
+      "bPlaces": [
+        "EX_WESTWOODS"
       ]
     }
   ],
@@ -13898,7 +13981,10 @@
       "frameNames": [
         "diamondDiceNeutral_0.png"
       ],
-      "killedAmount": 0
+      "killedAmount": 0,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_CARDSHARP": [
@@ -13926,7 +14012,10 @@
       "textureName": "enemies2025",
       "killedAmount": 0,
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "bPlaces": [
+        "EX_WESTWOODS"
+      ]
     }
   ],
   "EX_CHARGER": [
@@ -13951,7 +14040,10 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_TORINO": [
@@ -13972,7 +14064,7 @@
         "Torino_0.png"
       ],
       "bPlaces": [
-        "WAREHOUSE"
+        "EX_MAZERELLA"
       ],
       "bInclude": true,
       "bHighlight": false,
@@ -14000,7 +14092,7 @@
         "JoyaTauro_0.png"
       ],
       "bPlaces": [
-        "WAREHOUSE"
+        "EX_MAZERELLA"
       ],
       "bInclude": true,
       "bHighlight": false,
@@ -14028,7 +14120,7 @@
         "Meanataur_0.png"
       ],
       "bPlaces": [
-        "WAREHOUSE"
+        "EX_MAZERELLA"
       ],
       "bInclude": true,
       "bHighlight": false,
@@ -14065,7 +14157,7 @@
         "EX_17COLOSSUS_0"
       ],
       "bPlaces": [
-        "WAREHOUSE"
+        "EX_MAZERELLA"
       ],
       "bInclude": false,
       "bHighlight": false,
@@ -14104,7 +14196,7 @@
         "EX_17COLOSSUS_0"
       ],
       "bPlaces": [
-        "WAREHOUSE"
+        "EX_MAZERELLA"
       ],
       "bInclude": true,
       "bHighlight": false,
@@ -14140,7 +14232,10 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_CHARGER_RED_M": [
@@ -14168,7 +14263,10 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_CHARGER_RED_L": [
@@ -14196,7 +14294,10 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_CHARGER_YELLOW_S": [
@@ -14221,7 +14322,10 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_CHARGER_YELLOW_M": [
@@ -14236,7 +14340,7 @@
       "xp": 2.75,
       "scale": 1.5,
       "frameNames": [
-        "Joyataro_Y_0.png"
+        "Joyatauro_Y_0.png"
       ],
       "end": 20,
       "textureName": "enemies2025",
@@ -14246,7 +14350,10 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_CHARGER_YELLOW_L": [
@@ -14271,7 +14378,10 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_MAZERELLA_DANCER": [
@@ -14301,7 +14411,10 @@
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
-      "passThroughWalls": true
+      "passThroughWalls": true,
+      "bPlaces": [
+        "EX_MAZERELLA"
+      ]
     }
   ],
   "EX_VSBAT1": [

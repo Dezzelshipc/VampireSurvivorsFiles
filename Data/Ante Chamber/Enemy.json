@@ -17,7 +17,7 @@
       "frameNames": [
         "LEM_jimbat2_0.png"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
         "LEM_CHAMBER"
@@ -201,7 +201,7 @@
       "bPlaces": [
         "LEM_CHAMBER"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": [],
       "colliderOverride": {
@@ -234,7 +234,7 @@
       "bPlaces": [
         "LEM_CHAMBER"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": true,
       "colliderOverride": {
         "radius": 0.35,
@@ -267,7 +267,7 @@
       "bPlaces": [
         "LEM_CHAMBER"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "colliderOverride": {
         "radius": 0.35,
@@ -330,7 +330,7 @@
         "LEM_CHAMBER"
       ],
       "bIndex": 0,
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": [],
       "colliderOverride": {
@@ -366,7 +366,7 @@
       "bPlaces": [
         "LEM_CHAMBER"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": [],
       "colliderOverride": {
@@ -399,7 +399,7 @@
         "LEM_CHAMBER"
       ],
       "bIndex": 0,
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": [],
       "colliderOverride": {
@@ -462,7 +462,7 @@
       "bPlaces": [
         "LEM_CHAMBER"
       ],
-      "bInclude": false,
+      "bInclude": true,
       "bHighlight": false,
       "bVariants": [],
       "colliderOverride": {
@@ -502,8 +502,11 @@
         "offsetY": 7,
         "offsetX": 1
       },
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ]
     }
   ],
     "LEM_BOSS_BIGBLIND": [
@@ -536,8 +539,11 @@
         "offsetY": 12,
         "offsetX": -9
       },
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ]
     }
   ],
   "LEM_BOSS_OX": [
@@ -570,8 +576,11 @@
         "offsetY": 6,
         "offsetX": -0.5
       },
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ]
     }
   ],
   "LEM_BOSS_WALL": [
@@ -604,8 +613,11 @@
         "offsetY": 6,
         "offsetX": -0.5
       },
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ]
     }
   ],
   "LEM_BOSS_MANACLE": [
@@ -638,8 +650,11 @@
         "offsetY": 6,
         "offsetX": -0.5
       },
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ]
     }
   ],
   "LEM_BOSS_CRIMSONHEART": [
@@ -667,8 +682,11 @@
       "frameNames": [
         "LEM_boss_crimsonheart_0.png"
       ],
-      "bInclude": false,
-      "bHighlight": false
+      "bInclude": true,
+      "bHighlight": false,
+      "bPlaces": [
+        "LEM_CHAMBER"
+      ]
     }
   ],
     "LEM_PATROL_MINIMANTIS": [
