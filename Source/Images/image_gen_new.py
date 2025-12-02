@@ -701,25 +701,23 @@ class CharacterImageGenerator(ListBaseImageGenerator):
 
         text = entry.get(CHAR_NAME)
         font = ImageFont.truetype(FONT_FILE_PATH, 30)
-        width = font.getbbox(text)[2] + 4
-        height = font.getbbox(text + "|")[3]
 
-        if width > frame_image.size[0] - 4:
-            if " " in text:
+        if font.getbbox(text)[2] > frame_image.size[0] - 8:
+            small_size = 28
+            if "lolo,".lower() in text.lower():
+                small_size = 24
+                text = text.replace(", ", ",\n", 2).replace(",\n", ", ", 1)
+            elif " " in text:
                 text = text[::-1].replace(" ", "\n", 1)[::-1]
 
-            font = ImageFont.truetype(FONT_FILE_PATH, 28)
-            width = font.getbbox(text)[2] + 4
-            height = (font.getbbox("|" + text + "|")[3] + 1) * 2
+            font = ImageFont.truetype(FONT_FILE_PATH, small_size)
 
-        canvas = image_new('RGBA', (int(width), int(height)))
+        canvas = image_new('RGBA', frame_image.size)
 
         draw = ImageDraw.Draw(canvas)
-        draw.text((3, -5), text, "#ffffff", font, stroke_width=1)
+        draw.text((3, 5), text, "#ffffff", font, stroke_width=0.6)
 
-        # canvas.save(f"{sf_text}/text/{self.iconPrefix}-{save_name}.png")
-
-        frame_image.alpha_composite(canvas, (14, 20))
+        frame_image.alpha_composite(canvas, (14, 10))
 
         return EntryToSave(
             frame_image,

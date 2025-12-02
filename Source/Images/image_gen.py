@@ -870,25 +870,25 @@ class CharacterImageGenerator(TableGenerator):
         save_name = self.change_name(name)
         text = add_data["clear_name"].strip()
         font = ImageFont.truetype(self.fontFilePath, 30)
-        w = font.getbbox(text)[2] + scale_factor
-        h = font.getbbox(text + "|")[3]
 
-        if w > frame_im.size[0] - 4 * scale_factor:
-            if " " in text:
+        if font.getbbox(text)[2] > frame_im.size[0] - 5 * scale_factor:
+            small_size = 28
+            if "lolo,".lower() in text.lower():
+                small_size = 24
+                text = text.replace(", ", ",\n", 2).replace(",\n", ", ", 1)
+            elif " " in text:
                 text = text[::-1].replace(" ", "\n", 1)[::-1]
 
-            font = ImageFont.truetype(self.fontFilePath, 28)
-            w = font.getbbox(text)[2] + scale_factor
-            h = (font.getbbox("|" + text + "|")[3] + scale_factor) * 2
+            font = ImageFont.truetype(self.fontFilePath, small_size)
 
-        canvas = image_new('RGBA', (int(w), int(h)))
+        canvas = image_new('RGBA', frame_im.size)
 
         draw = ImageDraw.Draw(canvas)
-        draw.text((3, -5), text, "#ffffff", font, stroke_width=1)
+        draw.text((3, 5), text, "#ffffff", font, stroke_width=0.6)
 
         canvas.save(f"{sf_text}/text/{self.iconPrefix}-{save_name}.png")
 
-        frame_im.alpha_composite(canvas, (14, 20))
+        frame_im.alpha_composite(canvas, (14, 10))
 
         frame_im.save(f"{sf_text}/{self.iconPrefix}-{save_name}.png")
 
