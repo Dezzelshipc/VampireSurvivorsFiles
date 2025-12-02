@@ -3603,6 +3603,22 @@
       "ko": "유당 미로가 유제품 공장의 버터 지하실에 묻혀 있습니다. 미노타우로스의 고향이자 낙수 효과로 인한 밀크노믹스가 지배하는 곳입니다. 황소의 뿔을 잡고 이 돌아버린 미로를 치즈로 만드는 것이 유일한 승리 공식입니다.",
       "zh-TW": "在乳製品工廠深處，潛藏著一座乳糖迷宮。此處是牛頭人的領地，由一套滴漏式的乳品經濟學所支配著。抓住公牛之角並駕馭這座癲狂的迷宮，便是你唯一的致勝之道。",
       "uk": "Лабіринт із лактози, що лежить у масляних підвалинах Молокозаводу. Це домівка мінотаврів, де панує «молокономіка просочування». Єдиний спосіб перемогти — узяти бика за роги й пробитись крізь ці божевільні коридори."
+    },
+    "tips": {
+      "en": "Enemies grow stronger over time.",
+      "fr": "Les ennemis sont de plus en plus puissants.",
+      "it": "I nemici diventano gradualmente più forti.",
+      "de": "Gegner werden mit der Zeit stärker.",
+      "es": "Los enemigos se vuelven más fuertes gradualmente.",
+      "pt-BR": "Os inimigos ficam mais fortes com o tempo.",
+      "pl": "Wrogowie stają się z czasem silniejsi.",
+      "ru": "Враги со временем становятся сильнее.",
+      "tr": "Düşmanlar zamanla güçlenir.",
+      "zh-CN": "随时间推移，敌人会越来越强大。",
+      "ja": "敵は時間経過とともに強くなる。",
+      "ko": "적은 시간이 지남에 따라 더 강해집니다.",
+      "zh-TW": "隨著時間的經過，敵人只會變得越來越強大。",
+      "uk": "Вороги з часом стають сильнішими."
     }
   },
   "ADV_OTC_001_001_Woods": {
@@ -4005,58 +4021,6 @@
       "uk": null
     }
   },
-  "ADV_OTC_001_009_DeathFight": {
-    "stageName": {
-      "en": "Death's Domain",
-      "fr": "Death's Domain",
-      "it": "Death's Domain",
-      "de": "Death's Domain",
-      "es": "Death's Domain",
-      "pt-BR": "Death's Domain",
-      "pl": "Death's Domain",
-      "ru": "Death's Domain",
-      "tr": "Death's Domain",
-      "zh-CN": "Death's Domain",
-      "ja": "Death's Domain",
-      "ko": "Death's Domain",
-      "zh-TW": "Death's Domain",
-      "uk": "Death's Domain"
-    }
-  },
-  "OTC_ADV_BAZAAR": {
-    "stageName": {
-      "en": "Planar Bazaar",
-      "fr": "Bizarre bazar",
-      "it": "Bazar planare",
-      "de": "Planetenbasar",
-      "es": "Bazar de planos",
-      "pt-BR": "Bazar Planar",
-      "pl": "Bazar planarny",
-      "ru": "Планарный базар",
-      "tr": "Düzlemsel Pazar",
-      "zh-CN": "平面集市",
-      "ja": "プラナー・バザール",
-      "ko": "평면 바자회",
-      "zh-TW": "普萊納市集",
-      "uk": "Планарний Базар"
-    },
-    "description": {
-      "en": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms.",
-      "fr": "À une époque oubliée, les alliés d'hier et de demain se retrouvent dans un lieu commercial déroutant pour échanger leurs articles issus d'autres mondes.",
-      "it": "Attorcigliati tra gli istanti di ere dimenticate, gli alleati passati e futuri si riuniscono in questo caotico spazio commerciale per vendere e acquistare oggetti di altri regni.",
-      "de": "Verbündete aus Vergangenheit und Zukunft versammeln sich an diesem verwirrenden Marktplatz, der sich zwischen den Sekunden längst vergessener Zeiten windet, um Gegenstände aus anderen Welten zu handeln.",
-      "es": "Entrelazados entre los segundos de tiempos olvidados, aliados del pasado y del futuro se reúnen en este confuso espacio de compraventa para comerciar con objetos de otros reinos.",
-      "pt-BR": "Enrolando-se entre os segundos de tempos esquecidos, aliados do passado e do futuro se reúnem neste espaço comercial confuso para trocar itens de outros reinos.",
-      "pl": "Wijąc się pomiędzy sekundami zapomnianych czasów, sojusznicy z przeszłości i przyszłości gromadzą się w tej pokręconej przestrzeni handlowej, by sprzedawać przedmioty z innych krain.",
-      "ru": "Потерявшись в секундах забытых времён, союзники из прошлого и будущего собираются в этом запутанном пространстве для торговли товарами из разных миров.",
-      "tr": "Unutulmuş zamanların saniyeleri arasında kıvrılan, geçmiş ve gelecekteki müttefikler, diğer diyarlardan gelen eşyaları takas etmek için bu kafa karıştırıcı ticaret meydanında bir araya geliyor.",
-      "zh-CN": "在被遗忘的时间中，过去和未来的盟友们聚集在这个莫名其妙的商业空间里，交易来自其他世域的物品。",
-      "ja": "忘れ去られた時代の渦に巻き込まれた過去と未来の仲間たちは、この混沌の空間で他領域の物品を交換している。",
-      "ko": "과거와 미래의 동맹국들이 기억에서 사라진 시간 사이를 오가며 이 혼란스러운 상업 공간에 모입니다. 각기 다른 지역에서 가져온 아이템들을 거래하려고요.",
-      "zh-TW": "來自過往與未來的盟友聚集在這個被人遺忘的時空中，一同齊心打造出了這麼一個神奇的商貿空間。大家會來到這個地方跟來自其他不同國度的人們進行交易。",
-      "uk": "Загублені в секундах забутих часів, союзники з минулого й майбутнього збираються в цьому заплутаному торговому просторі для торгівлі товарами з різних світів."
-    }
-  },
   "LEM_CHAMBER": {
     "stageName": {
       "en": "Ante Chamber",
@@ -4105,6 +4069,58 @@
       "ko": "외부 방해자로 시작하기",
       "zh-TW": "開場即可獲得「絕對破壞者」",
       "uk": "Почати із зовнішнім саботажником"
+    }
+  },
+  "OTC_ADV_BAZAAR": {
+    "stageName": {
+      "en": "Planar Bazaar",
+      "fr": "Bizarre bazar",
+      "it": "Bazar planare",
+      "de": "Planetenbasar",
+      "es": "Bazar de planos",
+      "pt-BR": "Bazar Planar",
+      "pl": "Bazar planarny",
+      "ru": "Планарный базар",
+      "tr": "Düzlemsel Pazar",
+      "zh-CN": "平面集市",
+      "ja": "プラナー・バザール",
+      "ko": "평면 바자회",
+      "zh-TW": "普萊納市集",
+      "uk": "Планарний Базар"
+    },
+    "description": {
+      "en": "Coiling betwixt the seconds of forgotten times, allies from the past and future gather in this confusing commercial space to trade items from other realms.",
+      "fr": "À une époque oubliée, les alliés d'hier et de demain se retrouvent dans un lieu commercial déroutant pour échanger leurs articles issus d'autres mondes.",
+      "it": "Attorcigliati tra gli istanti di ere dimenticate, gli alleati passati e futuri si riuniscono in questo caotico spazio commerciale per vendere e acquistare oggetti di altri regni.",
+      "de": "Verbündete aus Vergangenheit und Zukunft versammeln sich an diesem verwirrenden Marktplatz, der sich zwischen den Sekunden längst vergessener Zeiten windet, um Gegenstände aus anderen Welten zu handeln.",
+      "es": "Entrelazados entre los segundos de tiempos olvidados, aliados del pasado y del futuro se reúnen en este confuso espacio de compraventa para comerciar con objetos de otros reinos.",
+      "pt-BR": "Enrolando-se entre os segundos de tempos esquecidos, aliados do passado e do futuro se reúnem neste espaço comercial confuso para trocar itens de outros reinos.",
+      "pl": "Wijąc się pomiędzy sekundami zapomnianych czasów, sojusznicy z przeszłości i przyszłości gromadzą się w tej pokręconej przestrzeni handlowej, by sprzedawać przedmioty z innych krain.",
+      "ru": "Потерявшись в секундах забытых времён, союзники из прошлого и будущего собираются в этом запутанном пространстве для торговли товарами из разных миров.",
+      "tr": "Unutulmuş zamanların saniyeleri arasında kıvrılan, geçmiş ve gelecekteki müttefikler, diğer diyarlardan gelen eşyaları takas etmek için bu kafa karıştırıcı ticaret meydanında bir araya geliyor.",
+      "zh-CN": "在被遗忘的时间中，过去和未来的盟友们聚集在这个莫名其妙的商业空间里，交易来自其他世域的物品。",
+      "ja": "忘れ去られた時代の渦に巻き込まれた過去と未来の仲間たちは、この混沌の空間で他領域の物品を交換している。",
+      "ko": "과거와 미래의 동맹국들이 기억에서 사라진 시간 사이를 오가며 이 혼란스러운 상업 공간에 모입니다. 각기 다른 지역에서 가져온 아이템들을 거래하려고요.",
+      "zh-TW": "來自過往與未來的盟友聚集在這個被人遺忘的時空中，一同齊心打造出了這麼一個神奇的商貿空間。大家會來到這個地方跟來自其他不同國度的人們進行交易。",
+      "uk": "Загублені в секундах забутих часів, союзники з минулого й майбутнього збираються в цьому заплутаному торговому просторі для торгівлі товарами з різних світів."
+    }
+  },
+  "ADV_OTC_001_009_DeathFight": {
+    "stageName": {
+      "en": "Death's Domain",
+      "fr": "Death's Domain",
+      "it": "Death's Domain",
+      "de": "Death's Domain",
+      "es": "Death's Domain",
+      "pt-BR": "Death's Domain",
+      "pl": "Death's Domain",
+      "ru": "Death's Domain",
+      "tr": "Death's Domain",
+      "zh-CN": "Death's Domain",
+      "ja": "Death's Domain",
+      "ko": "Death's Domain",
+      "zh-TW": "Death's Domain",
+      "uk": "Death's Domain"
     }
   }
 }

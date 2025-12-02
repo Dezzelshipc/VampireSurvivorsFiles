@@ -1214,8 +1214,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": ", Hiss, Meow, and Purr",
+      "charName": "Lolo, Hiss, Meow, and Purr",
+      "surname": null,
       "description": "Triggers Showstopper at critical health. Gain a follower whenever Showstopper is triggered."
     },
     "EME_DEMON": {
@@ -2544,13 +2544,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Gagne +1 % de puissance par niveau. Fait équipe avec Formina. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Gagne de la puissance lors de l'activation de techniques. Fait équipe avec Formina. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Gagne +1 % de vitesse de projectile par niveau. Fait équipe avec Bonnie. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Gagne de la durée lors de l'activation de techniques. Fait équipe avec Bonnie. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -2592,7 +2592,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Gagne 1 résurrection et 5 % d'expertise à chaque activation d'une nouvelle technique.\nDéclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_MRS": {
       "prefix": null,
@@ -2626,8 +2626,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": ", Feulement, Miaou, et Ronron",
+      "charName": "Lolo, Feulement, Miaou, et Ronron",
+      "surname": null,
       "description": "Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique. Gagne un disciple à chaque fois qu'un Coup d'éclat se déclenche."
     },
     "EME_DEMON": {
@@ -3956,13 +3956,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Guadagna +1% di Potenza con ogni livello. Fa squadra con Formina. Scatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Guadagna Potenza quando utilizza tech in Glimmer. Fa squadra con Formina. Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Guadagna +1% di Velocità dei proiettili con ogni livello. Fa squadra con Bonnie. Scatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Guadagna Durata quando utilizza tech in Glimmer. Fa squadra con Bonnie. Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -4004,7 +4004,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Scatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Guadagna una Resurrezione e il 5% di Crescita ogni volta che ottiene in Glimmer una nuova tech.\nScatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_MRS": {
       "prefix": null,
@@ -4038,8 +4038,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": ", Soffia, Miao e Fusa",
+      "charName": "Lolo, Soffia, Miao e Fusa",
+      "surname": null,
       "description": "Scatena un Momento clou a salute critica. Guadagna un seguace ogni qualvolta viene scatenato un Momento clou."
     },
     "EME_DEMON": {
@@ -5368,13 +5368,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Erhält +1 % Macht pro Level. Bildet ein Team mit Formina. Löst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Erhält Macht durch den Einsatz aufgeglimmter Techniken. Bildet ein Team mit Formina. Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Erhält +1 % Geschosstempo pro Level. Bildet ein Team mit Bonnie. Löst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Erhält Dauer durch den Einsatz aufgeglimmter Techniken. Bildet ein Team mit Bonnie. Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -5416,7 +5416,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Löst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Erhält 1 Wiederbeleben und 5% Entwicklung beim Aufglimmern einer neuen Technik.\nLöst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_MRS": {
       "prefix": null,
@@ -5450,8 +5450,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": ", Fauch, Miau, Schnurr",
+      "charName": "Lolo, Fauch, Miau, Schnurr",
+      "surname": null,
       "description": "Löst bei kritisch niedrigen LP einen Showstopper aus. Erhält bei Auslösung des Showstoppers einen Anhänger."
     },
     "EME_DEMON": {
@@ -6780,13 +6780,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Gana +1 % de poder cada nivel. Forma equipo con Formina. Activa un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Gana poder al usar técnicas vislumbradas. Forma equipo con Formina. Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Gana +1 % de velocidad de proyectil cada nivel. Forma equipo con Bonnie. Activa un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Gana duración al usar técnicas vislumbradas. Forma equipo con Bonnie. Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -6828,7 +6828,7 @@
       "prefix": "Marioneta",
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Activa un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Gana una resurrección y un 5 % de crecimiento cada vez que vislumbra una técnica nueva.\nActiva un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_MRS": {
       "prefix": null,
@@ -6862,8 +6862,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": ", Bufa, Miau y Ronroneo",
+      "charName": "Lolo, Bufa, Miau y Ronroneo",
+      "surname": null,
       "description": "Activa un espectáculo al llegar a un punto crítico de salud. Gana un seguidor cada vez que se activa un espectáculo."
     },
     "EME_DEMON": {
@@ -8192,13 +8192,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Ganha +1% de Poder a cada nível. Une-se a Formina. Ativa Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ganha Poder ao usar técnicas realçadas. Une-se a Formina. Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Ganha +1% de Velocidade de Projéteis a cada nível. Une-se a Bonnie. Ativa Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ganha Duração ao usar técnicas realçadas. Une-se a Bonnie. Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -8240,7 +8240,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Ativa Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ganha 1 Ressurreição e 5% de Crescimento sempre que realçar uma nova técnica.\nAtiva Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_MRS": {
       "prefix": null,
@@ -8274,8 +8274,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": ", Hiss, Miau e Purr",
+      "charName": "Lolo, Hiss, Miau e Purr",
+      "surname": null,
       "description": "Ativa Apoteose com nível crítico de Vida. Ganha um seguidor ao ativar Apoteose."
     },
     "EME_DEMON": {
@@ -9604,13 +9604,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Otrzymuje +1% Mocy na każdym poziomie. Tworzy drużynę z Forminą. Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Otrzymuje Moc podczas używania opanowanych technik. Tworzy drużynę z Forminą. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Otrzymuje +1% Prędkości pocisków na każdym poziomie. Tworzy drużynę z Bonnie. Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Otrzymuje Czas trwania podczas używania opanowanych technik. Tworzy drużynę z Bonnie. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -9652,7 +9652,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Otrzymuje 1 Wskrzeszenie i 5% Rozwoju po opanowaniu nowej techniki. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_MRS": {
       "prefix": null,
@@ -9686,8 +9686,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": "Syczy, Miauczy i Mruczy",
+      "charName": "Lolo, Syczy, Miauczy i Mruczy",
+      "surname": null,
       "description": "Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom. Otrzymuje pomocnika za każdym razem, gdy aktywowana zostanie Deska ratunku."
     },
     "EME_DEMON": {
@@ -11016,13 +11016,13 @@
       "prefix": null,
       "charName": "Бонни",
       "surname": "Блэр",
-      "description": "Получает +1% к силе каждый уровень. Сражается в паре с Форминой. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Получает силу при использовании техник-импровизаций. Сражается в паре с Форминой. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Формина",
       "surname": "Франклин",
-      "description": "Получает +1% к скорости снарядов с каждым уровнем. Сражается в паре с Бонни. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Получает продолжительность при использовании техник-импровизаций. Сражается в паре с Бонни. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -11064,7 +11064,7 @@
       "prefix": null,
       "charName": "Кугуцу",
       "surname": null,
-      "description": "Применяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Получает 1 оживление и 5% развития каждый раз, когда использует новую технику-импровизацию.\nПрименяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_MRS": {
       "prefix": null,
@@ -11098,8 +11098,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Лоло",
-      "surname": ", Кис, Мяу и Мур",
+      "charName": "Лоло, Кис, Мяу и Мур",
+      "surname": null,
       "description": "Применяет коронный приём, когда здоровье достигает критически низкого уровня. При его применении получает последователя."
     },
     "EME_DEMON": {
@@ -12362,7 +12362,7 @@
       "prefix": null,
       "charName": "Walter",
       "surname": "Bernhard",
-      "description": "=+8 oranında aşırı iyileştiğinde Abanoz Şeytanalog'dan rastgele bir kuşanılmış silah tetikler. Sağlık tükenmesine karşı bağışıklığı vardır."
+      "description": "+8 oranında aşırı iyileştiğinde Abanoz Şeytanalog'dan rastgele bir kuşanılmış silah tetikler. Sağlık tükenmesine karşı bağışıklığı vardır."
     },
     "TP_GRAHAM": {
       "prefix": null,
@@ -12392,7 +12392,7 @@
       "prefix": null,
       "charName": "Nazaribik",
       "surname": null,
-      "description": "=+30 miktarda aşırı iyileşme rastgele bir istatistiğe katlanarak artan bonus verir."
+      "description": "+30 miktarda aşırı iyileşme rastgele bir istatistiğe katlanarak artan bonus verir."
     },
     "SPACEDUDETTE": {
       "prefix": null,
@@ -12428,13 +12428,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Her seviyede +%1 Kuvvet kazanır. Formina ile takım olur. Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
+      "description": "Ortaya çıkan teknikleri kullandığında Kuvvet kazanır. Formina ile takım olur. Kritik sağlık seviyesinde Nefeskesen tetikler."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Her seviyede +%1 fırlatılabilir Hızı kazanır. Bonnie ile takım olur. Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
+      "description": "Ortaya çıkan teknikleri kullandığında Tesir Süresi kazanır. Bonnie ile takım olur. Kritik sağlık seviyesinde Nefeskesen tetikler."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -12476,7 +12476,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
+      "description": "Her bir yeni teknik ortaya çıkardıklarında 1 Canlanma ve %5 Büyüme kazanır. Kritik sağlık seviyesinde Nefeskesen tetikler."
     },
     "EME_MRS": {
       "prefix": null,
@@ -12510,8 +12510,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo",
-      "surname": ", Tıss, Miyav, Mırr",
+      "charName": "Lolo, Tıss, Miyav, Mırr",
+      "surname": null,
       "description": "Kritik sağlık seviyesinde Nefeskesen tetikler. Her Nefeskesen tetiklendiğinde bir takipçi kazanır."
     },
     "EME_DEMON": {
@@ -13840,13 +13840,13 @@
       "prefix": null,
       "charName": "邦妮",
       "surname": "布莱尔",
-      "description": "每级+1%力量。与福米娜组队。濒死时触发“独秀专场”。"
+      "description": "使用点亮特技时获得力量。与福米娜组队。濒死时触发“独秀专场”。"
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "福米娜",
       "surname": "富兰克林",
-      "description": "每级+1%飞射速度。与邦妮组队。濒死时触发“独秀专场”。"
+      "description": "使用点亮特技时获得持续时间。与邦妮组队。濒死时触发“独秀专场”。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -13888,7 +13888,7 @@
       "prefix": null,
       "charName": "傀儡",
       "surname": null,
-      "description": "濒死时触发“独秀专场”。"
+      "description": "每当点亮新特技时，获得1次复活机会和5%的成长。\n濒死时触发“独秀专场”。"
     },
     "EME_MRS": {
       "prefix": null,
@@ -13922,8 +13922,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "洛洛",
-      "surname": "、嘶嘶、喵喵和呼噜",
+      "charName": "洛洛、嘶嘶、喵喵和呼噜",
+      "surname": null,
       "description": "濒死时触发“独秀专场”。每次触发“独秀专场”时获得一名随从。"
     },
     "EME_DEMON": {
@@ -15186,7 +15186,7 @@
       "prefix": null,
       "charName": "ヴァルター",
       "surname": "ベルンハルト",
-      "description": "=+8でオーバーヒールすると、エボニー・ディアボローグからランダムに装備された武器が発動する。HP消費への耐性あり。"
+      "description": "+8でオーバーヒールすると、エボニー・ディアボローグからランダムに装備された武器が発動する。HP消費への耐性あり。"
     },
     "TP_GRAHAM": {
       "prefix": null,
@@ -15258,7 +15258,7 @@
       "prefix": null,
       "charName": "フォルミナ",
       "surname": "フランクリン",
-      "description": "ひらめき技を使うと弾速が上昇。ボーニーとチームを組む。ピンチになると独壇場が発生。"
+      "description": "ひらめき技を使うと効果時間が上昇。ボニーとチームを組む。ピンチになると独壇場が発生。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -15334,8 +15334,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "ロロ",
-      "surname": "、ヒス、ミャオ、パー",
+      "charName": "ロロ、ヒス、ミャオ、パー",
+      "surname": null,
       "description": "ピンチになると独壇場が発生。独壇場が発生すると、フォロワーを1体獲得。"
     },
     "EME_DEMON": {
@@ -16274,7 +16274,7 @@
       "prefix": null,
       "charName": "소니아",
       "surname": "벨몬드",
-      "description": "=+8만큼 과잉 치유 시 일시적으로 재사용 대기시간이 감소합니다. 특별 픽업을 찾을 수 있습니다."
+      "description": "+8만큼 과잉 치유 시 일시적으로 재사용 대기시간이 감소합니다. 특별 픽업을 찾을 수 있습니다."
     },
     "TP_STELLA": {
       "prefix": null,
@@ -16598,7 +16598,7 @@
       "prefix": null,
       "charName": "발터 베른하르트",
       "surname": "Bernhard",
-      "description": "=+8 만큼 과잉 치유되면 에보니 디아볼로그에서 장착된 무기 하나를 무작위로 발동합니다. 체력 소모에 영향을 받지 않습니다."
+      "description": "+8 만큼 과잉 치유되면 에보니 디아볼로그에서 장착된 무기 하나를 무작위로 발동합니다. 체력 소모에 영향을 받지 않습니다."
     },
     "TP_GRAHAM": {
       "prefix": null,
@@ -16664,13 +16664,13 @@
       "prefix": null,
       "charName": "보니",
       "surname": "블레어",
-      "description": "각 레벨에서 행운을 +1% 획득합니다. 포미나와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
+      "description": "섬광 효과가 발동된 기술을 사용할 때 피해량이 증가합니다. 포미나와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "포미나",
       "surname": "프랭클린",
-      "description": "각 레벨에서 행운을 +1% 획득합니다. 보니와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
+      "description": "섬광 효과가 발동된 기술을 사용할 때 지속시간이 증가합니다. 보니와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -16712,7 +16712,7 @@
       "prefix": null,
       "charName": "구구츠",
       "surname": null,
-      "description": "체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
+      "description": "새로운 기술에 섬광 효과가 발동할 때마다 부활 1과 성장 5%를 얻습니다.\n체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
     },
     "EME_MRS": {
       "prefix": null,
@@ -16746,8 +16746,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "롤로",
-      "surname": ", 쉿, 야옹, 갸르릉",
+      "charName": "롤로, 쉿, 야옹, 갸르릉",
+      "surname": null,
       "description": "체력이 치명적일 때 쇼스토퍼를 발동합니다. 쇼스토퍼가 트리거될 때마다 팔로워를 확보할 수 있습니다."
     },
     "EME_DEMON": {
@@ -18076,13 +18076,13 @@
       "prefix": null,
       "charName": "邦妮",
       "surname": "布萊爾",
-      "description": "每升 1 級，力量便提高 1%。與福爾米娜組隊。生命值變得相當低時，觸發絕技。"
+      "description": "在使用閃悟技能時，獲得力量加成。與搭檔福爾米娜一同戰鬥。在生命值變得相當低時，觸發絕技。"
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "福爾米娜",
       "surname": "法蘭克林",
-      "description": "每升 1 級，投射物速度加快 1%。與邦妮組隊。生命值變得相當低時，觸發絕技。"
+      "description": "在使用閃悟技能時，獲得效果持續時間加成。與搭檔邦妮一同戰鬥。在生命值變得相當低時，觸發絕技。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -18124,7 +18124,7 @@
       "prefix": null,
       "charName": "傀儡",
       "surname": null,
-      "description": "生命值變得相當低時，觸發絕技。"
+      "description": "每閃悟一次全新技能時，便可獲得 1 次復活機會和 5% 的成長加成。\n在生命值很低時，觸發絕技。"
     },
     "EME_MRS": {
       "prefix": null,
@@ -18158,8 +18158,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "洛洛",
-      "surname": "嘶嘶、喵喵、呼嚕",
+      "charName": "洛洛, 嘶嘶、喵喵、呼嚕",
+      "surname": null,
       "description": "在生命值很低時，觸發絕技。每次觸發絕技時，獲得一個隨從。"
     },
     "EME_DEMON": {
@@ -19488,13 +19488,13 @@
       "prefix": null,
       "charName": "Бонні",
       "surname": "Блейр",
-      "description": "Отримує +1% сили на кожному рівні. Об'єднується з Форміною. Запускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Отримує силу при застосуванні прийомів відкриття. Об'єднується з Форміною. Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Форміна",
       "surname": "Франклін",
-      "description": "Отримує +1% до швидкості снарядів із кожним рівнем. Об'єднується з Бонні. Запускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Отримує тривалість при застосуванні прийомів відкриття. Об'єднується з Бонні. Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -19536,7 +19536,7 @@
       "prefix": null,
       "charName": "Куґуцу",
       "surname": null,
-      "description": "Запускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Отримує 1 до оживлення і 5% розвитку щоразу при застосуванні нової техніки відкриття.\nЗапускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_MRS": {
       "prefix": null,
@@ -19570,8 +19570,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Лоло",
-      "surname": "Ш-ш-ш, Няв і Мур-р",
+      "charName": "Лоло, Ш-ш-ш, Няв і Мур-р",
+      "surname": null,
       "description": "Запускає Густобій при критичному рівні здоров'я. Отримує послідовника, коли Густобій запущено."
     },
     "EME_DEMON": {

@@ -2907,6 +2907,97 @@
       "duration": 400
     }
   ],
+  "FOLLOWER_KNIFE1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "FOLLOWER_KNIFE1",
+      "price": 800,
+      "name": "Grant Knife",
+      "description": ".",
+      "tips": ".",
+      "texture": "UI",
+      "frameName": "SkillIcon_1.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "DURATION"
+      ],
+      "evoInto": "FOLLOWER_KNIFE2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 50,
+      "rarity": 40,
+      "interval": 3000,
+      "repeatInterval": 250,
+      "hitBoxDelay" : 30,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "penetrating": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "penetrating": 1
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "FOLLOWER_KNIFE2"
+    }
+  ],
+  "FOLLOWER_KNIFE2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "FOLLOWER_KNIFE2",
+      "name": ".",
+      "description": ".",
+      "tips": ".",
+      "texture": "UI",
+      "frameName": "SkillIcon_2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "isUnlocked": false,
+      "hidden": true,
+      "evolvesFrom": [
+        "FOLLOWER_KNIFE1"
+      ],
+      "requires": [
+        "DURATION"
+      ],
+      "requiresMax": [
+        "DURATION"
+      ],
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 250,
+      "hitBoxDelay" : 30,
+      "power": 2.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 3,
+      "duration": 300,
+      "hitsWalls": false,
+      "penetrating": 3
+    }
+  ],
   "ICELANCE": [
     {
       "level": 1,
@@ -5374,93 +5465,6 @@
       "knockback": 0,
       "critChance": 0,
       "critMul": 1
-    }
-  ],
-  "FOLLOWER_KNIFE1": [
-    {
-      "level": 1,
-      "sealable": true,
-      "bulletType": "FOLLOWER_KNIFE1",
-      "price": 800,
-      "name": "Grant Knife",
-      "description": ".",
-      "tips": ".",
-      "texture": "UI",
-      "frameName": "SkillIcon_1.png",
-      "evoSynergy": [
-        "DURATION"
-      ],
-      "evoInto": "FOLLOWER_KNIFE2",
-      "isUnlocked": false,
-      "hidden": true,
-      "poolLimit": 50,
-      "rarity": 40,
-      "interval": 3000,
-      "repeatInterval": 250,
-      "hitBoxDelay" : 30,
-      "power": 1,
-      "area": 1,
-      "speed": 1,
-      "amount": 1,
-      "penetrating": 1
-    },
-    {
-      "amount": 1
-    },
-    {
-      "penetrating": 1
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 1
-    },
-    {
-      "amount": 1
-    },
-    {
-      "penetrating": 1
-    },
-    {
-      "power": 1,
-      "addEvolvedWeapon": "FOLLOWER_KNIFE2"
-    }
-  ],
-  "FOLLOWER_KNIFE2": [
-    {
-      "level": 1,
-      "sealable": true,
-      "bulletType": "FOLLOWER_KNIFE2",
-      "name": ".",
-      "description": ".",
-      "tips": ".",
-      "texture": "UI",
-      "frameName": "SkillIcon_2.png",
-      "isEvolution": true,
-      "isUnlocked": false,
-      "hidden": true,
-      "evolvesFrom": [
-        "FOLLOWER_KNIFE1"
-      ],
-      "requires": [
-        "DURATION"
-      ],
-      "requiresMax": [
-        "DURATION"
-      ],
-      "poolLimit": 100,
-      "rarity": 1,
-      "interval": 3000,
-      "repeatInterval": 250,
-      "hitBoxDelay" : 30,
-      "power": 2.5,
-      "area": 1,
-      "speed": 1,
-      "amount": 3,
-      "duration": 300,
-      "hitsWalls": false,
-      "penetrating": 3
     }
   ]
 }

@@ -301,7 +301,10 @@
       "TP_DARKRIFT",
       "TP_SOULSTEAL_WEAPON",
       "TP_SWORD_BROTHERS",
-      "TP_SPIRITTORNADO"
+      "TP_SPIRITTORNADO",
+      "TP_POCKET1",
+      "TP_LAPISTE1",
+      "TP_FROG"
     ]
   },
   "TP_SONIA": {
@@ -460,6 +463,23 @@
       "EME_SPEAR1",
       "EME_MAGIC1",
       "EME_WAVE"
+    ]
+  },
+  "LEM_JIMBO": {
+	"isAnimated": true,
+    "merchantCharacter": "LEM_JIMBO",
+    "portraitSprite": "mercJimbo",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "LEM_Jimbo_i01",
+    "staticSpriteTexture": "LEM_character_Jimbo",
+    "textLocKey": "adv_merc_JIMBO",
+    "DLC": ["Lemon"],
+    "merchantInventory": [
+        "LEM_INFERNO1",
+        "LEM_BANANA1",
+        "LEM_FIBONACCI1",
+        "LEM_PLANETS1",
+        "LEM_ACC_SABOTEUR"
     ]
   }
 }

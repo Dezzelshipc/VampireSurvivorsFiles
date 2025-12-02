@@ -4,6 +4,7 @@
       "stageToUnlock":"EMERALD",
       "forcedTexture":"items",
       "forcedFrameName":"relic_emerald_disk",
+      "relicToUnlock": "RELIC_EME_DISK",
       "UnlockConditions":[
          {
             "AchievementUnlockType":"FindItems",

@@ -3737,7 +3737,7 @@
       "ru": "Улучшите просто люк.",
       "tr": "Havalandırma'yı evrilt.",
       "zh-CN": "进化无敌通风管。",
-      "ja": "便利な通気口を進化させる。",
+      "ja": "便利な通気孔を進化させる。",
       "ko": "오락가락 환풍구를 진화시키세요.",
       "zh-TW": "解放通風管達人。",
       "uk": "Еволюціонуйте Просто люк."
@@ -4160,19 +4160,19 @@
   "FB_01_Find__Coffin": {
     "description": {
       "en": "Find and open the coffin in Neo Galuga.",
-      "fr": "Trouvez et ouvrez le cercueil dans Jungle Galuga.",
-      "it": "Trova e apri la bara nella Giungla Galuga.",
-      "de": "Finde und öffne den Sarg im Galuga-Dschungel.",
-      "es": "Encuentra y abre el ataúd de la Selva de Galuga.",
-      "pt-BR": "Encontre e abra o caixão na Selva Galuga.",
-      "pl": "Znajdź i otwórz trumnę w Dżungli Galuga.",
-      "ru": "Найдите и откройте гроб в Джунглях Галуга.",
-      "tr": "Galuga Ormanı'ndaki tabutu bul ve aç.",
-      "zh-CN": "在加鲁加丛林找到并打开棺材。",
-      "ja": "ガルガ・ジャングルで棺を見つけて開ける。",
-      "ko": "갈루가 정글에서 관을 찾아서 여세요.",
-      "zh-TW": "在嘎魯加叢林中，找到並打開棺材。",
-      "uk": "Знайдіть і відкрийте труну в Джунглях Галуга."
+      "fr": "Trouvez et ouvrez le cercueil dans Neo Galuga.",
+      "it": "Trova e apri la bara a Neo Galuga.",
+      "de": "Finde und öffne den Sarg in Neo Galuga.",
+      "es": "Encuentra y abre el ataúd de Neogaluga.",
+      "pt-BR": "Encontre e abra o caixão em Neo Galuga.",
+      "pl": "Znajdź i otwórz trumnę w Neo Galudze.",
+      "ru": "Найдите и откройте гроб в Нео-Галуга.",
+      "tr": "Neo Galuga'daki tabutu bul ve aç.",
+      "zh-CN": "在新加鲁加中找到并打开棺材。",
+      "ja": "ネオガルガで棺を見つけて開ける。",
+      "ko": "네오 갈루가에서 관을 찾아서 여세요.",
+      "zh-TW": "在新勝嘎魯加中，找到並打開棺材。",
+      "uk": "Знайдіть і відкрийте труну в Нео-Галуга."
     }
   },
   "FB_02_SurvivLong": {
@@ -5495,12 +5495,12 @@
       "pt-BR": "Evolua o Chicote do Dragão d'Água.",
       "pl": "Ulepsz Bicz smoka wodnego.",
       "ru": "Улучшите «Водного дракона».",
-      "tr": "Su Ejderhası Kamçısı'nı Evrilt.",
+      "tr": "Ejderha Su Kamçısı'nı Evrilt.",
       "zh-CN": "进化泷神鞭。",
-      "ja": "ウォータードラゴンの鞭を進化させる。",
-      "ko": "수룡 채찍을 진화시키세요.",
-      "zh-TW": "解放水龍鞭。",
-      "uk": "Еволюціонуйте Батіг водяного дракона."
+      "ja": "ドラゴンウォーターの鞭を進化させる。",
+      "ko": "드래곤 워터 채찍을 진화시키세요.",
+      "zh-TW": "解放龍水鞭。",
+      "uk": "Еволюціонуйте Батіг драконової води."
     }
   },
   "TP_Alucard_Boss3": {
@@ -7960,19 +7960,19 @@
   "EME_DefeatBoss25m": {
     "description": {
       "en": "Defeat the Cursed Monarch in Emerald Diorama.",
-      "fr": "Éliminez l'Ogre caché dans Diorama émeraude.",
-      "it": "Sconfiggi l'Ogre nascosto in Diorama smeraldo.",
-      "de": "Besiege den verborgenen Oger im Smaragd-Diorama.",
-      "es": "Derrota al ogro oculto en Diorama esmeralda.",
-      "pt-BR": "Derrote o Ogro oculto em Diorama Esmeralda.",
-      "pl": "Pokonaj ukrytego Ogra w Szmaragdowej dioramie.",
-      "ru": "Победите скрытого огра в Изумрудной диораме.",
-      "tr": "Zümrüt Dioraması'ndaki gizli Dev'i öldür.",
-      "zh-CN": "击败翡翠模型中的隐藏巨魔。",
+      "fr": "Éliminez le Monarque maudit dans Diorama émeraude.",
+      "it": "Sconfiggi il Monarca maledetto in Diorama smeraldo.",
+      "de": "Besiege den Verfluchten Monarchen im Smaragd-Diorama.",
+      "es": "Derrota al monarca corrompido en Diorama esmeralda.",
+      "pt-BR": "Derrote o Monarca Amaldiçoado em Diorama Esmeralda.",
+      "pl": "Pokonaj Przeklętego monarchę w Szmaragdowej dioramie.",
+      "ru": "Победите Проклятого монарха в Изумрудной диораме.",
+      "tr": "Zümrüt Diorama'daki Lanetli Hükümdarı öldür.",
+      "zh-CN": "击败翡翠模型中的被诅咒之王。",
       "ja": "エメラルドジオラマに潜むオーガを倒す。",
-      "ko": "에메랄드 디오라마에서 숨은 오우거를 처치하세요.",
-      "zh-TW": "在翡翠立體模型中，擊敗隱藏的食人魔。",
-      "uk": "Здолайте схованого оґра в Смарагдовій Діорамі."
+      "ko": "에메랄드 디오라마에서 저주받은 군주를 처치하세요.",
+      "zh-TW": "在翡翠立體模型中，擊敗被詛咒的君主。",
+      "uk": "Здолайте проклятого монарха в Смарагдовій Діорамі."
     }
   },
   "EME_DefeatBoss1Inverse": {

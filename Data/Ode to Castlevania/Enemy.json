@@ -318,10 +318,10 @@
       "bHighlight": false,
       "bVariants": [],
       "enemyType": "TP_HARPY",
-      "colliderOverride": {
-        "offsetY": 20,
-        "radius": 0.3,
-        "offsetX": 0
+      "colliderOverride": {        
+        "radius": 0.25,
+        "offsetX": 14.8,
+        "offsetY": 19.2
       }
     }
   ],
@@ -350,9 +350,9 @@
       "bVariants": [],
       "enemyType": "TP_HARPY",
       "colliderOverride": {
-        "offsetY": 20,
-        "radius": 0.3,
-        "offsetX": 0
+        "radius": 0.25,
+        "offsetX": 14.8,
+        "offsetY": 19.2
       }
     }
   ],
@@ -673,7 +673,7 @@
       "bName": "Warg",
       "enemyType": "TP_WARG",
       "colliderOverride": {
-        "radius": 0.35,
+        "radius": 0.3,
         "offsetX": 0,
         "offsetY": -15
       }
@@ -703,7 +703,7 @@
       "bName": "Warg",
       "enemyType": "TP_WARG",
       "colliderOverride": {
-        "radius": 0.35,
+        "radius": 0.3,
         "offsetX": 0,
         "offsetY": -15
       }
@@ -759,7 +759,10 @@
         "offsetY": 0,
         "offsetX": -15
       },
-      "passThroughWalls": true
+      "passThroughWalls": true,
+      "bPlaces": [
+        "TP_CASTLE"
+      ]
     }
   ],
   "TP_CAVETROLL": [
@@ -1171,7 +1174,12 @@
       "bHighlight": false,
       "bVariants": [
         "TP_YORICK_02"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetX": -7.5,
+        "offsetY": -1.9        
+      }
     }
   ],
   "TP_YORICK_02": [
@@ -1190,7 +1198,12 @@
       "end": 9,
       "textureName": "TP_enemies",
       "idleFrameCount": 4,
-      "killedAmount": 0
+      "killedAmount": 0,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetX": -7.5,
+        "offsetY": -1.9
+      }
     }
   ],
   "TP_AMALARICSNIPER": [
@@ -1212,7 +1225,15 @@
       "bName": "Amalaric Sniper",
       "bInclude": true,
       "bHighlight": false,
-      "end": 8
+      "bPlaces": [
+        "TP_CASTLE"
+      ],
+      "end": 8,
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetX": 3.5,
+        "offsetY": 10
+      }
     }
   ],
   "TP_PATROL_AMALARICSNIPER": [
@@ -1235,7 +1256,12 @@
       "bName": "Amalaric Sniper",
       "bInclude": false,
       "bHighlight": false,
-      "end": 8
+      "end": 8,
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetX": 3.5,
+        "offsetY": 10
+      }
     }
   ],
   "TP_FLYINGSKELETON": [
@@ -1517,9 +1543,9 @@
         "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.55,
-        "offsetX": -10,
-        "offsetY": 5
+        "radius": 0.42,
+        "offsetX": -1.9,
+        "offsetY": 8.6
       },
       "bName": "Axe Armor",
       "bInclude": true,
@@ -1552,9 +1578,9 @@
         "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.55,
-        "offsetX": -10,
-        "offsetY": 5
+        "radius": 0.42,
+        "offsetX": -1.9,
+        "offsetY": 8.6
       },
       "enemyType": "TP_AXEARMOR_02"
     }
@@ -1578,9 +1604,9 @@
         "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.55,
-        "offsetX": -10,
-        "offsetY": 5
+        "radius": 0.42,
+        "offsetX": -1.9,
+        "offsetY": 8.6
       },
       "enemyType": "TP_AXEARMOR_FAST"
     }
@@ -1669,9 +1695,9 @@
       "bHighlight": false,
       "passThroughWalls": true,
       "colliderOverride": {
-        "radius": 0.2,
-        "offsetY": 15,
-        "offsetX": 10
+        "radius": 0.3,        
+        "offsetX": -2,
+        "offsetY": 3
       }
     }
   ],
@@ -1704,9 +1730,9 @@
       "bHighlight": false,
       "passThroughWalls": true,
       "colliderOverride": {
-        "radius": 0.2,
-        "offsetY": 15,
-        "offsetX": 10
+        "radius": 0.3,
+        "offsetX": -2,
+        "offsetY": 3
       }
     }
   ],
@@ -1734,9 +1760,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.2,
-        "offsetY": 15,
-        "offsetX": 10
+        "radius": 0.3,
+        "offsetX": -2,
+        "offsetY": 3
       }
     }
   ],
@@ -2316,7 +2342,12 @@
       "killedAmount": 0,
       "bName": "---",
       "bInclude": false,
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.38,
+        "offsetX": 5.9,
+        "offsetY": -2
+      }
     }
   ],
   "TP_BOSS_MALPHAS": [
@@ -2448,7 +2479,12 @@
       "killedAmount": 0,
       "bName": "---",
       "bInclude": false,
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.4,
+        "offsetX": 0,
+        "offsetY": -10
+      }
     }
   ],
   "TP_BOSS_GAIBON": [
@@ -2484,9 +2520,9 @@
       ],
       "bHighlight": false,
       "colliderOverride": {
-        "offsetY": 25,
         "radius": 0.25,
-        "offsetX": 10
+        "offsetX": 25,
+        "offsetY": 25
       }
     }
   ],
@@ -2522,10 +2558,10 @@
         "TP_CASTLE"
       ],
       "bHighlight": false,
-      "colliderOverride": {
-        "offsetY": 25,
-        "radius": 0.25,
-        "offsetX": 10
+      "colliderOverride": {        
+        "radius": 0.27,
+        "offsetX": 9.7,
+        "offsetY": -14.1
       }
     }
   ],
@@ -2556,9 +2592,9 @@
         "TP_Behemoth(Bloodless)_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.25,
-        "offsetX": 16,
-        "offsetY": -24
+        "radius": 0.20,
+        "offsetX": 2.5,
+        "offsetY": -9.8
       },
       "bName": "---",
       "bInclude": true,
@@ -2595,9 +2631,9 @@
         "TP_Behemoth(Bloodless)_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.25,
-        "offsetX": 16,
-        "offsetY": -24
+        "radius": 0.20,
+        "offsetX": 2.5,
+        "offsetY": -9.8
       },
       "bName": "---",
       "bInclude": false,
@@ -2702,9 +2738,9 @@
         "TP_MENACE_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.375,
-        "offsetY": 36,
-        "offsetX": 0
+        "radius": 0.35,
+        "offsetX": 17.5,
+        "offsetY": 6
       },
       "killedAmount": 0,
       "bName": "---",
@@ -2740,10 +2776,10 @@
       "frameNames": [
         "TP_Eligor_0.png"
       ],
-      "colliderOverride": {
-        "offsetY": 25,
-        "radius": 0.25,
-        "offsetX": 10
+      "colliderOverride": {        
+        "radius": 0.3,
+        "offsetX": 10,
+        "offsetY": 2
       },
       "killedAmount": 0,
       "bName": "---",
@@ -2786,8 +2822,8 @@
       "bHighlight": false,
       "colliderOverride": {
         "radius": 0.35,
-        "offsetX": -10,
-        "offsetY": -10
+        "offsetX": 17,
+        "offsetY": -3.5
       }
     }
   ],
@@ -2822,7 +2858,12 @@
       "bPlaces": [
         "TP_CASTLE"
       ],
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 5.6,
+        "offsetY": 12.5
+      }
     }
   ],
   "TP_BOSS_GIANTMEDUSAHEAD": [
@@ -2896,7 +2937,12 @@
       "bPlaces": [
         "TP_CASTLE"
       ],
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.2,        
+        "offsetX": 43,
+        "offsetY": 26
+      }
     }
   ],
   "TP_BOSS_BLACKMORE": [
@@ -2928,8 +2974,8 @@
       ],
       "colliderOverride": {
         "radius": 0.5,
-        "offsetY": 0,
-        "offsetX": -10
+        "offsetX": -5,
+        "offsetY": 0
       },
       "killedAmount": 0,
       "bName": "---",
@@ -2967,7 +3013,7 @@
         "TP_Paranoia_0.png"
       ],
       "colliderOverride": {
-        "offsetY": 25,
+        "offsetY": 7.7,
         "radius": 0.25,
         "offsetX": 10
       },
@@ -3010,9 +3056,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetY": -60,
-        "offsetX": -10
+        "radius": 0.23,
+        "offsetX": 23.3,
+        "offsetY": -10.7
       }
     }
   ],
@@ -3030,7 +3076,7 @@
       "knockback": 0,
       "maxKnockback": 1,
       "deathKB": 0,
-      "killedAmount": 0,
+      "killedAmount": 0, 
       "scale": 1.5,
       "xp": 10,
       "passThroughWalls": true,
@@ -3065,13 +3111,13 @@
       "scale": 1.5,
       "xp": 50,
       "passThroughWalls": true,
-      "idleFrameCount": 5,
+      "idleFrameCount": 4,
       "textureName": "TP_enemies",
       "end": 1,
       "colliderOverride": {
-        "radius": 0.35,
-        "offsetY": -20,
-        "offsetX": -5
+        "radius": 0.23,
+        "offsetX": 13,
+        "offsetY": 15.6
       },
       "frameNames": [
         "TP_GIANTBAT_0.png"
@@ -3260,9 +3306,9 @@
       "xp": 30,
       "end": 29,
       "colliderOverride": {
-        "radius": 0.35,
-        "offsetY": 0,
-        "offsetX": 0
+        "radius": 0.3,
+        "offsetX": 10,
+        "offsetY": 3
       },
       "bInclude": false,
       "bHighlight": false,
@@ -3303,6 +3349,9 @@
       ],
       "bInclude": true,
       "bHighlight": false,
+      "bPlaces": [
+        "TP_CASTLE"
+      ],
       "killedAmount": 0
     }
   ],
@@ -3396,9 +3445,9 @@
       "idleFrameCount": 4,
       "end": 19,
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetY": 0,
-        "offsetX": -10
+        "radius": 0.35,
+        "offsetX": 11.3,
+        "offsetY": 6.2
       }
     }
   ],
@@ -3429,9 +3478,9 @@
       "idleFrameCount": 4,
       "end": 19,
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetY": 0,
-        "offsetX": -10
+        "radius": 0.35,
+        "offsetX": 11.3,
+        "offsetY": 6.2
       }
     }
   ],
@@ -3487,9 +3536,9 @@
       "bHighlight": false,      
       "bName": "The Medusa",
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetY": -5,
-        "offsetX": 0
+        "radius": 0.33,
+        "offsetX": 0,
+        "offsetY": -0.8
       }
     }
   ],
@@ -3704,7 +3753,12 @@
       "end": 1,
       "frameNames": [
         "TP_BOSS_Carmilla_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.37,
+        "offsetX": 1.6,
+        "offsetY": 13.9
+      }
     }
   ],
   "TP_BOSS_WALTER": [
@@ -3820,7 +3874,12 @@
       "end": 1,
       "frameNames": [
         "TP_Succubus_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": 7.5
+      }
     }
   ],
   "TP_ADV_BOSS_PHANTOMBAT": [
@@ -3845,13 +3904,13 @@
       "scale": 1.5,
       "xp": 50,
       "passThroughWalls": true,
-      "idleFrameCount": 5,
+      "idleFrameCount": 4,
       "textureName": "TP_enemies",
       "end": 1,
       "colliderOverride": {
-        "radius": 0.35,
-        "offsetY": -20,
-        "offsetX": -5
+        "radius": 0.23,
+        "offsetX": 13,
+        "offsetY": 15.6        
       },
       "frameNames": [
         "TP_GIANTBAT_0.png"
@@ -4018,7 +4077,12 @@
       "bPlaces": [
         "TP_CASTLE"
       ],
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 5.6,
+        "offsetY": 12.5
+      }
     }
   ],
   "TP_ADV_BOSS_PARANOIA": [
@@ -4048,7 +4112,7 @@
         "TP_Paranoia_0.png"
       ],
       "colliderOverride": {
-        "offsetY": 25,
+        "offsetY": 7.7,
         "radius": 0.25,
         "offsetX": 10
       },
@@ -4135,9 +4199,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetY": -60,
-        "offsetX": -10
+        "radius": 0.23,
+        "offsetX": 23.3,
+        "offsetY": -10.7
       }
     }
   ],
@@ -4167,9 +4231,9 @@
         "TP_Eligor_0.png"
       ],
       "colliderOverride": {
-        "offsetY": 25,
-        "radius": 0.25,
-        "offsetX": 10
+        "radius": 0.3,
+        "offsetX": 10,
+        "offsetY": 2
       },
       "killedAmount": 0,
       "bName": "---",
@@ -4236,7 +4300,12 @@
       "end": 9,
       "frameNames": [
         "TP_Succubus_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": 7.5
+      }
     }
   ],
   "TP_ADV_BOSS_SUCCUBUS": [
@@ -4265,7 +4334,12 @@
       "end": 1,
       "frameNames": [
         "TP_Succubus_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": 7.5
+      }
     }
   ],
   "TP_ADV_PERSEPHONE": [
@@ -4368,7 +4442,12 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "colliderOverride": {
+        "radius": 0.33,
+        "offsetX": 0,
+        "offsetY": -0.8
+      }
     }
   ],
   "TP_ADV_MEDUSA_02": [
@@ -4397,7 +4476,12 @@
       "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [],
+      "colliderOverride": {
+        "radius": 0.33,
+        "offsetX": 0,
+        "offsetY": -0.8
+      }
     }
   ],
   "TP_ADV_CARMILLA": [
@@ -4424,7 +4508,12 @@
       "end": 1,
       "frameNames": [
         "TP_BOSS_Carmilla_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.37,
+        "offsetX": 1.6,
+        "offsetY": 13.9
+      }
     }
   ],
   "TP_ADV_GAIBON_RED": [
@@ -4455,9 +4544,9 @@
       "bHighlight": false,
       "bVariants": [],
       "colliderOverride": {
-        "offsetY": 25,
         "radius": 0.25,
-        "offsetX": 10
+        "offsetX": 10,
+        "offsetY": 18.5
       }
     }
   ],
@@ -4484,9 +4573,9 @@
         "TP_ADV_GaibonRedBoss_0"
       ],
       "colliderOverride": {
-        "offsetY": 25,
         "radius": 0.25,
-        "offsetX": 10
+        "offsetX": 10,
+        "offsetY": 18.5
       }
     }
   ],
@@ -4611,9 +4700,9 @@
         "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.55,
-        "offsetX": -10,
-        "offsetY": 5
+        "radius": 0.42,
+        "offsetX": -1.9,
+        "offsetY": 8.6
       },
       "bName": "Axe Armor",
       "bInclude": false,
@@ -4649,9 +4738,9 @@
         "TP_Reuse_AxeArmor_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.55,
-        "offsetX": -10,
-        "offsetY": 5
+        "radius": 0.42,
+        "offsetX": -1.9,
+        "offsetY": 8.6
       },
       "bName": "Axe Armor",
       "bInclude": false,
@@ -4982,6 +5071,7 @@
       "skills": [
         "HP_x_Level"
       ],
+      "res_Rosary": 1,
       "knockback": 0.5,
       "maxKnockback": 3,
       "deathKB": 2,
@@ -5004,6 +5094,7 @@
       "skills": [
         "HP_x_Level"
       ],
+      "res_Rosary": 1,
       "knockback": 1,
       "maxKnockback": 3,
       "deathKB": 2,
@@ -5045,9 +5136,9 @@
       ],
       "bName": "Harpy",
       "colliderOverride": {
-        "offsetY": 20,
-        "radius": 0.3,
-        "offsetX": 0
+        "radius": 0.25,
+        "offsetX": 14.8,
+        "offsetY": 19.2
       }
     }
   ],
@@ -5109,9 +5200,9 @@
       ],
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.5,
+        "radius": 0.4,
         "offsetX": -7.5,
-        "offsetY": -2.5
+        "offsetY": -1.9
       }
     }
   ],
@@ -5541,7 +5632,12 @@
       "end": 0,
       "frameNames": [
         "TP_BRACHYURA_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.23,
+        "offsetX": 23.3,
+        "offsetY": -10.7
+      }
     }
   ],
   "TP_ADV_FROZENSHADE": [
@@ -5618,7 +5714,12 @@
       "bPlaces": [
         "TP_CASTLE"
       ],
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.48,
+        "offsetX": 1.6,
+        "offsetY": 0
+      }
     }
   ],
   "TP_ADV_BOSS_STONEROSE": [
@@ -5650,7 +5751,12 @@
       "killedAmount": 0,
       "bName": "---",
       "bInclude": false,
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.38,
+        "offsetX": 5.9,
+        "offsetY": -2
+      }
     }
   ],
   "TP_FLEAMAN_COUNTER": [

@@ -284,7 +284,7 @@
       "description": "Gain a stacking 10-second +0.1 Recovery bonus every time you take damage."
     },
     "3002": {
-      "description": "Grants 1 gold coin when taking damage."
+      "description": "Grants 100 gold coin when taking damage."
     },
     "3003": {
       "description": "Retaliates with a ground slam when taking damage."
@@ -672,13 +672,13 @@
       "description": "Gagne un bonus cumulable de 10 secondes de +0,1 guérison à chaque fois que vous subissez des dégâts."
     },
     "3002": {
-      "description": "Octroie 1 pièce d'or lorsque vous subissez des dégâts."
+      "description": "Octroie 100 pièce d'or lorsque vous subissez des dégâts."
     },
     "3003": {
       "description": "Riposte avec une charge au sol lorsque vous subissez des dégâts."
     },
     "4000": {
-      "description": "=+100 % de dégâts critiques"
+      "description": "+100 % de dégâts critiques"
     },
     "4001": {
       "description": "Augmente l'armure et la guérison des alliés à proximité."
@@ -714,7 +714,7 @@
       "description": "Déclenche un Nduja Fritta lorsque la santé atteint un seuil critique."
     },
     "6002": {
-      "description": "=+50 d'armure pendant 10 secondes lorsque la santé atteint un seuil critique."
+      "description": "+50 d'armure pendant 10 secondes lorsque la santé atteint un seuil critique."
     },
     "7000": {
       "description": "Déclenche un Sorbetto lors d'une surguérison de +16."
@@ -950,19 +950,19 @@
     },
     "113": {
       "name": "013 - Pugnala Provola",
-      "description": "=+%0 di Potenza con ogni livello."
+      "description": "+%0 di Potenza con ogni livello."
     },
     "114": {
       "name": "014 - Giovanna Grana",
-      "description": "=+%0 di Velocità dei proiettili con ogni livello."
+      "description": "+%0 di Velocità dei proiettili con ogni livello."
     },
     "115": {
       "name": "015 - Poppea Pecorina",
-      "description": "=+0% di Durata con ogni livello."
+      "description": "+0% di Durata con ogni livello."
     },
     "116": {
       "name": "016 - Concetta Caciotta",
-      "description": "=+%0 di Area con ogni livello."
+      "description": "+%0 di Area con ogni livello."
     },
     "117": {
       "name": "017 - Mortaccio",
@@ -994,7 +994,7 @@
     },
     "124": {
       "name": "024 - Zi' Assunta Belpaese",
-      "description": "=+%0 di Potenza, Velocità dei proiettili, Durata e Area con ogni livello."
+      "description": "+%0 di Potenza, Velocità dei proiettili, Durata e Area con ogni livello."
     },
     "1000": {
       "description": "Guadagni Anima di Mortaccio dopo 80 livelli."
@@ -1060,13 +1060,13 @@
       "description": "Guadagni un bonus di +0,1 al Recupero per 10 secondi (accumulabile) ogni volta che subisci danni."
     },
     "3002": {
-      "description": "Ricevi una moneta d'oro quando subisci danni."
+      "description": "Ricevi 100 moneta d'oro quando subisci danni."
     },
     "3003": {
       "description": "Contrattacca con una schiacciata al suolo quando subisce danni."
     },
     "4000": {
-      "description": "=+100% ai danni critici."
+      "description": "+100% ai danni critici."
     },
     "4001": {
       "description": "Aumenta Armatura e Recupero degli alleati circostanti."
@@ -1105,7 +1105,7 @@
       "description": "PS critici: +50 di Armatura per 10 secondi."
     },
     "7000": {
-      "description": "=+16 oltre la salute massima: scatena un Sorbetto."
+      "description": "+16 oltre la salute massima: scatena un Sorbetto."
     },
     "7001": {
       "description": "Cura di 16 oltre la salute massima: +3% di Potenza."
@@ -1448,13 +1448,13 @@
       "description": "Wenn du Schaden erleidest, erhältst du 10 s lang +0,1 Erholung. (Effekt ist stapelbar.)"
     },
     "3002": {
-      "description": "Wenn du Schaden erleidest, erhältst du 1 Goldmünze."
+      "description": "Wenn du Schaden erleidest, erhältst du 100 Goldmünze."
     },
     "3003": {
       "description": "Wenn du Schaden erleidest, übst du mit einem erschütternden Schlag Vergeltung."
     },
     "4000": {
-      "description": "=+100% kritischer Schaden"
+      "description": "+100% kritischer Schaden"
     },
     "4001": {
       "description": "Erhöht Rüstung und Erholung von Verbündeten in der Nähe."
@@ -1836,13 +1836,13 @@
       "description": "Gana una bonificación acumulable de +0,1 de recuperación durante 10 segundos cada vez que recibes daño."
     },
     "3002": {
-      "description": "Otorga 1 moneda de oro al recibir daño."
+      "description": "Otorga 100 moneda de oro al recibir daño."
     },
     "3003": {
       "description": "Refleja el daño con un porrazo en el suelo al recibir daño."
     },
     "4000": {
-      "description": "=+100 % de daño crítico."
+      "description": "+100 % de daño crítico."
     },
     "4001": {
       "description": "Aumenta la armadura y la recuperación de los aliados cercanos."
@@ -2053,7 +2053,7 @@
       "description": "Coletar comida concede bônus cumulativos a atributos aleatórios com base em raridade ou valor de cura."
     },
     "35": {
-      "name": "XIII - Chamado da Lua Louca",
+      "name": "XIII – Chamado da Lua Louca",
       "description": "O efeito depende de atributos do jogador e resultados aleatórios. Sorte: afeta os Baús do Tesouro e Fontes de Luz. Crescimento: afeta as joias de EXP. Ganância: afeta as moedas de ouro. Maldição: inimigos ganham Velocidade de Movimento e Vida."
     },
     "40": {
@@ -2061,7 +2061,7 @@
       "description": "Inimigos ao alcance do Magnetismo sofrem dano com base na Ganância. Uma vez a cada vida, ativa o Devorador de Mundos Amaldiçoado ao sofrer dano fatal."
     },
     "27": {
-      "name": "V - Incursão do Diamante Pálido",
+      "name": "V – Incursão do Diamante Pálido",
       "description": "Armas listadas miram no inimigo mais próximo. Elas ganham um bônus de Recarga com base na Velocidade de Projéteis do personagem."
     },
     "101": {
@@ -2224,13 +2224,13 @@
       "description": "Ganha um bônus acumulador de +0,1 de Recuperação por 10 segundos sempre que você sofre dano."
     },
     "3002": {
-      "description": "Concede 1 Moeda de Ouro ao sofrer dano."
+      "description": "Concede 100 Moeda de Ouro ao sofrer dano."
     },
     "3003": {
       "description": "Retalia com uma batida no chão ao sofrer dano."
     },
     "4000": {
-      "description": "=+100% de dano crítico"
+      "description": "+100% de dano crítico"
     },
     "4001": {
       "description": "Aumenta a Armadura e a Recuperação de aliados próximos."
@@ -2269,16 +2269,16 @@
       "description": "Crítico: +50 de Armadura por 10 segundos."
     },
     "7000": {
-      "description": "=+16 de vida excessiva: ativa um Sorbetto."
+      "description": "+16 de vida excessiva: ativa um Sorbetto."
     },
     "7001": {
-      "description": "=+16 de vida excessiva: ganha +3% de Poder."
+      "description": "+16 de vida excessiva: ganha +3% de Poder."
     },
     "7002": {
-      "description": "=+16 de vida excessiva: Dedo de Ouro e Febre de Ouro duram 1% a mais."
+      "description": "+16 de vida excessiva: Dedo de Ouro e Febre de Ouro duram 1% a mais."
     },
     "7003": {
-      "description": "=+16 de vida excessiva: ganha +1 de Rolar Novamente"
+      "description": "+16 de vida excessiva: ganha +1 de Rolar Novamente"
     },
     "8000": {
       "description": "Gera fontes de luzes após ganhar uma quantidade específica de ouro (mil, 5 mil, 10 mil)."
@@ -2612,7 +2612,7 @@
       "description": "Przyznaje kumulującą się premię +0,1 do Odzyskiwania na 10 sekund za każdym razem, gdy otrzymujesz obrażenia."
     },
     "3002": {
-      "description": "Przyznaje 1 złotą monetę po otrzymaniu obrażeń."
+      "description": "Przyznaje 100 złotą monetę po otrzymaniu obrażeń."
     },
     "3003": {
       "description": "Po otrzymaniu obrażeń bierze odwet za pomocą uderzenia w ziemię."
@@ -2633,13 +2633,13 @@
       "description": "Anuluje 50% ataków bossów."
     },
     "5000": {
-      "description": "=+1 Wskrzeszenie po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
+      "description": "+1 Wskrzeszenie po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
     },
     "5001": {
-      "description": "=+1 do Ilości po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
+      "description": "+1 do Ilości po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
     },
     "5002": {
-      "description": "=+1 do Pancerza po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
+      "description": "+1 do Pancerza po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
     },
     "5003": {
       "description": "Przyznaje 1 złotą monetę po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
@@ -3000,7 +3000,7 @@
       "description": "Получает накапливающийся бонус +1 к регенерации на 10 секунд каждый раз, когда вы получаете урон."
     },
     "3002": {
-      "description": "Получает 1 золотую монету, когда получает урон."
+      "description": "Получает 100 золотую монету, когда получает урон."
     },
     "3003": {
       "description": "Когда получает урон, наносит мощный удар в ответ."
@@ -3021,13 +3021,13 @@
       "description": "Отменяет 50% атак боссов."
     },
     "5000": {
-      "description": "=+1 к оживлению после победы над определённым числом врагов (1000, 5000, 10 000)"
+      "description": "+1 к оживлению после победы над определённым числом врагов (1000, 5000, 10 000)"
     },
     "5001": {
-      "description": "=+1 к боезапасу после победы над определённым числом врагов (1000, 5000, 10 000)"
+      "description": "+1 к боезапасу после победы над определённым числом врагов (1000, 5000, 10 000)"
     },
     "5002": {
-      "description": "=+1 к броне после победы над определённым числом врагов (1000, 5000, 10 000)"
+      "description": "+1 к броне после победы над определённым числом врагов (1000, 5000, 10 000)"
     },
     "5003": {
       "description": "Получает 1 золотую монету после победы над определённым числом врагов (1000, 2000, 3000)"
@@ -3388,13 +3388,13 @@
       "description": "Her hasar aldığında 10 saniye süren +0.1 İyileşme bonusu kazanır."
     },
     "3002": {
-      "description": "Hasar aldığında 1 altın akçe verir."
+      "description": "Hasar aldığında 100 altın akçe verir."
     },
     "3003": {
       "description": "Hasar aldığında yere vurarak misilleme yapar."
     },
     "4000": {
-      "description": "=+%100 Kritik Hasar"
+      "description": "+%100 Kritik Hasar"
     },
     "4001": {
       "description": "Yakındaki müttefiklerin Zırh ve İyileşme'sini artırır."
@@ -3433,16 +3433,16 @@
       "description": "HP kritik seviyedeyken 10 saniye boyunca +50 Zırh kazanır."
     },
     "7000": {
-      "description": "=+16 miktarda aşırı iyileştiğinde bir Sorbetto tetikler."
+      "description": "+16 miktarda aşırı iyileştiğinde bir Sorbetto tetikler."
     },
     "7001": {
-      "description": "=+16 miktarda aşırı iyileştiğinde +%3 Kuvvet kazanır."
+      "description": "+16 miktarda aşırı iyileştiğinde +%3 Kuvvet kazanır."
     },
     "7002": {
-      "description": "=+16 miktarda aşırı iyileştiğinde Altın Parmak ve Altın Kasırgası %1 daha uzun sürer."
+      "description": "+16 miktarda aşırı iyileştiğinde Altın Parmak ve Altın Kasırgası %1 daha uzun sürer."
     },
     "7003": {
-      "description": "=+16 miktarda aşırı iyileştiğinde +1 Tekrar Atma kazanır."
+      "description": "+16 miktarda aşırı iyileştiğinde +1 Tekrar Atma kazanır."
     },
     "8000": {
       "description": "Belli sayıda altın kazandıktan sonra [1k, 5k, 10k] ışık kaynağı oluşturur"
@@ -3605,7 +3605,7 @@
       "description": "掉落的食物会为随机属性提供累积加成，视其稀有度或治疗量而定。"
     },
     "35": {
-      "name": "XIII - 疯月的呼唤",
+      "name": "XIII - 疯月召唤",
       "description": "效果取决于随机结果和玩家属性。运气：提升宝箱和光源。成长：提升经验水晶。贪欲：提升金币拾取。诅咒：敌人获得移动速度和生命值。"
     },
     "40": {
@@ -3613,7 +3613,7 @@
       "description": "念力范围内的敌人受到基于贪欲的伤害。受到必死一击后触发被诅咒的灭世者，每条命仅限一次。"
     },
     "27": {
-      "name": "V - 苍白钻石侵入",
+      "name": "V - 苍钻侵入",
       "description": "所列武器会瞄准距离最近的敌人，并获得受角色飞射速度影响的冷却时间加成。"
     },
     "101": {
@@ -3776,7 +3776,7 @@
       "description": "每当受到伤害时，恢复+0.1，持续10秒，可叠加。"
     },
     "3002": {
-      "description": "受到伤害时，金币+1。"
+      "description": "受到伤害时，金币+100。"
     },
     "3003": {
       "description": "受到伤害时，使用地面猛击进行反击。"
@@ -4164,7 +4164,7 @@
       "description": "ダメージを受けるたびに、スタックする10秒間の回復力ボーナス+0.1。"
     },
     "3002": {
-      "description": "ダメージを受けると、金貨1枚を付与。"
+      "description": "ダメージを受けると、金貨100枚を付与。"
     },
     "3003": {
       "description": "ダメージを受けると、グラウンドスラムで報復する。"
@@ -4191,7 +4191,7 @@
       "description": "一定数の敵（1千、5千、1万）を倒した後、発射弾数+1"
     },
     "5002": {
-      "description": "= 一定数の敵（1千、5千、1万）を倒した後、防御力+1"
+      "description": "一定数の敵（1千、5千、1万）を倒した後、防御力+1"
     },
     "5003": {
       "description": "一定数の敵（1千、2千、3千）を倒した後、金貨を1枚付与する。"
@@ -4552,7 +4552,7 @@
       "description": "피해를 입을 때마다 10초간 회복력 보너스가 +0.1됩니다."
     },
     "3002": {
-      "description": "피해를 입으면 금화 1개를 얻습니다."
+      "description": "피해를 입으면 금화 100개를 얻습니다."
     },
     "3003": {
       "description": "피해를 입으면 땅을 내리쳐 반격합니다."
@@ -4579,7 +4579,7 @@
       "description": "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 수량 +1"
     },
     "5002": {
-      "description": "= 적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 방어력+1"
+      "description": "적을 일정 수[1k, 5k, 10k] 만큼 물리친 후 방어력+1"
     },
     "5003": {
       "description": "적을 일정 수[1k, 2k, 3k] 만큼 물리친 후 금화를 하나 얻습니다."
@@ -4597,16 +4597,16 @@
       "description": "HP 위기: 10초 동안 방어력이 +50됩니다."
     },
     "7000": {
-      "description": "=+16 과잉 치유: 소르베토를 발동합니다."
+      "description": "+16 과잉 치유: 소르베토를 발동합니다."
     },
     "7001": {
-      "description": "=+16 과잉 치유: 피해량이 +3%됩니다."
+      "description": "+16 과잉 치유: 피해량이 +3%됩니다."
     },
     "7002": {
-      "description": "=+16 과잉 치유: 골드 핑거와 황금의 피버타임의 지속 시간이 1% 증가합니다."
+      "description": "+16 과잉 치유: 골드 핑거와 황금의 피버타임의 지속 시간이 1% 증가합니다."
     },
     "7003": {
-      "description": "=+16 과잉 치유: 새로고침 가능 횟수가 +1됩니다."
+      "description": "+16 과잉 치유: 새로고침 가능 횟수가 +1됩니다."
     },
     "8000": {
       "description": "골드를 일정량[1k, 5k, 10k] 획득한 후 광원을 생성합니다"
@@ -4777,7 +4777,7 @@
       "description": "磁鐵範圍內的敵人會受到取決於貪欲高低的傷害。在受到致命傷害後，觸發「受詛咒的滅世者」效果，每條命限發動一次。"
     },
     "27": {
-      "name": "V－蒼白鑽石入侵",
+      "name": "V－蒼白鑽石的入侵",
       "description": "表列中的武器會瞄準最靠近的敵人。這些武器能夠獲得一個取決於角色投射物速度高低的冷卻時間加成。"
     },
     "101": {
@@ -4940,7 +4940,7 @@
       "description": "每受到一次傷害，便會獲得一個可疊加的 +0.1 點生命恢復量加成（每層的效果持續時間：10 秒）。"
     },
     "3002": {
-      "description": "受到傷害時，獲得 1 枚金幣。"
+      "description": "受到傷害時，獲得 100 枚金幣。"
     },
     "3003": {
       "description": "受到傷害時，以地面重擊展開反擊。"
@@ -5328,7 +5328,7 @@
       "description": "Отримує накопич. бонус +0,1 до регенерації на 10 сек. щоразу при отриманні шкоди."
     },
     "3002": {
-      "description": "Надає 1 монету при отриманні шкоди."
+      "description": "Надає 100 монету при отриманні шкоди."
     },
     "3003": {
       "description": "Відповідає ударом об землю, коли отримує шкоду."
@@ -5349,13 +5349,13 @@
       "description": "Скасовує 50% атак босів."
     },
     "5000": {
-      "description": "Воскресіння = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+      "description": "Воскресіння +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
     },
     "5001": {
-      "description": "Кількість = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+      "description": "Кількість +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
     },
     "5002": {
-      "description": "Броня = +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
+      "description": "Броня +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
     },
     "5003": {
       "description": "Надає 1 монету після знищення встановленої кількості ворогів [1 тис., 2 тис., 3 тис.]"

@@ -34891,7 +34891,7 @@
       "background": {
         "texture": ""
       },
-      "spawnType": "HORIZONTAL",
+      "spawnType": "HORIZONTAL_SMOOTHED",
       "startingSpawns": 50,
       "minute": 0,
       "destructibleType": "CANDELABRA",

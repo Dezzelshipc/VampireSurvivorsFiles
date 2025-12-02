@@ -4,6 +4,7 @@
       "stageToUnlock":"LEM_CHAMBER",
       "forcedTexture":"items",
       "forcedFrameName":"LEM_DISK",
+      "relicToUnlock": "RELIC_LEM_DISK",
       "UnlockConditions":[
          {
             "AchievementUnlockType":"FindItems",
