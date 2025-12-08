@@ -58,7 +58,10 @@
       "description": null
     },
     "ConnectOrSelect": "Connect a controller or select a CPU",
-    "PartySize": "PARTY SIZE"
+    "PartySize": "PARTY SIZE",
+    "co-op&partymode": {
+      "": "Co-Op & Party Mode"
+    }
   },
   "fr": {
     "CPU_Behaviour": "Comportement du CPU",
@@ -119,7 +122,10 @@
       "description": null
     },
     "ConnectOrSelect": "Connectez une manette ou sélectionnez un CPU",
-    "PartySize": "Taille de l'équipe"
+    "PartySize": "Taille de l'équipe",
+    "co-op&partymode": {
+      "": "Coop et mode Équipe"
+    }
   },
   "it": {
     "CPU_Behaviour": "Comportamento CPU",
@@ -180,7 +186,10 @@
       "description": null
     },
     "ConnectOrSelect": "Collega un controller o seleziona una CPU",
-    "PartySize": "Dimensione del party"
+    "PartySize": "Dimensione del party",
+    "co-op&partymode": {
+      "": "Modalità cooperativa e party"
+    }
   },
   "de": {
     "CPU_Behaviour": "KI-Verhalten",
@@ -241,7 +250,10 @@
       "description": null
     },
     "ConnectOrSelect": "Schließe einen Controller an oder wähle einen KI-Spieler aus.",
-    "PartySize": "Gruppengröße"
+    "PartySize": "Gruppengröße",
+    "co-op&partymode": {
+      "": "Koop & Party-Modus"
+    }
   },
   "es": {
     "CPU_Behaviour": "Comportamiento de la CPU",
@@ -302,7 +314,10 @@
       "description": null
     },
     "ConnectOrSelect": "Conecta un mando o elige una CPU.",
-    "PartySize": "Tamaño del grupo"
+    "PartySize": "Tamaño del grupo",
+    "co-op&partymode": {
+      "": "Cooperativo y modo Grupo"
+    }
   },
   "pt-BR": {
     "CPU_Behaviour": "Comportamento dos bots",
@@ -363,7 +378,10 @@
       "description": null
     },
     "ConnectOrSelect": "Conecte um controle ou selecione um bot",
-    "PartySize": "Tamanho do grupo"
+    "PartySize": "Tamanho do grupo",
+    "co-op&partymode": {
+      "": "Modo Grupo e Cooperativo"
+    }
   },
   "pl": {
     "CPU_Behaviour": "Zachowanie CPU",
@@ -424,7 +442,10 @@
       "description": null
     },
     "ConnectOrSelect": "Podłącz kontroler lub wybierz CPU",
-    "PartySize": "Rozmiar grupy"
+    "PartySize": "Rozmiar grupy",
+    "co-op&partymode": {
+      "": "Tryb kooperacji i tryb imprezy"
+    }
   },
   "ru": {
     "CPU_Behaviour": "Поведение ИИ",
@@ -485,7 +506,10 @@
       "description": null
     },
     "ConnectOrSelect": "Подключите контроллер или выберите ИИ",
-    "PartySize": "Размер отряда"
+    "PartySize": "Размер отряда",
+    "co-op&partymode": {
+      "": "Совместная игра и режим отряда"
+    }
   },
   "tr": {
     "CPU_Behaviour": "CPU Davranışı",
@@ -546,7 +570,10 @@
       "description": null
     },
     "ConnectOrSelect": "Bir kontrolcü bağla veya CPU seç.",
-    "PartySize": "Ekip Büyüklüğü"
+    "PartySize": "Ekip Büyüklüğü",
+    "co-op&partymode": {
+      "": "Eşli & Ekip Modu"
+    }
   },
   "zh-CN": {
     "CPU_Behaviour": "电脑玩家行为",
@@ -607,7 +634,10 @@
       "description": null
     },
     "ConnectOrSelect": "连接控制器，或选择一个电脑玩家",
-    "PartySize": "队伍人数"
+    "PartySize": "队伍人数",
+    "co-op&partymode": {
+      "": "合作与组队模式"
+    }
   },
   "ja": {
     "CPU_Behaviour": "CPU動作",
@@ -668,7 +698,10 @@
       "description": null
     },
     "ConnectOrSelect": "コントローラーを接続するか、CPUを選択してください",
-    "PartySize": "パーティー人数"
+    "PartySize": "パーティー人数",
+    "co-op&partymode": {
+      "": "協力プレイ&パーティーモード"
+    }
   },
   "ko": {
     "CPU_Behaviour": "CPU 거동",
@@ -729,7 +762,10 @@
       "description": null
     },
     "ConnectOrSelect": "컨트롤러를 연결하거나 CPU를 선택하세요.",
-    "PartySize": "파티 인원 수"
+    "PartySize": "파티 인원 수",
+    "co-op&partymode": {
+      "": "코옵 모드 & 파티 모드"
+    }
   },
   "zh-TW": {
     "CPU_Behaviour": "CPU 行為",
@@ -790,7 +826,10 @@
       "description": null
     },
     "ConnectOrSelect": "連接控制器或是選擇一個 CPU 好夥伴",
-    "PartySize": "隊伍人數"
+    "PartySize": "隊伍人數",
+    "co-op&partymode": {
+      "": "合作與組隊模式"
+    }
   },
   "uk": {
     "CPU_Behaviour": "Поведінка процесора",
@@ -851,6 +890,9 @@
       "description": null
     },
     "ConnectOrSelect": "Під'єднайте контролер або виберіть процесор",
-    "PartySize": "Розмір загону"
+    "PartySize": "Розмір загону",
+    "co-op&partymode": {
+      "": "Режим «Кооператив» і «Вечірка»"
+    }
   }
 }
