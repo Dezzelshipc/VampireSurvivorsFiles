@@ -142,7 +142,7 @@ class ImageGeneratorManager:
             case DataType.CPU:
                 return CpuGenerator
             case DataType.CUSTOM_MERCHANTS:
-                return None
+                return AdvMerchantsGenerator
             case DataType.ENEMY:
                 return None  # EnemyImageGenerator
             case DataType.HIT_VFX:

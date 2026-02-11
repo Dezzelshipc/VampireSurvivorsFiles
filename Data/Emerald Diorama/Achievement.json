@@ -268,14 +268,15 @@
       "forcedTexture":"UI",
       "forcedFrameName":"p_char_katana",
       "forcedUnlockTips":"-",
-      "description":"Fully evolve the EME_CANNON1.",
+      "description":"Fully evolve the EME_MECH1.",
       "requiresChar":"EME_MECHKATANA",
       "requiresItem":"RELIC_EME_DISK",
       "UnlockConditions":[
          {
-            "AchievementUnlockType":"FindWeapons",
+            "AchievementUnlockType":"HaveLeveledWeaponToSpecificLevel",
+            "RequiredLevel":1,
             "RequiredWeapons":[
-               "EME_CANNON3"
+               "EME_MECH3"
             ]
          }
       ],

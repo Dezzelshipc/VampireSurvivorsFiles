@@ -984,5 +984,39 @@
       "zh-TW": "每強化一級，有 10% 的機率能夠保留重骰、跳過或是滅除的額度，最多提高 50% 的機率。",
       "uk": "Дії «Повтор», «Пропуск» і «Вигнання» можуть зберегтись із шансом 10% за кожен ранг (макс. 50%)."
     }
+  },
+  "INVUL": {
+    "name": {
+      "en": "Invul Time",
+      "fr": "Invul Time",
+      "it": "Invul Time",
+      "de": "Invul Time",
+      "es": "Invul Time",
+      "pt-BR": "Invul Time",
+      "pl": "Invul Time",
+      "ru": "Invul Time",
+      "tr": "Invul Time",
+      "zh-CN": "Invul Time",
+      "ja": "Invul Time",
+      "ko": "Invul Time",
+      "zh-TW": "Invul Time",
+      "uk": "Invul Time"
+    },
+    "description": {
+      "en": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "fr": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "it": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "de": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "es": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "pt-BR": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "pl": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "ru": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "tr": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "zh-CN": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "ja": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "ko": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "zh-TW": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)",
+      "uk": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+    }
   }
 }

@@ -1094,10 +1094,21 @@
         }
       },
       {
+        "description": "Find the forbidden coffin in \"Tides of the Foscari\".",
+        "characterToUnlock": "CTRPCAKE",
+        "adventureUnlockData": {
+          "Type": "FS001_ACH011",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_2sammy",
+          "requiredStage": "ADV_FOSCARI_006",
+          "foundCoffin": "CTRPCAKE"
+        }
+      },
+      {
         "description": "With the true horror, devour everything in \"The True Horror\".",
         "characterToUnlock": "GENEVIEVE",
         "adventureUnlockData": {
-          "Type": "FS001_ACH011",
+          "Type": "FS001_ACH012",
           "iconTextureName": "UI",
           "iconSpriteName": "p_2genevieve",
           "requiredStage": "ADV_FOSCARI_007",
@@ -1110,7 +1121,7 @@
         "description": "Survive 30 minutes with Genevieve.",
         "characterToUnlock": "MEGAGENEVIEVE",
         "adventureUnlockData": {
-          "Type": "FS001_ACH012",
+          "Type": "FS001_ACH013",
           "iconTextureName": "UI",
           "iconSpriteName": "p_2megag",
           "requiredCharacter": "GENEVIEVE",
@@ -1121,7 +1132,7 @@
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
-          "Type": "FS001_ACH013",
+          "Type": "FS001_ACH014",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
