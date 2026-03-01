@@ -14,8 +14,6 @@ from Source.Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAME
 from Source.Utility.timer import Timeit
 from Source.Utility.unityparser2 import UnityDoc
 from Source.Utility.utility import normalize_str
-from Utility.constants import CARD_DATABASE
-from Utility.special_classes import Singleton
 
 
 def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
