@@ -389,6 +389,8 @@ class Unpacker(tk.Tk):
         scale_factor = askinteger("Scale", "Input scale multiplier", initialvalue=1)
         if not scale_factor: return
 
+        MetaDataHandler.loaded_game = Game.SPECIAL
+
         full_path_meta = full_path.with_name(file + ".meta")
         if not MetaDataHandler.has_meta_by_path(full_path_meta):
             if not full_path_meta.exists():

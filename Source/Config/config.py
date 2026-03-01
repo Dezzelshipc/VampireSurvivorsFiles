@@ -54,6 +54,8 @@ class Game(Enum):
     VS = 0
     VC = 100
 
+    SPECIAL = -1
+
 
 @dataclass(order=True, unsafe_hash=True)
 class DLC:
