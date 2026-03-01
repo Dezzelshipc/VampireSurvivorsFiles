@@ -1,6 +1,6 @@
 from unittest import TestCase, main as ut_main
 
-from Config.config import Game
+from Source.Config.config import Game
 from Source.Data.meta_data import MetaDataHandler, _get_meta_guid
 from Source.Utility.utility import normalize_str
 
