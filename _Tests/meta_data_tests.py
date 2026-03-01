@@ -1,5 +1,6 @@
 from unittest import TestCase, main as ut_main
 
+from Config.config import Game
 from Source.Data.meta_data import MetaDataHandler, _get_meta_guid
 from Source.Utility.utility import normalize_str
 
@@ -7,6 +8,7 @@ from Source.Utility.utility import normalize_str
 class BaseMetaDataTest(TestCase):
     def __init__(self, *args):
         super().__init__(*args)
+        MetaDataHandler.load(Game.VS)
 
         self.names_list = ["I2Languages", "enemies", "items", "UI", "LaborratoryTexturePacked"]
         guids_list = [_get_meta_guid(MetaDataHandler.get_path_by_name(name)) for name in self.names_list]
