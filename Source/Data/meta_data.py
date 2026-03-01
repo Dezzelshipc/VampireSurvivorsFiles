@@ -4,7 +4,7 @@ from tkinter import Image
 
 from PIL.Image import Image, open as image_open
 
-from Source.Config.config import DLCType, Config
+from Source.Config.config import DLCType, Config, Game
 from Source.Utility.constants import RESOURCES, TEXTURE_2D, TEXT_ASSET, GAME_OBJECT, PREFAB_INSTANCE, AUDIO_CLIP, \
     MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
 from Source.Utility.image_functions import crop_image_rect_left_bot, split_name_count, get_rects_by_sprite_list
@@ -14,6 +14,8 @@ from Source.Utility.sprite_data import SpriteData, AnimationData, SKIP_ANIM_NAME
 from Source.Utility.timer import Timeit
 from Source.Utility.unityparser2 import UnityDoc
 from Source.Utility.utility import normalize_str
+from Utility.constants import CARD_DATABASE
+from Utility.special_classes import Singleton
 
 
 def _get_meta_guid(path: Path) -> tuple[str, Path] | None:
@@ -180,10 +182,16 @@ class MetaDataHandler(Objectless):
     _assets_name_path: dict[str, Path] = {}
     _assets_guid_path: dict[str, Path] = {}
 
+    loaded_game: Game = None
     loaded_assets_meta: dict[str, MetaData] = {}
 
     @classmethod
-    def load(cls):
+    def load(cls, game: Game):
+        if game != cls.loaded_game:
+            if cls.loaded_game is not None:
+                cls.unload()
+            cls.loaded_game = game
+
         cls._load_assets_meta_file_paths()
         cls._load_assets_meta_files_guids()
 
@@ -193,7 +201,15 @@ class MetaDataHandler(Objectless):
         cls._assets_name_path.clear()
         cls._assets_guid_path.clear()
         cls.loaded_assets_meta.clear()
-        print("MetaData unloaded")
+        print(f"MetaData unloaded ({cls.loaded_game.name})")
+
+    @classmethod
+    def assert_game(cls, game: Game):
+        assert cls.loaded_game == game
+
+    @classmethod
+    def assert_loaded_game(cls):
+        assert cls.loaded_game is not None, f"Game assets not loaded! ({cls.loaded_game})"
 
     @classmethod
     def _load_assets_meta_file_paths(cls) -> None:
@@ -209,11 +225,20 @@ class MetaDataHandler(Objectless):
             (GAME_OBJECT, ""),
             (PREFAB_INSTANCE, ""),
             (AUDIO_CLIP, ""),
-            (MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS),
-            (MONO_BEHAVIOUR, BUNDLE_MANIFEST_DATA)
         ]
 
-        for dlc in DLCType.get_all_types():
+        match cls.loaded_game:
+            case Game.VS:
+                path_roots.extend([
+                    (MONO_BEHAVIOUR, DATA_MANAGER_SETTINGS),
+                    (MONO_BEHAVIOUR, BUNDLE_MANIFEST_DATA),
+                ])
+            case Game.VC:
+                path_roots.extend([
+                    (MONO_BEHAVIOUR, ""),
+                ])
+
+        for dlc in DLCType.get_all_types_by_game(cls.loaded_game):
             for root, file_name in path_roots:
                 path = Config.get_assets_dir(dlc) and Config.get_assets_dir(dlc).joinpath(root)
                 if path and path.exists():
@@ -260,7 +285,7 @@ class MetaDataHandler(Objectless):
 
     @classmethod
     def has_meta_by_path(cls, path: Path) -> bool:
-        cls.load()
+        cls.assert_loaded_game()
         norm = normalize_str(path)
         return norm in cls._assets_name_path
 
@@ -277,34 +302,34 @@ class MetaDataHandler(Objectless):
 
     @classmethod
     def get_path_by_name(cls, name: str) -> Path | None:
-        cls.load()
+        cls.assert_loaded_game()
         return cls._assets_name_path.get(normalize_str(name))
 
     @classmethod
     def get_path_by_name_no_meta(cls, name: str) -> Path | None:
-        cls.load()
+        cls.assert_loaded_game()
         path = cls.get_path_by_name(name)
         return path.with_suffix("") if path else None
 
     @classmethod
     def get_path_by_guid(cls, guid: str) -> Path | None:
-        cls.load()
+        cls.assert_loaded_game()
         return cls._assets_guid_path.get(normalize_str(guid))
 
     @classmethod
     def get_path_by_guid_no_meta(cls, guid: str) -> Path | None:
-        cls.load()
+        cls.assert_loaded_game()
         path = cls.get_path_by_guid(guid)
         return path.with_suffix("") if path else None
 
     @classmethod
     def filter_paths(cls, f_filter: Callable[[tuple[str, Path]], bool]) -> set[tuple[str, Path]]:
-        cls.load()
+        cls.assert_loaded_game()
         return set(filter(f_filter, cls._assets_name_path.items()))
 
     @classmethod
     def get_meta_by_name_set(cls, name_set: set, is_multiprocess=True) -> set[MetaData]:
-        cls.load()
+        cls.assert_loaded_game()
 
         normalized_set = {normalize_str(name) for name in name_set}
         not_loaded_name_set = {name for name in normalized_set if name not in cls.loaded_assets_meta}
@@ -334,7 +359,7 @@ class MetaDataHandler(Objectless):
 
     @classmethod
     def get_meta_by_guid_set(cls, guid_set: set, is_multiprocess=True) -> set[MetaData]:
-        cls.load()
+        cls.assert_loaded_game()
 
         not_loaded_guid_set = {guid for guid in guid_set if guid not in cls.loaded_assets_meta}
 

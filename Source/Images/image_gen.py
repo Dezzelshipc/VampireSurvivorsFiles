@@ -295,7 +295,7 @@ class ImageGenerator:
         sprite_data = meta.get(normalize_str(file_name))
 
         if sprite_data is None or sprite_data.animation is None:
-            # print(f"! Anim: skipped {name=}, {sprite_data=} not found", file=sys.stderr)
+            print(f"! Anim: skipped {name=}, {sprite_data=} not found", file=sys.stderr)
             return
 
         sprites = get_anim_sprites_ready(sprite_data.animation)
@@ -411,7 +411,7 @@ class SimpleGenerator(ImageGenerator):
         if osfp := obj.get("save_folder_postfix"):
             save_folder += osfp
 
-        using_list = obj.get('for', GenType.main_list())
+        using_list = obj.get("for", GenType.main_list())
         scale_factor = settings[str(GenType.SCALE)]
 
         if GenType.SCALE in using_list:

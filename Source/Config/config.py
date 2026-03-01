@@ -19,8 +19,8 @@ EXPORTED_PROJECT = "ExportedProject"
 class CfgKey(Enum):
     MULTIPROCESSING = "MULTIPROCESSING"
     RIPPER = "AS_RIPPER"
-    STEAM_VS = "STEAM_APP"
 
+    STEAM_VS = "STEAM_APP"
     VS = "VS_ASSETS"
     MS = "MS_ASSETS"
     FS = "FS_ASSETS"
@@ -29,8 +29,10 @@ class CfgKey(Enum):
     OC = "OC_ASSETS"
     ED = "ED_ASSETS"
     AC = "AC_ASSETS"
-
     # IS = "IS_ASSETS"
+
+    STEAM_VC = "STEAM_VC"
+    VC = "VC_ASSETS"
 
     def __str__(self):
         return self.value
@@ -45,29 +47,36 @@ class CfgKey(Enum):
 
     @classmethod
     def get_assets_keys(cls) -> set[Self]:
-        return {*cls}.difference({CfgKey.MULTIPROCESSING, CfgKey.RIPPER, CfgKey.STEAM_VS})
+        return {*cls}.difference({CfgKey.MULTIPROCESSING, CfgKey.RIPPER, CfgKey.STEAM_VS, CfgKey.STEAM_VC})
+
+
+class Game(Enum):
+    VS = 0
+    VC = 100
 
 
 @dataclass(order=True, unsafe_hash=True)
 class DLC:
     index: int
     config_key: CfgKey
+    game: Game
     code_name: str
     steam_index: str
     full_name: str
 
 
 class DLCType(Enum):
-    VS = DLC(0, CfgKey.VS, "BASE_GAME", "VampireSurvivors_Data", "Vampire Survivors")
-    MS = DLC(1, CfgKey.MS, "MOONSPELL", "2230760", "Legacy of the Moonspell")
-    FS = DLC(2, CfgKey.FS, "FOSCARI", "2313550", "Tides of the Foscari")
-    EM = DLC(3, CfgKey.EM, "CHALCEDONY", "2690330", "Emergency Meeting")
-    OG = DLC(4, CfgKey.OG, "FIRST_BLOOD", "2887680", "Operation Guns")
-    OC = DLC(5, CfgKey.OC, "THOSE_PEOPLE", "3210350", "Ode to Castlevania")
-    ED = DLC(6, CfgKey.ED, "EMERALDS", "3451100", "Emerald Diorama")
-    AC = DLC(7, CfgKey.AC, "LEMON", "3929770", "Ante Chamber")
+    VS = DLC(0, CfgKey.VS, Game.VS, "BASE_GAME", "VampireSurvivors_Data", "Vampire Survivors")
+    MS = DLC(1, CfgKey.MS, Game.VS, "MOONSPELL", "2230760", "Legacy of the Moonspell")
+    FS = DLC(2, CfgKey.FS, Game.VS, "FOSCARI", "2313550", "Tides of the Foscari")
+    EM = DLC(3, CfgKey.EM, Game.VS, "CHALCEDONY", "2690330", "Emergency Meeting")
+    OG = DLC(4, CfgKey.OG, Game.VS, "FIRST_BLOOD", "2887680", "Operation Guns")
+    OC = DLC(5, CfgKey.OC, Game.VS, "THOSE_PEOPLE", "3210350", "Ode to Castlevania")
+    ED = DLC(6, CfgKey.ED, Game.VS, "EMERALDS", "3451100", "Emerald Diorama")
+    AC = DLC(7, CfgKey.AC, Game.VS, "LEMON", "3929770", "Ante Chamber")
+    # IS = DLC(-1, CfgKey.IS, Game.VS, "-", "-", "IS")
 
-    # IS = DLC(-1, CfgKey.IS, "-", "-", "IS")
+    VC = DLC(100, CfgKey.VC, Game.VC, "CRAWLERS", "Vampire Crawlers_Data", "Vampire Crawlers")
 
     @staticmethod
     def string(dlc: Self | COMPOUND_DATA_TYPE) -> str:
@@ -83,6 +92,11 @@ class DLCType(Enum):
     @classmethod
     def get_all_types(cls) -> list[Self]:
         dlcs = [*cls]
+        return list(sorted(dlcs, key=lambda x: x.value))
+
+    @classmethod
+    def get_all_types_by_game(cls, game: Game) -> list[Self]:
+        dlcs = [c for c in cls if c.value.game == game]
         return list(sorted(dlcs, key=lambda x: x.value))
 
     @classmethod
@@ -135,8 +149,9 @@ class Config(Objectless):
     def _get_default_config():
         data: OrderedDict[CfgKey, Path | bool] = OrderedDict(
             {dlc.value.config_key: Path() for dlc in DLCType.get_all_types()})
-        data[CfgKey.RIPPER] = Path()
         data[CfgKey.STEAM_VS] = Path()
+        data[CfgKey.STEAM_VC] = Path()
+        data[CfgKey.RIPPER] = Path()
         data[CfgKey.MULTIPROCESSING] = False
         return data
 
@@ -180,7 +195,7 @@ class Config(Objectless):
         is_changed = False
 
         for key in CfgKey.get_assets_keys():
-            path = Path(data[key])
+            path = Path(data.get(key, ""))
             while EXPORTED_PROJECT in str(path) and ASSETS in str(path):
                 is_changed = True
                 path = path.parent
@@ -203,7 +218,7 @@ class Config(Objectless):
         def __init__(self, parent):
             super().__init__(parent)
             self.title("Change config")
-            self.geometry("700x600")
+            # self.geometry("700x600")
 
             self.variables: dict[CfgKey, tk.StringVar | tk.BooleanVar | None] = dict(zip(
                 Config._get_default_config(),
@@ -235,6 +250,8 @@ class Config(Objectless):
                             info_text = f"Asset Ripper. Folder must contain 'AssetRipper[...].exe'"
                         case CfgKey.STEAM_VS:
                             info_text = f"VS steam folder. Folder must contain 'Vampire Survivors.exe'"
+                        case CfgKey.STEAM_VC:
+                            info_text = f"VC steam folder. Folder must contain 'Vampire Crawlers.exe'"
                         case CfgKey.MULTIPROCESSING:
                             continue
 
@@ -275,17 +292,20 @@ class Config(Objectless):
 
             asset_ripper_path = Path(self.variables[CfgKey.RIPPER].get())
             is_asset_ripper = asset_ripper_path == Path() or any(asset_ripper_path.glob("AssetRippe*.exe"))
-
             if not is_asset_ripper:
                 showerror("Error: AssetRipper", "AssetRipper.exe not found in selected folder.")
 
-            steam_path = Path(self.variables[CfgKey.STEAM_VS].get())
-            is_steam_path = steam_path == Path() or any(steam_path.glob("Vampire*.exe"))
-
-            if not is_steam_path:
+            steam_path_vs = Path(self.variables[CfgKey.STEAM_VS].get())
+            is_steam_path_vs = steam_path_vs == Path() or any(steam_path_vs.glob(r"*Survivors*exe"))
+            if not is_steam_path_vs:
                 showerror("Error: VampireSurvivors", "Vampire Survivors.exe not found in selected folder.")
 
-            if is_changed or not is_asset_ripper or not is_steam_path:
+            steam_path_vc = Path(self.variables[CfgKey.STEAM_VC].get())
+            is_steam_path_vc = steam_path_vc == Path() or any(steam_path_vc.glob(r"*Crawlers*exe"))
+            if not is_steam_path_vc:
+                showerror("Error: VampireCrawlers", "Vampire Crawlers.exe not found in selected folder.")
+
+            if is_changed or not is_asset_ripper or not is_steam_path_vs or not is_steam_path_vc:
                 return
 
             self.__save()

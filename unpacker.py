@@ -13,22 +13,22 @@ from tkinter.simpledialog import askinteger
 from PIL.Image import open as image_open
 
 import Source.Data.data as data_module
-import Source.Images.image_gen as image_gen
 import Source.Images.transparent_save as tr_save
-from Source.Images.image_gen_new import ImageGeneratorManager
 import Source.Translations.language as lang_module
-from Source.Config.config import CfgKey, DLCType, Config
+from Source.Config.config import CfgKey, DLCType, Config, Game
 from Source.Data.data import DataHandler
+from Source.Data.meta_data import MetaDataHandler
+from Source.Images import image_gen, image_gen_vc
+from Source.Images.image_gen_new import ImageGeneratorManager
 from Source.Translations.language import LangHandler, I2_LANGUAGES, LangType
 from Source.Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
     GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA, COMPOUND_DATA_TYPE, PREFAB_INSTANCE, \
     GAME_OBJECT
+from Source.Utility.constants import to_source_path
 from Source.Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint, resize_list_images
 from Source.Utility.logger import Logger
-from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.timer import Timeit
 from Source.Utility.utility import CheckBoxes, ButtonsBox, clean_json
-from Source.Utility.constants import to_source_path
 
 
 class Unpacker(tk.Tk):
@@ -263,14 +263,6 @@ class Unpacker(tk.Tk):
 
         ttk.Button(
             self,
-            text="Magic button to rip data automatically",
-            command=self.data_ripper
-        ).grid(row=9, column=0)
-
-        # ttk.Label(self, text="").grid(row=10, column=1)
-
-        ttk.Button(
-            self,
             text="Get stage tilemap",
             command=self.tilemap_gen_handler
         ).grid(row=11, column=1)
@@ -281,10 +273,31 @@ class Unpacker(tk.Tk):
             command=self.create_inverse_tilemap
         ).grid(row=11, column=2)
 
-        MetaDataHandler.load()
+        ttk.Button(
+            self,
+            text="Magic button to rip data automatically",
+            command=self.data_ripper
+        ).grid(row=7, column=0)
+
+        ttk.Button(
+            self,
+            text="Load VS metadata",
+            command=lambda: MetaDataHandler.load(Game.VS)
+        ).grid(row=8, column=0)
+
+        ttk.Button(
+            self,
+            text="Load VC metadata",
+            command=lambda: MetaDataHandler.load(Game.VC)
+        ).grid(row=9, column=0)
+
+        ttk.Button(
+            self,
+            text="Generate VC Card Database",
+            command=self.vc_generate_card_database
+        ).grid(row=11, column=0)
 
         self.data_from_popup = None
-
         self.outer_progress_bar = None
 
     @staticmethod
@@ -871,7 +884,7 @@ class Unpacker(tk.Tk):
         print("Finished ripping files")
 
         MetaDataHandler.unload()
-        MetaDataHandler.load()
+        # MetaDataHandler.load(Game.VS)
 
     def create_inverse_tilemap(self):
         selecting_path = IMAGES_FOLDER / GENERATED / TILEMAPS
@@ -914,6 +927,11 @@ class Unpacker(tk.Tk):
         img.rotate(180).save(save_path / full_path.with_stem(full_path.stem + "_inv").name)
 
         self.last_loaded_folder = save_path
+
+    @staticmethod
+    def vc_generate_card_database():
+        MetaDataHandler.load(Game.VC)
+        image_gen_vc.generate_card_group_database()
 
 
 if __name__ == '__main__':

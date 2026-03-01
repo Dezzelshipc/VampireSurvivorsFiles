@@ -36,6 +36,9 @@ MONO_BEHAVIOUR: Final[str] = "MonoBehaviour"
 DATA_MANAGER_SETTINGS: Final[str] = "DataManagerSettings"
 BUNDLE_MANIFEST_DATA: Final[str] = "BundleManifestData"
 
+CARD_DATABASE: Final[str] = "CardDatabase"
+CARD_GROUP_DATABASE: Final[str] = "CardGroupDatabase"
+
 
 class COMPOUND_DATA(Objectless):
     """
