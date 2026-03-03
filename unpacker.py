@@ -28,7 +28,7 @@ from Source.Utility.constants import to_source_path
 from Source.Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint, resize_list_images
 from Source.Utility.logger import Logger
 from Source.Utility.timer import Timeit
-from Source.Utility.utility import CheckBoxes, ButtonsBox, clean_json
+from Source.Utility.utility import CheckBoxes, ButtonsBox, clean_all_json
 
 
 class Unpacker(tk.Tk):
@@ -584,7 +584,7 @@ class Unpacker(tk.Tk):
         total_amount = DataHandler.get_total_amount()
         i = 0
 
-        dlc_types = DLCType.get_all_types()
+        dlc_types = DLCType.get_all_types_by_game(Game.VS)
         for dlc_type in dlc_types:
             save_path = DATA_FOLDER / dlc_type.value.full_name
             save_path.mkdir(parents=True, exist_ok=True)
@@ -592,7 +592,7 @@ class Unpacker(tk.Tk):
             data_files = DataHandler.get_dict_by_dlc_type(dlc_type)
             for data_type, data_file in data_files.items():
                 with open((save_path / data_type.value).with_suffix(".json"), mode="w", encoding="UTF-8") as f:
-                    f.write(data_file.raw_text())
+                    f.write(data_file.raw_text_cleaned_commas())
 
                 self.progress_bar_set_percent(i := i + 1, total_amount)
 
@@ -622,7 +622,7 @@ class Unpacker(tk.Tk):
                 return
 
             with open(path_data, 'r', encoding="UTF-8") as f:
-                data = json.loads(clean_json(f.read()))
+                data = json.loads(clean_all_json(f.read()))
 
             self.outer_progress_bar.change_label(f"Getting language file")
 

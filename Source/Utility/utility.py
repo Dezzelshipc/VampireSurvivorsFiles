@@ -98,17 +98,24 @@ def normalize_str(s) -> str:
     return str(int(s) if s.isnumeric() else s)
 
 
-def clean_json(string):
+def clean_comments_json(string: str) -> str:
     # comments: //
     string = re.sub(r"\s*//.*\n", "\n", string)
     # comments: /* */
     string = re.sub(r"(?s)/\*.*?\*/", "", string)
-
-    # extra commas
-    string = re.sub(r",[ \t\r\n]+}", "}", string)
-    string = re.sub(r",[ \t\r\n]+]", "]", string)
-
     return string
+
+
+def clean_commas_json(string: str) -> str:
+    # extra commas
+    string = re.sub(r",([ \t\r\n]+)}", r"\1}", string)
+    string = re.sub(r",([ \t\r\n]+)]", r"\1]", string)
+    return string
+
+
+def clean_all_json(string: str) -> str:
+    string = clean_comments_json(string)
+    return clean_commas_json(string)
 
 
 def to_pascalcase(s):

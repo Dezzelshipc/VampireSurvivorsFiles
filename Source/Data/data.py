@@ -10,7 +10,7 @@ from Source.Utility.constants import DATA_MANAGER_SETTINGS, BUNDLE_MANIFEST_DATA
 from Source.Data.meta_data import MetaDataHandler
 from Source.Utility.special_classes import Objectless
 from Source.Utility.unityparser2 import UnityDoc
-from Source.Utility.utility import clean_json, to_pascalcase
+from Source.Utility.utility import to_pascalcase, clean_all_json, clean_commas_json
 
 
 def open_f(path):
@@ -119,7 +119,7 @@ class DataFile:
             with open_f(self.__path) as f:
                 self.__raw_text = f.read()
 
-            self.__data = json.loads(clean_json(self.__raw_text))
+            self.__data = json.loads(clean_all_json(self.__raw_text))
         else:
             self.__data = _concatenate(self.__to_concat)
             self.__raw_text = json.dumps(self.__data, ensure_ascii=False, indent=2)
@@ -131,6 +131,14 @@ class DataFile:
     def raw_text(self) -> str:
         self.__load()
         return self.__raw_text
+
+    def raw_text_cleaned_commas(self) -> str:
+        self.__load()
+        return clean_commas_json(self.__raw_text)
+
+    def raw_text_strict(self) -> str:
+        self.__load()
+        return clean_all_json(self.__raw_text)
 
     def data_type(self) -> DataType:
         return self.__data_type
