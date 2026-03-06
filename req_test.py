@@ -8,12 +8,8 @@ from pip._internal.network.session import PipSession
 from pip._internal.req.constructors import install_req_from_parsed_requirement
 from pip._internal.req.req_file import parse_requirements
 
-try:
-    from Source.Utility.utility import _find_main_py_file
-    from Source.Config.config import Config, CfgKey
-except ImportError:
-    from utility import _find_main_py_file
-    from config import Config, CfgKey
+from Source.Utility.utility import _find_main_py_file
+from Source.Config.config import Config, CfgKey
 
 _REQUIREMENTS_PATH = _find_main_py_file().with_name("requirements.txt")
 

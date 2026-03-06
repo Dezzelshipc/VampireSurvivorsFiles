@@ -8,5 +8,5 @@ if exist %venv_root% (
 ) else (
     echo Not found venv [%venv_root%]
 )
-python ./Source/Utility/req_test.py
+python ./req_test.py
 python ./unpacker.py

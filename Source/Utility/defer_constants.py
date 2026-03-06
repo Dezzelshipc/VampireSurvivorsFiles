@@ -1,6 +1,6 @@
 import asyncio
 
-from Source.Utility.req_test import check_pydub_defer
+from req_test import check_pydub_defer
 from Source.Utility.special_classes import Objectless
 
 
