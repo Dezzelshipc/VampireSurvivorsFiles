@@ -1,9 +1,7 @@
-import asyncio
 import sys
 from pathlib import Path
 from typing import Final, Callable
 
-from Source.Utility.req_test import check_pydub_defer
 from Source.Utility.special_classes import Objectless
 from Source.Utility.utility import _find_main_py_file
 
@@ -62,17 +60,6 @@ def to_source_path(path: Path) -> Path:
     start = path.parent
     end = path.name
     return start / SOURCE / end
-
-
-class DeferConstants(Objectless):
-    _pydub_defer_checker = check_pydub_defer()
-    _is_pydub = None
-
-    @classmethod
-    def is_pydub(cls) -> bool:
-        if cls._is_pydub is None:
-            cls._is_pydub = asyncio.run(cls._pydub_defer_checker)
-        return cls._is_pydub
 
 
 DEFAULT_ANIMATION_FRAME_RATE: Final[int] = 7

@@ -1,5 +1,6 @@
 """Test availability of required packages."""
 import asyncio
+import subprocess
 import sys
 from importlib.metadata import version, PackageNotFoundError
 
@@ -9,8 +10,10 @@ from pip._internal.req.req_file import parse_requirements
 
 try:
     from Source.Utility.utility import _find_main_py_file
+    from Source.Config.config import Config, CfgKey
 except ImportError:
     from utility import _find_main_py_file
+    from config import Config, CfgKey
 
 _REQUIREMENTS_PATH = _find_main_py_file().with_name("requirements.txt")
 
@@ -63,6 +66,34 @@ async def check_pydub_defer():
     return await asyncio.to_thread(check_pydub)
 
 
+RIPPER_VERSION_MINIMAL = (1, 3, 8)
+
+
+def check_ripper_version():
+    def version_to_str(ver: tuple[int, int, int]):
+        return '.'.join(map(str, ver))
+
+    ripper = ""
+    try:
+        ripper = next(Config[CfgKey.RIPPER].rglob("AssetRippe*.exe"))
+    except StopIteration:
+        pass
+
+    if ripper:
+        result = subprocess.run([ripper, "--version"], capture_output=True, text=True)
+        result = result.stdout.strip().split(" ")[1].split("+")[0]
+        vers = tuple(map(int, result.split(".")))
+        if vers < RIPPER_VERSION_MINIMAL:
+            print(
+                f"!!! RIPPER version is outdated. Current: {version_to_str(vers)}, Required: {version_to_str(RIPPER_VERSION_MINIMAL)}+",
+                file=sys.stderr)
+    else:
+        print(f"! Ripper not found for automatic ripping: required version {version_to_str(RIPPER_VERSION_MINIMAL)}+",
+              file=sys.stderr)
+
+
 if __name__ == "__main__":
+    check_ripper_version()
+
     if not test_requirements():
         input()

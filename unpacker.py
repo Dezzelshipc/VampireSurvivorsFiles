@@ -21,9 +21,10 @@ from Source.Data.meta_data import MetaDataHandler
 from Source.Images import image_gen, image_gen_vc
 from Source.Images.image_gen_new import ImageGeneratorManager
 from Source.Translations.language import LangHandler, I2_LANGUAGES, LangType
-from Source.Utility.constants import ROOT_FOLDER, IS_DEBUG, DeferConstants, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
+from Source.Utility.constants import ROOT_FOLDER, IS_DEBUG, DEFAULT_ANIMATION_FRAME_RATE, IMAGES_FOLDER, \
     GENERATED, TILEMAPS, DATA_FOLDER, TRANSLATIONS_FOLDER, SPLIT, COMPOUND_DATA, COMPOUND_DATA_TYPE, PREFAB_INSTANCE, \
     GAME_OBJECT
+from Source.Utility.defer_constants import DeferConstants
 from Source.Utility.constants import to_source_path
 from Source.Utility.image_functions import resize_image, get_anim_sprites_ready, apply_tint, resize_list_images
 from Source.Utility.logger import Logger

@@ -199,7 +199,7 @@ class MetaDataHandler(Objectless):
         cls._assets_name_path.clear()
         cls._assets_guid_path.clear()
         cls.loaded_assets_meta.clear()
-        print(f"MetaData unloaded ({cls.loaded_game.name})")
+        print(f"MetaData unloaded ({cls.loaded_game.name if cls.loaded_game else ""})")
 
     @classmethod
     def assert_game(cls, game: Game):

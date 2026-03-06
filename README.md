@@ -27,7 +27,7 @@ Enter paths to folders where ripped assets for respective DLCs will be located w
 
 * ! ***NOTE*** that ripping will **<u>REMOVE EVERYTHING</u>** in selected folders!
 
-Using [AssetRipper](https://github.com/AssetRipper/AssetRipper)
+Using [AssetRipper](https://github.com/AssetRipper/AssetRipper) (v1.3.8+)
 
 * **<u>Automatically</u>** (Recommended) - Enter path to AssetRipper.exe and Steam folder for Vampire Survivors in
   config. Press _**Magic button**_ and select DLCs to rip. Your previous settings for AssetRipper will be saved.

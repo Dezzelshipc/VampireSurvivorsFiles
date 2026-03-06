@@ -98,6 +98,20 @@
     "hidden": true,
     "value": 0
   },
+  "TP_ENEMYSOUL": {
+    "name": "Enemy Soul",
+    "description": ".",
+    "collectionFrame": "frameB_sotn.png",
+    "tips": "",
+    "texture": "TP_items",
+    "frameName": "soul_b1.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 1
+  },
 
   "TP_RELIC_CASTLEMAP": {
     "name": "Castlevania Map",
