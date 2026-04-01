@@ -15,6 +15,7 @@
       "collectionFrame": "frameB_sotn.png",
       "poolLimit": 100,
       "rarity": 80,
+      "price": 180,
       "interval": 1500,
       "repeatInterval": 300,
       "power": 1,
@@ -31,7 +32,10 @@
       "sealable": true,
       "intervalDependsOnDuration": false,
       "description": "-",
-      "knockback": 5
+      "knockback": 5,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "power": 0.5,
@@ -79,6 +83,7 @@
         "REVIVAL"
       ],
       "rarity": 1,
+      "price": 6600,
       "power": 8,
       "secondaryPower": 4,
       "area": 1.6,
@@ -92,7 +97,10 @@
       "critChance": 0.05,
       "critMul": 2,
       "canCrit": true,
-      "description": "-"
+      "description": "-",
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "TP_WINDWHIP1": [
@@ -114,6 +122,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 80,
+      "price": 180,
       "interval": 1550,
       "repeatInterval": 200,
       "power": 1,
@@ -159,7 +168,7 @@
       "frameName": "TP_WINDWHIP2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 6600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -201,6 +210,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 80,
+      "price": 180,
       "interval": 3000,
       "power": 1,
       "secondaryPower": 0.6,
@@ -258,7 +268,7 @@
       "frameName": "TP_PLATINUMWHIP2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 6600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -301,6 +311,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 80,
+      "price": 180,
       "power": 1,
       "secondaryPower": 0.5,
       "area": 1,
@@ -351,7 +362,7 @@
       "frameName": "TP_DRAGONWATER2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 6600,
       "description": "-",
       "tips": "-",
       "poolLimit": 200,
@@ -395,7 +406,7 @@
       "evoSynergy": [
         "CURSE"
       ],
-      "price": 10,
+      "price": 180,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -449,7 +460,7 @@
       "frameName": "TP_ORIGINS2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 6600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -487,7 +498,7 @@
       "frameName": "TP_LEMURIA1.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 180,
       "description": "-",
       "tips": "-",
       "evoInto": "TP_LEMURIA2",
@@ -546,7 +557,7 @@
       "frameName": "TP_LEMURIA2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 6600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -587,7 +598,7 @@
       "evoSynergy": [
         "AREA"
       ],
-      "price": 100,
+      "price": 180,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -655,6 +666,7 @@
         "AREA"
       ],
       "rarity": 1,
+      "price": 6600,
       "interval": 2500,
       "repeatInterval": 100,
       "power": 6,
@@ -684,7 +696,7 @@
       "evoSynergy": [
         "MAXHEALTH"
       ],
-      "price": 10,
+      "price": 180,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -741,7 +753,7 @@
       "frameName": "TP_MARTIALWHIP2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 6600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -783,7 +795,7 @@
       "evoSynergy": [
         "COOLDOWN"
       ],
-      "price": 10,
+      "price": 100,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -840,7 +852,7 @@
       "frameName": "TP_SHURIKEN2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -882,7 +894,7 @@
       "evoSynergy": [
         "SPEED"
       ],
-      "price": 10,
+      "price": 100,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -941,7 +953,7 @@
       "frameName": "TP_BWAKA2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -982,6 +994,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 70,
+      "price": 100,
       "poolLimit": 100,
       "power": 1,
       "area": 1,
@@ -1036,6 +1049,7 @@
       "collectionFrame": "frameB_sotn.png",
       "sealable": true,
       "rarity": 1,
+      "price": 3600,
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [
@@ -1075,7 +1089,7 @@
       "evoSynergy": [
         "PARMA"
       ],
-      "price": 10,
+      "price": 120,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -1131,7 +1145,7 @@
       "frameName": "TP_DISCUS2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 4400,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -1175,6 +1189,7 @@
       "evoInto": "TP_IRONBALL2",
       "isUnlocked": false,
       "rarity": 60,
+      "price": 100,
       "poolLimit": 100,
       "power": 2,
       "area": 1,
@@ -1231,6 +1246,7 @@
       "isUnlocked": true,
       "isEvolution": true,
       "rarity": 1,
+      "price": 3600,
       "evolvesFrom": [
         "TP_IRONBALL1"
       ],
@@ -1264,7 +1280,7 @@
       "evoSynergy": [
         "DOMINION"
       ],
-      "price": 10,
+      "price": 100,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -1320,7 +1336,7 @@
       "frameName": "TP_GUN2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -1363,6 +1379,7 @@
       "sealable": true,
       "isUnlocked": false,
       "rarity": 50,
+      "price": 100,
       "poolLimit": 100,
       "power": 1,
       "area": 1,
@@ -1408,6 +1425,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
       "rarity": 1,
+      "price": 3600,
       "sealable": true,
       "isUnlocked": true,
       "isEvolution": true,
@@ -1446,7 +1464,7 @@
       "evoSynergy": [
         "REVIVAL"
       ],
-      "price": 10,
+      "price": 180,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -1502,7 +1520,7 @@
       "frameName": "TP_WINEGLASS2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 6600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -1539,7 +1557,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_FIRE1",
-      "price": 10,
+      "price": 100,
       "description": "Generates an exploding damaging zone.",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -1564,7 +1582,10 @@
         "POWER"
       ],
       "evoInto": "TP_FIRE2",
-      "knockback": 0.5
+      "knockback": 0.5,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "interval": -500,
@@ -1607,12 +1628,14 @@
       "frameName": "TP_FIRE2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3600,
       "description": "-",
       "tips": "-",
       "isEvolution": true,
       "skipRemovingBaseWeapon": true,
-      "evolvesFrom": [],
+      "evolvesFrom": [
+        "TP_FIRE1"
+      ],
       "requires": [
         "TP_FIRE1",
         "POWER"
@@ -1637,7 +1660,10 @@
       "critChance": 0.3,
       "critMul": 3,
       "hitsWalls": false,
-      "sealable": true
+      "sealable": true,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "TP_ICE1": [
@@ -1647,7 +1673,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_ICE1",
-      "price": 10,
+      "price": 100,
       "description": "Generates damaging zones in a straight line.",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -1720,7 +1746,9 @@
       "isEvolution": true,
       "sealable": true,
       "skipRemovingBaseWeapon": true,
-      "evolvesFrom": [],
+      "evolvesFrom": [
+        "TP_ICE1"
+      ],
       "requires": [
         "TP_ICE1",
         "DURATION"
@@ -1730,6 +1758,7 @@
         "DURATION"
       ],
       "rarity": 1,
+      "price": 3600,
       "isUnlocked": true,
       "poolLimit": 200,
       "power": 0.5,
@@ -1750,7 +1779,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_WIND1",
-      "price": 10,
+      "price": 100,
       "description": "Fires lingering projectiles.",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -1819,7 +1848,9 @@
       "collectionFrame": "frameB_sotn.png",
       "skipRemovingBaseWeapon": true,
       "isEvolution": true,
-      "evolvesFrom": [],
+      "evolvesFrom": [
+        "TP_WIND1"
+      ],
       "requires": [
         "TP_WIND1",
         "SPEED"
@@ -1829,6 +1860,7 @@
         "SPEED"
       ],
       "rarity": 1,
+      "price": 3600,
       "isUnlocked": true,
       "poolLimit": 200,
       "interval": 7000,
@@ -1853,7 +1885,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_EARTH1",
-      "price": 10,
+      "price": 100,
       "description": "Fires projectiles from a fixed location.",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -1935,6 +1967,7 @@
         "GREED"
       ],
       "rarity": 1,
+      "price": 3600,
       "isUnlocked": true,
       "poolLimit": 200,
       "power": 5,
@@ -1961,7 +1994,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_ELEC1",
-      "price": 200,
+      "price": 120,
       "description": "Strikes at fixed locations.",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -2038,6 +2071,7 @@
         "AMOUNT"
       ],
       "rarity": 1,
+      "price": 4400,
       "isUnlocked": true,
       "poolLimit": 100,
       "power": 2,
@@ -2061,7 +2095,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_ACID1",
-      "price": 200,
+      "price": 120,
       "description": "Fires slow moving damaging zones.",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -2131,7 +2165,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
       "skipRemovingBaseWeapon": true,
-      "price": 10,
+      "price": 4400,
       "description": "-",
       "tips": "-",
       "isEvolution": true,
@@ -2169,7 +2203,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_EVIL1",
-      "price": 200,
+      "price": 100,
       "description": "-",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -2235,7 +2269,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
       "skipRemovingBaseWeapon": true,
-      "price": 10,
+      "price": 3600,
       "description": "-",
       "tips": "-",
       "isEvolution": true,
@@ -2273,7 +2307,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_HOLY1",
-      "price": 200,
+      "price": 100,
       "description": "Damages nearby enemies. Decreases Curse by 5% per Amount.",
       "tips": "Best with: Area, Duration.",
       "texture": "TP_items",
@@ -2342,7 +2376,7 @@
       "frameName": "TP_HOLY2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3600,
       "description": "-",
       "tips": "-",
       "skipRemovingBaseWeapon": true,
@@ -2387,6 +2421,7 @@
       "description": "Swings in a damaging arc that passes through enemies. ",
       "isUnlocked": false,
       "rarity": 60,
+      "price": 100,
       "poolLimit": 200,
       "power": 3,
       "area": 1,
@@ -2453,6 +2488,7 @@
         "MAXHEALTH"
       ],
       "rarity": 1,
+      "price": 3600,
       "description": "Evolved Mace. Enemies struck may trigger areas of chain lightning. ",
       "power": 8,
       "area": 1,
@@ -2482,7 +2518,7 @@
       "evoSynergy": [
         "REGEN"
       ],
-      "price": 10,
+      "price": 120,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -2539,7 +2575,7 @@
       "frameName": "TP_STARFLAIL2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 4400,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -2582,6 +2618,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 60,
+      "price": 200,
       "poolLimit": 200,
       "power": 1,
       "area": 1,
@@ -2642,6 +2679,7 @@
         "MOVESPEED"
       ],
       "rarity": 1,
+      "price": 7200,
       "power": 5,
       "area": 2,
       "speed": 1,
@@ -2673,6 +2711,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 60,
+      "price": 100,
       "poolLimit": 200,
       "power": 1,
       "area": 1.6,
@@ -2738,6 +2777,7 @@
         "AMOUNT"
       ],
       "rarity": 1,
+      "price": 3600,
       "interval": 1500,
       "repeatInterval": 120,
       "power": 6,
@@ -2767,7 +2807,7 @@
       "evoSynergy": [
         "PARMA"
       ],
-      "price": 10,
+      "price": 140,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -2832,6 +2872,7 @@
         "PARMA"
       ],
       "rarity": 1,
+      "price": 5040,
       "power": 2,
       "area": 1.2,
       "speed": 1.2,
@@ -2859,7 +2900,7 @@
       "evoSynergy": [
         "REGEN"
       ],
-      "price": 10,
+      "price": 120,
       "tips": "-",
       "isUnlocked": false,
       "sealable": true,
@@ -2924,6 +2965,7 @@
         "REGEN"
       ],
       "rarity": 1,
+      "price": 4400,
       "power": 2,
       "area": 1.2,
       "speed": 1.2,
@@ -2951,7 +2993,7 @@
       "evoSynergy": [
         "POWER"
       ],
-      "price": 100,
+      "price": 120,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -3010,7 +3052,7 @@
       "frameName": "TP_SLASH2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 4400,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -3040,7 +3082,7 @@
   "TP_ALUCARDSWORD1": [
     {
       "level": 1,
-      "price": 10,
+      "price": 97,
       "contentGroup": "THOSE_PEOPLE",
       "name": "Alucart Sworb",
       "bulletType": "TP_ALUCARDSWORD1",
@@ -3093,7 +3135,7 @@
   "TP_ALUCARDSWORD2": [
     {
       "level": 1,
-      "price": 10,
+      "price": 3400,
       "contentGroup": "THOSE_PEOPLE",
       "name": "Alucard Swords",
       "bulletType": "TP_ALUCARDSWORD2",
@@ -3174,6 +3216,7 @@
       "interval": 10000,
       "repeatInterval": 500,
       "rarity": 1,
+      "price": 103200,
       "hasUniqueRequirements": true,
       "hitBoxDelay": 500,
       "canCrit": true,
@@ -3192,7 +3235,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
 	  "evoInto": "TP_CONFODERE2",
-      "price": 50,
+      "price": 160,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -3238,7 +3281,7 @@
       "frameName": "TP_CONFODERE2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 50,
+      "price": 3300,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -3293,7 +3336,7 @@
       "frameName": "TP_CONFODERE3.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 50,
+      "price": 12480,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -3338,7 +3381,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_ENERGY1",
-      "price": 10,
+      "price": 100,
       "description": "Fires two bouncing projectiles. Duration affected by Amount.",
       "tips": "Best with: Speed, Duration.",
       "texture": "TP_items",
@@ -3404,7 +3447,7 @@
       "frameName": "TP_ENERGY2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3600,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -3451,6 +3494,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 60,
+      "price": 180,
       "poolLimit": 100,
       "power": 1,
       "area": 1,
@@ -3510,6 +3554,7 @@
         "DOMINION"
       ],
       "rarity": 1,
+      "price": 6600,
       "poolLimit": 100,
       "power": 5,
       "area": 1.5,
@@ -3537,7 +3582,8 @@
       "collectionFrame": "frameB_sotn.png",
       "isUnlocked": false,
       "sealable": true,
-      "rarity": 70,
+      "rarity": 160,
+      "price": 160,
       "poolLimit": 100,
       "power": 2,
       "secondaryPower": 1,
@@ -3552,7 +3598,10 @@
         "TP_CUSTOS2",
         "TP_CUSTOS3"
       ],
-      "knockback": 2
+      "knockback": 2,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "area": 0.1
@@ -3587,6 +3636,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 70,
+      "price": 160,
       "poolLimit": 100,
       "power": 2,
       "secondaryPower": 1,
@@ -3640,6 +3690,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 70,
+      "price": 160,
       "poolLimit": 100,
       "description": "Boosts aggressive stats but decreases defensive stats.  ",
       "power": 0.8,
@@ -3709,7 +3760,11 @@
         "TP_CUSTOS3"
       ],
       "rarity": 1,
-      "knockback": 2
+      "price": 28000,
+      "knockback": 2,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "TP_DOMINUS1": [
@@ -3722,7 +3777,7 @@
       "frameName": "TP_DOMINUS1.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 1665,
+      "price": 166,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -3747,7 +3802,10 @@
         "TP_DOMINUS3"
       ],
       "evoInto": "TP_DOMINUS4",
-      "unexcludeSelf": true
+      "unexcludeSelf": true,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "speed": 0.5
@@ -3775,7 +3833,7 @@
       "frameName": "TP_DOMINUS2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 1665,
+      "price": 166,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -3833,7 +3891,7 @@
       "frameName": "TP_DOMINUS3.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 1665,
+      "price": 166,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -3885,7 +3943,7 @@
       "frameName": "TP_DOMINUS4.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 1665,
+      "price": 28400,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -3921,7 +3979,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_RAPIDUS1",
-      "price": 100,
+      "price": 120,
       "name": "Sonic Dash",
       "description": "Increases Move Speed and damages nearby enemies. Area and Speed increase damage.",
       "tips": "Ignores: Amount.",
@@ -3979,7 +4037,7 @@
       "contentGroup": "THOSE_PEOPLE",
       "sealable": true,
       "bulletType": "TP_RAPIDUS2",
-      "price": 100,
+      "price": 4400,
       "name": "Rapidus Fio",
       "description": "Evolved Sonic Dash. Also provides a Shield when firing.",
       "tips": "Requires: .",
@@ -4024,6 +4082,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 60,
+      "price": 160,
       "poolLimit": 200,
       "power": 1,
       "area": 0.8,
@@ -4066,7 +4125,7 @@
       "frameName": "TP_LIGHT2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3400,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -4117,6 +4176,7 @@
       "isUnlocked": false,
       "sealable": true,
       "rarity": 60,
+      "price": 160,
       "poolLimit": 200,
       "power": 1,
       "area": 0.8,
@@ -4159,7 +4219,7 @@
       "frameName": "TP_DARK2.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 10,
+      "price": 3400,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -4207,7 +4267,7 @@
       "frameName": "TP_UNIVERSITAS.png",
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
-      "price": 1000,
+      "price": 12480,
       "description": "-",
       "tips": "-",
       "isUnlocked": true,
@@ -4247,6 +4307,7 @@
       "collectionFrame": "frameB_sotn.png",
       "frameName": "TP_MORNINGSTAR.png",
       "rarity": 2,
+      "price": 600,
       "dropRateAffectedByLuck": true,
       "interval": 9007199254740991,
       "repeatInterval": 9007199254740991,
@@ -4272,6 +4333,7 @@
       "collectionFrame": "frameB_sotn.png",
       "frameName": "TP_COATOFARMS.png",
       "rarity": 2,
+      "price": 600,
       "dropRateAffectedByLuck": true,
       "interval": 9007199254740991,
       "repeatInterval": 9007199254740991,
@@ -4297,6 +4359,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
       "rarity": 2,
+      "price": 600,
       "dropRateAffectedByLuck": true,
       "interval": 9007199254740991,
       "repeatInterval": 9007199254740991,
@@ -4322,6 +4385,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
       "rarity": 2,
+      "price": 600,
       "dropRateAffectedByLuck": true,
       "interval": 9007199254740991,
       "repeatInterval": 9007199254740991,
@@ -4347,6 +4411,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
       "rarity": 2,
+      "price": 600,
       "dropRateAffectedByLuck": true,
       "interval": 9007199254740991,
       "repeatInterval": 9007199254740991,
@@ -4445,6 +4510,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 350,
       "repeatInterval": 50,
       "power": 3.3,
@@ -4546,6 +4612,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 2000,
       "duration": 2000,
       "hitBoxDelay": 1000,
@@ -4642,6 +4709,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 4500,
       "duration": 2000,
       "hitBoxDelay": 1000,
@@ -4653,7 +4721,10 @@
       "knockback": 5,
       "critChance": 0.05,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "TP_AURABLAST_WEAPON": [
@@ -4743,6 +4814,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 7500,
       "duration": 2500,
       "hitBoxDelay": 500,
@@ -4752,7 +4824,10 @@
       "speed": 1,
       "amount": 4,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "TP_LAPISTE1": [
@@ -4767,7 +4842,6 @@
 	  "evoSynergy": [
         "TRIASSO3"
       ],
-      "price": 2800,
       "isEvolution": false,
       "hidden": true,
       "isUnlocked": false,
@@ -4775,6 +4849,7 @@
       "unexcludeSelf": true,
       "poolLimit": 100,
       "rarity": 80,
+      "price": 2800,
       "interval": 2000,
       "hitBoxDelay": 150,
       "repeatInterval": 0,
@@ -4834,6 +4909,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 800,
       "duration": 1400,
       "repeatInterval": 40,
@@ -4859,13 +4935,13 @@
       "evoSynergy": [
         "PANDORA"
       ],
-      "price": 2800,
       "hidden": true,
       "isUnlocked": false,
       "sealable": true,
       "unexcludeSelf": true,
       "poolLimit": 100,
       "rarity": 80,
+      "price": 2800,
       "interval": 1400,
       "repeatInterval": 0,
       "power": 0.65,
@@ -4928,6 +5004,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 1500,
       "repeatInterval": 100,
       "power": 7.7,
@@ -4967,7 +5044,10 @@
       "knockback": 0,
       "interval": 10000,
       "repeatInterval": 200,
-      "unexcludeSelf": true
+      "unexcludeSelf": true,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "area": 0.3
@@ -5015,6 +5095,7 @@
       "sealable": true,
       "poolLimit": 200,
       "rarity": 1,
+      "price": 2800,
       "interval": 6000,
       "repeatInterval": 100,
       "hitBoxDelay": 1000,
@@ -5023,7 +5104,10 @@
       "speed": 1,
       "amount": 2,
       "duration": 2000,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "TP_NEUTRON_WEAPON": [
@@ -5100,6 +5184,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 1000,
       "duration": 3000,
       "repeatInterval": 0,
@@ -5199,6 +5284,7 @@
       "sealable": true,
       "poolLimit": 200,
       "rarity": 1,
+      "price": 2800,
       "interval": 10000,
       "duration": 2500,
       "hitBoxDelay": 500,
@@ -5208,7 +5294,10 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "TP_GRANDCROSS": [
@@ -5294,6 +5383,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 3000,
       "duration": 1000,
       "repeatInterval": 400,
@@ -5385,6 +5475,7 @@
       "sealable": true,
       "poolLimit": 200,
       "rarity": 1,
+      "price": 2800,
       "interval": 500,
       "duration": 2000,
       "hitBoxDelay": 500,
@@ -5479,6 +5570,7 @@
       "sealable": true,
       "poolLimit": 20,
       "rarity": 1,
+      "price": 2800,
       "interval": 60000,
       "duration": 1000,
       "repeatInterval": 1500,
@@ -5575,6 +5667,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 4000,
       "duration": 1000,
       "repeatInterval": 50,
@@ -5664,6 +5757,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 4500,
       "duration": 1000,
       "repeatInterval": 0,
@@ -5759,6 +5853,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 60000,
       "duration": 1000,
       "repeatInterval": 0,
@@ -5783,7 +5878,6 @@
 	  "evoSynergy": [
         "VORTEX"
       ],
-      "price": 2800,
       "isEvolution": false,
       "hidden": true,
       "isUnlocked": false,
@@ -5791,6 +5885,7 @@
       "unexcludeSelf": true,
       "poolLimit": 100,
       "rarity": 20,
+      "price": 2800,
       "interval": 8000,
       "duration": 1200,
       "hitBoxDelay": 1000,
@@ -5853,6 +5948,7 @@
       "sealable": true,
       "poolLimit": 100,
       "rarity": 1,
+      "price": 2800,
       "interval": 1000,
       "duration": 1300,
       "repeatInterval": 0,
@@ -5878,7 +5974,7 @@
       "rarity": 20,
       "poolLimit": 50,
       "sealable": true,
-      "price": 1000,
+      "price": 120,
       "power": 1,
       "area": 0.6,
       "speed": 0.7,
@@ -5932,7 +6028,7 @@
       "rarity": 20,
       "poolLimit": 50,
       "sealable": true,
-      "price": 1000,
+      "price": 120,
       "power": 1,
       "area": 0.6,
       "speed": 0.7,
@@ -5986,7 +6082,7 @@
       "rarity": 20,
       "poolLimit": 50,
       "sealable": true,
-      "price": 1000,
+      "price": 120,
       "power": 1,
       "area": 1,
       "speed": 1,
@@ -6037,7 +6133,7 @@
       "rarity": 20,
       "poolLimit": 50,
       "sealable": true,
-      "price": 1000,
+      "price": 120,
       "power": 1,
       "area": 1,
       "speed": 0.6,
@@ -6110,7 +6206,7 @@
       "rarity": 1,
       "poolLimit": 100,
       "sealable": true,
-      "price": 1000,
+      "price": 22000,
       "power": 1,
       "area": 1,
       "speed": 1,
@@ -6133,6 +6229,7 @@
       "texture": "TP_items",
       "collectionFrame": "frameB_sotn.png",
       "rarity": 6,
+      "price": 500,
       "dropRateAffectedByLuck": true,
       "interval": 9007199254740991,
       "repeatInterval": 9007199254740991,
@@ -6237,7 +6334,10 @@
       "hitsWalls": false,
       "critChance": 0.3,
       "critMul": 2,
-      "knockback": 0.5
+      "knockback": 0.5,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "interval": -500,
@@ -6759,6 +6859,7 @@
       "isSpecialOnly": true,
       "poolLimit": 20,
       "rarity": 1,
+      "price": 2800,
       "interval": 60000,
       "duration": 1000,
       "repeatInterval": 1500,

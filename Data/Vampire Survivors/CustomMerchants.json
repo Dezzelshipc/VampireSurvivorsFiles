@@ -33,6 +33,7 @@
     "portraitSpriteTexture": "UI",
     "staticSprite": "Xanthia_01",
     "staticSpriteTexture": "character_xanthia",
+    "stayIfSoldOut": true,
 	"bodyOffset": {
       "x": 0,
       "y": 16
@@ -57,5 +58,38 @@
     "hideBackgroundMask": true,
     "customCooldown": 7000,
     "merchantInventoryItems": []
+  },
+  "EX_BIGTROUBLER": {
+    "merchantCharacter": "EX_BIGTROUBLER",
+    "inventoryType": "BIGTROUBLER",
+    "isAnimated": true,
+    "portraitSprite": "mercTroubler",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "player_bigtroubler_float_01",
+    "staticSpriteTexture": "character_bigtroubler",
+    "stayIfSoldOut": true,
+    "bodyOffset": {
+      "x": 0,
+      "y": 16
+    },
+    "textLocKey": "merc_EX_BIGTROUBLER",
+    "merchantInventoryItems": [
+      "RELIC_GREENEYES",
+      "RELIC_SURVAROCCHI"
+    ]
+  },
+  "EX_GLAUCUS": {
+    "merchantCharacter": "EX_GLAUCUS",
+    "inventoryType": "STAKETOYOURHEART",
+    "portraitSprite": "glaucus32",
+    "portraitSpriteTexture": "items",
+    "staticSprite": "glaucus",
+    "staticSpriteTexture": "items",
+    "textLocKey": "merc_EX_GLAUCUS",
+    "merchantInventory": [],
+    "bodyOffset": {
+      "x": 25,
+      "y": 12
+    }
   }
 }

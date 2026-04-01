@@ -4506,7 +4506,8 @@
     }
   ],
   "SIGMA": [
-    {
+    { 
+      "contentGroup": "EXTRA",  
       "hidden": true,
       "level": 1,
       "startingWeapon": "VICTORY",
@@ -4620,6 +4621,7 @@
   ],
   "TUPU": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": false,
       "level": 1,
@@ -4735,6 +4737,7 @@
   ],
   "EX_ZIAPPUNTA": [
     {
+      "contentGroup": "EXTRA",
       "hidden":     true,
       "secret":     false,
       "isBought":   false,
@@ -4819,8 +4822,112 @@
       "growth": -1
     }
   ],
+  "EX_BIGTROUBLER": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EX_FLIK1",
+      "prefix": "Big",
+      "charName": "Troubler",
+      "surname": "",
+      "description": "Activates his main weapon when picking up Gold Coins. Uses Gold Coins as a damage barrier.",
+      "spriteName": "player_bigtroubler_float_01.png",
+      "textureName": "character_bigtroubler",
+      "walkingFrames": 4,
+      "currentSkin": "DEFAULT",
+      "portraitName": "p_bigTroubler.png",
+	  "bodyOffset": {
+        "x": 9.5,
+        "y": 22
+      },
+	  "headOffsets": [
+        {
+          "x": -3,
+          "y": 5
+        }
+      ],
+      "isBought": false,
+      "price": 50000,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.3,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "EX_FLIK1",
+        "EX_FLIK1",
+        "EX_FLIK1",
+        "EX_FLIK1",
+        "EX_FLIK1",
+        "EX_FLIK1",
+        "EX_FLIK1",
+        "AMOUNT",
+        "AMOUNT",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "LUCK",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "REVIVAL",
+        "REVIVAL",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ],
+      "hiddenWeapons": [],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "SHEMOONITA": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": false,
       "level": 1,
@@ -4949,8 +5056,216 @@
       "growth": -1
     }
   ],
+  "EX_PARACOOLIO": [
+    {
+      "contentGroup": "EXTRA",
+      "level": 1,
+      "startingWeapon": "EX_PENSHIN",
+      "cooldown": 1,
+      "prefix": "Para",
+      "charName": "Coolio",
+      "surname": "",
+      "textureName": "character_paraCoolio",
+      "spriteName": "ParaCoolio_i01.png",
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "DEFAULT",
+          "textureName": "character_paraCoolio",
+          "spriteName": "ParaCoolio_i01.png",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "bodyOffset": {
+			"x": 8.5,
+			"y": 23
+		  },
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EX_PENSHIN_STATIC7",
+          "skinType": "SKIN_KOOLIO_DOLPHIN_SPEED",
+          "name": "SKIN_KOOLIO_DOLPHIN_SPEED",
+          "textureName": "character_paraCoolio",
+          "spriteName": "ParaCoolio2_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "hidden": false,
+          "bodyOffset": {
+			"x": 10.5,
+			"y": 23
+		  },
+          "headOffsets": [
+            {
+              "x": 7,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EX_PENSHIN_STATIC2",
+          "skinType": "SKIN_KOOLIO_SHARK_MIGHT",
+          "name": "SKIN_KOOLIO_SHARK_MIGHT",
+          "textureName": "character_paraCoolio",
+          "spriteName": "ParaCoolio3_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "hidden": false,
+          "bodyOffset": {
+            "x": 11,
+            "y": 23
+          },
+          "headOffsets": [
+            {
+              "x": 7,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EX_PENSHIN_STATIC3",
+          "skinType": "SKIN_KOOLIO_SQUID_AMOUNT",
+          "name": "SKIN_KOOLIO_SQUID_AMOUNT",
+          "textureName": "character_paraCoolio",
+          "spriteName": "ParaCoolio4_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "hidden": false,
+          "bodyOffset": {
+            "x": 11.5,
+            "y": 25
+          },
+          "headOffsets": [
+            {
+              "x": 8,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EX_PENSHIN_STATIC4",
+          "skinType": "SKIN_KOOLIO_CRAB_AREA",
+          "name": "SKIN_KOOLIO_CRAB_AREA",
+          "textureName": "character_paraCoolio",
+          "spriteName": "ParaCoolio5_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "hidden": false,
+          "bodyOffset": {
+			"x": 9.5,
+			"y": 23
+		  },
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EX_PENSHIN_STATIC1",
+          "skinType": "SKIN_KOOLIO_JELLY_DURATION",
+          "name": "SKIN_KOOLIO_JELLY_DURATION",
+          "textureName": "character_paraCoolio",
+          "spriteName": "ParaCoolio6_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "hidden": false,
+          "bodyOffset": {
+			"x": 10,
+			"y": 23
+		  },
+          "headOffsets": [
+            {
+              "x": 6,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "startingWeapon": "EX_PENSHIN_STATIC6",
+          "skinType": "SKIN_KOOLIO_SWAP_1",
+          "name": "SKIN_KOOLIO_SWAP_1",
+          "textureName": "character_paraCoolio",
+          "spriteName": "ParaCoolio1_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "hidden": false,
+          "bodyOffset": {
+            "x": 11.5,
+            "y": 25
+          },
+          "headOffsets": [
+            {
+              "x": 8,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "portraitName": "p_paraKooleo.png",
+      "walkingFrames": 4,
+      "description": "",
+      "hidden": true,
+      "unlocked": false,
+      "isBought": false,
+      "price": 153,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "enemiesKilled": 0,
+      "stageData": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.3,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1.3,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "AMOUNT","AMOUNT",
+        "AREA","AREA","AREA","AREA","AREA",
+        "SPEED","SPEED","SPEED","SPEED","SPEED",
+        "DURATION","DURATION","DURATION","DURATION","DURATION",
+        "COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN","COOLDOWN"
+      ]
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "SANTA": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": false,
       "level": 1,
@@ -5097,6 +5412,7 @@
   ],
   "YOLO": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": false,
       "level": 1,
@@ -5196,6 +5512,7 @@
   ],
   "EX_CHULAREH": [
     {
+      "contentGroup": "EXTRA",
       "hidden":     true,
       "secret":     false,
       "isBought":   false,
@@ -5290,6 +5607,7 @@
   ],
   "SPACEDUDE": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": false,
       "level": 1,
@@ -5401,6 +5719,7 @@
   ],
   "BATSBATSBATS": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": true,
       "level": 1,
@@ -5799,6 +6118,7 @@
   ],
   "ROSE": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": true,
       "level": 1,
@@ -5927,6 +6247,7 @@
   ],
   "TORINO": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": true,
       "level": 1,
@@ -6015,6 +6336,7 @@
   ],
   "SCOREJ": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": true,
       "level": 1,
@@ -6118,6 +6440,7 @@
   ],
   "GYORUNTIN": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": true,
       "level": 1,
@@ -6229,6 +6552,7 @@
   ],
   "EX_GIOCARE": [
     {
+      "contentGroup": "EXTRA",
       "hidden":     true,
       "secret":     true,
       "isBought":   false,
@@ -6316,6 +6640,7 @@
   ],
   "SPACEDUDETTE": [
     {
+      "contentGroup": "EXTRA",
       "hidden": true,
       "secret": true,
       "level": 1,
@@ -6670,6 +6995,390 @@
       ],
       "hiddenWeapons": [
       ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_SOB1": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "SCYTHE",
+      "prefix": "Mask of the",
+      "charName": "Red Death",
+      "surname": "",
+      "textureName": "character_reddeath",
+      "spriteName": "newXLReaper_i01.png",
+      "portraitName": "p_reddeath.png",
+      "walkingFrames": 5,
+      "description": "A blasphemous mockery.",
+      "isBought": false,
+      "price": 666,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "currentSkin": "DEFAULT",
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp":          255,
+      "armor":          0,
+      "regen":          0,
+      "moveSpeed":      2,
+      "power":          1.2,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [ ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_SOB2": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EX_GEMCIRCLE",
+      "prefix": "Mask of the",
+      "charName": "Red Death",
+      "surname": "",
+      "textureName": "character_reddeath",
+      "spriteName": "newXLReaper_i01.png",
+      "portraitName": "p_reddeath.png",
+      "walkingFrames": 5,
+      "description": "A blasphemous mockery.",
+      "isBought": false,
+      "price": 666,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "currentSkin": "DEFAULT",
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp":          255,
+      "armor":          0,
+      "regen":          0,
+      "moveSpeed":      2,
+      "power":          1.2,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [ ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_SOB3": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EX_GHOSTSPIRAL",
+      "prefix": "Mask of the",
+      "charName": "Red Death",
+      "surname": "",
+      "textureName": "character_reddeath",
+      "spriteName": "newXLReaper_i01.png",
+      "portraitName": "p_reddeath.png",
+      "walkingFrames": 5,
+      "description": "A blasphemous mockery.",
+      "isBought": false,
+      "price": 666,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "currentSkin": "DEFAULT",
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp":          255,
+      "armor":          0,
+      "regen":          0,
+      "moveSpeed":      2,
+      "power":          1.2,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [ ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_SOB4": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "FLOOD",
+      "prefix": "Mask of the",
+      "charName": "Red Death",
+      "surname": "",
+      "textureName": "character_reddeath",
+      "spriteName": "newXLReaper_i01.png",
+      "portraitName": "p_reddeath.png",
+      "walkingFrames": 5,
+      "description": "A blasphemous mockery.",
+      "isBought": false,
+      "price": 666,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "currentSkin": "DEFAULT",
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp":          255,
+      "armor":          0,
+      "regen":          0,
+      "moveSpeed":      2,
+      "power":          1.2,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [ ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_SOB5": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EX_WINGCIRCLE",
+      "prefix": "Mask of the",
+      "charName": "Red Death",
+      "surname": "",
+      "textureName": "character_reddeath",
+      "spriteName": "newXLReaper_i01.png",
+      "portraitName": "p_reddeath.png",
+      "walkingFrames": 5,
+      "description": "A blasphemous mockery.",
+      "isBought": false,
+      "price": 666,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "currentSkin": "DEFAULT",
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp":          255,
+      "armor":          0,
+      "regen":          0,
+      "moveSpeed":      2,
+      "power":          1.2,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [ ],
+      "enemiesKilled": 0,
+      "stageData": []
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "FOLLOWER_SOB6": [
+    {
+      "alwaysHidden": true,
+      "hidden": true,
+      "secret": false,
+      "level": 1,
+      "startingWeapon": "EX_OZMIC",
+      "prefix": "Mask of the",
+      "charName": "Red Death",
+      "surname": "",
+      "textureName": "character_reddeath",
+      "spriteName": "newXLReaper_i01.png",
+      "portraitName": "p_reddeath.png",
+      "walkingFrames": 5,
+      "description": "A blasphemous mockery.",
+      "isBought": false,
+      "price": 666,
+      "completedStages": [],
+      "survivedMinutes": 0,
+      "currentSkin": "DEFAULT",
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp":          255,
+      "armor":          0,
+      "regen":          0,
+      "moveSpeed":      2,
+      "power":          1.2,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [ ],
       "enemiesKilled": 0,
       "stageData": []
     },

@@ -5,7 +5,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STRING",
-      "price": 300,
+      "price": 90,
       "name": "SpellString",
       "description": "Strikes at nearby enemies. Damage multiplied by Speed.",
       "tips": "Ignores: Area, Duration.",
@@ -59,7 +59,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STREAM",
-      "price": 300,
+      "price": 90,
       "name": "SpellStream",
       "description": "Generates an expanding damaging zone. Damage multiplied by Area.",
       "tips": "Ignores: Amount.",
@@ -113,7 +113,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STRIKE",
-      "price": 300,
+      "price": 90,
       "name": "SpellStrike",
       "description": "Strikes at the nearest enemy. Damage further multiplied by Might.",
       "tips": "Ignores: Area, Duration.",
@@ -193,7 +193,8 @@
       "hitBoxDelay": 400,
       "hitsWalls": false,
       "critChance": 0.2,
-      "critMul": 2
+      "critMul": 2,
+      "price": 16000
     }
   ],
   "SWORD": [
@@ -202,7 +203,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SWORD",
-      "price": 800,
+      "price": 180,
       "name": "Eskizzibur",
       "description": "Attacks nearby enemies. Retaliates.",
       "tips": "Ignores: Speed, Duration.",
@@ -289,7 +290,8 @@
       "amount": 2,
       "critChance": 0.1,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 6500
     }
   ],
   "FLASHARROW": [
@@ -298,7 +300,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "FLASHARROW",
-      "price": 400,
+      "price": 180,
       "name": "Flash Arrow",
       "description": "Can deal critical damage. Amount affects damage instead.",
       "tips": "Ignores: Duration.",
@@ -389,7 +391,8 @@
       "amount": 1,
       "critChance": 0.2,
       "critMul": 2,
-      "hitsWalls": true
+      "hitsWalls": true,
+      "price": 6500
     }
   ],
   "PRISMATICMISS": [
@@ -398,7 +401,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "PRISMATICMISS",
-      "price": 800,
+      "price": 180,
       "name": "Prismatic Missile",
       "description": "Generates explosions around the character. Affected by the first chosen Arcana between II, XIV, or XIX.",
       "tips": "Ignores: duration.",
@@ -486,7 +489,8 @@
       "amount": 7,
       "duration": 500,
       "knockback": 1,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 6500
     }
   ],
   "SHADOWSERVANT": [
@@ -495,7 +499,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SHADOWSERVANT",
-      "price": 800,
+      "price": 200,
       "name": "Shadow Servant",
       "description": "Has a chance to slow enemies down.",
       "tips": "Best with: Luck.",
@@ -568,6 +572,7 @@
       "isUnlocked": true,
       "poolLimit": 150,
       "rarity": 1,
+      "price": 7200,
       "interval": 2000,
       "repeatInterval": 200,
       "power": 5,
@@ -587,7 +592,7 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "PARTY",
-      "price": 1,
+      "price": 79,
       "name": "Party Popper",
       "description": "Throws bouncing projectiles.",
       "tips": "Best with: Duration, Speed.",
@@ -644,6 +649,7 @@
       "unexcludeSelf": true,
       "isUnlocked": false,
       "rarity": 10,
+      "price": 200,
       "isPowerUp": true,
       "isSpecialOnly": true
     },

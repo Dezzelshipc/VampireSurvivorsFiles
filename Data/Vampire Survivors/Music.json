@@ -415,6 +415,24 @@
       "detune": -1000
     }
   },
+  "BGM_Seafloor": {
+    "title": "Murder on the Seafloor",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": "EX_LYCAEUM",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": true,
+    "icon": "stage_lycaeum_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.5,
+      "detune": -1000
+    }
+  },
   "BGM_BatCountry": {
     "title": "Mighty Illusion",
     "author": "Filippo Vicarelli",

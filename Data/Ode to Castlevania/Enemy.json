@@ -286,9 +286,9 @@
       "bName": "Gaibon",
       "enemyType": "TP_GAIBON",
       "colliderOverride": {
+        "offsetY": 25,
         "radius": 0.25,
-        "offsetX": 10,
-        "offsetY": 12.5
+        "offsetX": 10
       }
     }
   ],
@@ -607,9 +607,9 @@
       "bVariants": [],
       "enemyType": "TP_SUCCUBUS",
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetX": -3.5,
-        "offsetY": 0
+        "offsetY": 5,
+        "radius": 0.5,
+        "offsetX": 0
       }
     }
   ],
@@ -2344,9 +2344,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.325,
-        "offsetX": 0,
-        "offsetY": 10
+        "radius": 0.38,
+        "offsetX": 5.9,
+        "offsetY": -2
       }
     }
   ],
@@ -2445,9 +2445,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetX": -3,
-        "offsetY": 0
+        "offsetX": -8,
+        "offsetY": 0,
+        "radius": 0.6
       }
     }
   ],
@@ -2481,11 +2481,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.325,
-        "offsetX": 10,
-        "offsetY": 3,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": -5
+        "radius": 0.4,
+        "offsetX": 0,
+        "offsetY": -10
       }
     }
   ],
@@ -2522,11 +2520,9 @@
       ],
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.2,
-        "offsetX": 30,
-        "offsetY": 32.5,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": 20
+        "radius": 0.25,
+        "offsetX": 25,
+        "offsetY": 25
       }
     }
   ],
@@ -2562,12 +2558,10 @@
         "TP_CASTLE"
       ],
       "bHighlight": false,
-      "colliderOverride": {
-        "radius": 0.25,
-        "offsetX": 20,
-        "offsetY": 5,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": 5
+      "colliderOverride": {        
+        "radius": 0.27,
+        "offsetX": 9.7,
+        "offsetY": -14.1
       }
     }
   ],
@@ -2600,9 +2594,9 @@
       "colliderOverride": {
         "radius": 0.20,
         "offsetX": 2.5,
-        "offsetY": -10,
+        "offsetY": -9.8,
         "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": 50
+        "offsetXWhenFlipped": 45
       },
       "bName": "---",
       "bInclude": true,
@@ -2641,9 +2635,7 @@
       "colliderOverride": {
         "radius": 0.20,
         "offsetX": 2.5,
-        "offsetY": -10,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": 50
+        "offsetY": -9.8
       },
       "bName": "---",
       "bInclude": false,
@@ -2748,11 +2740,9 @@
         "TP_MENACE_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.3,
-        "offsetX": 27.5,
-        "offsetY": 12.5,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": -5
+        "radius": 0.35,
+        "offsetX": 17.5,
+        "offsetY": 6
       },
       "killedAmount": 0,
       "bName": "---",
@@ -2833,11 +2823,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.3,
-        "offsetX": 32.5,
-        "offsetY": 0,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": -20
+        "radius": 0.35,
+        "offsetX": 17,
+        "offsetY": -3.5
       }
     }
   ],
@@ -2987,11 +2975,9 @@
         "TP_BLACKMORE_CONDUCTOR_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetX": 0,
-        "offsetY": 4.5,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": -7.5
+        "radius": 0.5,
+        "offsetX": -5,
+        "offsetY": 0
       },
       "killedAmount": 0,
       "bName": "---",
@@ -3322,9 +3308,9 @@
       "xp": 30,
       "end": 29,
       "colliderOverride": {
-        "radius": 0.25,
-        "offsetX": 11,
-        "offsetY": -10
+        "radius": 0.3,
+        "offsetX": 10,
+        "offsetY": 3
       },
       "bInclude": false,
       "bHighlight": false,
@@ -3461,11 +3447,9 @@
       "idleFrameCount": 4,
       "end": 19,
       "colliderOverride": {
-        "radius": 0.325,
-        "offsetX": 10,
-        "offsetY": 5,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": -10
+        "radius": 0.35,
+        "offsetX": 11.3,
+        "offsetY": 6.2
       }
     }
   ],
@@ -3496,11 +3480,9 @@
       "idleFrameCount": 4,
       "end": 19,
       "colliderOverride": {
-        "radius": 0.325,
-        "offsetX": 10,
-        "offsetY": 5,
-        "updateBasedOnFlipX": true,
-        "offsetXWhenFlipped": -10
+        "radius": 0.35,
+        "offsetX": 11.3,
+        "offsetY": 6.2
       }
     }
   ],
@@ -3896,9 +3878,9 @@
         "TP_Succubus_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.25,
+        "radius": 0.35,
         "offsetX": 0,
-        "offsetY": 12.5
+        "offsetY": 7.5
       }
     }
   ],
@@ -4322,9 +4304,9 @@
         "TP_Succubus_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.25,
+        "radius": 0.35,
         "offsetX": 0,
-        "offsetY": 12.5
+        "offsetY": 7.5
       }
     }
   ],
@@ -4356,9 +4338,9 @@
         "TP_Succubus_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.25,
+        "radius": 0.35,
         "offsetX": 0,
-        "offsetY": 12.5
+        "offsetY": 7.5
       }
     }
   ],
@@ -4566,7 +4548,7 @@
       "colliderOverride": {
         "radius": 0.25,
         "offsetX": 10,
-        "offsetY": 15
+        "offsetY": 18.5
       }
     }
   ],
@@ -4595,7 +4577,7 @@
       "colliderOverride": {
         "radius": 0.25,
         "offsetX": 10,
-        "offsetY": 15
+        "offsetY": 18.5
       }
     }
   ],
@@ -5736,7 +5718,7 @@
       ],
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.35,
+        "radius": 0.48,
         "offsetX": 1.6,
         "offsetY": 0
       }
@@ -5773,9 +5755,9 @@
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
-        "radius": 0.325,
-        "offsetX": 0,
-        "offsetY": 10
+        "radius": 0.38,
+        "offsetX": 5.9,
+        "offsetY": -2
       }
     }
   ],

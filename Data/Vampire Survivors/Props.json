@@ -111,6 +111,13 @@
     "maxHp": 999,
     "destructibleType": "LAB_DOOR_B"
   },
+  "LYCA_DOOR": {
+    "textureName": "items",
+    "frameName": "lycaDoor1",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "LYCA_DOOR"
+  },
   "LAMPOST_SINGLE": {
     "textureName": "items",
     "frameName": "SingleLampost",

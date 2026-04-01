@@ -190,6 +190,7 @@
     ]
   },
   "ReachLV80InverseForest": {
+    "contentGroup": "EXTRA",
     "description": "Reach Level 80 in Inverse Mad Forest.",
     "hyperToUnlock": "BATCOUNTRY",
     "stageToUnlock": "BATCOUNTRY",
@@ -231,6 +232,7 @@
     ]
   },
   "ReachLV80InverseLibrary": {
+    "contentGroup": "EXTRA",
     "description": "Reach Level 80 in Inverse Inlaid Library.",
     "hyperToUnlock": "ASTRALSTAIR",
     "stageToUnlock": "ASTRALSTAIR",
@@ -272,6 +274,7 @@
     ]
   },
   "ReachLV80InverseWarehouse": {
+    "contentGroup": "EXTRA",
     "description": "Reach Level 80 in Inverse Dairy Plant.",
     "hyperToUnlock": "EX_MAZERELLA",
     "stageToUnlock": "EX_MAZERELLA",
@@ -304,6 +307,7 @@
     ]
   },
   "ReachLV80InverseTower": {
+    "contentGroup": "EXTRA",
     "description": "Reach Level 80 in Inverse Gallo Tower.",
     "hyperToUnlock": "TOWERBRIDGE",
     "stageToUnlock": "TOWERBRIDGE",
@@ -759,6 +763,7 @@
     ]
   },
   "SurviveUntilTheEndOfWhiteout": {
+    "contentGroup": "EXTRA",
     "description": "Survive 20 minutes in Whiteout.",
     "characterToUnlock": "SHEMOONITA",
     "requiresStage": "WHITEOUT",
@@ -792,7 +797,43 @@
       }
     ]
   },
+  "Survive20minutesInLycaeum": {
+    "contentGroup": "EXTRA",
+    "description": "Survive 20 minutes in The Lycaeum.",
+    "characterToUnlock": "EX_PARACOOLIO",
+    "requiresStage": "EX_LYCAEUM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "EX_LYCAEUM"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "Survive20minutesInLycaeum"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
+      }
+    ]
+  },
   "Survive20MinutesInLaborratory": {
+    "contentGroup": "EXTRA",
     "description": "Survive 20 minutes in Laborratory.",
     "characterToUnlock": "SANTA",
     "requiresStage": "LABORRATORY",
@@ -827,6 +868,7 @@
     ]
   },
   "EvolveOfGaea": {
+    "contentGroup": "EXTRA",
     "description": "Survive 20 minutes in The Coop.",
     "characterToUnlock": "YOLO",
     "requiresStage": "COOP",
@@ -857,6 +899,7 @@
     ]
   },
   "Survive20MinutesInWestwoods": {
+    "contentGroup": "EXTRA",
     "description": "Survive 20 minutes in Westwoods.",
     "characterToUnlock": "EX_CHULAREH",
     "requiresStage": "EX_WESTWOODS",
@@ -882,6 +925,7 @@
     ]
   },
   "Survive20MinutesInSpace54": {
+    "contentGroup": "EXTRA",
     "description": "Survive 20 minutes in Space 54.",
     "characterToUnlock": "SPACEDUDE",
     "requiresStage": "SPAZIE",
@@ -1265,6 +1309,7 @@
     ]
   },
   "GetGlassFandangoToLevel7": {
+    "contentGroup": "EXTRA",
     "description": "Get Glass Fandango to Level 7.",
     "weaponToUnlock": "ICELANCE",
     "requiresStage": "WHITEOUT",
@@ -1301,6 +1346,7 @@
     ]
   },
   "GetJavelinToLevel7": {
+    "contentGroup": "EXTRA",
     "description": "Get Santa Javelin to Level 7.",
     "weaponToUnlock": "SANTAJAVELIN",
     "requiresStage": "LABORRATORY",
@@ -1337,6 +1383,7 @@
     ]
   },
   "GetMagiStonetoLevel7": {
+    "contentGroup": "EXTRA",
     "description": "Get Magi-Stone to level 7.",
     "weaponToUnlock": "EX_MAGISTONE1",
     "requiresStage": "EX_WESTWOODS",
@@ -1364,6 +1411,7 @@
     ]
   },
   "GetPhas3rToLevel7": {
+    "contentGroup": "EXTRA",
     "description": "Get Phas3r to Level 7.",
     "weaponToUnlock": "PHASER",
     "requiresStage": "SPAZIE",
@@ -1758,6 +1806,7 @@
     ]
   },
   "FindAnArmaDio": {
+    "contentGroup": "EXTRA",
     "description": "Find an Arma Dio in Laborratory.",
     "weaponToUnlock": "ARMADIO",
     "requiresStage": "LABORRATORY",
@@ -1790,6 +1839,7 @@
     ]
   },
   "FindAParmAegis": {
+    "contentGroup": "EXTRA",
     "description": "Find a Parm Aegis in The Coop.",
     "weaponToUnlock": "PARMA",
     "requiresStage": "COOP",
@@ -1819,6 +1869,7 @@
     ]
   },
   "FindKaromasMana": {
+    "contentGroup": "EXTRA",
     "description": ".",
     "weaponToUnlock": "DOMINION",
     "requiresStage": "EX_WESTWOODS",
@@ -1844,6 +1895,7 @@
     ]
   },
   "FindManyOrologions": {
+    "contentGroup": "EXTRA",
     "description": "Find 20 Orologions.",
     "hyperToUnlock": "WHITEOUT",
     "stageToUnlock": "WHITEOUT",
@@ -1877,7 +1929,43 @@
       }
     ]
   },
+  "FindManyVacuums": {
+    "contentGroup": "EXTRA",
+    "description": "Find 50 Vacuums.",
+    "hyperToUnlock": "EX_LYCAEUM",
+    "stageToUnlock": "EX_LYCAEUM",
+    "requiresItem": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 50,
+        "RequiredItems": [
+          "VACUUM"
+        ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "FindManyVacuums"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
+      }
+    ]
+  },
   "FindManyRosaries": {
+    "contentGroup": "EXTRA",
     "description": "Find 33 Rosaries.",
     "hyperToUnlock": "LABORRATORY",
     "stageToUnlock": "LABORRATORY",
@@ -1912,6 +2000,7 @@
     ]
   },
   "FindManyChickens": {
+    "contentGroup": "EXTRA",
     "description": "Find 500 Floor Chickens.",
     "hyperToUnlock": "COOP",
     "stageToUnlock": "COOP",
@@ -1950,6 +2039,7 @@
     ]
   },
   "FindManyClovers": {
+    "contentGroup": "EXTRA",
     "description": "Find 20 Little Clovers.",
     "hyperToUnlock": "EX_WESTWOODS",
     "stageToUnlock": "EX_WESTWOODS",
@@ -1974,6 +2064,7 @@
     ]
   },
   "FindManyGoldenFinger": {
+    "contentGroup": "EXTRA",
     "description": "Find 5 Golden Fingers.",
     "hyperToUnlock": "SPAZIE",
     "stageToUnlock": "SPAZIE",
@@ -2008,6 +2099,7 @@
     ]
   },
   "HitManyEnemiesWithTrain": {
+    "contentGroup": "EXTRA",
     "description": "Hit a total of 2512 enemies with a train.",
     "hyperToUnlock": "CARLOCART",
     "stageToUnlock": "CARLOCART",
@@ -2372,6 +2464,14 @@
     "description": "Obtain Gracia's Mirror.",
     "relicToUnlock": "RELIC_MIRROR",
     "requiresItem": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_MIRROR"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2396,6 +2496,14 @@
     "description": "Obtain the Seventh Trumpet.",
     "relicToUnlock": "RELIC_TRUMPET",
     "requiresItem": "RELIC_YELLOW",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_TRUMPET"
+        ]
+      }
+    ],
     "PlatformsData": [
       {
         "Platfrom": "PS4",
@@ -2449,6 +2557,7 @@
     ]
   },
   "FindApoplexy": {
+    "contentGroup": "EXTRA",
     "description": "Find the Apoplexy at minute 09:00 in Bat Country.",
     "relicToUnlock": "RELIC_CHARM",
     "requiresItem": "RELIC_MIRROR",
@@ -2481,6 +2590,7 @@
     ]
   },
   "FindAntidote": {
+    "contentGroup": "EXTRA",
     "description": "Find the Antidote in Whiteout.",
     "relicToUnlock": "RELIC_ANTIDOTE",
     "requiresItem": "RELIC_MAP",
@@ -2512,7 +2622,41 @@
       }
     ]
   },
+  "BuyGreenEyesVizard": {
+    "contentGroup": "EXTRA",
+    "description": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+    "relicToUnlock": "RELIC_GREENEYES",
+    "requiresStage": "EX_WESTWOODS",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_GREENEYES"
+        ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "023",
+        "PS4NpServiceLabel": "0"
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "BuyGreenEyesVizard"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "99"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0023"
+      }
+    ]
+  },
   "FindTrisection": {
+    "contentGroup": "EXTRA",
     "description": "Find the Trisection in Astral Stair.",
     "relicToUnlock": "RELIC_TRISECTION",
     "requiresItem": "RELIC_MIRROR",
@@ -2545,6 +2689,7 @@
     ]
   },
   "FindBraveStory": {
+    "contentGroup": "EXTRA",
     "description": "Find the Brave Story at minute 21:00 in Space 54.",
     "relicToUnlock": "RELIC_BRAVESTORY",
     "requiresItem": "GOLDFINGER",
@@ -2577,6 +2722,7 @@
     ]
   },
   "FindChickenClock": {
+    "contentGroup": "EXTRA",
     "description": "Find the Roast chicken with a clock in the middle at the end of The Coop.",
     "relicToUnlock": "RELIC_SPEEDUP",
     "UnlockConditions": [
@@ -2601,6 +2747,7 @@
     ]
   },
   "FindMasquerade": {
+    "contentGroup": "EXTRA",
     "description": "Find the Masquerade in Westwoods.",
     "relicToUnlock": "RELIC_PARTY",
     "requiresStage": "EX_WESTWOODS",
@@ -2624,6 +2771,7 @@
     ]
   },
   "FindRecycle": {
+    "contentGroup": "EXTRA",
     "description": "Find the Wax Fetish in Mazerella.",
     "relicToUnlock": "RELIC_RECYCLE",
     "UnlockConditions": [
@@ -2646,6 +2794,7 @@
     ]
   },
   "FindChaosMalachite": {
+    "contentGroup": "EXTRA",
     "description": "Find the Chaos Malachite at minute 18:00 in Bat Country.",
     "relicToUnlock": "RELIC_MALACHITE",
     "requiresItem": "RELIC_MIRROR",
@@ -2678,6 +2827,7 @@
     ]
   },
   "FindChaosRosalia": {
+    "contentGroup": "EXTRA",
     "description": "Find the Chaos Rosalia in Astral Stair.",
     "relicToUnlock": "RELIC_ROSALIA",
     "requiresItem": "RELIC_MIRROR",
@@ -2710,6 +2860,7 @@
     ]
   },
   "FindChaosLazulia": {
+    "contentGroup": "EXTRA",
     "description": "Find the Chaos Lazulia in Mazerella.",
     "relicToUnlock": "RELIC_LAZULIA",
     "requiresItem": "RELIC_MIRROR",
@@ -2733,6 +2884,7 @@
     ]
   },
   "FindChaosAltemanna": {
+    "contentGroup": "EXTRA",
     "description": "Find the Chaos Altemanna in Tiny Bridge.",
     "relicToUnlock": "RELIC_ALTEMANNA",
     "requiresItem": "RELIC_MIRROR",
@@ -2947,6 +3099,7 @@
     ]
   },
   "Defeat0EnemiesInCoop": {
+    "contentGroup": "EXTRA",
     "description": "Defeat 0 enemies in The Coop.",
     "weaponToUnlock": "EX_GAEA1",
     "requiresStage": "COOP",
@@ -3193,6 +3346,7 @@
     ]
   },
   "DefeatManyBats": {
+    "contentGroup": "EXTRA",
     "description": "Defeat a total of 161616 bats.",
     "weaponToUnlock": "BATTILIA",
     "PlatformsData": [
@@ -3216,6 +3370,7 @@
     ]
   },
   "DefeatShootingEnemies": {
+    "contentGroup": "EXTRA",
     "description": "Defeat 1996 Shooting Enemies.",
     "weaponToUnlock": "EX_AMMO1",
     "PlatformsData": [
@@ -3440,6 +3595,31 @@
       {
         "Platfrom": "PS5",
         "Data": "0029"
+      }
+    ]
+  },
+  "DefeatBatDragons": {
+    "contentGroup": "EXTRA",
+    "description": "Defeat A Bat Dragon.",
+    "weaponToUnlock": "EX_FLIK1",
+    "requiresItem": "RELIC_GREENEYES",
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "DefeatBatDragons"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
       }
     ]
   },
@@ -5055,6 +5235,7 @@
     ]
   },
   "EvolveBattilia": {
+    "contentGroup": "EXTRA",
     "description": "Evolve the Pako Battiliar.",
     "characterToUnlock": "TUPU",
     "requiresWeapon": "BATTILIA",
@@ -5087,6 +5268,7 @@
     ]
   },
   "EvolveAmmoAppalate": {
+    "contentGroup": "EXTRA",
     "description": "Evolve Ammo Appalate.",
     "characterToUnlock": "EX_ZIAPPUNTA",
     "UnlockConditions": [
@@ -5105,6 +5287,40 @@
       {
         "Platfrom": "PS5",
         "Data": "0240"
+      }
+    ]
+  },
+  "EvolveUnearthlyBolt": {
+    "contentGroup": "EXTRA",
+    "description": "Evolve Unearthly Bolt.",
+    "characterToUnlock": "EX_BIGTROUBLER",
+    "requiresWeapon": "EX_FLIK1",
+    "requiresItem": "RELIC_GREENEYES",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "EX_FLIK2"
+        ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "EvolveUnearthlyBolt"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
       }
     ]
   },
@@ -5717,6 +5933,7 @@
     ]
   },
   "EvolveGlassFandango": {
+    "contentGroup": "EXTRA",
     "description": "Evolve the Glass Fandango.",
     "goldPrize": 500,
     "weaponIcon": "ICELANCE2",
@@ -5749,7 +5966,38 @@
       }
     ]
   },
+  "EvolvePenshin": {
+    "contentGroup": "EXTRA",
+    "description": "Morph a Penshin-Fatcha weapon 6 times.",
+    "weaponToUnlock": "EX_PENSHIN",
+    "weaponIcon": "EX_PENSHIN",
+    "requiresStage": "EX_LYCAEUM",
+    "UnlockConditions": [
+      {
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "EvolvePenshin"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
+      }
+    ]
+  },
   "EvolveJavelin": {
+    "contentGroup": "EXTRA",
     "description": "Evolve the Santa Javelin.",
     "goldPrize": 500,
     "weaponIcon": "SANTAJAVELIN2",
@@ -5783,6 +6031,7 @@
     ]
   },
   "EvolveOfGaea_Fix": {
+    "contentGroup": "EXTRA",
     "description": "Evolve the Gaze of Gaea.",
     "goldPrize": 500,
     "weaponIcon": "EX_GAEA2",
@@ -5807,6 +6056,7 @@
     ]
   },
   "EvolveMagiStone": {
+    "contentGroup": "EXTRA",
     "description": "Evolve the Magi-Stone.",
     "goldPrize": 500,
     "weaponIcon": "EX_MAGISTONE2",
@@ -5831,6 +6081,7 @@
     ]
   },
   "EvolvePhas3r": {
+    "contentGroup": "EXTRA",
     "description": "Evolve the Phas3r.",
     "goldPrize": 500,
     "weaponIcon": "PHASER2",
@@ -5888,6 +6139,7 @@
     ]
   },
   "CastForbiddenBox": {
+    "contentGroup": "EXTRA",
     "description": "Dare to cast the spell 'forbiddenbox'.",
     "stageToUnlock": "DEVILROOM",
     "mistery": true,
@@ -5919,6 +6171,7 @@
     ]
   },
   "ObtainDarkasso": {
+    "contentGroup": "EXTRA",
     "description": "Get possessed by the Darkasso.",
     "mistery": true,
     "relicToUnlock": "RELIC_DARKASSO",
@@ -5951,7 +6204,34 @@
       }
     ]
   },
+  "Dark_00Troubler": {
+    "contentGroup": "EXTRA",
+    "description": "Collect 100,000 Gold Coins in a single run with Big Troubler.",
+    "arcanaToUnlock": "22",
+    "requiresChar": "EX_BIGTROUBLER",
+    "requiresItem": "RELIC_DARKASSO",
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "Dark_00Troubler"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
+      }
+    ]
+  },
   "Dark_01SpaceDude": {
+    "contentGroup": "EXTRA",
     "description": "Reach a Cooldown bonus of -85% with SpaceDude.",
     "arcanaToUnlock": "23",
     "requiresChar": "SPACEDUDE",
@@ -5977,6 +6257,7 @@
     ]
   },
   "Dark_03Gazebo": {
+    "contentGroup": "EXTRA",
     "description": "Eat as much as possible with Gazebo.",
     "arcanaToUnlock": "25",
     "requiresChar": "YOLO",
@@ -5997,6 +6278,7 @@
     ]
   },
   "Dark_05Appunta": {
+    "contentGroup": "EXTRA",
     "description": ".",
     "arcanaToUnlock": "27",
     "requiresChar": "EX_ZIAPPUNTA",
@@ -6013,6 +6295,7 @@
     ]
   },
   "Dark_06Darkasso": {
+    "contentGroup": "EXTRA",
     "description": "Get possessed by the Darkasso.",
     "arcanaToUnlock": "28",
     "requiresItem": "RELIC_DARKASSO",
@@ -6044,7 +6327,34 @@
       }
     ]
   },
+  "Dark_08ParaKooleo": {
+    "contentGroup": "EXTRA",
+    "description": "Trigger a Lavatrix Machina with Para Kooleo. ",
+    "arcanaToUnlock": "30",
+    "requiresChar": "EX_PARACOOLIO",
+    "requiresItem": "RELIC_DARKASSO",
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      }, 
+      {
+        "Platfrom": "Steam",
+        "Data": "Dark_08ParaKooleo"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
+      }
+    ]
+  },
   "Dark_10Santa": {
+    "contentGroup": "EXTRA",
     "description": "Trigger a Weird Souls Purifier with Santa Ladonna.",
     "arcanaToUnlock": "32",
     "requiresChar": "SANTA",
@@ -6070,6 +6380,7 @@
     ]
   },
   "Dark_12Shemoon": {
+    "contentGroup": "EXTRA",
     "description": "Trigger a Starry Heavens with She-Moon Eeta.",
     "arcanaToUnlock": "34",
     "requiresChar": "SHEMOONITA",
@@ -6095,6 +6406,7 @@
     ]
   },
   "Dark_13Chula": {
+    "contentGroup": "EXTRA",
     "description": ".",
     "arcanaToUnlock": "35",
     "requiresChar": "EX_CHULAREH",
@@ -6111,6 +6423,7 @@
     ]
   },
   "Dark_18Challenge": {
+    "contentGroup": "EXTRA",
     "description": ".",
     "arcanaToUnlock": "40",
     "requiresItem": "RELIC_DARKASSO",
@@ -6125,7 +6438,33 @@
       }
     ]
   },
+  "Dark_19Challenge": {
+    "contentGroup": "EXTRA",
+    "description": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+    "arcanaToUnlock": "41",
+    "requiresItem": "RELIC_DARKASSO",
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "Dark_19Challenge"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
+      }
+    ]
+  },
   "Dark_21Robert": {
+    "contentGroup": "EXTRA",
     "description": "Reach 665 MaxHealth with Bat Robbert.",
     "arcanaToUnlock": "43",
     "requiresChar": "TUPU",
@@ -6150,7 +6489,42 @@
       }
     ]
   },
+  "BuySurvarocchi": {
+    "contentGroup": "EXTRA",
+    "description": "Find and buy the Survarocchi in The Lycaeum.",
+    "relicToUnlock": "RELIC_SURVAROCCHI",
+    "requiresItem": "RELIC_MAP",
+    "requiresStage": "EX_LYCAEUM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_SURVAROCCHI"
+        ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "PS4",
+        "Data": "",
+        "PS4NpServiceLabel": ""
+      },
+      {
+        "Platfrom": "Steam",
+        "Data": "BuySurvarocchi"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": ""
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": ""
+      }
+    ]
+  },
   "CompleteAdv_WorldOfLightAndDark": {
+    "contentGroup": "EXTRA",
     "description": "Complete once the adventure World of Light and Dark.",
     "requiresChar": "IMELDA",
     "requiresItem": "RELIC_ATLAS",
@@ -6181,6 +6555,7 @@
     ]
   },
   "CompleteAdv_AGarlicParadise": {
+    "contentGroup": "EXTRA",
     "description": "Complete once the adventure A Garlic Paradise.",
     "requiresChar": "CAMILLO",
     "requiresItem": "RELIC_ATLAS",
@@ -6211,6 +6586,7 @@
     ]
   },
   "CompleteAdv_ToEndAnIceAge": {
+    "contentGroup": "EXTRA",
     "description": "Complete once the adventure To End An Ice Age.",
     "requiresChar": "SHEMOONITA",
     "requiresItem": "RELIC_ATLAS",

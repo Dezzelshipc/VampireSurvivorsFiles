@@ -4447,20 +4447,20 @@
   },
   "FB_17_Find__Barrier": {
     "description": {
-      "en": "Find 7 Barriers.",
+      "en": "Find 14 Barriers.",
       "fr": "Trouvez 7 Barrières.",
-      "it": "Trova 7 Barriere.",
-      "de": "Finde 7 Barrieren.",
-      "es": "Encuentra 7 barreras.",
-      "pt-BR": "Encontre 7 Barreiras.",
-      "pl": "Znajdź 7 Barierek.",
-      "ru": "Найдите 7 барьеров.",
-      "tr": "7 Bariyer bul.",
-      "zh-CN": "找到7个壁垒。",
-      "ja": "バリアを7見つける。",
-      "ko": "장벽 7개를 찾으세요.",
-      "zh-TW": "找到 7 面屏障。",
-      "uk": "Знайдіть 7 Бар'єрів."
+      "it": "Trova 14 Barriere.",
+      "de": "Finde 14 Barrieren.",
+      "es": "Encuentra 14 barreras.",
+      "pt-BR": "Encontre 14 Barreiras.",
+      "pl": "Znajdź 14 Barierek.",
+      "ru": "Найдите 14 барьеров.",
+      "tr": "14 Bariyer bul.",
+      "zh-CN": "找到14个壁垒。",
+      "ja": "バリアを14見つける。",
+      "ko": "장벽 14개를 찾으세요.",
+      "zh-TW": "找到 14 面屏障。",
+      "uk": "Знайдіть 14 Бар'єрів."
     }
   },
   "FB_18_SurvivPrism": {
@@ -4501,20 +4501,20 @@
   },
   "FB_20_Find__Rapid": {
     "description": {
-      "en": "Find 14 RapidFires.",
-      "fr": "Trouvez 14 La Rapide.",
-      "it": "Trova 14 Rapid Fire.",
-      "de": "Finde 14 Schnellfeuer.",
-      "es": "Encuentra 14 fuegos rápidos.",
-      "pt-BR": "Encontre 14 Tiros Rápidos.",
-      "pl": "Znajdź 14 Szybkich ogni.",
-      "ru": "Найдите 14 скорострельных пушек.",
-      "tr": "14 SeriAtış bul.",
-      "zh-CN": "找到14个速射。",
-      "ja": "高速射撃を14見つける。",
-      "ko": "래피드파이어 14개를 찾으세요.",
-      "zh-TW": "找到 14 個快速射擊。",
-      "uk": "Знайдіть 14 Скорострілок."
+      "en": "Find 21 RapidFires.",
+      "fr": "Trouvez 21 La Rapide.",
+      "it": "Trova 21 Rapid Fire.",
+      "de": "Finde 21 Schnellfeuer.",
+      "es": "Encuentra 21 fuegos rápidos.",
+      "pt-BR": "Encontre 21 Tiros Rápidos.",
+      "pl": "Znajdź 21 Szybkich ogni.",
+      "ru": "Найдите 21 скорострельных пушек.",
+      "tr": "21 SeriAtış bul.",
+      "zh-CN": "找到21个速射。",
+      "ja": "高速射撃を21見つける。",
+      "ko": "래피드파이어 21개를 찾으세요.",
+      "zh-TW": "找到 21 個快速射擊。",
+      "uk": "Знайдіть 21 Скорострілок."
     }
   },
   "FB_21_SurvivHoming": {
@@ -4735,7 +4735,7 @@
   },
   "Dark_01SpaceDude": {
     "description": {
-      "en": "End a run with a Cooldown bonus of -85% with Space Dude",
+      "en": "Escape while having a Cooldown bonus of -85% with Space Dude",
       "fr": "Atteignez un bonus de recharge de -85 % avec Gaillard de l'espace.",
       "it": "Raggiungi il -85% sul Tempo di ricarica con Tizio spaziale.",
       "de": "Erreiche mit dem Weltraumkumpel einen Abklingzeitbonus von -85%.",
@@ -8437,7 +8437,7 @@
   },
   "Dark_13Chula": {
     "description": {
-      "en": "Reach +999% Luck with Chula-Reh.",
+      "en": "Escape while having +999% Luck with Chula-Reh.",
       "fr": "Atteignez +999 % de chance avec Chula-Reh.",
       "it": "Raggiungi +999% di Fortuna con Chula-Reh.",
       "de": "Erreiche +999% Glück mit Chula-Reh.",
@@ -8883,6 +8883,204 @@
       "ko": "인페르놀라트로 최고 점수인 777점을 달성하세요.",
       "zh-TW": "使用煉獄使者達到 777 分的高分。",
       "uk": "Наберіть 777 очок із Пекеллатро."
+    }
+  },
+  "Dark_19Challenge": {
+    "description": {
+      "en": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "fr": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "it": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "de": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "es": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "pt-BR": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "pl": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "ru": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "tr": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "zh-CN": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "ja": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "ko": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "zh-TW": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "uk": "Survive 15 minutes in Inverse Boss Rash with Random Events and Random Level Ups."
+    }
+  },
+  "FindManyVacuums": {
+    "description": {
+      "en": "Find 50 Vacuums.",
+      "fr": "Find 50 Vacuums.",
+      "it": "Find 50 Vacuums.",
+      "de": "Find 50 Vacuums.",
+      "es": "Find 50 Vacuums.",
+      "pt-BR": "Find 50 Vacuums.",
+      "pl": "Find 50 Vacuums.",
+      "ru": "Find 50 Vacuums.",
+      "tr": "Find 50 Vacuums.",
+      "zh-CN": "Find 50 Vacuums.",
+      "ja": "Find 50 Vacuums.",
+      "ko": "Find 50 Vacuums.",
+      "zh-TW": "Find 50 Vacuums.",
+      "uk": "Find 50 Vacuums."
+    }
+  },
+  "Survive20minutesInLycaeum": {
+    "description": {
+      "en": "Survive 20 minutes in The Lycaeum.",
+      "fr": "Survive for 20 minutes in the Lycaeum.",
+      "it": "Survive for 20 minutes in the Lycaeum.",
+      "de": "Survive for 20 minutes in the Lycaeum.",
+      "es": "Survive for 20 minutes in the Lycaeum.",
+      "pt-BR": "Survive for 20 minutes in the Lycaeum.",
+      "pl": "Survive for 20 minutes in the Lycaeum.",
+      "ru": "Survive for 20 minutes in the Lycaeum.",
+      "tr": "Survive for 20 minutes in the Lycaeum.",
+      "zh-CN": "Survive for 20 minutes in the Lycaeum.",
+      "ja": "Survive for 20 minutes in the Lycaeum.",
+      "ko": "Survive for 20 minutes in the Lycaeum.",
+      "zh-TW": "Survive for 20 minutes in the Lycaeum.",
+      "uk": "Survive for 20 minutes in the Lycaeum."
+    }
+  },
+  "EvolvePenshin": {
+    "description": {
+      "en": "Evolve the Penshin Fatcha.",
+      "fr": "Evolve the Penshin Fatcha.",
+      "it": "Evolve the Penshin Fatcha.",
+      "de": "Evolve the Penshin Fatcha.",
+      "es": "Evolve the Penshin Fatcha.",
+      "pt-BR": "Evolve the Penshin Fatcha.",
+      "pl": "Evolve the Penshin Fatcha.",
+      "ru": "Evolve the Penshin Fatcha.",
+      "tr": "Evolve the Penshin Fatcha.",
+      "zh-CN": "Evolve the Penshin Fatcha.",
+      "ja": "Evolve the Penshin Fatcha.",
+      "ko": "Evolve the Penshin Fatcha.",
+      "zh-TW": "Evolve the Penshin Fatcha.",
+      "uk": "Evolve the Penshin Fatcha."
+    }
+  },
+  "EvolveAllPenshin_ParaKooleoSkin": {
+    "description": {
+      "en": "Wield every fish of the Penshin Fatcha in a single run.",
+      "fr": "Wield every fish of the Penshin Fatcha in a single run.",
+      "it": "Wield every fish of the Penshin Fatcha in a single run.",
+      "de": "Wield every fish of the Penshin Fatcha in a single run.",
+      "es": "Wield every fish of the Penshin Fatcha in a single run.",
+      "pt-BR": "Wield every fish of the Penshin Fatcha in a single run.",
+      "pl": "Wield every fish of the Penshin Fatcha in a single run.",
+      "ru": "Wield every fish of the Penshin Fatcha in a single run.",
+      "tr": "Wield every fish of the Penshin Fatcha in a single run.",
+      "zh-CN": "Wield every fish of the Penshin Fatcha in a single run.",
+      "ja": "Wield every fish of the Penshin Fatcha in a single run.",
+      "ko": "Wield every fish of the Penshin Fatcha in a single run.",
+      "zh-TW": "Wield every fish of the Penshin Fatcha in a single run.",
+      "uk": "Wield every fish of the Penshin Fatcha in a single run."
+    }
+  },
+  "BuyGreenEyesVizard": {
+    "description": {
+      "en": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "fr": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "it": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "de": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "es": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "pt-BR": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "pl": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "ru": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "tr": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "zh-CN": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "ja": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "ko": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "zh-TW": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "uk": "Find and buy the Green Eyes Vizard in The Lycaeum."
+    }
+  },
+  "BuySurvarocchi": {
+    "description": {
+      "en": "Find and buy the Survarocchi in The Lycaeum.",
+      "fr": "Find and buy the Survarocchi in The Lycaeum.",
+      "it": "Find and buy the Survarocchi in The Lycaeum.",
+      "de": "Find and buy the Survarocchi in The Lycaeum.",
+      "es": "Find and buy the Survarocchi in The Lycaeum.",
+      "pt-BR": "Find and buy the Survarocchi in The Lycaeum.",
+      "pl": "Find and buy the Survarocchi in The Lycaeum.",
+      "ru": "Find and buy the Survarocchi in The Lycaeum.",
+      "tr": "Find and buy the Survarocchi in The Lycaeum.",
+      "zh-CN": "Find and buy the Survarocchi in The Lycaeum.",
+      "ja": "Find and buy the Survarocchi in The Lycaeum.",
+      "ko": "Find and buy the Survarocchi in The Lycaeum.",
+      "zh-TW": "Find and buy the Survarocchi in The Lycaeum.",
+      "uk": "Find and buy the Survarocchi in The Lycaeum."
+    }
+  },
+  "Dark_08ParaKooleo": {
+    "description": {
+      "en": "Trigger a Lavatrix Machina with Para Kooleo.",
+      "fr": "Trigger a Lavatrix Machina with Para Coolio.",
+      "it": "Trigger a Lavatrix Machina with Para Coolio.",
+      "de": "Trigger a Lavatrix Machina with Para Coolio.",
+      "es": "Trigger a Lavatrix Machina with Para Coolio.",
+      "pt-BR": "Trigger a Lavatrix Machina with Para Coolio.",
+      "pl": "Trigger a Lavatrix Machina with Para Coolio.",
+      "ru": "Trigger a Lavatrix Machina with Para Coolio.",
+      "tr": "Trigger a Lavatrix Machina with Para Coolio.",
+      "zh-CN": "Trigger a Lavatrix Machina with Para Coolio.",
+      "ja": "Trigger a Lavatrix Machina with Para Coolio.",
+      "ko": "Trigger a Lavatrix Machina with Para Coolio.",
+      "zh-TW": "Trigger a Lavatrix Machina with Para Coolio.",
+      "uk": "Trigger a Lavatrix Machina with Para Coolio."
+    }
+  },
+  "DefeatBatDragons": {
+    "description": {
+      "en": "Defeat 1 Bat Dragon.",
+      "fr": "Defeat 1 Bat Dragon.",
+      "it": "Defeat 1 Bat Dragon.",
+      "de": "Defeat 1 Bat Dragon.",
+      "es": "Defeat 1 Bat Dragon.",
+      "pt-BR": "Defeat 1 Bat Dragon.",
+      "pl": "Defeat 1 Bat Dragon.",
+      "ru": "Defeat 1 Bat Dragon.",
+      "tr": "Defeat 1 Bat Dragon.",
+      "zh-CN": "Defeat 1 Bat Dragon.",
+      "ja": "Defeat 1 Bat Dragon.",
+      "ko": "Defeat 1 Bat Dragon.",
+      "zh-TW": "Defeat 1 Bat Dragon.",
+      "uk": "Defeat 1 Bat Dragon."
+    }
+  },
+  "EvolveUnearthlyBolt": {
+    "description": {
+      "en": "Evolve the Unearthly Bolt",
+      "fr": "Evolve the Unearthly Bolt",
+      "it": "Evolve the Unearthly Bolt",
+      "de": "Evolve the Unearthly Bolt",
+      "es": "Evolve the Unearthly Bolt",
+      "pt-BR": "Evolve the Unearthly Bolt",
+      "pl": "Evolve the Unearthly Bolt",
+      "ru": "Evolve the Unearthly Bolt",
+      "tr": "Evolve the Unearthly Bolt",
+      "zh-CN": "Evolve the Unearthly Bolt",
+      "ja": "Evolve the Unearthly Bolt",
+      "ko": "Evolve the Unearthly Bolt",
+      "zh-TW": "Evolve the Unearthly Bolt",
+      "uk": "Evolve the Unearthly Bolt"
+    }
+  },
+  "Dark_00Troubler": {
+    "description": {
+      "en": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "fr": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "it": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "de": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "es": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "pt-BR": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "pl": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "ru": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "tr": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "zh-CN": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "ja": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "ko": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "zh-TW": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "uk": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana."
     }
   }
 }

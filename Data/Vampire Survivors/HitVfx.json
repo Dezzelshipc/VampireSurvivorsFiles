@@ -110,5 +110,12 @@
     "hitFrameName": "HitCloud1.png",
     "impactFrameName": "bubble.png",
     "duration": 60
+  },
+  "16": {
+    "isTintFill": true, 
+    "targetTint": 11000873,
+    "hitFrameName": "HitGreen1.png",
+    "impactFrameName": "HitGreen2.png",
+    "duration": 120
   }
 }

@@ -5,7 +5,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_FULLAUTO",
-      "price": 400,
+      "price": 100,
       "name": "Full Auto",
       "description": "Fully automatic fire.",
       "tips": "Each Amount will decrease cooldown by 16 milliseconds",
@@ -69,7 +69,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_PROTOTYPE_A",
-      "price": 400,
+      "price": 5000,
       "name": "Prototype A",
       "description": "Fully automatic fire.",
       "tips": "Each Amount will decrease cooldown by 16 milliseconds",
@@ -106,7 +106,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_RAPIDFIRE",
-      "price": 10,
+      "price": 100,
       "name": "Rapid Fire",
       "description": "Rapidly fires a stream of projectiles wherever you face.",
       "tips": "Best with: Amount, Area.",
@@ -165,7 +165,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_PROTOTYPE_B",
-      "price": 10,
+      "price": 5000,
       "name": "Prototype B",
       "description": "Desc",
       "tips": "Tips",
@@ -222,6 +222,7 @@
       "hitsWalls": false,
       "poolLimit": 100,
       "rarity": 50,
+      "price": 100,
       "interval": 1900,
       "repeatInterval": 0,
       "power": 1,
@@ -285,6 +286,7 @@
       "isUnlocked": true,
       "poolLimit": 300,
       "rarity": 1,
+      "price": 5000,
       "interval": 1100,
       "repeatInterval": 0,
       "power": 3.5,
@@ -300,7 +302,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_LASER",
-      "price": 200,
+      "price": 100,
       "name": "FB_LASER",
       "description": "Fires a piercing laser.",
       "tips": "@@",
@@ -361,7 +363,7 @@
     {
       "level": 1,
       "contentGroup": "FIRST_BLOOD",
-      "price": 1,
+      "price": 5000,
       "sealable": true,
       "bulletType": "FB_PROTONBEAM",
       "name": "FB_PROTONBEAM",
@@ -402,7 +404,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_FIREARM",
-      "price": 1600,
+      "price": 160,
       "name": "FB_FIREARM",
       "description": "@@.",
       "tips": "@@",
@@ -428,7 +430,10 @@
       "area": 1,
       "speed": 1,
       "amount": 4,
-      "duration": 600
+      "duration": 600,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "amount": 1
@@ -477,13 +482,17 @@
       "isUnlocked": true,
       "poolLimit": 200,
       "rarity": 1,
+      "price": 6000,
       "interval": 3000,
       "repeatInterval": 0,
       "power": 2.8,
       "area": 1,
       "speed": 3,
       "amount": 10,
-      "duration": 1000
+      "duration": 1000,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "FB_SONIC": [
@@ -492,7 +501,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_SONIC",
-      "price": 200,
+      "price": 120,
       "name": "Sonic Bloom",
       "description": "Fires energy rings wherever you are facing. Rings increase in Area until they hit.",
       "tips": "Attack weak points for massive damage?",
@@ -558,7 +567,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_WAVE",
-      "price": 400,
+      "price": 4400,
       "name": "Wave Beam",
       "description": "Fires forward when moving, but auto-fires charged shots when stopped.",
       "tips": "Evolved Sonic Bloom.",
@@ -595,7 +604,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_HOMING",
-      "price": 400,
+      "price": 100,
       "name": "Homing",
       "description": "Fires missiles that home in on enemies.",
       "tips": "@@",
@@ -655,7 +664,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_MULTISTAGE",
-      "price": 400,
+      "price": 4000,
       "name": "Multistage Missile",
       "description": "Desc",
       "tips": "Evolved Homing Missile.",
@@ -711,6 +720,7 @@
       "isUnlocked": false,
       "poolLimit": 100,
       "rarity": 50,
+      "price": 180,
       "interval": 3000,
       "repeatInterval": 100,
       "power": 1,
@@ -755,7 +765,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_CRUSH",
-      "price": 800,
+      "price": 7000,
       "name": "Atmo-Torpedo",
       "description": "Creates damaging zones.",
       "tips": "Evolved Diver Mines.",
@@ -792,7 +802,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_BLADECROSSBOW",
-      "price": 200,
+      "price": 120,
       "name": "Blade Crossbow",
       "description": "Aims at nearest enemy, has boomerang effect.",
       "tips": "Ignores: Duration.",
@@ -853,7 +863,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_CROSSBOWCRASH",
-      "price": 400,
+      "price": 4400,
       "name": "BFC2000",
       "description": "Evolved Blade Crossbow",
       "tips": "Requires",
@@ -893,7 +903,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_PRISMCUTLASS",
-      "price": 10,
+      "price": 100,
       "name": "Prism Cutlass",
       "description": "Attacks horizontally, passes through enemies and may freeze them.",
       "tips": "Ignores: Speed.",
@@ -955,7 +965,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_TIMEWARP",
-      "price": 400,
+      "price": 4000,
       "name": "Time Warp",
       "description": "Damages and freezes enemies around you.",
       "tips": "Evolved Prism Cutlass.",
@@ -995,7 +1005,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_METALCLAW",
-      "price": 800,
+      "price": 140,
       "name": "Metal Claw",
       "description": "Claws nearby enemies. Clawmarks linger and deal damage.",
       "tips": "@@",
@@ -1079,7 +1089,8 @@
       "repeatInterval": 400,
       "power": 6,
       "area": 2,
-      "rarity": 1
+      "rarity": 1,
+      "price": 5000
     }
   ],
   "FB_WEAPONPU": [
@@ -1088,7 +1099,7 @@
       "contentGroup": "FIRST_BLOOD",
       "sealable": true,
       "bulletType": "FB_WEAPONPU",
-      "price": 40,
+      "price": 140,
       "name": "Weapon Power-Up",
       "description": "Levels up a random equipped weapon. Gives 1 Revive.",
       "texture": "items",
@@ -1131,7 +1142,10 @@
       "speed": 1,
       "amount": 1,
       "duration": 300,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "FB_EXPLOBARRELHAZARD": [

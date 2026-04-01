@@ -17,6 +17,7 @@
       "hyperTips": "50% Gold bonus",
       "cff": "PUGNALA",
       "validForCharcaterData": true,
+      "batDragonType" : "EX_BOSS_BATDRAGON_1",
       "mods": {
         "TimeLimit": 1800,
         "ClockSpeed": 1,
@@ -859,224 +860,6 @@
         {
           "eventType": "CYCLE_COMPLETE"
         }
-      ]
-    }
-  ],
-  "MACHINE": [
-    {
-      "order": 10000,
-      "stageName": "Eudaimonia M.",
-      "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you’re it.",
-      "uiTexture": "UI_StageIcons",
-      "uiFrame": "stage_machine.png",
-      "texture": "UI",
-      "frameName": "stage_machine_icon.png",
-      "frameNameUnlock": "stage_machine_icon.png",
-      "bestiaryBG": "background_chapel.png",
-      "stageNumber": "???",
-      "unlocked": true,
-      "hidden": false,
-      "isMerchantBanned": true,
-      "isSpeedupBanned": true,
-      "BGM": "BGM_Machine",
-      "tips": "",
-      "hyperTips": "",
-      "relics": [],
-      "yellowRelics": [
-        "RELIC_MIRROR",
-        "RELIC_TRUMPET"
-      ],
-      "validForCharcaterData": false,
-      "mods": {
-        "TimeLimit": 5940,
-        "ClockSpeed": 1,
-        "PlayerPxSpeed": 1.5,
-        "EnemySpeed": 1.5,
-        "ProjectileSpeed": 1,
-        "GoldMultiplier": 1,
-        "EnemyHealthMultiplier": 1,
-        "LuckBonus": 0,
-        "XPBonus": 1
-      },
-      "hyper": {
-        "unlocked": true,
-        "TimeLimit": 5940,
-        "ClockSpeed": 1,
-        "PlayerPxSpeed": 0,
-        "EnemySpeed": 0,
-        "ProjectileSpeed": 0,
-        "GoldMultiplier": 0,
-        "LuckBonus": 0,
-        "XPBonus": 0,
-        "EnemyHealthMultiplier": 0
-      },
-      "tileset": {
-        "setKey": "MachineTexturePacked",
-        "setPath": "assets/tilesets/MachineTexturePacked.png",
-        "mapKey": "Machine",
-        "mapPath": "assets/tilesets/Machine.json",
-        "isTiling": true
-      },
-      "background": {
-        "texture": "background6",
-        "movingBackground": true
-      },
-      "LootTable": [
-        "COIN",
-        "COINBAG1",
-        "COINBAGMAX",
-        "ROAST",
-        "VACUUM",
-        "ROSARY"
-      ],
-      "preload": {
-        "textures": [
-          "dummy1",
-          "dummy2",
-          "dummy3",
-          "dummy4",
-          "dummy5",
-          "background6"
-        ],
-        "bgm": [
-          "Phase0",
-          "Phase1",
-          "Phase2",
-          "Phase3",
-          "Phase4",
-          "Phase5"
-        ],
-        "videos": [
-          "Chestnobg",
-          "Chestnobg2",
-          "Chestnobg3"
-        ]
-      },
-      "spawnType": "STANDARD",
-      "startingSpawns": 40,
-      "minute": 0,
-      "destructibleType": "CANDELABRA",
-      "destructibleFreq": 1000,
-      "destructibleChance": 20,
-      "destructibleChanceMax": 80,
-      "maxDestructibles": 20,
-      "BGTextureName": "bg_null",
-      "minimum": 20,
-      "frequency": 1000,
-      "enemies": []
-    }
-  ],
-  "STAGEX": [
-    {
-      "order": 71,
-      "stageName": "Holy Forbidden",
-      "description": "Wait, you can see this too? This isn't right...",
-      "uiTexture": "UI_StageIcons",
-      "uiFrame": "stage_x.png",
-      "frameName": "QuestionMark.png",
-      "frameNameUnlock": "QuestionMark.png",
-      "bestiaryBG": "background_chapel.png",
-      "stageNumber": "Hidden Ground",
-      "unlocked": false,
-      "hidden": true,
-      "BGM": "BGM_Chapet",
-      "sideBBGM": "BGM_Chapet",
-      "tips": "",
-      "validForCharcaterData": false,
-      "isMerchantBanned": true,
-      "isSpeedupBanned": true,
-      "preload": {
-        "textures": [
-          "backgroundX"
-        ]
-      },
-      "mods": {
-        "TimeLimit": 120,
-        "ClockSpeed": 1,
-        "PlayerPxSpeed": 1.25,
-        "EnemySpeed": 1.25,
-        "ProjectileSpeed": 1,
-        "GoldMultiplier": 1,
-        "EnemyHealthMultiplier": 1,
-        "LuckBonus": 0,
-        "XPBonus": 1
-      },
-      "hyper": {
-        "unlocked": false,
-        "TimeLimit": 120,
-        "ClockSpeed": 1,
-        "PlayerPxSpeed": 0,
-        "EnemySpeed": 0,
-        "ProjectileSpeed": 0,
-        "GoldMultiplier": 0,
-        "EnemyHealthMultiplier": 0,
-        "LuckBonus": 0,
-        "XPBonus": 0
-      },
-      "tileset": {
-        "setKey": "ChapelTexturePacked",
-        "setPath": "assets/tilesets/ChapelTexturePacked.png",
-        "mapKey": "Stage5wip",
-        "mapPath": "assets/tilesets/Stage5wip.json",
-        "isTiling": true,
-        "SizeX": 8192,
-        "SizeY": 1024
-      },
-      "background": {
-        "texture": "backgroundX"
-      },
-      "spawnType": "VERTICAL",
-      "startingSpawns": 50,
-      "minute": 0,
-      "destructibleType": "CANDELABRA",
-      "destructibleFreq": 100000,
-      "destructibleChance": 100,
-      "destructibleChanceMax": 100,
-      "maxDestructibles": 100,
-      "BGTextureName": "",
-      "LootTable": [
-        "COIN",
-        "COINBAG1",
-        "ROAST",
-        "NFT",
-        "CLOVER"
-      ],
-      "minimum": 50,
-      "frequency": 3000,
-      "enemies": [
-        "MOON_BAT"
-      ]
-    },
-    {
-      "minute": 30,
-      "minimum": 50,
-      "frequency": 3000,
-      "enemies": [
-        "MOON_BAT"
-      ]
-    },
-    {
-      "minute": 30,
-      "minimum": 1,
-      "frequency": 10000,
-      "enemies": [],
-      "bosses": [
-        "BOSS_XLDEATH",
-        "BOSS_XLDROWNER"
-      ],
-      "events": [
-        {
-          "eventType": "CYCLE_COMPLETE"
-        }
-      ]
-    },
-    {
-      "minute": 31,
-      "minimum": 1,
-      "frequency": 10000,
-      "enemies": [],
-      "bosses": [
-        "BOSS_XLDEATH"
       ]
     }
   ],
@@ -4599,6 +4382,7 @@
       ]
     }
   ],
+  
   "MOLISE": [
     {
       "hidden": false,
@@ -4615,6 +4399,7 @@
       "tips": "Enemies don't move",
       "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies' health +60%",
       "validForCharcaterData": true,
+      "batDragonType" : "EX_BOSS_BATDRAGON_2",
       "preload": {
         "textures": [
           "bg_molise"
@@ -7087,6 +6872,226 @@
       ]
     }
   ],
+  
+  "MACHINE": [
+    {
+      "order": 10000,
+      "stageName": "Eudaimonia M.",
+      "description": "A space between spaces. The culmination of something, or simply another beginning? Tag, you’re it.",
+      "uiTexture": "UI_StageIcons",
+      "uiFrame": "stage_machine.png",
+      "texture": "UI",
+      "frameName": "stage_machine_icon.png",
+      "frameNameUnlock": "stage_machine_icon.png",
+      "bestiaryBG": "background_chapel.png",
+      "stageNumber": "???",
+      "unlocked": true,
+      "hidden": false,
+      "isMerchantBanned": true,
+      "isSpeedupBanned": true,
+      "BGM": "BGM_Machine",
+      "tips": "",
+      "hyperTips": "",
+      "relics": [],
+      "yellowRelics": [
+        "RELIC_MIRROR",
+        "RELIC_TRUMPET"
+      ],
+      "validForCharcaterData": false,
+      "mods": {
+        "TimeLimit": 5940,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.5,
+        "EnemySpeed": 1.5,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": true,
+        "TimeLimit": 5940,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0,
+        "EnemySpeed": 0,
+        "ProjectileSpeed": 0,
+        "GoldMultiplier": 0,
+        "LuckBonus": 0,
+        "XPBonus": 0,
+        "EnemyHealthMultiplier": 0
+      },
+      "tileset": {
+        "setKey": "MachineTexturePacked",
+        "setPath": "assets/tilesets/MachineTexturePacked.png",
+        "mapKey": "Machine",
+        "mapPath": "assets/tilesets/Machine.json",
+        "isTiling": true
+      },
+      "background": {
+        "texture": "background6",
+        "movingBackground": true
+      },
+      "LootTable": [
+        "COIN",
+        "COINBAG1",
+        "COINBAGMAX",
+        "ROAST",
+        "VACUUM",
+        "ROSARY"
+      ],
+      "preload": {
+        "textures": [
+          "dummy1",
+          "dummy2",
+          "dummy3",
+          "dummy4",
+          "dummy5",
+          "background6"
+        ],
+        "bgm": [
+          "Phase0",
+          "Phase1",
+          "Phase2",
+          "Phase3",
+          "Phase4",
+          "Phase5"
+        ],
+        "videos": [
+          "Chestnobg",
+          "Chestnobg2",
+          "Chestnobg3"
+        ]
+      },
+      "spawnType": "STANDARD",
+      "startingSpawns": 40,
+      "minute": 0,
+      "destructibleType": "CANDELABRA",
+      "destructibleFreq": 1000,
+      "destructibleChance": 20,
+      "destructibleChanceMax": 80,
+      "maxDestructibles": 20,
+      "BGTextureName": "bg_null",
+      "minimum": 20,
+      "frequency": 1000,
+      "enemies": []
+    }
+  ],
+  "STAGEX": [
+    {
+      "order": 71,
+      "stageName": "Holy Forbidden",
+      "description": "Wait, you can see this too? This isn't right...",
+      "uiTexture": "UI_StageIcons",
+      "uiFrame": "stage_x.png",
+      "frameName": "QuestionMark.png",
+      "frameNameUnlock": "QuestionMark.png",
+      "bestiaryBG": "background_chapel.png",
+      "stageNumber": "Hidden Ground",
+      "unlocked": false,
+      "hidden": true,
+      "BGM": "BGM_Chapet",
+      "sideBBGM": "BGM_Chapet",
+      "tips": "",
+      "validForCharcaterData": false,
+      "isMerchantBanned": true,
+      "isSpeedupBanned": true,
+      "preload": {
+        "textures": [
+          "backgroundX"
+        ]
+      },
+      "mods": {
+        "TimeLimit": 120,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.25,
+        "EnemySpeed": 1.25,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": false,
+        "TimeLimit": 120,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0,
+        "EnemySpeed": 0,
+        "ProjectileSpeed": 0,
+        "GoldMultiplier": 0,
+        "EnemyHealthMultiplier": 0,
+        "LuckBonus": 0,
+        "XPBonus": 0
+      },
+      "tileset": {
+        "setKey": "ChapelTexturePacked",
+        "setPath": "assets/tilesets/ChapelTexturePacked.png",
+        "mapKey": "Stage5wip",
+        "mapPath": "assets/tilesets/Stage5wip.json",
+        "isTiling": true,
+        "SizeX": 8192,
+        "SizeY": 1024
+      },
+      "background": {
+        "texture": "backgroundX"
+      },
+      "spawnType": "VERTICAL",
+      "startingSpawns": 50,
+      "minute": 0,
+      "destructibleType": "CANDELABRA",
+      "destructibleFreq": 100000,
+      "destructibleChance": 100,
+      "destructibleChanceMax": 100,
+      "maxDestructibles": 100,
+      "BGTextureName": "",
+      "LootTable": [
+        "COIN",
+        "COINBAG1",
+        "ROAST",
+        "NFT",
+        "CLOVER"
+      ],
+      "minimum": 50,
+      "frequency": 3000,
+      "enemies": [
+        "MOON_BAT"
+      ]
+    },
+    {
+      "minute": 30,
+      "minimum": 50,
+      "frequency": 3000,
+      "enemies": [
+        "MOON_BAT"
+      ]
+    },
+    {
+      "minute": 30,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH",
+        "BOSS_XLDROWNER"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    },
+    {
+      "minute": 31,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ]
+    }
+  ],
+  
   "WHITEOUT": [
     {
       "order": 1100,
@@ -7558,6 +7563,642 @@
           "duration": 60000,
           "moreY": "EX_SNOWMAN"
         }
+      ]
+    },
+    {
+      "minute": 20,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
+  "EX_LYCAEUM": [
+    {
+      "order": 1110,
+      "stageName": "Lycaeum",
+      "description": "",
+      "uiTexture": "UI_Menu",
+      "uiFrame": "stage_lycaeum.png",
+      "texture": "UI",
+      "frameName": "stage_lycaeum_icon.png",
+      "frameNameUnlock": "stage_lycaeum_icon.png",
+      "bestiaryBG": "background_water.png",
+      "stageNumber": "Bonus",
+      "unlocked": false,
+      "hidden": true,
+      "allowVisualInversion": false,
+      "tips": "",
+      "relics": [
+        "RELIC_GREENEYES",
+        "RELIC_SURVAROCCHI"
+      ],
+      "yellowRelics": [],
+      "BGM": "BGM_Seafloor",
+      "sideBBGM": "BGM_Seafloor",
+      "validForCharcaterData": true,
+      "preload": {
+        "textures": [
+          "backgroundW",
+          "backgroundLycaeum"
+        ]
+      },
+      "mods": {
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1,
+        "EnemySpeed": 1,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1.2,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": true,
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed":  1.0,
+        "EnemySpeed":     1.0,
+        "ProjectileSpeed": 0.15,
+        "GoldMultiplier": 0.5,
+        "LuckBonus": 0.1,
+        "XPBonus": 0,
+        "EnemyHealthMultiplier": 0,
+        "StartingSpawns": 20
+      },
+      "inverse": {
+        "tint": 6272755,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
+        }
+      },
+      "poolsMapping": [
+        {
+          "key": 0,
+          "type": "MOON_ANFORA",
+          "pool": null
+        },
+        {
+          "key": 1,
+          "type": "MOON_ANFORA",
+          "pool": null
+        },
+        {
+          "key": 2,
+          "type": "EX_SIGRABLU_EXPLO",
+          "pool": null
+        }
+      ],
+      "LootTable": [
+        "COIN",
+        "COINBAG1",
+        "COINBAGMAX",
+        "ROAST",
+        "VACUUM",
+        "OROLOGION",
+        "NFT",
+        "CLOVER",
+        "GILDED",
+        "GOLDFINGER",
+        "PICKUP_REROLL_DICE"
+      ],
+      "pizzaIntervalInMilliSeconds": 1000,
+      "background": {
+        "texture": ""
+      },
+      "dayNight": false,
+      "startingSpawns": 50,
+      "minute": 0,
+      "destructibleType": "BRAZIER2",
+      "spawnType": "MAPPED",
+      "destructibleFreq": 2000,
+      "destructibleChance": 80,
+      "destructibleChanceMax": 90,
+      "maxDestructibles": 16,
+      "BGTextureName": "bg_null",
+      "tilemapTiledJSON": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapTiledIMG": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapPos": {
+        "x": 0,
+        "y": 0
+      },
+      "tileset": {
+        "setKey": "ForestTexturePacked",
+        "setPath": "assets/tilesets/ForestTexturePacked.png",
+        "mapKey": "Forest",
+        "mapPath": "assets/tilesets/Forest.json",
+        "isTiling": false
+      },
+      "minimum": 20,
+      "frequency": 1000,
+      "enemies": [
+        "EX_SEAANGEL"
+      ],
+      "bosses": [],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SEAANGEL_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 1,
+      "minimum": 30,
+      "frequency": 1000,
+      "enemies": [
+        "EX_SEAANGEL",
+        "EX_SEAPIG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_CRABBINO_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "EX_SEAPIG",
+        "EX_SEASLUG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SALMON_RED_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 40,
+      "frequency": 250,
+      "enemies": [
+        "EX_LEAFYSEAHORSE_01",
+        "EX_SEASLUG"
+      ],
+      "bosses": [
+        "EX_BOSS_PINKJELLYFISH"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SALMON_BLUE_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 4,
+      "minimum": 30,
+      "frequency": 500,
+      "enemies": [
+        "EX_LEAFYSEAHORSE_01",
+        "EX_ICHTHYOCENTAUR_01"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SALMON_PINK_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 40,
+      "frequency": 750,
+      "enemies": [
+        "EX_ICHTHYOCENTAUR_01",
+        "EX_ICHTHYOCENTAUR_02"
+      ],
+      "bosses": [
+        "EX_BOSS_PINKJELLYFISH"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_JELLY_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 6,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "EX_ICHTHYOCENTAUR_02",
+        "EX_SEAPIG"
+      ],
+      "arcanaHolder": "EX_ARCANA_SALMON",
+      "arcanaTreasure": {
+        "chances": [
+          1,
+          2,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SALMON_RED_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "EX_ICHTHYOCENTAUR_03",
+        "EX_SEAANGEL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SEAANGEL_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 8,
+      "minimum": 100,
+      "frequency": 1500,
+      "enemies": [
+        "EX_ICHTHYOCENTAUR_03",
+        "EX_SEASLUG"
+      ],
+      "bosses": [
+        "EX_BOSS_PINKJELLYFISH"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SEAHORSE_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 9,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "EX_ICHTHYOCENTAUR_05",
+        "EX_LEAFYSEAHORSE_01",
+        "EX_SEAANGEL"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SALMON_BLUE_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 10,
+      "minimum": 30,
+      "frequency": 500,
+      "enemies": [
+        "EX_ICHTHYOCENTAUR_05",
+        "EX_AHUIZOTL",
+        "EX_SEAPIG"
+      ],
+      "bosses": [
+        "EX_BOSS_PINKJELLYFISH"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SALMON_PINK_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 11,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "EX_AHUIZOTL",
+        "EX_BUKAVAC",
+        "EX_SEASLUG"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SEAANGEL_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 12,
+      "minimum": 20,
+      "frequency": 1000,
+      "enemies": [
+        "EX_TRITONT_02",
+        "EX_BUKAVAC",
+        "EX_SEASLUG"
+      ],
+      "bosses": [
+        "EX_BOSS_PINKJELLYFISH"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_JELLY_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 13,
+      "minimum": 120,
+      "frequency": 200,
+      "enemies": [
+        "EX_TRITONT_01",
+        "EX_TRITONT_02"
+      ],
+      "arcanaHolder": "EX_ARCANA_SALMON",
+      "arcanaTreasure": {
+        "chances": [
+          1,
+          2,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "duration": 20000,
+          "delay": 23000,
+          "moreX": 20,
+          "repeat": 4,
+          "moreY": "EX_SALMON_RED_MEDUSA",
+          "moreZ" : 0.45
+        }
+      ]
+    },
+    {
+      "minute": 14,
+      "minimum": 150,
+      "frequency": 500,
+      "enemies": [
+        "EX_ICHTHYOCENTAUR_04",
+        "EX_LEAFYSEAHORSE_02"
+      ]
+    },
+    {
+      "minute": 15,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "EX_LEAFYSEAHORSE_01",
+        "EX_LEAFYSEAHORSE_02"
+      ],
+      "bosses": [
+        "EX_BOSS_SEASPHYNX"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+
+    },
+    {
+      "minute": 16,
+      "minimum": 80,
+      "frequency": 500,
+      "enemies": [
+        "EX_OLM",
+        "EX_ICHTHYOCENTAUR_04"
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 40,
+      "frequency": 100,
+      "enemies": [
+        "EX_OLM",
+        "EX_LEAFYSEAHORSE_02"
+      ],
+      "bosses": [
+        "EX_BOSS_SEASPHYNX"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 18,
+      "minimum": 90,
+      "frequency": 500,
+      "enemies": [
+        "EX_OLM",
+        "EX_BOSS_PINKJELLYFISH"
+      ]
+    },
+    {
+      "minute": 19,
+      "minimum": 20,
+      "frequency": 500,
+      "enemies": [
+        "EX_BOSS_ICHTHYOCENTAUR"
       ]
     },
     {
@@ -10789,6 +11430,7 @@
       ]
     }
   ],
+  
   "BATCOUNTRY": [
     {
       "order": 10100,
@@ -10820,7 +11462,8 @@
         "VACUUM",
         "ROSARY",
         "CLOVER",
-        "GILDED"
+        "GILDED",
+        "PICKUP_REROLL_DICE"
       ],
       "preload": {
         "textures": [
@@ -13194,6 +13837,7 @@
       ]
     }
   ],
+  
   "DEVILROOM": [
     {
       "alwaysHidden": false,

@@ -483,7 +483,7 @@
         "HP_x_Level"
       ],
       "xp": 3,
-      "end": 15,
+      "end": 8,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "frameNames": [
@@ -1279,7 +1279,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 16,
+      "end": 12,
       "frameNames": [
         "Harpy2_0.png"
       ],
@@ -2163,6 +2163,7 @@
   ],
   "BOSS_XLDROWNER": [
     {
+      "passThroughWalls": true,
       "level": 100,
       "maxHp": 65535,
       "speed": 300,
@@ -3370,7 +3371,10 @@
       "bIndex": 0,
       "bInclude": true,
       "bHighlight": false,
-      "bVariants": []
+      "bVariants": [
+        "EX_TRITONT_01",
+        "EX_TRITONT_02"
+      ]
     }
   ],
   "XLCHIMERA": [
@@ -5165,7 +5169,7 @@
     {
       "skipCredits": true,
       "level": 7,
-      "maxHp": 50,
+      "maxHp": 150,
       "speed": 150,
       "power": 15,
       "skills": [
@@ -5175,12 +5179,13 @@
       "maxKnockback": 2,
       "deathKB": 0,
       "killedAmount": 0,
-      "xp": 1000,
+      "xp": 1665,
       "end": 21,
       "scale": 2,
       "res_Freeze": 1.1,
       "res_Rosary": 1,
       "res_Debuffs": 1,
+      "res_Defang": 1,
       "textureName": "enemies2",
       "idleFrameCount": 30,
       "frameNames": [
@@ -5339,7 +5344,7 @@
     {
       "skipCredits": true,
       "level": 7,
-      "maxHp": 50,
+      "maxHp": 150,
       "speed": 300,
       "power": 15,
       "skills": [
@@ -5350,12 +5355,13 @@
       "maxKnockback": 2,
       "deathKB": 0,
       "killedAmount": 0,
-      "xp": 1000,
+      "xp": 1665,
       "end": 21,
       "scale": 2,
       "res_Freeze": 1.1,
       "res_Rosary": 1,
       "res_Debuffs": 1,
+      "res_Defang": 1,
       "textureName": "enemies2",
       "idleFrameCount": 30,
       "frameNames": [
@@ -13012,7 +13018,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 17,
+      "end": 10,
       "frameNames": [
         "EctoGold_0.png"
       ],
@@ -13216,7 +13222,7 @@
       "passThroughWalls": true,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 14,
+      "end": 8,
       "frameNames": [
         "XLDragonGold_FlagTip_0.png"
       ],
@@ -13240,7 +13246,7 @@
       "killedAmount": 0,
       "scale": 1.5,
       "xp": 0,
-      "end": 23,
+      "end": 8,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "frameNames": [
@@ -13323,7 +13329,7 @@
       "deathKB": 1,
       "xp": 3,
       "idleFrameCount": 5,
-      "end": 15,
+      "end": 10,
       "killedAmount": 0,
       "textureName": "enemies2025",
       "frameNames": [
@@ -13361,7 +13367,7 @@
       "deathKB": 1,
       "xp": 3,
       "idleFrameCount": 5,
-      "end": 15,
+      "end": 12,
       "killedAmount": 0,
       "textureName": "enemies2025",
       "frameNames": [
@@ -13399,7 +13405,7 @@
       "deathKB": 1,
       "xp": 3,
       "idleFrameCount": 5,
-      "end": 15,
+      "end": 10,
       "killedAmount": 0,
       "textureName": "enemies2025",
       "frameNames": [
@@ -13437,7 +13443,7 @@
       "deathKB": 1,
       "xp": 3,
       "idleFrameCount": 5,
-      "end": 15,
+      "end": 12,
       "killedAmount": 0,
       "textureName": "enemies2025",
       "frameNames": [
@@ -13471,7 +13477,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 13,
+      "end": 8,
       "frameNames": [
         "Barm_0.png"
       ],
@@ -13495,7 +13501,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 19,
+      "end": 12,
       "frameNames": [
         "CasinUgul_D_0.png",
         "CasinUgul_H_0.png"
@@ -13522,7 +13528,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 14,
+      "end": 8,
       "frameNames": [
         "ClubbieP_0.png"
       ],
@@ -13552,7 +13558,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 17,
+      "end": 10,
       "frameNames": [
         "Dandybrine_0.png"
       ],
@@ -13585,7 +13591,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 17,
+      "end": 10,
       "frameNames": [
         "DiamonP_0.png"
       ],
@@ -13609,7 +13615,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 17,
+      "end": 8,
       "frameNames": [
         "Gambergar_0.png"
       ],
@@ -13633,7 +13639,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 29,
+      "end": 11,
       "frameNames": [
         "GamblinY_0.png"
       ],
@@ -13660,7 +13666,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 29,
+      "end": 11,
       "frameNames": [
         "GamblinR_0.png",
         "GamblinP_0.png"
@@ -13737,7 +13743,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 16,
+      "end": 10,
       "frameNames": [
         "RouletteMush1_0.png"
       ],
@@ -13761,7 +13767,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 29,
+      "end": 12,
       "frameNames": [
         "Toll2O_0.png"
       ],
@@ -13793,7 +13799,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 16,
+      "end": 8,
       "frameNames": [
         "Valentin_0.png"
       ],
@@ -13857,7 +13863,7 @@
       ],
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 10,
+      "end": 8,
       "frameNames": [
         "Squiller_0.png"
       ],
@@ -13885,7 +13891,7 @@
       ],
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 10,
+      "end": 8,
       "frameNames": [
         "Squiller_0.png",
         "Squiller2_0.png"
@@ -13942,7 +13948,7 @@
       "killedAmount": 0,
       "res_Defang": 1,
       "xp": 5,
-      "end": 19,
+      "end": 16,
       "idleFrameCount": 2,
       "passThroughWalls": true,
       "textureName": "enemies2025",
@@ -13976,7 +13982,7 @@
         "offsetX": -6
       },
       "idleFrameCount": 2,
-      "end": 13,
+      "end": 16,
       "textureName": "enemies2025",
       "frameNames": [
         "diamondDiceNeutral_0.png"
@@ -14007,7 +14013,7 @@
         "CarsharpHEART_0.png",
         "CarsharpSPADE_0.png"
       ],
-      "end": 15,
+      "end": 12,
       "idleFrameCount": 4,
       "textureName": "enemies2025",
       "killedAmount": 0,
@@ -14032,7 +14038,7 @@
       "frameNames": [
         "Migno4_0.png"
       ],
-      "end": 29,
+      "end": 8,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -14059,7 +14065,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "textureName": "enemies2025",
-      "end": 15,
+      "end": 8,
       "frameNames": [
         "Torino_0.png"
       ],
@@ -14087,7 +14093,7 @@
       "xp": 2.5,
       "idleFrameCount": 4,
       "textureName": "enemies2025",
-      "end": 20,
+      "end": 12,
       "frameNames": [
         "JoyaTauro_0.png"
       ],
@@ -14113,7 +14119,7 @@
       "deathKB": 1,
       "killedAmount": 0,
       "xp": 3,
-      "end": 22,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 5,
       "frameNames": [
@@ -14172,7 +14178,7 @@
     {
       "level": 1,
       "maxHp": 200,
-      "minimumHpScalingLevel": 10,
+      "minimumHpScalingLevel": 80,
       "speed": 117,
       "power": 40,
       "xp": 50,
@@ -14224,7 +14230,7 @@
       "frameNames": [
         "Torino_R_0.png"
       ],
-      "end": 15,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -14253,9 +14259,9 @@
       "xp": 2,
       "scale": 1,
       "frameNames": [
-        "Joyatauro_R_0.png"
+        "JoyaTauro_R_0.png"
       ],
-      "end": 20,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -14286,7 +14292,7 @@
       "frameNames": [
         "Meanataur_R_0.png"
       ],
-      "end": 22,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 5,
       "killedAmount": 0,
@@ -14314,7 +14320,7 @@
       "frameNames": [
         "Torino_Y_0.png"
       ],
-      "end": 15,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -14340,9 +14346,9 @@
       "xp": 2.75,
       "scale": 1.5,
       "frameNames": [
-        "Joyatauro_Y_0.png"
+        "JoyaTauro_Y_0.png"
       ],
-      "end": 20,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "killedAmount": 0,
@@ -14370,7 +14376,7 @@
       "frameNames": [
         "Meanataur_Y_0.png"
       ],
-      "end": 22,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 5,
       "killedAmount": 0,
@@ -14402,7 +14408,7 @@
       "frameNames": [
         "JOYATAURO_Y_0.png"
       ],
-      "end": 29,
+      "end": 12,
       "textureName": "enemies2025",
       "idleFrameCount": 5,
       "killedAmount": 0,
@@ -14446,6 +14452,1154 @@
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [
+      ]
+    }
+  ],
+  "EX_BATDRAKELET": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "frameNames": [
+        "EX_BatDragon_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.20,
+        "offsetX": 12,
+        "offsetY": 0
+      },
+      "bName": ".",
+      "bDesc": ".",
+      "bPlaces": [],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["EX_BATDRAKELET_CIRCLING"]
+    }
+  ],
+  "EX_BATDRAKELET_CIRCLING": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 120,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "xp": 0,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "frameNames": [
+        "EX_BatDragon_NoShadow_0.png"
+      ],
+      "passThroughWalls": true,
+      "colliderOverride": {
+        "radius": 0.20,
+        "offsetX": 12,
+        "offsetY": 0
+      }
+    }
+  ],
+  "EX_BATDRAKELET_STATIONARY": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 10,
+      "power": 8,
+      "knockback": 0.5,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "xp": 0,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Defang": 1,
+      "frameNames": [
+        "EX_BatDragon_0.png"
+      ],
+      "passThroughWalls": true,
+      "colliderOverride": {
+        "radius": 0.20,
+        "offsetX": 12,
+        "offsetY": 0
+      }
+    }
+  ],
+  
+  "EX_BOSS_BATDRAGON_1": [
+    {
+      "level": 10,
+      "maxHp": 100,
+      "minimumHpScalingLevel": 80,
+      "speed": 110,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale" : 2,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 1,
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "colliderOverride": {
+        "radius": 0.34,
+        "offsetX": 0,
+        "offsetY": 12
+      },
+      "bInclude": false
+    }
+  ],
+  "EX_BOSS_BATDRAGON_2": [
+    {
+      "level": 10,
+      "maxHp": 100,
+      "minimumHpScalingLevel": 80,
+      "speed": 110,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale" : 2,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 1,
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "colliderOverride": {
+        "radius": 0.34,
+        "offsetX": 0,
+        "offsetY": 12
+      }
+    }
+  ],
+  "unused1423": [
+    {
+      "level": 10,
+      "maxHp": 120,
+      "minimumHpScalingLevel": 80,
+      "speed": 110,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale" : 2,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 1,
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "bInclude": false
+    }
+  ],
+  "unused1433": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.20,
+        "offsetX": 12,
+        "offsetY": 0
+      },
+      "bName": ".",
+      "bDesc": ".",
+      "bPlaces": [],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_BOSS_BATDRAGON_1"
+      ]
+    }
+  ],
+  "EX_BATDRAKELET_SHADOW": [
+    {
+      "alpha": 0.6,
+      "tint": "000000",
+      "level": 1,
+      "passThroughWalls": true,
+      "maxHp": 10,
+      "speed": 1500,
+      "power": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "xp": 0,
+      "idleFrameCount": 4,
+      "res_Defang": 1,
+      "skills": [
+        "Fixed_Direction",
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 20,
+      "frameNames": [
+        "EX_BatDragon_NoShadow_0.png"
+      ],
+      "bInclude": false
+    }
+  ],
+  
+  "EX_CRABBINO_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 120,
+      "maxSpeed": 340,
+      "power": 5,
+      "skills": [
+        "Fixed_Direction",
+        "HP_x_Level",
+        "Medusa"
+      ],
+      "passThroughWalls": true,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 0.5,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "textureName": "enemies2",
+      "end": 22,
+      "frameNames": [
+        "XLCrab_0.png"
+      ]
+    }
+  ],
+  "EX_JELLYFISH_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 120,
+      "power": 3,
+      "knockback": 0.2,
+      "skills": [
+        "Fixed_Direction",
+        "Medusa"
+      ],
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "tint": 8965375,
+      "alpha": 0.85,
+      "frameNames": [
+        "Jelly2_0.png"
+      ],
+      "end": 29,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "killedAmount": 0
+    }
+  ],
+  "EX_SALMON_RED_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 240,
+      "maxSpeed": 340,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "alpha": 0.90,
+      "skills": [
+        "Medusa",
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 9,
+      "frameNames": [
+        "EX_Salmonari2_0.png"
+      ]
+    }
+  ],
+  "EX_SALMON_PINK_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 240,
+      "maxSpeed": 340,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "alpha": 0.90,
+      "skills": [
+        "Medusa",
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 9,
+      "frameNames": [
+        "EX_Salmonari3_0.png"
+      ]
+    }
+  ],
+  "EX_SALMON_BLUE_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 240,
+      "maxSpeed": 340,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "alpha": 0.90,
+      "skills": [
+        "Medusa",
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 9,
+      "frameNames": [
+        "EX_Salmonari1_0.png"
+      ]
+    }
+  ],
+  "EX_SEAANGEL_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 240,
+      "maxSpeed": 340,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "skills": [
+        "Fixed_Direction",
+        "Medusa"
+      ],
+      "passThroughWalls": true,
+      "xp": 1,
+      "alpha": 0.65,
+      "idleFrameCount": 4,
+      "end": 11,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_SeaAngel_0.png"
+      ]
+    }
+  ],
+  "EX_SEAHORSE_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 1.6,
+      "speed": 140,
+      "maxSpeed": 240,
+      "power": 5,
+      "skills": [
+        "Fixed_Direction",
+        "Medusa"
+      ],
+      "passThroughWalls": true,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 10,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "EX_LeafySeaDragon2_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetY": 0,
+        "offsetX": 4
+      }
+    }
+  ],
+  "EX_JELLY_MEDUSA": [
+    {
+      "level": 1,
+      "maxHp": 2.5,
+      "speed": 240,
+      "maxSpeed": 340,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "alpha": 0.90,
+      "skills": [
+        "Medusa",
+        "Fixed_Direction"
+      ],
+      "passThroughWalls": true,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 14,
+      "frameNames": [
+        "EX_PinkJellyfish_0.png"
+      ]
+    }
+  ],
+  
+  "EX_SEAANGEL": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 100,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "alpha": 0.65,
+      "idleFrameCount": 4,
+      "end": 11,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_SeaAngel_0.png"
+      ],
+      "bName": "Deep Angel",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_SEAPIG": [
+    {
+      "level": 1,
+      "alpha": 0.7,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 4,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 4,
+      "xp": 1,
+      "killedAmount": 0,
+      "scale": 1,
+      "idleFrameCount": 4,
+      "end": 11,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_SeaPig_0.png"
+      ],
+      "bName": "Deep Pig",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "EX_SEASLUG": [
+    {
+      "level": 1,
+      "alpha": 0.7,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 4,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "killedAmount": 0,
+      "scale": 1,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_SeaSlug_0.png"
+      ],
+      "bName": "Deep Slug",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  
+  "EX_ICHTHYOCENTAUR_01": [
+    {
+      "level": 1,
+      "maxHp": 7,
+      "speed": 150,
+      "power": 10,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 10,
+      "frameNames": [
+        "EX_IchthyoCentaur1_0.png"
+      ],
+      "bName": "Ichthyo Centaur",
+      "bDesc": "---",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_ICHTHYOCENTAUR_01",
+        "EX_ICHTHYOCENTAUR_02",
+        "EX_ICHTHYOCENTAUR_03",
+        "EX_ICHTHYOCENTAUR_04",
+        "EX_ICHTHYOCENTAUR_05"
+      ]
+    }
+  ],
+  "EX_ICHTHYOCENTAUR_02": [
+    {
+      "level": 1,
+      "maxHp": 15,
+      "speed": 150,
+      "power": 10,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1,
+      "textureName": "enemies2025",
+      "end": 10,
+      "frameNames": [
+        "EX_IchthyoCentaur2_0.png"
+      ]
+    }
+  ],
+  "EX_ICHTHYOCENTAUR_03": [
+    {
+      "level": 4,
+      "maxHp": 13,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 4,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1,
+      "textureName": "enemies2025",
+      "end": 9,
+      "frameNames": [
+        "EX_IchthyoCentaur3_0.png"
+      ]
+    }
+  ],
+  "EX_ICHTHYOCENTAUR_04": [
+    {
+      "level": 4,
+      "maxHp": 13,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 4,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1,
+      "textureName": "enemies2025",
+      "end": 9,
+      "frameNames": [
+        "EX_IchthyoCentaur4_0.png"
+      ]
+    }
+  ],
+  "EX_ICHTHYOCENTAUR_05": [
+    {
+      "level": 4,
+      "maxHp": 13,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 4,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1,
+      "textureName": "enemies2025",
+      "end": 9,
+      "frameNames": [
+        "EX_IchthyoCentaur5_0.png"
+      ]
+    }
+  ],
+  
+  "EX_TRITONT_01": [
+    {
+      "level": 4,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "end": 14,
+      "frameNames": [
+        "EX_Tritont1_0.png"
+      ]
+    }
+  ],
+  "EX_TRITONT_02": [
+    {
+      "level": 4,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "end": 14,
+      "frameNames": [
+        "EX_Tritont2_0.png"
+      ]
+    }
+  ],
+  
+  "EX_LEAFYSEAHORSE_01": [
+    {
+      "level": 1,
+      "maxHp": 1.2,
+      "speed": 140,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 9,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "EX_LeafySeaDragon1_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetY": 0,
+        "offsetX": 4
+      },
+      "bInclude": true,
+      "bName": "Deep Horse",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bVariants": ["EX_LEAFYSEAHORSE_02"],
+      "bHighlight": false
+    }
+  ],
+  "EX_LEAFYSEAHORSE_02": [
+    {
+      "level": 1,
+      "maxHp": 1.6,
+      "speed": 140,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 10,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "EX_LeafySeaDragon2_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetY": 0,
+        "offsetX": 4
+      }
+    }
+  ],
+  
+  "EX_OLM": [
+    {
+      "skipCredits": true,
+      "level": 5,
+      "maxHp": 30,
+      "speed": 140,
+      "power": 11,
+      "xp": 3.5,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 9,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_Olm_0.png"
+      ],
+      "killedAmount": 0,
+      "bInclude": true,
+      "bName": "Deep Olm",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bHighlight": false
+    }
+  ],
+  "EX_AHUIZOTL": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_AHUIZOTL",
+      "level": 5,
+      "maxHp": 25,
+      "speed": 180,
+      "power": 10,
+      "xp": 3,
+      "knockback": 0.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 10,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_Ahuizotl_0.png"
+      ],
+      "killedAmount": 0,
+      "bInclude": true,
+      "bName": "Deep Ahuizotl",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bHighlight": false
+    }
+  ],
+  "EX_BUKAVAC": [
+    {
+      "skipCredits": true,
+      "enemyType": "EX_BUKAVAC",
+      "level": 1,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "end": 10,
+      "frameNames": [
+        "EX_Bukavac_0.png"
+      ],
+      "bName": "Bukavac",
+      "bDesc": "---",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+
+  "EX_ARCANA_SALMON": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 100,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 9,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_Salmon_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_PINKJELLYFISH": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 150,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 14,
+      "scale": 1.5,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_PinkJellyfish_0.png"
+      ],
+      "bInclude": true,
+      "bName": "Deep Pink",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bHighlight": false
+    }
+  ],
+  "EX_BOSS_CRAB_LYCAEUM": [
+    {
+      "level": 30,
+      "maxHp": 40,
+      "speed": 190,
+      "power": 30,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1,
+      "xp": 50,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "textureName": "enemies2",
+      "end": 22,
+      "frameNames": [
+        "XLCrab_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_ICHTHYOCENTAUR": [
+    {
+      "level": 100,
+      "maxHp": 20,
+      "speed": 170,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 30,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "end": 9,
+      "frameNames": [
+        "EX_IchthyoCentaur1_0.png",
+        "EX_IchthyoCentaur2_0.png",
+        "EX_IchthyoCentaur3_0.png",
+        "EX_IchthyoCentaur4_0.png",
+        "EX_IchthyoCentaur5_0.png",
+        "EX_IchthyoCentaur4_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_SEASPHYNX": [
+    {
+      "skipCredits": true,
+      "level": 30,
+      "maxHp": 60,
+      "speed": 200,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 50,
+      "scale": 1.5,
+      "colliderOverride": {
+        "radius": 0.375,
+        "offsetX": 0,
+        "offsetY": 0
+      },
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "end": 27,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "EX_SeaSphynx_0.png"
+      ],
+      "bInclude": true,
+      "bName": "Deep Seasphynx",
+      "bDesc": "",
+      "bPlaces": [
+        "SINKING"
+      ],
+      "bHighlight": false
+    }
+  ],
+  "EX_BOSS_SALMONARI": [
+    {
+      "level": 1,
+      "maxHp": 1080,
+      "speed": 220,
+      "power": 40,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "xp": 100,
+      "end": 18,
+      "textureName": "enemies2025",
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "idleFrameCount": 4,
+      "passThroughWalls": true,
+      "frameNames": [
+        "EX_Salmonari1_0.png",
+        "EX_Salmonari2_0.png",
+        "EX_Salmonari3_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_DROWNER_LYCAEUM": [
+    {
+      "level": 100,
+      "maxHp": 255,
+      "speed": 150,
+      "power": 50,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Rosary": 1.1,
+      "res_Defang": 1,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 0,
+      "end": 29,
+      "idleFrameCount": 8,
+      "textureName": "enemies2",
+      "frameNames": [
+        "XLDrowner_0.png"
+      ],
+      "passThroughWalls": true
+    }
+  ],
+  "EX_BOSS_TRITON_LYCAEUM": [
+    {
+      "level": 30,
+      "maxHp": 20,
+      "speed": 180,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "alpha": 0.75,
+      "res_Freeze": 1.1,
+      "res_Rosary": 1,
+      "res_Debuffs": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "xp": 50,
+      "idleFrameCount": 4,
+      "textureName": "enemies2025",
+      "end": 14,
+      "frameNames": [
+        "EX_Tritont2_0.png"
+      ]
+    }
+  ],
+  "EX_SIGRABLU_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 600,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "alpha": 0.65,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 13,
+      "frameNames": [
+        "EX_SigRaBlu_0.png"
+      ],
+      "idleFrameCount": 5,
+      "res_Defang": 1,
+      "skills": [
+        "Fixed_Direction"
+      ]
+    }
+  ],
+  "EX_SIGRABLU_EXPLO": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 330,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "alpha": 0.65,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 13,
+      "frameNames": [
+        "EX_SigRaBlu_0.png"
+      ],
+      "idleFrameCount": 5,
+      "res_Defang": 1,
+      "skills": [
+        "Self_Destruct",
+        "HP_x_Level"
       ]
     }
   ]

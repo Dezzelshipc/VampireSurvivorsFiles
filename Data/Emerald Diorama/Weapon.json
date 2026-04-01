@@ -5,7 +5,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_RAPIER1",
-      "price": 800,
+      "price": 80,
       "name": "Fleuret",
       "description": "-",
       "tips": "-",
@@ -47,7 +47,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_RAPIER2",
-      "price": 800,
+      "price": 1260,
       "name": "Estoc",
       "description": "-",
       "tips": "-",
@@ -99,7 +99,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_RAPIER3",
-      "price": 800,
+      "price": 5000,
       "name": "Espada Ropera",
       "description": "-",
       "tips": "-",
@@ -130,7 +130,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_LONGSWORD1",
-      "price": 800,
+      "price": 80,
       "name": "Town Sword",
       "description": "-",
       "tips": "-",
@@ -177,7 +177,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_LONGSWORD2",
-      "price": 800,
+      "price": 1260,
       "name": "Lordstar",
       "description": "-",
       "tips": "-",
@@ -234,7 +234,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_LONGSWORD3",
-      "price": 800,
+      "price": 5000,
       "name": "Dayblade",
       "description": "-",
       "tips": "-",
@@ -267,7 +267,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_DUAL1",
-      "price": 800,
+      "price": 100,
       "name": "Splashers",
       "description": "-",
       "tips": "-",
@@ -327,7 +327,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_DUAL2",
-      "price": 800,
+      "price": 3600,
       "name": "Pursuant Blades",
       "description": "-",
       "tips": "-",
@@ -385,7 +385,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_GREATSWORD1",
-      "price": 800,
+      "price": 100,
       "name": "Flamberge",
       "description": "-",
       "tips": "-",
@@ -432,7 +432,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_GREATSWORD2",
-      "price": 800,
+      "price": 3600,
       "name": "Zweihander",
       "description": "-",
       "tips": "-",
@@ -488,7 +488,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_GREATSWORD3",
-      "price": 800,
+      "price": 10500,
       "name": "Galatyn",
       "description": "-",
       "tips": "-",
@@ -521,7 +521,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_PUNCH1",
-      "price": 800,
+      "price": 80,
       "name": "Punch",
       "description": "-",
       "tips": "-",
@@ -541,7 +541,10 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "amount": 1
@@ -565,7 +568,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_PUNCH2",
-      "price": 800,
+      "price": 1680,
       "name": "Pressure Point",
       "description": "-",
       "tips": "-",
@@ -594,7 +597,10 @@
       "speed": 1,
       "amount": 3,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "power": 0.5
@@ -620,7 +626,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_PUNCH3",
-      "price": 800,
+      "price": 6240,
       "name": "Gilded Hand",
       "description": "-",
       "tips": "-",
@@ -643,7 +649,10 @@
       "speed": 1,
       "amount": 4,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "EME_KICK1": [
@@ -652,7 +661,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_KICK1",
-      "price": 800,
+      "price": 100,
       "name": "Kick",
       "description": "-",
       "tips": "-",
@@ -707,7 +716,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_KICK2",
-      "price": 800,
+      "price": 2880,
       "name": "Triangle Kick",
       "description": "-",
       "tips": "-",
@@ -769,7 +778,7 @@
       "collectionFrame": "frameB_emerald.png",
       "evoInto": "EME_CANNON2",
       "evoSynergy": [],
-      "price": 10,
+      "price": 80,
       "description": "-",
       "tips": "-",
       "isUnlocked": false,
@@ -787,7 +796,10 @@
       "penetrating":          0,
       "knockback":            0.5,
       "hitsWalls":            true,
-      "sealable":             true
+      "sealable":             true,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "repeatInterval": -3,
@@ -817,7 +829,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_CANNON2",
-      "price": 800,
+      "price": 1680,
       "name": "Hecaton Machine Gun ",
       "description": "-",
       "tips": "-",
@@ -850,7 +862,10 @@
       "amount":               3,
       "penetrating":          0,
       "knockback": 0.5,
-      "hitsWalls": true
+      "hitsWalls": true,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "duration": 25,
@@ -879,7 +894,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_CANNON3",
-      "price": 800,
+      "price": 6240,
       "name": "Divergence",
       "description": "-",
       "tips": "-",
@@ -905,7 +920,10 @@
       "amount":               6,
       "penetrating":          1,
       "knockback": 0.5,
-      "hitsWalls": true
+      "hitsWalls": true,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "EME_MECH1": [
@@ -914,7 +932,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_MECH1",
-      "price": 800,
+      "price": 100,
       "name": "Super Missile",
       "description": "-",
       "tips": "-",
@@ -958,7 +976,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_MECH2",
-      "price": 800,
+      "price": 2100,
       "name": "Hydra Cannon",
       "description": "-",
       "tips": "-",
@@ -1011,7 +1029,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_MECH3",
-      "price": 800,
+      "price": 7800,
       "name": "Hyperion Bazooka",
       "description": "-",
       "tips": "-",
@@ -1043,7 +1061,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_PISTOL1",
-      "price": 800,
+      "price": 80,
       "name": "Eagle Gun",
       "description": "-",
       "tips": "-",
@@ -1110,7 +1128,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_PISTOL2",
-      "price": 800,
+      "price": 2880,
       "name": "Pendragon",
       "description": "-",
       "tips": "-",
@@ -1169,7 +1187,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_KNIFE1",
-      "price": 800,
+      "price": 80,
       "name": "Khukuri",
       "description": "-",
       "tips": "-",
@@ -1228,7 +1246,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_KNIFE2",
-      "price": 800,
+      "price": 1680,
       "name": "Jetstream",
       "description": "-",
       "tips": "-",
@@ -1288,7 +1306,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_KATANA1",
-      "price": 800,
+      "price": 120,
       "name": "Twin Dragon",
       "description": "-",
       "tips": "-",
@@ -1344,7 +1362,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_KATANA2",
-      "price": 800,
+      "price": 4400,
       "name": "Gekkabijin",
       "description": "-",
       "tips": "-",
@@ -1402,7 +1420,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_AXE1",
-      "price": 800,
+      "price": 100,
       "name": "Bullova",
       "description": "-",
       "tips": "-",
@@ -1460,7 +1478,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_AXE2",
-      "price": 800,
+      "price": 3600,
       "name": "Bilqis",
       "description": "-",
       "tips": "-",
@@ -1518,7 +1536,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_BLOOD1",
-      "price": 800,
+      "price": 100,
       "name": "Sanguine Star",
       "description": "-",
       "tips": "-",
@@ -1571,7 +1589,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_BLOOD2",
-      "price": 800,
+      "price": 3600,
       "name": "Blood Chalice",
       "description": "-",
       "tips": "-",
@@ -1629,7 +1647,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_SPEAR1",
-      "price": 800,
+      "price": 80,
       "name": "Glaive",
       "description": "-",
       "tips": "-",
@@ -1674,7 +1692,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_SPEAR2",
-      "price": 800,
+      "price": 1680,
       "name": "Feather Spear",
       "description": "-",
       "tips": "-",
@@ -1728,7 +1746,7 @@
       "contentGroup": "EMERALDS",
       "sealable": true,
       "bulletType": "EME_SPEAR3",
-      "price": 800,
+      "price": 6240,
       "name": "Lohengrin",
       "description": "-",
       "tips": "-",
@@ -1759,7 +1777,7 @@
       "sealable": true,
       "contentGroup": "EMERALDS",
       "bulletType": "EME_MAGIC1",
-      "price": 800,
+      "price": 180,
       "collectionFrame": "frameB_emerald.png",
       "name": "Spirit Rings",
       "texture": "EME_items",
@@ -1778,7 +1796,10 @@
       
       "duration":     1000,
       "hitBoxDelay":  500,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "amount": 1
@@ -1809,7 +1830,7 @@
       "sealable": true,
       "contentGroup": "EMERALDS",
       "bulletType": "EME_MAGIC2",
-      "price": 10,
+      "price": 7000,
       "collectionFrame": "frameB_emerald.png",
       "name": "Rings of Calamity",
       "texture": "EME_items",
@@ -1829,7 +1850,10 @@
       "amount": 5,
       "duration": 1500,
       "hitBoxDelay": 500,
-      "hitsWalls": false
+      "hitsWalls": false,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "EME_WAVE": [
@@ -1839,7 +1863,7 @@
       "bulletType": "EME_WAVE",
       "contentGroup": "EMERALDS",
       "collectionFrame": "frameB_emerald.png",
-      "price": 1,
+      "price": 108,
       "name": "Emerald Rapture",
       "description": ".",
       "tips": ".",
@@ -1902,7 +1926,7 @@
       "bulletType": "EME_WAVE2",
       "contentGroup": "EMERALDS",
       "collectionFrame": "frameB_emerald.png",
-      "price": 1,
+      "price": 4000,
       "name": "Emerald Wave",
       "description": ".",
       "tips": "Requires: Crown.",
@@ -1950,7 +1974,8 @@
       "isUnlocked": false,
       "sealable": true,
       "description": "Allows you to choose a sub-weapon.",
-      "poolLimit": 0
+      "poolLimit": 0,
+      "price": 400
     }
   ],
 

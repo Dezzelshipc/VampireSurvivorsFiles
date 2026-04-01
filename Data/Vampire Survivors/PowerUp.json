@@ -742,5 +742,40 @@
     {
       "seal": 1
     }
+  ],
+
+  "FEVER": [
+    {
+      "level": 0,
+      "hidden": true,
+      "bulletType": "FEVER",
+      "name": "Antipiretic",
+      "description": ".",
+      "texture": "items",
+      "frameName": "antipyretic.png",
+      "isPowerUp": true,
+      "isAnUnlockable": true,
+      "price": 500,
+      "unlockedRank": 0,
+      "specialBG": true,
+      "active": true
+    }
+  ],
+  "INVUL": [
+    {
+      "level": 0,
+      "hidden": true,
+      "bulletType": "INVUL",
+      "name": "Invul Time",
+      "description": ".",
+      "texture": "items",
+      "frameName": "parma.png",
+      "isPowerUp": true,
+      "isAnUnlockable": true,
+      "price": 500,
+      "unlockedRank": 0,
+      "specialBG": true,
+      "active": true
+    }
   ]
 }

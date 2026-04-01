@@ -334,6 +334,20 @@
     "value": 1,
     "contentGroup": "EXTRA"
   },
+  "BONUS_SCORCHEDSOUL": {
+    "name": "Scorched Soul",
+    "description": ".",
+    "tips": "",
+    "texture": "items",
+    "frameName": "ScorchedSoul.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 1,
+    "contentGroup": "EXTRA"
+  },
   "CART_ACCEL": {
     "name": "Acceleration",
     "description": "",
@@ -511,6 +525,20 @@
     "isSpecialOption": true,
     "seen": true,
     "contentGroup": "BASE"
+  },
+  "TEXT_PICKUP": {
+    "name": "Text Pickup",
+    "description": "Show a popup.",
+    "tips": "",
+    "texture": "items",
+    "frameName": "10.png",
+    "contentGroup": "BASE",
+	"pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 0
   },
   "DUMMY_LIGHTSOURCE": {
     "name": "",
@@ -838,6 +866,7 @@
     "contentGroup": "BASE",
     "showAboveAll": true
   },
+  
   "RELIC_ATLAS": {
     "name": "Atlas Gate",
     "description": "Enables base game Adventures.",
@@ -1061,6 +1090,25 @@
     "contentGroup": "EXTRA",
     "showAboveAll": true
   },
+  "RELIC_GREENEYES": {
+    "hidden": false,
+    "name": "Green Eyes Vizard",
+    "description": "Summons Bat Dragons in some stages.",
+    "tips": "",
+    "achievementTips": "Bat Dragons",
+    "texture": "items",
+    "frameName": "icon_vizzardgreen.png",
+    "collectionFrame": "frameB_bold.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "value": 60000,
+    "isRelic": true,
+    "sealable": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": true
+  },
   "RELIC_MAP_AS": {
     "name": "Astral Stair Map",
     "description": "Displays a detailed map when in Astral Stair.",
@@ -1191,23 +1239,42 @@
     "showAboveAll": true
   },
   "RELIC_SURVAROCCHI": {
-    "hidden": true,
+    "hidden": false,
     "name": "Survarocchi",
     "description": "Allows to find Survarots in light sources.",
     "tips": "",
     "achievementTips": "Survarots",
     "texture": "items",
     "collectionFrame": "frameB_bold.png",
-    "frameName": "Tarots2.png",
+    "frameName": "Tarots3.png",
     "pickedupAmount": 0,
     "rarity": 0,
     "unlocksAt": 1000000,
     "inTreasures": false,
-    "value": 0,
+    "value": 120000,
     "isRelic": true,
     "contentGroup": "EXTRA",
     "showAboveAll": true
   },
+  "RELIC_SV_ANTIPASTIVES": {
+    "hidden": false,
+    "name": "Antipastives",
+    "description": "Allows to find Survarots from the Antipastives set.",
+    "tips": "",
+    "achievementTips": "Antipastives Set",
+    "texture": "items",
+    "collectionFrame": "frameB_bold.png",
+    "frameName": "Tarots4.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "value": 180000,
+    "isRelic": true,
+    "contentGroup": "EXTRA",
+    "showAboveAll": true
+  },
+  
   "EX_ZI_APPUNTA_PICKUP": {
     "name": "",
     "description": "",
@@ -1567,68 +1634,46 @@
     "showAboveAll": true
   },
 
-  "CARD_B001_ANTONIO"   : {
-    "name": "001: Antonio Belpaese",
-    "description": "",
+  "TAG_FIRE": {
+    "name": "",
+    "description": ".",
     "tips": "",
     "texture": "items",
-    "frameName": "goldenegg.png",
+    "frameName": "tag_FIRE.png",
     "pickedupAmount": 0,
     "rarity": 0,
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 10000,
-    "isRelic": true,
-    "contentGroup": "EXTRA",
-    "showAboveAll": false
+    "value": 0,
+    "showAboveAll": true
   },
-  "CARD_B002_IMELDA"    : {
-    "name": "002: Imelda Belpaese",
-    "description": "",
+  "TAG_COLD": {
+    "name": "",
+    "description": ".",
     "tips": "",
     "texture": "items",
-    "frameName": "goldenegg.png",
+    "frameName": "tag_COLD.png",
     "pickedupAmount": 0,
     "rarity": 0,
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 10000,
-    "isRelic": true,
-    "contentGroup": "EXTRA",
-    "showAboveAll": false
+    "value": 0,
+    "showAboveAll": true
   },
-  "CARD_B003_PASQUALINA": {
-    "name": "003: Pasqualina Belpaese",
-    "description": "",
+  "TAG_CRIT": {
+    "name": "",
+    "description": ".",
     "tips": "",
     "texture": "items",
-    "frameName": "goldenegg.png",
+    "frameName": "tag_CRIT.png",
     "pickedupAmount": 0,
     "rarity": 0,
     "unlocksAt": 1000000,
     "inTreasures": false,
     "hidden": true,
-    "value": 10000,
-    "isRelic": true,
-    "contentGroup": "EXTRA",
-    "showAboveAll": false
-  },
-  "CARD_B004_GENNARO": {
-    "name": "004: Gennaro Belpaese",
-    "description": "",
-    "tips": "",
-    "texture": "items",
-    "frameName": "goldenegg.png",
-    "pickedupAmount": 0,
-    "rarity": 0,
-    "unlocksAt": 1000000,
-    "inTreasures": false,
-    "hidden": true,
-    "value": 10000,
-    "isRelic": true,
-    "contentGroup": "EXTRA",
-    "showAboveAll": false
+    "value": 0,
+    "showAboveAll": true
   }
 }

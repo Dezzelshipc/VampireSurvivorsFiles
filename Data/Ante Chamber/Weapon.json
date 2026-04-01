@@ -22,7 +22,11 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 104,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "duration": 500,
@@ -87,7 +91,11 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "LEM_BANANA1": [
@@ -115,7 +123,8 @@
 	  "penetrating": 1,
 	  "critChance": 0.166,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 104
     },
     {
       "amount": 1
@@ -180,7 +189,8 @@
 	  "penetrating": 1,
 	  "critChance": 1,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000
     }
   ],
   "LEM_BANANA2_HIDDEN": [
@@ -234,7 +244,8 @@
       "amount": 1,
       "knockback": 5,
       "hitsWalls": false,
-	  "customDescValue": "%0% chance to fire another weapon."
+	  "customDescValue": "%0% chance to fire another weapon.",
+      "price": 104
     },
     {
 	  "amount": 1,
@@ -301,7 +312,8 @@
       "speed": 1,
       "amount": 3,
       "knockback": 5,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000
     }
   ],
   "LEM_PLANETS1": [
@@ -325,7 +337,8 @@
       "speed": 1,
       "amount": 1,
       "knockback": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 104
     },
     {
       "amount": 1
@@ -391,7 +404,8 @@
       "speed": 1.2,
       "amount": 1,
       "knockback": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000
     }
   ],
   "LEM_ACC_SABOTEUR": [
@@ -404,7 +418,7 @@
       "texture": "LEM_items",
       "contentGroup": "LEMON",
       "collectionFrame": "frameB_lemon.png",
-      "price": 2,
+      "price": 10000,
       "name": "Outer Saboteur",
       "description": ".",
       "tips": "-",

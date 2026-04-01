@@ -560,7 +560,7 @@
       "tips": "Requires: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Evolved Carréllo. Duration, Speed, and Area affect damage instead.",
       "tips": "Requires: Tetraforce."
     },
@@ -1562,7 +1562,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Grand Cross",
       "description": "Summons holy light.",
-      "tips": "Best with: Cooldown, Revivals."
+      "tips": "Best with: Cooldown."
     },
     "TP_SPIRITTORNADO": {
       "name": "Summon Spirit Tornado",
@@ -2230,6 +2230,99 @@
       "name": "Wicked Ruler",
       "tips": "Requires Max: Spellbinder.",
       "description": "Evolved Chaos Rune. Exerts control over wild magical forces."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignores: Speed."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Requires Max: Tirajisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Level up bonuses focus on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Level up bonuses focus on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Level up bonuses focus on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Level up bonuses focus on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Level up bonuses focus on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Level up bonuses focus on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Miracle of Multiplication",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignores: Speed."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "fr": {
@@ -2793,7 +2886,7 @@
       "tips": "Requiert : Tétraforce."
     },
     "CART2EVO": {
-      "name": "Carozza !",
+      "name": "Carrozza !",
       "description": "Évolution du Carréllo. La durée, la vitesse et la portée affectent les dégâts.",
       "tips": "Requiert : Tétraforce."
     },
@@ -3795,7 +3888,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Crucifix géant",
       "description": "Invoque la lumière sacrée.",
-      "tips": "Efficace avec : recharge, résurrections."
+      "tips": "Efficace avec : recharge."
     },
     "TP_SPIRITTORNADO": {
       "name": "Tornade d'Esprit invoqué",
@@ -4463,6 +4556,99 @@
       "name": "Souverain maléfique",
       "tips": "Requiert : Reliure magique au max.",
       "description": "Évolution de la Rune du chaos. Exerce un contrôle sur les forces magiques sauvages."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignore : vitesse."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Requiert : Tirajisú au max."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignore : vitesse."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "it": {
@@ -5026,8 +5212,8 @@
       "tips": "Requisito: Tetraforza."
     },
     "CART2EVO": {
-      "name": "Carozza!",
-      "description": "Evoluzione di Carrello. Durata, Velocità e Area influenzano i danni.",
+      "name": "Carrozza!",
+      "description": "Evoluzione di Carréllo. Durata, Velocità e Area influenzano i danni.",
       "tips": "Requisito: Tetraforza."
     },
     "FLOWER2": {
@@ -6028,7 +6214,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Gran croce",
       "description": "Evoca luce sacra.",
-      "tips": "Ideale con: Tempo di ricarica, Resurrezione."
+      "tips": "Ideale con: Tempo di ricarica."
     },
     "TP_SPIRITTORNADO": {
       "name": "Evoca Tornado spirituale",
@@ -6696,6 +6882,99 @@
       "name": "Perfido sovrano",
       "tips": "Necessita del massimo di: Estendincanto.",
       "description": "Evoluzione di Runa del caos. Esercita il controllo sulle forze magiche selvagge."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignora: Velocità."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Necessita del massimo di: Tiragisù."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignora: Velocità."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "de": {
@@ -7259,7 +7538,7 @@
       "tips": "Benötigt: Tetrakraft."
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Verbesserter Carréllo. Schaden ist nun abhängig von Dauer, Schnelligkeit und Bereich.",
       "tips": "Benötigt: Tetrakraft."
     },
@@ -8261,7 +8540,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Großes Kreuz",
       "description": "Die Anzahl der Geschosse wird auch durch Wiederbeleben beeinflusst.",
-      "tips": "Am besten mit: Abklingzeit, Wiederbeleben."
+      "tips": "Am besten mit: Abklingzeit"
     },
     "TP_SPIRITTORNADO": {
       "name": "Geistertornado beschwören",
@@ -8929,6 +9208,99 @@
       "name": "Grausamer Herrscher",
       "tips": "Max. erforderlich: Zauberbinder.",
       "description": "Verbesserte Chaosrune. Übt Kontrolle über ungezähmte magische Kräfte aus."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignoriert: Tempo."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Max. erforderlich: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignoriert: Tempo."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "es": {
@@ -9492,7 +9864,7 @@
       "tips": "Requiere: tetrafuerza."
     },
     "CART2EVO": {
-      "name": "Carozza",
+      "name": "Carrozza",
       "description": "Evolución del carréllo. La duración, la velocidad y el área de efecto afectan al daño.",
       "tips": "Requiere: tetrafuerza."
     },
@@ -10494,7 +10866,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Cruz magna",
       "description": "Invoca la luz sagrada.",
-      "tips": "Mejor con: recarga, resurrecciones."
+      "tips": "Mejor con: recarga."
     },
     "TP_SPIRITTORNADO": {
       "name": "Invocación del tornado de espíritus",
@@ -11162,6 +11534,99 @@
       "name": "Gobernante malvado",
       "tips": "Requiere: potenciahechizos al máximo.",
       "description": "Evolución de la runa del caos. Ejerce control sobre las fuerzas mágicas salvajes."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignora: velocidad."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Requiere: tiramisurrección al máximo."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignora: velocidad."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "pt-BR": {
@@ -12727,7 +13192,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Grande Cruz",
       "description": "Invoca a luz sagrada.",
-      "tips": "Melhor com: Recarga, Ressurreição."
+      "tips": "Melhor com: Recarga."
     },
     "TP_SPIRITTORNADO": {
       "name": "Tornado Invoca-Espírito",
@@ -13395,6 +13860,99 @@
       "name": "Regente Perverso",
       "tips": "Requer máx. de: Magicatalisador.",
       "description": "Evolução da Runa do Caos. Exerce controle sobre as forças mágicas selvagens."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignora: Velocidade."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Requer máx. de: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignora: Velocidade."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "pl": {
@@ -13958,7 +14516,7 @@
       "tips": "Wymagania: Czwórmoc"
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Ulepszone Carréllo. Czas trwania, Prędkość i Obszar wpływają na obrażenia.",
       "tips": "Wymagania: Czwórmoc."
     },
@@ -14960,7 +15518,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Wielki krzyż",
       "description": "Przywołuje święte światło.",
-      "tips": "Działa najlepiej z: Odnawianie, Wskrzeszenia."
+      "tips": "Działa najlepiej z: Odnawianie"
     },
     "TP_SPIRITTORNADO": {
       "name": "Wezwij Tornado dusz",
@@ -15628,6 +16186,99 @@
       "name": "Nikczemny władca",
       "tips": "Wymagany maks. poziom: Zaklinacz.",
       "description": "Ulepszona Runa chaosu. Kontroluje dzikie siły magiczne."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignoruje: Prędkość."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Wymagany maks. poziom: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignoruje: Prędkość."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "ru": {
@@ -17193,7 +17844,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Большой крест",
       "description": "Призывает священный свет.",
-      "tips": "Для лучшего эффекта требуются: перезарядка, оживление."
+      "tips": "Для лучшего эффекта требуется: перезарядка"
     },
     "TP_SPIRITTORNADO": {
       "name": "Торнадо духов",
@@ -17861,6 +18512,99 @@
       "name": "Безумный Владыка",
       "tips": "Требуется макс.: заклинатель.",
       "description": "Улучшенная «Руна хаоса». Осуществляет контроль над первозданными силами."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Игнорирует: скорость."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Требуется макс.: «Тирагису»."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Игнорирует: скорость."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "tr": {
@@ -18424,7 +19168,7 @@
       "tips": "Gerektirir: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Evrimleşmiş Carréllo. Tesir Süresi, Hız ve Alan hasarı etkiler.",
       "tips": "Gerektirir: Tetraforce."
     },
@@ -19426,7 +20170,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Büyük Haç",
       "description": "Kutsal ışığı çağırır.",
-      "tips": "İyi gider: Bekleme Süresi, Canlanma."
+      "tips": "İyi gider: Bekleme Süresi."
     },
     "TP_SPIRITTORNADO": {
       "name": "Ruh Kasırgası Çağır",
@@ -20094,6 +20838,99 @@
       "name": "Hain Hükümdar",
       "tips": "Maks Gerektirir: Büyübağlayan.",
       "description": "Evrimleşmiş Kaos Rünü. Olağanüstü sihirli güçlerin kontrolünü ele geçirir."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Yok sayar: Hız."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Maks Gerektirir: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Yok sayar: Hız."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "zh-CN": {
@@ -21659,7 +22496,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "宏大十字架",
       "description": "召唤神圣之光。",
-      "tips": "最佳搭配：冷却时间、复活。"
+      "tips": "最佳搭配：冷却时间。"
     },
     "TP_SPIRITTORNADO": {
       "name": "召唤灵魂龙卷风",
@@ -22327,6 +23164,99 @@
       "name": "邪恶统治者",
       "tips": "需要：咒缚盒（最高级）。",
       "description": "进化后的混沌符文。对野生魔法力量施加控制。"
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "无关：速度。"
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "需要：提拉吉苏（最高级）。"
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "无关：速度。"
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "ja": {
@@ -22709,7 +23639,7 @@
     },
     "MISSPELL": {
       "name": "ミススペルの炎",
-      "description": "円錐状の炎を放出します。",
+      "description": "円錐状の炎を放出する。",
       "tips": null
     },
     "MISSPELL2": {
@@ -23892,7 +24822,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "グランドクロス",
       "description": "復活は発射物の数にも影響する。",
-      "tips": "クールダウン、復活との相性抜群。"
+      "tips": "好相性の能力値：クールダウン"
     },
     "TP_SPIRITTORNADO": {
       "name": "スピリット・トルネドの召喚",
@@ -24560,6 +25490,99 @@
       "name": "邪悪な支配者",
       "tips": "最大限が必要：封魔の書。",
       "description": "カオス・ルーンの進化形。野生の魔法の力を制御する。"
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "弾速はこの武器に効果をもたらさない。"
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "最大限が必要：ティラギス。"
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "弾速はこの武器に効果をもたらさない。"
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "ko": {
@@ -26125,7 +27148,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "그랜드 크로스",
       "description": "성스러운 빛을 소환합니다.",
-      "tips": "최상의 조합: 쿨타임, 부활."
+      "tips": "최상의 조합: 쿨타임"
     },
     "TP_SPIRITTORNADO": {
       "name": "스피릿 토네이도 소환",
@@ -26793,6 +27816,99 @@
       "name": "사악한 통치자",
       "tips": "최대치 필요: 주문 속박기",
       "description": "진화한 혼돈의 룬. 야생의 마법적 힘을 통제합니다."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "강화 무시: 투사체 속도"
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "최대치 필요: 티라미수"
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "강화 무시: 투사체 속도"
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "zh-TW": {
@@ -28358,7 +29474,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "大十字架",
       "description": "召喚神聖光芒。",
-      "tips": "最佳搭配：冷卻時間、復活次數。"
+      "tips": "最佳搭配：冷卻時間"
     },
     "TP_SPIRITTORNADO": {
       "name": "召喚靈魂龍捲風",
@@ -29026,6 +30142,99 @@
       "name": "邪惡君主",
       "tips": "需要（最高級）：咒縛盒。",
       "description": "解放版的混沌符文。控制狂野的魔法力量。"
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "無加成效果：速度。"
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "需要（最高級）：提拉吉蘇。"
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "無加成效果：速度。"
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   },
   "uk": {
@@ -30591,7 +31800,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Великий хрест",
       "description": "Викликає священне світло.",
-      "tips": "Найкраще використовувати з: відновлення, оживлення."
+      "tips": "Найкраще з: відновлення."
     },
     "TP_SPIRITTORNADO": {
       "name": "Виклик торнадо духів",
@@ -31259,6 +32468,99 @@
       "name": "Злий правитель",
       "tips": "Потребує макс.: Заклинач.",
       "description": "Еволюція Руни Хаосу. Керує дикими магічними силами."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ігнорує: швидкість."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Потребує макс.: Тірагісу."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Levelling up focuses on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Levelling up focuses on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Levelling up focuses on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Levelling up focuses on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Levelling up focuses on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Levelling up focuses on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Tonno Subito",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ігнорує: швидкість."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
     }
   }
 }

@@ -146,7 +146,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Cooldown bonus is lost over 4 levels."
+      "description": null
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -158,7 +158,7 @@
     },
     "109": {
       "name": "009 - Suor Clerici",
-      "description": "Area bonus is lost over 5 levels."
+      "description": null
     },
     "110": {
       "name": "010 - Dommario",
@@ -206,7 +206,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Amount bonus is lost over 9 levels."
+      "description": null
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -284,7 +284,7 @@
       "description": "Gain a stacking 10-second +0.1 Recovery bonus every time you take damage."
     },
     "3002": {
-      "description": "Grants 100 gold coin when taking damage."
+      "description": "Grants 1 gold coin when taking damage."
     },
     "3003": {
       "description": "Retaliates with a ground slam when taking damage."
@@ -314,10 +314,10 @@
       "description": "+1 Armor after defeating a set amount of enemies [1k, 5k, 10k]"
     },
     "5003": {
-      "description": "Grants 1 gold coin after defeating a set amount of enemies [1k, 2k, 3k]"
+      "description": "Grants 100 gold coins after defeating a set amount of enemies [1k, 2k, 3k]"
     },
     "5004": {
-      "description": "Starts a Gold Fever after defeating a set amount of enemies [1k, 5k, 10k]"
+      "description": "Starts a Gold Fever after defeating a set amount of enemies [1k, 3k, 5k]"
     },
     "6000": {
       "description": "HP-Critical: gains 40 MaxHP and recovers 30% Health."
@@ -341,16 +341,16 @@
       "description": "Overheal +16: gains +1 Reroll."
     },
     "8000": {
-      "description": "Spawn light sources after gaining a set amount of gold [1k, 5k, 10k]"
+      "description": "Spawn light sources after gaining a set amount of gold [500, 1k, 2k]"
     },
     "8001": {
-      "description": "Gains +0.5 Thorns after gaining a set amount of gold [1k, 5k, 10k]"
+      "description": "Gains +0.5 Thorns after gaining a set amount of gold [1k, 2k, 3k]"
     },
     "8002": {
       "description": "Gains +1 Revive after gaining a set amount of gold [1k, 5k, 10k]"
     },
     "8003": {
-      "description": "Gains +1 passive weapon slot after gaining a set amount of gold [5k, 10k, 20k]"
+      "description": "Gains +1 passive weapon slot after gaining a set amount of gold [2.5k, 7.5k, 15k]"
     },
     "EDITION_Gala": {
       "description": "Adds a Survarot-specific bonus."
@@ -385,6 +385,76 @@
     },
     "9999": {
       "description": "Start gaining %0 every %1 levels (Max %2 times)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": "XVII - Sign of Blood",
+      "description": "Summnons undead followers that can evolve if levelled up. If an enemy reaper spawns, it becomes your follower immediately instead."
     }
   },
   "fr": {
@@ -534,7 +604,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Le bonus de recharge se perd après 4 niveaux."
+      "description": null
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -546,7 +616,7 @@
     },
     "109": {
       "name": "009 - Suor Clerici",
-      "description": "Le bonus de portée se perd après 5 niveaux."
+      "description": null
     },
     "110": {
       "name": "010 - Dommario",
@@ -594,7 +664,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Le bonus de quantité se perd pendant 9 niveaux."
+      "description": null
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -672,7 +742,7 @@
       "description": "Gagne un bonus cumulable de 10 secondes de +0,1 guérison à chaque fois que vous subissez des dégâts."
     },
     "3002": {
-      "description": "Octroie 100 pièce d'or lorsque vous subissez des dégâts."
+      "description": "Octroie 1 pièce d'or lorsque vous subissez des dégâts."
     },
     "3003": {
       "description": "Riposte avec une charge au sol lorsque vous subissez des dégâts."
@@ -702,7 +772,7 @@
       "description": "+1 d'armure après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]"
     },
     "5003": {
-      "description": "Octroie 1 pièce d'or après avoir éliminé une certaine quantité d'ennemis [1 000, 2 000, 3 000]"
+      "description": "Octroie 100 pièce d'or après avoir éliminé une certaine quantité d'ennemis [1 000, 2 000, 3 000]"
     },
     "5004": {
       "description": "Déclenche une Pluie d'or après avoir éliminé une certaine quantité d'ennemis [1 000, 5 000, 10 000]"
@@ -773,6 +843,76 @@
     },
     "9999": {
       "description": "Obtient %0 tous les %1 niveaux (%2 fois max)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "it": {
@@ -922,7 +1062,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Il bonus al Tempo di ricarica si resetta dopo quattro livelli."
+      "description": null
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -934,7 +1074,7 @@
     },
     "109": {
       "name": "009 - Suor Clerici",
-      "description": "Il Bonus all'Area si resetta dopo cinque livelli."
+      "description": null
     },
     "110": {
       "name": "010 - Dommario",
@@ -982,7 +1122,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Il bonus Quantità svanisce dopo 9 livelli."
+      "description": null
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -1000,7 +1140,7 @@
       "description": "Guadagni Anima di Mortaccio dopo 80 livelli."
     },
     "1001": {
-      "description": "Guadagni Carozza! dopo 80 livelli."
+      "description": "Guadagni Carrozza! dopo 80 livelli."
     },
     "1002": {
       "description": "Guadagni Yatta Daikarin dopo 80 livelli."
@@ -1060,7 +1200,7 @@
       "description": "Guadagni un bonus di +0,1 al Recupero per 10 secondi (accumulabile) ogni volta che subisci danni."
     },
     "3002": {
-      "description": "Ricevi 100 moneta d'oro quando subisci danni."
+      "description": "Ricevi 1 moneta d'oro quando subisci danni."
     },
     "3003": {
       "description": "Contrattacca con una schiacciata al suolo quando subisce danni."
@@ -1090,7 +1230,7 @@
       "description": "+1 di Armatura dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]"
     },
     "5003": {
-      "description": "Ricevi una moneta d'oro dopo aver sconfitto un numero prestabilito di nemici [1.000, 2.000, 3.000]"
+      "description": "Ricevi 100 monete d'oro dopo aver sconfitto un numero prestabilito di nemici [1.000, 2.000, 3.000]"
     },
     "5004": {
       "description": "Avvia Febbre dell'oro dopo aver sconfitto un numero prestabilito di nemici [1.000, 5.000, 10.000]"
@@ -1161,6 +1301,76 @@
     },
     "9999": {
       "description": "Comincia a guadagnare %0 ogni %1 livelli (max %2 volte)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "de": {
@@ -1310,7 +1520,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Abklingzeit-Bonus, hält 4 Level an."
+      "description": null
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -1322,7 +1532,7 @@
     },
     "109": {
       "name": "009 - Suor Clerici",
-      "description": "Bereich-Bonus, hält 5 Level an."
+      "description": null
     },
     "110": {
       "name": "010 - Dommario",
@@ -1370,7 +1580,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Menge-Bonus, hält 9 Level an."
+      "description": null
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -1388,7 +1598,7 @@
       "description": "Erhalte nach 80 Leveln die Anima von Mortaccio."
     },
     "1001": {
-      "description": "Erhalte nach 80 Leveln Carozza!"
+      "description": "Erhalte nach 80 Leveln Carrozza!"
     },
     "1002": {
       "description": "Erhalte nach 80 Leveln Yatta Daikarin!"
@@ -1448,7 +1658,7 @@
       "description": "Wenn du Schaden erleidest, erhältst du 10 s lang +0,1 Erholung. (Effekt ist stapelbar.)"
     },
     "3002": {
-      "description": "Wenn du Schaden erleidest, erhältst du 100 Goldmünze."
+      "description": "Wenn du Schaden erleidest, erhältst du 1 Goldmünze."
     },
     "3003": {
       "description": "Wenn du Schaden erleidest, übst du mit einem erschütternden Schlag Vergeltung."
@@ -1549,6 +1759,76 @@
     },
     "9999": {
       "description": "Erhalte %0 nach jedem %1. Level (max. %2-mal)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "es": {
@@ -1698,7 +1978,7 @@
     },
     "106": {
       "name": "006: Porta Ladonna",
-      "description": "La bonificación de recarga se va perdiendo durante 4 niveles."
+      "description": null
     },
     "107": {
       "name": "007: Lama Ladonna",
@@ -1710,7 +1990,7 @@
     },
     "109": {
       "name": "009: Sor Clerici",
-      "description": "La bonificación de área de efecto se pierde durante 5 niveles."
+      "description": null
     },
     "110": {
       "name": "010: Dommario",
@@ -1758,7 +2038,7 @@
     },
     "121": {
       "name": "021: Ambrojoe",
-      "description": "La bonificación de cantidad se va perdiendo durante 9 niveles."
+      "description": null
     },
     "122": {
       "name": "022: Iguana Gallo Valletto",
@@ -1776,7 +2056,7 @@
       "description": "Gana la ánima de Mortaccio tras 80 niveles."
     },
     "1001": {
-      "description": "Gana la carozza tras 80 niveles."
+      "description": "Gana la Carrozza tras 80 niveles."
     },
     "1002": {
       "description": "Gana la Yatta Daikarin tras 80 niveles."
@@ -1836,7 +2116,7 @@
       "description": "Gana una bonificación acumulable de +0,1 de recuperación durante 10 segundos cada vez que recibes daño."
     },
     "3002": {
-      "description": "Otorga 100 moneda de oro al recibir daño."
+      "description": "Otorga 1 moneda de oro al recibir daño."
     },
     "3003": {
       "description": "Refleja el daño con un porrazo en el suelo al recibir daño."
@@ -1937,6 +2217,76 @@
     },
     "9999": {
       "description": "Empieza a ganar %0 cada %1 niveles (máx.: %2 veces)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "pt-BR": {
@@ -2086,7 +2436,7 @@
     },
     "106": {
       "name": "006 – Porta Ladonna",
-      "description": "O bônus temporário de Recarga dura 4 níveis."
+      "description": null
     },
     "107": {
       "name": "007 – Lama Ladonna",
@@ -2098,7 +2448,7 @@
     },
     "109": {
       "name": "009 – Irmã Clerici",
-      "description": "O bônus temporário de Área dura 5 níveis."
+      "description": null
     },
     "110": {
       "name": "010 – Dommario",
@@ -2146,7 +2496,7 @@
     },
     "121": {
       "name": "021 – Ambrojão",
-      "description": "O bônus temporário de Quantidade dura 9 níveis."
+      "description": null
     },
     "122": {
       "name": "022 – Iguana Gallo Valletto",
@@ -2224,7 +2574,7 @@
       "description": "Ganha um bônus acumulador de +0,1 de Recuperação por 10 segundos sempre que você sofre dano."
     },
     "3002": {
-      "description": "Concede 100 Moeda de Ouro ao sofrer dano."
+      "description": "Concede 1 Moeda de Ouro ao sofrer dano."
     },
     "3003": {
       "description": "Retalia com uma batida no chão ao sofrer dano."
@@ -2254,7 +2604,7 @@
       "description": "+1 de Armadura após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil)."
     },
     "5003": {
-      "description": "Concede 1 Moeda de Ouro após derrotar uma quantidade específica de inimigos (mil, 2 mil, 3 mil)."
+      "description": "Concede 100 Moeda de Ouro após derrotar uma quantidade específica de inimigos (mil, 2 mil, 3 mil)."
     },
     "5004": {
       "description": "Começa uma Febre de Ouro após derrotar uma quantidade específica de inimigos (mil, 5 mil, 10 mil)."
@@ -2325,6 +2675,76 @@
     },
     "9999": {
       "description": "Passa a ganhar %0 a cada %1 níveis (máx. %2 vezes)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "pl": {
@@ -2474,7 +2894,7 @@
     },
     "106": {
       "name": "006 – Porta Ladonna",
-      "description": "Premia do Odnawiania stopniowo znika przez 4 poziomy."
+      "description": null
     },
     "107": {
       "name": "007 – Lama Ladonna",
@@ -2486,7 +2906,7 @@
     },
     "109": {
       "name": "009 – Suor Clerici",
-      "description": "Premia do Obszaru stopniowo znika przez 5 poziomów."
+      "description": null
     },
     "110": {
       "name": "010 – Dommario",
@@ -2534,7 +2954,7 @@
     },
     "121": {
       "name": "021 – Ambrojoe",
-      "description": "Premia do Ilości znika przez 9 poziomów."
+      "description": null
     },
     "122": {
       "name": "022 – Iguana Gallo Valletto",
@@ -2552,7 +2972,7 @@
       "description": "Otrzymuje Anima Mortaccio po 80 poziomach."
     },
     "1001": {
-      "description": "Otrzymuje Carozza! po 80 poziomach."
+      "description": "Otrzymuje Carrozza! po 80 poziomach."
     },
     "1002": {
       "description": "Otrzymuje Yatta Daikarin po 80 poziomach."
@@ -2612,7 +3032,7 @@
       "description": "Przyznaje kumulującą się premię +0,1 do Odzyskiwania na 10 sekund za każdym razem, gdy otrzymujesz obrażenia."
     },
     "3002": {
-      "description": "Przyznaje 100 złotą monetę po otrzymaniu obrażeń."
+      "description": "Przyznaje 1 złotą monetę po otrzymaniu obrażeń."
     },
     "3003": {
       "description": "Po otrzymaniu obrażeń bierze odwet za pomocą uderzenia w ziemię."
@@ -2642,7 +3062,7 @@
       "description": "+1 do Pancerza po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
     },
     "5003": {
-      "description": "Przyznaje 1 złotą monetę po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
+      "description": "Przyznaje 100 złotą monetę po pokonaniu określonej liczby wrogów (1 tys., 5 tys., 10 tys.)"
     },
     "5004": {
       "description": "Zaczyna z Gorączką Złota po pokonaniu określonej liczby wrogów [1 tys., 5 tys., 10 tys.]"
@@ -2713,6 +3133,76 @@
     },
     "9999": {
       "description": "Zacznij otrzymywać %0 po każdych %1 poziomach (maks. %2 razy)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "ru": {
@@ -2862,7 +3352,7 @@
     },
     "106": {
       "name": "006 — Порта Ладонна",
-      "description": "Бонус к перезарядке теряется в течение 4 уровней."
+      "description": null
     },
     "107": {
       "name": "007 — Лама Ладонна",
@@ -2874,7 +3364,7 @@
     },
     "109": {
       "name": "009 — Суор Клеричи",
-      "description": "Бонус к области теряется в течение 5 уровней."
+      "description": null
     },
     "110": {
       "name": "010 — Доммарио",
@@ -2922,7 +3412,7 @@
     },
     "121": {
       "name": "021 — Амбро Джо",
-      "description": "Бонус к боезапасу теряется в течение 9 уровней."
+      "description": null
     },
     "122": {
       "name": "022 — Игуана Галло Валлетто",
@@ -3000,7 +3490,7 @@
       "description": "Получает накапливающийся бонус +1 к регенерации на 10 секунд каждый раз, когда вы получаете урон."
     },
     "3002": {
-      "description": "Получает 100 золотую монету, когда получает урон."
+      "description": "Получает 1 золотую монету, когда получает урон."
     },
     "3003": {
       "description": "Когда получает урон, наносит мощный удар в ответ."
@@ -3030,7 +3520,7 @@
       "description": "+1 к броне после победы над определённым числом врагов (1000, 5000, 10 000)"
     },
     "5003": {
-      "description": "Получает 1 золотую монету после победы над определённым числом врагов (1000, 2000, 3000)"
+      "description": "Получает 100 золотую монету после победы над определённым числом врагов (1000, 2000, 3000)"
     },
     "5004": {
       "description": "Активирует Золотую лихорадку после победы над определённым числом врагов (1000, 5000, 10 000)"
@@ -3101,6 +3591,76 @@
     },
     "9999": {
       "description": "Начинает получать %0 каждые %1 ур. (до %2 раз)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "tr": {
@@ -3250,7 +3810,7 @@
     },
     "106": {
       "name": "006 - Porta Ladonna",
-      "description": "Bekleme Süresi bonusu 4 seviye sonra kaybolur."
+      "description": null
     },
     "107": {
       "name": "007 - Lama Ladonna",
@@ -3262,7 +3822,7 @@
     },
     "109": {
       "name": "009 - Suor Clerici",
-      "description": "Alan bonusu 5 seviye sonra kaybolur."
+      "description": null
     },
     "110": {
       "name": "010 - Dommario",
@@ -3310,7 +3870,7 @@
     },
     "121": {
       "name": "021 - Ambrojoe",
-      "description": "Miktar bonusu 9 seviye sonra kaybolur."
+      "description": null
     },
     "122": {
       "name": "022 - Iguana Gallo Valletto",
@@ -3328,7 +3888,7 @@
       "description": "80 seviye atladıktan sonra Mortaccio'nun Animası'nı kazanır."
     },
     "1001": {
-      "description": "80 seviye atladıktan sonra Carozza! kazanır."
+      "description": "80 seviye atladıktan sonra Carrozza! kazanır."
     },
     "1002": {
       "description": "80 seviye atladıktan sonra Yatta Daikarin kazanır."
@@ -3388,7 +3948,7 @@
       "description": "Her hasar aldığında 10 saniye süren +0.1 İyileşme bonusu kazanır."
     },
     "3002": {
-      "description": "Hasar aldığında 100 altın akçe verir."
+      "description": "Hasar aldığında 1 altın akçe verir."
     },
     "3003": {
       "description": "Hasar aldığında yere vurarak misilleme yapar."
@@ -3418,7 +3978,7 @@
       "description": "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra +1 Zırh verir"
     },
     "5003": {
-      "description": "Belli sayıda düşman [1k, 2k, 3k] öldürdükten sonra 1 altın akçe verir"
+      "description": "Belli sayıda düşman [1k, 2k, 3k] öldürdükten sonra 100 altın akçe verir"
     },
     "5004": {
       "description": "Belli sayıda düşman [1k, 5k, 10k] öldürdükten sonra bir Altın Kasırgası başlatır."
@@ -3489,6 +4049,76 @@
     },
     "9999": {
       "description": "Her %1 seviyede bir %0 kazanmaya başlar (Maks %2 kez."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "zh-CN": {
@@ -3638,7 +4268,7 @@
     },
     "106": {
       "name": "006 - 珀塔·拉多纳",
-      "description": "获得冷却时间加成，持续4级。"
+      "description": null
     },
     "107": {
       "name": "007 - 拉玛·拉多纳",
@@ -3650,7 +4280,7 @@
     },
     "109": {
       "name": "009 - 克莱里奇修女",
-      "description": "获得攻击范围加成，持续5级。"
+      "description": null
     },
     "110": {
       "name": "010 - 多马利奥",
@@ -3698,7 +4328,7 @@
     },
     "121": {
       "name": "021 - 安布罗乔",
-      "description": "获得发射数量加成，持续9级，逐级减弱。"
+      "description": null
     },
     "122": {
       "name": "022 - 伊瓜纳·加洛·瓦勒托",
@@ -3776,7 +4406,7 @@
       "description": "每当受到伤害时，恢复+0.1，持续10秒，可叠加。"
     },
     "3002": {
-      "description": "受到伤害时，金币+100。"
+      "description": "受到伤害时，金币+1。"
     },
     "3003": {
       "description": "受到伤害时，使用地面猛击进行反击。"
@@ -3806,7 +4436,7 @@
       "description": "在击败一定数量的敌人（1000、5000、10000）后，防御+1。"
     },
     "5003": {
-      "description": "在击败一定数量的敌人（1000、2000、3000）后，金币+1。"
+      "description": "在击败一定数量的敌人（1000、2000、3000）后，金币+100。"
     },
     "5004": {
       "description": "在击败一定数量的敌人（1000、5000、10000）后，开启一轮淘金狂潮。"
@@ -3877,6 +4507,76 @@
     },
     "9999": {
       "description": "每%1级，+%0（最多%2次）。"
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "ja": {
@@ -4026,7 +4726,7 @@
     },
     "106": {
       "name": "006 - ポルタ・ラドンナ",
-      "description": "4レベルにかけてクールダウンボーナスを失う。"
+      "description": null
     },
     "107": {
       "name": "007 - ラマ・ラドンナ",
@@ -4038,7 +4738,7 @@
     },
     "109": {
       "name": "009 - シスター・クレーリチ",
-      "description": "5レベルにかけて攻撃範囲ボーナスを失う。"
+      "description": null
     },
     "110": {
       "name": "010 - ドンマリオ",
@@ -4086,7 +4786,7 @@
     },
     "121": {
       "name": "021 - アンブロジョー",
-      "description": "弾数効果は9レベルにわたって失われる。"
+      "description": null
     },
     "122": {
       "name": "022 - イグアナ・ガロ・ヴァレット",
@@ -4164,7 +4864,7 @@
       "description": "ダメージを受けるたびに、スタックする10秒間の回復力ボーナス+0.1。"
     },
     "3002": {
-      "description": "ダメージを受けると、金貨100枚を付与。"
+      "description": "ダメージを受けると、金貨1枚を付与。"
     },
     "3003": {
       "description": "ダメージを受けると、グラウンドスラムで報復する。"
@@ -4265,6 +4965,76 @@
     },
     "9999": {
       "description": "%1レベルごとに%0を獲得し始める（最大%2回まで）。"
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "ko": {
@@ -4414,7 +5184,7 @@
     },
     "106": {
       "name": "006 - 포르타 라돈나",
-      "description": "재사용 대기 시간 보너스를 4레벨에 걸쳐 상실합니다."
+      "description": null
     },
     "107": {
       "name": "007 - 라마 라돈나",
@@ -4426,7 +5196,7 @@
     },
     "109": {
       "name": "009 - 시스터 클레리씨",
-      "description": "공격 범위 보너스를 5레벨에 걸쳐 상실합니다."
+      "description": null
     },
     "110": {
       "name": "010 - 돔마리오",
@@ -4474,7 +5244,7 @@
     },
     "121": {
       "name": "021 - 암브로조",
-      "description": "9레벨이 넘어가면 금전 보너스를 잃습니다."
+      "description": null
     },
     "122": {
       "name": "022 - 이구아나 갈로 발레토",
@@ -4552,7 +5322,7 @@
       "description": "피해를 입을 때마다 10초간 회복력 보너스가 +0.1됩니다."
     },
     "3002": {
-      "description": "피해를 입으면 금화 100개를 얻습니다."
+      "description": "피해를 입으면 금화 1개를 얻습니다."
     },
     "3003": {
       "description": "피해를 입으면 땅을 내리쳐 반격합니다."
@@ -4653,6 +5423,76 @@
     },
     "9999": {
       "description": "%1레벨마다 %0(을)를 획득하기 시작합니다 (최대 %2회)."
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "zh-TW": {
@@ -4802,7 +5642,7 @@
     },
     "106": {
       "name": "006－珀塔．拉多納",
-      "description": "在升過 4 級以後，冷卻時間加成便會消失。"
+      "description": null
     },
     "107": {
       "name": "007－拉瑪．拉多納",
@@ -4814,7 +5654,7 @@
     },
     "109": {
       "name": "009－克萊里奇修女",
-      "description": "在升過 5 級以後，效果範圍加成便會消失。"
+      "description": null
     },
     "110": {
       "name": "010－多馬利歐",
@@ -4862,7 +5702,7 @@
     },
     "121": {
       "name": "021－安布羅喬爵士",
-      "description": "數量加成會在 9 個等級後消失。"
+      "description": null
     },
     "122": {
       "name": "022－伊瓜納．加洛．瓦勒托",
@@ -4940,7 +5780,7 @@
       "description": "每受到一次傷害，便會獲得一個可疊加的 +0.1 點生命恢復量加成（每層的效果持續時間：10 秒）。"
     },
     "3002": {
-      "description": "受到傷害時，獲得 100 枚金幣。"
+      "description": "受到傷害時，獲得 1枚金幣。"
     },
     "3003": {
       "description": "受到傷害時，以地面重擊展開反擊。"
@@ -4970,7 +5810,7 @@
       "description": "在擊敗足夠數量的敵人後，可獲得 +1 點的護甲加成 [1,000、5,000、10,000]"
     },
     "5003": {
-      "description": "在擊敗足夠數量的敵人後，可獲得 1 枚金幣 [1,000 個、2,000 個、3,000 個]"
+      "description": "在擊敗足夠數量的敵人後，可獲得 100 枚金幣 [1,000 個、2,000 個、3,000 個]"
     },
     "5004": {
       "description": "在擊敗足夠數量的敵人後，可觸發一次「淘金狂潮」的效果 [1,000 個、5,000 個、10,000 個]"
@@ -5041,6 +5881,76 @@
     },
     "9999": {
       "description": "每升 %1 級，便可獲得以下的加成效益： %0（最多可觸發 %2 次）。"
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   },
   "uk": {
@@ -5190,7 +6100,7 @@
     },
     "106": {
       "name": "006 — Порта Ладонна",
-      "description": "Втрачає бонус до відновлення на 4 рівні."
+      "description": null
     },
     "107": {
       "name": "007 — Лама Ладонна",
@@ -5202,7 +6112,7 @@
     },
     "109": {
       "name": "009 — Суор Клерічі",
-      "description": "Втрачає бонус до області на 5 рівні."
+      "description": null
     },
     "110": {
       "name": "010 — Доммаріо",
@@ -5250,7 +6160,7 @@
     },
     "121": {
       "name": "021 — Амброджо",
-      "description": "Бонус до кількості втрачається кожні 9 рівнів."
+      "description": null
     },
     "122": {
       "name": "022 — Ігуана Ґало Валетто",
@@ -5328,7 +6238,7 @@
       "description": "Отримує накопич. бонус +0,1 до регенерації на 10 сек. щоразу при отриманні шкоди."
     },
     "3002": {
-      "description": "Надає 100 монету при отриманні шкоди."
+      "description": "Надає 1монету при отриманні шкоди."
     },
     "3003": {
       "description": "Відповідає ударом об землю, коли отримує шкоду."
@@ -5358,7 +6268,7 @@
       "description": "Броня +1 після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
     },
     "5003": {
-      "description": "Надає 1 монету після знищення встановленої кількості ворогів [1 тис., 2 тис., 3 тис.]"
+      "description": "Надає 100 монету після знищення встановленої кількості ворогів [1 тис., 2 тис., 3 тис.]"
     },
     "5004": {
       "description": "Розпочинає Золоту лихоманку після знищення встановленої кількості ворогів [1 тис., 5 тис., 10 тис.]"
@@ -5429,6 +6339,76 @@
     },
     "9999": {
       "description": "Починає отримувати %0 кожні %1 рівні(в) (макс. %2 р.)"
+    },
+    "22": {
+      "name": "Stake to your Heart",
+      "description": "Halts XP gain. Enemies drop Gold Coins. Damage is dealt to Gold Coins instead of HP. A special merchant spawns every minute."
+    },
+    "41": {
+      "name": "XIX - Heir of Fate",
+      "description": "Defeating enemies with FIRE gives bonus MaxHealth and Might. Triggers an Nduja Fritta when health reaches a critically low level."
+    },
+    "30": {
+      "name": "VIII - Edge of the Earth",
+      "description": "Gives +3 Thorns. Fixes MoveSpeed to +100%. Allows to walk through walls. Allows to vacuum Treasure Chests, Light Sources, and Weapons."
+    },
+    "201": {
+      "name": "M01 - Mighty Swordian"
+    },
+    "202": {
+      "name": "M02 - Lost Twin"
+    },
+    "203": {
+      "name": "M03 - Giant Mantichana"
+    },
+    "204": {
+      "name": "M04 - Jellyfish Swarm"
+    },
+    "205": {
+      "name": "M05 - Archon Ascia"
+    },
+    "206": {
+      "name": "M06 - Milk Elemental"
+    },
+    "207": {
+      "name": "M07 - Musc Musc"
+    },
+    "208": {
+      "name": "M08 - Skelewing"
+    },
+    "209": {
+      "name": "M09 - Sig.Ra Rossi"
+    },
+    "210": {
+      "name": "M10 - Merdusa"
+    },
+    "211": {
+      "name": "M11 - Space Pickle"
+    },
+    "212": {
+      "name": "M12 - Skelegem"
+    },
+    "213": {
+      "name": "M13 - Sphon'Dato"
+    },
+    "214": {
+      "name": "M14 - Menta Elemental"
+    },
+    "215": {
+      "name": "M15 - Skullone"
+    },
+    "216": {
+      "name": "M16 - Skullorosso"
+    },
+    "217": {
+      "name": "M17 - Fallen Cherubbello"
+    },
+    "218": {
+      "name": "M18 - Cosmic Egg"
+    },
+    "39": {
+      "name": null,
+      "description": null
     }
   }
 }
