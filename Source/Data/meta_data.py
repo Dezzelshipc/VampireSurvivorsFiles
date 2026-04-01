@@ -1,3 +1,4 @@
+import re
 from collections.abc import Callable
 from pathlib import Path
 from tkinter import Image
@@ -396,8 +397,10 @@ class MetaDataHandler(Objectless):
 
         for name in name_set:
             norm_name = normalize_str(name)
+
+
             filtered = cls.filter_paths(
-                lambda name_path: name_path[0].startswith(norm_name+"_") or name_path[0] == norm_name
+                lambda name_path: re.fullmatch(rf"{norm_name}_\d+", name_path[0]) or name_path[0] == norm_name # name_path[0].startswith(norm_name+"_") or name_path[0] == norm_name
             )
             fullest = list(sorted(filtered, key=lambda name_path: name_path[-1].stat().st_size, reverse=True))[0]
             fullest_set[fullest[0]] = name

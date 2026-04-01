@@ -469,6 +469,16 @@ class ArcanaImageGenerator(BaseImageGenerator):
 
         eng_name = entry.get(self.key_entry_name) or entry.get(KEY_ID)
 
+        if entry.get("arcanaType") < 100:
+            name_s = eng_name.split("-")
+            if len(name_s) < 2:
+                num = "0"
+                name = name_s[0].strip()
+            else:
+                num = name_s[0].strip()
+                name = name_s[1].strip()
+            eng_name = f"{name} ({num})"
+
         save_image_prefix = self.get_save_image_prefix(entry)
 
         return EntryToSave(
@@ -476,7 +486,6 @@ class ArcanaImageGenerator(BaseImageGenerator):
             eng_name,
             lambda x: f"{save_image_prefix}-{self.get_save_name(x)}.png"
         )
-
 
 class PropsImageGenerator(BaseImageGenerator):
     _available_gens: list[GenType] = [GenType.IMAGE, GenType.ANIM]
