@@ -15135,6 +15135,11 @@
       "uiTexture": "AdventuresUI",
       "uiFrame": "ADV_M005FROZENLAKE",
       "texture": "UI",
+      "preload": {
+        "textures": [
+          "moonspellEnemies"
+        ]
+      },
       "frameName": "stage_moonspell_hyper_icon",
       "frameNameUnlock": "stage_moonspell_hyper_icon",
       "bestiaryBG": "background_moonspell",
@@ -37793,7 +37798,7 @@
       "hyperTips": "50% Gold bonus\n10% Luck bonus",
       "relics": [],
       "yellowRelics": [],
-      "validForCharcaterData": true,
+      "validForCharcaterData": true,      
       "preload": {
         "textures": [
           "backgroundX",
@@ -39679,6 +39684,7 @@
       "sideBBGM": "BGM_TP_VS_MadForest",
       "tips": "",
       "hyperTips": "50% Gold bonus",
+      "allowVisualInversion": false,
       "cff": "TP_ALUCARD",
       "validForCharcaterData": true,
       "mods": {
