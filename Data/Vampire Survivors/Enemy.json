@@ -12987,7 +12987,7 @@
       "res_Freeze": 1.1,
       "res_Rosary": 1,
       "res_Debuffs": 1,
-      "textureName": "enemies_Universal",
+      "textureName": "enemies_universal",
       "idleFrameCount": 30,
       "frameNames": [
         "eye_0.png"
@@ -14469,87 +14469,6 @@
       ]
     }
   ],
-
-  "EX_BOSS_BATDRAGON_1": [
-    {
-      "level": 10,
-      "maxHp": 100,
-      "minimumHpScalingLevel": 80,
-      "speed": 110,
-      "power": 20,
-      "knockback": 0,
-      "maxKnockback": 1,
-      "deathKB": 0,
-      "xp": 100,
-      "scale" : 2,
-      "idleFrameCount": 6,
-      "killedAmount": 0,
-      "textureName": "enemies2025",
-      "end": 0,
-      "frameNames": [
-        "EX_BatDragonXL_0.png"
-      ],
-      "skills": [
-        "HP_x_Level"
-      ],
-      "passThroughWalls": true,
-      "res_Freeze": 2,
-      "res_Knockback": 1,
-      "res_Debuffs": 1,
-      "res_Defang": 1,
-      "res_Rosary": 1,
-      "colliderOverride": {
-        "radius": 0.34,
-        "offsetX": 0,
-        "offsetY": 12
-      },
-
-      "bName": ".",
-      "bDesc": ".",
-      "bPlaces": ["FOREST", "MOLISE"],
-      "bInclude": true,
-      "bHighlight": true,
-      "bVariants": [
-        "EX_BOSS_BATDRAGON_2"
-      ]
-    }
-  ],
-  "EX_BOSS_BATDRAGON_2": [
-    {
-      "level": 10,
-      "maxHp": 100,
-      "minimumHpScalingLevel": 80,
-      "speed": 110,
-      "power": 20,
-      "knockback": 0,
-      "maxKnockback": 1,
-      "deathKB": 0,
-      "xp": 100,
-      "scale" : 2,
-      "idleFrameCount": 6,
-      "killedAmount": 0,
-      "textureName": "enemies2025",
-      "end": 0,
-      "frameNames": [
-        "EX_BatDragonXL_0.png"
-      ],
-      "skills": [
-        "HP_x_Level"
-      ],
-      "passThroughWalls": true,
-      "res_Freeze": 2,
-      "res_Knockback": 1,
-      "res_Debuffs": 1,
-      "res_Defang": 1,
-      "res_Rosary": 1,
-      "colliderOverride": {
-        "radius": 0.34,
-        "offsetX": 0,
-        "offsetY": 12
-      }
-    }
-  ],
-  
   "EX_BATDRAKELET": [
     {
       "level": 1,
@@ -14577,7 +14496,7 @@
       },
       "bName": ".",
       "bDesc": ".",
-      "bPlaces": ["FOREST", "MOLISE"],
+      "bPlaces": [],
       "bInclude": true,
       "bHighlight": false,
       "bVariants": ["EX_BATDRAKELET_CIRCLING"]
@@ -14642,6 +14561,144 @@
         "offsetX": 12,
         "offsetY": 0
       }
+    }
+  ],
+  
+  "EX_BOSS_BATDRAGON_1": [
+    {
+      "level": 10,
+      "maxHp": 100,
+      "minimumHpScalingLevel": 80,
+      "speed": 110,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale" : 2,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 0,
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "colliderOverride": {
+        "radius": 0.34,
+        "offsetX": 0,
+        "offsetY": 12
+      },
+      "bInclude": false
+    }
+  ],
+  "EX_BOSS_BATDRAGON_2": [
+    {
+      "level": 10,
+      "maxHp": 100,
+      "minimumHpScalingLevel": 80,
+      "speed": 110,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale" : 2,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 0,
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "colliderOverride": {
+        "radius": 0.34,
+        "offsetX": 0,
+        "offsetY": 12
+      }
+    }
+  ],
+  "unused1423": [
+    {
+      "level": 10,
+      "maxHp": 120,
+      "minimumHpScalingLevel": 80,
+      "speed": 110,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale" : 2,
+      "idleFrameCount": 6,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 1,
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "bInclude": false
+    }
+  ],
+  "unused1433": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "frameNames": [
+        "EX_BatDragonXL_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.20,
+        "offsetX": 12,
+        "offsetY": 0
+      },
+      "bName": ".",
+      "bDesc": ".",
+      "bPlaces": [],
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "EX_BOSS_BATDRAGON_1"
+      ]
     }
   ],
   "EX_BATDRAKELET_SHADOW": [

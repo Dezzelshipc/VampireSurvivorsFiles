@@ -1287,11 +1287,11 @@
     "showAboveAll": true
   },
   "RELIC_SV_ANTIPASTIVES": {
-    "hidden": true,
-    "name": "Enemahs",
-    "description": "Allows to find Survarots from the Enemahs set.",
+    "hidden": false,
+    "name": "Antipastives",
+    "description": "Allows to find Survarots from the Antipastives set.",
     "tips": "",
-    "achievementTips": "Enemahs Set",
+    "achievementTips": "Antipastives Set",
     "texture": "tps_lossless_icons",
     "collectionFrame": "frameB_bold.png",
     "frameName": "Tarots4.png",
