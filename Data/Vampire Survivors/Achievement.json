@@ -815,8 +815,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "001",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -824,11 +824,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "245"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0245"
       }
     ]
   },
@@ -1947,8 +1947,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "000",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -1956,11 +1956,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "244"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0244"
       }
     ]
   },
@@ -2525,6 +2525,7 @@
     ]
   },
   "FindAtlas": {
+    "contentGroup": "EXTRA",
     "description": "Obtain the Atlas Gate in Boss Rash.",
     "relicToUnlock": "RELIC_ATLAS",
     "requiresItem": "RELIC_YELLOW",
@@ -2638,8 +2639,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "023",
-        "PS4NpServiceLabel": "0"
+        "Data": "003",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -2647,11 +2648,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": "99"
+        "Data": "247"
       },
       {
         "Platfrom": "PS5",
-        "Data": "0023"
+        "Data": "0247"
       }
     ]
   },
@@ -3607,8 +3608,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "005",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -3616,11 +3617,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "249"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0249"
       }
     ]
   },
@@ -5038,6 +5039,7 @@
     ]
   },
   "Banish10Items": {
+    "contentGroup": "EXTRA",
     "description": "Banish 10 or more weapons in a single run.",
     "powerUpToUnlock": "SEAL",
     "PlatformsData": [
@@ -5061,6 +5063,7 @@
     ]
   },
   "Banish20Items": {
+    "contentGroup": "EXTRA",
     "description": "Banish 20 or more weapons in a single run.",
     "powerUpToUnlock": "SEAL2",
     "PlatformsData": [
@@ -5084,6 +5087,7 @@
     ]
   },
   "Banish40Items": {
+    "contentGroup": "EXTRA",
     "description": "Banish 40 or more weapons in a single run.",
     "powerUpToUnlock": "SEAL3",
     "PlatformsData": [
@@ -5107,6 +5111,7 @@
     ]
   },
   "Banish80Items": {
+    "contentGroup": "EXTRA",
     "description": "Banish 80 or more weapons in a single run.",
     "powerUpToUnlock": "SEAL4",
     "PlatformsData": [
@@ -5308,8 +5313,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "006",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -5317,11 +5322,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "250"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0250"
       }
     ]
   },
@@ -5980,8 +5985,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "002",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -5989,11 +5994,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "246"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0246"
       }
     ]
   },
@@ -6214,8 +6219,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "007",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -6223,11 +6228,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "251"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0251"
       }
     ]
   },
@@ -6337,8 +6342,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "008",
+        "PS4NpServiceLabel": "2"
       }, 
       {
         "Platfrom": "Steam",
@@ -6346,11 +6351,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "252"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0252"
       }
     ]
   },
@@ -6447,8 +6452,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "009",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -6456,11 +6461,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "253"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0253"
       }
     ]
   },
@@ -6507,8 +6512,8 @@
     "PlatformsData": [
       {
         "Platfrom": "PS4",
-        "Data": "",
-        "PS4NpServiceLabel": ""
+        "Data": "004",
+        "PS4NpServiceLabel": "2"
       },
       {
         "Platfrom": "Steam",
@@ -6516,11 +6521,11 @@
       },
       {
         "Platfrom": "GameCore",
-        "Data": ""
+        "Data": "248"
       },
       {
         "Platfrom": "PS5",
-        "Data": ""
+        "Data": "0248"
       }
     ]
   },
