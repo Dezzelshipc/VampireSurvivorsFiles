@@ -560,7 +560,7 @@
       "tips": "Requires: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Evolved Carréllo. Duration, Speed, and Area affect damage instead.",
       "tips": "Requires: Tetraforce."
     },
@@ -1562,7 +1562,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Grand Cross",
       "description": "Summons holy light.",
-      "tips": "Best with: Cooldown, Revivals."
+      "tips": "Best with: Cooldown."
     },
     "TP_SPIRITTORNADO": {
       "name": "Summon Spirit Tornado",
@@ -2230,6 +2230,89 @@
       "name": "Wicked Ruler",
       "tips": "Requires Max: Spellbinder.",
       "description": "Evolved Chaos Rune. Exerts control over wild magical forces."
+    },
+    "EX_FLIK1": {
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignores: Speed."
+    },
+    "EX_FLIK2": {
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Requires Max: Tirajisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "A selection of aquatic armaments that can evolve endlessly.",
+      "customDescValue": "Evolve %0 to unlock this form.",
+      "evoCount": "Times Evolved:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choose a new form. Level up bonuses from all previous forms carry over to the new form.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "King-sized tuna. Level up bonuses focus on Area. Amount affects hit box frequency instead.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Whipped tuna. Level up bonuses focus on Duration.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Freshwater tuna. Level up bonuses focus on Cooldown.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Heavenly tuna. Level up bonuses focus on Amount.",
+      "tips": "Best with: Area, Duration."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Deprecated tuna.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Unsurpassed",
+      "description": "Premium tuna. Level up bonuses focus on Might.",
+      "tips": "Best with: Speed, Duration."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Basic tuna. Level up bonuses focus on Speed.",
+      "tips": "Best with: Speed, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Miracle of Multiplication",
+      "description": "Summons all tuna forms used this run, splitting all level up bonuses evenly. Cannot evolve.",
+      "tips": "Requires: Evolve Penshin Fatcha 6 times"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Unsurpassed (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
     }
   },
   "fr": {
@@ -2793,7 +2876,7 @@
       "tips": "Requiert : Tétraforce."
     },
     "CART2EVO": {
-      "name": "Carozza !",
+      "name": "Carrozza !",
       "description": "Évolution du Carréllo. La durée, la vitesse et la portée affectent les dégâts.",
       "tips": "Requiert : Tétraforce."
     },
@@ -3795,7 +3878,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Crucifix géant",
       "description": "Invoque la lumière sacrée.",
-      "tips": "Efficace avec : recharge, résurrections."
+      "tips": "Efficace avec : recharge."
     },
     "TP_SPIRITTORNADO": {
       "name": "Tornade d'Esprit invoqué",
@@ -4463,6 +4546,89 @@
       "name": "Souverain maléfique",
       "tips": "Requiert : Reliure magique au max.",
       "description": "Évolution de la Rune du chaos. Exerce un contrôle sur les forces magiques sauvages."
+    },
+    "EX_FLIK1": {
+      "name": "Éclair surnaturel",
+      "description": "Les coups critiques génèrent des zones de dégâts. Les réanimations affectent les dégâts des coups consécutifs.",
+      "tips": "Ignore : vitesse."
+    },
+    "EX_FLIK2": {
+      "name": "Perturbation spirituelle",
+      "description": "Évolution de l'Éclair surnaturel. Inflige toujours des coups critiques.",
+      "tips": "Requiert : Tirajisú au max."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "Un ensemble d'armes aquatiques pouvant évoluer à l'infini.",
+      "customDescValue": "Faites évoluer %0 pour débloquer cette forme.",
+      "evoCount": "Évolutions effectuées :",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Choisissez une nouvelle forme. Les bonus d'amélioration de toutes les formes précédentes sont conservés pour la nouvelle forme.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Thonno",
+      "description": "Un thon géant. Les bonus d'amélioration affectent la portée. À la place, la quantité affecte la fréquence de coups.",
+      "tips": "Efficace avec : portée, durée."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Thonnado",
+      "description": "Thon fouetté. Les bonus d'amélioration affectent la durée.",
+      "tips": "Efficace avec : vitesse, durée."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Thonn'omoto",
+      "description": "Thon d'eau douce. Les bonus d'amélioration affectent la recharge.",
+      "tips": "Efficace avec : vitesse, durée."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Thonn'oddeeo",
+      "description": "Thon divin. Les bonus d'amélioration affectent la quantité.",
+      "tips": "Efficace avec : portée, durée."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Thonnent",
+      "description": "Thon périmé.",
+      "tips": "Efficace avec : vitesse, durée."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Inégalé",
+      "description": "Thon premium. Les bonus d'amélioration affectent la puissance.",
+      "tips": "Efficace avec : vitesse, durée."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Thonno Subito",
+      "description": "Thon ordinaire. Les bonus d'amélioration affectent la vitesse.",
+      "tips": "Efficace avec : vitesse, portée."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Le miracle de la multiplication",
+      "description": "Invoque toutes les formes de thon utilisées pendant ce tour, répartissant équitablement tous les bonus de niveau supérieur. Évolution impossible.",
+      "tips": "Requiert : Avoir fait évoluer Penshin Fatcha 6 fois."
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Thonno (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Thonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Thonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Thonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Thonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Inégalé (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Thonno Subito (Solo)"
     }
   },
   "it": {
@@ -5026,8 +5192,8 @@
       "tips": "Requisito: Tetraforza."
     },
     "CART2EVO": {
-      "name": "Carozza!",
-      "description": "Evoluzione di Carrello. Durata, Velocità e Area influenzano i danni.",
+      "name": "Carrozza!",
+      "description": "Evoluzione di Carréllo. Durata, Velocità e Area influenzano i danni.",
       "tips": "Requisito: Tetraforza."
     },
     "FLOWER2": {
@@ -6028,7 +6194,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Gran croce",
       "description": "Evoca luce sacra.",
-      "tips": "Ideale con: Tempo di ricarica, Resurrezione."
+      "tips": "Ideale con: Tempo di ricarica."
     },
     "TP_SPIRITTORNADO": {
       "name": "Evoca Tornado spirituale",
@@ -6696,6 +6862,89 @@
       "name": "Perfido sovrano",
       "tips": "Necessita del massimo di: Estendincanto.",
       "description": "Evoluzione di Runa del caos. Esercita il controllo sulle forze magiche selvagge."
+    },
+    "EX_FLIK1": {
+      "name": "Saetta spettrale",
+      "description": "I colpi critici generano zone di danno. Le resurrezioni influenzano i danni dei colpi critici consecutivi.",
+      "tips": "Ignora: Velocità."
+    },
+    "EX_FLIK2": {
+      "name": "Disordine dello spirito",
+      "description": "Evoluzione di Saetta spettrale. Infligge sempre colpi critici.",
+      "tips": "Necessita del massimo di: Tiragisù."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "Una selezione di armamenti acquatici che possono essere migliorati all’infinito.",
+      "customDescValue": "Migliora %0 per sbloccare questa forma.",
+      "evoCount": "Evoluzioni:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Scegli una nuova forma. Questa erediterà i bonus di aumento di livello di tutte le forme precedenti.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "Un tonno gigantesco. I bonus di aumento di livello sono concentrati sull'Area. La Quantità influenza invece la frequenza dell'area di collisione.",
+      "tips": "Consigliato con: Area, Durata."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Tonno agitato, non mescolato. I bonus di aumento di livello sono concentrati sulla Durata.",
+      "tips": "Ideale con: Velocità, Durata."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Un tonno d'acqua dolce. I bonus di aumento di livello sono concentrati sul Tempo di ricarica.",
+      "tips": "Ideale con: Velocità, Durata."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Un tonno celestiale. I bonus di aumento di livello sono concentrati sulla Quantità.",
+      "tips": "Consigliato con: Area, Durata."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Tonno superabile.",
+      "tips": "Ideale con: Velocità, Durata."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Insuperabile",
+      "description": "Il tonno per eccellenza. I bonus di aumento di livello sono concentrati sulla Potenza.",
+      "tips": "Ideale con: Velocità, Durata."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno subito",
+      "description": "Un tonno qualunque. I bonus di aumento di livello sono concentrati sulla Velocità.",
+      "tips": "Ideale con: Velocità, Area."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Miracolo della moltiplicazione",
+      "description": "Evoca tutte le forme di tonno utilizzate in questa partita e ripartisce in maniera equa tutti i bonus di aumento di livello. Non può migliorare.",
+      "tips": "Necessita di: Penshin Fatcha migliorato sei volte"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (In solitaria)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (In solitaria)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (In solitaria)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (In solitaria)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (In solitaria)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Insuperabile (In solitaria)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno subito (In solitaria)"
     }
   },
   "de": {
@@ -7259,7 +7508,7 @@
       "tips": "Benötigt: Tetrakraft."
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Verbesserter Carréllo. Schaden ist nun abhängig von Dauer, Schnelligkeit und Bereich.",
       "tips": "Benötigt: Tetrakraft."
     },
@@ -8261,7 +8510,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Großes Kreuz",
       "description": "Die Anzahl der Geschosse wird auch durch Wiederbeleben beeinflusst.",
-      "tips": "Am besten mit: Abklingzeit, Wiederbeleben."
+      "tips": "Am besten mit: Abklingzeit"
     },
     "TP_SPIRITTORNADO": {
       "name": "Geistertornado beschwören",
@@ -8929,6 +9178,89 @@
       "name": "Grausamer Herrscher",
       "tips": "Max. erforderlich: Zauberbinder.",
       "description": "Verbesserte Chaosrune. Übt Kontrolle über ungezähmte magische Kräfte aus."
+    },
+    "EX_FLIK1": {
+      "name": "Geisterblitz",
+      "description": "Kritische Treffer erzeugen Schadenszonen. Wiederbeleben beeinflusst den Schaden aufeinanderfolgender kritischer Treffer.",
+      "tips": "Ignoriert: Tempo."
+    },
+    "EX_FLIK2": {
+      "name": "Geisteraufruhr",
+      "description": "Verbesserter Geisterblitz. Fügt immer kritische Treffer zu.",
+      "tips": "Max. erforderlich: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "Eine Auswahl aquatischer Waffen, die sich endlos verbessern lassen.",
+      "customDescValue": "Zum Freischalten dieser Form %0 verbessern.",
+      "evoCount": "Anz. Verbesserungen:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Wähle eine neue Form. Die Levelaufstiegs-Boni aller vorherigen Formen bleiben erhalten.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Königsthun",
+      "description": "Ein riesiger Thunfisch. Levelaufstiegs-Boni drehen sich um Bereich. Menge beeinflusst stattdessen die Häufigkeit von Hitboxen.",
+      "tips": "Am besten mit: Bereich, Dauer."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Thunnado",
+      "description": "Ein wirbelnder Thunfisch. Levelaufstiegs-Boni drehen sich um Dauer.",
+      "tips": "Am besten mit: Schnelligkeit, Dauer."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Thunamoto",
+      "description": "Süßwasserthunfisch. Levelaufstiegs-Boni drehen sich um Abklingzeit.",
+      "tips": "Am besten mit: Schnelligkeit, Dauer."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Thunodeo",
+      "description": "Himmlischer Thunfisch. Levelaufstiegs-Boni drehen sich um Menge.",
+      "tips": "Am besten mit: Bereich, Dauer."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Gethanfisch",
+      "description": "Veralteter Thunfisch.",
+      "tips": "Am besten mit: Schnelligkeit, Dauer."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Megathun",
+      "description": "Erstklassiger Thunfisch. Levelaufstiegs-Boni drehen sich um Macht.",
+      "tips": "Am besten mit: Schnelligkeit, Dauer."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Minithun",
+      "description": "Einfacher Thunfisch. Levelaufstiegs-Boni drehen sich um Schnelligkeit.",
+      "tips": "Am besten mit: Schnelligkeit, Bereich."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Wundersame Vermehrung",
+      "description": "Beschwört alle in diesem Durchlauf verwendeten Thunfischformen und verteilt die Levelaufstiegs-Boni gleichmäßig über diese. Kann nicht verbessert werden.",
+      "tips": "Benötigt: Penshin Fatcha 6-mal verbessern."
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Königsthun (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Thunnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Thunamoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Thunodeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Gethanfisch (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Megathun (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Minithun (Solo)"
     }
   },
   "es": {
@@ -9492,7 +9824,7 @@
       "tips": "Requiere: tetrafuerza."
     },
     "CART2EVO": {
-      "name": "Carozza",
+      "name": "Carrozza",
       "description": "Evolución del carréllo. La duración, la velocidad y el área de efecto afectan al daño.",
       "tips": "Requiere: tetrafuerza."
     },
@@ -10494,7 +10826,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Cruz magna",
       "description": "Invoca la luz sagrada.",
-      "tips": "Mejor con: recarga, resurrecciones."
+      "tips": "Mejor con: recarga."
     },
     "TP_SPIRITTORNADO": {
       "name": "Invocación del tornado de espíritus",
@@ -11162,6 +11494,89 @@
       "name": "Gobernante malvado",
       "tips": "Requiere: potenciahechizos al máximo.",
       "description": "Evolución de la runa del caos. Ejerce control sobre las fuerzas mágicas salvajes."
+    },
+    "EX_FLIK1": {
+      "name": "Rayo sobrenatural",
+      "description": "Los golpes críticos generan zonas de daño. El daño de los golpes críticos consecutivos se ve afectado por las resurrecciones.",
+      "tips": "Ignora: velocidad."
+    },
+    "EX_FLIK2": {
+      "name": "Interrupción espiritual",
+      "description": "Evolución del rayo sobrenatural. Siempre da golpes críticos.",
+      "tips": "Requiere: tiramisurrección al máximo."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "Una selección de armamento acuático que puede evolucionar sin fin.",
+      "customDescValue": "Se desbloquea al hacer evolucionar: %0.",
+      "evoCount": "Veces evolucionado:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Elige una forma nueva. Las bonificaciones al subir de nivel de las formas anteriores pasan a la forma nueva.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "Atún extragrande. Las bonificaciones al subir de nivel se centran en el área de efecto. La frecuencia de impactos en la zona se ve afectada por la cantidad.",
+      "tips": "Mejor con: área de efecto, duración."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Atún agitado. Las bonificaciones al subir de nivel se centran en la duración.",
+      "tips": "Mejor con: velocidad, duración."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Atún de agua dulce. Las bonificaciones al subir de nivel se centran en la recarga.",
+      "tips": "Mejor con: velocidad, duración."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Atún celestial. Las bonificaciones al subir de nivel se centran en la cantidad.",
+      "tips": "Mejor con: área de efecto, duración."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Atún obsoleto.",
+      "tips": "Mejor con: velocidad, duración."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Insuperable",
+      "description": "Atún prémium. Las bonificaciones al subir de nivel se centran en el poder.",
+      "tips": "Mejor con: velocidad, duración."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Atún básico. Las bonificaciones al subir de nivel se centran en la velocidad.",
+      "tips": "Mejor con: velocidad, área de efecto."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Milagro de la multiplicación",
+      "description": "Invoca todas las formas de atún usadas en esta partida y divide todas las bonificaciones al subir de nivel de forma equitativa. No se puede hacer evolucionar.",
+      "tips": "Requiere: evolucionar el Penshin Fatcha 6 veces."
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Insuperable (solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (solo)"
     }
   },
   "pt-BR": {
@@ -12727,7 +13142,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Grande Cruz",
       "description": "Invoca a luz sagrada.",
-      "tips": "Melhor com: Recarga, Ressurreição."
+      "tips": "Melhor com: Recarga."
     },
     "TP_SPIRITTORNADO": {
       "name": "Tornado Invoca-Espírito",
@@ -13395,6 +13810,89 @@
       "name": "Regente Perverso",
       "tips": "Requer máx. de: Magicatalisador.",
       "description": "Evolução da Runa do Caos. Exerce controle sobre as forças mágicas selvagens."
+    },
+    "EX_FLIK1": {
+      "name": "Raio Etéreo",
+      "description": "Acertos críticos geram zonas de dano. Ressurreições afetam o dano de acertos críticos consecutivos.",
+      "tips": "Ignora: Velocidade."
+    },
+    "EX_FLIK2": {
+      "name": "Distúrbio Espiritual",
+      "description": "Evolução do Raio Etéreo. Sempre causa acertos críticos.",
+      "tips": "Requer máx. de: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "Uma seleção de armamentos aquáticos que podem evoluir infinitamente.",
+      "customDescValue": "Evolua %0 para desbloquear esta forma.",
+      "evoCount": "Número de Evoluções:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Escolha uma forma nova. Os bônus de subir de nível de formas anteriores continuam nas novas formas.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "Atum gigante. Concede bônus de Área ao subir de nível. A Quantidade afeta a frequência de acertos.",
+      "tips": "Melhor com: Área, Duração."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Atum batido. Concede bônus de Duração ao subir de nível.",
+      "tips": "Melhor com: Velocidade, Duração."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Atum de água doce. Concede bônus de Recarga ao subir de nível.",
+      "tips": "Melhor com: Velocidade, Duração."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Atum perfeito. Concede bônus de Quantidade ao subir de nível.",
+      "tips": "Melhor com: Área, Duração."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Atum esquecido.",
+      "tips": "Melhor com: Velocidade, Duração."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Inigualável",
+      "description": "Atum premium. Concede bônus de Poder ao subir de nível.",
+      "tips": "Melhor com: Velocidade, Duração."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Atum básico. Concede bônus de Velocidade ao subir de nível.",
+      "tips": "Melhor com: Velocidade, Área."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Milagre da Multiplicação",
+      "description": "Invoca todas as formas de atum usadas na partida, dividindo igualmente todos os bônus recebidos. Não pode ser evoluída.",
+      "tips": "Requer: Evoluir Penshin Fatcha 6 vezes"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Inigualável (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
     }
   },
   "pl": {
@@ -13958,7 +14456,7 @@
       "tips": "Wymagania: Czwórmoc"
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Ulepszone Carréllo. Czas trwania, Prędkość i Obszar wpływają na obrażenia.",
       "tips": "Wymagania: Czwórmoc."
     },
@@ -14960,7 +15458,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Wielki krzyż",
       "description": "Przywołuje święte światło.",
-      "tips": "Działa najlepiej z: Odnawianie, Wskrzeszenia."
+      "tips": "Działa najlepiej z: Odnawianie"
     },
     "TP_SPIRITTORNADO": {
       "name": "Wezwij Tornado dusz",
@@ -15628,6 +16126,89 @@
       "name": "Nikczemny władca",
       "tips": "Wymagany maks. poziom: Zaklinacz.",
       "description": "Ulepszona Runa chaosu. Kontroluje dzikie siły magiczne."
+    },
+    "EX_FLIK1": {
+      "name": "Nieziemski bełt",
+      "description": "Trafienia krytyczne wytwarzają strefy obrażeń. Wskrzeszenia wpływają na obrażenia kolejnych trafień krytycznych.",
+      "tips": "Ignoruje: Prędkość."
+    },
+    "EX_FLIK2": {
+      "name": "Duchowa anomalia",
+      "description": "Ulepszony Nieziemski bełt. Zawsze zadaje trafienia krytyczne.",
+      "tips": "Wymagany maks. poziom: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "Gama wodnego uzbrojenia, które można ulepszać bez końca.",
+      "customDescValue": "Ulepsz %0, aby odblokować tę formę.",
+      "evoCount": "Liczba ulepszeń:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Wybierz nową formę. Premie za awans na kolejny poziom ze wszystkich poprzednich form są uwzględniane w nowej formie.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "Tuńczyk pokaźnych rozmiarów. Premie za awans na kolejny poziom skupiają się na Obszarze. Ilość wpływa na częstotliwość aktywacji obszaru trafień.",
+      "tips": "Działa najlepiej z: Obszar, Czas trwania."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado",
+      "description": "Zmiksowany tuńczyk. Premie za awans na kolejny poziom skupiają się na Czasie trwania.",
+      "tips": "Działa najlepiej z: Prędkość, Czas trwania."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Tuńczyk słodkowodny. Premie za awans na kolejny poziom skupiają się na Odnawianiu.",
+      "tips": "Działa najlepiej z: Prędkość, Czas trwania."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Niebiański tuńczyk. Premie za awans na kolejny poziom skupiają się na Ilości.",
+      "tips": "Działa najlepiej z: Obszar, Czas trwania."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Wycofany tuńczyk.",
+      "tips": "Działa najlepiej z: Prędkość, Czas trwania."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Polędwica z tuńczyka",
+      "description": "Tuńczyk najwyższej jakości. Premie za awans na kolejny poziom skupiają się na Mocy.",
+      "tips": "Działa najlepiej z: Prędkość, Czas trwania."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Zwykły tuńczyk. Premie za awans na kolejny poziom skupiają się na Prędkości.",
+      "tips": "Działa najlepiej z: Prędkość, Obszar."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Cudowne rozmnożenie",
+      "description": "Wzywa wszystkie rodzaje tuńczyka użyte w tej rozgrywce, równo rozdzielając premie za awans na kolejny poziom. Nie można ulepszyć.",
+      "tips": "Wymagania: Ulepsz Penshin Fatcha 6 razy"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Polędwica z tuńczyka (solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (solo)"
     }
   },
   "ru": {
@@ -17193,7 +17774,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Большой крест",
       "description": "Призывает священный свет.",
-      "tips": "Для лучшего эффекта требуются: перезарядка, оживление."
+      "tips": "Для лучшего эффекта требуется: перезарядка"
     },
     "TP_SPIRITTORNADO": {
       "name": "Торнадо духов",
@@ -17861,6 +18442,89 @@
       "name": "Безумный Владыка",
       "tips": "Требуется макс.: заклинатель.",
       "description": "Улучшенная «Руна хаоса». Осуществляет контроль над первозданными силами."
+    },
+    "EX_FLIK1": {
+      "name": "Неземной разряд",
+      "description": "При критическом ударе создаются зоны поражения. Оживления влияют на урон последующих критических ударов.",
+      "tips": "Игнорирует: скорость."
+    },
+    "EX_FLIK2": {
+      "name": "Духовный порыв",
+      "description": "Улучшенный «Неземной заряд». Всегда наносит критический удар.",
+      "tips": "Требуется макс.: «Тирагису»."
+    },
+    "EX_PENSHIN": {
+      "name": "Пеншин-фача",
+      "description": "Набор водоплавающего оружия, которое можно улучшать до бесконечности.",
+      "customDescValue": "Чтобы открыть эту форму, улучшите: %0.",
+      "evoCount": "Число улучшений:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Пеншин-фача",
+      "description": "Выберите новую форму. Бонусы за повышение уровня всех предыдущих форм переносятся в новую форму.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Тунеццо",
+      "description": "Королевских размеров тунец. Бонусы за повышение уровня сосредоточены на области. Вместо этого боезапас влияет на частоту хитбоксов.",
+      "tips": "Для лучшего эффекта требуются: область, продолжительность."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Тунцадо",
+      "description": "Взбитый тунец. Бонусы за повышение уровня сосредоточены на продолжительности.",
+      "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Тунц'омото",
+      "description": "Пресноводный тунец. Бонусы за повышение уровня сосредоточены на перезарядке.",
+      "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Тунц'оддейо",
+      "description": "Небесный тунец. Бонусы за повышение уровня сосредоточены на боезапасе.",
+      "tips": "Для лучшего эффекта требуются: область, продолжительность."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Тунцент",
+      "description": "Устаревший тунец.",
+      "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Непревзойдённость",
+      "description": "Премиальный тунец. Бонусы за повышение уровня сосредоточены на силе.",
+      "tips": "Для лучшего эффекта требуются: скорость, продолжительность."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Тунцо субито",
+      "description": "Базовый тунец. Бонусы за повышение уровня сосредоточены на скорости.",
+      "tips": "Для лучшего эффекта требуются: скорость, область."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Чудо умножения",
+      "description": "Призывает все формы тунца, использованные в этом забеге, и равномерно распределяет все бонусы за повышение уровня. Нельзя улучшить.",
+      "tips": "Требуется: улучшенная 6 раз «Пеншин-фача»."
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Тунеццо (соло)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Тунцадо (соло)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Тунц'омото (соло)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Тунц'оддейо (соло)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Тунцент (соло)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Непревзойдённость (соло)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Тунцо субито (соло)"
     }
   },
   "tr": {
@@ -18424,7 +19088,7 @@
       "tips": "Gerektirir: Tetraforce."
     },
     "CART2EVO": {
-      "name": "Carozza!",
+      "name": "Carrozza!",
       "description": "Evrimleşmiş Carréllo. Tesir Süresi, Hız ve Alan hasarı etkiler.",
       "tips": "Gerektirir: Tetraforce."
     },
@@ -19426,7 +20090,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Büyük Haç",
       "description": "Kutsal ışığı çağırır.",
-      "tips": "İyi gider: Bekleme Süresi, Canlanma."
+      "tips": "İyi gider: Bekleme Süresi."
     },
     "TP_SPIRITTORNADO": {
       "name": "Ruh Kasırgası Çağır",
@@ -20094,6 +20758,89 @@
       "name": "Hain Hükümdar",
       "tips": "Maks Gerektirir: Büyübağlayan.",
       "description": "Evrimleşmiş Kaos Rünü. Olağanüstü sihirli güçlerin kontrolünü ele geçirir."
+    },
+    "EX_FLIK1": {
+      "name": "İlahi Ok",
+      "description": "Kritik vuruşlar hasar veren alanlar oluşturur. Canlanmalar, arka arkaya yapılan kritik vuruşların verdiği hasarı etkiler.",
+      "tips": "Yok sayar: Hız."
+    },
+    "EX_FLIK2": {
+      "name": "Ruh Müdahalesi",
+      "description": "Evrimleşmiş İlahi Ok. Daima kritik vuruşlar yapar.",
+      "tips": "Maks Gerektirir: Tiragisú."
+    },
+    "EX_PENSHIN": {
+      "name": "Penshin Fatcha",
+      "description": "Sonsuza kadar evriltilebilen bir dizi su silahı.",
+      "customDescValue": "Bu formun kilidini açmak için %0 silahını evrilt.",
+      "evoCount": "Evriltme Sayısı:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Penshin Fatcha",
+      "description": "Yeni bir form seç. Önceki tüm formların seviye atlama bonusları yeni forma taşınır.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Tonne",
+      "description": "Aile boyu ton balığı. Seviye atlama bonusları Alan odaklıdır. Miktar, hitbox sıklığını etkiler.",
+      "tips": "İyi gider: Alan, Tesir Süresi."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Tonnado.",
+      "description": "Çalkalanmış ton balığı. Seviye atlama bonusları Tesir Süresi odaklıdır.",
+      "tips": "İyi gider: Hız, Tesir Süresi."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Tonn'omoto",
+      "description": "Tatlı su ton balığı. Seviye atlama bonusları Bekleme Süresi odaklıdır.",
+      "tips": "İyi gider: Hız, Tesir Süresi."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Tonn'oddeeo",
+      "description": "Sanki cennetten gelmiş bir ton balığı. Seviye atlama bonusları Miktar odaklıdır.",
+      "tips": "İyi gider: Alan, Tesir Süresi."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Tonnent",
+      "description": "Pabucu dama atılmış ton balığı.",
+      "tips": "İyi gider: Hız, Tesir Süresi."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Rakipsiz",
+      "description": "Birinci sınıf ton balığı. Seviye atlama bonusları Kuvvet odaklıdır.",
+      "tips": "İyi gider: Hız, Tesir Süresi."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Tonno Subito",
+      "description": "Bildiğin ton balığı. Seviye atlama bonusları Hız odaklıdır.",
+      "tips": "İyi gider: Hız, Alan."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Çoklama Harikası",
+      "description": "Bu oyunda kullanılan tüm ton balığı formlarını çağırarak tüm seviye atlama bonuslarını eşit şekilde bölüştürür. Evriltilemez.",
+      "tips": "Gerektirir: Penshin Fatcha'yı 6 kez evrilt"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Tonne (Solo)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Tonnado (Solo)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Tonn'omoto (Solo)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Tonn'oddeeo (Solo)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Tonnent (Solo)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Rakipsiz (Solo)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Tonno Subito (Solo)"
     }
   },
   "zh-CN": {
@@ -21659,7 +22406,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "宏大十字架",
       "description": "召唤神圣之光。",
-      "tips": "最佳搭配：冷却时间、复活。"
+      "tips": "最佳搭配：冷却时间。"
     },
     "TP_SPIRITTORNADO": {
       "name": "召唤灵魂龙卷风",
@@ -22327,6 +23074,89 @@
       "name": "邪恶统治者",
       "tips": "需要：咒缚盒（最高级）。",
       "description": "进化后的混沌符文。对野生魔法力量施加控制。"
+    },
+    "EX_FLIK1": {
+      "name": "异界霹雳",
+      "description": "暴击会生成伤害区域，复活机会可影响连续暴击的伤害。",
+      "tips": "无关：速度。"
+    },
+    "EX_FLIK2": {
+      "name": "精神干扰",
+      "description": "进化后的异界霹雳，始终造成暴击。",
+      "tips": "需要：提拉吉苏（最高级）。"
+    },
+    "EX_PENSHIN": {
+      "name": "吞拿漩涡",
+      "description": "一组可不断进化的水中武器。",
+      "customDescValue": "进化%0以解锁此形态。",
+      "evoCount": "已进化次数：",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "吞拿漩涡",
+      "description": "选择一种新形态。此前所有形态获得的升级加成都会转移到新形态上。",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "巨型吞拿",
+      "description": "特大号吞拿鱼。升级加成专注于攻击范围。发射数量改为影响命中频率。",
+      "tips": "最佳搭配：攻击范围、持续时间。"
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "龙卷吞拿",
+      "description": "搅拌吞拿鱼。升级加成专注于持续时间。",
+      "tips": "最佳搭配：速度、持续时间。"
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "弹跳吞拿",
+      "description": "淡水吞拿鱼。升级加成专注于冷却时间。",
+      "tips": "最佳搭配：速度、持续时间。"
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "天降吞拿",
+      "description": "天堂吞拿鱼。升级加成专注于发射数量。",
+      "tips": "最佳搭配：攻击范围、持续时间。"
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "洪流吞拿",
+      "description": "弃用吞拿鱼。",
+      "tips": "最佳搭配：速度、持续时间。"
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "绝品吞拿",
+      "description": "优质吞拿鱼。升级加成专注于力量。",
+      "tips": "最佳搭配：速度、持续时间。"
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "极速吞拿",
+      "description": "基础吞拿鱼。升级加成专注于速度。",
+      "tips": "最佳搭配：速度、攻击范围。"
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "增殖奇迹",
+      "description": "召唤本局游戏中使用过的所有吞拿鱼形态，并均分所有升级加成。无法进化。",
+      "tips": "需要：进化吞拿漩涡6次"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "巨型吞拿（单人）"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "龙卷吞拿（单人）"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "弹跳吞拿（单人）"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "天降吞拿（单人）"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "洪流吞拿（单人）"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "绝品吞拿（单人）"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "极速吞拿（单人）"
     }
   },
   "ja": {
@@ -22709,7 +23539,7 @@
     },
     "MISSPELL": {
       "name": "ミススペルの炎",
-      "description": "円錐状の炎を放出します。",
+      "description": "円錐状の炎を放出する。",
       "tips": null
     },
     "MISSPELL2": {
@@ -23892,7 +24722,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "グランドクロス",
       "description": "復活は発射物の数にも影響する。",
-      "tips": "クールダウン、復活との相性抜群。"
+      "tips": "好相性の能力値：クールダウン"
     },
     "TP_SPIRITTORNADO": {
       "name": "スピリット・トルネドの召喚",
@@ -24560,6 +25390,89 @@
       "name": "邪悪な支配者",
       "tips": "最大限が必要：封魔の書。",
       "description": "カオス・ルーンの進化形。野生の魔法の力を制御する。"
+    },
+    "EX_FLIK1": {
+      "name": "超自然の雷撃",
+      "description": "クリティカルヒットによってダメージゾーンが出現する。また、復活によって連続クリティカルヒットのダメージが影響を受ける。",
+      "tips": "弾速はこの武器に効果をもたらさない。"
+    },
+    "EX_FLIK2": {
+      "name": "雷帝龍",
+      "description": "超自然の雷撃の進化形。常にクリティカルヒットを食らわせる。",
+      "tips": "最大限が必要：ティラギス。"
+    },
+    "EX_PENSHIN": {
+      "name": "ペンシン・ファッチャ",
+      "description": "無限に進化できる水系の武装アイテム。",
+      "customDescValue": "この形態をアンロックするには%0を進化させる必要あり。",
+      "evoCount": "進化回数：",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "ペンシン・ファッチャ",
+      "description": "新たな形態を選択する。これまでの形態によるレベルアップボーナスはすべて新形態に引き継がれる。",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "トーネ",
+      "description": "キングサイズのマグロ。攻撃範囲中心のレベルアップボーナスを付与する。また、ヒットボックス頻度は発射弾数の影響を受ける。",
+      "tips": "好相性の能力値：攻撃範囲、効果時間"
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "トーネード",
+      "description": "超回転型マグロ。効果時間中心のレベルアップボーナスを付与する。",
+      "tips": "好相性の能力値：弾速、効果時間"
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "フレッシュトーネ",
+      "description": "淡水型のマグロ。クールダウン中心のレベルアップボーナスを付与する。",
+      "tips": "好相性の能力値：弾速、効果時間"
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "ヘブントーネ",
+      "description": "天上級のマグロ。発射弾数中心のレベルアップボーナスを付与する。",
+      "tips": "好相性の能力値：攻撃範囲、効果時間"
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "トーネント",
+      "description": "お役御免のマグロ。",
+      "tips": "好相性の能力値：弾速、効果時間"
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "ロイヤルトーネ",
+      "description": "プレミア級のマグロ。攻撃力中心のレベルアップボーナスを付与する。",
+      "tips": "好相性の能力値：弾速、効果時間"
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "ノーマルトーネ",
+      "description": "至って普通のマグロ。弾速中心のレベルアップボーナスを付与する。",
+      "tips": "好相性の能力値：弾速、効果範囲"
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "倍化の奇跡",
+      "description": "このラン中に使用したマグロ形態をすべて召喚し、レベルアップボーナスを山分けする。進化はできない。",
+      "tips": "必要条件：ペンシン・ファッチャを6回進化させる。"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "トーネ（ソロ）"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "トーネード（ソロ）"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "フレッシュトーネ（ソロ）"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "ヘブントーネ（ソロ）"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "トーネント（ソロ）"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "ロイヤルトーネ（ソロ）"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "ノーマルトーネ（ソロ）"
     }
   },
   "ko": {
@@ -26125,7 +27038,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "그랜드 크로스",
       "description": "성스러운 빛을 소환합니다.",
-      "tips": "최상의 조합: 쿨타임, 부활."
+      "tips": "최상의 조합: 쿨타임"
     },
     "TP_SPIRITTORNADO": {
       "name": "스피릿 토네이도 소환",
@@ -26793,6 +27706,89 @@
       "name": "사악한 통치자",
       "tips": "최대치 필요: 주문 속박기",
       "description": "진화한 혼돈의 룬. 야생의 마법적 힘을 통제합니다."
+    },
+    "EX_FLIK1": {
+      "name": "저세상 번개",
+      "description": "치명타가 피해 영역을 생성합니다. 부활이 연속 치명타 공격의 피해량에 영향을 미칩니다.",
+      "tips": "강화 무시: 투사체 속도"
+    },
+    "EX_FLIK2": {
+      "name": "영적 교란",
+      "description": "진화한 저세상 번개. 언제나 치명타로 공격합니다.",
+      "tips": "최대치 필요: 티라미수"
+    },
+    "EX_PENSHIN": {
+      "name": "펜신 파차",
+      "description": "끊임없이 진화할 수 있는 다양한 수중 무기들.",
+      "customDescValue": "%0번 진화시켜 이 형태를 잠금 해제하세요.",
+      "evoCount": "진화 횟수:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "펜신 파차",
+      "description": "새로운 형태를 선택하세요. 이전 형태에서 얻은 레벨업 보너스는 모두 새로운 형태로 계승됩니다.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "톤네",
+      "description": "킹사이즈 참치. 레벨업 보너스가 범위 중심입니다. 양은 히트 박스 발생 빈도에 영향을 미칩니다.",
+      "tips": "최상의 조합: 공격 범위, 지속시간"
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "톤네이도",
+      "description": "휘핑 참치. 레벨업 보너스가 지속시간 중심입니다.",
+      "tips": "최상의 조합: 속도, 지속시간"
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "톤노모토",
+      "description": "민물 참치. 레벨업 보너스가 재사용 대기시간 중심입니다.",
+      "tips": "최상의 조합: 속도, 지속시간"
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "톤노디오",
+      "description": "천상의 참치. 레벨업 보너스가 수량 중심입니다.",
+      "tips": "최상의 조합: 공격 범위, 지속시간"
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "톤넨트",
+      "description": "단종 예정 참치.",
+      "tips": "최상의 조합: 속도, 지속시간"
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "초월 불가",
+      "description": "프리미엄 참치. 레벨업 보너스가 피해량 중심입니다.",
+      "tips": "최상의 조합: 속도, 지속시간"
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "톤노 수비토",
+      "description": "기본 참치. 레벨업 보너스가 속도 중심입니다.",
+      "tips": "최상의 조합: 속도, 면적."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "곱셈의 기적",
+      "description": "이번 플레이에서 사용된 참치 형태를 모두 소환하고, 모든 레벨업 보너스를 균등하게 분배합니다. 진화할 수 없습니다.",
+      "tips": "요구사항: 펜신 팟차를 6번 진화시키세요"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "톤네(솔로)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "톤네이도(솔로)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "톤노모토(솔로)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "톤노디오(솔로)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "톤낸트(솔로)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "초월불가(솔로)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "톤노 수비토(솔로)"
     }
   },
   "zh-TW": {
@@ -28358,7 +29354,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "大十字架",
       "description": "召喚神聖光芒。",
-      "tips": "最佳搭配：冷卻時間、復活次數。"
+      "tips": "最佳搭配：冷卻時間"
     },
     "TP_SPIRITTORNADO": {
       "name": "召喚靈魂龍捲風",
@@ -29026,6 +30022,89 @@
       "name": "邪惡君主",
       "tips": "需要（最高級）：咒縛盒。",
       "description": "解放版的混沌符文。控制狂野的魔法力量。"
+    },
+    "EX_FLIK1": {
+      "name": "異界之矢",
+      "description": "暴擊時會生成傷害區域。復活效果會影響到連續造成的暴擊傷害。",
+      "tips": "無加成效果：速度。"
+    },
+    "EX_FLIK2": {
+      "name": "靈魂湧動",
+      "description": "解放版的異界之矢。必定能夠造成暴擊傷害。",
+      "tips": "需要（最高級）：提拉吉蘇。"
+    },
+    "EX_PENSHIN": {
+      "name": "潘神法札",
+      "description": "一系列有著無窮解放可能性的水生兵器。",
+      "customDescValue": "解放「%0」以解鎖這個型態。",
+      "evoCount": "解放次數：",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "潘神法札",
+      "description": "選定並解放一個全新形態。全新形態會繼承所有先前形態的升級加成。",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "噸鮪",
+      "description": "帝王尺寸的鮪魚。主要會著重於「效果範圍」的升級加成。命中效果的觸發頻率會取決於投射物數量的加成。",
+      "tips": "最佳搭配：效果範圍、效果持續時間"
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "鮪捲風",
+      "description": "經過自然打發的鮪魚。主要會著重於「效果持續時間」的升級加成。",
+      "tips": "最佳搭配：速度、效果持續時間。"
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "鮪本",
+      "description": "淡水鮪魚。主要會著重於「冷卻時間」的升級加成。",
+      "tips": "最佳搭配：速度、效果持續時間。"
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "天鮪",
+      "description": "好似從天堂降臨般的絕世鮪魚。主要會著重於「投射物數量」的升級加成。",
+      "tips": "最佳搭配：效果範圍、效果持續時間"
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "老鮪",
+      "description": "沒人愛的老屁股鮪魚。",
+      "tips": "最佳搭配：速度、效果持續時間。"
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "絕品鮪",
+      "description": "頂級鮪魚。主要會著重於「力量」的升級加成。",
+      "tips": "最佳搭配：速度、效果持續時間。"
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "菜雞阿鮪",
+      "description": "基本款的鮪魚。主要會著重於「投射物速度」的升級加成。",
+      "tips": "最佳搭配：投射物速度、效果範圍。"
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "倍增奇蹟",
+      "description": "召喚在本次冒險中，所有你有變身過的鮪魚形態，並將所有的升級加成平均分配。無法解放。",
+      "tips": "需要：解放潘神法札六次"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "噸鮪（單人）"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "鮪捲風（單人）"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "鮪本（單人）"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "天鮪（單人）"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "老鮪（單人）"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "絕品鮪（單人）"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "菜雞阿鮪（單人）"
     }
   },
   "uk": {
@@ -30591,7 +31670,7 @@
     "TP_GRANDCROSS_PLATINUMWHIP": {
       "name": "Великий хрест",
       "description": "Викликає священне світло.",
-      "tips": "Найкраще використовувати з: відновлення, оживлення."
+      "tips": "Найкраще з: відновлення."
     },
     "TP_SPIRITTORNADO": {
       "name": "Виклик торнадо духів",
@@ -31259,6 +32338,89 @@
       "name": "Злий правитель",
       "tips": "Потребує макс.: Заклинач.",
       "description": "Еволюція Руни Хаосу. Керує дикими магічними силами."
+    },
+    "EX_FLIK1": {
+      "name": "Неземна блискавка",
+      "description": "Критичні удари створюють зони пошкоджень. Відродження впливають на шкоду від послідовних критичних ударів.",
+      "tips": "Ігнорує: швидкість."
+    },
+    "EX_FLIK2": {
+      "name": "Неспокій духів",
+      "description": "Еволюція Неземної блискавки. Завжди завдає критичних ударів.",
+      "tips": "Потребує макс.: Тірагісу."
+    },
+    "EX_PENSHIN": {
+      "name": "Рибобій",
+      "description": "Вибір водної зброї, що еволюціонує безкінечно.",
+      "customDescValue": "Еволюціонуйте %0, щоб відкрити цю форму.",
+      "evoCount": "Кількість еволюцій:",
+      "tips": null
+    },
+    "EX_PENSHIN_SELECTOR_EVO": {
+      "name": "Рибобій",
+      "description": "Вибирайте нову форму. Бонуси за підвищення рівня з усіх попередніх форм переносяться до нової форми.",
+      "tips": null
+    },
+    "EX_PENSHIN_EVO1": {
+      "name": "Тоннець",
+      "description": "Велетенський тунець. Бонуси за підвищення рівня зосереджені в області. Натомість кількість впливає на частоту появи боєзапасу.",
+      "tips": "Найкраще з: область, тривалість."
+    },
+    "EX_PENSHIN_EVO2": {
+      "name": "Тоннадо",
+      "description": "Торнадо-тунець. Бонуси за підвищення рівня зосереджені на тривалості.",
+      "tips": "Найкраще з: швидкість, тривалість."
+    },
+    "EX_PENSHIN_EVO3": {
+      "name": "Тонномото",
+      "description": "Тунець із гірського потоку. Бонуси за підвищення рівня зосереджені на відновленні.",
+      "tips": "Найкраще з: швидкість, тривалість."
+    },
+    "EX_PENSHIN_EVO4": {
+      "name": "Тоннодео",
+      "description": "Небесний тунець. Бонуси за підвищення рівня зосереджені на кількості.",
+      "tips": "Найкраще з: область, тривалість."
+    },
+    "EX_PENSHIN_EVO5": {
+      "name": "Тоннент",
+      "description": "Старий тунець.",
+      "tips": "Найкраще з: швидкість, тривалість."
+    },
+    "EX_PENSHIN_EVO6": {
+      "name": "Неперевершений",
+      "description": "Першокласний тунець. Бонуси за підвищення рівня зосереджені на силі.",
+      "tips": "Найкраще з: швидкість, тривалість."
+    },
+    "EX_PENSHIN_EVO7": {
+      "name": "Тонно Субіто",
+      "description": "Звичайний тунець. Бонуси за підвищення рівня зосереджені на швидкості.",
+      "tips": "Найкраще з: швидкість, область."
+    },
+    "EX_PENSHIN_UNION": {
+      "name": "Дивомножник",
+      "description": "Викликає всі форми тунців, задіяних у забігу, та рівномірно розподіляє між ними бонуси за підвищення рівня. Не еволюціонує.",
+      "tips": "Потребує: еволюціонувати Рибобій 6 разів"
+    },
+    "EX_PENSHIN_STATIC1": {
+      "name": "Тоннець (окремо)"
+    },
+    "EX_PENSHIN_STATIC2": {
+      "name": "Тоннадо (окремо)"
+    },
+    "EX_PENSHIN_STATIC3": {
+      "name": "Тонномото (окремо)"
+    },
+    "EX_PENSHIN_STATIC4": {
+      "name": "Тоннодео (окремо)"
+    },
+    "EX_PENSHIN_STATIC5": {
+      "name": "Тоннент (окремо)"
+    },
+    "EX_PENSHIN_STATIC6": {
+      "name": "Неперевершений (окремо)"
+    },
+    "EX_PENSHIN_STATIC7": {
+      "name": "Тонно Субіто (окремо)"
     }
   }
 }

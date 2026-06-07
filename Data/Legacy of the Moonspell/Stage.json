@@ -175,9 +175,9 @@
       "minimum": 50,
       "frequency": 500,
       "enemies": [
-        "BAT1",
-        "BAT2",
-        "BAT3"
+        "MS_BAT1",
+        "MS_BAT2",
+        "MS_BAT3"
       ],
       "events": [
         {
@@ -359,7 +359,7 @@
       "frequency": 500,
       "enemies": [
         "MS_YAMAMBA1",
-        "ZOMBIE"
+        "MS_ZOMBIE"
       ],
       "bosses": [
         "MS_BOSS_SPIRIT"

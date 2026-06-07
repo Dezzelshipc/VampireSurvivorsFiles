@@ -4,11 +4,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "WHIP",
-      "price": 10,
+      "price": 100,
       "name": "Whip",
       "description": "Attacks horizontally, passes through enemies.",
       "tips": "Ignores: Speed, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Whip.png",
       "evoSynergy": [
         "MAXHEALTH"
@@ -61,7 +61,7 @@
       "name": "Bloody Tear",
       "description": "Evolved Whip. Can deal critical damage and absorb HP.",
       "tips": "Requires: Hollow Heart",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Whip2.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -69,6 +69,9 @@
       ],
       "requires": [
         "MAXHEALTH"
+      ],
+      "tags": [
+        "BLOOD"
       ],
       "evoInto": "VENTO2",
       "hitVFX": "Dark",
@@ -83,7 +86,8 @@
       "amount": 2,
       "critChance": 0.1,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 3600
     }
   ],
   "MAGIC_MISSILE": [
@@ -91,11 +95,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "MAGIC_MISSILE",
-      "price": 10,
+      "price": 100,
       "name": "Magic Wand",
       "description": "Fires at the nearest enemy.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "WandHoly.png",
       "evoSynergy": [
         "COOLDOWN"
@@ -143,7 +147,7 @@
       "name": "Holy Wand",
       "description": "Evolved Magic Wand. Fires with no delay.",
       "tips": "Requires: Empty Tome.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "WandHoly2.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -161,7 +165,8 @@
       "area": 1,
       "speed": 2,
       "amount": 4,
-      "penetrating": 2
+      "penetrating": 2,
+      "price": 3600
     }
   ],
   "KNIFE": [
@@ -169,11 +174,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "KNIFE",
-      "price": 10,
+      "price": 100,
       "name": "Knife",
       "description": "Fires quickly in the faced direction.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Knife.png",
       "evoSynergy": [
         "SPEED"
@@ -229,7 +234,7 @@
       "name": "Thousand Edge",
       "description": "Evolved Knife. Fires with no delay.",
       "tips": "Requires: Bracer.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Knife2.png",
       "isEvolution": true,
       "volume": 0.2,
@@ -250,7 +255,8 @@
       "penetrating": 3,
       "knockback": 0.5,
       "critChance": 0.3,
-      "critMul": 3
+      "critMul": 3,
+      "price": 3600
     }
   ],
   "AXE": [
@@ -258,11 +264,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "AXE",
-      "price": 10,
+      "price": 100,
       "name": "Axe",
       "description": "High damage, high Area scaling.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Axe.png",
       "evoSynergy": [
         "AREA"
@@ -314,7 +320,7 @@
       "name": "Death Spiral",
       "description": "Evolved Axe. Passes through enemies.",
       "tips": "Requires: Candelabrador.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Scythe.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -334,7 +340,8 @@
       "penetrating": 1000,
       "hitsWalls": false,
       "critChance": 0.3,
-      "critMul": 2
+      "critMul": 2,
+      "price": 3600
     }
   ],
   "CROSS": [
@@ -342,11 +349,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "CROSS",
-      "price": 200,
+      "price": 140,
       "name": "Cross",
       "description": "Aims at nearest enemy, has boomerang effect.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Cross.png",
       "evoSynergy": [
         "LUCK"
@@ -397,7 +404,7 @@
       "name": "Heaven Sword",
       "description": "Evolved Cross. Can deal critical damage.",
       "tips": "Requires: Clover.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "HeavenSword.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -419,7 +426,8 @@
       "amount": 1,
       "critChance": 0.1,
       "critMul": 2.5,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5040
     }
   ],
   "HOLYBOOK": [
@@ -427,11 +435,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "HOLYBOOK",
-      "price": 400,
+      "price": 120,
       "name": "King Bible",
       "description": "Orbits around the character.",
       "tips": "Best with: Speed, Duration, Area.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "HolyBook.png",
       "evoSynergy": [
         "DURATION"
@@ -486,7 +494,7 @@
       "name": "Unholy Vespers",
       "description": "Evolved King Bible. Never ends.",
       "tips": "Requires: Spellbinder.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "UnholyBook.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -508,7 +516,8 @@
       "hitBoxDelay": 1700,
       "knockback": 4,
       "hitsWalls": false,
-      "intervalDependsOnDuration": false
+      "intervalDependsOnDuration": false,
+      "price": 4320
     }
   ],
   "FIREBALL": [
@@ -516,14 +525,17 @@
       "level": 1,
       "sealable": true,
       "bulletType": "FIREBALL",
-      "price": 100,
+      "price": 120,
       "name": "Fire Wand",
       "description": "Fires at a random enemy, deals heavy damage.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "WandFire.png",
       "evoSynergy": [
         "POWER"
+      ],
+      "tags": [
+        "FIRE"
       ],
       "evoInto": "HELLFIRE",
       "hitVFX": "Fire",
@@ -572,7 +584,7 @@
       "name": "Hellfire",
       "description": "Evolved Fire Wand. Passes through enemies.",
       "tips": "Requires: Spinach.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Hellfire.png",
       "hitVFX": "Fire",
       "poolLimit": 20,
@@ -584,6 +596,9 @@
       "requires": [
         "POWER"
       ],
+      "tags": [
+        "FIRE"
+      ],
       "interval": 3000,
       "repeatInterval": 200,
       "power": 10,
@@ -591,7 +606,8 @@
       "speed": 1,
       "amount": 2,
       "duration": 100,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 4320
     }
   ],
   "GARLIC": [
@@ -599,11 +615,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "GARLIC",
-      "price": 800,
+      "price": 180,
       "name": "Garlic",
       "description": "Damages nearby enemies. Reduces resistance to knockback and freeze.",
       "tips": "Ignores: Amount, Duration, Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Garlic.png",
       "evoSynergy": [
         "REGEN"
@@ -660,7 +676,7 @@
       "name": "Soul Eater",
       "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
       "tips": "Requires: Pummarola.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "OrbOrange.png",
       "isEvolution": true,
       "isUnlocked": false,
@@ -681,7 +697,8 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 6480
     }
   ],
   "HOLYWATER": [
@@ -689,16 +706,19 @@
       "level": 1,
       "sealable": true,
       "bulletType": "HOLYWATER",
-      "price": 800,
+      "price": 100,
       "name": "Santa Water",
       "description": "Generates damaging zones.",
       "tips": "Ignores: Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "HolyWater.png",
       "evoSynergy": [
         "MAGNET"
       ],
       "evoInto": "BORA",
+      "tags": [
+        "FIRE"
+      ],
       "isUnlocked": true,
       "poolLimit": 20,
       "rarity": 100,
@@ -751,7 +771,7 @@
       "name": "La Borra",
       "description": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
       "tips": "Requires: Attractorb.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Water2.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -759,6 +779,9 @@
       ],
       "requires": [
         "MAGNET"
+      ],
+      "tags": [
+        "FIRE"
       ],
       "hitVFX": "Light",
       "isUnlocked": false,
@@ -773,7 +796,8 @@
       "duration": 4000,
       "hitBoxDelay": 500,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 3600
     }
   ],
   "DIAMOND": [
@@ -781,11 +805,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "DIAMOND",
-      "price": 200,
+      "price": 140,
       "name": "Runetracer",
       "description": "Passes through enemies, bounces around.",
       "tips": "Best with: Speed, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Diamond2.png",
       "evoSynergy": [
         "ARMOR"
@@ -840,7 +864,7 @@
       "name": "NO FUTURE",
       "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
       "tips": "Requires: Armor",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Carnage.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -862,7 +886,8 @@
       "amount": 1,
       "duration": 3000,
       "hitBoxDelay": 500,
-      "intervalDependsOnDuration": true
+      "intervalDependsOnDuration": true,
+      "price": 5040
     }
   ],
   "LIGHTNING": [
@@ -870,11 +895,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "LIGHTNING",
-      "price": 400,
+      "price": 120,
       "name": "Lightning Ring",
       "description": "Strikes at random enemies.",
       "tips": "Ignores: Speed, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "LighningRing.png",
       "evoSynergy": [
         "AMOUNT"
@@ -925,7 +950,7 @@
       "name": "Thunder Loop",
       "description": "Evolved Lightning Ring. Projectiles strike twice.",
       "tips": "Requires: Duplicator.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Thunderloop.png",
       "evolvesFrom": [
         "LIGHTNING"
@@ -943,7 +968,8 @@
       "area": 4,
       "speed": 1,
       "amount": 6,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 4320
     }
   ],
   "PENTAGRAM": [
@@ -951,11 +977,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "PENTAGRAM",
-      "price": 800,
+      "price": 155,
       "name": "Pentagram",
       "description": "Erases everything in sight.",
       "tips": "Best with: Cooldown and Luck only.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Pentagram.png",
       "evoSynergy": [
         "GROWTH"
@@ -1010,7 +1036,7 @@
       "name": "Gorgeous Moon",
       "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
       "tips": "Requires: Crown.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Pentagram2.png",
       "isUnlocked": true,
       "isEvolution": true,
@@ -1030,7 +1056,8 @@
       "amount": 1,
       "knockback": 1,
       "chance": 1,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5580
     }
   ],
   "SILF": [
@@ -1038,11 +1065,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "SILF",
-      "price": 40,
+      "price": 80,
       "name": "Peachone",
       "description": "Bombards in a circling zone.",
       "tips": "Best with: Cooldown, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Silf1.png",
       "evoSynergy": [
         "SILF2"
@@ -1096,11 +1123,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "SILF2",
-      "price": 40,
+      "price": 80,
       "name": "Ebony Wings",
       "description": "Bombards in a circling zone.",
       "tips": "Best with: Cooldown, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Silf2.png",
       "evoSynergy": [
         "SILF"
@@ -1158,7 +1185,7 @@
       "name": "Vandalier",
       "description": "Union of Ebony Wings and Peachone.",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Silf3.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -1182,7 +1209,8 @@
       "duration": 4000,
       "knockback": 2,
       "hitsWalls": false,
-      "unexcludeSelf": true
+      "unexcludeSelf": true,
+      "price": 2880
     },
     {
       "area": 0.2
@@ -1211,11 +1239,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "GUNS",
-      "price": 400,
+      "price": 140,
       "name": "Phiera Der Tuphello",
       "description": "Fires quickly in four fixed directions.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Guns.png",
       "evoSynergy": [
         "REVIVAL",
@@ -1266,11 +1294,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "GUNS2",
-      "price": 400,
+      "price": 140,
       "name": "Eight The Sparrow",
       "description": "Fires quickly in four fixed directions.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Guns2.png",
       "evoSynergy": [
         "REVIVAL",
@@ -1325,7 +1353,7 @@
       "name": "Phieraggi",
       "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
       "tips": "Requires: Tiragisú.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Guns3.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -1353,7 +1381,8 @@
       "penetrating": 7,
       "knockback": 0.05,
       "critChance": 0.1,
-      "critMul": 2
+      "critMul": 2,
+      "price": 5040
     }
   ],
   "GATTI": [
@@ -1361,11 +1390,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "GATTI",
-      "price": 400,
+      "price": 180,
       "name": "Gatti Amari",
       "description": "Summons capricious projectiles. Might interact with pickups.",
       "tips": "Best with: Luck, Floor Chicken.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Cat.png",
       "evoSynergy": [
         "GREED"
@@ -1419,7 +1448,7 @@
       "name": "Vicious Hunger",
       "description": "Evolved Gatti Amari. Might turn anything into gold.",
       "tips": "Requires: Stone Mask.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "cateye.png",
       "evolvesFrom": [
         "GATTI"
@@ -1442,7 +1471,8 @@
       "amount": 2,
       "chance": 0.1,
       "knockback": 0.1,
-      "hitsWalls": true
+      "hitsWalls": true,
+      "price": 5040
     }
   ],
   "SONG": [
@@ -1450,11 +1480,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "SONG",
-      "price": 800,
+      "price": 120,
       "name": "Song of Mana",
       "description": "Attacks vertically, passes through enemies.",
       "tips": "Ignores: Amount, Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Song.png",
       "evoSynergy": [
         "CURSE"
@@ -1512,7 +1542,7 @@
       "name": "Mannajja",
       "description": "Evolved Song of Mana. Might slow enemies down.",
       "tips": "Requires: Skull O'Maniac",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Song2.png",
       "evolvesFrom": [
         "SONG"
@@ -1533,7 +1563,8 @@
       "area": 6,
       "speed": 1,
       "amount": 1,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 4320
     }
   ],
   "TRAPANO": [
@@ -1541,11 +1572,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "TRAPANO",
-      "price": 400,
+      "price": 100,
       "name": "Shadow Pinion",
       "description": "Generates damaging zones when moving, strikes when stopping.",
       "tips": "Best with: Move Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "trapano.png",
       "isUnlocked": false,
       "evoSynergy": [
@@ -1597,7 +1628,7 @@
       "name": "Valkyrie Turner",
       "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
       "tips": "Requires: Wings.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "trapano2.png",
       "isUnlocked": false,
       "evolvesFrom": [
@@ -1605,6 +1636,9 @@
       ],
       "requires": [
         "MOVESPEED"
+      ],
+      "tags": [
+        "FIRE"
       ],
       "hitVFX": "Fire",
       "isEvolution": true,
@@ -1618,7 +1652,8 @@
       "speed": 3.5,
       "amount": 1,
       "duration": 2000,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 3600
     }
   ],
   "LANCET": [
@@ -1626,11 +1661,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "LANCET",
-      "price": 400,
+      "price": 100,
       "name": "Clock Lancet",
       "description": "Chance to freeze enemies in time.",
       "tips": "Ignores: Might, Speed, Amount, Area.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Lancet.png",
       "hitVFX": "TimeFreeze",
       "isUnlocked": false,
@@ -1674,7 +1709,7 @@
       "name": "Infinite Corridor",
       "description": "Evolved Clock Lancet. Halves enemies' health.",
       "tips": "Requires: Gold Ring, Silver Ring.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "portal.png",
       "hitVFX": "Light",
       "isEvolution": true,
@@ -1700,7 +1735,8 @@
       "amount": 1,
       "duration": 6000,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 3600
     }
   ],
   "LAUREL": [
@@ -1708,11 +1744,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "LAUREL",
-      "price": 10,
+      "price": 100,
       "name": "Laurel",
       "description": "Shields from damage when active.",
       "tips": "Best with: Cooldown only.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Laurel.png",
       "isUnlocked": true,
       "poolLimit": 5,
@@ -1759,7 +1795,7 @@
       "name": "Crimson Shroud",
       "description": "Evolved Laurel. Caps incoming Damage at 10. Retaliates when losing charges.",
       "tips": "Requires: Metaglio Left, Metaglio Right.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "cape.png",
       "hitVFX": "Evil",
       "poolLimit": 50,
@@ -1784,7 +1820,8 @@
       "area": 2,
       "speed": 1,
       "amount": 1,
-      "charges": 3
+      "charges": 3,
+      "price": 3600
     }
   ],
   "VENTO": [
@@ -1792,11 +1829,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "VENTO",
-      "price": 400,
+      "price": 140,
       "name": "Vento Sacro",
       "description": "Stronger with continuous movement. Can deal critical damage.",
       "tips": "Best with: Luck, Move Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Whip3.png",
       "evoSynergy": [
         "VAMPIRICA"
@@ -1852,7 +1889,7 @@
       "name": "Fuwalafuwaloo",
       "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions.",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Whip4.png",
       "evolvesFrom": [
         "VENTO",
@@ -1878,7 +1915,8 @@
       "hitsWalls": false,
       "critChance": 0.05,
       "critMul": 2,
-      "knockback": 0.2
+      "knockback": 0.2,
+      "price": 5040
     }
   ],
   "BONE": [
@@ -1886,11 +1924,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "BONE",
-      "price": 1,
+      "price": 60,
       "name": "Bone",
       "description": "Throws a bouncing projectile.",
       "tips": "Best with: Duration, Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Bone.png",
       "isUnlocked": false,
       "poolLimit": 50,
@@ -1938,7 +1976,7 @@
       "name": "Anima of Mortaccio",
       "description": "Evolved Bone. Projectiles accelerate when bouncing.",
       "tips": "Requires: Tetraforce.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "animaMortaccio.png",
       "collectionFrame": "frameB_bold.png",
       "isEvolution": true,
@@ -1954,7 +1992,8 @@
       "area": 1.6,
       "speed": 1.75,
       "amount": 3,
-      "duration": 2600
+      "duration": 2600,
+      "price": 2160
     }
   ],
   "CHERRY": [
@@ -1962,11 +2001,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "CHERRY",
-      "price": 1,
+      "price": 60,
       "name": "Cherry Bomb",
       "description": "Throws a bouncing projectile. Explodes, sometimes.",
       "tips": "Best with: Luck.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Cherry.png",
       "isUnlocked": false,
       "poolLimit": 50,
@@ -2017,7 +2056,7 @@
       "name": "Yatta Daikarin",
       "description": "Evolved Cherry Bomb. Generates extra explosions that can deal critical Luck-based damage.",
       "tips": "Requires: Tetraforce.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "animaYattaCavallo.png",
       "collectionFrame": "frameB_bold.png",
       "isEvolution": true,
@@ -2034,7 +2073,8 @@
       "speed": 1.6,
       "amount": 2,
       "chance": 1,
-      "duration": 2600
+      "duration": 2600,
+      "price": 2160
     }
   ],
   "CART2": [
@@ -2042,11 +2082,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "CART2",
-      "price": 1,
+      "price": 60,
       "name": "Carréllo",
       "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "CartWheel.png",
       "hidden": false,
       "isUnlocked": false,
@@ -2093,7 +2133,7 @@
       "name": "Carozza!",
       "description": "Evolved Carréllo.",
       "tips": "Requires: Tetraforce.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "animaRamba.png",
       "collectionFrame": "frameB_bold.png",
       "isEvolution": true,
@@ -2108,7 +2148,8 @@
       "power": 15,
       "area": 1,
       "speed": 10,
-      "amount": 3
+      "amount": 3,
+      "price": 2160
     }
   ],
   "FLOWER": [
@@ -2116,11 +2157,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "FLOWER",
-      "price": 1,
+      "price": 60,
       "name": "Celestial Dusting",
       "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
       "tips": "Best with: Move Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "flower.png",
       "isUnlocked": false,
       "hitVFX": "Prism",
@@ -2168,7 +2209,7 @@
       "description": "Evolved Celestial Dusting. Projectiles generate a chain explosion at fixed intervals.",
       "tips": "Requires: Tetraforce.",
       "collectionFrame": "frameB_bold.png",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "animaOsole.png",
       "isEvolution": true,
       "hidden": true,
@@ -2186,7 +2227,8 @@
       "speed": 1.4,
       "amount": 2,
       "duration": 1500,
-      "knockback": 0.1
+      "knockback": 0.1,
+      "price": 2160
     }
   ],
   "ROBBA": [
@@ -2194,11 +2236,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "ROBBA",
-      "price": 1,
+      "price": 80,
       "name": "La Robba",
       "description": "Generates bouncing projectiles.",
       "tips": "Best with: Duration, Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "larobba.png",
       "isUnlocked": false,
       "poolLimit": 50,
@@ -2246,11 +2288,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "JUBILEE",
-      "price": 1600,
+      "price": 300,
       "name": "Greatest Jubilee",
       "description": "Has a chance to summon light sources.",
       "tips": "Best with: Luck.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "jubilee.png",
       "evoSynergy": [],
       "isUnlocked": false,
@@ -2304,14 +2346,17 @@
       "level": 1,
       "sealable": true,
       "bulletType": "TRIASSO1",
-      "price": 800,
+      "price": 80,
       "name": "Bracelet",
       "description": "Fires three projectiles at a random enemy.",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "bracelet1.png",
       "hitVFX": "Fire",
       "evoInto": "TRIASSO2",
+      "tags": [
+        "FIRE"
+      ],
       "isUnlocked": false,
       "poolLimit": 80,
       "rarity": 40,
@@ -2351,7 +2396,7 @@
       "name": "Bi-Bracelet",
       "description": "Fires three projectiles at a random enemy.",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "bracelet2.png",
       "evolvesFrom": [
         "TRIASSO1"
@@ -2367,6 +2412,9 @@
         "TRIASSO2",
         "TRIASSO3"
       ],
+      "tags": [
+        "FIRE"
+      ],
       "hitVFX": "Fire",
       "evoInto": "TRIASSO3",
       "isEvolution": true,
@@ -2381,7 +2429,8 @@
       "amount": 4,
       "duration": 600,
       "penetrating": 5,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 160
     },
     {
       "penetrating": 1
@@ -2411,7 +2460,7 @@
       "name": "Tri-Bracelet",
       "description": "Fires three projectiles at a random enemy.",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "bracelet3.png",
       "evolvesFrom": [
         "TRIASSO2"
@@ -2421,6 +2470,9 @@
       ],
       "requiresMax": [
         "TRIASSO2"
+      ],
+      "tags": [
+        "FIRE"
       ],
       "hitVFX": "Fire",
       "isEvolution": true,
@@ -2435,7 +2487,8 @@
       "amount": 6,
       "duration": 1000,
       "penetrating": 7,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 4500
     },
     {
       "amount": 1,
@@ -2463,11 +2516,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "CANDYBOX",
-      "price": 1600,
+      "price": 2000,
       "name": "Candybox",
       "description": "Allows you to choose any unlocked base weapon.",
       "tips": "Occurrence in level up options affected by Luck.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "candybox.png",
       "isUnlocked": false,
       "hidden": false,
@@ -2493,7 +2546,7 @@
       "name": "Super Candybox II Turbo",
       "description": "Gift of Candybox. Allows to choose among a selection of advanced weapons.",
       "tips": "Requires: Candybox.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "candybox2.png",
       "collectionFrame": "frameB_special.png",
       "isUnlocked": false,
@@ -2508,7 +2561,8 @@
       "area": 0,
       "speed": 0,
       "amount": 0,
-      "duration": 0
+      "duration": 0,
+      "price": 10000
     }
   ],
   "BATTILIA": [
@@ -2517,15 +2571,18 @@
       "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "BATTILIA",
-      "price": 400,
+      "price": 140,
       "name": "Pako Battilia",
       "description": "May fire additional times when losing health.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "batt1.png",
       "collectionFrame": "frameB_bold.png",
       "evoSynergy": [
         "MAXHEALTH"
+      ],
+      "tags": [
+        "BLOOD"
       ],
       "evoInto": "BATTILIA2",
       "isUnlocked": false,
@@ -2582,7 +2639,7 @@
       "name": "Mazzo Familiar",
       "description": "Evolved Pako Battilia. Damage and Amount affected by Max Health.",
       "tips": "Requires Max: Hollow Heart.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "batt2.png",
       "collectionFrame": "frameB_bold.png",
       "isEvolution": true,
@@ -2594,6 +2651,9 @@
       ],
       "requiresMax": [
         "MAXHEALTH"
+      ],
+      "tags": [
+        "BLOOD"
       ],
       "hitVFX": "Dark",
       "hidden": true,
@@ -2609,7 +2669,8 @@
       "hitsWalls": false,
       "critChance": 0.05,
       "critMul": 2,
-      "penetrating": 20
+      "penetrating": 20,
+      "price": 5040
     }
   ],
   "EX_AMMO1": [
@@ -2619,11 +2680,11 @@
       "sealable": true,
       "hidden": true,
       "bulletType": "EX_AMMO1",
-      "price": 10,
+      "price": 100,
       "name": "Ammo Appalate",
       "description": "Fires towards a random enemy in the faced direction.",
       "tips": "Projectile Speed increases Penetration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "collectionFrame": "frameB_bold.png",
       "frameName": "EX_AMMO1.png",
       "evoSynergy": [
@@ -2681,7 +2742,7 @@
       "name": "Gunastrophe",
       "description": "Evolved Ammo Appalate. Fires all the guns across the screen.",
       "tips": "Requires: Bracers.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "collectionFrame": "frameB_bold.png",
       "frameName": "EX_AMMO2.png",
       "isEvolution": true,
@@ -2708,7 +2769,114 @@
       "amount":         1,
       "penetrating":    0,
 	  "critChance":     0.05,
-      "critMul":        2
+      "critMul":        2,
+      "price": 3600
+    }
+  ],
+  "EX_FLIK1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_FLIK1",
+      "price": 160,
+      "name": "Unearthly Bolt",
+      "description": "Critical hits generate damaging zones. Revivals affect damage of consecutive critical hits.",
+      "tips": "Ignores: Speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "unearthlybolt1.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "REVIVAL"
+      ],
+      "hitVFX": "Spirit",
+      "evoInto": "EX_FLIK2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 70,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+
+      "duration": 100,
+      "hitBoxDelay": 120,
+
+      "critChance": 0.05,
+      "critMul": 1
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "amount": 1,
+      "area": 0.1,
+      "repeatInterval": -10
+    },
+    {
+      "power": 0.5,
+      "interval" : -100
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "amount": 1,
+      "area": 0.1,
+      "repeatInterval": -10
+    },
+    {
+      "amount": 1,
+      "repeatInterval": -10
+    },
+    {
+      "power": 0.5,
+      "interval" : -100,
+      "addEvolvedWeapon": "EX_FLIK2"
+    }
+  ],
+  "EX_FLIK2": [
+    {
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_FLIK2",
+      "contentGroup": "EXTRA",
+      "texture": "tps_lossless_icons",
+      "frameName": "unearthlybolt2.png",
+      "collectionFrame": "frameB_bold.png",
+      "name": "Spirit Disturbance",
+      "description": "Evolved Unearthly Bolt. Always deals critical hits.",
+      "tips": "Requires Max: Tirajisu.",
+      "isUnlocked": true,
+      "isEvolution": true,
+      "hitVFX": "Spirit",
+      "evolvesFrom": [
+        "EX_FLIK1"
+      ],
+      "requires": [
+        "REVIVAL"
+      ],
+      "requiresMax": [
+        "REVIVAL"
+      ],
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 2,
+      "amount": 3,
+      "duration": 100,
+      "hitBoxDelay": 120,
+      "critChance": 0.05,
+      "critMul": 1,
+      "price": 5760
     }
   ],
   "VICTORY": [
@@ -2716,11 +2884,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "VICTORY",
-      "price": 10800,
+      "price": 1080,
       "name": "Victory Sword",
       "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
       "tips": "Ignores: Speed, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "victory1.png",
       "collectionFrame": "frameB_special.png",
       "evoInto": "SOLES",
@@ -2790,7 +2958,7 @@
       "name": "Sole Solution",
       "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
       "tips": "Requires Max: Victory Sword, Torrona's Box.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "solesolution.png",
       "collectionFrame": "frameB_special.png",
       "requires": [
@@ -2815,7 +2983,8 @@
       "speed": 1,
       "amount": 1,
       "hitsWalls": false,
-      "hitBoxDelay": 100
+      "hitBoxDelay": 100,
+      "price": 84240
     }
   ],
   "MISSPELL": [
@@ -2823,14 +2992,17 @@
       "level": 1,
       "sealable": true,
       "bulletType": "MISSPELL",
-      "price": 1600,
+      "price": 160,
       "name": "Flames of Misspell",
       "description": "Emits cones of flames.",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "flame1.png",
       "collectionFrame": "frameB_special.png",
       "evoInto": "MISSPELL2",
+      "tags": [
+        "FIRE"
+      ],
       "isUnlocked": false,
       "hidden": true,
       "hitVFX": "Fire",
@@ -2880,7 +3052,7 @@
       "name": "Ashes of Muspell",
       "description": "Evolved Flames of Misspell. The more enemies are defeated, the stronger it grows.",
       "tips": "Requires Max: Torrona's Box.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "flame3.png",
       "collectionFrame": "frameB_special.png",
       "evolvesFrom": [
@@ -2891,6 +3063,9 @@
       ],
       "requiresMax": [
         "PANDORA"
+      ],
+      "tags": [
+        "FIRE"
       ],
       "hitVFX": "Evil",
       "isEvolution": true,
@@ -2904,7 +3079,1136 @@
       "area": 2,
       "speed": 1.5,
       "amount": 12,
-      "duration": 400
+      "duration": 400,
+      "price": 7200
+    }
+  ],
+  "ICELANCE": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "ICELANCE",
+      "price": 160,
+      "name": "Glass Fandango",
+      "description": "Stronger with movement, Orologions, and against frozen enemies.",
+      "tips": "Ignores: speed, duration.",
+      "texture": "tps_lossless_icons",
+      "frameName": "SpearIce.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "MOVESPEED"
+      ],
+      "evoInto": "ICELANCE2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 1400,
+      "repeatInterval": 30,
+      "power": 1,
+      "area": 0.7,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "unexcludeSelf": true
+    },
+    {
+      "power": 0.25,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.25,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.25,
+      "area": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.25,
+      "amount": 1,
+      "addEvolvedWeapon": "ICELANCE2"
+    }
+  ],
+  "ICELANCE2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "ICELANCE2",
+      "name": "Celestial Voulge",
+      "description": "Evolved Glass Fandango. Might deal critical damage and freeze enemies. Turns Orologions into Starry Heavens.",
+      "tips": "Requires Max: MoveSpeed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "SpearIce2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "ICELANCE"
+      ],
+      "requires": [
+        "MOVESPEED"
+      ],
+      "requiresMax": [
+        "MOVESPEED"
+      ],
+      "hidden": true,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 1400,
+      "repeatInterval": 30,
+      "power": 2,
+      "area": 1.1,
+      "speed": 6,
+      "amount": 6,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "freezeChance": 0.05,
+      "price": 5760
+    }
+  ],
+  "EX_PENSHIN": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "isUnlocked": false,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN",
+      "price": 153,
+      "name": "Penshin Facha",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin_selector.png",
+      "collectionFrame": "frameB_bold.png",
+      "rarity": 50,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "duration": 0,
+	  "unexcludeSelf": true
+    }
+  ],
+  "EX_PENSHIN_SELECTOR_EVO": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "alwaysHidden": true,
+	  "isUnlocked": true,
+	  "isEvolution": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_SELECTOR_EVO",
+      "price": 153,
+      "name": "Penshin Facha",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin_selector.png",
+      "collectionFrame": "frameB_bold.png",
+      "rarity": 50,
+      "interval": 9007199254740991,
+      "repeatInterval": 9007199254740991,
+      "power": 0,
+      "area": 0,
+      "speed": 0,
+      "amount": 0,
+      "hasUniqueRequirements":true,
+      "duration": 0
+    }
+  ],
+  "EX_PENSHIN_EVO7": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_EVO7",
+      "price": 153,
+      "name": "Tonno Subito",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin7.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 1200,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 0.8,
+      "amount": 1,
+      "penetrating": 1,
+      "duration": 200,
+      "hitBoxDelay": 350,
+      "hitsWalls": true
+    },
+	{
+	  "speed": 0.1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "speed": 0.1
+    },
+    {
+	  "amount": 1
+    },
+    {
+	  "speed": 0.2,
+      "addEvolvedWeapon": "EX_PENSHIN_SELECTOR_EVO"
+    }
+  ],
+  "EX_PENSHIN_EVO2": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_EVO2",
+      "price": 153,
+      "name": "Tonnado",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin2.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 250,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "duration": 1750,
+	  "hitBoxDelay": 1000,
+	  "knockback": 2,
+      "hitsWalls": false
+    },
+	{
+	  "duration": 250
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "duration": 250
+    },
+    {
+	  "speed": 0.1
+    },
+    {
+	  "duration": 500,
+      "addEvolvedWeapon": "EX_PENSHIN_SELECTOR_EVO"
+    }
+  ],
+  "EX_PENSHIN_EVO3": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_EVO3",
+      "price": 153,
+      "name": "Tonn'omoto",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin3.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "duration": 1750,
+	  "knockback": 5,
+      "hitsWalls": false
+    },
+	{
+	  "interval": -200
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "interval": -200
+    },
+    {
+	  "duration": 250
+    },
+    {
+	  "interval": -400,
+      "addEvolvedWeapon": "EX_PENSHIN_SELECTOR_EVO"
+    }
+  ],
+  "EX_PENSHIN_EVO4": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_EVO4",
+      "price": 153,
+      "name": "Tonn'oddeo",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin4.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+	  "duration": 1750,
+	  "hitBoxDelay": 750,
+	  "knockback": 2,
+      "hitsWalls": false
+    },
+	{
+	  "amount": 1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "amount": 1
+    },
+    {
+	  "area": 0.1
+    },
+    {
+	  "amount": 2,
+      "addEvolvedWeapon": "EX_PENSHIN_SELECTOR_EVO"
+    }
+  ],
+  "EX_PENSHIN_EVO1": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_EVO1",
+      "price": 153,
+      "name": "Tonne",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin1.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 0,
+      "power": 1.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "duration": 1750,
+	  "hitBoxDelay": 1500,
+	  "knockback": 2,
+      "hitsWalls": false
+    },
+	{
+	  "area": 0.1
+    },
+    {
+	  "duration": 250
+    },
+    {
+	  "area": 0.1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "area": 0.2,
+      "addEvolvedWeapon": "EX_PENSHIN_SELECTOR_EVO"
+    }
+  ],
+  "EX_PENSHIN_EVO6": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_EVO6",
+      "price": 153,
+      "name": "Unsurpassed",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin6.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 250,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+	  "duration": 1750,
+	  "hitBoxDelay": 1000,
+	  "knockback": 5,
+      "hitsWalls": false
+    },
+	{
+	  "power": 1
+    },
+    {
+	  "speed": 0.1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "interval": -200
+    },
+    {
+	  "power": 2,
+      "addEvolvedWeapon": "EX_PENSHIN_SELECTOR_EVO"
+    }
+  ],
+  "EX_PENSHIN_UNION": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_UNION",
+      "price": 153,
+      "name": "Miracle of Multiplication",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin_union.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": true,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 1000,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "knockback": 5,
+      "hitsWalls": false
+    }
+  ],
+  "EX_PENSHIN_STATIC7": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "alwaysHidden": true,
+	  "isUnlocked": false,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_STATIC7",
+      "price": 153,
+      "name": "Tonno Subito",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin7.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 150,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "duration": 1000,
+	  "hitBoxDelay": 1000,
+	  "knockback": 5,
+      "hitsWalls": true
+    },
+	{
+	  "speed": 0.1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "speed": 0.1
+    },
+    {
+	  "amount": 1
+    },
+    {
+	  "speed": 0.2
+    }
+  ],
+  "EX_PENSHIN_STATIC2": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "alwaysHidden": true,
+	  "isUnlocked": false,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_STATIC2",
+      "price": 153,
+      "name": "Tonnado",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin2.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 250,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "duration": 1750,
+	  "hitBoxDelay": 1000,
+	  "knockback": 2,
+      "hitsWalls": false
+    },
+	{
+	  "duration": 250
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "duration": 250
+    },
+    {
+	  "speed": 0.1
+    },
+    {
+	  "duration": 500
+    }
+  ],
+  "EX_PENSHIN_STATIC3": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "alwaysHidden": true,
+	  "isUnlocked": false,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_STATIC3",
+      "price": 153,
+      "name": "Tonn'omoto",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin3.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "duration": 1750,
+	  "knockback": 5,
+      "hitsWalls": false
+    },
+	{
+	  "interval": -200
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "interval": -200
+    },
+    {
+	  "duration": 250
+    },
+    {
+	  "interval": -400
+    }
+  ],
+  "EX_PENSHIN_STATIC4": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "alwaysHidden": true,
+	  "isUnlocked": false,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_STATIC4",
+      "price": 153,
+      "name": "Tonn'oddeo",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin4.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+	  "duration": 1750,
+	  "hitBoxDelay": 750,
+	  "knockback": 2,
+      "hitsWalls": false
+    },
+	{
+	  "amount": 1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "amount": 1
+    },
+    {
+	  "area": 0.1
+    },
+    {
+	  "amount": 2
+    }
+  ],
+  "EX_PENSHIN_STATIC1": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_STATIC1",
+      "price": 153,
+      "name": "Tonne",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin1.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 0,
+      "power": 1.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+	  "duration": 1750,
+	  "hitBoxDelay": 1500,
+	  "knockback": 2,
+      "hitsWalls": false
+    },
+	{
+	  "area": 0.1
+    },
+    {
+	  "duration": 250
+    },
+    {
+	  "area": 0.1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "area": 0.2
+    }
+  ],
+  "EX_PENSHIN_STATIC6": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+	  "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_PENSHIN_STATIC6",
+      "price": 153,
+      "name": "Unsurpassed",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "penshin6.png",
+      "collectionFrame": "frameB_bold.png",
+	  "hitVFX": "Light",
+	  "isEvolution": false,
+      "poolLimit": 50,
+      "rarity": 50,
+      "interval": 4000,
+      "repeatInterval": 250,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+	  "duration": 1750,
+	  "hitBoxDelay": 1000,
+	  "knockback": 5,
+      "hitsWalls": false
+    },
+	{
+	  "power": 1
+    },
+    {
+	  "speed": 0.1
+    },
+    {
+	  "power": 1
+    },
+    {
+	  "interval": -200
+    },
+    {
+	  "power": 2
+    }
+  ],
+  "SANTAJAVELIN": [
+    {
+      "contentGroup": "EXTRA",
+      "alwaysHidden": false,
+      "isUnlocked": false,
+      "hidden": true,
+      "isSpecialOnly": false,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "SANTAJAVELIN",
+      "price": 180,
+      "name": "Santa Javelin",
+      "description": "Duration affects Amount. Can deal critical damage.",
+      "tips": "Ignores: Speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "sjavelin.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "LUCK"
+      ],
+      "evoInto": "SANTAJAVELIN2",
+      "hitVFX": "Light",
+      "poolLimit": 200,
+      "rarity": 60,
+      "interval": 6500,
+      "repeatInterval": 125,
+      "duration": 1000,
+      "power": 2,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "canCrit": true,
+      "critMul": 2
+    },
+    {
+      "area": 0.5
+    },
+    {
+      "amount": 1,
+      "interval": -500
+    },
+    {
+      "power": 1
+    },
+    {
+      "area": 0.5,
+      "interval": -500
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1,
+      "interval": -500
+    },
+    {
+      "power": 3,
+      "addEvolvedWeapon": "SANTAJAVELIN2"
+    }
+  ],
+  "SANTAJAVELIN2": [
+    {
+      "contentGroup": "EXTRA",
+      "alwaysHidden": false,
+      "isUnlocked": false,
+      "hidden": true,
+      "isSpecialOnly": false,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "SANTAJAVELIN2",
+      "price": 5480,
+      "name": "Seraphic Cry",
+      "description": "Evolved Santa Javelin. Critical damage affected by Luck. Turns Rosaries into Weird Souls Purifiers.",
+      "tips": "Requires Max: Clover.",
+      "texture": "tps_lossless_icons",
+      "frameName": "sjavelin2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "SANTAJAVELIN"
+      ],
+      "requires": [
+        "LUCK"
+      ],
+      "requiresMax": [
+        "LUCK"
+      ],
+      "hitVFX": "Yellow",
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 5000,
+      "repeatInterval": 200,
+      "duration": 1000,
+      "power": 7,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 3,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "canCrit": true,
+      "critMul": 2
+    }
+  ],
+  "EX_GAEA1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_GAEA1",
+      "price": 100,
+      "name": "Gaze of Gaea",
+      "description": "Might defang enemies.",
+      "tips": "Ignores: speed, duration.",
+      "texture": "tps_lossless_icons",
+      "frameName": "icon_gazeofgaea.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "PARMA"
+      ],
+      "evoInto": "EX_GAEA2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 100,
+      "rarity": 50,
+      "interval": 2000,
+      "repeatInterval": 200,
+      "duration": 200,
+      "hitBoxDelay": 300,
+      "power": 0.5,
+      "area": 0.5,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "chance": 0.03
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 200
+    },
+    {
+      "chance": 0.01,
+      "area": 0.15
+    },
+    {
+      "amount": 1
+    },
+    {
+      "duration": 200
+    },
+    {
+      "chance": 0.01,
+      "area": 0.15,
+      "addEvolvedWeapon": "EX_GAEA2"
+    }
+  ],
+  "EX_GAEA2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_GAEA2",
+      "name": "Embrace of Gaea",
+      "description": "Evolved Gaze of Gaea. Retaliates. Damage is increased while invulnerable.",
+      "tips": "Requires: Parm Aegis.",
+      "texture": "tps_lossless_icons",
+      "frameName": "icon_shawlofgaea.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EX_GAEA1"
+      ],
+      "requires": [
+        "PARMA"
+      ],
+      "hidden": true,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "duration": 800,
+      "hitBoxDelay": 300,
+      "power": 4,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "chance": 0.05,
+      "price": 3600
+    }
+  ],
+  "EX_MAGISTONE1": [
+    {
+      "contentGroup": "EXTRA",
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_MAGISTONE1",
+      "price": 120,
+      "name": "Magi-Stones",
+      "description": "Deals damage based on its Weapon Level.",
+      "tips": "Ignores: Might.",
+      "texture": "tps_lossless_icons",
+      "frameName": "magistone.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "DOMINION"
+      ],
+      "evoInto": "EX_MAGISTONE2",
+      "poolLimit": 50,
+      "rarity": 60,
+      "interval": 3500,
+      "repeatInterval": 200,
+      "power": 1,
+      "area": 1,
+      "speed": 1.2,
+      "amount": 1,
+      "hitsWalls": false,
+      "knockback": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.2,
+      "interval": -200,
+      "repeatInterval": -40
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.1
+    },
+    {
+      "speed": 0.2,
+      "interval": -200,
+      "repeatInterval": -40
+    },
+    {
+      "area": 0.2,
+      "addEvolvedWeapon": "EX_MAGISTONE2"
+    }
+  ],
+  "EX_MAGISTONE2": [
+    {
+      "contentGroup": "EXTRA",
+      "isUnlocked": false,
+      "hidden": true,
+      "level": 1,
+      "sealable": true,
+      "bulletType": "EX_MAGISTONE2",
+      "price": 4320,
+      "name": "Kyra-Stones",
+      "description": "Evolved Magistone. Damage based on Player Level. Amount increases with enemies.",
+      "tips": "Requires Max: Karoma's Mana.",
+      "texture": "tps_lossless_icons",
+      "frameName": "kyrastone.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EX_MAGISTONE1"
+      ],
+      "requires": [
+        "DOMINION"
+      ],
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 100,
+      "power": 1,
+      "area": 1.5,
+      "speed": 1.8,
+      "amount": 4,
+      "hitsWalls": false,
+      "knockback": 1
+    }
+  ],
+  "PHASER": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "PHASER",
+      "price": 200,
+      "name": "Phas3r",
+      "description": "Generates thin damaging zones. Has high Amount scaling.",
+      "tips": "Ignores: speed, duration.",
+      "texture": "tps_lossless_icons",
+      "frameName": "phaser.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "COOLDOWN"
+      ],
+      "evoInto": "PHASER2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 200,
+      "rarity": 50,
+      "interval": 5000,
+      "repeatInterval": 100,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2,
+      "unexcludeSelf": true
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.5,
+      "power": 0.3
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.5,
+      "power": 0.3
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.5,
+      "power": 0.4
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "PHASER2"
+    }
+  ],
+  "PHASER2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "PHASER2",
+      "price": 7200,
+      "name": "Photonstorm",
+      "description": "Evolved Phas3r. May fire 2 to 10 times more projectiles depending on Luck.",
+      "tips": "Requires Max: Empty Tome.",
+      "texture": "tps_lossless_icons",
+      "frameName": "phaser2.png",
+      "collectionFrame": "frameB_bold.png",
+      "evolvesFrom": [
+        "PHASER"
+      ],
+      "requires": [
+        "COOLDOWN"
+      ],
+      "requiresMax": [
+        "COOLDOWN"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "hidden": true,
+      "hitVFX": "Light",
+      "poolLimit": 200,
+      "rarity": 1,
+      "interval": 5000,
+      "repeatInterval": 60,
+      "power": 2.5,
+      "area": 2.5,
+      "speed": 1,
+      "amount": 6,
+      "hitsWalls": false,
+      "critChance": 0.025,
+      "critMul": 2
     }
   ],
   "FOLLOWER_KNIFE1": [
@@ -2913,7 +4217,7 @@
       "contentGroup": "EXTRA",
       "sealable": true,
       "bulletType": "FOLLOWER_KNIFE1",
-      "price": 800,
+      "price": 100,
       "name": "Grant Knife",
       "description": ".",
       "tips": ".",
@@ -2986,6 +4290,7 @@
       ],
       "poolLimit": 100,
       "rarity": 1,
+      "price": 3600,
       "interval": 3000,
       "repeatInterval": 250,
       "hitBoxDelay" : 30,
@@ -2996,488 +4301,6 @@
       "duration": 300,
       "hitsWalls": false,
       "penetrating": 3
-    }
-  ],
-  "ICELANCE": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "ICELANCE",
-      "price": 800,
-      "name": "Glass Fandango",
-      "description": "Stronger with movement, Orologions, and against frozen enemies.",
-      "tips": "Ignores: speed, duration.",
-      "texture": "items",
-      "frameName": "SpearIce.png",
-      "collectionFrame": "frameB_bold.png",
-      "evoSynergy": [
-        "MOVESPEED"
-      ],
-      "evoInto": "ICELANCE2",
-      "isUnlocked": false,
-      "hidden": true,
-      "poolLimit": 100,
-      "rarity": 50,
-      "interval": 1400,
-      "repeatInterval": 30,
-      "power": 1,
-      "area": 0.7,
-      "speed": 1,
-      "amount": 1,
-      "hitsWalls": false,
-      "critChance": 0.05,
-      "critMul": 2,
-      "unexcludeSelf": true
-    },
-    {
-      "power": 0.25,
-      "area": 0.1
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 0.25,
-      "area": 0.1
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 0.25,
-      "area": 0.1
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 0.25,
-      "amount": 1,
-      "addEvolvedWeapon": "ICELANCE2"
-    }
-  ],
-  "ICELANCE2": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "ICELANCE2",
-      "name": "Celestial Voulge",
-      "description": "Evolved Glass Fandango. Might deal critical damage and freeze enemies. Turns Orologions into Starry Heavens.",
-      "tips": "Requires Max: MoveSpeed.",
-      "texture": "items",
-      "frameName": "SpearIce2.png",
-      "collectionFrame": "frameB_bold.png",
-      "isEvolution": true,
-      "evolvesFrom": [
-        "ICELANCE"
-      ],
-      "requires": [
-        "MOVESPEED"
-      ],
-      "requiresMax": [
-        "MOVESPEED"
-      ],
-      "hidden": true,
-      "isUnlocked": true,
-      "poolLimit": 100,
-      "rarity": 1,
-      "interval": 1400,
-      "repeatInterval": 30,
-      "power": 2,
-      "area": 1.1,
-      "speed": 6,
-      "amount": 6,
-      "hitsWalls": false,
-      "critChance": 0.05,
-      "critMul": 2,
-      "freezeChance": 0.05
-    }
-  ],
-  "SANTAJAVELIN": [
-    {
-      "contentGroup": "EXTRA",
-      "alwaysHidden": false,
-      "isUnlocked": false,
-      "hidden": true,
-      "isSpecialOnly": false,
-      "level": 1,
-      "sealable": true,
-      "bulletType": "SANTAJAVELIN",
-      "price": 400,
-      "name": "Santa Javelin",
-      "description": "Duration affects Amount. Can deal critical damage.",
-      "tips": "Ignores: Speed.",
-      "texture": "items",
-      "frameName": "sjavelin.png",
-      "collectionFrame": "frameB_bold.png",
-      "evoSynergy": [
-        "LUCK"
-      ],
-      "evoInto": "SANTAJAVELIN2",
-      "hitVFX": "Light",
-      "poolLimit": 200,
-      "rarity": 60,
-      "interval": 6500,
-      "repeatInterval": 125,
-      "duration": 1000,
-      "power": 2,
-      "area": 1,
-      "speed": 1,
-      "amount": 1,
-      "knockback": 0,
-      "hitsWalls": false,
-      "critChance": 0.05,
-      "canCrit": true,
-      "critMul": 2
-    },
-    {
-      "area": 0.5
-    },
-    {
-      "amount": 1,
-      "interval": -500
-    },
-    {
-      "power": 1
-    },
-    {
-      "area": 0.5,
-      "interval": -500
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 1,
-      "interval": -500
-    },
-    {
-      "power": 3,
-      "addEvolvedWeapon": "SANTAJAVELIN2"
-    }
-  ],
-  "SANTAJAVELIN2": [
-    {
-      "contentGroup": "EXTRA",
-      "alwaysHidden": false,
-      "isUnlocked": false,
-      "hidden": true,
-      "isSpecialOnly": false,
-      "level": 1,
-      "sealable": true,
-      "bulletType": "SANTAJAVELIN2",
-      "price": 400,
-      "name": "Seraphic Cry",
-      "description": "Evolved Santa Javelin. Critical damage affected by Luck. Turns Rosaries into Weird Souls Purifiers.",
-      "tips": "Requires Max: Clover.",
-      "texture": "items",
-      "frameName": "sjavelin2.png",
-      "collectionFrame": "frameB_bold.png",
-      "isEvolution": true,
-      "evolvesFrom": [
-        "SANTAJAVELIN"
-      ],
-      "requires": [
-        "LUCK"
-      ],
-      "requiresMax": [
-        "LUCK"
-      ],
-      "hitVFX": "Yellow",
-      "poolLimit": 200,
-      "rarity": 1,
-      "interval": 5000,
-      "repeatInterval": 200,
-      "duration": 1000,
-      "power": 7,
-      "area": 1.5,
-      "speed": 1,
-      "amount": 3,
-      "hitsWalls": false,
-      "critChance": 0.05,
-      "canCrit": true,
-      "critMul": 2
-    }
-  ],
-  "EX_GAEA1": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "EX_GAEA1",
-      "price": 800,
-      "name": "Gaze of Gaea",
-      "description": "Might defang enemies.",
-      "tips": "Ignores: speed, duration.",
-      "texture": "items",
-      "frameName": "icon_gazeofgaea.png",
-      "collectionFrame": "frameB_bold.png",
-      "evoSynergy": [
-        "PARMA"
-      ],
-      "evoInto": "EX_GAEA2",
-      "isUnlocked": false,
-      "hidden": true,
-      "poolLimit": 100,
-      "rarity": 50,
-      "interval": 2000,
-      "repeatInterval": 200,
-      "duration": 200,
-      "hitBoxDelay": 300,
-      "power": 0.5,
-      "area": 0.5,
-      "speed": 1,
-      "amount": 1,
-      "hitsWalls": false,
-      "chance": 0.03
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 0.5
-    },
-    {
-      "duration": 200
-    },
-    {
-      "chance": 0.01,
-      "area": 0.15
-    },
-    {
-      "amount": 1
-    },
-    {
-      "duration": 200
-    },
-    {
-      "chance": 0.01,
-      "area": 0.15,
-      "addEvolvedWeapon": "EX_GAEA2"
-    }
-  ],
-  "EX_GAEA2": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "EX_GAEA2",
-      "name": "Embrace of Gaea",
-      "description": "Evolved Gaze of Gaea. Retaliates. Damage is increased while invulnerable.",
-      "tips": "Requires: Parm Aegis.",
-      "texture": "items",
-      "frameName": "icon_shawlofgaea.png",
-      "collectionFrame": "frameB_bold.png",
-      "isEvolution": true,
-      "evolvesFrom": [
-        "EX_GAEA1"
-      ],
-      "requires": [
-        "PARMA"
-      ],
-      "hidden": true,
-      "isUnlocked": true,
-      "poolLimit": 100,
-      "rarity": 1,
-      "interval": 3000,
-      "repeatInterval": 100,
-      "duration": 800,
-      "hitBoxDelay": 300,
-      "power": 4,
-      "area": 1,
-      "speed": 1,
-      "amount": 1,
-      "hitsWalls": false,
-      "chance": 0.05
-    }
-  ],
-  "EX_MAGISTONE1": [
-    {
-      "contentGroup": "EXTRA",
-      "hidden": true,
-      "level": 1,
-      "sealable": true,
-      "bulletType": "EX_MAGISTONE1",
-      "price": 400,
-      "name": "Magi-Stones",
-      "description": "Deals damage based on its Weapon Level.",
-      "tips": "Ignores: Might.",
-      "texture": "items",
-      "frameName": "magistone.png",
-      "collectionFrame": "frameB_bold.png",
-      "evoSynergy": [
-        "DOMINION"
-      ],
-      "evoInto": "EX_MAGISTONE2",
-      "poolLimit": 50,
-      "rarity": 60,
-      "interval": 3500,
-      "repeatInterval": 200,
-      "power": 1,
-      "area": 1,
-      "speed": 1.2,
-      "amount": 1,
-      "hitsWalls": false,
-      "knockback": 1
-    },
-    {
-      "amount": 1
-    },
-    {
-      "area": 0.1
-    },
-    {
-      "speed": 0.2,
-      "interval": -200,
-      "repeatInterval": -40
-    },
-    {
-      "amount": 1
-    },
-    {
-      "area": 0.1
-    },
-    {
-      "speed": 0.2,
-      "interval": -200,
-      "repeatInterval": -40
-    },
-    {
-      "area": 0.2,
-      "addEvolvedWeapon": "EX_MAGISTONE2"
-    }
-  ],
-  "EX_MAGISTONE2": [
-    {
-      "contentGroup": "EXTRA",
-      "isUnlocked": false,
-      "hidden": true,
-      "level": 1,
-      "sealable": true,
-      "bulletType": "EX_MAGISTONE2",
-      "price": 400,
-      "name": "Kyra-Stones",
-      "description": "Evolved Magistone. Damage based on Player Level. Amount increases with enemies.",
-      "tips": "Requires Max: Karoma's Mana.",
-      "texture": "items",
-      "frameName": "kyrastone.png",
-      "collectionFrame": "frameB_bold.png",
-      "isEvolution": true,
-      "evolvesFrom": [
-        "EX_MAGISTONE1"
-      ],
-      "requires": [
-        "DOMINION"
-      ],
-      "poolLimit": 50,
-      "rarity": 1,
-      "interval": 3000,
-      "repeatInterval": 100,
-      "power": 1,
-      "area": 1.5,
-      "speed": 1.8,
-      "amount": 4,
-      "hitsWalls": false,
-      "knockback": 1
-    }
-  ],
-  "PHASER": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "PHASER",
-      "price": 800,
-      "name": "Phas3r",
-      "description": "Generates thin damaging zones. Has high Amount scaling.",
-      "tips": "Ignores: speed, duration.",
-      "texture": "items",
-      "frameName": "phaser.png",
-      "collectionFrame": "frameB_bold.png",
-      "evoSynergy": [
-        "COOLDOWN"
-      ],
-      "evoInto": "PHASER2",
-      "isUnlocked": false,
-      "hidden": true,
-      "poolLimit": 200,
-      "rarity": 50,
-      "interval": 5000,
-      "repeatInterval": 100,
-      "power": 0.5,
-      "area": 1,
-      "speed": 1,
-      "amount": 1,
-      "hitsWalls": false,
-      "critChance": 0.05,
-      "critMul": 2,
-      "unexcludeSelf": true
-    },
-    {
-      "amount": 1
-    },
-    {
-      "area": 0.5,
-      "power": 0.3
-    },
-    {
-      "amount": 1
-    },
-    {
-      "area": 0.5,
-      "power": 0.3
-    },
-    {
-      "amount": 1
-    },
-    {
-      "area": 0.5,
-      "power": 0.4
-    },
-    {
-      "amount": 1,
-      "addEvolvedWeapon": "PHASER2"
-    }
-  ],
-  "PHASER2": [
-    {
-      "level": 1,
-      "contentGroup": "EXTRA",
-      "sealable": true,
-      "bulletType": "PHASER2",
-      "price": 800,
-      "name": "Photonstorm",
-      "description": "Evolved Phas3r. May fire 2 to 10 times more projectiles depending on Luck.",
-      "tips": "Requires Max: Empty Tome.",
-      "texture": "items",
-      "frameName": "phaser2.png",
-      "collectionFrame": "frameB_bold.png",
-      "evolvesFrom": [
-        "PHASER"
-      ],
-      "requires": [
-        "COOLDOWN"
-      ],
-      "requiresMax": [
-        "COOLDOWN"
-      ],
-      "isEvolution": true,
-      "isUnlocked": true,
-      "hidden": true,
-      "hitVFX": "Light",
-      "poolLimit": 200,
-      "rarity": 1,
-      "interval": 5000,
-      "repeatInterval": 60,
-      "power": 2.5,
-      "area": 2.5,
-      "speed": 1,
-      "amount": 6,
-      "hitsWalls": false,
-      "critChance": 0.025,
-      "critMul": 2
     }
   ],
   "ARMADIO": [
@@ -3491,7 +4314,7 @@
       "name": "Arma Dio",
       "description": "Allows you to choose any passive weapon.",
       "tips": "Appearance in level up options affected by Luck.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "armadio.png",
       "collectionFrame": "frameB_bold.png",
       "poolLimit": 0,
@@ -3504,7 +4327,8 @@
       "speed": 0,
       "amount": 0,
       "duration": 0,
-      "despawnOnUnavailable": false
+      "despawnOnUnavailable": false,
+      "price": 500
     }
   ],
   "NDUJA": [
@@ -3514,12 +4338,15 @@
       "name": "Nduja Fritta",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Nft1.png",
       "hidden": true,
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
+      "tags": [
+        "FIRE"
+      ],
       "hitVFX": "Fire",
       "poolLimit": 50,
       "rarity": 0,
@@ -3539,8 +4366,11 @@
       "name": "Nduja Fritta",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Nft1.png",
+      "tags": [
+        "FIRE"
+      ],
       "hidden": true,
       "alwaysHidden": true,
       "isUnlocked": false,
@@ -3564,7 +4394,7 @@
       "name": "Sorbetto",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "sorbetto.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3589,7 +4419,7 @@
       "name": "Sorbetto",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "sorbetto.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3609,17 +4439,17 @@
   ],
   "FLOOD": [
     {
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
       "level": 1,
       "bulletType": "FLOOD",
       "name": "Acquazzone",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "acquazzone.png",
-      "hidden": true,
-      "alwaysHidden": true,
-      "isUnlocked": false,
-      "isSpecialOnly": true,
       "hitVFX": "TimeFreeze",
       "poolLimit": 50,
       "rarity": 0,
@@ -3639,7 +4469,7 @@
       "name": "Dairy Cart",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyCart.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3663,7 +4493,7 @@
       "name": "Take Us Away",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyCart.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3688,7 +4518,7 @@
       "name": "Sarabande of Healing",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummySarabande.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3714,7 +4544,7 @@
       "name": "Stained Glass",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyWindow.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3740,7 +4570,7 @@
       "name": "Game Killer",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "GemBlue.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3766,12 +4596,15 @@
       "name": "Heart of Fire",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyFire.png",
       "hidden": true,
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
+      "tags": [
+        "FIRE"
+      ],
       "hitVFX": "None",
       "poolLimit": 50,
       "rarity": 0,
@@ -3792,7 +4625,7 @@
       "name": "Out of Bounds",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyIce.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3818,7 +4651,7 @@
       "name": "Divine Bloodline",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyDivine.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3844,7 +4677,7 @@
       "name": "Blood Astronomia",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyBlood.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3870,7 +4703,7 @@
       "name": "Wandering the Jet Black",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyWJB.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3897,7 +4730,7 @@
       "name": "Wandering the Jet Black",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyMMoon.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3924,7 +4757,7 @@
       "name": "Fire Nova",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyFire.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3950,7 +4783,7 @@
       "name": "Ice Nova",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyIce.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -3976,7 +4809,7 @@
       "name": "Fear Nova",
       "description": "",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyYell.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -4003,7 +4836,7 @@
       "name": "Ground Hit",
       "description": ".",
       "tips": "",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dummyFire.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -4027,10 +4860,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "POWER",
-      "price": 40,
+      "price": 80,
       "name": "Spinach",
       "description": "Raises inflicted damage by 10%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Leaf.png",
       "evoSynergy": [
         "FIREBALL"
@@ -4059,10 +4892,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "ARMOR",
-      "price": 40,
+      "price": 60,
       "name": "Armor",
       "description": "Reduces incoming Damage by 1. Increases retaliatory Damage by 10%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "ArmorIron.png",
       "evoSynergy": [
         "DIAMOND"
@@ -4091,10 +4924,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "MAXHEALTH",
-      "price": 40,
+      "price": 10,
       "name": "Hollow Heart",
       "description": "Augments Max Health by 20%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "HeartBlack.png",
       "evoSynergy": [
         "WHIP"
@@ -4124,11 +4957,11 @@
       "sealable": true,
       "hidden": false,
       "bulletType": "REGEN",
-      "price": 40,
+      "price": 10,
       "name": "Pummarola",
       "description": "Character recovers 0.2 HP per second.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "texture": "tps_lossless_icons",
       "frameName": "HeartRuby.png",
       "evoSynergy": [
         "GARLIC"
@@ -4157,10 +4990,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "COOLDOWN",
-      "price": 400,
+      "price": 180,
       "name": "Empty Tome",
       "description": "Reduces weapon cooldown by 8%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Book2.png",
       "evoSynergy": [
         "MAGIC_MISSILE"
@@ -4189,10 +5022,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "AREA",
-      "price": 200,
+      "price": 120,
       "name": "Candelabrador",
       "description": "Augments area of attacks by 10%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Candelabra.png",
       "evoSynergy": [
         "AXE"
@@ -4221,10 +5054,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "SPEED",
-      "price": 200,
+      "price": 60,
       "name": "Bracer",
       "description": "Increases projectile speed by 10%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Gauntlet.png",
       "evoSynergy": [
         "KNIFE"
@@ -4253,10 +5086,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "DURATION",
-      "price": 200,
+      "price": 100,
       "name": "Spellbinder",
       "description": "Increases duration of weapon effects by 10%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "EmblemEye.png",
       "evoSynergy": [
         "HOLYBOOK"
@@ -4285,10 +5118,10 @@
       "level": 1,
       "sealable": true,
       "bulletType": "AMOUNT",
-      "price": 400,
+      "price": 200,
       "name": "Duplicator",
       "description": "Weapons fire more projectiles.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Ring.png",
       "evoSynergy": [
         "LIGHTNING"
@@ -4308,11 +5141,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "MOVESPEED",
-      "price": 40,
+      "price": 60,
       "name": "Wings",
       "description": "Character moves 10% faster.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "texture": "tps_lossless_icons",
       "frameName": "Wing.png",
       "evoSynergy": [
         "TRAPANO",
@@ -4342,11 +5175,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "MAGNET",
-      "price": 40,
+      "price": 80,
       "name": "Attractorb",
       "description": "Character picks up items from further away.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "texture": "tps_lossless_icons",
       "frameName": "OrbGlow.png",
       "evoSynergy": [
         "HOLYWATER"
@@ -4378,8 +5211,8 @@
       "price": 7,
       "name": "Clover",
       "description": "Character gets 10% luckier.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "texture": "tps_lossless_icons",
       "frameName": "Clover.png",
       "evoSynergy": [
         "CROSS",
@@ -4409,11 +5242,11 @@
       "level": 1,
       "sealable": true,
       "bulletType": "GROWTH",
-      "price": 40,
+      "price": 10,
       "name": "Crown",
       "description": "Character gains 8% more experience.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "texture": "tps_lossless_icons",
       "frameName": "Crown.png",
       "evoSynergy": [
         "PENTAGRAM"
@@ -4442,11 +5275,11 @@
       "sealable": true,
       "hidden": false,
       "bulletType": "GREED",
-      "price": 40,
+      "price": 200,
       "name": "Stone Mask",
       "description": "Character earns 10% more Gold coins.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "texture": "tps_lossless_icons",
       "frameName": "Mask.png",
       "evoSynergy": [
         "GATTI"
@@ -4480,7 +5313,7 @@
       "price": 200,
       "name": "Skull O'Maniac",
       "description": "Increases enemy speed, health, quantity, and frequency by 10%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Curse.png",
       "evoSynergy": [
         "SONG"
@@ -4510,11 +5343,11 @@
       "sealable": true,
       "hidden": false,
       "bulletType": "REVIVAL",
-      "price": 400,
+      "price": 140,
       "name": "Tiragisú",
       "description": "Revives once with 50% Health.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "texture": "tps_lossless_icons",
       "frameName": "Tiramisu.png",
       "evoSynergy": [
         "GUNS",
@@ -4536,10 +5369,10 @@
       "sealable": true,
       "hidden": false,
       "bulletType": "PANDORA",
-      "price": 3200,
+      "price": 320,
       "name": "Torrona's Box",
       "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "torrone.png",
       "isUnlocked": false,
       "rarity": 40,
@@ -4619,11 +5452,12 @@
       "hidden": true,
       "alwaysHidden": false,
       "isSpecialOnly": false,
+      "price": 80,
       "bulletType": "PARMA",
       "name": "Parm Aegis ",
       "description": "Increases invulnerability time after getting damaged by 50ms.",
       "tips": "Obtainable only via Arma Dio.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "parma.png",
       "collectionFrame": "frameB_bold.png",
       "rarity": 40,
@@ -4653,11 +5487,12 @@
       "hidden": true,
       "alwaysHidden": false,
       "isSpecialOnly": false,
+      "price": 180,
       "bulletType": "DOMINION",
       "name": "Karoma's Mana",
       "description": "Increases enemies spawn quantity by 10. Increases duration of Gold Fever and Gold Finger by 10%.",
       "tips": ".",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "dominion.png",
       "collectionFrame": "frameB_bold.png",
       "rarity": 40,
@@ -4692,6 +5527,7 @@
       "hidden": true,
       "alwaysHidden": true,
       "isSpecialOnly": true,
+      "price": 1000,
       
       "bulletType": "TETRAFORCE",
       "name": "Tetraforce",
@@ -4704,7 +5540,7 @@
         "FLOWER",
         "ROBBA"
       ],
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "tetraforce.png",
       "collectionFrame": "frameB_bold.png",
       "isPowerUp": true,
@@ -4718,7 +5554,7 @@
       "name": "Cygnus",
       "description": "Bombards in a circling zone.",
       "tips": "Best with: Cooldown, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Silf1_counter.png",
       "hitVFX": "TimeFreeze",
       "isUnlocked": false,
@@ -4771,7 +5607,7 @@
       "name": "Zhar Ptytsia",
       "description": "Bombards in a circling zone.",
       "tips": "Best with: Cooldown, Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Silf2_counter.png",
       "hitVFX": "Fire",
       "isUnlocked": false,
@@ -4824,7 +5660,7 @@
       "name": "Red Muscle",
       "description": "Fires quickly in four fixed directions.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Guns_counter.png",
       "hitVFX": "Red",
       "isUnlocked": false,
@@ -4872,7 +5708,7 @@
       "name": "Twice Upon a Time",
       "description": "Fires quickly in four fixed directions.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Guns2_counter.png",
       "hitVFX": "Blue",
       "isUnlocked": false,
@@ -4920,7 +5756,7 @@
       "name": "Flock Destroyer",
       "description": "Summons capricious projectiles. Might interact with pickups.",
       "tips": "Best with: Luck, Floor Chicken.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Cat_counter.png",
       "hitVFX": "Dark",
       "isUnlocked": false,
@@ -4972,7 +5808,7 @@
       "name": "Ammo Appalate",
       "description": "Fires at the nearest enemy.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "collectionFrame": "frameB_bold.png",
       "frameName": "EX_AMMO_COUNTER.png",
       "isUnlocked": false,
@@ -5031,7 +5867,7 @@
       "name": "Levelin'EEE",
       "description": "Duration affects Amount. Can deal critical damage.",
       "tips": "Ignores: Speed.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "sjavelinCounter.png",
       "collectionFrame": "frameB_bold.png",
       "hitVFX": "Light",
@@ -5082,8 +5918,9 @@
       "bulletType": "SILVER",
       "name": "Silver Ring",
       "description": "Wear ... Clock ...",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "silverring.png",
+      "price": 333,
       "evoSynergy": [
         "LANCET",
         "GOLD"
@@ -5135,13 +5972,14 @@
       "bulletType": "GOLD",
       "name": "Gold Ring",
       "description": "... With ... Lancet",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "goldring.png",
       "evoSynergy": [
         "LANCET",
         "SILVER"
       ],
       "evoInto": "CORRIDOR",
+      "price": 666,
       "unexcludeSelf": true,
       "isUnlocked": false,
       "rarity": 10,
@@ -5180,8 +6018,9 @@
       "bulletType": "LEFT",
       "name": "Metaglio Left",
       "description": "Channels dark powers to protect the bearer.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "price": 333,
+      "texture": "tps_lossless_icons",
       "frameName": "bsleft.png",
       "evoSynergy": [
         "LAUREL",
@@ -5234,8 +6073,9 @@
       "bulletType": "RIGHT",
       "name": "Metaglio Right",
       "description": "Channels dark powers to curse the bearer.",
-      "appliesOnlyToOwner": true,
-      "texture": "items",
+      "appliesOnlyToOwner": false,
+      "price": 666,
+      "texture": "tps_lossless_icons",
       "frameName": "bsright.png",
       "evoSynergy": [
         "LAUREL",
@@ -5282,7 +6122,7 @@
       "name": "Garlic",
       "description": ".",
       "tips": ".",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Garlic.png",
       "hidden": true,
       "isUnlocked": false,
@@ -5332,8 +6172,8 @@
       "name": "Tohil Idol",
       "description": "",
       "tips": "",
-      "texture": "items",
-      "frameName": "ziappunta_prop1.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "dummyBarrel.png",
       "hidden": true,
       "alwaysHidden": true,
       "isUnlocked": false,
@@ -5359,7 +6199,7 @@
       "name": "Insatiable",
       "description": "-",
       "tips": "-",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "2insatiable.png",
       "hidden": true,
       "alwaysHidden": true,
@@ -5387,7 +6227,7 @@
       "name": "Sossoldi",
       "description": ".",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "CoinGold.png",
       "isUnlocked": false,
       "hidden": true,
@@ -5445,7 +6285,7 @@
       "name": "Rumba",
       "description": "Pulls pickups and light sources.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
+      "texture": "tps_lossless_icons",
       "frameName": "Knife.png",
       "isUnlocked": true,
       "hidden": true,

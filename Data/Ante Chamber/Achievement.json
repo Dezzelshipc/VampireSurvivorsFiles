@@ -2,7 +2,7 @@
    "LEM_FindJokerDisc":{
       "description":"___",
       "stageToUnlock":"LEM_CHAMBER",
-      "forcedTexture":"items",
+      "forcedTexture":"tps_lossless_icons",
       "forcedFrameName":"LEM_DISK",
       "relicToUnlock": "RELIC_LEM_DISK",
       "UnlockConditions":[
@@ -127,8 +127,8 @@
     "description": "Evolve the Rich Rocket.",
     "goldPrize": 77777,
     "requiresItem":"RELIC_LEM_DISK",
-    "forcedTexture":"LEM_items",
-    "forcedFrameName":"LEM_PLANETS2",
+    "forcedTexture":"tps_lossless_icons",
+    "forcedFrameName":"-07-LEM_PLANETS2",
     "UnlockConditions": [
       {
         "AchievementUnlockType": "FindWeapons",

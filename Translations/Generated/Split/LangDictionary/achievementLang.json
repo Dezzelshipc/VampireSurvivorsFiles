@@ -4447,20 +4447,20 @@
   },
   "FB_17_Find__Barrier": {
     "description": {
-      "en": "Find 7 Barriers.",
+      "en": "Find 14 Barriers.",
       "fr": "Trouvez 7 Barrières.",
-      "it": "Trova 7 Barriere.",
-      "de": "Finde 7 Barrieren.",
-      "es": "Encuentra 7 barreras.",
-      "pt-BR": "Encontre 7 Barreiras.",
-      "pl": "Znajdź 7 Barierek.",
-      "ru": "Найдите 7 барьеров.",
-      "tr": "7 Bariyer bul.",
-      "zh-CN": "找到7个壁垒。",
-      "ja": "バリアを7見つける。",
-      "ko": "장벽 7개를 찾으세요.",
-      "zh-TW": "找到 7 面屏障。",
-      "uk": "Знайдіть 7 Бар'єрів."
+      "it": "Trova 14 Barriere.",
+      "de": "Finde 14 Barrieren.",
+      "es": "Encuentra 14 barreras.",
+      "pt-BR": "Encontre 14 Barreiras.",
+      "pl": "Znajdź 14 Barierek.",
+      "ru": "Найдите 14 барьеров.",
+      "tr": "14 Bariyer bul.",
+      "zh-CN": "找到14个壁垒。",
+      "ja": "バリアを14見つける。",
+      "ko": "장벽 14개를 찾으세요.",
+      "zh-TW": "找到 14 面屏障。",
+      "uk": "Знайдіть 14 Бар'єрів."
     }
   },
   "FB_18_SurvivPrism": {
@@ -4501,20 +4501,20 @@
   },
   "FB_20_Find__Rapid": {
     "description": {
-      "en": "Find 14 RapidFires.",
-      "fr": "Trouvez 14 La Rapide.",
-      "it": "Trova 14 Rapid Fire.",
-      "de": "Finde 14 Schnellfeuer.",
-      "es": "Encuentra 14 fuegos rápidos.",
-      "pt-BR": "Encontre 14 Tiros Rápidos.",
-      "pl": "Znajdź 14 Szybkich ogni.",
-      "ru": "Найдите 14 скорострельных пушек.",
-      "tr": "14 SeriAtış bul.",
-      "zh-CN": "找到14个速射。",
-      "ja": "高速射撃を14見つける。",
-      "ko": "래피드파이어 14개를 찾으세요.",
-      "zh-TW": "找到 14 個快速射擊。",
-      "uk": "Знайдіть 14 Скорострілок."
+      "en": "Find 21 RapidFires.",
+      "fr": "Trouvez 21 La Rapide.",
+      "it": "Trova 21 Rapid Fire.",
+      "de": "Finde 21 Schnellfeuer.",
+      "es": "Encuentra 21 fuegos rápidos.",
+      "pt-BR": "Encontre 21 Tiros Rápidos.",
+      "pl": "Znajdź 21 Szybkich ogni.",
+      "ru": "Найдите 21 скорострельных пушек.",
+      "tr": "21 SeriAtış bul.",
+      "zh-CN": "找到21个速射。",
+      "ja": "高速射撃を21見つける。",
+      "ko": "래피드파이어 21개를 찾으세요.",
+      "zh-TW": "找到 21 個快速射擊。",
+      "uk": "Знайдіть 21 Скорострілок."
     }
   },
   "FB_21_SurvivHoming": {
@@ -4735,7 +4735,7 @@
   },
   "Dark_01SpaceDude": {
     "description": {
-      "en": "End a run with a Cooldown bonus of -85% with Space Dude",
+      "en": "Escape while having a Cooldown bonus of -85% with Space Dude",
       "fr": "Atteignez un bonus de recharge de -85 % avec Gaillard de l'espace.",
       "it": "Raggiungi il -85% sul Tempo di ricarica con Tizio spaziale.",
       "de": "Erreiche mit dem Weltraumkumpel einen Abklingzeitbonus von -85%.",
@@ -8437,7 +8437,7 @@
   },
   "Dark_13Chula": {
     "description": {
-      "en": "Reach +999% Luck with Chula-Reh.",
+      "en": "Escape while having +999% Luck with Chula-Reh.",
       "fr": "Atteignez +999 % de chance avec Chula-Reh.",
       "it": "Raggiungi +999% di Fortuna con Chula-Reh.",
       "de": "Erreiche +999% Glück mit Chula-Reh.",
@@ -8883,6 +8883,204 @@
       "ko": "인페르놀라트로 최고 점수인 777점을 달성하세요.",
       "zh-TW": "使用煉獄使者達到 777 分的高分。",
       "uk": "Наберіть 777 очок із Пекеллатро."
+    }
+  },
+  "FindManyVacuums": {
+    "description": {
+      "en": "Find 50 Vacuums.",
+      "fr": "Trouvez 50 Vortex.",
+      "it": "Trova 50 Risucchi.",
+      "de": "Finde 50-mal ein Vakuum.",
+      "es": "Encuentra 50 aspiragemas.",
+      "pt-BR": "Encontre 50 Aspiradores.",
+      "pl": "Znajdź 50 Próżni.",
+      "ru": "Найдите 50 вакуумов.",
+      "tr": "50 Vakum bul.",
+      "zh-CN": "找到50颗聚星宝珠。",
+      "ja": "吸引のオーブを50個見つける。",
+      "ko": "흡입기 50개를 찾으세요.",
+      "zh-TW": "找到 50 個聚星寶珠。",
+      "uk": "Знайдіть 50 Вакуумів."
+    }
+  },
+  "Survive20minutesInLycaeum": {
+    "description": {
+      "en": "Survive 20 minutes in The Lycaeum.",
+      "fr": "Survivez 20 minutes dans le Lycaeum.",
+      "it": "Sopravvivi per 20 minuti nel Lycaeum.",
+      "de": "Überlebe 20 Minuten im Lyzeum.",
+      "es": "Sobrevive 20 minutos en el Lycaeum.",
+      "pt-BR": "Sobreviva por 20 minutos no Liceu.",
+      "pl": "Przeżyj 20 minut w Lycaeum.",
+      "ru": "Продержитесь 20 минут в Лицее.",
+      "tr": "Lycaeum'da 20 dakika hayatta kal.",
+      "zh-CN": "在水下学宫存活20分钟。",
+      "ja": "リュカエウムで20分生き残る。",
+      "ko": "라이케움에서 20분 동안 생존합니다.",
+      "zh-TW": "在萊希姆學院中存活 20 分鐘。",
+      "uk": "Протримайтеся 20 хвилин в Озерцеї."
+    }
+  },
+  "EvolvePenshin": {
+    "description": {
+      "en": "Evolve the Penshin Fatcha.",
+      "fr": "Faites évoluer le Penshin Fatcha.",
+      "it": "Migliora il Penshin Fatcha.",
+      "de": "Verbessere das Penshin Fatcha.",
+      "es": "Haz evolucionar el Penshin Fatcha.",
+      "pt-BR": "Evolua a Penshin Fatcha.",
+      "pl": "Ulepsz Penshin Fatchę.",
+      "ru": "Улучшите «Пеншин-фачу».",
+      "tr": "Penshin Fatcha'yı evrilt.",
+      "zh-CN": "进化吞拿漩涡。",
+      "ja": "ペンシン・ファッチャを進化させる。",
+      "ko": "펜신 파차를 진화시키세요.",
+      "zh-TW": "解放潘神法札。",
+      "uk": "Еволюціонуйте Рибобій."
+    }
+  },
+  "EvolveAllPenshin_ParaKooleoSkin": {
+    "description": {
+      "en": "Wield every fish of the Penshin Fatcha in a single run.",
+      "fr": "Équipez-vous de tous les poissons du Penshin Fatcha en une seule partie.",
+      "it": "Maneggia tutti i pesci del Penshin Fatcha in una singola partita.",
+      "de": "Setze in einem Durchlauf alle Fische des Penshin Fatcha ein.",
+      "es": "Usa todos los peces del Penshin Fatcha en una sola partida.",
+      "pt-BR": "Use todos os peixes da Penshin Fatcha em uma única partida.",
+      "pl": "Dzierż każdą rybę z Penshin Fatchy w jednej rozgrywce.",
+      "ru": "Используйте каждый вид рыб в «Пеншин-фаче» за один забег.",
+      "tr": "Tek seferde tüm Penshin Fatcha balıklarını kullan.",
+      "zh-CN": "在一轮游戏中，挥舞吞拿漩涡的各个鱼形态。",
+      "ja": "１回のラン中に、ペンシン・ファッチャに属するすべての魚を使う。",
+      "ko": "한 번의 플레이에서 펜신 파차의 물고기 무기를 모두 휘두르세요",
+      "zh-TW": "在單次闖關中，變身並駕馭潘神法札的每一種鮪魚型態。",
+      "uk": "Отримайте всі рибини з Рибобою за один забіг."
+    }
+  },
+  "BuyGreenEyesVizard": {
+    "description": {
+      "en": "Find and buy the Green Eyes Vizard in The Lycaeum.",
+      "fr": "Trouvez et achetez le Vizard aux yeux verts dans le Lycaeum.",
+      "it": "Trova e acquista il Vizard dagli occhi verdi nel Lycaeum.",
+      "de": "Finde und kaufe die Grünaugenmaske im Lyzeum.",
+      "es": "Encuentra y compra la máscara de ojos verdes en el Lycaeum.",
+      "pt-BR": "Encontre e compre o Vizard de Olhos Verdes no Liceu.",
+      "pl": "Znajdź i kup Zielonooki vizard w Lycaeum.",
+      "ru": "Найдите и купите «Маску зелёных глаз» в Лицее.",
+      "tr": "Lycaeum'da Yeşil Gözlü Vizard'ı bul ve satın al.",
+      "zh-CN": "在水下学宫中找到并购买绿眼护面。",
+      "ja": "リュカエウムで緑眼のお面を見つけて購入する。",
+      "ko": "라이케움에서 녹색 눈의 가면을 찾아 구매하세요.",
+      "zh-TW": "在萊希姆學院找到並購買綠眼護面。",
+      "uk": "Знайдіть і купіть Зеленоокий візард в Озерцеї."
+    }
+  },
+  "BuySurvarocchi": {
+    "description": {
+      "en": "Find and buy the Survarocchi in The Lycaeum.",
+      "fr": "Trouvez et achetez le Survarocchi dans le Lycaeum.",
+      "it": "Trova e acquista il Survarokki nel Lycaeum.",
+      "de": "Finde und kaufe das Survarocchi im Lyzeum.",
+      "es": "Encuentra y compra el supervitarot en el Lycaeum.",
+      "pt-BR": "Encontre e compre o Surtarocchi no Liceu.",
+      "pl": "Znajdź i kup Survarocchi w Lycaeum.",
+      "ru": "Найдите и купите «Сурвароччи» в Лицее.",
+      "tr": "Lycaeum'da Survarocchi'yi bul ve satın al.",
+      "zh-CN": "在水下学宫中找到并购买幸存塔罗牌组。",
+      "ja": "リュカエウムでサバイバーカードを見つけて購入する。",
+      "ko": "라이케움에서 서바로키를 찾아 구매하세요.",
+      "zh-TW": "在萊希姆學院中，找到並購買倖存牌組。",
+      "uk": "Знайдіть і купіть Тароччі в Озерцеї."
+    }
+  },
+  "DefeatBatDragons": {
+    "description": {
+      "en": "Defeat 1 Bat Dragon.",
+      "fr": "Éliminez 1 Dragon-souris.",
+      "it": "Sconfiggi un Drago pipistrello.",
+      "de": "Besiege 1 Drachula.",
+      "es": "Derrota a un dragón murciélago.",
+      "pt-BR": "Derrote 1 Morcego Dragão.",
+      "pl": "Pokonaj 1 Nietoperzosmoka.",
+      "ru": "Победите 1 дракона-нетопыря.",
+      "tr": "1 Yarasa Ejderhası öldür.",
+      "zh-CN": "击败1个蝙蝠龙。",
+      "ja": "バットドラゴンを１体倒す。",
+      "ko": "박쥐 드래곤 1마리를 처치하세요.",
+      "zh-TW": "擊敗 1 隻蝙蝠魔龍。",
+      "uk": "Здолайте 1 кажанодракона."
+    }
+  },
+  "EvolveUnearthlyBolt": {
+    "description": {
+      "en": "Evolve the Unearthly Bolt",
+      "fr": "Faites évoluer l'Éclair surnaturel.",
+      "it": "Migliora la Saetta spettrale.",
+      "de": "Verbessere den Geisterblitz.",
+      "es": "Haz evolucionar el rayo sobrenatural.",
+      "pt-BR": "Evolua o Raio Etéreo.",
+      "pl": "Ulepsz Nieziemski bełt",
+      "ru": "Улучшите «Неземной разряд».",
+      "tr": "İlahi Ok'u evrilt.",
+      "zh-CN": "进化异界霹雳。",
+      "ja": "超自然の雷撃を進化させる",
+      "ko": "저세상 번개를 진화시키세요.",
+      "zh-TW": "解放異界之矢",
+      "uk": "Еволюціонуйте Неземну блискавку."
+    }
+  },
+  "Dark_00Troubler": {
+    "description": {
+      "en": "Defeat a Bat Dragon with Big Troubler while using the Game Killer Arcana.",
+      "fr": "Éliminez 1 Dragon-souris avec Big Troubler en utilisant l'arcane Antijeu.",
+      "it": "Sconfiggi un Drago pipistrello con Big Troubler usando l'Arcano Ammazzapartite.",
+      "de": "Besiege 1 Drachula mit Big Troubler und dem Spielverderber-Arcana.",
+      "es": "Derrota un dragón murciélago con Big Troubler usando Liquidapartidas.",
+      "pt-BR": "Derrote um Morcego Dragão com Big Troubler e a Arcana Mata-jogo.",
+      "pl": "Pokonaj Nietoperzosmoka jako Big Troubler, używając arkanów Zabójca gry.",
+      "ru": "Победите дракона-нетопыря Биг Траблером с арканой «Убийца игры».",
+      "tr": "Oyun Bitiren Arcana kullanırken Big Troubler ile bir Yarasa Ejderhası öldür.",
+      "zh-CN": "使用Big Troubler配合游戏杀手秘能击败一个蝙蝠龙。",
+      "ja": "ゲームキラーのアルカナ使用中に、ビッグトラブラーでバットドラゴンを倒す。",
+      "ko": "게임 킬러 아르카나를 사용하는 동안 빅 트러블러로 박쥐 드래곤을 처치하세요.",
+      "zh-TW": "在使用秘能「遊戲殺手」的時候，以「大尾妖魔」擊敗一隻蝙蝠魔龍。",
+      "uk": "Здолайте кажанодракона Великим Винуватцем з арканою «Вбивця Гри»."
+    }
+  },
+  "Dark_08ParaKooleo": {
+    "description": {
+      "en": "Trigger a Lavatrix Machina with Para Kooleo.",
+      "fr": "Déclenchez une Machina Lavatrix avec Para Kooleo.",
+      "it": "Attiva una Lavatrix Machina con Para Kooleo.",
+      "de": "Löse mit Para Kooleo eine Lavatrix-Maschine aus.",
+      "es": "Activa una lavatrix machina con Para Kooleo.",
+      "pt-BR": "Ative uma Lavatrix Machina com o Para Kooleo.",
+      "pl": "Użyj Lavatrix Machina jako Para Kooleo.",
+      "ru": "Активируйте «Машину-лаватрикс», играя за Пара Кулео.",
+      "tr": "Para Kooleo ile bir Lavatrix Makinası tetikle.",
+      "zh-CN": "使用帕拉·库里欧触发一次吸星宝珠。",
+      "ja": "パラ・クーリオで引き寄せのスピンオーブを発動する。",
+      "ko": "파라 쿨레오로 라바트릭스 마키나를 발동시키세요.",
+      "zh-TW": "使用帕拉．庫里歐觸發衣物洗滌魔珠。",
+      "uk": "Запустіть пралку Пара Кулою."
+    }
+  },
+  "Dark_19Challenge": {
+    "description": {
+      "en": "Survive 15 min in Inverse Boss Rash with Random Events and Random Level Ups.",
+      "fr": "Survivez 15 min dans Déferlante de boss inversé avec des événements et des améliorations aléatoires.",
+      "it": "Sopravvivi per 15 min. in Sfogo del boss invertito con eventi e aumenti di livello casuali.",
+      "de": "Überlebe 15 Min. im Umgek. Boss-Ausschlag mit Zufallsevents und -Level-ups.",
+      "es": "Sobrevive 15 min en el reflejo de la Plaga de jefes con subidas de nv. y sucesos al azar.",
+      "pt-BR": "Sobreviva 15 min. em uma Erupção de Chefes Invertida com eventos aleatórios e de subir de nível.",
+      "pl": "Przeżyj 15 min w odwróconym Wysypie bossów z losowymi wydarzeniami i nagrodami za zdobycie poziomu.",
+      "ru": "Продержитесь 15 мин. в Набеге боссов (инверт.) со случайными событиями и повышениями уровня.",
+      "tr": "Ters Patrona Hücum'da Rastgele Olaylar ve Rastgele Seviye Atlama ile 15 dakika hayatta kal.",
+      "zh-CN": "在启用了随机事件和随机升级的翻转魔王竞技场中存活15分钟。",
+      "ja": "ランダムなイベントおよびランダムなレベルアップを使い、反転したボスラッシュで15分生き残る。",
+      "ko": "랜덤 이벤트와 랜덤 레벨업이 발생하는 인버스 보스 래쉬에서 15분 동안 살아남으세요.",
+      "zh-TW": "在顛倒模式的魔王競技場中，啟用「隨機事件」和「隨機升級」的機制並存活 15 分鐘。",
+      "uk": "Вижив. 15 хв. в інверт. Навалі босів із випадк. подіями й підвищ. рівн."
     }
   }
 }

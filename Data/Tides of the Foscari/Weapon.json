@@ -5,12 +5,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STRING",
-      "price": 300,
+      "price": 90,
       "name": "SpellString",
       "description": "Strikes at nearby enemies. Damage multiplied by Speed.",
       "tips": "Ignores: Area, Duration.",
-      "texture": "items",
-      "frameName": "2SpellString.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2SpellString.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
         "SPELL_STREAM",
@@ -59,12 +59,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STREAM",
-      "price": 300,
+      "price": 90,
       "name": "SpellStream",
       "description": "Generates an expanding damaging zone. Damage multiplied by Area.",
       "tips": "Ignores: Amount.",
-      "texture": "items",
-      "frameName": "2SpellStream.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2SpellStream.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
         "SPELL_STRING",
@@ -113,12 +113,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SPELL_STRIKE",
-      "price": 300,
+      "price": 90,
       "name": "SpellStrike",
       "description": "Strikes at the nearest enemy. Damage further multiplied by Might.",
       "tips": "Ignores: Area, Duration.",
-      "texture": "items",
-      "frameName": "2SpellStrike.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2SpellStrike.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
         "SPELL_STREAM",
@@ -166,8 +166,8 @@
       "name": "SpellStrom",
       "description": "Union of SpellString, SpellStream, and SpellStrike. Grows stronger after every singularity.",
       "tips": "-",
-      "texture": "items",
-      "frameName": "2SpellStrom.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2SpellStrom.png",
       "collectionFrame": "frameB_green.png",
       "evolvesFrom": [
         "SPELL_STRING",
@@ -193,7 +193,8 @@
       "hitBoxDelay": 400,
       "hitsWalls": false,
       "critChance": 0.2,
-      "critMul": 2
+      "critMul": 2,
+      "price": 16000
     }
   ],
   "SWORD": [
@@ -202,12 +203,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SWORD",
-      "price": 800,
+      "price": 180,
       "name": "Eskizzibur",
       "description": "Attacks nearby enemies. Retaliates.",
       "tips": "Ignores: Speed, Duration.",
-      "texture": "items",
-      "frameName": "2Sword.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Sword.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
         "ARMOR"
@@ -263,8 +264,8 @@
       "name": "Legionnaire",
       "description": "Evolved Eskizzibur. Generates additional projectiles that deal retaliatory damage.",
       "tips": "Requires Max: Armor",
-      "texture": "items",
-      "frameName": "2Legionnaire.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Legionnaire.png",
       "collectionFrame": "frameB_green.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -289,7 +290,8 @@
       "amount": 2,
       "critChance": 0.1,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 6500
     }
   ],
   "FLASHARROW": [
@@ -298,12 +300,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "FLASHARROW",
-      "price": 400,
+      "price": 180,
       "name": "Flash Arrow",
       "description": "Can deal critical damage. Amount affects damage instead.",
       "tips": "Ignores: Duration.",
-      "texture": "items",
-      "frameName": "2FlashArrow.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2FlashArrow.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
         "SPEED"
@@ -364,8 +366,8 @@
       "name": "Millionaire",
       "description": "Evolved Flash Arrow. Fires additional projectiles based on Amount and when picking up gold coins.",
       "tips": "Requires Max: Bracer.",
-      "texture": "items",
-      "frameName": "2Millionaire.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Millionaire.png",
       "collectionFrame": "frameB_green.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -389,7 +391,8 @@
       "amount": 1,
       "critChance": 0.2,
       "critMul": 2,
-      "hitsWalls": true
+      "hitsWalls": true,
+      "price": 6500
     }
   ],
   "PRISMATICMISS": [
@@ -398,12 +401,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "PRISMATICMISS",
-      "price": 800,
+      "price": 180,
       "name": "Prismatic Missile",
       "description": "Generates explosions around the character. Affected by the first chosen Arcana between II, XIV, or XIX.",
       "tips": "Ignores: duration.",
-      "texture": "items",
-      "frameName": "2PrismaticMissile.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2PrismaticMissile.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
         "GROWTH"
@@ -461,8 +464,8 @@
       "name": "Luminaire",
       "description": "Evolved Prismatic Missile. Increases the value of gems and coins on the ground.",
       "tips": "Requires Max: Crown.",
-      "texture": "items",
-      "frameName": "2Luminaire.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Luminaire.png",
       "collectionFrame": "frameB_green.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -486,7 +489,8 @@
       "amount": 7,
       "duration": 500,
       "knockback": 1,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 6500
     }
   ],
   "SHADOWSERVANT": [
@@ -495,12 +499,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "SHADOWSERVANT",
-      "price": 800,
+      "price": 200,
       "name": "Shadow Servant",
       "description": "Has a chance to slow enemies down.",
       "tips": "Best with: Luck.",
-      "texture": "items",
-      "frameName": "2ShadowServant.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2ShadowServant.png",
       "collectionFrame": "frameB_green.png",
       "evoSynergy": [
         "CURSE"
@@ -551,8 +555,8 @@
       "name": "Ophion",
       "description": "Evolved Shadow Servant. Has a chance to instantly kill enemies.",
       "tips": "Requires Max: Skull'O Maniac.",
-      "texture": "items",
-      "frameName": "2Ophion.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Ophion.png",
       "collectionFrame": "frameB_green.png",
       "isEvolution": true,
       "evolvesFrom": [
@@ -568,6 +572,7 @@
       "isUnlocked": true,
       "poolLimit": 150,
       "rarity": 1,
+      "price": 7200,
       "interval": 2000,
       "repeatInterval": 200,
       "power": 5,
@@ -587,12 +592,12 @@
       "contentGroup": "FOSCARI",
       "sealable": true,
       "bulletType": "PARTY",
-      "price": 1,
+      "price": 79,
       "name": "Party Popper",
       "description": "Throws bouncing projectiles.",
       "tips": "Best with: Duration, Speed.",
-      "texture": "items",
-      "frameName": "2Party.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Party.png",
       "collectionFrame": "frameB_green.png",
       "isUnlocked": false,
       "hitBoxDelay": 500,
@@ -638,12 +643,13 @@
       "bulletType": "ACADEMYBADGE",
       "name": "Academy Badge",
       "description": "Will provide bonus Amount and Revivals in exchange for Growth.",
-      "texture": "items",
-      "frameName": "2Badge.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Badge.png",
       "collectionFrame": "frameB_green.png",
       "unexcludeSelf": true,
       "isUnlocked": false,
       "rarity": 10,
+      "price": 200,
       "isPowerUp": true,
       "isSpecialOnly": true
     },
@@ -676,8 +682,8 @@
       "name": "Silver Sliver",
       "description": "Counterpart to Shadow Servant and Ophion from Arcana I - Gemini.",
       "tips": "-",
-      "texture": "items",
-      "frameName": "2ShadowServant_Counter.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2ShadowServant_Counter.png",
       "collectionFrame": "frameB_green.png",
       "isUnlocked": false,
       "isSpecialOnly": true,
@@ -723,8 +729,8 @@
       "name": "Party Pooper",
       "description": "Counterpart to Party Popper from Arcana I - Gemini.",
       "tips": "-",
-      "texture": "items",
-      "frameName": "2Party2.png",
+      "texture": "tps_lossless_icons",
+      "frameName": "-02-2Party2.png",
       "collectionFrame": "frameB_green.png",
       "isUnlocked": false,
       "hitBoxDelay": 500,

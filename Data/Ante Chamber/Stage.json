@@ -86,8 +86,8 @@
       "minimum": 25,
       "frequency": 1000,
       "enemies": [
-        "BAT3",
-        "EX_VSBAT1"
+        "LEM_BAT3",
+        "LEM_VSBAT1"
       ],
       "events": [
         {
@@ -107,7 +107,7 @@
       "frequency": 1000,
       "enemies": [
         "LEM_ZOMBALATRO",
-        "EX_VSBAT1"
+        "LEM_VSBAT1"
       ],
       "bosses": [
         "LEM_JIMBAT4"
@@ -164,7 +164,7 @@
       "minimum": 80,
       "frequency": 500,
       "enemies": [
-        "EX_VSBAT1",
+        "LEM_VSBAT1",
         "LEM_JIMBAT2",
         "LEM_JIMBAT3"
       ],
@@ -221,7 +221,7 @@
       "enemies": [
         "LEM_MRBONES",
         "LEM_SPECTRAL",
-        "EX_VSBAT1"
+        "LEM_VSBAT1"
       ],
       "events": [
         {
@@ -257,7 +257,7 @@
       "minimum": 65,
       "frequency": 800,
       "enemies": [
-        "EX_CASINOGHOUL",
+        "LEM_CASINOGHOUL",
         "LEM_JIMBAT2"
       ],
       "bosses": [
@@ -302,7 +302,7 @@
       "frequency": 500,
       "enemies": [
         "LEM_ZOMBALATRO",
-        "EX_GAMBLIN2"
+        "LEM_GAMBLIN2"
       ],
       "events": [
         {
@@ -340,7 +340,7 @@
       "enemies": [
         "LEM_JIMBAT2",
         "LEM_JIMBAT3",
-        "EX_GAMBLIN2"
+        "LEM_GAMBLIN2"
       ],
       "events": [
         {
@@ -468,8 +468,8 @@
       "minimum": 50,
       "frequency": 500,
       "enemies": [
-        "EX_CASINOGHOUL",
-        "EX_GAMBLIN2"
+        "LEM_CASINOGHOUL",
+        "LEM_GAMBLIN2"
       ],
       "bosses": [
         "LEM_MANTIS"
@@ -524,7 +524,7 @@
       "enemies": [
         "LEM_MRBONES",
         "LEM_ZOMBALATRO",
-        "EX_CARDSHARP"
+        "LEM_CARDSHARP"
       ],
       "events": [
         {
@@ -652,7 +652,7 @@
       "frequency": 400,
       "enemies": [
         "LEM_WEREWOLF",
-        "EX_CARDSHARP"
+        "LEM_CARDSHARP"
       ],
       "bosses": [
         "LEM_BOSS_MANACLE"
@@ -689,7 +689,7 @@
       "minimum": 25,
       "frequency": 500,
       "enemies": [
-        "EX_SPADEKNIGHT1"
+        "LEM_SPADEKNIGHT1"
       ]
     },
     {
@@ -698,7 +698,7 @@
       "frequency": 800,
       "enemies": [
         "LEM_MANTIS",
-        "EX_CARDSHARP"
+        "LEM_CARDSHARP"
       ],
       "bosses": [
         "LEM_BOSS_SMALLBLIND"
@@ -724,7 +724,7 @@
       "minimum": 70,
       "frequency": 400,
       "enemies": [
-        "EX_SPADEKNIGHT2",
+        "LEM_SPADEKNIGHT2",
         "LEM_WEREWOLF"
       ],
       "bosses": [
@@ -760,8 +760,8 @@
       "minimum": 45,
       "frequency": 500,
       "enemies": [
-        "EX_SPADEKNIGHT1",
-        "EX_GAMBLIN2",
+        "LEM_SPADEKNIGHT1",
+        "LEM_GAMBLIN2",
         "LEM_XLJIMBAT"
       ],
       "bosses": [
@@ -847,7 +847,7 @@
       "frequency": 500,
       "enemies": [
         "LEM_VENUS",
-        "EX_SPADEKNIGHT2"
+        "LEM_SPADEKNIGHT2"
       ],
       "bosses": [
         "LEM_BOSS_SMALLBLIND"
@@ -874,7 +874,7 @@
       "frequency": 800,
       "enemies": [
         "LEM_VENUS",
-        "EX_SPADEKNIGHT1"
+        "LEM_SPADEKNIGHT1"
       ],
       "bosses": [
         "LEM_BOSS_BIGBLIND"
@@ -901,7 +901,7 @@
       "frequency": 100,
       "enemies": [
         "LEM_VENUS",
-        "EX_SPADEKNIGHT2"
+        "LEM_SPADEKNIGHT2"
       ]
     },
     {
@@ -909,8 +909,8 @@
       "minimum": 30,
       "frequency": 600,
       "enemies": [
-        "EX_SPADEKNIGHT2",
-        "EX_SPADEKNIGHT1",
+        "LEM_SPADEKNIGHT2",
+        "LEM_SPADEKNIGHT1",
         "LEM_XLJIMBAT"
       ],
       "bosses": [
@@ -962,8 +962,8 @@
       ],
       "enemies": [
         "LEM_SPECTRAL",
-        "EX_BOSS_SPADEKNIGHT",
-        "EX_SPADEKNIGHT1"
+        "LEM_BOSS_SPADEKNIGHT",
+        "LEM_SPADEKNIGHT1"
       ],
       "events": [
         {
@@ -1011,8 +1011,8 @@
       ],
       "enemies": [
         "LEM_JIMBAT4",
-        "EX_BOSS_SPADEKNIGHT2",
-        "EX_BOSS_SPADEKNIGHT"
+        "LEM_BOSS_SPADEKNIGHT2",
+        "LEM_BOSS_SPADEKNIGHT"
       ],
       "events": [
         {

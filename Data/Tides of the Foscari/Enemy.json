@@ -914,7 +914,7 @@
       "xp": 3,
       "idleFrameCount": 4,
       "end": 20,
-      "textureName": "enemies",
+      "textureName": "foscariEnemies",
       "frameNames": [
         "hag_0.png"
       ],
@@ -976,7 +976,7 @@
       ],
       "xp": 3,
       "end": 29,
-      "textureName": "enemies",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "XLMantis_0.png"
@@ -998,7 +998,7 @@
       ],
       "xp": 10,
       "end": 29,
-      "textureName": "enemies",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "XLFlower1_0.png"
@@ -1019,7 +1019,7 @@
       "deathKB": 1,
       "xp": 3,
       "end": 29,
-      "textureName": "enemies",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "XLCockatrice1_0.png"
@@ -1041,7 +1041,7 @@
       "xp": 3,
       "scale": 1.5,
       "end": 29,
-      "textureName": "enemies",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "XLCockatrice1_0.png"
@@ -1064,7 +1064,7 @@
       "scale": 1.5,
       "tint": 16729343,
       "end": 29,
-      "textureName": "enemies",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "XLCockatrice1_0.png"
@@ -1091,7 +1091,7 @@
       "idleFrameCount": 4,
       "end": 15,
       "killedAmount": 0,
-      "textureName": "foscariEnemies",
+      "textureName": "enemies_Universal",
       "frameNames": [
         "gGhost_0.png"
       ],
@@ -1207,7 +1207,7 @@
         "Redusa_0.png"
       ],
       "end": 13,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Redusa Head",
@@ -1239,7 +1239,7 @@
         "JellyRed_0.png"
       ],
       "end": 16,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Rellyfish",
@@ -1270,7 +1270,7 @@
         "JellyRed_0.png"
       ],
       "end": 16,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "killedAmount": 0
     }
@@ -1288,7 +1288,7 @@
       "xp": 1,
       "idleFrameCount": 4,
       "killedAmount": 0,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "end": 24,
       "frameNames": [
         "Hemo1_0.png"
@@ -1318,7 +1318,7 @@
       "xp": 2,
       "idleFrameCount": 4,
       "killedAmount": 0,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "end": 24,
       "frameNames": [
         "Hemo2_0.png"
@@ -1346,7 +1346,7 @@
       "xp": 30,
       "end": 13,
       "idleFrameCount": 4,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "frameNames": [
         "Sleeper_0.png"
       ]
@@ -1373,7 +1373,7 @@
       "patrolDuration": 5000,
       "end": 13,
       "idleFrameCount": 4,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "frameNames": [
         "Sleeper_0.png"
       ]
@@ -1399,7 +1399,7 @@
         "Redusa_0.png"
       ],
       "end": 13,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4
     }
   ],
@@ -2523,7 +2523,7 @@
         "HP_x_Level"
       ],
       "killedAmount": 0,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "end": 13,
       "frameNames": [
         "crate_0.png"
@@ -2542,7 +2542,7 @@
       "deathKB": 0,
       "xp": 5,
       "killedAmount": 0,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "end": 13,
       "frameNames": [
         "pot_0.png"
@@ -2563,7 +2563,7 @@
       "alpha": 0.9,
       "tint": 8947882,
       "killedAmount": 0,
-      "textureName": "enemiesM",
+      "textureName": "foscariEnemies",
       "end": 29,
       "frameNames": [
         "H1_0.png",
@@ -2583,7 +2583,7 @@
       "xp": 1,
       "killedAmount": 0,
       "end": 29,
-      "textureName": "enemies",
+      "textureName": "foscariEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "Flower1_0.png",

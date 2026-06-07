@@ -13041,6 +13041,22 @@
       null,
       null,
       null
+    ],
+    "custom_suffix": [
+      "the Kugutsu",
+      "Le Kugutsu",
+      "il Kugutsu",
+      "der Kugutsu",
+      "el kugutsu",
+      "o Kugutsu",
+      "Kugutsu",
+      "Кугуцу",
+      "Kugutsu",
+      "傀儡",
+      "クグツ",
+      "쿠구츠",
+      "傀儡",
+      "Куґуцу"
     ]
   },
   "EME_PUPKNIFE_FOLLOWER": {
@@ -14017,7 +14033,7 @@
       null
     ],
     "description": [
-      "Can always find Survarots. Starts with a Survarots draft. Reduces boss health and blocks some special attacks.",
+      "Can always find Survarots. Starts with a Survarot draft. Reduces boss health and blocks some special attacks.",
       "Peut toujours trouver des Survarots. Commence avec un lot de Survarots. Réduit la santé des boss et bloque certaines attaques spéciales.",
       "Può trovare sempre i Survarocchi. Comincia con una pesca di Survarocchi. Riduce la salute dei boss e blocca alcuni attacchi speciali.",
       "Kann immer Survarots finden. Erhält zu Beginn sofort einen Survarot-Draft. Bosse haben weniger LP. Blockt einige Spezialangriffe.",
@@ -15417,6 +15433,138 @@
       "트라이던트에 능숙합니다. 항상 가이본이 따라다니죠. 파트너가 죽으면 화를 냅니다.",
       "精通三叉戟。蓋本幾乎可以說是斯洛格拉的影子。如果其中一名夥伴死亡的話，會進入狂暴狀態。",
       "Майстерно володіє Тризубом. Завжди в парі з Ґайбоном. Впадає в лють після смерті напарника."
+    ]
+  },
+  "EX_BIGTROUBLER": {
+    "prefix": [
+      "Big",
+      "Big",
+      "Big",
+      "Big",
+      "Big",
+      "Big",
+      "Big",
+      "Биг",
+      "Big",
+      "Big",
+      "ビッグ",
+      "빅",
+      "大尾",
+      "Великий"
+    ],
+    "charName": [
+      "Troubler",
+      "Troubler",
+      "Troubler",
+      "Troubler",
+      "Troubler",
+      "Troubler",
+      "Troubler",
+      "Траблер",
+      "Troubler",
+      "Troubler",
+      "トラブラー",
+      "트러블러",
+      "妖魔",
+      "Винуватець"
+    ],
+    "surname": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "description": [
+      "Activates his main weapon when picking up Gold Coins. Uses Gold Coins as a damage barrier. Has a 4X chance of drafting FOIL Survarots.",
+      "Active son arme principale lorsqu'il ramasse des pièces d'or. Utilise des pièces d'or pour bloquer les dégâts. Possède quatre fois plus de chances d'obtenir des Survarots FOIL.",
+      "Attiva la sua arma principale quando raccoglie Monete d'oro. Usa le Monete d'oro come barriera difensiva. Probabilità quadruplicata di pescare Survarocchi FOIL.",
+      "Aktiviert seine Hauptwaffe beim Aufsammeln von Goldmünzen. Verwendet Goldmünzen als Schild gegen Schaden. 4-fache Chance auf FOIL-Karten im Survarots-Draft.",
+      "Activa su arma principal al recoger monedas de oro. Usa las monedas como barrera de daño. Tiene el cuádruple de probabilidad de robar supervicanos FOIL.",
+      "Ativa a arma principal dele ao coletar Moedas de Ouro. Usa Moedas de Ouro como barreira de dano. Tem chance x4 de tirar um Surtarô FOIL.",
+      "Jego główna broń aktywuje się podczas podnoszenia złotych monet. Wykorzystuje złote monety jako osłonę przed obrażeniami. Ma 4x szans na dobranie kart Survarota FOIL.",
+      "Активирует своё основное оружие, подбирая золотые монеты. Использует золотые монеты в качестве барьера от урона. Есть шанс х4 добавить в набор сурвароты FOIL.",
+      "Altın Akçe toplarken ana silahını etkinleştirir. Altın Akçeleri hasar önleyici olarak kullanır. FOIL Survarotlarını alma şansı 4X'tir.",
+      "拾取金币时激活其主武器，可使用金币屏蔽伤害，有4倍几率抽取到FOIL幸存塔罗牌。",
+      "金貨を拾うとメインの武器を発動する。ダメージバリアとして金貨を消耗。FOILサバイバーカードを引く確率が4倍になる。",
+      "금화를 획득하면 주무기를 활성화됩니다. 금화를 피해 방어막으로 사용합니다. 포일 서바로트를 뽑을 확률이 4배입니다.",
+      "在撿起金幣的同時，大尾妖魔會發動一次他的主要武器來進行攻擊。以金幣來作為傷害屏障。有四倍的機率能夠抽到「閃卡」版本的倖存牌。",
+      "Активує свою головну зброю, збираючи золоті монети. Застосовує злоті монети як захист від шкоди. Має шанс зібрати в 4 рази більше карт Таро вцілілих."
+    ]
+  },
+  "EX_PARACOOLIO": {
+    "prefix": [
+      "Para",
+      "Para",
+      "Para",
+      "Para",
+      "Para",
+      "Para",
+      "Para",
+      "Пара",
+      "Para",
+      "帕拉",
+      "パラ・",
+      "파라",
+      "帕拉",
+      "Пара"
+    ],
+    "charName": [
+      "Kooleo",
+      "Kooleo",
+      "Kooleo",
+      "Kooleo",
+      "Kooleo",
+      "Kooleo",
+      "Kooleo",
+      "Кулео",
+      "Kooleo",
+      "库里欧",
+      "クーリオ",
+      "클레오",
+      "庫里歐",
+      "Кула"
+    ],
+    "surname": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "description": [
+      "Triggers a flood when a weapon evolves. Vacuums all XP Crystals when health reaches a critically low level.",
+      "Déclenche une inondation lorsqu'une arme évolue. Aspire tous les cristaux d'EXP lorsque sa santé atteint un seuil critique.",
+      "Scatena un'alluvione quando migliora un'arma. Risucchia tutti i cristalli di PE quando la salute raggiunge un livello critico.",
+      "Erzeugt beim Verbessern einer Waffe eine Flutwelle. Saugt bei kritisch niedrigen LP alle EP-Edelsteine an.",
+      "Activa una inundación cuando evoluciona un arma. Absorbe todas las gemas de EXP cuando la salud llega a un punto crítico.",
+      "Causa uma enchente ao evoluir uma arma. Aspira todas as joias de EXP ao atingir um nível crítico de Vida.",
+      "Wytwarza powódź po ulepszeniu broni. Przyciąga wszystkie kryształy PD, gdy zdrowie osiągnie krytycznie niski poziom.",
+      "Активирует наводнение при улучшении оружия. Засасывает все кристаллы опыта, когда здоровье опускается до критически низкого уровня.",
+      "Silah evrildiğinde bir sel tetikler. Sağlık kritik derecede düşük bir seviyeye ulaştığında tüm XP mücevherlerini çeker.",
+      "武器升级时触发洪水，濒死时吸取所有经验水晶。",
+      "武器進化時に洪水を引き起こす。また、HPが著しく低下した際には周囲全てのXPクリスタルを引き寄せる。",
+      "무기가 진화하면 홍수가 발생합니다. 체력이 매우 낮은 수준에 도달하면 XP 크리스털을 모두 흡입합니다.",
+      "在解放武器的當下，帕拉能夠發動一波洪水攻擊。在生命值變得相當低的時候，會吸取地圖上所有的經驗值水晶。",
+      "При еволюції зброї запускає потоп. Притягує всі самоцвіти досвіду, коли здоров'я падає до критичного рівня."
     ]
   }
 }

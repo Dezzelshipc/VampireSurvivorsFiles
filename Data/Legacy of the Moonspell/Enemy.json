@@ -224,7 +224,7 @@
       "killedAmount": 0,
       "xp": 2.5,
       "end": 30,
-      "textureName": "enemiesM",
+      "textureName": "moonspellEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "kamaitachi_0.png"
@@ -251,7 +251,7 @@
       "killedAmount": 0,
       "xp": 2.5,
       "end": 30,
-      "textureName": "enemiesM",
+      "textureName": "moonspellEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "raiju_0.png"
@@ -507,7 +507,7 @@
       "scale": 1.5,
       "xp": 30,
       "end": 30,
-      "textureName": "enemiesM",
+      "textureName": "moonspellEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "kamaitachi_0.png"
@@ -530,7 +530,7 @@
       "scale": 1.5,
       "xp": 30,
       "end": 30,
-      "textureName": "enemiesM",
+      "textureName": "moonspellEnemies",
       "idleFrameCount": 4,
       "frameNames": [
         "raiju_0.png"
@@ -602,7 +602,7 @@
       "xp": 2.5,
       "idleFrameCount": 4,
       "end": 29,
-      "textureName": "enemiesM",
+      "textureName": "moonspellEnemies",
       "frameNames": [
         "loni_0.png"
       ],
@@ -715,7 +715,7 @@
       "res_Rosary": 1,
       "idleFrameCount": 4,
       "end": 29,
-      "textureName": "enemiesM",
+      "textureName": "moonspellEnemies",
       "frameNames": [
         "loni_0.png"
       ]
@@ -1059,6 +1059,92 @@
       "frameNames": [
         "Tanuki_0.png"
       ]
+    }
+  ],
+  "MS_ZOMBIE": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 100,
+      "power": 10,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 4,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 20,
+      "idleFrameCount": 4,
+      "textureName": "enemies_Universal",
+      "frameNames": [
+        "Ghoul1_0.png",
+        "Ghoul2_0.png",
+        "Ghoul3_0.png"
+      ],
+      "bName": "Zombie",
+      "bDesc": "“Why simply work the smallfolk to death? Work them beyond it!” This, the Cardinal’s necromancers laughed as they turned to the grave for a cheap alternative to labor that needed rest and food. Sadly for them, while their new workforce slept not, feeding was a whole other matter.",
+      "bInclude": false,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "MS_BAT1": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies_Universal",
+      "end": 29,
+      "frameNames": [
+        "Bat1_0.png"
+      ],
+      "bInclude": false
+    }
+  ],
+  "MS_BAT2": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies_Universal",
+      "end": 29,
+      "frameNames": [
+        "Bat2_0.png"
+      ],
+      "bInclude": false
+    }
+  ],
+  "MS_BAT3": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 1,
+      "end": 16,
+      "idleFrameCount": 4,
+      "textureName": "enemies_Universal",
+      "frameNames": [
+        "Bat3_0.png"
+      ],
+      "bInclude": false
     }
   ]
 }

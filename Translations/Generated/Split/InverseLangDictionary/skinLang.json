@@ -113,12 +113,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Dark Lord",
       "suffix": null,
-      "description": "Also gains +1 Revival every 100 levels. Enemies drop Blue, Red, or Yellow Souls that increase Might, Greed, or Growth respectively when set amounts are collected."
+      "description": "Also gains +1 Revival every 100 levels. Enemies drop Blue, Red, or Yellow Souls that increase Growth, Might, or Greed respectively when set amounts are collected."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Adept with Fire Wand. Always followed by Slogra. Gets enraged if its partner dies. Flies."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
     }
   },
   "fr": {
@@ -235,12 +256,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Seigneur des Ténèbres",
       "suffix": null,
-      "description": "Gagne également +1 résurrection tous les 100 niveaux. Les ennemis donnent des âmes bleues, rouges ou jaunes qui augmentent respectivement la puissance, les PV Max ou l'expertise lorsqu'un certain nombre est collecté."
+      "description": "Gagne également +1 résurrection tous les 100 niveaux. Les ennemis donnent des âmes bleues, rouges ou jaunes qui augmentent respectivement l’expertise, la puissance ou l’avidité lorsque vous en récupérez un certain nombre."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Maîtrise la Baguette de feu. Toujours suivi par Slogra. Devient furieux si son partenaire meurt. Vole."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
     }
   },
   "it": {
@@ -357,12 +399,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Signore oscuro",
       "suffix": null,
-      "description": "Ottiene anche +1% di Resurrezione ogni 100 livelli. I nemici rilasciano anime blu, gialle o rosse che aumentano rispettivamente Potenza, PS massimi e Crescita quando ne vengono raccolte a sufficienza."
+      "description": "Ottiene anche +1 di Resurrezione ogni 100 livelli. I nemici rilasciano anime blu, rosse o gialle che aumentano rispettivamente Crescita, Potenza o Avidità quando ne vengono raccolte a sufficienza."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Abile con la Bacchetta di fuoco. È sempre con Slogra. Va su tutte le furie quando muore il suo partner. Vola."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
     }
   },
   "de": {
@@ -479,12 +542,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Fürst der Finsternis",
       "suffix": null,
-      "description": "Erhält +1 Wiederbeleben alle 100 Levels. Gegner lassen blaue, rote oder gelbe Seelen fallen, die jeweils Macht, Max. LP oder Wachstum steigern, wenn eine bestimmte Anzahl gesammelt wurde."
+      "description": "Erhält +1 Wiederbeleben alle 100 Levels. Gegner lassen blaue, rote oder gelbe Seelen fallen, die jeweils Wachstum, Macht oder Gier steigern, wenn eine bestimmte Anzahl gesammelt wurde."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Geschickt im Umgang mit dem Feuerstab. Hat immer Slogra im Schlepptau. Wird wütend, wenn sein Partner stirbt. Fliegt."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
     }
   },
   "es": {
@@ -601,12 +685,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Señor oscuro",
       "suffix": null,
-      "description": "También gana +1 resurrección cada 100 niveles. Los enemigos sueltan almas azules, rojas o amarillas que pueden aumentar el poder, los PS máx. o el crecimiento, respectivamente, al recoger cierta cantidad de cada color."
+      "description": "También gana +1 resurrección cada 100 niveles. Los enemigos sueltan almas azules, rojas o amarillas que pueden aumentar el crecimiento, el poder o la avaricia, respectivamente, al recoger cierta cantidad de cada color."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Experto con la varita ígnea. Siempre lo sigue Slogra. Enfurece si su compañero muere. Puede volar."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
     }
   },
   "pt-BR": {
@@ -723,12 +828,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Senhor das Trevas",
       "suffix": null,
-      "description": "Também ganha +1% de Ressurreição a cada 100 níveis. Inimigos concedem Almas Azuis, Vermelhas ou Amarelas que aumentam Poder, PV Máx. ou Crescimento, respectivamente, ao coletar valores específicos."
+      "description": "Também ganha +1 de Ressurreição a cada 100 níveis. Inimigos concedem Almas Azuis, Vermelhas ou Amarelas que aumentam Crescimento, Poder e Ganância, respectivamente, ao coletar valores específicos."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Hábil com a Varinha de Fogo. Sempre seguido por Slogra. Se enfurece se o parceiro morre. Voa."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
     }
   },
   "pl": {
@@ -845,12 +971,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Mroczny Władca",
       "suffix": null,
-      "description": "Otrzymuje też +1 Wskrzeszenie co 100 poziomów. Wrogowie pozostawiają Niebieskie, Czerwone lub Żółte Dusze, które zwiększają odpowiednio Moc, Maks. zdrowie i Rozwój po zebraniu określonej liczby."
+      "description": "Otrzymuje też +1 Wskrzeszenie co 100 poziomów. Wrogowie pozostawiają Niebieskie, Czerwone lub Żółte Dusze, które zwiększają odpowiednio Rozwój, Moc lub Chciwość po zebraniu określonej liczby."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Wprawnie posługuje się Ognistą różdżką. Zawsze podąża za nim Slogra. Wpada w szał, gdy jego partner umiera. Lata."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
     }
   },
   "ru": {
@@ -967,12 +1114,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Тёмный повелитель",
       "suffix": null,
-      "description": "Также получает +1% к оживлению каждые 100 уровней. Враги выбрасывают синие, красные или жёлтые души, повышающие силу, макс. ОЗ или развитие в зависимости от собранного количества."
+      "description": "Также получает +1 к оживлению каждые 100 уровней. Из врагов выпадают синие, красные или жёлтые души, которые по достижении определённого собранного количества повышают развитие, силу или жадность соответственно."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Знаток «Огненного жезла». Никогда не расстаётся со Слогрой. Впадает в ярость, если напарник погибает. Летает."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
     }
   },
   "tr": {
@@ -1089,12 +1257,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Karanlık Lort",
       "suffix": null,
-      "description": "Ayrıca her 100 seviyede bir +1 Canlanma kazanır. Düşmanlar, belirli miktarlarda toplandığında sırasıyla Kuvvet, Maks Sağlık veya Büyüme değerlerini artıran Mavi, Kırmızı veya Sarı Ruhlar düşürür."
+      "description": "Ayrıca her 100 seviyede bir +1 Canlanma kazanır. Düşmanlar, belirli miktarlarda toplandığında sırasıyla Büyüme, Kuvvet veya Açgözlülük değerlerini artıran Mavi, Kırmızı veya Sarı Ruhlar düşürür."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Alev Asası kullanmada ustadır. Slogra her zaman arkasından gelir. Ortağı ölürse çok sinirlenir. Uçabilir."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
     }
   },
   "zh-CN": {
@@ -1211,12 +1400,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "魔王",
       "suffix": null,
-      "description": "同时每100级，复活机会+1。敌人会掉落蓝色、红色或黄色灵魂，收集到指定数量后分别提升力量、生命上限或成长。"
+      "description": "同时每100级，复活机会+1。敌人会掉落蓝色、红色或黄色灵魂，收集到指定数量后分别提升成长、力量或贪欲。"
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "擅长火焰魔杖，与贝利根形影不离，在其搭档死亡时会被激怒。会飞。"
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "初始武器无法进化，但其极限突破已增强。"
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "初始武器无法进化，但其极限突破已增强。"
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "初始武器无法进化，但其极限突破已增强。"
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "初始武器无法进化，但其极限突破已增强。"
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "初始武器无法进化，但其极限突破已增强。"
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "初始武器无法进化，但其极限突破已增强。"
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "初始武器无法进化，但其极限突破已增强。"
     }
   },
   "ja": {
@@ -1333,12 +1543,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "魔王",
       "suffix": null,
-      "description": "100レベルごとに復活回数が+1。敵は特定量を集めると攻撃力、最大HP、または成長効率が増加する青、赤、あるいは黄色の魂をドロップする。"
+      "description": "100レベルごとに復活回数が+1。敵は特定量を集めると攻撃力、欲深さ、または成長効率が増加する青、赤、あるいは黄色の魂をドロップする。"
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "炎の杖との相性良し。ベリガンが常に同行している。パートナーが死ぬと激怒する。そして飛行する。"
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
     }
   },
   "ko": {
@@ -1455,12 +1686,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "어둠의 군주",
       "suffix": null,
-      "description": "또한, 100레벨마다 부활 체력이 +1됩니다. 적들은 파란색, 빨간색, 노란색 영혼을 투하하는데, 투하된 영혼을 일정량 모으면 각각 피해량, 최대HP, 성장 수치가 늘어납니다."
+      "description": "또한, 100레벨마다 부활을 1씩 얻습니다. 적들이 파란색, 빨간색, 노란색 영혼을 투하하는데 지정된 분량을 수집하면 성장, 피해량, 또는 탐욕이 각각 증가합니다."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "불의 지팡이에 능숙합니다. 항상 슬로그라가 따라다니죠. 파트너가 죽으면 화를 냅니다. 날아다녀요."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
     }
   },
   "zh-TW": {
@@ -1577,12 +1829,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "黑闇領主",
       "suffix": null,
-      "description": "另外，每提升 100 級，便能夠獲得 1 次的復活機會；敵人會掉落藍色、紅色或是黃色的靈魂，在你收集到了一定數量的靈魂之後，這些靈魂分別能夠提升你的力量（藍色）、最大生命值（紅色）或是成長數值（黃色）。"
+      "description": "此外，每 100 級也會獲得 +1 次復活。敵人會掉落藍色、紅色或黃色靈魂，在收集到指定數量後，會分別提升成長、力量或貪欲。"
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "精通火焰魔杖的使用。斯洛格拉幾乎可以說是蓋本的影子。如果其中一名夥伴死亡的話，會進入狂暴狀態。"
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
     }
   },
   "uk": {
@@ -1699,12 +1972,33 @@
     "SKIN_TP_SOMA_DARKLORD": {
       "prefix": "Темний Володар",
       "suffix": null,
-      "description": "Також отримує +1 до оживлення що 100 рівнів. Убиті вороги дають сині, червоні чи жовті душі, що збільшать силу, макс. ОЗ або розвиток відповідно, коли буде зібрано заздалегідь визначену їх кількість."
+      "description": "Також отримує +1 до оживлення кожніi 100 рівнів. Убиті вороги дають сині, червоні чи жовті душі, що збільшать розвиток, силу або жадобу відповідно, коли буде зібрано заздалегідь визначену їх кількість."
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
       "prefix": null,
       "suffix": null,
       "description": "Майстерно володіє Вогняним жезлом. Завжди в парі зі Слоґром. Впадає в лють після смерті напарника. Літає."
+    },
+    "SKIN_KOOLIO_DOLPHIN_SPEED": {
+      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+    },
+    "SKIN_KOOLIO_CRAB_AREA": {
+      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+    },
+    "SKIN_KOOLIO_JELLY_DURATION": {
+      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+    },
+    "SKIN_KOOLIO_SHARK_MIGHT": {
+      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+    },
+    "SKIN_KOOLIO_SQUID_AMOUNT": {
+      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+    },
+    "SKIN_KOOLIO_SWAP_1": {
+      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+    },
+    "SKIN_KOOLIO_SWAP_7": {
+      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
     }
   }
 }

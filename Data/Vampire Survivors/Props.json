@@ -1,153 +1,160 @@
 {
   "BRAZIER": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "Brazier",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "BRAZIER"
   },
   "BRAZIER2": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "Brazier2",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "BRAZIER"
   },
   "CANDELABRA": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "Candelabrone",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "CANDELABRA"
   },
   "LAMPOST": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "Lampost",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "LAMPOST"
   },
   "CANDLE": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "Candelabrone",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "CANDLE"
   },
   "CART": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "Cart",
     "destroyedAmount": 0,
     "maxHp": 4,
     "destructibleType": "CART"
   },
   "WINDOW": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "windowPieces",
     "destroyedAmount": 0,
     "maxHp": 5,
     "destructibleType": "WINDOW"
   },
   "LANTERN": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "Lantern",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "LANTERN"
   },
   "LANTERN_INVERSE": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "LanternInv",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "LANTERN_INVERSE"
   },
   "WEATHERNODE": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "WeatherNode",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "WEATHERNODE"
   },
   "TRAINLEVER": {
-    "textureName": "items",
+    "textureName": "tps_stageHero_BaseGame",
     "frameName": "Lever",
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "TRAINLEVER"
   },
   "LABORATORYLEVER2": {
-    "textureName": "items",
+    "textureName": "tps_stageHero_BaseGame",
     "frameName": "Lever",
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "LABORATORYLEVER2"
   },
   "LABORATORYLEVER3": {
-    "textureName": "items",
+    "textureName": "tps_stageHero_BaseGame",
     "frameName": "Lever",
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "LABORATORYLEVER3"
   },
   "LABORATORYLEVER4": {
-    "textureName": "items",
+    "textureName": "tps_stageHero_BaseGame",
     "frameName": "Lever",
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "LABORATORYLEVER4"
   },
   "LAB_DOOR_A": {
-    "textureName": "items",
+    "textureName": "tps_stageHero_BaseGame",
     "frameName": "labDoorA1",
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "LAB_DOOR_A"
   },
   "LAB_DOOR_B": {
-    "textureName": "items",
+    "textureName": "tps_stageHero_BaseGame",
     "frameName": "labDoorB1",
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "LAB_DOOR_B"
   },
+  "LYCA_DOOR": {
+    "textureName": "tps_stageHero_BaseGame",
+    "frameName": "lycaDoor1",
+    "destroyedAmount": 0,
+    "maxHp": 999,
+    "destructibleType": "LYCA_DOOR"
+  },
   "LAMPOST_SINGLE": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "SingleLampost",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "LAMPOST_SINGLE"
   },
   "FB_CAPSULE": {
-    "textureName": "firstBlood",
-    "frameName": "fb_capsule",
+    "textureName": "tps_props",
+    "frameName": "-04-fb_capsule",
     "destroyedAmount": 0,
     "maxHp": 1,
     "destructibleType": "FB_CAPSULE"
   },
   "FB_EXPLOBARREL": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "propBarrelExplo",
     "destroyedAmount": 0,
     "maxHp": 2,
     "destructibleType": "FB_EXPLOBARREL"
   },
   "FB_EXPLOCAR": {
-    "textureName": "firstBlood",
+    "textureName": "tps_props",
     "frameName": "propCarExplo",
     "destroyedAmount": 0,
     "maxHp": 5,
     "destructibleType": "FB_EXPLOCAR"
   },
   "TP_DOOR": {
-    "textureName": "TP_items",
+    "textureName": "tps_stageHero_ThosePeople",
     "frameName": "TP_Item_DoorA_01",
     "destroyedAmount": 0,
     "maxHp": 999,
     "destructibleType": "TP_DOOR"
   },
   "EX_TOHILSTATUE": {
-    "textureName": "items",
+    "textureName": "tps_props",
     "frameName": "ziappunta_prop",
     "destroyedAmount": 0,
     "maxHp": 5,

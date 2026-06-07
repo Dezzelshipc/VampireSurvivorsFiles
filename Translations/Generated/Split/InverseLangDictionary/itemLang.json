@@ -102,7 +102,7 @@
     },
     "RELIC_NOSEGLASSES": {
       "name": "Mindbender",
-      "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+      "description": "Permanently allows to change character appearance (where applicable), maximum weapon loadout, and favorite characters.",
       "achievementTips": "Character customization"
     },
     "RELIC_GOUDA": {
@@ -234,7 +234,7 @@
     "RELIC_LAZULIA": {
       "name": "Chaos Lazulia",
       "description": "Allows Bianca Ramba to morph when reaching Level 80.",
-      "achievementTips": "Carozza!"
+      "achievementTips": "Carrozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Chaos Egg",
@@ -458,9 +458,11 @@
       "tips": "Unlocks Secretino"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Enables the unlocking and activation of Survarots.",
+      "description": "Allows to find Survarots in light sources.",
       "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "Survarots": "Survarots",
+      "achievementTips": "new Power Creep.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Joker Disk",
@@ -468,10 +470,35 @@
       "tips": "",
       "achievementTips": "Ante Chamber Expansion."
     },
-    "RELIC_SURVAROT": {
-      "description": "Awards an immediate Survarot draft.",
+    "SV_DRAFT1": {
       "name": "Survarot",
-      "achievementTips": null
+      "description": "Awards an immediate Survarot draft.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Survarot",
+      "description": "Awards an immediate Survarot draft.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Survarot",
+      "description": "Awards an immediate Survarot draft.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Enemahs",
+      "description": "Allows to draft new Survarots.",
+      "achievementTips": "new Survarots.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Green Eyes Vizard",
+      "description": "Allows to see and be seen by Bat Dragons.",
+      "achievementTips": "special bosses in some stages.",
+      "tips": null
     }
   },
   "fr": {
@@ -709,7 +736,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulia du chaos",
       "description": "Bianca Ramba se transforme au niveau 80.",
-      "achievementTips": "Carozza !"
+      "achievementTips": "Carrozza !"
     },
     "RELIC_CHAOSEGG": {
       "name": "Œuf du chaos",
@@ -933,9 +960,11 @@
       "tips": "Débloque Secretino."
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Permet de débloquer et d'activer Survarots.",
+      "description": "Permet de trouver des Survarots dans les sources de lumière.",
       "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "Survarots": "Survarots",
+      "achievementTips": "nouveau pouvoir.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Disque du joker",
@@ -943,10 +972,35 @@
       "tips": "",
       "achievementTips": "Extension Antichambre."
     },
-    "RELIC_SURVAROT": {
-      "description": "Octroie un tirage de Survarot immédiat.",
+    "SV_DRAFT1": {
       "name": "Survarot",
-      "achievementTips": null
+      "description": "Octroie un tirage de Survarot immédiat.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Survarot",
+      "description": "Octroie un tirage de Survarot immédiat.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Survarot",
+      "description": "Octroie un tirage de Survarot immédiat.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Enemahs",
+      "description": "Permet de tirer de nouveaux Survarots.",
+      "achievementTips": "nouveaux Survarots.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Vizard aux yeux verts",
+      "description": "Permet de voir et de se faire voir par les Dragons-souris.",
+      "achievementTips": "boss spéciaux dans certains niveaux.",
+      "tips": null
     }
   },
   "it": {
@@ -1184,7 +1238,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulia del caos",
       "description": "Consente a Bianca Ramba di trasformarsi quando raggiunge il livello 80.",
-      "achievementTips": "Carozza!"
+      "achievementTips": "Carrozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Uovo del caos",
@@ -1408,9 +1462,11 @@
       "tips": "Sblocca Secretino"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Permette di sbloccare e attivare i Survarocchi.",
+      "description": "Consente di trovare Survarocchi nelle fonti di luce.",
       "name": "Survarokki",
-      "achievementTips": "Survarocchi"
+      "Survarots": "Survarocchi",
+      "achievementTips": "nuovi potenziamenti sgravati.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Disco del jolly",
@@ -1418,10 +1474,35 @@
       "tips": "",
       "achievementTips": "Espansione Ante Camera."
     },
-    "RELIC_SURVAROT": {
-      "description": "Ricompensa con una pesca immediata di Survarocchi.",
+    "SV_DRAFT1": {
       "name": "Survarocchi",
-      "achievementTips": null
+      "description": "Ricompensa con una pesca immediata di Survarocchi.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Survarocchi",
+      "description": "Ricompensa con una pesca immediata di Survarocchi.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Survarocchi",
+      "description": "Ricompensa con una pesca immediata di Survarocchi.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Enemahs",
+      "description": "Consente di pescare nuovi Survarocchi.",
+      "achievementTips": "nuovi survarocchi.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Vizard dagli occhi verdi",
+      "description": "Consente di vedere ed essere visti dai Draghi pipistrello.",
+      "achievementTips": "boss speciali in alcuni livelli.",
+      "tips": null
     }
   },
   "de": {
@@ -1659,7 +1740,7 @@
     "RELIC_LAZULIA": {
       "name": "Chaos-Lazulia",
       "description": "Ermöglicht Bianca Ramba die Verwandlung ab Level 80.",
-      "achievementTips": "Carozza!"
+      "achievementTips": "Carrozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Chaos-Ei",
@@ -1883,9 +1964,11 @@
       "tips": "Schaltet Secretino frei."
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Ermöglicht das Freischalten und Aktivieren von Survarots.",
+      "description": "Ermöglicht es, Survarots in Lichtquellen zu finden.",
       "name": "Survarocchi",
-      "achievementTips": "Survarots"
+      "Survarots": "Survarots",
+      "achievementTips": "neue Machtquelle.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Joker-Disc",
@@ -1893,10 +1976,35 @@
       "tips": "",
       "achievementTips": "Narrenkammer-Erweiterung"
     },
-    "RELIC_SURVAROT": {
-      "description": "Gewährt sofort einen  Survarot-Draft.",
+    "SV_DRAFT1": {
       "name": "Survarot",
-      "achievementTips": null
+      "description": "Gewährt sofort einen  Survarot-Draft.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Survarot",
+      "description": "Gewährt sofort einen  Survarot-Draft.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Survarot",
+      "description": "Gewährt sofort einen  Survarot-Draft.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Gegnah",
+      "description": "Ermöglicht es, neue Survarots zu draften.",
+      "achievementTips": "neue Survarots.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Grünaugenmaske",
+      "description": "Ermöglicht es, Flederdrachen zu sehen, aber sie sehen dich auch.",
+      "achievementTips": "besondere Bosse in einigen Stages.",
+      "tips": null
     }
   },
   "es": {
@@ -2134,7 +2242,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulita del caos",
       "description": "Permite que Bianca Ramba se transforme al alcanzar el nivel 80.",
-      "achievementTips": "Carozza"
+      "achievementTips": "Carrozza"
     },
     "RELIC_CHAOSEGG": {
       "name": "Huevo del caos",
@@ -2358,9 +2466,11 @@
       "tips": "Desbloquea a Secretino"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Permite desbloquear y activar los supervicanos.",
+      "description": "Permite encontrar supervicanos en fuentes de luz.",
       "name": "Supervitarot",
-      "achievementTips": "Supervicanos"
+      "Survarots": "Supervicanos",
+      "achievementTips": "nuevo disruptor de poder.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Disco de arlequín",
@@ -2368,10 +2478,35 @@
       "tips": "",
       "achievementTips": "Expansión del Apostento."
     },
-    "RELIC_SURVAROT": {
-      "description": "Otorga un supervicano inmediatamente.",
+    "SV_DRAFT1": {
       "name": "Supervicano",
-      "achievementTips": null
+      "description": "Otorga un supervicano inmediatamente.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Supervicano",
+      "description": "Otorga un supervicano inmediatamente.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Supervicano",
+      "description": "Otorga un supervicano inmediatamente.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Énemahs",
+      "description": "Permite robar supervicanos nuevos.",
+      "achievementTips": "nuevos supervicanos.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Máscara de ojos verdes",
+      "description": "Permite ver a los dragones murciélago y que ellos te vean.",
+      "achievementTips": "jefes especiales en algunas fases.",
+      "tips": null
     }
   },
   "pt-BR": {
@@ -2833,9 +2968,11 @@
       "tips": "Desbloqueia Secretino"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Permite desbloquear e ativar Surtarôs.",
+      "description": "Permite encontrar Surtarôs em fontes de luz.",
       "name": "Surtarocchi",
-      "achievementTips": "Surtarôs"
+      "Survarots": "Surtarôs",
+      "achievementTips": "nova Progressão de Poder.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Disco Curinga",
@@ -2843,10 +2980,35 @@
       "tips": "",
       "achievementTips": "Expansão da Antecâmara."
     },
-    "RELIC_SURVAROT": {
-      "description": "Concede uma tiragem de Surtarô imediatamente.",
+    "SV_DRAFT1": {
       "name": "Surtarô",
-      "achievementTips": null
+      "description": "Concede uma tiragem de Surtarô imediatamente.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Surtarô",
+      "description": "Concede uma tiragem de Surtarô imediatamente.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Surtarô",
+      "description": "Concede uma tiragem de Surtarô imediatamente.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Enemigos",
+      "description": "Permite tirar novos Surtarôs.",
+      "achievementTips": "novos Surtarôs.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Vizard dos Olhos Verdes",
+      "description": "Permite ver e aparecer para Morcegos Dragões.",
+      "achievementTips": "chefes especiais em algumas fases.",
+      "tips": null
     }
   },
   "pl": {
@@ -3084,7 +3246,7 @@
     "RELIC_LAZULIA": {
       "name": "Lazulia Chaosu",
       "description": "Umożliwia Biance Rambie przekształcenie się po osiągnięciu 80. poziomu.",
-      "achievementTips": "Carozza!"
+      "achievementTips": "Carrozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Jajo chaosu",
@@ -3308,9 +3470,11 @@
       "tips": "Odblokowuje Sekretyna"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Pozwala na odblokowanie i aktywację kart Survarota.",
+      "description": "Pozwala na znajdowanie kart Survarota w źródłach światła.",
       "name": "Survarocchi",
-      "achievementTips": "Karty Survarota"
+      "Survarots": "Karty Survarota",
+      "achievementTips": "nowe łamacze balansu.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Dysk Jokera",
@@ -3318,10 +3482,35 @@
       "tips": "",
       "achievementTips": "Rozszerzenie Szulerni."
     },
-    "RELIC_SURVAROT": {
-      "description": "Przyznaje natychmiastowe stawianie Survarota.",
+    "SV_DRAFT1": {
       "name": "Survarot",
-      "achievementTips": null
+      "description": "Przyznaje natychmiastowe stawianie Survarota.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Survarot",
+      "description": "Przyznaje natychmiastowe stawianie Survarota.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Survarot",
+      "description": "Przyznaje natychmiastowe stawianie Survarota.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Lewatywki",
+      "description": "Pozwalają na dobieranie nowych kart Survarota.",
+      "achievementTips": "nowe karty Survarota.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Zielonooki vizard",
+      "description": "Pozwala na widzenie i bycie widzianym przez Nietoperzosmoki.",
+      "achievementTips": "specjalni bossowie na pewnych etapach.",
+      "tips": null
     }
   },
   "ru": {
@@ -3783,9 +3972,11 @@
       "tips": "Открывает Секретино"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Позволяет разблокировать и активировать сурваротов.",
+      "description": "Позволяет находить сурвароты в источниках света.",
       "name": "Сурвароччи",
-      "achievementTips": "Сурвароты"
+      "Survarots": "Сурвароты",
+      "achievementTips": "Новый имбовое усиление.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Диск джокера",
@@ -3793,10 +3984,35 @@
       "tips": "",
       "achievementTips": "Дополнение «Анте-Салон»."
     },
-    "RELIC_SURVAROT": {
-      "description": "Мгновенно призывает сурварот.",
+    "SV_DRAFT1": {
       "name": "Сурварот",
-      "achievementTips": null
+      "description": "Мгновенно призывает сурварот.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Сурварот",
+      "description": "Мгновенно призывает сурварот.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Сурварот",
+      "description": "Мгновенно призывает сурварот.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Едруги",
+      "description": "Позволяет добавить в набор новые сурвароты.",
+      "achievementTips": "Новые сурвароты.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Маска зелёных глаз",
+      "description": "Позволяет вам видеть драконов-нетопырей, а им — видеть вас.",
+      "achievementTips": "Особые боссы на некоторых этапах.",
+      "tips": null
     }
   },
   "tr": {
@@ -4034,7 +4250,7 @@
     "RELIC_LAZULIA": {
       "name": "Kaos Lazulia",
       "description": "Seviye 80'e ulaşırken Bianca Ramba'nın dönüşmesine olanak sağlar.",
-      "achievementTips": "Carozza!"
+      "achievementTips": "Carrozza!"
     },
     "RELIC_CHAOSEGG": {
       "name": "Kaos Yumurtası",
@@ -4258,9 +4474,11 @@
       "tips": "Secretino'nun kilidini açar"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Survarotların kilidinin açılmasını ve etkinleştirilmesini sağlar.",
+      "description": "Işık kaynaklarında Survarot bulmanı sağlar.",
       "name": "Survarocchi",
-      "achievementTips": "Survarotlar"
+      "Survarots": "Survarotlar",
+      "achievementTips": "Yeni Güç Saptıran.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Joker Disk",
@@ -4268,10 +4486,35 @@
       "tips": "",
       "achievementTips": "Antre Genişlemesi"
     },
-    "RELIC_SURVAROT": {
-      "description": "Anında bir Survarot kartı verir.",
+    "SV_DRAFT1": {
       "name": "Survarot",
-      "achievementTips": null
+      "description": "Anında bir Survarot kartı verir.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Survarot",
+      "description": "Anında bir Survarot kartı verir.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Survarot",
+      "description": "Anında bir Survarot kartı verir.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Döşmanlar",
+      "description": "Yeni Survarotlar verir.",
+      "achievementTips": "Yeni Survarotlar.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Yeşil Gözlü Vizard",
+      "description": "Yarasa Ejderleri ile birbirinizi görmenizi sağlar.",
+      "achievementTips": "Bazı bölümlerdeki özel patronlar.",
+      "tips": null
     }
   },
   "zh-CN": {
@@ -4733,9 +4976,11 @@
       "tips": "解锁秘角"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "可以解锁并启用幸存塔罗牌。",
-      "name": "幸存塔罗牌",
-      "achievementTips": "幸存塔罗牌"
+      "description": "可在光源中找到幸存塔罗牌。",
+      "name": "幸存塔罗牌组",
+      "Survarots": "幸存塔罗牌",
+      "achievementTips": "全新超模元素。",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "小丑硬盘",
@@ -4743,10 +4988,35 @@
       "tips": "",
       "achievementTips": "下注大厅拓展内容。"
     },
-    "RELIC_SURVAROT": {
-      "description": "立即获得一组待选幸存塔罗牌。",
+    "SV_DRAFT1": {
       "name": "幸存塔罗牌",
-      "achievementTips": null
+      "description": "立即获得一组待选幸存塔罗牌。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "幸存塔罗牌",
+      "description": "立即获得一组待选幸存塔罗牌。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "幸存塔罗牌",
+      "description": "立即获得一组待选幸存塔罗牌。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "敌系传承",
+      "description": "可抽取新的幸存塔罗牌。",
+      "achievementTips": "全新幸存塔罗牌。",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "绿眼护面",
+      "description": "可看到蝙蝠龙，并被蝙蝠龙看到。",
+      "achievementTips": "某些关卡的特殊头目。",
+      "tips": null
     }
   },
   "ja": {
@@ -5208,9 +5478,11 @@
       "tips": "セクレティーノをアンロックする"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "サバイバーカードをアンロックおよび発動可能にする。",
+      "description": "明かりの中でサバイバーカードを見つけられるようになる。",
       "name": "サバイバーカード",
-      "achievementTips": "サバイバータロット"
+      "Survarots": "サバイバータロット",
+      "achievementTips": "新しいパワークリープ系。",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "ジョーカーディスク",
@@ -5218,10 +5490,35 @@
       "tips": "",
       "achievementTips": "アンティの間拡張。"
     },
-    "RELIC_SURVAROT": {
-      "description": "サバイバータロットをすぐに1回引ける。",
+    "SV_DRAFT1": {
       "name": "サバイバータロット",
-      "achievementTips": null
+      "description": "サバイバータロットをすぐに1回引ける。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "サバイバータロット",
+      "description": "サバイバータロットをすぐに1回引ける。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "サバイバータロット",
+      "description": "サバイバータロットをすぐに1回引ける。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "エネミーカード",
+      "description": "新しいサバイバーカードを引ける。",
+      "achievementTips": "新しいサバイバーカード。",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "緑眼のお面",
+      "description": "バットドラゴンが見えるようになるが、こちらの存在も丸見えになる。",
+      "achievementTips": "特定ステージの特殊ボス。",
+      "tips": null
     }
   },
   "ko": {
@@ -5683,9 +5980,11 @@
       "tips": "시크리티노 잠금 해제"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "서바로트를 잠금 해제 및 활성화할 수 있습니다.",
+      "description": "광원에서 서바로트를 찾을 수 있습니다.",
       "name": "서바로키",
-      "achievementTips": "서바로트"
+      "Survarots": "서바로트",
+      "achievementTips": "새로운 파워 크리프.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "조커 디스크",
@@ -5693,10 +5992,35 @@
       "tips": "",
       "achievementTips": "안테 챔버 확장."
     },
-    "RELIC_SURVAROT": {
-      "description": "서바로트 뽑기 기회를 즉시 줍니다.",
+    "SV_DRAFT1": {
       "name": "서바로트",
-      "achievementTips": null
+      "description": "서바로트 뽑기 기회를 즉시 줍니다.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "서바로트",
+      "description": "서바로트 뽑기 기회를 즉시 줍니다.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "서바로트",
+      "description": "서바로트 뽑기 기회를 즉시 줍니다.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "애니마흐.",
+      "description": "새로운 서바로트를 뽑을 수 있게 해줍니다.",
+      "achievementTips": "새로운 서바로트.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "녹색 눈의 가면.",
+      "description": "내가 박쥐 드래곤을 볼 수 있고, 박쥐 드래곤이 나를 볼 수 있게 해줍니다.",
+      "achievementTips": "일부 스테이지에는 특별한 보스.",
+      "tips": null
     }
   },
   "zh-TW": {
@@ -6158,9 +6482,11 @@
       "tips": "解鎖「秘密提諾」"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "可以解鎖並啟動「倖存牌」。",
+      "description": "可以在摧毀光源後找到倖存牌。",
       "name": "倖存牌組",
-      "achievementTips": "倖存牌"
+      "Survarots": "倖存牌",
+      "achievementTips": "好喔，沒想到這款遊戲也逃不過數值通膨的摧殘⋯⋯",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "小丑圓盤",
@@ -6168,10 +6494,35 @@
       "tips": "",
       "achievementTips": "「底注學廳」擴充內容。"
     },
-    "RELIC_SURVAROT": {
-      "description": "讓你可以立即獲得一次倖存牌的抽牌機會。",
+    "SV_DRAFT1": {
       "name": "倖存牌",
-      "achievementTips": null
+      "description": "讓你可以立即獲得一次倖存牌的抽牌機會。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "倖存牌",
+      "description": "讓你可以立即獲得一次倖存牌的抽牌機會。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "倖存牌",
+      "description": "讓你可以立即獲得一次倖存牌的抽牌機會。",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "敵瑪",
+      "description": "可以有更多的倖存牌抽牌選項。",
+      "achievementTips": "全新的倖存牌。",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "綠眼護面",
+      "description": "從現在開始，你跟蝙蝠魔龍就可以看見彼此了。",
+      "achievementTips": "特定關卡中的特殊 Boss 敵人。",
+      "tips": null
     }
   },
   "uk": {
@@ -6633,9 +6984,11 @@
       "tips": "Відкриває Секретіно"
     },
     "RELIC_SURVAROCCHI": {
-      "description": "Дозволяє відкрити й активувати Таро вцілілих.",
+      "description": "Дозволяє знайти Таро вцілілих у джерелах світла.",
       "name": "Тароччі",
-      "achievementTips": "Таро вцілілих"
+      "Survarots": "Таро вцілілих",
+      "achievementTips": "новий паверкрип.",
+      "tips": null
     },
     "RELIC_LEM_DISK": {
       "name": "Диск жартівника",
@@ -6643,10 +6996,35 @@
       "tips": "",
       "achievementTips": "Доповнення «Передпокій»."
     },
-    "RELIC_SURVAROT": {
-      "description": "Дає одразу вибрати карту з Таро вцілілих.",
+    "SV_DRAFT1": {
       "name": "Таро вцілілих",
-      "achievementTips": null
+      "description": "Дає одразу вибрати карту з Таро вцілілих.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT2": {
+      "name": "Таро вцілілих",
+      "description": "Дає одразу вибрати карту з Таро вцілілих.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "SV_DRAFT3": {
+      "name": "Таро вцілілих",
+      "description": "Дає одразу вибрати карту з Таро вцілілих.",
+      "achievementTips": null,
+      "tips": null
+    },
+    "RELIC_SV_ANTIPASTIVES": {
+      "name": "Ворогани",
+      "description": "Дозволяють отримати нові Таро вцілілих.",
+      "achievementTips": "нові Таро вцілілих.",
+      "tips": null
+    },
+    "RELIC_GREENEYES": {
+      "name": "Зеленоокий візард",
+      "description": "Дозволяє побачити кажанодракона. Він також бачить вас.",
+      "achievementTips": "окремі боси на деяких етапах.",
+      "tips": null
     }
   }
 }

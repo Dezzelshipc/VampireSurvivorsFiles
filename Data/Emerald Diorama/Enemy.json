@@ -172,7 +172,12 @@
         "EMERALD"
       ],
       "bInclude": true,
-      "bHighlight": false
+      "bHighlight": false,
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 0,
+        "offsetY": 0
+      }
     }
   ],
   "EME_BOAR": [
@@ -193,9 +198,9 @@
         "EME_boar_0.png"
       ],
       "colliderOverride": {
-        "radius": 0.4,
-        "offsetX": -4,
-        "offsetY": -3
+        "radius": 0.3,
+        "offsetX": 0,
+        "offsetY": 6
       },
       "scale": 1.1,
       "bInclude": true,
@@ -270,7 +275,12 @@
       ],
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": 0
+      }
     }
   ],
   "EME_BALL": [
@@ -358,7 +368,12 @@
       ],
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetY": -5,
+        "offsetX": 5
+      }
     }
   ],
   "EME_BIRD2": [
@@ -456,10 +471,11 @@
       "maxSpeed": 200,
       "passThroughWalls": true,
       "colliderOverride": {
-        "radius": 0.3,
-        "offsetX": 1,
-        "offsetY": -2
+        "radius": 0.25,
+        "offsetX": 3,
+        "offsetY": 0
       },
+      "scale": 1,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -556,7 +572,12 @@
       ],
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": 0
+      }
     }
   ],
   "EME_FROG3": [
@@ -575,7 +596,12 @@
       "end": 12,
       "frameNames": [
         "EME_frog3_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": 0
+      }
     }
   ],
   "EME_KELPIE": [
@@ -732,7 +758,12 @@
       ],
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,        
+        "offsetX": 0,
+        "offsetY": 0
+      }
     }
   ],
   "EME_MOCH": [
@@ -792,7 +823,12 @@
       ],
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,        
+        "offsetX": 0,
+        "offsetY": -1.5
+      }
     }
   ],
   "EME_WEREWOLF": [
@@ -819,7 +855,12 @@
       ],
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 0,
+        "offsetY": 0
+      }
     }
   ],
   "EME_GATEBOSS_SPECTER": [
@@ -889,7 +930,12 @@
       "bHighlight": false,
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": -2.5,
+        "offsetY": 0
+      }
     }
   ],
   "EME_GATEBOSS_FINALEMPEROR": [
@@ -921,7 +967,12 @@
       "bHighlight": false,
       "bPlaces": [
         "EMERALD"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": 0
+      }
     }
   ],
   "EME_GATEBOSS_LIVINGANGUISH": [
@@ -984,7 +1035,12 @@
       "scale": 1.5,
       "skills": [
         "HP_x_Level"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetY": 0,
+        "offsetX": 0
+      }
     }
   ],
   "EME_BOSS_GOBLIN": [
@@ -1008,7 +1064,12 @@
       "scale": 1.5,
       "skills": [
         "HP_x_Level"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.365,
+        "offsetX": 0,
+        "offsetY": 0
+      }
     }
   ],
   "EME_BOSS_BOAR": [
@@ -1061,7 +1122,12 @@
       "skills": [
         "HP_x_Level"
       ],
-      "passThroughWalls": true
+      "passThroughWalls": true,
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetX": 3,
+        "offsetY": 0
+      }
     }
   ],
   "EME_BOSS_SKELETON": [
@@ -1088,7 +1154,12 @@
       "scale": 1.5,
       "skills": [
         "HP_x_Level"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": -1.5
+      }
     }
   ],
   "EME_BOSS_WEREWOLF": [
@@ -1115,6 +1186,11 @@
       "skills": [
         "HP_x_Level"
       ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetX": 0,
+        "offsetY": 0
+      },
       "scale": 1.5
     }
   ],
@@ -1236,7 +1312,12 @@
       "scale": 1.5,
       "skills": [
         "HP_x_Level"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.275,
+        "offsetX": 5,
+        "offsetY": 9
+      }
     }
   ],
   "EME_BOSS_OGRE": [
@@ -1295,7 +1376,12 @@
       ],
       "skills": [
         "HP_x_Level"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.35,
+        "offsetX": 0,
+        "offsetY": 0
+      }
     }
   ],
   "EME_ALRAUNE_BOMB": [
@@ -1473,7 +1559,12 @@
       "idleFrameCount": 4,
       "frameNames": [
         "EME_bat_0.png"
-      ]
+      ],
+      "colliderOverride": {
+        "radius": 0.25,
+        "offsetX": 3,
+        "offsetY": 0
+      }
     }
   ],
   "EME_PATROL_CALAMITY": [
@@ -1521,9 +1612,9 @@
         "textureName": "emeralds",
         "end": 18,
         "colliderOverride": {
-          "radius": 0.55,
-          "offsetY": -3,
-          "offsetX": -8
+          "radius": 0.4,
+          "offsetX": -2,
+          "offsetY": 5.8
         },
         "frameNames": [
           "EME_ogre_0.png"
@@ -1558,7 +1649,12 @@
         "frameNames": [
           "EME_cursedmonarch_0.png"
         ],
-        "passThroughWalls": true
+        "passThroughWalls": true,
+        "colliderOverride": {
+          "radius": 0.3,
+          "offsetX": 0,
+          "offsetY": 0
+        }
       }
     ]    
   }

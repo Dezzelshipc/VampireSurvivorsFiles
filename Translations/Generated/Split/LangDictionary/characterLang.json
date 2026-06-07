@@ -13041,6 +13041,22 @@
       "ko": null,
       "zh-TW": null,
       "uk": null
+    },
+    "custom_suffix": {
+      "en": "the Kugutsu",
+      "fr": "Le Kugutsu",
+      "it": "il Kugutsu",
+      "de": "der Kugutsu",
+      "es": "el kugutsu",
+      "pt-BR": "o Kugutsu",
+      "pl": "Kugutsu",
+      "ru": "Кугуцу",
+      "tr": "Kugutsu",
+      "zh-CN": "傀儡",
+      "ja": "クグツ",
+      "ko": "쿠구츠",
+      "zh-TW": "傀儡",
+      "uk": "Куґуцу"
     }
   },
   "EME_PUPKNIFE_FOLLOWER": {
@@ -14017,7 +14033,7 @@
       "uk": null
     },
     "description": {
-      "en": "Can always find Survarots. Starts with a Survarots draft. Reduces boss health and blocks some special attacks.",
+      "en": "Can always find Survarots. Starts with a Survarot draft. Reduces boss health and blocks some special attacks.",
       "fr": "Peut toujours trouver des Survarots. Commence avec un lot de Survarots. Réduit la santé des boss et bloque certaines attaques spéciales.",
       "it": "Può trovare sempre i Survarocchi. Comincia con una pesca di Survarocchi. Riduce la salute dei boss e blocca alcuni attacchi speciali.",
       "de": "Kann immer Survarots finden. Erhält zu Beginn sofort einen Survarot-Draft. Bosse haben weniger LP. Blockt einige Spezialangriffe.",
@@ -15417,6 +15433,138 @@
       "ko": "트라이던트에 능숙합니다. 항상 가이본이 따라다니죠. 파트너가 죽으면 화를 냅니다.",
       "zh-TW": "精通三叉戟。蓋本幾乎可以說是斯洛格拉的影子。如果其中一名夥伴死亡的話，會進入狂暴狀態。",
       "uk": "Майстерно володіє Тризубом. Завжди в парі з Ґайбоном. Впадає в лють після смерті напарника."
+    }
+  },
+  "EX_BIGTROUBLER": {
+    "prefix": {
+      "en": "Big",
+      "fr": "Big",
+      "it": "Big",
+      "de": "Big",
+      "es": "Big",
+      "pt-BR": "Big",
+      "pl": "Big",
+      "ru": "Биг",
+      "tr": "Big",
+      "zh-CN": "Big",
+      "ja": "ビッグ",
+      "ko": "빅",
+      "zh-TW": "大尾",
+      "uk": "Великий"
+    },
+    "charName": {
+      "en": "Troubler",
+      "fr": "Troubler",
+      "it": "Troubler",
+      "de": "Troubler",
+      "es": "Troubler",
+      "pt-BR": "Troubler",
+      "pl": "Troubler",
+      "ru": "Траблер",
+      "tr": "Troubler",
+      "zh-CN": "Troubler",
+      "ja": "トラブラー",
+      "ko": "트러블러",
+      "zh-TW": "妖魔",
+      "uk": "Винуватець"
+    },
+    "surname": {
+      "en": null,
+      "fr": null,
+      "it": null,
+      "de": null,
+      "es": null,
+      "pt-BR": null,
+      "pl": null,
+      "ru": null,
+      "tr": null,
+      "zh-CN": null,
+      "ja": null,
+      "ko": null,
+      "zh-TW": null,
+      "uk": null
+    },
+    "description": {
+      "en": "Activates his main weapon when picking up Gold Coins. Uses Gold Coins as a damage barrier. Has a 4X chance of drafting FOIL Survarots.",
+      "fr": "Active son arme principale lorsqu'il ramasse des pièces d'or. Utilise des pièces d'or pour bloquer les dégâts. Possède quatre fois plus de chances d'obtenir des Survarots FOIL.",
+      "it": "Attiva la sua arma principale quando raccoglie Monete d'oro. Usa le Monete d'oro come barriera difensiva. Probabilità quadruplicata di pescare Survarocchi FOIL.",
+      "de": "Aktiviert seine Hauptwaffe beim Aufsammeln von Goldmünzen. Verwendet Goldmünzen als Schild gegen Schaden. 4-fache Chance auf FOIL-Karten im Survarots-Draft.",
+      "es": "Activa su arma principal al recoger monedas de oro. Usa las monedas como barrera de daño. Tiene el cuádruple de probabilidad de robar supervicanos FOIL.",
+      "pt-BR": "Ativa a arma principal dele ao coletar Moedas de Ouro. Usa Moedas de Ouro como barreira de dano. Tem chance x4 de tirar um Surtarô FOIL.",
+      "pl": "Jego główna broń aktywuje się podczas podnoszenia złotych monet. Wykorzystuje złote monety jako osłonę przed obrażeniami. Ma 4x szans na dobranie kart Survarota FOIL.",
+      "ru": "Активирует своё основное оружие, подбирая золотые монеты. Использует золотые монеты в качестве барьера от урона. Есть шанс х4 добавить в набор сурвароты FOIL.",
+      "tr": "Altın Akçe toplarken ana silahını etkinleştirir. Altın Akçeleri hasar önleyici olarak kullanır. FOIL Survarotlarını alma şansı 4X'tir.",
+      "zh-CN": "拾取金币时激活其主武器，可使用金币屏蔽伤害，有4倍几率抽取到FOIL幸存塔罗牌。",
+      "ja": "金貨を拾うとメインの武器を発動する。ダメージバリアとして金貨を消耗。FOILサバイバーカードを引く確率が4倍になる。",
+      "ko": "금화를 획득하면 주무기를 활성화됩니다. 금화를 피해 방어막으로 사용합니다. 포일 서바로트를 뽑을 확률이 4배입니다.",
+      "zh-TW": "在撿起金幣的同時，大尾妖魔會發動一次他的主要武器來進行攻擊。以金幣來作為傷害屏障。有四倍的機率能夠抽到「閃卡」版本的倖存牌。",
+      "uk": "Активує свою головну зброю, збираючи золоті монети. Застосовує злоті монети як захист від шкоди. Має шанс зібрати в 4 рази більше карт Таро вцілілих."
+    }
+  },
+  "EX_PARACOOLIO": {
+    "prefix": {
+      "en": "Para",
+      "fr": "Para",
+      "it": "Para",
+      "de": "Para",
+      "es": "Para",
+      "pt-BR": "Para",
+      "pl": "Para",
+      "ru": "Пара",
+      "tr": "Para",
+      "zh-CN": "帕拉",
+      "ja": "パラ・",
+      "ko": "파라",
+      "zh-TW": "帕拉",
+      "uk": "Пара"
+    },
+    "charName": {
+      "en": "Kooleo",
+      "fr": "Kooleo",
+      "it": "Kooleo",
+      "de": "Kooleo",
+      "es": "Kooleo",
+      "pt-BR": "Kooleo",
+      "pl": "Kooleo",
+      "ru": "Кулео",
+      "tr": "Kooleo",
+      "zh-CN": "库里欧",
+      "ja": "クーリオ",
+      "ko": "클레오",
+      "zh-TW": "庫里歐",
+      "uk": "Кула"
+    },
+    "surname": {
+      "en": null,
+      "fr": null,
+      "it": null,
+      "de": null,
+      "es": null,
+      "pt-BR": null,
+      "pl": null,
+      "ru": null,
+      "tr": null,
+      "zh-CN": null,
+      "ja": null,
+      "ko": null,
+      "zh-TW": null,
+      "uk": null
+    },
+    "description": {
+      "en": "Triggers a flood when a weapon evolves. Vacuums all XP Crystals when health reaches a critically low level.",
+      "fr": "Déclenche une inondation lorsqu'une arme évolue. Aspire tous les cristaux d'EXP lorsque sa santé atteint un seuil critique.",
+      "it": "Scatena un'alluvione quando migliora un'arma. Risucchia tutti i cristalli di PE quando la salute raggiunge un livello critico.",
+      "de": "Erzeugt beim Verbessern einer Waffe eine Flutwelle. Saugt bei kritisch niedrigen LP alle EP-Edelsteine an.",
+      "es": "Activa una inundación cuando evoluciona un arma. Absorbe todas las gemas de EXP cuando la salud llega a un punto crítico.",
+      "pt-BR": "Causa uma enchente ao evoluir uma arma. Aspira todas as joias de EXP ao atingir um nível crítico de Vida.",
+      "pl": "Wytwarza powódź po ulepszeniu broni. Przyciąga wszystkie kryształy PD, gdy zdrowie osiągnie krytycznie niski poziom.",
+      "ru": "Активирует наводнение при улучшении оружия. Засасывает все кристаллы опыта, когда здоровье опускается до критически низкого уровня.",
+      "tr": "Silah evrildiğinde bir sel tetikler. Sağlık kritik derecede düşük bir seviyeye ulaştığında tüm XP mücevherlerini çeker.",
+      "zh-CN": "武器升级时触发洪水，濒死时吸取所有经验水晶。",
+      "ja": "武器進化時に洪水を引き起こす。また、HPが著しく低下した際には周囲全てのXPクリスタルを引き寄せる。",
+      "ko": "무기가 진화하면 홍수가 발생합니다. 체력이 매우 낮은 수준에 도달하면 XP 크리스털을 모두 흡입합니다.",
+      "zh-TW": "在解放武器的當下，帕拉能夠發動一波洪水攻擊。在生命值變得相當低的時候，會吸取地圖上所有的經驗值水晶。",
+      "uk": "При еволюції зброї запускає потоп. Притягує всі самоцвіти досвіду, коли здоров'я падає до критичного рівня."
     }
   }
 }

@@ -404,8 +404,26 @@
     "unlockedByStage": "EX_WESTWOODS",
     "unlockedByCharacter": null,
     "unlockedByItem": null,
-    "isUnlocked": true,
+    "isUnlocked": false,
     "icon": "stage_westwoods_icon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.5,
+      "detune": -1000
+    }
+  },
+  "BGM_Seafloor": {
+    "title": "Murder on the Seafloor",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": "EX_LYCAEUM",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "stage_lycaeum_icon.png",
     "hyperMod": {
       "rate": 1.0625,
       "detune": 0

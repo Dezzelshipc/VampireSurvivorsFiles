@@ -479,35 +479,6 @@
       }
     ]
   },
-  "MOON16_DefeatBossRuins": {
-    "description": "Defeat the Orochimario in Mt.Moonspell.",
-    "hyperToUnlock": "MOONSPELL",
-    "UnlockConditions":[
-      {
-        "AchievementUnlockType":"KillBossTypesInRun",
-        "RequiredEnemyTypes":["MS_OROCHIMARIO"]
-      }
-    ],
-    "PlatformsData": [
-      {
-        "Platfrom": "Steam",
-        "Data": "MOON16_DefeatBossRuins"
-      },
-      {
-        "Platfrom": "GameCore",
-        "Data": "158"
-      },
-      {
-        "Platfrom": "PS4",
-        "Data": "053",
-        "PS4NpServiceLabel": "1"
-      },
-      {
-        "Platfrom": "PS5",
-        "Data": "0175"
-      }
-    ]
-  },
   "MOON17_EvolveBubbles": {
     "description": "Evolve the Mille Bolle Blu.",
     "goldPrize": 50000,
@@ -537,6 +508,35 @@
       {
         "Platfrom": "PS5",
         "Data": "0174"
+      }
+    ]
+  },
+  "MOON16_DefeatBossRuins": {
+    "description": "Defeat the Orochimario in Mt.Moonspell.",
+    "hyperToUnlock": "MOONSPELL",
+    "UnlockConditions":[
+      {
+        "AchievementUnlockType":"KillBossTypesInRun",
+        "RequiredEnemyTypes":["MS_OROCHIMARIO"]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "Steam",
+        "Data": "MOON16_DefeatBossRuins"
+      },
+      {
+        "Platfrom": "GameCore",
+        "Data": "158"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "053",
+        "PS4NpServiceLabel": "1"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0175"
       }
     ]
   },

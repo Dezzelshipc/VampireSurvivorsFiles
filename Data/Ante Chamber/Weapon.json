@@ -5,8 +5,8 @@
 	  "name": "Infernolatro",
 	  "contentGroup": "LEMON",
       "bulletType": "LEM_INFERNO1",
-      "frameName": "LEM_INFERNO1.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_INFERNO1.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isUnlocked": false,
 	  "sealable": true,
@@ -22,7 +22,11 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 104,
+	  "tags": [
+        "FIRE"
+      ]
     },
     {
       "duration": 500,
@@ -70,8 +74,8 @@
 		"LEM_ACC_SABOTEUR"
       ],
       "hasUniqueRequirements": true,
-      "frameName": "LEM_INFERNO2.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_INFERNO2.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isEvolution": true,
       "isUnlocked": true,
@@ -87,7 +91,11 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000,
+	  "tags": [
+        "FIRE"
+      ]
     }
   ],
   "LEM_BANANA1": [
@@ -96,8 +104,8 @@
 	  "name": "Gros Michel",
 	  "contentGroup": "LEMON",
       "bulletType": "LEM_BANANA1",
-      "frameName": "LEM_BANANA1.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_BANANA1.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isUnlocked": false,
 	  "sealable": true,
@@ -115,7 +123,8 @@
 	  "penetrating": 1,
 	  "critChance": 0.166,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 104
     },
     {
       "amount": 1
@@ -161,8 +170,8 @@
 		"LEM_ACC_SABOTEUR"
       ],
       "hasUniqueRequirements": true,
-      "frameName": "LEM_BANANA2.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_BANANA2.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isEvolution": true,
       "isUnlocked": true,
@@ -180,7 +189,8 @@
 	  "penetrating": 1,
 	  "critChance": 1,
       "critMul": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000
     }
   ],
   "LEM_BANANA2_HIDDEN": [
@@ -189,8 +199,8 @@
 	  "name": "Bananastrophe",
 	  "contentGroup": "LEMON",
       "bulletType": "LEM_BANANA2_HIDDEN",
-      "frameName": "LEM_BANANA2.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_BANANA2.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isEvolution": false,
       "isUnlocked": false,
@@ -217,8 +227,8 @@
 	  "name": "Fibonacci Spritz",
 	  "contentGroup": "LEMON",
       "bulletType": "LEM_FIBONACCI1",
-      "frameName": "LEM_FIBONACCI1.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_FIBONACCI1.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isUnlocked": false,
 	  "sealable": true,
@@ -234,7 +244,8 @@
       "amount": 1,
       "knockback": 5,
       "hitsWalls": false,
-	  "customDescValue": "%0% chance to fire another weapon."
+	  "customDescValue": "%0% chance to fire another weapon.",
+      "price": 104
     },
     {
 	  "amount": 1,
@@ -286,8 +297,8 @@
 		"LEM_ACC_SABOTEUR"
       ],
       "hasUniqueRequirements": true,
-      "frameName": "LEM_FIBONACCI2.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_FIBONACCI2.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isEvolution": true,
       "isUnlocked": true,
@@ -301,7 +312,8 @@
       "speed": 1,
       "amount": 3,
       "knockback": 5,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000
     }
   ],
   "LEM_PLANETS1": [
@@ -310,8 +322,8 @@
 	  "name": "Celestial Booster",
 	  "contentGroup": "LEMON",
       "bulletType": "LEM_PLANETS1",
-      "frameName": "LEM_PLANETS1.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_PLANETS1.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isUnlocked": false,
 	  "sealable": true,
@@ -325,7 +337,8 @@
       "speed": 1,
       "amount": 1,
       "knockback": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 104
     },
     {
       "amount": 1
@@ -376,8 +389,8 @@
 		"LEM_ACC_SABOTEUR"
       ],
       "hasUniqueRequirements": true,
-      "frameName": "LEM_PLANETS2.png",
-      "texture": "LEM_items",
+      "frameName": "-07-LEM_PLANETS2.png",
+      "texture": "tps_lossless_icons",
 	  "collectionFrame": "frameB_lemon.png",
       "isEvolution": true,
       "isUnlocked": true,
@@ -391,7 +404,8 @@
       "speed": 1.2,
       "amount": 1,
       "knockback": 2,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 5000
     }
   ],
   "LEM_ACC_SABOTEUR": [
@@ -400,11 +414,11 @@
       "sealable": true,
       "bulletType": "LEM_ACC_SABOTEUR",
       "weaponType": "LEM_ACC_SABOTEUR",
-      "frameName":  "LEM_ACC_SABOTEUR.png",
-      "texture": "LEM_items",
+      "frameName":  "-07-LEM_ACC_SABOTEUR.png",
+      "texture": "tps_lossless_icons",
       "contentGroup": "LEMON",
       "collectionFrame": "frameB_lemon.png",
-      "price": 2,
+      "price": 104,
       "name": "Outer Saboteur",
       "description": ".",
       "tips": "-",

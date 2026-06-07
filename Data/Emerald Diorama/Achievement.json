@@ -2,7 +2,7 @@
    "EME_FindEmeraldDisk":{
       "description":"___",
       "stageToUnlock":"EMERALD",
-      "forcedTexture":"items",
+      "forcedTexture":"tps_lossless_icons",
       "forcedFrameName":"relic_emerald_disk",
       "relicToUnlock": "RELIC_EME_DISK",
       "UnlockConditions":[
@@ -17,6 +17,7 @@
    "EME_FindCoffin1":{
       "description":"___",
       "characterToUnlock":"EME_RAPIERDUAL",
+      "requiresItem":"RELIC_EME_DISK",
       "UnlockConditions":[
          {
             "AchievementUnlockType":"HaveOpenedCoffinForXCharacter",
@@ -408,6 +409,7 @@
    "EME_FindCoffin2":{
       "description":"___",
       "characterToUnlock":"EME_SWORDBITE",
+      "requiresItem":"RELIC_EME_DISK",
       "UnlockConditions":[
          {
             "AchievementUnlockType":"HaveOpenedCoffinForXCharacter",

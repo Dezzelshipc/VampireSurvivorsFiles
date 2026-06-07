@@ -352,7 +352,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "IMEL_ACH008",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "HolyBook",
           "foundWeaponType": "HOLYBOOK"
         }
@@ -374,7 +374,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "IMEL_ACH009",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "flame1",
           "requiredEnemyKillType": "SHADERED",
           "requiredEnemyKillCount": 12,
@@ -388,7 +388,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "IMEL_ACH010",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Song",
           "foundWeaponType": "SONG"
         }
@@ -410,7 +410,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "IMEL_ACH012",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Guns",
           "foundWeaponType": "GUNS"
         }
@@ -421,7 +421,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "IMEL_ACH013",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Guns2",
           "foundWeaponType": "GUNS2"
         }
@@ -634,7 +634,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "SHEMOON_ACH010",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "WandFire",
           "foundWeaponType": "FIREBALL"
         }
@@ -645,7 +645,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "SHEMOON_ACH011",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "bracelet1",
           "foundWeaponType": "TRIASSO1"
         }
@@ -656,7 +656,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "SHEMOON_ACH012",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "HolyWater",
           "foundWeaponType": "HOLYWATER"
         }
@@ -667,7 +667,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "SHEMOON_ACH013",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "trapano",
           "foundWeaponType": "TRAPANO"
         }
@@ -678,7 +678,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "SHEMOON_ACH014",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "parma",
           "foundWeaponType": "PARMA"
         }
@@ -849,8 +849,8 @@
         "goldPrize": 5000,
         "adventureUnlockData": {
           "Type": "MS001_ACH009",
-          "iconTextureName": "items",
-          "iconSpriteName": "silverWind2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-01-silverWind2",
           "foundWeaponType": "SILVERWIND2"
         }
       },
@@ -859,8 +859,8 @@
         "goldPrize": 5000,
         "adventureUnlockData": {
           "Type": "MS001_ACH010",
-          "iconTextureName": "items",
-          "iconSpriteName": "fourSeasons2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-01-fourSeasons2",
           "foundWeaponType": "FOURSEASONS2"
         }
       },
@@ -869,8 +869,8 @@
         "goldPrize": 5000,
         "adventureUnlockData": {
           "Type": "MS001_ACH011",
-          "iconTextureName": "items",
-          "iconSpriteName": "icon_echonight",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-01-icon_echonight",
           "foundWeaponType": "SUMMONNIGHT2"
         }
       },
@@ -879,8 +879,8 @@
         "goldPrize": 5000,
         "adventureUnlockData": {
           "Type": "MS001_ACH012",
-          "iconTextureName": "items",
-          "iconSpriteName": "mirageRobe2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-01-mirageRobe2",
           "foundWeaponType": "MIRAGEROBE2"
         }
       },
@@ -1057,8 +1057,8 @@
         "goldPrize": 3000,
         "adventureUnlockData": {
           "Type": "FS001_ACH007",
-          "iconTextureName": "items",
-          "iconSpriteName": "2SpellStrom",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-02-2SpellStrom",
           "foundWeaponType": "SPELL_STROM"
         }
       },
@@ -1067,8 +1067,8 @@
         "goldPrize": 3000,
         "adventureUnlockData": {
           "Type": "FS001_ACH008",
-          "iconTextureName": "items",
-          "iconSpriteName": "2Legionnaire",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-02-2Legionnaire",
           "foundWeaponType": "SWORD2"
         }
       },
@@ -1077,8 +1077,8 @@
         "goldPrize": 3000,
         "adventureUnlockData": {
           "Type": "FS001_ACH009",
-          "iconTextureName": "items",
-          "iconSpriteName": "2Millionaire",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-02-2Millionaire",
           "foundWeaponType": "FLASHARROW2"
         }
       },
@@ -1087,7 +1087,7 @@
         "goldPrize": 3000,
         "adventureUnlockData": {
           "Type": "FS001_ACH010",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "icon_gazeofgaea",
           "requiredEnemyKillType": "FS_BOSS_AGAEA",
           "requiredEnemyKillCount": 1
@@ -1097,7 +1097,7 @@
         "description": "Find the forbidden coffin in \"Tides of the Foscari\".",
         "characterToUnlock": "CTRPCAKE",
         "adventureUnlockData": {
-          "Type": "FS001_ACH011",
+          "Type": "FS001_ACH014",
           "iconTextureName": "UI",
           "iconSpriteName": "p_2sammy",
           "requiredStage": "ADV_FOSCARI_006",
@@ -1108,7 +1108,7 @@
         "description": "With the true horror, devour everything in \"The True Horror\".",
         "characterToUnlock": "GENEVIEVE",
         "adventureUnlockData": {
-          "Type": "FS001_ACH012",
+          "Type": "FS001_ACH011",
           "iconTextureName": "UI",
           "iconSpriteName": "p_2genevieve",
           "requiredStage": "ADV_FOSCARI_007",
@@ -1121,7 +1121,7 @@
         "description": "Survive 30 minutes with Genevieve.",
         "characterToUnlock": "MEGAGENEVIEVE",
         "adventureUnlockData": {
-          "Type": "FS001_ACH013",
+          "Type": "FS001_ACH012",
           "iconTextureName": "UI",
           "iconSpriteName": "p_2megag",
           "requiredCharacter": "GENEVIEVE",
@@ -1132,7 +1132,7 @@
         "description": "Reach Level 80.",
         "stageToUnlock": "ADV_BAZAAR",
         "adventureUnlockData": {
-          "Type": "FS001_ACH014",
+          "Type": "FS001_ACH013",
           "iconTextureName": "UI",
           "iconSpriteName": "stage_bazaar_icon",
           "requiredLevel": 80
@@ -1333,8 +1333,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "CHAL_ACH011",
-          "iconTextureName": "items",
-          "iconSpriteName": "SwipeCard2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-03-SwipeCard2",
           "requiredLevel": 80,
           "foundWeaponType": "C1_SWIPECARD2"
         }
@@ -1344,8 +1344,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "CHAL_ACH012",
-          "iconTextureName": "items",
-          "iconSpriteName": "Samples2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-03-Samples2",
           "foundWeaponType": "C1_SAMPLES2"
         }
       },
@@ -1354,8 +1354,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "CHAL_ACH013",
-          "iconTextureName": "items",
-          "iconSpriteName": "Vent2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-03-Vent2",
           "foundWeaponType": "C1_VENT2"
         }
       },
@@ -1364,8 +1364,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "CHAL_ACH014",
-          "iconTextureName": "items",
-          "iconSpriteName": "Medical2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-03-Medical2",
           "foundWeaponType": "C1_MEDICAL2"
         }
       },
@@ -1740,8 +1740,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "FB_ACH021",
-          "iconTextureName": "items",
-          "iconSpriteName": "fb_A2_prototype",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-04-fb_A2_prototype",
           "foundWeaponType": "FB_PROTOTYPE_B"
         }
       },
@@ -1750,8 +1750,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "FB_ACH022",
-          "iconTextureName": "items",
-          "iconSpriteName": "fb_spread2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-04-fb_spread2",
           "foundWeaponType": "FB_PROTOTYPE_C"
         }
       },
@@ -1760,8 +1760,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "FB_ACH023",
-          "iconTextureName": "items",
-          "iconSpriteName": "fb_laser2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-04-fb_laser2",
           "foundWeaponType": "FB_PROTONBEAM"
         }
       },
@@ -1770,8 +1770,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "FB_ACH024",
-          "iconTextureName": "items",
-          "iconSpriteName": "fb_fire2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-04-fb_fire2",
           "foundWeaponType": "FB_FIREWALL"
         }
       },
@@ -1780,8 +1780,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "FB_ACH025",
-          "iconTextureName": "items",
-          "iconSpriteName": "fb_B1_crush",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-04-fb_B1_crush",
           "foundWeaponType": "FB_CRUSH"
         }
       },
@@ -1790,8 +1790,8 @@
         "goldPrize": 10000,
         "adventureUnlockData": {
           "Type": "FB_ACH026",
-          "iconTextureName": "items",
-          "iconSpriteName": "fb_claw2",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-04-fb_claw2",
           "foundWeaponType": "FB_BIGFUZZYFIST"
         }
       },
@@ -1873,7 +1873,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH001",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "wing",
           "requiredLevel": 5
         }
@@ -1884,7 +1884,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH002",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "crown",
           "requiredLevel": 10
         }
@@ -1895,7 +1895,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH003",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "EmblemEye",
           "requiredLevel": 15
         }
@@ -2005,7 +2005,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH012",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "HeartBlack",
           "requiredMinute": 1,
           "requiredStage": "ADV_OTC_001_001_Woods"
@@ -2029,7 +2029,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH014",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Diamond2",
           "requiredCharacter": "TP_SYPHA",
           "requiredMinute": 5
@@ -2041,7 +2041,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH015",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "HeartRuby",
           "requiredCharacter": "TP_GRANT",
           "requiredMinute": 5
@@ -2053,7 +2053,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH016",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "gauntlet",
           "requiredCharacter": "TP_ALUCARD",
           "requiredMinute": 5
@@ -2065,7 +2065,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH017",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "silf1",
           "requiredCharacter": "TP_MARIAA",
           "requiredMinute": 10
@@ -2077,8 +2077,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH018",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_ALCHEMYWHIP1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_ALCHEMYWHIP1",
           "requiredCharacter": "TP_LEON",
           "requiredMinute": 10
         }
@@ -2089,7 +2089,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH019",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Candelabra",
           "requiredCharacter": "TP_JOHN",
           "requiredMinute": 15
@@ -2101,7 +2101,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH020",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Ring",
           "requiredCharacter": "TP_CHARLOTTE",
           "requiredMinute": 15
@@ -2113,8 +2113,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH021",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_WIND1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_WIND1",
           "requiredCharacter": "TP_SIMON",
           "requiredMinute": 20
         }
@@ -2125,7 +2125,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH022",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "parma",
           "requiredCharacter": "TP_CHRISTOPHER",
           "requiredMinute": 20
@@ -2137,8 +2137,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH023",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_SHURIKEN1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_SHURIKEN1",
           "requiredCharacter": "TP_JUSTE",
           "requiredMinute": 25
         }
@@ -2149,8 +2149,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH024",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_DISCUS1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_DISCUS1",
           "requiredCharacter": "TP_SONIA",
           "requiredMinute": 25
         }
@@ -2161,8 +2161,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH025",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_EARTH1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_EARTH1",
           "requiredEnemyKillType": "TP_ADV_BOSS_BEHEMOTH",
           "requiredEnemyKillCount": 1,
           "requiredStage": "ADV_OTC_001_001_Woods"
@@ -2174,7 +2174,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH026",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "curse",
           "requiredEnemyKillType": "TP_ADV_CARMILLA",
           "requiredEnemyKillCount": 1,
@@ -2187,8 +2187,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH027",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_ELEC1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_ELEC1",
           "requiredEnemyKillCount": 1,
           "requiredEnemyKillType": "TP_ADV_BOSS_CREATURE",
           "requiredStage": "ADV_OTC_001_003_Library"
@@ -2200,7 +2200,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH028",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "silf2",
           "requiredEnemyKillType": "TP_ADV_BOSS_MALPHAS",
           "requiredEnemyKillCount": 1,
@@ -2213,7 +2213,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH029",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "dominion",
           "requiredEnemyKillCount": 1,
           "requiredEnemyKillType": "TP_ADV_BOSS_SUCCUBUS",
@@ -2226,7 +2226,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH030",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "torrone",
           "requiredEnemyKillCount": 1,
           "requiredEnemyKillType": "TP_ADV_BOSS_JIANGSHI",
@@ -2251,7 +2251,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH032",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "mask",
           "requiredStage": "ADV_OTC_001_002_Entrance",
           "foundWeaponType": "GREED"
@@ -2263,7 +2263,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH033",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "book2",
           "requiredStage": "ADV_OTC_001_003_Library",
           "foundWeaponType": "COOLDOWN"
@@ -2275,7 +2275,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH034",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "lancet",
           "requiredStage": "ADV_OTC_001_004_Clock",
           "foundWeaponType": "LANCET"
@@ -2287,7 +2287,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH035",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Tiramisu",
           "requiredStage": "ADV_OTC_001_005_Throne",
           "foundWeaponType": "REVIVAL"
@@ -2299,7 +2299,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH036",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "armadio",
           "foundWeaponType": "ARMADIO"
         }
@@ -2545,8 +2545,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH056",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_DRAGONWATER1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_DRAGONWATER1",
           "foundWeaponType": "TP_DRAGONWATER2"
         }
       },
@@ -2556,8 +2556,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH057",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_ICE1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_ICE1",
           "foundWeaponType": "TP_ICE2"
         }
       },
@@ -2567,8 +2567,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH058",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_BWAKA1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_BWAKA1",
           "foundWeaponType": "TP_BWAKA2"
         }
       },
@@ -2578,8 +2578,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH059",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_ALUCARDSWORD1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_ALUCARDSWORD1",
           "foundWeaponType": "TP_ALUCARDSWORD2"
         }
       },
@@ -2589,8 +2589,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH060",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_ALUCARDSPEAR1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_ALUCARDSPEAR1",
           "foundWeaponType": "TP_ALUCARDSPEAR2"
         }
       },
@@ -2600,8 +2600,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH061",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_FIRE1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_FIRE1",
           "foundWeaponType": "TP_FIRE2"
         }
       },
@@ -2611,8 +2611,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH062",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_ELEC1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_ELEC1",
           "foundWeaponType": "TP_ELEC2"
         }
       },
@@ -2622,8 +2622,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH063",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_ORIGINS1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_ORIGINS1",
           "foundWeaponType": "TP_SONICWHIP2"
         }
       },
@@ -2633,8 +2633,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH064",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_WINDWHIP1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_WINDWHIP1",
           "foundWeaponType": "TP_WINDWHIP2"
         }
       },
@@ -2644,8 +2644,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH065",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_LEMURIA1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_LEMURIA1",
           "foundWeaponType": "TP_LEMURIA2"
         }
       },
@@ -2655,8 +2655,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH066",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_SACREDBEASTS1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_SACREDBEASTS1",
           "foundWeaponType": "TP_SACREDBEASTS2"
         }
       },
@@ -2666,8 +2666,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH067",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_PLATINUMWHIP1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_PLATINUMWHIP1",
           "foundWeaponType": "TP_PLATINUMWHIP2"
         }
       },
@@ -2677,8 +2677,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH068",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_HOLYWHIP1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_HOLYWHIP1",
           "foundWeaponType": "TP_HOLYWHIP2"
         }
       },
@@ -2688,8 +2688,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH069",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_MACE1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_MACE1",
           "foundWeaponType": "TP_MACE2"
         }
       },
@@ -2699,8 +2699,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH070",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_SHURIKEN1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_SHURIKEN1",
           "foundWeaponType": "TP_SHURIKEN2"
         }
       },
@@ -2710,8 +2710,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH071",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_DISCUS1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_DISCUS1",
           "foundWeaponType": "TP_DISCUS2"
         }
       },
@@ -2721,8 +2721,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH072",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_EARTH1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_EARTH1",
           "foundWeaponType": "TP_EARTH2"
         }
       },
@@ -2732,8 +2732,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH073",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_CONFODERE1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_CONFODERE1",
           "foundWeaponType": "TP_CONFODERE3"
         }
       },
@@ -2743,8 +2743,8 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH074",
-          "iconTextureName": "TP_items",
-          "iconSpriteName": "TP_WINEGLASS1",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-05-TP_WINEGLASS1",
           "foundWeaponType": "TP_WINEGLASS2"
         }
       },
@@ -2754,7 +2754,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH075",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Whip",
           "foundWeaponType": "VAMPIRICA"
         }
@@ -2765,7 +2765,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH076",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "wandHoly",
           "foundWeaponType": "HOLY_MISSILE"
         }
@@ -2776,7 +2776,7 @@
         "goldPrize": 500,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH077",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "LighningRing",
           "foundWeaponType": "LOOP"
         }
@@ -2786,7 +2786,7 @@
         "goldPrize": 5000,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH078",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "Silf3",
           "foundWeaponType": "SILF3"
         }
@@ -2807,7 +2807,7 @@
         "goldPrize": 1000,
         "adventureUnlockData": {
           "Type": "OTC_001_ACH080",
-          "iconTextureName": "items",
+          "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "cape",
           "foundWeaponType": "SHROUD"
         }

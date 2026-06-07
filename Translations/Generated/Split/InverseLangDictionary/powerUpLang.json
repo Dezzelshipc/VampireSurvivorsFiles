@@ -239,8 +239,8 @@
       "description": "Les actions Relancer, Passer, et Bannir ont 10 % de chance d'être préservées par rang (50 % max)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Temps d'invulnérabilité",
+      "description": "Augmente le temps d'invulnérabilité après avoir subi des dégâts de 50 ms par rang (250 ms max.)."
     }
   },
   "it": {
@@ -361,8 +361,8 @@
       "description": "Le azioni Risorteggio, Esenzione ed Esclusione hanno il 10% di probabilità per grado di essere conservate (max 50%)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Tempo Invul.",
+      "description": "Aumenta di 50 ms per rango il tempo di invulnerabilità dopo aver subito danni (massimo 250 ms)"
     }
   },
   "de": {
@@ -483,8 +483,8 @@
       "description": "Chance von 10% pro Rang (max. 50%), dass Überspringen, Neuwahl und Verbannen beim Auslösen erhalten bleiben."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Unverwundbarkeitssdauer",
+      "description": "Erhöht die Dauer der Unverwundbarkeit nach dem Erleiden von Schaden pro Rang um 50 ms (max. 250 ms)."
     }
   },
   "es": {
@@ -605,8 +605,8 @@
       "description": "Las acciones de cambiar, saltar y eliminar tienen un 10 % de probabilidad de preservarse por grado (máx.: 50 %)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Tiempo de invul.",
+      "description": "Aumenta en 50 ms el tiempo de invulnerabilidad tras recibir daño por grado (máx.: 250 ms)."
     }
   },
   "pt-BR": {
@@ -727,8 +727,8 @@
       "description": "Ações de Rolar Novamente, Adiar e Banir têm 10% de chance de serem preservadas por classe (máx. de 50%)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Hora da Invul",
+      "description": "Aumenta o tempo de invulnerabilidade após sofrer dano em 50 ms por classe (máx. de 250 ms)"
     }
   },
   "pl": {
@@ -849,8 +849,8 @@
       "description": "10% szans na rangę (maks. 50%), że akcje zmiany, pomijania i odrzucenia zostaną zastosowane do końca rozgrywki."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Czas niezniszczalności",
+      "description": "Zwiększa czas niezniszczalności po otrzymaniu obrażeń o 50 ms na rangę (maks. 250 ms)"
     }
   },
   "ru": {
@@ -971,8 +971,8 @@
       "description": "Повтор, пропуск и изгнание сохраняются с шансом 10% за ранг (макс. 50%)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Время неуязвимости",
+      "description": "Продлевает время неуязвимости после получения урона на 50 мс за каждый ранг (макс. 250 мс)."
     }
   },
   "tr": {
@@ -1093,8 +1093,8 @@
       "description": "Tekrar Atma, Atlama ve Çıkarma hamleleri rütbe başına %10 şansla muhafaza edilir (maks %50)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Dokunmazlık Süresi",
+      "description": "Hasar aldıktan sonra dokunulmazlık süresini rütbe başına 50ms artırır (Maks. 250ms)"
     }
   },
   "zh-CN": {
@@ -1215,8 +1215,8 @@
       "description": "每强化一层，重选、跳过和排除操作有+10%的几率保留，最多+50%。"
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "无敌时间",
+      "description": "每强化一层，在承受伤害后，无敌时间+50毫秒，最多+250毫秒。"
     }
   },
   "ja": {
@@ -1337,8 +1337,8 @@
       "description": "リロール、スキップ、選択肢消去のアクションが1ランクにつき10%（最大50%）の確率で持続する。"
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "無敵タイム",
+      "description": "ダメージを受けた後の無敵状態を、1ランクにつき50ms引き延ばす（最大250ms）。"
     }
   },
   "ko": {
@@ -1459,8 +1459,8 @@
       "description": "다시 뽑기, 건너뛰기, 배니쉬 액션은 랭크당 10%의 확률로 유지됩니다(최대 50%)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "무적 시간",
+      "description": "피해를 입은 후 무적 상태가 되는 시간이 랭크당 50ms(최대 250ms) 증가합니다."
     }
   },
   "zh-TW": {
@@ -1581,8 +1581,8 @@
       "description": "每強化一級，有 10% 的機率能夠保留重骰、跳過或是滅除的額度，最多提高 50% 的機率。"
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "無敵時間",
+      "description": "每強化一級，受到傷害後所會觸發的無敵時間便會延長 50 毫秒（最多可延長 250 毫秒）。"
     }
   },
   "uk": {
@@ -1703,8 +1703,8 @@
       "description": "Дії «Повтор», «Пропуск» і «Вигнання» можуть зберегтись із шансом 10% за кожен ранг (макс. 50%)."
     },
     "INVUL": {
-      "name": "Invul Time",
-      "description": "Increases invulnerability time after getting damaged by 50ms per rank (Max 250ms)"
+      "name": "Час невразливості",
+      "description": "Збільшує час невразливості після отримання шкоди на 50 мс./ранг (макс. 250 мс)"
     }
   }
 }
