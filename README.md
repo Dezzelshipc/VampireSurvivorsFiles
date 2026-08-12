@@ -12,6 +12,6 @@ Ripped from v1.16 (see [exact versions](Game%20Version.txt)) using [Vampire Unpa
 * Emerald Diorama
 * Ante Chamber
 
-See [branches](https://github.com/Dezzelshipc/VampireSurvivorsFiles/branches) for beta updates.
+See [branches](https://github.com/Dezzelshipc/VampireSurvivorsFiles/branches) for beta versions.
 
 [Vampire Survivors](https://store.steampowered.com/app/1794680/) by [poncle](https://poncle.games)
