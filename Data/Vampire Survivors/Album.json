@@ -3,8 +3,8 @@
     "isUnlocked": true,
     "title": "Vampire Survivors Side A",
     "icon": "VS_InGame_Album_VS_SideA.png",
-    "contentGroupType" : "BASE",
-    "trackList" : [
+    "contentGroupType": "BASE",
+    "trackList": [
       "BGM_Library",
       "BGM_Plant",
       "BGM_Tower",
@@ -33,8 +33,8 @@
     "isUnlocked": true,
     "title": "Vampire Survivors Side B",
     "icon": "VS_InGame_Album_VS_SideB.png",
-    "contentGroupType" : "BASE",
-    "trackList" : [
+    "contentGroupType": "BASE",
+    "trackList": [
       "BGM_Forest_B",
       "BGM_Library_B",
       "BGM_Plant_B",
@@ -51,9 +51,9 @@
   "VampireSurvivorsC": {
     "isUnlocked": true,
     "title": "Vampire Survivors Side C",
-    "icon":"VS_InGame_Album_VS_SideC.png",
-    "contentGroupType" : "BASE",
-    "trackList" : [
+    "icon": "VS_InGame_Album_VS_SideC.png",
+    "contentGroupType": "BASE",
+    "trackList": [
       "BGM_Bridge",
       "BGM_Snow",
       "BGM_SpaceDude",
@@ -69,22 +69,42 @@
     "isUnlocked": true,
     "title": "Legacy of the Moonspell",
     "icon": "VS_InGame_Album_Moonspell.png",
-    "contentGroupType" : "MOONSPELL",
-    "trackList" : [
+    "contentGroupType": "MOONSPELL",
+    "trackList": [
       "BMG_Moonspell",
       "BGM_Silver",
       "BGM_FourSeasons",
       "BGM_Night1",
       "BGM_Night2",
-      "BGM_Mirage"
+      "BGM_Mirage",
+      "BGM_Moonlight"
+    ]
+  },
+  "LegacyOfTheBloodmoon": {
+    "isUnlocked": true,
+    "title": "Legacy of the Bloodmoon",
+    "icon": "VS_InGame_Album_Bloodmoon.png",
+    "contentGroupType": "BLOODMOON",
+    "trackList": [
+      "BGM_Bloodmoon",
+      "BGM_Malice",
+      "BGM_Calogero",
+      "BGM_Ashtart",
+      "BGM_Congregation",
+      "BGM_SargonA",
+      "BGM_SargonB",
+      "BGM_BaalA",
+      "BGM_BaalB",
+      "BGM_BraveFairies",
+      "BGM_LyingFairies"
     ]
   },
   "TidesOfTheFoscari": {
     "isUnlocked": true,
     "title": "Tides of the Foscari",
     "icon": "VS_InGame_Album_Foscari.png",
-    "contentGroupType" : "FOSCARI",
-    "trackList" : [
+    "contentGroupType": "FOSCARI",
+    "trackList": [
       "BGM_Foscari",
       "BGM_Magic",
       "BGM_War",
@@ -102,8 +122,8 @@
     "isUnlocked": true,
     "title": "Emergency Meeting",
     "icon": "VS_InGame_Album_EmergencyMeeting.png",
-    "contentGroupType" : "CHALCEDONY",
-    "trackList" : [
+    "contentGroupType": "CHALCEDONY",
+    "trackList": [
       "BGM_CAL_MainTheme",
       "BGM_CAL_HideSeek",
       "BGM_CAL_NoDucks",
@@ -116,8 +136,8 @@
     "isUnlocked": true,
     "title": "Operation Guns",
     "icon": "VS_InGame_Album_OperationGuns.png",
-    "contentGroupType" : "FIRST_BLOOD",
-    "trackList" : [
+    "contentGroupType": "FIRST_BLOOD",
+    "trackList": [
       "BGM_FB_COVER_00_Jung",
       "BGM_FB_COVER_02_Wate",
       "BGM_FB_COVER_05_Yoro",
@@ -143,8 +163,8 @@
     "isUnlocked": true,
     "title": "Ode to Castlevania",
     "icon": "VS_InGame_Album_OdeToCastlevania.png",
-    "contentGroupType" : "THOSE_PEOPLE",
-    "trackList" : [
+    "contentGroupType": "THOSE_PEOPLE",
+    "trackList": [
       "BGM_TP_VS_VampireKiller",
       "BGM_TP_VS_BloodyTears",
       "BGM_TP_VS_DraculasCastle",
@@ -155,7 +175,7 @@
       "BGM_TP_VS_TreasuryRoom",
       "BGM_TP_VS_C64Medley",
       "BGM_TP_VS_BlackDisk",
-      
+
       "BGM_TP_VS_MoonlightNocturne",
       "BGM_TP_VS_LostPainting",
       "BGM_TP_VS_DanceOfPearls",
@@ -166,7 +186,7 @@
       "BGM_TP_VS_DraculasTears",
       "BGM_TP_VS_AmberScenery",
       "BGM_TP_VS_TragicPrince",
-      
+
       "BGM_TP_VS_TheBeginning",
       "BGM_TP_VS_Aquarius",
       "BGM_TP_VS_WanderingTheCrystalBlue",
@@ -202,8 +222,8 @@
     "isUnlocked": true,
     "title": "Castlevania Series",
     "icon": "VS_InGame_Album_CastlevaniaSeries.png",
-    "contentGroupType" : "THOSE_PEOPLE",
-    "trackList" : [
+    "contentGroupType": "THOSE_PEOPLE",
+    "trackList": [
 
       "BGM_TP_sotn_DanceOfPales",
       "BGM_TP_sotn_DanceOfIllusions",
@@ -226,7 +246,7 @@
       "BGM_TP_Bloodlines_TheSinkingOldSanctuary",
       "BGM_TP_Bloodlines_Beginning",
       "BGM_TP_Bloodlines_VampireKiller",
-      
+
       "BGM_TP_hod_AfterConfession",
       "BGM_TP_hod_AnEmptyTome",
       "BGM_TP_hod_Aquarius",
@@ -250,7 +270,7 @@
       "BGM_TP_por_IronBlueIntention",
       "BGM_TP_por_TheHiddenCurse",
       "BGM_TP_por_VictorianFear",
-      
+
       "BGM_TP_dos_AfterConfession",
       "BGM_TP_dos_AmberScenery",
       "BGM_TP_dos_DraculasTears",
@@ -273,8 +293,8 @@
     "isUnlocked": true,
     "title": "Emerald Diorama Series",
     "icon": "VS_InGame_Album_EmeraldDiorama.png",
-    "contentGroupType" : "EMERALDS",
-    "trackList" : [
+    "contentGroupType": "EMERALDS",
+    "trackList": [
       "BGM_EME_QUICK",
       "BGM_EME_DESTINY",
       "BGM_EME_ENCHANTED",
@@ -290,8 +310,8 @@
     "isUnlocked": true,
     "title": "Ante Chamber",
     "icon": "VS_InGame_Album_Friends.png",
-    "contentGroupType" : "LEMON",
-    "trackList" : [
+    "contentGroupType": "LEMON",
+    "trackList": [
       "BGM_LEM_CHAMBER"
     ]
   }

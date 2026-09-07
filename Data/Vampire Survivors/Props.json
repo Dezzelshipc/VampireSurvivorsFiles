@@ -159,5 +159,20 @@
     "destroyedAmount": 0,
     "maxHp": 5,
     "destructibleType": "EX_TOHILSTATUE"
+  },
+  "GOTHIC_BRAZIER": {
+    "textureName": "tps_lossless_icons",
+    "frameName": "-08-GothicBrazier",
+    "destroyedAmount": 0,
+    "maxHp": 1,
+    "destructibleType": "GOTHIC_BRAZIER",
+    "lightColor": 16719904
+  },
+  "KUJATASTATUE": {
+    "textureName": "bloodmoonEnemies",
+    "frameName": "KujataStatue_",
+    "destroyedAmount": 0,
+    "maxHp": 100,
+    "destructibleType": "KUJATASTATUE"
   }
 }

@@ -1,231 +1,51 @@
 {
-  "SILVERWIND": [
+  "BMN000_SCARLET1": [
     {
       "rarity": 10,
       "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 10,
-      "speed": 0.05,
-      "max": 3
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 20
-    }
-  ],
-  "SILVERWIND2": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 10,
-      "speed": 0.05,
-      "max": 3
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 20
-    }
-  ],
-  "SILVERWIND3": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 10,
-      "speed": 0.05,
-      "max": 3
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 20
-    }
-  ],
-  "FOURSEASONS": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    }
-  ],
-  "FOURSEASONS2": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    }
-  ],
-  "SUMMONNIGHT": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 5
-    }
-  ],
-  "SUMMONNIGHT2": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 5
-    }
-  ],
-  "MIRAGEROBE": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 20
-    }
-  ],
-  "MIRAGEROBE2": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 10,
-      "speed": 0.05,
-      "max": 3
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 20
-    }
-  ],
-  "NIGHTSWORD": [
-    {
-      "rarity": 20,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 20
-    }
-  ],
-  "NIGHTSWORD2": [
-    {
-      "rarity": 20,
-      "power": 0.05
-    },
-    {
-      "rarity": 10,
-      "area": 0.025,
-      "max": 10
-    },
-    {
-      "rarity": 1,
-      "amount": 1,
-      "max": 20
     },
     {
       "rarity": 5,
-      "critChance": 0.025,
-      "max": 1
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
     }
   ],
-  "BUBBLES": [
+  "BMN001_SCARLET2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 5,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "BMN002_DUST1": [
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    }
+  ],
+  "BMN003_DUST2": [
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    }
+  ],
+  "BMN004_AXE1": [
     {
       "rarity": 10,
       "power": 0.05
@@ -234,11 +54,6 @@
       "rarity": 10,
       "area": 0.025,
       "max": 10
-    },
-    {
-      "rarity": 10,
-      "speed": 0.05,
-      "max": 3
     },
     {
       "rarity": 1,
@@ -251,7 +66,7 @@
       "max": 10
     }
   ],
-  "BUBBLES2": [
+  "BMN005_AXE2": [
     {
       "rarity": 10,
       "power": 0.05
@@ -262,9 +77,47 @@
       "max": 10
     },
     {
+      "rarity": 1,
+      "duration": 100,
+      "max": 9000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 10
+    }
+  ],
+  "BMN006_SCREAM1": [
+    {
       "rarity": 10,
-      "speed": 0.05,
-      "max": 3
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    }
+  ],
+  "BMN007_SCREAM2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    }
+  ],
+  "BMN008_BLACKEN1": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
     },
     {
       "rarity": 1,
@@ -274,6 +127,108 @@
     {
       "rarity": 1,
       "amount": 1,
+      "max": 5
+    }
+  ],
+  "BMN009_BLACKEN2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 9000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 5
+    }
+  ],
+  "BMN010_FIRE1_FALL": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "BMN011_FIRE2_BALL": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 9000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "BMN012_FIRE3_WALL": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 9000
+    }
+  ],
+  "BMN013_FIRE4": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 9000
+    }
+  ],
+  "DESCENT_MISERY": [
+    {
+      "rarity": 100,
+      "power": 0.05
+    },
+    {
+      "rarity": 1,
+      "amount": 0.025,
+      "max": 10
+    }
+  ],
+  "SHIMMERING_SANDS": [
+    {
+      "rarity": 100,
+      "power": 0.05
+    },
+    {
+      "rarity": 1,
+      "amount": 0.025,
       "max": 10
     }
   ],
@@ -288,55 +243,23 @@
       "max": 10
     }
   ],
-  "MS_LUNAR1_MIGHT": [
+  "PRAYERS": [
     {
       "rarity": 10,
       "power": 0.05
     },
     {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "area": 0.025,
-      "max": 2
-    }
-  ],
-  "MS_LUNAR2_SIGHT": [
-    {
       "rarity": 10,
-      "power": 0.05
+      "area": 0.025,
+      "max": 10
     },
     {
       "rarity": 1,
       "duration": 100,
       "max": 9000
-    },
-    {
-      "rarity": 1,
-      "area": 0.025,
-      "max": 2
     }
   ],
-  "MS_LUNAR3_BIGHT": [
-    {
-      "rarity": 10,
-      "power": 0.05
-    },
-    {
-      "rarity": 1,
-      "duration": 100,
-      "max": 9000
-    },
-    {
-      "rarity": 1,
-      "area": 0.025,
-      "max": 2
-    }
-  ],
-  "MS_LUNAR4": [
+  "HEAVENSROAD": [
     {
       "rarity": 10,
       "power": 0.05

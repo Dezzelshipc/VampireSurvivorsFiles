@@ -107,6 +107,105 @@
       "intervalDependsOnDuration": false
     }
   ],
+  "SILVERWIND3": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "bulletType": "SILVERWIND3",
+      "name": "SILVERWIND3",
+      "description": "BMN_W_018 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-silverWind3.png",
+      "collectionFrame": "frameB_blue.png",
+      "evolvesFrom": [
+        "SILVERWIND2"
+      ],
+      "requires": [
+        "SILVERWIND2",
+        "PANDORA"
+      ],
+      "requiresMax": [
+        "SILVERWIND2",
+        "PANDORA"
+      ],
+      "isEvolution": true,
+      "hidden": true,
+      "isUnlocked": true,
+      "sealable": true,
+      "poolLimit": 20,
+      "rarity": 1,
+      "interval": 5000,
+      "duration": 5000,
+      "repeatInterval": 300,
+      "hitBoxDelay": 500,
+      "power": 6,
+      "area": 1,
+      "speed": 1,
+      "amount": 4,
+      "knockback": 0,
+      "hitsWalls": false,
+      "critChance": 0,
+      "critMul": 1,
+      "chance": 0.05
+    }
+  ],
+  "BOCCE": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "sealable": true,
+      "bulletType": "BOCCE",
+      "price": 108,
+      "name": "108 Bocce",
+      "description": "Actually it's just 8. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignores: amount, duration, speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-bocce.png",
+      "collectionFrame": "frameB_blue.png",
+      "evoSynergy": [
+        "PRAYERS"
+      ],
+      "evoInto": "HEAVENSROAD",
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity": 10,
+      "interval": 8000,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "repeatInterval": 50,
+      "power": 1.2,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "power": 0.4,
+      "interval": -100
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "power": 0.4,
+      "interval": -100
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "power": 0.4,
+      "interval": -100
+    },
+    {
+      "power": 0.4
+    }
+  ],
   "FOURSEASONS": [
     {
       "level": 1,
@@ -403,104 +502,6 @@
       "penetrating": 3
     }
   ],
-  "NIGHTSWORD": [
-    {
-      "level": 1,
-      "contentGroup": "MOONSPELL",
-      "sealable": true,
-      "bulletType": "NIGHTSWORD",
-      "price": 180,
-      "name": "Night Sword",
-      "description": "Strikes with a combo attack at the nearest enemy. Retaliates. Might steals hearts.",
-      "tips": "Ignores: speed, duration.",
-      "texture": "tps_lossless_icons",
-      "frameName": "-01-nightSword.png",
-      "collectionFrame": "frameB_blue.png",
-      "evoSynergy": [
-        "GREED"
-      ],
-      "evoInto": "NIGHTSWORD2",
-      "isUnlocked": false,
-      "poolLimit": 100,
-      "rarity": 30,
-      "interval": 2200,
-      "repeatInterval": 100,
-      "power": 0.5,
-      "area": 1,
-      "speed": 1,
-      "amount": 2,
-      "hitsWalls": false,
-      "critChance": 0.1,
-      "critMul": 2,
-      "canCrit": false,
-      "unexcludeSelf": true,
-      "chance": 0.01
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 0.5,
-      "area": 0.2
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 1,
-      "area": 0.2
-    },
-    {
-      "amount": 1
-    },
-    {
-      "power": 1,
-      "area": 0.2
-    },
-    {
-      "power": 1,
-      "addEvolvedWeapon": "NIGHTSWORD2"
-    }
-  ],
-  "NIGHTSWORD2": [
-    {
-      "level": 1,
-      "contentGroup": "MOONSPELL",
-      "sealable": true,
-      "bulletType": "NIGHTSWORD2",
-      "name": "Muramasa",
-      "description": "Evolved Night Sword. Enables critical hits and combo finisher. Drains Health.",
-      "tips": "Requires Max: Stone Mask.",
-      "texture": "tps_lossless_icons",
-      "frameName": "-01-nightSword2.png",
-      "collectionFrame": "frameB_blue.png",
-      "evolvesFrom": [
-        "NIGHTSWORD"
-      ],
-      "requires": [
-        "GREED"
-      ],
-      "requiresMax": [
-        "GREED"
-      ],
-      "isEvolution": true,
-      "isUnlocked": true,
-      "poolLimit": 100,
-      "rarity": 1,
-      "price": 6600,
-      "interval": 1500,
-      "repeatInterval": 50,
-      "power": 10,
-      "area": 1.6,
-      "speed": 1,
-      "amount": 5,
-      "hitsWalls": false,
-      "critChance": 0.1,
-      "critMul": 2,
-      "canCrit": true,
-      "chance": 0.1
-    }
-  ],
   "BUBBLES": [
     {
       "level": 1,
@@ -599,56 +600,340 @@
       "knockback": 0.1
     }
   ],
-  "BOCCE": [
+  "MS_LUNAR1_MIGHT": [
     {
       "level": 1,
       "contentGroup": "MOONSPELL",
       "sealable": true,
-      "bulletType": "BOCCE",
-      "price": 108,
-      "name": "108 Bocce",
-      "description": "Actually it's just 8. Damage affected by the difference between Curse and Luck.",
-      "tips": "Ignores: amount, duration, speed.",
+      "bulletType": "MS_LUNAR1_MIGHT",
+      "price": 800,
+      "name": "MS_LUNAR1_MIGHT",
+      "description": "BMN_W_014 description",
+      "tips": "Ignores: amount, area, speed.",
       "texture": "tps_lossless_icons",
-      "frameName": "-01-bocce.png",
+      "frameName": "-01-lunar1.png",
       "collectionFrame": "frameB_blue.png",
       "isUnlocked": false,
+      "evoSynergy": [
+        "MS_LUNAR2_SIGHT",
+        "MS_LUNAR3_BIGHT"
+      ],
+      "evoInto": "MS_LUNAR4",
+      "poolLimit": 20,
+      "rarity": 70,
+      "interval": 5000,
+      "duration": 2500,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitBoxDelay": 750,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "interval": -500,
+      "hitBoxDelay": -125
+    },
+    {
+      "duration": 500
+    },
+    {
+      "interval": -500,
+      "hitBoxDelay": -125
+    },
+    {
+      "power": 0.5
+    }
+  ],
+  "MS_LUNAR2_SIGHT": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "sealable": true,
+      "bulletType": "MS_LUNAR2_SIGHT",
+      "price": 800,
+      "name": "MS_LUNAR2_SIGHT",
+      "description": "BMN_W_015 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-lunar2.png",
+      "collectionFrame": "frameB_blue.png",
+      "evoSynergy": [
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR3_BIGHT"
+      ],
+      "evoInto": "MS_LUNAR4",
+      "isUnlocked": false,
       "poolLimit": 50,
-      "rarity": 10,
-      "interval": 8000,
-      "duration": 1000,
+      "rarity": 70,
+      "interval": 1000,
+      "duration": 1250,
+      "repeatInterval": 0,
+      "hitBoxDelay": 250,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 8,
+      "knockback": 3,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 1000
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 1000
+    },
+    {
+      "power": 1
+    }
+  ],
+  "MS_LUNAR3_BIGHT": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "sealable": true,
+      "bulletType": "MS_LUNAR3_BIGHT",
+      "price": 800,
+      "name": "MS_LUNAR3_BIGHT",
+      "description": "BMN_W_016 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-lunar3.png",
+      "collectionFrame": "frameB_blue.png",
+      "isUnlocked": false,
+      "evoSynergy": [
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR2_SIGHT"
+      ],
+      "evoInto": "MS_LUNAR4",
+      "poolLimit": 50,
+      "rarity": 70,
+      "interval": 5000,
+      "duration": 4000,
+      "repeatInterval": 1000,
       "hitBoxDelay": 500,
-      "repeatInterval": 50,
-      "power": 1.2,
+      "power":      1,
+      "area":       1,
+      "speed":      1,
+      "amount":     1,
+      "knockback":  0,
+      "hitsWalls":  false
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -100
+    },
+    {
+      "power": 1
+    },
+    {
+      "duration": 500,
+      "hitBoxDelay": -100
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "MS_LUNAR4"
+    }
+  ],
+  "MS_LUNAR4": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "sealable": true,
+      "bulletType": "MS_LUNAR4",
+      "name": "MS_LUNAR4",
+      "description": "BMN_W_017 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-lunar4.png",
+      "collectionFrame": "frameB_blue.png",
+      "evolvesFrom": [
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR2_SIGHT",
+        "MS_LUNAR3_BIGHT"
+      ],
+      "requiresMax": [
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR2_SIGHT",
+        "MS_LUNAR3_BIGHT"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "poolLimit": 3,
+      "rarity": 1,
+      "interval": 2000,
+      "duration": 2000,
+      "repeatInterval": 300,
+      "hitBoxDelay": 500,
+      "power": 4,
       "area": 1,
       "speed": 1,
       "amount": 1,
       "knockback": 0,
       "hitsWalls": false
+    }
+  ],
+  "NIGHTSWORD": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "sealable": true,
+      "bulletType": "NIGHTSWORD",
+      "price": 180,
+      "name": "Night Sword",
+      "description": "Strikes with a combo attack at the nearest enemy. Retaliates. Might steals hearts.",
+      "tips": "Ignores: speed, duration.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-nightSword.png",
+      "collectionFrame": "frameB_blue.png",
+      "evoSynergy": [
+        "GREED"
+      ],
+      "evoInto": "NIGHTSWORD2",
+      "isUnlocked": false,
+      "poolLimit": 100,
+      "rarity": 30,
+      "interval": 2200,
+      "repeatInterval": 100,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 2,
+      "hitsWalls": false,
+      "critChance": 0.1,
+      "critMul": 2,
+      "canCrit": false,
+      "unexcludeSelf": true,
+      "chance": 0.01,
+      "tags": [
+        "BLOOD"
+      ]
     },
     {
-      "power": 0.4
+      "amount": 1
     },
     {
-      "power": 0.4,
-      "interval": -100
+      "power": 0.5,
+      "area": 0.2
     },
     {
-      "power": 0.4
+      "amount": 1
     },
     {
-      "power": 0.4,
-      "interval": -100
+      "power": 1,
+      "area": 0.2
     },
     {
-      "power": 0.4
+      "amount": 1
     },
     {
-      "power": 0.4,
-      "interval": -100
+      "power": 1,
+      "area": 0.2
     },
     {
-      "power": 0.4
+      "power": 1,
+      "addEvolvedWeapon": "NIGHTSWORD2"
+    }
+  ],
+  "NIGHTSWORD2": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "sealable": true,
+      "bulletType": "NIGHTSWORD2",
+      "name": "Muramasa",
+      "description": "Evolved Night Sword. Enables critical hits and combo finisher. Drains Health.",
+      "tips": "Requires Max: Stone Mask.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-nightSword2.png",
+      "collectionFrame": "frameB_blue.png",
+      "evolvesFrom": [
+        "NIGHTSWORD"
+      ],
+      "requires": [
+        "GREED"
+      ],
+      "requiresMax": [
+        "GREED"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "poolLimit": 100,
+      "rarity": 1,
+      "price": 6600,
+      "interval": 1500,
+      "repeatInterval": 50,
+      "power": 10,
+      "area": 1.6,
+      "speed": 1,
+      "amount": 5,
+      "hitsWalls": false,
+      "critChance": 0.1,
+      "critMul": 2,
+      "canCrit": true,
+      "chance": 0.1,
+      "tags": [
+        "BLOOD"
+      ]
+    }
+  ],
+  "PEARLMAGATAMA": [
+    {
+      "level": 1,
+      "contentGroup": "MOONSPELL",
+      "hidden": false,
+      "bulletType": "PEARLMAGATAMA",
+      "name": "PEARLMAGATAMA",
+      "description": "Will provide bonus Recovery and Revivals in exchange for Greed. Fully heals.",
+      "customDescValue": "Fully heals.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-pearlmagatama.png",
+      "collectionFrame": "frameB_blue.png",
+      "unexcludeSelf": true,
+      "isUnlocked": false,
+      "rarity": 10,
+      "isPowerUp": true,
+      "isSpecialOnly": false,
+      "isGift": true,
+      "sealable": true
+    },
+    {
+      "regen": 0.5,
+      "greed": -0.07,
+      "customDesc": 0
+    },
+    {
+      "revivals": 1,
+      "greed": -0.07,
+      "customDesc": 0
+    },
+    {
+      "regen": 0.5,
+      "greed": -0.07,
+      "customDesc": 0
+    },
+    {
+      "revivals": 1,
+      "greed": -0.07,
+      "customDesc": 0
+    },
+    {
+      "regen": 0.5,
+      "greed": -0.07,
+      "customDesc": 0
     }
   ]
 }

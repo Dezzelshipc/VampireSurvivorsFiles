@@ -1,0 +1,1315 @@
+{
+  "BMN_UNICONIGLIO": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 250,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "passThroughWalls": false,
+      "textureName": "bloodmoonEnemies",
+      "end": 18,
+      "frameNames": [
+        "BMN_ENEMY000_0.png"
+      ],
+      "bName": "Uniconiglio",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 1,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_UNICONIGLIO_SWARM"]
+    }
+  ],
+  "BMN_UNICONIGLIO_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.2,
+      "speed": 700,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 18,
+      "frameNames": [
+        "BMN_ENEMY000_0.png"
+      ]
+    }
+  ],
+  "BMN_NASNASTY": [
+    {
+      "level": 1,
+      "maxHp": 0.6,
+      "speed": 120,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY001_0.png"
+      ],
+      "bName": "Nasnasty",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 2,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_NASNASTY_SWARM"]
+    }
+  ],
+  "BMN_NASNASTY_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.2,
+      "speed": 400,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY001_0.png"
+      ]
+    }
+  ],
+  "BMN_JETTATRICI": [
+    {
+      "level": 1,
+      "maxHp": 13,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "speed": 150,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 25,
+      "res_Rosary": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "passThroughWalls": true,
+      "scale": 1.4,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY002A_0.png",
+        "BMN_ENEMY002B_0.png"
+      ],
+      "bName": "Jettatrici",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 3,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_JETTATRICI_BASE"]
+    }
+  ],
+  "BMN_JETTATRICI_BASE": [
+    {
+      "level": 1,
+      "maxHp": 40,
+      "skills": [
+      ],
+      "speed": 150,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 9,
+      "res_Rosary": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "passThroughWalls": true,
+      "scale": 1.4,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY002A_0.png",
+        "BMN_ENEMY002B_0.png"
+      ]
+    }
+  ],
+  "BMN_WEREHYENA": [
+    {
+      "level": 1,
+      "maxHp": 50,
+      "speed": 150,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "xp": 7,
+      "scale": 1.2,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY003_0.png"
+      ],
+      "bName": "Werehyena",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 4,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_WEREHYENA_SWARM"]
+    }
+  ],
+  "BMN_WEREHYENA_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 35,
+      "speed": 300,
+      "skills": [
+        
+      ],
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "xp": 7,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1.2,
+      "passThroughWalls": false,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY003_0.png"
+      ]
+    }
+  ],
+  "BMN_NAGAPHONATA": [
+    {
+      "level": 1,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "passThroughWalls": false,
+      "xp": 6,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY004_0.png"
+      ],
+      "bName": "Nagaphonata",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 5,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_NAGAPHONATA_CIRCLE"]
+    }
+  ],
+  "BMN_NAGAPHONATA_CIRCLE": [
+    {
+      "level": 1,
+      "maxHp": 30,
+      "speed": 45,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "xp": 6,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY004_0.png"
+      ]
+    }
+  ],
+  "BMN_FRITTONI": [
+    {
+      "level": 1,
+      "maxHp": 25,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "speed": 120,
+      "power": 20,
+      "knockback": 0.2,
+      "maxKnockback": 0.2,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY010A_0.png",
+        "BMN_ENEMY010B_0.png"
+      ],
+      "bName": "Frittoni",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 6,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_FRITTONI_BASE"]
+    }
+  ],
+  "BMN_FRITTONI_BASE": [
+    {
+      "level": 1,
+      "maxHp": 50,
+      "skills": [
+      ],
+      "speed": 100,
+      "power": 12,
+      "knockback": 0.2,
+      "maxKnockback": 0.2,
+      "deathKB": 0,
+      "xp": 9,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "passThroughWalls": false,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY010A_0.png",
+        "BMN_ENEMY010B_0.png"
+      ]
+    }
+  ],
+  "BMN_CANE": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 250,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 10,
+      "frameNames": [
+        "BMN_ENEMY006_0.png"
+      ],
+      "bName": "Cane",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 7,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_CANE_SWARM"]
+    }
+  ],
+  "BMN_CANE_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 700,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "xp": 4,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 10,
+      "frameNames": [
+        "BMN_ENEMY006_0.png"
+      ]
+    }
+  ],
+  "BMN_ROCCO": [
+    {
+      "level": 1,
+      "maxHp": 40,
+      "speed": 250,
+      "power": 8,
+      "knockback": 1,
+      "maxKnockback": 1.5,
+      "deathKB": 0,
+      "scale": 1.1,
+      "xp": 8,
+      "idleFrameCount": 4,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "passThroughWalls": false,
+      "textureName": "bloodmoonEnemies",
+      "end": 23,
+      "frameNames": [
+        "BMN_ENEMY007_0.png"
+      ],
+      "bName": "Rocco",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 8,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_ROCCO_SWARM"]
+    }
+  ],
+  "BMN_ROCCO_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 2,
+      "speed": 500,
+      "power": 4,
+      "knockback": 1,
+      "scale": 1.1,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 8,
+      "idleFrameCount": 4,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "passThroughWalls": true,
+      "textureName": "bloodmoonEnemies",
+      "end": 23,
+      "frameNames": [
+        "BMN_ENEMY007_0.png"
+      ]
+    }
+  ],
+  "BMN_SYAMALANNO": [
+    {
+      "level": 1,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 0.5,
+      "deathKB": 0,
+      "xp": 30,
+      "res_Rosary": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1.4,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY008_0.png"
+      ],
+      "bName": "Syamalanno",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 9,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_SYAMALANNO_BASE"]
+    }
+  ],
+  "BMN_SYAMALANNO_BASE": [
+    {
+      "level": 1,
+      "maxHp": 160,
+      "speed": 80,
+      "power": 12,
+      "skills": [
+      ],
+      "knockback": 1,
+      "maxKnockback": 0.5,
+      "deathKB": 0,
+      "xp": 9,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1.4,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY008_0.png"
+      ]
+    }
+  ],
+  "BMN_KUYATA": [
+    {
+      "level": 1,
+      "maxHp": 20,
+      "speed": 160,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "scale": 1.3,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY009_0.png"
+      ],
+      "bName": "Kuyata",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 10,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_KUYATA_BASE"]
+    }
+  ],
+  "BMN_KUYATA_BASE": [
+    {
+      "level": 1,
+      "maxHp": 190,
+      "speed": 110,
+      "power": 12,
+      "skills": [
+      ],
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 9,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1.3,
+      "passThroughWalls": false,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY009_0.png"
+      ]
+    }
+  ],
+  "BMN_FRITTI": [
+    {
+      "level": 1,
+      "maxHp": 75,
+      "speed": 120,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 1.5,
+      "deathKB": 0,
+      "passThroughWalls": false,
+      "xp": 8,
+      "idleFrameCount": 4,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "scale": 1.3,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY005_0.png"
+      ],
+      "bName": "Fritti",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 11,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "BMN_DJINN": [
+    {
+      "level": 1,
+      "maxHp": 80,
+      "speed": 100,
+      "power": 15,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "xp": 9,
+      "idleFrameCount": 4,
+      "passThroughWalls": false,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY012_0.png"
+      ],
+      "bName": "Djinn",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 12,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_DJINN_SWARM"]
+    }
+  ],
+  "BMN_DJINN_SWARM": [
+    {
+      "level": 1,
+      "maxHp": 50,
+      "speed": 400,
+      "power": 10,
+      "knockback": 1,
+      "passThroughWalls": false,
+      "maxKnockback": 2,
+      "deathKB": 0,
+      "xp": 5,
+      "idleFrameCount": 4,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY012_0.png"
+      ]
+    }
+  ],
+  "BMN_DJINN_2": [
+    {
+      "level": 1,
+      "maxHp": 200,
+      "speed": 90,
+      "power": 20,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 9,
+      "passThroughWalls": false,
+      "scale": 1.1,
+      "idleFrameCount": 4,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY013_0.png"
+      ],
+      "bName": "Djinn",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 13,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "BMN_LAMASHTU": [
+    {
+      "level": 1,
+      "maxHp": 50,
+      "speed": 150,
+      "power": 30,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 0.2,
+      "maxKnockback": 0.2,
+      "deathKB": 0,
+      "xp": 70,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 1,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY014_0.png"
+      ],
+      "bName": "Lamashtu",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 14,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": ["BMN_LAMASHTU_BASE"]
+    }
+  ],
+  "BMN_LAMASHTU_BASE": [
+    {
+      "level": 1,
+      "maxHp": 100,
+      "speed": 100,
+      "power": 5,
+      "skills": [
+      ],
+      "knockback": 0.4,
+      "maxKnockback": 0.4,
+      "deathKB": 0,
+      "xp": 6,
+      "res_Rosary": 0,
+      "passThroughWalls": false,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 22,
+      "frameNames": [
+        "BMN_ENEMY014_0.png"
+        ]
+    }
+  ],
+  "BMN_SPIRITOSO": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 110,
+      "power": 3,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 1.5,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1,
+      "textureName": "bloodmoonEnemies",
+      "end": 20,
+      "frameNames": [
+        "BMN_ENEMY015A_0.png",
+        "BMN_ENEMY015B_0.png"
+      ],
+      "bName": "Spiritoso",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 15,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": []
+    }
+  ],
+  "BMN_JAMAN_JATO": [
+    {
+      "level": 6,
+      "maxHp": 40,
+      "speed": 250,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 16,
+      "patrolDuration": 2000,
+      "passThroughWalls": false,
+      "textureName": "bloodmoonEnemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "JamanJatoB_0.png"
+      ],
+      "bName": "Jaman Jato",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 16,
+      "bInclude": true,
+      "bHighlight": true,
+      "bVariants": ["BMN_JAMAN_JATO_PATROL", "BMN_JAMAN_JATO2","BMN_JAMAN_JATO_SWARM", "BMN_JAMAN_JATO_BOSS"]
+    }
+  ],
+  "BMN_JAMAN_JATO2": [
+    {
+      "level": 6,
+      "maxHp": 40,
+      "speed": 250,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 16,
+      "patrolDuration": 2000,
+      "passThroughWalls": true,
+      "textureName": "bloodmoonEnemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "JamanJatoB_0.png"
+      ]
+    }
+  ],
+  "BMN_JAMAN_JATO_PATROL": [
+    {
+      "level": 6,
+      "maxHp": 40,
+      "speed": 250,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 2,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 2.5,
+      "end": 16,
+      "patrolDuration": 2000,
+      "passThroughWalls": true,
+      "textureName": "bloodmoonEnemies",
+      "idleFrameCount": 5,
+      "frameNames": [
+        "JamanJato_0.png"
+      ]
+    }
+  ],
+  "BMN_JAMAN_JATO_SWARM": [
+    {
+      "level": 5,
+      "maxHp": 25,
+      "speed": 600,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 2.75,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "killedAmount": 0,
+      "end": 16,
+      "idleFrameCount": 5,
+      "scale": 1.5,
+      "alpha": 0.65,
+      "textureName": "bloodmoonEnemies",
+      "frameNames": [
+        "JamanJatoB_0.png"
+      ],
+      "passThroughWalls": true,
+      "skills": [
+        "Fixed_Direction"
+      ]
+    }
+  ],
+  "BMN_JAMAN_JATO_BOSS": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 140,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "xp": 30,
+      "end": 16,
+      "passThroughWalls": false,
+      "textureName": "bloodmoonEnemies",
+      "idleFrameCount": 16,
+      "frameNames": [
+        "edimmu_0.png"
+      ]
+    }
+  ],
+  
+  "BMN_SHADOW_SWARM": [
+    {
+      "level": 5,
+      "maxHp": 3000,
+      "speed": 500,
+      "power": 10,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "killedAmount": 0,
+      "end": 25,
+      "idleFrameCount": 4,
+      "scale": 1.5,
+      "alpha": 0.65,
+      "textureName": "bloodmoonEnemies",
+      "frameNames": [
+        "baalShadow_0.png"
+      ],
+      "passThroughWalls": true,
+      "skills": [
+        "Fixed_Direction"
+      ]
+    }
+  ],
+  "BMN_SHADOW_WALKING": [
+    {
+      "level": 5,
+      "maxHp": 2,
+      "speed": 100,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "xp": 1,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "killedAmount": 0,
+      "end": 25,
+      "idleFrameCount": 4,
+      "scale": 1,
+      "alpha": 0.65,
+      "textureName": "bloodmoonEnemies",
+      "frameNames": [
+        "baalShadow_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ]
+    }
+  ],
+  
+  "BMN_CONGREGATION_SMALL": [
+    {
+      "level": 1,
+      "maxHp": 7,
+      "speed": 120,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 8,
+      "idleFrameCount": 4,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 15,
+      "frameNames": [
+        "BMN_ENEMY051_0.png"
+      ]
+    }
+  ],
+  "UN_BMN_ENEMY_026": [
+    {
+      "level": 1,
+      "maxHp": 10,
+      "speed": 110,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 0,
+      "end": 18,
+      "textureName": "enemies",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "Skeleton1_0.png"
+      ],
+      "skills": [
+      ]
+    }
+  ],
+  "BMN_TENTACLE": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 0,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 0,
+      "res_Knockback": 1,
+      "passThroughWalls": true,
+      "end": 21,
+      "textureName": "bloodmoonEnemies",
+      "idleFrameCount": 4,
+      "colliderOverride": {
+        "radius": 0.5,
+        "offsetX": -4,
+        "offsetY": 23
+      },
+      "scale": 1,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "frameNames": [
+        "BMN_ENEMY027B_0.png"
+      ]
+    }
+  ],
+  "BMN_TENTACLE_MOVING": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 80,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 5,
+      "killedAmount": 0,
+      "xp": 0,
+      "res_Knockback": 1,
+      "passThroughWalls": true,
+      "end": 21,
+      "textureName": "bloodmoonEnemies",
+      "idleFrameCount": 4,
+      "colliderOverride": {
+        "radius": 0.5,
+        "offsetX": -4,
+        "offsetY": 23
+      },
+      "scale": 1,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "frameNames": [
+        "BMN_ENEMY027B_0.png"
+      ]
+    }
+  ],
+  "BMN_ASHTART_EVENT": [
+    {
+      "level": 1,
+      "maxHp": 150,
+      "speed": 160,
+      "power": 25,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 2,
+      "res_Debuffs": 1,
+      "res_Knockback": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 19,
+      "frameNames": [
+        "BMN_ENEMY052_0.png"
+      ]
+    }
+  ],
+  "BMN_BAALTHASAR_EVENT": [
+    {
+      "level": 1,
+      "maxHp": 10000,
+      "speed": 150,
+      "power": 20,
+      "skills": [
+      ],
+      "knockback": 0.3,
+      "maxKnockback": 0.3,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 2,
+      "res_Debuffs": 1,
+      "res_Knockback": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY053_0.png"
+      ]
+    }
+  ],
+  "BMN_BOSS_ASHTART": [
+    {
+      "level": 1,
+      "maxHp": 7500,
+      "speed": 160,
+      "power": 25,
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 2,
+      "res_Debuffs": 1,
+      "res_Knockback": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 19,
+      "frameNames": [
+        "BMN_ENEMY052_0.png"
+      ],
+      "bName": "Ashtart",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 18,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "BMN_ASHTART_EVENT"
+      ],
+      "bBGM" : "BGM_BraveFairies"
+    }
+  ],
+  "BMN_BOSS_CONGREGATION": [
+    {
+      "level": 1,
+      "maxHp": 10000,
+      "speed": 160,
+      "power": 20,
+      "knockback": 0.5,
+      "maxKnockback": 0.5,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "scale": 3.7,
+      "textureName": "bloodmoonEnemies",
+      "end": 15,
+      "frameNames": [
+        "BMN_ENEMY051_0.png"
+      ],
+      "bName": "Congregation",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 17,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "BMN_CONGREGATION_SMALL"
+      ],
+      "bBGM" : "BGM_BraveFairies"
+    }
+  ],
+  "BMN_BOSS_SARGON": [
+    {
+      "level": 1,
+      "maxHp": 6000,
+      "speed": 180,
+      "power": 25,
+      "knockback": 0.2,
+      "maxKnockback": 0.2,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 2,
+      "res_Debuffs": 1,
+      "res_Knockback": 1,
+      "idleFrameCount": 4,
+      "skills": [
+      ],
+      "killedAmount": 0,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 14,
+      "frameNames": [
+        "BMN_ENEMY050_0.png"
+      ],
+      "bName": "Sargon",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 19,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [],
+      "bBGM" : "BGM_BraveFairies"
+    }
+  ],
+  "BMN_BOSS_BAALTHASAR": [
+    {
+      "level": 1,
+      "maxHp": 8000,
+      "speed": 150,
+      "power": 20,
+      "skills": [
+      ],
+      "knockback": 0.3,
+      "maxKnockback": 0.3,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 2,
+      "res_Debuffs": 1,
+      "res_Knockback": 1,
+      "passThroughWalls": true,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "scale": 1.5,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY053_0.png"
+      ],
+      "bName": "Baalthasar",
+      "bDesc": "",
+      "bPlaces": [
+        "BMN_BLOODMOON"
+      ],
+      "bIndex": 20,
+      "bInclude": true,
+      "bHighlight": false,
+      "bVariants": [
+        "BMN_BAALTHASAR_EVENT"
+      ],
+      "bBGM" : "BGM_BraveFairies"
+    }
+  ],
+  "BMN_BOSS_GEKKOJIN": [
+    {
+      "level": 1,
+      "maxHp": 100000,
+      "speed": 200,
+      "power": 20,
+      "skills": [
+      ],
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 1,
+      "res_Debuffs": 1,
+      "res_Knockback": 1,
+      "idleFrameCount": 4,
+      "passThroughWalls": true,
+      "scale": 1.5,
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 21,
+      "frameNames": [
+        "BMN_ENEMY054_0.png"
+      ]
+    }
+  ],
+  "UN_BMN_ENEMY_055": [
+    {
+      "level": 1,
+      "maxHp": 100000,
+      "speed": 180,
+      "power": 25,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 50,
+      "res_Rosary": 1,
+      "res_Defang": 1,
+      "res_Freeze": 1,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "bloodmoonEnemies",
+      "end": 29,
+      "frameNames": [
+        "BMN_ENEMY055_0.png"
+      ]
+    }
+  ]
+}

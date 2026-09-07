@@ -23,6 +23,7 @@
       "firingRangeMin": 10,
       "firingRangeMax": 100,
       "bulletType": "FB_BULLET",
+      "bIndex": 1,
       "bInclude": true,
       "bVariants": [
         "FB_LEDDER_UNARMED"
@@ -77,6 +78,7 @@
       "frameNames": [
         "Greeder_0.png"
       ],
+      "bIndex": 2,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -103,6 +105,7 @@
       "frameNames": [
         "Warlord_0.png"
       ],
+      "bIndex": 3,
       "bInclude": true,
       "bVariants": [
         "BOSS_FB_WARLORD"
@@ -166,6 +169,7 @@
       "bPlaces": [
         "FB_GALUGA"
       ],
+      "bIndex": 4,
       "bInclude": true,
       "killedAmount": 0
     }
@@ -193,6 +197,7 @@
         "AlienCentipedeHead.png"
       ],
       "flagName": "AlienCentipedeBody.png",
+      "bIndex": 5,
       "bInclude": true,
       "bVariants": [
         "FB_ALIENCENTIPEDE_FLYING"
@@ -225,6 +230,7 @@
       "frameNames": [
         "fbChicken_0.png"
       ],
+      "bIndex": 6,
       "bInclude": true,
       "bVariants": [
         "BOSS_FB_CHICKEN",
@@ -264,6 +270,7 @@
       "frameNames": [
         "MetalAlien_0.png"
       ],
+      "bIndex": 7,
       "bInclude": true,
       "bVariants": [
         "BOSS_FB_METALALIEN",
@@ -295,6 +302,7 @@
       "frameNames": [
         "HumanFaceDog_0.png"
       ],
+      "bIndex": 8,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -321,6 +329,7 @@
       "frameNames": [
         "Garth_0.png"
       ],
+      "bIndex": 9,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -351,6 +360,7 @@
         "FB_WALKINGBALL_RACING",
         "BOSS_FB_WALKINGBALL_RACING"
       ],
+      "bIndex": 10,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -377,6 +387,7 @@
       "frameNames": [
         "HellRider_0.png"
       ],
+      "bIndex": 11,
       "bInclude": true,
       "bVariants": [
         "FB_HELLRIDER_RACING",
@@ -408,6 +419,7 @@
       "frameNames": [
         "JunkyardCar_0.png"
       ],
+      "bIndex": 12,
       "bInclude": true,
       "bVariants": [
         "BOSS_FB_JUNKYARDCAR",
@@ -439,6 +451,7 @@
       "frameNames": [
         "FlightZako_0.png"
       ],
+      "bIndex": 13,
       "bInclude": true,
       "bVariants": [
         "FB_FLIGHTZAKO_FLYING",
@@ -474,6 +487,7 @@
       "frameNames": [
         "emme78_0.png"
       ],
+      "bIndex": 14,
       "bInclude": true,
       "bVariants": [
         "BOSS_FB_M78",
@@ -505,6 +519,7 @@
       "frameNames": [
         "Bugger_0.png"
       ],
+      "bIndex": 15,
       "bInclude": true,
       "bVariants": [
         "FB_BUGGER_SWARM"
@@ -534,6 +549,7 @@
       "frameNames": [
         "PoisonousInsectGel_0.png"
       ],
+      "bIndex": 16,
       "bInclude": true,
       "bVariants": [
         "FB_FB_POISONOUSINSECTGEL_SWARM"
@@ -563,6 +579,7 @@
       "frameNames": [
         "Bundle_0.png"
       ],
+      "bIndex": 17,
       "bInclude": true,
       "bVariants": [
         "FB_BUNDLE_FLYING"
@@ -592,6 +609,7 @@
       "frameNames": [
         "ZakoAlien_0.png"
       ],
+      "bIndex": 18,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -625,6 +643,7 @@
       "bPlaces": [
         "FB_GALUGA"
       ],
+      "bIndex": 19,
       "bInclude": true,
       "killedAmount": 0
     }
@@ -655,6 +674,7 @@
       "bPlaces": [
         "FB_GALUGA"
       ],
+      "bIndex": 20,
       "bInclude": true,
       "killedAmount": 0
     }
@@ -684,6 +704,7 @@
       "bVariants": [
         "BOSS_FB_KIMKOH"
       ],
+      "bIndex": 21,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -907,6 +928,7 @@
       "bVariants": [
         "FB_GORDEA_RACING"
       ],
+      "bIndex": 22,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -1009,6 +1031,7 @@
       "bVariants": [
         "BOSS_FB_TAKA_RACING"
       ],
+      "bIndex": 23,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -1042,6 +1065,7 @@
       "frameNames": [
         "Bugger_0.png"
       ],
+      "bIndex": 24,
       "bInclude": true,
       "bPlaces": [
         "FB_GALUGA"
@@ -2008,6 +2032,7 @@
       "bPlaces": [
         "FB_GALUGA"
       ],
+      "bIndex": 25,
       "bInclude": true
     }
   ]

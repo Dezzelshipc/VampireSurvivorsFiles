@@ -1559,7 +1559,10 @@
       "duration":     1000,
       "hitBoxDelay":  500,
       "hitsWalls": false,
-      "unexcludeSelf": true
+      "unexcludeSelf": true,
+      "tags": [
+        "BLOOD"
+      ]
     },
     {
       "amount": 1
@@ -1615,7 +1618,10 @@
       "duration":     1000,
       "hitBoxDelay":  500,
       "hitsWalls": false,
-      "unexcludeSelf": true
+      "unexcludeSelf": true,
+      "tags": [
+        "BLOOD"
+      ]
     },
     {
       "amount": 1
@@ -2424,7 +2430,10 @@
       "speed":          1,
       "amount":         1,
       "duration":       5000,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "tags": [
+        "HELL"
+      ]
     },
     {
       "power": 0.25
@@ -2475,7 +2484,10 @@
       "amount":         2,
       "duration":       1000,
       "hitBoxDelay":    500,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "tags": [
+        "BLOOD"
+      ]
     },
     {
       "amount": 1

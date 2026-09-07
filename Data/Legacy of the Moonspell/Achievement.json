@@ -481,8 +481,7 @@
   },
   "MOON17_EvolveBubbles": {
     "description": "Evolve the Mille Bolle Blu.",
-    "goldPrize": 50000,
-    "weaponIcon": "BUBBLES2",
+    "characterToUnlock": "SPIRITOSO",
     "UnlockConditions": [
       {
         "AchievementUnlockType": "FindWeapons",
@@ -511,6 +510,99 @@
       }
     ]
   },
+
+  "MOON19_GetLunarMightToLevel6":{
+    "description": "Get LunarMight to Level 6.",
+    "weaponToUnlock": "MS_LUNAR1_MIGHT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "MS_LUNAR1_MIGHT"
+        ],
+        "RequiredEvolvedWeapons":[
+          "MS_LUNAR4"
+        ]
+      }
+    ]
+  },
+  "MOON20_GetLunarBightToLevel6":{
+    "description": "Get LunarBight to Level 6.",
+    "weaponToUnlock": "MS_LUNAR3_BIGHT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "MS_LUNAR3_BIGHT"
+        ],
+        "RequiredEvolvedWeapons":[
+          "MS_LUNAR4"
+        ]
+      }
+    ]
+  },
+  "MOON21_GetLunarSightToLevel6":{
+    "description": "Get LunarSight to Level 6.",
+    "weaponToUnlock": "MS_LUNAR2_SIGHT",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "MS_LUNAR2_SIGHT"
+        ],
+        "RequiredEvolvedWeapons":[
+          "MS_LUNAR4"
+        ]
+      }
+    ]
+  },
+  
+  "MOON22_UniteLunarWeapons": {
+    "description": "Unite LunarMight, LunarBight, and LunarSight.",
+    "characterToUnlock": "GEKKOJIN",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "MS_LUNAR4"
+        ]
+      }
+    ]
+  },
+  
+  "MOON23_ReachLevel80WithGekkojin": {
+    "description": "Reach Level 80 with Gekkojin.",
+    "characterToUnlock": "SPIRITOSA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "ReachedXLevelAsCharacter",
+        "RequiredCharacterType": "GEKKOJIN",
+        "RequiredLevel": 80
+      }
+    ]
+  },
+
+  "MOON24_FindPearlMagatama":{
+    "description": "Find a Pearl Magatama.",
+    "weaponToUnlock": "PEARLMAGATAMA",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons":[
+          "PEARLMAGATAMA"
+        ]
+      }
+    ]
+  },
+
+  "MOON25_EvolveFestiveWinds": {
+    "description": "Hold the Pearl Magatama and evolve the Festive Winds with Miang Moonspell.",
+    "characterToUnlock": "MEGAMIANG"
+  },
+
   "MOON16_DefeatBossRuins": {
     "description": "Defeat the Orochimario in Mt.Moonspell.",
     "hyperToUnlock": "MOONSPELL",
@@ -571,4 +663,5 @@
       }
     ]
   }
+  
 }

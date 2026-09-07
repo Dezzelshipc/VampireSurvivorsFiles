@@ -1,0 +1,1172 @@
+{
+  "MALICE": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN000_SCARLET1",
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "spriteName": "malice_i01.png",
+      "textureName": "character_malice",
+      "portraitName": "p_malice.png",
+      "walkingFrames": 4,
+      "description": "",
+      "bodyOffset": {
+        "x": 8,
+        "y": 14
+      },
+      "headOffsets": [
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "isBought": false,
+      "price": 1000,
+      "completedStages": [],
+      "bgm": "BGM_Malice",
+      "maxHp":      120,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.4,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "BMN000_SCARLET1",
+        "BMN000_SCARLET1",
+        "BMN000_SCARLET1",
+        "BMN000_SCARLET1",
+        "BMN000_SCARLET1",
+        "BMN000_SCARLET1",
+        "BMN000_SCARLET1",
+        "BMN000_SCARLET1",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN"
+      ],
+      "onEveryLevelUp": {
+        "regen": 0.025
+      }
+    },
+    { "level": 21, "growth":-1 },
+    { "level": 41, "growth":-1 },
+    { "level": 20, "growth": 1 },
+    { "level": 40, "growth": 1 }
+  ],
+  "CALOGERO": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN004_AXE1",
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "spriteName": "calogero_i01.png",
+      "textureName": "character_calogero",
+      "portraitName": "p_calogero.png",
+      "walkingFrames": 4,
+      "description": "Gains temporary Might bonus after getting damaged.",
+      "bodyOffset": {
+        "x": 11.5,
+        "y": 15
+      },
+      "isBought": false,
+      "price": 3000,
+      "completedStages": [],
+      "bgm": "BGM_Calogero",
+      "maxHp":      150,
+      "armor":      2,
+      "regen":      0,
+      "moveSpeed":  0.8,
+      "power":      1.5,
+      "cooldown":   1,
+      "area":       0.7,
+      "speed":      0.7,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "BMN004_AXE1",
+        "BMN004_AXE1",
+        "BMN004_AXE1",
+        "BMN004_AXE1",
+        "BMN004_AXE1",
+        "BMN004_AXE1",
+        "BMN004_AXE1",
+        "BMN004_AXE1",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "ASHTART": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN002_DUST1",
+      "charName": "Ashtart",
+      "surname": "",
+      "spriteName": "ashtart_i01.png",
+      "textureName": "character_ashtart",
+      "portraitName": "p_ashtart.png",
+      "walkingFrames": 4,
+      "description": "Summons minions when killing enemies.",
+      "bodyOffset": {
+        "x": 8,
+        "y": 18
+      },
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "bgm": "BGM_Ashtart",
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      0.8,
+      "cooldown":   0.9,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     8,
+      "showcase": [
+        "BMN002_DUST1",
+        "BMN002_DUST1",
+        "BMN002_DUST1",
+        "BMN002_DUST1",
+        "BMN002_DUST1",
+        "BMN002_DUST1",
+        "BMN002_DUST1",
+        "BMN002_DUST1",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "SARGON": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN010_FIRE1_FALL",
+      "charName": "Sargon",
+      "surname": "",
+      "spriteName": "sargon_i01.png",
+      "textureName": "character_sargon",
+      "portraitName": "p_sargon.png",
+      "walkingFrames": 4,
+      "description": "Causes spatial distortions that confuse enemies. Master of FireFall, FireWall, and FireBall.",
+      "bodyOffset": {
+        "x": 10,
+        "y": 28
+      },
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_sargon",
+          "spriteName": "sargon_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": 28
+            }
+          ],
+          "spriteAnims": {
+            "idleAnimation": {
+              "textureName": "character_sargon",
+              "spriteName": "sargon_i01.png",
+              "framesNumber": 4,
+              "frameRate": 8
+            }
+          }
+        },
+        {
+          "startingWeapon": "BMN011_FIRE2_BALL",
+          "skinType": "SKIN_SARGON_2FW",
+          "name": "SKIN_SARGON_2FW",
+          "textureName": "character_sargon",
+          "spriteName": "sargon_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": 28
+            }
+          ],
+          "spriteAnims": {
+            "idleAnimation": {
+              "textureName": "character_sargon",
+              "spriteName": "sargon_i01.png",
+              "framesNumber": 4,
+              "frameRate": 8
+            }
+          }
+        },
+        {
+          "startingWeapon": "BMN012_FIRE3_WALL",
+          "skinType": "SKIN_SARGON_2FB",
+          "name": "SKIN_SARGON_2FB",
+          "textureName": "character_sargon",
+          "spriteName": "sargon_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 10,
+              "y": 28
+            }
+          ],
+          "spriteAnims": {
+            "idleAnimation": {
+              "textureName": "character_sargon",
+              "spriteName": "sargon_i01.png",
+              "framesNumber": 4,
+              "frameRate": 8
+            }
+          }
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "bgm": "BGM_SargonA",
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "cooldown":   0.9,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1.2,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    10,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "BMN010_FIRE1_FALL",
+        "BMN010_FIRE1_FALL",
+        "BMN010_FIRE1_FALL",
+        "BMN010_FIRE1_FALL",
+        "BMN010_FIRE1_FALL",
+        "BMN010_FIRE1_FALL",
+        "BMN010_FIRE1_FALL",
+        "BMN010_FIRE1_FALL",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {
+      }
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "NAMELESSFOOL": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "DESCENT_MISERY",
+      "prefix": "Nameless",
+      "charName": "Fool",
+      "surname": "",
+      "spriteName": "fool_i01.png",
+      "textureName": "character_namelessfool",
+      "portraitName": "p_fool.png",
+      "bgm": "BGM_LyingFairies",
+      "walkingFrames": 5,
+      "description": "LastBreath: loses half of Max Health and receives a random Darkana (if available). OnRevival: LastBreath ability can award an extra Darkana (max 3).",
+      "headOffsets": [
+        {
+          "x": 4,
+          "y": -3
+        }
+      ],
+      "isBought": false,
+      "price":      3000,
+      "completedStages": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "DESCENT_MISERY",
+        "DESCENT_MISERY",
+        "DESCENT_MISERY",
+        "DESCENT_MISERY",
+        "DESCENT_MISERY",
+        "DESCENT_MISERY",
+        "DESCENT_MISERY",
+        "DESCENT_MISERY",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "CONGREGATION": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN006_SCREAM1",
+      "charName": "Congregation",
+      "surname": "",
+      "spriteName": "congregation_i01.png",
+      "textureName": "character_congregation",
+      "portraitName": "p_congregation.png",
+      "walkingFrames": 4,
+      "description": "Gains a passive weapon slot for any Revivals exceeding 1. HpCritical and LastBreath: frantically activate their main weapon depending on Revivals left. OnRevival: spawns a Velvet Dodecahedron.",
+      "bodyOffset": {
+        "x": 14.5,
+        "y": 24
+      },
+      "headOffsets": [
+        {
+          "x": 0,
+          "y": 11
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": -10,
+          "y": -6
+        },
+        {
+          "x": -10,
+          "y": -23
+        },
+        {
+          "x": 10,
+          "y": -21.3
+        },
+        {
+          "x": 10,
+          "y": -12
+        }
+      ],
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "bgm": "BGM_Congregation",
+      "maxHp":      294,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.7,
+      "curse":      1,
+      "magnet":     0.25,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     7,
+      "showcase": [
+        "BMN006_SCREAM1",
+        "BMN006_SCREAM1",
+        "BMN006_SCREAM1",
+        "BMN006_SCREAM1",
+        "BMN006_SCREAM1",
+        "BMN006_SCREAM1",
+        "BMN006_SCREAM1",
+        "BMN006_SCREAM1",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "REVIVAL",
+        "REVIVAL"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "NAMELESSSAINT": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "VOID",
+      "prefix": "Nameless",
+      "charName": "Saint",
+      "surname": "",
+      "spriteName": "saint_01.png",
+      "textureName": "character_namelesssaint",
+      "portraitName": "p_saint.png",
+      "bgm": "BGM_BraveFairies",
+      "walkingFrames": 5,
+      "description": "Starts and is Adept with an array of holy weapons, depending on their availability in the Collection.",
+      "headOffsets": [
+        {
+          "x": 4,
+          "y": -3
+        }
+      ],
+      "isBought": false,
+      "price":      3000,
+      "completedStages": [],
+      "maxHp":      100,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1.2,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     8,
+      "showcase": [
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {},
+      "addedSkillCards": [
+        "SUB_ONLASTBREATH_ROSARY"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "BAALTHASAR": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN008_BLACKEN1",
+      "canSeeTags": ["BLOOD", "HELL"],
+      "charName": "Baal'Thasar",
+      "surname": "",
+      "spriteName": "baalthasar_i01.png",
+      "textureName": "character_baalthasar",
+      "portraitName": "p_baalthasar.png",
+      "walkingFrames": 4,
+      "description": "Adept with Hell type weapons. Enemies killed by Blood type weapons drop Blood Crystals instead of XP Crystals.",
+      "bodyOffset": {
+        "x": 17,
+        "y": 26
+      },
+      "headOffsets": [
+        {
+          "x": -1,
+          "y": 13
+        }
+      ],
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "bgm": "BGM_BaalA",
+      "maxHp":      166,
+      "armor":      0,
+      "regen":      0.3,
+      "moveSpeed":  1,
+      "power":      1.3,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1.3,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     10,
+      "showcase": [
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "DURATION",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "COOLDOWN",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA",
+        "PANDORA"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  
+  "JAMANJATO": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "PRAYERS",
+      "charName": "Jaman Jato",
+      "surname": "",
+      "spriteName": "JamanJato_i01.png",
+      "textureName": "character_jamanjato",
+      "portraitName": "p_jamanj.png",
+      "walkingFrames": 5,
+      "description": "Gets more projectiles every 20 levels (max+4).",
+      "alwaysLoopWalkingAnimation" : true,
+      "headOffsets": [
+        {
+          "x": 4,
+          "y": -3
+        }
+      ],
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "spriteName": "P1_JamanJato_i01.png",
+          "textureName": "character_jamanjato",
+          "suffix": "★",
+          "walkingFrames": 4,
+          "unlocked": true
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_JAMAN_S2",
+          "name": "Prestige 2",
+          "spriteName": "P2_JamanJato_i01.png",
+          "textureName": "character_jamanjato",
+          "suffix": "★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Complete stages to gain Prestige.",
+          "amount": 1
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_JAMAN_S3",
+          "name": "Prestige 3",
+          "spriteName": "JamanJato_i01.png",
+          "textureName": "character_jamanjato",
+          "suffix": "★★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Complete stages to gain Prestige.",
+          "amount": 1,
+          "duration": 0.4,
+          "maxHp": 80
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_JAMAN_S4",
+          "name": "Prestige 4",
+          "spriteName": "P4_JamanJato_i01.png",
+          "textureName": "character_jamanjato",
+          "suffix": "★★★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Complete stages to gain Prestige.",
+          "amount": 2,
+          "duration": 0.6,
+          "maxHp": 120
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_JAMAN_S5",
+          "name": "Prestige 5",
+          "spriteName": "P5_JamanJato_i01.png",
+          "textureName": "character_jamanjato",
+          "suffix": "★★★★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Starts with a Level 2 Duplicator.",
+          "amount": 2,
+          "duration": 0.6,
+          "maxHp": 120,
+          "exAccessories": [
+            "AMOUNT",
+            "AMOUNT"
+          ]
+        }
+      ],
+      "isBought": false,
+      "price": 500,
+      "completedStages": [],
+      "maxHp": 100,
+      "armor": 0,
+      "regen": 0,
+      "moveSpeed": 1.2,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "amount": 1,
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "amount": 1,
+      "level": 60
+    },
+    {
+      "amount": 1,
+      "level": 80
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "KUJATA": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "VOID",
+      "prefix": "",
+      "charName": "Kujata",
+      "surname": "",
+      "spriteName": "kujata_01.png",
+      "textureName": "character_kujata",
+      "portraitName": "p_kujata.png",
+      "charSelFrame": "kujata_03.png",
+      "charSelTexture": "character_kujata",
+      "walkingFrames": 5,
+      "walkFrameRate": 4,
+      "description": "Slams the ground every few steps. Grows bigger when accumulating Armor.",
+      "headOffsets": [
+        {
+          "x": 4,
+          "y": -3
+        }
+      ],
+      "autoSetBodyOffset" : true,
+      "isBought": false,
+      "price":      5000,
+      "completedStages": [],
+      "maxHp":      400,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  0.5,
+      "power":      2,
+      "cooldown":   1.45,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "ARMOR",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED",
+        "MOVESPEED"
+      ],
+      "onEveryLevelUp": {},
+      "addedSkillCards": [
+        "SUB_HPCRITICAL_MAXARMOR"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "MEGASARGON": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN013_FIRE4",
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": "",
+      "charSelFrame": "Icon_MegaloSargon.png",
+      "charSelTexture": "bmn_megalo_sargon",
+      "spriteName": "Icon_MegaloSargon.png",
+      "textureName": "bmn_megalo_sargon",
+      "portraitName": "p_MegaloSargon.png",
+      "walkingFrames": 4,
+      "description": "Gains temporary Might bonus after getting damaged.",
+      "bodyOffset": {
+        "x": 10,
+        "y": 28
+      },
+      "currentSkin": "DEFAULT",
+      "isBought": false,
+      "price": 100000,
+      "completedStages": [],
+      "bgm": "BGM_SargonB",
+      "maxHp":      -1,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  1.5,
+      "power":      1.5,
+      "cooldown":   0.9,
+      "area":       1.5,
+      "speed":      1.5,
+      "duration":   1.5,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1.2,
+      "greed":      1.5,
+      "curse":      1.5,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    10,
+      "skips":      0,
+      "banish":     0,
+      "showcase": [
+        "BMN013_FIRE4",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {
+        "moveSpeed": 0.005,
+        "power": 0.005,
+        "cooldown": -0.002,
+        "area": 0.005,
+        "speed": 0.005,
+        "duration": 0.005,
+        "luck": 0.005,
+        "growth": 0.005,
+        "greed": 0.005,
+        "curse": 0.005
+      }
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "MEGABAALTHASAR": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BMN009_BLACKEN2",
+      "canSeeTags": ["BLOOD", "HELL"],
+      "prefix": "",
+      "charName": "Baal'Thamut",
+      "surname": "",
+      "charSelFrame": "Icon_MegaloBaalthasar.png",
+      "charSelTexture": "bmn_megalo_baalthasar",
+      "spriteName": "Icon_MegaloBaalthasar.png",
+      "textureName": "bmn_megalo_baalthasar",
+      "portraitName": "p_MegaloBaalthasar.png",
+      "walkingFrames": 4,
+      "description": "Starts with extra Darkana VI - Moonlight Bolero.",
+      "bodyOffset": {
+        "x": 17,
+        "y": 26
+      },
+      "headOffsets": [
+        {
+          "x": -1,
+          "y": 13
+        }
+      ],
+      "isBought": false,
+      "price": 100000,
+      "completedStages": [],
+      "bgm": "BGM_BaalB",
+      "maxHp":      -1,
+      "armor":      0,
+      "regen":      0.3,
+      "moveSpeed":  1,
+      "power":      2.0,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   2.0,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1.5,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     10,
+      "showcase": [
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "BMN008_BLACKEN1",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER"
+      ],
+      "onEveryLevelUp": {}
+    }
+  ]
+}

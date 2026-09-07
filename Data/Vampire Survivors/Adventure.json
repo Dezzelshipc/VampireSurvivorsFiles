@@ -46,7 +46,6 @@
     ],
     "PROGRESS_DATA": [
       {
-        
         "description": "Survive 10 minutes in An Old Mad Forest.",
         "stageToUnlock": "ADV_POE_2_Forest",
         "goldPrize": 500,
@@ -59,7 +58,6 @@
         }
       },
       {
-        
         "description": "Survive 15 minutes in A Rough Awakening.",
         "stageToUnlock": "ADV_POE_3_Woods",
         "characterToUnlock": "TATANKA",
@@ -712,15 +710,20 @@
       "MENYA",
       "SYUUTO",
       "ONNA",
-      "MCCOY",
+      "MEGAMIANG",
       "MEGAMENYA",
       "MEGASYUUTO",
-      "TONY"
+      "MCCOY",
+      "TONY",
+      "SPIRITOSO",
+      "SPIRITOSA",
+      "GEKKOJIN"
     ],
     "STAGE_DATA": "STAGE_DATA_ADV_M001",
     "WEAPON_DATA": [
       "SILVERWIND",
       "SILVERWIND2",
+      "SILVERWIND3",
       "FOURSEASONS",
       "FOURSEASONS2",
       "SUMMONNIGHT",
@@ -732,6 +735,10 @@
       "NIGHTSWORD",
       "NIGHTSWORD2",
       "BOCCE",
+      "MS_LUNAR1_MIGHT",
+      "MS_LUNAR2_SIGHT",
+      "MS_LUNAR3_BIGHT",
+      "MS_LUNAR4",
       "CROSS",
       "HEAVENSWORD",
       "SONG",
@@ -747,7 +754,8 @@
       "MAGNET",
       "LUCK",
       "CURSE",
-      "MOVESPEED"
+      "MOVESPEED",
+      "PANDORA"
     ],
     "PROGRESS_DATA": [
       {
@@ -756,7 +764,7 @@
         "adventureUnlockData": {
           "Type": "MS001_ACH001",
           "iconTextureName": "UI",
-          "iconSpriteName": "p_mia",
+          "iconSpriteName": "icon_chapter2",
           "requiredMinute": 1,
           "requiredStage": "ADV_M001CASTLEGROUNDS"
         }
@@ -768,7 +776,7 @@
         "adventureUnlockData": {
           "Type": "MS001_ACH002",
           "iconTextureName": "UI",
-          "iconSpriteName": "p_van",
+          "iconSpriteName": "icon_chapter3",
           "requiredStage": "ADV_M002SHRINESVALLEY",
           "foundCoffin": "MENYA"
         }
@@ -780,7 +788,7 @@
         "adventureUnlockData": {
           "Type": "MS001_ACH003",
           "iconTextureName": "UI",
-          "iconSpriteName": "p_vad",
+          "iconSpriteName": "icon_chapter4",
           "requiredStage": "ADV_M003FORBIDDENPEAK",
           "foundCoffin": "SYUUTO"
         }
@@ -792,7 +800,7 @@
         "adventureUnlockData": {
           "Type": "MS001_ACH004",
           "iconTextureName": "UI",
-          "iconSpriteName": "p_vadBeast",
+          "iconSpriteName": "icon_chapter5",
           "requiredStage": "ADV_M004HIDDENCAVE",
           "requiredEnemyKillType": "BOSS_MEGASYUUTO",
           "requiredEnemyKillCount": 1
@@ -805,7 +813,7 @@
         "adventureUnlockData": {
           "Type": "MS001_ACH005",
           "iconTextureName": "UI",
-          "iconSpriteName": "p_onna",
+          "iconSpriteName": "icon_chapter6",
           "requiredEnemyKillType": "EX_ILLUSION",
           "requiredEnemyKillCount": 3000
         }
@@ -817,7 +825,7 @@
         "adventureUnlockData": {
           "Type": "MS001_ACH006",
           "iconTextureName": "UI",
-          "iconSpriteName": "p_mccoy",
+          "iconSpriteName": "icon_chapter7",
           "requiredMinute": 10,
           "requiredStage": "ADV_M006TANUKIFOREST"
         }
@@ -832,6 +840,16 @@
           "requiredStage": "ADV_M007MOONSPELL",
           "requiredEnemyKillType": "MS_OROCHIMARIO",
           "requiredEnemyKillCount": 1
+        }
+      },
+      {
+        "description": "Find the Pearl Magatama.",
+        "characterToUnlock": "SPIRITOSA",
+        "adventureUnlockData": {
+          "Type": "MS001_ACH015",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_spiritosa",
+          "foundWeaponType": "PEARLMAGATAMA"
         }
       },
       {
@@ -882,6 +900,37 @@
           "iconTextureName": "tps_lossless_icons",
           "iconSpriteName": "-01-mirageRobe2",
           "foundWeaponType": "MIRAGEROBE2"
+        }
+      },
+      {
+        "description": "Evolve the Mille Bolle Blu.",
+        "characterToUnlock": "SPIRITOSO",
+        "adventureUnlockData": {
+          "Type": "MS001_ACH016",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_spiritoso",
+          "foundWeaponType": "BUBBLES2"
+        }
+      },
+      {
+        "description": "Unite the LunarMight, LunarSight, and LunarBight.",
+        "characterToUnlock": "GEKKOJIN",
+        "adventureUnlockData": {
+          "Type": "MS001_ACH017",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_gekkojin",
+          "foundWeaponType": "MS_LUNAR4"
+        }
+      },
+      {
+        "description": "Evolve the Festive Winds with Miang Moonspell.",
+        "characterToUnlock": "MEGAMIANG",
+        "adventureUnlockData": {
+          "Type": "MS001_ACH018",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_mia",
+          "requiredCharacter": "MIANG",
+          "foundWeaponType": "SILVERWIND3"
         }
       },
       {
@@ -1203,7 +1252,6 @@
       "COOLDOWN",
       "LUCK"
     ],
-
     "PROGRESS_DATA": [
       {
         "description": "Evolve the Report!",
@@ -1490,7 +1538,6 @@
       "ARMADIO",
       "FB_WEAPONPU"
     ],
-
     "PROGRESS_DATA": [
       {
         "description": "Find and destroy the Metal Alien in Attack Aggressively.",
@@ -1973,7 +2020,7 @@
           "requiredEnemyKillCount": 1
         }
       },
-      {        
+      {
         "description": "Evolve the Clock Lancet with Maria in the Sunken City.",
         "stageToUnlock": "ADV_OTC_001_008_Infinite",
         "goldPrize": 500,
@@ -2233,7 +2280,7 @@
           "requiredStage": "ADV_OTC_001_007_Ecclesia"
         }
       },
-      {        
+      {
         "description": "Wield the Alchemy Whip with Richter at 25 minutes in the Throne Rooms to defeat the final foe.",
         "characterToUnlock": "TP_DRACULA",
         "goldPrize": 10000,
@@ -2526,7 +2573,7 @@
           "requiredEnemyKillCount": 1
         }
       },
-      {        
+      {
         "description": "Defeat in Zephyr the True Infinite Corridor.",
         "characterToUnlock": "TP_HECTOR",
         "goldPrize": 500,
@@ -2539,7 +2586,7 @@
           "requiredEnemyKillCount": 1
         }
       },
-      {        
+      {
         "description": "Evolve the Dragon Water Whip.",
         "weaponToUnlock": "TP_DRAGONWATER1",
         "goldPrize": 500,
@@ -2550,7 +2597,7 @@
           "foundWeaponType": "TP_DRAGONWATER2"
         }
       },
-      {        
+      {
         "description": "Evolve the Ice Fang.",
         "weaponToUnlock": "TP_ICE1",
         "goldPrize": 500,
@@ -2572,7 +2619,7 @@
           "foundWeaponType": "TP_BWAKA2"
         }
       },
-      {        
+      {
         "description": "Evolve the Alucart Sworb.",
         "weaponToUnlock": "TP_ALUCARDSWORD1",
         "goldPrize": 500,
@@ -2616,7 +2663,7 @@
           "foundWeaponType": "TP_ELEC2"
         }
       },
-      {        
+      {
         "description": "Evolve the Sonic Whip.",
         "weaponToUnlock": "TP_SONICWHIP1",
         "goldPrize": 500,
@@ -2627,7 +2674,7 @@
           "foundWeaponType": "TP_SONICWHIP2"
         }
       },
-      {        
+      {
         "description": "Evolve the Wind Whip.",
         "weaponToUnlock": "TP_WINDWHIP1",
         "goldPrize": 500,
@@ -2638,7 +2685,7 @@
           "foundWeaponType": "TP_WINDWHIP2"
         }
       },
-      {        
+      {
         "description": "Evolve the Jet Black Whip.",
         "weaponToUnlock": "TP_LEMURIA1",
         "goldPrize": 500,
@@ -2812,7 +2859,7 @@
           "foundWeaponType": "SHROUD"
         }
       },
-      {        
+      {
         "description": "Reach Level 100.",
         "goldPrize": 500,
         "stageToUnlock": "OTC_ADV_BAZAAR",
@@ -2823,6 +2870,297 @@
           "requiredLevel": 100
         }
       }
+    ]
+  },
+  "ADV_BMN_001": {
+    "progressKey": "LegacyOfTheBloodmoon",
+    "index": 1010,
+    "coreAdventureData": {
+      "name": "Legacy of the Bloodmoon",
+      "subtitleImage": "ADV_Title_BMN",
+      "startingCoins": 10000,
+      "startingCharacter": "MALICE",
+      "startingStage": "ADV_BMN_001",
+      "completionCoinReward": 100000,
+      "requiresDLC": "Bloodmoon"
+    },
+    "CHARACTER_DATA": [
+      "MALICE",
+      "CALOGERO",
+      "ASHTART",
+      "SARGON",
+      "NAMELESSFOOL",
+      "CONGREGATION",
+      "NAMELESSSAINT",
+      "BAALTHASAR",
+      "JAMANJATO",
+      "KUJATA",
+      "MEGASARGON",
+      "MEGABAALTHASAR"
+    ],
+    "STAGE_DATA": "STAGE_DATA_ADV_BMN001",
+    "WEAPON_DATA": [
+      "BMN000_SCARLET1",
+      "BMN001_SCARLET2",
+      "BMN002_DUST1",
+      "BMN003_DUST2",
+      "BMN004_AXE1",
+      "BMN005_AXE2",
+      "BMN006_SCREAM1",
+      "BMN007_SCREAM2",
+      "BMN008_BLACKEN1",
+      "BMN009_BLACKEN2",
+      "BMN010_FIRE1_FALL",
+      "BMN011_FIRE2_BALL",
+      "BMN012_FIRE3_WALL",
+      "BMN013_FIRE4",
+      "DESCENT_MISERY",
+      "SHIMMERING_SANDS",
+      "PRAYERS",
+      "CROSS",
+      "HEAVENSWORD",
+      "AXE",
+      "SCYTHE",
+      "FIREBALL",
+      "HELLFIRE",
+      "GARLIC",
+      "VORTEX",
+      "LAUREL",
+      "EX_MAGISTONE1",
+      "EX_MAGISTONE2",
+      "POWER",
+      "ARMOR",
+      "REGEN",
+      "AREA",
+      "AMOUNT",
+      "MAGNET",
+      "LUCK",
+      "DOMINION",
+      "PANDORA"
+    ],
+    "PROGRESS_DATA": [
+      {
+        "description": "Survive 15 minutes in Glade of Woe.",
+        "stageToUnlock": "ADV_BMN_002",
+        "characterToUnlock": "CALOGERO",
+        "goldprize": 2500,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH001",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter2",
+          "requiredMinute": 15,
+          "requiredStage": "ADV_BMN_001"
+        }
+      },
+      {
+        "description": "Survive for 20 minutes in Manor of Perdition",
+        "stageToUnlock": "ADV_BMN_003",
+        "characterToUnlock": "ASHTART",
+        "goldprize": 5000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH002",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter3",
+          "requiredMinute": 20,
+          "requiredStage": "ADV_BMN_002"
+        }
+      },
+      {
+        "description": "Defeat Sargon in Grail of Ruin",
+        "stageToUnlock": "ADV_BMN_004",
+        "characterToUnlock": "SARGON",
+        "goldprize": 7500,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH003",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter4",
+          "requiredEnemyKillType": "BMN_BOSS_SARGON",
+          "requiredEnemyKillCount": 1,
+          "requiredStage": "ADV_BMN_003"
+        }
+      },
+      {
+        "description": "Defeat Congregation in Wicked Maze",
+        "stageToUnlock": "ADV_BMN_005",
+        "characterToUnlock": "CONGREGATION",
+        "goldprize": 10000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH004",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter5",
+          "requiredEnemyKillType": "BMN_BOSS_CONGREGATION",
+          "requiredEnemyKillCount": 1,
+          "requiredStage": "ADV_BMN_004"
+        }
+      },
+      {
+        "description": "Defeat Megalo Baal'Thasar in Illusory World",
+        "stageToUnlock": "ADV_BMN_006",
+        "characterToUnlock": "BAALTHASAR",
+        "goldprize": 20000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH005",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter6",
+          "requiredEnemyKillType": "BMN_BOSS_BAALTHASAR",
+          "requiredEnemyKillCount": 1,
+          "requiredStage": "ADV_BMN_005"
+        }
+      },
+      {
+        "description": "Open the coffin in Room 1665",
+        "goldPrize": 5000,
+        "stageToUnlock": "ADV_BMN_007",
+        "characterToUnlock": "NAMELESSFOOL",
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH006",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapter7",
+          "requiredStage": "ADV_BMN_006",
+          "foundCoffin": "NAMELESSFOOL"
+        }
+      },
+      {
+        "description": "Survive 5 minutes in To Face a God.",
+        "goldPrize": 5000,
+        "characterToUnlock": "KUJATA",
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH007",
+          "iconTextureName": "UI",
+          "iconSpriteName": "icon_chapterFinal",
+          "requiredStage": "ADV_BMN_007",
+          "requiredMinute": 5
+        }
+      },
+      {
+        "description": "Evolve the Scarlet Needle.",
+        "goldprize": 5000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH009",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-08-BMN_1801.png",
+          "foundWeaponType": "BMN001_SCARLET2"
+        }
+      },
+      {
+        "description": "Evolve the Ashella.",
+        "goldprize": 5000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH010",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-08-BMN_1805.png",
+          "foundWeaponType": "BMN005_AXE2"
+        }
+      },
+      {
+        "description": "Evolve the Incineration.",
+        "goldprize": 5000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH011",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-08-BMN_1803.png",
+          "foundWeaponType": "BMN003_DUST2"
+        }
+      },
+      {
+        "description": "Evolve the Screams from the Void.",
+        "goldprize": 5000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH012",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-08-BMN_1807.png",
+          "foundWeaponType": "BMN007_SCREAM2"
+        }
+      },
+      {
+        "description": "Evolve the Blacken Firmament.",
+        "goldprize": 5000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH013",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-08-BMN_1809.png",
+          "foundWeaponType": "BMN009_BLACKEN2"
+        }
+      },
+      {
+        "description": "Unite FireFall, FireBall, and FireWall.",
+        "goldprize": 5000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH008",
+          "iconTextureName": "tps_lossless_icons",
+          "iconSpriteName": "-08-BMN_1813.png",
+          "foundWeaponType": "BMN013_FIRE4"
+        }
+      },
+      {
+        "description": "Open the coffin in Grail of Ruin",
+        "goldprize": 2500,
+        "characterToUnlock": "NAMELESSSAINT",
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH014",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_saint",
+          "requiredStage": "ADV_BMN_002",
+          "foundCoffin": "NAMELESSSAINT"
+        }
+      },
+      {
+        "description": "Find the Velvet Dodecahedron.",
+        "goldprize": 2500,
+        "characterToUnlock": "JAMANJATO",
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH015",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_jamanj",
+          "foundWeaponType": "BMN_DODECAHEDRON"
+        }
+      },
+      {
+        "description": "Defeat Sargon twice.",
+        "characterToUnlock": "MEGASARGON",
+        "goldprize": 1,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH016",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_MegaloSargon",
+          "requiredEnemyKillType": "BMN_BOSS_SARGON",
+          "requiredEnemyKillCount": 2
+        }
+      },
+      {
+        "description": "Defeat Baal'Thamut twice.",
+        "characterToUnlock": "MEGABAALTHASAR",
+        "goldprize": 50000,
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH017",
+          "iconTextureName": "UI",
+          "iconSpriteName": "p_MegaloBaalthasar",
+          "requiredEnemyKillType": "BMN_BOSS_BAALTHASAR",
+          "requiredEnemyKillCount": 2
+        }
+      },
+      {
+        "description": "Reach Level 80.",
+        "stageToUnlock": "ADV_BAZAAR",
+        "adventureUnlockData": {
+          "Type": "BMN001_ACH018",
+          "iconTextureName": "UI",
+          "iconSpriteName": "stage_bazaar_icon",
+          "requiredLevel": 80
+        }
+      }
+    ],
+    "EXTRA_BESTIARY_TYPES": [
+      "DEVIL_HP_7",
+      "DEVIL_HP_11",
+      "DEVIL_HP_13",
+      "DEVIL_HP_14",
+      "DEVIL_HP_15",
+      "EX_BATGOBLIN",
+      "EX_TREASURE_VICIOUSHUNGER",
+      "BMN_JAMAN_JATO",
+      "BMN_BOSS_SARGON",
+      "BMN_BOSS_BAALTHASAR"
     ]
   }
 }

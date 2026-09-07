@@ -212,7 +212,11 @@
       "MIRAGEROBE",
       "NIGHTSWORD",
       "BUBBLES",
-      "BOCCE"
+      "BOCCE",
+      "MS_LUNAR1_MIGHT",
+      "MS_LUNAR2_SIGHT",
+      "MS_LUNAR3_BIGHT",
+      "PEARLMAGATAMA"
     ]
   },
   "CTRPCAKE": {
@@ -466,7 +470,8 @@
       "EME_BLOOD1",
       "EME_SPEAR1",
       "EME_MAGIC1",
-      "EME_WAVE"
+      "EME_WAVE",
+      "EME_SELECTOR"
     ]
   },
   "LEM_JIMBO": {
@@ -484,6 +489,28 @@
         "LEM_FIBONACCI1",
         "LEM_PLANETS1",
         "LEM_ACC_SABOTEUR"
+    ]
+  },
+  "NAMELESSFOOL": {
+    "merchantCharacter": "NAMELESSFOOL",
+    "portraitSprite": "mercNamelessFool",
+    "portraitSpriteTexture": "UI",
+    "staticSprite": "fool_i01",
+    "staticSpriteTexture": "character_namelessfool",
+    "textLocKey": "adv_merc_NAMELESSFOOL",
+    "DLC": ["Bloodmoon"],
+    "merchantInventory": [
+      "BMN000_SCARLET1",
+      "BMN004_AXE1",
+      "BMN002_DUST1",
+      "BMN006_SCREAM1",
+      "BMN010_FIRE1_FALL",
+      "BMN011_FIRE2_BALL",
+      "BMN012_FIRE3_WALL",
+      "BMN008_BLACKEN1",
+      "DESCENT_MISERY",
+      "PRAYERS",
+      "BMN_DODECAHEDRON"
     ]
   }
 }

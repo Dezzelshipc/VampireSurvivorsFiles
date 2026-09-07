@@ -1,0 +1,200 @@
+{
+  "BGM_Bloodmoon": {
+    "title": "Legacy of the Bloodmoon",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": "BMN_BLOODMOON",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_bloodmoon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -400
+    }
+  },
+  "BGM_Malice": {
+    "title": "It's Her Nature",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "MALICE",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_malice.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_Calogero": {
+    "title": "What He Wished For",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "CALOGERO",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_calogero.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_Ashtart": {
+    "title": "Borrowed Feathers",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "ASHTART",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_ashtart.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_Congregation": {
+    "title": "Starved and Chained",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "CONGREGATION",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_congregation.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_SargonA": {
+    "title": "Grasp All",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "SARGON",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_sargon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_SargonB": {
+    "title": "Lose All",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "MEGASARGON",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_MegaloSargon.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -400
+    }
+  },
+  "BGM_BaalA": {
+    "title": "You Knew What He Was",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "BAALTHASAR",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_baalthasar.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_BaalB": {
+    "title": "When You Took Him In",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "MEGABAALTHASAR",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_MegaloBaalthasar.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.0,
+      "detune": -400
+    }
+  },
+  "BGM_BraveFairies": {
+    "title": "Brave Fairy Tales",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "NAMELESSSAINT",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_saint.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  },
+  "BGM_LyingFairies": {
+    "title": "Lying Fairy Tales",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "NAMELESSFOOL",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_fool.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -800
+    }
+  }
+}

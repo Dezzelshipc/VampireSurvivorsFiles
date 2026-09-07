@@ -28,6 +28,7 @@
       "bPlaces": [
         "EMERALD"
       ],
+      "bIndex": 1,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -171,6 +172,7 @@
       "bPlaces": [
         "EMERALD"
       ],
+      "bIndex": 2,
       "bInclude": true,
       "bHighlight": false,
       "colliderOverride": {
@@ -203,6 +205,7 @@
         "offsetY": 6
       },
       "scale": 1.1,
+      "bIndex": 3,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -243,6 +246,7 @@
         "offsetY": -4,
         "offsetX": 0
       },
+      "bIndex": 4,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -268,6 +272,7 @@
         "EME_goblin_0.png"
       ],
       "scale": 1.25,
+      "bIndex": 5,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -306,6 +311,7 @@
         "offsetX": 5
       },
       "passThroughWalls": true,
+      "bIndex": 6,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -360,6 +366,7 @@
       ],
       "maxSpeed": 200,
       "passThroughWalls": true,
+      "bIndex": 7,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -440,6 +447,7 @@
       "frameNames": [
         "EME_ogre_0.png"
       ],
+      "bIndex": 8,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -476,6 +484,7 @@
         "offsetY": 0
       },
       "scale": 1,
+      "bIndex": 9,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -510,6 +519,7 @@
         "offsetX": -5
       },
       "scale": 1.1,
+      "bIndex": 10,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -564,6 +574,7 @@
       "frameNames": [
         "EME_frog_0.png"
       ],
+      "bIndex": 11,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -626,6 +637,7 @@
         "offsetY": -3,
         "offsetX": -3
       },
+      "bIndex": 12,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -661,6 +673,7 @@
         "offsetY": 0,
         "offsetX": -3
       },
+      "bIndex": 13,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -693,6 +706,7 @@
         "offsetY": -2,
         "offsetX": -4
       },
+      "bIndex": 14,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -727,6 +741,7 @@
         "offsetX": 0
       },
       "scale": 0.8,
+      "bIndex": 15,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -751,6 +766,7 @@
       "frameNames": [
         "EME_Ant_0.png"
       ],
+      "bIndex": 16,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -789,6 +805,7 @@
         "offsetX": 4
       },
       "scale": 1.25,
+      "bIndex": 17,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -816,6 +833,7 @@
       "frameNames": [
         "EME_Skeleton_0.png"
       ],
+      "bIndex": 18,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -848,6 +866,7 @@
       "frameNames": [
         "EME_Werewolf_0.png"
       ],
+      "bIndex": 19,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -889,6 +908,7 @@
       "frameNames": [
         "EME_specterOfIwanagaHime_0.png"
       ],
+      "bIndex": 20,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -926,6 +946,7 @@
       "frameNames": [
         "EME_ironMaiden_0.png"
       ],
+      "bIndex": 21,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -963,6 +984,7 @@
       "frameNames": [
         "EME_finalEmperorMonster_0"
       ],
+      "bIndex": 22,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -1001,6 +1023,7 @@
         "EME_livingAnguish_0.png"
       ],
       "passThroughWalls": true,
+      "bIndex": 23,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
