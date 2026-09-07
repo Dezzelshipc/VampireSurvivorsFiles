@@ -5,6 +5,7 @@ Some data files of Vampire Survivors game.
 Ripped from v1.16 (see [exact versions](Game%20Version.txt)) using [Vampire Unpacker](https://github.com/Dezzelshipc/VampireUnpacker)
 * Vampire Survivors
 * Legacy of the Moonspell
+* Legacy of the Bloodmoon
 * Tides of the Foscari
 * Emergency Meeting
 * Operation Guns
