@@ -597,7 +597,8 @@
         "POWER"
       ],
       "tags": [
-        "FIRE"
+        "FIRE",
+        "HELL"
       ],
       "interval": 3000,
       "repeatInterval": 200,
@@ -680,6 +681,9 @@
       "frameName": "OrbOrange.png",
       "isEvolution": true,
       "isUnlocked": false,
+      "tags": [
+        "HELL"
+      ],
       "poolLimit": 50,
       "rarity": 1,
       "evolvesFrom": [
@@ -987,6 +991,9 @@
         "GROWTH"
       ],
       "evoInto": "SIRE",
+      "tags": [
+        "HELL"
+      ],
       "isUnlocked": false,
       "poolLimit": 10,
       "rarity": 60,
@@ -1455,6 +1462,9 @@
       ],
       "requires": [
         "GREED"
+      ],
+      "tags": [
+        "HELL"
       ],
       "hitVFX": "Evil",
       "isEvolution": true,
@@ -4855,6 +4865,32 @@
       "hitsWalls": false
     }
   ],
+  "EX_GROUNDHITCENTRAL": [
+    {
+      "level": 1,
+      "bulletType": "EX_GROUNDHITCENTRAL",
+      "name": "Ground Hit",
+      "description": ".",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "dummyFire.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "None",
+      "poolLimit": 100,
+      "rarity": 0,
+      "interval": 500,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 300,
+      "hitsWalls": false
+    }
+  ],
   "POWER": [
     {
       "level": 1,
@@ -6205,6 +6241,9 @@
       "alwaysHidden": true,
       "isUnlocked": false,
       "isSpecialOnly": true,
+      "tags": [
+        "HELL"
+      ],
       "hitVFX": "Evil",
       "poolLimit": 150,
       "rarity": 1,
@@ -6305,6 +6344,67 @@
       "knockback": 0,
       "critChance": 0,
       "critMul": 1
+    }
+  ],
+  "BUBBLE_SUPPORT": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "BUBBLE_SUPPORT",
+      "price": 80,
+      "name": "Water Veil",
+      "description": ".",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-bubble.png",
+      "collectionFrame": "frameB_bold.png",
+
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+
+      "hitVFX": "Water",
+      "poolLimit": 140,
+      "rarity": 1,
+      "interval": 2600,
+      "repeatInterval": 100,
+      "hitBoxDelay": 500,
+      "power": 0.5,
+      "area": 0.5,
+      "speed": 1,
+      "amount": 5,
+      "duration": 2000,
+      "knockback": 0.1
+    },
+    {
+      "amount": 2,
+      "area": 0.1
+    },
+    {
+      "interval": -300,
+      "power": 0.2
+    },
+    {
+      "amount": 2,
+      "duration": 500
+    },
+    {
+      "interval": -600,
+      "power": 0.2
+    },
+    {
+      "amount": 2,
+      "area": 0.1
+    },
+    {
+      "duration": 500,
+      "power": 0.2
+    },
+    {
+      "amount": 3,
+      "area": 0.1
     }
   ]
 }

@@ -227,13 +227,13 @@
       "prefix": null,
       "charName": "Miang",
       "surname": "Moonspell",
-      "description": "Recovery also multiplies all healing sources. Over-healing slightly increases Max Health."
+      "description": "Overheal: slightly increases Max Health. Recovery also multiplies all healing sources."
     },
     "MENYA": {
       "prefix": null,
       "charName": "Menya",
       "surname": "Moonspell",
-      "description": "Becomes stronger and invincible for a fixed interval after defeating a large amount of enemies."
+      "description": "Overheal +16: activates her starting weapon. Becomes stronger and invincible for a fixed interval after defeating a large amount of enemies."
     },
     "SYUUTO": {
       "prefix": null,
@@ -245,31 +245,31 @@
       "prefix": null,
       "charName": "Babi-Onna",
       "surname": null,
-      "description": "Ignores weapons cooldown. Weapons fire at a fixed interval when moving."
+      "description": "Overheal 16+: gains a temporary bonus to MoveSpeed. Ignores weapons cooldown. Weapons fire at a fixed interval when moving."
     },
     "MCCOY": {
       "prefix": null,
       "charName": "McCoy-Oni",
       "surname": null,
-      "description": "Area temporarily increases at fixed intervals."
+      "description": "Overheal +16: gains a Reroll. Area temporarily increases at fixed intervals."
     },
     "MEGAMENYA": {
       "prefix": "Megalo",
       "charName": "Menya",
       "surname": "Moonspell",
-      "description": "Cannot be damaged, but disappears after reaching the current Time Limit. Starts with hidden 108 Bocce."
+      "description": "Overheal +16: activates her first weapon. Cannot be damaged, but disappears after reaching the current Time Limit. Starts with hidden 108 Bocce."
     },
     "MEGASYUUTO": {
       "prefix": "Megalo",
       "charName": "Syuuto",
       "surname": "Moonspell",
-      "description": "Gains +1% Might every level."
+      "description": "Overheal +16: equipped Blood weapons gain extra damage. Gains +1% Might every level."
     },
     "TONY": {
       "prefix": null,
       "charName": "Gav'Et-Oni",
       "surname": null,
-      "description": "Gets more projectiles every 20 levels (max +4)."
+      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
     },
     "ELEANOR": {
       "prefix": null,
@@ -1215,8 +1215,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Hiss, Meow, and Purr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Hiss, Meow, and Purr",
       "description": "Triggers Showstopper at critical health. Gain a follower whenever Showstopper is triggered."
     },
     "EME_DEMON": {
@@ -1283,7 +1283,7 @@
       "prefix": null,
       "charName": "Chicot",
       "surname": null,
-      "description": "Can always find Survarots. Starts with a Survarot draft. Reduces boss health and blocks some special attacks."
+      "description": "Can always find Survarots. Starts with a Survarots draft. Reduces boss health and blocks some special attacks."
     },
     "LEM_PERKEO": {
       "prefix": null,
@@ -1422,6 +1422,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Triggers a flood when a weapon evolves. Vacuums all XP Crystals when health reaches a critically low level."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Gains 0.1 Recovery every 4 levels. Retaliation, HP-Critical, LastBreath, and OnRevival: triggers a wide area blood hex."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Ashtart",
+      "surname": null,
+      "description": "HP-Critical: Gets +1 Revival. Summons remnants of defeated enemies every time the clock strikes a minute."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "LastBreath: increases MaxHealth by 50%. Retaliation: gains a temporary stat bonus."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Congregation",
+      "surname": null,
+      "description": "Gains a passive weapon slot for any Revivals exceeding 1. HpCritical and LastBreath: frantically activate their main weapon depending on Revivals left. OnRevival: spawns a Velvet Dodecahedron."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thasar",
+      "surname": null,
+      "description": "Adept with Hell type weapons. Enemies killed by Blood type weapons drop Blood. LastBreath: gains a temporary Might and Cooldown bonus depending on collected Blood."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thamut",
+      "surname": null,
+      "description": "It is ground and horizon both, and still it devours itself."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Generates spatial distortions that confuse enemies. Master of FireFall, FireWall, and FireBall. OnRevival: spawns an additional spatial distortion."
+    },
+    "MEGASARGON": {
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Backhanded gifts. Dark illusions. Echoes of the past."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Nameless",
+      "charName": "Fool",
+      "surname": null,
+      "description": "LastBreath: loses half of Max Health and receives a random Darkana (if available). OnRevival: LastBreath ability can award an extra Darkana (max 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Nameless",
+      "charName": "Saint",
+      "surname": null,
+      "description": "Starts and is Adept with an array of holy weapons, depending on their availability in the Collection. Lastbreath: triggers a Rosary."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Jaman Jato",
+      "surname": null,
+      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+    },
+    "KUJATA": {
+      "prefix": "In'",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Slams the ground every few steps. Grows bigger when accumulating Armor. HP-Critical: gains a temporary Armor bonus."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "Overheal +64: spawns a water or lunar weapon. Adept with Mille Bolle Blu and Penshin Fatcha weapons."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "Overheal +16: Gains a follower (max 30). Gains a hidden Mille Bolle Blu every 8 levels (max 6). Adept with Mille Bolle Blu and Penshin Fatcha weapons."
+    },
+    "MEGAMIANG": {
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "Max Health is equal to Current Health. Has a hidden Argent Flow."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Recovers HP instead of receiving damage, but disappears after reaching the current Time Limit. Starts with a Pearl Magatama."
     }
   },
   "fr": {
@@ -2299,7 +2395,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": "Commence avec un Fléau étoilé caché. Les ennemis ont 15 % de chances d'apparaître affaiblis. Peut changer les ennemis vaincus en disciples."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -2557,13 +2653,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Gagne de la puissance lors de l'activation de techniques. Fait équipe avec Formina. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Gagne +1 % de puissance par niveau. Fait équipe avec Formina. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Gagne de la durée lors de l'activation de techniques. Fait équipe avec Bonnie. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Gagne +1 % de vitesse de projectile par niveau. Fait équipe avec Bonnie. Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -2605,7 +2701,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Gagne 1 résurrection et 5 % d'expertise à chaque activation d'une nouvelle technique.\nDéclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
+      "description": "Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique."
     },
     "EME_MRS": {
       "prefix": null,
@@ -2640,8 +2736,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Feulement, Miaou, et Ronron",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Feulement, Miaou, et Ronron",
       "description": "Déclenche un Coup d'éclat lorsque sa santé atteint un seuil critique. Gagne un disciple à chaque fois qu'un Coup d'éclat se déclenche."
     },
     "EME_DEMON": {
@@ -2847,6 +2943,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Déclenche une inondation lorsqu'une arme évolue. Aspire tous les cristaux d'EXP lorsque sa santé atteint un seuil critique."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Gagne 0,1 guérison tous les 4 niveaux. Riposte, Résilience, Dernier souffle et Résurgence : déclenchent un sortilège de sang à grande portée."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Ashtart",
+      "surname": null,
+      "description": "Résilience : obtient +1 résurrection. Invoque les restes d'ennemis déchus à chaque fois que le chronomètre passe à la minute suivante."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "Dernier souffle : augmente la santé max de 50 %. Riposte : obtient un bonus statistique temporaire."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Congrégation",
+      "surname": null,
+      "description": "Obtient un emplacement d'arme passive pour chaque résurrection après la première. Résilience et Dernier souffle : active frénétiquement son arme principale en fonction du nombre de résurrections restantes. Résurgence : fait apparaître un dodécaèdre de velours."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thasar",
+      "surname": null,
+      "description": "Maîtrise les armes de type Enfer. Les ennemis tués par des armes de type Sang lâchent du sang. Dernier souffle : obtient un bonus temporaire de puissance et de recharge en fonction de la quantité de sang récupérée."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thamut",
+      "surname": null,
+      "description": "À la fois la terre et l'horizon, et pourtant, il se dévore lui-même."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Génère des distorsions spatiales qui désorientent les ennemis. Maîtrise Pluie de feu, Mur de feu et Boule de feu. Résurgence : fait apparaître une distorsion spatiale supplémentaire."
+    },
+    "MEGASARGON": {
+      "prefix": "Méga",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Des cadeaux à double tranchant. Des illusions sinistres. Des échos du passé."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Fou",
+      "charName": "sans nom",
+      "surname": null,
+      "description": "Dernier souffle : perd la moitié de sa santé max et reçoit un Darkana au hasard (si disponible). Résurgence : la compétence Dernier souffle peut octroyer un Darkana supplémentaire (max 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Saint",
+      "charName": "sans nom",
+      "surname": null,
+      "description": "Commence avec et maîtrise une large gamme d'armes sacrées, en fonction de leur disponibilité dans la collection. Dernier souffle : déclenche un Chapelet."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Jaman Jato",
+      "surname": null,
+      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+    },
+    "KUJATA": {
+      "prefix": "In'",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Frappe le sol après quelques pas. Devient plus grand en accumulant de l'armure. Résilience : obtient un bonus d'armure temporaire."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "Surguérison +64 : fait apparaître une arme de type Eau ou Lune. Maîtrise les armes Mille Bolle Blu et Penshin Fatcha."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "Surguérison +16 : obtient un disciple (max 30). Obtient une Mille Bolle Blu cachée tous les 8 niveaux (max 6). Maîtrise les armes Mille Bolle Blu et Penshin Fatcha."
+    },
+    "MEGAMIANG": {
+      "prefix": "Méga",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "La santé max est égale à la santé actuelle. Possède un Flux argenté caché."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Récupère des PV au lieu de subir des dégâts, mais disparaît après la limite de temps actuelle. Commence avec une Perle Magatama."
     }
   },
   "it": {
@@ -3724,7 +3916,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": "Comincia con una Mazza stellata nascosta. 15% di probabilità che i nemici generati siano sdentati. Può trasformare i nemici sconfitti in seguaci."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -3982,13 +4174,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Guadagna Potenza quando utilizza tech in Glimmer. Fa squadra con Formina. Scatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Guadagna +1% di Potenza con ogni livello. Fa squadra con Formina. Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Guadagna Durata quando utilizza tech in Glimmer. Fa squadra con Bonnie. Scatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Guadagna +1% di Velocità dei proiettili con ogni livello. Fa squadra con Bonnie. Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -4030,7 +4222,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Guadagna una Resurrezione e il 5% di Crescita ogni volta che ottiene in Glimmer una nuova tech.\nScatena un Momento clou quando la salute raggiunge un livello critico."
+      "description": "Scatena un Momento clou quando la salute raggiunge un livello critico."
     },
     "EME_MRS": {
       "prefix": null,
@@ -4065,8 +4257,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Soffia, Miao e Fusa",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Soffia, Miao e Fusa",
       "description": "Scatena un Momento clou a salute critica. Guadagna un seguace ogni qualvolta viene scatenato un Momento clou."
     },
     "EME_DEMON": {
@@ -4272,6 +4464,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Scatena un'alluvione quando migliora un'arma. Risucchia tutti i cristalli di PE quando la salute raggiunge un livello critico."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Guadagna 0,1 di Recupero ogni 4 livelli. Contrattacco, PS critici, Ultima esalazione e Alla resurrezione: scatena una maledizione di sangue su un'ampia zona."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Ashtart",
+      "surname": null,
+      "description": "PS critici: ottiene +1 Resurrezione. Evoca i resti dei nemici sconfitti ogni volta che l'orologio batte un minuto."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "Ultima esalazione: aumenta la Salute massima del 50%. Contrattacco: guadagna un bonus temporaneo alle statistiche."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Congregazione",
+      "surname": null,
+      "description": "Guadagna uno slot per le armi passive per ogni Resurrezione oltre la prima. PS critici e Ultima esalazione: attiva freneticamente la propria arma principale in base alle Resurrezioni rimanenti. Alla resurrezione: genera un Dodecaedro di velluto."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thasar",
+      "surname": null,
+      "description": "Abile con armi di tipo Inferno. I nemici uccisi dalle armi di tipo Sangue rilasciano sangue. Ultima esalazione: guadagna bonus temporanei alla Potenza e al Tempo di ricarica in base al sangue raccolto."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thamut",
+      "surname": null,
+      "description": "È al contempo terra e orizzonte, e riesce comunque a divorare se stesso."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Genera distorsioni spaziali che confondono i nemici. Padroneggia Balla da fuoco, Polla di fuoco e Palla di fuoco. Alla resurrezione: genera una distorsione spaziale aggiuntiva."
+    },
+    "MEGASARGON": {
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Regali equivoci. Illusioni oscure. Echi del passato."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Ugo",
+      "charName": "Qualunque",
+      "surname": null,
+      "description": "Ultima esalazione: perde metà della Salute massima e riceve un Darkano casuale (se disponibile). Alla resurrezione: Ultima esalazione può assegnare un Darkano aggiuntivo (max 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Santo",
+      "charName": "Qualunque",
+      "surname": null,
+      "description": "Comincia con un'ampia rosa di armi sacre, in base alla loro disponibilità nella collezione, ed è abile con esse. Ultima esalazione: scatena un Rosario."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Jaman Jato",
+      "surname": null,
+      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+    },
+    "KUJATA": {
+      "prefix": "In'",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Percuote il terreno regolarmente. Diventa più grande quando accumula Armatura. PS critici: guadagna un bonus temporaneo all'Armatura."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "+64 oltre la salute massima: genera un'arma d'Aqua o Lunare. Abile con le armi Mille Bolle Blu e Penshin Fatcha."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "+16 oltre la salute massima: guadagna un seguace (max 30). Guadagna una Mille Bolle Blu nascosta ogni 8 livelli (max 6). Abile con le armi Mille Bolle Blu e Penshin Fatcha."
+    },
+    "MEGAMIANG": {
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "La Salute massima è pari alla Salute attuale. Ha un Flusso d'argento nascosto."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Ripristina PS anziché subire danni, ma scompare dopo aver raggiunto il Limite di tempo attuale. Comincia con una Perla Magatama."
     }
   },
   "de": {
@@ -5149,7 +5437,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": "Beginnt mit einem versteckten Sternflegel. Es besteht eine Chance von 15%, dass Gegner zahnlos sind. Besiegte Gegner können zu Gefolgsleuten werden."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -5407,13 +5695,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Erhält Macht durch den Einsatz aufgeglimmter Techniken. Bildet ein Team mit Formina. Löst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Erhält +1 % Macht pro Level. Bildet ein Team mit Formina. Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Erhält Dauer durch den Einsatz aufgeglimmter Techniken. Bildet ein Team mit Bonnie. Löst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Erhält +1 % Geschosstempo pro Level. Bildet ein Team mit Bonnie. Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -5455,7 +5743,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Erhält 1 Wiederbeleben und 5% Entwicklung beim Aufglimmern einer neuen Technik.\nLöst bei kritisch niedrigen LP einen Showstopper aus."
+      "description": "Löst bei kritisch niedrigen LP einen Showstopper aus."
     },
     "EME_MRS": {
       "prefix": null,
@@ -5490,8 +5778,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Fauch, Miau, Schnurr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Fauch, Miau, Schnurr",
       "description": "Löst bei kritisch niedrigen LP einen Showstopper aus. Erhält bei Auslösung des Showstoppers einen Anhänger."
     },
     "EME_DEMON": {
@@ -5697,6 +5985,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Erzeugt beim Verbessern einer Waffe eine Flutwelle. Saugt bei kritisch niedrigen LP alle EP-Edelsteine an."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Erhält alle 4 Level 0,1 Erholung. Vergeltung, Kritische LP, Letzter Atem und Bei Wiederbelebung: löst einen Blut-Hex in großem Bereich aus."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Ashtart",
+      "surname": null,
+      "description": "Kritische LP: Erhält +1 Wiederbelebung. Beschwört zu jeder vollen Minute Überreste besiegter Gegner."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "Letzter Atem: Erhöht Max. LP um 50 %. Vergeltung: Erhält einen temporären Wertebonus."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Gemeinwesen",
+      "surname": null,
+      "description": "Erhält einen passiven Waffenplatz pro Wiederbelebung über 1. Kritische LP und Letzter Atem: aktiviert hektisch je nach verbleibenden Wiederbelebungen Hauptwaffe. Bei Wiederbelebung: Generiert ein Samtenes Dodekaeder."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal’Thasar",
+      "surname": null,
+      "description": "Geschickt im Umgang mit Höllenwaffen. Gegner, die durch Blutwaffen getötet werden, lassen Blut fallen. Letzter Atem: Erhält einen vorübergehenden Bonus auf Macht und Abklingzeit auf Grundlage der gesammelten Blutmenge."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal’Thamut",
+      "surname": null,
+      "description": "Es ist Sein und Streben zugleich und verschlingt sich doch selbst."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Erschafft Raumverzerrungen, die Gegner verwirren. Meister von FeuerFall, FeuerWall und FeuerBall. Bei Wiederbelebung: erzeugt eine weitere Raumverzerrung."
+    },
+    "MEGASARGON": {
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Bösartige Geschenke. Dunkle Illusionen. Der Nachhall der Vergangenheit."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Namenloser",
+      "charName": "Narr",
+      "surname": null,
+      "description": "Letzter Atem: Verliert halbe Max. LP und erhält ein zufälliges Darkana (falls verfügbar). Bei Wiederbelebung: Letzter Atem kann ein weiteres Darkana verleihen (max. 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Namenloser",
+      "charName": "Heiliger",
+      "surname": null,
+      "description": "Beginnt und ist geschickt mit verschiedenen heiligen Waffen, je nach Verfügbarkeit in der Sammlung. Letzter Atem: löst einen Rosenkranz aus."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Jaman Jato",
+      "surname": null,
+      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+    },
+    "KUJATA": {
+      "prefix": "In’",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Stampft alle paar Schritte auf dem Boden auf. Wird mit mehr Rüstung größer. Kritische LP: Erhält einen temporären Rüstungsbonus."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "Überheilung +64: Erzeugt eine Wasser- oder Mondwaffe. Geschickt mit „Mille Bolle Blu“- und „Penshin Fatcha“-Waffen."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "Überheilung +16: Erhält Gefolgsleute (max. 30). Erhält alle 8 Level eine versteckte Mille Bolle Blu (max. 6). Geschickt mit „Mille Bolle Blu“ und „Penshin Fatcha“-Waffen."
+    },
+    "MEGAMIANG": {
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "Max. LP sind gleich aktuellen LP. Hat einen versteckten Silberfluss."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Gewinnt LP dazu, statt Schaden zu erleiden, verschwindet aber, wenn man das aktuelle Zeitlimit erreicht. Startet mit Perlen-Magatama."
     }
   },
   "es": {
@@ -6574,7 +6958,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": "Empieza con un mayal estrella oculto. Los enemigos tienen un 15 % de probabilidad de aparecer descolmillados. Puede convertir a los enemigos derrotados en seguidores."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -6832,13 +7216,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Gana poder al usar técnicas vislumbradas. Forma equipo con Formina. Activa un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Gana +1 % de poder cada nivel. Forma equipo con Formina. Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Gana duración al usar técnicas vislumbradas. Forma equipo con Bonnie. Activa un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Gana +1 % de velocidad de proyectil cada nivel. Forma equipo con Bonnie. Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -6880,7 +7264,7 @@
       "prefix": "Marioneta",
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Gana una resurrección y un 5 % de crecimiento cada vez que vislumbra una técnica nueva.\nActiva un espectáculo cuando la salud llega a un punto crítico."
+      "description": "Activa un espectáculo cuando la salud llega a un punto crítico."
     },
     "EME_MRS": {
       "prefix": null,
@@ -6915,8 +7299,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Bufa, Miau y Ronroneo",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Bufa, Miau y Ronroneo",
       "description": "Activa un espectáculo al llegar a un punto crítico de salud. Gana un seguidor cada vez que se activa un espectáculo."
     },
     "EME_DEMON": {
@@ -7122,6 +7506,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Activa una inundación cuando evoluciona un arma. Absorbe todas las gemas de EXP cuando la salud llega a un punto crítico."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Gana 0,1 de recuperación cada 4 niveles. Reflejar daño, PS en punto crítico, Último aliento y Al revivir: activa un hechizo de sangre de zona amplia."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Ashtart",
+      "surname": null,
+      "description": "PS en punto crítico: obtiene +1 resurrección. Invoca los restos de enemigos derrotados siempre que el reloj pasa de minuto."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "Último aliento: aumenta la salud máxima un 50 %. Gana una bonificación de atributos temporal al reflejar daño."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Congregación",
+      "surname": null,
+      "description": "Gana un espacio de arma pasiva por cada resurrección por encima de 1. PS en punto crítico, Último aliento: activa su arma principal frenéticamente según las resurrecciones que queden. Al revivir: genera un dodecaedro de terciopelo."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thasar",
+      "surname": null,
+      "description": "Experto con armas de tipo infierno. Los enemigos eliminados con armas de tipo sangre sueltan sangre. Último aliento: gana una bonificación temporal de poder y recarga según la sangre recogida."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thamut",
+      "surname": null,
+      "description": "Es tanto territorio como horizonte y, a pesar de eso, se sigue devorando a sí mismo."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Genera distorsiones espaciales que confunden a los enemigos. Domina la lluvia de fuego, la barrera de fuego y la bola de fuego. Al revivir: genera una distorsión espacial adicional."
+    },
+    "MEGASARGON": {
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Regalos ambiguos. Ilusiones oscuras. Ecos del pasado."
+    },
+    "NAMELESSFOOL": {
+      "prefix": null,
+      "charName": "Loco",
+      "surname": "sin nombre",
+      "description": "Último aliento: pierde la mitad de la salud máxima y recibe un nocturcano (si hay disponible). Al revivir: la habilidad Último aliento puede otorgar un nocturcano adicional (máx.: 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": null,
+      "charName": "Santo",
+      "surname": "sin nombre",
+      "description": "Empieza con un abanico de armas sagradas, del cual es experto, según su disponibilidad en la colección. Último aliento: activa un rosario."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Yamanyato",
+      "surname": null,
+      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+    },
+    "KUJATA": {
+      "prefix": "In'",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Golpea el suelo cada pocos pasos. Se hace más grande al acumular armadura. PS en punto crítico: gana una bonificación de armadura temporal."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "Curación +64 de más: genera un arma de agua o lunar. Experto con las armas Mille bolle blu y Penshin Fatcha."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "Curación +16 de más: gana un seguidor (máx.: 30). Gana una Mille bolle blu oculta cada 8 niveles (máx.: 6). Experta con las armas Mille Bolle Blu y Penshin Fatcha."
+    },
+    "MEGAMIANG": {
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "La salud máxima es igual a la salud actual. Tiene un flujo plateado oculto."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Recupera PS en lugar de recibir daño, pero desaparece al llegar al límite de tiempo actual. Empieza con una perla magatama."
     }
   },
   "pt-BR": {
@@ -7999,7 +8479,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": "Começa com um Mangual Estelar oculto. Inimigos têm 15% de chance de surgir com Debilidade. Pode transformar inimigos derrotados em seguidores."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -8257,13 +8737,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Ganha Poder ao usar técnicas realçadas. Une-se a Formina. Ativa Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ganha +1% de Poder a cada nível. Une-se a Formina. Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Ganha Duração ao usar técnicas realçadas. Une-se a Bonnie. Ativa Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ganha +1% de Velocidade de Projéteis a cada nível. Une-se a Bonnie. Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -8305,7 +8785,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Ganha 1 Ressurreição e 5% de Crescimento sempre que realçar uma nova técnica.\nAtiva Apoteose ao atingir um nível crítico de Vida."
+      "description": "Ativa Apoteose ao atingir um nível crítico de Vida."
     },
     "EME_MRS": {
       "prefix": null,
@@ -8340,8 +8820,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Hiss, Miau e Purr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Hiss, Miau e Purr",
       "description": "Ativa Apoteose com nível crítico de Vida. Ganha um seguidor ao ativar Apoteose."
     },
     "EME_DEMON": {
@@ -8547,6 +9027,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Causa uma enchente ao evoluir uma arma. Aspira todas as joias de EXP ao atingir um nível crítico de Vida."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Ganha 0,1 de Recuperação a cada 4 níveis. Retaliação, PV/Crítico, Último Suspiro e Ao Ressuscitar: ativam uma maldição sangrenta de área ampla."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Ashtart",
+      "surname": null,
+      "description": "PV/Crítico: recebe +1 Ressurreição. Convoca os restos mortais dos inimigos derrotados sempre que o relógio marca um minuto."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "Último Suspiro: aumenta a Vida Máx. em 50%. Retaliação: ganha um bônus de atributo temporário."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Congregação",
+      "surname": null,
+      "description": "Ganha um espaço de arma passivo para cada Ressurreição que exceder 1. PV/Crítico e Último Suspiro: ativam freneticamente sua arma principal, dependendo do número de Ressurreições restantes. Ao Ressuscitar: gera um Dodecaedro de Veludo."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thasar",
+      "surname": null,
+      "description": "Hábil com armas do tipo Inferno. Inimigos mortos por armas do tipo Sangue vão conceder sangue. Último Suspiro: concede um bônus temporário de Poder e Recarga, dependendo da quantia de sangue coletada."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thamut",
+      "surname": null,
+      "description": "É ao mesmo tempo terra e horizonte, e ainda assim devora a si mesmo."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Gera distorções espaciais para confundir inimigos. Mestre de FireFall, FireWall, e FireBall. Ao ressuscitar: causa uma distorção espacial extra."
+    },
+    "MEGASARGON": {
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Presentes suspeitos. Ilusões sombrias. Ecos do passado."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Bobo",
+      "charName": "Sem Nome",
+      "surname": null,
+      "description": "Último Suspiro: perde metade da Vida Máx. e recebe uma Trevarcana aleatória (se disponível). Ao ressuscitar: Último Suspiro pode conceder uma Trevarcana extra (máx. de 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Santo",
+      "charName": "Sem Nome",
+      "surname": null,
+      "description": "Começa o jogo e é hábil com várias armas sagradas, dependendo da disponibilidade delas na Coleção. Último Suspiro: aciona um Rosário."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Jaman Jato",
+      "surname": null,
+      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+    },
+    "KUJATA": {
+      "prefix": "In'",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Bate no chão a cada poucos passos. Fica maior ao acumular Armadura. PV/Crítico: ganha um bônus temporário de Armadura."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "Vida excessiva +64: gera uma arma de água ou lunar. Hábil com Mille Bolle Blu e Penshin Fatcha."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "Vida excessiva +16: gera um seguidor (máx. de 30). Ganha uma Mille Bolle Blu oculta a cada 8 níveis (máx. de 6). Hábil com Mille Bolle Blu e Penshin Fatcha."
+    },
+    "MEGAMIANG": {
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "Vida Máx. é igual à Vida atual. Tem um Fluxo Argento oculto."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Recupera Vida em vez de sofrer dano, mas desaparece após alcançar o Limite de Tempo atual. Começa com Pérola Magatama."
     }
   },
   "pl": {
@@ -9424,7 +10000,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": "Zaczyna z ukrytym Cepem bojowym. Wrogowie mają 15% szans na odrodzenie się bez kłów. Może zamieniać pokonanych wrogów w popleczników."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -9682,13 +10258,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Otrzymuje Moc podczas używania opanowanych technik. Tworzy drużynę z Forminą. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Otrzymuje +1% Mocy na każdym poziomie. Tworzy drużynę z Forminą. Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Otrzymuje Czas trwania podczas używania opanowanych technik. Tworzy drużynę z Bonnie. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Otrzymuje +1% Prędkości pocisków na każdym poziomie. Tworzy drużynę z Bonnie. Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -9730,7 +10306,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Otrzymuje 1 Wskrzeszenie i 5% Rozwoju po opanowaniu nowej techniki. Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
+      "description": "Aktywuje Nagły zryw, gdy zdrowie osiągnie krytycznie niski poziom."
     },
     "EME_MRS": {
       "prefix": null,
@@ -9765,8 +10341,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Syczy, Miauczy i Mruczy",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": "Syczy, Miauczy i Mruczy",
       "description": "Aktywuje Deskę ratunku, gdy zdrowie osiągnie krytycznie niski poziom. Otrzymuje pomocnika za każdym razem, gdy aktywowana zostanie Deska ratunku."
     },
     "EME_DEMON": {
@@ -9972,6 +10548,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Wytwarza powódź po ulepszeniu broni. Przyciąga wszystkie kryształy PD, gdy zdrowie osiągnie krytycznie niski poziom."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Otrzymuje 0,1 Odzyskiwania co 4 poziomy. Odwet, krytyczny poziom zdrowia, Ostatnie tchnienie i Wskrzeszenie: rzuca klątwę krwi na szeroki obszar."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Ashtart",
+      "surname": null,
+      "description": "Krytyczny poziom zdrowia: otrzymuje +1 Wskrzeszenie. Przywołuje szczątki pokonanych wrogów za każdym razem, gdy zegar wybije minutę."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "Ostatnie tchnienie: zwiększa Maks. zdrowie o 50%. Odwet: otrzymuje tymczasową premię do parametrów."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Kongregacja",
+      "surname": null,
+      "description": "Otrzymuje miejsce na broń pasywną za każde Wskrzeszenie powyżej 1. Krytyczny poziom zdrowia i Ostatnie tchnienie: gorączkowo aktywuje główną broń w zależności od liczby pozostałych Wskrzeszeń. Wskrzeszenie: wytwarza Aksamitny dwunastościan."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thasar",
+      "surname": null,
+      "description": "Wprawnie posługuje się piekielnymi broniami. Wrogowie zabici broniami krwi pozostawiają Krew. Ostatnie tchnienie: otrzymuje tymczasową premię do Mocy i Odnawiania zależną od zebranej Krwi."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thamut",
+      "surname": null,
+      "description": "Jest jednocześnie ziemią i horyzontem, a jednak wciąż pożera samego siebie."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Wytwarza zniekształcenia przestrzeni, które mylą wrogów. Mistrz Wodospadu ognia, Ściany ognia i Kuli ogni. Wskrzeszenie: wytwarza dodatkowe zniekształcenie przestrzeni."
+    },
+    "MEGASARGON": {
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Niechciane prezenty. Mroczne iluzje. Echo przeszłości."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Bezimienny",
+      "charName": "Głupiec",
+      "surname": null,
+      "description": "Ostatnie tchnienie: traci połowę Maks. zdrowie i otrzymuje losowe Darkana (jeśli są dostępne). Wskrzeszenie: umiejętność Ostatniego tchnienia może przyznać dodatkowe Darkana (maks. 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Bezimienny",
+      "charName": "Święty",
+      "surname": null,
+      "description": "Zaczyna z zestawem świętych broni, zależnych od ich dostępności w Kolekcji, i wprawnie się nimi posługuje. Ostatnie tchnienie: wyzwala Różaniec."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Jaman Jato",
+      "surname": null,
+      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+    },
+    "KUJATA": {
+      "prefix": "In'",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Uderza w ziemię co kilka kroków. Staje się większy wraz z akumulowaniem Pancerza. Krytyczny poziom zdrowia: otrzymuje tymczasową premię do Pancerza."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "Nadmierne uleczenie +64: wytwarza wodną lub księżycową broń. Wprawnie posługuje się broniami Mille Bolle Blu i Penshin Fatcha."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "Nadmierne uleczenie +16: zyskuje wyznawcę (maks. 30) Otrzymuje ukryte Mille Bolle Blu co 8 poziomów (maks. 6). Wprawnie posługuje się broniami Mille Bolle Blu i Penshin Fatcha."
+    },
+    "MEGAMIANG": {
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "Maks. zdrowie jest równe obecnemu zdrowiu. Ma ukryty Srebrny strumień."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Odzyskuje PZ, zamiast otrzymywać obrażenia, ale znika po upływie obecnego Limitu czasu. Zaczyna z Perłową magatamą."
     }
   },
   "ru": {
@@ -10847,9 +11519,9 @@
     },
     "TP_ASTARTE": {
       "prefix": null,
-      "charName": "Астарте",
+      "charName": "Астарта",
       "surname": null,
-      "description": "Начинает со скрытым оружием «Звёздный цеп». Враги появляются обезвреженными с вероятностью 15%. Может превращать поверженных врагов в последователей."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -11107,13 +11779,13 @@
       "prefix": null,
       "charName": "Бонни",
       "surname": "Блэр",
-      "description": "Получает силу при использовании техник-импровизаций. Сражается в паре с Форминой. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Получает +1% к силе каждый уровень. Сражается в паре с Форминой. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Формина",
       "surname": "Франклин",
-      "description": "Получает продолжительность при использовании техник-импровизаций. Сражается в паре с Бонни. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Получает +1% к скорости снарядов с каждым уровнем. Сражается в паре с Бонни. Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -11155,7 +11827,7 @@
       "prefix": null,
       "charName": "Кугуцу",
       "surname": null,
-      "description": "Получает 1 оживление и 5% развития каждый раз, когда использует новую технику-импровизацию.\nПрименяет коронный приём, когда здоровье достигает критически низкого уровня."
+      "description": "Применяет коронный приём, когда здоровье достигает критически низкого уровня."
     },
     "EME_MRS": {
       "prefix": null,
@@ -11190,8 +11862,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Лоло, Кис, Мяу и Мур",
-      "surname": null,
+      "charName": "Лоло",
+      "surname": ", Кис, Мяу и Мур",
       "description": "Применяет коронный приём, когда здоровье достигает критически низкого уровня. При его применении получает последователя."
     },
     "EME_DEMON": {
@@ -11397,6 +12069,102 @@
       "charName": "Кулео",
       "surname": null,
       "description": "Активирует наводнение при улучшении оружия. Засасывает все кристаллы опыта, когда здоровье опускается до критически низкого уровня."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Malice",
+      "surname": "Bloodmoon",
+      "description": "Получает 0,1 к регенерации каждые 4 уровня. Триггеры «Ответный удар», «Крит. уровень здоровья», «Последний вздох» и «При оживлении»: активирует проклятие крови, действующее по большой области."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Аштарта",
+      "surname": null,
+      "description": "Крит. уровень здоровья: получает +1 к оживлению. Призывает останки поверженных врагов каждый раз, когда на часах проходит минута."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Калоджеро",
+      "surname": "Кроволун",
+      "description": "Последний вздох: увеличивает макс. здоровье на 50%. Ответный удар: получает временный бонус к характеристикам."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Конгрегация",
+      "surname": null,
+      "description": "Получает ячейку для пассивного оружия за каждое оживление, превышающее 1. Триггеры «Крит. уровень здоровья» и «Последний вздох»: в зависимости от количества оставшихся оживлений спешно активирует своё основное оружие. При оживлении: создаёт «Бархатный додекаэдр»."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Баал-Тазар",
+      "surname": null,
+      "description": "Виртуозно обращается с оружием адского типа. Враги, побеждённые оружием кровавого типа, оставляют после себя кровь. Последний вздох: получает временный бонус к силе и перезарядке в зависимости от собранной крови."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Баал-Тамут",
+      "surname": null,
+      "description": "Это и земля, и горизонт, пожирающий сам себя."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Саргон",
+      "surname": null,
+      "description": "Создаёт пространственные искажения, которые приводят врагов в замешательство. Мастер «Огнечара», «Огнедара» и «Огнешара». При оживлении: создаёт дополнительное пространственное искажение."
+    },
+    "MEGASARGON": {
+      "prefix": "Мегало",
+      "charName": "Саргон",
+      "surname": null,
+      "description": "Двусмысленные подарки. Мрачные иллюзии. Отголоски прошлого."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Безымянный",
+      "charName": "Шут",
+      "surname": null,
+      "description": "Последний вздох: теряет половину макс. здоровья и получает случайную даркану (если таковая доступна). При оживлении: триггер «Последний вздох» может принести дополнительную даркану (макс. 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Безымянный",
+      "charName": "Святой",
+      "surname": null,
+      "description": "Начинает игру с самым разным священным оружием (в зависимости от его наличия в коллекции); виртуозно владеет всем этим оружием. Последний вздох: активирует чётки."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Яман-ято",
+      "surname": null,
+      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+    },
+    "KUJATA": {
+      "prefix": "Ин'",
+      "charName": "Куджата",
+      "surname": null,
+      "description": "Бьёт о землю через каждые несколько шагов. Увеличивается в размерах по мере добавления брони. Крит. уровень здоровья: получает временный бонус к броне."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Спиритозо",
+      "surname": null,
+      "description": "Избыточное лечение +64: создаёт оружие водного или лунного типа. Мастерски владеет таким оружием, как «Милли-булли-блу» и «Пеншин-фача»."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Спиритоза",
+      "surname": null,
+      "description": "Избыточное лечение +16: получает последователя (макс. 30). Получает скрытое оружие «Милли-булли-блу» каждые 8 ​​уровней (макс. 6). Мастерски владеет таким оружием, как «Милли-булли-блу» и «Пеншин-фача»."
+    },
+    "MEGAMIANG": {
+      "prefix": "Мегало",
+      "charName": "Мианг",
+      "surname": "Луночар",
+      "description": "Макс. здоровье приравнивается к текущему здоровью. Владеет скрытым «Серебристым потоком»."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Геккодзи",
+      "surname": null,
+      "description": "Вместо получения урона восстанавливает здоровье, но исчезает по истечении текущего лимита времени. Начинает с «Жемчужной магатамой»."
     }
   },
   "tr": {
@@ -12274,7 +13042,7 @@
       "prefix": null,
       "charName": "Astarte",
       "surname": null,
-      "description": "Gizli bir Yıldız Gürz ile başlar. Düşmanlar %15 şansla Zararsız doğar. Öldürülen düşmanları takipçiye çevirebilir."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -12466,7 +13234,7 @@
       "prefix": null,
       "charName": "Walter",
       "surname": "Bernhard",
-      "description": "+8 oranında aşırı iyileştiğinde Abanoz Şeytanalog'dan rastgele bir kuşanılmış silah tetikler. Sağlık tükenmesine karşı bağışıklığı vardır."
+      "description": "=+8 oranında aşırı iyileştiğinde Abanoz Şeytanalog'dan rastgele bir kuşanılmış silah tetikler. Sağlık tükenmesine karşı bağışıklığı vardır."
     },
     "TP_GRAHAM": {
       "prefix": null,
@@ -12496,7 +13264,7 @@
       "prefix": null,
       "charName": "Nazaribik",
       "surname": null,
-      "description": "+30 miktarda aşırı iyileşme rastgele bir istatistiğe katlanarak artan bonus verir."
+      "description": "=+30 miktarda aşırı iyileşme rastgele bir istatistiğe katlanarak artan bonus verir."
     },
     "SPACEDUDETTE": {
       "prefix": null,
@@ -12532,13 +13300,13 @@
       "prefix": null,
       "charName": "Bonnie",
       "surname": "Blair",
-      "description": "Ortaya çıkan teknikleri kullandığında Kuvvet kazanır. Formina ile takım olur. Kritik sağlık seviyesinde Nefeskesen tetikler."
+      "description": "Her seviyede +%1 Kuvvet kazanır. Formina ile takım olur. Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Formina",
       "surname": "Franklyn",
-      "description": "Ortaya çıkan teknikleri kullandığında Tesir Süresi kazanır. Bonnie ile takım olur. Kritik sağlık seviyesinde Nefeskesen tetikler."
+      "description": "Her seviyede +%1 fırlatılabilir Hızı kazanır. Bonnie ile takım olur. Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -12580,7 +13348,7 @@
       "prefix": null,
       "charName": "Kugutsu",
       "surname": null,
-      "description": "Her bir yeni teknik ortaya çıkardıklarında 1 Canlanma ve %5 Büyüme kazanır. Kritik sağlık seviyesinde Nefeskesen tetikler."
+      "description": "Sağlık kritik derecede düşük bir seviyeye ulaştığında bir Nefeskesen tetikler."
     },
     "EME_MRS": {
       "prefix": null,
@@ -12615,8 +13383,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Lolo, Tıss, Miyav, Mırr",
-      "surname": null,
+      "charName": "Lolo",
+      "surname": ", Tıss, Miyav, Mırr",
       "description": "Kritik sağlık seviyesinde Nefeskesen tetikler. Her Nefeskesen tetiklendiğinde bir takipçi kazanır."
     },
     "EME_DEMON": {
@@ -12743,7 +13511,7 @@
       "prefix": "Atlantis",
       "charName": "Mabet Sihirbazı",
       "surname": null,
-      "description": "+32 miktarda aşırı iyileşmek Hanedan Arması'ndaki kuşanılmış bir silahı tetikler ve çevreyi yavaşça sel basmasına neden olur."
+      "description": "Overhealing by +32 triggers any equipped weapon from the Coat of Arms and slowly floods the environment."
     },
     "TP_SWORDRULER": {
       "prefix": null,
@@ -12822,6 +13590,102 @@
       "charName": "Kooleo",
       "surname": null,
       "description": "Silah evrildiğinde bir sel tetikler. Sağlık kritik derecede düşük bir seviyeye ulaştığında tüm XP mücevherlerini çeker."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Малиция",
+      "surname": "Кроволун",
+      "description": "Her 4 seviyede bir 0.1 İyileşme kazanır. Misilleme, Kritik HP, Son Nefes ve Canlanma Vakti: geniş bir alanda kan büyüsü tetikler."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "阿蚀塔特",
+      "surname": null,
+      "description": "Kritik HP: +1 Canlanma verir. Her 1 dakika geçtiğinde öldürülen düşmanların kalıntılarını çağırır."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Calogero",
+      "surname": "Bloodmoon",
+      "description": "Son Nefes: Maks Sağlık'ı %50 artırır. Misilleme: geçici bir istatistik artışı kazanır."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Cemaat",
+      "surname": null,
+      "description": "1'den fazla Canlanma'ya sahip olduğunda bir pasif silah yuvası kazanır. Kritik HP ve Son Nefes: Kalan Canlanma sayısına göre ana silahlarını alelacele etkinleştirirler. Canlanma Vakti: Bir Kadife On İki Yüzlü oluşturur."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thasar",
+      "surname": null,
+      "description": "Cehennem silahlarını kullanmada ustadır. Kan silahlarıyla öldürülen düşmanlar, Kan düşürür. Son Nefes: toplanan kana göre geçici bir Kuvvet ve Bekleme Süresi bonusu kazanır."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Baal'Thamut",
+      "surname": null,
+      "description": "Hem yer hem de göktür ama yine de kendisini yutar."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Düşmanları şaşkınlığa uğratan uzay deformasyonları oluşturur. AteşDüşüren, AteşDuvarı ve AteşTopu ustasıdır. Canlanma Vakti: Bir uzay deformasyonu daha oluşturur."
+    },
+    "MEGASARGON": {
+      "prefix": "Megalo",
+      "charName": "Sargon",
+      "surname": null,
+      "description": "Hoşa gitmeyen hediyeler. Karanlık illüzyonlar. Geçmişin yankıları."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "İsimsiz",
+      "charName": "Budala",
+      "surname": null,
+      "description": "Son Nefes: Maks Sağlık'ın yarısını kaybeder ve rastgele bir Darkana alır (varsa). Canlanma Vakti: Son Nefes yeteneği ekstra bir Darkana verebilir (maks 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "İsimsiz",
+      "charName": "Aziz",
+      "surname": null,
+      "description": "Envai çeşit kutsal silahı kullanmada ustadır ve Koleksiyon'da bunlardan hangisi varsa onunla başlar. Son Nefes: Bir Tespih tetikler."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Jaman Jato",
+      "surname": null,
+      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+    },
+    "KUJATA": {
+      "prefix": "In'",
+      "charName": "Kujata",
+      "surname": null,
+      "description": "Bir iki adımda bir yere vurur. Zırh çoğaldıkça büyür. Kritik HP: Geçici bir Zırh bonusu kazanır."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Spiritoso",
+      "surname": null,
+      "description": "Aşırı İyileşme +64: Bir su veya ay silahı oluşturur. Mille Bolle Blu ve Penshin Fatcha silahlarını kullanmada ustadır."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Spiritosa",
+      "surname": null,
+      "description": "Aşırı İyileşme +16: Bir takipçi kazanır (maks 30). Her 8 seviyede bir gizli bir Mille Bolle Blu kazanır (maks 6). Mille Bolle Blu ve Penshin Fatcha silahlarını kullanmada ustadır."
+    },
+    "MEGAMIANG": {
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "description": "Maks Sağlık, Mevcut Sağlık'a eşit olur. Gizli bir Gümüş Cereyan'a sahiptir."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Gekkojin",
+      "surname": null,
+      "description": "Hasar almaz, onun yerine HP'sini yeniler ama mevcut Zaman Sınırına ulaşıldığında kaybolur. Bir Magatama İncisi ile başlar."
     }
   },
   "zh-CN": {
@@ -13699,7 +14563,7 @@
       "prefix": null,
       "charName": "阿斯塔蒂",
       "surname": null,
-      "description": "开局自带隐藏星杖锤。敌人有15%的几率生成为去齿状态。可将被击败的敌人转化为随从。"
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -13957,13 +14821,13 @@
       "prefix": null,
       "charName": "邦妮",
       "surname": "布莱尔",
-      "description": "使用点亮特技时获得力量。与福米娜组队。濒死时触发“独秀专场”。"
+      "description": "每级+1%力量。与福米娜组队。濒死时触发“独秀专场”。"
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "福米娜",
       "surname": "富兰克林",
-      "description": "使用点亮特技时获得持续时间。与邦妮组队。濒死时触发“独秀专场”。"
+      "description": "每级+1%飞射速度。与邦妮组队。濒死时触发“独秀专场”。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -14005,7 +14869,7 @@
       "prefix": null,
       "charName": "傀儡",
       "surname": null,
-      "description": "每当点亮新特技时，获得1次复活机会和5%的成长。\n濒死时触发“独秀专场”。"
+      "description": "濒死时触发“独秀专场”。"
     },
     "EME_MRS": {
       "prefix": null,
@@ -14040,8 +14904,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "洛洛、嘶嘶、喵喵和呼噜",
-      "surname": null,
+      "charName": "洛洛",
+      "surname": "、嘶嘶、喵喵和呼噜",
       "description": "濒死时触发“独秀专场”。每次触发“独秀专场”时获得一名随从。"
     },
     "EME_DEMON": {
@@ -14247,6 +15111,102 @@
       "charName": "库里欧",
       "surname": null,
       "description": "武器升级时触发洪水，濒死时吸取所有经验水晶。"
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "糜思",
+      "surname": "血月",
+      "description": "每升4级，恢复+0.1。反伤/濒死/最后一息/复活时：触发大范围的血咒。"
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "アシュタロト",
+      "surname": null,
+      "description": "濒死时：获得+1复活机会。每逢整分钟时，召唤已击败敌人的残骸。"
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "卡洛杰罗",
+      "surname": "血月",
+      "description": "最后一息时：生命上限+50%。反伤时：获得一项临时属性加成。"
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "秽众",
+      "surname": null,
+      "description": "复活机会超过1时，每多一个复活机会，即获得一个被动武器栏位。濒死/最后一息时：基于剩余的复活机会，疯狂激活其主武器。复活时：生成一个丝绒十二面体。"
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "巴尔-塔萨",
+      "surname": null,
+      "description": "擅长地狱类型武器。被鲜血类型武器击杀的敌人掉落血晶。最后一息时：基于收集的血晶获得力量和冷却时间临时加成。"
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "巴尔-塔穆",
+      "surname": null,
+      "description": "它既是大地，又是地平线，但仍会吞噬自己。"
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "萨尔贡",
+      "surname": null,
+      "description": "引发可迷惑敌人的空间扭曲，精通火落、火墙和火球之术。复活时：额外引发一次空间扭曲。"
+    },
+    "MEGASARGON": {
+      "prefix": "极恶",
+      "charName": "萨尔贡",
+      "surname": null,
+      "description": "别有用心的馈赠，黑暗的幻象，往昔的回响。"
+    },
+    "NAMELESSFOOL": {
+      "prefix": "无名",
+      "charName": "愚者",
+      "surname": null,
+      "description": "最后一息时：损失一半的最大生命值，并获得一张随机黑魔牌（如果有的话）。复活时：最后一息时触发的能力可额外提供一张黑魔牌，最多3张。"
+    },
+    "NAMELESSSAINT": {
+      "prefix": "无名",
+      "charName": "圣者",
+      "surname": null,
+      "description": "开局拥有并擅长一系列神圣武器，具体取决于武器是否已加入收藏。最后一息时：触发一次玫瑰念珠效果。"
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "灰多多",
+      "surname": null,
+      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+    },
+    "KUJATA": {
+      "prefix": null,
+      "charName": "翼牛",
+      "surname": null,
+      "description": "每走几步就猛击一次地面。积累防御时会变大。濒死时：获得一项临时防御加成。"
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "噼里啪啦",
+      "surname": null,
+      "description": "过度治疗+64：生成一件水系或月光武器。擅长乱气蓝泡和吞拿漩涡武器。"
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "噼里吧啦",
+      "surname": null,
+      "description": "过度治疗+16：获得一名随从，最多30名。每8级获得一件隐藏的乱气蓝泡，最多6件。擅长乱气蓝泡和吞拿漩涡武器。"
+    },
+    "MEGAMIANG": {
+      "prefix": "极恶",
+      "charName": "米昂",
+      "surname": "月咒",
+      "description": "生命上限等同于当前生命值。拥有一件隐藏武器银流。"
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "月光之神",
+      "surname": null,
+      "description": "在应当承受伤害时改为恢复生命值，但当到达时限后会消失。开局自带一件珍珠勾玉。"
     }
   },
   "ja": {
@@ -15122,9 +16082,9 @@
     },
     "TP_ASTARTE": {
       "prefix": null,
-      "charName": "アスタルテ",
+      "charName": "アシュタルテ",
       "surname": null,
-      "description": "隠しスターフレイルを持って開始する。敵は15%の確率で牙抜き状態で出現する。倒した敵をフォロワーに変えることができる。"
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -15316,7 +16276,7 @@
       "prefix": null,
       "charName": "ヴァルター",
       "surname": "ベルンハルト",
-      "description": "+8でオーバーヒールすると、エボニー・ディアボローグからランダムに装備された武器が発動する。HP消費への耐性あり。"
+      "description": "=+8でオーバーヒールすると、エボニー・ディアボローグからランダムに装備された武器が発動する。HP消費への耐性あり。"
     },
     "TP_GRAHAM": {
       "prefix": null,
@@ -15388,7 +16348,7 @@
       "prefix": null,
       "charName": "フォルミナ",
       "surname": "フランクリン",
-      "description": "ひらめき技を使うと効果時間が上昇。ボニーとチームを組む。ピンチになると独壇場が発生。"
+      "description": "ひらめき技を使うと弾速が上昇。ボーニーとチームを組む。ピンチになると独壇場が発生。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -15465,8 +16425,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "ロロ、ヒス、ミャオ、パー",
-      "surname": null,
+      "charName": "ロロ",
+      "surname": "、ヒス、ミャオ、パー",
       "description": "ピンチになると独壇場が発生。独壇場が発生すると、フォロワーを1体獲得。"
     },
     "EME_DEMON": {
@@ -15672,6 +16632,102 @@
       "charName": "クーリオ",
       "surname": null,
       "description": "武器進化時に洪水を引き起こす。また、HPが著しく低下した際には周囲全てのXPクリスタルを引き寄せる。"
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "マリス",
+      "surname": "ブラッドムーン",
+      "description": "4レベルごとに回復を0.1獲得。反撃、HPクリティカル、最後の吐息：広範囲に及ぶ血のまじないを発動する。"
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "애쉬타트",
+      "surname": null,
+      "description": "HPクリティカル：復活+1獲得。時計上で1分経過するごとに、倒した敵の残兵を召喚する。"
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "カロジェロ",
+      "surname": "ブラッドムーン",
+      "description": "最後の吐息：最大HPを50%まで増加。反撃：一時的なステータスボーナスを獲得できる。"
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "異形体",
+      "surname": null,
+      "description": "1以上の復活に対し、パッシブな武器スロットを獲得する。HPクリティカルおよび最後の吐息：残りの復活に応じて、必死にメインの武器を発動する。復活時：ビロード十二面体を出現させる。"
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "バアル＝サザール",
+      "surname": null,
+      "description": "地獄タイプの武器との相性良し。ブラッドタイプの武器で倒した敵は血をドロップする。\n最後の吐息：獲得する血に応じて一時的な攻撃力とクールダウンボーナスが付与される。"
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "バアル・サマト",
+      "surname": null,
+      "description": "地であり、地平線でもあるにもかかわらず、自らを貪ってしまう。"
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "サーゴン",
+      "surname": null,
+      "description": "空間を歪めて敵を困惑させる。FireFall、FireWall、Fireballの達人。復活時：追加で空間ゆがめを発動させる。"
+    },
+    "MEGASARGON": {
+      "prefix": "メガロ",
+      "charName": "サーゴン",
+      "surname": null,
+      "description": "皮肉な贈り物。漆黒の幻影、そして過去の残響。"
+    },
+    "NAMELESSFOOL": {
+      "prefix": "名無しの",
+      "charName": "愚者",
+      "surname": null,
+      "description": "最後の吐息：最大HPの半分を削るとランダムなダルカナス（ある場合）を獲得。復活時：最後の吐息では追加のダルカナを付与する可能性あり（最大3つまで）。"
+    },
+    "NAMELESSSAINT": {
+      "prefix": "名無しの",
+      "charName": "聖者",
+      "surname": null,
+      "description": "聖なる武器との相性良し。コレクションの解放状況に応じて、さまざまな聖なる武器を装備した状態で開始する。最後の吐息：ロザリオを発動する。"
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "ジャマン・ジャロ",
+      "surname": null,
+      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得。"
+    },
+    "KUJATA": {
+      "prefix": "イン",
+      "charName": "クジャタ",
+      "surname": null,
+      "description": "数歩ごとに地面を叩きつける。防御力を獲得するほど巨体化する。\nHPクリティカル：一時的な防御力ボーナスを獲得する。"
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "スピリトーゾ",
+      "surname": null,
+      "description": "オーバーヒール+64：水タイプか月光タイプの武器を出現させる。藍の泡とペンシン・ファッチャの武器と相性良し。"
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "スピリトーザ",
+      "surname": null,
+      "description": "オーバーヒール+16：フォロワーを獲得（最大30まで）。8レベルごとに隠された藍の泡を獲得（最大6つまで）。藍の泡とペンシン・ファッチャ系武器との相性良し。"
+    },
+    "MEGAMIANG": {
+      "prefix": "メガロ",
+      "charName": "ミアン",
+      "surname": "ムーンスペル",
+      "description": "最大HPは現在HPと同等になる。隠された白銀の奔流を持つ。"
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "月光神",
+      "surname": null,
+      "description": "ダメージを受ける代わりにHPを回復するが、現在のタイムリミットに到達すると消滅する。また、真珠の勾玉を持って開始する。"
     }
   },
   "ko": {
@@ -16417,7 +17473,7 @@
       "prefix": null,
       "charName": "소니아",
       "surname": "벨몬드",
-      "description": "+8만큼 과잉 치유 시 일시적으로 재사용 대기시간이 감소합니다. 특별 픽업을 찾을 수 있습니다."
+      "description": "=+8만큼 과잉 치유 시 일시적으로 재사용 대기시간이 감소합니다. 특별 픽업을 찾을 수 있습니다."
     },
     "TP_STELLA": {
       "prefix": null,
@@ -16549,7 +17605,7 @@
       "prefix": null,
       "charName": "아스타르트",
       "surname": null,
-      "description": "숨겨진 별 도리깨로 시작합니다. 적들이 15% 확률로 송곳니가 없는 상태로 생성됩니다. 패배한 적을 추종자로 만들 수 있습니다."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -16741,7 +17797,7 @@
       "prefix": null,
       "charName": "발터 베른하르트",
       "surname": "Bernhard",
-      "description": "+8 만큼 과잉 치유되면 에보니 디아볼로그에서 장착된 무기 하나를 무작위로 발동합니다. 체력 소모에 영향을 받지 않습니다."
+      "description": "=+8 만큼 과잉 치유되면 에보니 디아볼로그에서 장착된 무기 하나를 무작위로 발동합니다. 체력 소모에 영향을 받지 않습니다."
     },
     "TP_GRAHAM": {
       "prefix": null,
@@ -16807,13 +17863,13 @@
       "prefix": null,
       "charName": "보니",
       "surname": "블레어",
-      "description": "섬광 효과가 발동된 기술을 사용할 때 피해량이 증가합니다. 포미나와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
+      "description": "각 레벨에서 행운을 +1% 획득합니다. 포미나와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "포미나",
       "surname": "프랭클린",
-      "description": "섬광 효과가 발동된 기술을 사용할 때 지속시간이 증가합니다. 보니와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
+      "description": "각 레벨에서 행운을 +1% 획득합니다. 보니와 팀을 구성합니다. 체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -16855,7 +17911,7 @@
       "prefix": null,
       "charName": "구구츠",
       "surname": null,
-      "description": "새로운 기술에 섬광 효과가 발동할 때마다 부활 1과 성장 5%를 얻습니다.\n체력이 매우 낮은 수준에 도달했을 때 쇼스토퍼를 발동합니다."
+      "description": "체력이 매우 낮은 수준에 도달하면 쇼스토퍼를 발동합니다."
     },
     "EME_MRS": {
       "prefix": null,
@@ -16890,8 +17946,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "롤로, 쉿, 야옹, 갸르릉",
-      "surname": null,
+      "charName": "롤로",
+      "surname": ", 쉿, 야옹, 갸르릉",
       "description": "체력이 치명적일 때 쇼스토퍼를 발동합니다. 쇼스토퍼가 트리거될 때마다 팔로워를 확보할 수 있습니다."
     },
     "EME_DEMON": {
@@ -17097,6 +18153,102 @@
       "charName": "클레오",
       "surname": null,
       "description": "무기가 진화하면 홍수가 발생합니다. 체력이 매우 낮은 수준에 도달하면 XP 크리스털을 모두 흡입합니다."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "맬리스",
+      "surname": "블러드문",
+      "description": "4레벨마다 회복력이 0.1 증가합니다. 보복, HP 위기, 최후의 숨결, 부활 시점: 넓은 범위의 블러드 헥스를 발동합니다."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "阿絲塔特",
+      "surname": null,
+      "description": "HP 위기: 부활이 +1됩니다. 시계 분침이 1 분씩 이동할 때마 처치된 적의 잔해를 소환합니다."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "칼로제로",
+      "surname": "블러드문",
+      "description": "최후의 숨결: 최대 체력이 50% 증가합니다. 반격: 일시적인 능력치 보너스를 얻습니다."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "신도단",
+      "surname": null,
+      "description": "부활이 1보다 클 경우 초과분만큼 패시브 무기 슬롯을 얻습니다. 체력 위기 및 최후의 숨결: 남은 부활 수에 따라 주무기를 필사적으로 활성화합니다. 부활 시점: 벨벳 십이면체를 소환합니다."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "바알타사르",
+      "surname": null,
+      "description": "지옥 계열 무기에 능숙합니다. 블러드 계열 무기로 처치한 적은 블러드가 감소합니다. 마지막 숨결: 수집한 블러드 양에 따라 일시적으로 피해량과 쿨타임 보너스를 얻습니다."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "바알타무트",
+      "surname": null,
+      "description": "대지이자 지평선인 그것은 여전히 스스로를 집어삼킵니다."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "사르곤",
+      "surname": null,
+      "description": "시공간 왜곡을 생성하여 적을 혼란시킵니다. 파이어폴, 파이어월, 파이어볼의 명수입니다. 부활 시점: 시공간 왜곡을 추가로 소환합니다."
+    },
+    "MEGASARGON": {
+      "prefix": "메갈로",
+      "charName": "사르곤",
+      "surname": null,
+      "description": "뒤틀린 선물. 어두운 환영. 과거의 메아리."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "이름 없는",
+      "charName": "바보",
+      "surname": null,
+      "description": "최후의 숨결: 최대 체력의 절반을 잃고 무작위 다르카나를 획득합니다(가능한 경우). 부활 시점: 최후의 호흡 능력이 다르카나를 추가로 부여할 수 있습니다(최대 3개)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "이름 없는",
+      "charName": "성자",
+      "surname": null,
+      "description": "컬렉션에 있는 무기에 따라 여러 가지 성스러운 무기로 시작하며 해당 무기에 능숙합니다. 최후의 숨결: 묵주를 발동합니다."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "자만 자토",
+      "surname": null,
+      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+    },
+    "KUJATA": {
+      "prefix": "인'",
+      "charName": "쿠자타",
+      "surname": null,
+      "description": "몇 걸음마다 땅을 내리칩니다. 방어력을 쌓을수록 커집니다. 체력 위기: 일시적인 방어력 보너스를 얻습니다."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "스피리토소",
+      "surname": null,
+      "description": "과잉 치유 +64: 물 또는 달 속성 무기를 소환합니다. 밀레 볼레 블루와 펜신 파차 무기에 능숙합니다."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "스피리토사",
+      "surname": null,
+      "description": "과잉 치유 +16: 추종자 1명을 얻습니다(최대 30명). 8레벨마다 숨겨진 밀레 볼레 블루를 획득합니다(최대 6개). 밀레 볼레 블루 무기와 펜신 파차 무기에 능숙합니다."
+    },
+    "MEGAMIANG": {
+      "prefix": "메갈로",
+      "charName": "미앙",
+      "surname": "문스펠",
+      "description": "최대 체력이 현재 체력과 동일합니다. 숨겨진 은빛 흐름이 있습니다."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "게코진",
+      "surname": null,
+      "description": "피해를 받는 대신 HP를 회복하지만, 현재 제한 시간에 도달하면 사라집니다. 펄 마가타마로 시작합니다."
     }
   },
   "zh-TW": {
@@ -17972,9 +19124,9 @@
     },
     "TP_ASTARTE": {
       "prefix": null,
-      "charName": "亞斯達堤",
+      "charName": "阿斯塔蒂",
       "surname": null,
-      "description": "開場時，即可獲得一個隱藏的星之連枷。有 15% 的機率能夠在敵人重生後即刻消除其威脅。可以將擊敗的敵人轉化為自己的隨從。"
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -18232,13 +19384,13 @@
       "prefix": null,
       "charName": "邦妮",
       "surname": "布萊爾",
-      "description": "在使用閃悟技能時，獲得力量加成。與搭檔福爾米娜一同戰鬥。在生命值變得相當低時，觸發絕技。"
+      "description": "每升 1 級，力量便提高 1%。與福爾米娜組隊。生命值變得相當低時，觸發絕技。"
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "福爾米娜",
       "surname": "法蘭克林",
-      "description": "在使用閃悟技能時，獲得效果持續時間加成。與搭檔邦妮一同戰鬥。在生命值變得相當低時，觸發絕技。"
+      "description": "每升 1 級，投射物速度加快 1%。與邦妮組隊。生命值變得相當低時，觸發絕技。"
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -18280,7 +19432,7 @@
       "prefix": null,
       "charName": "傀儡",
       "surname": null,
-      "description": "每閃悟一次全新技能時，便可獲得 1 次復活機會和 5% 的成長加成。\n在生命值很低時，觸發絕技。"
+      "description": "生命值變得相當低時，觸發絕技。"
     },
     "EME_MRS": {
       "prefix": null,
@@ -18315,8 +19467,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "洛洛, 嘶嘶、喵喵、呼嚕",
-      "surname": null,
+      "charName": "洛洛",
+      "surname": "嘶嘶、喵喵、呼嚕",
       "description": "在生命值很低時，觸發絕技。每次觸發絕技時，獲得一個隨從。"
     },
     "EME_DEMON": {
@@ -18522,6 +19674,102 @@
       "charName": "庫里歐",
       "surname": null,
       "description": "在解放武器的當下，帕拉能夠發動一波洪水攻擊。在生命值變得相當低的時候，會吸取地圖上所有的經驗值水晶。"
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "瑪麗絲",
+      "surname": "血月",
+      "description": "每提升 4 級獲得 0.1 點恢復。反擊、生命值危急、最後一息與復活時：觸發大範圍血咒。"
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Астарта",
+      "surname": null,
+      "description": "生命值過低：獲得 1 次額外的復活次數。每當時鐘在每一分鐘敲響之際，便會召喚被擊敗敵人的殘骸來爲自己效力。"
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "卡洛傑羅",
+      "surname": "血月",
+      "description": "最後掙扎：最大生命值提高 50%。反擊：獲得暫時性的屬性加成。"
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "狂熱教眾",
+      "surname": null,
+      "description": "如果有超過 1 次的復活次數，便能夠獲得一個被動武器欄位。生命值過低和最後掙扎：根據剩餘的復活次數來瘋狂發動其主要武器。復活時：生成一個絲絨十二面體。"
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "巴爾塔薩",
+      "surname": null,
+      "description": "精通地獄屬性武器。被血屬性武器擊殺的敵人會掉落血液。瀕死：根據收集到的血液量，獲得暫時性的力量與冷卻時間加成。"
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "巴爾沙姆特",
+      "surname": null,
+      "description": "既是大地，亦是天際線⋯即便如此，仍不斷地吞噬著自己。"
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "薩爾貢",
+      "surname": null,
+      "description": "產生使敵人陷入混亂的扭曲空間。精通火殞、火牆和火球。復活時：生成一個額外的扭曲空間。"
+    },
+    "MEGASARGON": {
+      "prefix": "極惡",
+      "charName": "薩爾貢",
+      "surname": null,
+      "description": "惡意滿盈的贈禮。黑暗的幻象。過去的回聲。"
+    },
+    "NAMELESSFOOL": {
+      "prefix": "無名",
+      "charName": "愚者",
+      "surname": null,
+      "description": "最後掙扎：失去一半最大生命值並獲得一個隨機的黑暗秘能（如果可以的話）。復活時：最後掙扎能力可以額外獲得 1 個黑暗秘能（最多 3 個）。"
+    },
+    "NAMELESSSAINT": {
+      "prefix": "無名",
+      "charName": "聖者",
+      "surname": null,
+      "description": "開場時即可獲得一系列自己所精通的神聖屬性武器（能夠獲得的武器會取決於收藏頁面中的解鎖進度）。最後掙扎：觸發玫瑰念珠的效果。"
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "賈曼加托",
+      "surname": null,
+      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+    },
+    "KUJATA": {
+      "prefix": "伊本",
+      "charName": "庫加塔",
+      "surname": null,
+      "description": "每走幾步便會重擊地面一次。累積護甲時，體型會變得更加巨大。生命值過低：獲得暫時性的護甲加成。"
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "斯皮里托索",
+      "surname": null,
+      "description": "超額治療 +64：生成一件水屬性或是月屬性的武器。精通亂氣藍泡與潘神法札武器。"
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "斯皮里托莎",
+      "surname": null,
+      "description": "超額治療 +16：獲得 1 名隨從（最多能夠獲得 30 名）。每升 8 級，獲得 1 個隱藏的亂氣藍泡（最多能夠獲得 6 個）。精通亂氣藍泡與潘神法札武器。"
+    },
+    "MEGAMIANG": {
+      "prefix": "月咒",
+      "charName": "極惡",
+      "surname": "米昂",
+      "description": "最大生命值等同於當前的生命值。擁有一個隱藏的銀流。"
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "月光神",
+      "surname": null,
+      "description": "不會受到傷害，而是恢復生命值，但在存活達時間上限之後，這個免疫效果便會消失。開場時，即可獲得一個珍珠勾玉。"
     }
   },
   "uk": {
@@ -19399,7 +20647,7 @@
       "prefix": null,
       "charName": "Астарта",
       "surname": null,
-      "description": "Розпочинає із Зоряним ціпом. Вороги мають 15% шанс з'явитися знешкодженими. Може обертати вбитих ворогів на послідовників."
+      "description": "Starts with a hidden Star Flail. Enemies have a 15% chance to spawn Defanged. Can turn defeated enemies into followers."
     },
     "TP_LIBRARIAN": {
       "prefix": null,
@@ -19657,13 +20905,13 @@
       "prefix": null,
       "charName": "Бонні",
       "surname": "Блейр",
-      "description": "Отримує силу при застосуванні прийомів відкриття. Об'єднується з Форміною. Запускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Отримує +1% сили на кожному рівні. Об'єднується з Форміною. Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_CANNONGUN": {
       "prefix": null,
       "charName": "Форміна",
       "surname": "Франклін",
-      "description": "Отримує тривалість при застосуванні прийомів відкриття. Об'єднується з Бонні. Запускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Отримує +1% до швидкості снарядів із кожним рівнем. Об'єднується з Бонні. Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_MECHKATANA": {
       "prefix": null,
@@ -19705,7 +20953,7 @@
       "prefix": null,
       "charName": "Куґуцу",
       "surname": null,
-      "description": "Отримує 1 до оживлення і 5% розвитку щоразу при застосуванні нової техніки відкриття.\nЗапускає Густобій, коли здоров'я падає до критичного рівня."
+      "description": "Запускає Густобій, коли здоров'я падає до критичного рівня."
     },
     "EME_MRS": {
       "prefix": null,
@@ -19740,8 +20988,8 @@
     },
     "EME_CATS": {
       "prefix": null,
-      "charName": "Лоло, Ш-ш-ш, Няв і Мур-р",
-      "surname": null,
+      "charName": "Лоло",
+      "surname": "Ш-ш-ш, Няв і Мур-р",
       "description": "Запускає Густобій при критичному рівні здоров'я. Отримує послідовника, коли Густобій запущено."
     },
     "EME_DEMON": {
@@ -19947,6 +21195,102 @@
       "charName": "Кула",
       "surname": null,
       "description": "При еволюції зброї запускає потоп. Притягує всі самоцвіти досвіду, коли здоров'я падає до критичного рівня."
+    },
+    "MALICE": {
+      "prefix": null,
+      "charName": "Злобетта",
+      "surname": "Кровомісяць",
+      "description": "Отримує 0,1 до регенерації кожні 4 рівня. Відплата, критичний рівень ОЗ, останній подих і результат за відродженням: запускають криваві прокляття, що діють на великій області."
+    },
+    "ASHTART": {
+      "prefix": null,
+      "charName": "Астарта",
+      "surname": null,
+      "description": "Крит. рівень ОЗ: отримує +1 до регенерації. Викликає залишки переможених ворогів щоразу, коли годинник відбиває хвилину."
+    },
+    "CALOGERO": {
+      "prefix": null,
+      "charName": "Цалоджеро",
+      "surname": "Кровомісяць",
+      "description": "Останній подих: збільшує макс. ОЗ на 50%. Відплата: отримує тимчасовий бонус до характеристики."
+    },
+    "CONGREGATION": {
+      "prefix": null,
+      "charName": "Паства",
+      "surname": null,
+      "description": "Отримує комірку для пасивної зброї за будь-яке оживлення більше від 1. Критичний рівень ОЗ й останній подих: у паніці активують свою основну зброю залежно від оживлень, які залишилися. Результат за відродженням: створюють оксамитовий додекаедр."
+    },
+    "BAALTHASAR": {
+      "prefix": null,
+      "charName": "Ваал’Тасар",
+      "surname": null,
+      "description": "Адепт зі зброєю пекла. Вороги, убиті зброєю крові, залишають кров. Останній подих: здобуває тимчасову міць і бонус до відновлення залежно віз зібраної крові."
+    },
+    "MEGABAALTHASAR": {
+      "prefix": null,
+      "charName": "Ваал’Тамут",
+      "surname": null,
+      "description": "Це і земля, і небокрай — та все ж воно жере себе."
+    },
+    "SARGON": {
+      "prefix": null,
+      "charName": "Сарґон",
+      "surname": null,
+      "description": "Створює просторові викривлення, які заплутують ворогів. Володіє вогнепадом, вогнестіною і вогнекулею. Результат за відродженням: створює додаткові просторові викривлення."
+    },
+    "MEGASARGON": {
+      "prefix": "Мегало",
+      "charName": "Сарґон",
+      "surname": null,
+      "description": "Дари як підкуп. Темні ілюзії. Відлуння минулого."
+    },
+    "NAMELESSFOOL": {
+      "prefix": "Безіменний",
+      "charName": "Дурень",
+      "surname": null,
+      "description": "Останній подих: втрачає половину макс. ОЗ й отримує випадкову Даркану (за наявності). Результат за відродженням: здібність може винагородити додатковими Дарканами (макс. 3)."
+    },
+    "NAMELESSSAINT": {
+      "prefix": "Безіменний",
+      "charName": "Святий",
+      "surname": null,
+      "description": "Починає як адепт з арсеналом священної зброї, залежно від її наявності в колекції. Останній подих: запускає чотки."
+    },
+    "JAMANJATO": {
+      "prefix": null,
+      "charName": "Джаман Джато",
+      "surname": null,
+      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+    },
+    "KUJATA": {
+      "prefix": "Ін’",
+      "charName": "Куджата",
+      "surname": null,
+      "description": "Кожні кілька кроків б’є по землі. Збільшується в розмірах під час накопичення броні. Крит. рівень ОЗ: отримує тимчасовий бонус до броні."
+    },
+    "SPIRITOSO": {
+      "prefix": null,
+      "charName": "Спірітозо",
+      "surname": null,
+      "description": "Надмірне зцілення +64: створює воду чи зброю місяця. Адепт має Міллі-Боллі-Блу й Рибобій."
+    },
+    "SPIRITOSA": {
+      "prefix": null,
+      "charName": "Спірітоза",
+      "surname": null,
+      "description": "Надмірне зцілення +16: отримує послідовників (макс. 30). Отримує приховану Міллі-Боллі-Блу за кожні 8 рівнів (макс. 6). створює воду чи зброю місяця. Адепт має Міллі-Боллі-Блу й Рибобій."
+    },
+    "MEGAMIANG": {
+      "prefix": "Мегало",
+      "charName": "Міанг",
+      "surname": "Місячночар",
+      "description": "Макс. ОЗ дорівнює поточному здоров’ю. Має прихований Срібний потік."
+    },
+    "GEKKOJIN": {
+      "prefix": null,
+      "charName": "Ґеккоджин",
+      "surname": null,
+      "description": "Відновлює ОЗ замість отримання шкоди, але зникає, коли досягнуто поточного обмеження за часом. Починає з перлової магатами."
     }
   }
 }

@@ -1,0 +1,874 @@
+{
+  "BMN_BLOODMOON": [
+    {
+      "order": 100100,
+      "stageName": "Bloodmoon",
+      "description": "Ancestral home of a fallen clan, now overrun by yokai and oni. The night has won in this world where the sun doesn't shine.",
+      "uiTexture": "UI_StageIcons",
+      "uiFrame": "stage_bloodmoon.png",
+      "texture": "UI",
+      "frameNameUnlock": "p_bloodmoon.png",
+      "frameName": "p_bmnboss.png",
+      "bestiaryBG": "background_bloodmoon.png",
+      "stageNumber": "Special",
+      "unlocked": true,
+      "hidden": false,
+      "relics": [
+        "RELIC_MAP_BMN"
+      ],
+      "yellowRelics": [],
+      "BGM": "BGM_Bloodmoon",
+      "sideBBGM": "BGM_Bloodmoon",
+      "validForCharcaterData": true,
+      "cff": "BAALTHASAR",
+      "zoom": 4,
+      "preload": {
+        "textures": [
+          "backgroundDevil",
+          "MapBMN",
+          "MapBMN_withDevilRoom",
+          "enemies"
+        ]
+      },
+      "mods": {
+        "TimeLimit": 1800,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.4,
+        "EnemySpeed": 1.4,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1.5,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": false,
+        "TimeLimit": 1800,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0.6,
+        "EnemySpeed": 0.6,
+        "ProjectileSpeed": 0.15,
+        "GoldMultiplier": 0.5,
+        "EnemyHealthMultiplier": 0,
+        "LuckBonus": 0.1,
+        "XPBonus": 0,
+        "StartingSpawns": 20
+      },
+      "inverse": {
+        "tint": 8947950,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
+        }
+      },
+      "tileset": {
+        "setKey": "BloodmoonTexturePacked",
+        "setPath": "assets/tilesets/BloodmoonTexturePacked.png",
+        "mapKey": "Bloodmoon",
+        "mapPath": "assets/tilesets/Bloodmoon.json",
+        "isTiling": false,
+        "hasWallsCheckDestructibleLogic": true,
+        "tint": 14540287,
+        "SizeX": 10240,
+        "SizeY": 10240,
+        "minTreasureX": 160,
+        "maxTreasureX": 11040,
+        "minTreasureY": 160,
+        "maxTreasureY": 11040,
+        "detailsPath": "assets/img/MapBMN.png",
+        "detailsTexture": "MapBMN.png",
+        "mapRelic": "RELIC_MAP_BMN"
+      },
+      "background": {
+        "texture": ""
+      },
+      "pizzaEvents": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 60,
+          "moreY": "BMN_UNICONIGLIO"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 40,
+          "moreY": "BMN_CANE"
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 20,
+          "moreY": "BMN_CONGREGATION_SMALL"
+        },
+        {
+          "eventType": "GENERIC_SWARM_WIDE",
+          "moreX": 20,
+          "moreY": "BMN_JAMAN_JATO_SWARM"
+        }
+      ],
+      "poolsMapping": [
+        {
+          "key": 0,
+          "type": "BMN_SPIRITOSO",
+          "pool": null
+        },
+        {
+          "key": 1,
+          "type": "BMN_SPIRITOSO",
+          "pool": null
+        },
+        {
+          "key": 2,
+          "type": "BMN_JAMAN_JATO",
+          "pool": null
+        },
+        {
+          "key": 3,
+          "type": "BMN_CONGREGATION_SMALL",
+          "pool": null
+        },
+        {
+          "key": 4,
+          "type": "BMN_JAMAN_JATO",
+          "pool": null
+        },
+        {
+          "key": 5,
+          "type": "BMN_JAMAN_JATO2",
+          "pool": null
+        }
+      ],
+      "spawnType": "MAPPED",
+      "startingSpawns": 40,
+      "minute": 0,
+      "destructibleType": "GOTHIC_BRAZIER",
+      "destructibleFreq": 1000,
+      "destructibleChance": 7.5,
+      "destructibleChanceMax": 50,
+      "maxDestructibles": 15,
+      "BGTextureName": "bg_null",
+      "hasLights": true,
+      "hasCharacterSpotlight": true,
+      "characterSpotlightInnerRadius": 1,
+      "characterSpotlightOuterRadius": 2,
+      "dayNight": false,
+      "tilemapTiledJSON": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapTiledIMG": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapPos": {
+        "x": 0,
+        "y": 0
+      },
+      "minimum": 25,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_NASNASTY"
+      ]
+    },
+    {
+      "minute": 1,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "BMN_NASNASTY"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 50,
+          "moreY": "BMN_UNICONIGLIO_SWARM",
+          "delay": 15000,
+          "duration": 20000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 50,
+          "moreY": "BMN_UNICONIGLIO_SWARM",
+          "delay": 30000,
+          "duration": 20000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 50,
+          "moreY": "BMN_UNICONIGLIO_SWARM",
+          "delay": 45000,
+          "duration": 20000,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 40,
+      "frequency": 500,
+      "enemies": [
+        "BMN_UNICONIGLIO"
+      ],
+      "bosses": [
+        "BMN_JETTATRICI"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 30,
+          "moreY": "BMN_CANE_SWARM",
+          "delay": 40000,
+          "duration": 20000,
+          "repeat": 0
+        }
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 3,
+      "minimum": 60,
+      "frequency": 2000,
+      "enemies": [
+        "BMN_CANE"
+      ]
+    },
+    {
+      "minute": 4,
+      "minimum": 80,
+      "frequency": 2000,
+      "enemies": [
+        "BMN_CANE",
+        "BMN_NASNASTY"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 1,
+          "moreY": "BMN_WEREHYENA_SWARM",
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 2,
+          "moreY": "BMN_WEREHYENA_SWARM",
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 3,
+          "moreY": "BMN_WEREHYENA_SWARM",
+          "delay": 10000,
+          "repeat": 0
+        }
+        ]
+    },
+    {
+      "minute": 5,
+      "minimum": 70,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_UNICONIGLIO"
+      ],
+      "bosses": [
+        "BMN_FRITTONI"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "moreX": 50,
+          "moreY": "BMN_NAGAPHONATA_CIRCLE",
+          "moreZ": 1,
+          "duration": 30000,
+          "repeat": 0
+        }
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 30,
+      "frequency": 750,
+      "enemies": [
+        "BMN_CANE",
+        "BMN_WEREHYENA"
+      ]
+    },
+    {
+      "minute": 7,
+      "minimum": 100,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_NASNASTY"
+      ],
+      "events": [
+        {
+          "eventType": "DRAGON_SWARM",
+          "moreX": 20,
+          "moreY": "BMN_ROCCO_SWARM",
+          "moreZ": 0.7,
+          "duration": 40000,
+          "repeat": 0
+        },
+        {
+          "eventType": "DRAGON_SWARM",
+          "moreX": 20,
+          "moreY": "BMN_ROCCO_SWARM",
+          "moreZ": 0.7,
+          "delay": 30000,
+          "duration": 40000,
+          "repeat": 0
+        }
+      ],
+      "bosses": [
+        "BMN_JETTATRICI"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 8,
+      "minimum": 100,
+      "frequency": 750,
+      "enemies": [
+        "BMN_UNICONIGLIO",
+        "BMN_CANE"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 10,
+          "moreY": "BMN_FRITTI",
+          "duration": 600000,
+          "repeat": 0
+        }
+      ]
+    },
+    {
+      "minute": 9,
+      "minimum": 50,
+      "frequency": 500,
+      "enemies": [
+        "BMN_NASNASTY",
+        "BMN_WEREHYENA"
+      ],
+      "bosses": [
+        "BMN_FRITTONI"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 10,
+      "minimum": 40,
+      "frequency": 200,
+      "enemies": [
+        "BMN_UNICONIGLIO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "moreX": 60,
+          "moreY": "BMN_NAGAPHONATA_CIRCLE",
+          "moreZ": 1,
+          "duration": 50000,
+          "repeat": 0
+        },
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 20,
+          "moreY": "BMN_ROCCO_SWARM",
+          "duration": 10000,
+          "delay": 10000,
+          "repeat": 0
+        },
+        {
+          "eventType": "MONSTER_RAIN",
+          "moreX": 20,
+          "moreY": "BMN_ROCCO_SWARM",
+          "moreZ": 1,
+          "duration": 10000,
+          "delay": 15000,
+          "repeat": 0
+        },
+        {
+          "eventType": "JELLY_WALL",
+          "moreX": 20,
+          "moreY": "BMN_ROCCO_SWARM",
+          "duration": 10000,
+          "delay": 20000,
+          "repeat": 0
+        },
+        {
+          "eventType": "DRAGON_SWARM",
+          "moreX": 20,
+          "moreY": "BMN_ROCCO_SWARM",
+          "moreZ": 1,
+          "duration": 10000,
+          "delay": 25000,
+          "repeat": 0
+        }
+      ],
+      "bosses": [
+        "BMN_SYAMALANNO"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_UNICONIGLIO",
+        "BMN_ROCCO"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 10,
+          "moreY": "BMN_DJINN",
+          "moreZ": 1,
+          "delay": 25000,
+          "duration": 100000,
+          "repeat": 0
+        }
+      ],
+      "arcanaHolder": "BMN_JAMAN_JATO_BOSS",
+      "arcanaTreasure": {
+        "chances": [
+          0.1,
+          0.3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }    
+    },
+    {
+      "minute": 12,
+      "minimum": 70,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_NASNASTY",
+        "BMN_JETTATRICI_BASE"
+      ]
+    },
+    {
+      "minute": 13,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_NAGAPHONATA",
+        "BMN_CANE"
+      ],
+      "bosses": [
+        "BMN_FRITTONI"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 14,
+      "minimum": 65,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_UNICONIGLIO",
+        "BMN_NASNASTY",
+        "BMN_DJINN"
+      ]
+    },
+    {
+      "minute": 15,
+      "minimum": 50,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_DJINN",
+        "BMN_NAGAPHONATA"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 5,
+          "moreY": "BMN_DJINN_2",
+          "moreZ": 0.7,
+          "delay": 40000,
+          "repeat": 0
+        }
+      ],
+      "bosses": [
+        "BMN_SYAMALANNO"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 16,
+      "minimum": 70,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_FRITTI",
+        "BMN_NASNASTY",
+        "BMN_WEREHYENA"
+      ]
+    },
+    {
+      "minute": 17,
+      "minimum": 80,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_DJINN"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_SWARM",
+          "moreX": 50,
+          "moreY": "BMN_UNICONIGLIO_SWARM",
+          "moreZ": 0.7,
+          "delay": 15000,
+          "repeat": 3
+        }
+      ],
+      "bosses": [
+        "BMN_KUYATA"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 18,
+      "minimum": 75,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_FRITTI",
+        "BMN_NAGAPHONATA"
+      ]
+    },
+    {
+      "minute": 19,
+      "minimum": 60,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_FRITTI",
+        "BMN_DJINN"
+      ],
+      "bosses": [
+        "BMN_SYAMALANNO"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 20,
+      "minimum": 50,
+      "frequency": 850,
+      "enemies": [
+        "BMN_DJINN_2",
+        "BMN_WEREHYENA"
+      ],
+      "bosses": [
+        "BMN_KUYATA"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 21,
+      "minimum": 50,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_FRITTONI_BASE",
+        "BMN_NASNASTY"
+      ],
+      "events": [
+        {
+          "eventType": "JELLY_WALL",
+          "moreX": 25,
+          "moreY": "BMN_ROCCO_SWARM",
+          "moreZ": 0.7,
+          "delay": 15000,
+          "repeat": 2
+        }
+      ],   
+      "arcanaHolder": "BMN_JAMAN_JATO_BOSS",
+      "arcanaTreasure": {
+        "chances": [
+          0.1,
+          0.3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION"
+        ]
+      }
+    },
+    {
+      "minute": 22,
+      "minimum": 65,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_DJINN_2",
+        "BMN_JETTATRICI_BASE"
+      ]
+    },
+    {
+      "minute": 23,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_FRITTONI_BASE",
+        "BMN_UNICONIGLIO",
+        "BMN_NASNASTY"
+      ],
+      "bosses": [
+        "BMN_LAMASHTU"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 24,
+      "minimum": 50,
+      "frequency": 1000,
+      "enemies": [
+        "BMN_KUYATA_BASE",
+        "BMN_NAGAPHONATA"
+      ]
+    },
+    {
+      "minute": 25,
+      "minimum": 65,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_FRITTONI_BASE",
+        "BMN_NASNASTY",
+        "BMN_UNICONIGLIO"
+      ],
+      "bosses": [
+        "BMN_LAMASHTU"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          3,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 26,
+      "minimum": 50,
+      "frequency": 1500,
+      "enemies": [
+        "BMN_JETTATRICI_BASE",
+        "BMN_KUYATA_BASE"
+      ]
+    },
+    {
+      "minute": 27,
+      "minimum": 60,
+      "frequency": 5000,
+      "enemies": [
+        "BMN_SYAMALANNO"
+      ]
+    },
+    {
+      "minute": 28,
+      "minimum": 100,
+      "frequency": 5000,
+      "enemies": [
+        "BMN_JETTATRICI"
+      ]
+    },
+    {
+      "minute": 29,
+      "minimum": 20,
+      "frequency": 2000,
+      "enemies": [
+        "BMN_LAMASHTU"
+      ]
+    },
+    {
+      "minute": 30,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ]
+}

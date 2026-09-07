@@ -803,5 +803,23 @@
       "rate": 1.125,
       "detune": -1000
     }
+  },
+  "BGM_Moonlight": {
+    "title": "Blade of Moonlight",
+    "author": "Daniele Zandara",
+    "source": "",
+    "unlockedByStage": null,
+    "unlockedByCharacter": "GEKKOJIN",
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "p_gekkojin.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.125,
+      "detune": -1000
+    }
   }
 }

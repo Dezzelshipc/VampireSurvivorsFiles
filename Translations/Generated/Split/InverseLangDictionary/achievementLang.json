@@ -742,7 +742,7 @@
       "description": "Evolve the Blade Crossbow."
     },
     "FB_17_Find__Barrier": {
-      "description": "Find 14 Barriers."
+      "description": "Find 7 Barriers."
     },
     "FB_18_SurvivPrism": {
       "description": "Survive 15 minutes with Probotector."
@@ -751,7 +751,7 @@
       "description": "Evolve the Prism Lass."
     },
     "FB_20_Find__Rapid": {
-      "description": "Find 21 RapidFires."
+      "description": "Find 14 RapidFires."
     },
     "FB_21_SurvivHoming": {
       "description": "Survive 15 minutes with Stanley Ironside."
@@ -790,7 +790,7 @@
       "description": "Be embraced by the Darkasso."
     },
     "Dark_01SpaceDude": {
-      "description": "Escape while having a Cooldown bonus of -85% with Space Dude"
+      "description": "Reach a Cooldown bonus of -85% with Space Dude."
     },
     "Dark_06Darkasso": {
       "description": "Be embraced by the Darkasso."
@@ -1164,7 +1164,7 @@
       "description": "Defeat 0 enemies in The Coop."
     },
     "EvolveOfGaea": {
-      "description": "Survive 20 minutes in The Coop"
+      "description": "Survive 20 minutes in The Coop."
     },
     "Dark_03Gazebo": {
       "description": "Eat as much as possible with Gazebo."
@@ -1342,7 +1342,7 @@
       "description": "Find the Wax Fetish in Mazerella."
     },
     "Dark_13Chula": {
-      "description": "Escape while having +999% Luck with Chula-Reh."
+      "description": "Reach +999% Luck with Chula-Reh."
     },
     "EvolveOfGaea_Fix": {
       "description": "Evolve the Gaze of Gaea."
@@ -1354,7 +1354,7 @@
       "description": "Survive 30 minutes with no weapons in Inverse Green Acres."
     },
     "Dark_05Appunta": {
-      "description": "Find 10 Golden Treasure Chests from Zi'Appunta's ability in a single run."
+      "description": "Find 10 Treasure Chests from Zi'Appunta's ability in a single run."
     },
     "LEM_FindJokerDisc": {
       "description": "Find and buy the Joker Disk."
@@ -1448,6 +1448,96 @@
     },
     "Dark_19Challenge": {
       "description": "Survive 15 min in Inverse Boss Rash with Random Events and Random Level Ups."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Get LunarMight to Level 6."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Get LunarBight to Level 6."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Get LunarSight to Level 6."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Unite LunarMight, LunarBight, and LunarSight."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Reach Level 80 with Gekkojin."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Find a Pearl Magatama."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Hold the Pearl Magatama and obtain the Argent Flow with Miang Moonspell."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Find and open the coffin in Red Moon Manor."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Survive 15 minutes with Malice Bloodmoon."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Evolve the Scarlet Needle."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Survive 15 minutes with Calogero Bloodmoon."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Evolve the Ashella."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Survive 15 minutes with Ashtart."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Evolve the Incineration."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Survive 15 minutes with Sargon."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Get FireBall to Level 6."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Get FireWall to Level 6."
+    },
+    "BMN13_UniteFire": {
+      "description": "Hold the Velvet Dodecahedron and obtain the FireStall with Sargon."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Get Descent Into Misery to Level 9."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Die a total of 7 times with Nameless Fool."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Get Screams from the Void to Level 7."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Evolve Screams from the Void."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Defeat 6000 Jaman Jatos."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Defeat Ashtart, Sargon, Congregation, and Baal in a single run."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Break the statue of Kujata with 108 Bocce or 108 Responsive Prayers."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Defeat Baal’Thasar in Red Moon Manor."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Survive 15 minutes with Baal'Thasar."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Hold the Velvet Dodecahedron and obtain Damnation with Baal'Thasar."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Defeat Batti Lei in the Red Moon Manor."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Find the Red Moon Manor Map."
     }
   },
   "fr": {
@@ -2145,7 +2235,7 @@
       "description": "Infligez un total de 25 120 dégâts avec le train du LaBorratoire."
     },
     "FB_01_Find__Coffin": {
-      "description": "Trouvez et ouvrez le cercueil dans Neo Galuga."
+      "description": "Trouvez et ouvrez le cercueil dans Jungle Galuga."
     },
     "FB_02_SurvivLong": {
       "description": "Survivez 15 minutes avec Bill Rizer."
@@ -2202,7 +2292,7 @@
       "description": "Faites évoluer le Prismi-fille."
     },
     "FB_20_Find__Rapid": {
-      "description": "Trouvez 21 La Rapide."
+      "description": "Trouvez 14 La Rapide."
     },
     "FB_21_SurvivHoming": {
       "description": "Survivez 15 minutes avec Stanley Ironside."
@@ -2615,7 +2705,7 @@
       "description": "Éliminez 0 ennemis dans le Poulailler."
     },
     "EvolveOfGaea": {
-      "description": "Survivez 20 minutes dans le Poulailler."
+      "description": "Faites évoluer le Regard de Gaïa."
     },
     "Dark_03Gazebo": {
       "description": "Mangez autant que vous pouvez avec Regarbo."
@@ -2720,7 +2810,7 @@
       "description": "Trouvez et faites évoluer le Khukuri au maximum."
     },
     "EME_DefeatBoss25m": {
-      "description": "Éliminez le Monarque maudit dans Diorama émeraude."
+      "description": "Éliminez l'Ogre caché dans Diorama émeraude."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Éliminez l'Esprit des bois divin dans Diorama émeraude inversé, à Miyako City."
@@ -2805,7 +2895,7 @@
       "description": "Survivez 30 minutes sans arme dans Pré verdoyant inversé."
     },
     "Dark_05Appunta": {
-      "description": "Trouvez 10 coffres au trésor dorés en une seule partie avec la capacité de Zi'Appunta."
+      "description": "Trouvez 10 coffres au trésor en une seule partie avec Zi'Appunta."
     },
     "LEM_FindJokerDisc": {
       "description": "Trouvez et achetez le Disque de Joker."
@@ -2899,6 +2989,96 @@
     },
     "Dark_19Challenge": {
       "description": "Survivez 15 min dans Déferlante de boss inversé avec des événements et des améliorations aléatoires."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Améliorez Lunissance jusqu'au niveau 6."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Améliorez Luniser jusqu'au niveau 6."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Améliorez Lunicycle jusqu'au niveau 6."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Fusionnez Lunissance, Luniser et Lunicycle."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Atteignez le niveau 80 avec Gekkojin."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Trouvez une Perle Magatama."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Tenez la Perle Magatama et obtenez le Flux argenté avec Miang Moonspell."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Trouvez et ouvrez le cercueil dans le Manoir de la Lune Rouge."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Survivez 15 minutes avec Malice Bloodmoon."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Faites évoluer l'Aiguille écarlate."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Survivez 15 minutes avec Calogero Bloodmoon."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Faites évoluer la Hachelette."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Survivez 15 minutes avec Ashtart."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Faites évoluer l'Incinération."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Survivez 15 minutes avec Sargon."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Améliorez Boule de feu jusqu'au niveau 6."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Améliorez Mur de feu jusqu'au niveau 6."
+    },
+    "BMN13_UniteFire": {
+      "description": "Tenez le Dodécaèdre de velours et obtenez Fournaise avec Sargon."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Améliorez Descente aux enfers jusqu'au niveau 9."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Mourez un total de 7 fois avec Fou sans nom."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Améliorez Cris du néant jusqu'au niveau 7."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Faites évoluer Cris du néant."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Éliminez 6 000 Jaman Jatos."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Éliminez Ashtart, Sargon, Congrégation, et Baal en une partie."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Cassez la statue de Kujata avec 108 Boules ou 108 Prières interactives."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Éliminez Baal’Thasar dans le Manoir de la Lune Rouge."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Survivez 15 minutes avec Baal'Thasar."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Tenez le Dodécaèdre de velours et obtenez Damnation avec Baal'Thasar."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Éliminez Batti Lei dans le Manoir de la Lune Rouge."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Trouvez la carte du Manoir de la Lune Rouge."
     }
   },
   "it": {
@@ -3596,7 +3776,7 @@
       "description": "Infliggi 25.120 danni in totale con il Treno del Laborratorio."
     },
     "FB_01_Find__Coffin": {
-      "description": "Trova e apri la bara a Neo Galuga."
+      "description": "Trova e apri la bara nella Giungla Galuga."
     },
     "FB_02_SurvivLong": {
       "description": "Sopravvivi per 15 minuti con Bill Rizer."
@@ -3644,7 +3824,7 @@
       "description": "Migliora la Balestra crociata."
     },
     "FB_17_Find__Barrier": {
-      "description": "Trova 14 Barriere."
+      "description": "Trova 7 Barriere."
     },
     "FB_18_SurvivPrism": {
       "description": "Sopravvivi per 15 minuti con Probotector."
@@ -3653,7 +3833,7 @@
       "description": "Migliora Prismiss."
     },
     "FB_20_Find__Rapid": {
-      "description": "Trova 21 Rapid Fire."
+      "description": "Trova 14 Rapid Fire."
     },
     "FB_21_SurvivHoming": {
       "description": "Sopravvivi per 15 minuti con Stanley Ironside."
@@ -4066,7 +4246,7 @@
       "description": "Sconfiggi 0 nemici ne La Coop."
     },
     "EvolveOfGaea": {
-      "description": "Sopravvivi per 20 minuti nella Coop."
+      "description": "Migliora lo Sguardo di Gaia."
     },
     "Dark_03Gazebo": {
       "description": "Mangia il più possibile con Gazebo."
@@ -4171,7 +4351,7 @@
       "description": "Trova e migliora completamente il Kukri."
     },
     "EME_DefeatBoss25m": {
-      "description": "Sconfiggi il Monarca maledetto in Diorama smeraldo."
+      "description": "Sconfiggi l'Ogre nascosto in Diorama smeraldo."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Sconfiggi la Bestia dello spirito in Diorama smeraldo invertito, Miyako."
@@ -4350,6 +4530,96 @@
     },
     "Dark_19Challenge": {
       "description": "Sopravvivi per 15 min. in Sfogo del boss invertito con eventi e aumenti di livello casuali."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Porta Potere lunare al livello 6."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Porta Podere lunare al livello 6."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Porta Volere lunare al livello 6."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Riunisci Potere lunare, Podere lunare e Volere lunare."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Raggiungi il livello 80 con Gekkojin."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Trova una Perla Magatama."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Possiedi Perla Magatama e ottieni Flusso d'argento con Miang Moonspell."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Trova e apri la bara nel Maniero della Luna Rossa."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Sopravvivi per 15 minuti con Malice Bloodmoon."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Migliora l'Ago scarlatto."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Sopravvivi per 15 minuti con Calogero Bloodmoon."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Migliora l'Ashella."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Sopravvivi per 15 minuti con Ashtart."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Migliora l'Incenerimento."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Sopravvivi per 15 minuti con Sargon."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Porta Palla di fuoco al livello 6."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Porta Polla di fuoco al livello 6."
+    },
+    "BMN13_UniteFire": {
+      "description": "Possiedi Dodecaedro di velluto e ottieni Bolla di fuoco con Sargon."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Porta Discesa nella miseria al livello 9."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Muori sette volte in totale con Ugo Qualunque."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Porta Grida dal nulla al livello 7."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Migliora Grida dal nulla."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Sconfiggi 6.000 Jaman Jato."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Sconfiggi Ashtart, Sargon, Congregazione e Baal in una sola partita."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Rompi la statua di Kujata con 108 bocce o con 108 ora pro nobis."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Sconfiggi Baal'Thasar nel Maniero della Luna Rossa."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Sopravvivi per 15 minuti con Baal'Thasar."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Possiedi Dodecaedro di velluto e ottieni Dannazione con Baal'Thasar."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Sconfiggi Batti Lei nel Maniero della Luna Rossa."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Trova la mappa del Maniero della Luna Rossa."
     }
   },
   "de": {
@@ -5047,7 +5317,7 @@
       "description": "Verursache insgesamt 25120 Schaden mit dem Zug in Laborratorium."
     },
     "FB_01_Find__Coffin": {
-      "description": "Finde und öffne den Sarg in Neo Galuga."
+      "description": "Finde und öffne den Sarg im Galuga-Dschungel."
     },
     "FB_02_SurvivLong": {
       "description": "Überlebe 15 Minuten mit Bill Rizer."
@@ -5095,7 +5365,7 @@
       "description": "Verbessere den Kreuzklingenbogen."
     },
     "FB_17_Find__Barrier": {
-      "description": "Finde 14 Barrieren."
+      "description": "Finde 7 Barrieren."
     },
     "FB_18_SurvivPrism": {
       "description": "Überlebe 15 Minuten mit Probotector."
@@ -5104,7 +5374,7 @@
       "description": "Verbessere Prisma-Mädel."
     },
     "FB_20_Find__Rapid": {
-      "description": "Finde 21 Schnellfeuer."
+      "description": "Finde 14 Schnellfeuer."
     },
     "FB_21_SurvivHoming": {
       "description": "Überlebe 15 Minuten mit Stanley Ironside."
@@ -5517,7 +5787,7 @@
       "description": "Besiege 0 Feinde im Hühnerstall."
     },
     "EvolveOfGaea": {
-      "description": "Überlebe für 20 Minuten im Hühnerstall"
+      "description": "Verbessere den Blick von Gaea."
     },
     "Dark_03Gazebo": {
       "description": "Friss so viel wie möglich mit Blickibo."
@@ -5622,7 +5892,7 @@
       "description": "Finde und verbessere das Khukuri."
     },
     "EME_DefeatBoss25m": {
-      "description": "Besiege den Verfluchten Monarchen im Smaragd-Diorama."
+      "description": "Besiege den verborgenen Oger im Smaragd-Diorama."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Besiege die Geisterbestie im Umgekehrten Smaragd-Diorama, Miyako City."
@@ -5707,7 +5977,7 @@
       "description": "Überlebe 30 Minuten ohne Waffen im Umgekehrten Grünen Acker."
     },
     "Dark_05Appunta": {
-      "description": "Finde 10 goldene Schatztruhen in 1 Durchlauf mit Zi’Appuntas Fähigkeit."
+      "description": "Finde 10 Schatztruhen in 1 Durchlauf mit Zi’Appuntas Fähigkeit."
     },
     "LEM_FindJokerDisc": {
       "description": "Finde und kaufe die Joker-Disc."
@@ -5801,6 +6071,96 @@
     },
     "Dark_19Challenge": {
       "description": "Überlebe 15 Min. im Umgek. Boss-Ausschlag mit Zufallsevents und -Level-ups."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Bringe MondMacht auf Level 6."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Bringe MondSacht auf Level 6."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Bringe MondWacht auf Level 6."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Vereinige MondMacht, MondSacht und MondWacht."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Erreiche Level 80 mit Gekkojin."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Finde ein Perlen-Magatama."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Besitze mit Miang das Perlen-Magatama und erhalte Silberfluss."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Finde und öffne den Sarg im Rotmond-Anwesen."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Überlebe 15 Minuten mit Malice Bloodmoon."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Verbessere die Scharlachnadel."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Überlebe 15 Minuten mit Calogero Bloodmoon."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Verbessere die Aschella."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Überlebe 15 Minuten mit Ashtart."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Verbessere die Einäscherung."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Überlebe 15 Minuten mit Sargon."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Bringe FeuerBall auf Level 6."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Bringe FeuerWall auf Level 6."
+    },
+    "BMN13_UniteFire": {
+      "description": "Besitze mit Sargon das Dodekaeder und erhalte den FeuerKnall."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Bringe Abstieg ins Elend auf Level 9."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Stirb insgesamt 7-mal mit dem Namenlosen Narren."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Bringe Schreie der Leere auf Level 7."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Verbessere Schreie der Leere."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Besiege 6.000 Jaman Jatos."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Besiege in einem Lauf Ashtart, Sargon, das Gemeinwesen und Baal."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Zerstöre Kujatas Statue mit 108 Bocce oder 108 Wechselgebeten."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Besiege Baal’Thasar im Rotmond-Anwesen."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Überlebe 15 Minuten mit Baal’Thasar."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Besitze mit Baal’Thasar das Dodekaeder und erhalte Verdammnis."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Besiege die Flemäre im Rotmond-Anwesen"
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Finde die Karte des Rotmond-Anwesens."
     }
   },
   "es": {
@@ -6498,7 +6858,7 @@
       "description": "Causa un total de 25 120 de daño con el tren del Laboratorio sacro."
     },
     "FB_01_Find__Coffin": {
-      "description": "Encuentra y abre el ataúd de Neogaluga."
+      "description": "Encuentra y abre el ataúd de la Selva de Galuga."
     },
     "FB_02_SurvivLong": {
       "description": "Sobrevive 15 minutos con Bill Rizer."
@@ -6546,7 +6906,7 @@
       "description": "Haz evolucionar la ballesta cruciafilada"
     },
     "FB_17_Find__Barrier": {
-      "description": "Encuentra 14 barreras."
+      "description": "Encuentra 7 barreras."
     },
     "FB_18_SurvivPrism": {
       "description": "Sobrevive 15 minutos con Probotector."
@@ -6555,7 +6915,7 @@
       "description": "Haz evolucionar el alfanje prismático."
     },
     "FB_20_Find__Rapid": {
-      "description": "Encuentra 21 fuegos rápidos."
+      "description": "Encuentra 14 fuegos rápidos."
     },
     "FB_21_SurvivHoming": {
       "description": "Sobrevive 15 minutos con Stanley Ironside."
@@ -6968,7 +7328,7 @@
       "description": "Derrota a 0 enemigos en la Cooperativa agraria."
     },
     "EvolveOfGaea": {
-      "description": "Sobrevive 20 minutos en la Cooperativa agraria."
+      "description": "Haz evolucionar la mirada de Gaia."
     },
     "Dark_03Gazebo": {
       "description": "Come todo lo que puedas con Gazebo."
@@ -7073,7 +7433,7 @@
       "description": "Encuentra y haz evolucionar el kukri por completo."
     },
     "EME_DefeatBoss25m": {
-      "description": "Derrota al monarca corrompido en Diorama esmeralda."
+      "description": "Derrota al ogro oculto en Diorama esmeralda."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Derrota al espíritu divino de la madera en el reflejo de Diorama esmeralda, Miyako City."
@@ -7158,7 +7518,7 @@
       "description": "Sobrevive 30 min sin armas en el reflejo de las Llanuras verdes."
     },
     "Dark_05Appunta": {
-      "description": "Encuentra 10 cofres dorados con la habilidad de Zi'Appunta en una partida."
+      "description": "Encuentra 10 cofres con la habilidad de Zi'Appunta en una partida."
     },
     "LEM_FindJokerDisc": {
       "description": "Encuentra y compra el disco de arlequín."
@@ -7252,6 +7612,96 @@
     },
     "Dark_19Challenge": {
       "description": "Sobrevive 15 min en el reflejo de la Plaga de jefes con subidas de nv. y sucesos al azar."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Mejora el poder lunar al nivel 6."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Mejora la bahía lunar al nivel 6."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Mejora la visión lunar al nivel 6."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Fusiona el poder lunar, la bahía lunar y la visión lunar."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Alcanza el nivel 80 con Gekkojin."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Encuentra una perla magatama."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Porta la perla magatama y obtén el flujo plateado con Miang Moonspell."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Encuentra y abre el ataúd de la Mansión Luna Roja."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Sobrevive 15 minutos con Malice Bloodmoon."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Haz evolucionar la aguja escarlata."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Sobrevive 15 minutos con Calogero Bloodmoon."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Haz evolucionar la hachella."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Sobrevive 15 minutos con Ashtart."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Haz evolucionar la incineración."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Sobrevive 15 minutos con Sargon."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Mejora la bola de fuego al nivel 6."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Mejora la barrera de fuego al nivel 6."
+    },
+    "BMN13_UniteFire": {
+      "description": "Porta el dodecaedro de terciopelo y obtén la órbita de fuego con Sargon."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Mejora la Descenso a la miseria al nivel 9."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Muere un total de 7 veces con el loco sin nombre."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Mejora los gritos del vacío al nivel 7."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Haz evolucionar los gritos del vacío."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Derrota a 6000 yamanyatos."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Derrota a Ashtart, Sargon, Congregación y Baal en una partida."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Rompe la estatua de Kujata con 108 bocce o 108 plegarias con respuesta."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Derrota a Baal'Thasar en la Mansión Luna Roja."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Sobrevive 15 minutos con Baal'Thasar."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Porta el dodecaedro de terciopelo y obtén la perdición con Baal'Thasar."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Derrota a Batti Lei en la Mansión Luna Roja."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Encuentra el mapa de la Mansión Luna Roja."
     }
   },
   "pt-BR": {
@@ -7949,7 +8399,7 @@
       "description": "Cause um total de 25.120 de dano com o trem do Laborratório."
     },
     "FB_01_Find__Coffin": {
-      "description": "Encontre e abra o caixão em Neo Galuga."
+      "description": "Encontre e abra o caixão na Selva Galuga."
     },
     "FB_02_SurvivLong": {
       "description": "Sobreviva por 15 minutos com Bill Rizer."
@@ -7997,7 +8447,7 @@
       "description": "Evolua a Besta Laminada."
     },
     "FB_17_Find__Barrier": {
-      "description": "Encontre 14 Barreiras."
+      "description": "Encontre 7 Barreiras."
     },
     "FB_18_SurvivPrism": {
       "description": "Sobreviva por 15 minutos com Probotector."
@@ -8006,7 +8456,7 @@
       "description": "Evolua a Moça Prismática."
     },
     "FB_20_Find__Rapid": {
-      "description": "Encontre 21 Tiros Rápidos."
+      "description": "Encontre 14 Tiros Rápidos."
     },
     "FB_21_SurvivHoming": {
       "description": "Sobreviva por 15 minutos com Stanley Ironside."
@@ -8419,7 +8869,7 @@
       "description": "Derrote 0 inimigos no Cocóperativo."
     },
     "EvolveOfGaea": {
-      "description": "Sobreviva por 20 minutos no Cocóperativo."
+      "description": "Evolua o Olhar de Gaea."
     },
     "Dark_03Gazebo": {
       "description": "Coma o máximo possível com Gazebo."
@@ -8524,7 +8974,7 @@
       "description": "Encontre e evolua completamente a Khukuri."
     },
     "EME_DefeatBoss25m": {
-      "description": "Derrote o Monarca Amaldiçoado em Diorama Esmeralda."
+      "description": "Derrote o Ogro oculto em Diorama Esmeralda."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Derrote o Espírito Divino da Madeira no Diorama Esmeralda invertido, Cidade de Miyako."
@@ -8703,6 +9153,96 @@
     },
     "Dark_19Challenge": {
       "description": "Sobreviva 15 min. em uma Erupção de Chefes Invertida com eventos aleatórios e de subir de nível."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Eleve LunarMight para o nível 6."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Eleve LunarBight para o nível 6."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Eleve LunarSight para o nível 6."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Una LunarMight, LunarBight, e LunarSight."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Alcance o nível 80 com Gekkojin."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Encontre a Pérola Magatama."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Encontre a Pérola Magatama e obtenha Fluxo Argento com Miang Moonspell."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Encontre e abra o caixão na Mansão Lua Vermelha."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Sobreviva por 15 minutos com Malice Bloodmoon."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Evolua a Agulha Vermelha."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Sobreviva 15 minutos com Calogero Bloodmoon."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Evolua a Machela."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Sobreviva 15 minutos com Ashtart."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Evolua a Incineração."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Sobreviva por 15 minutos com Sargon."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Eleve FireBall para o nível 6."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Eleve FireWall para o nível 6."
+    },
+    "BMN13_UniteFire": {
+      "description": "Encontre o Dodecaedro de Veludo e consiga a FireStall com Sargon."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Eleve Decadência ao nível 9."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Morra 7 vezes com o Bobo Sem Nome."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Eleve Gritos do Vazio ao nível 7."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Evolua Gritos do Vazio."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Derrote 6.000 Jaman Jatos."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Derrote Ashtart, Sargon, Congregação e Baal em uma partida."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Quebre a estátua de Kujata com 108 Bocha ou 108 Preces Responsivas."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Derrote Baal'Thasar na Mansão Lua Vermelha."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Sobreviva por 15 minutos com Baal'Thasar."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Encontre o Dodecaedro de Veludo e consiga a Danação com Baal'Thasar."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Derrote Batti Lei na Mansão Lua Vermelha."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Encontre o mapa da Mansão Lua Vermelha."
     }
   },
   "pl": {
@@ -9400,7 +9940,7 @@
       "description": "Zadaj łącznie 25120 obrażeń w pociągu Laborratorium."
     },
     "FB_01_Find__Coffin": {
-      "description": "Znajdź i otwórz trumnę w Neo Galudze."
+      "description": "Znajdź i otwórz trumnę w Dżungli Galuga."
     },
     "FB_02_SurvivLong": {
       "description": "Przeżyj 15 minut jako Bill Rizer."
@@ -9448,7 +9988,7 @@
       "description": "Ulepsz BFC2000-AD."
     },
     "FB_17_Find__Barrier": {
-      "description": "Znajdź 14 Barierek."
+      "description": "Znajdź 7 Barierek."
     },
     "FB_18_SurvivPrism": {
       "description": "Przeżyj 15 minut jako Probotector."
@@ -9457,7 +9997,7 @@
       "description": "Ulepsz Pryzmatyczny zamrażacz."
     },
     "FB_20_Find__Rapid": {
-      "description": "Znajdź 21 Szybkich ogni."
+      "description": "Znajdź 14 Szybkich ogni."
     },
     "FB_21_SurvivHoming": {
       "description": "Przeżyj 15 minut jako Stanley Ironside."
@@ -9870,7 +10410,7 @@
       "description": "Pokonaj 0 wrogów w Spółdzielni rolniczej."
     },
     "EvolveOfGaea": {
-      "description": "Przeżyj 20 minut w Spółdzielni rolniczej."
+      "description": "Ulepsz Spojrzenie Gai."
     },
     "Dark_03Gazebo": {
       "description": "Zjedz tyle, ile to możliwe jako Gazebo."
@@ -9975,7 +10515,7 @@
       "description": "Znajdź i w pełni ulepsz Khukuri."
     },
     "EME_DefeatBoss25m": {
-      "description": "Pokonaj Przeklętego monarchę w Szmaragdowej dioramie."
+      "description": "Pokonaj ukrytego Ogra w Szmaragdowej dioramie."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Pokonaj Boskiego ducha lasu w Odwróconej szmaragdowej dioramie w Mieście Miyako."
@@ -10060,7 +10600,7 @@
       "description": "Przeżyj 30 minut bez broni w Odwróconych zielonych rozłogach."
     },
     "Dark_05Appunta": {
-      "description": "Znajdź 10 złotych skrzyń skarbów w jednej grze dzięki umiejętności Zi'Appunta."
+      "description": "Znajdź 10 złotych skrzyń skarbów w jednej grze jako Zi'Appunta."
     },
     "LEM_FindJokerDisc": {
       "description": "Znajdź i kup Dysk Jokera."
@@ -10154,6 +10694,96 @@
     },
     "Dark_19Challenge": {
       "description": "Przeżyj 15 min w odwróconym Wysypie bossów z losowymi wydarzeniami i nagrodami za zdobycie poziomu."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Doprowadź Moc księżyca do 6. poziomu."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Doprowadź Orbitę księżyca do 6. poziomu."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Doprowadź Oko księżyca do 6. poziomu."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Połącz Moc księżyca, Orbitę księżyca i Oko księżyca."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Osiągnij 80. poziom jako Gekkojin."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Znajdź Perłową magatamę."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Zdobądź Srebrny strumień z Perłową magatamą jako Miang Moonspell."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Znajdź i otwórz trumnę w Dworze Czerwonego Księżyca."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Przeżyj 15 minut jako Malice Bloodmoon."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Ulepsz Szkarłatną igłę."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Przeżyj 15 minut jako Calogero Bloodmoon."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Ulepsz Siekieradę."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Przeżyj 15 minut jako Ashtart."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Ulepsz Kremację."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Przeżyj 15 minut jako Sargon."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Doprowadź Kulę ognia do 6. poziomu."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Doprowadź Ścianę ognia do 6. poziomu."
+    },
+    "BMN13_UniteFire": {
+      "description": "Dzierżąc Aksamitny dwunastościan, zdobądź Falę ognia jako Sargon."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Doprowadź Otchłań rozpaczy do 9. poziomu."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Zgiń łącznie 7 razy jako Bezimienny Głupiec."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Doprowadź Krzyki z otchłani do 7. poziomu."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Ulepsz Krzyki z otchłani."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Pokonaj 6000 Jamanów Jato."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Pokonaj Ashtarta, Sargona, Kongregację i Baala w 1 rozgrywce."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Zniszcz pomnik Kujaty 108 wspólnymi modlitwami lub 108 Bocce."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Pokonaj Baal'Thasarza w Dworze Czerwonego Księżyca."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Przeżyj 15 minut jako Baal'Thasar."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Zdobądź Potępienie z Aksamitnym dwunastościanem jako Baal'Thasar."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Pokonaj Batti Lei w Dworze Czerwonego Księżyca."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Znajdź Mapę Dworu Czerwonego Księżyca."
     }
   },
   "ru": {
@@ -10851,7 +11481,7 @@
       "description": "Нанесите всего 25 120 урона с помощью поезда в Лаборатории."
     },
     "FB_01_Find__Coffin": {
-      "description": "Найдите и откройте гроб в Нео-Галуга."
+      "description": "Найдите и откройте гроб в Джунглях Галуга."
     },
     "FB_02_SurvivLong": {
       "description": "Продержитесь 15 минут, играя за Билла Райзера."
@@ -10899,7 +11529,7 @@
       "description": "Улучшите клинковый арбалет."
     },
     "FB_17_Find__Barrier": {
-      "description": "Найдите 14 барьеров."
+      "description": "Найдите 7 барьеров."
     },
     "FB_18_SurvivPrism": {
       "description": "Продержитесь 15 минут, играя за Проботектора."
@@ -10908,7 +11538,7 @@
       "description": "Улучшите призму."
     },
     "FB_20_Find__Rapid": {
-      "description": "Найдите 21 скорострельных пушек."
+      "description": "Найдите 14 скорострельных пушек."
     },
     "FB_21_SurvivHoming": {
       "description": "Продержитесь 15 минут, играя за Стэнли Айронсайда."
@@ -11321,7 +11951,7 @@
       "description": "Победите 0 врагов в Кооперативе."
     },
     "EvolveOfGaea": {
-      "description": "Продержитесь 20 минут в Кооперативе"
+      "description": "Улучшите «Взор Геи»."
     },
     "Dark_03Gazebo": {
       "description": "Съешьте как можно больше, играя за Взоробо."
@@ -11426,7 +12056,7 @@
       "description": "Найдите и полностью улучшите «Кукри»."
     },
     "EME_DefeatBoss25m": {
-      "description": "Победите Проклятого монарха в Изумрудной диораме."
+      "description": "Победите скрытого огра в Изумрудной диораме."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Победите зверя духов в городе Мияко (инверсия Изумрудной диорамы)."
@@ -11511,7 +12141,7 @@
       "description": "Продержитесь 30 минут без оружия в инверсии Зелёных пастбищ."
     },
     "Dark_05Appunta": {
-      "description": "Найдите 10 золотых сундуков за один забег, играя за Ци'Аппунту."
+      "description": "Найдите 10 сундуков с сокровищами за один забег (Ци'Аппунта)."
     },
     "LEM_FindJokerDisc": {
       "description": "Найдите и купите «Диск джокера»."
@@ -11605,6 +12235,96 @@
     },
     "Dark_19Challenge": {
       "description": "Продержитесь 15 мин. в Набеге боссов (инверт.) со случайными событиями и повышениями уровня."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Улучшите Кровь Луны до уровня 6."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Улучшите Бровь Луны до уровня 6."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Улучшите Новь Луны до уровня 6."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Объедините Кровь Луны, Бровь Луны и Новь Луны."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Дойдите до уровня 80, играя за Геккодзи."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Найдите Жемчужную магатаму."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "С магатамой добудьте Серебристый поток, играя за Мианг Луночар."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Найдите и откройте гроб в Поместье Красной Луны."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Продержитесь 15 минут, играя за Малицию Кроволун."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Проведите эволюцию Алой иглы."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Продержитесь 15 минут, играя за Калоджеро Кроволуна."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Проведите эволюцию Пепеллы."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Продержитесь 15 минут, играя за Аштарту."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Проведите эволюцию Всесожжения."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Продержитесь 15 минут, играя за Саргона."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Улучшите Огнешар до уровня 6."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Улучшите Огнедар до уровня 6."
+    },
+    "BMN13_UniteFire": {
+      "description": "С Бархатным додекаэдром получите Огнежар, играя за Саргона."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Улучшите Обнищание до уровня 9."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Погибните в общей сложности 7 раз, играя за Безымянного Шута."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Улучшите Вопли Бездны до уровня 7."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Проведите эволюцию Воплей Бездны."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Победите 6000 Яман-ято."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Победите Аштарту, Саргона, Конгрегацию и Баала за один заход."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Разбейте статую Куджаты с помощью 108 Бочче / настойчивых молитв."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Победите Баал-Тазара в Поместье Красной Луны."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Продержитесь 15 минут, играя за Баал-Тазара."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "С Бархатным додекаэдром получите Проклятие, играя за Баал-Тазара."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Победите Батти Лей в Поместье Красной Луны."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Найдите карту Поместья Красной Луны."
     }
   },
   "tr": {
@@ -12302,7 +13022,7 @@
       "description": "Laborratuvar Treni ile toplamda 25120 hasar ver."
     },
     "FB_01_Find__Coffin": {
-      "description": "Neo Galuga'daki tabutu bul ve aç."
+      "description": "Galuga Ormanı'ndaki tabutu bul ve aç."
     },
     "FB_02_SurvivLong": {
       "description": "Bill Rizer ile 15 dakika hayatta kal."
@@ -12350,7 +13070,7 @@
       "description": "Bıçak Arbaleti'ni evrilt."
     },
     "FB_17_Find__Barrier": {
-      "description": "14 Bariyer bul."
+      "description": "7 Bariyer bul."
     },
     "FB_18_SurvivPrism": {
       "description": "Probotector ile 15 dakika hayatta kal."
@@ -12359,7 +13079,7 @@
       "description": "Küçük Prizma'yı evrilt."
     },
     "FB_20_Find__Rapid": {
-      "description": "21 SeriAtış bul."
+      "description": "14 SeriAtış bul."
     },
     "FB_21_SurvivHoming": {
       "description": "Stanley Ironside ile 15 dakika hayatta kal."
@@ -12475,7 +13195,7 @@
       "description": "Grant Danasty ile Slogra ve Gaibon'u öldür."
     },
     "TP_Grant_Boss2": {
-      "description": "Ejderha Su Kamçısı'nı Evrilt."
+      "description": "Su Ejderhası Kamçısı'nı Evrilt."
     },
     "TP_Alucard_Boss3": {
       "description": "Trevor Belmont ile Doppelganger'ı öldür."
@@ -12772,7 +13492,7 @@
       "description": "Kooperatif'de 0 düşman öldür."
     },
     "EvolveOfGaea": {
-      "description": "Kooperatif'te 20 dakika hayatta kal."
+      "description": "Gaea'nın Nazarı'nı evrilt."
     },
     "Dark_03Gazebo": {
       "description": "Nazaribik ile yiyebildiğin kadar ye."
@@ -12877,7 +13597,7 @@
       "description": "Kukri'yi bul ve tamamen evrilt."
     },
     "EME_DefeatBoss25m": {
-      "description": "Zümrüt Diorama'daki Lanetli Hükümdarı öldür."
+      "description": "Zümrüt Dioraması'ndaki gizli Dev'i öldür."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Ters Zümrüt Dioraması, Miyako Şehri'ndeki Kutsal Orman Ruhu'nu öldür."
@@ -12962,7 +13682,7 @@
       "description": "Tersine Yeşil Araziler'de silahsız 30 dakika hayatta kal."
     },
     "Dark_05Appunta": {
-      "description": "Zi'Appunta'nın yeteneğiyle tek seferde 10 Altın Hazine Sandığı bul."
+      "description": "Zi'Appunta'nın yeteneğiyle tek seferde 10 Hazine Sandığı bul."
     },
     "LEM_FindJokerDisc": {
       "description": "Joker Disk'i bul ve satın al."
@@ -13056,6 +13776,96 @@
     },
     "Dark_19Challenge": {
       "description": "Ters Patrona Hücum'da Rastgele Olaylar ve Rastgele Seviye Atlama ile 15 dakika hayatta kal."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "AyKuvveti'ni Seviye 6'ya çıkar."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "AyHalatı'nı Seviye 6'ya çıkar."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "AyRasatı'nı Seviye 6'ya çıkar."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "AyKuvveti, AyHalatı ve AyRasatı'nı birleştir."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Gekkojin ile Seviye 80'e ulaş."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Bir Magatama İncisi bul."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Miang Moonspell ile Magatama İncisi'ne sahip ol ve Gümüş Cereyan'ı elde et."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Kızıl Ay Malikânesi'ndeki tabutu bul ve aç."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Malice Bloodmoon ile 15 dakika hayatta kal."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Kızıl İğne'yi evrilt."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Calogero Bloodmoon ile 15 dakika hayatta kal."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Külhan'ı evrilt."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Ashtart ile 15 dakika hayatta kal."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Kül Edici'yi evrilt."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Sargon ile 15 dakika hayatta kal."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "AteşTopu'nu Seviye 6'ya çıkar."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "AteşDuvarı'nı Seviye 6'ya çıkar."
+    },
+    "BMN13_UniteFire": {
+      "description": "Sargon ile Kadife On İki Yüzlü'ye sahip ol ve AteşDurduran'ı elde et."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Sefilleşme'yi Seviye 9'a çıkar."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "İsimsiz Budala ile toplam 7 kez öl."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Gaipten Çığlıklar'ı Seviye 7'ye çıkar."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Gaipten Çığlıklar'ı evrilt."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "6000 Jaman Jato öldür."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Ashtart, Sargon, Cemaat ve Baal'ı tek seferde öldür."
+    },
+    "BMN20_BreakStatue": {
+      "description": "108 Bocce veya 108 Eşlik Duası ile Kujata heykelini kır."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Kızıl Ay Malikânesi'ndeki Baal'Thasar'ı öldür."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Baal'Thasar ile 15 dakika hayatta kal."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Baal'Thasar ile Kadife On İki Yüzlü'ye sahip ol ve Tanrının Cezası'nı elde et."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Kızıl Ay Malikânesi'ndeki Batti Lei'yi öldür."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Kızıl Ay Malikânesi Haritası'nı bul."
     }
   },
   "zh-CN": {
@@ -13753,7 +14563,7 @@
       "description": "使用实验室火车造成总共25120点伤害。"
     },
     "FB_01_Find__Coffin": {
-      "description": "在新加鲁加中找到并打开棺材。"
+      "description": "在加鲁加丛林找到并打开棺材。"
     },
     "FB_02_SurvivLong": {
       "description": "使用比尔·瑞泽存活15分钟。"
@@ -13801,7 +14611,7 @@
       "description": "进化刀弩。"
     },
     "FB_17_Find__Barrier": {
-      "description": "找到14个壁垒。"
+      "description": "找到7个壁垒。"
     },
     "FB_18_SurvivPrism": {
       "description": "使用铁血卫士存活15分钟。"
@@ -13810,7 +14620,7 @@
       "description": "进化棱镜“少女”。"
     },
     "FB_20_Find__Rapid": {
-      "description": "找到21个速射。"
+      "description": "找到14个速射。"
     },
     "FB_21_SurvivHoming": {
       "description": "使用斯坦利·艾恩赛德存活15分钟。"
@@ -14223,7 +15033,7 @@
       "description": "在合作农场中打败0个敌人。"
     },
     "EvolveOfGaea": {
-      "description": "在合作农场存活20分钟。"
+      "description": "进化盖伊之视。"
     },
     "Dark_03Gazebo": {
       "description": "使用盖兹伯大吃特吃。"
@@ -14328,7 +15138,7 @@
       "description": "找到并完全进化库库里匕首。"
     },
     "EME_DefeatBoss25m": {
-      "description": "击败翡翠模型中的被诅咒之王。"
+      "description": "击败翡翠模型中的隐藏巨魔。"
     },
     "EME_DefeatBoss1Inverse": {
       "description": "在翻转翡翠模型中的宫古城击败木之神灵。"
@@ -14507,6 +15317,96 @@
     },
     "Dark_19Challenge": {
       "description": "在启用了随机事件和随机升级的翻转魔王竞技场中存活15分钟。"
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "将月盘升到6级。"
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "将月弧升到6级。"
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "将月相升到6级。"
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "组合月盘、月弧与月相。"
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "将月光之神升到80级。"
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "找到一块珍珠勾玉。"
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "使用月咒米昂持有珍珠勾玉并获得银流。"
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "在红月庄园中找到并打开棺材。"
+    },
+    "BMN02_Survive15Malice": {
+      "description": "使用糜思 血月存活15分钟。"
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "进化猩红刺针。"
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "使用卡洛杰罗 血月存活15分钟。"
+    },
+    "BMN05_EvolveAshella": {
+      "description": "进化灰斧。"
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "使用阿蚀塔特存活15分钟。"
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "进化焚化。"
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "使用萨尔贡存活15分钟。"
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "将火球升到6级。"
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "将火墙升到6级。"
+    },
+    "BMN13_UniteFire": {
+      "description": "使用萨尔贡持有丝绒十二面体并获得火摊。"
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "将堕苦升到9级。"
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "使用无名愚者总共死亡7次。"
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "将虚空尖啸升到7级。"
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "进化虚空尖啸。"
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "击败6000个灰多多。"
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "在一轮游戏中，击败阿蚀塔特、萨尔贡、秽众和巴尔。"
+    },
+    "BMN20_BreakStatue": {
+      "description": "使用108地滚球玉或108回应式祈祷打破翼牛的雕像。"
+    },
+    "BMN21_DefeatBaal": {
+      "description": "在红月庄园中击败巴尔-塔萨。"
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "使用巴尔-塔萨存活15分钟。"
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "使用巴尔-塔萨持有丝绒十二面体并获得湮灭诅咒。"
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "在红月庄园中击败狮面鹰翼蛇。"
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "找到红月庄园地图。"
     }
   },
   "ja": {
@@ -15132,7 +16032,7 @@
       "description": "シェイプシフター・ニノで15分間生き残る。"
     },
     "CHAL11_EvolveVent": {
-      "description": "便利な通気孔を進化させる。"
+      "description": "便利な通気口を進化させる。"
     },
     "CHAL12_GetMedicalToLevel7": {
       "description": "バイタルスキャンをレベル7にする。"
@@ -15204,7 +16104,7 @@
       "description": "ラボラトリー・トレインで合計25120のダメージを与える。"
     },
     "FB_01_Find__Coffin": {
-      "description": "ネオガルガで棺を見つけて開ける。"
+      "description": "ガルガ・ジャングルで棺を見つけて開ける。"
     },
     "FB_02_SurvivLong": {
       "description": "ビル・ライザーで15分間生き残る。"
@@ -15252,7 +16152,7 @@
       "description": "ブレード・クロスボウを進化させる。"
     },
     "FB_17_Find__Barrier": {
-      "description": "バリアを14見つける。"
+      "description": "バリアを7見つける。"
     },
     "FB_18_SurvivPrism": {
       "description": "プロボテクターで15分間生き残る。"
@@ -15261,7 +16161,7 @@
       "description": "プリズム・ラスを進化させる。"
     },
     "FB_20_Find__Rapid": {
-      "description": "高速射撃を21見つける。"
+      "description": "高速射撃を14見つける。"
     },
     "FB_21_SurvivHoming": {
       "description": "スタンリー・アイアンサイドで15分生き残る。"
@@ -15377,7 +16277,7 @@
       "description": "グラント・ダナスティでベリガンとギャイボンを倒す。"
     },
     "TP_Grant_Boss2": {
-      "description": "ドラゴンウォーターの鞭を進化させる。"
+      "description": "ウォータードラゴンの鞭を進化させる。"
     },
     "TP_Alucard_Boss3": {
       "description": "ラルフ・Ｃ・ベルモンドでドッペルゲンガーを倒す。"
@@ -15674,7 +16574,7 @@
       "description": "農協で0の敵を倒す。"
     },
     "EvolveOfGaea": {
-      "description": "農協で20分間生き残る"
+      "description": "ガイアのまなざしを進化させる。"
     },
     "Dark_03Gazebo": {
       "description": "ガゼボでできるだけたくさん食べる。"
@@ -15864,7 +16764,7 @@
       "description": "反転した緑の地にて、30分間武器なしで生き残る。"
     },
     "Dark_05Appunta": {
-      "description": "1回のランでジ・アプンタのアビリティを使って金の宝箱を10個見つける。"
+      "description": "1回のランでジ・アプンタのアビリティを使って宝箱を10個見つける。"
     },
     "LEM_FindJokerDisc": {
       "description": "ジョーカーディスクを見つけて購入する。"
@@ -15958,6 +16858,96 @@
     },
     "Dark_19Challenge": {
       "description": "ランダムなイベントおよびランダムなレベルアップを使い、反転したボスラッシュで15分生き残る。"
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "LunarMightをレベル6に上げる。"
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "LunarBightをレベル6に上げる。"
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "LunarSightをレベル6に上げる。"
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "LunarMight、LunarBight、LunarSightを融合する。"
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "月光神でレベル80に到達する。"
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "真珠の勾玉を見つける。"
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "真珠の勾玉を持って、ミアン・ムーンスペルと共に白銀の奔流を入手する。"
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "レッドムーン邸で棺を見つけて開く。"
+    },
+    "BMN02_Survive15Malice": {
+      "description": "マリス・ブラッドムーンで15分間生き残る。"
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "スカーレット・ニードルを進化させる。"
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "カロジェロ・ブラッドムーンで15分間生き残る。"
+    },
+    "BMN05_EvolveAshella": {
+      "description": "小斧を進化させる。"
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "アシュタロトで15分間生き残る。"
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "完全焼却を進化させる。"
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "サーゴンで15分間生き残る。"
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "FireBallをレベル6に上げる。"
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "FireWallをレベル6に上げる。"
+    },
+    "BMN13_UniteFire": {
+      "description": "サーゴンでビロード十二面体を持ち、FireStallを入手する。"
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "不幸への転落をレベル9に上げる。"
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "名無しの愚者で合計7回死亡する。"
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "虚無からの叫びをレベル7に上げる。"
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "虚無からの叫びを進化させる。"
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "ジャマン・ジャトスを6000回倒す。"
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "1回のランでアシュタロト、サーゴン、異形体、そしてバールを倒す。"
+    },
+    "BMN20_BreakStatue": {
+      "description": "百八つの数珠、または百八つの呼応する祈りでクジャタの彫像を破壊する。"
+    },
+    "BMN21_DefeatBaal": {
+      "description": "レッドムーン邸でバアル＝サザールを倒す。"
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "バアル＝サザールで15分間生き残る。"
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "バアル＝サザールでビロード十二面体を持ち、破滅を入手する。"
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "レッドムーン邸でバッティ・レイを倒す。"
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "レッドムーン邸のマップを見つける。"
     }
   },
   "ko": {
@@ -16655,7 +17645,7 @@
       "description": "실험실 열차로 피해를 총 25120 만큼 입히세요."
     },
     "FB_01_Find__Coffin": {
-      "description": "네오 갈루가에서 관을 찾아서 여세요."
+      "description": "갈루가 정글에서 관을 찾아서 여세요."
     },
     "FB_02_SurvivLong": {
       "description": "빌 라이저로 15분 생존하세요."
@@ -16703,7 +17693,7 @@
       "description": "칼날 석궁을 진화시키세요."
     },
     "FB_17_Find__Barrier": {
-      "description": "장벽 14개를 찾으세요."
+      "description": "장벽 7개를 찾으세요."
     },
     "FB_18_SurvivPrism": {
       "description": "프로보텍터로 15분 생존하세요."
@@ -16712,7 +17702,7 @@
       "description": "프리즘 라스를 진화시킵니다."
     },
     "FB_20_Find__Rapid": {
-      "description": "래피드파이어 21개를 찾으세요."
+      "description": "래피드파이어 14개를 찾으세요."
     },
     "FB_21_SurvivHoming": {
       "description": "스탠리 아이언사이드로 15분 생존하세요."
@@ -16828,7 +17818,7 @@
       "description": "그랜트 다이너스티로 슬로그라와 가이본을 처치하세요."
     },
     "TP_Grant_Boss2": {
-      "description": "드래곤 워터 채찍을 진화시키세요."
+      "description": "수룡 채찍을 진화시키세요."
     },
     "TP_Alucard_Boss3": {
       "description": "랄프 C 벨몬드로 도플갱어를 처치하세요."
@@ -17125,7 +18115,7 @@
       "description": "협동 농장에서 적 0마리룰 처치하세요."
     },
     "EvolveOfGaea": {
-      "description": "협동 농장에서 20분 동안 생존합니다"
+      "description": "가에야의 시선을 진화시키세요."
     },
     "Dark_03Gazebo": {
       "description": "가제보로 최대한 많이 먹어보세요."
@@ -17230,7 +18220,7 @@
       "description": "쿠쿠리를 찾아 완전히 진화시키세요."
     },
     "EME_DefeatBoss25m": {
-      "description": "에메랄드 디오라마에서 저주받은 군주를 처치하세요."
+      "description": "에메랄드 디오라마에서 숨은 오우거를 처치하세요."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "인버스 에메랄드 디오라마, 미야코시에서 스피릿 비스트를 처치하세요."
@@ -17315,7 +18305,7 @@
       "description": "거꾸로 된 푸른 초원에서 무기 없이 30분동안 생존하세요."
     },
     "Dark_05Appunta": {
-      "description": "한 번의 플레이에서 지아푼타의 능력으로 황금 보물상자 10개를 찾으세요."
+      "description": "지아푼타의 능력으로 보물상자 10개를 한 번에 찾으세요."
     },
     "LEM_FindJokerDisc": {
       "description": "조커 디스크를 찾아 구매하세요."
@@ -17409,6 +18399,96 @@
     },
     "Dark_19Challenge": {
       "description": "랜덤 이벤트와 랜덤 레벨업이 발생하는 인버스 보스 래쉬에서 15분 동안 살아남으세요."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "루나마이트를 레벨 6에 맞추기."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "루나바이트를 레벨 6에 맞추기."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "루나사이트를 레벨 6에 맞추기."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "루나마이트, 루나사이트, 루나브라이트를 통합."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "게코진으로 레벨 80에 도달."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "펄 마가타마 찾기."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "미앙 문스펠로 펄 마가타마를 소지한 상태에서 은빛 흐름 획득하기."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "붉은 달 장원에서 관을 찾아 열기."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "말리스 블러드문으로 15분 생존."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "주홍색 바늘 진화시키기."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "칼로제로 블러드문으로 15분 생존."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "아셸라 진화시키기."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "애쉬타트로 15분 생존."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "불태우리 진화시키기."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "사르곤으로 15분 생존."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "파이어볼을 레벨 6에 맞추기."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "파이어월을 레벨 6에 맞추기."
+    },
+    "BMN13_UniteFire": {
+      "description": "사르곤으로 벨벳 십이면체를 들고 파이어스톨 획득하기."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "비참한 나락 레벨 9에 맞추기."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "이름 없는 바보로 총 7회 죽기."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "공허의 비명 레벨 7에 맞추기."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "공허의 비명 진화시키기."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "자만 자토스를 6000마리 처치하기."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "한 번의 플레이에서 애쉬타르, 사르곤, 신도단, 바알 처치하기."
+    },
+    "BMN20_BreakStatue": {
+      "description": "108번의 보체 또는 108번의 교독으로 쿠자타의 동상 부수기."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "붉은 달 장원에서 바알타사르 처치하기."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "바알타사르로 15분 생존."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "바알타사르로 벨벳 십이면체를 들고 단죄 획득하기."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "붉은 달 장원에서 바티 레이를 처치하기."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "붉은 달 장원 지도 찾기."
     }
   },
   "zh-TW": {
@@ -18106,7 +19186,7 @@
       "description": "在實驗室列車造成 25,120 點傷害。"
     },
     "FB_01_Find__Coffin": {
-      "description": "在新勝嘎魯加中，找到並打開棺材。"
+      "description": "在嘎魯加叢林中，找到並打開棺材。"
     },
     "FB_02_SurvivLong": {
       "description": "使用比爾・瑞澤存活 15 分鐘。"
@@ -18154,7 +19234,7 @@
       "description": "解放刀刃十字弩。"
     },
     "FB_17_Find__Barrier": {
-      "description": "找到 14 面屏障。"
+      "description": "找到 7 面屏障。"
     },
     "FB_18_SurvivPrism": {
       "description": "使用偵測儀存活 15 分鐘。"
@@ -18163,7 +19243,7 @@
       "description": "解放稜鏡少女。"
     },
     "FB_20_Find__Rapid": {
-      "description": "找到 21 個快速射擊。"
+      "description": "找到 14 個快速射擊。"
     },
     "FB_21_SurvivHoming": {
       "description": "使用史坦利存活 15 分鐘。"
@@ -18279,7 +19359,7 @@
       "description": "扮演葛蘭特・丹納斯蒂並打敗斯洛格拉和蓋本。"
     },
     "TP_Grant_Boss2": {
-      "description": "解放龍水鞭。"
+      "description": "解放水龍鞭。"
     },
     "TP_Alucard_Boss3": {
       "description": "扮演拉爾夫・C・貝爾蒙特打敗分身。"
@@ -18576,7 +19656,7 @@
       "description": "在合作農舍中擊敗 0 名敵人。"
     },
     "EvolveOfGaea": {
-      "description": "在合作農舍中存活 20 分鐘"
+      "description": "解放蓋亞之眼。"
     },
     "Dark_03Gazebo": {
       "description": "帶可吃啵盡可能地大吃特吃。"
@@ -18681,7 +19761,7 @@
       "description": "找到並完全解放廓爾喀彎刀。"
     },
     "EME_DefeatBoss25m": {
-      "description": "在翡翠立體模型中，擊敗被詛咒的君主。"
+      "description": "在翡翠立體模型中，擊敗隱藏的食人魔。"
     },
     "EME_DefeatBoss1Inverse": {
       "description": "在翡翠立體模型的顛倒版「都城」中，擊敗靈獸。"
@@ -18766,7 +19846,7 @@
       "description": "在顛倒模式的青翠草甸中，在沒有取得任何武器的情況下存活 30 分鐘。"
     },
     "Dark_05Appunta": {
-      "description": "在單次闖關中，以齊阿彭塔的能力找到 10 個黃金寶箱。"
+      "description": "在單次闖關中，以齊阿彭塔的能力找到 10 個寶箱。"
     },
     "LEM_FindJokerDisc": {
       "description": "找到並購買小丑圓盤。"
@@ -18860,6 +19940,96 @@
     },
     "Dark_19Challenge": {
       "description": "在顛倒模式的魔王競技場中，啟用「隨機事件」和「隨機升級」的機制並存活 15 分鐘。"
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "將月威升到 6 級。"
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "將月弧升到 6 級。"
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "將月視升到 6 級。"
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "組合月威、月弧和月視。"
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "將月光神升到 80 級。"
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "找到 1 個珍珠勾玉。"
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "持有珍珠勾玉，並使用月咒米昂來解放銀流。"
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "在紅月莊園中，找到並打開棺材。"
+    },
+    "BMN02_Survive15Malice": {
+      "description": "使用瑪麗絲・血月存活 15 分鐘。"
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "解放緋紅之針。"
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "使用卡洛傑羅・血月存活 15 分鐘。"
+    },
+    "BMN05_EvolveAshella": {
+      "description": "解放艾什拉斬斧。"
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "使用阿絲塔特存活 15 分鐘。"
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "解放焚滅。"
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "使用薩爾貢存活 15 分鐘。"
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "將火球升到 6 級。"
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "將火牆升到 6 級。"
+    },
+    "BMN13_UniteFire": {
+      "description": "持有絲絨十二面體，並使用薩爾貢解放火障。"
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "將墮入苦難升到 9 級。"
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "使用無名愚者來累計死亡 7 次。"
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "將虛空尖嘯升到 7 級。"
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "解放虛空尖嘯。"
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "擊敗 6,000 個賈曼加托。"
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "在單次闖關中，擊敗阿絲塔特、薩爾貢、狂熱教眾與巴爾。"
+    },
+    "BMN20_BreakStatue": {
+      "description": "使用 108 地滾球玉或 108 條自在回應祈禱文來擊碎庫加塔的雕像。"
+    },
+    "BMN21_DefeatBaal": {
+      "description": "在紅月莊園擊敗巴爾塔薩。"
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "使用巴爾塔薩存活 15 分鐘。"
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "持有絲絨十二面體，並使用巴爾塔薩解放天譴。"
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "在紅月莊園中擊敗巴蒂雷。"
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "找到紅月莊園的地圖。"
     }
   },
   "uk": {
@@ -19557,7 +20727,7 @@
       "description": "Завдайте 25 120 од. шкоди поїздом у Лабораторії."
     },
     "FB_01_Find__Coffin": {
-      "description": "Знайдіть і відкрийте труну в Нео-Галуга."
+      "description": "Знайдіть і відкрийте труну в Джунглях Галуга."
     },
     "FB_02_SurvivLong": {
       "description": "Протримайтеся 15 хвилин за Біллі Райзера."
@@ -19605,7 +20775,7 @@
       "description": "Еволюціонуйте Клинковий арбалет."
     },
     "FB_17_Find__Barrier": {
-      "description": "Знайдіть 14 Бар'єрів."
+      "description": "Знайдіть 7 Бар'єрів."
     },
     "FB_18_SurvivPrism": {
       "description": "Протримайтеся 15 хвилин за Проботектора."
@@ -19614,7 +20784,7 @@
       "description": "Еволюціонуйте Призму."
     },
     "FB_20_Find__Rapid": {
-      "description": "Знайдіть 21 Скорострілок."
+      "description": "Знайдіть 14 Скорострілок."
     },
     "FB_21_SurvivHoming": {
       "description": "Протримайтеся 15 хвилин за Стенлі Айронсайда."
@@ -19730,7 +20900,7 @@
       "description": "Здолайте Слоґру і Ґайбона, граючи за Ґранта Данасті."
     },
     "TP_Grant_Boss2": {
-      "description": "Еволюціонуйте Батіг драконової води."
+      "description": "Еволюціонуйте Батіг водяного дракона."
     },
     "TP_Alucard_Boss3": {
       "description": "Здолайте Двійника, граючи за Тревора Бельмонта."
@@ -20027,7 +21197,7 @@
       "description": "Здолайте 0 ворогів на Фермі."
     },
     "EvolveOfGaea": {
-      "description": "Протримайтеся 20 хвилин на Фермі."
+      "description": "Еволюціонуйте Погляд Геї."
     },
     "Dark_03Gazebo": {
       "description": "З'їжте якомога більше за Ґазебо."
@@ -20132,7 +21302,7 @@
       "description": "Знайдіть і повністю еволюціонуйте кукрі."
     },
     "EME_DefeatBoss25m": {
-      "description": "Здолайте проклятого монарха в Смарагдовій Діорамі."
+      "description": "Здолайте схованого оґра в Смарагдовій Діорамі."
     },
     "EME_DefeatBoss1Inverse": {
       "description": "Здолайте духовного звіра в інверт. Смарагдовій Діорамі, м. Міяко."
@@ -20311,6 +21481,96 @@
     },
     "Dark_19Challenge": {
       "description": "Вижив. 15 хв. в інверт. Навалі босів із випадк. подіями й підвищ. рівн."
+    },
+    "MOON19_GetLunarMightToLevel6": {
+      "description": "Отримайте місяцеміць 6 рівня."
+    },
+    "MOON20_GetLunarBightToLevel6": {
+      "description": "Отримайте місяцедугу 6 рівня."
+    },
+    "MOON21_GetLunarSightToLevel6": {
+      "description": "Отримайте місяцелик 6 рівня."
+    },
+    "MOON22_UniteLunarWeapons": {
+      "description": "Об’єднайте місяцеміць, місяцедугу й місяцелик."
+    },
+    "MOON23_ReachLevel80WithGekkojin": {
+      "description": "Досягніть 80 рівня за Ґеккоджина."
+    },
+    "MOON24_FindPearlMagatama": {
+      "description": "Знайдіть перлову магатаму."
+    },
+    "MOON25_EvolveFestiveWinds": {
+      "description": "Утрим. перл. магатаму й отрим. cрібн. потік за Міанг Місячночар."
+    },
+    "BMN01_FindCoffinMalice": {
+      "description": "Знайдіть і відкрийте труну в Замку Червоного Місяця."
+    },
+    "BMN02_Survive15Malice": {
+      "description": "Протримайтеся 15 хвилин за Злобетту Кровомісяць."
+    },
+    "BMN03_EvolveScarletNeedle": {
+      "description": "Еволюціонуйте багряну голку."
+    },
+    "BMN04_Survive15Calogero": {
+      "description": "Протримайтеся 15 хвилин за Цалоджеро Кровомісяця."
+    },
+    "BMN05_EvolveAshella": {
+      "description": "Еволюціонуйте Пеклопорох."
+    },
+    "BMN06_Survive15Ashtart": {
+      "description": "Протримайтеся 15 хвилин за Астарту."
+    },
+    "BMN07_EvolveIncineration": {
+      "description": "Еволюціонуйте Випалення."
+    },
+    "BMN10_Survive15Sargon": {
+      "description": "Протримайтеся 15 хвилин за Сарґона."
+    },
+    "BMN11_GetFireBallToLevel6": {
+      "description": "Отримайте вогнекулю 6 рівня."
+    },
+    "BMN12_GetFireWallToLevel6": {
+      "description": "Отримайте вогнестіну 6 рівня."
+    },
+    "BMN13_UniteFire": {
+      "description": "Утрим. оксамитовий додекаедр й отримайте вогнестій за Сарґона."
+    },
+    "BMN14_GetMiseryToLevel9": {
+      "description": "Отримайте Спуск у Cтраждання 9 рівня."
+    },
+    "BMN15_Die7TimesWithFool": {
+      "description": "Помріть сумарно 7 разів із Безіменним Дурнем."
+    },
+    "BMN16_GetScreamsToLevel7": {
+      "description": "Отримайте Лемент із порожнечі 7 рівня."
+    },
+    "BMN17_EvolveScreamsOfTheVoi": {
+      "description": "Еволюціонуйте Лемент із порожнечі."
+    },
+    "BMN18_Defeat6000Witches": {
+      "description": "Здолайте 6000 Джаман Джато."
+    },
+    "BMN19_DefeatAllBosses": {
+      "description": "Здолайте Астарту, Сарґона й Ваала і паству за один забіг."
+    },
+    "BMN20_BreakStatue": {
+      "description": "Розбите статую Куджати 108 Боче чи 108 молитвами-відповідями."
+    },
+    "BMN21_DefeatBaal": {
+      "description": "Здолайте Ваал’Тасара в Замку Червоного Місяця."
+    },
+    "BMN22_Survive15BaalThasar": {
+      "description": "Протримайтеся 15 хвилин за Ваал’Тасара."
+    },
+    "BMN23_EvolveBlackenFirmam": {
+      "description": "Утрим. оксамит. додекаедр й отрим. Вічні муки за Ваал’Тасара."
+    },
+    "BMN24_25MinuteBoss": {
+      "description": "Здолайте Батті Леї в Замку Червоного Місяця."
+    },
+    "BMN25_FindMap_Bloodmoon": {
+      "description": "Знайдіть мапу Замку Червоного Місяця."
     }
   }
 }

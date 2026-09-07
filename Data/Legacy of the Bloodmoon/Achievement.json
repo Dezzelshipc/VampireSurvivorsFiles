@@ -1,0 +1,310 @@
+{
+  "BMN01_FindCoffinMalice": {
+    "description": "Find and open the first coffin in Bloodmoon Manor.",
+    "characterToUnlock": "MALICE",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
+        "RequiredCharacterType": "MALICE"
+      }
+    ]
+  },
+  "BMN02_Survive15Malice": {
+    "description": "Survive 15 minutes with Malice.",
+    "weaponToUnlock": "BMN000_SCARLET1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "MALICE"
+      }
+    ]
+  },
+  "BMN03_EvolveScarletNeedle": {
+    "description": "Evolve Scarlet Needle.",
+    "characterToUnlock": "CALOGERO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "BMN001_SCARLET2"
+        ]
+      }
+    ]
+  },
+  "BMN04_Survive15Calogero": {
+    "description": "Survive 15 minutes with Calogero.",
+    "weaponToUnlock": "BMN004_AXE1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "CALOGERO"
+      }
+    ]
+  },
+  "BMN05_EvolveAshella": {
+    "description": "Evolve Ashella.",
+    "characterToUnlock": "ASHTART",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "BMN005_AXE2"
+        ]
+      }
+    ]
+  },
+  "BMN06_Survive15Ashtart": {
+    "description": "Survive 15 minutes with Ashtart.",
+    "weaponToUnlock": "BMN002_DUST1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "ASHTART"
+      }
+    ]
+  },
+  "BMN07_EvolveIncineration": {
+    "description": "Evolve Incineration.",
+    "characterToUnlock": "SARGON",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "BMN003_DUST2"
+        ]
+      }
+    ]
+  },
+  "BMN10_Survive15Sargon": {
+    "description": "Survive 15 minutes with Sargon.",
+    "weaponToUnlock": "BMN010_FIRE1_FALL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "SARGON"
+      }
+    ]
+  },
+  "BMN11_GetFireBallToLevel6":{
+    "description": "Get FireBall to Level 6.",
+    "weaponToUnlock": "BMN011_FIRE2_BALL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "BMN011_FIRE2_BALL"
+        ],
+        "RequiredEvolvedWeapons":[
+          "BMN013_FIRE4"
+        ]
+      }
+    ]
+  },
+  "BMN12_GetFireWallToLevel6":{
+    "description": "Get FireBall to Level 6.",
+    "weaponToUnlock": "BMN012_FIRE3_WALL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 6,
+        "RequiredWeapons":[
+          "BMN012_FIRE3_WALL"
+        ],
+        "RequiredEvolvedWeapons":[
+          "BMN013_FIRE4"
+        ]
+      }
+    ]
+  },
+  "BMN13_UniteFire": {
+    "description": "Hold the Velvet Dodecahedron and obtain FireStall with Sargon.",
+    "characterToUnlock": "MEGASARGON",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredCharacterType": "SARGON",
+        "RequiredWeapons":[
+          "BMN_DODECAHEDRON",
+          "BMN013_FIRE4"
+        ]
+      }
+    ]
+  },
+
+
+  "BMN14_GetMiseryToLevel9":{
+    "description": "Get Descent Into Misery to Level 9.",
+    "weaponToUnlock": "DESCENT_MISERY",
+    "characterToUnlock": "NAMELESSFOOL",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 9,
+        "RequiredWeapons":[
+          "DESCENT_MISERY"
+        ],
+        "RequiredEvolvedWeapons":[
+          "SHIMMERING_SANDS"
+        ]
+      }
+    ]
+  },
+  "BMN15_Die7TimesWithFool":{
+    "description": "Die a total of 7 times with Nameless Fool.",
+    "characterToUnlock": "CONGREGATION",
+    "UnlockConditions": [
+      {
+        
+      }
+    ]
+  },
+  "BMN16_GetScreamsToLevel7":{
+    "description": "Get Screams from the Void to Level 7.",
+    "weaponToUnlock": "BMN006_SCREAM1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons":[
+          "BMN006_SCREAM1"
+        ],
+        "RequiredEvolvedWeapons":[
+          "BMN007_SCREAM2"
+        ]
+      }
+    ]
+  },
+  "BMN17_EvolveScreamsOfTheVoi": {
+    "description": "Evolve Screams from the Void.",
+    "weaponToUnlock": "BMN_DODECAHEDRON",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "BMN007_SCREAM2"
+        ]
+      }
+    ]
+  },
+
+  "BMN18_Defeat6000Witches": {
+    "description": "Defeat 6000 Jaman Jatos.",
+    "weaponToUnlock": "PRAYERS",
+    "characterToUnlock": "JAMANJATO",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
+        "RequiredNumEnemiesKilled":6000,
+        "RequiredEnemyTypes":[
+          "BMN_JAMAN_JATO",
+          "BMN_JAMAN_JATO2",
+          "BMN_JAMAN_JATO_PATROL",
+          "BMN_JAMAN_JATO_SWARM"
+        ]
+      }
+    ]
+  },
+  "BMN19_DefeatAllBosses":{
+    "description": "Defeat Ashtart, Sargon, Congregation, and Baal in a single run.",
+    "characterToUnlock": "NAMELESSSAINT",
+    "UnlockConditions": [
+      {
+
+      }
+    ]
+  },
+  "BMN20_BreakStatue":{
+    "description": "Break the statue of Kujata with 108 Bocce or 108 Responsive Prayers.",
+    "characterToUnlock": "KUJATA",
+    "UnlockConditions": [
+      {
+
+      }
+    ]
+  },
+  
+  "BMN21_DefeatBaal":{
+    "description": "Defeat Baal'Thasar in the Red Moon Manor.",
+    "characterToUnlock": "BAALTHASAR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType":"KillBossTypesInRun",
+        "RequiredEnemyTypes":
+        [
+          "BMN_BOSS_BAALTHASAR"
+        ]
+      }
+    ]
+  },
+  "BMN22_Survive15BaalThasar": {
+    "description": "Survive 15 minutes with Baal'Thasar.",
+    "weaponToUnlock": "BMN008_BLACKEN1",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 900
+      },
+      {
+        "AchievementUnlockType": "PlayXCharacter",
+        "RequiredCharacterType": "BAALTHASAR"
+      }
+    ]
+  },
+  "BMN23_EvolveBlackenFirmam": {
+    "description": "Hold the Velvet Dodecahedron and obtain Damnation with Baal'Thasar.",
+    "characterToUnlock": "MEGABAALTHASAR",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredCharacterType": "BAALTHASAR",
+        "RequiredWeapons":[
+          "BMN_DODECAHEDRON",
+          "BMN009_BLACKEN2"
+        ]
+      }
+    ]
+  },
+  
+  "BMN24_25MinuteBoss":{
+    "description": "Defeat Batti Lei in the Red Moon Manor.",
+    "hyperToUnlock": "BMN_BLOODMOON",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType":"KillBossTypesInRun",
+        "RequiredEnemyTypes":
+        [
+          "BMN_LAMASHTU"
+        ]
+      }
+    ]
+  },
+  "BMN25_FindMap_Bloodmoon": {
+    "description": "Find the Red Moon Manor Map.",
+    "relicToUnlock": "RELIC_MAP_BMN",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems":[
+          "RELIC_MAP_BMN"
+        ]
+      }
+    ]
+  }
+}

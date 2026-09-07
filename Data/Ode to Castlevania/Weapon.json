@@ -3858,7 +3858,10 @@
         "TP_DOMINUS3"
       ],
       "evoInto": "TP_DOMINUS4",
-      "unexcludeSelf": true
+      "unexcludeSelf": true,
+      "tags": [
+        "HELL"
+      ]
     },
     {
       "speed": 0.5,
@@ -3914,7 +3917,10 @@
         "TP_DOMINUS2"
       ],
       "evoInto": "TP_DOMINUS4",
-      "customDescValue": "Increases total Area, Might, Speed and Duration by %0%."
+      "customDescValue": "Increases total Area, Might, Speed and Duration by %0%.",
+      "tags": [
+        "BLOOD"
+      ]
     },
     {
       "customDesc": 8
@@ -3946,6 +3952,10 @@
       "price": 28400,
       "description": "-",
       "tips": "-",
+      "tags": [
+        "BLOOD",
+        "HELL"
+      ],
       "isUnlocked": true,
       "isEvolution": true,
       "evolvesFrom": [

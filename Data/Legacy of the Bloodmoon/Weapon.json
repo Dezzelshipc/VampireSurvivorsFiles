@@ -1,0 +1,1062 @@
+{
+  "BMN000_SCARLET1": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN000_SCARLET1",
+      "price": 800,
+      "name": "BMN000_SCARLET1",
+      "description": "BMN_W_000 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1800.png",
+      "collectionFrame": "frameB_red.png",
+      "evoSynergy": [
+        "REGEN"
+      ],
+      "evoInto": "BMN001_SCARLET2",
+      "hitVFX": "Blood",
+      "isUnlocked": false,
+      "poolLimit": 20,
+      "rarity": 80,
+      "interval": 2000,
+      "duration": 500,
+      "repeatInterval": 200,
+      "hitBoxDelay": 50,
+      "power": 0.15,
+      "area": 0.7,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false,
+      "tags": [
+        "BLOOD"
+      ]
+    },
+    {
+      "amount": 1
+    },
+    {
+      "interval": -250
+    },
+    {
+      "area": 0.15,
+      "amount": 1
+    },
+    {
+      "power": 0.15,
+      "duration": 500
+    },
+    {
+      "amount": 1
+    },
+    {
+      "area": 0.15,
+      "interval": -250
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "BMN001_SCARLET2"
+    }
+  ],
+  "BMN001_SCARLET2": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN001_SCARLET2",
+      "name": "BMN001_SCARLET2",
+      "description": "BMN_W_001 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1801.png",
+      "collectionFrame": "frameB_red.png",
+      "evolvesFrom": [
+        "BMN000_SCARLET1"
+      ],
+      "requires": [
+        "REGEN"
+      ],
+      "requiresMax": [
+        "REGEN"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "hitVFX": "Blood",
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 1500,
+      "duration": 1000,
+      "repeatInterval": 200,
+      "hitBoxDelay": 50,
+      "power": 0.6,
+      "area": 1,
+      "speed": 1,
+      "amount": 10,
+      "knockback": 0,
+      "hitsWalls": false,
+      "tags": [
+        "BLOOD"
+      ]
+    }
+  ],
+  "BMN004_AXE1": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN004_AXE1",
+      "price": 800,
+      "name": "BMN004_AXE1",
+      "description": "BMN_W_004 description",
+      "tips": "Best with: Amount",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1804.png",
+      "collectionFrame": "frameB_red.png",
+      "evoSynergy": [
+        "AMOUNT"
+      ],
+      "evoInto": "BMN005_AXE2",
+      "isUnlocked": false,
+      "poolLimit": 3,
+      "rarity": 60,
+      "interval": 2250,
+      "duration": 700,
+      "repeatInterval": 300,
+      "hitBoxDelay": 500,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 5,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 2
+    },
+    {
+      "interval": -250,
+      "speed": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "critChance": 0.025,
+      "speed": 0.1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1,
+      "speed": 0.1
+    },
+    {
+      "power": 1,
+      "addEvolvedWeapon": "BMN005_AXE2"
+    }
+  ],
+  "BMN005_AXE2": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN005_AXE2",
+      "name": "BMN005_AXE2",
+      "description": "BMN_W_005 description",
+      "tips": "Requires Max: Duplicator.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1805.png",
+      "collectionFrame": "frameB_red.png",
+      "evolvesFrom": [
+        "BMN004_AXE1"
+      ],
+      "requires": [
+        "AMOUNT"
+      ],
+      "requiresMax": [
+        "AMOUNT"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "poolLimit": 25,
+      "rarity": 1,
+      "interval": 2000,
+      "duration": 1500,
+      "repeatInterval": 750,
+      "hitBoxDelay": 500,
+      "power": 4,
+      "area": 1,
+      "speed": 1.5,
+      "amount": 2,
+      "knockback": 10,
+      "hitsWalls": false,
+      "critChance": 0.075,
+      "critMul": 2,
+      "tags": [
+        "BLOOD"
+      ]
+    }
+  ],
+  "BMN002_DUST1": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN002_DUST1",
+      "price": 800,
+      "name": "BMN002_DUST1",
+      "description": "BMN_W_002 description",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1802.png",
+      "collectionFrame": "frameB_red.png",
+      "isUnlocked": false,
+      "evoSynergy": [
+        "AREA"
+      ],
+      "evoInto": "BMN003_DUST2",
+      "poolLimit": 5,
+      "rarity": 40,
+      "interval": 8000,
+      "duration": 300,
+      "repeatInterval": 200,
+      "hitBoxDelay": 50,
+      "power": 10,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "interval": -500
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "interval": -500,
+      "area": 0.2,
+      "addEvolvedWeapon": "BMN003_DUST2"
+    }
+  ],
+  "BMN003_DUST2": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN003_DUST2",
+      "name": "BMN003_DUST2",
+      "description": "BMN_W_003 description",
+      "tips": "Requires Max: Candelabrador.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1803.png",
+      "collectionFrame": "frameB_red.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "BMN002_DUST1"
+      ],
+      "requires": [
+        "AREA"
+      ],
+      "requiresMax": [
+        "AREA"
+      ],
+      "poolLimit": 100,
+      "rarity": 1,
+      "interval": 6500,
+      "duration": 500,
+      "repeatInterval": 300,
+      "hitBoxDelay": 50,
+      "power": 10,
+      "area": 1.8,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "tags": [
+        "HELL"
+      ]
+    }
+  ],
+  "BMN006_SCREAM1": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN006_SCREAM1",
+      "price": 800,
+      "name": "BMN006_SCREAM1",
+      "description": "BMN_W_006 description",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1806.png",
+      "collectionFrame": "frameB_red.png",
+      "isUnlocked": false,
+      "evoSynergy": [
+        "MAGNET"
+      ],
+      "evoInto": "BMN007_SCREAM2",
+      "poolLimit": 10,
+      "rarity": 70,
+      "interval": 7500,
+      "duration": 400,
+      "repeatInterval": 200,
+      "hitBoxDelay": 50,
+      "power": 1,
+      "area": 0.9,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 3,
+      "hitsWalls": false
+    },
+    {
+      "interval": -500,
+      "area": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 0.5,
+      "area": 0.2
+    },
+    {
+      "interval": -500
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "BMN007_SCREAM2"
+    }
+  ],
+  "BMN007_SCREAM2": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN007_SCREAM2",
+      "name": "BMN007_SCREAM2",
+      "description": "BMN_W_007 description",
+      "tips": "Requires Max: Duplicator.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1807.png",
+      "collectionFrame": "frameB_red.png",
+      "isEvolution": true,
+      "isUnlocked": true,
+      "evolvesFrom": [
+        "BMN006_SCREAM1"
+      ],
+      "requires": [
+        "MAGNET"
+      ],
+      "requiresMax": [
+        "MAGNET"
+      ],
+      "poolLimit": 30,
+      "rarity": 1,
+      "interval": 6500,
+      "duration": 1000,
+      "repeatInterval": 200,
+      "hitBoxDelay": 500,
+      "power": 2,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 4,
+      "hitsWalls": false
+    }
+  ],
+  "BMN008_BLACKEN1": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN008_BLACKEN1",
+      "price": 800,
+      "name": "BMN008_BLACKEN1",
+      "description": "BMN_W_008 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1808.png",
+      "evoSynergy": [
+        "PANDORA"
+      ],
+      "evoInto": "BMN009_BLACKEN2",
+      "hitVFX": "Dark",
+      "tags": [
+        "HELL"
+      ],
+      "collectionFrame": "frameB_red.png",
+      "isUnlocked": false,
+      "poolLimit": 50,
+      "rarity": 30,
+      "interval": 6000,
+      "duration": 2000,
+      "repeatInterval": 300,
+      "hitBoxDelay": 500,
+      "power": 1,
+      "area": 0.7,
+      "speed": 1,
+      "amount": 2,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "amount": 1,
+      "area": 0.1
+    },
+    {
+      "power": 1,
+      "duration": 500
+    },
+    {
+      "amount": 1,
+      "area": 0.1
+    },
+    {
+      "power": 1,
+      "duration": 250
+    },
+    {
+      "amount": 1,
+      "area": 0.1
+    },
+    {
+      "power": 0.5,
+      "duration": 250
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "BMN009_BLACKEN2"
+    }
+  ],
+  "BMN009_BLACKEN2": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN009_BLACKEN2",
+      "name": "BMN009_BLACKEN2",
+      "description": "BMN009_BLACKEN2 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1809.png",
+      "collectionFrame": "frameB_red.png",
+      "evolvesFrom": [
+        "BMN008_BLACKEN1"
+      ],
+      "requires": [
+        "PANDORA"
+      ],
+      "requiresMax": [
+        "PANDORA"
+      ],
+      "tags": [
+        "HELL"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 6000,
+      "duration": 3500,
+      "repeatInterval": 0,
+      "hitBoxDelay": 750,
+      "power": 20,
+      "area": 2,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    }
+  ],
+  "PRAYERS": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "PRAYERS",
+      "price": 800,
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-prayerScroll.png",
+      "collectionFrame": "frameB_red.png",
+      "isUnlocked": false,
+      "evoSynergy": [
+        "BOCCE"
+      ],
+      "evoInto": "HEAVENSROAD",
+      "poolLimit": 100,
+      "rarity": 10,
+      "interval": 8000,
+      "duration": 1000,
+      "hitBoxDelay": 500,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "duration": 500
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "power": 0.4
+    },
+    {
+      "duration": 500
+    },
+    {
+      "area": 0.2
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "HEAVENSROAD"
+    }
+  ],
+  "HEAVENSROAD": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "HEAVENSROAD",
+      "price": 800,
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "-01-heavensroad.png",
+      "collectionFrame": "frameB_red.png",
+      "hidden": true,
+      "isUnlocked": false,
+      "isEvolution": true,
+      "evolvesFrom": [
+        "BOCCE",
+        "PRAYERS"
+      ],
+      "requiresMax": [
+        "BOCCE",
+        "PRAYERS"
+      ],
+      "poolLimit": 128,
+      "rarity": 1,
+      "interval": 30000,
+      "duration": 1000,
+      "hitBoxDelay": 2000,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false
+    },
+    {
+      "curse": -0.1,
+      "luck": 0.1
+    },
+    {
+      "curse": -0.1,
+      "luck": 0.1
+    },
+    {
+      "curse": -0.1,
+      "luck": 0.1
+    },
+    {
+      "curse": -0.1,
+      "luck": 0.1
+    },
+    {
+      "interval" : -10000,
+      "hitBoxDelay": -1000
+    },
+    {
+      "curse": -0.2,
+      "luck": 0.2
+    },
+    {
+      "curse": -0.3,
+      "luck": 0.3
+    }
+  ],
+  "BMN010_FIRE1_FALL": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN010_FIRE1_FALL",
+      "price": 800,
+      "name": "BMN010_FIRE1_FALL",
+      "description": "BMN_W_010 description",
+      "tips": "Ignores: speed & duration.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1810.png",
+      "collectionFrame": "frameB_red.png",
+      "evoSynergy": [
+        "BMN011_FIRE2_BALL",
+        "BMN012_FIRE3_WALL"
+      ],
+      "evoInto": "BMN013_FIRE4",
+      "isUnlocked": false,
+      "poolLimit": 30,
+      "rarity": 70,
+      "interval": 4000,
+      "duration": 250,
+      "hitBoxDelay": 250,
+      "repeatInterval": 250,
+      "power": 2,
+      "area": 1.6,
+      "speed": 3.5,
+      "amount": 2,
+      "knockback": 0,
+      "hitsWalls": false,
+      "tags": [
+        "FIRE"
+      ]
+    },
+    {
+      "amount": 1,
+      "power": 0.4
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1,
+      "power": 0.4
+    },
+    {
+      "amount": 1
+    },
+    {
+      "amount": 1,
+      "power": 0.4
+    }
+  ],
+  "BMN011_FIRE2_BALL": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN011_FIRE2_BALL",
+      "price": 800,
+      "name": "BMN011_FIRE2_BALL",
+      "description": "BMN_W_012 description",
+      "tips": "Ignores: amount.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1811.png",
+      "collectionFrame": "frameB_red.png",
+      "evoSynergy": [
+        "BMN010_FIRE1_FALL",
+        "BMN012_FIRE3_WALL"
+      ],
+      "evoInto": "BMN013_FIRE4",
+      "isUnlocked": false,
+      "poolLimit": 20,
+      "rarity": 70,
+      "interval": 6000,
+      "duration": 5000,
+      "repeatInterval": 300,
+      "hitBoxDelay": 5000,
+      "power": 1,
+      "area": 0.7,
+      "speed": 1.5,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false,
+      "tags": [
+        "FIRE"
+      ]
+    },
+    {
+      "power": 0.5,
+      "speed": 0.2
+    },
+    {
+      "duration": 500,
+      "area": 0.25
+    },
+    {
+      "power": 1,
+      "interval": -500,
+      "speed": 0.2
+    },
+    {
+      "duration": 500,
+      "area": 0.25
+    },
+    {
+      "power": 1,
+      "interval": -500,
+      "speed": 0.2,
+      "addEvolvedWeapon": "BMN013_FIRE4"
+    }
+  ],
+  "BMN012_FIRE3_WALL": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN012_FIRE3_WALL",
+      "price": 800,
+      "name": "BMN012_FIRE3_WALL",
+      "description": "BMN_W_011 description",
+      "tips": "Ignores: area.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1812.png",
+      "collectionFrame": "frameB_red.png",
+      "evoSynergy": [
+        "BMN010_FIRE1_FALL",
+        "BMN011_FIRE2_BALL"
+      ],
+      "evoInto": "BMN013_FIRE4",
+      "isUnlocked": false,
+      "poolLimit": 20,
+      "rarity": 70,
+      "interval": 6000,
+      "duration": 1500,
+      "repeatInterval": 100,
+      "hitBoxDelay": 500,
+      "power": 0.5,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 0,
+      "hitsWalls": false,
+      "tags": [
+        "FIRE"
+      ]
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 2
+    },
+    {
+      "power": 0.5
+    },
+    {
+      "amount": 1
+    }
+  ],
+  "BMN013_FIRE4": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "sealable": true,
+      "bulletType": "BMN013_FIRE4",
+      "name": "BMN013_FIRE4",
+      "description": "BMN_W_013 description",
+      "tips": "Ignores: speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-BMN_1813.png",
+      "collectionFrame": "frameB_red.png",
+      "evolvesFrom": [
+        "BMN010_FIRE1_FALL",
+        "BMN011_FIRE2_BALL",
+        "BMN012_FIRE3_WALL"
+      ],
+      "requiresMax": [
+        "BMN010_FIRE1_FALL",
+        "BMN011_FIRE2_BALL",
+        "BMN012_FIRE3_WALL"
+      ],
+      "isEvolution": true,
+      "isUnlocked": true,
+      "poolLimit": 30,
+      "rarity": 1,
+      "interval": 2000,
+      "duration": 20000,
+      "repeatInterval": 50,
+      "hitBoxDelay": 50,
+      "power": 1,
+      "area": 1.5,
+      "speed": 1,
+      "amount": 2,
+      "knockback": 0,
+      "hitsWalls": false,
+      "tags": [
+        "FIRE"
+      ]
+    }
+  ],
+  "DESCENT_MISERY": [
+    {
+      "contentGroup": "BLOODMOON",
+      "level": 1,
+      "sealable": true,
+      "bulletType": "DESCENT_MISERY",
+      "price": 800,
+      "name": "Descent Into Misery",
+      "description": "Cursed item. Amount affects Damage. Critical hits or changing movement direction ensure extra attacks.",
+      "tips": "Ignores: Speed, Duration.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-descentMisery.png",
+      "collectionFrame": "frameB_red.png",
+      "evoInto": "SHIMMERING_SANDS",
+      "evoSynergy": [
+        "EX_MAGISTONE2"
+      ],
+      "isUnlocked": false,
+      "poolLimit": 70,
+      "rarity": 50,
+      "interval": 8000,
+      "duration": 1000,
+      "repeatInterval": 0,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "knockback": 1,
+      "chance": 0.1,
+      "critChance": 0.05,
+      "critMul": 2,
+      "hitsWalls": false,
+      "customDescValue": "Adds %0% attack to combo."
+    },
+    {
+      "power": 1,
+      "maxHp": -0.05
+    },
+    {
+      "maxHp": -0.06,
+      "customDesc": 1
+    },
+    {
+      "interval": -1000,
+      "maxHp": -0.07
+    },
+    {
+      "critChance": 0.05,
+      "customDesc": 1
+    },
+    {
+      "power": 1,
+      "maxHp": -0.08
+    },
+    {
+      "maxHp": -0.09,
+      "customDesc": 1
+    },
+    {
+      "interval": -1000,
+      "maxHp": -0.1
+    },
+    {
+      "customDesc": 1,
+      "addEvolvedWeapon": "SHIMMERING_SANDS"
+    }
+  ],
+  "SHIMMERING_SANDS": [
+    {
+      "contentGroup": "BLOODMOON",
+      "level": 1,
+      "sealable": true,
+      "bulletType": "SHIMMERING_SANDS",
+      "price": 800,
+      "name": "Shimmering Sands",
+      "description": ".",
+      "tips": "Union of Descent Into Misery and Kyra-Stones. A storm of shattered crystals engulf everything in sight.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-shimmering.png",
+      "collectionFrame": "frameB_red.png",
+      "evolvesFrom": [
+        "DESCENT_MISERY",
+        "EX_MAGISTONE2"
+      ],
+      "requiresMax": [
+        "DESCENT_MISERY",
+        "EX_MAGISTONE2"
+      ],
+      "isUnlocked": false,
+      "isEvolution": true,
+      "poolLimit": 50,
+      "rarity": 1,
+      "interval": 3000,
+      "duration": 2000,
+      "repeatInterval": 100,
+      "power": 8,
+      "area": 1,
+      "speed": 1.8,
+      "amount": 4,
+      "knockback": 1,
+      "chance": 0.1
+    }
+  ],
+  "BMN_DODECAHEDRON": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "hidden": false,
+      "bulletType": "BMN_DODECAHEDRON",
+      "name": "BMN_DODECAHEDRON",
+      "description": "Will provide bonus Growth and Greed in exchange for MaxHealth. Triggers LastBreath and HPCritical skills.",
+      "customDescValue": "Triggers LastBreath, OnRevival, and HPCritical skills.",
+      "texture": "tps_lossless_icons",
+      "frameName": "-08-velvet.png",
+      "collectionFrame": "frameB_red.png",
+      "unexcludeSelf": true,
+      "isUnlocked": false,
+      "rarity": 10,
+      "isPowerUp": true,
+      "isSpecialOnly": false,
+      "sealable": true,
+      "isGift": true
+    },
+    {
+      "greed": 0.2,
+      "maxHp": -0.10,
+      "customDesc": 0
+    },
+    {
+      "growth": 0.3,
+      "maxHp": -0.10,
+      "customDesc": 0
+    },
+    {
+      "greed": 0.2,
+      "maxHp": -0.10,
+      "customDesc": 0
+    },
+    {
+      "growth": 0.3,
+      "maxHp": -0.10,
+      "customDesc": 0
+    },
+    {
+      "greed": 0.2,
+      "maxHp": -0.10,
+      "customDesc": 0
+    }
+  ],
+
+  "BMN_BLOODHEX": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "bulletType": "BMN_BLOODHEX",
+      "name": "BMN_BLOODHEX",
+      "description": ".",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "dummyFire.png",
+      "collectionFrame": "frameB_red.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "Blood",
+      "poolLimit": 1,
+      "rarity": 0,
+      "interval": 825,
+      "repeatInterval": 50,
+      "power": 0.3,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 825,
+      "knockback": 1,
+      "hitsWalls": false,
+      "tags": [
+        "BLOOD"
+      ]
+    }
+  ],
+  "BMN_BAALLASTBREATH": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "bulletType": "BMN_BAALLASTBREATH",
+      "name": "BMN_BAALLASTBREATH",
+      "description": ".",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "dummyFire.png",
+      "collectionFrame": "frameB_red.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "Blood",
+      "poolLimit": 1,
+      "rarity": 0,
+      "interval": 7000,
+      "repeatInterval": 50,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 7000,
+      "knockback": 0,
+      "hitsWalls": false,
+      "tags": [
+        "BLOOD"
+      ]
+    }
+  ],
+  "BMN_SUMMONSKELETONS": [
+    {
+      "level": 1,
+      "contentGroup": "BLOODMOON",
+      "bulletType": "BMN_SUMMONSKELETONS",
+      "name": "BMN_SUMMONSKELETONS",
+      "description": ".",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "dummyFire.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "Default",
+      "poolLimit": 50,
+      "rarity": 0,
+      "interval": 500,
+      "repeatInterval": 50,
+      "power": 0.3,
+      "area": 1.2,
+      "speed": 1,
+      "amount": 1,
+      "duration": 150,
+      "knockback": 1,
+      "hitsWalls": false
+    }
+  ]
+}

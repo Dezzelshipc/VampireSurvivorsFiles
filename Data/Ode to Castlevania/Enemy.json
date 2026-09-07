@@ -17,7 +17,7 @@
       "killedAmount": 0,
       "bName": "Flea Man",
       "bDesc": "@@.",
-      "bIndex": 0,
+      "bIndex": 1,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -49,7 +49,6 @@
       "killedAmount": 0,
       "bName": "Flea Man",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
@@ -101,7 +100,7 @@
         "TP_FLEARIDER_0.png"
       ],
       "bName": "Flea Rider",
-      "bIndex": 0,
+      "bIndex": 2,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -127,6 +126,7 @@
       "killedAmount": 0,
       "xp": 2,
       "bName": "Flea Armor",
+      "bIndex": 3,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -163,7 +163,7 @@
       "killedAmount": 0,
       "bName": "Magic Book",
       "bDesc": "@@.",
-      "bIndex": 0,
+      "bIndex": 4,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -211,7 +211,7 @@
         "TP_REUSE_FROZENSHADE_0.png"
       ],
       "bName": "Frozen Shade",
-      "bIndex": 0,
+      "bIndex": 5,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -244,7 +244,6 @@
         "TP_REUSE_FROZENSHADE_0.png"
       ],
       "bName": "Frozen Shade",
-      "bIndex": 0,
       "bInclude": false,
       "bPlaces": [
         "TP_CASTLE"
@@ -311,6 +310,7 @@
         "TP_REUSE_HARPY_0.png"
       ],
       "bName": "Harpy",
+      "bIndex": 6,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -374,6 +374,7 @@
         "TP_Hippogryph_0.png"
       ],
       "bName": "Hippogyph",
+      "bIndex": 7,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -385,6 +386,7 @@
   ],
   "TP_IMP": [
     {
+      "bIndex": 8,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -449,6 +451,7 @@
         "TP_REUSE_MOLDYCORPSE_0.png"
       ],
       "bName": "Moldy Corpse",
+      "bIndex": 9,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -487,6 +490,7 @@
         "offsetX": 0
       },
       "bName": "Spittle Bone",
+      "bIndex": 10,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -543,6 +547,7 @@
         "TP_UKOBACK_0.png"
       ],
       "bName": "Ukoback",
+      "bIndex": 11,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -554,6 +559,7 @@
   ],
   "TP_SPECTRE": [
     {
+      "bIndex": 12,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -601,7 +607,6 @@
         "TP_REUSE_SUCCUBUS_0.png"
       ],
       "bName": "Succubus",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -615,6 +620,7 @@
   ],
   "TP_VALHALLAKNIGHT": [
     {
+      "bIndex": 13,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -648,6 +654,7 @@
   ],
   "TP_WARG_01": [
     {
+      "bIndex": 14,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -720,6 +727,7 @@
       "weak_Fire": 1,
       "killedAmount": 0,
       "bName": "Bitterfly",
+      "bIndex": 15,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -745,6 +753,7 @@
       "deathKB": 3,
       "killedAmount": 0,
       "xp": 2.75,
+      "bIndex": 16,
       "bInclude": true,
       "bHighlight": false,
       "bName": "Bloody Painting",
@@ -802,6 +811,7 @@
       "xp": 1.5,
       "scale": 1,
       "bName": "Fishman",
+      "bIndex": 17,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -876,7 +886,7 @@
       "killedAmount": 0,
       "bName": "Persephone",
       "bDesc": "Keeping the castle clean by any means neccescary.",
-      "bIndex": 0,
+      "bIndex": 18,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -978,7 +988,7 @@
       "killedAmount": 0,
       "bName": "Ghost",
       "bDesc": "@@.",
-      "bIndex": 0,
+      "bIndex": 19,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1005,7 +1015,6 @@
       "killedAmount": 0,
       "bName": "Spear Skeleton",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
@@ -1030,6 +1039,7 @@
         "TP_FlyingZombie_0.png"
       ],
       "bName": "Flying Zombie",
+      "bIndex": 20,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1078,6 +1088,7 @@
         "TP_Dullahan_0.png"
       ],
       "bName": "Dullahan",
+      "bIndex": 21,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1167,6 +1178,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Yorick",
+      "bIndex": 22,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1223,6 +1235,7 @@
         "TP_AmalaricSniper_0.png"
       ],
       "bName": "Amalaric Sniper",
+      "bIndex": 23,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -1305,6 +1318,7 @@
         "TP_GurkhaKnifeMaster_0.png"
       ],
       "bName": "Gurkha Knife Master",
+      "bIndex": 24,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1329,6 +1343,7 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Gorgon",
+      "bIndex": 25,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1359,6 +1374,7 @@
         "TP_BoneGolem_0.png"
       ],
       "bName": "Bone Golem",
+      "bIndex": 26,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1390,6 +1406,7 @@
         "TP_DiscArmor_0.png"
       ],
       "bName": "Disc Armor",
+      "bIndex": 27,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1416,6 +1433,7 @@
         "TP_Alastor_0.png"
       ],
       "bName": "Alastor",
+      "bIndex": 28,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1487,6 +1505,7 @@
         "TP_Malachi_0.png"
       ],
       "bName": "Malachi",
+      "bIndex": 29,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1512,6 +1531,7 @@
         "TP_Werewolf_0.png"
       ],
       "bName": "Castle Werewolf",
+      "bIndex": 30,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1548,6 +1568,7 @@
         "offsetY": 8.6
       },
       "bName": "Axe Armor",
+      "bIndex": 31,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1628,6 +1649,7 @@
         "TP_KillerDoll_0.png"
       ],
       "bName": "Killer Doll",
+      "bIndex": 32,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1657,7 +1679,6 @@
         "TP_MudMan_0.png"
       ],
       "bName": "Mud Man",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "textureName": "TP_enemies",
@@ -1690,7 +1711,6 @@
       "killedAmount": 0,
       "bName": "Medusa Head",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "passThroughWalls": true,
@@ -1725,7 +1745,6 @@
       "killedAmount": 0,
       "bName": "Medusa Head",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "passThroughWalls": true,
@@ -1756,7 +1775,6 @@
       "killedAmount": 0,
       "bName": "Medusa Head",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "colliderOverride": {
@@ -1787,6 +1805,7 @@
         "TP_CorpseWeed_0.png"
       ],
       "bName": "Corpseweed",
+      "bIndex": 33,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1822,6 +1841,7 @@
       "firingRangeMin": 10,
       "firingRangeMax": 100,
       "bulletType": "TP_BONE_BULLET",
+      "bIndex": 34,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1851,7 +1871,7 @@
       "idleFrameCount": 3,
       "killedAmount": 0,
       "bName": "Bone Pillar",
-      "bIndex": 0,
+      "bIndex": 35,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -1882,7 +1902,6 @@
       "idleFrameCount": 3,
       "killedAmount": 0,
       "bName": "Bone Pillar",
-      "bIndex": 0,
       "bInclude": false,
       "bPlaces": [
         "TP_CASTLE"
@@ -1913,7 +1932,6 @@
       "idleFrameCount": 3,
       "killedAmount": 0,
       "bName": "Bone Pillar",
-      "bIndex": 0,
       "bInclude": false,
       "bPlaces": [
         "TP_CASTLE"
@@ -1947,7 +1965,6 @@
       "idleFrameCount": 3,
       "killedAmount": 0,
       "bName": "Bone Pillar",
-      "bIndex": 0,
       "bInclude": false,
       "bPlaces": [
         "TP_CASTLE"
@@ -2236,6 +2253,7 @@
       ],
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 36,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2271,6 +2289,7 @@
       ],
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 37,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2306,6 +2325,7 @@
       ],
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 38,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2514,6 +2534,7 @@
       "frameNames": [
         "TP_REUSE_GAIBON_0.png"
       ],
+      "bIndex": 39,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2553,6 +2574,7 @@
       "frameNames": [
         "TP_Reuse_Slorga_0.png"
       ],
+      "bIndex": 40,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2599,6 +2621,7 @@
         "offsetXWhenFlipped": 45
       },
       "bName": "---",
+      "bIndex": 41,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2669,6 +2692,7 @@
         "TP_Treant_0.png"
       ],
       "bName": "---",
+      "bIndex": 42,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2705,6 +2729,7 @@
       ],
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 43,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2746,6 +2771,7 @@
       },
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 44,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2785,6 +2811,7 @@
       },
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 45,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2856,6 +2883,7 @@
         "TP_Gergoth_0.png"
       ],
       "killedAmount": 0,
+      "bIndex": 46,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2900,6 +2928,7 @@
         "offsetX": -10
       },
       "killedAmount": 0,
+      "bIndex": 47,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2935,6 +2964,7 @@
       ],
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 48,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -2981,6 +3011,7 @@
       },
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 49,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -3021,6 +3052,7 @@
       },
       "killedAmount": 0,
       "bName": "---",
+      "bIndex": 50,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -3155,6 +3187,7 @@
       "frameNames": [
         "WhiteDot.png"
       ],
+      "bIndex": 51,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -3349,6 +3382,7 @@
       "frameNames": [
         "WhiteDot.png"
       ],
+      "bIndex": 52,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -3439,6 +3473,7 @@
       "frameNames": [
         "TP_TheCreature_0.png"
       ],
+      "bIndex": 53,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -3571,7 +3606,7 @@
       },      
       "killedAmount": 0,
       "bName": "Bugbear",
-      "bIndex": 0,
+      "bIndex": 54,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -3600,6 +3635,7 @@
       "frameNames": [
         "TP_Devil_0.png"
       ],
+      "bIndex": 55,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -3626,6 +3662,7 @@
       "frameNames": [
         "TP_Minotaur_0.png"
       ],
+      "bIndex": 56,
       "bInclude": true,
       "bPlaces": [
         "TP_CASTLE"
@@ -4365,7 +4402,6 @@
       "bName": "Persephone",
       "bDesc": "Keeping the castle clean by any means neccescary.",
       "bPlaces": [],
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": []
@@ -4441,7 +4477,6 @@
         "LIBRARY",
         "TOWER"
       ],
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -4475,7 +4510,6 @@
         "LIBRARY",
         "TOWER"
       ],
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -4541,7 +4575,6 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -4612,7 +4645,6 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": []
@@ -4841,7 +4873,6 @@
         "offsetX": -5,
         "offsetY": -5
       },
-      "bIndex": 0,
       "bVariants": []
     }
   ],
@@ -4876,7 +4907,6 @@
         "offsetX": -5,
         "offsetY": -5
       },
-      "bIndex": 0,
       "bVariants": []
     }
   ],
@@ -5022,7 +5052,6 @@
       "killedAmount": 0,
       "bName": "Magic Book",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bPlaces": [
         "TP_CASTLE"
@@ -5056,7 +5085,6 @@
       "killedAmount": 0,
       "bName": "Magic Book",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bPlaces": [
         "TP_CASTLE"
@@ -5373,7 +5401,6 @@
         "TP_FLEARIDER_0.png"
       ],
       "bName": "Flea Rider",
-      "bIndex": 0,
       "bInclude": false,
       "bPlaces": [
         "TP_CASTLE"
@@ -5606,7 +5633,6 @@
         "offsetY": 5,
         "offsetX": 0
       },
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": []
@@ -5779,7 +5805,6 @@
       "killedAmount": 0,
       "bName": "Flea Man",
       "bDesc": "@@.",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [

@@ -21,25 +21,25 @@
       "bgm": "BGM_Silver",
       "price": 1000,
       "completedStages": [],
-      "maxHp": 120,
-      "armor": 0,
-      "regen": 1,
-      "moveSpeed": 1.2,
-      "power": 1,
-      "cooldown": 1,
-      "area": 1,
-      "speed": 1,
-      "duration": 1,
-      "amount": 0,
-      "luck": 1,
-      "growth": 1,
-      "greed": 1,
-      "curse": 1,
-      "magnet": 0,
-      "revivals": 0,
-      "rerolls": 0,
-      "skips": 0,
-      "banish": 0,
+      "maxHp":      120,
+      "armor":      0,
+      "regen":      1,
+      "moveSpeed":  1.2,
+      "power":      1,
+      "cooldown":   1,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     0,
       "showcase": [
         "SILVERWIND",
         "SILVERWIND",
@@ -48,6 +48,7 @@
         "SILVERWIND",
         "SILVERWIND",
         "SILVERWIND",
+        "SILVERWIND3",
         "COOLDOWN",
         "DURATION",
         "COOLDOWN",
@@ -152,7 +153,10 @@
         "POWER",
         "POWER"
       ],
-      "onEveryLevelUp": {}
+      "onEveryLevelUp": {},
+      "addedSkillCards": [
+        "SUB_OVERHEAL_TRIGGERWEAPON"
+      ]
     },
     {
       "growth": 1,
@@ -227,6 +231,9 @@
       "onEveryLevelUp": {},
       "hiddenWeapons": [
         "NIGHTSWORD"
+      ],
+      "addedSkillCards": [
+        "SUB_OVERHEAL_MIGHTUP"
       ]
     },
     {
@@ -321,65 +328,89 @@
       "growth": -1
     }
   ],
-  "MCCOY": [
+  "MEGAMIANG": [
     {
       "hidden": true,
       "level": 1,
-      "startingWeapon": "BOCCE",
-      "charName": "McCoy-Oni",
-      "surname": "",
-      "spriteName": "McCoy_i01.png",
-      "textureName": "character_mccoy",
-      "portraitName": "p_mccoy.png",
+      "startingWeapon": "VOID",
+      "prefix": "Megalo",
+      "charName": "Miang",
+      "surname": "Moonspell",
+      "spriteName": "miangmegalo_i01.png",
+      "textureName": "character_miang",
+      "portraitName": "p_miangmegalo.png",
       "walkingFrames": 4,
-      "description": "Area temporarily increases at fixed intervals.",
+      "description": "Max Health is always equal to Current Health. Overhealing increases Max Health.",
       "headOffsets": [
         {
-          "x": 10,
-          "y": 9
+          "x": 1,
+          "y": 1
         }
       ],
+      "alwaysLoopWalkingAnimation" : true,
+      "autoSetBodyOffset" : true,
       "isBought": false,
-      "price": 5000,
+      "bgm": "BGM_Moonlight",
+      "price":          50000,
       "completedStages": [],
-      "bodyOffset": {
-        "x": 16,
-        "y": 32
-      },
-      "maxHp": 108,
-      "armor": 1,
-      "regen": 0,
-      "moveSpeed": 1,
-      "power": 1,
-      "cooldown": 1,
-      "area": 1,
-      "speed": 1,
-      "duration": 1,
-      "amount": 0,
-      "luck": 1,
-      "growth": 1.2,
-      "greed": 1,
-      "curse": 1,
-      "magnet": 0,
-      "revivals": 0,
-      "rerolls": 0,
-      "skips": 0,
-      "banish": 0,
-      "showcase": [],
-      "onEveryLevelUp": {},
-      "sineArea": {
-        "min": 1,
-        "max": 2.5,
-        "duration": 1000
-      }
+      "maxHp":          120,
+      "armor":          0,
+      "regen":          1,
+      "moveSpeed":      2,
+      "power":          2,
+      "cooldown":       0.8,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1.1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         108,
+      "showcase": [
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "SPEED",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "REGEN",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "hiddenWeapons":["SILVERWIND3"],
+      "onEveryLevelUp": {}
     },
     {
-      "level": 20,
-      "growth": 1
+      "growth": 1,
+      "level": 20
     },
     {
-      "level": 40,
-      "growth": 1
+      "growth": 1,
+      "level": 40
     },
     {
       "level": 21,
@@ -406,25 +437,25 @@
       "isBought": false,
       "price": 50000,
       "completedStages": [],
-      "maxHp": 80,
-      "armor": 0,
-      "regen": 0,
-      "moveSpeed": 2,
-      "power": 2,
-      "cooldown": 0.8,
-      "area": 1,
-      "speed": 1,
-      "duration": 1,
-      "amount": 0,
-      "luck": 1.1,
-      "growth": 1,
-      "greed": 1,
-      "curse": 1,
-      "magnet": 0,
-      "revivals": 0,
-      "rerolls": 0,
-      "skips": 0,
-      "banish": 108,
+      "maxHp":      80,
+      "armor":      0,
+      "regen":      0,
+      "moveSpeed":  2,
+      "power":      2,
+      "cooldown":   0.8,
+      "area":       1,
+      "speed":      1,
+      "duration":   1,
+      "amount":     0,
+      "luck":       1.1,
+      "growth":     1,
+      "greed":      1,
+      "curse":      1,
+      "magnet":     0,
+      "revivals":   0,
+      "rerolls":    0,
+      "skips":      0,
+      "banish":     108,
       "showcase": [
         "BOCCE",
         "BOCCE",
@@ -467,6 +498,7 @@
       "hidden": true,
       "level": 1,
       "startingWeapon": "NIGHTSWORD",
+      "canSeeTags": ["BLOOD"],
       "prefix": "Megalo",
       "charName": "Syuuto",
       "surname": "Moonspell",
@@ -541,6 +573,78 @@
       "growth": -1
     }
   ],
+  "MCCOY": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "BOCCE",
+      "charName": "McCoy-Oni",
+      "surname": "",
+      "spriteName": "McCoy_i01.png",
+      "textureName": "character_mccoy",
+      "portraitName": "p_mccoy.png",
+      "walkingFrames": 4,
+      "description": "Area temporarily increases at fixed intervals.",
+      "headOffsets": [
+        {
+          "x": 10,
+          "y": 9
+        }
+      ],
+      "isBought": false,
+      "price": 5000,
+      "completedStages": [],
+      "bodyOffset": {
+        "x": 16,
+        "y": 32
+      },
+      "maxHp": 108,
+      "armor": 1,
+      "regen": 0,
+      "moveSpeed": 1,
+      "power": 1,
+      "cooldown": 1,
+      "area": 1,
+      "speed": 1,
+      "duration": 1,
+      "amount": 0,
+      "luck": 1,
+      "growth": 1.2,
+      "greed": 1,
+      "curse": 1,
+      "magnet": 0,
+      "revivals": 0,
+      "rerolls": 0,
+      "skips": 0,
+      "banish": 0,
+      "showcase": [],
+      "onEveryLevelUp": {},
+      "sineArea": {
+        "min": 1,
+        "max": 2.5,
+        "duration": 1000
+      },
+      "addedSkillCards": [
+        "SUB_OVERHEAL_REROLLUP"
+      ]
+    },
+    {
+      "level": 20,
+      "growth": 1
+    },
+    {
+      "level": 40,
+      "growth": 1
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
   "TONY": [
     {
       "hidden": true,
@@ -548,15 +652,92 @@
       "startingWeapon": "BUBBLES",
       "charName": "Gab'Et-Oni",
       "surname": "",
-      "spriteName": "Gabet_i01.png",
+      "spriteName": "P1_Gabet_i01.png",
       "textureName": "character_gabet",
       "portraitName": "p_gavet.png",
       "walkingFrames": 4,
-      "description": "Gets more projectiles every 20 levels (max+4).",
+      "description": "Gets more projectiles every 20 levels (max+4). Complete stages to gain Prestige.",
       "headOffsets": [
         {
           "x": 4,
           "y": -3
+        }
+      ],
+
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_gabet",
+          "spriteName": "P1_Gabet_i01.png",
+          "suffix": "★",
+          "walkingFrames": 4,
+          "unlocked": true
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_GAVET_S2",
+          "name": "Prestige 2",
+          "textureName": "character_gabet",
+          "spriteName": "P2_Gabet_i01.png",
+          "suffix": "★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Complete stages to gain Prestige.",
+          "amount": 1
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_GAVET_S3",
+          "name": "Prestige 3",
+          "textureName": "character_gabet",
+          "spriteName": "Gabet_i01.png",
+          "suffix": "★★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Complete stages to gain Prestige.",
+          "amount": 1,
+          "duration": 0.4,
+          "maxHp": 80
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_GAVET_S4",
+          "name": "Prestige 4",
+          "textureName": "character_gabet",
+          "spriteName": "P4_Gabet_i01.png",
+          "suffix": "★★★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Complete stages to gain Prestige.",
+          "amount": 2,
+          "duration": 0.6,
+          "maxHp": 120
+        },
+        {
+          "price": 0,
+          "skinType": "SKIN_GAVET_S5",
+          "name": "Prestige 5",
+          "textureName": "character_gabet",
+          "spriteName": "P5_Gabet_i01.png",
+          "suffix": "★★★★★",
+          "walkingFrames": 4,
+          "unlocked": false,
+          "hidden": false,
+          "description": "Gets more projectiles every 20 levels (max+4). Starts with a Level 5 Spellbinder.",
+          "amount": 2,
+          "duration": 0.6,
+          "maxHp": 120,
+          "exAccessories": [
+            "DURATION",
+            "DURATION",
+            "DURATION",
+            "DURATION",
+            "DURATION"
+          ]
         }
       ],
       "isBought": false,
@@ -636,6 +817,381 @@
     {
       "amount": 1,
       "level": 80
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "SPIRITOSO": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "MS_LUNAR1_MIGHT",
+      "charName": "Spiritoso",
+      "surname": "",
+      "spriteName": "spiritB_i01.png",
+      "textureName": "character_spiritoso",
+      "portraitName": "p_spiritoso.png",
+      "walkingFrames": 4,
+      "description": "Randomly spawns a water or lunar weapon every 10 levels (max 5 times). Adept with Mille Bolle Blu and Penshin Fatcha weapons.",
+      "headOffsets": [
+        {
+          "x": 4,
+          "y": -3
+        }
+      ],      
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_spiritoso",
+          "spriteName": "spiritB_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "isBought": false,
+      "noHurt": true,
+      "price":          5000,
+      "completedStages": [],
+      "maxHp":          100,
+      "armor":          0,
+      "regen":          0,
+      "moveSpeed":      1,
+      "power":          1,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         1,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [
+        "MS_LUNAR1_MIGHT","MS_LUNAR1_MIGHT","MS_LUNAR1_MIGHT","MS_LUNAR1_MIGHT","MS_LUNAR1_MIGHT","MS_LUNAR1_MIGHT",
+        "MS_LUNAR3_BIGHT","MS_LUNAR3_BIGHT","MS_LUNAR3_BIGHT","MS_LUNAR3_BIGHT","MS_LUNAR3_BIGHT","MS_LUNAR3_BIGHT",
+        "MS_LUNAR2_SIGHT","MS_LUNAR2_SIGHT","MS_LUNAR2_SIGHT","MS_LUNAR2_SIGHT","MS_LUNAR2_SIGHT","MS_LUNAR2_SIGHT",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {}
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "SPIRITOSA": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "VOID",
+      "charName": "Spiritosa",
+      "surname": "",
+      "spriteName": "spirit_i01.png",
+      "textureName": "character_spiritoso",
+      "portraitName": "p_spiritosa.png",
+      "walkingFrames": 4,
+      "description": "Overheal +16: Gains a follower (max 30). Gains a hidden Mille Bolle Blu every 8 levels (max 6). Adept with Mille Bolle Blu and Penshin Fatcha weapons.",
+      "headOffsets": [
+        {
+          "x": 4,
+          "y": -3
+        }
+      ],
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "textureName": "character_spiritoso",
+          "spriteName": "spirit_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "isBought": false,
+      "noHurt": true,
+      "price":          500,
+      "completedStages": [],
+      "maxHp":          100,
+      "armor":          0,
+      "regen":          1,
+      "moveSpeed":      1.5,
+      "power":          1,
+      "cooldown":       1,
+      "area":           1,
+      "speed":          1,
+      "duration":       1,
+      "amount":         0,
+      "luck":           1,
+      "growth":         1,
+      "greed":          1,
+      "curse":          1,
+      "magnet":         0,
+      "revivals":       0,
+      "rerolls":        0,
+      "skips":          0,
+      "banish":         0,
+      "showcase": [
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "COOLDOWN",
+        "DURATION",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {},
+      "hiddenWeapons": [
+        "BUBBLES"
+      ]
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
+    },
+    {
+      "level": 21,
+      "growth": -1
+    },
+    {
+      "level": 41,
+      "growth": -1
+    }
+  ],
+  "GEKKOJIN": [
+    {
+      "hidden": true,
+      "level": 1,
+      "startingWeapon": "MS_LUNAR1_MIGHT",
+      "charName": "Gekkojin",
+      "surname": "",
+      "charSelFrame": "Icon_gekkojin.png",
+      "charSelTexture": "character_gekkojin",
+      "spriteName": "gekkojin_i01.png",
+      "textureName": "character_gekkojin",
+      "portraitName": "p_gekkojin.png",
+      "bgm": "BGM_Moonlight",
+      "walkingFrames": 4,
+      "description": "Recovers HP instead of receiving damage, but disappears after reaching the current Time Limit. Starts with Pearl Magatama. Starts with 1 extra passive weapon slot.",
+      "bodyOffset": {
+        "x": 20,
+        "y": 37
+      },
+      "headOffsets": [
+        {
+          "x": 3,
+          "y": 1
+        }
+      ],
+      "skins": [
+        {
+          "skinType": "DEFAULT",
+          "name": "Default",
+          "charSelFrame": "Icon_gekkojin.png",
+          "charSelTexture": "character_gekkojin",
+          "textureName": "character_gekkojin",
+          "spriteName": "gekkojin_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 1
+            }
+          ],
+          "spriteAnims": {
+            "idleAnimation": {
+              "textureName": "character_gekkojin",
+              "spriteName": "gekkojin_i01.png",
+              "framesNumber": 4,
+              "frameRate": 8
+            }
+          },
+          "exAccessories": [
+            "PEARLMAGATAMA"
+          ]
+        },
+        {
+          "startingWeapon": "MS_LUNAR2_SIGHT",
+          "skinType": "SKIN_GEKKOJIN_2LS",
+          "name": "SKIN_GEKKOJIN_2LS",
+          "charSelFrame": "Icon_gekkojin.png",
+          "charSelTexture": "character_gekkojin",
+          "textureName": "character_gekkojin",
+          "spriteName": "gekkojin_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 1
+            }
+          ],
+          "spriteAnims": {
+            "idleAnimation": {
+              "textureName": "character_gekkojin",
+              "spriteName": "gekkojin_i01.png",
+              "framesNumber": 4,
+              "frameRate": 8
+            }
+          },
+          "exAccessories": [
+            "PEARLMAGATAMA"
+          ]
+        },
+        {
+          "startingWeapon": "MS_LUNAR3_BIGHT",
+          "skinType": "SKIN_GEKKOJIN_2LB",
+          "name": "SKIN_GEKKOJIN_2LB",
+          "charSelFrame": "Icon_gekkojin.png",
+          "charSelTexture": "character_gekkojin",
+          "textureName": "character_gekkojin",
+          "spriteName": "gekkojin_i01.png",
+          "walkingFrames": 4,
+          "unlocked": true,
+          "headOffsets": [
+            {
+              "x": 3,
+              "y": 1
+            }
+          ],
+          "spriteAnims": {
+            "idleAnimation": {
+              "textureName": "character_gekkojin",
+              "spriteName": "gekkojin_i01.png",
+              "framesNumber": 4,
+              "frameRate": 8
+            }
+          },
+          "exAccessories": [
+            "PEARLMAGATAMA"
+          ]
+        }
+      ],
+      "currentSkin": "DEFAULT",
+      "isBought": false,
+      "noHurt": true,
+      "price": 50000,
+      "completedStages": [],
+      "maxHp":        100,
+      "armor":        0,
+      "regen":        0,
+      "moveSpeed":    1,
+      "power":        1.5,
+      "cooldown":     1,
+      "area":         1,
+      "speed":        1,
+      "duration":     1,
+      "amount":       0,
+      "luck":         2.0,
+      "growth":       1,
+      "greed":        1,
+      "curse":        1,
+      "magnet":       0,
+      "revivals":     0,
+      "rerolls":      0,
+      "skips":        0,
+      "banish":       10,
+      "showcase": [
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR1_MIGHT",
+        "MS_LUNAR1_MIGHT",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "POWER",
+        "AMOUNT",
+        "AMOUNT",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA",
+        "AREA"
+      ],
+      "onEveryLevelUp": {},
+      "hiddenWeapons":[
+        "BUBBLE_SUPPORT"
+      ],
+      "exAccessories": [
+        "PEARLMAGATAMA"
+      ]
+    },
+    {
+      "growth": 1,
+      "level": 20
+    },
+    {
+      "growth": 1,
+      "level": 40
     },
     {
       "level": 21,

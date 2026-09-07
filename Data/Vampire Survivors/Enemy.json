@@ -22,6 +22,7 @@
         "FOREST",
         "TOWER"
       ],
+      "bIndex": 1,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -93,6 +94,7 @@
       "bPlaces": [
         "TOWER"
       ],
+      "bIndex": 2,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -121,6 +123,7 @@
         "TOWER",
         "BONEZONE"
       ],
+      "bIndex": 3,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -148,6 +151,7 @@
       "bPlaces": [
         "TOWER"
       ],
+      "bIndex": 4,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -245,6 +249,7 @@
       "bPlaces": [
         "TOWER"
       ],
+      "bIndex": 5,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -280,6 +285,7 @@
         "TOWER",
         "BONEZONE"
       ],
+      "bIndex": 6,
       "bInclude": true,
       "bHighlight": true,
       "bVariants": [
@@ -385,6 +391,7 @@
       "bPlaces": [
         "FOREST"
       ],
+      "bIndex": 7,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -414,6 +421,7 @@
       "bPlaces": [
         "FOREST"
       ],
+      "bIndex": 8,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -466,6 +474,7 @@
       "bPlaces": [
         "FOREST"
       ],
+      "bIndex": 9,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -491,6 +500,7 @@
       "frameNames": [
         "Skelegem_0.png"
       ],
+      "bIndex": 10,
       "bInclude": true,
       "bHighlight": false
     }
@@ -520,6 +530,7 @@
         "LIBRARY",
         "TOWER"
       ],
+      "bIndex": 11,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -593,6 +604,7 @@
       "bPlaces": [
         "FOREST"
       ],
+      "bIndex": 12,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -620,6 +632,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
+      "bIndex": 13,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -650,6 +663,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
+      "bIndex": 14,
       "bInclude": true,
       "bHighlight": true,
       "bVariants": []
@@ -678,6 +692,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
+      "bIndex": 15,
       "bInclude": true,
       "bHighlight": true,
       "bVariants": []
@@ -750,6 +765,7 @@
       "bPlaces": [
         "TOWER"
       ],
+      "bIndex": 16,
       "bInclude": true,
       "bHighlight": true,
       "bVariants": [
@@ -907,7 +923,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
+      "bIndex": 17,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -968,7 +984,7 @@
         "TOWER",
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 18,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -1013,7 +1029,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
+      "bIndex": 19,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1051,7 +1067,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
+      "bIndex": 20,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1170,7 +1186,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
+      "bIndex": 21,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1204,7 +1220,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
+      "bIndex": 22,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -1260,7 +1276,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 23,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1285,7 +1301,6 @@
       "frameNames": [
         "Harpy2_0.png"
       ],
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": []
@@ -1407,7 +1422,7 @@
         "LIBRARY",
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 24,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -1458,7 +1473,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 25,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1487,7 +1502,7 @@
         "LIBRARY",
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 26,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -1557,7 +1572,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 27,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1627,7 +1642,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 28,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1656,7 +1671,7 @@
         "LIBRARY",
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 29,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1685,7 +1700,7 @@
         "LIBRARY",
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 30,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1713,7 +1728,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 31,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1741,7 +1756,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 32,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1769,7 +1784,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
+      "bIndex": 33,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1802,7 +1817,7 @@
       "bPlaces": [
         "FOREST"
       ],
-      "bIndex": 0,
+      "bIndex": 34,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1830,7 +1845,7 @@
       "bPlaces": [
         "FOREST"
       ],
-      "bIndex": 0,
+      "bIndex": 35,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1858,7 +1873,7 @@
       "bPlaces": [
         "LIBRARY"
       ],
-      "bIndex": 0,
+      "bIndex": 36,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -1886,7 +1901,7 @@
       "bPlaces": [
         "FOREST"
       ],
-      "bIndex": 0,
+      "bIndex": 37,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -2186,7 +2201,7 @@
       "idleFrameCount": 8,
       "textureName": "enemies_Universal",
       "frameNames": [
-        "XLDrowner_0_0.png"
+        "XLDrowner_0.png"
       ]
     }
   ],
@@ -2493,7 +2508,7 @@
         "WAREHOUSE",
         "SINKING"
       ],
-      "bIndex": 0,
+      "bIndex": 38,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -2546,7 +2561,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 39,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -2576,7 +2591,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 40,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -2623,7 +2638,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 41,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -2653,7 +2668,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 42,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -2728,7 +2743,7 @@
         "WAREHOUSE",
         "SINKING"
       ],
-      "bIndex": 0,
+      "bIndex": 43,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -2799,7 +2814,7 @@
         "WAREHOUSE",
         "BONEZONE"
       ],
-      "bIndex": 0,
+      "bIndex": 44,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -2833,7 +2848,7 @@
         "WAREHOUSE",
         "BONEZONE"
       ],
-      "bIndex": 0,
+      "bIndex": 45,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -2973,7 +2988,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 46,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3001,7 +3016,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 47,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3144,7 +3159,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 48,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3193,7 +3208,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 49,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3221,7 +3236,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 50,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3300,6 +3315,7 @@
         "TOWER",
         "BONEZONE"
       ],
+      "bIndex": 51,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -3370,7 +3386,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 52,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -3401,7 +3417,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 53,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3430,7 +3446,7 @@
         "WAREHOUSE",
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 54,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3478,7 +3494,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 55,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -3527,7 +3543,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 56,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -3577,7 +3593,7 @@
       "bPlaces": [
         "WAREHOUSE"
       ],
-      "bIndex": 0,
+      "bIndex": 57,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3907,7 +3923,7 @@
       "bPlaces": [
         "TOWER"
       ],
-      "bIndex": 0,
+      "bIndex": 58,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -3964,7 +3980,6 @@
       "bPlaces": [
         "MOLISE"
       ],
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [
@@ -4146,7 +4161,7 @@
       "bPlaces": [
         "MOLISE"
       ],
-      "bIndex": 0,
+      "bIndex": 59,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -4177,7 +4192,7 @@
       "bPlaces": [
         "MOLISE"
       ],
-      "bIndex": 0,
+      "bIndex": 60,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -4228,7 +4243,7 @@
       "bPlaces": [
         "MOLISE"
       ],
-      "bIndex": 0,
+      "bIndex": 61,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -4321,7 +4336,7 @@
       "bPlaces": [
         "MOLISE"
       ],
-      "bIndex": 0,
+      "bIndex": 62,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -4351,7 +4366,7 @@
       "bPlaces": [
         "MOLISE"
       ],
-      "bIndex": 0,
+      "bIndex": 63,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -4453,7 +4468,7 @@
       "bPlaces": [
         "WHITEOUT"
       ],
-      "bIndex": 0,
+      "bIndex": 64,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -4567,6 +4582,7 @@
       "bPlaces": [
         "WHITEOUT"
       ],
+      "bIndex": 65,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -4666,7 +4682,7 @@
       "bPlaces": [
         "WHITEOUT"
       ],
-      "bIndex": 0,
+      "bIndex": 66,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -4790,7 +4806,7 @@
       "bPlaces": [
         "WHITEOUT"
       ],
-      "bIndex": 0,
+      "bIndex": 67,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -4860,7 +4876,7 @@
       "bPlaces": [
         "WHITEOUT"
       ],
-      "bIndex": 0,
+      "bIndex": 68,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -4992,6 +5008,7 @@
         "RetroBot_0.png"
       ],
       "killedAmount": 0,
+      "bIndex": 69,
       "bInclude": true,
       "bVariants": [
         "EX_TDCCC",
@@ -5023,6 +5040,7 @@
         "BountyHunter_0.png"
       ],
       "killedAmount": 0,
+      "bIndex": 70,
       "bInclude": true,
       "bPlaces": [
         "LABORRATORY"
@@ -5074,6 +5092,7 @@
       "frameNames": [
         "Apex_0.png"
       ],
+      "bIndex": 71,
       "bInclude": true,
       "bPlaces": [
         "LABORRATORY"
@@ -5103,6 +5122,7 @@
         "Gyoruntin_0.png"
       ],
       "passThroughWalls": true,
+      "bIndex": 72,
       "bInclude": true,
       "bPlaces": [
         "LABORRATORY"
@@ -6210,6 +6230,7 @@
       "frameNames": [
         "chk_0.png"
       ],
+      "bIndex": 73,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6280,6 +6301,7 @@
       "frameNames": [
         "coc_0.png"
       ],
+      "bIndex": 74,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6350,6 +6372,7 @@
       "frameNames": [
         "ick_0.png"
       ],
+      "bIndex": 75,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6420,6 +6443,7 @@
       "frameNames": [
         "gg_0.png"
       ],
+      "bIndex": 76,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6497,6 +6521,7 @@
       "frameNames": [
         "Roast_0.png"
       ],
+      "bIndex": 77,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6607,6 +6632,7 @@
         "offsetY": 0,
         "offsetX": 0
       },
+      "bIndex": 78,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6654,6 +6680,7 @@
       "frameNames": [
         "abraxasCrown_0.png"
       ],
+      "bIndex": 79,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6701,6 +6728,7 @@
       "frameNames": [
         "abraxasHalo_0.png"
       ],
+      "bIndex": 80,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -6913,6 +6941,7 @@
       "bPlaces": [
         "SPAZIE"
       ],
+      "bIndex": 81,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -7091,6 +7120,7 @@
       "bPlaces": [
         "SPAZIE"
       ],
+      "bIndex": 82,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -7149,6 +7179,7 @@
       "bPlaces": [
         "SPAZIE"
       ],
+      "bIndex": 83,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -7224,6 +7255,7 @@
       "bPlaces": [
         "SPAZIE"
       ],
+      "bIndex": 84,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -7316,6 +7348,7 @@
       "bPlaces": [
         "SPAZIE"
       ],
+      "bIndex": 85,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -7366,6 +7399,7 @@
       "bPlaces": [
         "SPAZIE"
       ],
+      "bIndex": 86,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -7698,6 +7732,7 @@
       "bPlaces": [
         "SPAZIE"
       ],
+      "bIndex": 87,
       "bInclude": true,
       "bIncludeColorVariants": true,
       "bHighlight": false,
@@ -7733,7 +7768,7 @@
       "bPlaces": [
         "BONEZONE"
       ],
-      "bIndex": 0,
+      "bIndex": 88,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -7785,6 +7820,7 @@
         "LIBRARY",
         "BONEZONE"
       ],
+      "bIndex": 89,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -7814,7 +7850,7 @@
       "bPlaces": [
         "BONEZONE"
       ],
-      "bIndex": 0,
+      "bIndex": 90,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -7880,7 +7916,7 @@
       "bPlaces": [
         "BONEZONE"
       ],
-      "bIndex": 0,
+      "bIndex": 91,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -7939,6 +7975,7 @@
       "bPlaces": [
         "BONEZONE"
       ],
+      "bIndex": 92,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -7998,6 +8035,7 @@
       "bPlaces": [
         "BONEZONE"
       ],
+      "bIndex": 93,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8036,7 +8074,7 @@
         "TOWER",
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 94,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8075,7 +8113,7 @@
         "TOWER",
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 95,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8114,7 +8152,7 @@
         "TOWER",
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 96,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8153,7 +8191,7 @@
         "TOWER",
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 97,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8189,7 +8227,7 @@
       "bPlaces": [
         "SINKING"
       ],
-      "bIndex": 0,
+      "bIndex": 98,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -8222,6 +8260,7 @@
       "bPlaces": [
         "SINKING"
       ],
+      "bIndex": 99,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -8291,6 +8330,7 @@
       "bPlaces": [
         "SINKING"
       ],
+      "bIndex": 100,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8318,6 +8358,7 @@
       "bPlaces": [
         "SINKING"
       ],
+      "bIndex": 101,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8413,7 +8454,7 @@
       "bPlaces": [
         "SINKING"
       ],
-      "bIndex": 0,
+      "bIndex": 102,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8590,7 +8631,7 @@
       "bPlaces": [
         "SINKING"
       ],
-      "bIndex": 0,
+      "bIndex": 103,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -8958,7 +8999,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 104,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9245,6 +9286,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
+      "bIndex": 105,
       "bInclude": true,
       "bHighlight": false
     }
@@ -9354,7 +9396,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 106,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -9424,7 +9466,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 107,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9452,7 +9494,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 108,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9499,7 +9541,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 109,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9546,7 +9588,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 110,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9575,7 +9617,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 111,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9603,7 +9645,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 112,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9631,7 +9673,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 113,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9659,7 +9701,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 114,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9688,7 +9730,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 115,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9735,7 +9777,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 116,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9764,7 +9806,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
-      "bIndex": 0,
+      "bIndex": 117,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -9934,6 +9976,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
+      "bIndex": 118,
       "bInclude": true,
       "bHighlight": true,
       "bVariants": [
@@ -10105,6 +10148,7 @@
         "BONEZONE"
       ],
       "bHighlight": false,
+      "bIndex": 119,
       "bInclude": true,
       "bVariants": [
         "BOSS_XLDEATH2"
@@ -10171,6 +10215,7 @@
         "LIBRARY",
         "CHAPEL"
       ],
+      "bIndex": 120,
       "bInclude": true,
       "bHighlight": false
     }
@@ -10207,6 +10252,7 @@
         "CHAPEL",
         "BONEZONE"
       ],
+      "bIndex": 121,
       "bInclude": true,
       "bHighlight": false
     }
@@ -10245,6 +10291,7 @@
         "BONEZONE"
       ],
       "bHighlight": false,
+      "bIndex": 122,
       "bInclude": true,
       "bVariants": [
         "BOSS_DROWNER_RASH"
@@ -10290,6 +10337,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
+      "bIndex": 123,
       "bInclude": true,
       "bHighlight": false
     }
@@ -10330,6 +10378,7 @@
         "BOSS_XLBLINDER",
         "FS_BLINDER_PATROL"
       ],
+      "bIndex": 124,
       "bInclude": true,
       "bHighlight": false
     }
@@ -10365,6 +10414,7 @@
       "bPlaces": [
         "CHAPEL"
       ],
+      "bIndex": 125,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -10429,7 +10479,7 @@
       "bPlaces": [
         "RASH"
       ],
-      "bIndex": 0,
+      "bIndex": 126,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -10468,7 +10518,7 @@
       "bPlaces": [
         "RASH"
       ],
-      "bIndex": 0,
+      "bIndex": 127,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -10507,7 +10557,7 @@
       "bPlaces": [
         "RASH"
       ],
-      "bIndex": 0,
+      "bIndex": 128,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -10571,7 +10621,7 @@
       "bPlaces": [
         "RASH"
       ],
-      "bIndex": 0,
+      "bIndex": 129,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -10906,7 +10956,7 @@
       "bPlaces": [
         "GREENACRES"
       ],
-      "bIndex": 0,
+      "bIndex": 130,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -11171,7 +11221,7 @@
       "bName": "The Directer",
       "bDesc": "Boundless gifts. Sights beyond reality. Glimpses of the unthinkable.",
       "bPlaces": [],
-      "bIndex": 0,
+      "bIndex": 131,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -11749,7 +11799,7 @@
       "bPlaces": [
         "ASTRALSTAIR"
       ],
-      "bIndex": 0,
+      "bIndex": 132,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -11906,7 +11956,7 @@
       "bPlaces": [
         "ASTRALSTAIR"
       ],
-      "bIndex": 0,
+      "bIndex": 133,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -11943,7 +11993,7 @@
       "bPlaces": [
         "ASTRALSTAIR"
       ],
-      "bIndex": 0,
+      "bIndex": 134,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -12015,7 +12065,7 @@
       "bPlaces": [
         "ASTRALSTAIR"
       ],
-      "bIndex": 0,
+      "bIndex": 135,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12049,7 +12099,7 @@
       "bPlaces": [
         "ASTRALSTAIR"
       ],
-      "bIndex": 0,
+      "bIndex": 136,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12133,7 +12183,7 @@
       "bPlaces": [
         "ASTRALSTAIR"
       ],
-      "bIndex": 0,
+      "bIndex": 137,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -12170,7 +12220,7 @@
       "bPlaces": [
         "ASTRALSTAIR"
       ],
-      "bIndex": 0,
+      "bIndex": 138,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -12348,6 +12398,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 139,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12524,6 +12575,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 140,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12640,6 +12692,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 141,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12702,6 +12755,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 142,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -12736,6 +12790,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 143,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12772,6 +12827,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 144,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12934,6 +12990,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 145,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -12997,6 +13054,7 @@
       "bPlaces": [
         "DEVILROOM"
       ],
+      "bIndex": 146,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -13028,6 +13086,7 @@
       "bPlaces": [
         "EX_WESTWOODS"
       ],
+      "bIndex": 147,
       "bInclude": true,
       "bHighlight": false
     }
@@ -13059,7 +13118,7 @@
       "bPlaces": [
         "EX_WESTWOODS"
       ],
-      "bIndex": 0,
+      "bIndex": 148,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -13112,6 +13171,7 @@
       "textureName": "enemies2025",
       "idleFrameCount": 4,
       "killedAmount": 0,
+      "bIndex": 149,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -13255,6 +13315,7 @@
       "frameNames": [
         "XLMantisGold_0.png"
       ],
+      "bIndex": 150,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13340,6 +13401,7 @@
       ],
       "bName": "Knight of Spades",
       "bDesc": "",
+      "bIndex": 151,
       "bInclude": true,
       "bHighlight": false,
       "colliderOverride": {
@@ -13488,6 +13550,7 @@
       "frameNames": [
         "Barm_0.png"
       ],
+      "bIndex": 152,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13513,6 +13576,7 @@
         "CasinUgul_D_0.png",
         "CasinUgul_H_0.png"
       ],
+      "bIndex": 153,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -13542,6 +13606,7 @@
       "frameNames": [
         "ClubbieP_0.png"
       ],
+      "bIndex": 154,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13572,6 +13637,7 @@
       "frameNames": [
         "Dandybrine_0.png"
       ],
+      "bIndex": 155,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13605,6 +13671,7 @@
       "frameNames": [
         "DiamonP_0.png"
       ],
+      "bIndex": 156,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13629,6 +13696,7 @@
       "frameNames": [
         "Gambergar_0.png"
       ],
+      "bIndex": 157,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13653,6 +13721,7 @@
       "frameNames": [
         "GamblinY_0.png"
       ],
+      "bIndex": 158,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -13705,6 +13774,7 @@
       "frameNames": [
         "JastorP_0.png"
       ],
+      "bIndex": 159,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13758,6 +13828,7 @@
       "frameNames": [
         "RouletteMush1_0.png"
       ],
+      "bIndex": 160,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13782,6 +13853,7 @@
       "frameNames": [
         "Toll2O_0.png"
       ],
+      "bIndex": 161,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13814,6 +13886,7 @@
       "frameNames": [
         "Valentin_0.png"
       ],
+      "bIndex": 162,
       "bInclude": true,
       "bHighlight": false,
       "bPlaces": [
@@ -13844,6 +13917,7 @@
       "frameNames": [
         "Squiller2_0.png"
       ],
+      "bIndex": 163,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -14028,6 +14102,7 @@
       "idleFrameCount": 4,
       "textureName": "enemies2025",
       "killedAmount": 0,
+      "bIndex": 164,
       "bInclude": true,
       "bHighlight": false,
       "bVariant": [
@@ -14057,7 +14132,6 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Charging Enemy",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14086,6 +14160,7 @@
       "bPlaces": [
         "EX_MAZERELLA"
       ],
+      "bIndex": 165,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -14114,6 +14189,7 @@
       "bPlaces": [
         "EX_MAZERELLA"
       ],
+      "bIndex": 166,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -14142,6 +14218,7 @@
       "bPlaces": [
         "EX_MAZERELLA"
       ],
+      "bIndex": 167,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -14218,6 +14295,7 @@
       "bPlaces": [
         "EX_MAZERELLA"
       ],
+      "bIndex": 168,
       "bInclude": true,
       "bHighlight": false,
       "colliderOverride": {
@@ -14249,7 +14327,6 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Red Torino",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14280,7 +14357,6 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Red Joya Tauro",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14311,7 +14387,6 @@
       "idleFrameCount": 5,
       "killedAmount": 0,
       "bName": "Red Meanataur",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14339,7 +14414,6 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Yellow Torino",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14367,7 +14441,6 @@
       "idleFrameCount": 4,
       "killedAmount": 0,
       "bName": "Yellow Joya Tauro",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14395,7 +14468,6 @@
       "idleFrameCount": 5,
       "killedAmount": 0,
       "bName": "Yellow Meanataur",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14427,7 +14499,6 @@
       "idleFrameCount": 5,
       "killedAmount": 0,
       "bName": "Tarantella",
-      "bIndex": 0,
       "bInclude": false,
       "bHighlight": false,
       "bVariants": [],
@@ -14507,6 +14578,7 @@
       "bName": ".",
       "bDesc": ".",
       "bPlaces": ["FOREST", "MOLISE"],
+      "bIndex": 169,
       "bInclude": true,
       "bHighlight": true,
       "bVariants": [
@@ -14578,6 +14650,7 @@
       "bName": ".",
       "bDesc": ".",
       "bPlaces": ["FOREST", "MOLISE"],
+      "bIndex": 170,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": ["EX_BATDRAKELET_CIRCLING"]
@@ -14909,6 +14982,7 @@
       "bPlaces": [
         "EX_LYCAEUM"
       ],
+      "bIndex": 171,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -14938,6 +15012,7 @@
       "bPlaces": [
         "EX_LYCAEUM"
       ],
+      "bIndex": 172,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -14967,6 +15042,7 @@
       "bPlaces": [
         "EX_LYCAEUM"
       ],
+      "bIndex": 173,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -14995,6 +15071,7 @@
       "bPlaces": [
         "EX_LYCAEUM"
       ],
+      "bIndex": 174,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": [
@@ -15149,6 +15226,7 @@
         "offsetY": 0,
         "offsetX": 4
       },
+      "bIndex": 175,
       "bInclude": true,
       "bName": "Deep Horse",
       "bDesc": "",
@@ -15203,6 +15281,7 @@
         "EX_Olm_0.png"
       ],
       "killedAmount": 0,
+      "bIndex": 176,
       "bInclude": true,
       "bName": "Deep Olm",
       "bDesc": "",
@@ -15232,6 +15311,7 @@
         "EX_Ahuizotl_0.png"
       ],
       "killedAmount": 0,
+      "bIndex": 177,
       "bInclude": true,
       "bName": "Deep Ahuizotl",
       "bDesc": "",
@@ -15266,6 +15346,7 @@
       "bPlaces": [
         "EX_LYCAEUM"
       ],
+      "bIndex": 178,
       "bInclude": true,
       "bHighlight": false,
       "bVariants": []
@@ -15316,6 +15397,7 @@
       "frameNames": [
         "EX_PinkJellyfish_0.png"
       ],
+      "bIndex": 179,
       "bInclude": true,
       "bName": "Deep Pink",
       "bDesc": "",
@@ -15415,6 +15497,7 @@
       "frameNames": [
         "EX_SeaSphynx_0.png"
       ],
+      "bIndex": 180,
       "bInclude": true,
       "bName": "Deep Seasphynx",
       "bDesc": "",

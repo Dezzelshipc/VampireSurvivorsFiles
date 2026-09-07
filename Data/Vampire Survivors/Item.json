@@ -1176,6 +1176,25 @@
     "contentGroup": "MOONSPELL",
     "showAboveAll": true
   },
+  "RELIC_MAP_BMN": {
+    "name": "Bloodmoon Map",
+    "description": "Displays a detailed map when in Bloodmoon",
+    "tips": "",
+    "achievementTips": "Bloodmoon Map.",
+    "collectionFrame": "frameB_red.png",
+    "texture": "tps_lossless_icons",
+    "frameName": "-08-Map_BMN.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "inTreasures": false,
+    "hidden": false,
+    "value": 0,
+    "isRelic": true,
+    "requiresDLC": "Bloodmoon",
+    "contentGroup": "BLOODMOON",
+    "showAboveAll": true
+  },
   "RELIC_MAP_FS": {
     "name": "Lake Foscari Map",
     "description": "Displays a detailed map when in Lake Foscari.",
@@ -1705,5 +1724,19 @@
     "hidden": true,
     "value": 0,
     "showAboveAll": true
+  },
+  "BMN_BLOODGEM": {
+    "name": "Blood Gem",
+    "description": ".",
+    "tips": "",
+    "texture": "vfx",
+    "frameName": "Blood3.png",
+    "pickedupAmount": 0,
+    "rarity": 0,
+    "unlocksAt": 1000000,
+    "hidden": true,
+    "inTreasures": false,
+    "value": 1,
+    "contentGroup": "EXTRA"
   }
 }

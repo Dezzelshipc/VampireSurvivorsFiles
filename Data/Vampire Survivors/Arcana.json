@@ -88,6 +88,9 @@
 	  "TRIASSO3",
       "SILVERWIND",
       "SILVERWIND2",
+      "SILVERWIND3",
+      "BMN000_SCARLET1",
+      "BMN001_SCARLET2",
       "PRISMATICMISS",
       "PRISMATICMISS2",
       "FB_LASER",
@@ -133,6 +136,10 @@
       "SANTAJAVELIN",
       "SANTAJAVELIN2",
       "CART2",
+      "BMN000_SCARLET1",
+      "BMN001_SCARLET2",
+      "BMN008_BLACKEN1",
+      "BMN009_BLACKEN2",
       "TP_ELEC1",
       "TP_ELEC2",
       "TP_ACID1",
@@ -190,6 +197,7 @@
       "REGEN",
       "SILVERWIND",
       "SILVERWIND2",
+      "SILVERWIND3",
       "C1_MEDICAL1",
       "C1_MEDICAL2"
     ],
@@ -457,6 +465,10 @@
       "SANTAJAVELIN",
       "SANTAJAVELIN2",
       "NIGHTSWORD2",
+      "BMN004_AXE1",
+      "BMN005_AXE2",
+      "DESCENT_MISERY",
+      "SHIMMERING_SANDS",
       "SWORD",
       "SWORD2",
       "FLASHARROW",
@@ -549,6 +561,10 @@
       "EX_AMMO2",
       "MISSPELL",
       "MISSPELL2",
+      "BMN010_FIRE1_FALL" ,
+      "BMN011_FIRE2_BALL",
+      "BMN012_FIRE3_WALL",
+      "BMN013_FIRE4",
       "PRISMATICMISS",
       "PRISMATICMISS2",
       "FB_FULLAUTO",
@@ -904,29 +920,6 @@
     "major": true,
     "contentGroup":"EXTRA"
   },
-  /*
-  "39": {
-    "arcanaType": 39,
-    "name": "XVII - Sign of Blood",
-    "description": "Defanged enemies fight for you. Defeated enemies might turn into allies. When Reapers spawn, they are under your control.",
-    "weapons": [
-      "CURSE",
-      "SCYTHE",
-      "EX_GEMCIRCLE",
-      "EX_GHOSTSPIRAL",
-      "FLOOD",
-      "EX_WINGCIRCLE"
-    ],
-    "items": [
-      "RELIC_ANTIDOTE"
-    ],
-    "texture": "randomazzo",
-    "frameName": "39.png",
-    "enabled": false,
-    "unlocked": false,
-    "major": true,
-    "contentGroup":"EXTRA"
-  },*/
   "40": {
     "arcanaType": 40,
     "name": "XVIII - Victorian Horror",
@@ -964,6 +957,10 @@
       "TRIASSO3",
       "MISSPELL",
       "MISSPELL2",
+      "BMN010_FIRE1_FALL" ,
+      "BMN011_FIRE2_BALL",
+      "BMN012_FIRE3_WALL",
+      "BMN013_FIRE4",
       "FB_FIREWALL",
       "FB_FIREARM",
       "TP_ALCHEMYWHIP1",
@@ -999,7 +996,8 @@
     "enabled": false,
     "unlocked": false,
     "major": true,
-    "contentGroup":"EXTRA"
+    "contentGroup":"EXTRA",
+    "canSeeTags": ["FIRE"]
   },
   "43": {
     "arcanaType": 43,
@@ -1013,6 +1011,7 @@
       "REGEN",
       "SILVERWIND",
       "SILVERWIND2",
+      "SILVERWIND3",
       "NIGHTSWORD2",
       "C1_MEDICAL1",
       "C1_MEDICAL2",

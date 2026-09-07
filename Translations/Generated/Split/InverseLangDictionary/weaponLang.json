@@ -2313,7 +2313,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Tonno Subito (Solo)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 Responsive Prayers",
+      "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
+      "tips": "Ignores: Speed."
+    },
+    "HEAVENSROAD": {
+      "name": "Road to Heaven",
+      "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Scarlet Needle",
+      "tips": "Ignores: Duration.",
+      "description": "Damaging needles pin the nearest enemy in place."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Cardinal Rain",
+      "tips": "Requires Max: Pummarola.",
+      "description": "Evolved Scarlet Needle. Endless rain can hit in any location."
+    },
+    "BMN002_DUST1": {
+      "name": "Incineration",
+      "tips": null,
+      "description": "Erases enemies in the faced direction."
+    },
+    "BMN003_DUST2": {
+      "name": "Dust to Dust",
+      "tips": "Requires Max: Candelabrador.",
+      "description": "Evolved Incineration. Infernal ashes blow back, erasing enemies."
+    },
+    "BMN004_AXE1": {
+      "name": "Ashella",
+      "tips": "Best with: Amount.",
+      "description": "Can deal critical hits."
+    },
+    "BMN005_AXE2": {
+      "name": "Bloodlust",
+      "tips": "Requires Max: Duplicator.",
+      "description": "Evolved Ashella. Critical damage affected by Amount."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Screams from the Void",
+      "tips": null,
+      "description": "Unleash screams with high knockback. Retaliates."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Forbidden Siren",
+      "tips": "Requires Max: Attractorb.",
+      "description": "Evolved Screams from the Void. Pulls and defangs enemies."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Blacken Firmament",
+      "tips": "Ignores: Speed.",
+      "description": "Erases a random enemy, occasionally leaving a damaging tear in reality."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Damnation",
+      "tips": "Requires Max: Torrona's Box.",
+      "description": "Evolved Blacken Firmament. Draws enemies to ruin."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "FireFall",
+      "tips": "Ignores: Area, Duration, Speed.",
+      "description": "Strikes at the furthest enemy. Damage further multiplied by Might."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "FireBall",
+      "tips": "Ignores: Amount.",
+      "description": "Generates an expanding damaging zone. Damage multiplied by Area."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "FireWall",
+      "tips": "Ignores: Area, Speed.",
+      "description": "Generates a directional damaging zone. Greatly affected by Amount."
+    },
+    "BMN013_FIRE4": {
+      "name": "FireStall",
+      "tips": null,
+      "description": "Union of Firefall, FireWall, and Fireball.\nGrows stronger after every singularity."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "LunarMight",
+      "tips": "Ignores: Area, Speed, Amount.",
+      "description": "Generates a damaging zone that slightly increases Might."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "LunarSight",
+      "tips": "Ignores: Area, Speed, Amount.",
+      "description": "Generates damaging zones that occasionally follow the character."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "LunarBight",
+      "tips": "Ignores: Area, Speed, Amount.",
+      "description": "Has a chance to slow down enemies hit."
+    },
+    "MS_LUNAR4": {
+      "name": "LunarFlight",
+      "tips": null,
+      "description": "Union of LunarMight, LunarSight, and LunarBight. Become one with the lunar glyphs."
+    },
+    "SILVERWIND3": {
+      "name": "Argent Flow",
+      "tips": "Requires Max: Torrona's Box.",
+      "description": "Evolved Festive Winds. Shreds enemies defenses."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Pearl magatama",
+      "tips": null,
+      "description": "Gift. Will provide bonus Recovery and Revivals in exchange for Greed. Fully heals.",
+      "customDescValue": "Fully heals."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Velvet Dodecahedron",
+      "tips": null,
+      "description": "Gift. Will provide bonus Growth and Greed in exchange for MaxHealth. Triggers LastBreath, OnRevival, and HPCritical skills.",
+      "customDescValue": "Triggers LastBreath, OnRevival, and HPCritical skills."
+    },
+    "DESCENT_MISERY": {
+      "name": "Descent Into Misery",
+      "tips": "Ignores: Speed, Duration.",
+      "description": "Cursed item. Amount affects Damage. Critical hits or changing movement direction ensure extra attacks.",
+      "customDescValue": "Adds %0 attack to combo."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Shimmering Sands",
+      "tips": null,
+      "description": "Union of Kyra-Stones and Descent Into Misery. Quicksand drags enemies down to hell.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Water Veil",
+      "tips": "Obtained only as a hidden weapon through Survarots.",
+      "description": "Grows stronger every time the owner gains 4 levels (max 7 times)."
+    },
+    "": null
   },
   "fr": {
     "WHIP": {
@@ -4629,7 +4764,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Thonno Subito (Solo)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 prières interactives",
+      "description": "En fait, il n'y en a que 16... Les dégâts sont affectés par la différence entre la malédiction et la chance.",
+      "tips": "Ignore : vitesse."
+    },
+    "HEAVENSROAD": {
+      "name": "Le chemin vers le paradis",
+      "description": "L'union de 108 Bocce et 108 prières interactives. À activer 108 fois pour entrevoir un aperçu de l'éveil spirituel.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Aiguille écarlate",
+      "tips": "Ignore : durée.",
+      "description": "Des aiguilles destructrices immobilisent l'ennemi le plus proche."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Pluie cardinale",
+      "tips": "Requiert : Pummarola au max.",
+      "description": "Évolution de l'Aiguille écarlate. Une pluie infinie peut s'abattre à n'importe quel endroit."
+    },
+    "BMN002_DUST1": {
+      "name": "Incinération",
+      "tips": null,
+      "description": "Efface les ennemis dans la direction à laquelle vous faites face."
+    },
+    "BMN003_DUST2": {
+      "name": "Effacendre",
+      "tips": "Requiert : Candélabrador au max.",
+      "description": "Évolution d'Incinération. Projette des cendres infernales qui effacent les ennemis."
+    },
+    "BMN004_AXE1": {
+      "name": "Hachelette",
+      "tips": "Efficace avec : quantité.",
+      "description": "Peut infliger des dégâts critiques."
+    },
+    "BMN005_AXE2": {
+      "name": "Soif de sang",
+      "tips": "Requiert : Duplicateur au max.",
+      "description": "Évolution de la Hachelette. La quantité affecte les dégâts critiques."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Cris du néant",
+      "tips": null,
+      "description": "Libère des cris qui repoussent fortement les ennemis. Riposte."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Sirène interdite",
+      "tips": "Requiert : Orbe d'attraction au max.",
+      "description": "Évolution des Cris du néant. Attire et affaiblit les ennemis."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Firmament noirci",
+      "tips": "Ignore : vitesse.",
+      "description": "Efface un ennemi aléatoire, laissant parfois une déchirure destructrice dans la réalité."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Damnation",
+      "tips": "Requiert : Boîte de Torrona au max.",
+      "description": "Évolution du Firmament noirci. Conduit les ennemis à leur perte."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "Pluie de feu",
+      "tips": "Ignore : portée, durée, vitesse.",
+      "description": "Frappe l'ennemi le plus éloigné. Les dégâts sont multipliés par la puissance."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "Boule de feu",
+      "tips": "Ignore : quantité.",
+      "description": "Génère une zone de dégâts qui s'étend. Les dégâts sont multipliés par la portée."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "Mur de feu",
+      "tips": "Ignore : portée, vitesse.",
+      "description": "Génère une zone de dégâts directionnelle, lourdement affectée par la quantité."
+    },
+    "BMN013_FIRE4": {
+      "name": "Fournaise",
+      "tips": null,
+      "description": "Fusion de Pluie de feu, Mur de feu et Boule de feu.\nGagne en puissance après chaque singularité."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "Lunissance",
+      "tips": "Ignore : portée, vitesse, quantité.",
+      "description": "Génère une zone de dégâts qui augmente légèrement la puissance."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "Luniser",
+      "tips": "Ignore : portée, vitesse, quantité.",
+      "description": "Génère des zones de dégâts qui suivent parfois le personnage."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "Lunicyle",
+      "tips": "Ignore : portée, vitesse, quantité.",
+      "description": "Peut ralentir les ennemis touchés."
+    },
+    "MS_LUNAR4": {
+      "name": "Lunipotence",
+      "tips": null,
+      "description": "Fusion de Lunissance, Luniser et Lunicycle. Ne faites plus qu'un avec les glyphes lunaires."
+    },
+    "SILVERWIND3": {
+      "name": "Flux argenté",
+      "tips": "Requiert : Boîte de Torrona au max.",
+      "description": "Évolution de Vents festifs. Réduit en bouillie les défenses ennemies."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Perle Magatama",
+      "tips": null,
+      "description": "Cadeau. Octroie un bonus de guérison et de résurrection en échange de votre avidité. Guérit entièrement.",
+      "customDescValue": "Guérit entièrement."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Dodécaèdre de velours",
+      "tips": null,
+      "description": "Cadeau. Octroie un bonus d'expertise et d'avidité en échange de votre santé max. Déclenche les compétences Dernier souffle, Résurgence, et Résilience.",
+      "customDescValue": "Déclenche les compétences Dernier souffle, Résurgence, et Résilience."
+    },
+    "DESCENT_MISERY": {
+      "name": "Descente aux enfers",
+      "tips": "Ignore : vitesse, durée.",
+      "description": "Objet maudit. La quantité affecte les dégâts. Les coups critiques ou les changements de direction assurent des attaques supplémentaires.",
+      "customDescValue": "Combo : + %0 attaque(s)."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Sables chatoyants",
+      "tips": null,
+      "description": "La fusion des Kyrapierres et de Descente aux enfers. Les sables mouvants aspirent les ennemis jusqu'aux enfers.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Voile aquatique",
+      "tips": "S'obtient uniquement en tant qu'arme cachée via les Survarots.",
+      "description": "Devient plus puissant à chaque fois que son propriétaire gagne quatre niveaux (7 fois max)."
+    },
+    "": null
   },
   "it": {
     "WHIP": {
@@ -6945,7 +7215,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Tonno subito (In solitaria)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 ora pro nobis",
+      "description": "In realtà sono solo 16. I danni sono influenzati dallo scarto tra Maledizione e Fortuna.",
+      "tips": "Ignora: Velocità."
+    },
+    "HEAVENSROAD": {
+      "name": "Strada per il paradiso",
+      "description": "Unione di 108 bocce e 108 ora pro nobis. Attivala 108 volte per uno scorcio d'illuminazione.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Ago scarlatto",
+      "tips": "Ignora: Durata.",
+      "description": "Aghi offensivi inchiodano sul posto il nemico più vicino."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Pioggia porporata",
+      "tips": "Necessita del massimo di: Pummarola.",
+      "description": "Evoluzione di Ago scarlatto. Una pioggia infinita che può colpire in ogni dove."
+    },
+    "BMN002_DUST1": {
+      "name": "Incenerimento",
+      "tips": null,
+      "description": "Annienta i nemici nella direzione verso cui si è rivolti."
+    },
+    "BMN003_DUST2": {
+      "name": "Polvere alla polvere",
+      "tips": "Necessita del massimo di: Candelabrador.",
+      "description": "Evoluzione di Incenerimento. Soffia una cenere infernale che annienta i nemici."
+    },
+    "BMN004_AXE1": {
+      "name": "Ashella",
+      "tips": "Ideale con: Quantità.",
+      "description": "Può infliggere colpi critici."
+    },
+    "BMN005_AXE2": {
+      "name": "Sete di sangue",
+      "tips": "Necessita del massimo di: Duplicatore.",
+      "description": "Evoluzione di Ashella. La Quantità influenza il Danno critico."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Grida dal nulla",
+      "tips": null,
+      "description": "Scatena grida con elevato potere di respingimento. Contrattacca."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Sirena proibita",
+      "tips": "Necessita del massimo di: Magnetosfera.",
+      "description": "Evoluzione di Grida dal nulla. Attrae i nemici e li sdenta."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Firmamento oscuro",
+      "tips": "Ignora: Velocità.",
+      "description": "Elimina un nemico casuale, talvolta causando uno squarcio offensivo nel tessuto della realtà."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Dannazione",
+      "tips": "Necessita del massimo di: Vaso di Torrona.",
+      "description": "Evoluzione di Firmamento oscuro. Attira i nemici verso la disfatta."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "Balla da fuoco",
+      "tips": "Ignora: Area, Durata, Velocità.",
+      "description": "Colpisce il nemico più distante. I danni vengono moltiplicati dalla Potenza."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "Palla di fuoco",
+      "tips": "Ignora: Quantità.",
+      "description": "Genera un'area di danno crescente. I danni vengono moltiplicati dall'Area."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "Polla di fuoco",
+      "tips": "Ignora: Area, Velocità.",
+      "description": "Genera un'area di danno direzionale. Influenzata notevolmente da Quantità."
+    },
+    "BMN013_FIRE4": {
+      "name": "Bolla di fuoco",
+      "tips": null,
+      "description": "Unione di Balla da Fuoco, Polla di fuoco e Palla di fuoco.\nDiventa più potente dopo ogni singolarità."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "Potere lunare",
+      "tips": "Ignora: Area, Velocità, Quantità.",
+      "description": "Genera un'area di danno che aumenta leggermente la Potenza."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "Volere lunare",
+      "tips": "Ignora: Area, Velocità, Quantità.",
+      "description": "Genera aree di danno che seguono occasionalmente il personaggio."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "Podere lunare",
+      "tips": "Ignora: Area, Velocità, Quantità.",
+      "description": "Ha una probabilità di rallentare i colpi nemici."
+    },
+    "MS_LUNAR4": {
+      "name": "Volare lunare",
+      "tips": null,
+      "description": "Unione di Potere lunare, Volere lunare e Podere lunare. Diventa un tutt'uno con i glifi lunari."
+    },
+    "SILVERWIND3": {
+      "name": "Flusso d'argento",
+      "tips": "Necessita del massimo di: Vaso di Torrona.",
+      "description": "Evoluzione di Venti festivi. Elimina le difese dei nemici."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Perla Magatama",
+      "tips": null,
+      "description": "Dono. Fornisce Recupero e Resurrezione bonus in cambio di Avidità. Guarisce completamente.",
+      "customDescValue": "Guarisce completamente."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Dodecaedro di velluto",
+      "tips": null,
+      "description": "Dono. Fornisce Crescita e Avidità bonus in cambio di Salute massima. Scatena Ultima esalazione, Alla resurrezione e PS critici.",
+      "customDescValue": "Scatena le abilità Ultima esalazione, Alla resurrezione e PS critici."
+    },
+    "DESCENT_MISERY": {
+      "name": "Discesa nella miseria",
+      "tips": "Ignora: Velocità, Durata.",
+      "description": "Oggetto maledetto. I danni sono influenzati dalla Quantità. I colpi critici o i cambi di direzione assicurano attacchi aggiuntivi.",
+      "customDescValue": "Aggiunge %0 di attacco alle combo."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Sabbia scintillante",
+      "tips": null,
+      "description": "Unione di Kyra-pietre e Discesa nella miseria. Le sabbie mobili trascinano i nemici all'inferno.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Velo d'acqua",
+      "tips": "Si ottiene solo come arma nascosta grazie ai Survarocchi.",
+      "description": "Diventa più forte ogni volta che il proprietario guadagna 4 livelli (per un massimo di 7 volte)."
+    },
+    "": null
   },
   "de": {
     "WHIP": {
@@ -8638,7 +9043,7 @@
       "description": "Tödliche Griffel"
     },
     "TP_DRACULAHAND": {
-      "name": "Die Hand von Vlad",
+      "name": "Hand von Vlad",
       "tips": null,
       "description": "Blutige Hände"
     },
@@ -9261,7 +9666,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Minithun (Solo)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 Wechselgebete",
+      "description": "Eigentlich nur 16. Der Schaden hängt von der Differenz zwischen Fluch und Glück ab.",
+      "tips": "Ignoriert: Schnelligkeit."
+    },
+    "HEAVENSROAD": {
+      "name": "Weg in den Himmel",
+      "description": "Vereinigung von 108 Bocce und 108 Wechselgebete. Aktiviere ihn 108-mal, um Erleuchtung zu erfahren.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Scharlachnadel",
+      "tips": "Ignoriert: Dauer.",
+      "description": "Verwundende Nadeln halten den nächsten Gegner fest."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Kardinalsregen",
+      "tips": "Max. erforderlich: Pummarola.",
+      "description": "Verbesserte Scharlachnadel. Endloser Regen kann überall treffen."
+    },
+    "BMN002_DUST1": {
+      "name": "Einäscherung",
+      "tips": null,
+      "description": "Löscht Gegner in Blickrichtung aus."
+    },
+    "BMN003_DUST2": {
+      "name": "Staub zu Staub",
+      "tips": "Max. erforderlich: Kandelabrador.",
+      "description": "Verbesserte Einäscherung. Höllenasche wird zurückgeweht und löscht Gegner aus."
+    },
+    "BMN004_AXE1": {
+      "name": "Aschella",
+      "tips": "Am besten mit: Menge.",
+      "description": "Kann kritische Treffer verursachen."
+    },
+    "BMN005_AXE2": {
+      "name": "Blutdurst",
+      "tips": "Max. erforderlich: Verdoppler.",
+      "description": "Verbesserte Aschella. Kritischer Schaden hängt von Menge ab."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Schreie der Leere",
+      "tips": null,
+      "description": "Entfesselte Schreie mit starkem Rückschlag. Vergeltung."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Verbotene Sirene",
+      "tips": "Max. erforderlich: Anziehungskugel.",
+      "description": "Verbesserte Schreie der Leere. Zieht Gegner an und macht sie zahnlos."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Schwarzes Firmament",
+      "tips": "Ignoriert: Schnelligkeit.",
+      "description": "Löscht einen zufälligen Gegner aus und hinterlässt manchmal schädigende Risse in der Realität."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Verdammnis",
+      "tips": "Max. erforderlich: Torronas Kiste",
+      "description": "Verbesserter Schwarzer Himmel. Zieht Gegner ins Verderben."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "FeuerFall",
+      "tips": "Ignoriert: Bereich, Dauer, Schnelligkeit.",
+      "description": "Schlägt den entferntesten Gegner. Der Schaden wird zusätzlich mit Macht multipliziert."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "FeuerBall",
+      "tips": "Ignoriert: Menge.",
+      "description": "Erzeugt ein wachsendes Schadensgebiet. Der Schaden wird mit Bereich multipliziert."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "FeuerWall",
+      "tips": "Ignoriert: Bereich, Schnelligkeit.",
+      "description": "Erzeugt gerichtete Schadenszonen. Stark von Menge beeinflusst."
+    },
+    "BMN013_FIRE4": {
+      "name": "FeuerKnall",
+      "tips": null,
+      "description": "Vereinigung von FeuerFall, FeuerWall und FeuerBall. \nWird mit jeder Singularität stärker."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "MondMacht",
+      "tips": "Ignoriert: Bereich, Schnelligkeit, Menge.",
+      "description": "Erzeugt eine Schadenszone, die Macht leicht erhöht."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "MondWacht",
+      "tips": "Ignoriert: Bereich, Schnelligkeit, Menge.",
+      "description": "Erzeugt Schadenszonen, die dem Charakter manchmal folgen."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "MondSacht",
+      "tips": "Ignoriert: Bereich, Schnelligkeit, Menge.",
+      "description": "Hat eine Chance, getroffene Gegner zu verlangsamen."
+    },
+    "MS_LUNAR4": {
+      "name": "MondPracht",
+      "tips": null,
+      "description": "Vereinigung von MondMacht, MondWacht und MondSacht. Werde eins mit den Mondglyphen."
+    },
+    "SILVERWIND3": {
+      "name": "Silberfluss",
+      "tips": "Max. erforderlich: Torronas Kiste",
+      "description": "Verbesserte Festliche Winde. Bricht gegnerische Verteidigung."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Perlen-Magatama",
+      "tips": null,
+      "description": "Geschenk. Gewährt Bonuserholung und -Wiederbelebungen im Tausch gegen Gier. Heilt vollständig.",
+      "customDescValue": "Heilt vollständig."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Samtenes Dodekaeder",
+      "tips": null,
+      "description": "Geschenk. Gewährt Bonus-Entwicklung und -Gier im Tausch gegen max. LP. Löst Fähigkeiten mit Letzter Atem, Bei Wiederbelebung und Kritische LP aus.",
+      "customDescValue": "Löst Fähigkeiten mit Letzter Atem, Bei Wiederbelebung und Kritische LP aus."
+    },
+    "DESCENT_MISERY": {
+      "name": "Abstieg ins Elend",
+      "tips": "Ignoriert: Schnelligkeit, Dauer.",
+      "description": "Verfluchter Gegenstand. Menge beeinflusst Schaden. Kritische Treffer oder Wechsel der Bewegungsrichtung verursachen Zusatzangriffe.",
+      "customDescValue": "Fügt Kombo %0 Angriff hinzu."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Funkelnder Sand",
+      "tips": null,
+      "description": "Vereinigung von Kyra-Steinen und Abstieg ins Elend. Treibsand zerrt Gegner in die Hölle hinab.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Wasserschleier",
+      "tips": "Nur als versteckte Waffe durch Survarots erhältlich.",
+      "description": "Wird alle 4 Level des Eigentümers stärker (max. 7 Mal)."
+    },
+    "": null
   },
   "es": {
     "WHIP": {
@@ -11577,7 +12117,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Tonno Subito (solo)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 plegarias con respuesta",
+      "description": "En realidad solo son 16. El daño se ve afectado por la diferencia entre la maldición y la suerte.",
+      "tips": "Ignora: velocidad."
+    },
+    "HEAVENSROAD": {
+      "name": "Camino al cielo",
+      "description": "Unión de 108 bocce y 108 plegarias con respuesta. Actívalo 108 veces para llegar a la iluminación.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Aguja escarlata",
+      "tips": "Ignora: duración.",
+      "description": "Agujas que hacen daño e inmovilizan al enemigo más cercano."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Lluvia cardenalicia",
+      "tips": "Requiere: pummarola al máximo.",
+      "description": "Evolución de la aguja escarlata. La lluvia incesante puede golpear en cualquier dirección."
+    },
+    "BMN002_DUST1": {
+      "name": "Incineración",
+      "tips": null,
+      "description": "Elimina a los enemigos en la dirección a la que mires."
+    },
+    "BMN003_DUST2": {
+      "name": "Del polvo al polvo",
+      "tips": "Requiere: candelabrador al máximo.",
+      "description": "Evolución de la incineración. Cenizas infernales que soplan hacia ti y eliminan a los enemigos."
+    },
+    "BMN004_AXE1": {
+      "name": "Hachella",
+      "tips": "Mejor con: cantidad.",
+      "description": "Puede causar golpes críticos."
+    },
+    "BMN005_AXE2": {
+      "name": "Sed de sangre",
+      "tips": "Requiere: duplicador al máximo.",
+      "description": "Evolución de la hachella. El daño crítico se ve afectado por la cantidad."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Gritos del vacío",
+      "tips": null,
+      "description": "Desata gritos con un factor de rechazo alto. Refleja el daño."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Sirena prohibida",
+      "tips": "Requiere: orbe magnético al máximo.",
+      "description": "Evolución de los gritos del vacío. Atrae y descolmilla a los enemigos."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Firmamento mancillado",
+      "tips": "Ignora: velocidad.",
+      "description": "Elimina un enemigo al azar y a veces deja una grieta en la realidad que hace daño."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Perdición",
+      "tips": "Requiere: caja de Torrona al máximo.",
+      "description": "Evolución del firmamento mancillado. Atrae enemigos a la ruina."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "Lluvia de fuego",
+      "tips": "Ignora: área de efecto, duración, velocidad.",
+      "description": "Golpea al enemigo más lejano. El daño se multiplica por el poder."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "Bola de fuego",
+      "tips": "Ignora: cantidad.",
+      "description": "Genera una zona de daño que se expande. El daño se multiplica por el área de efecto."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "Barrera de fuego",
+      "tips": "Ignora: área de efecto, velocidad.",
+      "description": "Genera una zona de daño direccional que se ve afectado enormemente por la cantidad."
+    },
+    "BMN013_FIRE4": {
+      "name": "Órbita de fuego",
+      "tips": null,
+      "description": "Fusión de la lluvia de fuego, la barrera de fuego y la bola de fuego.\nSe hace más fuerte después de cada singularidad."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "Poder lunar",
+      "tips": "Ignora: área de efecto, velocidad, cantidad.",
+      "description": "Genera una zona de daño que también aumenta el poder levemente."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "Visión lunar",
+      "tips": "Ignora: área de efecto, velocidad, cantidad.",
+      "description": "Genera zonas de daño que a veces siguen al personaje."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "Bahía lunar",
+      "tips": "Ignora: área de efecto, velocidad, cantidad.",
+      "description": "Probabilidad de ralentizar a los enemigos golpeados."
+    },
+    "MS_LUNAR4": {
+      "name": "Vuelo lunar",
+      "tips": null,
+      "description": "Fusión del poder lunar, la visión lunar y la bahía lunar. Únete con los glifos lunares."
+    },
+    "SILVERWIND3": {
+      "name": "Flujo plateado",
+      "tips": "Requiere: caja de Torrona al máximo.",
+      "description": "Evolución de los vientos festivos. Derriba las defensas enemigas."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Perla magatama",
+      "tips": null,
+      "description": "Don. Proporcionará una bonificación de recuperación y resurrecciones a cambio de avaricia. Te cura por completo.",
+      "customDescValue": "Te cura por completo."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Dodecaedro de terciopelo",
+      "tips": null,
+      "description": "Don. Proporcionará una bonificación de crecimiento y avaricia a cambio de la salud máxima. Activa las habilidades Último aliento, Al revivir y PS en punto crítico.",
+      "customDescValue": "Activa las habilidades Último aliento, Al revivir y PS en punto crítico."
+    },
+    "DESCENT_MISERY": {
+      "name": "Descenso a la miseria",
+      "tips": "Ignora: velocidad, duración.",
+      "description": "Objeto maldito. El daño se ve afectado por la cantidad. Los golpes críticos o los cambios de dirección aseguran ataques adicionales.",
+      "customDescValue": "Añade %0 de ataque al combo."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Arenas resplandecientes",
+      "tips": null,
+      "description": "Fusión de las gemas de Kyra y la Descenso a la miseria. Las arenas movedizas arrastran a los enemigos hasta el infierno.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Velo acuático",
+      "tips": "Se obtiene solo como arma oculta a través de los supervicanos.",
+      "description": "Se hace más fuerte cada vez que el propietario gana 4 niveles (máx.: 7 veces)."
+    },
+    "": null
   },
   "pt-BR": {
     "WHIP": {
@@ -13893,7 +14568,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Tonno Subito (Solo)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 Preces Responsivas",
+      "description": "Na verdade, são só 16. Dano afetado pela diferença entre Maldição e Sorte.",
+      "tips": "Ignora: Velocidade."
+    },
+    "HEAVENSROAD": {
+      "name": "Caminho ao Paraíso",
+      "description": "União de 108 Bocha e 108 Preces Responsivas. Ative 108 vezes para ter um vislumbre da iluminação.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Agulha Vermelha",
+      "tips": "Ignora: Duração.",
+      "description": "Agulhas que causam dano imobilizam o inimigo mais próximo."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Chuva Cardinal",
+      "tips": "Requer máx. de: Pummarola.",
+      "description": "Evolução da Agulha Vermelha. Uma chuva infinita pode atingir qualquer local."
+    },
+    "BMN002_DUST1": {
+      "name": "Incineração",
+      "tips": null,
+      "description": "Apaga inimigos em frente."
+    },
+    "BMN003_DUST2": {
+      "name": "Pó a Pó",
+      "tips": "Requer máx. de: Candelabrador.",
+      "description": "Evolução de Incineração. Cinzas infernais sopram, apagando inimigos."
+    },
+    "BMN004_AXE1": {
+      "name": "Machela",
+      "tips": "Melhor com: Quantidade.",
+      "description": "Pode causar acertos críticos."
+    },
+    "BMN005_AXE2": {
+      "name": "Sede Sanguinária",
+      "tips": "Requer máx. de: Duplicador.",
+      "description": "Evolução da Machela. Quantidade afeta o dano crítico."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Gritos do Vazio",
+      "tips": null,
+      "description": "Libera gritos derrubadores. Retalia."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Sirene Proibida",
+      "tips": "Requer máx. de: Orbímã.",
+      "description": "Evolução de Gritos do Vazio. Puxa e enfraquece inimigos."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Firmamento Negro",
+      "tips": "Ignora: Velocidade.",
+      "description": "Apaga um inimigo aleatório, às vezes causando um rasgo na realidade."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Danação",
+      "tips": "Requer máx. de: Caixa de Torrona.",
+      "description": "Evolução do Firmamento Negro. Puxa inimigos para a destruição."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "FireFall",
+      "tips": "Ignora: Área, Duração, Velocidade.",
+      "description": "Golpeia o inimigo mais próximo. O dano é multiplicado pelo Poder."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "FireBall",
+      "tips": "Ignora: Quantidade.",
+      "description": "Gera uma zona de dano crescente. O dano é multiplicado pela Área."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "FireWall",
+      "tips": "Ignora: Área, Velocidade.",
+      "description": "Gera uma zona de dano direcional, muito afetado pela Quantidade."
+    },
+    "BMN013_FIRE4": {
+      "name": "FireStall",
+      "tips": null,
+      "description": "União de FireFall, FireWall, e FireBall.\nFica mais forte a cada singularidade."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "Grandeza Lunar",
+      "tips": "Ignora: Área, Velocidade, Quantidade.",
+      "description": "Gera uma zona de dano que aumenta o Poder."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "Ciclo Lunar",
+      "tips": "Ignora: Área, Velocidade, Quantidade.",
+      "description": "Às vezes, gera zonas que causam dano e seguem o personagem."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "Satélite Lunar",
+      "tips": "Ignora: Área, Velocidade, Quantidade.",
+      "description": "Tem a chance de causar lentidão nos ataques de inimigos."
+    },
+    "MS_LUNAR4": {
+      "name": "Fuga Lunar",
+      "tips": null,
+      "description": "União de Grandeza Lunar, Satélite Lunar e Ciclo Lunar. Sintonize-se com os símbolos lunares."
+    },
+    "SILVERWIND3": {
+      "name": "Fluxo Argento",
+      "tips": "Requer máx. de: Caixa de Torrona.",
+      "description": "Evolução de Ventos Festivos. Destrói defesas inimigas."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Pérola Magatama",
+      "tips": null,
+      "description": "Presente. Fornece Recuperação e Ressurreições de bônus em troca de Ganância. Cura completamente.",
+      "customDescValue": "Cura completamente."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Dodecaedro de Veludo",
+      "tips": null,
+      "description": "Presente. Fornece Crescimento e Ganância extra em troca de Vida Máx. Ativa habilidades de Último Suspiro, Ao Ressuscitar e PV/Crítico.",
+      "customDescValue": "Ativa habilidades de Último Suspiro, Ao Ressuscitar e PV/Crítico."
+    },
+    "DESCENT_MISERY": {
+      "name": "Decadência",
+      "tips": "Ignora: Velocidade, Duração.",
+      "description": "Item amaldiçoado. Quantidade afeta o dano. Acertos críticos ou mudanças de direção de movimento garantem ataques extras.",
+      "customDescValue": "Adiciona um ataque %0 ao combo."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Areias Cintilantes",
+      "tips": null,
+      "description": "União de Kyrarrochas e Decadência. A areia movediça arrasta os inimigos até o inferno.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Véu d'Água",
+      "tips": "Obtido como arma oculta por meio dos Surtarôs.",
+      "description": "Fica mais forte sempre que se sobe 4 níveis (máx. de 7 vezes)."
+    },
+    "": null
   },
   "pl": {
     "WHIP": {
@@ -16209,7 +17019,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Tonno Subito (solo)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 wspólnych modlitw",
+      "description": "Tak naprawdę jest ich 16. Różnica między Klątwą a Szczęściem wpływa na obrażenia.",
+      "tips": "Ignoruje: Prędkość."
+    },
+    "HEAVENSROAD": {
+      "name": "Droga do nieba",
+      "description": "Połączenie 108 Bocce i 108 wspólnych modlitw. Aktywuj je 108 razy, by na moment zaznać oświecenia.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Szkarłatna igła",
+      "tips": "Ignoruje: Czas trwania.",
+      "description": "Niszczycielskie igły przyszpilają najbliższego wroga."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Kardynalny deszcz",
+      "tips": "Wymagany maks. poziom: Pummarola.",
+      "description": "Ulepszona Szkarłatna igła. Niekończący się deszcz może rozpętać się w dowolnym miejscu."
+    },
+    "BMN002_DUST1": {
+      "name": "Kremacja",
+      "tips": null,
+      "description": "Eliminuje wrogów po stronie, w którą skierowana jest postać."
+    },
+    "BMN003_DUST2": {
+      "name": "Z prochu w proch",
+      "tips": "Wymagany maks. poziom: Kandelabrador.",
+      "description": "Ulepszona Kremacja. Piekielne prochy wracają z wiatrem, eliminując wrogów."
+    },
+    "BMN004_AXE1": {
+      "name": "Siekierada",
+      "tips": "Działa najlepiej z: Ilość.",
+      "description": "Może zadać trafienia krytyczne."
+    },
+    "BMN005_AXE2": {
+      "name": "Żądza krwi",
+      "tips": "Wymagany maks. poziom: Duplikator.",
+      "description": "Ulepszona Siekierada. Obrażenia krytyczne zależne od Ilości."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Krzyki z otchłani",
+      "tips": null,
+      "description": "Uwolnij krzyki z mocnym odrzutem. Biorą odwet."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Zakazana syrena",
+      "tips": "Wymagany maks. poziom: Przyciągacz.",
+      "description": "Ulepszone Krzyki z otchłani. Przyciąga wrogów i pozbawia ich kłów."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Czarne sklepienie",
+      "tips": "Ignoruje: Prędkość.",
+      "description": "Eliminuje losowego wroga, okazjonalnie tworząc niszczycielskie rozdarcie w rzeczywistości."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Potępienie",
+      "tips": "Wymagany maks. poziom: Puszka Torrony.",
+      "description": "Ulepszone Czarne sklepienie. Przyciąga wrogów ku ich zagładzie."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "Wodospad ognia",
+      "tips": "Ignoruje: Obszar, Czas trwania, Prędkość.",
+      "description": "Uderza w najdalszego wroga. Obrażenia zwielokrotnione przez Moc."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "Kula ognia",
+      "tips": "Ignoruje: Ilość.",
+      "description": "Wytwarza powiększające się strefy obrażeń. Obrażenia zwielokrotnione przez Obszar."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "Ściana ognia",
+      "tips": "Ignoruje: Obszar, Prędkość.",
+      "description": "Wytwarza kierunkową strefę obrażeń. W dużym stopniu zależy od Ilości."
+    },
+    "BMN013_FIRE4": {
+      "name": "Fala ognia",
+      "tips": null,
+      "description": "Połączenie Wodospadu ognia, Ściany ognia i Kuli ogni.\nStaje się silniejsza po każdej osobliwości."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "Moc księżyca",
+      "tips": "Ignoruje: Obszar, Prędkość, Ilość.",
+      "description": "Wytwarza strefę obrażeń, która nieco zwiększa Moc."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "Oko księżyca",
+      "tips": "Ignoruje: Obszar, Prędkość, Ilość.",
+      "description": "Wytwarza strefy obrażeń, które okazjonalnie podążają za postacią."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "Orbita księżyca",
+      "tips": "Ignoruje: Obszar, Prędkość, Ilość.",
+      "description": "Ma szansę spowolnić ataki przeciwników."
+    },
+    "MS_LUNAR4": {
+      "name": "Wschód księżyca",
+      "tips": null,
+      "description": "Połączenie Mocy księżyca, Oka księżyca i Orbity księżyca. Staje się jednością z księżycowymi glifami."
+    },
+    "SILVERWIND3": {
+      "name": "Srebrny strumień",
+      "tips": "Wymagany maks. poziom: Puszka Torrony.",
+      "description": "Ulepszone Uroczyste wiatry. Rozbijają obronę wroga."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Perłowa magatama",
+      "tips": null,
+      "description": "Podarunek. Przyznaje premię do Odzyskiwania i Wskrzeszeń w zamian za Chciwość. Przywraca całe zdrowie.",
+      "customDescValue": "Przywraca całe zdrowie."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Aksamitny dwunastościan",
+      "tips": null,
+      "description": "Podarunek. Przyznaje premię do Rozwoju i Chciwości w zamian za Maks. zdrowie. Aktywuje umiejętność Ostatniego tchnienia, Wskrzeszenia i Krytycznego poziomu zdrowia.",
+      "customDescValue": "Aktywuje umiejętność Ostatniego tchnienia, Wskrzeszenia i Krytycznego poziomu zdrowia."
+    },
+    "DESCENT_MISERY": {
+      "name": "Otchłań rozpaczy",
+      "tips": "Ignoruje: Prędkość, Czas trwania.",
+      "description": "Przeklęty przedmiot. Ilość obniża obrażenia. Trafienia krytyczne i zmiana kierunku ruchu zapewniają dodatkowe ataki.",
+      "customDescValue": "Dodaje atak %0 do combo."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Lśniące piaski",
+      "tips": null,
+      "description": "Połączenie Kyrakamieni i Otchłani rozpaczy. Ruchome piaski wciągają wrogów do piekła.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Wodny welon",
+      "tips": "Do zdobycia jedynie jako ukryta broń poprzez karty Survarota.",
+      "description": "Staje się silniejszy po każdym zdobyciu 4 poziomów przez właściciela (maks. 7 razy)."
+    },
+    "": null
   },
   "ru": {
     "WHIP": {
@@ -18525,7 +19470,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Тунцо субито (соло)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 настойчивых молитв",
+      "description": "На самом деле их всего 16. На урон влияет разница между проклятием и удачей.",
+      "tips": "Игнорирует: скорость."
+    },
+    "HEAVENSROAD": {
+      "name": "Путь в небеса",
+      "description": "Единение 108 Бочче и 108 настойчивых молитв. Активируйте 108 раз, чтобы узреть просветление.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Алая игла",
+      "tips": "Игнорирует: продолжительность.",
+      "description": "Разящие иглы обездвиживают ближайшего врага."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Пунцовый дождь",
+      "tips": "Требуется макс.: «Бычье сердце».",
+      "description": "Результат эволюции «Алой иглы». Непрекращающиеся дожди могут обрушиться на любую точку."
+    },
+    "BMN002_DUST1": {
+      "name": "Всесожжение",
+      "tips": null,
+      "description": "Уничтожает врагов в направлении взгляда."
+    },
+    "BMN003_DUST2": {
+      "name": "Пыль к пыли",
+      "tips": "Требуется макс.: «Канделябрадор».",
+      "description": "Результат эволюции «Всесожжения». Адский пепел летит по ветру, уничтожая врагов."
+    },
+    "BMN004_AXE1": {
+      "name": "Пепелла",
+      "tips": "Для лучшего эффекта требуется: боезапас.",
+      "description": "Может наносить критические удары."
+    },
+    "BMN005_AXE2": {
+      "name": "Жажда крови",
+      "tips": "Требуется макс.: «Дупликатор».",
+      "description": "Результат эволюции «Пепеллы». Критический урон зависит от боезапаса."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Вопли Бездны",
+      "tips": null,
+      "description": "Испускает крики, вызывая сильный отбрасывающий эффект. Наносит ответный удар."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Запретная сирена",
+      "tips": "Требуется макс.: «Магнитосфера».",
+      "description": "Результат эволюции «Воплей Бездны». Притягивает и обезвреживает врагов."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Затмение небесного свода",
+      "tips": "Игнорирует: скорость.",
+      "description": "Уничтожает случайного врага, иногда оставляя за собой пагубный разрыв реальности."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Проклятие",
+      "tips": "Требуется макс.: «Шкатулка Торроны».",
+      "description": "Результат эволюции «Затмения небесного свода». Ведёт врагов к погибели."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "Огнечар",
+      "tips": "Игнорирует: область, продолжительность, скорость.",
+      "description": "Наносит удар по самому дальнему врагу. Урон дополнительно умножается на силу."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "Огнешар",
+      "tips": "Игнорирует: боезапас.",
+      "description": "Создаёт расширяющуюся зону поражения. Урон умножается на область."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "Огнедар",
+      "tips": "Игнорирует: область, скорость.",
+      "description": "Создаёт направленную зону поражения. В значительной мере зависит от боезапаса."
+    },
+    "BMN013_FIRE4": {
+      "name": "Огнежар",
+      "tips": null,
+      "description": "Результат объединения «Огнечара», «Огнедара» и «Огнешара».\nКрепнет после каждой сингулярности."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "Кровь Луны",
+      "tips": "Игнорирует: область, скорость, боезапас.",
+      "description": "Создаёт зону поражения, которая немного увеличивает силу."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "Новь Луны",
+      "tips": "Игнорирует: область, скорость, боезапас.",
+      "description": "Создаёт зоны поражения, которые иногда следуют за персонажем."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "Бровь Луны",
+      "tips": "Игнорирует: область, скорость, боезапас.",
+      "description": "Имеет шанс замедлить поражённых врагов."
+    },
+    "MS_LUNAR4": {
+      "name": "Любовь Луны",
+      "tips": null,
+      "description": "Результат объединения «Крови Луны», «Нови Луны» и «Брови Луны». Объединяется с лунными знаками."
+    },
+    "SILVERWIND3": {
+      "name": "Серебристый поток.",
+      "tips": "Требуется макс.: «Шкатулка Торроны».",
+      "description": "Результат эволюции «Праздничного ветра». Разрушает вражескую оборону."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Жемчужная магатама",
+      "tips": null,
+      "description": "Подарок. Обеспечивает бонусы к регенерации и оживлению в обмен на жадность. Полностью исцеляет.",
+      "customDescValue": "Полностью исцеляет."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Бархатный додекаэдр",
+      "tips": null,
+      "description": "Подарок. Обеспечивает бонусы к развитию и жадности в обмен на макс. здоровье. Активирует триггеры «Последний вздох», «При оживлении» и «Крит. уровень здоровья».",
+      "customDescValue": "Активирует навыки с триггером «Последний вздох», «При оживлении» и «Крит. уровень здоровья»."
+    },
+    "DESCENT_MISERY": {
+      "name": "Обнищание",
+      "tips": "Игнорирует: скорость, продолжительность.",
+      "description": "Проклятый предмет. Боезапас влияет на урон. Критические удары или изменение направления движения приводят к проведению дополнительных атак.",
+      "customDescValue": "Добавляет %0 атаки к комбо."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Мерцающие пески",
+      "tips": null,
+      "description": "Результат объединения «Киракамней» и «Обнищания». Зыбучие пески затягивают врагов в ад.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Водяная завеса",
+      "tips": "Получить можно только в качестве скрытого оружия с помощью сурваротов.",
+      "description": "Усиливается каждый раз, когда владелец получает 4 уровня (макс. 7 раз)."
+    },
+    "": null
   },
   "tr": {
     "WHIP": {
@@ -20841,7 +21921,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Tonno Subito (Solo)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 Eşlik Duası",
+      "description": "Aslında sadece 16. Hasar, Lanet ve Şans arasındaki farktan etkilenir.",
+      "tips": "Yok sayar: Hız."
+    },
+    "HEAVENSROAD": {
+      "name": "Cennete Giden Yol",
+      "description": "108 Bocce ve 108 Eşlik Duası'nın birleşimi. 108 kez etkinleştirerek aydınlanmaya ulaş.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Kızıl İğne",
+      "tips": "Yok sayar: Tesir Süresi",
+      "description": "Hasar veren iğneler, en yakındaki düşmanı olduğu yere mıhlar."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Kardinal Yağmuru",
+      "tips": "Maks Gerektirir: Pummarola.",
+      "description": "Evrimleşmiş Kızıl İğne. Kesintisiz yağmur her yerden isabet edebilir."
+    },
+    "BMN002_DUST1": {
+      "name": "Kül Edici",
+      "tips": null,
+      "description": "Gidilen yöndeki düşmanları ortadan kaldırır."
+    },
+    "BMN003_DUST2": {
+      "name": "Toprak Toprağa",
+      "tips": "Maks Gerektirir: Şamdan.",
+      "description": "Evrimleşmiş Kül Edici. Cehennem külleri geriye savrularak düşmanları ortadan kaldırır."
+    },
+    "BMN004_AXE1": {
+      "name": "Külhan",
+      "tips": "İyi gider: Miktar.",
+      "description": "Kritik vuruşlar yapabilir."
+    },
+    "BMN005_AXE2": {
+      "name": "Kana Susamış",
+      "tips": "Maks Gerektirir: Çoğaltıcı",
+      "description": "Evrimleşmiş Külhan. Kritik hasar, Miktar'dan etkilenir."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Gaipten Çığlıklar",
+      "tips": null,
+      "description": "Geri itme gücü yüksek çığlıklar atar. Misilleme yapar."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Yasak Siren",
+      "tips": "Maks Gerektirir: Çekici",
+      "description": "Evrimleşmiş Gaipten Çığlıklar. Düşmanları çekerek zararsızlaştırır."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Gök Karartan",
+      "tips": "Yok sayar: Hız",
+      "description": "Rastgele bir düşmanı ortadan kaldırır ve bazen gerçeklikte hasar veren bir yırtık bırakır."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Tanrının Cezası",
+      "tips": "Maks Gerektirir: Torrona'nın Kutusu.",
+      "description": "Evrimleşmiş Gök Karartan. Düşmanları çekerek yok eder."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "AteşDüşüren",
+      "tips": "Yok sayar: Alan, Tesir Süresi, Hız",
+      "description": "En uzaktaki düşmana saldırır. Hasar, Kuvvet ile tekrar katlanır."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "AteşTopu",
+      "tips": "Yok sayar: Miktar",
+      "description": "Genişleyerek hasar veren bir alan oluşturur. Hasar, Alan ile katlanır."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "AteşDuvarı",
+      "tips": "Yok sayar: Alan, Hız",
+      "description": "Belli bir yönde hasar veren bir alan oluşturur. Miktar'dan büyük ölçüde etkilenir."
+    },
+    "BMN013_FIRE4": {
+      "name": "AteşDurduran",
+      "tips": null,
+      "description": "AteşDüşüren, AteşDuvarı ve AteşTopu'nun birleşimi. Her tekillikten sonra daha da güçlenir."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "AyKuvveti",
+      "tips": "Yok sayar: Alan, Hız, Miktar",
+      "description": "Kuvvet'i biraz artıran hasar veren bir alan oluşturur."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "AyRasatı",
+      "tips": "Yok sayar: Alan, Hız, Miktar",
+      "description": "Bazen karakteri takip eden hasar veren alanlar oluşturur."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "AyHalatı",
+      "tips": "Yok sayar: Alan, Hız, Miktar",
+      "description": "İsabet alan düşmanları yavaşlatma şansı vardır."
+    },
+    "MS_LUNAR4": {
+      "name": "AySeferi",
+      "tips": null,
+      "description": "AyKuvveti, AyRasatı ve AyHalatı'nın birleşimi. Ay glifleri ile tek vücut olur."
+    },
+    "SILVERWIND3": {
+      "name": "Gümüş Cereyan",
+      "tips": "Maks Gerektirir: Torrona'nın Kutusu",
+      "description": "Evrimleşmiş Festival Rüzgârları. Düşman savunmasını paramparça eder."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Magatama İncisi",
+      "tips": null,
+      "description": "Hediye. Açgözlülük karşılığında bonus İyileşme ve Canlanma sağlar. Tamamen iyileştirir.",
+      "customDescValue": "Tamamen iyileştirir."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Kadife On İki Yüzlü.",
+      "tips": null,
+      "description": "Hediye. Maks Sağlık karşılığında bonus Büyüme ve Açgözlülük sağlar. Son Nefes, Canlanma Vakti ve Kritik HP yeteneklerini tetikler.",
+      "customDescValue": "Son Nefes, Canlanma Vakti ve Kritik HP yeteneklerini tetikler."
+    },
+    "DESCENT_MISERY": {
+      "name": "Sefilleşme",
+      "tips": "Yok sayar: Hız, Tesir Süresi",
+      "description": "Lanetli eşya. Miktar, Hasar'ı etkiler. Kritik vuruş yapmak veya hareket yönünü değiştirmek ekstra saldırıya yol açar.",
+      "customDescValue": "Kombolara %0 saldırı ekler."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Parlayan Kumlar",
+      "tips": null,
+      "description": "Kyra-Taşları ve Sefilleşme'nin birleşimi. Akarkum, düşmanları yutarak cehenneme yollar.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Su Perdesi",
+      "tips": "Sadece Survarotlarla elde edilebilen gizli bir silahtır.",
+      "description": "Sahibi her 4 seviye yükseldikçe güçlenir (maks 7 kez)."
+    },
+    "": null
   },
   "zh-CN": {
     "WHIP": {
@@ -23157,7 +24372,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "极速吞拿（单人）"
-    }
+    },
+    "PRAYERS": {
+      "name": "108回应式祈祷",
+      "description": "其实只有16次而已，造成的伤害取决于诅咒和运气的差值。",
+      "tips": "无关：速度。"
+    },
+    "HEAVENSROAD": {
+      "name": "天堂之路",
+      "description": "108地滚球玉与108回应式祈祷的组合。激活108次可一瞥超越世俗的真知。",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "猩红刺针",
+      "tips": "无关：持续时间。",
+      "description": "破坏性刺针将距离最近的敌人定在原地。"
+    },
+    "BMN001_SCARLET2": {
+      "name": "赤红落雨",
+      "tips": "需要：愈伤番茄（最高级）。",
+      "description": "进化后的猩红刺针。连绵不断的雨可能击中任何位置。"
+    },
+    "BMN002_DUST1": {
+      "name": "焚化",
+      "tips": null,
+      "description": "清除面朝方向的敌人。"
+    },
+    "BMN003_DUST2": {
+      "name": "焚烬",
+      "tips": "需要：烛台（最高级）。",
+      "description": "进化后的焚化。炼狱余烬再次扬起，清除敌人。"
+    },
+    "BMN004_AXE1": {
+      "name": "灰斧",
+      "tips": "最佳搭配：发射数量。",
+      "description": "可以造成暴击。"
+    },
+    "BMN005_AXE2": {
+      "name": "血斧",
+      "tips": "需要：双鸾宝镯（最高级）。",
+      "description": "进化后的灰斧。暴击伤害受发射数量影响。"
+    },
+    "BMN006_SCREAM1": {
+      "name": "虚空尖啸",
+      "tips": null,
+      "description": "释放击退效果强大的尖啸。反伤。"
+    },
+    "BMN007_SCREAM2": {
+      "name": "禁忌幽鸣",
+      "tips": "需要：念力法球（最高级）。",
+      "description": "进化后的虚空尖啸。可拉扯和去齿敌人。"
+    },
+    "BMN008_BLACKEN1": {
+      "name": "晦暗苍穹",
+      "tips": "无关：速度。",
+      "description": "清除一个随机敌人，偶尔会在现实中留下一道伤害裂口。"
+    },
+    "BMN009_BLACKEN2": {
+      "name": "湮灭诅咒",
+      "tips": "需要：托罗娜的魔盒（最高级）。",
+      "description": "进化后的晦暗苍穹。会将敌人引向毁灭。"
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "火落",
+      "tips": "无关：攻击范围、持续时间、速度。",
+      "description": "攻击最远的敌人，伤害可进一步根据力量翻倍。"
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "火球",
+      "tips": "无关：发射数量。",
+      "description": "生成一处不断扩大的伤害区域，伤害根据攻击范围翻倍。"
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "火墙",
+      "tips": "无关：攻击范围、速度。",
+      "description": "生成具有方向的伤害区域。受发射数量显著影响。"
+    },
+    "BMN013_FIRE4": {
+      "name": "火摊",
+      "tips": null,
+      "description": "火落、火墙和火球的组合。\n每一次爆发点过后会变得更强。"
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "月盘",
+      "tips": "无关：攻击范围、速度、发射数量。",
+      "description": "生成会略微增加力量的伤害区域。"
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "月相",
+      "tips": "无关：攻击范围、速度、发射数量。",
+      "description": "生成偶尔会跟随角色的伤害区域。"
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "月弧",
+      "tips": "无关：攻击范围、速度、发射数量。",
+      "description": "有一定几率减缓被击中敌人的速度。"
+    },
+    "MS_LUNAR4": {
+      "name": "月阵",
+      "tips": null,
+      "description": "月盘、月相和月弧的组合。与月之刻印合而为一。"
+    },
+    "SILVERWIND3": {
+      "name": "银流",
+      "tips": "需要：托罗娜的魔盒（最高级）。",
+      "description": "进化后的激荡。可粉碎敌人的防御。"
+    },
+    "PEARLMAGATAMA": {
+      "name": "珍珠勾玉",
+      "tips": null,
+      "description": "礼物。以贪欲属性换取额外的恢复和复活机会。回满生命值。",
+      "customDescValue": "回满生命值。"
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "丝绒十二面体",
+      "tips": null,
+      "description": "礼物。以生命上限属性换取额外的成长和贪欲。触发最后一息/复活/濒死时技能。",
+      "customDescValue": "触发最后一息/复活/濒死时技能。"
+    },
+    "DESCENT_MISERY": {
+      "name": "堕苦",
+      "tips": "无关：速度、持续时间。",
+      "description": "诅咒物品。伤害受发射数量影响。暴击或改变移动方向时必定发动额外攻击。",
+      "customDescValue": "连击攻击+%0。"
+    },
+    "SHIMMERING_SANDS": {
+      "name": "粼粼沙粒",
+      "tips": null,
+      "description": "凯拉石与堕苦的组合。流沙会将敌人拖下地狱。",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "水幕",
+      "tips": "仅作为隐藏武器通过幸存塔罗牌获得。",
+      "description": "拥有者每升4级时变强，最多7次。"
+    },
+    "": null
   },
   "ja": {
     "WHIP": {
@@ -25473,7 +26823,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "ノーマルトーネ（ソロ）"
-    }
+    },
+    "PRAYERS": {
+      "name": "百八つの呼応する祈り",
+      "description": "実は16しかない。ダメージは呪いと運に左右される。",
+      "tips": "弾速はこの武器に効果をもたらさない。"
+    },
+    "HEAVENSROAD": {
+      "name": "天国への道",
+      "description": "百八つの数珠と百八つの呼応する祈りが融合したもの。108回発動させれば悟りの境地が覗ける。",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "スカーレット・ニードル",
+      "tips": "効果時間を無視する。",
+      "description": "最も近い敵めがけて針状の攻撃を飛ばし、ダメージを与えつつその場に縫い付ける。"
+    },
+    "BMN001_SCARLET2": {
+      "name": "真紅の雨",
+      "tips": "最大限が必要：命のトマト",
+      "description": "スカーレット・ニードルの進化系。やまぬ雨が無差別に降り注ぐ。"
+    },
+    "BMN002_DUST1": {
+      "name": "完全焼却",
+      "tips": null,
+      "description": "向いている方向にいる敵を消滅させる。"
+    },
+    "BMN003_DUST2": {
+      "name": "塵から塵へ",
+      "tips": "最大限が必要：ロウソク",
+      "description": "完全焼却の進化系。地獄のような灰の嵐が襲いかかり、敵を一掃する。"
+    },
+    "BMN004_AXE1": {
+      "name": "小斧",
+      "tips": "好相性の能力値：発射弾数",
+      "description": "クリティカルヒットを出す可能性あり。"
+    },
+    "BMN005_AXE2": {
+      "name": "血の渇望",
+      "tips": "最大限が必要：複写の輪",
+      "description": "小斧の進化系。クリティカルダメージは発射弾数の影響を受ける。"
+    },
+    "BMN006_SCREAM1": {
+      "name": "虚無からの叫び",
+      "tips": null,
+      "description": "高いノックバック効果を伴う叫びが響き渡る。反撃効果あり。"
+    },
+    "BMN007_SCREAM2": {
+      "name": "禁断のサイレン",
+      "tips": "最大限が必要：引き寄せのオーブ",
+      "description": "虚無からの叫びの進化系。敵を引き寄せ、弱体化させる。"
+    },
+    "BMN008_BLACKEN1": {
+      "name": "暗黒天の訪れ",
+      "tips": "弾速はこれに対し効果をもたらさない。",
+      "description": "ランダムな敵を消滅させ、ダメージを与える現実の亀裂を不定期に残していく。"
+    },
+    "BMN009_BLACKEN2": {
+      "name": "破滅",
+      "tips": "最大限が必要：トローナの箱",
+      "description": "暗黒天の訪れの進化系。敵を破滅へと誘き寄せる。"
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "FireFall",
+      "tips": "攻撃範囲、効果時間、弾速はこれに対し効果をもたらさない。",
+      "description": "最も離れた敵に攻撃を喰らわせる。攻撃力によって、ダメージがさらに増加。"
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "FireBall",
+      "tips": "発射弾数は効果をもたらさない。",
+      "description": "広がるダメージゾーンを生成する。攻撃範囲によって、ダメージがさらに増加。"
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "FireWall",
+      "tips": "攻撃範囲、弾速はこれに対し効果をもたらさない。",
+      "description": "特定の方向に対するダメージゾーンを生成する。弾数の影響を大きく受ける。"
+    },
+    "BMN013_FIRE4": {
+      "name": "FireStall",
+      "tips": null,
+      "description": "FireFall、FireWall、FireBallを融合させたもの。\n特異点を超えるごとに強さが増す。"
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "LunarMight",
+      "tips": "攻撃範囲、弾速、発射弾数はこれに対し効果をもたらさない。",
+      "description": "攻撃力を少し増加させるダメージゾーンを出現させる。"
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "LunarSight",
+      "tips": "攻撃範囲、弾速、発射弾数は効果をもたらさない。",
+      "description": "時折キャラクターについてくるダメージゾーンを出現させる。"
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "LunarBight",
+      "tips": "攻撃範囲、弾速、発射弾数はこれに対し効果をもたらさない。",
+      "description": "敵による攻撃の速度を遅くする確率がある。"
+    },
+    "MS_LUNAR4": {
+      "name": "LunarFlight",
+      "tips": null,
+      "description": "LunarMight、LunarSight、LunarBightが融合した武器。月光文字とひとつに。"
+    },
+    "SILVERWIND3": {
+      "name": "白銀の奔流",
+      "tips": "最大限が必要：トローナの箱",
+      "description": "お祝いの風の進化系。敵の防御を引き裂く。"
+    },
+    "PEARLMAGATAMA": {
+      "name": "真珠の勾玉",
+      "tips": null,
+      "description": "贈り物。欲深さと引き換えに、ボーナスの回復と復活を付与する。体力を完全に回復。",
+      "customDescValue": "完全に回復。"
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "ビロード十二面体",
+      "tips": null,
+      "description": "贈り物。最大HPと引き換えに、ボーナスの成長効率と欲深さを付与する。最後の吐息、復活時、HPクリティカルスキルを発動させる。",
+      "customDescValue": "最後の吐息、復活時、HPクリティカルを発動させる。"
+    },
+    "DESCENT_MISERY": {
+      "name": "不幸への転落",
+      "tips": "弾速、効果時間はこれに対し効果をもたらさない。",
+      "description": "呪われた代物。発射弾数はダメージに影響を与える。クリティカルヒットまたは動きの方向を変更すると攻撃数が追加される。",
+      "customDescValue": "コンボに攻撃を%0追加する。"
+    },
+    "SHIMMERING_SANDS": {
+      "name": "煌めく砂溜まり",
+      "tips": null,
+      "description": "カイラストーンと不幸への転落が融合した武器。流砂が敵を地獄へと引きずり込む。",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "水のヴェール",
+      "tips": "サバイバーカードを使って秘密の武器としてのみ入手可能。",
+      "description": "所有者が4レベル獲得するごとに強さを増す（最大7回）。"
+    },
+    "": null
   },
   "ko": {
     "WHIP": {
@@ -27789,7 +29274,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "톤노 수비토(솔로)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108번의 교독",
+      "description": "사실은 16번이에요. 저주와 행운의 차이에 따라 피해량이 달라집니다.",
+      "tips": "강화 무시: 투사체 속도"
+    },
+    "HEAVENSROAD": {
+      "name": "천국으로 가는 길",
+      "description": "108 보체와 108번의 교독이 결합한 것. 108번 활성화하면 깨달음의 순간을 엿볼 수 있습니다.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "주홍색 바늘",
+      "tips": "강화 무시: 지속시간.",
+      "description": "피해를 낳는 바늘이 가장 가까운 적을 찔러 제자리에 고정시킵니다."
+    },
+    "BMN001_SCARLET2": {
+      "name": "진홍색 비",
+      "tips": "최대치 필요: 붉은 심장",
+      "description": "진화한 주홍색 바늘입니다. 끝없이 내리는 비가 어느 곳에서든 적중합니다."
+    },
+    "BMN002_DUST1": {
+      "name": "불태우리",
+      "tips": null,
+      "description": "정면을 향하는 적을 지웁니다."
+    },
+    "BMN003_DUST2": {
+      "name": "먼지에서 먼지로",
+      "tips": "최대치 필요: 촛대",
+      "description": "진화한 불태우리입니다. 지옥의 재가 되돌아와 적을 지웁니다."
+    },
+    "BMN004_AXE1": {
+      "name": "아셸라",
+      "tips": "최상의 조합: 수량.",
+      "description": "치명적으로 가격할 수 있습니다."
+    },
+    "BMN005_AXE2": {
+      "name": "피의 갈망",
+      "tips": "최대치 필요: 복제 반지",
+      "description": "진화한 아셸라입니다. 치명타 피해는 수량의 영향을 받습니다."
+    },
+    "BMN006_SCREAM1": {
+      "name": "공허의 비명",
+      "tips": null,
+      "description": "강렬한 넉백의 비명을 발사합니다. 반격합니다."
+    },
+    "BMN007_SCREAM2": {
+      "name": "금지된 사이렌",
+      "tips": "최대치 필요: 매혹구",
+      "description": "진화한 공허의 비명입니다. 적을 끌어당기고 무력화합니다."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "암흑의 천공",
+      "tips": "강화 무시: 투사체 속도",
+      "description": "적을 무작위로 소멸시키고, 가끔 현실에 균열을 남겨 피해를 줍니다."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "단죄",
+      "tips": "최대치 필요: 토로나의 상자.",
+      "description": "진화한 암흑의 천공. 적을 파멸로 끌어당깁니다."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "화염 낙하",
+      "tips": "강화 무시: 공격 범위, 지속시간, 투사체 속도.",
+      "description": "가장 멀리 있는 적을 가격합니다. 데미지가 피해량을 곱한 만큼 배가합니다."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "파이어볼",
+      "tips": "강화 무시: 수량.",
+      "description": "확장된 데미지 구역을 만듭니다. 데미지는 공격 범위를 곱한 만큼 배가합니다."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "파이어월",
+      "tips": "강화 무시: 공격 범위, 속도.",
+      "description": "방향성 데미지 구역을 생성합니다. 수량에 크게 영향을 받습니다."
+    },
+    "BMN013_FIRE4": {
+      "name": "파이어스톨",
+      "tips": null,
+      "description": "파이어폴, 파이어월, 파이어볼의 연합입니다. 특이점을 지난 후마다 더 강력하게 성장합니다."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "루나마이트",
+      "tips": "강화 무시: 공격 범위, 속도, 수량.",
+      "description": "데미지 영역을 생성하며 피해량을 소폭 증가시킵니다."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "루나사이트",
+      "tips": "강화 무시: 공격 범위, 속도, 수량.",
+      "description": "가끔 캐릭터를 따라다니는 피해 구역을 생성합니다."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "루나바이트",
+      "tips": "강화 무시: 공격 범위, 속도, 수량.",
+      "description": "피격된 적의 속도를 느리게 할 가능성이 있습니다."
+    },
+    "MS_LUNAR4": {
+      "name": "루나플라이트",
+      "tips": null,
+      "description": "루나마이트, 루나사이트, 루나바이트의 연합입니다. 달의 문양과 하나가 됩니다."
+    },
+    "SILVERWIND3": {
+      "name": "은빛 흐름",
+      "tips": "최대치 필요: 토로나의 상자.",
+      "description": "진화한 축제의 바람입니다. 적의 방어도를 약화합니다."
+    },
+    "PEARLMAGATAMA": {
+      "name": "펄 마가타마",
+      "tips": null,
+      "description": "선물입니다. 탐욕을 대사로 회복력과 부활 보너스를 제공합니다. 사용 시 완전히 회복됩니다.",
+      "customDescValue": "완전히 회복됩니다."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "벨벳 십이면체",
+      "tips": null,
+      "description": "선물입니다. 최대 체력을 대가로 성장과 탐욕 보너스를 제공합니다. 최후의 숨결, 부활 시점, 체력 위기 기술을 발동합니다.",
+      "customDescValue": "최후의 숨결, 부활 시점, 체력 위기 기술을 발동합니다."
+    },
+    "DESCENT_MISERY": {
+      "name": "비참한 나락",
+      "tips": "강화 무시: 속도, 지속시간",
+      "description": "저주받은 아이템입니다. 수량이 피해에 영향을 줍니다. 치명타나 이동 방향 변경 시 추가 공격이 발동합니다.",
+      "customDescValue": "콤보에 공격을 %0 추가합니다."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "반짝이는 모래",
+      "tips": null,
+      "description": "키라 스톤과 비참한 나락의 연합. 퀵샌드가 적들을 지옥으로 끌어당깁니다.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "물의 장막",
+      "tips": "서바로트를 통해서만 획득할 수 있는 숨겨진 무기입니다.",
+      "description": "소유자가 4레벨을 올릴 때마다 강해집니다(최대 7회)."
+    },
+    "": null
   },
   "zh-TW": {
     "WHIP": {
@@ -30105,7 +31725,142 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "菜雞阿鮪（單人）"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 條自在回應祈禱文",
+      "description": "偷偷跟你說：我們其實只有準備了 16 條祈禱文而已，嘻嘻。能夠造成的傷害會取決於詛咒及運氣的差值。",
+      "tips": "無加成效果：速度。"
+    },
+    "HEAVENSROAD": {
+      "name": "天堂之路",
+      "description": "組合 108 地滾球玉與 108 條自在回應祈禱文。發動 108 次以窺探上天的啟示。",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "緋紅之針",
+      "tips": "無加成效果：效果持續時間。",
+      "description": "能夠造成傷害的針刺會將最靠近的敵人釘在原地。"
+    },
+    "BMN001_SCARLET2": {
+      "name": "緋紅驟雨",
+      "tips": "需要（最高級）：癒傷番茄。",
+      "description": "解放版的緋紅之針。不管敵人身在何處，無盡的鮮紅驟雨都能夠擊中對方。"
+    },
+    "BMN002_DUST1": {
+      "name": "焚滅",
+      "tips": null,
+      "description": "消滅面向方向的敵人。"
+    },
+    "BMN003_DUST2": {
+      "name": "塵歸塵，土歸土",
+      "tips": "需要（最高級）：燭臺。",
+      "description": "解放版的焚滅。地獄焰火的灰燼會反噬一切，並燃盡所有的敵人。"
+    },
+    "BMN004_AXE1": {
+      "name": "艾什拉斬斧",
+      "tips": "最佳搭配：投射物數量。",
+      "description": "可造成暴擊。"
+    },
+    "BMN005_AXE2": {
+      "name": "嗜血",
+      "tips": "需要（最高級）：雙鸞寶鐲。",
+      "description": "解放版的艾什拉斬斧。暴擊傷害會取決於投射物數量。"
+    },
+    "BMN006_SCREAM1": {
+      "name": "虛空尖嘯",
+      "tips": null,
+      "description": "釋放具有高擊退效果的尖嘯。可進行反擊。"
+    },
+    "BMN007_SCREAM2": {
+      "name": "禁忌魅音",
+      "tips": "需要（最高級）：念力法球。",
+      "description": "解放版的虛空尖嘯。拉近敵人並消除其威脅。"
+    },
+    "BMN008_BLACKEN1": {
+      "name": "蔽空黑幕",
+      "tips": "無加成效果：投射物速度。",
+      "description": "清除一名隨機敵人，偶爾會留下造成傷害的虛空裂痕。"
+    },
+    "BMN009_BLACKEN2": {
+      "name": "天譴",
+      "tips": "需要（最高級）：托羅娜的魔盒。",
+      "description": "解放版的蔽空黑幕。能夠將敵人捲入毀滅空間之中。"
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "火殞",
+      "tips": "無加成效果：效果範圍、效果持續時間、投射物速度。",
+      "description": "對距離最遠的敵人發起攻擊。傷害會進一步根據力量數值翻倍。"
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "火球",
+      "tips": "無加成效果：投射物數量。",
+      "description": "生成一處會不斷擴大的持續性傷害區域。傷害會根據效果範圍翻倍。"
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "火牆",
+      "tips": "無加成效果：效果範圍、投射物速度。",
+      "description": "生成一個定向性的傷害區域。其效果會大大取決於投射物數量。"
+    },
+    "BMN013_FIRE4": {
+      "name": "火障",
+      "tips": null,
+      "description": "組合火殞、火牆和火球。\n每個原爆點都會讓這個武器變得更強。"
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "月威",
+      "tips": "無加成效果：效果範圍、投射物速度、投射物數量。",
+      "description": "生成一個傷害區域，並小幅提高力量數值。"
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "月視",
+      "tips": "無加成效果：效果範圍、投射物速度、投射物數量。",
+      "description": "生成的傷害區域不時會跟著角色移動。"
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "月弧",
+      "tips": "無加成效果：效果範圍、投射物速度、投射物數量。",
+      "description": "有機率減緩被擊中敵人的速度。"
+    },
+    "MS_LUNAR4": {
+      "name": "月翔",
+      "tips": null,
+      "description": "組合月威、月視及月弧。與月之符文合而為一。"
+    },
+    "SILVERWIND3": {
+      "name": "銀流",
+      "tips": "需要（最高級）：托羅娜的魔盒。",
+      "description": "解放版的激盪。可削減敵人的防禦。"
+    },
+    "PEARLMAGATAMA": {
+      "name": "珍珠勾玉",
+      "tips": null,
+      "description": "禮物。犧牲貪欲，以換取額外的恢復值與復活次數。使用時能夠完全恢復生命值。",
+      "customDescValue": "完全恢復生命值。"
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "絲絨十二面體",
+      "tips": null,
+      "description": "一份贈禮。犧牲最大生命值，以換取額外的成長效益與貪欲。可觸發「最後掙扎」、「復活時」和「生命值過低」的技能效果。",
+      "customDescValue": "可觸發「最後掙扎」、「復活時」和「生命值過低」的技能效果。"
+    },
+    "DESCENT_MISERY": {
+      "name": "墮入苦難",
+      "tips": "無加成效果：投射物速度、效果持續時間。",
+      "description": "有受到詛咒的物品。傷害會取決於投射物數量。造成暴擊或是改變移動方向時，必定會觸發額外攻擊。",
+      "customDescValue": "為連擊追加 %0 點攻擊力。"
+    },
+    "SHIMMERING_SANDS": {
+      "name": "流光之沙",
+      "tips": null,
+      "description": "組合凱拉石與墮入苦難。流沙會將敵人拖入到地獄深淵之中。",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "水幕",
+      "tips": "只能透過倖存牌來以隱藏武器的形式取得。",
+      "description": "持有者每提升 4 級，威力就會增強一次（最多能增強 7 次）。"
+    },
+    "": null
   },
   "uk": {
     "WHIP": {
@@ -32421,6 +34176,141 @@
     },
     "EX_PENSHIN_STATIC7": {
       "name": "Тонно Субіто (окремо)"
-    }
+    },
+    "PRAYERS": {
+      "name": "108 молитов-відповідей",
+      "description": "Насправді просто 16. Шкода залежить від різниці між показниками прокляття й удачі.",
+      "tips": "Ігнорує: швидкість."
+    },
+    "HEAVENSROAD": {
+      "name": "Шлях на небеса",
+      "description": "Гібрид із 108 Боче й 108 молитов-відповідей. Активуйте 108 разів, щоб осягнути просвітлення.",
+      "tips": null
+    },
+    "BMN000_SCARLET1": {
+      "name": "Багряна голка",
+      "tips": "Ігнорує: тривалість.",
+      "description": "Нищівні голки знерухоміють найближчого ворога."
+    },
+    "BMN001_SCARLET2": {
+      "name": "Багряна злива",
+      "tips": "Потребує макс.: Памарола.",
+      "description": "Еволюція багряної голки. Нескінченний дощ може завдавати ударів у будь-якій локації."
+    },
+    "BMN002_DUST1": {
+      "name": "Випалення",
+      "tips": null,
+      "description": "Знищує ворогів попереду."
+    },
+    "BMN003_DUST2": {
+      "name": "Пил до пилу",
+      "tips": "Потребує макс.: Канделябрадор.",
+      "description": "Еволюція Випалення. Пекельний попіл летить назад, знищуючи ворогів."
+    },
+    "BMN004_AXE1": {
+      "name": "Пеклопорох",
+      "tips": "Найкраще з: кількість.",
+      "description": "Може завдавати критичних ударів."
+    },
+    "BMN005_AXE2": {
+      "name": "Жага крові",
+      "tips": "Потребує макс.: Дуплікатор.",
+      "description": "Еволюція Пеклопороху. Кількість впливає на критичну шкоду."
+    },
+    "BMN006_SCREAM1": {
+      "name": "Лемент із порожнечі",
+      "tips": null,
+      "description": "Випускає лемент із високим відштовхуванням. Б’є у відповідь."
+    },
+    "BMN007_SCREAM2": {
+      "name": "Заборонена сирена",
+      "tips": "Потребує макс.: Магнітосфера.",
+      "description": "Еволюція Лементу з порожнечі. Притягує ворогів і позбавляє їх боєздатності."
+    },
+    "BMN008_BLACKEN1": {
+      "name": "Чорнозір",
+      "tips": "Ігнорує: швидкість.",
+      "description": "Знищує випадкового ворога, іноді залишаючи по собі розрив реальності, що завдає шкоди."
+    },
+    "BMN009_BLACKEN2": {
+      "name": "Вічні муки",
+      "tips": "Потребує макс.: Скринька Торони.",
+      "description": "Еволюція чорнозору. Прискорює загибель ворогів."
+    },
+    "BMN010_FIRE1_FALL": {
+      "name": "Вогнепад",
+      "tips": "Ігнорує: область, тривалість, швидкість.",
+      "description": "Влучає в найдальших ворогів. Шкода помножується на показник моці."
+    },
+    "BMN011_FIRE2_BALL": {
+      "name": "Вогнекуля",
+      "tips": "Ігнорує: кількість.",
+      "description": "Створює область шкоди, що шириться. Шкода помножується на показник області."
+    },
+    "BMN012_FIRE3_WALL": {
+      "name": "Вогнестіна",
+      "tips": "Ігнорує: область, швидкість.",
+      "description": "Створює спрямовану область шкоди. На її дію сильно впливає показник кількості."
+    },
+    "BMN013_FIRE4": {
+      "name": "Вогнестій",
+      "tips": null,
+      "description": "Гібрид вогнепаду, вогнестіни й вогнекулі.\nСтає сильнішим із кожною сингулярністю."
+    },
+    "MS_LUNAR1_MIGHT": {
+      "name": "Місяцесміць",
+      "tips": "Ігнорує: область, швидкість, кількість.",
+      "description": "Створює зону шкоди, яка також дає незначне збільшення показника сили."
+    },
+    "MS_LUNAR2_SIGHT": {
+      "name": "Місяцелик",
+      "tips": "Ігнорує: область, швидкість, кількість.",
+      "description": "Створює області шкоди, які випадково переслідують персонажа."
+    },
+    "MS_LUNAR3_BIGHT": {
+      "name": "Місяцедуга",
+      "tips": "Ігнорує: область, швидкість, кількість.",
+      "description": "Дає шанс сповільнити удари ворогів."
+    },
+    "MS_LUNAR4": {
+      "name": "Місяцеліт",
+      "tips": null,
+      "description": "Гібрид місяцемоці, місяцелику й місяцедуги. Стає єдиним разом із гліфами місяця."
+    },
+    "SILVERWIND3": {
+      "name": "Срібний потік",
+      "tips": "Потребує макс.: Скринька Торони.",
+      "description": "Еволюція Святкового вітру. Руйнує оборону ворогів."
+    },
+    "PEARLMAGATAMA": {
+      "name": "Перлова магатама",
+      "tips": null,
+      "description": "Дар. Дає додаткові регенерації та оживлення в обмін на жадобу. Повністю зцілює.",
+      "customDescValue": "Повністю зцілює."
+    },
+    "BMN_DODECAHEDRON": {
+      "name": "Оксамитовий додекаедр",
+      "tips": null,
+      "description": "Дар. Дає додаткові бонуси до розвитку й жадоби в обмін на макс. здоров’я. Запускає останній подих, результат за відродженням і критичні навички ОЗ.",
+      "customDescValue": "Запускає останній подих, результат за відродженням і критичні навички ОЗ."
+    },
+    "DESCENT_MISERY": {
+      "name": "Спуск у Cтраждання",
+      "tips": "Ігнорує: швидкість, тривалість.",
+      "description": "Проклятий предмет. Показник кількості впливає на шкоду. Критичні удари чи зміни напрямів руху призводять до додаткових атак.",
+      "customDescValue": "Додає %0 од. атаки до комбо."
+    },
+    "SHIMMERING_SANDS": {
+      "name": "Мерехтливі піски",
+      "tips": null,
+      "description": "Гібрид сонцекаменів і Cпуску в Cтраждання. Сипкі піски затягують ворогів до пекла.",
+      "customDescValue": null
+    },
+    "BUBBLE_SUPPORT": {
+      "name": "Водяна завіса",
+      "tips": "Можна отримати тільки як приховану зброю в Таро вцілілих.",
+      "description": "Стає сильнішою щоразу, коли власник отримує 4 рівні (макс. 7 разів)."
+    },
+    "": null
   }
 }

@@ -2845,20 +2845,20 @@
   },
   "MOON17_EvolveBubbles": {
     "description": {
-      "en": "Boo Roo Boolle",
-      "fr": "Boo Roo Boolle",
-      "it": "Boo Roo Boolle",
-      "de": "Boo Roo Boolle",
-      "es": "Boo roo boolle",
-      "pt-BR": "Boo Roo Boolle",
-      "pl": "Boo Roo Boolle",
-      "ru": "Бу-ру-булле",
-      "tr": "Boo Roo Boolle",
+      "en": "Spiritoso",
+      "fr": "Spiritoso",
+      "it": "Spiritoso",
+      "de": "Spiritoso",
+      "es": "Spiritoso",
+      "pt-BR": "Spiritoso",
+      "pl": "Spiritoso",
+      "ru": "Спиритозо",
+      "tr": "Spiritoso",
       "zh-CN": "噼里啪啦",
-      "ja": "無尽の泡",
-      "ko": "부 루 불레",
-      "zh-TW": "噗魯魯噗魯",
-      "uk": "Ба-Ра-Булль"
+      "ja": "スピリトーゾ",
+      "ko": "스피리토소",
+      "zh-TW": "斯皮里托索",
+      "uk": "Спрітозо"
     }
   },
   "ReachLV80InverseForest": {
@@ -4569,6 +4569,546 @@
       "ko": "추가: XIX - 운명의 계승자",
       "zh-TW": "額外：XIX－宿命繼承者",
       "uk": "ДОДАТКОВО: XIX — «Нащадок фатуму»"
+    }
+  },
+  "MOON19_GetLunarMightToLevel6": {
+    "description": {
+      "en": "LunarMight",
+      "fr": "Lunissance",
+      "it": "Potere lunare",
+      "de": "MondMacht",
+      "es": "Poder lunar",
+      "pt-BR": "Grandeza Lunar",
+      "pl": "Moc księżyca",
+      "ru": "Кровь Луны",
+      "tr": "AyKuvveti",
+      "zh-CN": "月盘",
+      "ja": "LunarMight",
+      "ko": "루나마이트",
+      "zh-TW": "月威",
+      "uk": "Місяцесміць"
+    }
+  },
+  "MOON20_GetLunarBightToLevel6": {
+    "description": {
+      "en": "LunarBight",
+      "fr": "Lunicyle",
+      "it": "Podere lunare",
+      "de": "MondSacht",
+      "es": "Bahía lunar",
+      "pt-BR": "Satélite Lunar",
+      "pl": "Orbita księżyca",
+      "ru": "Бровь Луны",
+      "tr": "AyHalatı",
+      "zh-CN": "月弧",
+      "ja": "LunarBight",
+      "ko": "루나바이트",
+      "zh-TW": "月弧",
+      "uk": "Місяцедуга"
+    }
+  },
+  "MOON21_GetLunarSightToLevel6": {
+    "description": {
+      "en": "LunarSight",
+      "fr": "Luniser",
+      "it": "Volere lunare",
+      "de": "MondWacht",
+      "es": "Visión lunar",
+      "pt-BR": "Ciclo Lunar",
+      "pl": "Oko księżyca",
+      "ru": "Новь Луны",
+      "tr": "AyRasatı",
+      "zh-CN": "月相",
+      "ja": "LunarSight",
+      "ko": "루나사이트",
+      "zh-TW": "月視",
+      "uk": "Місяцелик"
+    }
+  },
+  "MOON22_UniteLunarWeapons": {
+    "description": {
+      "en": "Gekkojin",
+      "fr": "Gekkojin",
+      "it": "Gekkojin",
+      "de": "Gekkojin",
+      "es": "Gekkojin",
+      "pt-BR": "Gekkojin",
+      "pl": "Gekkojin",
+      "ru": "Геккодзи",
+      "tr": "Gekkojin",
+      "zh-CN": "月光之神",
+      "ja": "月光神",
+      "ko": "게코진",
+      "zh-TW": "月光神",
+      "uk": "Ґеккоджин"
+    }
+  },
+  "MOON23_ReachLevel80WithGekkojin": {
+    "description": {
+      "en": "Spiritosa",
+      "fr": "Spiritosa",
+      "it": "Spiritosa",
+      "de": "Spiritosa",
+      "es": "Spiritosa",
+      "pt-BR": "Spiritosa",
+      "pl": "Spiritosa",
+      "ru": "Спиритоза",
+      "tr": "Spiritosa",
+      "zh-CN": "噼里吧啦",
+      "ja": "スピリトーザ",
+      "ko": "스피리토사",
+      "zh-TW": "斯皮里托莎",
+      "uk": "Спірітоза"
+    }
+  },
+  "MOON24_FindPearlMagatama": {
+    "description": {
+      "en": "Pearl Magatama",
+      "fr": "Perle Magatama",
+      "it": "Perla Magatama",
+      "de": "Perlen-Magatama",
+      "es": "Perla magatama",
+      "pt-BR": "Pérola Magatama",
+      "pl": "Perłowa magatama",
+      "ru": "Жемчужная магатама",
+      "tr": "Magatama İncisi",
+      "zh-CN": "珍珠勾玉",
+      "ja": "真珠の勾玉",
+      "ko": "펄 마가타마",
+      "zh-TW": "珍珠勾玉",
+      "uk": "Перлова магатама"
+    }
+  },
+  "MOON25_EvolveFestiveWinds": {
+    "description": {
+      "en": "Megalo Miang Moonspell",
+      "fr": "Méga Miang Moonspell",
+      "it": "Megalo Miang Moonspell",
+      "de": "Megalo Miang Moonspell",
+      "es": "Megalo Miang Moonspell",
+      "pt-BR": "Megalo Miang Moonspell",
+      "pl": "Megalo Miang Moonspell",
+      "ru": "Мегало Мианг Луночар",
+      "tr": "Megalo Miang Moonspell",
+      "zh-CN": "极恶·米昂·月咒",
+      "ja": "メガロ・ミアン・ムーンスペル",
+      "ko": "메갈로 미앙 문스펠",
+      "zh-TW": "月咒·極惡·米昂",
+      "uk": "Мегало Міанг Місячночар"
+    }
+  },
+  "BMN01_FindCoffinMalice": {
+    "description": {
+      "en": "Malice Bloodmoon",
+      "fr": "Malice Bloodmoon",
+      "it": "Malice Bloodmoon",
+      "de": "Malice Bloodmoon",
+      "es": "Malice Bloodmoon",
+      "pt-BR": "Malice Bloodmoon",
+      "pl": "Malice Bloodmoon",
+      "ru": "Малиция Кроволун",
+      "tr": "Malice Bloodmoon",
+      "zh-CN": "糜思·血月",
+      "ja": "マリス・ブラッドムーン",
+      "ko": "맬리스 블러드문",
+      "zh-TW": "瑪麗絲·血月",
+      "uk": "Злобетта Кровомісяць"
+    }
+  },
+  "BMN02_Survive15Malice": {
+    "description": {
+      "en": "Scarlet Needle",
+      "fr": "Aiguille écarlate",
+      "it": "Ago scarlatto",
+      "de": "Scharlachnadel",
+      "es": "Aguja escarlata",
+      "pt-BR": "Agulha Vermelha",
+      "pl": "Szkarłatna igła",
+      "ru": "Алая игла",
+      "tr": "Kızıl İğne",
+      "zh-CN": "猩红刺针",
+      "ja": "スカーレット・ニードル",
+      "ko": "주홍색 바늘",
+      "zh-TW": "緋紅之針",
+      "uk": "Багряна голка"
+    }
+  },
+  "BMN03_EvolveScarletNeedle": {
+    "description": {
+      "en": "Calogero Bloodmoon",
+      "fr": "Calogero Bloodmoon",
+      "it": "Calogero Bloodmoon",
+      "de": "Calogero Bloodmoon",
+      "es": "Calogero Bloodmoon",
+      "pt-BR": "Calogero Bloodmoon",
+      "pl": "Calogero Bloodmoon",
+      "ru": "Калоджеро Кроволун",
+      "tr": "Calogero Bloodmoon",
+      "zh-CN": "卡洛杰罗·血月",
+      "ja": "カロジェロ・ブラッドムーン",
+      "ko": "칼로제로 블러드문",
+      "zh-TW": "卡洛傑羅·血月",
+      "uk": "Цалоджеро Кровомісяць"
+    }
+  },
+  "BMN04_Survive15Calogero": {
+    "description": {
+      "en": "Ashella",
+      "fr": "Hachelette",
+      "it": "Ashella",
+      "de": "Aschella",
+      "es": "Hachella",
+      "pt-BR": "Machela",
+      "pl": "Siekierada",
+      "ru": "Пепелла",
+      "tr": "Külhan",
+      "zh-CN": "灰斧",
+      "ja": "小斧",
+      "ko": "아셸라",
+      "zh-TW": "艾什拉斬斧",
+      "uk": "Пеклопорох"
+    }
+  },
+  "BMN05_EvolveAshella": {
+    "description": {
+      "en": "Ashtart",
+      "fr": "Ashtart",
+      "it": "Ashtart",
+      "de": "Ashtart",
+      "es": "Ashtart",
+      "pt-BR": "Ashtart",
+      "pl": "Ashtart",
+      "ru": "Аштарта",
+      "tr": "阿蚀塔特",
+      "zh-CN": "アシュタロト",
+      "ja": "애쉬타트",
+      "ko": "阿絲塔特",
+      "zh-TW": "Астарта",
+      "uk": "Астарта"
+    }
+  },
+  "BMN06_Survive15Ashtart": {
+    "description": {
+      "en": "Incineration",
+      "fr": "Incinération",
+      "it": "Incenerimento",
+      "de": "Einäscherung",
+      "es": "Incineración",
+      "pt-BR": "Incineração",
+      "pl": "Kremacja",
+      "ru": "Всесожжение",
+      "tr": "Kül Edici",
+      "zh-CN": "焚化",
+      "ja": "完全焼却",
+      "ko": "불태우리",
+      "zh-TW": "焚滅",
+      "uk": "Випалення"
+    }
+  },
+  "BMN07_EvolveIncineration": {
+    "description": {
+      "en": "Sargon",
+      "fr": "Sargon",
+      "it": "Sargon",
+      "de": "Sargon",
+      "es": "Sargon",
+      "pt-BR": "Sargon",
+      "pl": "Sargon",
+      "ru": "Саргон",
+      "tr": "Sargon",
+      "zh-CN": "萨尔贡",
+      "ja": "サーゴン",
+      "ko": "사르곤",
+      "zh-TW": "薩爾貢",
+      "uk": "Сарґон"
+    }
+  },
+  "BMN10_Survive15Sargon": {
+    "description": {
+      "en": "FireFall",
+      "fr": "Pluie de feu",
+      "it": "Balla da fuoco",
+      "de": "FeuerFall",
+      "es": "Lluvia de fuego",
+      "pt-BR": "Chuva de Fogo",
+      "pl": "Wodospad ognia",
+      "ru": "Огнечар",
+      "tr": "AteşDüşüren",
+      "zh-CN": "火落",
+      "ja": "FireFall",
+      "ko": "화염 낙하",
+      "zh-TW": "火殞",
+      "uk": "Вогнепад"
+    }
+  },
+  "BMN11_GetFireBallToLevel6": {
+    "description": {
+      "en": "FireBall",
+      "fr": "Boule de feu",
+      "it": "Palla di fuoco",
+      "de": "FeuerBall",
+      "es": "Bola de fuego",
+      "pt-BR": "Bola de Fogo",
+      "pl": "Kula ognia",
+      "ru": "Огнешар",
+      "tr": "AteşTopu",
+      "zh-CN": "火球",
+      "ja": "FireBall",
+      "ko": "파이어볼",
+      "zh-TW": "火球",
+      "uk": "Вогнекуля"
+    }
+  },
+  "BMN12_GetFireWallToLevel6": {
+    "description": {
+      "en": "FireWall",
+      "fr": "Mur de feu",
+      "it": "Polla di fuoco",
+      "de": "FeuerWall",
+      "es": "Barrera de fuego",
+      "pt-BR": "Parede de Fogo",
+      "pl": "Ściana ognia",
+      "ru": "Огнедар",
+      "tr": "AteşDuvarı",
+      "zh-CN": "火墙",
+      "ja": "FireWall",
+      "ko": "파이어월",
+      "zh-TW": "火牆",
+      "uk": "Вогнестіна"
+    }
+  },
+  "BMN13_UniteFire": {
+    "description": {
+      "en": "Megalo Sargon",
+      "fr": "Méga Sargon",
+      "it": "Megalo Sargon",
+      "de": "Megalo Sargon",
+      "es": "Megalo Sargon",
+      "pt-BR": "Megalo Sargon",
+      "pl": "Megalo Sargon",
+      "ru": "Мегало Саргон",
+      "tr": "Megalo Sargon",
+      "zh-CN": "极恶·萨尔贡",
+      "ja": "メガロ・サーゴン",
+      "ko": "메갈로 사르곤",
+      "zh-TW": "極惡·薩爾貢",
+      "uk": "Мегало Сарґон"
+    }
+  },
+  "BMN14_GetMiseryToLevel9": {
+    "description": {
+      "en": "Nameless Fool",
+      "fr": "Fou sans nom",
+      "it": "Ugo Qualunque",
+      "de": "Namenloser Narr",
+      "es": "Loco sin nombre",
+      "pt-BR": "Bobo Sem Nome",
+      "pl": "Bezimienny Głupiec",
+      "ru": "Безымянный Шут",
+      "tr": "İsimsiz Budala",
+      "zh-CN": "无名·愚者",
+      "ja": "名無しの・愚者",
+      "ko": "이름 없는 바보",
+      "zh-TW": "無名·愚者",
+      "uk": "Безіменний Дурень"
+    }
+  },
+  "BMN15_Die7TimesWithFool": {
+    "description": {
+      "en": "Congregation",
+      "fr": "Congrégation",
+      "it": "Congregazione",
+      "de": "Gemeinwesen",
+      "es": "Congregación",
+      "pt-BR": "Congregação",
+      "pl": "Kongregacja",
+      "ru": "Конгрегация",
+      "tr": "Cemaat",
+      "zh-CN": "秽众",
+      "ja": "異形体",
+      "ko": "신도단",
+      "zh-TW": "狂熱教眾",
+      "uk": "Паства"
+    }
+  },
+  "BMN16_GetScreamsToLevel7": {
+    "description": {
+      "en": "Screams from the Void",
+      "fr": "Cris du néant",
+      "it": "Grida dal nulla",
+      "de": "Schreie der Leere",
+      "es": "Gritos del vacío",
+      "pt-BR": "Gritos do Vazio",
+      "pl": "Krzyki z otchłani",
+      "ru": "Вопли Бездны",
+      "tr": "Gaipten Çığlıklar",
+      "zh-CN": "虚空尖啸",
+      "ja": "虚無からの叫び",
+      "ko": "공허의 비명",
+      "zh-TW": "虛空尖嘯",
+      "uk": "Лемент із порожнечі"
+    }
+  },
+  "BMN17_EvolveScreamsOfTheVoi": {
+    "description": {
+      "en": "Velvet Dodecahedron",
+      "fr": "Dodécaèdre de velours",
+      "it": "Dodecaedro di velluto",
+      "de": "Samtenes Dodekaeder",
+      "es": "Dodecaedro de terciopelo",
+      "pt-BR": "Dodecaedro de Veludo",
+      "pl": "Aksamitny dwunastościan",
+      "ru": "Бархатный додекаэдр",
+      "tr": "Kadife On İki Yüzlü.",
+      "zh-CN": "丝绒十二面体",
+      "ja": "ビロード十二面体",
+      "ko": "벨벳 십이면체",
+      "zh-TW": "絲絨十二面體",
+      "uk": "Оксамитовий додекаедр"
+    }
+  },
+  "BMN18_Defeat6000Witches": {
+    "description": {
+      "en": "Jaman Jato",
+      "fr": "Jaman Jato",
+      "it": "Jaman Jato",
+      "de": "Jaman Jato",
+      "es": "Yamanyato",
+      "pt-BR": "Jaman Jato",
+      "pl": "Jaman Jato",
+      "ru": "Яман-ято",
+      "tr": "Jaman Jato",
+      "zh-CN": "灰多多",
+      "ja": "ジャマン・ジャロ",
+      "ko": "자만 자토",
+      "zh-TW": "賈曼加托",
+      "uk": "Джаман Джато"
+    }
+  },
+  "BMN19_DefeatAllBosses": {
+    "description": {
+      "en": "Nameless Saint",
+      "fr": "Saint sans nom",
+      "it": "Santo Qualunque",
+      "de": "Namenloser Heiliger",
+      "es": "Santo sin nombre",
+      "pt-BR": "Santo Sem Nome",
+      "pl": "Bezimienny Święty",
+      "ru": "Безымянный Святой",
+      "tr": "İsimsiz Aziz",
+      "zh-CN": "无名·圣者",
+      "ja": "名無しの・聖者",
+      "ko": "이름 없는 성자",
+      "zh-TW": "無名·聖者",
+      "uk": "Безіменний Святий"
+    }
+  },
+  "BMN20_BreakStatue": {
+    "description": {
+      "en": "In'Kujata",
+      "fr": "In' Kujata",
+      "it": "In' Kujata",
+      "de": "In’ Kujata",
+      "es": "In' Kujata",
+      "pt-BR": "In' Kujata",
+      "pl": "In' Kujata",
+      "ru": "Ин' Куджата",
+      "tr": "In' Kujata",
+      "zh-CN": "翼牛",
+      "ja": "イン クジャタ",
+      "ko": "인' 쿠자타",
+      "zh-TW": "伊本 庫加塔",
+      "uk": "Ін’ Куджата"
+    }
+  },
+  "BMN21_DefeatBaal": {
+    "description": {
+      "en": "Baal'Thasar",
+      "fr": "Baal'Thasar",
+      "it": "Baal'Thasar",
+      "de": "Baal’Thasar",
+      "es": "Baal'Thasar",
+      "pt-BR": "Baal'Thasar",
+      "pl": "Baal'Thasar",
+      "ru": "Баал-Тазар",
+      "tr": "Baal'Thasar",
+      "zh-CN": "巴尔-塔萨",
+      "ja": "バアル＝サザール",
+      "ko": "바알타사르",
+      "zh-TW": "巴爾塔薩",
+      "uk": "Ваал’Тасар"
+    }
+  },
+  "BMN22_Survive15BaalThasar": {
+    "description": {
+      "en": "Blacken Firmament",
+      "fr": "Firmament noirci",
+      "it": "Firmamento oscuro",
+      "de": "Schwarzes Firmament",
+      "es": "Firmamento mancillado",
+      "pt-BR": "Firmamento Negro",
+      "pl": "Czarne sklepienie",
+      "ru": "Затмение небесного свода",
+      "tr": "Gök Karartan",
+      "zh-CN": "晦暗苍穹",
+      "ja": "暗黒天の訪れ",
+      "ko": "암흑의 천공",
+      "zh-TW": "蔽空黑幕",
+      "uk": "Чорнозір"
+    }
+  },
+  "BMN23_EvolveBlackenFirmam": {
+    "description": {
+      "en": "Baal'Thamut",
+      "fr": "Baal'Thamut",
+      "it": "Baal'Thamut",
+      "de": "Baal’Thamut",
+      "es": "Baal'Thamut",
+      "pt-BR": "Baal'Thamut",
+      "pl": "Baal'Thamut",
+      "ru": "Баал-Тамут",
+      "tr": "Baal'Thamut",
+      "zh-CN": "巴尔-塔穆",
+      "ja": "バアル・サマト",
+      "ko": "바알타무트",
+      "zh-TW": "巴爾沙姆特",
+      "uk": "Ваал’Тамут"
+    }
+  },
+  "BMN24_25MinuteBoss": {
+    "description": {
+      "en": "Hyper Red Moon Manor",
+      "fr": "Manoir de la Lune Rouge Sanglant",
+      "it": "Super Maniero della Luna Rossa",
+      "de": "Rotmond-Anwesen (Hyper)",
+      "es": "Mansión Luna Roja difícil",
+      "pt-BR": "Hiper Mansão Lua Vermelha",
+      "pl": "Hyper – Dwór Czerwonego Księżyca",
+      "ru": "Гипер — Поместье Красной Луны",
+      "tr": "Hiper Kızıl Ay Malikânesi",
+      "zh-CN": "红月庄园（血战）",
+      "ja": "ハイパーレッドムーン邸",
+      "ko": "하이퍼 붉은 달 장원",
+      "zh-TW": "紅月莊園（血戰）",
+      "uk": "Гіпер: Замок Червоного Місяця"
+    }
+  },
+  "BMN25_FindMap_Bloodmoon": {
+    "description": {
+      "en": "Red Moon Manor Map",
+      "fr": "Carte du Manoir de la Lune Rouge",
+      "it": "Mappa del Maniero della Luna Rossa",
+      "de": "Rotmond-Anwesen-Karte",
+      "es": "Mapa de la Mansión Luna Roja",
+      "pt-BR": "Mapa da Mansão Lua Vermelha",
+      "pl": "Mapa Dworu Czerwonego Księżyca",
+      "ru": "Карта Поместья Красной Луны",
+      "tr": "Kızıl Ay Malikânesi Haritası",
+      "zh-CN": "红月庄园地图",
+      "ja": "レッドムーン邸のマップ",
+      "ko": "붉은 달 장원 지도",
+      "zh-TW": "紅月莊園的地圖",
+      "uk": "Мапа Замку Червоного Місяця"
     }
   }
 }
