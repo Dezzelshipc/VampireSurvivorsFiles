@@ -17556,11 +17556,11 @@
         "Ashtart",
         "Ashtart",
         "Аштарта",
+        "Ashtart",
         "阿蚀塔特",
         "アシュタロト",
         "애쉬타트",
         "阿絲塔特",
-        "Астарта",
         "Астарта"
       ]
     },
@@ -18176,7 +18176,7 @@
     },
     "description": {
       "_value": [
-        "Starts and is Adept with an array of holy weapons, depending on their availability in the Collection. Lastbreath: triggers a Rosary.",
+        "Starts and is Adept with an array of weapons, depending on their availability in the Collection. Lastbreath: triggers a Rosary.",
         "Commence avec et maîtrise une large gamme d'armes sacrées, en fonction de leur disponibilité dans la collection. Dernier souffle : déclenche un Chapelet.",
         "Comincia con un'ampia rosa di armi sacre, in base alla loro disponibilità nella collezione, ed è abile con esse. Ultima esalazione: scatena un Rosario.",
         "Beginnt und ist geschickt mit verschiedenen heiligen Waffen, je nach Verfügbarkeit in der Sammlung. Letzter Atem: löst einen Rosenkranz aus.",
@@ -18634,6 +18634,228 @@
         "피해를 받는 대신 HP를 회복하지만, 현재 제한 시간에 도달하면 사라집니다. 펄 마가타마로 시작합니다.",
         "不會受到傷害，而是恢復生命值，但在存活達時間上限之後，這個免疫效果便會消失。開場時，即可獲得一個珍珠勾玉。",
         "Відновлює ОЗ замість отримання шкоди, але зникає, коли досягнуто поточного обмеження за часом. Починає з перлової магатами."
+      ]
+    }
+  },
+  "AMBERBORNE": {
+    "prefix": {
+      "_value": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "charName": {
+      "_value": [
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne",
+        "Amberborne"
+      ]
+    },
+    "surname": {
+      "_value": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "description": {
+      "_value": [
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      ]
+    }
+  },
+  "CANNONE": {
+    "prefix": {
+      "_value": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "charName": {
+      "_value": [
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone",
+        "Cannone"
+      ]
+    },
+    "surname": {
+      "_value": [
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna",
+        "Ladonna"
+      ]
+    },
+    "description": {
+      "_value": [
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      ]
+    }
+  },
+  "EX_SEFIROTTO": {
+    "prefix": {
+      "_value": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "charName": {
+      "_value": [
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio",
+        "Real Trio"
+      ]
+    },
+    "surname": {
+      "_value": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "description": {
+      "_value": [
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       ]
     }
   }

@@ -5304,8 +5304,156 @@
         "_value": "Grows stronger every time the owner gains 4 levels (max 7 times)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy. Can deal Luck-based critical damage."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "fr": {
@@ -10613,8 +10761,156 @@
         "_value": "Devient plus puissant à chaque fois que son propriétaire gagne quatre niveaux (7 fois max)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "it": {
@@ -15922,8 +16218,156 @@
         "_value": "Diventa più forte ogni volta che il proprietario guadagna 4 livelli (per un massimo di 7 volte)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "de": {
@@ -21231,8 +21675,156 @@
         "_value": "Wird alle 4 Level des Eigentümers stärker (max. 7 Mal)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "es": {
@@ -26540,8 +27132,156 @@
         "_value": "Se hace más fuerte cada vez que el propietario gana 4 niveles (máx.: 7 veces)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "pt-BR": {
@@ -31849,8 +32589,156 @@
         "_value": "Fica mais forte sempre que se sobe 4 níveis (máx. de 7 vezes)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "pl": {
@@ -37158,8 +38046,156 @@
         "_value": "Staje się silniejszy po każdym zdobyciu 4 poziomów przez właściciela (maks. 7 razy)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "ru": {
@@ -42467,8 +43503,156 @@
         "_value": "Усиливается каждый раз, когда владелец получает 4 уровня (макс. 7 раз)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "tr": {
@@ -47776,8 +48960,156 @@
         "_value": "Sahibi her 4 seviye yükseldikçe güçlenir (maks 7 kez)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "zh-CN": {
@@ -53085,8 +54417,156 @@
         "_value": "拥有者每升4级时变强，最多7次。"
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "ja": {
@@ -58394,8 +59874,156 @@
         "_value": "所有者が4レベル獲得するごとに強さを増す（最大7回）。"
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "ko": {
@@ -63703,8 +65331,156 @@
         "_value": "소유자가 4레벨을 올릴 때마다 강해집니다(최대 7회)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "zh-TW": {
@@ -69012,8 +70788,156 @@
         "_value": "持有者每提升 4 級，威力就會增強一次（最多能增強 7 次）。"
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   },
   "uk": {
@@ -74321,8 +76245,156 @@
         "_value": "Стає сильнішою щоразу, коли власник отримує 4 рівні (макс. 7 разів)."
       }
     },
-    "": {
-      "_value": null
+    "EX_HAMMER1": {
+      "name": {
+        "_value": "Mart-Hello"
+      },
+      "tips": {
+        "_value": "Best with: Luck."
+      },
+      "description": {
+        "_value": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    },
+    "EX_HAMMER2": {
+      "name": {
+        "_value": "Hammer-Dah"
+      },
+      "tips": {
+        "_value": "Requires Max: Parm Agis."
+      },
+      "description": {
+        "_value": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    },
+    "EX_CANNON1": {
+      "name": {
+        "_value": "Garneton"
+      },
+      "tips": {
+        "_value": "Best with: Duration, Amount."
+      },
+      "description": {
+        "_value": "Fires a volley of bouncy cannonballs."
+      }
+    },
+    "EX_CANNON2": {
+      "name": {
+        "_value": "Carnagon Heart"
+      },
+      "tips": {
+        "_value": "Requires Max: Spinach."
+      },
+      "description": {
+        "_value": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    },
+    "EX_VERGAMENA1": {
+      "name": {
+        "_value": "Vergamena"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    },
+    "EX_VERGAMENA2": {
+      "name": {
+        "_value": "One Disserting Angel"
+      },
+      "tips": {
+        "_value": "Requires: Tetraforce."
+      },
+      "description": {
+        "_value": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    },
+    "EX_AMIMIC1": {
+      "name": {
+        "_value": "Amimic"
+      },
+      "tips": {
+        "_value": null
+      },
+      "description": {
+        "_value": "[Gift] Friendly treasure chest mimic provides moral support."
+      },
+      "description2": {
+        "_value": "Prevents loss of gold coins from weapon effects and events."
+      },
+      "description3": {
+        "_value": "Allows exotic Amimics to show up as level up options."
+      }
+    },
+    "EX_AMIMIC2": {
+      "name": {
+        "_value": "Amimic Apollo"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      },
+      "description2": {
+        "_value": "Makes Treasure Chests follow you if you walk away from them."
+      },
+      "description3": {
+        "_value": "Makes you invulnerable during Gold Fever."
+      }
+    },
+    "EX_AMIMIC3": {
+      "name": {
+        "_value": "Amimic Omega"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description2": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      },
+      "description3": {
+        "_value": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "EX_AMIMIC4": {
+      "name": {
+        "_value": "Amimic Valkyrie"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      },
+      "description2": {
+        "_value": "Earn 100 gold coins to gain an extra passive slot."
+      },
+      "description3": {
+        "_value": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    },
+    "EX_AMIMIC5": {
+      "name": {
+        "_value": "Amimic Hephaestus"
+      },
+      "tips": {
+        "_value": "Only available through Amimic."
+      },
+      "description": {
+        "_value": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      },
+      "description2": {
+        "_value": "Doubles the duration of Nduja Fritta."
+      },
+      "description3": {
+        "_value": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   }
 }

@@ -443,6 +443,36 @@
       "defang": 0.03
     }
   ],
+  "FEVER": [
+    {
+      "level": 0,
+      "hidden": true,
+      "bulletType": "FEVER",
+      "name": "Fever",
+      "description": "Increases duration of Gold Fever and Gold Finger by 5% per rank (max +25%).",
+      "texture": "tps_lossless_icons",
+      "frameName": "antipyretic.png",
+      "isPowerUp": true,
+      "isAnUnlockable": true,
+      "price": 50000,
+      "fever": 0.05,
+      "unlockedRank": 5,
+      "specialBG": false,
+      "active": true
+    },
+    {
+      "fever": 0.05
+    },
+    {
+      "fever": 0.05
+    },
+    {
+      "fever": 0.05
+    },
+    {
+      "fever": 0.05
+    }
+  ],
   "REROLL": [
     {
       "level": 0,
@@ -744,23 +774,6 @@
     }
   ],
 
-  "FEVER": [
-    {
-      "level": 0,
-      "hidden": true,
-      "bulletType": "FEVER",
-      "name": "Antipiretic",
-      "description": ".",
-      "texture": "tps_lossless_icons",
-      "frameName": "antipyretic.png",
-      "isPowerUp": true,
-      "isAnUnlockable": true,
-      "price": 500,
-      "unlockedRank": 0,
-      "specialBG": true,
-      "active": true
-    }
-  ],
   "INVUL": [
     {
       "level": 0,

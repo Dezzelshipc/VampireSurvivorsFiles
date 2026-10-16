@@ -433,6 +433,24 @@
       "detune": -1000
     }
   },
+  "BGM_Biggus": {
+    "title": "The Peen of Glory",
+    "author": "Filippo Vicarelli",
+    "source": "",
+    "unlockedByStage": "EX_SCUTUM",
+    "unlockedByCharacter": null,
+    "unlockedByItem": null,
+    "isUnlocked": false,
+    "icon": "stage_scutum.png",
+    "hyperMod": {
+      "rate": 1.0625,
+      "detune": 0
+    },
+    "forsakenMod": {
+      "rate": 1.5,
+      "detune": -1000
+    }
+  },
   "BGM_BatCountry": {
     "title": "Mighty Illusion",
     "author": "Filippo Vicarelli",

@@ -3446,7 +3446,7 @@
         "_value": null
       },
       "description": {
-        "_value": "Starts and is Adept with an array of holy weapons, depending on their availability in the Collection. Lastbreath: triggers a Rosary."
+        "_value": "Starts and is Adept with an array of weapons, depending on their availability in the Collection. Lastbreath: triggers a Rosary."
       }
     },
     "JAMANJATO": {
@@ -3531,6 +3531,48 @@
       },
       "description": {
         "_value": "Recovers HP instead of receiving damage, but disappears after reaching the current Time Limit. Starts with a Pearl Magatama."
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -7067,6 +7109,48 @@
       "description": {
         "_value": "Récupère des PV au lieu de subir des dégâts, mais disparaît après la limite de temps actuelle. Commence avec une Perle Magatama."
       }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
+      }
     }
   },
   "it": {
@@ -10601,6 +10685,48 @@
       },
       "description": {
         "_value": "Ripristina PS anziché subire danni, ma scompare dopo aver raggiunto il Limite di tempo attuale. Comincia con una Perla Magatama."
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -14137,6 +14263,48 @@
       "description": {
         "_value": "Gewinnt LP dazu, statt Schaden zu erleiden, verschwindet aber, wenn man das aktuelle Zeitlimit erreicht. Startet mit Perlen-Magatama."
       }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
+      }
     }
   },
   "es": {
@@ -17671,6 +17839,48 @@
       },
       "description": {
         "_value": "Recupera PS en lugar de recibir daño, pero desaparece al llegar al límite de tiempo actual. Empieza con una perla magatama."
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -21207,6 +21417,48 @@
       "description": {
         "_value": "Recupera Vida em vez de sofrer dano, mas desaparece após alcançar o Limite de Tempo atual. Começa com Pérola Magatama."
       }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
+      }
     }
   },
   "pl": {
@@ -24741,6 +24993,48 @@
       },
       "description": {
         "_value": "Odzyskuje PZ, zamiast otrzymywać obrażenia, ale znika po upływie obecnego Limitu czasu. Zaczyna z Perłową magatamą."
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -28277,6 +28571,48 @@
       "description": {
         "_value": "Вместо получения урона восстанавливает здоровье, но исчезает по истечении текущего лимита времени. Начинает с «Жемчужной магатамой»."
       }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
+      }
     }
   },
   "tr": {
@@ -31608,7 +31944,7 @@
         "_value": null
       },
       "charName": {
-        "_value": "阿蚀塔特"
+        "_value": "Ashtart"
       },
       "surname": {
         "_value": null
@@ -31811,6 +32147,48 @@
       },
       "description": {
         "_value": "Hasar almaz, onun yerine HP'sini yeniler ama mevcut Zaman Sınırına ulaşıldığında kaybolur. Bir Magatama İncisi ile başlar."
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -35143,7 +35521,7 @@
         "_value": null
       },
       "charName": {
-        "_value": "アシュタロト"
+        "_value": "阿蚀塔特"
       },
       "surname": {
         "_value": null
@@ -35346,6 +35724,48 @@
       },
       "description": {
         "_value": "在应当承受伤害时改为恢复生命值，但当到达时限后会消失。开局自带一件珍珠勾玉。"
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -38678,7 +39098,7 @@
         "_value": null
       },
       "charName": {
-        "_value": "애쉬타트"
+        "_value": "アシュタロト"
       },
       "surname": {
         "_value": null
@@ -38881,6 +39301,48 @@
       },
       "description": {
         "_value": "ダメージを受ける代わりにHPを回復するが、現在のタイムリミットに到達すると消滅する。また、真珠の勾玉を持って開始する。"
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -42213,7 +42675,7 @@
         "_value": null
       },
       "charName": {
-        "_value": "阿絲塔特"
+        "_value": "애쉬타트"
       },
       "surname": {
         "_value": null
@@ -42416,6 +42878,48 @@
       },
       "description": {
         "_value": "피해를 받는 대신 HP를 회복하지만, 현재 제한 시간에 도달하면 사라집니다. 펄 마가타마로 시작합니다."
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -45748,7 +46252,7 @@
         "_value": null
       },
       "charName": {
-        "_value": "Астарта"
+        "_value": "阿絲塔特"
       },
       "surname": {
         "_value": null
@@ -45951,6 +46455,48 @@
       },
       "description": {
         "_value": "不會受到傷害，而是恢復生命值，但在存活達時間上限之後，這個免疫效果便會消失。開場時，即可獲得一個珍珠勾玉。"
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   },
@@ -49486,6 +50032,48 @@
       },
       "description": {
         "_value": "Відновлює ОЗ замість отримання шкоди, але зникає, коли досягнуто поточного обмеження за часом. Починає з перлової магатами."
+      }
+    },
+    "AMBERBORNE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Amberborne"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    },
+    "CANNONE": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Cannone"
+      },
+      "surname": {
+        "_value": "Ladonna"
+      },
+      "description": {
+        "_value": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    },
+    "EX_SEFIROTTO": {
+      "prefix": {
+        "_value": null
+      },
+      "charName": {
+        "_value": "Real Trio"
+      },
+      "surname": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   }

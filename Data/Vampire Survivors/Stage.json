@@ -8920,9 +8920,747 @@
       ]
     }
   ],
-  "SPAZIE": [
+  "EX_SCUTUM": [
     {
       "order": 1130,
+      "alwaysHidden": false,
+      "hidden": true,
+      "unlocked": false,
+      "stageName": "Biggus Discus",
+      "description": ".",
+      "uiTexture": "UI_StageIcons",
+      "uiFrame": "stage_scutum_l.png",
+      "texture": "UI",
+      "frameName": "stage_scutum.png",
+      "bestiaryBG": "background_forest.png",
+      "stageNumber": "Bonus",
+      "allowVisualInversion": false,
+      "hasLights": true,
+      "BGM": "BGM_Biggus",
+      "sideBBGM": "BGM_Biggus",
+      "tips": "",
+      "relics": [
+        "RELIC_ANTIPYRETIC"
+      ],
+      "yellowRelics": [],
+      "hyperTips": "50% Gold bonus",
+      "validForCharcaterData": true,
+      "mods": {
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 1.25,
+        "EnemySpeed": 1.25,
+        "ProjectileSpeed": 1,
+        "GoldMultiplier": 1.3,
+        "EnemyHealthMultiplier": 1,
+        "LuckBonus": 0,
+        "XPBonus": 1
+      },
+      "hyper": {
+        "unlocked": false,
+        "TimeLimit": 1200,
+        "ClockSpeed": 1,
+        "PlayerPxSpeed": 0.65,
+        "EnemySpeed": 0.65,
+        "ProjectileSpeed": 0.15,
+        "GoldMultiplier": 0.5,
+        "EnemyHealthMultiplier": 0,
+        "LuckBonus": 0.1,
+        "XPBonus": 0,
+        "StartingSpawns": 15
+      },
+      "inverse": {
+        "tint": 8947950,
+        "GoldMultiplier": 2,
+        "EnemyHealthMultiplier": 2,
+        "LuckBonus": 0.2,
+        "TimeMods": {
+          "start": 0,
+          "hpPerMinute": 0.05,
+          "speedPerMinute": 0.005
+        }
+      },
+      "tileset": {
+        "setKey": "BiggusDiccus_Tileset",
+        "setPath": "assets/tilesets/BiggusDiccus_Tileset.png",
+        "mapKey": "BiggusDiccus",
+        "mapPath": "assets/tilesets/BiggusDiccus.json",
+        "isTiling": true,
+        "isTilingHorizontal": true
+      },
+      "background": {
+        "texture": ""
+      },
+      "startingSpawns": 10,
+      "minute": 0,
+      "destructibleType": "BRAZIER",
+      "destructibleFreq": 1000,
+      "destructibleChance": 16,
+      "destructibleChanceMax": 90,
+      "maxDestructibles": 16,
+      "BGTextureName": "bg_null",
+      "dayNight": true,
+      "tilemapTiledJSON": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapTiledIMG": {
+        "name": "",
+        "path": ""
+      },
+      "tilemapPos": {
+        "x": 0,
+        "y": 0
+      },
+      "minimum": 50,
+      "frequency": 3000,
+      "enemies": [
+        "EX_KRABBIT"
+      ],
+      "biomeEnemies": {
+        "Biome_Explosion": [
+          "EX_SIGRABLU_EXPLO_SOLID",
+          "SHADERED_SOLID",
+          "EX_SHADEYELLOW_SOLID"
+        ],
+        "Biome_Shooters": [
+          "EX_SKELEBEAN_O",
+          "EX_SKELEBEAN_P",
+          "EX_SKELEBEAN_Y",
+          "EX_SKELEBEAN_G",
+          "EX_SKELEBEAN_B"
+        ],
+        "Biome_Ghosts": [
+          "GHOST",
+          "GHOST2",
+          "EX_YGHOST"
+        ],
+        "Biome_Yellow_Left": [
+          "EX_SCUTUM_MASK3"
+        ],
+        "Biome_Yellow_Right": [
+          "EX_SCUTUM_MASK3"
+        ]
+      },
+      "bosses": [],
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 100,
+          "moreX": 1,
+          "moreY": "EX_SHADEYELLOW"
+        }
+      ]
+    },
+    {
+      "minute": 1,
+      "minimum": 80,
+      "frequency": 3000,
+      "enemies": [
+        "EX_KRABBIT"
+      ]
+    },
+    {
+      "minute": 2,
+      "minimum": 100,
+      "frequency": 4000,
+      "enemies": [
+        "EX_KRABBIT",
+        "EX_SCUTUM_SKELETON1"
+      ],
+      "events": [
+        {
+          "eventType": "MEDUSA_WALL",
+          "moreX": 6,
+          "moreY": "MEDUSA1"
+        },
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 12,
+          "moreY": "MEDUSA1",
+          "delay": 5000,
+          "chance": 70,
+          "repeat": 4
+        }
+      ]
+    },
+    {
+      "minute": 3,
+      "minimum": 60,
+      "frequency": 4000,
+      "enemies": [
+        "EX_SCUTUM_TAURUS1"
+      ],
+      "bosses": [
+        "EX_SCUTUM_TAURUS2"
+      ],
+      "treasure": {
+        "chances": [
+          0.1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 4,
+      "minimum": 110,
+      "frequency": 4000,
+      "enemies": [
+        "EX_KRABBIT",
+        "EX_SCUTUM_TAURUS1"
+      ]
+    },
+    {
+      "minute": 5,
+      "minimum": 100,
+      "frequency": 4000,
+      "enemies": [
+        "EX_SCUTUM_TAURUS1"
+      ],
+      "bosses": [
+        "EX_SCUTUM_TAURUS2"
+      ],
+      "events": [
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "chance": 0,
+          "duration": 30000,
+          "moreX": 100,
+          "moreY": "EX_SCUTUM_FLOWER",
+          "moreZ": 0.9
+        }
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 6,
+      "minimum": 30,
+      "frequency": 2000,
+      "enemies": [
+        "EX_SCUTUM_ARMOR1",
+        "EX_SCUTUM_SKELETON1"
+      ],
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 10000,
+          "chance": 50,
+          "repeat": 4,
+          "moreX": 1,
+          "moreY": "EX_SHADEYELLOW"
+        }
+      ],
+      "arcanaHolder": "EX_BOSS_ARCHON3",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 7,
+      "minimum": 80,
+      "frequency": 2000,
+      "enemies": [
+        "EX_SCUTUM_ARMOR1",
+        "EX_SCUTUM_SKELETON1",
+        "EX_SCUTUM_SKELETON2"
+      ],
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 5000,
+          "chance": 80,
+          "repeat": 8,
+          "moreX": 1,
+          "moreY": "EX_SHADEYELLOW"
+        }
+      ]
+    },
+    {
+      "minute": 8,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "EX_SCUTUM_SKELETON2",
+        "EX_YGHOST"
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON1"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          50
+        ],
+        "level": 2,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 9,
+      "minimum": 200,
+      "frequency": 500,
+      "enemies": [
+        "EX_SCUTUM_TAURUS1",
+        "EX_YGHOST"
+      ],
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 20000,
+          "chance": 50,
+          "repeat": 2,
+          "moreX": 2,
+          "moreY": "EX_SHADEYELLOW"
+        }
+      ]
+    },
+    {
+      "minute": 10,
+      "minimum": 100,
+      "frequency": 500,
+      "enemies": [
+        "EX_SCUTUM_SKELETON2"
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON2"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "moreX": 1,
+          "moreY": "EX_SHADEYELLOW"
+        },
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 10000,
+          "chance": 80,
+          "repeat": 3,
+          "moreX": 2,
+          "moreY": "EX_SHADEYELLOW"
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "moreX": 100,
+          "moreY": "EX_SCUTUM_FLOWER",
+          "moreZ": 0.9
+        }
+      ],
+      "arcanaHolder": "EX_BOSS_ARCHON3",
+      "arcanaTreasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVO_ARCANA",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 11,
+      "minimum": 120,
+      "frequency": 2000,
+      "enemies": [
+        "MEDUSA2",
+        "EX_SCUTUM_SNAKES"
+      ],
+      "bosses": [
+        "BOSS_MEDUSA1"
+      ],
+      "treasure": {
+        "chances": [
+          0,
+          0,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_WEAPON",
+          "EXISTING_WEAPON"
+        ]
+      }
+    },
+    {
+      "minute": 12,
+      "minimum": 80,
+      "frequency": 1000,
+      "enemies": [
+        "MEDUSA2",
+        "EX_SCUTUM_ARMOR1"
+      ],
+      "events": [
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 12,
+          "moreY": "MEDUSA1_FAST"
+        },
+        {
+          "eventType": "MEDUSA_WALL",
+          "moreX": 12,
+          "moreY": "MEDUSA1",
+          "delay": 5000,
+          "chance": 70,
+          "repeat": 5
+        }
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON3"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 13,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "EX_SCUTUM_TAURUS1",
+        "EX_SCUTUM_ARMOR1"
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON3"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 14,
+      "minimum": 300,
+      "frequency": 100,
+      "enemies": [
+        "EX_SCUTUM_TAURUS1",
+        "MEDUSA2",
+        "EX_SCUTUM_SKELETON2"
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON3"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 15,
+      "minimum": 100,
+      "frequency": 100,
+      "enemies": [
+        "MEDUSA2_AGGRO"
+      ],
+      "bosses": [
+        "EX_BOSS_GORGONZOLA"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      },
+      "events": [
+        {
+          "eventType": "MEDUSA_WALL",
+          "moreX": 12,
+          "moreY": "MEDUSA1_FAST"
+        },
+        {
+          "eventType": "MEDUSA_WALL",
+          "moreX": 6,
+          "moreY": "MEDUSA2",
+          "delay": 13000
+        },
+        {
+          "eventType": "MEDUSA_SWARM",
+          "moreX": 12,
+          "moreY": "MEDUSA1_FAST",
+          "delay": 2000,
+          "chance": 90,
+          "repeat": 25
+        },
+        {
+          "eventType": "GENERIC_CIRCLE",
+          "chance": 80,
+          "moreX": 100,
+          "moreY": "EX_SCUTUM_FLOWER",
+          "moreZ": 0.9
+        }
+      ]
+    },
+    {
+      "minute": 16,
+      "minimum": 100,
+      "frequency": 1000,
+      "enemies": [
+        "EX_GORGONZOLA",
+        "EX_SCUTUM_ARMOR1",
+        "EX_SCUTUM_ARMOR2"
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON3"
+      ],
+      "treasure": {
+        "chances": [
+          1,
+          5,
+          50
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 17,
+      "minimum": 200,
+      "frequency": 1000,
+      "enemies": [
+        "EX_GORGONZOLA",
+        "EX_SCUTUM_SKELETON2",
+        "EX_SCUTUM_SKELETON1"
+      ],
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 5000,
+          "chance": 50,
+          "repeat": 4,
+          "moreX": 3,
+          "moreY": "EX_SHADEYELLOW"
+        }
+      ]
+    },
+    {
+      "minute": 18,
+      "minimum": 60,
+      "frequency": 500,
+      "enemies": [
+        "EX_GORGONZOLA",
+        "EX_SCUTUM_SNAKES"
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON4"
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 19,
+      "minimum": 120,
+      "frequency": 500,
+      "enemies": [
+        "EX_GORGONZOLA",
+        "EX_SCUTUM_ARMOR2"
+      ],
+      "bosses": [
+        "EX_BOSS_ARCHON5"
+      ],
+      "events": [
+        {
+          "eventType": "SHADE_BOMB_RED",
+          "delay": 2000,
+          "chance": 50,
+          "repeat": 25,
+          "moreX": 2,
+          "moreY": "EX_SHADEYELLOW"
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "moreX": 1
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 5000,
+          "moreX": 2
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 15000,
+          "moreX": 4
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 25000,
+          "moreX": 8
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 35000,
+          "moreX": 16
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 45000,
+          "moreX": 32
+        },
+        {
+          "eventType": "SKULL_SWARM",
+          "delay": 55000,
+          "moreX": 32
+        }
+      ],
+      "treasure": {
+        "chances": [
+          3,
+          10,
+          100
+        ],
+        "level": 1,
+        "prizeTypes": [
+          "EVOLUTION",
+          "EVOLUTION",
+          "EVOLUTION",
+          "EXISTING_ANY",
+          "EXISTING_ANY"
+        ]
+      }
+    },
+    {
+      "minute": 20,
+      "minimum": 1,
+      "frequency": 10000,
+      "enemies": [],
+      "bosses": [
+        "BOSS_XLDEATH"
+      ],
+      "events": [
+        {
+          "eventType": "CYCLE_COMPLETE"
+        }
+      ]
+    }
+  ],
+  "SPAZIE": [
+    {
+      "order": 1140,
       "stageKey": "SPAZIE",
       "hidden": true,
       "unlocked": false,
@@ -9491,7 +10229,7 @@
   ],
   "CARLOCART": [
     {
-      "order": 1140,
+      "order": 1150,
       "alwaysHidden": false,
       "hidden": true,
       "unlocked": false,

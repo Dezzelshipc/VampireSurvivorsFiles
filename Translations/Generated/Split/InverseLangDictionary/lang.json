@@ -2739,6 +2739,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Curse is reduced by %0%.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": "Projectiles bounce %0 more time.\\n"
+    },
     "law_sheatedpower": {
       "_value": "SHEATHED POWER LAW",
       "description": {
@@ -2778,13 +2781,25 @@
     "law_forebodingascetic": {
       "_value": "FOREBODING ASCETIC LAW",
       "description": {
-        "_value": "Puts a cap on Level at 80. Cannot gain Golden Eggs."
+        "_value": "Puts a cap on Level at 80."
       }
     },
     "law_huntedwolf": {
       "_value": "HUNTED WOLF LAW",
       "description": {
         "_value": "Light Sources don't spawn."
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": "FOREORDAINED RAVEN LAW",
+      "description": {
+        "_value": "Synergies always appear as level up options."
+      }
+    },
+    "law_steadfastruler": {
+      "_value": "STEADFAST RULER LAW",
+      "description": {
+        "_value": "Cannot gain Golden Eggs."
       }
     }
   },
@@ -5528,6 +5543,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Malédiction : -%0 %.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "LOI POUVOIR CONTENU",
       "description": {
@@ -5571,6 +5589,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -8317,6 +8347,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "La Maledizione è ridotta del %0%.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "LEGGE POTERE GUAINA",
       "description": {
@@ -8360,6 +8393,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -11106,6 +11151,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Fluch reduziert um %0%.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "GESETZ: MACHTSCHWUND",
       "description": {
@@ -11149,6 +11197,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -13895,6 +13955,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Reduce la maldición un %0 %.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "LEY DE PODER OCULTO",
       "description": {
@@ -13938,6 +14001,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -16684,6 +16759,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Maldição reduzida em %0%.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "LEI DO PODER OCULTO",
       "description": {
@@ -16727,6 +16805,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -19473,6 +19563,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Klątwa mniejsza o %0%.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "PRAWO UKRYTEJ MOCY",
       "description": {
@@ -19516,6 +19609,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -22262,6 +22367,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Проклятие снижается на %0%.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "ЗАКОН СКРЫТОЙ СИЛЫ",
       "description": {
@@ -22305,6 +22413,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -25051,6 +25171,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Lanet %0% azaldı.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "KILIFLI GÜÇ YASASI",
       "description": {
@@ -25094,6 +25217,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -27840,6 +27975,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "诅咒-%0%。\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "入鞘之力定律",
       "description": {
@@ -27883,6 +28021,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -30629,6 +30779,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "呪いが%0%減少する。\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "鞘に秘めし力の法則",
       "description": {
@@ -30672,6 +30825,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -33418,6 +33583,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "저주가 %0% 감소합니다.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "칼집 속 힘의 법칙",
       "description": {
@@ -33461,6 +33629,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -36207,6 +36387,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "詛咒降低 %0%。\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "藏鋒法則",
       "description": {
@@ -36250,6 +36433,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null
@@ -38996,6 +39191,9 @@
     "weaponLevelUp_curseReduction": {
       "_value": "Знижує прокляття на %0%.\\n"
     },
+    "weaponLevelUp_bounces": {
+      "_value": null
+    },
     "law_sheatedpower": {
       "_value": "ЗАКОН СКУТОЇ СИЛИ",
       "description": {
@@ -39039,6 +39237,18 @@
       }
     },
     "law_huntedwolf": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_foreordainedraven": {
+      "_value": null,
+      "description": {
+        "_value": null
+      }
+    },
+    "law_steadfastruler": {
       "_value": null,
       "description": {
         "_value": null

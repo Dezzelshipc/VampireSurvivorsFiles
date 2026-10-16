@@ -17556,11 +17556,11 @@
         "pt-BR": "Ashtart",
         "pl": "Ashtart",
         "ru": "Аштарта",
-        "tr": "阿蚀塔特",
-        "zh-CN": "アシュタロト",
-        "ja": "애쉬타트",
-        "ko": "阿絲塔特",
-        "zh-TW": "Астарта",
+        "tr": "Ashtart",
+        "zh-CN": "阿蚀塔特",
+        "ja": "アシュタロト",
+        "ko": "애쉬타트",
+        "zh-TW": "阿絲塔特",
         "uk": "Астарта"
       }
     },
@@ -18176,7 +18176,7 @@
     },
     "description": {
       "_value": {
-        "en": "Starts and is Adept with an array of holy weapons, depending on their availability in the Collection. Lastbreath: triggers a Rosary.",
+        "en": "Starts and is Adept with an array of weapons, depending on their availability in the Collection. Lastbreath: triggers a Rosary.",
         "fr": "Commence avec et maîtrise une large gamme d'armes sacrées, en fonction de leur disponibilité dans la collection. Dernier souffle : déclenche un Chapelet.",
         "it": "Comincia con un'ampia rosa di armi sacre, in base alla loro disponibilità nella collezione, ed è abile con esse. Ultima esalazione: scatena un Rosario.",
         "de": "Beginnt und ist geschickt mit verschiedenen heiligen Waffen, je nach Verfügbarkeit in der Sammlung. Letzter Atem: löst einen Rosenkranz aus.",
@@ -18634,6 +18634,228 @@
         "ko": "피해를 받는 대신 HP를 회복하지만, 현재 제한 시간에 도달하면 사라집니다. 펄 마가타마로 시작합니다.",
         "zh-TW": "不會受到傷害，而是恢復生命值，但在存活達時間上限之後，這個免疫效果便會消失。開場時，即可獲得一個珍珠勾玉。",
         "uk": "Відновлює ОЗ замість отримання шкоди, але зникає, коли досягнуто поточного обмеження за часом. Починає з перлової магатами."
+      }
+    }
+  },
+  "AMBERBORNE": {
+    "prefix": {
+      "_value": {
+        "en": null,
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    },
+    "charName": {
+      "_value": {
+        "en": "Amberborne",
+        "fr": "Amberborne",
+        "it": "Amberborne",
+        "de": "Amberborne",
+        "es": "Amberborne",
+        "pt-BR": "Amberborne",
+        "pl": "Amberborne",
+        "ru": "Amberborne",
+        "tr": "Amberborne",
+        "zh-CN": "Amberborne",
+        "ja": "Amberborne",
+        "ko": "Amberborne",
+        "zh-TW": "Amberborne",
+        "uk": "Amberborne"
+      }
+    },
+    "surname": {
+      "_value": {
+        "en": null,
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "fr": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "it": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "de": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "es": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "pt-BR": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "pl": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "ru": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "tr": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "zh-CN": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "ja": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "ko": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "zh-TW": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window.",
+        "uk": "Bumps into everything. When moving, can retaliate by turning enemies bouncy. Vincible: has a luck-based chance to re-trigger the invulnerability window."
+      }
+    }
+  },
+  "CANNONE": {
+    "prefix": {
+      "_value": {
+        "en": null,
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    },
+    "charName": {
+      "_value": {
+        "en": "Cannone",
+        "fr": "Cannone",
+        "it": "Cannone",
+        "de": "Cannone",
+        "es": "Cannone",
+        "pt-BR": "Cannone",
+        "pl": "Cannone",
+        "ru": "Cannone",
+        "tr": "Cannone",
+        "zh-CN": "Cannone",
+        "ja": "Cannone",
+        "ko": "Cannone",
+        "zh-TW": "Cannone",
+        "uk": "Cannone"
+      }
+    },
+    "surname": {
+      "_value": {
+        "en": "Ladonna",
+        "fr": "Ladonna",
+        "it": "Ladonna",
+        "de": "Ladonna",
+        "es": "Ladonna",
+        "pt-BR": "Ladonna",
+        "pl": "Ladonna",
+        "ru": "Ladonna",
+        "tr": "Ladonna",
+        "zh-CN": "Ladonna",
+        "ja": "Ladonna",
+        "ko": "Ladonna",
+        "zh-TW": "Ladonna",
+        "uk": "Ladonna"
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "fr": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "it": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "de": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "es": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "pt-BR": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "pl": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "ru": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "tr": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "zh-CN": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "ja": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "ko": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "zh-TW": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health.",
+        "uk": "Doubles Recovery while invulnerable. Retaliation and Vincible: explodes and loses 2% current health."
+      }
+    }
+  },
+  "EX_SEFIROTTO": {
+    "prefix": {
+      "_value": {
+        "en": null,
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    },
+    "charName": {
+      "_value": {
+        "en": "Real Trio",
+        "fr": "Real Trio",
+        "it": "Real Trio",
+        "de": "Real Trio",
+        "es": "Real Trio",
+        "pt-BR": "Real Trio",
+        "pl": "Real Trio",
+        "ru": "Real Trio",
+        "tr": "Real Trio",
+        "zh-CN": "Real Trio",
+        "ja": "Real Trio",
+        "ko": "Real Trio",
+        "zh-TW": "Real Trio",
+        "uk": "Real Trio"
+      }
+    },
+    "surname": {
+      "_value": {
+        "en": null,
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "fr": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "it": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "de": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "es": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "pt-BR": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "pl": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "ru": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "tr": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "zh-CN": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "ja": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "ko": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "zh-TW": "Charge ability affected by Duration: a mighty sword sweeps the battlefield.",
+        "uk": "Charge ability affected by Duration: a mighty sword sweeps the battlefield."
       }
     }
   }

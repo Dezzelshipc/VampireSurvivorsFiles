@@ -117,5 +117,19 @@
     "hitFrameName": "HitGreen1.png",
     "impactFrameName": "HitGreen2.png",
     "duration": 120
+  },
+  "17": {
+    "isTintFill": true,
+    "targetTint": 16711680,
+    "hitFrameName": "Blood1.png",
+    "impactFrameName": "Blood3.png",
+    "duration": 30
+  },
+  "18": {
+    "isTintFill": true,
+    "targetTint": 16766720,
+    "hitFrameName": "Burst4.png",
+    "impactFrameName": "blurredSharpStar.png",
+    "duration": 60
   }
 }

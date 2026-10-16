@@ -19913,12 +19913,12 @@
         "TimeLimit": 900,
         "ClockSpeed": 1,
         "PlayerPxSpeed": 1.4,
-        "EnemySpeed": 1.4,
+        "EnemySpeed": 1,
         "ProjectileSpeed": 1,
         "GoldMultiplier": 1.5,
         "EnemyHealthMultiplier": 1,
         "LuckBonus": 0,
-        "XPBonus": 1
+        "XPBonus": 1.25
       },
       "hyper": {
         "unlocked": true,

@@ -26723,22 +26723,800 @@
       }
     }
   },
-  "": {
-    "_value": {
-      "en": null,
-      "fr": null,
-      "it": null,
-      "de": null,
-      "es": null,
-      "pt-BR": null,
-      "pl": null,
-      "ru": null,
-      "tr": null,
-      "zh-CN": null,
-      "ja": null,
-      "ko": null,
-      "zh-TW": null,
-      "uk": null
+  "EX_HAMMER1": {
+    "name": {
+      "_value": {
+        "en": "Mart-Hello",
+        "fr": "Mart-Hello",
+        "it": "Mart-Hello",
+        "de": "Mart-Hello",
+        "es": "Mart-Hello",
+        "pt-BR": "Mart-Hello",
+        "pl": "Mart-Hello",
+        "ru": "Mart-Hello",
+        "tr": "Mart-Hello",
+        "zh-CN": "Mart-Hello",
+        "ja": "Mart-Hello",
+        "ko": "Mart-Hello",
+        "zh-TW": "Mart-Hello",
+        "uk": "Mart-Hello"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Best with: Luck.",
+        "fr": "Best with: Luck.",
+        "it": "Best with: Luck.",
+        "de": "Best with: Luck.",
+        "es": "Best with: Luck.",
+        "pt-BR": "Best with: Luck.",
+        "pl": "Best with: Luck.",
+        "ru": "Best with: Luck.",
+        "tr": "Best with: Luck.",
+        "zh-CN": "Best with: Luck.",
+        "ja": "Best with: Luck.",
+        "ko": "Best with: Luck.",
+        "zh-TW": "Best with: Luck.",
+        "uk": "Best with: Luck."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy. Can deal Luck-based critical damage.",
+        "fr": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "it": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "de": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "es": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "pt-BR": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "pl": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "ru": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "tr": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "zh-CN": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "ja": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "ko": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "zh-TW": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "uk": "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      }
+    }
+  },
+  "EX_HAMMER2": {
+    "name": {
+      "_value": {
+        "en": "Hammer-Dah",
+        "fr": "Hammer-Dah",
+        "it": "Hammer-Dah",
+        "de": "Hammer-Dah",
+        "es": "Hammer-Dah",
+        "pt-BR": "Hammer-Dah",
+        "pl": "Hammer-Dah",
+        "ru": "Hammer-Dah",
+        "tr": "Hammer-Dah",
+        "zh-CN": "Hammer-Dah",
+        "ja": "Hammer-Dah",
+        "ko": "Hammer-Dah",
+        "zh-TW": "Hammer-Dah",
+        "uk": "Hammer-Dah"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Requires Max: Parm Agis.",
+        "fr": "Requires Max: Parm Agis.",
+        "it": "Requires Max: Parm Agis.",
+        "de": "Requires Max: Parm Agis.",
+        "es": "Requires Max: Parm Agis.",
+        "pt-BR": "Requires Max: Parm Agis.",
+        "pl": "Requires Max: Parm Agis.",
+        "ru": "Requires Max: Parm Agis.",
+        "tr": "Requires Max: Parm Agis.",
+        "zh-CN": "Requires Max: Parm Agis.",
+        "ja": "Requires Max: Parm Agis.",
+        "ko": "Requires Max: Parm Agis.",
+        "zh-TW": "Requires Max: Parm Agis.",
+        "uk": "Requires Max: Parm Agis."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "fr": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "it": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "de": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "es": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "pt-BR": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "pl": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "ru": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "tr": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "zh-CN": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "ja": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "ko": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "zh-TW": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "uk": "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      }
+    }
+  },
+  "EX_CANNON1": {
+    "name": {
+      "_value": {
+        "en": "Garneton",
+        "fr": "Garneton",
+        "it": "Garneton",
+        "de": "Garneton",
+        "es": "Garneton",
+        "pt-BR": "Garneton",
+        "pl": "Garneton",
+        "ru": "Garneton",
+        "tr": "Garneton",
+        "zh-CN": "Garneton",
+        "ja": "Garneton",
+        "ko": "Garneton",
+        "zh-TW": "Garneton",
+        "uk": "Garneton"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Best with: Duration, Amount.",
+        "fr": "Best with: Duration, Amount.",
+        "it": "Best with: Duration, Amount.",
+        "de": "Best with: Duration, Amount.",
+        "es": "Best with: Duration, Amount.",
+        "pt-BR": "Best with: Duration, Amount.",
+        "pl": "Best with: Duration, Amount.",
+        "ru": "Best with: Duration, Amount.",
+        "tr": "Best with: Duration, Amount.",
+        "zh-CN": "Best with: Duration, Amount.",
+        "ja": "Best with: Duration, Amount.",
+        "ko": "Best with: Duration, Amount.",
+        "zh-TW": "Best with: Duration, Amount.",
+        "uk": "Best with: Duration, Amount."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Fires a volley of bouncy cannonballs.",
+        "fr": "Fires a volley of bouncy cannonballs.",
+        "it": "Fires a volley of bouncy cannonballs.",
+        "de": "Fires a volley of bouncy cannonballs.",
+        "es": "Fires a volley of bouncy cannonballs.",
+        "pt-BR": "Fires a volley of bouncy cannonballs.",
+        "pl": "Fires a volley of bouncy cannonballs.",
+        "ru": "Fires a volley of bouncy cannonballs.",
+        "tr": "Fires a volley of bouncy cannonballs.",
+        "zh-CN": "Fires a volley of bouncy cannonballs.",
+        "ja": "Fires a volley of bouncy cannonballs.",
+        "ko": "Fires a volley of bouncy cannonballs.",
+        "zh-TW": "Fires a volley of bouncy cannonballs.",
+        "uk": "Fires a volley of bouncy cannonballs."
+      }
+    }
+  },
+  "EX_CANNON2": {
+    "name": {
+      "_value": {
+        "en": "Carnagon Heart",
+        "fr": "Carnagon Heart",
+        "it": "Carnagon Heart",
+        "de": "Carnagon Heart",
+        "es": "Carnagon Heart",
+        "pt-BR": "Carnagon Heart",
+        "pl": "Carnagon Heart",
+        "ru": "Carnagon Heart",
+        "tr": "Carnagon Heart",
+        "zh-CN": "Carnagon Heart",
+        "ja": "Carnagon Heart",
+        "ko": "Carnagon Heart",
+        "zh-TW": "Carnagon Heart",
+        "uk": "Carnagon Heart"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Requires Max: Spinach.",
+        "fr": "Requires Max: Spinach.",
+        "it": "Requires Max: Spinach.",
+        "de": "Requires Max: Spinach.",
+        "es": "Requires Max: Spinach.",
+        "pt-BR": "Requires Max: Spinach.",
+        "pl": "Requires Max: Spinach.",
+        "ru": "Requires Max: Spinach.",
+        "tr": "Requires Max: Spinach.",
+        "zh-CN": "Requires Max: Spinach.",
+        "ja": "Requires Max: Spinach.",
+        "ko": "Requires Max: Spinach.",
+        "zh-TW": "Requires Max: Spinach.",
+        "uk": "Requires Max: Spinach."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "fr": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "it": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "de": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "es": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "pt-BR": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "pl": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "ru": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "tr": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "zh-CN": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "ja": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "ko": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "zh-TW": "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "uk": "Evolved Garneton. Cannonballs pierce enemies and explode."
+      }
+    }
+  },
+  "EX_VERGAMENA1": {
+    "name": {
+      "_value": {
+        "en": "Vergamena",
+        "fr": "Vergamena",
+        "it": "Vergamena",
+        "de": "Vergamena",
+        "es": "Vergamena",
+        "pt-BR": "Vergamena",
+        "pl": "Vergamena",
+        "ru": "Vergamena",
+        "tr": "Vergamena",
+        "zh-CN": "Vergamena",
+        "ja": "Vergamena",
+        "ko": "Vergamena",
+        "zh-TW": "Vergamena",
+        "uk": "Vergamena"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": null,
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "fr": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "it": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "de": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "es": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "pt-BR": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "pl": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "ru": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "tr": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "zh-CN": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "ja": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "ko": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "zh-TW": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "uk": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      }
+    }
+  },
+  "EX_VERGAMENA2": {
+    "name": {
+      "_value": {
+        "en": "One Disserting Angel",
+        "fr": "One Disserting Angel",
+        "it": "One Disserting Angel",
+        "de": "One Disserting Angel",
+        "es": "One Disserting Angel",
+        "pt-BR": "One Disserting Angel",
+        "pl": "One Disserting Angel",
+        "ru": "One Disserting Angel",
+        "tr": "One Disserting Angel",
+        "zh-CN": "One Disserting Angel",
+        "ja": "One Disserting Angel",
+        "ko": "One Disserting Angel",
+        "zh-TW": "One Disserting Angel",
+        "uk": "One Disserting Angel"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Requires: Tetraforce.",
+        "fr": "Requires: Tetraforce.",
+        "it": "Requires: Tetraforce.",
+        "de": "Requires: Tetraforce.",
+        "es": "Requires: Tetraforce.",
+        "pt-BR": "Requires: Tetraforce.",
+        "pl": "Requires: Tetraforce.",
+        "ru": "Requires: Tetraforce.",
+        "tr": "Requires: Tetraforce.",
+        "zh-CN": "Requires: Tetraforce.",
+        "ja": "Requires: Tetraforce.",
+        "ko": "Requires: Tetraforce.",
+        "zh-TW": "Requires: Tetraforce.",
+        "uk": "Requires: Tetraforce."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "fr": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "it": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "de": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "es": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "pt-BR": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "pl": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "ru": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "tr": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "zh-CN": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "ja": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "ko": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "zh-TW": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "uk": "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      }
+    }
+  },
+  "EX_AMIMIC1": {
+    "name": {
+      "_value": {
+        "en": "Amimic",
+        "fr": "Amimic",
+        "it": "Amimic",
+        "de": "Amimic",
+        "es": "Amimic",
+        "pt-BR": "Amimic",
+        "pl": "Amimic",
+        "ru": "Amimic",
+        "tr": "Amimic",
+        "zh-CN": "Amimic",
+        "ja": "Amimic",
+        "ko": "Amimic",
+        "zh-TW": "Amimic",
+        "uk": "Amimic"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": null,
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "fr": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "it": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "de": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "es": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "pt-BR": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "pl": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "ru": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "tr": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "zh-CN": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "ja": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "ko": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "zh-TW": "[Gift] Friendly treasure chest mimic provides moral support.",
+        "uk": "[Gift] Friendly treasure chest mimic provides moral support."
+      }
+    },
+    "description2": {
+      "_value": {
+        "en": "Prevents loss of gold coins from weapon effects and events.",
+        "fr": "Prevents loss of gold coins from weapon effects and events.",
+        "it": "Prevents loss of gold coins from weapon effects and events.",
+        "de": "Prevents loss of gold coins from weapon effects and events.",
+        "es": "Prevents loss of gold coins from weapon effects and events.",
+        "pt-BR": "Prevents loss of gold coins from weapon effects and events.",
+        "pl": "Prevents loss of gold coins from weapon effects and events.",
+        "ru": "Prevents loss of gold coins from weapon effects and events.",
+        "tr": "Prevents loss of gold coins from weapon effects and events.",
+        "zh-CN": "Prevents loss of gold coins from weapon effects and events.",
+        "ja": "Prevents loss of gold coins from weapon effects and events.",
+        "ko": "Prevents loss of gold coins from weapon effects and events.",
+        "zh-TW": "Prevents loss of gold coins from weapon effects and events.",
+        "uk": "Prevents loss of gold coins from weapon effects and events."
+      }
+    },
+    "description3": {
+      "_value": {
+        "en": "Allows exotic Amimics to show up as level up options.",
+        "fr": "Allows exotic Amimics to show up as level up options.",
+        "it": "Allows exotic Amimics to show up as level up options.",
+        "de": "Allows exotic Amimics to show up as level up options.",
+        "es": "Allows exotic Amimics to show up as level up options.",
+        "pt-BR": "Allows exotic Amimics to show up as level up options.",
+        "pl": "Allows exotic Amimics to show up as level up options.",
+        "ru": "Allows exotic Amimics to show up as level up options.",
+        "tr": "Allows exotic Amimics to show up as level up options.",
+        "zh-CN": "Allows exotic Amimics to show up as level up options.",
+        "ja": "Allows exotic Amimics to show up as level up options.",
+        "ko": "Allows exotic Amimics to show up as level up options.",
+        "zh-TW": "Allows exotic Amimics to show up as level up options.",
+        "uk": "Allows exotic Amimics to show up as level up options."
+      }
+    }
+  },
+  "EX_AMIMIC2": {
+    "name": {
+      "_value": {
+        "en": "Amimic Apollo",
+        "fr": "Amimic Apollo",
+        "it": "Amimic Apollo",
+        "de": "Amimic Apollo",
+        "es": "Amimic Apollo",
+        "pt-BR": "Amimic Apollo",
+        "pl": "Amimic Apollo",
+        "ru": "Amimic Apollo",
+        "tr": "Amimic Apollo",
+        "zh-CN": "Amimic Apollo",
+        "ja": "Amimic Apollo",
+        "ko": "Amimic Apollo",
+        "zh-TW": "Amimic Apollo",
+        "uk": "Amimic Apollo"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Only available through Amimic.",
+        "fr": "Only available through Amimic.",
+        "it": "Only available through Amimic.",
+        "de": "Only available through Amimic.",
+        "es": "Only available through Amimic.",
+        "pt-BR": "Only available through Amimic.",
+        "pl": "Only available through Amimic.",
+        "ru": "Only available through Amimic.",
+        "tr": "Only available through Amimic.",
+        "zh-CN": "Only available through Amimic.",
+        "ja": "Only available through Amimic.",
+        "ko": "Only available through Amimic.",
+        "zh-TW": "Only available through Amimic.",
+        "uk": "Only available through Amimic."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "fr": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "it": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "de": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "es": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "pt-BR": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "pl": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "ru": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "tr": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "zh-CN": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "ja": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "ko": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "zh-TW": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "uk": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      }
+    },
+    "description2": {
+      "_value": {
+        "en": "Makes Treasure Chests follow you if you walk away from them.",
+        "fr": "Makes Treasure Chests follow you if you walk away from them.",
+        "it": "Makes Treasure Chests follow you if you walk away from them.",
+        "de": "Makes Treasure Chests follow you if you walk away from them.",
+        "es": "Makes Treasure Chests follow you if you walk away from them.",
+        "pt-BR": "Makes Treasure Chests follow you if you walk away from them.",
+        "pl": "Makes Treasure Chests follow you if you walk away from them.",
+        "ru": "Makes Treasure Chests follow you if you walk away from them.",
+        "tr": "Makes Treasure Chests follow you if you walk away from them.",
+        "zh-CN": "Makes Treasure Chests follow you if you walk away from them.",
+        "ja": "Makes Treasure Chests follow you if you walk away from them.",
+        "ko": "Makes Treasure Chests follow you if you walk away from them.",
+        "zh-TW": "Makes Treasure Chests follow you if you walk away from them.",
+        "uk": "Makes Treasure Chests follow you if you walk away from them."
+      }
+    },
+    "description3": {
+      "_value": {
+        "en": "Makes you invulnerable during Gold Fever.",
+        "fr": "Makes you invulnerable during Gold Fever.",
+        "it": "Makes you invulnerable during Gold Fever.",
+        "de": "Makes you invulnerable during Gold Fever.",
+        "es": "Makes you invulnerable during Gold Fever.",
+        "pt-BR": "Makes you invulnerable during Gold Fever.",
+        "pl": "Makes you invulnerable during Gold Fever.",
+        "ru": "Makes you invulnerable during Gold Fever.",
+        "tr": "Makes you invulnerable during Gold Fever.",
+        "zh-CN": "Makes you invulnerable during Gold Fever.",
+        "ja": "Makes you invulnerable during Gold Fever.",
+        "ko": "Makes you invulnerable during Gold Fever.",
+        "zh-TW": "Makes you invulnerable during Gold Fever.",
+        "uk": "Makes you invulnerable during Gold Fever."
+      }
+    }
+  },
+  "EX_AMIMIC3": {
+    "name": {
+      "_value": {
+        "en": "Amimic Omega",
+        "fr": "Amimic Omega",
+        "it": "Amimic Omega",
+        "de": "Amimic Omega",
+        "es": "Amimic Omega",
+        "pt-BR": "Amimic Omega",
+        "pl": "Amimic Omega",
+        "ru": "Amimic Omega",
+        "tr": "Amimic Omega",
+        "zh-CN": "Amimic Omega",
+        "ja": "Amimic Omega",
+        "ko": "Amimic Omega",
+        "zh-TW": "Amimic Omega",
+        "uk": "Amimic Omega"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Only available through Amimic.",
+        "fr": "Only available through Amimic.",
+        "it": "Only available through Amimic.",
+        "de": "Only available through Amimic.",
+        "es": "Only available through Amimic.",
+        "pt-BR": "Only available through Amimic.",
+        "pl": "Only available through Amimic.",
+        "ru": "Only available through Amimic.",
+        "tr": "Only available through Amimic.",
+        "zh-CN": "Only available through Amimic.",
+        "ja": "Only available through Amimic.",
+        "ko": "Only available through Amimic.",
+        "zh-TW": "Only available through Amimic.",
+        "uk": "Only available through Amimic."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "fr": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "it": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "de": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "es": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "pt-BR": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "pl": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ru": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "tr": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "zh-CN": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ja": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ko": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "zh-TW": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "uk": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "description2": {
+      "_value": {
+        "en": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "fr": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "it": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "de": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "es": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "pt-BR": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "pl": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ru": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "tr": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "zh-CN": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ja": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ko": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "zh-TW": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "uk": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    },
+    "description3": {
+      "_value": {
+        "en": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "fr": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "it": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "de": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "es": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "pt-BR": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "pl": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ru": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "tr": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "zh-CN": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ja": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "ko": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "zh-TW": "[Gift] Its vigilance grants a selection of temporary shields.",
+        "uk": "[Gift] Its vigilance grants a selection of temporary shields."
+      }
+    }
+  },
+  "EX_AMIMIC4": {
+    "name": {
+      "_value": {
+        "en": "Amimic Valkyrie",
+        "fr": "Amimic Valkyrie",
+        "it": "Amimic Valkyrie",
+        "de": "Amimic Valkyrie",
+        "es": "Amimic Valkyrie",
+        "pt-BR": "Amimic Valkyrie",
+        "pl": "Amimic Valkyrie",
+        "ru": "Amimic Valkyrie",
+        "tr": "Amimic Valkyrie",
+        "zh-CN": "Amimic Valkyrie",
+        "ja": "Amimic Valkyrie",
+        "ko": "Amimic Valkyrie",
+        "zh-TW": "Amimic Valkyrie",
+        "uk": "Amimic Valkyrie"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Only available through Amimic.",
+        "fr": "Only available through Amimic.",
+        "it": "Only available through Amimic.",
+        "de": "Only available through Amimic.",
+        "es": "Only available through Amimic.",
+        "pt-BR": "Only available through Amimic.",
+        "pl": "Only available through Amimic.",
+        "ru": "Only available through Amimic.",
+        "tr": "Only available through Amimic.",
+        "zh-CN": "Only available through Amimic.",
+        "ja": "Only available through Amimic.",
+        "ko": "Only available through Amimic.",
+        "zh-TW": "Only available through Amimic.",
+        "uk": "Only available through Amimic."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "fr": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "it": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "de": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "es": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "pt-BR": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "pl": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "ru": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "tr": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "zh-CN": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "ja": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "ko": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "zh-TW": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "uk": "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      }
+    },
+    "description2": {
+      "_value": {
+        "en": "Earn 100 gold coins to gain an extra passive slot.",
+        "fr": "Earn 100 gold coins to gain an extra passive slot.",
+        "it": "Earn 100 gold coins to gain an extra passive slot.",
+        "de": "Earn 100 gold coins to gain an extra passive slot.",
+        "es": "Earn 100 gold coins to gain an extra passive slot.",
+        "pt-BR": "Earn 100 gold coins to gain an extra passive slot.",
+        "pl": "Earn 100 gold coins to gain an extra passive slot.",
+        "ru": "Earn 100 gold coins to gain an extra passive slot.",
+        "tr": "Earn 100 gold coins to gain an extra passive slot.",
+        "zh-CN": "Earn 100 gold coins to gain an extra passive slot.",
+        "ja": "Earn 100 gold coins to gain an extra passive slot.",
+        "ko": "Earn 100 gold coins to gain an extra passive slot.",
+        "zh-TW": "Earn 100 gold coins to gain an extra passive slot.",
+        "uk": "Earn 100 gold coins to gain an extra passive slot."
+      }
+    },
+    "description3": {
+      "_value": {
+        "en": "Earn 1000 gold coins to gain an extra passive slot.",
+        "fr": "Earn 1000 gold coins to gain an extra passive slot.",
+        "it": "Earn 1000 gold coins to gain an extra passive slot.",
+        "de": "Earn 1000 gold coins to gain an extra passive slot.",
+        "es": "Earn 1000 gold coins to gain an extra passive slot.",
+        "pt-BR": "Earn 1000 gold coins to gain an extra passive slot.",
+        "pl": "Earn 1000 gold coins to gain an extra passive slot.",
+        "ru": "Earn 1000 gold coins to gain an extra passive slot.",
+        "tr": "Earn 1000 gold coins to gain an extra passive slot.",
+        "zh-CN": "Earn 1000 gold coins to gain an extra passive slot.",
+        "ja": "Earn 1000 gold coins to gain an extra passive slot.",
+        "ko": "Earn 1000 gold coins to gain an extra passive slot.",
+        "zh-TW": "Earn 1000 gold coins to gain an extra passive slot.",
+        "uk": "Earn 1000 gold coins to gain an extra passive slot."
+      }
+    }
+  },
+  "EX_AMIMIC5": {
+    "name": {
+      "_value": {
+        "en": "Amimic Hephaestus",
+        "fr": "Amimic Hephaestus",
+        "it": "Amimic Hephaestus",
+        "de": "Amimic Hephaestus",
+        "es": "Amimic Hephaestus",
+        "pt-BR": "Amimic Hephaestus",
+        "pl": "Amimic Hephaestus",
+        "ru": "Amimic Hephaestus",
+        "tr": "Amimic Hephaestus",
+        "zh-CN": "Amimic Hephaestus",
+        "ja": "Amimic Hephaestus",
+        "ko": "Amimic Hephaestus",
+        "zh-TW": "Amimic Hephaestus",
+        "uk": "Amimic Hephaestus"
+      }
+    },
+    "tips": {
+      "_value": {
+        "en": "Only available through Amimic.",
+        "fr": "Only available through Amimic.",
+        "it": "Only available through Amimic.",
+        "de": "Only available through Amimic.",
+        "es": "Only available through Amimic.",
+        "pt-BR": "Only available through Amimic.",
+        "pl": "Only available through Amimic.",
+        "ru": "Only available through Amimic.",
+        "tr": "Only available through Amimic.",
+        "zh-CN": "Only available through Amimic.",
+        "ja": "Only available through Amimic.",
+        "ko": "Only available through Amimic.",
+        "zh-TW": "Only available through Amimic.",
+        "uk": "Only available through Amimic."
+      }
+    },
+    "description": {
+      "_value": {
+        "en": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "fr": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "it": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "de": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "es": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "pt-BR": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "pl": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "ru": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "tr": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "zh-CN": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "ja": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "ko": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "zh-TW": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "uk": "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      }
+    },
+    "description2": {
+      "_value": {
+        "en": "Doubles the duration of Nduja Fritta.",
+        "fr": "Doubles the duration of Nduja Fritta.",
+        "it": "Doubles the duration of Nduja Fritta.",
+        "de": "Doubles the duration of Nduja Fritta.",
+        "es": "Doubles the duration of Nduja Fritta.",
+        "pt-BR": "Doubles the duration of Nduja Fritta.",
+        "pl": "Doubles the duration of Nduja Fritta.",
+        "ru": "Doubles the duration of Nduja Fritta.",
+        "tr": "Doubles the duration of Nduja Fritta.",
+        "zh-CN": "Doubles the duration of Nduja Fritta.",
+        "ja": "Doubles the duration of Nduja Fritta.",
+        "ko": "Doubles the duration of Nduja Fritta.",
+        "zh-TW": "Doubles the duration of Nduja Fritta.",
+        "uk": "Doubles the duration of Nduja Fritta."
+      }
+    },
+    "description3": {
+      "_value": {
+        "en": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "fr": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "it": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "de": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "es": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "pt-BR": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "pl": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "ru": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "tr": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "zh-CN": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "ja": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "ko": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "zh-TW": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "uk": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      }
     }
   }
 }

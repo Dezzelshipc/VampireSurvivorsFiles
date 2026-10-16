@@ -16433,6 +16433,24 @@
       "uk": "Знижує прокляття на %0%.\\n"
     }
   },
+  "weaponLevelUp_bounces": {
+    "_value": {
+      "en": "Projectiles bounce %0 more time.\\n",
+      "fr": null,
+      "it": null,
+      "de": null,
+      "es": null,
+      "pt-BR": null,
+      "pl": null,
+      "ru": null,
+      "tr": null,
+      "zh-CN": null,
+      "ja": null,
+      "ko": null,
+      "zh-TW": null,
+      "uk": null
+    }
+  },
   "law_sheatedpower": {
     "_value": {
       "en": "SHEATHED POWER LAW",
@@ -16668,7 +16686,7 @@
     },
     "description": {
       "_value": {
-        "en": "Puts a cap on Level at 80. Cannot gain Golden Eggs.",
+        "en": "Puts a cap on Level at 80.",
         "fr": null,
         "it": null,
         "de": null,
@@ -16705,6 +16723,78 @@
     "description": {
       "_value": {
         "en": "Light Sources don't spawn.",
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    }
+  },
+  "law_foreordainedraven": {
+    "_value": {
+      "en": "FOREORDAINED RAVEN LAW",
+      "fr": null,
+      "it": null,
+      "de": null,
+      "es": null,
+      "pt-BR": null,
+      "pl": null,
+      "ru": null,
+      "tr": null,
+      "zh-CN": null,
+      "ja": null,
+      "ko": null,
+      "zh-TW": null,
+      "uk": null
+    },
+    "description": {
+      "_value": {
+        "en": "Synergies always appear as level up options.",
+        "fr": null,
+        "it": null,
+        "de": null,
+        "es": null,
+        "pt-BR": null,
+        "pl": null,
+        "ru": null,
+        "tr": null,
+        "zh-CN": null,
+        "ja": null,
+        "ko": null,
+        "zh-TW": null,
+        "uk": null
+      }
+    }
+  },
+  "law_steadfastruler": {
+    "_value": {
+      "en": "STEADFAST RULER LAW",
+      "fr": null,
+      "it": null,
+      "de": null,
+      "es": null,
+      "pt-BR": null,
+      "pl": null,
+      "ru": null,
+      "tr": null,
+      "zh-CN": null,
+      "ja": null,
+      "ko": null,
+      "zh-TW": null,
+      "uk": null
+    },
+    "description": {
+      "_value": {
+        "en": "Cannot gain Golden Eggs.",
         "fr": null,
         "it": null,
         "de": null,

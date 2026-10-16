@@ -3835,6 +3835,344 @@
 	  "power": 2
     }
   ],
+  "EX_AMIMIC1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "hidden": false,
+      "bulletType": "EX_AMIMIC1",
+      "name": "Amimic",
+      "description": "[Gift] Friendly treasure chest mimic provides moral support.",
+      "texture": "tps_lossless_icons",
+      "frameName": "EX_AMIMIC1.png",
+      "collectionFrame": "frameB_bold.png",
+      "unexcludeSelf": true,
+      "isUnlocked": false,
+      "rarity": 20,
+      "isPowerUp": true,
+      "isSpecialOnly": false,
+      "isGift": true,
+      "useLevelDescriptions": true,
+      "sealable": true
+    },
+    {
+      "level": 2,
+      "description": "Prevents loss of gold coins from weapon effects and events."
+    },
+    {
+      "level": 3,
+      "description": "Allows exotic Amimics to show up as level up options."
+    }
+  ],
+  "EX_AMIMIC2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "hidden": false,
+      "bulletType": "EX_AMIMIC2",
+      "name": "Amimic Apollo",
+      "description": "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+      "texture": "tps_lossless_icons",
+      "frameName": "EX_AMIMIC2.png",
+      "collectionFrame": "frameB_bold.png",
+      "unexcludeSelf": true,
+      "isUnlocked": false,
+      "rarity": 20,
+      "isPowerUp": true,
+      "isSpecialOnly": true,
+      "isGift": true,
+      "useLevelDescriptions": true,
+      "sealable": true
+    },
+    {
+      "level": 2,
+      "description": "Makes Treasure Chests follow you if you walk away from them."
+    },
+    {
+      "level": 3,
+      "description": "Makes you invulnerable during Gold Fever."
+    }
+  ],
+  "EX_AMIMIC3": [
+    {
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "hidden": false,
+      "bulletType": "EX_AMIMIC3",
+      "name": "Amimic Omega",
+      "description": "[Gift] Its vigilance grants a selection of temporary shields.",
+      "texture": "tps_lossless_icons",
+      "frameName": "EX_AMIMIC3.png",
+      "collectionFrame": "frameB_bold.png",
+      "unexcludeSelf": true,
+      "isUnlocked": false,
+      "rarity": 20,
+      "isPowerUp": true,
+      "isSpecialOnly": true,
+      "isGift": true,
+      "useLevelDescriptions": true,
+      "sealable": true
+    },
+    {
+      "level": 2,
+      "description": "[Gift] Its vigilance grants a selection of temporary shields."
+    },
+    {
+      "level": 3,
+      "description": "[Gift] Its vigilance grants a selection of temporary shields."
+    }
+  ],
+  "EX_AMIMIC4": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "hidden": false,
+      "bulletType": "EX_AMIMIC4",
+      "name": "Amimic Valkyrie",
+      "description": "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+      "texture": "tps_lossless_icons",
+      "frameName": "EX_AMIMIC4.png",
+      "collectionFrame": "frameB_bold.png",
+      "unexcludeSelf": true,
+      "isUnlocked": false,
+      "rarity": 20,
+      "isPowerUp": true,
+      "isSpecialOnly": true,
+      "isGift": true,
+      "useLevelDescriptions": true,
+      "sealable": true
+    },
+    {
+      "level": 2,
+      "description": "Earn 100 gold coins to gain an extra passive slot."
+    },
+    {
+      "level": 3,
+      "description": "Earn 1000 gold coins to gain an extra passive slot."
+    }
+  ],
+  "EX_AMIMIC5": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "hidden": false,
+      "bulletType": "EX_AMIMIC5",
+      "name": "Amimic Hephaestus",
+      "description": "[Gift]Its passion melts enemies down. Doubles the base damage of Nduja Fritta.",
+      "texture": "tps_lossless_icons",
+      "frameName": "EX_AMIMIC5.png",
+      "collectionFrame": "frameB_bold.png",
+      "unexcludeSelf": true,
+      "isUnlocked": false,
+      "rarity": 20,
+      "isPowerUp": true,
+      "isSpecialOnly": true,
+      "isGift": true,
+      "useLevelDescriptions": true,
+      "sealable": true
+    },
+    {
+      "level": 2,
+      "description": "Doubles the duration of Nduja Fritta."
+    },
+    {
+      "level": 3,
+      "description": "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+    }
+  ],
+  "EX_CANNON1": [
+    {
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_CANNON1",
+      "price": 100,
+      "name": "Garneton",
+      "description": "Fires a volley of cannonballs. Duration is volley length. Amount is fire rate.",
+      "tips": "Best with: Duration, Amount.",
+      "texture": "tps_lossless_icons",
+      "frameName": "ex_cannon1.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "POWER"
+      ],
+      "evoInto": "EX_CANNON2",
+      "tags": [
+        "FIRE",
+        "BLOOD"
+      ],
+      "hitVFX": "Fire",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit":      70,
+      "rarity":         60,
+      "interval":       6000,
+      "repeatInterval": 200,
+      "power":          2,
+      "area":           1,
+      "speed":          1,
+      "amount":         1,
+      "penetrating":    1,
+      "duration":       2000,
+      "hitsWalls":      true,
+      "critChance":     0.3,
+      "critMul":        2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "penetrating": 1,
+      "area": 0.2
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "penetrating": 1,
+      "area": 0.2
+    },
+    {
+      "interval": -1000,
+      "addEvolvedWeapon": "EX_CANNON2"
+    }
+  ],
+  "EX_CANNON2": [
+    {
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_CANNON2",
+      "name": "Carnagon Heart",
+      "description": "Evolved Garneton. Explodes on pierce and bounce.",
+      "tips": "Requires Max: Spinach.",
+      "texture": "tps_lossless_icons",
+      "frameName": "ex_cannon2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EX_CANNON1"
+      ],
+      "requires": [
+        "POWER"
+      ],
+      "requiresMax": [
+        "POWER"
+      ],
+      "tags": [
+        "FIRE",
+        "BLOOD"
+      ],
+      "hitVFX": "Fire",
+      "hidden": true,
+      "isUnlocked": true,
+      "poolLimit":      70,
+      "rarity":         1,
+      "interval":       5000,
+      "repeatInterval": 200,
+      "power":          4,
+      "area":           1,
+      "speed":          1,
+      "amount":         3,
+      "penetrating":    3,
+      "duration":       2000,
+      "hitsWalls":      true,
+      "critChance":     0.3,
+      "critMul":        2,
+      "price": 3600
+    }
+  ],
+  "EX_VERGAMENA1": [
+    {
+      "alwaysHidden": true,
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_VERGAMENA1",
+      "price": 800,
+      "name": "Vergamena",
+      "description": "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+      "tips": "Best with: Duration, Speed.",
+      "texture": "tps_lossless_icons",
+      "frameName": "ex_vergamena1.png",
+      "collectionFrame": "frameB_bold.png",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 50,
+      "rarity": 20,
+      "interval":       4000,
+      "repeatInterval": 100,
+      "power":          1,
+      "area":           1,
+      "speed":          1,
+      "amount":         1,
+      "duration":       2000
+    },
+    {
+      "duration": 200,
+      "area": 0.2
+    },
+    {
+      "power": 2,
+      "amount": 1
+    },
+    {
+      "speed": 0.5,
+      "area": 0.2
+    },
+    {
+      "power": 2,
+      "amount": 1
+    },
+    {
+      "duration": 200
+    },
+    {
+      "power": 2
+    },
+    {
+      "duration": 200,
+      "speed": 0.5
+    }
+  ],
+  "EX_VERGAMENA2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_VERGAMENA2",
+      "name": "One Disserting Angel",
+      "description": "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "ex_vergamena2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "poolLimit": 80,
+      "rarity": 1,
+      "interval": 3000,
+      "repeatInterval": 0,
+      "power": 6.5,
+      "area": 1.6,
+      "speed": 1.75,
+      "amount": 3,
+      "duration": 2600,
+      "price": 2160
+    }
+  ],
   "SANTAJAVELIN": [
     {
       "contentGroup": "EXTRA",
@@ -4122,6 +4460,102 @@
       "amount": 4,
       "hitsWalls": false,
       "knockback": 1
+    }
+  ],
+  "EX_HAMMER1": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_HAMMER1",
+      "price": 300,
+      "name": "Mart-Hello",
+      "description": ".",
+      "tips": "Best with: Luck.",
+      "texture": "tps_lossless_icons",
+      "frameName": "ex_hammer1.png",
+      "collectionFrame": "frameB_bold.png",
+      "evoSynergy": [
+        "PARMA"
+      ],
+      "evoInto": "EX_HAMMER2",
+      "isUnlocked": false,
+      "hidden": true,
+      "poolLimit": 70,
+      "rarity": 100,
+      "interval": 4000,
+      "repeatInterval": 50,
+      "power":        2,
+      "area":         1,
+      "speed":        1,
+      "amount":       1,
+      "duration": 2000,
+      "hitsWalls": false,
+      "hitVFX": "Bounce",
+      "critChance": 0.05,
+      "critMul": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "power": 1,
+      "bounces": 1
+    },
+    {
+      "amount": 1
+    },
+    {
+      "power": 1
+    },
+    {
+      "power": 1,
+      "bounces": 1
+    },
+    {
+      "amount": 1,
+      "addEvolvedWeapon": "EX_HAMMER2"
+    }
+  ],
+  "EX_HAMMER2": [
+    {
+      "level": 1,
+      "contentGroup": "EXTRA",
+      "sealable": true,
+      "bulletType": "EX_HAMMER2",
+      "name": "Hammer-Dah",
+      "description": "Evolved Mart-Hello.",
+      "tips": "Requires Max: Parm Aegis.",
+      "texture": "tps_lossless_icons",
+      "frameName": "ex_hammer2.png",
+      "collectionFrame": "frameB_bold.png",
+      "isEvolution": true,
+      "evolvesFrom": [
+        "EX_HAMMER1"
+      ],
+      "requires": [
+        "PARMA"
+      ],
+      "requiresMax": [
+        "PARMA"
+      ],
+      "hidden": true,
+      "isUnlocked": true,
+      "poolLimit": 70,
+      "rarity": 1,
+      "interval": 3500,
+      "repeatInterval": 50,
+      "power": 7,
+      "area": 1,
+      "speed": 1,
+      "amount": 6,
+      "hitsWalls": false,
+      "critChance": 0.05,
+      "critMul": 1,
+      "price": 3600
     }
   ],
   "PHASER": [
@@ -4582,6 +5016,32 @@
       "tips": "",
       "texture": "tps_lossless_icons",
       "frameName": "GemBlue.png",
+      "hidden": true,
+      "alwaysHidden": true,
+      "isUnlocked": false,
+      "isSpecialOnly": true,
+      "hitVFX": "Prism",
+      "poolLimit": 300,
+      "rarity": 0,
+      "interval": 5000,
+      "repeatInterval": 5000,
+      "power": 1,
+      "area": 1,
+      "speed": 1,
+      "amount": 1,
+      "duration": 1000,
+      "hitsWalls": false
+    }
+  ],
+  "D15_COINCANNON": [
+    {
+      "level": 1,
+      "bulletType": "D15_COINCANNON",
+      "name": "Everything to Lose",
+      "description": "",
+      "tips": "",
+      "texture": "tps_lossless_icons",
+      "frameName": "CoinGold.png",
       "hidden": true,
       "alwaysHidden": true,
       "isUnlocked": false,

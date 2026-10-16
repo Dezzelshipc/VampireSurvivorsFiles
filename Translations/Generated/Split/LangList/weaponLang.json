@@ -26723,22 +26723,800 @@
       ]
     }
   },
-  "": {
-    "_value": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
+  "EX_HAMMER1": {
+    "name": {
+      "_value": [
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello",
+        "Mart-Hello"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck.",
+        "Best with: Luck."
+      ]
+    },
+    "description": {
+      "_value": [
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy. Can deal Luck-based critical damage.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy.",
+        "Has a Luck-based chance to fire many projectiles and to turn enemies bouncy."
+      ]
+    }
+  },
+  "EX_HAMMER2": {
+    "name": {
+      "_value": [
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah",
+        "Hammer-Dah"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis.",
+        "Requires Max: Parm Agis."
+      ]
+    },
+    "description": {
+      "_value": [
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable.",
+        "Evolved Mart-Hello. Chance of Luck-based effects are highly increased while invulnerable."
+      ]
+    }
+  },
+  "EX_CANNON1": {
+    "name": {
+      "_value": [
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton",
+        "Garneton"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount.",
+        "Best with: Duration, Amount."
+      ]
+    },
+    "description": {
+      "_value": [
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs.",
+        "Fires a volley of bouncy cannonballs."
+      ]
+    }
+  },
+  "EX_CANNON2": {
+    "name": {
+      "_value": [
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart",
+        "Carnagon Heart"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach.",
+        "Requires Max: Spinach."
+      ]
+    },
+    "description": {
+      "_value": [
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode.",
+        "Evolved Garneton. Cannonballs pierce enemies and explode."
+      ]
+    }
+  },
+  "EX_VERGAMENA1": {
+    "name": {
+      "_value": [
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena",
+        "Vergamena"
+      ]
+    },
+    "tips": {
+      "_value": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "description": {
+      "_value": [
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration.",
+        "Fires venomous projectiles depending on the highest character's base stats between Might, Speed, or Duration."
+      ]
+    }
+  },
+  "EX_VERGAMENA2": {
+    "name": {
+      "_value": [
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel",
+        "One Disserting Angel"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce.",
+        "Requires: Tetraforce."
+      ]
+    },
+    "description": {
+      "_value": [
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones.",
+        "Evolved Vergamena. Generates absolutely terrifying damaging zones."
+      ]
+    }
+  },
+  "EX_AMIMIC1": {
+    "name": {
+      "_value": [
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic",
+        "Amimic"
+      ]
+    },
+    "tips": {
+      "_value": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "description": {
+      "_value": [
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support.",
+        "[Gift] Friendly treasure chest mimic provides moral support."
+      ]
+    },
+    "description2": {
+      "_value": [
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events.",
+        "Prevents loss of gold coins from weapon effects and events."
+      ]
+    },
+    "description3": {
+      "_value": [
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options.",
+        "Allows exotic Amimics to show up as level up options."
+      ]
+    }
+  },
+  "EX_AMIMIC2": {
+    "name": {
+      "_value": [
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo",
+        "Amimic Apollo"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic."
+      ]
+    },
+    "description": {
+      "_value": [
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants.",
+        "[Gift] Its charm entices enemies, friends, and treasures. Receives a 50% discount at merchants."
+      ]
+    },
+    "description2": {
+      "_value": [
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them.",
+        "Makes Treasure Chests follow you if you walk away from them."
+      ]
+    },
+    "description3": {
+      "_value": [
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever.",
+        "Makes you invulnerable during Gold Fever."
+      ]
+    }
+  },
+  "EX_AMIMIC3": {
+    "name": {
+      "_value": [
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega",
+        "Amimic Omega"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic."
+      ]
+    },
+    "description": {
+      "_value": [
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields."
+      ]
+    },
+    "description2": {
+      "_value": [
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields."
+      ]
+    },
+    "description3": {
+      "_value": [
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields.",
+        "[Gift] Its vigilance grants a selection of temporary shields."
+      ]
+    }
+  },
+  "EX_AMIMIC4": {
+    "name": {
+      "_value": [
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie",
+        "Amimic Valkyrie"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic."
+      ]
+    },
+    "description": {
+      "_value": [
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you.",
+        "[Gift] Its large mouth carries an extra passive weapon slot for you."
+      ]
+    },
+    "description2": {
+      "_value": [
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot.",
+        "Earn 100 gold coins to gain an extra passive slot."
+      ]
+    },
+    "description3": {
+      "_value": [
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot.",
+        "Earn 1000 gold coins to gain an extra passive slot."
+      ]
+    }
+  },
+  "EX_AMIMIC5": {
+    "name": {
+      "_value": [
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus",
+        "Amimic Hephaestus"
+      ]
+    },
+    "tips": {
+      "_value": [
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic.",
+        "Only available through Amimic."
+      ]
+    },
+    "description": {
+      "_value": [
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta.",
+        "[Gift] Its passion melts enemies down. Doubles the damage of Nduja Fritta."
+      ]
+    },
+    "description2": {
+      "_value": [
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta.",
+        "Doubles the duration of Nduja Fritta."
+      ]
+    },
+    "description3": {
+      "_value": [
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon.",
+        "Defeated enemies might drop gold coins. Enemies always drop gold coins if defeated by a FIRE-type weapon."
+      ]
+    }
   }
 }

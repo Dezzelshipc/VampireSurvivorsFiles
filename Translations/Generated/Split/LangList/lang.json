@@ -16433,6 +16433,24 @@
       "Знижує прокляття на %0%.\\n"
     ]
   },
+  "weaponLevelUp_bounces": {
+    "_value": [
+      "Projectiles bounce %0 more time.\\n",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
   "law_sheatedpower": {
     "_value": [
       "SHEATHED POWER LAW",
@@ -16668,7 +16686,7 @@
     ],
     "description": {
       "_value": [
-        "Puts a cap on Level at 80. Cannot gain Golden Eggs.",
+        "Puts a cap on Level at 80.",
         null,
         null,
         null,
@@ -16705,6 +16723,78 @@
     "description": {
       "_value": [
         "Light Sources don't spawn.",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "law_foreordainedraven": {
+    "_value": [
+      "FOREORDAINED RAVEN LAW",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "description": {
+      "_value": [
+        "Synergies always appear as level up options.",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "law_steadfastruler": {
+    "_value": [
+      "STEADFAST RULER LAW",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "description": {
+      "_value": [
+        "Cannot gain Golden Eggs.",
         null,
         null,
         null,

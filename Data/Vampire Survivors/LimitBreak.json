@@ -187,6 +187,152 @@
       "max": 20
     }
   ],
+  "EX_HAMMER1": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "EX_HAMMER2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "EX_CANNON1": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 5,
+      "penetrating": 1,
+      "max": 10
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "EX_CANNON2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "EX_VERGAMENA1": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 6000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
+  "EX_VERGAMENA2": [
+    {
+      "rarity": 10,
+      "power": 0.05
+    },
+    {
+      "rarity": 10,
+      "area": 0.025,
+      "max": 10
+    },
+    {
+      "rarity": 10,
+      "speed": 0.05,
+      "max": 3
+    },
+    {
+      "rarity": 1,
+      "duration": 100,
+      "max": 6000
+    },
+    {
+      "rarity": 1,
+      "amount": 1,
+      "max": 20
+    }
+  ],
   "CROSS": [
     {
       "rarity": 10,

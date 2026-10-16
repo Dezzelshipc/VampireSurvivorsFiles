@@ -924,6 +924,22 @@
       }
     ]
   },
+  "Survive20minutesInScutum": {
+    "contentGroup": "EXTRA",
+    "description": "Survive 20 minutes in Biggus Discus.",
+    "characterToUnlock": "AMBERBORNE",
+    "requiresStage": "EX_SCUTUM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "PlayInStage",
+        "RequiredStageType": "EX_SCUTUM"
+      },
+      {
+        "AchievementUnlockType": "SurviveXSeconds",
+        "RequiredSurvivedSeconds": 1200
+      }
+    ]
+  },
   "Survive20MinutesInSpace54": {
     "contentGroup": "EXTRA",
     "description": "Survive 20 minutes in Space 54.",
@@ -1407,6 +1423,24 @@
       {
         "Platfrom": "PS5",
         "Data": "0233"
+      }
+    ]
+  },
+  "GetMartHelloToLevel7": {
+    "contentGroup": "EXTRA",
+    "description": "Get Mart-Hello to Level 7.",
+    "weaponToUnlock": "EX_HAMMER1",
+    "requiresStage": "EX_SCUTUM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "HaveLeveledWeaponToSpecificLevelOrEvolved",
+        "RequiredLevel": 7,
+        "RequiredWeapons": [
+          "EX_HAMMER1"
+        ],
+        "RequiredEvolvedWeapons": [
+          "EX_HAMMER2"
+        ]
       }
     ]
   },
@@ -1894,6 +1928,20 @@
       }
     ]
   },
+  "FindAmimic": {
+    "contentGroup": "EXTRA",
+    "description": "Find an Amimic.",
+    "weaponToUnlock": "EX_AMIMIC1",
+    "requiresStage": "EX_SCUTUM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "EX_AMIMIC1"
+        ]
+      }
+    ]
+  },
   "FindManyOrologions": {
     "contentGroup": "EXTRA",
     "description": "Find 20 Orologions.",
@@ -2027,15 +2075,6 @@
         "Platfrom": "PS5",
         "Data": "0221"
       }
-    ],
-    "UnlockConditions": [
-      {
-        "AchievementUnlockType": "FindXNumberOfItems",
-        "RequiredNumberOfItems": 500,
-        "RequiredItems": [
-          "ROAST"
-        ]
-      }
     ]
   },
   "FindManyClovers": {
@@ -2060,6 +2099,22 @@
       {
         "Platfrom": "PS5",
         "Data": "0229"
+      }
+    ]
+  },
+  "FindManyGildedClovers": {
+    "contentGroup": "EXTRA",
+    "description": "Find 40 Gilded Clovers.",
+    "hyperToUnlock": "EX_SCUTUM",
+    "stageToUnlock": "EX_SCUTUM",
+    "requiresItem": "RELIC_MAP",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindXNumberOfItems",
+        "RequiredNumberOfItems": 40,
+        "RequiredItems": [
+          "GILDED"
+        ]
       }
     ]
   },
@@ -2623,6 +2678,20 @@
       }
     ]
   },
+  "FindAntipyretic": {
+    "contentGroup": "EXTRA",
+    "description": "Deal at least one million damage to the Wall of Greed.",
+    "relicToUnlock": "RELIC_ANTIPYRETIC",
+    "requiresStage": "EX_SCUTUM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindItems",
+        "RequiredItems": [
+          "RELIC_ANTIPYRETIC"
+        ]
+      }
+    ]
+  },
   "BuyGreenEyesVizard": {
     "contentGroup": "EXTRA",
     "description": "Find and buy the Green Eyes Vizard in The Lycaeum.",
@@ -3100,6 +3169,7 @@
       }
     ]
   },
+  
   "Defeat0EnemiesInCoop": {
     "contentGroup": "EXTRA",
     "description": "Defeat 0 enemies in The Coop.",
@@ -3195,7 +3265,8 @@
         "AchievementUnlockType": "KillXNumberOfEnemiesOfTypes",
         "RequiredNumEnemiesKilled": 3000,
         "RequiredEnemyTypes": [
-          "MILK"
+          "MILK",
+          "MILK2"
         ]
       }
     ],
@@ -3781,6 +3852,7 @@
       }
     ]
   },
+  
   "ReachLV99WithPugnala": {
     "description": "Reach Level 50 with Pugnala.",
     "arcanaToUnlock": "1",
@@ -5240,6 +5312,7 @@
       }
     ]
   },
+  
   "EvolveBattilia": {
     "contentGroup": "EXTRA",
     "description": "Evolve the Pako Battiliar.",
@@ -5330,6 +5403,7 @@
       }
     ]
   },
+  
   "EvolveWhip": {
     "description": "Evolve the Whip.",
     "goldPrize": 500,
@@ -6086,6 +6160,21 @@
       }
     ]
   },
+  "EvolveMartHello": {
+    "contentGroup": "EXTRA",
+    "description": "Evolve Mart-Hello.",
+    "goldPrize": 500,
+    "weaponIcon": "EX_HAMMER2",
+    "requiresStage": "EX_SCUTUM",
+    "UnlockConditions": [
+      {
+        "AchievementUnlockType": "FindWeapons",
+        "RequiredWeapons": [
+          "EX_HAMMER2"
+        ]
+      }
+    ]
+  },
   "EvolvePhas3r": {
     "contentGroup": "EXTRA",
     "description": "Evolve the Phas3r.",
@@ -6144,6 +6233,7 @@
       }
     ]
   },
+  
   "CastForbiddenBox": {
     "contentGroup": "EXTRA",
     "description": "Dare to cast the spell 'forbiddenbox'.",
@@ -6428,6 +6518,13 @@
       }
     ]
   },
+  "Dark_14Amberborne": {
+    "contentGroup": "EXTRA",
+    "description": "Remain invulnerable for 30 seconds with Amberborne.",
+    "arcanaToUnlock": "36",
+    "requiresChar": "AMBERBORNE",
+    "requiresItem": "RELIC_DARKASSO"
+  },
   "Dark_18Challenge": {
     "contentGroup": "EXTRA",
     "description": ".",
@@ -6495,6 +6592,7 @@
       }
     ]
   },
+  
   "BuySurvarocchi": {
     "contentGroup": "EXTRA",
     "description": "Find and buy the Survarocchi in The Lycaeum.",
@@ -6529,6 +6627,7 @@
       }
     ]
   },
+  
   "CompleteAdv_WorldOfLightAndDark": {
     "contentGroup": "EXTRA",
     "description": "Complete once the adventure World of Light and Dark.",

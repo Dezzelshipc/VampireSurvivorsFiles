@@ -695,7 +695,9 @@
       "bIndex": 15,
       "bInclude": true,
       "bHighlight": true,
-      "bVariants": []
+      "bVariants": [
+        "MILK2"
+      ]
     }
   ],
   "MILK2": [
@@ -14621,7 +14623,6 @@
       }
     }
   ],
-  
   "EX_BATDRAKELET": [
     {
       "level": 1,
@@ -14958,7 +14959,6 @@
       ]
     }
   ],
-  
   "EX_SEAANGEL": [
     {
       "level": 1,
@@ -15048,7 +15048,6 @@
       "bVariants": []
     }
   ],
-  
   "EX_ICHTHYOCENTAUR_01": [
     {
       "level": 1,
@@ -15166,7 +15165,6 @@
       ]
     }
   ],
-  
   "EX_TRITONT_01": [
     {
       "level": 4,
@@ -15203,7 +15201,6 @@
       ]
     }
   ],
-  
   "EX_LEAFYSEAHORSE_01": [
     {
       "level": 1,
@@ -15261,7 +15258,6 @@
       }
     }
   ],
-  
   "EX_OLM": [
     {
       "skipCredits": true,
@@ -15352,7 +15348,6 @@
       "bVariants": []
     }
   ],
-
   "EX_ARCANA_SALMON": [
     {
       "level": 1,
@@ -15640,6 +15635,978 @@
       "skills": [
         "Self_Destruct",
         "HP_x_Level"
+      ]
+    }
+  ],
+
+
+  "EX_ARMLESS": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 29,
+      "frameNames": [
+        "armless_0.png"
+      ]
+    }
+  ],
+  "EX_GORGONZOLA": [
+    {
+      "level": 1,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0.8,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 18,
+      "frameNames": [
+        "gorgonzola_0.png"
+      ]
+    }
+  ],
+  "EX_KRABBIT": [
+    {
+      "level": 1,
+      "maxHp": 0.5,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 14,
+      "frameNames": [
+        "krabbit_0.png"
+      ]
+    }
+  ],
+  "EX_SKELEBEAN_O": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "fireDelay": 3000,
+      "bulletType": "EX_BULLET_HAMMER",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "skelebeanO_0.png"
+      ]
+    }
+  ],
+  "EX_SKELEBEAN_P": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "fireDelay": 3000,
+      "bulletType": "EX_BULLET_HAMMER",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "skelebeanP_0.png"
+      ]
+    }
+  ],
+  "EX_SKELEBEAN_Y": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "fireDelay": 3000,
+      "bulletType": "EX_BULLET_HAMMER",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "skelebeanY_0.png"
+      ]
+    }
+  ],
+  "EX_SKELEBEAN_G": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "fireDelay": 3000,
+      "bulletType": "EX_BULLET_HAMMER",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "skelebeanG_0.png"
+      ]
+    }
+  ],
+  "EX_SKELEBEAN_B": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 140,
+      "power": 5,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "fireDelay": 3000,
+      "bulletType": "EX_BULLET_HAMMER",
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "skelebeanB_0.png"
+      ]
+    }
+  ],
+  "EX_SKELERUNNER": [
+    {
+      "level": 1,
+      "maxHp": 10,
+      "speed": 400,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 1,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 15,
+      "frameNames": [
+        "skelebeanO_0.png",
+        "skelebeanP_0.png",
+        "skelebeanY_0.png",
+        "skelebeanG_0.png",
+        "skelebeanB_0.png"
+      ],
+      "skills": ["Fixed_Direction"]
+    }
+  ],
+  "EX_SHADEYELLOW": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 330,
+      "power": 3,
+      "skills": [
+        "Self_Destruct",
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "moreX": 50,
+      "moreY": 60,
+      "alpha": 0.75,
+      "passThroughWalls": true,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 16,
+      "frameNames": [
+        "EX_SigRaInGiallo_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_SKELETON1": [
+    {
+      "level": 1,
+      "maxHp": 0.1,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 2,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies_Universal",
+      "idleFrameCount": 4,
+      "end": 18,
+      "frameNames": [
+        "Skeleton1_0.png",
+        "Skeleton2_0.png",
+        "Skeleton3_0.png",
+        "Skeleton4_0.png",
+        "Skeleton5_0.png",
+        "Skeleton6_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_TAURUS1": [
+    {
+      "level": 1,
+      "maxHp": 1.5,
+      "speed": 140,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 12,
+      "frameNames": [
+        "Torino_Y_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_TAURUS2": [
+    {
+      "level": 10,
+      "maxHp": 50,
+      "speed": 80,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 3,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 14,
+      "frameNames": [
+        "EX_Mino_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_ARMOR1": [
+    {
+      "level": 1,
+      "maxHp": 7,
+      "speed": 100,
+      "power": 8,
+      "knockback": 0.3,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 29,
+      "frameNames": [
+        "armless_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_SKELETON2": [
+    {
+      "level": 1,
+      "maxHp": 1.3,
+      "speed": 160,
+      "maxSpeed": 200,
+      "power": 4,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 1,
+      "killedAmount": 0,
+      "textureName": "enemies_Universal",
+      "idleFrameCount": 4,
+      "end": 18,
+      "frameNames": [
+        "Skeleton1_0.png",
+        "Skeleton2_0.png",
+        "Skeleton3_0.png",
+        "Skeleton4_0.png",
+        "Skeleton5_0.png",
+        "Skeleton6_0.png"
+      ]
+    }
+  ],
+  "EX_YGHOST": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 200,
+      "power": 5,
+      "knockback": 0,
+      "maxKnockback": 3,
+      "deathKB": 0,
+      "xp": 1.5,
+      "alpha": 0.5,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 17,
+      "frameNames": [
+        "EX_YGHOST_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_ARCHON1": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 170,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "scale": 1.5,
+      "xp": 30,
+      "killedAmount": 0,
+      "textureName": "enemies2",
+      "idleFrameCount": 4,
+      "end": 16,
+      "frameNames": [
+        "XLArmor1_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_ARCHON2": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 170,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "scale": 1.5,
+      "xp": 30,
+      "killedAmount": 0,
+      "textureName": "enemies3",
+      "idleFrameCount": 4,
+      "end": 29,
+      "frameNames": [
+        "XLArmor5_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_SNAKES": [
+    {
+      "level": 1,
+      "maxHp": 0.3,
+      "speed": 200,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 11,
+      "frameNames": [
+        "EX_Snake4_0.png",
+        "EX_Snake5_0.png",
+        "EX_Snake6_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_ARCHON3": [
+    {
+      "level": 1,
+      "maxHp": 5,
+      "speed": 170,
+      "power": 10,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Knockback": 2,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 2,
+      "scale": 1.5,
+      "xp": 30,
+      "fireDelay": 10000,
+      "bulletType": "EX_BULLET_DISK1",
+      "killedAmount": 0,
+      "textureName": "enemies2",
+      "idleFrameCount": 4,
+      "end": 16,
+      "frameNames": [
+        "XLArmor2_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_GORGONZOLA": [
+    {
+      "level": 15,
+      "maxHp": 15,
+      "speed": 160,
+      "power": 20,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1.1,
+      "knockback": 0.5,
+      "maxKnockback": 1,
+      "deathKB": 2,
+      "scale": 1.5,
+      "xp": 30,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 18,
+      "frameNames": [
+        "gorgonzola_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_ARMOR2": [
+    {
+      "level": 1,
+      "maxHp": 15,
+      "speed": 100,
+      "power": 8,
+      "knockback": 0.2,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "xp": 2,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 29,
+      "frameNames": [
+        "armless_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_ARCHON4": [
+    {
+      "level": 10,
+      "maxHp": 15,
+      "speed": 200,
+      "power": 30,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "scale": 1.5,
+      "res_Freeze": 1.1,
+      "knockback": 0.6,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "xp": 3,
+      "killedAmount": 0,
+      "textureName": "enemies3",
+      "idleFrameCount": 4,
+      "end": 29,
+      "frameNames": [
+        "XLArmor3_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_ARCHON5": [
+    {
+      "level": 30,
+      "maxHp": 20,
+      "speed": 160,
+      "power": 30,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 1,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 1,
+      "scale": 1.5,
+      "xp": 50,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 29,
+      "frameNames": [
+        "armless_0.png"
+      ],
+      "colliderOverride": {
+        "radius": 0.3,
+        "offsetY": 16,
+        "offsetX": 0
+      }
+    }
+  ],
+  "EX_BULLET_DISK1": [
+    {
+      "level": 1,
+      "maxHp": 100,
+      "speed": 250,
+      "power": 5,
+      "scale": 0.5,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 1.1,
+      "res_Defang": 1,
+      "res_Debuffs": 2,
+      "res_Knockback": 2,
+      "res_Corridor": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "end": 0,
+      "textureName": "enemies2025",
+      "killedAmount": 0,
+      "frameNames": [
+        "ProjectileDisk1.png"
+      ]
+    }
+  ],
+  "EX_BULLET_DISK2": [
+    {
+      "level": 1,
+      "maxHp": 100,
+      "speed": 250,
+      "power": 5,
+      "scale": 0.5,
+      "skills": [
+        "Fixed_Direction"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 1.1,
+      "res_Defang": 1,
+      "res_Debuffs": 2,
+      "res_Knockback": 2,
+      "res_Corridor": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "end": 0,
+      "textureName": "enemies2025",
+      "killedAmount": 0,
+      "frameNames": [
+        "ProjectileDisk2.png"
+      ]
+    }
+  ],
+  "EX_SIGRABLU_EXPLO_SOLID": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 330,
+      "power": 3,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "alpha": 0.65,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 13,
+      "frameNames": [
+        "EX_SigRaBlu_0.png"
+      ],
+      "idleFrameCount": 5,
+      "res_Defang": 1,
+      "skills": [
+        "Self_Destruct",
+        "HP_x_Level"
+      ]
+    }
+  ],
+  "SHADERED_SOLID": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 330,
+      "power": 3,
+      "skills": [
+        "Self_Destruct",
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "moreX": 50,
+      "moreY": 60,
+      "alpha": 0.75,
+      "idleFrameCount": 3,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "textureName": "enemies_Universal",
+      "end": 12,
+      "frameNames": [
+        "ShadeRed_0.png"
+      ]
+    }
+  ],
+  "EX_SHADEYELLOW_SOLID": [
+    {
+      "level": 1,
+      "maxHp": 1.1,
+      "speed": 330,
+      "power": 3,
+      "skills": [
+        "Self_Destruct",
+        "HP_x_Level"
+      ],
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 2,
+      "moreX": 50,
+      "moreY": 60,
+      "alpha": 0.75,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "end": 16,
+      "frameNames": [
+        "EX_SigRaInGiallo_0.png"
+      ]
+    }
+  ],
+  "EX_ARCHON_DISK_SHOOTER": [
+    {
+      "level": 1,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "fireDelay": 2000,
+      "bulletType": "EX_BULLET_DISK1",
+      "killedAmount": 0,
+      "textureName": "enemies2",
+      "end": 16,
+      "scale": 1,
+      "frameNames": [
+        "XLArmor2_0.png"
+      ]
+    }
+  ],
+  "EX_ARCHON_DISK_SHOOTER2": [
+    {
+      "level": 1,
+      "maxHp": 22,
+      "speed": 130,
+      "power": 14,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 3,
+      "idleFrameCount": 4,
+      "fireDelay": 2000,
+      "bulletType": "EX_BULLET_DISK2",
+      "killedAmount": 0,
+      "textureName": "enemies2",
+      "end": 16,
+      "scale": 1,
+      "frameNames": [
+        "XLArmor2_0.png"
+      ]
+    }
+  ],
+  "EX_SCUTUM_FLOWER": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 20,
+      "power": 1,
+      "knockback": 1,
+      "maxKnockback": 3,
+      "deathKB": 2,
+      "killedAmount": 0,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "xp": 2,
+      "end": 14,
+      "textureName": "enemies2025",
+      "idleFrameCount": 4,
+      "frameNames": [
+        "EX_MedusaStationary_0.png",
+        "EX_MedusaStationaryB_0.png"
+      ]
+    }
+  ],
+  "EX_BOSS_MIDASMEDUSAS": [
+    {
+      "skipCredits": true,
+      "level": 1,
+      "maxHp": 10000000,
+      "speed": 0,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "xp": 100,
+      "res_Freeze": 1,
+      "res_Rosary": 1,
+      "res_Corridor": 0,
+      "res_Knockback": 2,
+      "res_Debuffs": 2,
+      "idleFrameCount": 0,
+      "end": 0,
+      "textureName": "enemies2025",
+      "frameNames": [
+        "MidasMedusasCenter"
+      ],
+      "bIndex": 181,
+      "bInclude": true,
+      "bName": "Midas Medusas",
+      "bDesc": "",
+      "bPlaces": [
+        "EX_SCUTUM"
+      ]
+    }
+  ],
+  "EX_BOSS_TRISTEVERE": [
+    {
+      "level": 10,
+      "maxHp": 100,
+      "minimumHpScalingLevel": 80,
+      "speed": 165,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale": 2,
+      "idleFrameCount": 0,
+      "killedAmount": 0,
+      "textureName": "character_sefirotto",
+      "end": 0,
+      "frameNames": [
+        "player_sirtristevere01"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "colliderOverride": {
+        "radius": 0.34,
+        "offsetX": 0,
+        "offsetY": 12
+      },
+      "skipCredits": true,
+      "bInclude": false
+    }
+  ],
+  "EX_TRISTE_KNIGHT": [
+    {
+      "level": 10,
+      "maxHp": 50,
+      "speed": 200,
+      "power": 20,
+      "knockback": 1.5,
+      "maxKnockback": 3,
+      "deathKB": 1,
+      "xp": 0,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2",
+      "end": 16,
+      "frameNames": [
+        "XLArmor1_0.png"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "skipCredits": true,
+      "bInclude": false
+    }
+  ],
+  "EX_BOSS_CHESTELLO": [
+    {
+      "level": 10,
+      "maxHp": 100,
+      "minimumHpScalingLevel": 80,
+      "speed": 110,
+      "power": 20,
+      "knockback": 0,
+      "maxKnockback": 1,
+      "deathKB": 0,
+      "xp": 100,
+      "scale": 2,
+      "idleFrameCount": 0,
+      "killedAmount": 0,
+      "textureName": "character_sefirotto",
+      "end": 0,
+      "frameNames": [
+        "player_chestello01"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": true,
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Defang": 1,
+      "res_Rosary": 1,
+      "colliderOverride": {
+        "radius": 0.34,
+        "offsetX": 0,
+        "offsetY": 12
+      },
+      "skipCredits": true,
+      "bInclude": false
+    }
+  ],
+  "EX_NEMIMIC": [
+    {
+      "level": 1,
+      "maxHp": 3,
+      "speed": 160,
+      "power": 10,
+      "knockback": 1,
+      "maxKnockback": 2,
+      "deathKB": 1,
+      "xp": 2,
+      "idleFrameCount": 4,
+      "killedAmount": 0,
+      "textureName": "enemies2025",
+      "end": 11,
+      "frameNames": [
+        "nemimic_0"
+      ],
+      "skills": [
+        "HP_x_Level"
+      ],
+      "passThroughWalls": false,
+      "skipCredits": true,
+      "bInclude": false
+    }
+  ],
+  "EX_NEMIMIC_SELFDESC": [
+    {
+      "level": 1,
+      "maxHp": 1,
+      "speed": 0,
+      "power": 10,
+      "skills": [
+        "Self_Destruct",
+        "HP_x_Level"
+      ],
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 1,
+      "xp": 0,
+      "moreX": 50,
+      "moreY": 60,
+      "idleFrameCount": 0,
+      "passThroughWalls": false,
+      "killedAmount": 0,
+      "textureName": "tps_lossless_icons",
+      "end": 0,
+      "frameNames": [
+        "BoxOpen"
+      ],
+      "skipCredits": true,
+      "bInclude": false
+    }
+  ],
+  "EX_BULLET_HAMMER": [
+    {
+      "level": 1,
+      "maxHp": 100,
+      "speed": 0,
+      "power": 10,
+      "passThroughWalls": true,
+      "res_Freeze": 1.1,
+      "res_Defang": 1,
+      "res_Debuffs": 2,
+      "res_Knockback": 2,
+      "res_Corridor": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "xp": 0,
+      "end": 0,
+      "textureName": "tps_lossless_icons",
+      "killedAmount": 0,
+      "frameNames": [
+        "ex_hammer1"
+      ]
+    }
+  ],
+  "EX_SCUTUM_MASK3": [
+    {
+      "level": 99,
+      "maxHp": 16,
+      "speed": 200,
+      "power": 30,
+      "skills": [
+        "HP_x_Level"
+      ],
+      "res_Freeze": 2,
+      "res_Knockback": 1,
+      "res_Debuffs": 1,
+      "res_Rosary": 1,
+      "knockback": 0,
+      "maxKnockback": 0,
+      "deathKB": 0,
+      "killedAmount": 0,
+      "scale": 1,
+      "xp": 30,
+      "end": 29,
+      "idleFrameCount": 4,
+      "textureName": "enemies_Universal",
+      "frameNames": [
+        "CapeRight_0.png"
       ]
     }
   ]
