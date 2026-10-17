@@ -7,6 +7,21 @@
         "AchievementUnlockType": "HaveOpenedCoffinForXCharacter",
         "RequiredCharacterType": "MALICE"
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "261"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "017",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0261"
+      }
     ]
   },
   "BMN02_Survive15Malice": {
@@ -21,6 +36,21 @@
         "AchievementUnlockType": "PlayXCharacter",
         "RequiredCharacterType": "MALICE"
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "262"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "018",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0262"
+      }
     ]
   },
   "BMN03_EvolveScarletNeedle": {
@@ -32,6 +62,21 @@
         "RequiredWeapons": [
           "BMN001_SCARLET2"
         ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "263"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "019",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0263"
       }
     ]
   },
@@ -47,6 +92,21 @@
         "AchievementUnlockType": "PlayXCharacter",
         "RequiredCharacterType": "CALOGERO"
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "264"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "020",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0264"
+      }
     ]
   },
   "BMN05_EvolveAshella": {
@@ -58,6 +118,21 @@
         "RequiredWeapons": [
           "BMN005_AXE2"
         ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "265"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "021",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0265"
       }
     ]
   },
@@ -73,6 +148,21 @@
         "AchievementUnlockType": "PlayXCharacter",
         "RequiredCharacterType": "ASHTART"
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "266"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "022",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0266"
+      }
     ]
   },
   "BMN07_EvolveIncineration": {
@@ -84,6 +174,21 @@
         "RequiredWeapons": [
           "BMN003_DUST2"
         ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "267"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "023",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0267"
       }
     ]
   },
@@ -98,6 +203,21 @@
       {
         "AchievementUnlockType": "PlayXCharacter",
         "RequiredCharacterType": "SARGON"
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "268"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "024",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0268"
       }
     ]
   },
@@ -115,6 +235,21 @@
           "BMN013_FIRE4"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "269"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "025",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0269"
+      }
     ]
   },
   "BMN12_GetFireWallToLevel6":{
@@ -131,6 +266,21 @@
           "BMN013_FIRE4"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "270"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "026",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0270"
+      }
     ]
   },
   "BMN13_UniteFire": {
@@ -144,6 +294,21 @@
           "BMN_DODECAHEDRON",
           "BMN013_FIRE4"
         ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "271"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "027",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0271"
       }
     ]
   },
@@ -164,6 +329,21 @@
           "SHIMMERING_SANDS"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "272"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "028",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0272"
+      }
     ]
   },
   "BMN15_Die7TimesWithFool":{
@@ -172,6 +352,21 @@
     "UnlockConditions": [
       {
         
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "273"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "029",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0273"
       }
     ]
   },
@@ -189,6 +384,21 @@
           "BMN007_SCREAM2"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "274"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "030",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0274"
+      }
     ]
   },
   "BMN17_EvolveScreamsOfTheVoi": {
@@ -200,6 +410,21 @@
         "RequiredWeapons": [
           "BMN007_SCREAM2"
         ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "275"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "031",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0275"
       }
     ]
   },
@@ -219,6 +444,21 @@
           "BMN_JAMAN_JATO_SWARM"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "276"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "032",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0276"
+      }
     ]
   },
   "BMN19_DefeatAllBosses":{
@@ -228,6 +468,21 @@
       {
 
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "277"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "033",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0277"
+      }
     ]
   },
   "BMN20_BreakStatue":{
@@ -236,6 +491,21 @@
     "UnlockConditions": [
       {
 
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "278"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "034",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0278"
       }
     ]
   },
@@ -251,6 +521,21 @@
           "BMN_BOSS_BAALTHASAR"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "279"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "035",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0279"
+      }
     ]
   },
   "BMN22_Survive15BaalThasar": {
@@ -264,6 +549,21 @@
       {
         "AchievementUnlockType": "PlayXCharacter",
         "RequiredCharacterType": "BAALTHASAR"
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "280"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "036",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0280"
       }
     ]
   },
@@ -279,6 +579,21 @@
           "BMN009_BLACKEN2"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "281"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "037",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0281"
+      }
     ]
   },
   
@@ -293,6 +608,21 @@
           "BMN_LAMASHTU"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "282"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "038",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0282"
+      }
     ]
   },
   "BMN25_FindMap_Bloodmoon": {
@@ -304,6 +634,21 @@
         "RequiredItems":[
           "RELIC_MAP_BMN"
         ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "283"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "039",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0283"
       }
     ]
   }

@@ -5,7 +5,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "BMN000_SCARLET1",
-      "price": 800,
+      "price": 300,
       "name": "BMN000_SCARLET1",
       "description": "BMN_W_000 description",
       "tips": "Ignores: speed.",
@@ -98,7 +98,8 @@
       "hitsWalls": false,
       "tags": [
         "BLOOD"
-      ]
+      ],
+      "price": 3600
     }
   ],
   "BMN004_AXE1": [
@@ -107,7 +108,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "BMN004_AXE1",
-      "price": 800,
+      "price": 400,
       "name": "BMN004_AXE1",
       "description": "BMN_W_004 description",
       "tips": "Best with: Amount",
@@ -199,7 +200,8 @@
       "critMul": 2,
       "tags": [
         "BLOOD"
-      ]
+      ],
+      "price": 4000
     }
   ],
   "BMN002_DUST1": [
@@ -208,7 +210,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "BMN002_DUST1",
-      "price": 800,
+      "price": 300,
       "name": "BMN002_DUST1",
       "description": "BMN_W_002 description",
       "tips": "",
@@ -292,7 +294,8 @@
       "knockback": 0,
       "tags": [
         "HELL"
-      ]
+      ],
+      "price": 3600
     }
   ],
   "BMN006_SCREAM1": [
@@ -301,7 +304,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "BMN006_SCREAM1",
-      "price": 800,
+      "price": 400,
       "name": "BMN006_SCREAM1",
       "description": "BMN_W_006 description",
       "tips": "",
@@ -385,7 +388,8 @@
       "speed": 1,
       "amount": 1,
       "knockback": 4,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 4000
     }
   ],
   "BMN008_BLACKEN1": [
@@ -489,7 +493,8 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 4800
     }
   ],
   "PRAYERS": [
@@ -498,7 +503,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "PRAYERS",
-      "price": 800,
+      "price": 108,
       "name": "108 Responsive Prayers",
       "description": "Actually it's just 16. Damage affected by the difference between Curse and Luck.",
       "tips": "Ignores: speed.",
@@ -552,7 +557,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "HEAVENSROAD",
-      "price": 800,
+      "price": 2000,
       "name": "Road to Heaven",
       "description": "Union of 108 Bocce and 108 Responsive Prayers. Activate 108 times to glimpse enlightenment.",
       "tips": "",
@@ -618,7 +623,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "BMN010_FIRE1_FALL",
-      "price": 800,
+      "price": 200,
       "name": "BMN010_FIRE1_FALL",
       "description": "BMN_W_010 description",
       "tips": "Ignores: speed & duration.",
@@ -672,7 +677,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "BMN011_FIRE2_BALL",
-      "price": 800,
+      "price": 200,
       "name": "BMN011_FIRE2_BALL",
       "description": "BMN_W_012 description",
       "tips": "Ignores: amount.",
@@ -731,7 +736,7 @@
       "contentGroup": "BLOODMOON",
       "sealable": true,
       "bulletType": "BMN012_FIRE3_WALL",
-      "price": 800,
+      "price": 200,
       "name": "BMN012_FIRE3_WALL",
       "description": "BMN_W_011 description",
       "tips": "Ignores: area.",
@@ -814,7 +819,8 @@
       "hitsWalls": false,
       "tags": [
         "FIRE"
-      ]
+      ],
+      "price": 4400
     }
   ],
   "DESCENT_MISERY": [
@@ -823,7 +829,7 @@
       "level": 1,
       "sealable": true,
       "bulletType": "DESCENT_MISERY",
-      "price": 800,
+      "price": 50,
       "name": "Descent Into Misery",
       "description": "Cursed item. Amount affects Damage. Critical hits or changing movement direction ensure extra attacks.",
       "tips": "Ignores: Speed, Duration.",
@@ -890,7 +896,7 @@
       "level": 1,
       "sealable": true,
       "bulletType": "SHIMMERING_SANDS",
-      "price": 800,
+      "price": 7000,
       "name": "Shimmering Sands",
       "description": ".",
       "tips": "Union of Descent Into Misery and Kyra-Stones. A storm of shattered crystals engulf everything in sight.",
@@ -938,7 +944,8 @@
       "isPowerUp": true,
       "isSpecialOnly": false,
       "sealable": true,
-      "isGift": true
+      "isGift": true,
+      "price": 250
     },
     {
       "greed": 0.2,

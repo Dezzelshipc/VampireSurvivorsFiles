@@ -147,7 +147,8 @@
       "hitsWalls": false,
       "critChance": 0,
       "critMul": 1,
-      "chance": 0.05
+      "chance": 0.05,
+      "price": 10800
     }
   ],
   "BOCCE": [
@@ -606,7 +607,7 @@
       "contentGroup": "MOONSPELL",
       "sealable": true,
       "bulletType": "MS_LUNAR1_MIGHT",
-      "price": 800,
+      "price": 200,
       "name": "MS_LUNAR1_MIGHT",
       "description": "BMN_W_014 description",
       "tips": "Ignores: amount, area, speed.",
@@ -655,7 +656,7 @@
       "contentGroup": "MOONSPELL",
       "sealable": true,
       "bulletType": "MS_LUNAR2_SIGHT",
-      "price": 800,
+      "price": 200,
       "name": "MS_LUNAR2_SIGHT",
       "description": "BMN_W_015 description",
       "tips": "Ignores: speed.",
@@ -703,7 +704,7 @@
       "contentGroup": "MOONSPELL",
       "sealable": true,
       "bulletType": "MS_LUNAR3_BIGHT",
-      "price": 800,
+      "price": 200,
       "name": "MS_LUNAR3_BIGHT",
       "description": "BMN_W_016 description",
       "tips": "Ignores: speed.",
@@ -783,7 +784,8 @@
       "speed": 1,
       "amount": 1,
       "knockback": 0,
-      "hitsWalls": false
+      "hitsWalls": false,
+      "price": 4800
     }
   ],
   "NIGHTSWORD": [
@@ -908,7 +910,8 @@
       "isPowerUp": true,
       "isSpecialOnly": false,
       "isGift": true,
-      "sealable": true
+      "sealable": true,
+      "price": 250
     },
     {
       "regen": 0.5,

@@ -1,2004 +1,3376 @@
 {
   "en": {
     "ROSARY": {
-      "displayName": "Rosary"
+      "displayName": {
+        "_value": "Rosary"
+      }
     },
     "PET": {
-      "displayName": "Pet"
+      "displayName": {
+        "_value": "Pet"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Chicken Bonanza"
+      "displayName": {
+        "_value": "Chicken Bonanza"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Gold Fever"
+      "displayName": {
+        "_value": "Gold Fever"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Free Passive"
+      "displayName": {
+        "_value": "Free Passive"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Firebreathing"
+      "displayName": {
+        "_value": "Firebreathing"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Luck Boost"
+      "displayName": {
+        "_value": "Luck Boost"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Light Sources"
+      "displayName": {
+        "_value": "Light Sources"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Candybox"
+      "displayName": {
+        "_value": "Candybox"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Bat Swarm"
+      "displayName": {
+        "_value": "Bat Swarm"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Ghost Swarm"
+      "displayName": {
+        "_value": "Ghost Swarm"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Merdusa Swarm"
+      "displayName": {
+        "_value": "Merdusa Swarm"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Skull Swarm"
+      "displayName": {
+        "_value": "Skull Swarm"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Jelly Swarm"
+      "displayName": {
+        "_value": "Jelly Swarm"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Green Swarm"
+      "displayName": {
+        "_value": "Green Swarm"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Shrimps Swarm"
+      "displayName": {
+        "_value": "Shrimps Swarm"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Imp Swarm"
+      "displayName": {
+        "_value": "Imp Swarm"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Skeleton Swarm"
+      "displayName": {
+        "_value": "Skeleton Swarm"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Roulette"
+      "displayName": {
+        "_value": "Roulette"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Panic Time"
+      "displayName": {
+        "_value": "Panic Time"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Summon Night"
+      "displayName": {
+        "_value": "Summon Night"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Summon Il Molise"
+      "displayName": {
+        "_value": "Summon Il Molise"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Ultra Wave"
+      "displayName": {
+        "_value": "Ultra Wave"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Crab Fest"
+      "displayName": {
+        "_value": "Crab Fest"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Jelly Wall"
+      "displayName": {
+        "_value": "Jelly Wall"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Flower Wall"
+      "displayName": {
+        "_value": "Flower Wall"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Pile Assault"
+      "displayName": {
+        "_value": "Pile Assault"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Mino Rush"
+      "displayName": {
+        "_value": "Mino Rush"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Scorpion Lair"
+      "displayName": {
+        "_value": "Scorpion Lair"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Shooting Stars"
+      "displayName": {
+        "_value": "Shooting Stars"
+      }
     },
     "STALKER": {
-      "displayName": "The Stalker"
+      "displayName": {
+        "_value": "The Stalker"
+      }
     },
     "DROWNER": {
-      "displayName": "The Drowner"
+      "displayName": {
+        "_value": "The Drowner"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Pickle Rush",
-      "newsfeed": "Sensors detect a faint smell of vinegar from space. Please press the button to end the smell."
+      "displayName": {
+        "_value": "Pickle Rush"
+      },
+      "newsfeed": {
+        "_value": "Sensors detect a faint smell of vinegar from space. Please press the button to end the smell."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotagion",
-      "newsfeed": "Seismic activity detected. Kindly press the button to shift the planet's tectonic plates.",
-      "newsfeedDouble": "Eruptions are in progress and swarms of tourists are rushing in to witness the spectacle. Kindly press both buttons to prevent tourism."
+      "displayName": {
+        "_value": "Sabotagion"
+      },
+      "newsfeed": {
+        "_value": "Seismic activity detected. Kindly press the button to shift the planet's tectonic plates."
+      },
+      "newsfeedDouble": {
+        "_value": "Eruptions are in progress and swarms of tourists are rushing in to witness the spectacle. Kindly press both buttons to prevent tourism."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Massive saboteur population increase detected. Please push buttons to prevent overcrowding."
+      "newsfeed": {
+        "_value": "Massive saboteur population increase detected. Please push buttons to prevent overcrowding."
+      }
     },
     "FB_EVENT": {
-      "": "A huge alien cyborg presence has been detected in the North East of Neo City. Attack it aggressively!"
+      "": {
+        "_value": "A huge alien cyborg presence has been detected in the North East of Neo City. Attack it aggressively!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Squiller Swarm"
+      "displayName": {
+        "_value": "Squiller Swarm"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Curse of Reh"
+      "displayName": {
+        "_value": "Curse of Reh"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "You Win?"
+      "displayName": {
+        "_value": "You Win?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ecto Coins"
+      "displayName": {
+        "_value": "Ecto Coins"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Red Coin Bag"
+      "displayName": {
+        "_value": "Red Coin Bag"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Coin Pile"
+      "displayName": {
+        "_value": "Coin Pile"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Purple Coin Bag"
+      "displayName": {
+        "_value": "Purple Coin Bag"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Gold Idol"
+      "displayName": {
+        "_value": "Gold Idol"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Joker Dance"
+      "displayName": {
+        "_value": "Joker Dance"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Coin Shrimp"
+      "displayName": {
+        "_value": "Coin Shrimp"
+      }
     }
   },
   "fr": {
     "ROSARY": {
-      "displayName": "Chapelet"
+      "displayName": {
+        "_value": "Chapelet"
+      }
     },
     "PET": {
-      "displayName": "Amour toujours"
+      "displayName": {
+        "_value": "Amour toujours"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Pactole de poulet"
+      "displayName": {
+        "_value": "Pactole de poulet"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Pluie d'or"
+      "displayName": {
+        "_value": "Pluie d'or"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Passif offert"
+      "displayName": {
+        "_value": "Passif offert"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Souffle enflammé"
+      "displayName": {
+        "_value": "Souffle enflammé"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Coup de chance"
+      "displayName": {
+        "_value": "Coup de chance"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Sources de lumière"
+      "displayName": {
+        "_value": "Sources de lumière"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Boîte à bonbons"
+      "displayName": {
+        "_value": "Boîte à bonbons"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Attaque vampirique"
+      "displayName": {
+        "_value": "Attaque vampirique"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Attaque fantôme"
+      "displayName": {
+        "_value": "Attaque fantôme"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Attaque merdusée"
+      "displayName": {
+        "_value": "Attaque merdusée"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Attaque crâneuse"
+      "displayName": {
+        "_value": "Attaque crâneuse"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Attaque médusante"
+      "displayName": {
+        "_value": "Attaque médusante"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Attaque verte"
+      "displayName": {
+        "_value": "Attaque verte"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Attaque draconique"
+      "displayName": {
+        "_value": "Attaque draconique"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Attaque diabolique"
+      "displayName": {
+        "_value": "Attaque diabolique"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Attaque squelettique"
+      "displayName": {
+        "_value": "Attaque squelettique"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Roulette"
+      "displayName": {
+        "_value": "Roulette"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Panique totale"
+      "displayName": {
+        "_value": "Panique totale"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Sombre appel"
+      "displayName": {
+        "_value": "Sombre appel"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Appel du Molise"
+      "displayName": {
+        "_value": "Appel du Molise"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Vague ultra"
+      "displayName": {
+        "_value": "Vague ultra"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Panier de crabes"
+      "displayName": {
+        "_value": "Panier de crabes"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Muraille de méduses"
+      "displayName": {
+        "_value": "Muraille de méduses"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Muraille florale"
+      "displayName": {
+        "_value": "Muraille florale"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Attaques jumelées"
+      "displayName": {
+        "_value": "Attaques jumelées"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Minotaurture"
+      "displayName": {
+        "_value": "Minotaurture"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Antre aux scorpions"
+      "displayName": {
+        "_value": "Antre aux scorpions"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Étoiles filantes"
+      "displayName": {
+        "_value": "Étoiles filantes"
+      }
     },
     "STALKER": {
-      "displayName": "Fauche-Fixette"
+      "displayName": {
+        "_value": "Fauche-Fixette"
+      }
     },
     "DROWNER": {
-      "displayName": "Fauche-Déluge"
+      "displayName": {
+        "_value": "Fauche-Déluge"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Ruée vers les cornichons",
-      "newsfeed": "Les capteurs détectent une légère odeur de vinaigre en provenance de l'espace. Veuillez appuyer sur le bouton pour neutraliser l'odeur en question."
+      "displayName": {
+        "_value": "Ruée vers les cornichons"
+      },
+      "newsfeed": {
+        "_value": "Les capteurs détectent une légère odeur de vinaigre en provenance de l'espace. Veuillez appuyer sur le bouton pour neutraliser l'odeur en question."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotagion",
-      "newsfeed": "Activité sismique détectée. Veuillez appuyer sur le bouton pour déplacer les plaques tectoniques de la planète.",
-      "newsfeedDouble": "Des éruptions sont en cours et des nuées de touristes jouent des coudes pour assister au spectacle. Veuillez appuyer sur les deux boutons pour neutraliser le tourisme."
+      "displayName": {
+        "_value": "Sabotagion"
+      },
+      "newsfeed": {
+        "_value": "Activité sismique détectée. Veuillez appuyer sur le bouton pour déplacer les plaques tectoniques de la planète."
+      },
+      "newsfeedDouble": {
+        "_value": "Des éruptions sont en cours et des nuées de touristes jouent des coudes pour assister au spectacle. Veuillez appuyer sur les deux boutons pour neutraliser le tourisme."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Augmentation importante de la population de saboteurs détectée. Veuillez appuyer sur les boutons pour neutraliser la surpopulation."
+      "newsfeed": {
+        "_value": "Augmentation importante de la population de saboteurs détectée. Veuillez appuyer sur les boutons pour neutraliser la surpopulation."
+      }
     },
     "FB_EVENT": {
-      "": "Une présence cyborg extraterrestre a été détectée au nord-ouest de Neo City. Attaquez-la agressivement !"
+      "": {
+        "_value": "Une présence cyborg extraterrestre a été détectée au nord-ouest de Neo City. Attaquez-la agressivement !"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Bande d'écoureuils"
+      "displayName": {
+        "_value": "Bande d'écoureuils"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Malédiction de Reh"
+      "displayName": {
+        "_value": "Malédiction de Reh"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Vous avez gagné… ?"
+      "displayName": {
+        "_value": "Vous avez gagné… ?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ectopièces"
+      "displayName": {
+        "_value": "Ectopièces"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Sac de pièces rouge"
+      "displayName": {
+        "_value": "Sac de pièces rouge"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Tas de pièces"
+      "displayName": {
+        "_value": "Tas de pièces"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Sac de pièces violet"
+      "displayName": {
+        "_value": "Sac de pièces violet"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Idole en or"
+      "displayName": {
+        "_value": "Idole en or"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Danse du joker"
+      "displayName": {
+        "_value": "Danse du joker"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Crevette de pièces"
+      "displayName": {
+        "_value": "Crevette de pièces"
+      }
     }
   },
   "it": {
     "ROSARY": {
-      "displayName": "Rosario"
+      "displayName": {
+        "_value": "Rosario"
+      }
     },
     "PET": {
-      "displayName": "Compagno"
+      "displayName": {
+        "_value": "Compagno"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Polli a volontà"
+      "displayName": {
+        "_value": "Polli a volontà"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Febbre dell'oro"
+      "displayName": {
+        "_value": "Febbre dell'oro"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Passiva gratis"
+      "displayName": {
+        "_value": "Passiva gratis"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Alito di fuoco"
+      "displayName": {
+        "_value": "Alito di fuoco"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Fortuna extra"
+      "displayName": {
+        "_value": "Fortuna extra"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Fonti di luce"
+      "displayName": {
+        "_value": "Fonti di luce"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Scatola di caramelle"
+      "displayName": {
+        "_value": "Scatola di caramelle"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Sciame di pipistrelli"
+      "displayName": {
+        "_value": "Sciame di pipistrelli"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Sciame di fantasmi"
+      "displayName": {
+        "_value": "Sciame di fantasmi"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Sciame di merduse"
+      "displayName": {
+        "_value": "Sciame di merduse"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Sciame di teschi"
+      "displayName": {
+        "_value": "Sciame di teschi"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Sciame di meduse"
+      "displayName": {
+        "_value": "Sciame di meduse"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Sciame verde"
+      "displayName": {
+        "_value": "Sciame verde"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Sciame di gamberi"
+      "displayName": {
+        "_value": "Sciame di gamberi"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Sciame di impediti"
+      "displayName": {
+        "_value": "Sciame di impediti"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Sciame di scheletri"
+      "displayName": {
+        "_value": "Sciame di scheletri"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Roulette"
+      "displayName": {
+        "_value": "Roulette"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Momento fomento"
+      "displayName": {
+        "_value": "Momento fomento"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Evoca notte"
+      "displayName": {
+        "_value": "Evoca notte"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Evoca il Molise"
+      "displayName": {
+        "_value": "Evoca il Molise"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Super onda"
+      "displayName": {
+        "_value": "Super onda"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Orda di granchi"
+      "displayName": {
+        "_value": "Orda di granchi"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Muro di meduse"
+      "displayName": {
+        "_value": "Muro di meduse"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Muro di fiori"
+      "displayName": {
+        "_value": "Muro di fiori"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Assalto in mucchio"
+      "displayName": {
+        "_value": "Assalto in mucchio"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Mino-assalto"
+      "displayName": {
+        "_value": "Mino-assalto"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Tana dello scorpione"
+      "displayName": {
+        "_value": "Tana dello scorpione"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Stelle cadenti"
+      "displayName": {
+        "_value": "Stelle cadenti"
+      }
     },
     "STALKER": {
-      "displayName": "Il Persecutore"
+      "displayName": {
+        "_value": "Il Persecutore"
+      }
     },
     "DROWNER": {
-      "displayName": "Il Sommersore"
+      "displayName": {
+        "_value": "Il Sommersore"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Assalto di sottaceti",
-      "newsfeed": "I sensori rilevano un vago odore di aceto proveniente dallo spazio. Premi il pulsante per liberartene."
+      "displayName": {
+        "_value": "Assalto di sottaceti"
+      },
+      "newsfeed": {
+        "_value": "I sensori rilevano un vago odore di aceto proveniente dallo spazio. Premi il pulsante per liberartene."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotaggion",
-      "newsfeed": "Attività sismica rilevata. Premi il pulsante per far slittare le placche tettoniche del pianeta.",
-      "newsfeedDouble": "Sono in corso delle eruzioni e sciami di turisti si accalcano per ammirare lo spettacolo. Premi entrambi i pulsanti per impedire il turismo."
+      "displayName": {
+        "_value": "Sabotaggion"
+      },
+      "newsfeed": {
+        "_value": "Attività sismica rilevata. Premi il pulsante per far slittare le placche tettoniche del pianeta."
+      },
+      "newsfeedDouble": {
+        "_value": "Sono in corso delle eruzioni e sciami di turisti si accalcano per ammirare lo spettacolo. Premi entrambi i pulsanti per impedire il turismo."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Massiccio aumento della popolazione di sabotatori rilevato. Premi i pulsanti per impedire il sovraffollamento."
+      "newsfeed": {
+        "_value": "Massiccio aumento della popolazione di sabotatori rilevato. Premi i pulsanti per impedire il sovraffollamento."
+      }
     },
     "FB_EVENT": {
-      "": "È stata rilevata la presenza di un enorme cyborg alieno nel Nord-est di Neo City. Attaccalo aggressivamente!"
+      "": {
+        "_value": "È stata rilevata la presenza di un enorme cyborg alieno nel Nord-est di Neo City. Attaccalo aggressivamente!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Orda di scuoiattili"
+      "displayName": {
+        "_value": "Orda di scuoiattili"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Maledizione di Reh"
+      "displayName": {
+        "_value": "Maledizione di Reh"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Hai vinto?"
+      "displayName": {
+        "_value": "Hai vinto?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ectomoneta"
+      "displayName": {
+        "_value": "Ectomoneta"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Sacchetto d'oro rosso"
+      "displayName": {
+        "_value": "Sacchetto d'oro rosso"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Mucchietto d'oro"
+      "displayName": {
+        "_value": "Mucchietto d'oro"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Sacchetto d'oro viola"
+      "displayName": {
+        "_value": "Sacchetto d'oro viola"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Idolo dorato"
+      "displayName": {
+        "_value": "Idolo dorato"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Danza del jolly"
+      "displayName": {
+        "_value": "Danza del jolly"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Gambaureo"
+      "displayName": {
+        "_value": "Gambaureo"
+      }
     }
   },
   "de": {
     "ROSARY": {
-      "displayName": "Rosenkranz"
+      "displayName": {
+        "_value": "Rosenkranz"
+      }
     },
     "PET": {
-      "displayName": "Hätschelei"
+      "displayName": {
+        "_value": "Hätschelei"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Brathähnchenbonanza"
+      "displayName": {
+        "_value": "Brathähnchenbonanza"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Goldrausch"
+      "displayName": {
+        "_value": "Goldrausch"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Passivgeschenk"
+      "displayName": {
+        "_value": "Passivgeschenk"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Feuerspeierei"
+      "displayName": {
+        "_value": "Feuerspeierei"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Glücksschub"
+      "displayName": {
+        "_value": "Glücksschub"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Lichtquellen"
+      "displayName": {
+        "_value": "Lichtquellen"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Süßigkeitenschachtel"
+      "displayName": {
+        "_value": "Süßigkeitenschachtel"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Fledermausschwarm"
+      "displayName": {
+        "_value": "Fledermausschwarm"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Geisterschwarm"
+      "displayName": {
+        "_value": "Geisterschwarm"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Mehrdusenschwarm"
+      "displayName": {
+        "_value": "Mehrdusenschwarm"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Schädelschwarm"
+      "displayName": {
+        "_value": "Schädelschwarm"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Quallenschwarm"
+      "displayName": {
+        "_value": "Quallenschwarm"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Grüner Schwarm"
+      "displayName": {
+        "_value": "Grüner Schwarm"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Shrimps-Schwarm"
+      "displayName": {
+        "_value": "Shrimps-Schwarm"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Flatterwichtschwarm"
+      "displayName": {
+        "_value": "Flatterwichtschwarm"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Skelettschwarm"
+      "displayName": {
+        "_value": "Skelettschwarm"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Roulette"
+      "displayName": {
+        "_value": "Roulette"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Panikmache"
+      "displayName": {
+        "_value": "Panikmache"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Nachtbeschwörung"
+      "displayName": {
+        "_value": "Nachtbeschwörung"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Il Molise-Beschwörung"
+      "displayName": {
+        "_value": "Il Molise-Beschwörung"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Ultrawelle"
+      "displayName": {
+        "_value": "Ultrawelle"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Krabbenfest"
+      "displayName": {
+        "_value": "Krabbenfest"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Quallenmauer"
+      "displayName": {
+        "_value": "Quallenmauer"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Blumenmauer"
+      "displayName": {
+        "_value": "Blumenmauer"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Schädelschlacht"
+      "displayName": {
+        "_value": "Schädelschlacht"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Mino-Raserei"
+      "displayName": {
+        "_value": "Mino-Raserei"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Skorpiongrube"
+      "displayName": {
+        "_value": "Skorpiongrube"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Sternschnuppen"
+      "displayName": {
+        "_value": "Sternschnuppen"
+      }
     },
     "STALKER": {
-      "displayName": "Der Stalker"
+      "displayName": {
+        "_value": "Der Stalker"
+      }
     },
     "DROWNER": {
-      "displayName": "Der Ersäufer"
+      "displayName": {
+        "_value": "Der Ersäufer"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Gurkenrausch",
-      "newsfeed": "Die Sensoren haben einen leichten Essiggeruch aus dem Weltraum erkannt. Bitte drücke den Knopf, damit der Geruch verschwindet."
+      "displayName": {
+        "_value": "Gurkenrausch"
+      },
+      "newsfeed": {
+        "_value": "Die Sensoren haben einen leichten Essiggeruch aus dem Weltraum erkannt. Bitte drücke den Knopf, damit der Geruch verschwindet."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotation",
-      "newsfeed": "Seismische Aktivität entdeckt. Drücke freundlicherweise den Knopf, um die tektonischen Platten des Planeten zu verschieben.",
-      "newsfeedDouble": "Die Eruptionen sind in vollem Gange, und Touristen strömen in Scharen herbei, um das Spektakel zu bewundern. Bitte drücke beide Knöpfe, um die Touristenströme zu verhindern."
+      "displayName": {
+        "_value": "Sabotation"
+      },
+      "newsfeed": {
+        "_value": "Seismische Aktivität entdeckt. Drücke freundlicherweise den Knopf, um die tektonischen Platten des Planeten zu verschieben."
+      },
+      "newsfeedDouble": {
+        "_value": "Die Eruptionen sind in vollem Gange, und Touristen strömen in Scharen herbei, um das Spektakel zu bewundern. Bitte drücke beide Knöpfe, um die Touristenströme zu verhindern."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Massiver Anstieg der Saboteurspopulation festgestellt. Bitte drücke die Knöpfe, um eine Überbevölkerung zu verhindern."
+      "newsfeed": {
+        "_value": "Massiver Anstieg der Saboteurspopulation festgestellt. Bitte drücke die Knöpfe, um eine Überbevölkerung zu verhindern."
+      }
     },
     "FB_EVENT": {
-      "": "Nordöstlich von Neo City wurde ein riesiger Alien-Cyborg gesichtet. Vernichte ihn mit allen Mitteln!"
+      "": {
+        "_value": "Nordöstlich von Neo City wurde ein riesiger Alien-Cyborg gesichtet. Vernichte ihn mit allen Mitteln!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Haischörnchenschwarm"
+      "displayName": {
+        "_value": "Haischörnchenschwarm"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Fluch des Reh"
+      "displayName": {
+        "_value": "Fluch des Reh"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Gewonnen?"
+      "displayName": {
+        "_value": "Gewonnen?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ektomünzen"
+      "displayName": {
+        "_value": "Ektomünzen"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Roter Münzsack"
+      "displayName": {
+        "_value": "Roter Münzsack"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Münzstapel"
+      "displayName": {
+        "_value": "Münzstapel"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Lila Münzsack"
+      "displayName": {
+        "_value": "Lila Münzsack"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Goldener Götze"
+      "displayName": {
+        "_value": "Goldener Götze"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Joker-Tanz"
+      "displayName": {
+        "_value": "Joker-Tanz"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Münzgarnele"
+      "displayName": {
+        "_value": "Münzgarnele"
+      }
     }
   },
   "es": {
     "ROSARY": {
-      "displayName": "Rosario"
+      "displayName": {
+        "_value": "Rosario"
+      }
     },
     "PET": {
-      "displayName": "Mimos"
+      "displayName": {
+        "_value": "Mimos"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Pollos a tutiplén"
+      "displayName": {
+        "_value": "Pollos a tutiplén"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Fiebre del oro"
+      "displayName": {
+        "_value": "Fiebre del oro"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Objeto pasivo"
+      "displayName": {
+        "_value": "Objeto pasivo"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Escupefuego"
+      "displayName": {
+        "_value": "Escupefuego"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Aumento de suerte"
+      "displayName": {
+        "_value": "Aumento de suerte"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Fuentes de luz"
+      "displayName": {
+        "_value": "Fuentes de luz"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Caja de dulces"
+      "displayName": {
+        "_value": "Caja de dulces"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Enjambre de murciélagos"
+      "displayName": {
+        "_value": "Enjambre de murciélagos"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Enjambre de fantasmas"
+      "displayName": {
+        "_value": "Enjambre de fantasmas"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Enjambre de mierdusas"
+      "displayName": {
+        "_value": "Enjambre de mierdusas"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Enjambre de cráneos"
+      "displayName": {
+        "_value": "Enjambre de cráneos"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Enjambre de medusas"
+      "displayName": {
+        "_value": "Enjambre de medusas"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Enjambre verde"
+      "displayName": {
+        "_value": "Enjambre verde"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Enjambre de gambas"
+      "displayName": {
+        "_value": "Enjambre de gambas"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Enjambre de diablillos"
+      "displayName": {
+        "_value": "Enjambre de diablillos"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Enjambre de esqueletos"
+      "displayName": {
+        "_value": "Enjambre de esqueletos"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Ruleta"
+      "displayName": {
+        "_value": "Ruleta"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Hora del pánico"
+      "displayName": {
+        "_value": "Hora del pánico"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Murcitransformación"
+      "displayName": {
+        "_value": "Murcitransformación"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Enemigos de Molise"
+      "displayName": {
+        "_value": "Enemigos de Molise"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Ultraoleada"
+      "displayName": {
+        "_value": "Ultraoleada"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Festival de cangrejos"
+      "displayName": {
+        "_value": "Festival de cangrejos"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Barrera de medusas"
+      "displayName": {
+        "_value": "Barrera de medusas"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Barrera de flores"
+      "displayName": {
+        "_value": "Barrera de flores"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Asalto siamés"
+      "displayName": {
+        "_value": "Asalto siamés"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Minostampida"
+      "displayName": {
+        "_value": "Minostampida"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Guarida de escorpiones"
+      "displayName": {
+        "_value": "Guarida de escorpiones"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Estrellas fugaces"
+      "displayName": {
+        "_value": "Estrellas fugaces"
+      }
     },
     "STALKER": {
-      "displayName": "La Acechadora"
+      "displayName": {
+        "_value": "La Acechadora"
+      }
     },
     "DROWNER": {
-      "displayName": "La Inundadora"
+      "displayName": {
+        "_value": "La Inundadora"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Fiebre del pepinillo",
-      "newsfeed": "Los sensores detectan un olorcillo avinagrado en el espacio. Pulsa el botón para acabar con él."
+      "displayName": {
+        "_value": "Fiebre del pepinillo"
+      },
+      "newsfeed": {
+        "_value": "Los sensores detectan un olorcillo avinagrado en el espacio. Pulsa el botón para acabar con él."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotagio",
-      "newsfeed": "Se ha detectado actividad sísmica. Pulsa el botón para desplazar las placas tectónicas del planeta.",
-      "newsfeedDouble": "Se están produciendo erupciones, y una multitud de turistas se apresuran a contemplar el espectáculo. Pulsa ambos botones para evitar el turismo."
+      "displayName": {
+        "_value": "Sabotagio"
+      },
+      "newsfeed": {
+        "_value": "Se ha detectado actividad sísmica. Pulsa el botón para desplazar las placas tectónicas del planeta."
+      },
+      "newsfeedDouble": {
+        "_value": "Se están produciendo erupciones, y una multitud de turistas se apresuran a contemplar el espectáculo. Pulsa ambos botones para evitar el turismo."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Se ha detectado un gran incremento de población saboteadora. Pulsa los botones para evitar la superpoblación."
+      "newsfeed": {
+        "_value": "Se ha detectado un gran incremento de población saboteadora. Pulsa los botones para evitar la superpoblación."
+      }
     },
     "FB_EVENT": {
-      "": "¡Se ha detectado un nivel muy alto de cíborgs y alienígenas al noreste de la Neociudad! ¡Ataca con agresividad!"
+      "": {
+        "_value": "¡Se ha detectado un nivel muy alto de cíborgs y alienígenas al noreste de la Neociudad! ¡Ataca con agresividad!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Enjambre de ardirras"
+      "displayName": {
+        "_value": "Enjambre de ardirras"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Maldición de Reh"
+      "displayName": {
+        "_value": "Maldición de Reh"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "¿Has ganado?"
+      "displayName": {
+        "_value": "¿Has ganado?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ectomonedas"
+      "displayName": {
+        "_value": "Ectomonedas"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Saquito de monedas rojo"
+      "displayName": {
+        "_value": "Saquito de monedas rojo"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Montón de monedas"
+      "displayName": {
+        "_value": "Montón de monedas"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Saquito de monedas morado"
+      "displayName": {
+        "_value": "Saquito de monedas morado"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Ídolo de oro"
+      "displayName": {
+        "_value": "Ídolo de oro"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Baile de payasos"
+      "displayName": {
+        "_value": "Baile de payasos"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Gamba moneda"
+      "displayName": {
+        "_value": "Gamba moneda"
+      }
     }
   },
   "pt-BR": {
     "ROSARY": {
-      "displayName": "Rosário"
+      "displayName": {
+        "_value": "Rosário"
+      }
     },
     "PET": {
-      "displayName": "Carinho"
+      "displayName": {
+        "_value": "Carinho"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Galeteria"
+      "displayName": {
+        "_value": "Galeteria"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Febre de Ouro"
+      "displayName": {
+        "_value": "Febre de Ouro"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Item Grátis"
+      "displayName": {
+        "_value": "Item Grátis"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Cospe-fogo"
+      "displayName": {
+        "_value": "Cospe-fogo"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Reforço de Sorte"
+      "displayName": {
+        "_value": "Reforço de Sorte"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Show de Luzes"
+      "displayName": {
+        "_value": "Show de Luzes"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Presentinho"
+      "displayName": {
+        "_value": "Presentinho"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Torrente de Morcegos"
+      "displayName": {
+        "_value": "Torrente de Morcegos"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Torrente de Fantasmas"
+      "displayName": {
+        "_value": "Torrente de Fantasmas"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Torrente de Merdusas"
+      "displayName": {
+        "_value": "Torrente de Merdusas"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Torrente de Caveiras"
+      "displayName": {
+        "_value": "Torrente de Caveiras"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Torrente de Águas-vivas"
+      "displayName": {
+        "_value": "Torrente de Águas-vivas"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Torrente Verde"
+      "displayName": {
+        "_value": "Torrente Verde"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Torrente de Camarões"
+      "displayName": {
+        "_value": "Torrente de Camarões"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Torrente Demoníaca"
+      "displayName": {
+        "_value": "Torrente Demoníaca"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Torrente de Esqueletos"
+      "displayName": {
+        "_value": "Torrente de Esqueletos"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Roleta"
+      "displayName": {
+        "_value": "Roleta"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Hora do Pânico"
+      "displayName": {
+        "_value": "Hora do Pânico"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Noite da Invocação"
+      "displayName": {
+        "_value": "Noite da Invocação"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Invocação de Il Molise"
+      "displayName": {
+        "_value": "Invocação de Il Molise"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Grande Onda"
+      "displayName": {
+        "_value": "Grande Onda"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Torrente de Caranguejos"
+      "displayName": {
+        "_value": "Torrente de Caranguejos"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Paredão de Águas-vivas"
+      "displayName": {
+        "_value": "Paredão de Águas-vivas"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Paredão de Flores"
+      "displayName": {
+        "_value": "Paredão de Flores"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Ataque Serpentino"
+      "displayName": {
+        "_value": "Ataque Serpentino"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Boiada"
+      "displayName": {
+        "_value": "Boiada"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Entre-caveiras"
+      "displayName": {
+        "_value": "Entre-caveiras"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Estrelas Cadentes"
+      "displayName": {
+        "_value": "Estrelas Cadentes"
+      }
     },
     "STALKER": {
-      "displayName": "O Perseguidor"
+      "displayName": {
+        "_value": "O Perseguidor"
+      }
     },
     "DROWNER": {
-      "displayName": "O Afogador"
+      "displayName": {
+        "_value": "O Afogador"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Vinagrete",
-      "newsfeed": "Os sensores detectam um leve cheiro de vinagre vindo do espaço. Pressione o botão para acabar com o cheiro."
+      "displayName": {
+        "_value": "Vinagrete"
+      },
+      "newsfeed": {
+        "_value": "Os sensores detectam um leve cheiro de vinagre vindo do espaço. Pressione o botão para acabar com o cheiro."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotageon",
-      "newsfeed": "Atividade sísmica detectada. Pressione o botão para deslocar as placas tectônicas do planeta.",
-      "newsfeedDouble": "Há erupções ocorrendo, e multidões de turistas estão correndo para testemunhar o espetáculo. Pressione os dois botões para evitar o turismo."
+      "displayName": {
+        "_value": "Sabotageon"
+      },
+      "newsfeed": {
+        "_value": "Atividade sísmica detectada. Pressione o botão para deslocar as placas tectônicas do planeta."
+      },
+      "newsfeedDouble": {
+        "_value": "Há erupções ocorrendo, e multidões de turistas estão correndo para testemunhar o espetáculo. Pressione os dois botões para evitar o turismo."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Grande aumento da população de sabotadores detectado. Pressione botões para evitar a superlotação."
+      "newsfeed": {
+        "_value": "Grande aumento da população de sabotadores detectado. Pressione botões para evitar a superlotação."
+      }
     },
     "FB_EVENT": {
-      "": "Uma grande presença ciborgue-alienígena foi detectada no Nordeste da Neocidade. Ataque com garra!"
+      "": {
+        "_value": "Uma grande presença ciborgue-alienígena foi detectada no Nordeste da Neocidade. Ataque com garra!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Torrente de Escrilos"
+      "displayName": {
+        "_value": "Torrente de Escrilos"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Maldição de Reh"
+      "displayName": {
+        "_value": "Maldição de Reh"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Você venceu(?)"
+      "displayName": {
+        "_value": "Você venceu(?)"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ectomoedas"
+      "displayName": {
+        "_value": "Ectomoedas"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Bolsa de Moedas Vermelha"
+      "displayName": {
+        "_value": "Bolsa de Moedas Vermelha"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Pilha de Moedas"
+      "displayName": {
+        "_value": "Pilha de Moedas"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Bolsa de Moedas Roxa"
+      "displayName": {
+        "_value": "Bolsa de Moedas Roxa"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Cabeça Dourada"
+      "displayName": {
+        "_value": "Cabeça Dourada"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Baile Palhaço"
+      "displayName": {
+        "_value": "Baile Palhaço"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Camarão Moeda"
+      "displayName": {
+        "_value": "Camarão Moeda"
+      }
     }
   },
   "pl": {
     "ROSARY": {
-      "displayName": "Różaniec"
+      "displayName": {
+        "_value": "Różaniec"
+      }
     },
     "PET": {
-      "displayName": "Pupil"
+      "displayName": {
+        "_value": "Pupil"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Pieczony Kurczak"
+      "displayName": {
+        "_value": "Pieczony Kurczak"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Gorączka Złota"
+      "displayName": {
+        "_value": "Gorączka Złota"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Darmowa Umiejętność Pasywna"
+      "displayName": {
+        "_value": "Darmowa Umiejętność Pasywna"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Oddech Ognia"
+      "displayName": {
+        "_value": "Oddech Ognia"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Doładowanie Szczęścia"
+      "displayName": {
+        "_value": "Doładowanie Szczęścia"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Źródła Światła"
+      "displayName": {
+        "_value": "Źródła Światła"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Pudełko Czekoladek"
+      "displayName": {
+        "_value": "Pudełko Czekoladek"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Rój Nietoperzy"
+      "displayName": {
+        "_value": "Rój Nietoperzy"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Rój Duchów"
+      "displayName": {
+        "_value": "Rój Duchów"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Rój Merduz"
+      "displayName": {
+        "_value": "Rój Merduz"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Rój Czaszek"
+      "displayName": {
+        "_value": "Rój Czaszek"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Rój Meduz"
+      "displayName": {
+        "_value": "Rój Meduz"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Zielony Rój"
+      "displayName": {
+        "_value": "Zielony Rój"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Rój Krewetek"
+      "displayName": {
+        "_value": "Rój Krewetek"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Rój Palcochlików"
+      "displayName": {
+        "_value": "Rój Palcochlików"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Rój Szkieletów"
+      "displayName": {
+        "_value": "Rój Szkieletów"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Ruletka"
+      "displayName": {
+        "_value": "Ruletka"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Czas Paniki"
+      "displayName": {
+        "_value": "Czas Paniki"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Wezwij Noc"
+      "displayName": {
+        "_value": "Wezwij Noc"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Wezwij II Molise"
+      "displayName": {
+        "_value": "Wezwij II Molise"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Wielka Fala"
+      "displayName": {
+        "_value": "Wielka Fala"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Festyn Krabów"
+      "displayName": {
+        "_value": "Festyn Krabów"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Ściana Meduz"
+      "displayName": {
+        "_value": "Ściana Meduz"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Ściana Kwiatów"
+      "displayName": {
+        "_value": "Ściana Kwiatów"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Atakujący Stos"
+      "displayName": {
+        "_value": "Atakujący Stos"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Szarża Minotaurów"
+      "displayName": {
+        "_value": "Szarża Minotaurów"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Gniazdo Skorpionów"
+      "displayName": {
+        "_value": "Gniazdo Skorpionów"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Spadające Gwiazdy"
+      "displayName": {
+        "_value": "Spadające Gwiazdy"
+      }
     },
     "STALKER": {
-      "displayName": "Prześladowca"
+      "displayName": {
+        "_value": "Prześladowca"
+      }
     },
     "DROWNER": {
-      "displayName": "Topiciel"
+      "displayName": {
+        "_value": "Topiciel"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Gorączka Ogóra",
-      "newsfeed": "Czujniki wykrywają delikatny zapach octu z kosmosu. Wciśnij przycisk, by zakończyć rozpylanie zapachu."
+      "displayName": {
+        "_value": "Gorączka Ogóra"
+      },
+      "newsfeed": {
+        "_value": "Czujniki wykrywają delikatny zapach octu z kosmosu. Wciśnij przycisk, by zakończyć rozpylanie zapachu."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotażon",
-      "newsfeed": "Wykryto aktywność sejsmiczną. Naciśnij przycisk, by przesunąć płyty tektoniczne planety.",
-      "newsfeedDouble": "Trwają erupcje, a tłumy turystów pędzą, by oglądać ten spektakl. Naciśnij oba przyciski, by powstrzymać turystów."
+      "displayName": {
+        "_value": "Sabotażon"
+      },
+      "newsfeed": {
+        "_value": "Wykryto aktywność sejsmiczną. Naciśnij przycisk, by przesunąć płyty tektoniczne planety."
+      },
+      "newsfeedDouble": {
+        "_value": "Trwają erupcje, a tłumy turystów pędzą, by oglądać ten spektakl. Naciśnij oba przyciski, by powstrzymać turystów."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Wykryto masowy wzrost populacji sabotażystów. Naciśnij przyciski, by zapobiec przeludnieniu."
+      "newsfeed": {
+        "_value": "Wykryto masowy wzrost populacji sabotażystów. Naciśnij przyciski, by zapobiec przeludnieniu."
+      }
     },
     "FB_EVENT": {
-      "": "Wykryto obecność wielkiego, kosmicznego cyborga na północnym wschodzie Neo City. Walcz z nim zaciekle!"
+      "": {
+        "_value": "Wykryto obecność wielkiego, kosmicznego cyborga na północnym wschodzie Neo City. Walcz z nim zaciekle!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Rój Fiefiórek"
+      "displayName": {
+        "_value": "Rój Fiefiórek"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Klątwa Reh"
+      "displayName": {
+        "_value": "Klątwa Reh"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Wygrywasz?"
+      "displayName": {
+        "_value": "Wygrywasz?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ektomonety"
+      "displayName": {
+        "_value": "Ektomonety"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Czerwony Worek Monet"
+      "displayName": {
+        "_value": "Czerwony Worek Monet"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Sterta Monet"
+      "displayName": {
+        "_value": "Sterta Monet"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Fioletowy Worek Monet"
+      "displayName": {
+        "_value": "Fioletowy Worek Monet"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Złoty Bożek"
+      "displayName": {
+        "_value": "Złoty Bożek"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Taniec Jokera"
+      "displayName": {
+        "_value": "Taniec Jokera"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Monetowa Krewetka"
+      "displayName": {
+        "_value": "Monetowa Krewetka"
+      }
     }
   },
   "ru": {
     "ROSARY": {
-      "displayName": "Чётки"
+      "displayName": {
+        "_value": "Чётки"
+      }
     },
     "PET": {
-      "displayName": "Любимчик"
+      "displayName": {
+        "_value": "Любимчик"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Куриное безумие"
+      "displayName": {
+        "_value": "Куриное безумие"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Золотая лихорадка"
+      "displayName": {
+        "_value": "Золотая лихорадка"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Бесплатная пассивка"
+      "displayName": {
+        "_value": "Бесплатная пассивка"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Огненное дыхание"
+      "displayName": {
+        "_value": "Огненное дыхание"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Бустер удачи"
+      "displayName": {
+        "_value": "Бустер удачи"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Источники света"
+      "displayName": {
+        "_value": "Источники света"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Коробка конфет"
+      "displayName": {
+        "_value": "Коробка конфет"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Стая летучих мышей"
+      "displayName": {
+        "_value": "Стая летучих мышей"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Полчище призраков"
+      "displayName": {
+        "_value": "Полчище призраков"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Полчище горгон"
+      "displayName": {
+        "_value": "Полчище горгон"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Полчище черепов"
+      "displayName": {
+        "_value": "Полчище черепов"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Рой медуз"
+      "displayName": {
+        "_value": "Рой медуз"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Зелёная погибель"
+      "displayName": {
+        "_value": "Зелёная погибель"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Стая креветок"
+      "displayName": {
+        "_value": "Стая креветок"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Полчище бесов"
+      "displayName": {
+        "_value": "Полчище бесов"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Полчище скелетов"
+      "displayName": {
+        "_value": "Полчище скелетов"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Рулетка"
+      "displayName": {
+        "_value": "Рулетка"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Время паники"
+      "displayName": {
+        "_value": "Время паники"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Призыв ночи"
+      "displayName": {
+        "_value": "Призыв ночи"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Призыв Молиза"
+      "displayName": {
+        "_value": "Призыв Молиза"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Мощная волна"
+      "displayName": {
+        "_value": "Мощная волна"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Крабья вечеринка"
+      "displayName": {
+        "_value": "Крабья вечеринка"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Стена медуз"
+      "displayName": {
+        "_value": "Стена медуз"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Порчецвет"
+      "displayName": {
+        "_value": "Порчецвет"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Двуглавая атака"
+      "displayName": {
+        "_value": "Двуглавая атака"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Раш минотавров"
+      "displayName": {
+        "_value": "Раш минотавров"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Логово скорпиона"
+      "displayName": {
+        "_value": "Логово скорпиона"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Падающие звёзды"
+      "displayName": {
+        "_value": "Падающие звёзды"
+      }
     },
     "STALKER": {
-      "displayName": "Преследователь"
+      "displayName": {
+        "_value": "Преследователь"
+      }
     },
     "DROWNER": {
-      "displayName": "Утопец"
+      "displayName": {
+        "_value": "Утопец"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Огуречный ажиотаж",
-      "newsfeed": "Сенсоры улавливают слабый запах уксуса из космоса. Нажмите кнопку, чтобы убрать запах."
+      "displayName": {
+        "_value": "Огуречный ажиотаж"
+      },
+      "newsfeed": {
+        "_value": "Сенсоры улавливают слабый запах уксуса из космоса. Нажмите кнопку, чтобы убрать запах."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Саботажаж",
-      "newsfeed": "Обнаружена сейсмическая активность. Нажмите кнопку, чтобы сдвинуть тектонические плиты планеты.",
-      "newsfeedDouble": "Извержения продолжаются, и толпы туристов устремляются, чтобы это увидеть. Нажмите обе кнопки, чтобы убрать потоки туристов."
+      "displayName": {
+        "_value": "Саботажаж"
+      },
+      "newsfeed": {
+        "_value": "Обнаружена сейсмическая активность. Нажмите кнопку, чтобы сдвинуть тектонические плиты планеты."
+      },
+      "newsfeedDouble": {
+        "_value": "Извержения продолжаются, и толпы туристов устремляются, чтобы это увидеть. Нажмите обе кнопки, чтобы убрать потоки туристов."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Обнаружен массовый рост числа саботажников. Нажмите кнопки, чтобы предотвратить переполнение."
+      "newsfeed": {
+        "_value": "Обнаружен массовый рост числа саботажников. Нажмите кнопки, чтобы предотвратить переполнение."
+      }
     },
     "FB_EVENT": {
-      "": "На северо-востоке Нео-Сити засекли нашествие инопланетных киборгов. Атакуйте яростно!"
+      "": {
+        "_value": "На северо-востоке Нео-Сити засекли нашествие инопланетных киборгов. Атакуйте яростно!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Беличья стая"
+      "displayName": {
+        "_value": "Беличья стая"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Проклятие Рэ"
+      "displayName": {
+        "_value": "Проклятие Рэ"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Вы победили?"
+      "displayName": {
+        "_value": "Вы победили?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Призрачные монеты"
+      "displayName": {
+        "_value": "Призрачные монеты"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Красный мешок денег"
+      "displayName": {
+        "_value": "Красный мешок денег"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Куча монет"
+      "displayName": {
+        "_value": "Куча монет"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Фиолетовый мешок денег"
+      "displayName": {
+        "_value": "Фиолетовый мешок денег"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Золотой идол"
+      "displayName": {
+        "_value": "Золотой идол"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Танец джокеров"
+      "displayName": {
+        "_value": "Танец джокеров"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Монетная креветка"
+      "displayName": {
+        "_value": "Монетная креветка"
+      }
     }
   },
   "tr": {
     "ROSARY": {
-      "displayName": "Tespih"
+      "displayName": {
+        "_value": "Tespih"
+      }
     },
     "PET": {
-      "displayName": "Evcil"
+      "displayName": {
+        "_value": "Evcil"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Tavuk Sarmalı"
+      "displayName": {
+        "_value": "Tavuk Sarmalı"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Altın Kasırgası"
+      "displayName": {
+        "_value": "Altın Kasırgası"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Pasif Kazanç"
+      "displayName": {
+        "_value": "Pasif Kazanç"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Alevnefesi"
+      "displayName": {
+        "_value": "Alevnefesi"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Şans Artışı"
+      "displayName": {
+        "_value": "Şans Artışı"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Işık Kaynakları"
+      "displayName": {
+        "_value": "Işık Kaynakları"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Şeker Kutusu"
+      "displayName": {
+        "_value": "Şeker Kutusu"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Yarasa Sürüsü"
+      "displayName": {
+        "_value": "Yarasa Sürüsü"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Hayalet Sürüsü"
+      "displayName": {
+        "_value": "Hayalet Sürüsü"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Merdusa Sürüsü"
+      "displayName": {
+        "_value": "Merdusa Sürüsü"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Kafatası Sürüsü"
+      "displayName": {
+        "_value": "Kafatası Sürüsü"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Denizanası Sürüsü"
+      "displayName": {
+        "_value": "Denizanası Sürüsü"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Yeşil Sürüsü"
+      "displayName": {
+        "_value": "Yeşil Sürüsü"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Karides Sürüsü"
+      "displayName": {
+        "_value": "Karides Sürüsü"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Cüce Sürüsü"
+      "displayName": {
+        "_value": "Cüce Sürüsü"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "İskelet Sürüsü"
+      "displayName": {
+        "_value": "İskelet Sürüsü"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Rulet"
+      "displayName": {
+        "_value": "Rulet"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Panik Vakti"
+      "displayName": {
+        "_value": "Panik Vakti"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Summon Night"
+      "displayName": {
+        "_value": "Summon Night"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Summon Il Molise"
+      "displayName": {
+        "_value": "Summon Il Molise"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Ultra Dalga"
+      "displayName": {
+        "_value": "Ultra Dalga"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Yengeç Festivali"
+      "displayName": {
+        "_value": "Yengeç Festivali"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Denizanası Duvarı"
+      "displayName": {
+        "_value": "Denizanası Duvarı"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Çiçek Duvarı"
+      "displayName": {
+        "_value": "Çiçek Duvarı"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Yoğun Saldırı"
+      "displayName": {
+        "_value": "Yoğun Saldırı"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Mino Saldırısı"
+      "displayName": {
+        "_value": "Mino Saldırısı"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Akrep Yuvası"
+      "displayName": {
+        "_value": "Akrep Yuvası"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Kayan Yıldızlar"
+      "displayName": {
+        "_value": "Kayan Yıldızlar"
+      }
     },
     "STALKER": {
-      "displayName": "İz Sürücü"
+      "displayName": {
+        "_value": "İz Sürücü"
+      }
     },
     "DROWNER": {
-      "displayName": "Boğucu"
+      "displayName": {
+        "_value": "Boğucu"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Turşuya Hücum",
-      "newsfeed": "Sensörler uzaydan gelen hafif bir sirke kokusu tespit etti. Kokuyu sonlandırmak için lütfen düğmeye bas."
+      "displayName": {
+        "_value": "Turşuya Hücum"
+      },
+      "newsfeed": {
+        "_value": "Sensörler uzaydan gelen hafif bir sirke kokusu tespit etti. Kokuyu sonlandırmak için lütfen düğmeye bas."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Sabotajlama",
-      "newsfeed": "Sismik aktivite tespit edildi. Gezegenin tektonik levhalarını hareket ettirmek için lütfen düğmeye bas.",
-      "newsfeedDouble": "Patlamalar devam ediyor ve turist grupları olayları seyretmek için akın akın geliyorlar. Turizmi önlemek için lütfen her iki düğmeye de bas."
+      "displayName": {
+        "_value": "Sabotajlama"
+      },
+      "newsfeed": {
+        "_value": "Sismik aktivite tespit edildi. Gezegenin tektonik levhalarını hareket ettirmek için lütfen düğmeye bas."
+      },
+      "newsfeedDouble": {
+        "_value": "Patlamalar devam ediyor ve turist grupları olayları seyretmek için akın akın geliyorlar. Turizmi önlemek için lütfen her iki düğmeye de bas."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Sabotajcı sayısında büyük bir artış tespit edildi. Lütfen aşırı kalabalığı önlemek için düğmelere bas."
+      "newsfeed": {
+        "_value": "Sabotajcı sayısında büyük bir artış tespit edildi. Lütfen aşırı kalabalığı önlemek için düğmelere bas."
+      }
     },
     "FB_EVENT": {
-      "": "Neo Kent'in Kuzeydoğusunda devasa bir uzaylı cyborg varlığı tespit edildi. Hunharca saldır!"
+      "": {
+        "_value": "Neo Kent'in Kuzeydoğusunda devasa bir uzaylı cyborg varlığı tespit edildi. Hunharca saldır!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Zincap Sürüsü"
+      "displayName": {
+        "_value": "Zincap Sürüsü"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Reh'in Laneti"
+      "displayName": {
+        "_value": "Reh'in Laneti"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Kazandın Mı?"
+      "displayName": {
+        "_value": "Kazandın Mı?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Ekto Akçe"
+      "displayName": {
+        "_value": "Ekto Akçe"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Kırmızı Akçe Çuvalı"
+      "displayName": {
+        "_value": "Kırmızı Akçe Çuvalı"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Akçe Yığını"
+      "displayName": {
+        "_value": "Akçe Yığını"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Mor Akçe Çuvalı"
+      "displayName": {
+        "_value": "Mor Akçe Çuvalı"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Altın Heykel"
+      "displayName": {
+        "_value": "Altın Heykel"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Soytarı Dansı"
+      "displayName": {
+        "_value": "Soytarı Dansı"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Parides"
+      "displayName": {
+        "_value": "Parides"
+      }
     }
   },
   "zh-CN": {
     "ROSARY": {
-      "displayName": "念珠"
+      "displayName": {
+        "_value": "念珠"
+      }
     },
     "PET": {
-      "displayName": "宠物"
+      "displayName": {
+        "_value": "宠物"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "鸿运烤鸡"
+      "displayName": {
+        "_value": "鸿运烤鸡"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "淘金狂潮"
+      "displayName": {
+        "_value": "淘金狂潮"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "随机被动"
+      "displayName": {
+        "_value": "随机被动"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "炎息"
+      "displayName": {
+        "_value": "炎息"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "好运来"
+      "displayName": {
+        "_value": "好运来"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "光源"
+      "displayName": {
+        "_value": "光源"
+      }
     },
     "CANDYBOX": {
-      "displayName": "糖果盒"
+      "displayName": {
+        "_value": "糖果盒"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "蝙蝠群涌"
+      "displayName": {
+        "_value": "蝙蝠群涌"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "鬼魂群涌"
+      "displayName": {
+        "_value": "鬼魂群涌"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "美杜莎群涌"
+      "displayName": {
+        "_value": "美杜莎群涌"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "头骨群涌"
+      "displayName": {
+        "_value": "头骨群涌"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "水母群涌"
+      "displayName": {
+        "_value": "水母群涌"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "绿色群涌"
+      "displayName": {
+        "_value": "绿色群涌"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "小虾群涌"
+      "displayName": {
+        "_value": "小虾群涌"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "小鬼群涌"
+      "displayName": {
+        "_value": "小鬼群涌"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "骷髅群涌"
+      "displayName": {
+        "_value": "骷髅群涌"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "轮盘"
+      "displayName": {
+        "_value": "轮盘"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "恐慌时间"
+      "displayName": {
+        "_value": "恐慌时间"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "晦夜引"
+      "displayName": {
+        "_value": "晦夜引"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "莫利塞召唤"
+      "displayName": {
+        "_value": "莫利塞召唤"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "超波"
+      "displayName": {
+        "_value": "超波"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "螃蟹集会"
+      "displayName": {
+        "_value": "螃蟹集会"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "水母墙"
+      "displayName": {
+        "_value": "水母墙"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "花墙"
+      "displayName": {
+        "_value": "花墙"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "群起而攻之"
+      "displayName": {
+        "_value": "群起而攻之"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "牛头怪冲击"
+      "displayName": {
+        "_value": "牛头怪冲击"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "蝎子窝"
+      "displayName": {
+        "_value": "蝎子窝"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "流星"
+      "displayName": {
+        "_value": "流星"
+      }
     },
     "STALKER": {
-      "displayName": "阴魂"
+      "displayName": {
+        "_value": "阴魂"
+      }
     },
     "DROWNER": {
-      "displayName": "水鬼"
+      "displayName": {
+        "_value": "水鬼"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "泡菜热潮",
-      "newsfeed": "感应器探测到来自太空的淡淡酸味。请按下按钮，清除这股味道。"
+      "displayName": {
+        "_value": "泡菜热潮"
+      },
+      "newsfeed": {
+        "_value": "感应器探测到来自太空的淡淡酸味。请按下按钮，清除这股味道。"
+      }
     },
     "SABOTAGION": {
-      "displayName": "破坏区",
-      "newsfeed": "检测到地震活动。请按下按钮，切换星球的构造板块。",
-      "newsfeedDouble": "火山即将喷发，成群结队的游客正赶来目睹这一奇观。请按下两个按钮，防止游客靠近。"
+      "displayName": {
+        "_value": "破坏区"
+      },
+      "newsfeed": {
+        "_value": "检测到地震活动。请按下按钮，切换星球的构造板块。"
+      },
+      "newsfeedDouble": {
+        "_value": "火山即将喷发，成群结队的游客正赶来目睹这一奇观。请按下两个按钮，防止游客靠近。"
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "侦测到破坏者的数量激增。请按下按钮，防止过度拥挤。"
+      "newsfeed": {
+        "_value": "侦测到破坏者的数量激增。请按下按钮，防止过度拥挤。"
+      }
     },
     "FB_EVENT": {
-      "": "在新城的东北一带探测到一个巨大的外星改造人。锁定目标，发动猛攻！"
+      "": {
+        "_value": "在新城的东北一带探测到一个巨大的外星改造人。锁定目标，发动猛攻！"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "松鼠群涌"
+      "displayName": {
+        "_value": "松鼠群涌"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "雷之诅咒"
+      "displayName": {
+        "_value": "雷之诅咒"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "胜利？"
+      "displayName": {
+        "_value": "胜利？"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "外质币"
+      "displayName": {
+        "_value": "外质币"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "红色钱袋"
+      "displayName": {
+        "_value": "红色钱袋"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "币堆"
+      "displayName": {
+        "_value": "币堆"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "紫色钱袋"
+      "displayName": {
+        "_value": "紫色钱袋"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "黄金神像"
+      "displayName": {
+        "_value": "黄金神像"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "小丑舞"
+      "displayName": {
+        "_value": "小丑舞"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "币虾"
+      "displayName": {
+        "_value": "币虾"
+      }
     }
   },
   "ja": {
     "ROSARY": {
-      "displayName": "ロザリオ"
+      "displayName": {
+        "_value": "ロザリオ"
+      }
     },
     "PET": {
-      "displayName": "ペット"
+      "displayName": {
+        "_value": "ペット"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "チキンフィーバー"
+      "displayName": {
+        "_value": "チキンフィーバー"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "ゴールドフィーバー"
+      "displayName": {
+        "_value": "ゴールドフィーバー"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "無料パッシブ"
+      "displayName": {
+        "_value": "無料パッシブ"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "ファイヤーブレス"
+      "displayName": {
+        "_value": "ファイヤーブレス"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "運ブースト"
+      "displayName": {
+        "_value": "運ブースト"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "光源"
+      "displayName": {
+        "_value": "光源"
+      }
     },
     "CANDYBOX": {
-      "displayName": "キャンディーボックス"
+      "displayName": {
+        "_value": "キャンディーボックス"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "コウモリの群れ"
+      "displayName": {
+        "_value": "コウモリの群れ"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "ゴーストの群れ"
+      "displayName": {
+        "_value": "ゴーストの群れ"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "メドゥーサの群れ"
+      "displayName": {
+        "_value": "メドゥーサの群れ"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "スカルの群れ"
+      "displayName": {
+        "_value": "スカルの群れ"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "クラゲの群れ"
+      "displayName": {
+        "_value": "クラゲの群れ"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "緑の群れ"
+      "displayName": {
+        "_value": "緑の群れ"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "エビの群れ"
+      "displayName": {
+        "_value": "エビの群れ"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "インプの群れ"
+      "displayName": {
+        "_value": "インプの群れ"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "スケルトンの群れ"
+      "displayName": {
+        "_value": "スケルトンの群れ"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "ルーレット"
+      "displayName": {
+        "_value": "ルーレット"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "パニックタイム"
+      "displayName": {
+        "_value": "パニックタイム"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "夜の召喚"
+      "displayName": {
+        "_value": "夜の召喚"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "地図にない場所を召喚"
+      "displayName": {
+        "_value": "地図にない場所を召喚"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "ウルトラウェーブ"
+      "displayName": {
+        "_value": "ウルトラウェーブ"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "カニ祭り"
+      "displayName": {
+        "_value": "カニ祭り"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "クラゲウォール"
+      "displayName": {
+        "_value": "クラゲウォール"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "フラワーウォール"
+      "displayName": {
+        "_value": "フラワーウォール"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "パイルアサルト"
+      "displayName": {
+        "_value": "パイルアサルト"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "ミノラッシュ"
+      "displayName": {
+        "_value": "ミノラッシュ"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "サソリの巣"
+      "displayName": {
+        "_value": "サソリの巣"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "流星"
+      "displayName": {
+        "_value": "流星"
+      }
     },
     "STALKER": {
-      "displayName": "死神（緑）"
+      "displayName": {
+        "_value": "死神（緑）"
+      }
     },
     "DROWNER": {
-      "displayName": "死神（青）"
+      "displayName": {
+        "_value": "死神（青）"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "ピクルス・ラッシュ",
-      "newsfeed": "センサーが宇宙に漂う微かなお酢の匂いを探知。ボタンを押して匂いの探知を停止しよう。"
+      "displayName": {
+        "_value": "ピクルス・ラッシュ"
+      },
+      "newsfeed": {
+        "_value": "センサーが宇宙に漂う微かなお酢の匂いを探知。ボタンを押して匂いの探知を停止しよう。"
+      }
     },
     "SABOTAGION": {
-      "displayName": "サボタージョン",
-      "newsfeed": "地震活動を検出。ボタンを押して惑星の構造プレートを移動しよう。",
-      "newsfeedDouble": "噴火が起ころうとしている中、大勢の観光客がその壮大な瞬間を目撃しようと押し寄せている。両方のボタンを押して、やってくる観光客を阻止しよう。"
+      "displayName": {
+        "_value": "サボタージョン"
+      },
+      "newsfeed": {
+        "_value": "地震活動を検出。ボタンを押して惑星の構造プレートを移動しよう。"
+      },
+      "newsfeedDouble": {
+        "_value": "噴火が起ころうとしている中、大勢の観光客がその壮大な瞬間を目撃しようと押し寄せている。両方のボタンを押して、やってくる観光客を阻止しよう。"
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "サボタージュの人口爆増を検出。ボタンを押して過密化を防ごう。"
+      "newsfeed": {
+        "_value": "サボタージュの人口爆増を検出。ボタンを押して過密化を防ごう。"
+      }
     },
     "FB_EVENT": {
-      "": "ネオシティの北東で巨大なエイリアン・サイボーグの存在が確認された。徹底的に攻撃せよ！"
+      "": {
+        "_value": "ネオシティの北東で巨大なエイリアン・サイボーグの存在が確認された。徹底的に攻撃せよ！"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "リスの群れ"
+      "displayName": {
+        "_value": "リスの群れ"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "レフの呪い"
+      "displayName": {
+        "_value": "レフの呪い"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "勝った？"
+      "displayName": {
+        "_value": "勝った？"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "エクトコイン"
+      "displayName": {
+        "_value": "エクトコイン"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "赤の金貨袋"
+      "displayName": {
+        "_value": "赤の金貨袋"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "金貨の山"
+      "displayName": {
+        "_value": "金貨の山"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "紫の金貨袋"
+      "displayName": {
+        "_value": "紫の金貨袋"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "黄金の偶像"
+      "displayName": {
+        "_value": "黄金の偶像"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "道化の舞"
+      "displayName": {
+        "_value": "道化の舞"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "コインシュリンプ"
+      "displayName": {
+        "_value": "コインシュリンプ"
+      }
     }
   },
   "ko": {
     "ROSARY": {
-      "displayName": "묵주"
+      "displayName": {
+        "_value": "묵주"
+      }
     },
     "PET": {
-      "displayName": "애완동물"
+      "displayName": {
+        "_value": "애완동물"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "치킨 보난자"
+      "displayName": {
+        "_value": "치킨 보난자"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "황금의 피버타임"
+      "displayName": {
+        "_value": "황금의 피버타임"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "무료 패시브"
+      "displayName": {
+        "_value": "무료 패시브"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "화염 호흡"
+      "displayName": {
+        "_value": "화염 호흡"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "행운 부스트"
+      "displayName": {
+        "_value": "행운 부스트"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "광원"
+      "displayName": {
+        "_value": "광원"
+      }
     },
     "CANDYBOX": {
-      "displayName": "사탕상자"
+      "displayName": {
+        "_value": "사탕상자"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "박쥐 무리"
+      "displayName": {
+        "_value": "박쥐 무리"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "고스트 무리"
+      "displayName": {
+        "_value": "고스트 무리"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "메두사 무리"
+      "displayName": {
+        "_value": "메두사 무리"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "해골 무리"
+      "displayName": {
+        "_value": "해골 무리"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "젤리 무리"
+      "displayName": {
+        "_value": "젤리 무리"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "그린 무리"
+      "displayName": {
+        "_value": "그린 무리"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "새우 무리"
+      "displayName": {
+        "_value": "새우 무리"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "임프 무리"
+      "displayName": {
+        "_value": "임프 무리"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "스켈레톤 무리"
+      "displayName": {
+        "_value": "스켈레톤 무리"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "룰렛"
+      "displayName": {
+        "_value": "룰렛"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "패닉 타임"
+      "displayName": {
+        "_value": "패닉 타임"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "밤 소환"
+      "displayName": {
+        "_value": "밤 소환"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "일 몰리제 소환"
+      "displayName": {
+        "_value": "일 몰리제 소환"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "울트라 웨이브"
+      "displayName": {
+        "_value": "울트라 웨이브"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "크랩 축제"
+      "displayName": {
+        "_value": "크랩 축제"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "젤리 벽"
+      "displayName": {
+        "_value": "젤리 벽"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "플라워 벽"
+      "displayName": {
+        "_value": "플라워 벽"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "더미 공격"
+      "displayName": {
+        "_value": "더미 공격"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "미노 러시"
+      "displayName": {
+        "_value": "미노 러시"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "전갈 소굴"
+      "displayName": {
+        "_value": "전갈 소굴"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "별똥별"
+      "displayName": {
+        "_value": "별똥별"
+      }
     },
     "STALKER": {
-      "displayName": "스토커"
+      "displayName": {
+        "_value": "스토커"
+      }
     },
     "DROWNER": {
-      "displayName": "익사자"
+      "displayName": {
+        "_value": "익사자"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "피클 러쉬",
-      "newsfeed": "센서가 우주에서 희미한 식초 냄새를 감지합니다. 냄새를 없애려면 버튼을 눌러주세요."
+      "displayName": {
+        "_value": "피클 러쉬"
+      },
+      "newsfeed": {
+        "_value": "센서가 우주에서 희미한 식초 냄새를 감지합니다. 냄새를 없애려면 버튼을 눌러주세요."
+      }
     },
     "SABOTAGION": {
-      "displayName": "방해공작자",
-      "newsfeed": "지반 활동 감지. 버튼을 눌러 행성의 지각판을 옮기세요.",
-      "newsfeedDouble": "화산 폭발이 진행 중이며 이 광경을 보기 위해 수많은 관광객이 몰려들고 있습니다. 버튼 두 개를 모두 눌러 관광객을 막으세요."
+      "displayName": {
+        "_value": "방해공작자"
+      },
+      "newsfeed": {
+        "_value": "지반 활동 감지. 버튼을 눌러 행성의 지각판을 옮기세요."
+      },
+      "newsfeedDouble": {
+        "_value": "화산 폭발이 진행 중이며 이 광경을 보기 위해 수많은 관광객이 몰려들고 있습니다. 버튼 두 개를 모두 눌러 관광객을 막으세요."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "대규모 파괴 공작원 개체 수 증가가 감지되었습니다. 혼잡을 방지하려면 버튼을 눌러주세요."
+      "newsfeed": {
+        "_value": "대규모 파괴 공작원 개체 수 증가가 감지되었습니다. 혼잡을 방지하려면 버튼을 눌러주세요."
+      }
     },
     "FB_EVENT": {
-      "": "네오 시티 북동부에서 거대한 에일리언 사이보그의 존재를 감지했습니다. 격렬하게 공격하세요!"
+      "": {
+        "_value": "네오 시티 북동부에서 거대한 에일리언 사이보그의 존재를 감지했습니다. 격렬하게 공격하세요!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "스퀼러 무리"
+      "displayName": {
+        "_value": "스퀼러 무리"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "레의 저주"
+      "displayName": {
+        "_value": "레의 저주"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "승리하셨나요?"
+      "displayName": {
+        "_value": "승리하셨나요?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "엑토 금화"
+      "displayName": {
+        "_value": "엑토 금화"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "레드 금화 가방"
+      "displayName": {
+        "_value": "레드 금화 가방"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "금화 더미"
+      "displayName": {
+        "_value": "금화 더미"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "퍼플 금화 가방"
+      "displayName": {
+        "_value": "퍼플 금화 가방"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "골드 아이돌"
+      "displayName": {
+        "_value": "골드 아이돌"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "조커 댄스"
+      "displayName": {
+        "_value": "조커 댄스"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "금화 새우"
+      "displayName": {
+        "_value": "금화 새우"
+      }
     }
   },
   "zh-TW": {
     "ROSARY": {
-      "displayName": "玫瑰念珠"
+      "displayName": {
+        "_value": "玫瑰念珠"
+      }
     },
     "PET": {
-      "displayName": "寵物"
+      "displayName": {
+        "_value": "寵物"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "鴻運烤雞"
+      "displayName": {
+        "_value": "鴻運烤雞"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "淘金狂潮"
+      "displayName": {
+        "_value": "淘金狂潮"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "免費被動"
+      "displayName": {
+        "_value": "免費被動"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "炎息"
+      "displayName": {
+        "_value": "炎息"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "好運來"
+      "displayName": {
+        "_value": "好運來"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "光源"
+      "displayName": {
+        "_value": "光源"
+      }
     },
     "CANDYBOX": {
-      "displayName": "糖果盒"
+      "displayName": {
+        "_value": "糖果盒"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "蝙蝠群湧"
+      "displayName": {
+        "_value": "蝙蝠群湧"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "鬼魂群湧"
+      "displayName": {
+        "_value": "鬼魂群湧"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "梅杜莎群湧"
+      "displayName": {
+        "_value": "梅杜莎群湧"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "頭骨群湧"
+      "displayName": {
+        "_value": "頭骨群湧"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "水母群湧"
+      "displayName": {
+        "_value": "水母群湧"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "綠怪群湧"
+      "displayName": {
+        "_value": "綠怪群湧"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "小蝦群湧"
+      "displayName": {
+        "_value": "小蝦群湧"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "小鬼群湧"
+      "displayName": {
+        "_value": "小鬼群湧"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "骷髏群湧"
+      "displayName": {
+        "_value": "骷髏群湧"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "隨機輪盤"
+      "displayName": {
+        "_value": "隨機輪盤"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "恐慌時間"
+      "displayName": {
+        "_value": "恐慌時間"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "晦夜引"
+      "displayName": {
+        "_value": "晦夜引"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "召喚莫利塞"
+      "displayName": {
+        "_value": "召喚莫利塞"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "究極之波"
+      "displayName": {
+        "_value": "究極之波"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "螃蟹盛宴"
+      "displayName": {
+        "_value": "螃蟹盛宴"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "水母牆"
+      "displayName": {
+        "_value": "水母牆"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "花牆"
+      "displayName": {
+        "_value": "花牆"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "群起圍攻"
+      "displayName": {
+        "_value": "群起圍攻"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "牛頭怪狂潮"
+      "displayName": {
+        "_value": "牛頭怪狂潮"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "蠍子巢穴"
+      "displayName": {
+        "_value": "蠍子巢穴"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "流星群墜"
+      "displayName": {
+        "_value": "流星群墜"
+      }
     },
     "STALKER": {
-      "displayName": "陰魂"
+      "displayName": {
+        "_value": "陰魂"
+      }
     },
     "DROWNER": {
-      "displayName": "水鬼"
+      "displayName": {
+        "_value": "水鬼"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "醃黃瓜狂潮",
-      "newsfeed": "感測器偵測到來自外太空的些微醃漬味。請按下按鈕來清除這些氣味。"
+      "displayName": {
+        "_value": "醃黃瓜狂潮"
+      },
+      "newsfeed": {
+        "_value": "感測器偵測到來自外太空的些微醃漬味。請按下按鈕來清除這些氣味。"
+      }
     },
     "SABOTAGION": {
-      "displayName": "破壞蔓延",
-      "newsfeed": "偵測到地震活動。請按下按鈕以切換星球的構造板塊。",
-      "newsfeedDouble": "火山即將噴發，有無數的遊客連忙趕來欣賞眼前的奇觀。請同時按下兩個按鈕以請走這群遊客。"
+      "displayName": {
+        "_value": "破壞蔓延"
+      },
+      "newsfeed": {
+        "_value": "偵測到地震活動。請按下按鈕以切換星球的構造板塊。"
+      },
+      "newsfeedDouble": {
+        "_value": "火山即將噴發，有無數的遊客連忙趕來欣賞眼前的奇觀。請同時按下兩個按鈕以請走這群遊客。"
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "偵測到破壞者的數量激增。請按下按鈕以避免人擠人的情況發生。"
+      "newsfeed": {
+        "_value": "偵測到破壞者的數量激增。請按下按鈕以避免人擠人的情況發生。"
+      }
     },
     "FB_EVENT": {
-      "": "在霓虹都市的東北邊有巨大外星生化人出沒。對這個敵人發起猛烈的攻勢吧！"
+      "": {
+        "_value": "在霓虹都市的東北邊有巨大外星生化人出沒。對這個敵人發起猛烈的攻勢吧！"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "松鼠群湧"
+      "displayName": {
+        "_value": "松鼠群湧"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "法老旺旺的詛咒"
+      "displayName": {
+        "_value": "法老旺旺的詛咒"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "贏了？"
+      "displayName": {
+        "_value": "贏了？"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "靈質金幣"
+      "displayName": {
+        "_value": "靈質金幣"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "紅色錢袋"
+      "displayName": {
+        "_value": "紅色錢袋"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "錢堆"
+      "displayName": {
+        "_value": "錢堆"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "紫色錢袋"
+      "displayName": {
+        "_value": "紫色錢袋"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "黃金偶像"
+      "displayName": {
+        "_value": "黃金偶像"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "小丑之舞"
+      "displayName": {
+        "_value": "小丑之舞"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "金幣「龍」蝦"
+      "displayName": {
+        "_value": "金幣「龍」蝦"
+      }
     }
   },
   "uk": {
     "ROSARY": {
-      "displayName": "Чотки"
+      "displayName": {
+        "_value": "Чотки"
+      }
     },
     "PET": {
-      "displayName": "Улюбленець"
+      "displayName": {
+        "_value": "Улюбленець"
+      }
     },
     "CHICKEN_BONANZA": {
-      "displayName": "Курячий сказ"
+      "displayName": {
+        "_value": "Курячий сказ"
+      }
     },
     "GOLD_FEVER": {
-      "displayName": "Золота лихоманка"
+      "displayName": {
+        "_value": "Золота лихоманка"
+      }
     },
     "FREE_PASSIVE": {
-      "displayName": "Безплатна пасивна здатність"
+      "displayName": {
+        "_value": "Безплатна пасивна здатність"
+      }
     },
     "FIREBREATHING": {
-      "displayName": "Вогняний подих"
+      "displayName": {
+        "_value": "Вогняний подих"
+      }
     },
     "LUCK_BOOST": {
-      "displayName": "Талан"
+      "displayName": {
+        "_value": "Талан"
+      }
     },
     "LIGHT_SOURCES": {
-      "displayName": "Джерела світла"
+      "displayName": {
+        "_value": "Джерела світла"
+      }
     },
     "CANDYBOX": {
-      "displayName": "Коробка цукерок"
+      "displayName": {
+        "_value": "Коробка цукерок"
+      }
     },
     "BAT_SWARM": {
-      "displayName": "Зграя кажанів"
+      "displayName": {
+        "_value": "Зграя кажанів"
+      }
     },
     "GHOST_SWARM": {
-      "displayName": "Орда привидів"
+      "displayName": {
+        "_value": "Орда привидів"
+      }
     },
     "MEDUSA_SWARM": {
-      "displayName": "Орда мердуз"
+      "displayName": {
+        "_value": "Орда мердуз"
+      }
     },
     "SKULL_SWARM": {
-      "displayName": "Орда черепів"
+      "displayName": {
+        "_value": "Орда черепів"
+      }
     },
     "JELLY_SWARM": {
-      "displayName": "Зграя медуз"
+      "displayName": {
+        "_value": "Зграя медуз"
+      }
     },
     "ECTO_SWARM": {
-      "displayName": "Зелена згуба"
+      "displayName": {
+        "_value": "Зелена згуба"
+      }
     },
     "DRAGON_SWARM": {
-      "displayName": "Зграя креветок"
+      "displayName": {
+        "_value": "Зграя креветок"
+      }
     },
     "IMP_SWARM": {
-      "displayName": "Орда бісів"
+      "displayName": {
+        "_value": "Орда бісів"
+      }
     },
     "SKELETON_SWARM": {
-      "displayName": "Орда скелетів"
+      "displayName": {
+        "_value": "Орда скелетів"
+      }
     },
     "POLTER_ROULETTE": {
-      "displayName": "Рулетка"
+      "displayName": {
+        "_value": "Рулетка"
+      }
     },
     "PANIC_TIME": {
-      "displayName": "Час паніки"
+      "displayName": {
+        "_value": "Час паніки"
+      }
     },
     "SUMMON_NIGHT": {
-      "displayName": "Призов ночі"
+      "displayName": {
+        "_value": "Призов ночі"
+      }
     },
     "SUMMON_MOLISE": {
-      "displayName": "Призов Іл Моліз"
+      "displayName": {
+        "_value": "Призов Іл Моліз"
+      }
     },
     "ULTRA_WAVE": {
-      "displayName": "Потужна хвиля"
+      "displayName": {
+        "_value": "Потужна хвиля"
+      }
     },
     "CRAB_FEST": {
-      "displayName": "Краб-фест"
+      "displayName": {
+        "_value": "Краб-фест"
+      }
     },
     "JELLY_WALL": {
-      "displayName": "Медузоцвіт"
+      "displayName": {
+        "_value": "Медузоцвіт"
+      }
     },
     "FLOWER_WALL": {
-      "displayName": "Скверноцвіт"
+      "displayName": {
+        "_value": "Скверноцвіт"
+      }
     },
     "PILE_ASSAULT": {
-      "displayName": "Щільний натиск"
+      "displayName": {
+        "_value": "Щільний натиск"
+      }
     },
     "MINO_RUSH": {
-      "displayName": "Набіг мінотаврів"
+      "displayName": {
+        "_value": "Набіг мінотаврів"
+      }
     },
     "TWINS_PILES": {
-      "displayName": "Лігво скорпіона"
+      "displayName": {
+        "_value": "Лігво скорпіона"
+      }
     },
     "SHOOTING_STAR": {
-      "displayName": "Падучі зорі"
+      "displayName": {
+        "_value": "Падучі зорі"
+      }
     },
     "STALKER": {
-      "displayName": "Переслідувач"
+      "displayName": {
+        "_value": "Переслідувач"
+      }
     },
     "DROWNER": {
-      "displayName": "Потопельник"
+      "displayName": {
+        "_value": "Потопельник"
+      }
     },
     "SABOTAGE_PICKLE_RUSH": {
-      "displayName": "Огірковий бум",
-      "newsfeed": "Сенсори вловлюють слабкий запах оцту з космосу. Натисніть кнопку, щоби прибрати запах."
+      "displayName": {
+        "_value": "Огірковий бум"
+      },
+      "newsfeed": {
+        "_value": "Сенсори вловлюють слабкий запах оцту з космосу. Натисніть кнопку, щоби прибрати запах."
+      }
     },
     "SABOTAGION": {
-      "displayName": "Саботаж'йон",
-      "newsfeed": "Зафіксовано сейсмічну активність. Натисніть кнопку, щоб зрушити тектонічні плити планети.",
-      "newsfeedDouble": "Виверження тривають, а натовпи туристів збігаються на видовище. Натисніть обидві кнопки, щоби прибрати навалу туристів."
+      "displayName": {
+        "_value": "Саботаж'йон"
+      },
+      "newsfeed": {
+        "_value": "Зафіксовано сейсмічну активність. Натисніть кнопку, щоб зрушити тектонічні плити планети."
+      },
+      "newsfeedDouble": {
+        "_value": "Виверження тривають, а натовпи туристів збігаються на видовище. Натисніть обидві кнопки, щоби прибрати навалу туристів."
+      }
     },
     "SABOTAGE_GENERIC_RUSH": {
-      "newsfeed": "Зафіксоване масове зростання кількості саботажників. Натисніть кнопки, щоби запобігти переповненню."
+      "newsfeed": {
+        "_value": "Зафіксоване масове зростання кількості саботажників. Натисніть кнопки, щоби запобігти переповненню."
+      }
     },
     "FB_EVENT": {
-      "": "Зафіксована навала роботів-прибульців на північному сході Нео-Сіті. Атакуйте, не соромтеся!"
+      "": {
+        "_value": "Зафіксована навала роботів-прибульців на північному сході Нео-Сіті. Атакуйте, не соромтеся!"
+      }
     },
     "WESTWOODS_SQUIRREL_SWARM": {
-      "displayName": "Зграя виверток"
+      "displayName": {
+        "_value": "Зграя виверток"
+      }
     },
     "WESTWOODS_CHULAS_CURSE": {
-      "displayName": "Прокляття Рега"
+      "displayName": {
+        "_value": "Прокляття Рега"
+      }
     },
     "WESTWOODS_UNLOCK": {
-      "displayName": "Ви виграли?"
+      "displayName": {
+        "_value": "Ви виграли?"
+      }
     },
     "WESTWOODS_ECTO_COIN": {
-      "displayName": "Екто-монета"
+      "displayName": {
+        "_value": "Екто-монета"
+      }
     },
     "WESTWOODS_RED_JELLY": {
-      "displayName": "Червоний мішок монет"
+      "displayName": {
+        "_value": "Червоний мішок монет"
+      }
     },
     "WESTWOODS_COIN_PILE": {
-      "displayName": "Купка монет"
+      "displayName": {
+        "_value": "Купка монет"
+      }
     },
     "WESTWOODS_PURPLE_JELLY": {
-      "displayName": "Фіолетовий мішок монет"
+      "displayName": {
+        "_value": "Фіолетовий мішок монет"
+      }
     },
     "WESTWOODS_GOLDEN_IDOL": {
-      "displayName": "Золотий ідол"
+      "displayName": {
+        "_value": "Золотий ідол"
+      }
     },
     "WESTWOODS_JOKER_DANCE": {
-      "displayName": "Танок жартівника"
+      "displayName": {
+        "_value": "Танок жартівника"
+      }
     },
     "WESTWOODS_COIN_DRAGON": {
-      "displayName": "Монетна креветка"
+      "displayName": {
+        "_value": "Монетна креветка"
+      }
     }
   }
 }

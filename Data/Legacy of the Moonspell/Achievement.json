@@ -525,6 +525,21 @@
           "MS_LUNAR4"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "254"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "010",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0254"
+      }
     ]
   },
   "MOON20_GetLunarBightToLevel6":{
@@ -540,6 +555,21 @@
         "RequiredEvolvedWeapons":[
           "MS_LUNAR4"
         ]
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "255"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "011",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0255"
       }
     ]
   },
@@ -557,6 +587,21 @@
           "MS_LUNAR4"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "256"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "012",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0256"
+      }
     ]
   },
   
@@ -570,6 +615,21 @@
           "MS_LUNAR4"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "257"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "013",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0257"
+      }
     ]
   },
   
@@ -581,6 +641,21 @@
         "AchievementUnlockType": "ReachedXLevelAsCharacter",
         "RequiredCharacterType": "GEKKOJIN",
         "RequiredLevel": 80
+      }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "258"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "014",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0258"
       }
     ]
   },
@@ -595,12 +670,42 @@
           "PEARLMAGATAMA"
         ]
       }
+    ],
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "259"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "015",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0259"
+      }
     ]
   },
 
   "MOON25_EvolveFestiveWinds": {
     "description": "Hold the Pearl Magatama and evolve the Festive Winds with Miang Moonspell.",
-    "characterToUnlock": "MEGAMIANG"
+    "characterToUnlock": "MEGAMIANG",
+    "PlatformsData": [
+      {
+        "Platfrom": "GameCore",
+        "Data": "260"
+      },
+      {
+        "Platfrom": "PS4",
+        "Data": "016",
+        "PS4NpServiceLabel": "2"
+      },
+      {
+        "Platfrom": "PS5",
+        "Data": "0260"
+      }
+    ]
   },
 
   "MOON16_DefeatBossRuins": {

@@ -1,2424 +1,4804 @@
 {
   "en": {
     "LEGACY": {
-      "suffix": "(Legacy)"
+      "suffix": {
+        "_value": "(Legacy)"
+      }
     },
     "HALLOWS": {
-      "prefix": "Spoopy",
-      "suffix": null
+      "prefix": {
+        "_value": "Spoopy"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "December",
-      "suffix": null
+      "prefix": {
+        "_value": "December"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Unblinded",
-      "suffix": null,
-      "description": "Also starts with a Level 5 Empty Tome."
+      "prefix": {
+        "_value": "Unblinded"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Also starts with a Level 5 Empty Tome."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "Retired",
-      "suffix": null,
-      "description": "Also starts with a Level 5 Pummarola."
+      "prefix": {
+        "_value": "Retired"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Also starts with a Level 5 Pummarola."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Receives SpellStrike at Level 10 and SpellString at Level 20. Receives Academy Badge at Level 30."
+      "description": {
+        "_value": "Receives SpellStrike at Level 10 and SpellString at Level 20. Receives Academy Badge at Level 30."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Receives SpellString at Level 10 and SpellStream at Level 20. Receives Academy Badge at Level 30."
+      "description": {
+        "_value": "Receives SpellString at Level 10 and SpellStream at Level 20. Receives Academy Badge at Level 30."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Reborn",
-      "suffix": null,
-      "description": "Also starts with a Level 5 Wings and a hidden Valkyrie Turner."
+      "prefix": {
+        "_value": "Reborn"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Also starts with a Level 5 Wings and a hidden Valkyrie Turner."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Won't summon allies."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Won't summon allies."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Won't summon allies."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Won't summon allies."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Won't summon allies."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Won't summon allies."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Won't summon allies."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Won't summon allies."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Won't summon allies."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Won't summon allies."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Won't summon allies."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Won't summon allies."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "\"Retro Pod\""
+      "suffix": {
+        "_value": "\"Retro Pod\""
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "\"Battle Tank\"",
-      "description": "Charge: fires an array of Super Missiles."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "\"Battle Tank\""
+      },
+      "description": {
+        "_value": "Charge: fires an array of Super Missiles."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "\"Virginia\"",
-      "description": "Gains bonuses to Might, Projectile speed, Duration, Area, Cooldown, and Recovery based on the total of glimmered techs."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "\"Virginia\""
+      },
+      "description": {
+        "_value": "Gains bonuses to Might, Projectile speed, Duration, Area, Cooldown, and Recovery based on the total of glimmered techs."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "\"Paradox\"",
-      "description": "Can fly. Can innately use the \"Cosmic Rave\" tech."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "\"Paradox\""
+      },
+      "description": {
+        "_value": "Can fly. Can innately use the \"Cosmic Rave\" tech."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "\"Shanks\"",
-      "description": "Charge: triggers the \"Ballistic Missiles\" tech."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "\"Shanks\""
+      },
+      "description": {
+        "_value": "Charge: triggers the \"Ballistic Missiles\" tech."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "\"Mover\"",
-      "description": "Can fly. High Magnet and Move Speed, but low Max Health."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "\"Mover\""
+      },
+      "description": {
+        "_value": "Can fly. High Magnet and Move Speed, but low Max Health."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Dark Lord",
-      "suffix": null,
-      "description": "Also gains +1 Revival every 100 levels. Enemies drop Blue, Red, or Yellow Souls that increase Growth, Might, or Greed respectively when set amounts are collected."
+      "prefix": {
+        "_value": "Dark Lord"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Also gains +1 Revival every 100 levels. Enemies drop Blue, Red, or Yellow Souls that increase Growth, Might, or Greed respectively when set amounts are collected."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Adept with Fire Wand. Always followed by Slogra. Gets enraged if its partner dies. Flies."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Adept with Fire Wand. Always followed by Slogra. Gets enraged if its partner dies. Flies."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+      "description": {
+        "_value": "Starting weapon can't evolve but its Limit Break is enhanced."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+      "description": {
+        "_value": "Starting weapon can't evolve but its Limit Break is enhanced."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+      "description": {
+        "_value": "Starting weapon can't evolve but its Limit Break is enhanced."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+      "description": {
+        "_value": "Starting weapon can't evolve but its Limit Break is enhanced."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+      "description": {
+        "_value": "Starting weapon can't evolve but its Limit Break is enhanced."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+      "description": {
+        "_value": "Starting weapon can't evolve but its Limit Break is enhanced."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "Starting weapon can't evolve but its Limit Break is enhanced."
+      "description": {
+        "_value": "Starting weapon can't evolve but its Limit Break is enhanced."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Gets more projectiles every 20 levels (max+4). Starts with a Level 2 Duplicator."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Starts with a Level 2 Duplicator."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Gets more projectiles every 20 levels (max+4). Starts with a Level 5 Spellbinder."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Starts with a Level 5 Spellbinder."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      "description": {
+        "_value": "Gets more projectiles every 20 levels (max+4). Complete a stage to gain a Prestige rank."
+      }
     }
   },
   "fr": {
     "LEGACY": {
-      "suffix": "(Héritage)"
+      "suffix": {
+        "_value": "(Héritage)"
+      }
     },
     "HALLOWS": {
-      "prefix": "spoopy",
-      "suffix": null
+      "prefix": {
+        "_value": "spoopy"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "de décembre",
-      "suffix": null
+      "prefix": {
+        "_value": "de décembre"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "non aveugle",
-      "suffix": null,
-      "description": "Commence également avec un Tome vierge de niveau 5."
+      "prefix": {
+        "_value": "non aveugle"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Commence également avec un Tome vierge de niveau 5."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "à la retraite",
-      "suffix": null,
-      "description": "Commence également avec un Pummarola de niveau 5."
+      "prefix": {
+        "_value": "à la retraite"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Commence également avec un Pummarola de niveau 5."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Reçoit SpellStrike au niveau 10 et SpellString au niveau 20. Reçoit Insigne de l'Académie au niveau 30."
+      "description": {
+        "_value": "Reçoit SpellStrike au niveau 10 et SpellString au niveau 20. Reçoit Insigne de l'Académie au niveau 30."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Reçoit SpellStrike au niveau 10 et SpellStream au niveau 20. Reçoit Insigne de l'Académie au niveau 30."
+      "description": {
+        "_value": "Reçoit SpellStrike au niveau 10 et SpellStream au niveau 20. Reçoit Insigne de l'Académie au niveau 30."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": null,
-      "suffix": "Reborn",
-      "description": "Commence également avec des Ailes de niveau 5 et un Chalumeau ailé caché."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Reborn"
+      },
+      "description": {
+        "_value": "Commence également avec des Ailes de niveau 5 et un Chalumeau ailé caché."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "N'invoquera pas d'alliés."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "N'invoquera pas d'alliés."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "N'invoquera pas d'alliés."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "N'invoquera pas d'alliés."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "N'invoquera pas d'alliés."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "N'invoquera pas d'alliés."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "N'invoquera pas d'alliés."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "N'invoquera pas d'alliés."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "N'invoquera pas d'alliés."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "N'invoquera pas d'alliés."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "N'invoquera pas d'alliés."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "N'invoquera pas d'alliés."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Pod rétro"
+      "suffix": {
+        "_value": "Pod rétro"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Char de combat",
-      "description": "Charge : tire une pléiade de Supermissiles."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Char de combat"
+      },
+      "description": {
+        "_value": "Charge : tire une pléiade de Supermissiles."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Virginia",
-      "description": "Gagne des bonus de puissance, vitesse de projectile, durée, portée, recharge, et guérison en fonction du total de techniques activées."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Virginia"
+      },
+      "description": {
+        "_value": "Gagne des bonus de puissance, vitesse de projectile, durée, portée, recharge, et guérison en fonction du total de techniques activées."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Paradoxe",
-      "description": "Peut voler. Peut naturellement utiliser la technique « Rave cosmique »."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Paradoxe"
+      },
+      "description": {
+        "_value": "Peut voler. Peut naturellement utiliser la technique « Rave cosmique »."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Pattes",
-      "description": "Charge : déclenche la technique « Missiles balistiques »."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Pattes"
+      },
+      "description": {
+        "_value": "Charge : déclenche la technique « Missiles balistiques »."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Voyageur",
-      "description": "Peut voler. Portée d'Aimant et vitesse de déplacement élevés, mais santé max faible."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Voyageur"
+      },
+      "description": {
+        "_value": "Peut voler. Portée d'Aimant et vitesse de déplacement élevés, mais santé max faible."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Seigneur des Ténèbres",
-      "suffix": null,
-      "description": "Gagne également +1 résurrection tous les 100 niveaux. Les ennemis donnent des âmes bleues, rouges ou jaunes qui augmentent respectivement l’expertise, la puissance ou l’avidité lorsque vous en récupérez un certain nombre."
+      "prefix": {
+        "_value": "Seigneur des Ténèbres"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Gagne également +1 résurrection tous les 100 niveaux. Les ennemis donnent des âmes bleues, rouges ou jaunes qui augmentent respectivement l’expertise, la puissance ou l’avidité lorsque vous en récupérez un certain nombre."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Maîtrise la Baguette de feu. Toujours suivi par Slogra. Devient furieux si son partenaire meurt. Vole."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Maîtrise la Baguette de feu. Toujours suivi par Slogra. Devient furieux si son partenaire meurt. Vole."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      "description": {
+        "_value": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      "description": {
+        "_value": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      "description": {
+        "_value": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      "description": {
+        "_value": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      "description": {
+        "_value": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      "description": {
+        "_value": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      "description": {
+        "_value": "L'arme de départ ne peut pas évoluer, mais son dépassement est amélioré."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Commence avec un Duplicateur de niveau 2."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Commence avec un Duplicateur de niveau 2."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Commence avec une Reliure magique de niveau 5."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Commence avec une Reliure magique de niveau 5."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      "description": {
+        "_value": "Obtient plus de projectiles tous les 20 niveaux (+4 max). Terminez un niveau pour gagner un rang de Prestige."
+      }
     }
   },
   "it": {
     "LEGACY": {
-      "suffix": "(Originale)"
+      "suffix": {
+        "_value": "(Originale)"
+      }
     },
     "HALLOWS": {
-      "prefix": "Spoopy",
-      "suffix": null
+      "prefix": {
+        "_value": "Spoopy"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "Dicembre",
-      "suffix": null
+      "prefix": {
+        "_value": "Dicembre"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Sbendata",
-      "suffix": null,
-      "description": "Comincia inoltre con un Tomo intonso di livello 5."
+      "prefix": {
+        "_value": "Sbendata"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Comincia inoltre con un Tomo intonso di livello 5."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "Pensionato",
-      "suffix": null,
-      "description": "Comincia inoltre con un Pummarola di livello 5."
+      "prefix": {
+        "_value": "Pensionato"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Comincia inoltre con un Pummarola di livello 5."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Riceve SpellStrike al livello 10 e SpellString al livello 20. Riceve il Distintivo dell'Accademia al livello 30."
+      "description": {
+        "_value": "Riceve SpellStrike al livello 10 e SpellString al livello 20. Riceve il Distintivo dell'Accademia al livello 30."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Riceve SpellString al livello 10 e SpellStream al livello 20. Riceve il Distintivo dell'Accademia al livello 30."
+      "description": {
+        "_value": "Riceve SpellString al livello 10 e SpellStream al livello 20. Riceve il Distintivo dell'Accademia al livello 30."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Rinata",
-      "suffix": null,
-      "description": "Comincia anche con Ali di livello 5 e un Torno valchirio nascosto."
+      "prefix": {
+        "_value": "Rinata"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Comincia anche con Ali di livello 5 e un Torno valchirio nascosto."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(in solitaria)",
-      "description": "Non evoca alleati."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(in solitaria)"
+      },
+      "description": {
+        "_value": "Non evoca alleati."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(in solitaria)",
-      "description": "Non evoca alleati."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(in solitaria)"
+      },
+      "description": {
+        "_value": "Non evoca alleati."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(in solitaria)",
-      "description": "Non evoca alleati."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(in solitaria)"
+      },
+      "description": {
+        "_value": "Non evoca alleati."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(in solitaria)",
-      "description": "Non evoca alleati."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(in solitaria)"
+      },
+      "description": {
+        "_value": "Non evoca alleati."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(in solitaria)",
-      "description": "Non evoca alleati."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(in solitaria)"
+      },
+      "description": {
+        "_value": "Non evoca alleati."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(in solitaria)",
-      "description": "Non evoca alleati."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(in solitaria)"
+      },
+      "description": {
+        "_value": "Non evoca alleati."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Retro Pod"
+      "suffix": {
+        "_value": "Retro Pod"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Tank da combattimento",
-      "description": "Carica: spara una raffica di Super missili."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Tank da combattimento"
+      },
+      "description": {
+        "_value": "Carica: spara una raffica di Super missili."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Virginia",
-      "description": "Ottiene bonus a Potenza, Velocità dei proiettili, Durata, Area, Tempo di ricarica e Recupero in base al totale di Tech ottenute in Glimmer."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Virginia"
+      },
+      "description": {
+        "_value": "Ottiene bonus a Potenza, Velocità dei proiettili, Durata, Area, Tempo di ricarica e Recupero in base al totale di Tech ottenute in Glimmer."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Paradox",
-      "description": "Può volare. Può usare innatamente la Tech Rave cosmico."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Paradox"
+      },
+      "description": {
+        "_value": "Può volare. Può usare innatamente la Tech Rave cosmico."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Shanks",
-      "description": "Carica: scatena la tech Missili balistici."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Shanks"
+      },
+      "description": {
+        "_value": "Carica: scatena la tech Missili balistici."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Mover",
-      "description": "Può volare. Calamita e Velocità di movimento elevate, ma scarsa Salute massima."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Mover"
+      },
+      "description": {
+        "_value": "Può volare. Calamita e Velocità di movimento elevate, ma scarsa Salute massima."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Signore oscuro",
-      "suffix": null,
-      "description": "Ottiene anche +1 di Resurrezione ogni 100 livelli. I nemici rilasciano anime blu, rosse o gialle che aumentano rispettivamente Crescita, Potenza o Avidità quando ne vengono raccolte a sufficienza."
+      "prefix": {
+        "_value": "Signore oscuro"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Ottiene anche +1 di Resurrezione ogni 100 livelli. I nemici rilasciano anime blu, rosse o gialle che aumentano rispettivamente Crescita, Potenza o Avidità quando ne vengono raccolte a sufficienza."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Abile con la Bacchetta di fuoco. È sempre con Slogra. Va su tutte le furie quando muore il suo partner. Vola."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Abile con la Bacchetta di fuoco. È sempre con Slogra. Va su tutte le furie quando muore il suo partner. Vola."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      "description": {
+        "_value": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      "description": {
+        "_value": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      "description": {
+        "_value": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      "description": {
+        "_value": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      "description": {
+        "_value": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      "description": {
+        "_value": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      "description": {
+        "_value": "L'arma iniziale non può migliorare, ma aumenta la sua soglia di Superamento del limite."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Comincia con un Duplicatore di livello 2."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Comincia con un Duplicatore di livello 2."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Comincia con un Estendincanto di livello 5."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Comincia con un Estendincanto di livello 5."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      "description": {
+        "_value": "Ottiene proiettili aggiuntivi ogni 20 livelli (max +4). Completa un livello per ottenere un grado di prestigio."
+      }
     }
   },
   "de": {
     "LEGACY": {
-      "suffix": "(Legacy)"
+      "suffix": {
+        "_value": "(Legacy)"
+      }
     },
     "HALLOWS": {
-      "prefix": "Gruselig",
-      "suffix": null
+      "prefix": {
+        "_value": "Gruselig"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "Dezember",
-      "suffix": null
+      "prefix": {
+        "_value": "Dezember"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Ungeblendet",
-      "suffix": null,
-      "description": "Beginnt außerdem mit einem Leeren Folianten auf Level 5."
+      "prefix": {
+        "_value": "Ungeblendet"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Beginnt außerdem mit einem Leeren Folianten auf Level 5."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "Pensioniert",
-      "suffix": null,
-      "description": "Beginnt außerdem mit einer Pummarola auf Level 5."
+      "prefix": {
+        "_value": "Pensioniert"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Beginnt außerdem mit einer Pummarola auf Level 5."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Erhält ab Level 10 Zauberschlag und ab Level 20 Zauberband. Erhält ab Level 30 Akademieabzeichen."
+      "description": {
+        "_value": "Erhält ab Level 10 Zauberschlag und ab Level 20 Zauberband. Erhält ab Level 30 Akademieabzeichen."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Erhält ab Level 10 Zauberband und ab Level 20 Zauberstrom. Erhält ab Level 30 Akademieabzeichen."
+      "description": {
+        "_value": "Erhält ab Level 10 Zauberband und ab Level 20 Zauberstrom. Erhält ab Level 30 Akademieabzeichen."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Wiedergeburt",
-      "suffix": null,
-      "description": "Fängt mit Level 5 Flügeln und einer verborgenen Walkürenwalze an."
+      "prefix": {
+        "_value": "Wiedergeburt"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Fängt mit Level 5 Flügeln und einer verborgenen Walkürenwalze an."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(Solo)",
-      "description": "Beschwört keine Verbündeten."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(Solo)"
+      },
+      "description": {
+        "_value": "Beschwört keine Verbündeten."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(Solo)",
-      "description": "Beschwört keine Verbündeten."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(Solo)"
+      },
+      "description": {
+        "_value": "Beschwört keine Verbündeten."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(Solo)",
-      "description": "Beschwört keine Verbündeten."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(Solo)"
+      },
+      "description": {
+        "_value": "Beschwört keine Verbündeten."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(Solo)",
-      "description": "Beschwört keine Verbündeten."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(Solo)"
+      },
+      "description": {
+        "_value": "Beschwört keine Verbündeten."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(Solo)",
-      "description": "Beschwört keine Verbündeten."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(Solo)"
+      },
+      "description": {
+        "_value": "Beschwört keine Verbündeten."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(Solo)",
-      "description": "Beschwört keine Verbündeten."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(Solo)"
+      },
+      "description": {
+        "_value": "Beschwört keine Verbündeten."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Retro Pod"
+      "suffix": {
+        "_value": "Retro Pod"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Kampfpanzer",
-      "description": "Aufladen: Feuert eine Salve von Superraketen."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Kampfpanzer"
+      },
+      "description": {
+        "_value": "Aufladen: Feuert eine Salve von Superraketen."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Virginia",
-      "description": "Gewährt Boni für Macht, Geschossgeschwindigkeit, Dauer, Bereich, Abklingzeit und Erholung basierend auf insgesamt aufgeglimmten Angriffen."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Virginia"
+      },
+      "description": {
+        "_value": "Gewährt Boni für Macht, Geschossgeschwindigkeit, Dauer, Bereich, Abklingzeit und Erholung basierend auf insgesamt aufgeglimmten Angriffen."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Paradox",
-      "description": "Kann fliegen und von Anfang an \"Kosmischer Rave\" benutzen."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Paradox"
+      },
+      "description": {
+        "_value": "Kann fliegen und von Anfang an \"Kosmischer Rave\" benutzen."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Hachsen",
-      "description": "Aufladen: Löst die Technik \"Langstreckenraketen\" aus."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Hachsen"
+      },
+      "description": {
+        "_value": "Aufladen: Löst die Technik \"Langstreckenraketen\" aus."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Krabbler",
-      "description": "Kann fliegen. Starker Magnet und hohe Bewegungsgeschwindigkeit, niedrige max. LP."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Krabbler"
+      },
+      "description": {
+        "_value": "Kann fliegen. Starker Magnet und hohe Bewegungsgeschwindigkeit, niedrige max. LP."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Fürst der Finsternis",
-      "suffix": null,
-      "description": "Erhält +1 Wiederbeleben alle 100 Levels. Gegner lassen blaue, rote oder gelbe Seelen fallen, die jeweils Wachstum, Macht oder Gier steigern, wenn eine bestimmte Anzahl gesammelt wurde."
+      "prefix": {
+        "_value": "Fürst der Finsternis"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Erhält +1 Wiederbeleben alle 100 Levels. Gegner lassen blaue, rote oder gelbe Seelen fallen, die jeweils Wachstum, Macht oder Gier steigern, wenn eine bestimmte Anzahl gesammelt wurde."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Geschickt im Umgang mit dem Feuerstab. Hat immer Slogra im Schlepptau. Wird wütend, wenn sein Partner stirbt. Fliegt."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Geschickt im Umgang mit dem Feuerstab. Hat immer Slogra im Schlepptau. Wird wütend, wenn sein Partner stirbt. Fliegt."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      "description": {
+        "_value": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      "description": {
+        "_value": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      "description": {
+        "_value": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      "description": {
+        "_value": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      "description": {
+        "_value": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      "description": {
+        "_value": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      "description": {
+        "_value": "Die Startwaffe kann nicht verbessert werden, aber ihr Limit-Break ist stärker."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Erhält alle 20 Levels mehr Geschosse (max. +4). Startet mit einem Verdoppler auf Stufe 2."
+      "description": {
+        "_value": "Erhält alle 20 Levels mehr Geschosse (max. +4). Startet mit einem Verdoppler auf Stufe 2."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Erhält alle 20 Levels mehr Geschosse (max. +4). Startet mit einem Zauberbinder auf Stufe 5."
+      "description": {
+        "_value": "Erhält alle 20 Levels mehr Geschosse (max. +4). Startet mit einem Zauberbinder auf Stufe 5."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      "description": {
+        "_value": "Erhält alle 20 Level mehr Geschosse (max. +4). Schließ eine Stage ab, um einen Prestigerang zu erhalten."
+      }
     }
   },
   "es": {
     "LEGACY": {
-      "suffix": "(tradicional)"
+      "suffix": {
+        "_value": "(tradicional)"
+      }
     },
     "HALLOWS": {
-      "prefix": null,
-      "suffix": "escalofriante"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "escalofriante"
+      }
     },
     "XMAS": {
-      "prefix": null,
-      "suffix": "de diciembre"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "de diciembre"
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": null,
-      "suffix": "omnividente",
-      "description": "También comienza con un tomo vacío de nivel 5."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "omnividente"
+      },
+      "description": {
+        "_value": "También comienza con un tomo vacío de nivel 5."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": null,
-      "suffix": "jubilado",
-      "description": "También empieza con una pummarola de nivel 5."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "jubilado"
+      },
+      "description": {
+        "_value": "También empieza con una pummarola de nivel 5."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Recibe el sortigolpe en el nivel 10 y el sortitruco en el nivel 20. Recibe la insignia de la academia en el nivel 30."
+      "description": {
+        "_value": "Recibe el sortigolpe en el nivel 10 y el sortitruco en el nivel 20. Recibe la insignia de la academia en el nivel 30."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Recibe el sortitruco en el nivel 10 y el sortitorrente en el nivel 20. Recibe la insignia de la academia en el nivel 30."
+      "description": {
+        "_value": "Recibe el sortitruco en el nivel 10 y el sortitorrente en el nivel 20. Recibe la insignia de la academia en el nivel 30."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": null,
-      "suffix": "renacida",
-      "description": "También empieza con las alas de nivel 5 y un tornallamas de valquiria oculto."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "renacida"
+      },
+      "description": {
+        "_value": "También empieza con las alas de nivel 5 y un tornallamas de valquiria oculto."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(en solitario)",
-      "description": "No invocará aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(en solitario)"
+      },
+      "description": {
+        "_value": "No invocará aliados."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(en solitario)",
-      "description": "No invocará aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(en solitario)"
+      },
+      "description": {
+        "_value": "No invocará aliados."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(en solitario)",
-      "description": "No invocará aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(en solitario)"
+      },
+      "description": {
+        "_value": "No invocará aliados."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(en solitario)",
-      "description": "No invocará aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(en solitario)"
+      },
+      "description": {
+        "_value": "No invocará aliados."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(en solitario)",
-      "description": "No invocará aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(en solitario)"
+      },
+      "description": {
+        "_value": "No invocará aliados."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(en solitario)",
-      "description": "No invocará aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(en solitario)"
+      },
+      "description": {
+        "_value": "No invocará aliados."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "«Retrocápsula»"
+      "suffix": {
+        "_value": "«Retrocápsula»"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "«Tanque de combate»",
-      "description": "Carga: dispara una salva de supermisiles."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "«Tanque de combate»"
+      },
+      "description": {
+        "_value": "Carga: dispara una salva de supermisiles."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "«Virginia»",
-      "description": "Gana bonificaciones de poder, velocidad de proyectil, duración, área de efecto, recarga y recuperación según el total de técnicas vislumbradas."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "«Virginia»"
+      },
+      "description": {
+        "_value": "Gana bonificaciones de poder, velocidad de proyectil, duración, área de efecto, recarga y recuperación según el total de técnicas vislumbradas."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "«Paradoja»",
-      "description": "Vuela. Empieza con la técnica «Alabanza cósmica»."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "«Paradoja»"
+      },
+      "description": {
+        "_value": "Vuela. Empieza con la técnica «Alabanza cósmica»."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "«Cuadrúpeda»",
-      "description": "Carga: activa la técnica «Misiles balísticos»."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "«Cuadrúpeda»"
+      },
+      "description": {
+        "_value": "Carga: activa la técnica «Misiles balísticos»."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "«Vuelo»",
-      "description": "Vuela. Valores altos de imán y velocidad de movimiento, pero valor bajo de salud máxima."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "«Vuelo»"
+      },
+      "description": {
+        "_value": "Vuela. Valores altos de imán y velocidad de movimiento, pero valor bajo de salud máxima."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Señor oscuro",
-      "suffix": null,
-      "description": "También gana +1 resurrección cada 100 niveles. Los enemigos sueltan almas azules, rojas o amarillas que pueden aumentar el crecimiento, el poder o la avaricia, respectivamente, al recoger cierta cantidad de cada color."
+      "prefix": {
+        "_value": "Señor oscuro"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "También gana +1 resurrección cada 100 niveles. Los enemigos sueltan almas azules, rojas o amarillas que pueden aumentar el crecimiento, el poder o la avaricia, respectivamente, al recoger cierta cantidad de cada color."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Experto con la varita ígnea. Siempre lo sigue Slogra. Enfurece si su compañero muere. Puede volar."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Experto con la varita ígnea. Siempre lo sigue Slogra. Enfurece si su compañero muere. Puede volar."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      "description": {
+        "_value": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      "description": {
+        "_value": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      "description": {
+        "_value": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      "description": {
+        "_value": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      "description": {
+        "_value": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      "description": {
+        "_value": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      "description": {
+        "_value": "El arma inicial no puede evolucionar, pero su rompelímites se mejora."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Comienza con un duplicador de nivel 2."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Comienza con un duplicador de nivel 2."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Comienza con un potenciahechizos de nivel 5."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Comienza con un potenciahechizos de nivel 5."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      "description": {
+        "_value": "Consigue más proyectiles cada 20 niveles (máx.: +4). Completa una fase para ganar un rango de prestigio."
+      }
     }
   },
   "pt-BR": {
     "LEGACY": {
-      "suffix": "(Tradicional)"
+      "suffix": {
+        "_value": "(Tradicional)"
+      }
     },
     "HALLOWS": {
-      "prefix": "Sustinho",
-      "suffix": null
+      "prefix": {
+        "_value": "Sustinho"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "Dezembro",
-      "suffix": null
+      "prefix": {
+        "_value": "Dezembro"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Desvendada",
-      "suffix": null,
-      "description": "Também começa com Tomo Vazio nível 5."
+      "prefix": {
+        "_value": "Desvendada"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Também começa com Tomo Vazio nível 5."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "Apoesentado",
-      "suffix": null,
-      "description": "Também começa com Pummarola nível 5."
+      "prefix": {
+        "_value": "Apoesentado"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Também começa com Pummarola nível 5."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Recebe Sortigolpe no nível 10 e Sortilivro no nível 20. Recebe Brasão Acadêmico no nível 30."
+      "description": {
+        "_value": "Recebe Sortigolpe no nível 10 e Sortilivro no nível 20. Recebe Brasão Acadêmico no nível 30."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Recebe Sortilivro no nível 10 e Sortifeixe no nível 20. Recebe Brasão Acadêmico no nível 30."
+      "description": {
+        "_value": "Recebe Sortilivro no nível 10 e Sortifeixe no nível 20. Recebe Brasão Acadêmico no nível 30."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Renascimento",
-      "suffix": null,
-      "description": "Também começa com Asas nível 5 e um Torneador de Valquírias oculto."
+      "prefix": {
+        "_value": "Renascimento"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Também começa com Asas nível 5 e um Torneador de Valquírias oculto."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Não invoca aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Não invoca aliados."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Não invoca aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Não invoca aliados."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Não invoca aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Não invoca aliados."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Não invoca aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Não invoca aliados."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Não invoca aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Não invoca aliados."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Não invoca aliados."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Não invoca aliados."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Cápsula Retrô"
+      "suffix": {
+        "_value": "Cápsula Retrô"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Tanque de Batalha",
-      "description": "Carga: dispara um saraivada de Supermísseis."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Tanque de Batalha"
+      },
+      "description": {
+        "_value": "Carga: dispara um saraivada de Supermísseis."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Virgínia",
-      "description": "Ganha bônus de Poder, Velocidade de Projéteis, Duração, Área, Recarga e Recuperação com base no total de técnicas realçadas."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Virgínia"
+      },
+      "description": {
+        "_value": "Ganha bônus de Poder, Velocidade de Projéteis, Duração, Área, Recarga e Recuperação com base no total de técnicas realçadas."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Paradoxo",
-      "description": "Pode voar. Domina a técnica \"Delírio Cósmico\" instintivamente."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Paradoxo"
+      },
+      "description": {
+        "_value": "Pode voar. Domina a técnica \"Delírio Cósmico\" instintivamente."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Shanks",
-      "description": "Carga: ativa a técnica \"Mísseis Balísticos\"."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Shanks"
+      },
+      "description": {
+        "_value": "Carga: ativa a técnica \"Mísseis Balísticos\"."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Transportador",
-      "description": "Pode voar. Alto Magnetismo e Velocidade de Movimento, mas Vida Máxima baixa."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Transportador"
+      },
+      "description": {
+        "_value": "Pode voar. Alto Magnetismo e Velocidade de Movimento, mas Vida Máxima baixa."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Senhor das Trevas",
-      "suffix": null,
-      "description": "Também ganha +1 de Ressurreição a cada 100 níveis. Inimigos concedem Almas Azuis, Vermelhas ou Amarelas que aumentam Crescimento, Poder e Ganância, respectivamente, ao coletar valores específicos."
+      "prefix": {
+        "_value": "Senhor das Trevas"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Também ganha +1 de Ressurreição a cada 100 níveis. Inimigos concedem Almas Azuis, Vermelhas ou Amarelas que aumentam Crescimento, Poder e Ganância, respectivamente, ao coletar valores específicos."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Hábil com a Varinha de Fogo. Sempre seguido por Slogra. Se enfurece se o parceiro morre. Voa."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Hábil com a Varinha de Fogo. Sempre seguido por Slogra. Se enfurece se o parceiro morre. Voa."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      "description": {
+        "_value": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      "description": {
+        "_value": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      "description": {
+        "_value": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      "description": {
+        "_value": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      "description": {
+        "_value": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      "description": {
+        "_value": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      "description": {
+        "_value": "A arma inicial não pode ser evoluída, mas sua Ruptura de Limite é aumentada."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Começa com um Duplicador nível 2."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Começa com um Duplicador nível 2."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Começa com um Magicatalisador nível 5."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Começa com um Magicatalisador nível 5."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      "description": {
+        "_value": "Ganha mais projéteis a cada 20 níveis (máx. de +4). Conclua uma fase para ganhar uma classe de Prestígio."
+      }
     }
   },
   "pl": {
     "LEGACY": {
-      "suffix": "(Dziedzictwo)"
+      "suffix": {
+        "_value": "(Dziedzictwo)"
+      }
     },
     "HALLOWS": {
-      "prefix": "Upiór",
-      "suffix": null
+      "prefix": {
+        "_value": "Upiór"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "Grudzień",
-      "suffix": null
+      "prefix": {
+        "_value": "Grudzień"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Widząca",
-      "suffix": null,
-      "description": "Zaczyna też z Pustą księgą na poziomie 5."
+      "prefix": {
+        "_value": "Widząca"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Zaczyna też z Pustą księgą na poziomie 5."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "Emerytowany",
-      "suffix": null,
-      "description": "Zaczyna z Pummarolą na poziomie 5."
+      "prefix": {
+        "_value": "Emerytowany"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Zaczyna z Pummarolą na poziomie 5."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Otrzymuje Nawałnicę zaklęć na poziomie 10 oraz Księgę zaklęć na poziomie 20. Otrzymuje Odznakę akademii na poziomie 30."
+      "description": {
+        "_value": "Otrzymuje Nawałnicę zaklęć na poziomie 10 oraz Księgę zaklęć na poziomie 20. Otrzymuje Odznakę akademii na poziomie 30."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Otrzymuje Księgę zaklęć na poziomie 10 oraz Strumień zaklęć na poziomie 20. Otrzymuje Odznakę Akademii na poziomie 30."
+      "description": {
+        "_value": "Otrzymuje Księgę zaklęć na poziomie 10 oraz Strumień zaklęć na poziomie 20. Otrzymuje Odznakę Akademii na poziomie 30."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Odrodzona",
-      "suffix": null,
-      "description": "Zaczyna też ze Skrzydłami na poziomie 5 i ukrytą Walkirią."
+      "prefix": {
+        "_value": "Odrodzona"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Zaczyna też ze Skrzydłami na poziomie 5 i ukrytą Walkirią."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Nie może wezwać sojuszników."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Nie może wezwać sojuszników."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Nie może wezwać sojuszników."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Nie może wezwać sojuszników."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Nie może wezwać sojuszników."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Nie może wezwać sojuszników."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Nie może wezwać sojuszników."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Nie może wezwać sojuszników."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Nie może wezwać sojuszników."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Nie może wezwać sojuszników."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Nie może wezwać sojuszników."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Nie może wezwać sojuszników."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Retro robot"
+      "suffix": {
+        "_value": "Retro robot"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Czołg",
-      "description": "Ładowana umiejętność: Wystrzeliwuje salwę Superpocisków."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Czołg"
+      },
+      "description": {
+        "_value": "Ładowana umiejętność: Wystrzeliwuje salwę Superpocisków."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Virginia",
-      "description": "Otrzymuje premie do Mocy, Prędkości pocisków, Czasu trwania, Obszaru, Odnawiania i Odzyskiwania na podstawie łącznej liczby opanowanych technik."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Virginia"
+      },
+      "description": {
+        "_value": "Otrzymuje premie do Mocy, Prędkości pocisków, Czasu trwania, Obszaru, Odnawiania i Odzyskiwania na podstawie łącznej liczby opanowanych technik."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Paradoks",
-      "description": "Potrafi latać. Zaczyna z techniką „Kosmiczna impreza”."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Paradoks"
+      },
+      "description": {
+        "_value": "Potrafi latać. Zaczyna z techniką „Kosmiczna impreza”."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Kopyto",
-      "description": "Ładowana umiejętność: Aktywuje technikę „Pociski balistyczne”."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Kopyto"
+      },
+      "description": {
+        "_value": "Ładowana umiejętność: Aktywuje technikę „Pociski balistyczne”."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Szycha",
-      "description": "Potrafi latać. Wysoki Magnes i Prędkość ruchu, ale niskie Maks. zdrowie."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Szycha"
+      },
+      "description": {
+        "_value": "Potrafi latać. Wysoki Magnes i Prędkość ruchu, ale niskie Maks. zdrowie."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Mroczny Władca",
-      "suffix": null,
-      "description": "Otrzymuje też +1 Wskrzeszenie co 100 poziomów. Wrogowie pozostawiają Niebieskie, Czerwone lub Żółte Dusze, które zwiększają odpowiednio Rozwój, Moc lub Chciwość po zebraniu określonej liczby."
+      "prefix": {
+        "_value": "Mroczny Władca"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Otrzymuje też +1 Wskrzeszenie co 100 poziomów. Wrogowie pozostawiają Niebieskie, Czerwone lub Żółte Dusze, które zwiększają odpowiednio Rozwój, Moc lub Chciwość po zebraniu określonej liczby."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Wprawnie posługuje się Ognistą różdżką. Zawsze podąża za nim Slogra. Wpada w szał, gdy jego partner umiera. Lata."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Wprawnie posługuje się Ognistą różdżką. Zawsze podąża za nim Slogra. Wpada w szał, gdy jego partner umiera. Lata."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      "description": {
+        "_value": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      "description": {
+        "_value": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      "description": {
+        "_value": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      "description": {
+        "_value": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      "description": {
+        "_value": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      "description": {
+        "_value": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      "description": {
+        "_value": "Nie można ulepszyć broni początkowej, ale jej Przełamanie limitów jest wzmocnione."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Zaczyna z Duplikatorem na poziomie 2."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Zaczyna z Duplikatorem na poziomie 2."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Zaczyna z Zaklinaczem na poziomie 5."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Zaczyna z Zaklinaczem na poziomie 5."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      "description": {
+        "_value": "Otrzymuje więcej pocisków co 20 poziomów (maks. +4). Ukończ etap, aby osiągnąć rangę Prestiżu."
+      }
     }
   },
   "ru": {
     "LEGACY": {
-      "suffix": "(классика)"
+      "suffix": {
+        "_value": "(классика)"
+      }
     },
     "HALLOWS": {
-      "prefix": "(Жутябрь)",
-      "suffix": null
+      "prefix": {
+        "_value": "(Жутябрь)"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "(Декабрь)",
-      "suffix": null
+      "prefix": {
+        "_value": "(Декабрь)"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Прозревшая",
-      "suffix": null,
-      "description": "Также начинает с 5-го ур. Пустого фолианта."
+      "prefix": {
+        "_value": "Прозревшая"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Также начинает с 5-го ур. Пустого фолианта."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "Пенсионер",
-      "suffix": null,
-      "description": "Также начинает с 5-го ур. Бычьего сердца."
+      "prefix": {
+        "_value": "Пенсионер"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Также начинает с 5-го ур. Бычьего сердца."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Получает УдарЗаклинаний на 10-м уровне и ЦепьЗаклинаний на 20-м. На 30-м уровне получает Значок Академии."
+      "description": {
+        "_value": "Получает УдарЗаклинаний на 10-м уровне и ЦепьЗаклинаний на 20-м. На 30-м уровне получает Значок Академии."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Получает ЦепьЗаклинаний на 10-м уровне и ПотокЗаклинаний на 20-м. На 30-м уровне получает Значок Академии."
+      "description": {
+        "_value": "Получает ЦепьЗаклинаний на 10-м уровне и ПотокЗаклинаний на 20-м. На 30-м уровне получает Значок Академии."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Перерождённая",
-      "suffix": null,
-      "description": "Также начинает с «Крыльями» 5-го уровня и скрытым «Валиком валькирии»."
+      "prefix": {
+        "_value": "Перерождённая"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Также начинает с «Крыльями» 5-го уровня и скрытым «Валиком валькирии»."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Комати",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Комати"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Бо",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Бо"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Сукунэ",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Сукунэ"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Мусаси",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Мусаси"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(одиночка)",
-      "description": "Не призывает союзников."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(одиночка)"
+      },
+      "description": {
+        "_value": "Не призывает союзников."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(одиночка)",
-      "description": "Не призывает союзников."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(одиночка)"
+      },
+      "description": {
+        "_value": "Не призывает союзников."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(одиночка)",
-      "description": "Не призывает союзников."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(одиночка)"
+      },
+      "description": {
+        "_value": "Не призывает союзников."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(одиночка)",
-      "description": "Не призывает союзников."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(одиночка)"
+      },
+      "description": {
+        "_value": "Не призывает союзников."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(одиночка)",
-      "description": "Не призывает союзников."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(одиночка)"
+      },
+      "description": {
+        "_value": "Не призывает союзников."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(одиночка)",
-      "description": "Не призывает союзников."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(одиночка)"
+      },
+      "description": {
+        "_value": "Не призывает союзников."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Ретро-бот"
+      "suffix": {
+        "_value": "Ретро-бот"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Боевой танк",
-      "description": "Заряд: стреляет залпом сверхракет."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Боевой танк"
+      },
+      "description": {
+        "_value": "Заряд: стреляет залпом сверхракет."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Вирджиния",
-      "description": "Получает бонус к силе, скорости снарядов, продолжительности, области, перезарядке и регенерации в зависимости от общего числа техник-импровизаций."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Вирджиния"
+      },
+      "description": {
+        "_value": "Получает бонус к силе, скорости снарядов, продолжительности, области, перезарядке и регенерации в зависимости от общего числа техник-импровизаций."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Парадокс",
-      "description": "Может летать. Начинает с техникой «Рёв космоса»."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Парадокс"
+      },
+      "description": {
+        "_value": "Может летать. Начинает с техникой «Рёв космоса»."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Шагоход",
-      "description": "Заряд: активирует технику «Баллистические ракеты»."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Шагоход"
+      },
+      "description": {
+        "_value": "Заряд: активирует технику «Баллистические ракеты»."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Инициатор",
-      "description": "Может летать. Большой магнит и высокая скорость движения, но низкое максимальное здоровье."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Инициатор"
+      },
+      "description": {
+        "_value": "Может летать. Большой магнит и высокая скорость движения, но низкое максимальное здоровье."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Тёмный повелитель",
-      "suffix": null,
-      "description": "Также получает +1 к оживлению каждые 100 уровней. Из врагов выпадают синие, красные или жёлтые души, которые по достижении определённого собранного количества повышают развитие, силу или жадность соответственно."
+      "prefix": {
+        "_value": "Тёмный повелитель"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Также получает +1 к оживлению каждые 100 уровней. Из врагов выпадают синие, красные или жёлтые души, которые по достижении определённого собранного количества повышают развитие, силу или жадность соответственно."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Знаток «Огненного жезла». Никогда не расстаётся со Слогрой. Впадает в ярость, если напарник погибает. Летает."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Знаток «Огненного жезла». Никогда не расстаётся со Слогрой. Впадает в ярость, если напарник погибает. Летает."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      "description": {
+        "_value": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      "description": {
+        "_value": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      "description": {
+        "_value": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      "description": {
+        "_value": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      "description": {
+        "_value": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      "description": {
+        "_value": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      "description": {
+        "_value": "Стартовое оружие нельзя улучшить, но его преодоление предела усиливается."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). Начинает с «Дупликатором» уровня 2."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). Начинает с «Дупликатором» уровня 2."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). Начинает с «Заклинателем» уровня 5."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). Начинает с «Заклинателем» уровня 5."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      "description": {
+        "_value": "Получает дополнительные снаряды каждые 20 уровней (макс. +4). При успешном прохождении этапа повышается ранг престижа."
+      }
     }
   },
   "tr": {
     "LEGACY": {
-      "suffix": "(Eski)"
+      "suffix": {
+        "_value": "(Eski)"
+      }
     },
     "HALLOWS": {
-      "prefix": "Üykütücü",
-      "suffix": null
+      "prefix": {
+        "_value": "Üykütücü"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "Aralık",
-      "suffix": null
+      "prefix": {
+        "_value": "Aralık"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Gözüaçık",
-      "suffix": null,
-      "description": "Ayrıca 5. Seviye bir Boş Büyü Kitabı ile başlar."
+      "prefix": {
+        "_value": "Gözüaçık"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Ayrıca 5. Seviye bir Boş Büyü Kitabı ile başlar."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "Emekli",
-      "suffix": null,
-      "description": "Ayrıca 5. Seviye bir Pummarola ile başlar."
+      "prefix": {
+        "_value": "Emekli"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Ayrıca 5. Seviye bir Pummarola ile başlar."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "10. Seviye'de BüyülüSaldırı ve 20. Seviye'de BüyülüCeride alır. 30. Seviye'de Akademi Rozeti alır."
+      "description": {
+        "_value": "10. Seviye'de BüyülüSaldırı ve 20. Seviye'de BüyülüCeride alır. 30. Seviye'de Akademi Rozeti alır."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "10. Seviye'de BüyülüCeride ve 20. Seviye'de BüyülüAkım alır. 30. Seviye'de Akademi Rozeti alır."
+      "description": {
+        "_value": "10. Seviye'de BüyülüCeride ve 20. Seviye'de BüyülüAkım alır. 30. Seviye'de Akademi Rozeti alır."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Yeniden doğmuş",
-      "suffix": null,
-      "description": "Ayrıca 5. Seviye bir Kanat ve gizli bir Tornacı Valkyrie ile başlar."
+      "prefix": {
+        "_value": "Yeniden doğmuş"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Ayrıca 5. Seviye bir Kanat ve gizli bir Tornacı Valkyrie ile başlar."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Komachi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Komachi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Boh",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Boh"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Sukune",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Sukune"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Musashi",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Musashi"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Müttefikleri çağırmaz."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Müttefikleri çağırmaz."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Müttefikleri çağırmaz."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Müttefikleri çağırmaz."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Müttefikleri çağırmaz."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Müttefikleri çağırmaz."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Müttefikleri çağırmaz."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Müttefikleri çağırmaz."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Müttefikleri çağırmaz."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Müttefikleri çağırmaz."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(solo)",
-      "description": "Müttefikleri çağırmaz."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(solo)"
+      },
+      "description": {
+        "_value": "Müttefikleri çağırmaz."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Retro Kapsül"
+      "suffix": {
+        "_value": "Retro Kapsül"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Savaş Tankı",
-      "description": "Saldırı: bir dizi Süper Füzeler ateşler."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Savaş Tankı"
+      },
+      "description": {
+        "_value": "Saldırı: bir dizi Süper Füzeler ateşler."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Virginia",
-      "description": "Ortaya çıkan tekniklerin toplamına bağlı olarak Kuvvet, Fırlatılabilir hızı, Süre, Alan, Bekleme Süresi ve İyileşme bonusları kazanır."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Virginia"
+      },
+      "description": {
+        "_value": "Ortaya çıkan tekniklerin toplamına bağlı olarak Kuvvet, Fırlatılabilir hızı, Süre, Alan, Bekleme Süresi ve İyileşme bonusları kazanır."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Paradoks",
-      "description": "Uçabilir. Doğuştan \"Kozmik Dalga\" tekniğini kullanabilir."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Paradoks"
+      },
+      "description": {
+        "_value": "Uçabilir. Doğuştan \"Kozmik Dalga\" tekniğini kullanabilir."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Çıkmabacak",
-      "description": "Saldırı: \"Balistik Füzeler\" tekniğini tetikler."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Çıkmabacak"
+      },
+      "description": {
+        "_value": "Saldırı: \"Balistik Füzeler\" tekniğini tetikler."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Uçarkaçar",
-      "description": "Uçabilir. Yüksek Mıknatıs ve HareketHızı, ancak düşük MaksSağlık."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Uçarkaçar"
+      },
+      "description": {
+        "_value": "Uçabilir. Yüksek Mıknatıs ve HareketHızı, ancak düşük MaksSağlık."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Karanlık Lort",
-      "suffix": null,
-      "description": "Ayrıca her 100 seviyede bir +1 Canlanma kazanır. Düşmanlar, belirli miktarlarda toplandığında sırasıyla Büyüme, Kuvvet veya Açgözlülük değerlerini artıran Mavi, Kırmızı veya Sarı Ruhlar düşürür."
+      "prefix": {
+        "_value": "Karanlık Lort"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Ayrıca her 100 seviyede bir +1 Canlanma kazanır. Düşmanlar, belirli miktarlarda toplandığında sırasıyla Büyüme, Kuvvet veya Açgözlülük değerlerini artıran Mavi, Kırmızı veya Sarı Ruhlar düşürür."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Alev Asası kullanmada ustadır. Slogra her zaman arkasından gelir. Ortağı ölürse çok sinirlenir. Uçabilir."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Alev Asası kullanmada ustadır. Slogra her zaman arkasından gelir. Ortağı ölürse çok sinirlenir. Uçabilir."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      "description": {
+        "_value": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      "description": {
+        "_value": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      "description": {
+        "_value": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      "description": {
+        "_value": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      "description": {
+        "_value": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      "description": {
+        "_value": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      "description": {
+        "_value": "Başlangıç silahı evriltilemez ama Limit Kıran'ı geliştirilir."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Seviye 2 Çoğaltıcı ile başlar."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Seviye 2 Çoğaltıcı ile başlar."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Seviye 5 Büyü Bağlayan ile başlar."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Seviye 5 Büyü Bağlayan ile başlar."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      "description": {
+        "_value": "Her 20 seviyede bir daha fazla fırlatılabilir alır (maks+4). Bir bölümü tamamladığında bir İtibar rütbesi kazanır."
+      }
     }
   },
   "zh-CN": {
     "LEGACY": {
-      "suffix": "（传统）"
+      "suffix": {
+        "_value": "（传统）"
+      }
     },
     "HALLOWS": {
-      "prefix": "搞怪",
-      "suffix": null
+      "prefix": {
+        "_value": "搞怪"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "十二月",
-      "suffix": null
+      "prefix": {
+        "_value": "十二月"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "开开眼界",
-      "suffix": null,
-      "description": "开局还会自带5级的空白之书。"
+      "prefix": {
+        "_value": "开开眼界"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "开局还会自带5级的空白之书。"
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "退隐长者",
-      "suffix": null,
-      "description": "开局还会自带5级的愈伤番茄。"
+      "prefix": {
+        "_value": "退隐长者"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "开局还会自带5级的愈伤番茄。"
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "在第10级获得咒能打击，在第20级获得咒能魔线；在第30级获得学院徽章。"
+      "description": {
+        "_value": "在第10级获得咒能打击，在第20级获得咒能魔线；在第30级获得学院徽章。"
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "在第10级获得咒能魔线，在第20级获得咒能洪流；在第30级获得学院徽章。"
+      "description": {
+        "_value": "在第10级获得咒能魔线，在第20级获得咒能洪流；在第30级获得学院徽章。"
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "重生",
-      "suffix": null,
-      "description": "开局还会自带5级翅膀和隐藏的瓦尔基里喷枪。"
+      "prefix": {
+        "_value": "重生"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "开局还会自带5级翅膀和隐藏的瓦尔基里喷枪。"
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": "：小町",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：小町"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": "：坊",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：坊"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": "：宿祢",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：宿祢"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": "：武藏",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：武藏"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "（单人）",
-      "description": "不会召唤盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（单人）"
+      },
+      "description": {
+        "_value": "不会召唤盟友。"
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "（单人）",
-      "description": "不会召唤盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（单人）"
+      },
+      "description": {
+        "_value": "不会召唤盟友。"
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "（单人）",
-      "description": "不会召唤盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（单人）"
+      },
+      "description": {
+        "_value": "不会召唤盟友。"
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "（单人）",
-      "description": "不会召唤盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（单人）"
+      },
+      "description": {
+        "_value": "不会召唤盟友。"
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "（单人）",
-      "description": "不会召唤盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（单人）"
+      },
+      "description": {
+        "_value": "不会召唤盟友。"
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "（单人）",
-      "description": "不会召唤盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（单人）"
+      },
+      "description": {
+        "_value": "不会召唤盟友。"
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "音随我动"
+      "suffix": {
+        "_value": "音随我动"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "战车",
-      "description": "充能：发射一排超级导弹。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "战车"
+      },
+      "description": {
+        "_value": "充能：发射一排超级导弹。"
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "弗吉尼亚",
-      "description": "基于点亮的特技总数，获得力量、飞射速度、持续时间、攻击范围、冷却时间和恢复方面的加成。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "弗吉尼亚"
+      },
+      "description": {
+        "_value": "基于点亮的特技总数，获得力量、飞射速度、持续时间、攻击范围、冷却时间和恢复方面的加成。"
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "矛盾",
-      "description": "可飞行。开局即可使用“宇宙狂欢”特技。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "矛盾"
+      },
+      "description": {
+        "_value": "可飞行。开局即可使用“宇宙狂欢”特技。"
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "长腿",
-      "description": "充能：触发“弹道导弹”特技。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "长腿"
+      },
+      "description": {
+        "_value": "充能：触发“弹道导弹”特技。"
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "飞速",
-      "description": "可飞行。念力和移动速度提高，但生命值上限降低。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "飞速"
+      },
+      "description": {
+        "_value": "可飞行。念力和移动速度提高，但生命值上限降低。"
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "魔王",
-      "suffix": null,
-      "description": "同时每100级，复活机会+1。敌人会掉落蓝色、红色或黄色灵魂，收集到指定数量后分别提升成长、力量或贪欲。"
+      "prefix": {
+        "_value": "魔王"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "同时每100级，复活机会+1。敌人会掉落蓝色、红色或黄色灵魂，收集到指定数量后分别提升成长、力量或贪欲。"
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "擅长火焰魔杖，与贝利根形影不离，在其搭档死亡时会被激怒。会飞。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "擅长火焰魔杖，与贝利根形影不离，在其搭档死亡时会被激怒。会飞。"
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "初始武器无法进化，但其极限突破已增强。"
+      "description": {
+        "_value": "初始武器无法进化，但其极限突破已增强。"
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "初始武器无法进化，但其极限突破已增强。"
+      "description": {
+        "_value": "初始武器无法进化，但其极限突破已增强。"
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "初始武器无法进化，但其极限突破已增强。"
+      "description": {
+        "_value": "初始武器无法进化，但其极限突破已增强。"
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "初始武器无法进化，但其极限突破已增强。"
+      "description": {
+        "_value": "初始武器无法进化，但其极限突破已增强。"
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "初始武器无法进化，但其极限突破已增强。"
+      "description": {
+        "_value": "初始武器无法进化，但其极限突破已增强。"
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "初始武器无法进化，但其极限突破已增强。"
+      "description": {
+        "_value": "初始武器无法进化，但其极限突破已增强。"
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "初始武器无法进化，但其极限突破已增强。"
+      "description": {
+        "_value": "初始武器无法进化，但其极限突破已增强。"
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "每20级，飞射物增加，最多+4。开局自带一个2级双鸾宝镯。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。开局自带一个2级双鸾宝镯。"
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "每20级，飞射物增加，最多+4。开局自带一个5级咒缚盒。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。开局自带一个5级咒缚盒。"
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      "description": {
+        "_value": "每20级，飞射物增加，最多+4。完成1关，则威望等级+1。"
+      }
     }
   },
   "ja": {
     "LEGACY": {
-      "suffix": "（レガシー）"
+      "suffix": {
+        "_value": "（レガシー）"
+      }
     },
     "HALLOWS": {
-      "prefix": "スプーピー",
-      "suffix": null
+      "prefix": {
+        "_value": "スプーピー"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "12月",
-      "suffix": null
+      "prefix": {
+        "_value": "12月"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "開眼した",
-      "suffix": null,
-      "description": "また、レベル5の白紙の学術書からスタートする。"
+      "prefix": {
+        "_value": "開眼した"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "また、レベル5の白紙の学術書からスタートする。"
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "引退",
-      "suffix": null,
-      "description": "また、レベル5の命のトマトからスタートする。"
+      "prefix": {
+        "_value": "引退"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "また、レベル5の命のトマトからスタートする。"
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "レベル10でスペルストライクを、レベル20でスペルストリングを獲得。レベル30でアカデミーバッジを獲得。"
+      "description": {
+        "_value": "レベル10でスペルストライクを、レベル20でスペルストリングを獲得。レベル30でアカデミーバッジを獲得。"
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "レベル10でスペルストリングを、レベル20でスペルストリームを獲得。レベル30でアカデミーバッジを獲得。"
+      "description": {
+        "_value": "レベル10でスペルストリングを、レベル20でスペルストリームを獲得。レベル30でアカデミーバッジを獲得。"
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "再生",
-      "suffix": null,
-      "description": "また、レベル5のウィングと隠された戦乙女のバーナーでスタートする。"
+      "prefix": {
+        "_value": "再生"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "また、レベル5のウィングと隠された戦乙女のバーナーでスタートする。"
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": "：コマチ",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：コマチ"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": "：ボウ",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：ボウ"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": "：スクネ",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：スクネ"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": "：ムサシ",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：ムサシ"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "（ソロ）",
-      "description": "味方の召喚なし。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（ソロ）"
+      },
+      "description": {
+        "_value": "味方の召喚なし。"
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "（ソロ）",
-      "description": "味方の召喚なし。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（ソロ）"
+      },
+      "description": {
+        "_value": "味方の召喚なし。"
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "（ソロ）",
-      "description": "味方の召喚なし。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（ソロ）"
+      },
+      "description": {
+        "_value": "味方の召喚なし。"
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "（ソロ）",
-      "description": "味方の召喚なし。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（ソロ）"
+      },
+      "description": {
+        "_value": "味方の召喚なし。"
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "（ソロ）",
-      "description": "味方の召喚なし。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（ソロ）"
+      },
+      "description": {
+        "_value": "味方の召喚なし。"
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "（ソロ）",
-      "description": "味方の召喚なし。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（ソロ）"
+      },
+      "description": {
+        "_value": "味方の召喚なし。"
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "レトロポッド"
+      "suffix": {
+        "_value": "レトロポッド"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "バトルタンク",
-      "description": "チャージ：ストーカーを一斉発射する"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "バトルタンク"
+      },
+      "description": {
+        "_value": "チャージ：ストーカーを一斉発射する"
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "ヴァージニア",
-      "description": "技をひらめいた回数に応じて攻撃力、弾速、効果時間、攻撃範囲、クールダウン時間、回復力のボーナスを獲得。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "ヴァージニア"
+      },
+      "description": {
+        "_value": "技をひらめいた回数に応じて攻撃力、弾速、効果時間、攻撃範囲、クールダウン時間、回復力のボーナスを獲得。"
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "パラドックス",
-      "description": "飛行する。ひらめき技「コスミックレイヴ」を最初から使える。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "パラドックス"
+      },
+      "description": {
+        "_value": "飛行する。ひらめき技「コスミックレイヴ」を最初から使える。"
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "シャンクス",
-      "description": "チャージ：弾道ミサイル技を発動させる。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "シャンクス"
+      },
+      "description": {
+        "_value": "チャージ：弾道ミサイル技を発動させる。"
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "ムーバー",
-      "description": "飛行する。回収範囲と素早さが高いが、最大HPが低い。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "ムーバー"
+      },
+      "description": {
+        "_value": "飛行する。回収範囲と素早さが高いが、最大HPが低い。"
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "魔王",
-      "suffix": null,
-      "description": "100レベルごとに復活回数が+1。敵は特定量を集めると攻撃力、欲深さ、または成長効率が増加する青、赤、あるいは黄色の魂をドロップする。"
+      "prefix": {
+        "_value": "魔王"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "100レベルごとに復活回数が+1。敵は特定量を集めると攻撃力、欲深さ、または成長効率が増加する青、赤、あるいは黄色の魂をドロップする。"
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "炎の杖との相性良し。ベリガンが常に同行している。パートナーが死ぬと激怒する。そして飛行する。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "炎の杖との相性良し。ベリガンが常に同行している。パートナーが死ぬと激怒する。そして飛行する。"
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      "description": {
+        "_value": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      "description": {
+        "_value": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      "description": {
+        "_value": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      "description": {
+        "_value": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      "description": {
+        "_value": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      "description": {
+        "_value": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      "description": {
+        "_value": "開始時の武器は進化させることができないが、リミットブレイクが強化される。"
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。レベル2の複写の輪を持って開始する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。レベル2の複写の輪を持って開始する。"
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。レベル5の封魔の書を持って開始する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。レベル5の封魔の書を持って開始する。"
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      "description": {
+        "_value": "20レベルごとに発射物が増加（最大4つまで）。ステージをクリアすると威信ランクを獲得する。"
+      }
     }
   },
   "ko": {
     "LEGACY": {
-      "suffix": "(레거시)"
+      "suffix": {
+        "_value": "(레거시)"
+      }
     },
     "HALLOWS": {
-      "prefix": "잔혹 유머",
-      "suffix": null
+      "prefix": {
+        "_value": "잔혹 유머"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "12월",
-      "suffix": null
+      "prefix": {
+        "_value": "12월"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "블라인드 해제",
-      "suffix": null,
-      "description": "또한, 레벨 5 빈 고서로 시작합니다."
+      "prefix": {
+        "_value": "블라인드 해제"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "또한, 레벨 5 빈 고서로 시작합니다."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "은퇴함",
-      "suffix": null,
-      "description": "또한, 레벨 5 붉은 심장으로 시작합니다."
+      "prefix": {
+        "_value": "은퇴함"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "또한, 레벨 5 붉은 심장으로 시작합니다."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "레벨 10에서는 마법주문 전능본을 받고 레벨 20에서는 마법주문 두루마리를 받습니다. 레벨 30에서 아카데미 배지를 받습니다."
+      "description": {
+        "_value": "레벨 10에서는 마법주문 전능본을 받고 레벨 20에서는 마법주문 두루마리를 받습니다. 레벨 30에서 아카데미 배지를 받습니다."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "레벨 10에서는 마법주문 두루마리를 받고 레벨 20에서는 마법주문 유창본을 받습니다. 레벨 30에서 아카데미 배지를 받습니다."
+      "description": {
+        "_value": "레벨 10에서는 마법주문 두루마리를 받고 레벨 20에서는 마법주문 유창본을 받습니다. 레벨 30에서 아카데미 배지를 받습니다."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "재탄생",
-      "suffix": null,
-      "description": "레벨 5 날개와 숨겨진 발키리 터너도 함께 시작됩니다."
+      "prefix": {
+        "_value": "재탄생"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "레벨 5 날개와 숨겨진 발키리 터너도 함께 시작됩니다."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": 코마치",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": 코마치"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": 보",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": 보"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": 수쿠네",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": 수쿠네"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": 무사시",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": 무사시"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(솔로)",
-      "description": "아군을 소환하지 않습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(솔로)"
+      },
+      "description": {
+        "_value": "아군을 소환하지 않습니다."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(솔로)",
-      "description": "아군을 소환하지 않습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(솔로)"
+      },
+      "description": {
+        "_value": "아군을 소환하지 않습니다."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(솔로)",
-      "description": "아군을 소환하지 않습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(솔로)"
+      },
+      "description": {
+        "_value": "아군을 소환하지 않습니다."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(솔로)",
-      "description": "아군을 소환하지 않습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(솔로)"
+      },
+      "description": {
+        "_value": "아군을 소환하지 않습니다."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(솔로)",
-      "description": "아군을 소환하지 않습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(솔로)"
+      },
+      "description": {
+        "_value": "아군을 소환하지 않습니다."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(솔로)",
-      "description": "아군을 소환하지 않습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(솔로)"
+      },
+      "description": {
+        "_value": "아군을 소환하지 않습니다."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "레트로 포드"
+      "suffix": {
+        "_value": "레트로 포드"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "배틀 탱크",
-      "description": "충전: 슈퍼 미사일을 발사합니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "배틀 탱크"
+      },
+      "description": {
+        "_value": "충전: 슈퍼 미사일을 발사합니다."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "버지니아",
-      "description": "섬광 효과를 적용한 기술의 총합에 따라 피해량, 투사체 속도, 지속 시간, 공격 범위, 재사용 대기시간, 회복력에 보너스를 얻습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "버지니아"
+      },
+      "description": {
+        "_value": "섬광 효과를 적용한 기술의 총합에 따라 피해량, 투사체 속도, 지속 시간, 공격 범위, 재사용 대기시간, 회복력에 보너스를 얻습니다."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "패러독스",
-      "description": "날 수 있습니다. 선천적으로 \"코스믹 레이브\" 기술을 사용할 수 있습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "패러독스"
+      },
+      "description": {
+        "_value": "날 수 있습니다. 선천적으로 \"코스믹 레이브\" 기술을 사용할 수 있습니다."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "생크스",
-      "description": "충전: \"탄도 미사일\" 기술을 발동합니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "생크스"
+      },
+      "description": {
+        "_value": "충전: \"탄도 미사일\" 기술을 발동합니다."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "무버",
-      "description": "날 수 있습니다. 자석과 이동 속도는 높지만 최대 체력이 낮습니다."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "무버"
+      },
+      "description": {
+        "_value": "날 수 있습니다. 자석과 이동 속도는 높지만 최대 체력이 낮습니다."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "어둠의 군주",
-      "suffix": null,
-      "description": "또한, 100레벨마다 부활을 1씩 얻습니다. 적들이 파란색, 빨간색, 노란색 영혼을 투하하는데 지정된 분량을 수집하면 성장, 피해량, 또는 탐욕이 각각 증가합니다."
+      "prefix": {
+        "_value": "어둠의 군주"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "또한, 100레벨마다 부활을 1씩 얻습니다. 적들이 파란색, 빨간색, 노란색 영혼을 투하하는데 지정된 분량을 수집하면 성장, 피해량, 또는 탐욕이 각각 증가합니다."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "불의 지팡이에 능숙합니다. 항상 슬로그라가 따라다니죠. 파트너가 죽으면 화를 냅니다. 날아다녀요."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "불의 지팡이에 능숙합니다. 항상 슬로그라가 따라다니죠. 파트너가 죽으면 화를 냅니다. 날아다녀요."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      "description": {
+        "_value": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      "description": {
+        "_value": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      "description": {
+        "_value": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      "description": {
+        "_value": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      "description": {
+        "_value": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      "description": {
+        "_value": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      "description": {
+        "_value": "시작 무기는 진화할 수 없지만, 한계 돌파는 강화됩니다."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "20레벨마다 발사체가 더 늘어납니다(최대+4). 레벨 2 복제 반지로 시작합니다."
+      "description": {
+        "_value": "20레벨마다 발사체가 더 늘어납니다(최대+4). 레벨 2 복제 반지로 시작합니다."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "20레벨마다 발사체를 더 많이 얻습니다.(최대+4) 레벨 5 주문 속박기로 시작합니다."
+      "description": {
+        "_value": "20레벨마다 발사체를 더 많이 얻습니다.(최대+4) 레벨 5 주문 속박기로 시작합니다."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      "description": {
+        "_value": "20 레벨마다 발사체를 더 많이 얻습니다.(최대+4) 스테이지를 완료하면 프레스티지 랭크를 획득합니다."
+      }
     }
   },
   "zh-TW": {
     "LEGACY": {
-      "suffix": "（經典）"
+      "suffix": {
+        "_value": "（經典）"
+      }
     },
     "HALLOWS": {
-      "prefix": "嚇嚇",
-      "suffix": null
+      "prefix": {
+        "_value": "嚇嚇"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "十二月",
-      "suffix": null
+      "prefix": {
+        "_value": "十二月"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "啟明",
-      "suffix": null,
-      "description": "開場時還能獲得 5 級的空白之書。"
+      "prefix": {
+        "_value": "啟明"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "開場時還能獲得 5 級的空白之書。"
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "退役",
-      "suffix": null,
-      "description": "開場時還能獲得 5 級的癒傷番茄。"
+      "prefix": {
+        "_value": "退役"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "開場時還能獲得 5 級的癒傷番茄。"
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "在升到 10 級時，獲得咒能打擊/在升到 20 級時，獲得咒能魔線/在升到 30 級時，獲得學院徽章。"
+      "description": {
+        "_value": "在升到 10 級時，獲得咒能打擊/在升到 20 級時，獲得咒能魔線/在升到 30 級時，獲得學院徽章。"
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "在升到 10 級時，獲得咒能魔線/在升到 20 級時，獲得咒能洪流/在升到 30 級時，獲得學院徽章。"
+      "description": {
+        "_value": "在升到 10 級時，獲得咒能魔線/在升到 20 級時，獲得咒能洪流/在升到 30 級時，獲得學院徽章。"
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "重生",
-      "suffix": null,
-      "description": "開場時還能獲得 5 級的翅膀和隱藏的女武神噴槍。"
+      "prefix": {
+        "_value": "重生"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "開場時還能獲得 5 級的翅膀和隱藏的女武神噴槍。"
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": "：小町",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：小町"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": "：波",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：波"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": "：須久禰",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：須久禰"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": "：武藏",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "：武藏"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "（單人）",
-      "description": "不會召喚盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（單人）"
+      },
+      "description": {
+        "_value": "不會召喚盟友。"
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "（單人）",
-      "description": "不會召喚盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（單人）"
+      },
+      "description": {
+        "_value": "不會召喚盟友。"
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "（單人）",
-      "description": "不會召喚盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（單人）"
+      },
+      "description": {
+        "_value": "不會召喚盟友。"
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "（單人）",
-      "description": "不會召喚盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（單人）"
+      },
+      "description": {
+        "_value": "不會召喚盟友。"
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "（單人）",
-      "description": "不會召喚盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（單人）"
+      },
+      "description": {
+        "_value": "不會召喚盟友。"
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "（單人）",
-      "description": "不會召喚盟友。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "（單人）"
+      },
+      "description": {
+        "_value": "不會召喚盟友。"
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "復古艙"
+      "suffix": {
+        "_value": "復古艙"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "戰鬥坦克",
-      "description": "蓄力：發射一連串的超級飛彈。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "戰鬥坦克"
+      },
+      "description": {
+        "_value": "蓄力：發射一連串的超級飛彈。"
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "維吉尼亞",
-      "description": "根據已閃爍技能的總數獲得力量、投射物飛行速度、持續時間、範圍、冷卻時間和恢復的加成。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "維吉尼亞"
+      },
+      "description": {
+        "_value": "根據已閃爍技能的總數獲得力量、投射物飛行速度、持續時間、範圍、冷卻時間和恢復的加成。"
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "悖論",
-      "description": "能夠飛行。天生就懂得使用「宇宙狂歡」技能。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "悖論"
+      },
+      "description": {
+        "_value": "能夠飛行。天生就懂得使用「宇宙狂歡」技能。"
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "香克斯",
-      "description": "蓄力：觸發「彈道飛彈」技能。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "香克斯"
+      },
+      "description": {
+        "_value": "蓄力：觸發「彈道飛彈」技能。"
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "動者",
-      "description": "能夠飛行。具備高磁吸和高移動速度，但最大生命值較低。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "動者"
+      },
+      "description": {
+        "_value": "能夠飛行。具備高磁吸和高移動速度，但最大生命值較低。"
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "黑闇領主",
-      "suffix": null,
-      "description": "此外，每 100 級也會獲得 +1 次復活。敵人會掉落藍色、紅色或黃色靈魂，在收集到指定數量後，會分別提升成長、力量或貪欲。"
+      "prefix": {
+        "_value": "黑闇領主"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "此外，每 100 級也會獲得 +1 次復活。敵人會掉落藍色、紅色或黃色靈魂，在收集到指定數量後，會分別提升成長、力量或貪欲。"
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "精通火焰魔杖的使用。斯洛格拉幾乎可以說是蓋本的影子。如果其中一名夥伴死亡的話，會進入狂暴狀態。"
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "精通火焰魔杖的使用。斯洛格拉幾乎可以說是蓋本的影子。如果其中一名夥伴死亡的話，會進入狂暴狀態。"
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      "description": {
+        "_value": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      "description": {
+        "_value": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      "description": {
+        "_value": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      "description": {
+        "_value": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      "description": {
+        "_value": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      "description": {
+        "_value": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      "description": {
+        "_value": "無法解放起始武器，但其「極限突破」的效果會獲得強化。"
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。開場即可獲得一個 2 級的雙鸞寶鐲。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。開場即可獲得一個 2 級的雙鸞寶鐲。"
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。開場即可獲得一個 5 級的咒縛盒。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。開場即可獲得一個 5 級的咒縛盒。"
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      "description": {
+        "_value": "每升 20 級，投射物的數量便會增加，最多能夠加 4。完成關卡即可提升轉生階級。"
+      }
     }
   },
   "uk": {
     "LEGACY": {
-      "suffix": "(Класика)"
+      "suffix": {
+        "_value": "(Класика)"
+      }
     },
     "HALLOWS": {
-      "prefix": "Жахіття",
-      "suffix": null
+      "prefix": {
+        "_value": "Жахіття"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "XMAS": {
-      "prefix": "Грудень",
-      "suffix": null
+      "prefix": {
+        "_value": "Грудень"
+      },
+      "suffix": {
+        "_value": null
+      }
     },
     "SKIN_IMELDA_UNBLINDED": {
-      "prefix": "Незасліплена",
-      "suffix": null,
-      "description": "Також починає з Пустим томом 5 рівня."
+      "prefix": {
+        "_value": "Незасліплена"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Також починає з Пустим томом 5 рівня."
+      }
     },
     "SKIN_POE_RETIRED": {
-      "prefix": "На пенсії",
-      "suffix": null,
-      "description": "Також починає з Памаролою 5 рівня."
+      "prefix": {
+        "_value": "На пенсії"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Також починає з Памаролою 5 рівня."
+      }
     },
     "SKIN_ELEANOR_AREA": {
-      "description": "Отримує Удар магії на 10 рівні і Ланцюг магії на 20 рівні. Отримує Значок академії на 30 рівні."
+      "description": {
+        "_value": "Отримує Удар магії на 10 рівні і Ланцюг магії на 20 рівні. Отримує Значок академії на 30 рівні."
+      }
     },
     "SKIN_ELEANOR_MIGHT": {
-      "description": "Отримує Ланцюг магії на 10 рівні і Потік магії на 20 рівні. Отримує Значок академії на 30 рівні."
+      "description": {
+        "_value": "Отримує Ланцюг магії на 10 рівні і Потік магії на 20 рівні. Отримує Значок академії на 30 рівні."
+      }
     },
     "SKIN_SHEMOON_REBORN": {
-      "prefix": "Відроджена",
-      "suffix": null,
-      "description": "Також починає з Крилами 5 рівня й прихованими Тернами валькірії."
+      "prefix": {
+        "_value": "Відроджена"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Також починає з Крилами 5 рівня й прихованими Тернами валькірії."
+      }
     },
     "SKIN_EME_KOM": {
-      "prefix": null,
-      "suffix": ": Комачі",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Комачі"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_BOH": {
-      "prefix": null,
-      "suffix": ": Бох",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Бох"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SUK": {
-      "prefix": null,
-      "suffix": ": Сукуме",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Сукуме"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_MUS": {
-      "prefix": null,
-      "suffix": ": Мусаші",
-      "description": null
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": ": Мусаші"
+      },
+      "description": {
+        "_value": null
+      }
     },
     "SKIN_EME_SOLO_FLEURET": {
-      "prefix": null,
-      "suffix": "(соло)",
-      "description": "Не викличе союзників."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(соло)"
+      },
+      "description": {
+        "_value": "Не викличе союзників."
+      }
     },
     "SKIN_EME_SOLO_DUAL": {
-      "prefix": null,
-      "suffix": "(соло)",
-      "description": "Не викличе союзників."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(соло)"
+      },
+      "description": {
+        "_value": "Не викличе союзників."
+      }
     },
     "SKIN_EME_SOLO_PUNCH": {
-      "prefix": null,
-      "suffix": "(соло)",
-      "description": "Не викличе союзників."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(соло)"
+      },
+      "description": {
+        "_value": "Не викличе союзників."
+      }
     },
     "SKIN_EME_SOLO_KICK": {
-      "prefix": null,
-      "suffix": "(соло)",
-      "description": "Не викличе союзників."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(соло)"
+      },
+      "description": {
+        "_value": "Не викличе союзників."
+      }
     },
     "SKIN_EME_SOLO_CANNON": {
-      "prefix": null,
-      "suffix": "(соло)",
-      "description": "Не викличе союзників."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(соло)"
+      },
+      "description": {
+        "_value": "Не викличе союзників."
+      }
     },
     "SKIN_EME_SOLO_PISTOL": {
-      "prefix": null,
-      "suffix": "(соло)",
-      "description": "Не викличе союзників."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "(соло)"
+      },
+      "description": {
+        "_value": "Не викличе союзників."
+      }
     },
     "SKIN_EME_D_RETRO": {
-      "suffix": "Ретропод"
+      "suffix": {
+        "_value": "Ретропод"
+      }
     },
     "SKIN_EME_D_TANK": {
-      "prefix": null,
-      "suffix": "Бойовий танк",
-      "description": "Заряд: стріляє низкою Суперснарядів."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Бойовий танк"
+      },
+      "description": {
+        "_value": "Заряд: стріляє низкою Суперснарядів."
+      }
     },
     "SKIN_EME_D_KATANA": {
-      "prefix": null,
-      "suffix": "Вірджинія",
-      "description": "Отримує бонуси до сили, швидкості снарядів, тривалості, області, відновлення й регенерації залежно від сукупності викликаних прийомів."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Вірджинія"
+      },
+      "description": {
+        "_value": "Отримує бонуси до сили, швидкості снарядів, тривалості, області, відновлення й регенерації залежно від сукупності викликаних прийомів."
+      }
     },
     "SKIN_EME_D_PARA": {
-      "prefix": null,
-      "suffix": "Парадокс",
-      "description": "Може літати. Може початково викликати прийом «Космічний рейв»."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Парадокс"
+      },
+      "description": {
+        "_value": "Може літати. Може початково викликати прийом «Космічний рейв»."
+      }
     },
     "SKIN_EME_D_SHAN": {
-      "prefix": null,
-      "suffix": "Всюдихід",
-      "description": "Заряд: активує прийом «Балістичні ракети»."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Всюдихід"
+      },
+      "description": {
+        "_value": "Заряд: активує прийом «Балістичні ракети»."
+      }
     },
     "SKIN_EME_D_MOVE": {
-      "prefix": null,
-      "suffix": "Рушій",
-      "description": "Може літати. Високий рівень Магніту й швидкості руху, але низький рівень макс. ОЗ."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": "Рушій"
+      },
+      "description": {
+        "_value": "Може літати. Високий рівень Магніту й швидкості руху, але низький рівень макс. ОЗ."
+      }
     },
     "SKIN_TP_SOMA_DARKLORD": {
-      "prefix": "Темний Володар",
-      "suffix": null,
-      "description": "Також отримує +1 до оживлення кожніi 100 рівнів. Убиті вороги дають сині, червоні чи жовті душі, що збільшать розвиток, силу або жадобу відповідно, коли буде зібрано заздалегідь визначену їх кількість."
+      "prefix": {
+        "_value": "Темний Володар"
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Також отримує +1 до оживлення кожніi 100 рівнів. Убиті вороги дають сині, червоні чи жовті душі, що збільшать розвиток, силу або жадобу відповідно, коли буде зібрано заздалегідь визначену їх кількість."
+      }
     },
     "SKIN_TP_GAIBON_AND_SLOGRA": {
-      "prefix": null,
-      "suffix": null,
-      "description": "Майстерно володіє Вогняним жезлом. Завжди в парі зі Слоґром. Впадає в лють після смерті напарника. Літає."
+      "prefix": {
+        "_value": null
+      },
+      "suffix": {
+        "_value": null
+      },
+      "description": {
+        "_value": "Майстерно володіє Вогняним жезлом. Завжди в парі зі Слоґром. Впадає в лють після смерті напарника. Літає."
+      }
     },
     "SKIN_KOOLIO_DOLPHIN_SPEED": {
-      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      "description": {
+        "_value": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      }
     },
     "SKIN_KOOLIO_CRAB_AREA": {
-      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      "description": {
+        "_value": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      }
     },
     "SKIN_KOOLIO_JELLY_DURATION": {
-      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      "description": {
+        "_value": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      }
     },
     "SKIN_KOOLIO_SHARK_MIGHT": {
-      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      "description": {
+        "_value": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      }
     },
     "SKIN_KOOLIO_SQUID_AMOUNT": {
-      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      "description": {
+        "_value": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      }
     },
     "SKIN_KOOLIO_SWAP_1": {
-      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      "description": {
+        "_value": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      }
     },
     "SKIN_KOOLIO_SWAP_7": {
-      "description": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      "description": {
+        "_value": "Стартова зброя не еволюціонує, але подолання ліміту покращується."
+      }
     },
     "SKIN_JAMAN_S5": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Починає з дуплікатором 2 рівня."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Починає з дуплікатором 2 рівня."
+      }
     },
     "SKIN_JAMAN_S4": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     },
     "SKIN_JAMAN_S3": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     },
     "SKIN_JAMAN_S2": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     },
     "SKIN_JAMAN_S1": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     },
     "SKIN_GAVET_S5": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Починає із заклиначем 5 рівня."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Починає із заклиначем 5 рівня."
+      }
     },
     "SKIN_GAVET_S4": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     },
     "SKIN_GAVET_S3": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     },
     "SKIN_GAVET_S2": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     },
     "SKIN_GAVET_S1": {
-      "description": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      "description": {
+        "_value": "Отримує більше снарядів за кожні 20 рівнів (макс. +4). Пройдіть етап, щоб отримати ранг «Престиж»."
+      }
     }
   }
 }

@@ -17459,6 +17459,215 @@ MonoBehaviour:
       - POWERLESS WRETCH LAW
       Flags: 0000000000000000000000000000
       Languages_Touch: []
+    - Term: lang/law_solitaryexplorer
+      TermType: 0
+      Languages:
+      - SOLITARY EXPLORER LAW
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/law_forebodingascetic
+      TermType: 0
+      Languages:
+      - FOREBODING ASCETIC LAW
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/law_huntedwolf
+      TermType: 0
+      Languages:
+      - HUNTED WOLF LAW
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_sheatedpower}description
+      TermType: 0
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_meltedcandle}description
+      TermType: 0
+      Languages:
+      - Puts a cap on Area at 150%.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_maimedpigeon}description
+      TermType: 0
+      Languages:
+      - Puts a cap on Move speed and Speed at 150%.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_armlesssoldier}description
+      TermType: 0
+      Languages:
+      - Blocks the activation of all weapons but those in the first 4 slots.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_powerlesswretch}description
+      TermType: 0
+      Languages:
+      - All bought Power Up bonuses for combat stats are ignored.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_solitaryexplorer}description
+      TermType: 0
+      Languages:
+      - Enemy quantity is greatly reduced. Enemy Health and XP yield is greatly increased. Player attacks are slower but stronger.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_forebodingascetic}description
+      TermType: 0
+      Languages:
+      - Puts a cap on Level at 80. Cannot gain Golden Eggs.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
+    - Term: lang/{law_huntedwolf}description
+      TermType: 0
+      Languages:
+      - Light Sources don't spawn.
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000000000000000
+      Languages_Touch: []
     - Term: achievementLang/{ReachLV5}description
       TermType: 0
       Languages:
@@ -79842,7 +80051,7 @@ MonoBehaviour:
       - Hand of Vlad
       - Main de Vlad
       - Mano di Vlad
-      - Hand von Vlad
+      - Die Hand von Vlad
       - Mano de Vlad
       - Mão de Vlad
       - Ręka Vlada
@@ -131130,7 +131339,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycbyR3MclFruqK65vlhmoVux_5i5UOXO-uCnOb3iQnQeIbZMpjH5_4CvTYEt8ekoj48CG/exec
     Google_SpreadsheetKey: 1y8LwkzA0Yi0kuQsepbW3yPlzdkdGw2oL6jM7A_fbqUs
     Google_SpreadsheetName: I2Loc VS - 1.17 - BMN
-    Google_LastUpdatedVersion: 1787958159666
+    Google_LastUpdatedVersion: 1788296020139
     GoogleUpdateFrequency: 1
     GoogleInEditorCheckFrequency: 1
     GoogleUpdateSynchronization: 0

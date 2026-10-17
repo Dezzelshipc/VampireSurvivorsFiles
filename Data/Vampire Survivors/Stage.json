@@ -7588,7 +7588,7 @@
       "order": 1110,
       "stageName": "Lycaeum",
       "description": "",
-      "uiTexture": "UI_Menu",
+      "uiTexture": "UI_StageIcons",
       "uiFrame": "stage_lycaeum.png",
       "texture": "UI",
       "frameName": "stage_lycaeum_icon.png",
@@ -10652,8 +10652,7 @@
       "zoom": 1,
       "preload": {
         "textures": [
-          "background_westwoods_grayscale",
-          "MapFS"
+          "background_westwoods_grayscale"
         ]
       },
       "mods": {
@@ -10701,10 +10700,7 @@
         "SizeX": 10240,
         "SizeY": 10240,
         "minTreasureX": 64,
-        "maxTreasureX": 10176,
-        "detailsPath": "assets/img/MapFS.png",
-        "detailsTexture": "MapFS.png",
-        "mapRelic": "RELIC_MAP_FS"
+        "maxTreasureX": 10176
       },
       "background": {
         "texture": "background_Foscari"
