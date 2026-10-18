@@ -8986,7 +8986,13 @@
         "mapKey": "BiggusDiccus",
         "mapPath": "assets/tilesets/BiggusDiccus.json",
         "isTiling": true,
-        "isTilingHorizontal": true
+        "isTilingHorizontal": true,
+        "detailsTexture": "MapBiggusDiscus.png"
+      },
+      "preload": {
+        "textures": [
+          "MapBiggusDiscus"
+        ]
       },
       "background": {
         "texture": ""
